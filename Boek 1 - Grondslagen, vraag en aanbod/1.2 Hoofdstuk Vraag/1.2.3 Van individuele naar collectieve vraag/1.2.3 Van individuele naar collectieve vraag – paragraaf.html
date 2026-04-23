@@ -258,14 +258,14 @@ th {
   background: #EDF0F3;
   color: #1a1a1a;
   font-weight: bold;
-  padding: 6pt 10pt;
+  padding: 3pt 6pt;
   text-align: left;
   border: 1px solid #999;
 }
 
 td {
   border: 1px solid #999;
-  padding: 5pt 10pt;
+  padding: 2pt 6pt;
 }
 
 tr:nth-child(even) td { background: #FAFBFC; }
@@ -307,7 +307,7 @@ p + figure, p + p > img { break-before: avoid; }
 /* Allow exercises to break across pages to avoid whitespace,
    but keep the "Opgave X" title with at least 2 lines of content. */
 .exercise {
-  margin-bottom: 8pt;
+  margin-bottom: 14pt;
   orphans: 2;
   widows: 2;
 }
@@ -315,6 +315,10 @@ p + figure, p + p > img { break-before: avoid; }
 .exercise > p:first-child {
   break-after: avoid;
   page-break-after: avoid;
+}
+
+.exercise p {
+  margin: 0 0 1pt 0;
 }
 
 /* === MISC === */
@@ -335,6 +339,7 @@ hr {
 em { color: #444; }
 
 ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+ol[type="a"] { list-style-type: lower-alpha; }
 li { margin-bottom: 4pt; }
 </style></head>
 <body>
@@ -690,7 +695,6 @@ waarom de horizontale optelling klopt.</p></li>
 <li><p>Bekijk de knik in V_coll. Bij welke prijs ligt die? Welke
 consument is precies daar de markt uit gegaan?</p></li>
 </ol>
-<hr />
 </div><div class="exercise"><p><strong>Opgave 2</strong> <em>(teken in de grafiek — zie figuur
 8)</em></p>
 <p>In figuur 8 zie je de individuele vraaglijnen van Lara (V_Lara) en Mo
@@ -749,7 +753,6 @@ punten uit (a) te verbinden.</p></li>
 <li><p>Bij welke prijs gaat één van de twee consumenten de markt uit?
 Wat gebeurt er met V_coll boven die prijs?</p></li>
 </ol>
-<hr />
 </div><div class="exercise"><p><strong>Opgave 3</strong></p>
 <p>Op de markt voor croissants zijn maar drie consumenten met de
 volgende vraagfuncties (Q in stuks, P in €):</p>
@@ -768,7 +771,6 @@ prijsbereik?</p></li>
 consument is dat? Wat wordt de collectieve vraagfunctie net boven die
 prijs?</p></li>
 </ol>
-<hr />
 </div><div class="exercise"><p><strong>Opgave 4</strong> <em>(let goed op — twee dingen veranderen
 tegelijk!)</em></p>
 <p>Op de markt voor frisdrank zijn er twee consumenten, Iris en Jeroen.
@@ -812,7 +814,6 @@ dat?</p></li>
 <li><p>Schets ruwweg in een assenstelsel hoe de collectieve vraaglijn
 eruitziet. Geef minstens één knikpunt aan.</p></li>
 </ol>
-<hr />
 </div><div class="exercise"><p><strong>Opgave 6</strong></p>
 <p>Op een markt voor koffie zijn de vraagfuncties:</p>
 <ul>
@@ -838,7 +839,6 @@ koffieconsument: beweging of verschuiving? In welke richting?</p></li>
 <li><p>Wat gebeurt er met de <strong>collectieve</strong> vraaglijn naar
 koffie? Leg uit waarom dit volgt uit jouw antwoord op (a).</p></li>
 </ol>
-<hr />
 </div><div class="exercise"><p><strong>Opgave 8</strong> <em>(herhaling §1.1.2: procentuele
 verandering)</em></p>
 <p>De collectieve vraag naar bioscoopkaartjes was 12.000 stuks per week.
@@ -850,7 +850,6 @@ hoeveelheid.</p></li>
 <li><p>De prijs daalde van €12 naar €10. Bereken de procentuele
 prijsdaling.</p></li>
 </ol>
-<hr />
 </div><div class="exercise"><p><strong>Opgave 9</strong> <em>(herhaling §1.1.3: tabel
 aflezen)</em></p>
 <p>De volgende tabel geeft de gevraagde hoeveelheden van twee groepen

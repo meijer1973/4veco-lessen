@@ -258,14 +258,14 @@ th {
   background: #EDF0F3;
   color: #1a1a1a;
   font-weight: bold;
-  padding: 6pt 10pt;
+  padding: 3pt 6pt;
   text-align: left;
   border: 1px solid #999;
 }
 
 td {
   border: 1px solid #999;
-  padding: 5pt 10pt;
+  padding: 2pt 6pt;
 }
 
 tr:nth-child(even) td { background: #FAFBFC; }
@@ -307,7 +307,7 @@ p + figure, p + p > img { break-before: avoid; }
 /* Allow exercises to break across pages to avoid whitespace,
    but keep the "Opgave X" title with at least 2 lines of content. */
 .exercise {
-  margin-bottom: 8pt;
+  margin-bottom: 14pt;
   orphans: 2;
   widows: 2;
 }
@@ -315,6 +315,10 @@ p + figure, p + p > img { break-before: avoid; }
 .exercise > p:first-child {
   break-after: avoid;
   page-break-after: avoid;
+}
+
+.exercise p {
+  margin: 0 0 1pt 0;
 }
 
 /* === MISC === */
@@ -335,6 +339,7 @@ hr {
 em { color: #444; }
 
 ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+ol[type="a"] { list-style-type: lower-alpha; }
 li { margin-bottom: 4pt; }
 </style></head>
 <body>
@@ -399,8 +404,9 @@ prijs op te tellen, en nooit prijzen bij dezelfde hoeveelheid.</em></p>
 individuele vraaglijn V_Sara raakt daar de y-as: Q_Sara = 0). Boven €4
 bestaat de collectieve vraag alleen nog uit Tim.</p>
 <p><em>Waarom: Een knik in V_coll betekent altijd: hier verandert het
-aantal kopers. Onder €4 kopen er twee, boven €4 maar één. Daarom loopt
-V_coll boven de knik minder steil.</em></p>
+aantal kopers. Onder €4 kopen er twee, boven €4 maar één. Met P op de
+verticale as loopt V_coll boven de knik steiler, omdat er nog maar één
+koper overblijft.</em></p>
 <hr />
 </div><div class="exercise"><p><strong>Opgave 2</strong></p>
 <p><strong>a)</strong> Aflezen uit figuur 2 (V_Lara: Qd = -P + 5; V_Mo:
@@ -444,9 +450,9 @@ Qd = -P + 3):</p>
 <p><strong>b)</strong> Verbind de collectieve punten: (1, €4) — (2, €3)
 — (4, €2) — (6, €1). Boven P = €3 sluit V_coll aan op V_Lara (alleen
 Lara koopt nog).</p>
-<p><em>Waarom: De collectieve lijn loopt onder €3 steiler dan boven €3,
-want bij elke prijsdaling kopen daar twee consumenten extra. Boven €3 is
-V_coll identiek aan V_Lara.</em></p>
+<p><em>Waarom: De collectieve lijn loopt onder €3 vlakker dan boven €3,
+want bij elke prijsdaling reageren daar twee consumenten. Boven €3 is
+V_coll identiek aan V_Lara en dus steiler.</em></p>
 <p><strong>c)</strong> Bij <strong>P = €3</strong> verlaat Mo de markt
 (Q_Mo = -3 + 3 = 0). Boven €3 geldt: V_coll = V_Lara = -P + 5.</p>
 <hr />
@@ -538,15 +544,14 @@ als eerste de markt (Q_4 = -2 + 2 = 0).</p>
 <p><em>Waarom: De consument met de <strong>laagste
 verzadigingsprijs</strong> (de prijs waarbij hun individuele Q = 0)
 verlaat altijd het eerst de markt.</em></p>
-<p><strong>c)</strong> Schets: een lijn die onder €2 een hoge helling
-heeft (-5), bij P = €2 een knik krijgt, en daarboven minder steil verder
-loopt met de drie overgebleven kopers (Q_coll = (-P+3) + (-P+4) +
-(-2P+6) = -4P + 13). Daarboven volgen meer knikpunten waar consumenten 1
-en 2 afhaken (bij P = €3 en €4) en waar consument 3 als laatste afhaakt
-(bij P = €3).</p>
+<p><strong>c)</strong> Schets: een lijn die onder €2 relatief vlak loopt
+(er reageren vier kopers), bij P = €2 een knik krijgt, en daarboven
+steiler verder loopt met de drie overgebleven kopers (Q_coll = (-P+3) +
+(-P+4) + (-2P+6) = -4P + 13). Daarboven volgen meer knikpunten:
+consumenten 1 en 3 haken af bij P = €3, consument 2 bij P = €4.</p>
 <p><em>Waarom: Elke knik markeert een prijs waarbij een consument
-afhaakt. De collectieve lijn wordt steeds platter naarmate er minder
-kopers zijn.</em></p>
+afhaakt. Met P op de verticale as wordt de collectieve lijn steeds
+steiler naarmate er minder kopers zijn.</em></p>
 <hr />
 </div><div class="exercise"><p><strong>Opgave 6</strong></p>
 <p><strong>a)</strong></p>
@@ -667,8 +672,8 @@ gedaald</strong>.</p>
 = €10</strong> (Q_studenten = 0).</p>
 <p><strong>c)</strong> Op P = €10 krijgt de collectieve vraagcurve een
 <strong>knik</strong>: onder €10 lopen beide groepen mee, boven €10
-alleen de werkenden, dus de collectieve curve loopt daarboven minder
-steil.</p>
+alleen de werkenden, dus de collectieve curve loopt daarboven
+steiler.</p>
 <hr />
 </div><div class="exercise"><p><strong>Opgave 10</strong></p>
 <p><strong>a)</strong></p>
@@ -703,16 +708,17 @@ steil.</p>
 <tr>
 <td>4</td>
 <td>0</td>
-<td>1</td>
-<td><strong>1</strong></td>
+<td>0</td>
+<td><strong>0</strong></td>
 </tr>
 </tbody>
 </table>
 <p><strong>b)</strong> In een grafiek met P op de y-as en Q op de x-as:
-teken V_Anna door de punten (1, 5), (2, 3), (3, 1), (4, 0); teken V_Ben
-door (1, 8), (2, 5), (3, 2), (4, 1); teken V_coll door (1, 13), (2, 8),
-(3, 3), (4, 1). Boven P = €4 ligt V_coll op V_Ben (alleen Ben koopt
-nog).</p>
+teken V_Anna door de punten (1, 5), (2, 3), (3, 1) en het nulpunt bij P
+= €3,5; teken V_Ben door de punten (1, 8), (2, 5), (3, 2) en het nulpunt
+bij P ≈ €3,67. Teken V_coll door (1, 13), (2, 8), (3, 3), daarna via de
+knik bij P = €3,5 naar Q = 0 bij P ≈ €3,67. Bij P = €4 kopen Anna en Ben
+allebei niets.</p>
 <p><strong>c)</strong></p>
 <pre><code>Q_coll = Q_Anna + Q_Ben
        = (-2P + 7) + (-3P + 11)
@@ -727,8 +733,8 @@ geldt:</p>
 <p>Deze functie is op zijn beurt geldig tot P ≈ €3,67 (waar ook Ben
 afhaakt). Daarboven is Q_coll = 0.</p>
 <p><em>Waarom: Een knik markeert altijd het in- of uitstappen van een
-consument. Boven het knikpunt versmalt de markt naar minder kopers, en
-de helling van V_coll wordt vlakker.</em></p>
+consument. Boven het knikpunt versmalt de markt naar minder kopers; met
+P op de verticale as wordt V_coll dan steiler.</em></p>
 <hr />
 </div><div class="exercise"><p><strong>Opgave 11 — modelantwoord en
 beoordelingscriteria</strong></p>
