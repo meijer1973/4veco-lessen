@@ -1,0 +1,95 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="450" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="300" y="28" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">TK van de bloemist &#8212; teken de TO-lijn</text>
+
+  <!-- Coordinate system: Q 0-200, Euro 0-1000 -->
+  <!-- px_per_Q = 480/200 = 2.4, px_per_euro = 340/1000 = 0.34 -->
+
+  <!-- Grid lines -->
+  <g stroke="#E5E5E5" stroke-width="0.5" stroke-dasharray="4,3">
+    <!-- Horizontal: €100 step => 0.34*100=34px -->
+    <line x1="80" y1="356" x2="560" y2="356"/><!-- 100 -->
+    <line x1="80" y1="322" x2="560" y2="322"/><!-- 200 -->
+    <line x1="80" y1="288" x2="560" y2="288"/><!-- 300 -->
+    <line x1="80" y1="254" x2="560" y2="254"/><!-- 400 -->
+    <line x1="80" y1="220" x2="560" y2="220"/><!-- 500 -->
+    <line x1="80" y1="186" x2="560" y2="186"/><!-- 600 -->
+    <line x1="80" y1="152" x2="560" y2="152"/><!-- 700 -->
+    <line x1="80" y1="118" x2="560" y2="118"/><!-- 800 -->
+    <line x1="80" y1="84" x2="560" y2="84"/><!-- 900 -->
+    <line x1="80" y1="50" x2="560" y2="50"/><!-- 1000 -->
+    <!-- Vertical: Q=25 step => 2.4*25=60px -->
+    <line x1="140" y1="50" x2="140" y2="390"/><!-- 25 -->
+    <line x1="200" y1="50" x2="200" y2="390"/><!-- 50 -->
+    <line x1="260" y1="50" x2="260" y2="390"/><!-- 75 -->
+    <line x1="320" y1="50" x2="320" y2="390"/><!-- 100 -->
+    <line x1="380" y1="50" x2="380" y2="390"/><!-- 125 -->
+    <line x1="440" y1="50" x2="440" y2="390"/><!-- 150 -->
+    <line x1="500" y1="50" x2="500" y2="390"/><!-- 175 -->
+    <line x1="560" y1="50" x2="560" y2="390"/><!-- 200 -->
+  </g>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="390" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="18" y="220" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096" transform="rotate(-90,18,220)">Euro (&#8364;)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="390" x2="565" y2="390" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="565,390 555,386 555,394" fill="#2D3748"/>
+  <text x="320" y="435" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096">Aantal boeketten (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="404" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks: every 100 -->
+  <line x1="75" y1="356" x2="80" y2="356" stroke="#2D3748"/>
+  <text x="72" y="360" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">100</text>
+  <line x1="75" y1="322" x2="80" y2="322" stroke="#2D3748"/>
+  <text x="72" y="326" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+  <line x1="75" y1="288" x2="80" y2="288" stroke="#2D3748"/>
+  <text x="72" y="292" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">300</text>
+  <line x1="75" y1="254" x2="80" y2="254" stroke="#2D3748"/>
+  <text x="72" y="258" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">400</text>
+  <line x1="75" y1="220" x2="80" y2="220" stroke="#2D3748"/>
+  <text x="72" y="224" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">500</text>
+  <line x1="75" y1="186" x2="80" y2="186" stroke="#2D3748"/>
+  <text x="72" y="190" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">600</text>
+  <line x1="75" y1="152" x2="80" y2="152" stroke="#2D3748"/>
+  <text x="72" y="156" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">700</text>
+  <line x1="75" y1="118" x2="80" y2="118" stroke="#2D3748"/>
+  <text x="72" y="122" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">800</text>
+  <line x1="75" y1="84" x2="80" y2="84" stroke="#2D3748"/>
+  <text x="72" y="88" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">900</text>
+  <line x1="75" y1="50" x2="80" y2="50" stroke="#2D3748"/>
+  <text x="72" y="54" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">1.000</text>
+
+  <!-- X-axis ticks: every 25 -->
+  <line x1="140" y1="390" x2="140" y2="395" stroke="#2D3748"/>
+  <text x="140" y="410" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">25</text>
+  <line x1="200" y1="390" x2="200" y2="395" stroke="#2D3748"/>
+  <text x="200" y="410" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">50</text>
+  <line x1="260" y1="390" x2="260" y2="395" stroke="#2D3748"/>
+  <text x="260" y="410" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">75</text>
+  <line x1="320" y1="390" x2="320" y2="395" stroke="#2D3748"/>
+  <text x="320" y="410" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">100</text>
+  <line x1="380" y1="390" x2="380" y2="395" stroke="#2D3748"/>
+  <text x="380" y="410" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">125</text>
+  <line x1="440" y1="390" x2="440" y2="395" stroke="#2D3748"/>
+  <text x="440" y="410" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">150</text>
+  <line x1="500" y1="390" x2="500" y2="395" stroke="#2D3748"/>
+  <text x="500" y="410" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">175</text>
+  <line x1="560" y1="390" x2="560" y2="395" stroke="#2D3748"/>
+  <text x="560" y="410" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+
+  <!-- TK line only: TK=300+2Q. (0,300) to (200,700) => (80,288) to (560,152) -->
+  <line x1="80" y1="288" x2="560" y2="152" stroke="#E67E22" stroke-width="2.5"/>
+  <text x="565" y="157" font-family="Arial" font-size="13" font-weight="bold" fill="#E67E22">TK</text>
+
+  <!-- Starting point label -->
+  <circle cx="80" cy="288" r="3.5" fill="#E67E22"/>
+  <text x="88" y="282" font-family="Arial" font-size="11" fill="#E67E22">&#8364;300</text>
+</svg>

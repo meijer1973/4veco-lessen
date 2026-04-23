@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Arial" font-size="12">
+  <!-- Background -->
+  <rect width="720" height="400" fill="#F7FAFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="360" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">Benzineprijs als indexcijfer (basisjaar 2022 = 100)</text>
+
+  <!-- Plot area: x=100..660, y=55..310 -->
+
+  <!-- Y-axis -->
+  <line x1="100" y1="55" x2="100" y2="310" stroke="#2D3748" stroke-width="2"/>
+  <polygon points="100,50 96,60 104,60" fill="#2D3748"/>
+
+  <!-- X-axis -->
+  <line x1="100" y1="310" x2="660" y2="310" stroke="#2D3748" stroke-width="2"/>
+  <polygon points="665,310 655,306 655,314" fill="#2D3748"/>
+
+  <!-- Y-axis label -->
+  <text x="22" y="185" text-anchor="middle" font-size="12" fill="#718096" transform="rotate(-90, 22, 185)">Indexcijfer</text>
+
+  <!-- X-axis label -->
+  <text x="380" y="370" text-anchor="middle" font-size="12" fill="#718096">Jaar</text>
+
+  <!-- Scale: index range 95-115 -->
+  <!-- y = 310 - (index - 95) * (255/20) = 310 - (index-95)*12.75 -->
+  <!-- 95: y=310, 100: y=246.25, 105: y=182.5, 110: y=118.75, 115: y=55 -->
+
+  <!-- Y-axis ticks -->
+  <line x1="95" y1="310" x2="100" y2="310" stroke="#2D3748" stroke-width="1"/>
+  <text x="88" y="314" text-anchor="end" font-size="11" fill="#718096">95</text>
+
+  <line x1="95" y1="246" x2="100" y2="246" stroke="#2D3748" stroke-width="1"/>
+  <text x="88" y="250" text-anchor="end" font-size="11" fill="#718096">100</text>
+  <line x1="100" y1="246" x2="660" y2="246" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <line x1="95" y1="183" x2="100" y2="183" stroke="#2D3748" stroke-width="1"/>
+  <text x="88" y="187" text-anchor="end" font-size="11" fill="#718096">105</text>
+
+  <line x1="95" y1="119" x2="100" y2="119" stroke="#2D3748" stroke-width="1"/>
+  <text x="88" y="123" text-anchor="end" font-size="11" fill="#718096">110</text>
+
+  <line x1="95" y1="55" x2="100" y2="55" stroke="#2D3748" stroke-width="1"/>
+  <text x="88" y="59" text-anchor="end" font-size="11" fill="#718096">115</text>
+
+  <!-- X-axis ticks and labels -->
+  <line x1="200" y1="310" x2="200" y2="315" stroke="#2D3748" stroke-width="1"/>
+  <text x="200" y="332" text-anchor="middle" font-size="11" fill="#2D3748">2022</text>
+
+  <line x1="380" y1="310" x2="380" y2="315" stroke="#2D3748" stroke-width="1"/>
+  <text x="380" y="332" text-anchor="middle" font-size="11" fill="#2D3748">2023</text>
+
+  <line x1="560" y1="310" x2="560" y2="315" stroke="#2D3748" stroke-width="1"/>
+  <text x="560" y="332" text-anchor="middle" font-size="11" fill="#2D3748">2024</text>
+
+  <!-- Data points -->
+  <!-- 2022: index=100, y=246 -->
+  <!-- 2023: index=110, y=119 -->
+  <!-- 2024: index=105, y=183 -->
+
+  <!-- Line -->
+  <polyline points="200,246 380,119 560,183"
+            fill="none" stroke="#1A5276" stroke-width="2.5"/>
+
+  <!-- Dots -->
+  <circle cx="200" cy="246" r="5" fill="#1A5276"/>
+  <circle cx="380" cy="119" r="5" fill="#1A5276"/>
+  <circle cx="560" cy="183" r="5" fill="#1A5276"/>
+
+  <!-- Value labels -->
+  <text x="200" y="236" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A5276">100</text>
+  <text x="200" y="264" text-anchor="middle" font-size="10" fill="#718096">(€1,80)</text>
+
+  <text x="380" y="107" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A5276">110</text>
+  <text x="380" y="140" text-anchor="middle" font-size="10" fill="#718096">(€1,98)</text>
+
+  <text x="560" y="171" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A5276">105</text>
+  <text x="560" y="200" text-anchor="middle" font-size="10" fill="#718096">(€1,89)</text>
+
+  <!-- Annotation: +10% from 2022 to 2023 -->
+  <line x1="290" y1="246" x2="290" y2="119" stroke="#27AE60" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="285" y="185" text-anchor="end" font-size="11" font-weight="bold" fill="#27AE60">+10%</text>
+
+  <!-- Annotation: -4.5% from 2023 to 2024 -->
+  <line x1="470" y1="119" x2="470" y2="183" stroke="#D9534F" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="478" y="155" text-anchor="start" font-size="11" font-weight="bold" fill="#D9534F">−4,5%</text>
+
+  <!-- Dashed basis line -->
+  <line x1="100" y1="246" x2="660" y2="246" stroke="#E67E22" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="665" y="243" text-anchor="start" font-size="9" fill="#E67E22">basis</text>
+
+  <!-- Note box at bottom -->
+  <rect x="140" y="380" width="440" height="18" fill="#FEF9E7" rx="3" stroke="#E67E22" stroke-width="1"/>
+  <text x="360" y="394" text-anchor="middle" font-size="10" fill="#E67E22">Let op: 5 indexpunten verschil (110→105) = −4,5% (niet −5%)</text>
+</svg>

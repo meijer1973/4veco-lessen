@@ -1,0 +1,105 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">Bedrijf 1: TK en TO bij lineaire kosten (TK = 200 + 3Q, TO = 8Q)</text>
+
+  <!-- Plot area: x=80..680, y=45..340
+       Q range: 0..55, euro range: 0..450
+       px_per_Q = 600/55 = 10.909
+       px_per_euro = 295/450 = 0.6556
+       q_to_x(q) = 80 + q * 10.909
+       euro_to_y(v) = 340 - v * 0.6556
+  -->
+
+  <!-- Grid lines -->
+  <line x1="80" y1="274.3" x2="680" y2="274.3" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 100 -->
+  <line x1="80" y1="208.9" x2="680" y2="208.9" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 200 -->
+  <line x1="80" y1="143.3" x2="680" y2="143.3" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 300 -->
+  <line x1="80" y1="77.8" x2="680" y2="77.8" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 400 -->
+
+  <!-- Y-axis -->
+  <line x1="80" y1="340" x2="80" y2="42" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,42 76,52 84,52" fill="#2D3748"/>
+  <text x="15" y="190" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096" transform="rotate(-90,15,190)">Euro (&#8364;)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="340" x2="685" y2="340" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="685,340 675,336 675,344" fill="#2D3748"/>
+  <text x="380" y="385" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="355" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks -->
+  <line x1="75" y1="274.3" x2="80" y2="274.3" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="278" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">100</text>
+  <line x1="75" y1="208.9" x2="80" y2="208.9" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="213" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+  <line x1="75" y1="143.3" x2="80" y2="143.3" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="147" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">300</text>
+  <line x1="75" y1="77.8" x2="80" y2="77.8" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="82" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">400</text>
+
+  <!-- X-axis ticks: q_to_x(q) = 80 + q * 10.909 -->
+  <line x1="189.1" y1="340" x2="189.1" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="189.1" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">10</text>
+  <line x1="298.2" y1="340" x2="298.2" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="298.2" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">20</text>
+  <line x1="407.3" y1="340" x2="407.3" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="407.3" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">30</text>
+  <line x1="516.4" y1="340" x2="516.4" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="516.4" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">40</text>
+  <line x1="625.5" y1="340" x2="625.5" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="625.5" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">50</text>
+
+  <!-- TK = 200 + 3Q: at Q=0 euro=200, at Q=50 euro=350
+       Q=0: x=80, y=340-200*0.6556=340-131.1=208.9
+       Q=50: x=625.5, y=340-350*0.6556=340-229.5=110.5
+  -->
+  <line x1="80" y1="208.9" x2="625.5" y2="110.5" stroke="#E67E22" stroke-width="2.5"/>
+  <text x="632" y="107" font-family="Arial" font-size="12" font-weight="bold" fill="#E67E22">TK</text>
+
+  <!-- TO = 8Q: at Q=0 euro=0, at Q=50 euro=400
+       Q=0: x=80, y=340
+       Q=50: x=625.5, y=340-400*0.6556=340-262.2=77.8
+  -->
+  <line x1="80" y1="340" x2="625.5" y2="77.8" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="632" y="74" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">TO</text>
+
+  <!-- Break-even at Q=40: TK=320, TO=320
+       x=516.4, y=340-320*0.6556=340-209.8=130.2
+  -->
+  <circle cx="516.4" cy="130.2" r="4" fill="#2D3748"/>
+  <line x1="516.4" y1="130.2" x2="516.4" y2="340" stroke="#718096" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="80" y1="130.2" x2="516.4" y2="130.2" stroke="#718096" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="72" y="134" text-anchor="end" font-family="Arial" font-size="10" fill="#2D3748">320</text>
+  <text x="516.4" y="124" text-anchor="middle" font-family="Arial" font-size="10" fill="#2D3748">BEP</text>
+
+  <!-- Data point dots on TK -->
+  <circle cx="80" cy="208.9" r="3" fill="#E67E22"/>
+  <circle cx="189.1" cy="189.2" r="3" fill="#E67E22"/><!-- Q=10, TK=230, y=340-150.8=189.2 -->
+  <circle cx="298.2" cy="169.5" r="3" fill="#E67E22"/><!-- Q=20, TK=260, y=340-170.5=169.5 -->
+  <circle cx="407.3" cy="149.9" r="3" fill="#E67E22"/><!-- Q=30, TK=290, y=340-190.1=149.9 -->
+  <circle cx="516.4" cy="130.2" r="3" fill="#E67E22"/><!-- Q=40, TK=320 -->
+  <circle cx="625.5" cy="110.5" r="3" fill="#E67E22"/><!-- Q=50, TK=350 -->
+
+  <!-- Data point dots on TO -->
+  <circle cx="80" cy="340" r="3" fill="#1A5276"/>
+  <circle cx="189.1" cy="287.6" r="3" fill="#1A5276"/><!-- Q=10, TO=80, y=340-52.4=287.6 -->
+  <circle cx="298.2" cy="235.1" r="3" fill="#1A5276"/><!-- Q=20, TO=160, y=340-104.9=235.1 -->
+  <circle cx="407.3" cy="182.7" r="3" fill="#1A5276"/><!-- Q=30, TO=240, y=340-157.3=182.7 -->
+  <circle cx="516.4" cy="130.2" r="3" fill="#1A5276"/><!-- Q=40, TO=320 -->
+  <circle cx="625.5" cy="77.8" r="3" fill="#1A5276"/><!-- Q=50, TO=400 -->
+
+  <!-- Shaded loss area Q=0..40 where TK>TO -->
+  <polygon points="80,208.9 516.4,130.2 516.4,130.2 80,340" fill="#F1948A" fill-opacity="0.25"/>
+  <!-- Verlies centroid: (80+516.4+80)/3=225, (208.9+130.2+340)/3=226 -->
+  <text x="225" y="230" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#D9534F">verlies</text>
+
+  <!-- Shaded profit area Q=40..50 where TO>TK -->
+  <polygon points="516.4,130.2 625.5,110.5 625.5,77.8 516.4,130.2" fill="#82E0AA" fill-opacity="0.3"/>
+  <!-- Winst centroid: (516.4+625.5+625.5)/3=589, (130.2+110.5+77.8)/3=106; shift down for font -->
+  <text x="589" y="115" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="#1E8449">winst</text>
+</svg>

@@ -1,0 +1,61 @@
+# Quality Reference - 1.5.2 Examenvaardigheden
+# Generated: 2026-04-23
+
+quality_ref:
+  paragraph: "1.5.2 Examenvaardigheden"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.5 Hoofdstuk Toetsvoorbereiding"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  content:
+    opgaven_md: true
+    antwoorden_md: true
+    opgaven_pdf: true
+    antwoorden_pdf: true
+    build_pdf_py: true
+
+  componenten_testprep:
+    type: "testprep-examskills"
+    examvaardigheden:
+      aanwezig: true
+      aantal_oefeningen: 5
+      vaardigheden_gedekt:
+        - "ongelabelde grafiek lezen"
+        - "gegevens uit tabel halen en doorrekenen"
+        - "bereken-antwoord structureren"
+        - "leg-uit-antwoord structureren"
+        - "meerstaps-berekening structureren"
+      boek_emphasis_correct: true
+      model_vs_weak_answer: true
+      inspectie: ["OP3"]
+      didactiek: ["antwoordstructurering", "metacognitie", "worked examples"]
+
+  assets:
+    total_referenced: 3
+    total_present: 3
+    missing: []
+    orphaned: []
+    svgpng_paired: true
+    naming_compliant: true
+    inventory:
+      - "1.5.2_fig_1: ongelabelde vraag-aanbodgrafiek"
+      - "1.5.2_fig_2: aanbodverschuiving T-shirts"
+      - "1.5.2_ex_1: antwoordgrafiek aanbodverschuiving schriften"
+
+  verantwoording:
+    differentiatie: "Elke oefening heeft een vaardigheidstip; antwoordmodellen maken puntenopbouw zichtbaar."
+    dual_coding: "Grafiekvaardigheden en aanbodverschuivingen worden visueel ondersteund."
+    scaffolding_fading: "De reeks start met gerichte vaardigheidsoefeningen en eindigt met een bredere meerstapsberekening."
+    voorkennis_aansluiting: "Taken herhalen H1.1-H1.4 zonder nieuwe theorie te introduceren."
+    formatief: "Punten per vraag en modelantwoorden ondersteunen zelfcontrole."
+    veelgemaakte_fouten: "Zwakte in alleen-eindantwoord, beweging/verschuiving en indexpunten/procenten worden expliciet behandeld."
+    lesdoel_zichtbaarheid: "Introductie en oefeningstitels maken het examendoel zichtbaar."
+    oefentijd: "Vijf oefeningen met 22 subvragen bieden ruime toetsgerichte oefentijd."
+
+  review:
+    file: "1.5.2-review.md"
+    unresolved_blockers: 0
+    verdict: "PASS WITH FLAGS"

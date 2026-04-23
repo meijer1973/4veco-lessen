@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial">
+  <rect width="720" height="360" fill="#F7FAFC" rx="8"/>
+  <text x="360" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">Figuur 4: Marktevenwicht — overzicht</text>
+  <rect x="270" y="120" width="180" height="50" rx="8" fill="#2D3748" fill-opacity="0.12" stroke="#2D3748" stroke-width="1.5"/>
+  <text x="360" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#2D3748">Marktevenwicht</text>
+  <rect x="100" y="55" width="160" height="50" rx="6" fill="#1A5276" fill-opacity="0.1" stroke="#1A5276" stroke-width="1.2"/>
+  <text x="180" y="85" text-anchor="middle" font-size="11" fill="#1A5276">Qv = Qa</text>
+  <rect x="520" y="55" width="160" height="50" rx="6" fill="#2D3748" fill-opacity="0.1" stroke="#2D3748" stroke-width="1.2"/>
+  <text x="600" y="85" text-anchor="middle" font-size="11" fill="#2D3748">P* en Q*</text>
+  <rect x="80" y="230" width="160" height="50" rx="6" fill="#E74C3C" fill-opacity="0.1" stroke="#E74C3C" stroke-width="1.2"/>
+  <text x="160" y="252" text-anchor="middle" font-size="11" fill="#E74C3C">Vraagoverschot</text>
+  <text x="160" y="268" text-anchor="middle" font-size="10" fill="#E74C3C">(P &lt; P*)</text>
+  <rect x="520" y="230" width="160" height="50" rx="6" fill="#27AE60" fill-opacity="0.1" stroke="#27AE60" stroke-width="1.2"/>
+  <text x="600" y="252" text-anchor="middle" font-size="11" fill="#27AE60">Aanbodoverschot</text>
+  <text x="600" y="268" text-anchor="middle" font-size="10" fill="#27AE60">(P &gt; P*)</text>
+  <line x1="270" y1="145" x2="260" y2="80" stroke="#CBD5E0" stroke-width="1"/>
+  <line x1="450" y1="145" x2="520" y2="80" stroke="#CBD5E0" stroke-width="1"/>
+  <line x1="310" y1="170" x2="240" y2="230" stroke="#CBD5E0" stroke-width="1"/>
+  <line x1="410" y1="170" x2="520" y2="230" stroke="#CBD5E0" stroke-width="1"/>
+</svg>

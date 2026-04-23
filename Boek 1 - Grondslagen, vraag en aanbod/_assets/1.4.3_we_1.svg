@@ -1,0 +1,80 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">Uitgewerkt voorbeeld: MK en MO van de snoepfabriek</text>
+
+  <!-- Plot area: x=80..680, y=50..330
+       Q range: 0..55, euro range: 0..14
+       px_per_Q = 600/55 = 10.909
+       px_per_euro = 280/14 = 20.0
+       q_to_x(q) = 80 + q * 10.909
+       euro_to_y(v) = 330 - v * 20.0
+  -->
+
+  <!-- Grid lines -->
+  <line x1="80" y1="290" x2="680" y2="290" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 2 -->
+  <line x1="80" y1="250" x2="680" y2="250" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 4 -->
+  <line x1="80" y1="210" x2="680" y2="210" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 6 -->
+  <line x1="80" y1="170" x2="680" y2="170" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 8 -->
+  <line x1="80" y1="130" x2="680" y2="130" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 10 -->
+  <line x1="80" y1="90" x2="680" y2="90" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 12 -->
+
+  <!-- Y-axis -->
+  <line x1="80" y1="330" x2="80" y2="42" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,42 76,52 84,52" fill="#2D3748"/>
+  <text x="15" y="190" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096" transform="rotate(-90,15,190)">Euro per stuk (&#8364;)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="330" x2="685" y2="330" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="685,330 675,326 675,334" fill="#2D3748"/>
+  <text x="380" y="380" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="345" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks -->
+  <line x1="75" y1="290" x2="80" y2="290" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="294" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">2</text>
+  <line x1="75" y1="250" x2="80" y2="250" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="254" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">4</text>
+  <line x1="75" y1="210" x2="80" y2="210" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="214" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">6</text>
+  <line x1="75" y1="170" x2="80" y2="170" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="174" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">8</text>
+  <line x1="75" y1="130" x2="80" y2="130" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="134" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">10</text>
+  <line x1="75" y1="90" x2="80" y2="90" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="94" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">12</text>
+
+  <!-- X-axis ticks -->
+  <line x1="189.1" y1="330" x2="189.1" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="189.1" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">10</text>
+  <line x1="298.2" y1="330" x2="298.2" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="298.2" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">20</text>
+  <line x1="407.3" y1="330" x2="407.3" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="407.3" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">30</text>
+  <line x1="516.4" y1="330" x2="516.4" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="516.4" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">40</text>
+  <line x1="625.5" y1="330" x2="625.5" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="625.5" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">50</text>
+
+  <!-- MK = 5 constant (TK = 300 + 5Q): horizontal line at y = 330 - 5*20 = 230 -->
+  <line x1="80" y1="230" x2="650" y2="230" stroke="#E67E22" stroke-width="2.5"/>
+  <text x="656" y="226" font-family="Arial" font-size="12" font-weight="bold" fill="#E67E22">MK = 5</text>
+
+  <!-- MO = 12 constant (P = 12): horizontal line at y = 330 - 12*20 = 90 -->
+  <line x1="80" y1="90" x2="650" y2="90" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="656" y="86" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">MO = 12</text>
+
+  <!-- Shaded area between MO and MK: marginal profit -->
+  <rect x="80" y="90" width="570" height="140" fill="#82E0AA" fill-opacity="0.15"/>
+
+  <!-- Arrow showing gap -->
+  <line x1="400" y1="228" x2="400" y2="94" stroke="#1E8449" stroke-width="1.5"/>
+  <polygon points="400,94 396,104 404,104" fill="#1E8449"/>
+  <polygon points="400,228 396,218 404,218" fill="#1E8449"/>
+  <text x="418" y="160" font-family="Arial" font-size="11" font-weight="bold" fill="#1E8449">MO &#8722; MK = 7</text>
+  <text x="418" y="175" font-family="Arial" font-size="10" fill="#1E8449">(extra winst per stuk)</text>
+</svg>

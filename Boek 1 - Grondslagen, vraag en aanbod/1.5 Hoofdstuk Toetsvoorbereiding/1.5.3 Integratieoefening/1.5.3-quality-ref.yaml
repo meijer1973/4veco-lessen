@@ -1,0 +1,56 @@
+# Quality Reference - 1.5.3 Integratieoefening
+# Generated: 2026-04-23
+
+quality_ref:
+  paragraph: "1.5.3 Integratieoefening"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.5 Hoofdstuk Toetsvoorbereiding"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  content:
+    opgaven_md: true
+    antwoorden_md: true
+    opgaven_pdf: true
+    antwoorden_pdf: true
+    build_pdf_py: true
+
+  componenten_testprep:
+    type: "testprep-integration"
+    integratie:
+      aanwezig: true
+      aantal_deelvragen: 6
+      hoofdstukken_gedekt: ["1.1", "1.2 implicit", "1.3", "1.4"]
+      standpuntbepaling_laatste: true
+      cross_book: false
+      skill_labels_present: false
+      inspectie: ["OP3"]
+      didactiek: ["transfer", "integratie", "evalueren"]
+
+  assets:
+    total_referenced: 2
+    total_present: 2
+    missing: []
+    orphaned: []
+    svgpng_paired: true
+    naming_compliant: true
+    inventory:
+      - "1.5.3_fig_1: koffie markt met vraaglijn en oorspronkelijk aanbod"
+      - "1.5.3_ex_1: antwoordgrafiek aanbodverschuiving koffie"
+
+  verantwoording:
+    differentiatie: "Een doorlopende casus verlaagt contextwisseling; de laatste vraag biedt evaluatieve verdieping."
+    dual_coding: "Marktevenwicht en aanbodverschuiving worden met grafieken ondersteund."
+    scaffolding_fading: "De reeks loopt van berekenen en verifieren naar tekenen, marginale analyse en standpuntbepaling."
+    voorkennis_aansluiting: "De casus combineert H1.1-H1.4, maar H1.2 is vooral impliciet."
+    formatief: "Antwoordmodel geeft stapgewijze puntenverdeling."
+    veelgemaakte_fouten: "Spreidingseffect, verschuivingen en procentuele verandering worden geoefend; firm-vs-market vereist correctie."
+    lesdoel_zichtbaarheid: "Introductie noemt de integratiedoelen, maar subvragen missen vereiste skill labels."
+    oefentijd: "Zes deelvragen bieden compacte integratie-oefentijd."
+
+  review:
+    file: "1.5.3-review.md"
+    unresolved_blockers: 2
+    verdict: "BLOCKED"

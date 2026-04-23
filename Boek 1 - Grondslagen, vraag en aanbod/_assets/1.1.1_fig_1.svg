@@ -1,0 +1,45 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="30" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">Schaarste: behoeften versus middelen</text>
+
+  <!-- Left side: Behoeften (large) -->
+  <rect x="60" y="60" width="260" height="280" rx="12" fill="#E67E22" opacity="0.12" stroke="#E67E22" stroke-width="2"/>
+  <text x="190" y="90" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#E67E22">Behoeften (wensen)</text>
+
+  <!-- Icons/items representing wants -->
+  <rect x="85" y="110" width="210" height="36" rx="6" fill="#E67E22" opacity="0.18"/>
+  <text x="190" y="133" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">Bioscoop (€12)</text>
+
+  <rect x="85" y="156" width="210" height="36" rx="6" fill="#E67E22" opacity="0.18"/>
+  <text x="190" y="179" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">Nieuw boek (€15)</text>
+
+  <rect x="85" y="202" width="210" height="36" rx="6" fill="#E67E22" opacity="0.18"/>
+  <text x="190" y="225" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">Uit eten (€18)</text>
+
+  <rect x="85" y="248" width="210" height="36" rx="6" fill="#E67E22" opacity="0.18"/>
+  <text x="190" y="271" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">Cadeau vriend (€10)</text>
+
+  <text x="190" y="310" text-anchor="middle" font-family="Arial" font-size="14" font-style="italic" fill="#E67E22">Totaal: €55 gewenst</text>
+
+  <!-- Arrow in the middle -->
+  <line x1="340" y1="200" x2="380" y2="200" stroke="#2D3748" stroke-width="2.5"/>
+  <polygon points="380,200 372,194 372,206" fill="#2D3748"/>
+  <text x="360" y="175" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#2D3748">KEUZE</text>
+  <text x="360" y="230" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">noodzakelijk!</text>
+
+  <!-- Right side: Middelen (small) -->
+  <rect x="400" y="120" width="260" height="160" rx="12" fill="#1A5276" opacity="0.12" stroke="#1A5276" stroke-width="2"/>
+  <text x="530" y="150" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1A5276">Middelen (beschikbaar)</text>
+
+  <rect x="425" y="170" width="210" height="44" rx="6" fill="#1A5276" opacity="0.18"/>
+  <text x="530" y="197" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#1A5276">Budget: €20</text>
+
+  <text x="530" y="255" text-anchor="middle" font-family="Arial" font-size="14" font-style="italic" fill="#1A5276">Beperkt!</text>
+
+  <!-- Bottom conclusion -->
+  <rect x="140" y="352" width="440" height="36" rx="8" fill="#E67E22" opacity="0.15" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="360" y="376" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#2D3748">Behoeften (€55) > Middelen (€20) → SCHAARSTE</text>
+</svg>

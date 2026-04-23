@@ -1,0 +1,109 @@
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="420" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">Markt voor pizza — twee veranderingen</text>
+
+  <!-- Marker arrowheads -->
+  <defs>
+    <marker id="arrA" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#E74C3C"/>
+    </marker>
+    <marker id="arrB" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#27AE60"/>
+    </marker>
+  </defs>
+
+  <!-- ====== Panel A (left): movement along curve ====== -->
+  <text x="180" y="55" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#2D3748">Situatie 1</text>
+  <rect x="40" y="65" width="280" height="280" rx="4" fill="white" stroke="#CBD5E0" stroke-width="1"/>
+
+  <line x1="70" y1="325" x2="70" y2="80" stroke="#2D3748" stroke-width="1.4"/>
+  <polygon points="70,80 67,88 73,88" fill="#2D3748"/>
+  <text x="58" y="200" text-anchor="middle" font-family="Arial" font-size="12" fill="#2D3748" transform="rotate(-90, 58, 200)">P (€)</text>
+
+  <line x1="70" y1="325" x2="310" y2="325" stroke="#2D3748" stroke-width="1.4"/>
+  <polygon points="310,325 302,322 302,328" fill="#2D3748"/>
+  <text x="190" y="350" text-anchor="middle" font-family="Arial" font-size="12" fill="#2D3748">Q (pizza's)</text>
+  <text x="64" y="338" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Demand line V from (70,95) to (310,320) -->
+  <line x1="70" y1="95" x2="310" y2="320" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="312" y="320" font-family="Arial" font-size="14" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- Point E (P=8, Q=200) -->
+  <circle cx="160" cy="180" r="5" fill="#1A5276"/>
+  <text x="135" y="174" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">E</text>
+  <line x1="70" y1="180" x2="160" y2="180" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="160" y1="180" x2="160" y2="325" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="64" y="184" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">8</text>
+  <text x="160" y="338" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+
+  <!-- Point E' (P=6, Q=240) -->
+  <circle cx="200" cy="218" r="5" fill="#E74C3C"/>
+  <text x="207" y="213" font-family="Arial" font-size="12" font-weight="bold" fill="#E74C3C">E'</text>
+  <line x1="70" y1="218" x2="200" y2="218" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="200" y1="218" x2="200" y2="325" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="64" y="222" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">6</text>
+  <text x="200" y="338" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">240</text>
+
+  <!-- Arrow from E to E' along curve -->
+  <path d="M163,184 C175,195 185,208 197,215" stroke="#E74C3C" stroke-width="2" fill="none" marker-end="url(#arrA)"/>
+
+  <!-- Inside-figure label for the change type -->
+  <text x="220" y="120" font-family="Arial" font-size="12" font-style="italic" fill="#E74C3C">Beweging</text>
+  <text x="220" y="135" font-family="Arial" font-size="12" font-style="italic" fill="#E74C3C">langs V</text>
+
+  <!-- ===== RULE LABEL UNDER PANEL A ===== -->
+  <rect x="50" y="365" width="260" height="44" rx="4" fill="#EBF2F8" stroke="#1A5276" stroke-width="1.2"/>
+  <text x="180" y="383" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">Eigen prijs verandert</text>
+  <text x="180" y="400" text-anchor="middle" font-family="Arial" font-size="12" fill="#1A5276">→ beweging LANGS de lijn</text>
+
+  <!-- ====== Panel B (right): shift of curve ====== -->
+  <text x="540" y="55" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#2D3748">Situatie 2</text>
+  <rect x="400" y="65" width="280" height="280" rx="4" fill="white" stroke="#CBD5E0" stroke-width="1"/>
+
+  <line x1="430" y1="325" x2="430" y2="80" stroke="#2D3748" stroke-width="1.4"/>
+  <polygon points="430,80 427,88 433,88" fill="#2D3748"/>
+  <text x="418" y="200" text-anchor="middle" font-family="Arial" font-size="12" fill="#2D3748" transform="rotate(-90, 418, 200)">P (€)</text>
+
+  <line x1="430" y1="325" x2="670" y2="325" stroke="#2D3748" stroke-width="1.4"/>
+  <polygon points="670,325 662,322 662,328" fill="#2D3748"/>
+  <text x="550" y="350" text-anchor="middle" font-family="Arial" font-size="12" fill="#2D3748">Q (pizza's)</text>
+  <text x="424" y="338" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Original V₁ (dashed) -->
+  <line x1="430" y1="95" x2="670" y2="320" stroke="#1A5276" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="672" y="320" font-family="Arial" font-size="13" font-weight="bold" fill="#1A5276">V₁</text>
+
+  <!-- V₂ shifted right (parallel) -->
+  <line x1="475" y1="95" x2="670" y2="278" stroke="#27AE60" stroke-width="2.5"/>
+  <text x="672" y="278" font-family="Arial" font-size="13" font-weight="bold" fill="#27AE60">V₂</text>
+
+  <!-- Point E on V₁ at P=8 -->
+  <circle cx="520" cy="180" r="5" fill="#1A5276"/>
+  <text x="495" y="174" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">E</text>
+  <line x1="430" y1="180" x2="520" y2="180" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="520" y1="180" x2="520" y2="325" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="424" y="184" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">8</text>
+  <text x="520" y="338" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+
+  <!-- Point E' on V₂ at P=8, Q=320 -->
+  <circle cx="600" cy="180" r="5" fill="#27AE60"/>
+  <text x="606" y="174" font-family="Arial" font-size="12" font-weight="bold" fill="#27AE60">E'</text>
+  <line x1="600" y1="180" x2="600" y2="325" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="600" y="338" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">320</text>
+
+  <!-- Shift arrow at P=8 level -->
+  <line x1="525" y1="180" x2="595" y2="180" stroke="#27AE60" stroke-width="2" marker-end="url(#arrB)"/>
+
+  <!-- Inside-figure label for the change type -->
+  <text x="560" y="120" font-family="Arial" font-size="12" font-style="italic" fill="#27AE60">Verschuiving</text>
+  <text x="560" y="135" font-family="Arial" font-size="12" font-style="italic" fill="#27AE60">van V</text>
+
+  <!-- ===== RULE LABEL UNDER PANEL B ===== -->
+  <rect x="410" y="365" width="260" height="44" rx="4" fill="#EAF5EF" stroke="#27AE60" stroke-width="1.2"/>
+  <text x="540" y="383" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1F7A3E">Andere factor verandert</text>
+  <text x="540" y="400" text-anchor="middle" font-family="Arial" font-size="12" fill="#1F7A3E">→ verschuiving VAN de lijn</text>
+</svg>

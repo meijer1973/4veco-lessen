@@ -1,0 +1,63 @@
+# Quality Reference - 1.5.4 Proeftoets
+# Generated: 2026-04-23
+
+quality_ref:
+  paragraph: "1.5.4 Proeftoets"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.5 Hoofdstuk Toetsvoorbereiding"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  content:
+    toets_md: true
+    antwoorden_md: true
+    toetsmatrijs_md: true
+    toets_pdf: true
+    antwoorden_pdf: true
+    toetsmatrijs_pdf: true
+    build_pdf_py: true
+
+  componenten_testprep:
+    type: "testprep-practicetest"
+    proeftoets:
+      aanwezig: true
+      toetsmatrijs_aanwezig: true
+      puntenverhouding_correct: false
+      bloom_verdeling_correct: false
+      tijdsduur: 120
+      aantal_contexten: 5
+      aantal_subvragen: 25
+      totaal_punten: 74
+      hoofdstukken_gedekt: ["1.1", "1.2", "1.3", "1.4"]
+      bronmateriaaltypen: ["grafiek", "tabel", "tekstbron", "indexreeks"]
+      cross_book: false
+      inspectie: ["OP2", "OP3"]
+      didactiek: ["formatief evalueren", "summatieve voorbereiding", "examendekking"]
+
+  assets:
+    total_referenced: 2
+    total_present: 2
+    missing: []
+    orphaned: []
+    svgpng_paired: true
+    naming_compliant: true
+    inventory:
+      - "1.5.4_fig_1: markt voor hardloopschoenen"
+      - "1.5.4_ex_1: antwoordgrafiek vraagverschuiving hardloopschoenen"
+
+  verantwoording:
+    differentiatie: "Veel vraagtypen bieden brede oefening; omvang is zwaar voor formatief gebruik."
+    dual_coding: "De toets bevat grafieken en tabellen naast tekstbronnen."
+    scaffolding_fading: "Leerlingen werken zelfstandig met toetsinstructies en antwoordmodel; er is weinig scaffolding, passend bij proeftoetsvorm."
+    voorkennis_aansluiting: "Alle hoofdstukken uit Boek 1 worden gedekt."
+    formatief: "Toetsmatrijs en puntenmodel maken leerdoeldekking zichtbaar."
+    veelgemaakte_fouten: "Indexpunten/procenten, beweging/verschuiving, overschotten en MO/MK worden getoetst."
+    lesdoel_zichtbaarheid: "Toetscontext en matrix maken toetsvoorbereiding zichtbaar."
+    oefentijd: "120 minuten en 74 punten bieden veel oefentijd, maar overschrijden de beoogde compacte proeftoetsvorm."
+
+  review:
+    file: "1.5.4-review.md"
+    unresolved_blockers: 1
+    verdict: "BLOCKED"

@@ -1,0 +1,69 @@
+# === QUALITY REFERENCE ===
+# Generated: 2026-04-23
+# Paragraph: 1.2.1 Individuele vraag
+
+quality_ref:
+  paragraph: "1.2.1 Individuele vraag"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.2 Hoofdstuk Vraag"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  leerdoelen:
+    - id: L1
+      beschrijving: "Betalingsbereidheid per eenheid aflezen en gebruiken voor een koopbeslissing."
+      eindterm: "D1.1 betalingsbereidheid"
+      bloom: "toepassen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L2
+      beschrijving: "Een individuele vraaglijn als trapfunctie of lineaire vraaglijn interpreteren en tekenen."
+      eindterm: "D1.2 individuele vraaglijn"
+      bloom: "toepassen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L3
+      beschrijving: "Consumentensurplus per gekochte eenheid en totaal consumentensurplus berekenen."
+      eindterm: "D3.1 consumentensurplus"
+      bloom: "toepassen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+
+  componenten:
+    paragraaf:
+      aanwezig: true
+      doel: "Introduceert betalingsbereidheid, individuele vraaglijn, koopbeslissing en consumentensurplus."
+      inspectie: [OP3]
+      didactiek: ["dual coding", "worked examples", "expliciet lesdoel"]
+    opgaven:
+      aanwezig: true
+      doel: "Laat leerlingen grafieken lezen, tekenen, rekenen en interleaven met procenten en tabellen."
+      inspectie: [OP3, OR1]
+      didactiek: ["fading", "voldoende oefentijd", "retrieval practice"]
+    antwoorden:
+      aanwezig: true
+      doel: "Geeft stappen en controles bij elke opgave."
+      inspectie: [OP2, OP3]
+      didactiek: ["formatief evalueren", "antwoordstructurering"]
+    companion_materialen:
+      aanwezig: false
+      doel: "Niet aanwezig in deze QC-scope."
+      inspectie: []
+      didactiek: []
+
+  assets:
+    total_referenced: 12
+    total_present: 12
+    missing: []
+    orphaned: []
+    svgpng_paired: true
+    naming_compliant: true
+
+  verantwoording:
+    differentiatie: "Start-, zelfstandige, herhalings-, doel- en bonusopgaven bieden lichte niveau-opbouw zonder stigmatiserende labels."
+    dual_coding: "Alle kernbegrippen hebben grafieken, tabellen of surplusvlakken naast tekst."
+    scaffolding_fading: "De oefenreeks gaat van aflezen en invullen naar zelfstandig tekenen en uitleggen."
+    voorkennis_aansluiting: "Er wordt herhaald met procentuele verandering en tabel-grafiekvaardigheid uit hoofdstuk 1.1."
+    formatief: "Antwoorden geven procedurele stappen en verklaringen waarmee leerlingen hun aanpak kunnen controleren."
+    veelgemaakte_fouten: "Negatief consumentensurplus wordt genoemd, maar een expliciete foutbox ontbreekt nog."
+    lesdoel_zichtbaarheid: "De openingsvraag en samenvatting maken de leerroute zichtbaar."
+    oefentijd: "Negen opgaven bieden voldoende oefening over lezen, tekenen, berekenen en verklaren."

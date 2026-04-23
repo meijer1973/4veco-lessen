@@ -1,0 +1,69 @@
+# === QUALITY REFERENCE ===
+# Generated: 2026-04-23
+# Paragraph: 1.2.3 Van individuele naar collectieve vraag
+
+quality_ref:
+  paragraph: "1.2.3 Van individuele naar collectieve vraag"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.2 Hoofdstuk Vraag"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  leerdoelen:
+    - id: L1
+      beschrijving: "Collectieve vraag bepalen door individuele hoeveelheden bij dezelfde prijs op te tellen."
+      eindterm: "D1.3 collectieve vraaglijn"
+      bloom: "toepassen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L2
+      beschrijving: "Tabelmethode en algebraische methode voor horizontale optelling vergelijken en toepassen."
+      eindterm: "D1.3 collectieve vraaglijn"
+      bloom: "analyseren"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L3
+      beschrijving: "Knikken en geldigheidsgebieden herkennen wanneer consumenten de markt verlaten."
+      eindterm: "D1.3 collectieve vraaglijn"
+      bloom: "analyseren"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+
+  componenten:
+    paragraaf:
+      aanwezig: true
+      doel: "Bouwt van individuele vraaglijnen naar collectieve vraag via tabel, grafiek en algebra."
+      inspectie: [OP3]
+      didactiek: ["triple coding", "worked examples", "misconceptie-gericht toetsen"]
+    opgaven:
+      aanwezig: true
+      doel: "Oefent horizontaal optellen, knikken, algebra, vraagfactoren en transfer."
+      inspectie: [OP3, OR1]
+      didactiek: ["fading", "interleaving", "Bloom-opbouw"]
+    antwoorden:
+      aanwezig: true
+      doel: "Geeft oplossingsstappen, maar bevat must-fix inconsistenties in opgave 10 en hellingstaal."
+      inspectie: [OP2, OP3]
+      didactiek: ["formatief evalueren", "antwoordstructurering"]
+    companion_materialen:
+      aanwezig: false
+      doel: "Niet aanwezig in deze QC-scope."
+      inspectie: []
+      didactiek: []
+
+  assets:
+    total_referenced: 10
+    total_present: 10
+    missing: []
+    orphaned: []
+    svgpng_paired: true
+    naming_compliant: true
+
+  verantwoording:
+    differentiatie: "De opgaven lopen van aflezen en invullen naar algebra en transfer."
+    dual_coding: "Collectieve vraag wordt ondersteund met individuele grafieken, gecombineerde grafiek, tabel en formule."
+    scaffolding_fading: "Visuele steun neemt af richting zelfstandige oefening en doeloefening."
+    voorkennis_aansluiting: "De paragraaf bouwt expliciet op 1.2.1 individuele vraag en 1.2.2 vraagfactoren."
+    formatief: "Antwoorden geven procedurele feedback, maar de genoemde blockers moeten eerst worden hersteld."
+    veelgemaakte_fouten: "Horizontaal versus verticaal optellen wordt expliciet geconfronteerd."
+    lesdoel_zichtbaarheid: "Opening en samenvatting maken de stap naar marktvraag duidelijk."
+    oefentijd: "Elf opgaven bieden veel toepassing, inclusief interleaving en een bonusvraag."

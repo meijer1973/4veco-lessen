@@ -1,0 +1,98 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">MK en MO: het snijpunt is het winstmaximum</text>
+
+  <!-- Plot area: x=80..680, y=50..330
+       Q range: 0..22, MK/MO range: 0..45
+       px_per_Q = 600/22 = 27.273
+       px_per_euro = 280/45 = 6.222
+       q_to_x(q) = 80 + q * 27.273
+       euro_to_y(v) = 330 - v * 6.222
+  -->
+
+  <!-- Grid -->
+  <line x1="80" y1="268" x2="680" y2="268" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/>
+  <line x1="80" y1="206" x2="680" y2="206" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/>
+  <line x1="80" y1="143" x2="680" y2="143" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/>
+  <line x1="80" y1="81" x2="680" y2="81" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="330" x2="80" y2="42" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,42 76,52 84,52" fill="#2D3748"/>
+  <text x="15" y="190" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096" transform="rotate(-90,15,190)">Euro per stuk (&#8364;)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="330" x2="685" y2="330" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="685,330 675,326 675,334" fill="#2D3748"/>
+  <text x="380" y="385" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="345" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks -->
+  <line x1="75" y1="268" x2="80" y2="268" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="272" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">10</text>
+  <line x1="75" y1="206" x2="80" y2="206" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="210" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">20</text>
+  <line x1="75" y1="143" x2="80" y2="143" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="147" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">30</text>
+  <line x1="75" y1="81" x2="80" y2="81" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="85" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">40</text>
+
+  <!-- X-axis ticks -->
+  <line x1="216.4" y1="330" x2="216.4" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="216.4" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">5</text>
+  <line x1="352.7" y1="330" x2="352.7" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="352.7" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">10</text>
+  <line x1="489.1" y1="330" x2="489.1" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="489.1" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">15</text>
+  <line x1="625.5" y1="330" x2="625.5" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="625.5" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">20</text>
+
+  <!-- MO = 30 constant: y = 330 - 30*6.222 = 143.3 -->
+  <line x1="80" y1="143" x2="650" y2="143" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="656" y="139" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">MO</text>
+
+  <!-- MK = 2Q: from (0,0) to (20,40)
+       Q=0: y=330. Q=5: MK=10, y=268. Q=10: MK=20, y=206.
+       Q=15: MK=30, y=143. Q=20: MK=40, y=81.
+  -->
+  <line x1="80" y1="330" x2="625.5" y2="81" stroke="#E67E22" stroke-width="2.5"/>
+  <text x="635" y="77" font-family="Arial" font-size="12" font-weight="bold" fill="#E67E22">MK</text>
+
+  <!-- Zone labels: left = produceer meer, right = produceer minder -->
+  <!-- Arrow pointing right (produce more) at Q=7 -->
+  <line x1="260" y1="270" x2="310" y2="270" stroke="#27AE60" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="285" y="290" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#27AE60">produceer meer</text>
+
+  <!-- Arrow pointing left (produce less) at Q=18 -->
+  <line x1="590" y1="115" x2="540" y2="115" stroke="#D9534F" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="565" y="108" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#D9534F">produceer minder</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#27AE60"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#D9534F"/>
+    </marker>
+  </defs>
+
+  <!-- Intersection point: Q=15, y=143 -->
+  <circle cx="489.1" cy="143" r="5" fill="#2D3748"/>
+  <line x1="489.1" y1="143" x2="489.1" y2="330" stroke="#2D3748" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Label above intersection -->
+  <text x="489.1" y="130" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#2D3748">MO = MK</text>
+
+  <!-- Q* on x-axis -->
+  <text x="489.1" y="368" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#2D3748">Q* = 15</text>
+
+  <!-- Rule box at bottom -->
+  <rect x="100" y="364" width="520" height="28" rx="4" fill="#EBF5FB" stroke="#1A5276" stroke-width="1"/>
+  <text x="360" y="382" text-anchor="middle" font-family="Arial" font-size="10" fill="#1A5276">Links van Q*: MO &gt; MK &#8594; winst stijgt | Rechts van Q*: MK &gt; MO &#8594; winst daalt</text>
+</svg>

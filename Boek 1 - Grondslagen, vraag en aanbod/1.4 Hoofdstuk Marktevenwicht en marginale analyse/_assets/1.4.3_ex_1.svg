@@ -1,0 +1,87 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">Opgave 1: TK en TO van het transportbedrijf</text>
+
+  <!-- Plot area: x=80..680, y=50..340
+       Q range: 0..110, euro range: 0..1200
+       px_per_Q = 600/110 = 5.4545
+       px_per_euro = 290/1200 = 0.2417
+       q_to_x(q) = 80 + q * 5.4545
+       euro_to_y(v) = 340 - v * 0.2417
+  -->
+
+  <!-- Grid lines -->
+  <line x1="80" y1="291.7" x2="680" y2="291.7" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 200 -->
+  <line x1="80" y1="243.3" x2="680" y2="243.3" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 400 -->
+  <line x1="80" y1="195.0" x2="680" y2="195.0" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 600 -->
+  <line x1="80" y1="146.7" x2="680" y2="146.7" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 800 -->
+  <line x1="80" y1="98.3" x2="680" y2="98.3" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 1000 -->
+
+  <!-- Y-axis -->
+  <line x1="80" y1="340" x2="80" y2="42" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,42 76,52 84,52" fill="#2D3748"/>
+  <text x="15" y="190" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096" transform="rotate(-90,15,190)">Euro (&#8364;)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="340" x2="685" y2="340" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="685,340 675,336 675,344" fill="#2D3748"/>
+  <text x="380" y="385" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096">Ritten (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="355" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks -->
+  <line x1="75" y1="291.7" x2="80" y2="291.7" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="296" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+  <line x1="75" y1="243.3" x2="80" y2="243.3" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="247" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">400</text>
+  <line x1="75" y1="195.0" x2="80" y2="195.0" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="199" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">600</text>
+  <line x1="75" y1="146.7" x2="80" y2="146.7" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="151" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">800</text>
+  <line x1="75" y1="98.3" x2="80" y2="98.3" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="102" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">1000</text>
+
+  <!-- X-axis ticks -->
+  <line x1="189.1" y1="340" x2="189.1" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="189.1" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">20</text>
+  <line x1="298.2" y1="340" x2="298.2" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="298.2" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">40</text>
+  <line x1="407.3" y1="340" x2="407.3" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="407.3" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">60</text>
+  <line x1="516.4" y1="340" x2="516.4" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="516.4" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">80</text>
+  <line x1="625.5" y1="340" x2="625.5" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="625.5" y="358" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">100</text>
+
+  <!-- TK = 400 + 6Q: Q=0: euro=400, y=243.3; Q=100: euro=1000, y=98.3 -->
+  <line x1="80" y1="243.3" x2="625.5" y2="98.3" stroke="#E67E22" stroke-width="2.5"/>
+  <text x="632" y="94" font-family="Arial" font-size="12" font-weight="bold" fill="#E67E22">TK</text>
+
+  <!-- TO = 10Q: Q=0: euro=0, y=340; Q=100: euro=1000, y=98.3 -->
+  <line x1="80" y1="340" x2="625.5" y2="98.3" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="632" y="102" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">TO</text>
+
+  <!-- BEP at Q=100: TK=1000, TO=1000, both at x=625.5, y=98.3 -->
+  <circle cx="625.5" cy="98.3" r="4" fill="#2D3748"/>
+  <text x="615" y="88" text-anchor="end" font-family="Arial" font-size="10" fill="#2D3748">BEP</text>
+
+  <!-- Data dots on TK -->
+  <circle cx="80" cy="243.3" r="3" fill="#E67E22"/>
+  <circle cx="189.1" cy="214.5" r="3" fill="#E67E22"/><!-- Q=20: 520, y=340-125.7=214.3 -->
+  <circle cx="298.2" cy="185.7" r="3" fill="#E67E22"/><!-- Q=40: 640, y=340-154.7=185.3 -->
+  <circle cx="407.3" cy="157.0" r="3" fill="#E67E22"/><!-- Q=60: 760 -->
+  <circle cx="516.4" cy="128.3" r="3" fill="#E67E22"/><!-- Q=80: 880 -->
+  <circle cx="625.5" cy="98.3" r="3" fill="#E67E22"/><!-- Q=100: 1000 -->
+
+  <!-- Data dots on TO -->
+  <circle cx="80" cy="340" r="3" fill="#1A5276"/>
+  <circle cx="189.1" cy="291.7" r="3" fill="#1A5276"/><!-- Q=20: 200 -->
+  <circle cx="298.2" cy="243.3" r="3" fill="#1A5276"/><!-- Q=40: 400 -->
+  <circle cx="407.3" cy="195.0" r="3" fill="#1A5276"/><!-- Q=60: 600 -->
+  <circle cx="516.4" cy="146.7" r="3" fill="#1A5276"/><!-- Q=80: 800 -->
+  <circle cx="625.5" cy="98.3" r="3" fill="#1A5276"/><!-- Q=100: 1000 -->
+</svg>

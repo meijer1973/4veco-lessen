@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Arial">
+  <!-- Background -->
+  <rect width="720" height="400" fill="#F7FAFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="360" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">Opgave 3: Bioscoopbezoekers</text>
+
+  <!-- Plot area: x=80..680, y=45..340 -->
+  <!-- Data: bioscoop tickets at different prices -->
+  <!-- P=8.00 → Q=600 -->
+  <!-- P=10.00 → Q=400 -->
+  <!-- P=12.00 → Q=200 -->
+
+  <!-- X scale: Q 0..800, x=80..680 → per unit: 600/800 = 0.75px -->
+  <!-- Y scale: P 0..15, y=340..45 → per euro: 295/15 = 19.67px -->
+
+  <!-- Q=200 → x=80+200*0.75=230 -->
+  <!-- Q=400 → x=80+400*0.75=380 -->
+  <!-- Q=500 → x=80+500*0.75=455 -->
+  <!-- Q=600 → x=80+600*0.75=530 -->
+
+  <!-- P=2.00 → y=340-2*19.67=300.7 ≈ 301 -->
+  <!-- P=4.00 → y=340-4*19.67=261.3 ≈ 261 -->
+  <!-- P=6.00 → y=340-6*19.67=222 -->
+  <!-- P=8.00 → y=340-8*19.67=182.6 ≈ 183 -->
+  <!-- P=9.00 → y=340-9*19.67=163 -->
+  <!-- P=10.00 → y=340-10*19.67=143.3 ≈ 143 -->
+  <!-- P=11.00 → y=340-11*19.67=123.6 ≈ 124 -->
+  <!-- P=12.00 → y=340-12*19.67=104 -->
+  <!-- P=14.00 → y=340-14*19.67=64.6 ≈ 65 -->
+
+  <!-- Y-axis -->
+  <line x1="80" y1="340" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+
+  <!-- X-axis -->
+  <line x1="80" y1="340" x2="680" y2="340" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,340 670,336 670,344" fill="#2D3748"/>
+
+  <!-- Y-axis label -->
+  <text x="15" y="195" text-anchor="middle" font-size="12" fill="#718096" transform="rotate(-90, 15, 195)">Prijs (€)</text>
+
+  <!-- X-axis label -->
+  <text x="380" y="385" text-anchor="middle" font-size="12" fill="#718096">Aantal bezoekers per week</text>
+
+  <!-- Origin -->
+  <text x="72" y="355" text-anchor="end" font-size="11" fill="#718096">0</text>
+
+  <!-- Y-axis ticks: 2, 4, 6, 8, 10, 12, 14 -->
+  <line x1="76" y1="301" x2="80" y2="301" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="305" text-anchor="end" font-size="10" fill="#718096">2</text>
+  <line x1="80" y1="301" x2="680" y2="301" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <line x1="76" y1="261" x2="80" y2="261" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="265" text-anchor="end" font-size="10" fill="#718096">4</text>
+  <line x1="80" y1="261" x2="680" y2="261" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <line x1="76" y1="222" x2="80" y2="222" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="226" text-anchor="end" font-size="10" fill="#718096">6</text>
+  <line x1="80" y1="222" x2="680" y2="222" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <line x1="76" y1="183" x2="80" y2="183" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="187" text-anchor="end" font-size="10" fill="#718096">8</text>
+  <line x1="80" y1="183" x2="680" y2="183" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <line x1="76" y1="143" x2="80" y2="143" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="147" text-anchor="end" font-size="10" fill="#718096">10</text>
+  <line x1="80" y1="143" x2="680" y2="143" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <line x1="76" y1="104" x2="80" y2="104" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="108" text-anchor="end" font-size="10" fill="#718096">12</text>
+  <line x1="80" y1="104" x2="680" y2="104" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <line x1="76" y1="65" x2="80" y2="65" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="69" text-anchor="end" font-size="10" fill="#718096">14</text>
+  <line x1="80" y1="65" x2="680" y2="65" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <!-- X-axis ticks: 200, 400, 600 -->
+  <line x1="230" y1="340" x2="230" y2="344" stroke="#2D3748" stroke-width="1"/>
+  <text x="230" y="358" text-anchor="middle" font-size="10" fill="#718096">200</text>
+  <line x1="230" y1="45" x2="230" y2="340" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <line x1="380" y1="340" x2="380" y2="344" stroke="#2D3748" stroke-width="1"/>
+  <text x="380" y="358" text-anchor="middle" font-size="10" fill="#718096">400</text>
+  <line x1="380" y1="45" x2="380" y2="340" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <line x1="530" y1="340" x2="530" y2="344" stroke="#2D3748" stroke-width="1"/>
+  <text x="530" y="358" text-anchor="middle" font-size="10" fill="#718096">600</text>
+  <line x1="530" y1="45" x2="530" y2="340" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <!-- Data line -->
+  <polyline points="530,183 380,143 230,104" fill="none" stroke="#1A5276" stroke-width="2.5"/>
+
+  <!-- Data points -->
+  <circle cx="530" cy="183" r="5" fill="#1A5276"/>
+  <circle cx="380" cy="143" r="5" fill="#1A5276"/>
+  <circle cx="230" cy="104" r="5" fill="#1A5276"/>
+
+  <!-- Data point labels -->
+  <text x="540" y="177" font-size="9" fill="#1A5276">(600; €8)</text>
+  <text x="390" y="137" font-size="9" fill="#1A5276">(400; €10)</text>
+  <text x="240" y="98" font-size="9" fill="#1A5276">(200; €12)</text>
+
+  <!-- Interpolation hints - dashed lines for P=9 and P=11 (students need to read these) -->
+  <!-- P=9 → y=163, expected Q=500 → x=455 -->
+  <!-- P=11 → y=124, expected Q=300 → x=305 -->
+
+  <!-- Light guide marks (subtle, so students can verify) -->
+  <line x1="76" y1="163" x2="80" y2="163" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="72" y="167" text-anchor="end" font-size="9" fill="#E67E22">9</text>
+
+  <line x1="76" y1="124" x2="80" y2="124" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="72" y="128" text-anchor="end" font-size="9" fill="#E67E22">11</text>
+</svg>

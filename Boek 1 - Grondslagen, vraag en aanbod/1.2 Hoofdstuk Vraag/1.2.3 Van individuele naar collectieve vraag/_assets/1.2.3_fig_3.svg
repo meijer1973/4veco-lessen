@@ -1,0 +1,38 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">Anna en Ben samen op dezelfde assen</text>
+
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="180" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748" transform="rotate(-90, 15, 180)">Prijs (€)</text>
+
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,310 670,306 670,314" fill="#2D3748"/>
+  <text x="380" y="350" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748">Hoeveelheid bekers per week</text>
+
+  <text x="72" y="325" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">0</text>
+
+  <!-- Anna: Qd=-2P+7, valid 0<=P<=3.5; line from (80,125) to (248,310) -->
+  <line x1="80" y1="125" x2="248" y2="310" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="253" y="310" font-family="Arial" font-size="14" font-weight="bold" fill="#1A5276">V_Anna</text>
+
+  <!-- Ben: Qd=-3P+11, valid 0<=P<=3.67; line from (80,116) to (344,310) -->
+  <line x1="80" y1="116" x2="344" y2="310" stroke="#27AE60" stroke-width="2.5"/>
+  <text x="349" y="310" font-family="Arial" font-size="14" font-weight="bold" fill="#27AE60">V_Ben</text>
+
+  <!-- At P=2 (y=204): Anna Q=3 (x=152), Ben Q=5 (x=200) -->
+  <line x1="80" y1="204" x2="240" y2="204" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <circle cx="152" cy="204" r="5" fill="#1A5276"/>
+  <circle cx="200" cy="204" r="5" fill="#27AE60"/>
+
+  <text x="72" y="208" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€2</text>
+  <text x="152" y="190" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1A5276">Q=3</text>
+  <text x="200" y="190" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#27AE60">Q=5</text>
+
+  <!-- Note -->
+  <rect x="320" y="80" width="340" height="80" rx="4" fill="white" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="335" y="100" font-family="Arial" font-size="14" font-weight="bold" fill="#2D3748">Bij €2:</text>
+  <text x="335" y="120" font-family="Arial" font-size="14" fill="#2D3748">Anna wil 3 bekers, Ben wil 5 bekers.</text>
+  <text x="335" y="140" font-family="Arial" font-size="14" fill="#2D3748">Samen vragen ze 3 + 5 = 8 bekers.</text>
+  <text x="335" y="155" font-family="Arial" font-size="13" font-style="italic" fill="#4A5568">Tel de hoeveelheden op, niet de prijzen.</text>
+</svg>

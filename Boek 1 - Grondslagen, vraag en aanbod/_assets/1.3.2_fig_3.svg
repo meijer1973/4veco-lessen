@@ -1,0 +1,87 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="450" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">De zeven kostenbegrippen — overzicht</text>
+
+  <!-- === TOP ROW: Totale kosten === -->
+  <!-- TCK box -->
+  <rect x="60" y="65" width="130" height="50" rx="6" fill="#E67E22" fill-opacity="0.15" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="125" y="86" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#E67E22">TCK</text>
+  <text x="125" y="103" text-anchor="middle" font-family="Arial" font-size="10" fill="#2D3748">Totale constante kosten</text>
+
+  <!-- Plus sign -->
+  <text x="215" y="96" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#2D3748">+</text>
+
+  <!-- TVK box -->
+  <rect x="240" y="65" width="130" height="50" rx="6" fill="#27AE60" fill-opacity="0.15" stroke="#27AE60" stroke-width="1.5"/>
+  <text x="305" y="86" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#27AE60">TVK</text>
+  <text x="305" y="103" text-anchor="middle" font-family="Arial" font-size="10" fill="#2D3748">Totale variabele kosten</text>
+
+  <!-- Equals sign -->
+  <text x="395" y="96" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#2D3748">=</text>
+
+  <!-- TK box -->
+  <rect x="420" y="65" width="130" height="50" rx="6" fill="#1A5276" fill-opacity="0.15" stroke="#1A5276" stroke-width="1.5"/>
+  <text x="485" y="86" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1A5276">TK</text>
+  <text x="485" y="103" text-anchor="middle" font-family="Arial" font-size="10" fill="#2D3748">Totale kosten</text>
+
+  <!-- === MIDDLE: "Deel door Q" arrows === -->
+  <!-- Arrow from TCK down -->
+  <line x1="125" y1="115" x2="125" y2="195" stroke="#718096" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <text x="145" y="160" font-family="Arial" font-size="10" fill="#718096">÷ Q</text>
+
+  <!-- Arrow from TVK down -->
+  <line x1="305" y1="115" x2="305" y2="195" stroke="#718096" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <text x="325" y="160" font-family="Arial" font-size="10" fill="#718096">÷ Q</text>
+
+  <!-- Arrow from TK down -->
+  <line x1="485" y1="115" x2="485" y2="195" stroke="#718096" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <text x="505" y="160" font-family="Arial" font-size="10" fill="#718096">÷ Q</text>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowGray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#718096"/>
+    </marker>
+  </defs>
+
+  <!-- === BOTTOM ROW: Gemiddelde kosten === -->
+  <!-- GCK box -->
+  <rect x="60" y="200" width="130" height="50" rx="6" fill="#E67E22" fill-opacity="0.15" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="125" y="221" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#E67E22">GCK</text>
+  <text x="125" y="238" text-anchor="middle" font-family="Arial" font-size="10" fill="#2D3748">Gem. constante kosten</text>
+
+  <!-- Plus sign -->
+  <text x="215" y="231" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#2D3748">+</text>
+
+  <!-- GVK box -->
+  <rect x="240" y="200" width="130" height="50" rx="6" fill="#27AE60" fill-opacity="0.15" stroke="#27AE60" stroke-width="1.5"/>
+  <text x="305" y="221" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#27AE60">GVK</text>
+  <text x="305" y="238" text-anchor="middle" font-family="Arial" font-size="10" fill="#2D3748">Gem. variabele kosten</text>
+
+  <!-- Equals sign -->
+  <text x="395" y="231" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#2D3748">=</text>
+
+  <!-- GTK box -->
+  <rect x="420" y="200" width="130" height="50" rx="6" fill="#8E44AD" fill-opacity="0.15" stroke="#8E44AD" stroke-width="1.5"/>
+  <text x="485" y="221" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#8E44AD">GTK</text>
+  <text x="485" y="238" text-anchor="middle" font-family="Arial" font-size="10" fill="#2D3748">Gem. totale kosten</text>
+
+  <!-- === FORMULAS SECTION === -->
+  <rect x="60" y="280" width="490" height="95" rx="6" fill="#1E2761" fill-opacity="0.05" stroke="#1E2761" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="300" y="303" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1E2761">Formules</text>
+
+  <text x="100" y="328" font-family="Arial" font-size="12" fill="#2D3748">TK = TCK + TVK</text>
+  <text x="100" y="350" font-family="Arial" font-size="12" fill="#2D3748">GTK = GCK + GVK</text>
+
+  <text x="330" y="328" font-family="Arial" font-size="12" fill="#2D3748">GCK = TCK / Q</text>
+  <text x="330" y="350" font-family="Arial" font-size="12" fill="#2D3748">GVK = TVK / Q</text>
+  <text x="330" y="372" font-family="Arial" font-size="12" fill="#2D3748">GTK = TK / Q</text>
+
+  <!-- === KEY INSIGHT === -->
+  <rect x="60" y="395" width="490" height="40" rx="6" fill="#27AE60" fill-opacity="0.08" stroke="#27AE60" stroke-width="1"/>
+  <text x="300" y="415" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">💡 GCK daalt als Q stijgt (spreidingseffect) → daarom daalt ook GTK</text>
+  <text x="300" y="430" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">GVK is constant als de variabele kosten per stuk niet veranderen</text>
+</svg>

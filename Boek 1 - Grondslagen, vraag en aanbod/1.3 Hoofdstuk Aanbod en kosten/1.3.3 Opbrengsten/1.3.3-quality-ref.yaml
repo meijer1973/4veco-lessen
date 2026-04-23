@@ -1,0 +1,84 @@
+# === QUALITY REFERENCE ===
+# Generated: 2026-04-23
+# Paragraph: 1.3.3 Opbrengsten
+
+quality_ref:
+  paragraph: "1.3.3 Opbrengsten"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.3 Aanbod en kosten"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  content_inventory:
+    type: "theory"
+    paragraaf_md: true
+    opgaven_md: true
+    antwoorden_md: true
+    html_present: true
+    pdf_present: true
+    review_status: "usable with flags"
+
+  leerdoelen:
+    - id: L1
+      beschrijving: "De leerling berekent totale en gemiddelde opbrengst."
+      bloom: "toepassen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L2
+      beschrijving: "De leerling berekent winst of verlies uit TO en TK."
+      bloom: "toepassen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L3
+      beschrijving: "De leerling bepaalt en interpreteert het break-evenpunt algebraisch en grafisch."
+      bloom: "analyseren"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+
+  componenten:
+    theorie:
+      aanwezig: true
+      doel: "Introduceert TO, GO, winst/verlies en break-even."
+      inspectie: [OP1, OP3]
+      didactiek: ["dual coding", "expliciet lesdoel"]
+    uitgewerkt_voorbeeld:
+      aanwezig: true
+      doel: "Modelleert winst- en break-evenberekeningen."
+      inspectie: [OP3]
+      didactiek: ["worked examples", "controle-stap"]
+    opgaven:
+      aanwezig: true
+      doel: "Oefent lezen, tekenen, algebra en evalueren."
+      inspectie: [OP3, OR1]
+      didactiek: ["fading", "retrieval practice", "Bloom-opbouw"]
+    antwoorden:
+      aanwezig: true
+      doel: "Geeft modelberekeningen en grafiekbeschrijvingen."
+      inspectie: [OP2, OP3]
+      didactiek: ["formatief evalueren"]
+
+  assets:
+    total_referenced: 12
+    total_present: 12
+    missing: []
+    orphaned:
+      - "1.3.3_ex_1.png"
+      - "1.3.3_ex_2.png"
+      - "1.3.3_ex_3.png"
+      - "1.3.3_fig_1.png"
+      - "1.3.3_fig_2.png"
+      - "1.3.3_fig_3.png"
+      - "1.3.3_fig_4.png"
+      - "1.3.3_fig_5.png"
+      - "1.3.3_we_1.png"
+    svgpng_paired: true
+    naming_compliant: true
+
+  verantwoording:
+    differentiatie: "Opgaven bouwen op van grafiek aflezen naar zelfstandig algebraisch en grafisch oplossen."
+    dual_coding: "Break-even wordt tekstueel, tabellarisch, algebraisch en grafisch uitgelegd."
+    scaffolding_fading: "Volledige grafische steun in theorie en startopgaven, zelfstandige toepassing in doeloefening."
+    voorkennis_aansluiting: "De opening herhaalt TK uit §1.3.2."
+    formatief: "Antwoorden geven tussenstappen, controles en beoordelingscriteria."
+    veelgemaakte_fouten: "Opbrengst versus winst wordt expliciet als misconceptie benoemd."
+    lesdoel_zichtbaarheid: "Het doel is zichtbaar in de opening: opbrengsten vergelijken met kosten."
+    oefentijd: "Er is ruime oefening met meerdere contexten en een bonus prijsbeslissing."

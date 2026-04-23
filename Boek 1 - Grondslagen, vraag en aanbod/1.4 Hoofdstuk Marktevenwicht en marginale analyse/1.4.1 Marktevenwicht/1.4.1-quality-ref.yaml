@@ -1,0 +1,41 @@
+# Quality Reference - 1.4.1 Marktevenwicht
+# Generated: 2026-04-23
+
+paragraph: "1.4.1"
+title: "Marktevenwicht"
+type: theory
+framework_version: "onderzoekskader 2021, bijgesteld 2025"
+standards_verified: "2026-04-12"
+
+content:
+  paragraaf_md: true
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: true
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  build_pdf_py: true
+
+assets:
+  total_referenced: 6
+  total_present: 6
+  missing: []
+  orphaned: []
+  svgpng_paired: true
+  naming_compliant: true
+  inventory:
+    - 1.4.1_fig_1 (vraaglijn schriften)
+    - 1.4.1_fig_2 (vraag en aanbod schriften)
+    - 1.4.1_fig_3 (marktevenwicht P25 Q50)
+    - 1.4.1_fig_4 (overzicht marktevenwicht)
+    - 1.4.1_we_1 (uitgewerkt voorbeeld pennen)
+    - 1.4.1_ex_1 (assenstelsel opgave 4)
+
+review:
+  file: "1.4.1-review.md"
+  unresolved_blockers: 0
+  verdict: "PASS WITH FLAGS"
+  flags:
+    - "Startoefeningen hebben weinig expliciete hints."
+    - "Subsidievraag in opgave 8 is inhoudelijk ambigu."
+    - "Opgaven staan zowel in paragraaf.md als opgaven.md."

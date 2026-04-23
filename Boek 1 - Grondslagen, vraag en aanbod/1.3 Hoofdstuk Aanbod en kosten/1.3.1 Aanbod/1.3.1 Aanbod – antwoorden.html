@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  
+<style>
+/* === Layout inspired by CITO VWO exam papers ===
+   Wide left margin, clean sans-serif, generous line spacing.
+   Domain colors retained for headings/blockquotes (textbook hierarchy). */
+
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;  /* top right bottom left — exam-like indented body */
+  @bottom-left   { content: "1.3.1 Aanbod"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+/* h2 mimics the "Opgave 1 Zorgverzekering" heading: bold + thin underline */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === (simple, exam-style, no colored header background) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 6pt 10pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 5pt 10pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+/* Bare images (not in figure) */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+/* Allow exercises to break across pages to avoid whitespace,
+   but keep the "Opgave X" title with at least 2 lines of content. */
+.exercise {
+  margin-bottom: 8pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="aanbod-antwoorden">1.3.1 Aanbod — antwoorden</h1>
+<p><strong>Afrondingsregel:</strong> Rond af op 2 decimalen tenzij
+anders aangegeven.</p>
+<hr />
+</div><h2 id="procedure-uit-het-uitgewerkt-voorbeeld">Procedure (uit het
+uitgewerkt voorbeeld)</h2>
+<table>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Vraag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Wat verandert er?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Is het de eigen prijs of een andere factor (aanbodfactor)?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Welke richting?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Teken of beschrijf het in de grafiek</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="exercise"><p><strong>Opgave 1</strong></p>
+<p><strong>a) Situatie 1</strong></p>
+<p>Stap 1: Wat zie je? Punt E ligt op de aanbodlijn A bij een bepaalde
+prijs en hoeveelheid. De pijl loopt langs de aanbodlijn omhoog naar punt
+E’ — bij een hogere prijs en grotere aangeboden hoeveelheid.</p>
+<p>Stap 2: Welke factor verandert? Alleen de eigen prijs van brood is
+veranderd. Het label “Beweging langs A” bevestigt dit.</p>
+<p>Antwoord: De prijs van brood is gestegen en de aangeboden hoeveelheid
+is toegenomen. Een mogelijke oorzaak is dat de marktprijs van brood
+stijgt, waardoor bakkers meer brood willen aanbieden.</p>
+<p><em>Waarom: Bij een hogere prijs willen producenten meer aanbieden,
+omdat het rendabeler wordt. De aanbodlijn A zelf blijft op zijn plek,
+want geen enkele andere factor (inputprijzen, technologie, …) is
+veranderd.</em></p>
+<p><strong>b) Situatie 2</strong></p>
+<p>Stap 1: Wat zie je? De aanbodlijn A₁ (gestippeld) is verschoven naar
+A₂ (links ervan). Bij dezelfde prijs is de aangeboden hoeveelheid
+gedaald.</p>
+<p>Stap 2: Welke factor verandert? De eigen prijs is niet veranderd. Een
+niet-prijsfactor moet de oorzaak zijn — bijvoorbeeld de prijs van meel
+(grondstof) is gestegen, of een bakkerij is gesloten (minder
+aanbieders).</p>
+<p>Antwoord: De hele aanbodlijn is naar links verschoven. Bij elke prijs
+willen producenten nu minder brood aanbieden. Mogelijke oorzaak: de
+prijs van meel (inputprijs) is gestegen.</p>
+<p><em>Waarom: Een verandering buiten de eigen prijs raakt de positie
+van de hele aanbodlijn, niet één enkel punt.</em></p>
+<p><strong>c)</strong> In Situatie 1 verandert de eigen prijs van brood,
+dus je beweegt langs de bestaande lijn naar een ander punt — een
+<strong>beweging langs</strong> de aanbodlijn. In Situatie 2 verandert
+juist een andere factor (bijvoorbeeld inputprijzen of aantal
+aanbieders). Daardoor schuift de hele lijn op: bij elke prijs wordt een
+andere hoeveelheid aangeboden. Dat is een <strong>verschuiving
+van</strong> de aanbodlijn.</p>
+<p><em>Vuistregel: prijs-zelf verandert → langs de lijn. Andere factor
+verandert → de hele lijn verschuift.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<p><strong>a)</strong> Stap 1: De eigen prijs van laptops daalt van €800
+naar €600.</p>
+<p>Stap 2: De eigen prijs verandert. Dus: beweging langs de
+aanbodlijn.</p>
+<p>Stap 3: De prijs daalt, dus de aangeboden hoeveelheid daalt. Je
+beweegt langs de aanbodlijn omlaag naar links.</p>
+<p>Stap 4: In de grafiek beweeg je van punt E (Q = 5.000, P = 800) langs
+de aanbodlijn naar een nieuw punt bij P = 600, met een lagere Q.</p>
+<p>Antwoord: Dit is een <strong>beweging langs</strong> de aanbodlijn
+omlaag-naar-links. De aangeboden hoeveelheid daalt.</p>
+<p><em>Waarom: Bij een lagere prijs is het voor minder producenten
+rendabel om te produceren. De aanbodlijn zelf verandert niet, want er is
+alleen iets met de eigen prijs gebeurd.</em></p>
+<p><strong>b)</strong> Stap 1: Een nieuwe chiptechnologie verlaagt de
+productiekosten.</p>
+<p>Stap 2: De eigen prijs van laptops verandert niet. Technologie is een
+aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Betere technologie = lagere kosten per eenheid. Producenten
+kunnen bij elke prijs meer aanbieden. De aanbodlijn verschuift naar
+<strong>rechts</strong> (van A₁ naar A₂).</p>
+<p>Stap 4: In de grafiek teken je A₂ rechts van A₁. Bij dezelfde prijs
+van €800 is de aangeboden hoeveelheid nu groter dan 5.000.</p>
+<p>Antwoord: Dit is een <strong>verschuiving van</strong> de aanbodlijn
+naar rechts. De aanbodfactor is technologie.</p>
+<p><em>Waarom: Betere technologie maakt de productie efficiënter. Elke
+laptop kost minder om te maken, waardoor bij elke prijs meer laptops
+rendabel geproduceerd kunnen worden.</em></p>
+<p><strong>c)</strong> Stap 1: De overheid voert een milieubelasting in
+op de productie van laptops.</p>
+<p>Stap 2: De eigen prijs van laptops verandert niet. Overheidsbeleid is
+een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Een belasting verhoogt de productiekosten. Producenten bieden
+bij elke prijs minder aan. De aanbodlijn verschuift naar
+<strong>links</strong> (van A₁ naar A₃).</p>
+<p>Antwoord: Dit is een <strong>verschuiving van</strong> de aanbodlijn
+naar links. De aanbodfactor is overheidsbeleid.</p>
+<p><em>Waarom: De milieubelasting werkt als een extra kostenpost.
+Producenten die voorheen net uit de kosten kwamen, kunnen dat nu niet
+meer. Bij elke prijs is de aangeboden hoeveelheid kleiner.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 3</strong></p>
+<p><strong>a)</strong> Stap 1: De eigen prijs van koffie daalt van €8
+naar €6 per kilo.</p>
+<p>Stap 2: De eigen prijs verandert. Dus: beweging langs de
+aanbodlijn.</p>
+<p>Stap 3: De prijs daalt, dus de aangeboden hoeveelheid daalt. Je
+beweegt langs de aanbodlijn omlaag naar links.</p>
+<p>Antwoord: <strong>Beweging langs</strong> de aanbodlijn,
+omlaag-naar-links. De aangeboden hoeveelheid daalt.</p>
+<p><em>Waarom: Een lagere prijs maakt het voor producenten minder
+rendabel om te produceren. De aanbodlijn zelf verschuift niet; je
+beweegt naar een ander punt op dezelfde lijn.</em></p>
+<p><strong>b)</strong> Stap 1: De kosten per kilo koffiebonen stijgen
+door een mislukte oogst.</p>
+<p>Stap 2: De eigen prijs van koffie verandert niet. Inputprijzen zijn
+een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Hogere inputprijzen = hogere productiekosten. Producenten
+bieden bij elke prijs minder aan. De aanbodlijn verschuift naar
+<strong>links</strong>.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> de aanbodlijn naar links.
+De aanbodfactor is de prijs van productiefactoren (inputprijzen).</p>
+<p><em>Waarom: Duurdere grondstoffen maken de productie kostbaarder.
+Producenten die voorheen net winst maakten, draaien nu verlies. Bij elke
+prijs wordt er minder koffie aangeboden.</em></p>
+<p><strong>c)</strong> Stap 1: De overheid verlaagt de importbelasting
+op koffie.</p>
+<p>Stap 2: De eigen prijs van koffie verandert niet. Overheidsbeleid is
+een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Een lagere belasting verlaagt de kosten. Producenten en
+importeurs kunnen bij elke prijs meer aanbieden. De aanbodlijn
+verschuift naar <strong>rechts</strong>.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> de aanbodlijn naar
+rechts. De aanbodfactor is overheidsbeleid.</p>
+<p><em>Waarom: Een lagere importbelasting maakt het goedkoper om koffie
+op de markt te brengen. Het aanbod stijgt bij elke prijs.</em></p>
+<p><strong>d)</strong> - Situatie a: eigen prijs - Situatie b:
+inputprijzen (prijs van productiefactoren) - Situatie c:
+overheidsbeleid</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<p><strong>a) Alleen verandering 1: T-shirts worden duurder</strong></p>
+<p>Stap 1: De eigen prijs van T-shirts stijgt van €15 naar €20.</p>
+<p>Stap 2: De eigen prijs verandert. Dus: <strong>beweging
+langs</strong> de aanbodlijn.</p>
+<p>Stap 3: Hogere prijs → grotere aangeboden hoeveelheid. Je beweegt
+langs de aanbodlijn omhoog-naar-rechts.</p>
+<p>Antwoord: <strong>Beweging langs</strong> de aanbodlijn,
+omhoog-naar-rechts. De aangeboden hoeveelheid T-shirts stijgt.</p>
+<p><em>Waarom: Bij een hogere prijs is het rendabeler om te produceren,
+dus bieden fabrikanten meer T-shirts aan. De lijn zelf verandert
+niet.</em></p>
+<p><strong>b) Alleen verandering 2: hogere loonkosten</strong></p>
+<p>Stap 1: Niet de eigen prijs van T-shirts verandert, maar de
+<strong>inputprijzen</strong> (loonkosten). De kosten stijgen.</p>
+<p>Stap 2: De eigen prijs verandert niet. Inputprijzen vormen een
+aanbodfactor. Dus: <strong>verschuiving van</strong> de hele
+aanbodlijn.</p>
+<p>Stap 3: Hogere loonkosten = hogere productiekosten. Producenten
+bieden bij elke prijs minder aan. De aanbodlijn verschuift naar
+<strong>links</strong>.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> de aanbodlijn naar links.
+De aanbodfactor is de prijs van productiefactoren (inputprijzen — hier:
+arbeid).</p>
+<p><em>Waarom: Hogere lonen maken elk T-shirt duurder om te produceren.
+Fabrikanten die voorheen net winst maakten, draaien nu verlies. Bij elke
+prijs is het aanbod kleiner.</em></p>
+<p><strong>c) Beide veranderingen tegelijk</strong></p>
+<p>De twee effecten <strong>werken tegen elkaar in</strong>: -
+Verandering 1 (eigen prijs ↑): beweging langs de aanbodlijn naar
+rechtsboven → meer T-shirts aangeboden. - Verandering 2 (inputprijzen
+↑): verschuiving van de aanbodlijn naar links → bij elke prijs minder
+T-shirts aangeboden.</p>
+<p>Het netto-effect hangt af van welk effect sterker is. De
+prijsstijging moedigt producenten aan om meer te maken, maar de hogere
+loonkosten remmen de productie. Zonder exacte getallen kun je niet
+zeggen welk effect domineert.</p>
+<p><em>Waarom: Het is belangrijk om te zien dat het “twee aparte
+verhalen” zijn die toevallig op dezelfde markt uitkomen. Eén beweegt je
+langs de bestaande lijn (de eigen prijsverandering), de ander schuift de
+hele lijn (de verandering in de inputprijzen). Ze werken via een ander
+mechanisme.</em></p>
+<p><strong>d) Foute redenering ontkracht</strong></p>
+<p>De leerling vergeet één ding: <strong>alleen de eigen prijs telt voor
+een beweging langs de aanbodlijn</strong>. De prijs van T-shirts is de
+eigen prijs — die geeft inderdaad een beweging langs de lijn. Maar de
+loonkosten zijn <em>niet</em> de eigen prijs van T-shirts. Hogere
+loonkosten zijn een verandering in de inputprijzen (een aanbodfactor),
+en dat geeft een verschuiving van de aanbodlijn.</p>
+<p><em>Vuistregel: kijk altijd vanuit het perspectief van het goed
+waarvan je de aanbodlijn tekent. Alleen veranderingen in dat goed z’n
+eigen prijs geven een beweging langs de lijn. Alle andere veranderingen
+zijn aanbodfactoren en verschuiven de hele lijn.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<p><strong>a)</strong> Vier aanbodfactoren die de aanbodlijn van
+biologische melk kunnen verschuiven: 1. Inputprijzen (prijs van
+productiefactoren) 2. Technologie 3. Aantal aanbieders 4.
+Overheidsbeleid</p>
+<p><em>Waarom: Deze factoren veranderen de aangeboden hoeveelheid bij
+elke prijs, waardoor de hele lijn verschuift. De eigen prijs is hier
+niet bij, want die veroorzaakt een beweging langs de lijn.</em></p>
+<p><strong>b)</strong> 1. <strong>Inputprijzen stijgen</strong>:
+aanbodlijn verschuift naar <strong>links</strong>. Voorbeeld: de prijs
+van biologisch veevoer stijgt door slechte oogsten, waardoor melkboeren
+minder rendabel kunnen produceren.</p>
+<ol start="2" type="1">
+<li><p><strong>Betere technologie</strong>: aanbodlijn verschuift naar
+<strong>rechts</strong>. Voorbeeld: een nieuwe melkrobot maakt het
+melken efficiënter en goedkoper.</p></li>
+<li><p><strong>Meer aanbieders</strong>: aanbodlijn verschuift naar
+<strong>rechts</strong>. Voorbeeld: drie conventionele boerderijen
+schakelen over op biologische productie.</p></li>
+<li><p><strong>Overheidssubsidie</strong>: aanbodlijn verschuift naar
+<strong>rechts</strong>. Voorbeeld: de overheid geeft €0,10 subsidie per
+liter biologische melk om duurzame landbouw te stimuleren.</p></li>
+</ol>
+<p><strong>c)</strong> Stap 1: De prijs van biologisch veevoer
+(grondstof) stijgt met 30%.</p>
+<p>Stap 2: De eigen prijs van melk verandert niet. De prijs van een
+productiefactor is een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Hogere inputprijzen = hogere productiekosten. Producenten
+bieden bij elke prijs minder aan. De aanbodlijn verschuift naar
+<strong>links</strong> (van A₁ naar A₂).</p>
+<p>Stap 4: In de grafiek: teken A₁ met punt E bij (Q = 50.000, P =
+1,20). Teken A₂ links van A₁.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> de aanbodlijn naar links.
+De aanbodfactor is de prijs van productiefactoren (inputprijzen).</p>
+<p><em>Waarom: Duurder veevoer maakt elke liter melk duurder om te
+produceren. Boeren die voorheen net uit de kosten kwamen, stoppen of
+produceren minder. Bij elke prijs wordt er minder biologische melk
+aangeboden.</em></p>
+<p><strong>d)</strong> Stap 1: De zuivelcoöperatie verhoogt de melkprijs
+van €1,20 naar €1,50.</p>
+<p>Stap 2: Nu verandert de eigen prijs. Dus: beweging langs de (nieuwe)
+aanbodlijn A₂.</p>
+<p>Stap 3: De prijs stijgt, dus de aangeboden hoeveelheid stijgt. Je
+beweegt langs A₂ omhoog naar rechts.</p>
+<p>Stap 4: In de grafiek beweeg je langs A₂ van het punt bij P = 1,20
+naar een nieuw punt bij P = 1,50.</p>
+<p>Antwoord: Dit is een <strong>beweging langs</strong> de aanbodlijn
+A₂, omhoog-naar-rechts. Let op: je beweegt langs de verschoven lijn A₂,
+niet langs de oorspronkelijke A₁.</p>
+<p><em>Waarom: Na de verschuiving door de dure grondstoffen is A₂ de
+relevante aanbodlijn. De prijsverhoging van de coöperatie leidt tot een
+beweging langs die nieuwe lijn. Dit laat zien dat verschuivingen en
+bewegingen na elkaar kunnen optreden — net als bij de vraaglijn in
+§1.2.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 6</strong></p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th></th>
+<th>Beweging of verschuiving?</th>
+<th>Richting</th>
+<th>Aanbodfactor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>Beweging langs de aanbodlijn</td>
+<td>Omhoog-naar-rechts (meer aangeboden)</td>
+<td>Eigen prijs</td>
+</tr>
+<tr>
+<td>b</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar rechts (meer aanbod)</td>
+<td>Inputprijzen (grondstof wordt goedkoper → lagere kosten)</td>
+</tr>
+<tr>
+<td>c</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar rechts (meer aanbod)</td>
+<td>Aantal aanbieders (meer fabrieken)</td>
+</tr>
+<tr>
+<td>d</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar links (minder aanbod nu)</td>
+<td>Verwachtingen (producenten houden voorraad achter in afwachting van
+hogere prijzen)</td>
+</tr>
+<tr>
+<td>e</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar links (minder aanbod)</td>
+<td>Overheidsbeleid (belasting verhoogt productiekosten)</td>
+</tr>
+<tr>
+<td>f</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar rechts (meer aanbod)</td>
+<td>Technologie (efficiëntere productie)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Waarom bij a: Alleen bij de eigen prijs beweeg je langs de lijn.
+Bij alle andere situaties (b t/m f) verandert er iets anders dan de
+eigen prijs, waardoor de hele aanbodlijn verschuift. Dit is het
+kernonderscheid van deze paragraaf.</em></p>
+<p><em>Waarom bij d: Fabrikanten verwachten hogere prijzen in de
+toekomst. Ze houden nu voorraad achter om later te verkopen tegen een
+hogere prijs. Het huidige aanbod daalt, dus de aanbodlijn verschuift
+naar links.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 7</strong> <em>(herhaling §1.1.2: procentuele
+verandering)</em></p>
+<p><strong>a)</strong> Stap 1: Noteer de formule voor procentuele
+verandering. Procentuele verandering = (nieuw - oud) / oud × 100%</p>
+<p>Stap 2: Vul de waarden in. = (32 - 25) / 25 × 100% = 7 / 25 × 100% =
+28%</p>
+<p>Antwoord: De prijs van silicium is met <strong>28%</strong>
+gestegen.</p>
+<p><em>Waarom: De procentuele verandering drukt uit hoe groot de
+verandering is ten opzichte van het oorspronkelijke bedrag. €7 op €25 is
+een stijging van 28%.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.1.2.</em></p>
+<p><strong>b)</strong> Stap 1: De nieuwe prijs = oude prijs × (1 -
+percentage / 100).</p>
+<p>Stap 2: Vul in. = 32 × (1 - 15/100) = 32 × 0,85 = €27,20</p>
+<p>Antwoord: De nieuwe prijs is <strong>€27,20</strong> per kilo.</p>
+<p><em>Waarom: Bij een daling van 15% vermenigvuldig je met 0,85. Je
+rekent door vanuit €32 (niet €25), want de daling gaat over de prijs na
+de eerste stijging.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.1.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 8</strong> <em>(herhaling §1.2.1: betalingsbereidheid
+en individuele vraag)</em></p>
+<p><strong>a)</strong> Stap 1: Noteer de formule. Consumentensurplus =
+betalingsbereidheid - prijs</p>
+<p>Stap 2: Vul in. = €350 - €290 = €60</p>
+<p>Antwoord: Het consumentensurplus is <strong>€60</strong>.</p>
+<p><em>Waarom: De consument wilde maximaal €350 betalen maar betaalt
+slechts €290. Het verschil (€60) is zijn ‘winst’ als consument.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.1.</em></p>
+<p><strong>b)</strong> Stap 1: Vergelijk de prijs met de
+betalingsbereidheid. Prijs = €375, betalingsbereidheid = €350.</p>
+<p>Stap 2: De prijs is hoger dan de betalingsbereidheid.</p>
+<p>Antwoord: De consument koopt het paneel <strong>niet</strong>. De
+prijs (€375) is hoger dan zijn maximale betalingsbereidheid (€350). Hij
+zou €25 meer moeten betalen dan het paneel hem waard is.</p>
+<p><em>Waarom: Een consument koopt alleen als de prijs gelijk is aan of
+lager dan de betalingsbereidheid. Bij een hogere prijs is het
+consumentensurplus negatief en ziet de consument af van de
+aankoop.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.1.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 9</strong> <em>(herhaling §1.2.2: vraagfactoren —
+verschuiving versus beweging)</em></p>
+<p><strong>a)</strong> Stap 1: De eigen prijs van hardloopschoenen
+stijgt van €120 naar €140.</p>
+<p>Stap 2: De eigen prijs verandert. Dus: beweging langs de
+vraaglijn.</p>
+<p>Stap 3: De prijs stijgt, dus de gevraagde hoeveelheid daalt. Je
+beweegt langs de vraaglijn omhoog naar links.</p>
+<p>Antwoord: Dit is een <strong>beweging langs</strong> de vraaglijn,
+omhoog-naar-links. De gevraagde hoeveelheid daalt.</p>
+<p><em>Waarom: Alleen een verandering van de eigen prijs leidt tot een
+beweging langs de vraaglijn. De vraaglijn zelf verandert niet.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.2.</em></p>
+<p><strong>b)</strong> Stap 1: Een influencer promoot hardlopen. De
+eigen prijs verandert niet.</p>
+<p>Stap 2: De voorkeur (preferentie) van consumenten verandert. Dit is
+een vraagfactor. Dus verschuift de vraaglijn.</p>
+<p>Stap 3: Consumenten vinden hardlopen aantrekkelijker. Bij elke prijs
+willen ze meer hardloopschoenen kopen. De vraaglijn verschuift naar
+<strong>rechts</strong>.</p>
+<p>Antwoord: Dit is een <strong>verschuiving van</strong> de vraaglijn
+naar rechts. De vraagfactor is de voorkeur (preferentie).</p>
+<p><em>Waarom: De influencer verandert niet de prijs, maar de voorkeur
+van consumenten. Een verandering buiten de eigen prijs verschuift de
+hele vraaglijn.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 10</strong> <em>(doeloefening)</em></p>
+<p><strong>a)</strong> Stap 1: De siliciumprijzen stijgen. Silicium is
+een grondstof (productiefactor) voor zonnepanelen.</p>
+<p>Stap 2: De eigen prijs van zonnepanelen verandert niet. De inputprijs
+is een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Hogere inputprijzen = hogere productiekosten. Producenten
+bieden bij elke prijs minder panelen aan. De aanbodlijn verschuift naar
+<strong>links</strong> (van A₁ naar A₂).</p>
+<p>Stap 4: In de grafiek teken je A₁ (de oorspronkelijke aanbodlijn).
+Teken A₂ links van A₁, met een horizontale pijl die de verschuiving
+aangeeft.</p>
+<p>Antwoord: De aanbodlijn verschuift naar <strong>links</strong>. Dit
+is een verschuiving van de aanbodlijn. De aanbodfactor is de prijs van
+productiefactoren (inputprijzen — hier: silicium).</p>
+<p><em>Waarom: Duurder silicium maakt elk zonnepaneel duurder om te
+produceren. Producenten die voorheen net uit de kosten kwamen, stoppen
+of verminderen de productie. Bij elke prijs is de aangeboden hoeveelheid
+kleiner.</em></p>
+<p><strong>b)</strong> Stap 1: De overheid voert een productiesubsidie
+in.</p>
+<p>Stap 2: De eigen prijs van zonnepanelen verandert niet.
+Overheidsbeleid is een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Een subsidie verlaagt de effectieve productiekosten.
+Producenten kunnen bij elke prijs meer panelen aanbieden. De aanbodlijn
+verschuift naar <strong>rechts</strong> (van A₁ naar A₃).</p>
+<p>Stap 4: In de grafiek teken je A₃ rechts van A₁, met een horizontale
+pijl die de verschuiving aangeeft.</p>
+<p>Antwoord: De aanbodlijn verschuift naar <strong>rechts</strong>. Dit
+is een verschuiving van de aanbodlijn. De aanbodfactor is
+overheidsbeleid (subsidie).</p>
+<p><em>Waarom: De subsidie werkt als een verlaging van de kosten. Elke
+geproduceerde eenheid levert de fabrikant een bijdrage van de overheid
+op. Daardoor wordt het bij een lagere prijs al rendabel om te
+produceren.</em></p>
+<p><strong>c)</strong> Drie factoren die de aanbodlijn doen verschuiven,
+met een voorbeeld:</p>
+<ol type="1">
+<li><p><strong>Inputprijzen (prijs van productiefactoren)</strong> — Als
+de prijs van silicium stijgt, worden zonnepanelen duurder om te maken.
+De aanbodlijn verschuift naar links. Voorbeeld: door schaarste op de
+grondstoffenmarkt verdubbelt de prijs van silicium.</p></li>
+<li><p><strong>Technologie</strong> — Een betere productietechniek
+verlaagt de kosten per paneel. De aanbodlijn verschuift naar rechts.
+Voorbeeld: een nieuwe lasertechniek maakt het mogelijk om solarcellen
+sneller en goedkoper te produceren.</p></li>
+<li><p><strong>Overheidsbeleid</strong> — Een subsidie verlaagt de
+kosten voor producenten. De aanbodlijn verschuift naar rechts.
+Voorbeeld: de overheid geeft €50 subsidie per geproduceerd
+zonnepaneel.</p></li>
+</ol>
+<p><em>Waarom: Al deze factoren hebben gemeen dat ze de aangeboden
+hoeveelheid bij elke prijs veranderen. Daarom verschuift de hele
+aanbodlijn, in tegenstelling tot een verandering van de eigen prijs, die
+alleen een beweging langs de bestaande lijn veroorzaakt.</em></p>
+<blockquote>
+<p>⚠️ Andere correcte combinaties zijn ook mogelijk. Naast inputprijzen,
+technologie en overheidsbeleid kun je ook het aantal aanbieders of de
+verwachtingen van producenten noemen. Elk van de vijf aanbodfactoren is
+een goed antwoord, mits het voorbeeld klopt.</p>
+</blockquote>
+<p><strong>d)</strong> Stap 1: Teken een aanbodlijn A₁ van linksonder
+naar rechtsboven.</p>
+<p>Stap 2: Teken een <strong>beweging langs</strong> de lijn: een pijl
+die langs A₁ loopt van punt A naar punt B (bijvoorbeeld van P = €200
+naar P = €400). Label: “Beweging langs de lijn (eigen prijs
+verandert)”.</p>
+<p>Stap 3: Teken een <strong>verschuiving van</strong> de lijn: een
+nieuwe aanbodlijn A₂ rechts van A₁ (of links van A₁). Teken een
+horizontale pijl tussen A₁ en A₂. Label: “Verschuiving van de lijn
+(aanbodfactor verandert)”.</p>
+<p>Antwoord: De grafiek toont twee verschillende veranderingen. De
+beweging langs de lijn (pijl langs A₁) wordt veroorzaakt door een
+verandering van de eigen prijs. De verschuiving (A₁ → A₂) wordt
+veroorzaakt door een verandering van een aanbodfactor.</p>
+<p><em>Waarom: Het verschil is cruciaal. Bij een beweging langs de lijn
+verandert alleen het punt waarop je zit — de relatie tussen prijs en
+aangeboden hoeveelheid blijft hetzelfde. Bij een verschuiving verandert
+de hele relatie: bij elke prijs wordt een andere hoeveelheid
+aangeboden.</em></p>
+<hr />
+</div><h2 id="denkertje-modelantwoord-en-beoordelingscriteria">Denkertje —
+modelantwoord en beoordelingscriteria</h2>
+<p><em>Modelantwoord:</em></p>
+<p><strong>Maatregel A (subsidie)</strong> werkt via de aanbodfactor
+<em>overheidsbeleid</em>. De subsidie van €2 per kilogram verlaagt de
+effectieve productiekosten voor waterstofproducenten. Bij elke
+marktprijs kunnen zij meer waterstof aanbieden. De aanbodlijn verschuift
+naar rechts. Dit effect houdt aan zolang de subsidie wordt betaald.
+Stopt de subsidie, dan keren de productiekosten terug naar het oude
+niveau en verschuift de aanbodlijn weer terug naar links.</p>
+<p><strong>Maatregel B (onderzoek)</strong> werkt via de aanbodfactor
+<em>technologie</em>. Als het onderzoek slaagt en een goedkopere
+productiemethode oplevert, dalen de productiekosten structureel. Bij
+elke prijs kunnen producenten meer waterstof aanbieden. De aanbodlijn
+verschuift naar rechts. Dit effect is in principe blijvend: de kennis
+verdwijnt niet als de overheid stopt met investeren.</p>
+<p>De stelling van de criticus heeft een kern van waarheid. Een subsidie
+is een jaarlijks terugkerende uitgave die het aanbod alleen beïnvloedt
+zolang hij wordt betaald — de productietechnologie verandert niet,
+alleen de kosten voor de producent. Een technologische doorbraak
+verandert de productiekosten structureel: de nieuwe methode blijft
+beschikbaar, ook zonder verdere overheidsinvestering.</p>
+<p>Maar de stelling is te absoluut. Ten eerste is het rendement van
+onderzoek onzeker: de investering kan mislukken zonder resultaat,
+terwijl een subsidie direct effect heeft. Ten tweede kan een subsidie
+ook indirect de technologie verbeteren: als de subsidie ervoor zorgt dat
+meer bedrijven waterstof produceren, groeit de markt en ontstaan er
+<em>schaalvoordelen</em> — de kosten dalen dan ook zonder technologische
+doorbraak. Een combinatie van beide maatregelen is waarschijnlijk het
+effectiefst: de subsidie stimuleert productie op korte termijn, terwijl
+het onderzoek zorgt voor kostendalingen op lange termijn.</p>
+<p><em>Beoordelingscriteria:</em> - Correct benoemen welke aanbodfactor
+bij elke maatregel hoort (overheidsbeleid vs. technologie) - Juiste
+koppeling: subsidie = aanbodlijn verschuift naar rechts zolang subsidie
+loopt; technologie = aanbodlijn verschuift naar rechts, potentieel
+blijvend - Beoordeling van de stelling met economische argumenten (niet
+alleen een mening) - Het begrip productiekosten wordt correct gebruikt
+bij het uitleggen van het mechanisme achter beide maatregelen</p>
+</body>
+</html>

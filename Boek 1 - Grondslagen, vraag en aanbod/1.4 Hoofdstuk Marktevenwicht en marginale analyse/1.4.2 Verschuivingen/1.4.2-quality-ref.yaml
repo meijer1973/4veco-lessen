@@ -1,0 +1,43 @@
+# Quality Reference - 1.4.2 Verschuivingen en nieuw evenwicht
+# Generated: 2026-04-23
+
+paragraph: "1.4.2"
+title: "Verschuivingen en nieuw evenwicht"
+type: theory
+framework_version: "onderzoekskader 2021, bijgesteld 2025"
+standards_verified: "2026-04-12"
+
+content:
+  paragraaf_md: true
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: true
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  build_pdf_py: true
+
+assets:
+  total_referenced: 8
+  total_present: 8
+  missing: []
+  orphaned: []
+  svgpng_paired: true
+  naming_compliant: true
+  inventory:
+    - 1.4.2_fig_1 (schriftenmarkt in evenwicht)
+    - 1.4.2_fig_2 (aanbodlijn naar rechts)
+    - 1.4.2_fig_3 (vraaglijn naar rechts)
+    - 1.4.2_fig_4 (overzicht aanbod versus vraag)
+    - 1.4.2_fig_5 (effecten van verschuivingen)
+    - 1.4.2_we_1 (uitgewerkt voorbeeld fietsbellen)
+    - 1.4.2_ex_1 (opgave 5d verschuivingen)
+    - 1.4.2_ex_2 (opgave 5e beide verschuivingen)
+
+review:
+  file: "1.4.2-review.md"
+  unresolved_blockers: 0
+  verdict: "PASS WITH FLAGS"
+  flags:
+    - "Forward reference in summary points to surplus instead of MK/MO."
+    - "Opgave 8e frames a predictable price increase as ambiguous."
+    - "Opgaven staan zowel in paragraaf.md als opgaven.md."

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  
+<style>
+/* === Layout inspired by CITO VWO exam papers ===
+   Wide left margin, clean sans-serif, generous line spacing.
+   Domain colors retained for headings/blockquotes (textbook hierarchy). */
+
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;  /* top right bottom left — exam-like indented body */
+  @bottom-left   { content: "1.1.2 Percentages en indexcijfers"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+/* h2 mimics the "Opgave 1 Zorgverzekering" heading: bold + thin underline */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === (simple, exam-style, no colored header background) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 6pt 10pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 5pt 10pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+/* Bare images (not in figure) */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+/* Allow exercises to break across pages to avoid whitespace,
+   but keep the "Opgave X" title with at least 2 lines of content. */
+.exercise {
+  margin-bottom: 8pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="percentages-en-indexcijfers-antwoorden">1.1.2 Percentages en
+indexcijfers — antwoorden</h1>
+</div><h2 id="opgave-1">Opgave 1</h2>
+<p><strong>(a)</strong> Procentuele prijsstijging fiets</p>
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 64%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Noteer de oude en nieuwe waarde</td>
+<td>Oud = €800 · Nieuw = €920</td>
+</tr>
+<tr>
+<td>2. (nieuw − oud) / oud × 100%</td>
+<td>(920 − 800) / 800 × 100% = 120 / 800 × 100% =
+<strong>15%</strong></td>
+</tr>
+<tr>
+<td>3. Positief of negatief?</td>
+<td>Positief → prijsstijging van 15%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(b)</strong> Procentuele prijsdaling fiets</p>
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 64%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Noteer de oude en nieuwe waarde</td>
+<td>Oud = €920 · Nieuw = €800</td>
+</tr>
+<tr>
+<td>2. (nieuw − oud) / oud × 100%</td>
+<td>(800 − 920) / 920 × 100% = −120 / 920 × 100% =
+<strong>−13,0%</strong></td>
+</tr>
+<tr>
+<td>3. Positief of negatief?</td>
+<td>Negatief → prijsdaling van 13,0%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Toelichting:</strong> Het percentage is anders omdat de oude
+waarde (de noemer) verschilt. Bij de stijging deel je door €800, bij de
+daling door €920. Hetzelfde absolute bedrag (€120) is een groter
+percentage van een kleiner getal.</p>
+<hr />
+</div><h2 id="opgave-2">Opgave 2</h2>
+<p><strong>(a)</strong> Indexcijfer 2024</p>
+<table>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Bepaal het basisjaar</td>
+<td>Basisjaar = 2023, basiswaarde = €150</td>
+</tr>
+<tr>
+<td>2. (waarde / basiswaarde) × 100</td>
+<td>(156 / 150) × 100 = <strong>104</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>(b)</strong> Indexcijfer 2025</p>
+<table>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Bepaal het basisjaar</td>
+<td>Basisjaar = 2023, basiswaarde = €150</td>
+</tr>
+<tr>
+<td>2. (waarde / basiswaarde) × 100</td>
+<td>(162 / 150) × 100 = <strong>108</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>(c)</strong> Procentuele prijsstijging 2024 → 2025</p>
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 64%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Noteer de indexcijfers</td>
+<td>Oud (2024) = 104 · Nieuw (2025) = 108</td>
+</tr>
+<tr>
+<td>2. (nieuw − oud) / oud × 100%</td>
+<td>(108 − 104) / 104 × 100% = 4 / 104 × 100% =
+<strong>3,8%</strong></td>
+</tr>
+<tr>
+<td>3. Positief of negatief?</td>
+<td>Positief → prijsstijging van 3,8%</td>
+</tr>
+</tbody>
+</table>
+<p>Let op: het verschil is 4 indexpunten, maar de procentuele stijging
+is 3,8%.</p>
+<hr />
+</div><h2 id="opgave-3">Opgave 3</h2>
+<p><strong>(a)</strong> Procentuele loonstijging 2022 → 2024</p>
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 64%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Noteer de oude en nieuwe waarde</td>
+<td>Oud = €3.000 · Nieuw = €3.240</td>
+</tr>
+<tr>
+<td>2. (nieuw − oud) / oud × 100%</td>
+<td>(3.240 − 3.000) / 3.000 × 100% = 240 / 3.000 × 100% =
+<strong>8%</strong></td>
+</tr>
+<tr>
+<td>3. Positief of negatief?</td>
+<td>Positief → loonstijging van 8%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(b)</strong> Benodigd loon om koopkracht te behouden</p>
+<p>Het prijsindexcijfer is 112 in 2024 (basis 2022 = 100). Dit betekent
+dat de prijzen met 12% zijn gestegen. Om dezelfde koopkracht te
+behouden, moet het loon ook met 12% stijgen:</p>
+<p>€3.000 × (112 / 100) = €3.000 × 1,12 = <strong>€3.360</strong></p>
+<p><strong>(c)</strong> Koopkrachtbeoordeling</p>
+<p>Het feitelijke loon (€3.240) is <strong>lager</strong> dan het
+benodigde loon voor gelijke koopkracht (€3.360). De koopkracht is dus
+<strong>gedaald</strong>.</p>
+<p>Alternatieve berekening: het loonindexcijfer = (3.240 / 3.000) × 100
+= 108. Het prijsindexcijfer = 112. Het loon is met 8% gestegen, maar de
+prijzen met 12%. De koopkracht is gedaald: de werknemer kan minder kopen
+dan in 2022.</p>
+<hr />
+</div><h2 id="opgave-4">Opgave 4</h2>
+<p><strong>(a)</strong> Procentuele prijsstijging 2023 → 2024</p>
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 64%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Noteer de indexcijfers</td>
+<td>Oud (2023) = 108 · Nieuw (2024) = 112</td>
+</tr>
+<tr>
+<td>2. (nieuw − oud) / oud × 100%</td>
+<td>(112 − 108) / 108 × 100% = 4 / 108 × 100% =
+<strong>3,7%</strong></td>
+</tr>
+<tr>
+<td>3. Positief of negatief?</td>
+<td>Positief → prijsstijging van 3,7%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(b)</strong> De leerling verwart indexpunten met
+procenten.</p>
+<p>Het indexcijfer steeg met 4 <strong>indexpunten</strong> (van 108
+naar 112). Maar de procentuele verandering is niet 4%, want je moet de 4
+punten delen door het <strong>oude</strong> indexcijfer (108):</p>
+<p>(112 − 108) / 108 × 100% = 4 / 108 × 100% = <strong>3,7%</strong></p>
+<p>De inflatie is 3,7%, niet 4%. Indexpunten zijn alleen gelijk aan
+procenten als het oude indexcijfer precies 100 is.</p>
+<p><strong>(c)</strong> Procentuele prijsverandering 2025 → 2026</p>
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 64%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Noteer de indexcijfers</td>
+<td>Oud (2025) = 115 · Nieuw (2026) = 112</td>
+</tr>
+<tr>
+<td>2. (nieuw − oud) / oud × 100%</td>
+<td>(112 − 115) / 115 × 100% = −3 / 115 × 100% =
+<strong>−2,6%</strong></td>
+</tr>
+<tr>
+<td>3. Positief of negatief?</td>
+<td>Negatief → prijsdaling van 2,6%</td>
+</tr>
+</tbody>
+</table>
+<p>Economisch betekent dit <strong>deflatie</strong>: het algemene
+prijspeil daalt. Consumenten betalen gemiddeld minder voor dezelfde
+goederen en diensten.</p>
+<p><strong>(d)</strong> De uitspraak klopt. Het indexcijfer in 2026
+(112) is gelijk aan het indexcijfer in 2024 (112). Beide jaren liggen
+even ver boven het basisjaar 2020. Het prijspeil is eerst gestegen (van
+112 naar 115 in 2025) en daarna weer gedaald naar het niveau van 2024.
+De prijzen zijn in 2026 inderdaad op hetzelfde niveau als in 2024 (beide
+12% hoger dan het basisjaar).</p>
+<hr />
+</div><h2 id="opgave-5">Opgave 5</h2>
+<p><strong>(a)</strong> Rekenvoorbeeld met startprijs €100</p>
+<ul>
+<li>Stap 1: Prijsverhoging van 20%: €100 × 1,20 = €120</li>
+<li>Stap 2: Korting van 20% op de nieuwe prijs: €120 × 0,80 =
+<strong>€96</strong></li>
+</ul>
+<p>De klant heeft ongelijk: de prijs is niet terug bij €100, maar bij
+€96. De klant betaalt €4 minder dan de oorspronkelijke prijs.</p>
+<p><strong>(b)</strong> De 20% korting wordt berekend over een
+<strong>hoger</strong> bedrag (€120) dan de oorspronkelijke prijs
+(€100). 20% van €120 = €24, terwijl 20% van €100 = €20. De korting (€24)
+is groter dan de oorspronkelijke verhoging (€20), waardoor de prijs
+onder het oorspronkelijke niveau uitkomt.</p>
+<p>Om terug te keren naar de oorspronkelijke prijs, moet de korting
+precies €20 zijn. Maar €20 op €120 is een lager percentage dan 20%.</p>
+<p><strong>(c)</strong> De prijs na de verhoging is €120. We zoeken het
+percentage korting dat de prijs terugbrengt naar €100.</p>
+<p>Verschil: €120 − €100 = €20</p>
+<p>Kortingspercentage: (20 / 120) × 100% = <strong>16,7%</strong></p>
+<p>Controle: €120 × (1 − 0,167) = €120 × 0,833 = €100 ✓</p>
+</body>
+</html>

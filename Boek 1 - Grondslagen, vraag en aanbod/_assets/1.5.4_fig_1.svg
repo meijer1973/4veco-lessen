@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial">
+  <!-- Background -->
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">Markt voor hardloopschoenen</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="180" text-anchor="middle" font-size="12" fill="#718096" transform="rotate(-90, 15, 180)">Prijs (€)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,310 670,306 670,314" fill="#2D3748"/>
+  <text x="380" y="350" text-anchor="middle" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="325" text-anchor="end" font-size="11" fill="#718096">0</text>
+
+  <!--
+    Coordinate mapping:
+    Economic space: P = 0..80, Q = 0..100
+    Plot area: x = 80..680 (600px for Q 0..100), y = 310..50 (260px for P 0..80)
+    x = 80 + Q * 6
+    y = 310 - P * 3.25
+
+    Demand (V): Qv = -P + 80
+      At P=0: Q=80 → x=560, y=310
+      At P=80: Q=0 → x=80, y=50
+
+    Supply (A): Qa = 2P - 40
+      At P=20: Q=0 → x=80, y=245
+      At P=70: Q=100 → x=680, y=82.5
+
+    Equilibrium: P*=40, Q*=40
+      x = 80 + 40*6 = 320, y = 310 - 40*3.25 = 180
+  -->
+
+  <!-- Demand line (V): from (80, 50) to (560, 310) -->
+  <line x1="80" y1="50" x2="560" y2="310" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="565" y="305" font-size="12" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- Supply line (A): from (80, 245) to (680, 82.5) -->
+  <line x1="80" y1="245" x2="680" y2="83" stroke="#1E8449" stroke-width="2.5"/>
+  <text x="685" y="83" font-size="12" font-weight="bold" fill="#1E8449">A</text>
+
+  <!-- Equilibrium point E at (320, 180) -->
+  <circle cx="320" cy="180" r="4.5" fill="#E74C3C"/>
+
+  <!-- Dashed lines from equilibrium to axes -->
+  <line x1="320" y1="180" x2="320" y2="310" stroke="#E74C3C" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="320" y1="180" x2="80" y2="180" stroke="#E74C3C" stroke-width="1" stroke-dasharray="5,4"/>
+
+  <!-- Axis labels for equilibrium -->
+  <text x="72" y="184" text-anchor="end" font-size="11" fill="#2D3748">40</text>
+  <text x="320" y="325" text-anchor="middle" font-size="11" fill="#2D3748">40</text>
+
+  <!-- Additional axis markers for context -->
+  <!-- P-axis: mark P=20 (A intercept) and P=80 (V intercept) -->
+  <text x="72" y="249" text-anchor="end" font-size="10" fill="#718096">20</text>
+  <line x1="76" y1="245" x2="84" y2="245" stroke="#2D3748" stroke-width="1"/>
+
+  <text x="72" y="54" text-anchor="end" font-size="10" fill="#718096">80</text>
+  <line x1="76" y1="50" x2="84" y2="50" stroke="#2D3748" stroke-width="1"/>
+
+  <!-- Q-axis: mark Q=80 (V intercept) -->
+  <text x="560" y="325" text-anchor="middle" font-size="10" fill="#718096">80</text>
+  <line x1="560" y1="306" x2="560" y2="314" stroke="#2D3748" stroke-width="1"/>
+
+  <!-- E label -->
+  <text x="332" y="172" font-size="11" font-weight="bold" fill="#E74C3C">E</text>
+</svg>

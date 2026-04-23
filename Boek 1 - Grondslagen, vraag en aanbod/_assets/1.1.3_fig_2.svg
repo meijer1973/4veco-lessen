@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Arial">
+  <!-- Background -->
+  <rect width="720" height="400" fill="#F7FAFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="360" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">Figuur 2: Interpolatie — aflezen bij P = €1,75</text>
+
+  <!-- Plot area: x=80..680, y=45..340 -->
+
+  <!-- Y-axis -->
+  <line x1="80" y1="340" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+
+  <!-- X-axis -->
+  <line x1="80" y1="340" x2="680" y2="340" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,340 670,336 670,344" fill="#2D3748"/>
+
+  <!-- Y-axis label -->
+  <text x="15" y="195" text-anchor="middle" font-size="12" fill="#718096" transform="rotate(-90, 15, 195)">Prijs (€)</text>
+
+  <!-- X-axis label -->
+  <text x="380" y="385" text-anchor="middle" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="355" text-anchor="end" font-size="11" fill="#718096">0</text>
+
+  <!-- Y-axis ticks: same scale as fig_1 -->
+  <line x1="76" y1="298" x2="80" y2="298" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="302" text-anchor="end" font-size="10" fill="#718096">0,50</text>
+
+  <line x1="76" y1="256" x2="80" y2="256" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="260" text-anchor="end" font-size="10" fill="#718096">1,00</text>
+
+  <line x1="76" y1="214" x2="80" y2="214" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="218" text-anchor="end" font-size="10" fill="#718096">1,50</text>
+
+  <line x1="76" y1="171" x2="80" y2="171" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="175" text-anchor="end" font-size="10" fill="#718096">2,00</text>
+
+  <line x1="76" y1="129" x2="80" y2="129" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="133" text-anchor="end" font-size="10" fill="#718096">2,50</text>
+
+  <line x1="76" y1="87" x2="80" y2="87" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="91" text-anchor="end" font-size="10" fill="#718096">3,00</text>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="298" x2="680" y2="298" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="256" x2="680" y2="256" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="214" x2="680" y2="214" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="171" x2="680" y2="171" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="129" x2="680" y2="129" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="87" x2="680" y2="87" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <!-- X-axis ticks -->
+  <line x1="180" y1="340" x2="180" y2="344" stroke="#2D3748" stroke-width="1"/>
+  <text x="180" y="358" text-anchor="middle" font-size="10" fill="#718096">100</text>
+
+  <line x1="280" y1="340" x2="280" y2="344" stroke="#2D3748" stroke-width="1"/>
+  <text x="280" y="358" text-anchor="middle" font-size="10" fill="#718096">200</text>
+
+  <line x1="380" y1="340" x2="380" y2="344" stroke="#2D3748" stroke-width="1"/>
+  <text x="380" y="358" text-anchor="middle" font-size="10" fill="#718096">300</text>
+
+  <line x1="480" y1="340" x2="480" y2="344" stroke="#2D3748" stroke-width="1"/>
+  <text x="480" y="358" text-anchor="middle" font-size="10" fill="#718096">400</text>
+
+  <line x1="580" y1="340" x2="580" y2="344" stroke="#2D3748" stroke-width="1"/>
+  <text x="580" y="358" text-anchor="middle" font-size="10" fill="#718096">500</text>
+
+  <!-- Vertical grid lines -->
+  <line x1="180" y1="45" x2="180" y2="340" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="280" y1="45" x2="280" y2="340" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="380" y1="45" x2="380" y2="340" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="480" y1="45" x2="480" y2="340" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="580" y1="45" x2="580" y2="340" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <!-- Data line -->
+  <polyline points="580,256 480,214 380,171 280,129 180,87" fill="none" stroke="#1A5276" stroke-width="2.5"/>
+
+  <!-- Data points -->
+  <circle cx="580" cy="256" r="5" fill="#1A5276"/>
+  <circle cx="480" cy="214" r="5" fill="#1A5276"/>
+  <circle cx="380" cy="171" r="5" fill="#1A5276"/>
+  <circle cx="280" cy="129" r="5" fill="#1A5276"/>
+  <circle cx="180" cy="87" r="5" fill="#1A5276"/>
+
+  <!-- Interpolation at P=1.75 → Q=350 -->
+  <!-- P=1.75 → y = 340 - 1.75*84.3 = 340 - 147.5 = 192.5 -->
+  <!-- Q=350 → x = 80 + 350*1 = 80 + 350*(600/600) = 80 + 350 = 430 -->
+
+  <!-- Horizontal dashed line from y-axis to the data line at P=1.75 -->
+  <line x1="80" y1="193" x2="430" y2="193" stroke="#E67E22" stroke-width="2" stroke-dasharray="8,5"/>
+
+  <!-- Vertical dashed line from data line down to x-axis at Q=350 -->
+  <line x1="430" y1="193" x2="430" y2="340" stroke="#E67E22" stroke-width="2" stroke-dasharray="8,5"/>
+
+  <!-- Interpolation point -->
+  <circle cx="430" cy="193" r="6" fill="#E67E22"/>
+
+  <!-- Labels for interpolation -->
+  <text x="72" y="197" text-anchor="end" font-size="11" font-weight="bold" fill="#E67E22">1,75</text>
+  <text x="430" y="370" text-anchor="middle" font-size="11" font-weight="bold" fill="#E67E22">≈ 350</text>
+
+  <!-- Annotation arrow/label -->
+  <text x="460" y="180" font-size="11" font-weight="bold" fill="#E67E22">interpolatie</text>
+</svg>

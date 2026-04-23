@@ -1,0 +1,64 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">Beweging langs de vraaglijn — markt voor boter</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="180" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748" transform="rotate(-90, 15, 180)">Prijs (€)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,310 670,306 670,314" fill="#2D3748"/>
+  <text x="380" y="350" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748">Hoeveelheid (pakjes per week)</text>
+
+  <!-- Origin -->
+  <text x="72" y="325" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">0</text>
+
+  <!-- Demand curve: P = -Q/300 + 5.33
+       Q=0, P=5.33 -> x=80, y=75
+       Q=1600, P=0 -> x=680, y=310
+       Scale: 1Q = 0.375px (x), 1P = 44.17px (y from 310)
+  -->
+  <line x1="80" y1="75" x2="680" y2="310" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="685" y="310" font-family="Arial" font-size="16" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- Point A: P=2, Q=1000 -> x=455, y=222 (start: lower price, higher quantity) -->
+  <circle cx="455" cy="222" r="5" fill="#E74C3C"/>
+  <text x="465" y="218" font-family="Arial" font-size="14" font-weight="bold" fill="#E74C3C">A</text>
+
+  <!-- Point B: P=3, Q=700 -> x=342, y=178 (after price rise) -->
+  <circle cx="342" cy="178" r="5" fill="#E74C3C"/>
+  <text x="318" y="172" font-family="Arial" font-size="14" font-weight="bold" fill="#E74C3C">B</text>
+
+  <!-- Arrow from A (start) to B (after price rise) — along the curve -->
+  <path d="M450,217 C420,205 385,195 348,183" stroke="#E74C3C" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <defs>
+    <marker id="arrowRed" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#E74C3C"/>
+    </marker>
+  </defs>
+
+  <!-- Dashed lines to axes for A -->
+  <line x1="80" y1="222" x2="455" y2="222" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="455" y1="222" x2="455" y2="310" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Dashed lines to axes for B -->
+  <line x1="80" y1="178" x2="342" y2="178" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="342" y1="178" x2="342" y2="310" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Price labels -->
+  <text x="72" y="182" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€3</text>
+  <text x="72" y="226" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€2</text>
+
+  <!-- Quantity labels -->
+  <text x="342" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">700</text>
+  <text x="455" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">1000</text>
+
+  <!-- Annotation -->
+  <text x="500" y="155" font-family="Arial" font-size="15" font-style="italic" fill="#E74C3C">Beweging langs</text>
+  <text x="500" y="173" font-family="Arial" font-size="15" font-style="italic" fill="#E74C3C">de vraaglijn</text>
+</svg>

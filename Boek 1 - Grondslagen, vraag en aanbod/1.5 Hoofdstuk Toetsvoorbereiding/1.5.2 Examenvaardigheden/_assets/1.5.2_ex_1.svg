@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" font-family="Arial">
+  <!-- Background -->
+  <rect width="560" height="440" fill="#F7FAFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="280" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">Markt voor schriften: aanbodverschuiving</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="380" x2="500" y2="380" stroke="#2D3748" stroke-width="2"/>
+  <line x1="80" y1="380" x2="80" y2="50" stroke="#2D3748" stroke-width="2"/>
+  <!-- Arrowheads -->
+  <polygon points="500,380 492,376 492,384" fill="#2D3748"/>
+  <polygon points="80,50 76,58 84,58" fill="#2D3748"/>
+
+  <!-- Axis labels -->
+  <text x="25" y="220" text-anchor="middle" font-size="12" fill="#718096" transform="rotate(-90, 25, 220)">Prijs (P)</text>
+  <text x="290" y="418" text-anchor="middle" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+  <text x="72" y="395" text-anchor="end" font-size="10" fill="#718096">0</text>
+
+  <!-- Economic model:
+       V: Qv = -2P + 100, so P = 50 - 0.5Q. At Q=0: P=50. At P=0: Q=100.
+       A1: Qa = 3P - 25, so P = (Q+25)/3. At Q=0: P=8.33. At P=50: Q=125.
+       A2: Qa' = 3P - 40, so P = (Q+40)/3. At Q=0: P=13.33. At P=50: Q=110.
+
+       Pixel mapping: P 0..50 => y 380..80 (so deltaY = -300/50 = -6 per unit P)
+                      Q 0..120 => x 80..440 (so deltaX = 360/120 = 3 per unit Q)
+
+       V endpoints: Q=0,P=50 => (80,80). Q=100,P=0 => (380,380).
+       A1 endpoints: Q=0,P=8.33 => (80,380-8.33*6)=(80,330). Q=125,P=50 => (80+125*3,80)=(455,80).
+       A2 endpoints: Q=0,P=13.33 => (80,380-13.33*6)=(80,300). Q=110,P=50 => (80+110*3,80)=(410,80).
+
+       E1: Qv=Qa => -2P+100=3P-25 => 5P=125 => P*=25, Q*=50.
+       Pixel: x=80+50*3=230, y=380-25*6=230. E1=(230,230).
+
+       E2: Qv=Qa' => -2P+100=3P-40 => 5P=140 => P*=28, Q*=44.
+       Pixel: x=80+44*3=212, y=380-28*6=212. E2=(212,212).
+  -->
+
+  <!-- Demand line V -->
+  <line x1="80" y1="80" x2="380" y2="380" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="388" y="376" font-size="13" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- Original supply A1 -->
+  <line x1="80" y1="330" x2="455" y2="80" stroke="#27AE60" stroke-width="2.5"/>
+  <text x="460" y="76" font-size="12" fill="#27AE60">A&#x2081;</text>
+
+  <!-- New supply A2 (shifted left) -->
+  <line x1="80" y1="300" x2="410" y2="80" stroke="#27AE60" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <text x="415" y="76" font-size="12" fill="#27AE60">A&#x2082; = A'</text>
+
+  <!-- Price scale markers -->
+  <line x1="75" y1="230" x2="80" y2="230" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="234" text-anchor="end" font-size="10" fill="#718096">25</text>
+  <line x1="75" y1="212" x2="80" y2="212" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="216" text-anchor="end" font-size="10" fill="#718096">28</text>
+
+  <!-- Q scale markers -->
+  <line x1="230" y1="380" x2="230" y2="385" stroke="#2D3748" stroke-width="1"/>
+  <text x="230" y="398" text-anchor="middle" font-size="10" fill="#718096">50</text>
+  <line x1="212" y1="380" x2="212" y2="385" stroke="#2D3748" stroke-width="1"/>
+  <text x="212" y="398" text-anchor="middle" font-size="10" fill="#718096">44</text>
+
+  <!-- Old equilibrium E1 at (230, 230) -->
+  <circle cx="230" cy="230" r="5" fill="#2D3748"/>
+  <text x="242" y="225" font-size="11" font-weight="bold" fill="#2D3748">E</text>
+  <line x1="230" y1="230" x2="230" y2="380" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="230" y1="230" x2="80" y2="230" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- New equilibrium E2 at (212, 212) -->
+  <circle cx="212" cy="212" r="5" fill="#E74C3C"/>
+  <text x="192" y="207" font-size="11" font-weight="bold" fill="#E74C3C">E'</text>
+  <line x1="212" y1="212" x2="212" y2="380" stroke="#E74C3C" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="212" y1="212" x2="80" y2="212" stroke="#E74C3C" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Shift arrow from A1 to A2 -->
+  <defs>
+    <marker id="arrowS" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C0392B"/>
+    </marker>
+  </defs>
+  <!-- At y=140: A1 x = 80+(330-140)/0.667 = 80+284.9 = 365; A2 x = 80+(300-140)/0.667 = 80+239.9 = 320 -->
+  <!-- Arrow between A1 (365) and A2 (320), pointing left -->
+  <line x1="355" y1="140" x2="330" y2="140" stroke="#C0392B" stroke-width="2" marker-end="url(#arrowS)"/>
+  <text x="343" y="132" text-anchor="middle" font-size="10" fill="#C0392B">verschuiving</text>
+
+  <!-- Legend -->
+  <rect x="360" y="280" width="170" height="80" rx="4" fill="#ffffff" fill-opacity="0.9" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="370" y="298" font-size="10" font-weight="bold" fill="#2D3748">Legenda</text>
+  <line x1="370" y1="312" x2="400" y2="312" stroke="#27AE60" stroke-width="2"/>
+  <text x="408" y="316" font-size="10" fill="#2D3748">A&#x2081; (oud aanbod)</text>
+  <line x1="370" y1="330" x2="400" y2="330" stroke="#27AE60" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="408" y="334" font-size="10" fill="#2D3748">A&#x2082; (nieuw aanbod)</text>
+  <circle cx="385" cy="348" r="3" fill="#E74C3C"/>
+  <text x="408" y="352" font-size="10" fill="#2D3748">E' (nieuw evenwicht)</text>
+</svg>

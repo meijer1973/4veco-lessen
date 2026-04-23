@@ -1,0 +1,60 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">De knik in de collectieve vraaglijn</text>
+
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="180" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748" transform="rotate(-90, 15, 180)">Prijs (€)</text>
+
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,310 670,306 670,314" fill="#2D3748"/>
+  <text x="380" y="350" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748">Hoeveelheid bekers per week</text>
+
+  <text x="72" y="325" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">0</text>
+
+  <!-- For this figure, use a clearer example. Two consumers C and D with simpler functions:
+       C: Qd = -P + 4 (drops out at P=4)
+       D: Qd = -P + 6 (drops out at P=6)
+       Collective:
+         For 0<=P<4: Q_coll = -2P + 10
+         For 4<=P<6: Q_coll = -P + 6 (only D in market)
+         For P>=6: Q_coll = 0
+
+       Scale: P 0..7 over 265px => 1P=37.86px; Q 0..15 over 600px => 1Q=40px
+       C: P=0,Q=4 -> x=80+160=240, y=310; P=4,Q=0 -> x=80, y=310-4*37.86=158
+       D: P=0,Q=6 -> x=80+240=320, y=310; P=6,Q=0 -> x=80, y=310-6*37.86=83
+
+       V_coll segments:
+         P=0, Q=10 -> x=80+400=480, y=310
+         P=4, Q=2 -> x=80+80=160, y=158
+         P=6, Q=0 -> x=80, y=83
+  -->
+
+  <!-- C (dashed) -->
+  <line x1="80" y1="158" x2="240" y2="310" stroke="#1A5276" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="245" y="310" font-family="Arial" font-size="13" font-weight="bold" fill="#1A5276">V_C</text>
+
+  <!-- D (dashed) -->
+  <line x1="80" y1="83" x2="320" y2="310" stroke="#27AE60" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="325" y="310" font-family="Arial" font-size="13" font-weight="bold" fill="#27AE60">V_D</text>
+
+  <!-- V_coll (solid, kinked) -->
+  <polyline points="80,83 160,158 480,310" stroke="#9B59B6" stroke-width="3" fill="none"/>
+  <text x="485" y="310" font-family="Arial" font-size="14" font-weight="bold" fill="#9B59B6">V_coll</text>
+
+  <!-- Mark the kink -->
+  <circle cx="160" cy="158" r="6" fill="none" stroke="#E74C3C" stroke-width="2.5"/>
+  <line x1="170" y1="148" x2="220" y2="100" stroke="#E74C3C" stroke-width="1.5"/>
+  <text x="225" y="98" font-family="Arial" font-size="13" font-weight="bold" fill="#E74C3C">DE KNIK</text>
+  <text x="225" y="115" font-family="Arial" font-size="13" fill="#E74C3C">P = €4: hier verlaat</text>
+  <text x="225" y="130" font-family="Arial" font-size="13" fill="#E74C3C">consument C de markt</text>
+
+  <!-- Annotation right side -->
+  <rect x="430" y="60" width="240" height="120" rx="4" fill="white" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="440" y="80" font-family="Arial" font-size="14" font-weight="bold" fill="#2D3748">Boven €4:</text>
+  <text x="440" y="98" font-family="Arial" font-size="13" fill="#2D3748">alleen D koopt nog → V_coll = V_D</text>
+  <text x="440" y="118" font-family="Arial" font-size="14" font-weight="bold" fill="#2D3748">Onder €4:</text>
+  <text x="440" y="136" font-family="Arial" font-size="13" fill="#2D3748">beiden kopen → V_coll = V_C + V_D</text>
+  <text x="440" y="160" font-family="Arial" font-size="13" font-style="italic" fill="#4A5568">De knik is precies de prijs waarbij</text>
+  <text x="440" y="174" font-family="Arial" font-size="13" font-style="italic" fill="#4A5568">één consument afhaakt.</text>
+</svg>

@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  
+<style>
+/* === Layout inspired by CITO VWO exam papers ===
+   Wide left margin, clean sans-serif, generous line spacing.
+   Domain colors retained for headings/blockquotes (textbook hierarchy). */
+
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;  /* top right bottom left — exam-like indented body */
+  @bottom-left   { content: "1.4.3 MK en MO"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+/* h2 mimics the "Opgave 1 Zorgverzekering" heading: bold + thin underline */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === (simple, exam-style, no colored header background) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 6pt 10pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 5pt 10pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+/* Bare images (not in figure) */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+/* Allow exercises to break across pages to avoid whitespace,
+   but keep the "Opgave X" title with at least 2 lines of content. */
+.exercise {
+  margin-bottom: 8pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="marginale-kosten-en-marginale-opbrengsten-antwoorden">1.4.3
+Marginale kosten en marginale opbrengsten — Antwoorden</h1>
+<hr />
+</div><h2 id="opgave-1">Opgave 1</h2>
+<p><strong>a)</strong> Tabel ingevuld (TK = 400 + 6Q, TO = 10Q):</p>
+<table>
+<thead>
+<tr>
+<th>Q</th>
+<th>TK</th>
+<th>TO</th>
+<th>Winst</th>
+<th>MK</th>
+<th>MO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>400</td>
+<td>0</td>
+<td>−400</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>20</td>
+<td>520</td>
+<td>200</td>
+<td>−320</td>
+<td>6</td>
+<td>10</td>
+</tr>
+<tr>
+<td>40</td>
+<td>640</td>
+<td>400</td>
+<td>−240</td>
+<td>6</td>
+<td>10</td>
+</tr>
+<tr>
+<td>60</td>
+<td>760</td>
+<td>600</td>
+<td>−160</td>
+<td>6</td>
+<td>10</td>
+</tr>
+<tr>
+<td>80</td>
+<td>880</td>
+<td>800</td>
+<td>−80</td>
+<td>6</td>
+<td>10</td>
+</tr>
+<tr>
+<td>100</td>
+<td>1000</td>
+<td>1000</td>
+<td>0</td>
+<td>6</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p>Berekening MK: ΔTK/ΔQ = (520 − 400)/(20 − 0) = 120/20 = 6. Idem voor
+alle intervallen.</p>
+<p>Berekening MO: ΔTO/ΔQ = (200 − 0)/(20 − 0) = 200/20 = 10. Idem voor
+alle intervallen.</p>
+<p><strong>b)</strong> MK is constant op 6. Dit is logisch omdat TK =
+400 + 6Q een lineaire formule is: de variabele kosten stijgen met een
+vast bedrag (€6) per eenheid.</p>
+<p><strong>c)</strong> MO is constant op 10. Dit is logisch omdat de
+prijs vast is op €10. Elke extra rit levert precies €10 op.</p>
+<p><strong>d)</strong> Bij Q = 100 is de winst precies nul (TO = TK =
+1000). Dit is het break-evenpunt. In de grafiek zie je dat de TK- en
+TO-lijnen daar samenkomen.</p>
+<hr />
+</div><h2 id="opgave-2">Opgave 2</h2>
+<p><strong>a)</strong> TK = 50 + 2Q²:</p>
+<table>
+<thead>
+<tr>
+<th>Q</th>
+<th>TK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>50</td>
+</tr>
+<tr>
+<td>5</td>
+<td>100</td>
+</tr>
+<tr>
+<td>10</td>
+<td>250</td>
+</tr>
+<tr>
+<td>15</td>
+<td>500</td>
+</tr>
+<tr>
+<td>20</td>
+<td>850</td>
+</tr>
+</tbody>
+</table>
+<p>Controle: TK(10) = 50 + 2(100) = 250 ✓; TK(15) = 50 + 2(225) = 500
+✓</p>
+<p><strong>b)</strong> Tabel met MK:</p>
+<table>
+<thead>
+<tr>
+<th>Interval</th>
+<th>ΔTK</th>
+<th>ΔQ</th>
+<th>MK = ΔTK/ΔQ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q: 0 → 5</td>
+<td>100 − 50 = 50</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Q: 5 → 10</td>
+<td>250 − 100 = 150</td>
+<td>5</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Q: 10 → 15</td>
+<td>500 − 250 = 250</td>
+<td>5</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Q: 15 → 20</td>
+<td>850 − 500 = 350</td>
+<td>5</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+<p><strong>c)</strong> MK stijgt: 10, 30, 50, 70. Dit komt doordat TK
+kwadratisch is (TK = 50 + 2Q²). De totale kosten stijgen steeds sneller,
+dus elk volgend interval wordt duurder.</p>
+<p><strong>d)</strong> MO = ΔTO/ΔQ. TO = 40Q, dus als Q met 5 stijgt:
+ΔTO = 40 × 5 = 200, MO = 200/5 = 40. MO is constant op 40 (vaste
+prijs).</p>
+<p><strong>e)</strong> Bij het interval Q: 10 → 15 is MK = 50, groter
+dan MO = 40. Vanaf dat punt kosten extra eenheden meer dan ze opleveren.
+Het bedrijf moet dus niet meer dan 10 eenheden produceren (het optimum
+ligt ergens tussen 5 en 10).</p>
+<hr />
+</div><h2 id="opgave-3">Opgave 3</h2>
+<p><strong>a)</strong> MK vertelt hoeveel het kost om één extra eenheid
+te produceren. Het is de toename van de totale kosten als de productie
+met 1 stijgt.</p>
+<p><strong>b)</strong> MO vertelt hoeveel het oplevert om één extra
+eenheid te verkopen. Het is de toename van de totale opbrengst als de
+verkoop met 1 stijgt.</p>
+<p><strong>c)</strong> MK = 7 en MO = 10: het bedrijf moet meer
+produceren. De extra opbrengst (€10) is groter dan de extra kosten (€7).
+Elke extra eenheid levert €3 winst op.</p>
+<p><strong>d)</strong> MK = 15 en MO = 9: het bedrijf moet minder
+produceren. De extra kosten (€15) zijn groter dan de extra opbrengst
+(€9). Elke extra eenheid kost €6 meer dan het oplevert.</p>
+<hr />
+</div><h2 id="opgave-4">Opgave 4</h2>
+<p><strong>a)</strong> TK = 500 + 0,5Q²:</p>
+<table>
+<thead>
+<tr>
+<th>Q</th>
+<th>TK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>500</td>
+</tr>
+<tr>
+<td>10</td>
+<td>550</td>
+</tr>
+<tr>
+<td>20</td>
+<td>700</td>
+</tr>
+<tr>
+<td>30</td>
+<td>950</td>
+</tr>
+<tr>
+<td>40</td>
+<td>1300</td>
+</tr>
+<tr>
+<td>50</td>
+<td>1750</td>
+</tr>
+</tbody>
+</table>
+<p>Controle: TK(20) = 500 + 0,5(400) = 700 ✓; TK(30) = 500 + 0,5(900) =
+950 ✓</p>
+<p><strong>b)</strong> Tabel:</p>
+<table>
+<thead>
+<tr>
+<th>Q</th>
+<th>TK</th>
+<th>ΔTK</th>
+<th>MK</th>
+<th>TO = 25Q</th>
+<th>MO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>500</td>
+<td>—</td>
+<td>—</td>
+<td>0</td>
+<td>—</td>
+</tr>
+<tr>
+<td>10</td>
+<td>550</td>
+<td>50</td>
+<td>5</td>
+<td>250</td>
+<td>25</td>
+</tr>
+<tr>
+<td>20</td>
+<td>700</td>
+<td>150</td>
+<td>15</td>
+<td>500</td>
+<td>25</td>
+</tr>
+<tr>
+<td>30</td>
+<td>950</td>
+<td>250</td>
+<td>25</td>
+<td>750</td>
+<td>25</td>
+</tr>
+<tr>
+<td>40</td>
+<td>1300</td>
+<td>350</td>
+<td>35</td>
+<td>1000</td>
+<td>25</td>
+</tr>
+<tr>
+<td>50</td>
+<td>1750</td>
+<td>450</td>
+<td>45</td>
+<td>1250</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<p>MK berekening: ΔTK/ΔQ, bijv. (700 − 550)/10 = 150/10 = 15.</p>
+<p><strong>c)</strong> Bij het interval Q: 30 → 40 is MK = 35, voor het
+eerst groter dan MO = 25. In de grafiek zie je dat de MK-lijn de MO-lijn
+kruist ergens rond Q = 25 (tussen het derde en vierde interval).</p>
+<p><strong>d)</strong> Winst bij Q = 20: TO − TK = 500 − 700 = −200
+(verlies). Winst bij Q = 30: TO − TK = 750 − 950 = −200 (verlies).</p>
+<p>Beide geven hetzelfde verlies van €200. Bij Q = 20 stijgt MK nog
+onder MO (5 en 15 &lt; 25), dus extra eenheden leveren nog winst op. Bij
+Q = 30 is MK net gelijk aan MO (25 = 25), dus het marginale voordeel van
+extra produceren is uitgeput.</p>
+<hr />
+</div><h2 id="opgave-5">Opgave 5</h2>
+<p><strong>a)</strong> Bedrijf X: TK = 100 + 4Q. MK = ΔTK/ΔQ = 4. MK is
+constant (lineaire TK).</p>
+<p><strong>b)</strong> Bedrijf Y: TK = 50 + Q²:</p>
+<table>
+<thead>
+<tr>
+<th>Interval</th>
+<th>ΔTK</th>
+<th>ΔQ</th>
+<th>MK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q: 0 → 5</td>
+<td>(50 + 25) − 50 = 25</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Q: 5 → 10</td>
+<td>(50 + 100) − 75 = 75</td>
+<td>5</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Q: 10 → 15</td>
+<td>(50 + 225) − 150 = 125</td>
+<td>5</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<p>MK stijgt: 5, 15, 25. MK is veranderlijk (kwadratische TK).</p>
+<p><strong>c)</strong> MO = ΔTO/ΔQ. Beide bedrijven verkopen voor €20
+per stuk. TO = 20Q, dus MO = 20 voor beide bedrijven. MO verschilt niet
+— het hangt alleen af van de prijs, niet van de kostenstructuur.</p>
+<p><strong>d)</strong> Bij bedrijf Y worden extra eenheden op een
+gegeven moment te duur. Bij het interval Q = 10 → 15 is MK = 25, al
+boven MO = 20. Bij bedrijf X is MK altijd 4, dus altijd onder MO = 20.
+Bedrijf X kan onbeperkt blijven uitbreiden (elke eenheid levert €16
+winst op), terwijl bedrijf Y moet stoppen als MK boven 20 uitkomt.</p>
+<hr />
+</div><h2 id="opgave-6-herhaling-1.3.3">Opgave 6 <em>(herhaling
+§1.3.3)</em></h2>
+<p><strong>a)</strong> TK = 600 + 8Q. TO = 20Q.</p>
+<p><strong>b)</strong> Break-even: TO = TK → 20Q = 600 + 8Q → 12Q = 600
+→ Q = 50.</p>
+<p><strong>c)</strong> Winst bij Q = 100: TO − TK = 20(100) − (600 +
+8·100) = 2000 − 1400 = €600.</p>
+<hr />
+</div><h2 id="opgave-7-herhaling-1.2.1">Opgave 7 <em>(herhaling
+§1.2.1)</em></h2>
+<p><strong>a)</strong> De consument koopt zolang zijn
+betalingsbereidheid ≥ de marktprijs (€2,50). Eerste kopje: €4,00 ≥ €2,50
+→ kopen. Tweede: €3,00 ≥ €2,50 → kopen. Derde: €1,80 &lt; €2,50 → niet
+kopen. Hij koopt 2 kopjes.</p>
+<p><strong>b)</strong> CS = (betalingsbereidheid − prijs) per kopje: -
+Kopje 1: €4,00 − €2,50 = €1,50 - Kopje 2: €3,00 − €2,50 = €0,50 - Totaal
+CS = €1,50 + €0,50 = <strong>€2,00</strong></p>
+<p><strong>c)</strong> De betalingsbereidheid weerspiegelt hoeveel extra
+tevredenheid (nut) een consument haalt uit één extra kopje koffie. Dit
+is het marginale nut. Hoe hoger het marginale nut, hoe meer de consument
+bereid is te betalen. Het marginale nut daalt bij elk volgend kopje
+(afnemend grensnut), daarom daalt ook de betalingsbereidheid.</p>
+<hr />
+</div><h2 id="opgave-8-doeloefening">Opgave 8 <em>(doeloefening)</em></h2>
+<p><strong>a)</strong> Tabel (TK = 200 + 3Q, TO = 8Q):</p>
+<table>
+<thead>
+<tr>
+<th>Q</th>
+<th>TK</th>
+<th>TO</th>
+<th>Winst</th>
+<th>MK</th>
+<th>MO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>200</td>
+<td>0</td>
+<td>−200</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>10</td>
+<td>230</td>
+<td>80</td>
+<td>−150</td>
+<td>3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>20</td>
+<td>260</td>
+<td>160</td>
+<td>−100</td>
+<td>3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>30</td>
+<td>290</td>
+<td>240</td>
+<td>−50</td>
+<td>3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>40</td>
+<td>320</td>
+<td>320</td>
+<td>0</td>
+<td>3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>50</td>
+<td>350</td>
+<td>400</td>
+<td>50</td>
+<td>3</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p><strong>b)</strong> MK is constant op 3. TK = 200 + 3Q is lineair:
+elke extra eenheid voegt precies €3 toe aan de kosten.</p>
+<p><strong>c)</strong> MO is constant op 8. De prijs is vast op €8, dus
+elke extra eenheid levert precies €8 op. Bij een prijsnemer is MO altijd
+gelijk aan de prijs.</p>
+<p><strong>d)</strong> Tabel (TK = 100 + Q², TO = 30Q):</p>
+<table>
+<thead>
+<tr>
+<th>Q</th>
+<th>TK</th>
+<th>TO</th>
+<th>Winst</th>
+<th>ΔTK</th>
+<th>MK</th>
+<th>MO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>100</td>
+<td>0</td>
+<td>−100</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>5</td>
+<td>125</td>
+<td>150</td>
+<td>25</td>
+<td>25</td>
+<td>5</td>
+<td>30</td>
+</tr>
+<tr>
+<td>10</td>
+<td>200</td>
+<td>300</td>
+<td>100</td>
+<td>75</td>
+<td>15</td>
+<td>30</td>
+</tr>
+<tr>
+<td>15</td>
+<td>325</td>
+<td>450</td>
+<td>125</td>
+<td>125</td>
+<td>25</td>
+<td>30</td>
+</tr>
+<tr>
+<td>20</td>
+<td>500</td>
+<td>600</td>
+<td>100</td>
+<td>175</td>
+<td>35</td>
+<td>30</td>
+</tr>
+</tbody>
+</table>
+<p>MK stijgt nu: 5, 15, 25, 35. De kwadratische kostenfunctie zorgt
+ervoor dat elke volgende groep eenheden duurder wordt om te
+produceren.</p>
+<p><strong>e)</strong> MK vertelt hoeveel het kost om één extra eenheid
+te produceren. Als MK laag is, is extra productie goedkoop. Als MK hoog
+is, is extra productie duur.</p>
+<p>MO vertelt hoeveel je verdient als je één extra eenheid verkoopt. Bij
+een vaste prijs is MO gelijk aan de prijs.</p>
+<p>Door MK en MO te vergelijken kun je bepalen of het loont om meer te
+produceren: zolang MO &gt; MK levert elke extra eenheid winst op.</p>
+<hr />
+</div><h2 id="opgave-9-denkertje">Opgave 9 <em>(denkertje)</em></h2>
+<p><strong>a)</strong> MK = ΔTK / ΔQ = (5060 − 5000) / 1 = €60. MO = ΔTO
+/ ΔQ = (6050 − 6000) / 1 = €50.</p>
+<p><strong>b)</strong> Nee, de ondernemer moet de 101e eenheid niet
+produceren. MK (€60) &gt; MO (€50). De extra kosten zijn hoger dan de
+extra opbrengst. Hij verliest €10 op deze eenheid.</p>
+<p><strong>c)</strong> MK van de 102e eenheid: ΔTK = 5130 − 5060 = €70,
+MK = 70. MO van de 102e eenheid: ΔTO = 6100 − 6050 = €50, MO = 50.</p>
+<p>MK (€70) &gt; MO (€50). Nee, ook de 102e eenheid moet hij niet
+produceren. Het verschil is nu zelfs €20 (nog slechter dan bij de
+101e).</p>
+<p><strong>d)</strong> Hoewel de totale winst nog positief kan zijn (TO
+&gt; TK in totaal), dalen de extra opbrengsten niet en stijgen de extra
+kosten steeds sneller. Op een gegeven moment is MK &gt; MO: elke extra
+eenheid kost meer dan het oplevert. Door die eenheid toch te produceren,
+daalt de totale winst. De ondernemer moet stoppen op het punt waar MK
+net gelijk is aan MO — daar is de totale winst maximaal. Dit is het
+principe van winstmaximalisatie aan de marge.</p>
+</body>
+</html>

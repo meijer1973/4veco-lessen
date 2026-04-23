@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+/* === Layout inspired by CITO VWO exam papers ===
+   Wide left margin, clean sans-serif, generous line spacing.
+   Domain colors retained for headings/blockquotes (textbook hierarchy). */
+
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;  /* top right bottom left — exam-like indented body */
+  @bottom-left   { content: "1.2.1 Individuele vraag"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+/* h2 mimics the "Opgave 1 Zorgverzekering" heading: bold + thin underline */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === (simple, exam-style, no colored header background) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 6pt 10pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 5pt 10pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+/* Bare images (not in figure) */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+/* Allow exercises to break across pages to avoid whitespace,
+   but keep the "Opgave X" title with at least 2 lines of content. */
+.exercise {
+  margin-bottom: 8pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="individuele-vraag-antwoorden">1.2.1 Individuele vraag —
+antwoorden</h1>
+<p><strong>Afrondingsregel:</strong> Rond af op 2 decimalen tenzij
+anders aangegeven.</p>
+<hr />
+</div><h2 id="procedure-uit-het-uitgewerkt-voorbeeld">Procedure (uit het
+uitgewerkt voorbeeld)</h2>
+<table>
+<colgroup>
+<col style="width: 46%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Vraag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Wat is de betalingsbereidheid per eenheid?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Vergelijk: betalingsbereidheid ≥ marktprijs? → kopen</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Consumentensurplus = betalingsbereidheid − marktprijs (per
+eenheid)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="exercise"><p><strong>Opgave 1</strong></p>
+<p><strong>a)</strong> Emma’s betalingsbereidheid voor het derde boek is
+<strong>€3</strong>. Dit lees je af op de y-as bij het derde trapje (Q =
+2 tot Q = 3) van de vraaglijn.</p>
+<p><strong>b)</strong> Bij een marktprijs van €4 vergelijk je per boek:
+- 1e boek: betalingsbereidheid €7 ≥ €4 → kopen ✓ - 2e boek:
+betalingsbereidheid €5 ≥ €4 → kopen ✓ - 3e boek: betalingsbereidheid €3
+&lt; €4 → niet kopen ✗</p>
+<p>Emma koopt <strong>2 boeken</strong>. In de grafiek trek je een
+horizontale lijn bij P = €4. Alle trappen boven die lijn worden
+gekocht.</p>
+<p><strong>c)</strong> De vriendin heeft ongelijk. Bij €6 vergelijk je:
+- 1e boek: €7 ≥ €6 → kopen ✓ - 2e boek: €5 &lt; €6 → niet kopen ✗</p>
+<p>Bij €6 koopt Emma <strong>1 boek</strong>, niet 2. De
+betalingsbereidheid voor het tweede boek (€5) is lager dan de marktprijs
+(€6).</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<p><strong>a)</strong> De trapfunctie loopt als volgt: - Horizontale
+lijn op €10 van Q = 0 tot Q = 1 - Daling naar €7, horizontale lijn tot Q
+= 2 - Daling naar €4, horizontale lijn tot Q = 3 - Daling naar €1,
+horizontale lijn tot Q = 4</p>
+<p><strong>b)</strong> Bij een marktprijs van €6: - 1e kaartje: €10 ≥ €6
+→ kopen ✓ - 2e kaartje: €7 ≥ €6 → kopen ✓ - 3e kaartje: €4 &lt; €6 →
+niet kopen ✗</p>
+<p>Jasper koopt <strong>2 kaartjes</strong>. In de grafiek: trek een
+horizontale lijn bij €6. De eerste twee trappen liggen boven de
+lijn.</p>
+<p><strong>c)</strong> Consumentensurplus: - Kaartje 1: €10 − €6 = €4 -
+Kaartje 2: €7 − €6 = €1 - Totaal: €4 + €1 = <strong>€5</strong></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 3</strong></p>
+<p><strong>a)</strong> Bij P = €2 vergelijk je: - 1e boek: €7 ≥ €2 →
+kopen ✓ - 2e boek: €5 ≥ €2 → kopen ✓ - 3e boek: €3 ≥ €2 → kopen ✓ - 4e
+boek: €1 &lt; €2 → niet kopen ✗</p>
+<p>Emma koopt <strong>3 boeken</strong>.</p>
+<p><strong>b)</strong> Consumentensurplus per boek: - Boek 1: €7 − €2 =
+€5 - Boek 2: €5 − €2 = €3 - Boek 3: €3 − €2 = €1</p>
+<p>Totaal consumentensurplus: €5 + €3 + €1 = <strong>€9</strong></p>
+<p><strong>c)</strong> Bij P = €6 koopt Emma 1 boek (zie opgave 1c). -
+Boek 1: €7 − €6 = €1</p>
+<p>Totaal consumentensurplus: <strong>€1</strong></p>
+<p>Het consumentensurplus is gedaald van €9 naar €1 omdat: 1. De prijs
+is gestegen, dus het verschil tussen betalingsbereidheid en prijs is
+kleiner. 2. Emma koopt minder boeken (3 → 1), dus er zijn minder
+eenheden waarover ze surplus verdient.</p>
+<p><em>De wet van de vraag in actie: bij een hogere prijs koopt de
+consument minder en wordt het voordeel per eenheid kleiner.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<p><strong>a)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Tijdschrift</th>
+<th>Betalingsbereidheid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1e</td>
+<td>€8</td>
+</tr>
+<tr>
+<td>2e</td>
+<td>€6</td>
+</tr>
+<tr>
+<td>3e</td>
+<td>€3</td>
+</tr>
+<tr>
+<td>4e</td>
+<td>€1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>b)</strong> De trapfunctie: - €8 van Q = 0 tot Q = 1 - €6 van
+Q = 1 tot Q = 2 - €3 van Q = 2 tot Q = 3 - €1 van Q = 3 tot Q = 4</p>
+<p>De lijn loopt van linksboven naar rechtsonder.</p>
+<p><strong>c)</strong> Bij P = €5: - 1e: €8 ≥ €5 → kopen ✓ - 2e: €6 ≥ €5
+→ kopen ✓ - 3e: €3 &lt; €5 → niet kopen ✗</p>
+<p>Mila koopt <strong>2 tijdschriften</strong>. De betalingsbereidheid
+voor het derde tijdschrift (€3) is lager dan de marktprijs (€5), dus
+kopen levert een negatief surplus op.</p>
+<p><strong>d)</strong> Consumentensurplus bij P = €5: - Tijdschrift 1:
+€8 − €5 = €3 - Tijdschrift 2: €6 − €5 = €1 - Totaal: €3 + €1 =
+<strong>€4</strong></p>
+<p><strong>e)</strong> Bij P = €2: - 1e: €8 ≥ €2 → kopen ✓ - 2e: €6 ≥ €2
+→ kopen ✓ - 3e: €3 ≥ €2 → kopen ✓ - 4e: €1 &lt; €2 → niet kopen ✗</p>
+<p>Mila koopt <strong>3 tijdschriften</strong>.</p>
+<p>Consumentensurplus: - Tijdschrift 1: €8 − €2 = €6 - Tijdschrift 2: €6
+− €2 = €4 - Tijdschrift 3: €3 − €2 = €1 - Totaal: €6 + €4 + €1 =
+<strong>€11</strong></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<p><strong>a)</strong> Invullen in Qv = −5P + 20:</p>
+<table>
+<thead>
+<tr>
+<th>P (€)</th>
+<th>Qv</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>−5(1) + 20 = <strong>15</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td>−5(2) + 20 = <strong>10</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td>−5(3) + 20 = <strong>5</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>b)</strong> Qv = 0 invullen: 0 = −5P + 20 → 5P = 20 → P =
+<strong>€4</strong>.</p>
+<p>Economische betekenis: bij een prijs van €4 of hoger koopt deze
+consument niets meer. €4 is de <strong>maximale
+betalingsbereidheid</strong> — het hoogste bedrag waarvoor de consument
+nog bereid is de eerste eenheid te kopen.</p>
+<p><strong>c)</strong> Bij P = €2: Qv = −5(2) + 20 = <strong>10
+eenheden</strong>.</p>
+<p><strong>d)</strong> De vraaglijn is een rechte lijn door de punten: -
+(Q = 15, P = 1) - (Q = 10, P = 2) - (Q = 5, P = 3) - (Q = 0, P = 4)</p>
+<p>De lijn snijdt de P-as (verticale as) bij €4 en de Q-as (horizontale
+as) bij 20. De lijn loopt van linksboven naar rechtsonder — conform de
+wet van de vraag.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 6</strong></p>
+<p><strong>a)</strong> Procentuele verandering = (nieuw − oud) / oud ×
+100%</p>
+<p>= (€10,80 − €9) / €9 × 100% = €1,80 / €9 × 100% =
+<strong>20%</strong></p>
+<p><strong>b)</strong> Verwachte prijs = €10,80 × 1,05 =
+<strong>€11,34</strong></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 7</strong></p>
+<p><strong>a)</strong> De vraaglijn is een rechte lijn door de punten (Q
+= 10, P = 1), (Q = 8, P = 2), …, (Q = 2, P = 5). De lijn loopt van
+linksboven (veel broodjes, lage prijs) naar rechtsonder (weinig
+broodjes, hoge prijs).</p>
+<p><strong>b)</strong> Bij P = €2,50 lees je de hoeveelheid af via
+interpolatie. Het punt ligt precies halverwege P = 2 (Q = 8) en P = 3 (Q
+= 6). De gevraagde hoeveelheid is: (8 + 6) / 2 = <strong>7
+broodjes</strong>.</p>
+<p><em>Alternatief via de formule: de lijn heeft vergelijking Q = −2P +
+12. Bij P = 2,50: Q = −2(2,50) + 12 = −5 + 12 = 7.</em></p>
+<p><strong>c)</strong> Q = 0 wanneer 0 = −2P + 12 → P =
+<strong>€6</strong>. Bij een prijs van €6 of hoger is de gevraagde
+hoeveelheid 0.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 8</strong></p>
+<p><strong>a)</strong> Lisa’s trapfunctie: - €8 van Q = 0 tot Q = 1 - €6
+van Q = 1 tot Q = 2 - €4 van Q = 2 tot Q = 3 - €1,50 van Q = 3 tot Q =
+4</p>
+<p>Prijs op de y-as, hoeveelheid op de x-as. De vraaglijn daalt
+stapsgewijs van linksboven naar rechtsonder.</p>
+<p><strong>b)</strong> Bij P = €5: - 1e pizza: €8 ≥ €5 → kopen ✓
+(betalingsbereidheid is hoger dan de marktprijs) - 2e pizza: €6 ≥ €5 →
+kopen ✓ - 3e pizza: €4 &lt; €5 → niet kopen ✗ (betalingsbereidheid is
+lager dan de marktprijs)</p>
+<p>Lisa koopt <strong>2 pizza’s</strong>. Ze koopt zolang haar
+betalingsbereidheid minstens zo hoog is als de marktprijs. Voor de derde
+pizza is haar betalingsbereidheid (€4) lager dan de prijs (€5), dus
+kopen levert haar geen voordeel op.</p>
+<p><strong>c)</strong> Bij P = €3: - 1e pizza: €8 ≥ €3 → kopen ✓ - 2e
+pizza: €6 ≥ €3 → kopen ✓ - 3e pizza: €4 ≥ €3 → kopen ✓ - 4e pizza: €1,50
+&lt; €3 → niet kopen ✗</p>
+<p>Lisa koopt <strong>3 pizza’s</strong>. Bij een lagere prijs koopt ze
+meer — precies wat de wet van de vraag voorspelt.</p>
+<p><strong>d)</strong> De vraaglijn loopt van linksboven naar
+rechtsonder omdat de betalingsbereidheid per eenheid afneemt. Het eerste
+exemplaar van een goed is het meest waard (het vervult de grootste
+behoefte). Elk volgend exemplaar is iets minder waard, want de behoefte
+is al deels bevredigd. Daardoor is de consument alleen bij een lagere
+prijs bereid om meer te kopen. Dit verband — hoge prijs → weinig kopen,
+lage prijs → veel kopen — is de wet van de vraag.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 9</strong></p>
+<p><strong>a)</strong> Mogelijke redenen: 1. <strong>Inkomen</strong>:
+Tom heeft misschien een hoger inkomen dan Max en kan zich meer
+veroorloven. 2. <strong>Voorkeur (preferentie)</strong>: Tom houdt meer
+van films dan Max — de bioscoop is voor hem waardevoller.</p>
+<p>Andere geldige antwoorden: Tom heeft minder alternatieven (geen
+Netflix), Tom woont dichterbij de bioscoop (lagere bijkomende kosten),
+Tom gaat voor een specifieke film die hij graag wil zien.</p>
+<p><strong>b)</strong> Ja, als het inkomen van Max stijgt, verwacht je
+dat zijn betalingsbereidheid stijgt — hij heeft meer te besteden en kan
+zich een hogere prijs veroorloven. Dit zou betekenen dat zijn vraaglijn
+omhoog verschuift: bij elke hoeveelheid is hij bereid een hogere prijs
+te betalen.</p>
+<p><em>Vooruitblik: in §1.2.2 leer je dat een verandering van inkomen de
+hele vraaglijn verschuift.</em></p>
+</body>
+</html>

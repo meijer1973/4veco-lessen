@@ -1,0 +1,83 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">De MO = MK-regel: overzicht</text>
+
+  <!-- Three-column layout showing the rule -->
+
+  <!-- Column 1: MO > MK -->
+  <rect x="30" y="55" width="200" height="170" rx="8" fill="#E8F8F5" stroke="#27AE60" stroke-width="2"/>
+  <text x="130" y="80" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#27AE60">MO &gt; MK</text>
+  <line x1="55" y1="90" x2="205" y2="90" stroke="#27AE60" stroke-width="1"/>
+  <text x="130" y="115" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">Extra opbrengst &gt;</text>
+  <text x="130" y="130" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">extra kosten</text>
+  <text x="130" y="160" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#27AE60">&#8594; Winst stijgt</text>
+  <text x="130" y="180" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">Produceer meer!</text>
+  <!-- Arrow icon -->
+  <text x="130" y="210" text-anchor="middle" font-family="Arial" font-size="20" fill="#27AE60">&#9650;</text>
+
+  <!-- Arrow from col 1 to col 2 -->
+  <line x1="235" y1="140" x2="255" y2="140" stroke="#718096" stroke-width="1.5"/>
+  <polygon points="255,140 249,136 249,144" fill="#718096"/>
+
+  <!-- Column 2: MO = MK -->
+  <rect x="260" y="55" width="200" height="170" rx="8" fill="#FEF9E7" stroke="#F4D03F" stroke-width="2"/>
+  <text x="360" y="80" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#D4AC0D">MO = MK</text>
+  <line x1="285" y1="90" x2="435" y2="90" stroke="#D4AC0D" stroke-width="1"/>
+  <text x="360" y="115" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">Extra opbrengst =</text>
+  <text x="360" y="130" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">extra kosten</text>
+  <text x="360" y="160" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#D4AC0D">&#8594; Winst maximaal</text>
+  <text x="360" y="180" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">Stop hier!</text>
+  <!-- Star icon -->
+  <text x="360" y="213" text-anchor="middle" font-family="Arial" font-size="22" fill="#D4AC0D">&#9733;</text>
+
+  <!-- Arrow from col 2 to col 3 -->
+  <line x1="465" y1="140" x2="485" y2="140" stroke="#718096" stroke-width="1.5"/>
+  <polygon points="485,140 479,136 479,144" fill="#718096"/>
+
+  <!-- Column 3: MO < MK -->
+  <rect x="490" y="55" width="200" height="170" rx="8" fill="#FDEDEC" stroke="#D9534F" stroke-width="2"/>
+  <text x="590" y="80" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#D9534F">MO &lt; MK</text>
+  <line x1="515" y1="90" x2="665" y2="90" stroke="#D9534F" stroke-width="1"/>
+  <text x="590" y="115" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">Extra opbrengst &lt;</text>
+  <text x="590" y="130" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">extra kosten</text>
+  <text x="590" y="160" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#D9534F">&#8594; Winst daalt</text>
+  <text x="590" y="180" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">Produceer minder!</text>
+  <!-- Down arrow icon -->
+  <text x="590" y="210" text-anchor="middle" font-family="Arial" font-size="20" fill="#D9534F">&#9660;</text>
+
+  <!-- Bottom: mini graph showing the rule -->
+  <!-- Mini plot: x=140..580, y=260..360 -->
+  <rect x="120" y="245" width="480" height="145" rx="6" fill="white" stroke="#CBD5E0" stroke-width="1"/>
+
+  <!-- Mini axes -->
+  <line x1="160" y1="370" x2="160" y2="255" stroke="#2D3748" stroke-width="1.2"/>
+  <line x1="160" y1="370" x2="575" y2="370" stroke="#2D3748" stroke-width="1.2"/>
+
+  <!-- Mini MO line (horizontal at y=300) -->
+  <line x1="160" y1="300" x2="560" y2="300" stroke="#1A5276" stroke-width="2"/>
+  <text x="565" y="296" font-family="Arial" font-size="10" font-weight="bold" fill="#1A5276">MO</text>
+
+  <!-- Mini MK line (rising from bottom-left to top-right)
+       From (160,370) to (560,260) -->
+  <line x1="160" y1="370" x2="560" y2="260" stroke="#E67E22" stroke-width="2"/>
+  <text x="565" y="256" font-family="Arial" font-size="10" font-weight="bold" fill="#E67E22">MK</text>
+
+  <!-- Intersection at approximately x=393, y=300
+       MK line: y = 370 - (110/400)*(x-160) = 370 - 0.275*(x-160)
+       At y=300: 300 = 370 - 0.275*(x-160) → 0.275*(x-160) = 70 → x-160 = 254.5 → x = 414.5
+  -->
+  <circle cx="415" cy="300" r="4" fill="#2D3748"/>
+  <line x1="415" y1="300" x2="415" y2="370" stroke="#2D3748" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="415" y="382" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#2D3748">Q*</text>
+
+  <!-- Zone labels in mini graph -->
+  <text x="280" y="345" text-anchor="middle" font-family="Arial" font-size="10" fill="#27AE60">MO &gt; MK</text>
+  <text x="495" y="290" text-anchor="middle" font-family="Arial" font-size="10" fill="#D9534F">MK &gt; MO</text>
+
+  <!-- Formula box -->
+  <rect x="250" y="248" width="220" height="20" rx="3" fill="#FEF9E7" stroke="#D4AC0D" stroke-width="1"/>
+  <text x="360" y="262" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#D4AC0D">Winstmaximum bij Q* waar MO = MK</text>
+</svg>

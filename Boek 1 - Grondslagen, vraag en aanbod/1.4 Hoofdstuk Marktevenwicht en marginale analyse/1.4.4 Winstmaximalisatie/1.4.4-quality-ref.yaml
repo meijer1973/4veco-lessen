@@ -1,0 +1,41 @@
+# Quality Reference - 1.4.4 Winstmaximalisatie
+# Generated: 2026-04-23
+
+paragraph: "1.4.4"
+title: "Winstmaximalisatie"
+type: theory
+framework_version: "onderzoekskader 2021, bijgesteld 2025"
+standards_verified: "2026-04-12"
+
+content:
+  paragraaf_md: true
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: true
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  build_pdf_py: true
+
+assets:
+  total_referenced: 6
+  total_present: 6
+  missing: []
+  orphaned: []
+  svgpng_paired: true
+  naming_compliant: true
+  inventory:
+    - 1.4.4_fig_1 (MK kruist MO)
+    - 1.4.4_fig_2 (TK en TO met winstgebied)
+    - 1.4.4_fig_3 (MK/MO snijpunt)
+    - 1.4.4_fig_4 (MO=MK overzicht)
+    - 1.4.4_we_1 (uitgewerkt voorbeeld fietsenmaker)
+    - 1.4.4_ex_1 (grafieklezen MK/MO)
+
+review:
+  file: "1.4.4-review.md"
+  unresolved_blockers: 0
+  verdict: "PASS WITH FLAGS"
+  flags:
+    - "Discrete MO/MK stopping rule could be worded more precisely."
+    - "Mixed interval and last-unit MK values need clearer labeling."
+    - "Opgave 9 wording should mention loss minimization."

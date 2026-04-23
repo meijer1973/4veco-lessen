@@ -1,0 +1,79 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">Horizontaal optellen: V_Anna + V_Ben = V_collectief</text>
+
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="180" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748" transform="rotate(-90, 15, 180)">Prijs (€)</text>
+
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,310 670,306 670,314" fill="#2D3748"/>
+  <text x="380" y="350" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748">Hoeveelheid bekers per week</text>
+
+  <text x="72" y="325" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">0</text>
+
+  <!-- Marker for arrows -->
+  <defs>
+    <marker id="arr4" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#9B59B6"/>
+    </marker>
+  </defs>
+
+  <!-- Anna (dashed) — Qd=-2P+7, line from (80,125) to (248,310) -->
+  <line x1="80" y1="125" x2="248" y2="310" stroke="#1A5276" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="253" y="310" font-family="Arial" font-size="13" font-weight="bold" fill="#1A5276">V_Anna</text>
+
+  <!-- Ben (dashed) -->
+  <line x1="80" y1="116" x2="344" y2="310" stroke="#27AE60" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="349" y="310" font-family="Arial" font-size="13" font-weight="bold" fill="#27AE60">V_Ben</text>
+
+  <!-- V_collectief = -5P+18 (P<=3.5) ; for P>3.5, V_collectief = V_Ben only? No, Anna's drops at P=4. So between 3.5 and 4, only Anna. Actually Ben's Qd=-3P+11, hits 0 at P=11/3≈3.67. So:
+       For P>=4: both Q=0
+       For 3.67<=P<4: only Anna; Q_coll = -2P+7
+       For 0<=P<3.67: both; Q_coll = -2P+7 + (-3P+11) = -5P+18
+
+       Plot V_collectief:
+       P=0, Q=18 -> x=80+18*24=512, y=310
+       P=3.67, Q=18-5*3.67=18-18.33≈-0.33 — so kink at where Ben drops, P=3.67, Q_coll = -2(3.67)+7 = 7-7.33≈-0.33 (round)
+       Better: kink point at P=11/3, Q from V_collectief = 18 - 5*(11/3) = 18 - 55/3 = 54/3 - 55/3 = -1/3
+       Actually let me recompute. Ben hits 0 at P=11/3. At that price Anna's Q = -2*(11/3)+7 = -22/3 + 21/3 = -1/3. So Anna's Q is also negative at P=11/3.
+       Anna hits 0 first at P=3.5 (Q_anna=-2P+7=0 -> P=3.5). So between 3.5 and 3.67, only Ben is in market.
+       For 3.5<=P<3.67: Q_coll = Q_Ben = -3P+11
+       For 3.67<=P: Q_coll = 0
+       For 0<=P<3.5: Q_coll = -5P+18
+
+       Hmm this is getting messy with these specific functions. Let me just plot the main collective curve segment cleanly.
+       V_coll for 0<=P<3.5: Q = -5P+18
+       At P=0, Q=18 -> x=512, y=310
+       At P=3.5, Q=0.5 -> x=92, y=310-3.5*53=125
+
+       For 3.5<=P<3.67 (only Ben):
+       At P=3.5, Q_Ben = -3*3.5+11 = 0.5 -> x=92, y=125
+       At P=3.67, Q_Ben=0 -> x=80, y=116
+
+       So: main line from (80,116) to (92,125) to (512,310)
+  -->
+  <polyline points="80,116 92,125 512,310" stroke="#9B59B6" stroke-width="3" fill="none"/>
+  <text x="517" y="310" font-family="Arial" font-size="14" font-weight="bold" fill="#9B59B6">V_coll</text>
+
+  <!-- At P=2 (y=204), show horizontal addition -->
+  <line x1="80" y1="204" x2="416" y2="204" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="72" y="208" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€2</text>
+
+  <!-- Anna point at P=2: Q=3, x=152 -->
+  <circle cx="152" cy="204" r="4" fill="#1A5276"/>
+  <text x="152" y="195" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1A5276">3</text>
+  <!-- Ben point at P=2: Q=5, x=200 -->
+  <circle cx="200" cy="204" r="4" fill="#27AE60"/>
+  <text x="200" y="195" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#27AE60">5</text>
+  <!-- Collective point at P=2: Q=8, x=80+8*24=272 -->
+  <circle cx="272" cy="204" r="5" fill="#9B59B6"/>
+  <text x="280" y="195" font-family="Arial" font-size="13" font-weight="bold" fill="#9B59B6">8 = 3+5</text>
+
+  <!-- Arrow showing the addition -->
+  <line x1="156" y1="218" x2="268" y2="218" stroke="#9B59B6" stroke-width="1.5" marker-end="url(#arr4)"/>
+  <text x="200" y="234" text-anchor="middle" font-family="Arial" font-size="13" font-style="italic" fill="#9B59B6">tel Q's op bij dezelfde P</text>
+
+  <!-- Quantity labels -->
+  <text x="272" y="325" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">8</text>
+</svg>

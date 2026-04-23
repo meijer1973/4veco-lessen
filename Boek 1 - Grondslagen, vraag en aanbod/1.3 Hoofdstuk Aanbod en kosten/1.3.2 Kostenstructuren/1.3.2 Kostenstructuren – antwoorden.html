@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  
+<style>
+/* === Layout inspired by CITO VWO exam papers ===
+   Wide left margin, clean sans-serif, generous line spacing.
+   Domain colors retained for headings/blockquotes (textbook hierarchy). */
+
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;  /* top right bottom left — exam-like indented body */
+  @bottom-left   { content: "1.3.2 Kostenstructuren"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+/* h2 mimics the "Opgave 1 Zorgverzekering" heading: bold + thin underline */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === (simple, exam-style, no colored header background) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 6pt 10pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 5pt 10pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+/* Bare images (not in figure) */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+/* Allow exercises to break across pages to avoid whitespace,
+   but keep the "Opgave X" title with at least 2 lines of content. */
+.exercise {
+  margin-bottom: 8pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="kostenstructuren-antwoorden">1.3.2 Kostenstructuren —
+antwoorden</h1>
+<p><strong>Afrondingsregel:</strong> Rond af op 2 decimalen tenzij
+anders aangegeven.</p>
+<hr />
+</div><h2 id="procedure-uit-het-uitgewerkt-voorbeeld">Procedure (uit het
+uitgewerkt voorbeeld)</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 66%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Wat doe je?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Identificeer de constante kosten (TCK) en de variabele kosten per
+stuk (GVK).</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Stel de formules op: TCK = vast bedrag, TVK = GVK x Q, TK = TCK +
+TVK.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Vul de gevraagde hoeveelheid (Q) in om de totalen te berekenen.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Bereken de gemiddelden: GCK = TCK / Q, GVK = TVK / Q, GTK = TK /
+Q.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Controleer: GTK = GCK + GVK.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="exercise"><p><strong>Opgave 1</strong></p>
+<p><strong>a)</strong> De TCK-lijn is de horizontale lijn in de grafiek.
+De hoogte van deze lijn geeft de totale constante kosten aan. Lees de
+waarde af op de y-as waar de TCK-lijn loopt.</p>
+<p><em>Waarom:</em> TCK is constant — ongeacht de productieomvang
+blijven deze kosten gelijk. Daarom is de lijn horizontaal.</p>
+<p><strong>b)</strong> Bij Q = 200: - TK: lees de waarde af op de
+TK-lijn bij Q = 200 op de y-as. - TVK: lees de waarde af op de TVK-lijn
+bij Q = 200 op de y-as.</p>
+<p><em>Waarom:</em> TK is de bovenste lijn (alle kosten samen), TVK is
+de lijn die in de oorsprong begint (alleen de variabele kosten).</p>
+<p><strong>c)</strong> Controle: TK = TCK + TVK.</p>
+<p>Vul de afgelezen waarden in: - TCK + TVK = [afgelezen TCK] +
+[afgelezen TVK] - Vergelijk met de afgelezen TK.</p>
+<p>Als deze gelijk zijn, klopt de formule TK = TCK + TVK. ✓</p>
+<p><em>Waarom:</em> De verticale afstand tussen de TK-lijn en de
+TVK-lijn is altijd precies gelijk aan TCK.</p>
+<p><strong>d)</strong> De bewering klopt niet helemaal. Als het bedrijf
+meer produceert: - <strong>TVK stijgt</strong> — er worden meer
+grondstoffen en energie verbruikt. - <strong>TK stijgt</strong> — want
+TK = TCK + TVK en TVK stijgt. - <strong>TCK verandert niet</strong> — de
+huur, verzekering en afschrijving blijven gelijk, ongeacht het
+productievolume.</p>
+<p>Dus niet <em>alle</em> kosten stijgen: de constante kosten blijven
+per definitie constant.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<p><strong>a)</strong> Stap 1: Identificeer de kosten. - Constante
+kosten: €600 per maand → TCK = 600 - Variabele kosten: €4 per maaltijd →
+GVK = 4</p>
+<p>Stap 2: Stel de formules op. - TCK = 600 - TVK = 4 x Q - TK = 600 +
+4Q</p>
+<p><strong>b)</strong> Stap 3: Vul de hoeveelheden in.</p>
+<table>
+<thead>
+<tr>
+<th>Q</th>
+<th>TCK (€)</th>
+<th>TVK (€)</th>
+<th>TK (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>50</td>
+<td>600</td>
+<td>4 x 50 = 200</td>
+<td>600 + 200 = 800</td>
+</tr>
+<tr>
+<td>150</td>
+<td>600</td>
+<td>4 x 150 = 600</td>
+<td>600 + 600 = 1200</td>
+</tr>
+<tr>
+<td>300</td>
+<td>600</td>
+<td>4 x 300 = 1200</td>
+<td>600 + 1200 = 1800</td>
+</tr>
+</tbody>
+</table>
+<p><em>Waarom:</em> TCK blijft in elke rij €600 — die kosten hangen niet
+af van het aantal maaltijden. TVK stijgt evenredig: dubbel zoveel
+maaltijden = dubbel zoveel variabele kosten.</p>
+<p><strong>c)</strong> De grafiek bevat drie lijnen: -
+<strong>TCK</strong>: horizontale lijn op €600. - <strong>TVK</strong>:
+rechte lijn van de oorsprong (0, 0) door (300, 1200). Helling = €4 per
+maaltijd. - <strong>TK</strong>: rechte lijn van (0, 600) door (300,
+1800). Helling = €4 per maaltijd.</p>
+<p><strong>d)</strong> De TK-lijn en de TVK-lijn lopen evenwijdig omdat
+ze dezelfde helling hebben. Elke extra maaltijd voegt €4 toe aan zowel
+TVK als TK. Het verschil tussen de twee lijnen is constant en gelijk aan
+TCK (€600). TCK verandert niet met Q, dus de afstand tussen de lijnen
+blijft altijd even groot.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 3</strong></p>
+<p><strong>a)</strong> Bij Q = 400: Stap 1: TCK = 1200, TVK = 0,50 x 400
+= 200, TK = 1200 + 200 = 1400.</p>
+<p>Stap 4: Bereken de gemiddelden. - GCK = 1200 / 400 =
+<strong>€3,00</strong> - GVK = 200 / 400 = <strong>€0,50</strong> - GTK
+= 1400 / 400 = <strong>€3,50</strong></p>
+<p>Stap 5: Controle: GCK + GVK = 3,00 + 0,50 = 3,50 = GTK ✓</p>
+<p><strong>b)</strong> Bij Q = 2400: Stap 1: TCK = 1200, TVK = 0,50 x
+2400 = 1200, TK = 1200 + 1200 = 2400.</p>
+<p>Stap 4: Bereken de gemiddelden. - GCK = 1200 / 2400 =
+<strong>€0,50</strong> - GVK = 1200 / 2400 = <strong>€0,50</strong> -
+GTK = 2400 / 2400 = <strong>€1,00</strong></p>
+<p>Stap 5: Controle: GCK + GVK = 0,50 + 0,50 = 1,00 = GTK ✓</p>
+<p><strong>c)</strong> GTK daalt omdat GCK daalt. GCK daalt van €3,00
+naar €0,50: de constante kosten (€1200) worden over steeds meer flyers
+verdeeld. GVK blijft constant op €0,50 (elke flyer kost evenveel aan
+variabele kosten). Omdat GTK = GCK + GVK, en alleen GCK daalt, daalt GTK
+mee.</p>
+<p><em>Waarom:</em> Dit is het spreidingseffect — bij een grotere
+productie worden de vaste kosten over meer eenheden gespreid, waardoor
+de kosten per stuk dalen.</p>
+<p><strong>d)</strong> Bestelling 1: 400 flyers, prijs €4 per stuk. -
+GTK = €3,50 (uit deelvraag a) - Winst per flyer = €4 − €3,50 =
+<strong>€0,50</strong></p>
+<p>Bestelling 2: 2400 flyers, prijs €1,50 per stuk. - GTK = €1,00 (uit
+deelvraag b) - Winst per flyer = €1,50 − €1,00 =
+<strong>€0,50</strong></p>
+<p>De winst per flyer is bij beide bestellingen gelijk (€0,50). Maar de
+totale winst verschilt: 400 x €0,50 = €200 versus 2400 x €0,50 = €1200.
+De grote bestelling levert dus veel meer totale winst op, ook al is de
+prijs per flyer veel lager.</p>
+<p><em>Waarom:</em> De lagere prijs bij de grote bestelling wordt
+gecompenseerd door de lagere GTK (dankzij het spreidingseffect). Per
+stuk verdient de drukkerij evenveel, maar in totaal veel meer.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<p><strong>a)</strong> Stap 1: TCK = 3000, GVK = 5 per lid.</p>
+<p>Stap 2: - TCK = 3000 - TVK = 5Q - TK = 3000 + 5Q</p>
+<p><strong>b)</strong> Stap 3 en 4:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 14%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Q</th>
+<th>TCK (€)</th>
+<th>TVK (€)</th>
+<th>TK (€)</th>
+<th>GCK (€)</th>
+<th>GVK (€)</th>
+<th>GTK (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>3000</td>
+<td>5 x 100 = 500</td>
+<td>3500</td>
+<td>3000/100 = 30,00</td>
+<td>500/100 = 5,00</td>
+<td>3500/100 = 35,00</td>
+</tr>
+<tr>
+<td>600</td>
+<td>3000</td>
+<td>5 x 600 = 3000</td>
+<td>6000</td>
+<td>3000/600 = 5,00</td>
+<td>3000/600 = 5,00</td>
+<td>6000/600 = 10,00</td>
+</tr>
+</tbody>
+</table>
+<p>Stap 5: Controle bij Q = 100: 30,00 + 5,00 = 35,00 ✓ Controle bij Q =
+600: 5,00 + 5,00 = 10,00 ✓</p>
+<p><em>Waarom:</em> Bij 100 leden is GCK heel hoog (€30): de vaste
+kosten van €3000 drukken zwaar op elk lid. Bij 600 leden is GCK gedaald
+naar €5 — het spreidingseffect in actie.</p>
+<p><strong>c)</strong> De opbrengst per lid (GO) is €15. We zoeken het
+punt waar GO = GTK:</p>
+<p>15 = TK / Q = (3000 + 5Q) / Q = 3000/Q + 5</p>
+<p>15 = 3000/Q + 5 10 = 3000/Q Q = 3000 / 10 = <strong>300
+leden</strong></p>
+<p>Controle: TK = 3000 + 5(300) = 4500. GTK = 4500 / 300 = 15,00 = GO
+✓</p>
+<p>Antwoord: Bij <strong>300 leden</strong> is de opbrengst per lid
+precies gelijk aan de gemiddelde totale kosten. Dit is het
+break-evenpunt: de sportschool draait quitte.</p>
+<p><em>Waarom:</em> Bij minder dan 300 leden zijn de kosten per lid
+hoger dan de opbrengst per lid — de sportschool maakt verlies. Bij meer
+dan 300 leden zijn de kosten per lid lager — de sportschool maakt
+winst.</p>
+<p><strong>d)</strong> De grafiek bevat drie lijnen: -
+<strong>GVK</strong>: horizontale lijn op €5 (de variabele kosten per
+lid zijn constant). - <strong>GCK</strong>: dalende hyperbool (3000/Q).
+Begint heel hoog bij weinig leden, nadert nul bij heel veel leden. -
+<strong>GTK</strong>: dalende lijn die altijd boven GVK ligt. Bij heel
+grote Q nadert GTK de waarde €5 (= GVK). GTK kan nooit onder GVK zakken,
+want GCK is altijd positief.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<p><strong>a)</strong> Stap 2: - Bedrijf A: TK = 2000 + 3Q - Bedrijf B:
+TK = 500 + 6Q</p>
+<p><strong>b)</strong> Stap 3 en 4:</p>
+<p>Bij Q = 200: - GTK_A = (2000 + 3 x 200) / 200 = 2600 / 200 =
+<strong>€13,00</strong> - GTK_B = (500 + 6 x 200) / 200 = 1700 / 200 =
+<strong>€8,50</strong></p>
+<p>Bij Q = 1000: - GTK_A = (2000 + 3 x 1000) / 1000 = 5000 / 1000 =
+<strong>€5,00</strong> - GTK_B = (500 + 6 x 1000) / 1000 = 6500 / 1000 =
+<strong>€6,50</strong></p>
+<p><em>Waarom:</em> Bij Q = 200 is bedrijf B goedkoper (lagere GTK). Bij
+Q = 1000 is bedrijf A goedkoper. Bedrijf A heeft hogere vaste kosten,
+maar die worden bij grote Q over veel eenheden gespreid. Bedrijf B heeft
+hogere variabele kosten per stuk, en die dalen niet bij grotere
+productie.</p>
+<p><strong>c)</strong> We zoeken Q waarvoor GTK_A = GTK_B:</p>
+<p>(2000 + 3Q) / Q = (500 + 6Q) / Q</p>
+<p>2000 + 3Q = 500 + 6Q</p>
+<p>2000 - 500 = 6Q - 3Q</p>
+<p>1500 = 3Q</p>
+<p>Q = <strong>500 stuks</strong></p>
+<p>Controle: - GTK_A = (2000 + 1500) / 500 = 3500 / 500 = €7,00 - GTK_B
+= (500 + 3000) / 500 = 3500 / 500 = €7,00 ✓</p>
+<p><em>Waarom:</em> Bij precies 500 stuks produceren beide bedrijven
+even duur. Onder de 500 is B goedkoper (lagere vaste kosten wegen
+zwaarder). Boven de 500 is A goedkoper (lagere variabele kosten wegen
+zwaarder doordat het spreidingseffect de hoge vaste kosten van A
+compenseert).</p>
+<p><strong>d)</strong> Bedrijf A heeft een voordeel bij groot
+productievolume. De hoge vaste kosten (€2000) worden over veel eenheden
+verdeeld, waardoor GCK snel daalt. Tegelijkertijd zijn de variabele
+kosten per stuk laag (€3). Bij bedrijf B dalen de gemiddelde kosten veel
+langzamer, omdat de GVK hoog blijft (€6 per stuk) — en GVK verandert
+niet met de productieomvang.</p>
+<p>Dit is het spreidingseffect in actie: hoge vaste kosten zijn een
+nadeel bij kleine productie, maar een voordeel bij grote productie.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 6</strong></p>
+<p><strong>a)</strong> Vergelijk de betalingsbereidheid met de
+marktprijs (€3): - 1e smoothie: €5 ≥ €3 → kopen ✓ - 2e smoothie: €3,50 ≥
+€3 → kopen ✓ - 3e smoothie: €2 &lt; €3 → niet kopen ✗</p>
+<p>De consument koopt <strong>2 smoothies</strong>.</p>
+<p><strong>b)</strong> Consumentensurplus: - Smoothie 1: €5 − €3 = €2 -
+Smoothie 2: €3,50 − €3 = €0,50 - Totaal: €2 + €0,50 =
+<strong>€2,50</strong></p>
+<p><em>Waarom:</em> De consument betaalt minder dan zijn maximum voor de
+eerste twee smoothies. Dat verschil is zijn voordeel (surplus).</p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.1.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 7</strong></p>
+<p><strong>a)</strong> De stijging van de benzineprijs leidt tot een
+<strong>verschuiving van de vraaglijn</strong> naar fietsen <strong>naar
+rechts</strong>.</p>
+<p>Redenering: auto’s zijn een substituut voor fietsen. Als benzine
+duurder wordt, worden auto’s duurder in gebruik. Consumenten stappen
+over op het alternatief (fietsen). Bij elke prijs worden er meer fietsen
+gevraagd → de vraaglijn verschuift naar rechts.</p>
+<p>Vraagfactor: <strong>prijs van een substituut</strong> (auto’s).</p>
+<p><strong>b)</strong> De prijsverlaging door de fietsenfabrikant leidt
+tot een <strong>beweging langs de vraaglijn</strong>. De prijs van het
+goed zelf (de fiets) daalt, waardoor de gevraagde hoeveelheid stijgt.
+Dit is een beweging langs de bestaande vraaglijn, geen verschuiving.</p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 8</strong></p>
+<p><strong>a)</strong> TO = prijs x Q = €3 x 60 =
+<strong>€180</strong></p>
+<p><strong>b)</strong> TK = TCK + TVK = 80 + (1,20 x 60) = 80 + 72 =
+<strong>€152</strong></p>
+<p><strong>c)</strong> Winst = TO − TK = 180 − 152 =
+<strong>€28</strong></p>
+<p><em>Waarom:</em> De opbrengst (€180) is hoger dan de kosten (€152),
+dus de marktkraam maakt winst. Per bos is de winst: GO − GTK = 3 −
+(152/60) = 3 − 2,53 = €0,47 per bos. Keer 60 bossen = €28
+(afronding).</p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.3.1.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 9</strong></p>
+<p><strong>a)</strong> Stap 1: Constante kosten = €500, variabele kosten
+per stuk = €0,80.</p>
+<p>Stap 2: - TCK = 500 - TVK = 0,80 x Q - TK = 500 + 0,80Q</p>
+<p><strong>b)</strong> Stap 3: Vul Q = 500 en Q = 1000 in.</p>
+<table>
+<thead>
+<tr>
+<th>Q</th>
+<th>TCK (€)</th>
+<th>TVK (€)</th>
+<th>TK (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500</td>
+<td>500</td>
+<td>0,80 x 500 = 400</td>
+<td>500 + 400 = 900</td>
+</tr>
+<tr>
+<td>1000</td>
+<td>500</td>
+<td>0,80 x 1000 = 800</td>
+<td>500 + 800 = 1300</td>
+</tr>
+</tbody>
+</table>
+<p><em>Waarom:</em> TCK blijft €500 in beide gevallen — de huur en
+verzekering veranderen niet met het aantal broden. TVK verdubbelt als Q
+verdubbelt, want elk brood kost evenveel aan ingredienten.</p>
+<p><strong>c)</strong> Stap 4: Deel de totalen door Q.</p>
+<table>
+<thead>
+<tr>
+<th>Q</th>
+<th>GCK (€)</th>
+<th>GVK (€)</th>
+<th>GTK (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500</td>
+<td>500/500 = 1,00</td>
+<td>400/500 = 0,80</td>
+<td>900/500 = 1,80</td>
+</tr>
+<tr>
+<td>1000</td>
+<td>500/1000 = 0,50</td>
+<td>800/1000 = 0,80</td>
+<td>1300/1000 = 1,30</td>
+</tr>
+</tbody>
+</table>
+<p>Stap 5: Controle: - Q = 500: GCK + GVK = 1,00 + 0,80 = 1,80 = GTK ✓ -
+Q = 1000: GCK + GVK = 0,50 + 0,80 = 1,30 = GTK ✓</p>
+<p><strong>d)</strong> GTK daalt van €1,80 naar €1,30 als Q stijgt van
+500 naar 1000.</p>
+<p>Dit is logisch omdat: - GVK blijft constant op €0,80 (elk brood kost
+evenveel aan ingredienten). - GCK daalt van €1,00 naar €0,50 (de vaste
+kosten van €500 worden over meer broden verspreid). - GTK = GCK + GVK,
+dus als GCK daalt en GVK gelijk blijft, daalt GTK.</p>
+<p>Dit is het <strong>spreidingseffect</strong>: hoe meer je produceert,
+hoe lager de vaste kosten per stuk, en dus hoe lager de gemiddelde
+totale kosten.</p>
+<p><em>Waarom:</em> Een bakkerij die meer broden bakt, wordt goedkoper
+per brood — niet omdat het meel goedkoper wordt, maar omdat de huur en
+verzekering over meer broden worden verdeeld.</p>
+<p><strong>e)</strong> De leerling heeft <strong>ongelijk</strong>. GCK
+is juist <em>niet</em> altijd hetzelfde — GCK verandert bij elke andere
+productieomvang.</p>
+<ul>
+<li>GCK = TCK / Q</li>
+<li>TCK is vast (€500), maar Q verandert. Als Q stijgt, daalt GCK. Als Q
+daalt, stijgt GCK.</li>
+<li>Bij Q = 500: GCK = €1,00. Bij Q = 1000: GCK = €0,50.</li>
+</ul>
+<p>De leerling verwart waarschijnlijk GCK met TCK. <strong>TCK</strong>
+is wel altijd hetzelfde (de totale constante kosten veranderen niet met
+de productie). Maar <strong>GCK</strong> (de constante kosten <em>per
+stuk</em>) verandert wél, omdat je door een steeds groter getal
+deelt.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 10 — Denkertje</strong></p>
+<p><em>Modelantwoord:</em></p>
+<p><strong>a)</strong> Beide GTK-lijnen dalen, maar ze beginnen op een
+ander niveau en naderen een andere bodemwaarde: - Fabriek X (hoge TCK,
+lage GVK): GTK begint heel hoog bij kleine Q (de hoge vaste kosten
+drukken zwaar). Bij grote Q daalt GTK snel en nadert de lage GVK. -
+Fabriek Y (lage TCK, hoge GVK): GTK begint lager bij kleine Q, maar
+daalt minder steil. Bij grote Q nadert GTK de hogere GVK.</p>
+<p>De twee GTK-lijnen kruisen elkaar. Links van het snijpunt is fabriek
+Y goedkoper (lagere GTK). Rechts van het snijpunt is fabriek X
+goedkoper.</p>
+<p><strong>b)</strong> Fabriek X zit in een moeilijkere positie tijdens
+een recessie. De vraag daalt, dus Q daalt. Bij een lagere Q stijgt de
+GCK van fabriek X sterk (want de hoge vaste kosten worden over minder
+eenheden verdeeld). De GCK van fabriek Y stijgt ook, maar minder sterk
+(want de vaste kosten zijn lager). Het spreidingseffect werkt nu
+<em>tegen</em> fabriek X: minder afzet betekent veel hogere kosten per
+stuk.</p>
+<p>Fabriek Y is flexibeler: bij minder productie dalen de variabele
+kosten mee (minder handarbeid nodig), en de vaste kosten zijn sowieso
+laag. Fabriek X blijft zitten met hoge vaste kosten voor de robots,
+ongeacht hoeveel ijs wordt geproduceerd.</p>
+<p><strong>c)</strong> Voorbeeld: een luchtvaartmaatschappij. De
+vliegtuigen, pilotenopleiding, luchthavengelden en onderhoud zijn enorme
+vaste kosten. De variabele kosten per passagier (maaltijd,
+brandstofaandeel) zijn relatief laag. Een halfleeg vliegtuig kost bijna
+evenveel als een vol vliegtuig, maar de opbrengst is de helft. Daarom
+hebben luchtvaartmaatschappijen een hoge bezettingsgraad nodig: hoe meer
+passagiers, hoe lager de GCK per passagier, en hoe eerder de
+maatschappij winstgevend is.</p>
+<p>Andere goede voorbeelden: bioscopen, pretparken, softwarebedrijven,
+energiecentrales.</p>
+<p><em>Beoordelingscriteria:</em> - De leerling tekent twee dalende
+GTK-lijnen die elkaar kruisen, met correct verschil in starthoogte en
+bodemwaarde. - De leerling legt uit dat hoge vaste kosten een nadeel
+zijn bij lage Q (spreidingseffect werkt tegen je). - De leerling noemt
+een realistisch voorbeeld met hoge vaste kosten en legt het verband met
+het spreidingseffect. - De leerling gebruikt de begrippen GCK, GVK, GTK
+en spreidingseffect correct.</p>
+</body>
+</html>

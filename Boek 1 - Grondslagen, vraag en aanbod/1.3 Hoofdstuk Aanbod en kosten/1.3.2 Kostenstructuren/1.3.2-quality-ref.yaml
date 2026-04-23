@@ -1,0 +1,81 @@
+# === QUALITY REFERENCE ===
+# Generated: 2026-04-23
+# Paragraph: 1.3.2 Kostenstructuren
+
+quality_ref:
+  paragraph: "1.3.2 Kostenstructuren"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.3 Aanbod en kosten"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  content_inventory:
+    type: "theory"
+    paragraaf_md: true
+    opgaven_md: true
+    antwoorden_md: true
+    html_present: true
+    pdf_present: true
+    review_status: "usable with flags"
+
+  leerdoelen:
+    - id: L1
+      beschrijving: "De leerling onderscheidt constante en variabele kosten."
+      bloom: "begrijpen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L2
+      beschrijving: "De leerling berekent TCK, TVK, TK, GCK, GVK en GTK."
+      bloom: "toepassen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L3
+      beschrijving: "De leerling verklaart het spreidingseffect."
+      bloom: "analyseren"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+
+  componenten:
+    theorie:
+      aanwezig: true
+      doel: "Bouwt kostenbegrippen en formules stap voor stap op."
+      inspectie: [OP1, OP3]
+      didactiek: ["dual coding", "expliciet lesdoel"]
+    uitgewerkt_voorbeeld:
+      aanwezig: true
+      doel: "Modelleert totale en gemiddelde kostenberekeningen."
+      inspectie: [OP3]
+      didactiek: ["worked examples", "controle-stap"]
+    opgaven:
+      aanwezig: true
+      doel: "Oefent grafieken, berekeningen, vergelijkingen en transfer."
+      inspectie: [OP3, OR1]
+      didactiek: ["fading", "retrieval practice", "Bloom-opbouw"]
+    antwoorden:
+      aanwezig: true
+      doel: "Geeft modelberekeningen en redeneeruitleg."
+      inspectie: [OP2, OP3]
+      didactiek: ["formatief evalueren"]
+
+  assets:
+    total_referenced: 9
+    total_present: 9
+    missing: []
+    orphaned:
+      - "1.3.2_ex_1.png"
+      - "1.3.2_ex_2.png"
+      - "1.3.2_fig_1.png"
+      - "1.3.2_fig_2.png"
+      - "1.3.2_fig_3.png"
+      - "1.3.2_we_1.png"
+    svgpng_paired: true
+    naming_compliant: true
+
+  verantwoording:
+    differentiatie: "Start-, zelfstandige, herhalings-, doel- en bonusopgaven bieden oplopende steun en uitdaging."
+    dual_coding: "Kostenbegrippen worden steeds via tekst, formules, tabellen en grafieken verbonden."
+    scaffolding_fading: "Het uitgewerkte voorbeeld wordt gevolgd door eerst aflezen/tekenen en daarna zelfstandig rekenen."
+    voorkennis_aansluiting: "De paragraaf bouwt op aanbodontwikkeling en bereidt opbrengsten/winst voor."
+    formatief: "Antwoorden bevatten stappen en controles, al is Opgave 1 nog te weinig concreet."
+    veelgemaakte_fouten: "De paragraaf waarschuwt expliciet voor verwarring tussen totale en gemiddelde kosten."
+    lesdoel_zichtbaarheid: "De openingsparagraaf noemt de zeven kostenbegrippen en hun doel."
+    oefentijd: "Er is ruime oefentijd met grafiek-, formule- en contextopgaven."

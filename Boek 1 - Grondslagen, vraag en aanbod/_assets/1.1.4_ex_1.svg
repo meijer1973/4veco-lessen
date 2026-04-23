@@ -1,0 +1,112 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#2D3748">Gemiddelde prijs per kilo groente en fruit (2020-2025)</text>
+
+  <!-- Y-axis (Prijs) -->
+  <line x1="90" y1="340" x2="90" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="90,45 86,55 94,55" fill="#2D3748"/>
+  <text x="20" y="195" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748" transform="rotate(-90, 20, 195)">Prijs (euro per kg)</text>
+
+  <!-- X-axis (Jaar) -->
+  <line x1="90" y1="340" x2="670" y2="340" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="670,340 660,336 660,344" fill="#2D3748"/>
+  <text x="380" y="385" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">Jaar</text>
+
+  <!-- Origin label -->
+  <text x="82" y="355" text-anchor="end" font-family="Arial" font-size="13" fill="#2D3748">0</text>
+
+  <!--
+    Plot area:
+    X: 90 to 650 => 6 years (2020-2025), spacing = 93.3px per year
+    Y: 340 to 60 => range €0 to €3,50, scale = 80px per €1
+
+    Year positions:
+    2020: x=90+93.3=183   2021: x=277   2022: x=370
+    2023: x=463   2024: x=557   2025: x=650
+
+    Price data (groente):
+    2020: €2,00 (y=340-160=180)
+    2021: €2,10 (y=340-168=172)
+    2022: €2,40 (y=340-192=148)
+    2023: €2,70 (y=340-216=124)
+    2024: €2,50 (y=340-200=140)
+    2025: €2,80 (y=340-224=116)
+
+    Price data (fruit):
+    2020: €1,80 (y=340-144=196)
+    2021: €1,90 (y=340-152=188)
+    2022: €2,00 (y=340-160=180)
+    2023: €2,30 (y=340-184=156)
+    2024: €2,20 (y=340-176=164)
+    2025: €2,50 (y=340-200=140)
+  -->
+
+  <!-- Y tick marks and labels -->
+  <line x1="85" y1="260" x2="95" y2="260" stroke="#2D3748" stroke-width="1"/>
+  <text x="78" y="265" text-anchor="end" font-family="Arial" font-size="13" fill="#2D3748">1,00</text>
+  <line x1="85" y1="180" x2="95" y2="180" stroke="#2D3748" stroke-width="1"/>
+  <text x="78" y="185" text-anchor="end" font-family="Arial" font-size="13" fill="#2D3748">2,00</text>
+  <line x1="85" y1="100" x2="95" y2="100" stroke="#2D3748" stroke-width="1"/>
+  <text x="78" y="105" text-anchor="end" font-family="Arial" font-size="13" fill="#2D3748">3,00</text>
+
+  <!-- Additional Y ticks for 0.50 intervals -->
+  <line x1="87" y1="300" x2="93" y2="300" stroke="#999" stroke-width="0.5"/>
+  <text x="78" y="305" text-anchor="end" font-family="Arial" font-size="11" fill="#999">0,50</text>
+  <line x1="87" y1="220" x2="93" y2="220" stroke="#999" stroke-width="0.5"/>
+  <text x="78" y="225" text-anchor="end" font-family="Arial" font-size="11" fill="#999">1,50</text>
+  <line x1="87" y1="140" x2="93" y2="140" stroke="#999" stroke-width="0.5"/>
+  <text x="78" y="145" text-anchor="end" font-family="Arial" font-size="11" fill="#999">2,50</text>
+
+  <!-- Grid lines (light) -->
+  <line x1="90" y1="260" x2="650" y2="260" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="180" x2="650" y2="180" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="100" x2="650" y2="100" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="220" x2="650" y2="220" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="140" x2="650" y2="140" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="300" x2="650" y2="300" stroke="#E0E0E0" stroke-width="0.5"/>
+
+  <!-- X tick marks and labels -->
+  <line x1="183" y1="335" x2="183" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="183" y="360" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">2020</text>
+  <line x1="277" y1="335" x2="277" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="277" y="360" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">2021</text>
+  <line x1="370" y1="335" x2="370" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="370" y="360" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">2022</text>
+  <line x1="463" y1="335" x2="463" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="463" y="360" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">2023</text>
+  <line x1="557" y1="335" x2="557" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="557" y="360" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">2024</text>
+  <line x1="650" y1="335" x2="650" y2="345" stroke="#2D3748" stroke-width="1"/>
+  <text x="650" y="360" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">2025</text>
+
+  <!-- Groente line (blue) -->
+  <polyline points="183,180 277,172 370,148 463,124 557,140 650,116"
+    fill="none" stroke="#1A5276" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Groente dots -->
+  <circle cx="183" cy="180" r="4" fill="#1A5276"/>
+  <circle cx="277" cy="172" r="4" fill="#1A5276"/>
+  <circle cx="370" cy="148" r="4" fill="#1A5276"/>
+  <circle cx="463" cy="124" r="4" fill="#1A5276"/>
+  <circle cx="557" cy="140" r="4" fill="#1A5276"/>
+  <circle cx="650" cy="116" r="4" fill="#1A5276"/>
+
+  <!-- Fruit line (green) -->
+  <polyline points="183,196 277,188 370,180 463,156 557,164 650,140"
+    fill="none" stroke="#27AE60" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Fruit dots -->
+  <circle cx="183" cy="196" r="4" fill="#27AE60"/>
+  <circle cx="277" cy="188" r="4" fill="#27AE60"/>
+  <circle cx="370" cy="180" r="4" fill="#27AE60"/>
+  <circle cx="463" cy="156" r="4" fill="#27AE60"/>
+  <circle cx="557" cy="164" r="4" fill="#27AE60"/>
+  <circle cx="650" cy="140" r="4" fill="#27AE60"/>
+
+  <!-- Legend -->
+  <line x1="480" y1="62" x2="510" y2="62" stroke="#1A5276" stroke-width="2.5"/>
+  <circle cx="495" cy="62" r="4" fill="#1A5276"/>
+  <text x="518" y="67" font-family="Arial" font-size="13" fill="#2D3748">Groente</text>
+
+  <line x1="480" y1="82" x2="510" y2="82" stroke="#27AE60" stroke-width="2.5"/>
+  <circle cx="495" cy="82" r="4" fill="#27AE60"/>
+  <text x="518" y="87" font-family="Arial" font-size="13" fill="#2D3748">Fruit</text>
+</svg>

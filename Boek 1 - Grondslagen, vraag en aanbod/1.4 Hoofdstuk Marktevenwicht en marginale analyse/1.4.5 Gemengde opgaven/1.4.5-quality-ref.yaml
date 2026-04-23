@@ -1,0 +1,37 @@
+# Quality Reference - 1.4.5 Gemengde opgaven
+# Generated: 2026-04-23
+
+paragraph: "1.4.5"
+title: "Gemengde opgaven"
+type: consolidation
+framework_version: "onderzoekskader 2021, bijgesteld 2025"
+standards_verified: "2026-04-12"
+
+content:
+  paragraaf_md: false
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: false
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  build_pdf_py: true
+
+assets:
+  total_referenced: 2
+  total_present: 2
+  missing: []
+  orphaned: []
+  svgpng_paired: true
+  naming_compliant: true
+  inventory:
+    - 1.4.5_ex_1 (vraag en aanbod mandarijnen)
+    - 1.4.5_ex_2 (honingmarkt verschuivingen)
+
+review:
+  file: "1.4.5-review.md"
+  unresolved_blockers: 0
+  verdict: "PASS WITH FLAGS"
+  flags:
+    - "Consolidation set lacks an opening retrieval checklist."
+    - "Consolidation set lacks an end self-monitoring prompt."
+    - "Market quantity versus firm production distinction could be stated more explicitly."

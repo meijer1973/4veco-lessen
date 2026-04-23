@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left   { content: "Hoofdstuk 3 — Aanbod en kosten"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+p { margin: 0 0 10pt 0; }
+
+/* === FRONT PAGE === */
+.chapter-front h1 {
+  font-size: 24pt;
+  color: #1A5276;
+  border-bottom: 3px solid #1A5276;
+  padding-bottom: 8px;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.chapter-front { break-after: page; }
+
+.chapter-front p {
+  font-size: 11pt;
+  line-height: 1.4;
+  margin: 0 0 8pt 0;
+}
+
+.chapter-front h2 {
+  font-size: 14pt;
+  margin-top: 14pt;
+  margin-bottom: 6pt;
+  padding-bottom: 4pt;
+}
+
+.chapter-front ul {
+  font-size: 11pt;
+  line-height: 1.35;
+  margin: 0 0 8pt 0;
+}
+
+.chapter-front li {
+  margin-bottom: 2pt;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 3pt 6pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 2pt 6pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+.exercise {
+  margin-bottom: 14pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.exercise p {
+  margin: 0 0 1pt 0;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+ol[type="a"] { list-style-type: lower-alpha; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="antwoorden-hoofdstuk-3-aanbod-en-kosten">Antwoorden Hoofdstuk 3
+— Aanbod en kosten</h1>
+<div style="break-before: page;">
+
+</div>
+<h1 id="aanbod-antwoorden">1.3.1 Aanbod — antwoorden</h1>
+<p><strong>Afrondingsregel:</strong> Rond af op 2 decimalen tenzij
+anders aangegeven.</p>
+<hr />
+</div><h2 id="procedure-uit-het-uitgewerkt-voorbeeld">Procedure (uit het
+uitgewerkt voorbeeld)</h2>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 92%" />
+</colgroup>
+
+<thead>
+<tr>
+<th>Stap</th>
+<th>Vraag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Wat verandert er?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Is het de eigen prijs of een andere factor (aanbodfactor)?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Welke richting?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Teken of beschrijf het in de grafiek</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="exercise"><p><strong>Opgave 1</strong></p>
+<p><strong>a) Situatie 1</strong></p>
+<p>Stap 1: Wat zie je? Punt E ligt op de aanbodlijn A bij een bepaalde
+prijs en hoeveelheid. De pijl loopt langs de aanbodlijn omhoog naar punt
+E’ — bij een hogere prijs en grotere aangeboden hoeveelheid.</p>
+<p>Stap 2: Welke factor verandert? Alleen de eigen prijs van brood is
+veranderd. Het label “Beweging langs A” bevestigt dit.</p>
+<p>Antwoord: De prijs van brood is gestegen en de aangeboden hoeveelheid
+is toegenomen. Een mogelijke oorzaak is dat de marktprijs van brood
+stijgt, waardoor bakkers meer brood willen aanbieden.</p>
+<p><em>Waarom: Bij een hogere prijs willen producenten meer aanbieden,
+omdat het rendabeler wordt. De aanbodlijn A zelf blijft op zijn plek,
+want geen enkele andere factor (inputprijzen, technologie, …) is
+veranderd.</em></p>
+<p><strong>b) Situatie 2</strong></p>
+<p>Stap 1: Wat zie je? De aanbodlijn A₁ (gestippeld) is verschoven naar
+A₂ (links ervan). Bij dezelfde prijs is de aangeboden hoeveelheid
+gedaald.</p>
+<p>Stap 2: Welke factor verandert? De eigen prijs is niet veranderd. Een
+niet-prijsfactor moet de oorzaak zijn — bijvoorbeeld de prijs van meel
+(grondstof) is gestegen, of een bakkerij is gesloten (minder
+aanbieders).</p>
+<p>Antwoord: De hele aanbodlijn is naar links verschoven. Bij elke prijs
+willen producenten nu minder brood aanbieden. Mogelijke oorzaak: de
+prijs van meel (inputprijs) is gestegen.</p>
+<p><em>Waarom: Een verandering buiten de eigen prijs raakt de positie
+van de hele aanbodlijn, niet één enkel punt.</em></p>
+<p><strong>c)</strong> In Situatie 1 verandert de eigen prijs van brood,
+dus je beweegt langs de bestaande lijn naar een ander punt — een
+<strong>beweging langs</strong> de aanbodlijn. In Situatie 2 verandert
+juist een andere factor (bijvoorbeeld inputprijzen of aantal
+aanbieders). Daardoor schuift de hele lijn op: bij elke prijs wordt een
+andere hoeveelheid aangeboden. Dat is een <strong>verschuiving
+van</strong> de aanbodlijn.</p>
+<p><em>Vuistregel: prijs-zelf verandert → langs de lijn. Andere factor
+verandert → de hele lijn verschuift.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<p><strong>a)</strong> Stap 1: De eigen prijs van laptops daalt van €800
+naar €600.</p>
+<p>Stap 2: De eigen prijs verandert. Dus: beweging langs de
+aanbodlijn.</p>
+<p>Stap 3: De prijs daalt, dus de aangeboden hoeveelheid daalt. Je
+beweegt langs de aanbodlijn omlaag naar links.</p>
+<p>Stap 4: In de grafiek beweeg je van punt E (Q = 5.000, P = 800) langs
+de aanbodlijn naar een nieuw punt bij P = 600, met een lagere Q.</p>
+<p>Antwoord: Dit is een <strong>beweging langs</strong> de aanbodlijn
+omlaag-naar-links. De aangeboden hoeveelheid daalt.</p>
+<p><em>Waarom: Bij een lagere prijs is het voor minder producenten
+rendabel om te produceren. De aanbodlijn zelf verandert niet, want er is
+alleen iets met de eigen prijs gebeurd.</em></p>
+<p><strong>b)</strong> Stap 1: Een nieuwe chiptechnologie verlaagt de
+productiekosten.</p>
+<p>Stap 2: De eigen prijs van laptops verandert niet. Technologie is een
+aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Betere technologie = lagere kosten per eenheid. Producenten
+kunnen bij elke prijs meer aanbieden. De aanbodlijn verschuift naar
+<strong>rechts</strong> (van A₁ naar A₂).</p>
+<p>Stap 4: In de grafiek teken je A₂ rechts van A₁. Bij dezelfde prijs
+van €800 is de aangeboden hoeveelheid nu groter dan 5.000.</p>
+<p>Antwoord: Dit is een <strong>verschuiving van</strong> de aanbodlijn
+naar rechts. De aanbodfactor is technologie.</p>
+<p><em>Waarom: Betere technologie maakt de productie efficiënter. Elke
+laptop kost minder om te maken, waardoor bij elke prijs meer laptops
+rendabel geproduceerd kunnen worden.</em></p>
+<p><strong>c)</strong> Stap 1: De overheid voert een milieubelasting in
+op de productie van laptops.</p>
+<p>Stap 2: De eigen prijs van laptops verandert niet. Overheidsbeleid is
+een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Een belasting verhoogt de productiekosten. Producenten bieden
+bij elke prijs minder aan. De aanbodlijn verschuift naar
+<strong>links</strong> (van A₁ naar A₃).</p>
+<p>Antwoord: Dit is een <strong>verschuiving van</strong> de aanbodlijn
+naar links. De aanbodfactor is overheidsbeleid.</p>
+<p><em>Waarom: De milieubelasting werkt als een extra kostenpost.
+Producenten die voorheen net uit de kosten kwamen, kunnen dat nu niet
+meer. Bij elke prijs is de aangeboden hoeveelheid kleiner.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 3</strong></p>
+<p><strong>a)</strong> Stap 1: De eigen prijs van koffie daalt van €8
+naar €6 per kilo.</p>
+<p>Stap 2: De eigen prijs verandert. Dus: beweging langs de
+aanbodlijn.</p>
+<p>Stap 3: De prijs daalt, dus de aangeboden hoeveelheid daalt. Je
+beweegt langs de aanbodlijn omlaag naar links.</p>
+<p>Antwoord: <strong>Beweging langs</strong> de aanbodlijn,
+omlaag-naar-links. De aangeboden hoeveelheid daalt.</p>
+<p><em>Waarom: Een lagere prijs maakt het voor producenten minder
+rendabel om te produceren. De aanbodlijn zelf verschuift niet; je
+beweegt naar een ander punt op dezelfde lijn.</em></p>
+<p><strong>b)</strong> Stap 1: De kosten per kilo koffiebonen stijgen
+door een mislukte oogst.</p>
+<p>Stap 2: De eigen prijs van koffie verandert niet. Inputprijzen zijn
+een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Hogere inputprijzen = hogere productiekosten. Producenten
+bieden bij elke prijs minder aan. De aanbodlijn verschuift naar
+<strong>links</strong>.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> de aanbodlijn naar links.
+De aanbodfactor is de prijs van productiefactoren (inputprijzen).</p>
+<p><em>Waarom: Duurdere grondstoffen maken de productie kostbaarder.
+Producenten die voorheen net winst maakten, draaien nu verlies. Bij elke
+prijs wordt er minder koffie aangeboden.</em></p>
+<p><strong>c)</strong> Stap 1: De overheid verlaagt de importbelasting
+op koffie.</p>
+<p>Stap 2: De eigen prijs van koffie verandert niet. Overheidsbeleid is
+een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Een lagere belasting verlaagt de kosten. Producenten en
+importeurs kunnen bij elke prijs meer aanbieden. De aanbodlijn
+verschuift naar <strong>rechts</strong>.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> de aanbodlijn naar
+rechts. De aanbodfactor is overheidsbeleid.</p>
+<p><em>Waarom: Een lagere importbelasting maakt het goedkoper om koffie
+op de markt te brengen. Het aanbod stijgt bij elke prijs.</em></p>
+<p><strong>d)</strong> - Situatie a: eigen prijs - Situatie b:
+inputprijzen (prijs van productiefactoren) - Situatie c:
+overheidsbeleid</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<p><strong>a) Alleen verandering 1: T-shirts worden duurder</strong></p>
+<p>Stap 1: De eigen prijs van T-shirts stijgt van €15 naar €20.</p>
+<p>Stap 2: De eigen prijs verandert. Dus: <strong>beweging
+langs</strong> de aanbodlijn.</p>
+<p>Stap 3: Hogere prijs → grotere aangeboden hoeveelheid. Je beweegt
+langs de aanbodlijn omhoog-naar-rechts.</p>
+<p>Antwoord: <strong>Beweging langs</strong> de aanbodlijn,
+omhoog-naar-rechts. De aangeboden hoeveelheid T-shirts stijgt.</p>
+<p><em>Waarom: Bij een hogere prijs is het rendabeler om te produceren,
+dus bieden fabrikanten meer T-shirts aan. De lijn zelf verandert
+niet.</em></p>
+<p><strong>b) Alleen verandering 2: hogere loonkosten</strong></p>
+<p>Stap 1: Niet de eigen prijs van T-shirts verandert, maar de
+<strong>inputprijzen</strong> (loonkosten). De kosten stijgen.</p>
+<p>Stap 2: De eigen prijs verandert niet. Inputprijzen vormen een
+aanbodfactor. Dus: <strong>verschuiving van</strong> de hele
+aanbodlijn.</p>
+<p>Stap 3: Hogere loonkosten = hogere productiekosten. Producenten
+bieden bij elke prijs minder aan. De aanbodlijn verschuift naar
+<strong>links</strong>.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> de aanbodlijn naar links.
+De aanbodfactor is de prijs van productiefactoren (inputprijzen — hier:
+arbeid).</p>
+<p><em>Waarom: Hogere lonen maken elk T-shirt duurder om te produceren.
+Fabrikanten die voorheen net winst maakten, draaien nu verlies. Bij elke
+prijs is het aanbod kleiner.</em></p>
+<p><strong>c) Beide veranderingen tegelijk</strong></p>
+<p>De twee effecten <strong>werken tegen elkaar in</strong>: -
+Verandering 1 (eigen prijs ↑): beweging langs de aanbodlijn naar
+rechtsboven → meer T-shirts aangeboden. - Verandering 2 (inputprijzen
+↑): verschuiving van de aanbodlijn naar links → bij elke prijs minder
+T-shirts aangeboden.</p>
+<p>Het netto-effect hangt af van welk effect sterker is. De
+prijsstijging moedigt producenten aan om meer te maken, maar de hogere
+loonkosten remmen de productie. Zonder exacte getallen kun je niet
+zeggen welk effect domineert.</p>
+<p><em>Waarom: Het is belangrijk om te zien dat het “twee aparte
+verhalen” zijn die toevallig op dezelfde markt uitkomen. Eén beweegt je
+langs de bestaande lijn (de eigen prijsverandering), de ander schuift de
+hele lijn (de verandering in de inputprijzen). Ze werken via een ander
+mechanisme.</em></p>
+<p><strong>d) Foute redenering ontkracht</strong></p>
+<p>De leerling vergeet één ding: <strong>alleen de eigen prijs telt voor
+een beweging langs de aanbodlijn</strong>. De prijs van T-shirts is de
+eigen prijs — die geeft inderdaad een beweging langs de lijn. Maar de
+loonkosten zijn <em>niet</em> de eigen prijs van T-shirts. Hogere
+loonkosten zijn een verandering in de inputprijzen (een aanbodfactor),
+en dat geeft een verschuiving van de aanbodlijn.</p>
+<p><em>Vuistregel: kijk altijd vanuit het perspectief van het goed
+waarvan je de aanbodlijn tekent. Alleen veranderingen in dat goed z’n
+eigen prijs geven een beweging langs de lijn. Alle andere veranderingen
+zijn aanbodfactoren en verschuiven de hele lijn.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<p><strong>a)</strong> Vier aanbodfactoren die de aanbodlijn van
+biologische melk kunnen verschuiven: 1. Inputprijzen (prijs van
+productiefactoren) 2. Technologie 3. Aantal aanbieders 4.
+Overheidsbeleid</p>
+<p><em>Waarom: Deze factoren veranderen de aangeboden hoeveelheid bij
+elke prijs, waardoor de hele lijn verschuift. De eigen prijs is hier
+niet bij, want die veroorzaakt een beweging langs de lijn.</em></p>
+<p><strong>b)</strong> 1. <strong>Inputprijzen stijgen</strong>:
+aanbodlijn verschuift naar <strong>links</strong>. Voorbeeld: de prijs
+van biologisch veevoer stijgt door slechte oogsten, waardoor melkboeren
+minder rendabel kunnen produceren.</p>
+<ol start="2" type="1">
+<li><p><strong>Betere technologie</strong>: aanbodlijn verschuift naar
+<strong>rechts</strong>. Voorbeeld: een nieuwe melkrobot maakt het
+melken efficiënter en goedkoper.</p></li>
+<li><p><strong>Meer aanbieders</strong>: aanbodlijn verschuift naar
+<strong>rechts</strong>. Voorbeeld: drie conventionele boerderijen
+schakelen over op biologische productie.</p></li>
+<li><p><strong>Overheidssubsidie</strong>: aanbodlijn verschuift naar
+<strong>rechts</strong>. Voorbeeld: de overheid geeft €0,10 subsidie per
+liter biologische melk om duurzame landbouw te stimuleren.</p></li>
+</ol>
+<p><strong>c)</strong> Stap 1: De prijs van biologisch veevoer
+(grondstof) stijgt met 30%.</p>
+<p>Stap 2: De eigen prijs van melk verandert niet. De prijs van een
+productiefactor is een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Hogere inputprijzen = hogere productiekosten. Producenten
+bieden bij elke prijs minder aan. De aanbodlijn verschuift naar
+<strong>links</strong> (van A₁ naar A₂).</p>
+<p>Stap 4: In de grafiek: teken A₁ met punt E bij (Q = 50.000, P =
+1,20). Teken A₂ links van A₁.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> de aanbodlijn naar links.
+De aanbodfactor is de prijs van productiefactoren (inputprijzen).</p>
+<p><em>Waarom: Duurder veevoer maakt elke liter melk duurder om te
+produceren. Boeren die voorheen net uit de kosten kwamen, stoppen of
+produceren minder. Bij elke prijs wordt er minder biologische melk
+aangeboden.</em></p>
+<p><strong>d)</strong> Stap 1: De zuivelcoöperatie verhoogt de melkprijs
+van €1,20 naar €1,50.</p>
+<p>Stap 2: Nu verandert de eigen prijs. Dus: beweging langs de (nieuwe)
+aanbodlijn A₂.</p>
+<p>Stap 3: De prijs stijgt, dus de aangeboden hoeveelheid stijgt. Je
+beweegt langs A₂ omhoog naar rechts.</p>
+<p>Stap 4: In de grafiek beweeg je langs A₂ van het punt bij P = 1,20
+naar een nieuw punt bij P = 1,50.</p>
+<p>Antwoord: Dit is een <strong>beweging langs</strong> de aanbodlijn
+A₂, omhoog-naar-rechts. Let op: je beweegt langs de verschoven lijn A₂,
+niet langs de oorspronkelijke A₁.</p>
+<p><em>Waarom: Na de verschuiving door de dure grondstoffen is A₂ de
+relevante aanbodlijn. De prijsverhoging van de coöperatie leidt tot een
+beweging langs die nieuwe lijn. Dit laat zien dat verschuivingen en
+bewegingen na elkaar kunnen optreden — net als bij de vraaglijn in
+§1.2.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 6</strong></p>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 20%" />
+<col style="width: 24%" />
+<col style="width: 48%" />
+</colgroup>
+<thead>
+<tr>
+<th></th>
+<th>Beweging of verschuiving?</th>
+<th>Richting</th>
+<th>Aanbodfactor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>Beweging langs de aanbodlijn</td>
+<td>Omhoog-naar-rechts (meer aangeboden)</td>
+<td>Eigen prijs</td>
+</tr>
+<tr>
+<td>b</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar rechts (meer aanbod)</td>
+<td>Inputprijzen (grondstof wordt goedkoper → lagere kosten)</td>
+</tr>
+<tr>
+<td>c</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar rechts (meer aanbod)</td>
+<td>Aantal aanbieders (meer fabrieken)</td>
+</tr>
+<tr>
+<td>d</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar links (minder aanbod nu)</td>
+<td>Verwachtingen (producenten houden voorraad achter in afwachting van
+hogere prijzen)</td>
+</tr>
+<tr>
+<td>e</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar links (minder aanbod)</td>
+<td>Overheidsbeleid (belasting verhoogt productiekosten)</td>
+</tr>
+<tr>
+<td>f</td>
+<td>Verschuiving van de aanbodlijn</td>
+<td>Naar rechts (meer aanbod)</td>
+<td>Technologie (efficiëntere productie)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Waarom bij a: Alleen bij de eigen prijs beweeg je langs de lijn.
+Bij alle andere situaties (b t/m f) verandert er iets anders dan de
+eigen prijs, waardoor de hele aanbodlijn verschuift. Dit is het
+kernonderscheid van deze paragraaf.</em></p>
+<p><em>Waarom bij d: Fabrikanten verwachten hogere prijzen in de
+toekomst. Ze houden nu voorraad achter om later te verkopen tegen een
+hogere prijs. Het huidige aanbod daalt, dus de aanbodlijn verschuift
+naar links.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 7</strong> <em>(herhaling §1.1.2: procentuele
+verandering)</em></p>
+<p><strong>a)</strong> Stap 1: Noteer de formule voor procentuele
+verandering. Procentuele verandering = (nieuw - oud) / oud × 100%</p>
+<p>Stap 2: Vul de waarden in. = (32 - 25) / 25 × 100% = 7 / 25 × 100% =
+28%</p>
+<p>Antwoord: De prijs van silicium is met <strong>28%</strong>
+gestegen.</p>
+<p><em>Waarom: De procentuele verandering drukt uit hoe groot de
+verandering is ten opzichte van het oorspronkelijke bedrag. €7 op €25 is
+een stijging van 28%.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.1.2.</em></p>
+<p><strong>b)</strong> Stap 1: De nieuwe prijs = oude prijs × (1 -
+percentage / 100).</p>
+<p>Stap 2: Vul in. = 32 × (1 - 15/100) = 32 × 0,85 = €27,20</p>
+<p>Antwoord: De nieuwe prijs is <strong>€27,20</strong> per kilo.</p>
+<p><em>Waarom: Bij een daling van 15% vermenigvuldig je met 0,85. Je
+rekent door vanuit €32 (niet €25), want de daling gaat over de prijs na
+de eerste stijging.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.1.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 8</strong> <em>(herhaling §1.2.1: betalingsbereidheid
+en individuele vraag)</em></p>
+<p><strong>a)</strong> Stap 1: Noteer de formule. Consumentensurplus =
+betalingsbereidheid - prijs</p>
+<p>Stap 2: Vul in. = €350 - €290 = €60</p>
+<p>Antwoord: Het consumentensurplus is <strong>€60</strong>.</p>
+<p><em>Waarom: De consument wilde maximaal €350 betalen maar betaalt
+slechts €290. Het verschil (€60) is zijn ‘winst’ als consument.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.1.</em></p>
+<p><strong>b)</strong> Stap 1: Vergelijk de prijs met de
+betalingsbereidheid. Prijs = €375, betalingsbereidheid = €350.</p>
+<p>Stap 2: De prijs is hoger dan de betalingsbereidheid.</p>
+<p>Antwoord: De consument koopt het paneel <strong>niet</strong>. De
+prijs (€375) is hoger dan zijn maximale betalingsbereidheid (€350). Hij
+zou €25 meer moeten betalen dan het paneel hem waard is.</p>
+<p><em>Waarom: Een consument koopt alleen als de prijs gelijk is aan of
+lager dan de betalingsbereidheid. Bij een hogere prijs is het
+consumentensurplus negatief en ziet de consument af van de
+aankoop.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.1.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 9</strong> <em>(herhaling §1.2.2: vraagfactoren —
+verschuiving versus beweging)</em></p>
+<p><strong>a)</strong> Stap 1: De eigen prijs van hardloopschoenen
+stijgt van €120 naar €140.</p>
+<p>Stap 2: De eigen prijs verandert. Dus: beweging langs de
+vraaglijn.</p>
+<p>Stap 3: De prijs stijgt, dus de gevraagde hoeveelheid daalt. Je
+beweegt langs de vraaglijn omhoog naar links.</p>
+<p>Antwoord: Dit is een <strong>beweging langs</strong> de vraaglijn,
+omhoog-naar-links. De gevraagde hoeveelheid daalt.</p>
+<p><em>Waarom: Alleen een verandering van de eigen prijs leidt tot een
+beweging langs de vraaglijn. De vraaglijn zelf verandert niet.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.2.</em></p>
+<p><strong>b)</strong> Stap 1: Een influencer promoot hardlopen. De
+eigen prijs verandert niet.</p>
+<p>Stap 2: De voorkeur (preferentie) van consumenten verandert. Dit is
+een vraagfactor. Dus verschuift de vraaglijn.</p>
+<p>Stap 3: Consumenten vinden hardlopen aantrekkelijker. Bij elke prijs
+willen ze meer hardloopschoenen kopen. De vraaglijn verschuift naar
+<strong>rechts</strong>.</p>
+<p>Antwoord: Dit is een <strong>verschuiving van</strong> de vraaglijn
+naar rechts. De vraagfactor is de voorkeur (preferentie).</p>
+<p><em>Waarom: De influencer verandert niet de prijs, maar de voorkeur
+van consumenten. Een verandering buiten de eigen prijs verschuift de
+hele vraaglijn.</em></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 10</strong> <em>(doeloefening)</em></p>
+<p><strong>a)</strong> Stap 1: De siliciumprijzen stijgen. Silicium is
+een grondstof (productiefactor) voor zonnepanelen.</p>
+<p>Stap 2: De eigen prijs van zonnepanelen verandert niet. De inputprijs
+is een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Hogere inputprijzen = hogere productiekosten. Producenten
+bieden bij elke prijs minder panelen aan. De aanbodlijn verschuift naar
+<strong>links</strong> (van A₁ naar A₂).</p>
+<p>Stap 4: In de grafiek teken je A₁ (de oorspronkelijke aanbodlijn).
+Teken A₂ links van A₁, met een horizontale pijl die de verschuiving
+aangeeft.</p>
+<p>Antwoord: De aanbodlijn verschuift naar <strong>links</strong>. Dit
+is een verschuiving van de aanbodlijn. De aanbodfactor is de prijs van
+productiefactoren (inputprijzen — hier: silicium).</p>
+<p><em>Waarom: Duurder silicium maakt elk zonnepaneel duurder om te
+produceren. Producenten die voorheen net uit de kosten kwamen, stoppen
+of verminderen de productie. Bij elke prijs is de aangeboden hoeveelheid
+kleiner.</em></p>
+<p><strong>b)</strong> Stap 1: De overheid voert een productiesubsidie
+in.</p>
+<p>Stap 2: De eigen prijs van zonnepanelen verandert niet.
+Overheidsbeleid is een aanbodfactor. Dus verschuift de aanbodlijn.</p>
+<p>Stap 3: Een subsidie verlaagt de effectieve productiekosten.
+Producenten kunnen bij elke prijs meer panelen aanbieden. De aanbodlijn
+verschuift naar <strong>rechts</strong> (van A₁ naar A₃).</p>
+<p>Stap 4: In de grafiek teken je A₃ rechts van A₁, met een horizontale
+pijl die de verschuiving aangeeft.</p>
+<p>Antwoord: De aanbodlijn verschuift naar <strong>rechts</strong>. Dit
+is een verschuiving van de aanbodlijn. De aanbodfactor is
+overheidsbeleid (subsidie).</p>
+<p><em>Waarom: De subsidie werkt als een verlaging van de kosten. Elke
+geproduceerde eenheid levert de fabrikant een bijdrage van de overheid
+op. Daardoor wordt het bij een lagere prijs al rendabel om te
+produceren.</em></p>
+<p><strong>c)</strong> Drie factoren die de aanbodlijn doen verschuiven,
+met een voorbeeld:</p>
+<ol type="1">
+<li><p><strong>Inputprijzen (prijs van productiefactoren)</strong> — Als
+de prijs van silicium stijgt, worden zonnepanelen duurder om te maken.
+De aanbodlijn verschuift naar links. Voorbeeld: door schaarste op de
+grondstoffenmarkt verdubbelt de prijs van silicium.</p></li>
+<li><p><strong>Technologie</strong> — Een betere productietechniek
+verlaagt de kosten per paneel. De aanbodlijn verschuift naar rechts.
+Voorbeeld: een nieuwe lasertechniek maakt het mogelijk om solarcellen
+sneller en goedkoper te produceren.</p></li>
+<li><p><strong>Overheidsbeleid</strong> — Een subsidie verlaagt de
+kosten voor producenten. De aanbodlijn verschuift naar rechts.
+Voorbeeld: de overheid geeft €50 subsidie per geproduceerd
+zonnepaneel.</p></li>
+</ol>
+<p><em>Waarom: Al deze factoren hebben gemeen dat ze de aangeboden
+hoeveelheid bij elke prijs veranderen. Daarom verschuift de hele
+aanbodlijn, in tegenstelling tot een verandering van de eigen prijs, die
+alleen een beweging langs de bestaande lijn veroorzaakt.</em></p>
+<blockquote>
+<p>⚠️ Andere correcte combinaties zijn ook mogelijk. Naast inputprijzen,
+technologie en overheidsbeleid kun je ook het aantal aanbieders of de
+verwachtingen van producenten noemen. Elk van de vijf aanbodfactoren is
+een goed antwoord, mits het voorbeeld klopt.</p>
+</blockquote>
+<p><strong>d)</strong> Stap 1: Teken een aanbodlijn A₁ van linksonder
+naar rechtsboven.</p>
+<p>Stap 2: Teken een <strong>beweging langs</strong> de lijn: een pijl
+die langs A₁ loopt van punt A naar punt B (bijvoorbeeld van P = €200
+naar P = €400). Label: “Beweging langs de lijn (eigen prijs
+verandert)”.</p>
+<p>Stap 3: Teken een <strong>verschuiving van</strong> de lijn: een
+nieuwe aanbodlijn A₂ rechts van A₁ (of links van A₁). Teken een
+horizontale pijl tussen A₁ en A₂. Label: “Verschuiving van de lijn
+(aanbodfactor verandert)”.</p>
+<p>Antwoord: De grafiek toont twee verschillende veranderingen. De
+beweging langs de lijn (pijl langs A₁) wordt veroorzaakt door een
+verandering van de eigen prijs. De verschuiving (A₁ → A₂) wordt
+veroorzaakt door een verandering van een aanbodfactor.</p>
+<p><em>Waarom: Het verschil is cruciaal. Bij een beweging langs de lijn
+verandert alleen het punt waarop je zit — de relatie tussen prijs en
+aangeboden hoeveelheid blijft hetzelfde. Bij een verschuiving verandert
+de hele relatie: bij elke prijs wordt een andere hoeveelheid
+aangeboden.</em></p>
+<hr />
+</div><h2 id="denkertje-modelantwoord-en-beoordelingscriteria">Denkertje —
+modelantwoord en beoordelingscriteria</h2>
+<p><em>Modelantwoord:</em></p>
+<p><strong>Maatregel A (subsidie)</strong> werkt via de aanbodfactor
+<em>overheidsbeleid</em>. De subsidie van €2 per kilogram verlaagt de
+effectieve productiekosten voor waterstofproducenten. Bij elke
+marktprijs kunnen zij meer waterstof aanbieden. De aanbodlijn verschuift
+naar rechts. Dit effect houdt aan zolang de subsidie wordt betaald.
+Stopt de subsidie, dan keren de productiekosten terug naar het oude
+niveau en verschuift de aanbodlijn weer terug naar links.</p>
+<p><strong>Maatregel B (onderzoek)</strong> werkt via de aanbodfactor
+<em>technologie</em>. Als het onderzoek slaagt en een goedkopere
+productiemethode oplevert, dalen de productiekosten structureel. Bij
+elke prijs kunnen producenten meer waterstof aanbieden. De aanbodlijn
+verschuift naar rechts. Dit effect is in principe blijvend: de kennis
+verdwijnt niet als de overheid stopt met investeren.</p>
+<p>De stelling van de criticus heeft een kern van waarheid. Een subsidie
+is een jaarlijks terugkerende uitgave die het aanbod alleen beïnvloedt
+zolang hij wordt betaald — de productietechnologie verandert niet,
+alleen de kosten voor de producent. Een technologische doorbraak
+verandert de productiekosten structureel: de nieuwe methode blijft
+beschikbaar, ook zonder verdere overheidsinvestering.</p>
+<p>Maar de stelling is te absoluut. Ten eerste is het rendement van
+onderzoek onzeker: de investering kan mislukken zonder resultaat,
+terwijl een subsidie direct effect heeft. Ten tweede kan een subsidie
+ook indirect de technologie verbeteren: als de subsidie ervoor zorgt dat
+meer bedrijven waterstof produceren, groeit de markt en ontstaan er
+<em>schaalvoordelen</em> — de kosten dalen dan ook zonder technologische
+doorbraak. Een combinatie van beide maatregelen is waarschijnlijk het
+effectiefst: de subsidie stimuleert productie op korte termijn, terwijl
+het onderzoek zorgt voor kostendalingen op lange termijn.</p>
+<p><em>Beoordelingscriteria:</em> - Correct benoemen welke aanbodfactor
+bij elke maatregel hoort (overheidsbeleid vs. technologie) - Juiste
+koppeling: subsidie = aanbodlijn verschuift naar rechts zolang subsidie
+loopt; technologie = aanbodlijn verschuift naar rechts, potentieel
+blijvend - Beoordeling van de stelling met economische argumenten (niet
+alleen een mening) - Het begrip productiekosten wordt correct gebruikt
+bij het uitleggen van het mechanisme achter beide maatregelen</p>
+<div style="break-before: page;">
+
+</div>
+<h1 id="kostenstructuren-antwoorden">1.3.2 Kostenstructuren —
+antwoorden</h1>
+<p><strong>Afrondingsregel:</strong> Rond af op 2 decimalen tenzij
+anders aangegeven.</p>
+<hr />
+</div><h2 id="procedure-uit-het-uitgewerkt-voorbeeld-1">Procedure (uit het
+uitgewerkt voorbeeld)</h2>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 92%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Wat doe je?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Identificeer de constante kosten (TCK) en de variabele kosten per
+stuk (GVK).</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Stel de formules op: TCK = vast bedrag, TVK = GVK x Q, TK = TCK +
+TVK.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Vul de gevraagde hoeveelheid (Q) in om de totalen te berekenen.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Bereken de gemiddelden: GCK = TCK / Q, GVK = TVK / Q, GTK = TK /
+Q.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Controleer: GTK = GCK + GVK.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 1</strong></p>
+<p><strong>a)</strong> De TCK-lijn is de horizontale lijn in de grafiek.
+De hoogte van deze lijn geeft de totale constante kosten aan. Lees de
+waarde af op de y-as waar de TCK-lijn loopt.</p>
+<p><em>Waarom:</em> TCK is constant — ongeacht de productieomvang
+blijven deze kosten gelijk. Daarom is de lijn horizontaal.</p>
+<p><strong>b)</strong> Bij Q = 200: - TK: lees de waarde af op de
+TK-lijn bij Q = 200 op de y-as. - TVK: lees de waarde af op de TVK-lijn
+bij Q = 200 op de y-as.</p>
+<p><em>Waarom:</em> TK is de bovenste lijn (alle kosten samen), TVK is
+de lijn die in de oorsprong begint (alleen de variabele kosten).</p>
+<p><strong>c)</strong> Controle: TK = TCK + TVK.</p>
+<p>Vul de afgelezen waarden in: - TCK + TVK = [afgelezen TCK] +
+[afgelezen TVK] - Vergelijk met de afgelezen TK.</p>
+<p>Als deze gelijk zijn, klopt de formule TK = TCK + TVK. ✓</p>
+<p><em>Waarom:</em> De verticale afstand tussen de TK-lijn en de
+TVK-lijn is altijd precies gelijk aan TCK.</p>
+<p><strong>d)</strong> De bewering klopt niet helemaal. Als het bedrijf
+meer produceert: - <strong>TVK stijgt</strong> — er worden meer
+grondstoffen en energie verbruikt. - <strong>TK stijgt</strong> — want
+TK = TCK + TVK en TVK stijgt. - <strong>TCK verandert niet</strong> — de
+huur, verzekering en afschrijving blijven gelijk, ongeacht het
+productievolume.</p>
+<p>Dus niet <em>alle</em> kosten stijgen: de constante kosten blijven
+per definitie constant.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<p><strong>a)</strong> Stap 1: Identificeer de kosten. - Constante
+kosten: €600 per maand → TCK = 600 - Variabele kosten: €4 per maaltijd →
+GVK = 4</p>
+<p>Stap 2: Stel de formules op. - TCK = 600 - TVK = 4 x Q - TK = 600 +
+4Q</p>
+<p><strong>b)</strong> Stap 3: Vul de hoeveelheden in.</p>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 17%" />
+<col style="width: 34%" />
+<col style="width: 41%" />
+</colgroup>
+
+<thead>
+<tr>
+<th>Q</th>
+<th>TCK (€)</th>
+<th>TVK (€)</th>
+<th>TK (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>50</td>
+<td>600</td>
+<td>4 x 50 = 200</td>
+<td>600 + 200 = 800</td>
+</tr>
+<tr>
+<td>150</td>
+<td>600</td>
+<td>4 x 150 = 600</td>
+<td>600 + 600 = 1200</td>
+</tr>
+<tr>
+<td>300</td>
+<td>600</td>
+<td>4 x 300 = 1200</td>
+<td>600 + 1200 = 1800</td>
+</tr>
+</tbody>
+</table>
+<p><em>Waarom:</em> TCK blijft in elke rij €600 — die kosten hangen niet
+af van het aantal maaltijden. TVK stijgt evenredig: dubbel zoveel
+maaltijden = dubbel zoveel variabele kosten.</p>
+<p><strong>c)</strong> De grafiek bevat drie lijnen: -
+<strong>TCK</strong>: horizontale lijn op €600. - <strong>TVK</strong>:
+rechte lijn van de oorsprong (0, 0) door (300, 1200). Helling = €4 per
+maaltijd. - <strong>TK</strong>: rechte lijn van (0, 600) door (300,
+1800). Helling = €4 per maaltijd.</p>
+<p><strong>d)</strong> De TK-lijn en de TVK-lijn lopen evenwijdig omdat
+ze dezelfde helling hebben. Elke extra maaltijd voegt €4 toe aan zowel
+TVK als TK. Het verschil tussen de twee lijnen is constant en gelijk aan
+TCK (€600). TCK verandert niet met Q, dus de afstand tussen de lijnen
+blijft altijd even groot.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 3</strong></p>
+<p><strong>a)</strong> Bij Q = 400: Stap 1: TCK = 1200, TVK = 0,50 x 400
+= 200, TK = 1200 + 200 = 1400.</p>
+<p>Stap 4: Bereken de gemiddelden. - GCK = 1200 / 400 =
+<strong>€3,00</strong> - GVK = 200 / 400 = <strong>€0,50</strong> - GTK
+= 1400 / 400 = <strong>€3,50</strong></p>
+<p>Stap 5: Controle: GCK + GVK = 3,00 + 0,50 = 3,50 = GTK ✓</p>
+<p><strong>b)</strong> Bij Q = 2400: Stap 1: TCK = 1200, TVK = 0,50 x
+2400 = 1200, TK = 1200 + 1200 = 2400.</p>
+<p>Stap 4: Bereken de gemiddelden. - GCK = 1200 / 2400 =
+<strong>€0,50</strong> - GVK = 1200 / 2400 = <strong>€0,50</strong> -
+GTK = 2400 / 2400 = <strong>€1,00</strong></p>
+<p>Stap 5: Controle: GCK + GVK = 0,50 + 0,50 = 1,00 = GTK ✓</p>
+<p><strong>c)</strong> GTK daalt omdat GCK daalt. GCK daalt van €3,00
+naar €0,50: de constante kosten (€1200) worden over steeds meer flyers
+verdeeld. GVK blijft constant op €0,50 (elke flyer kost evenveel aan
+variabele kosten). Omdat GTK = GCK + GVK, en alleen GCK daalt, daalt GTK
+mee.</p>
+<p><em>Waarom:</em> Dit is het spreidingseffect — bij een grotere
+productie worden de vaste kosten over meer eenheden gespreid, waardoor
+de kosten per stuk dalen.</p>
+<p><strong>d)</strong> Bestelling 1: 400 flyers, prijs €4 per stuk. -
+GTK = €3,50 (uit deelvraag a) - Winst per flyer = €4 − €3,50 =
+<strong>€0,50</strong></p>
+<p>Bestelling 2: 2400 flyers, prijs €1,50 per stuk. - GTK = €1,00 (uit
+deelvraag b) - Winst per flyer = €1,50 − €1,00 =
+<strong>€0,50</strong></p>
+<p>De winst per flyer is bij beide bestellingen gelijk (€0,50). Maar de
+totale winst verschilt: 400 x €0,50 = €200 versus 2400 x €0,50 = €1200.
+De grote bestelling levert dus veel meer totale winst op, ook al is de
+prijs per flyer veel lager.</p>
+<p><em>Waarom:</em> De lagere prijs bij de grote bestelling wordt
+gecompenseerd door de lagere GTK (dankzij het spreidingseffect). Per
+stuk verdient de drukkerij evenveel, maar in totaal veel meer.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<p><strong>a)</strong> Stap 1: TCK = 3000, GVK = 5 per lid.</p>
+<p>Stap 2: - TCK = 3000 - TVK = 5Q - TK = 3000 + 5Q</p>
+<p><strong>b)</strong> Stap 3 en 4:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 18%" />
+<col style="width: 8%" />
+<col style="width: 17%" />
+<col style="width: 19%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr>
+<th>Q</th>
+<th>TCK (€)</th>
+<th>TVK (€)</th>
+<th>TK (€)</th>
+<th>GCK (€)</th>
+<th>GVK (€)</th>
+<th>GTK (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>3000</td>
+<td>5 x 100 = 500</td>
+<td>3500</td>
+<td>3000/100 = 30,00</td>
+<td>500/100 = 5,00</td>
+<td>3500/100 = 35,00</td>
+</tr>
+<tr>
+<td>600</td>
+<td>3000</td>
+<td>5 x 600 = 3000</td>
+<td>6000</td>
+<td>3000/600 = 5,00</td>
+<td>3000/600 = 5,00</td>
+<td>6000/600 = 10,00</td>
+</tr>
+</tbody>
+</table>
+<p>Stap 5: Controle bij Q = 100: 30,00 + 5,00 = 35,00 ✓ Controle bij Q =
+600: 5,00 + 5,00 = 10,00 ✓</p>
+<p><em>Waarom:</em> Bij 100 leden is GCK heel hoog (€30): de vaste
+kosten van €3000 drukken zwaar op elk lid. Bij 600 leden is GCK gedaald
+naar €5 — het spreidingseffect in actie.</p>
+<p><strong>c)</strong> De opbrengst per lid (GO) is €15. We zoeken het
+punt waar GO = GTK:</p>
+<p>15 = TK / Q = (3000 + 5Q) / Q = 3000/Q + 5</p>
+<p>15 = 3000/Q + 5 10 = 3000/Q Q = 3000 / 10 = <strong>300
+leden</strong></p>
+<p>Controle: TK = 3000 + 5(300) = 4500. GTK = 4500 / 300 = 15,00 = GO
+✓</p>
+<p>Antwoord: Bij <strong>300 leden</strong> is de opbrengst per lid
+precies gelijk aan de gemiddelde totale kosten. Dit is het
+break-evenpunt: de sportschool draait quitte.</p>
+<p><em>Waarom:</em> Bij minder dan 300 leden zijn de kosten per lid
+hoger dan de opbrengst per lid — de sportschool maakt verlies. Bij meer
+dan 300 leden zijn de kosten per lid lager — de sportschool maakt
+winst.</p>
+<p><strong>d)</strong> De grafiek bevat drie lijnen: -
+<strong>GVK</strong>: horizontale lijn op €5 (de variabele kosten per
+lid zijn constant). - <strong>GCK</strong>: dalende hyperbool (3000/Q).
+Begint heel hoog bij weinig leden, nadert nul bij heel veel leden. -
+<strong>GTK</strong>: dalende lijn die altijd boven GVK ligt. Bij heel
+grote Q nadert GTK de waarde €5 (= GVK). GTK kan nooit onder GVK zakken,
+want GCK is altijd positief.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<p><strong>a)</strong> Stap 2: - Bedrijf A: TK = 2000 + 3Q - Bedrijf B:
+TK = 500 + 6Q</p>
+<p><strong>b)</strong> Stap 3 en 4:</p>
+<p>Bij Q = 200: - GTK_A = (2000 + 3 x 200) / 200 = 2600 / 200 =
+<strong>€13,00</strong> - GTK_B = (500 + 6 x 200) / 200 = 1700 / 200 =
+<strong>€8,50</strong></p>
+<p>Bij Q = 1000: - GTK_A = (2000 + 3 x 1000) / 1000 = 5000 / 1000 =
+<strong>€5,00</strong> - GTK_B = (500 + 6 x 1000) / 1000 = 6500 / 1000 =
+<strong>€6,50</strong></p>
+<p><em>Waarom:</em> Bij Q = 200 is bedrijf B goedkoper (lagere GTK). Bij
+Q = 1000 is bedrijf A goedkoper. Bedrijf A heeft hogere vaste kosten,
+maar die worden bij grote Q over veel eenheden gespreid. Bedrijf B heeft
+hogere variabele kosten per stuk, en die dalen niet bij grotere
+productie.</p>
+<p><strong>c)</strong> We zoeken Q waarvoor GTK_A = GTK_B:</p>
+<p>(2000 + 3Q) / Q = (500 + 6Q) / Q</p>
+<p>2000 + 3Q = 500 + 6Q</p>
+<p>2000 - 500 = 6Q - 3Q</p>
+<p>1500 = 3Q</p>
+<p>Q = <strong>500 stuks</strong></p>
+<p>Controle: - GTK_A = (2000 + 1500) / 500 = 3500 / 500 = €7,00 - GTK_B
+= (500 + 3000) / 500 = 3500 / 500 = €7,00 ✓</p>
+<p><em>Waarom:</em> Bij precies 500 stuks produceren beide bedrijven
+even duur. Onder de 500 is B goedkoper (lagere vaste kosten wegen
+zwaarder). Boven de 500 is A goedkoper (lagere variabele kosten wegen
+zwaarder doordat het spreidingseffect de hoge vaste kosten van A
+compenseert).</p>
+<p><strong>d)</strong> Bedrijf A heeft een voordeel bij groot
+productievolume. De hoge vaste kosten (€2000) worden over veel eenheden
+verdeeld, waardoor GCK snel daalt. Tegelijkertijd zijn de variabele
+kosten per stuk laag (€3). Bij bedrijf B dalen de gemiddelde kosten veel
+langzamer, omdat de GVK hoog blijft (€6 per stuk) — en GVK verandert
+niet met de productieomvang.</p>
+<p>Dit is het spreidingseffect in actie: hoge vaste kosten zijn een
+nadeel bij kleine productie, maar een voordeel bij grote productie.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 6</strong></p>
+<p><strong>a)</strong> Vergelijk de betalingsbereidheid met de
+marktprijs (€3): - 1e smoothie: €5 ≥ €3 → kopen ✓ - 2e smoothie: €3,50 ≥
+€3 → kopen ✓ - 3e smoothie: €2 &lt; €3 → niet kopen ✗</p>
+<p>De consument koopt <strong>2 smoothies</strong>.</p>
+<p><strong>b)</strong> Consumentensurplus: - Smoothie 1: €5 − €3 = €2 -
+Smoothie 2: €3,50 − €3 = €0,50 - Totaal: €2 + €0,50 =
+<strong>€2,50</strong></p>
+<p><em>Waarom:</em> De consument betaalt minder dan zijn maximum voor de
+eerste twee smoothies. Dat verschil is zijn voordeel (surplus).</p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.1.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 7</strong></p>
+<p><strong>a)</strong> De stijging van de benzineprijs leidt tot een
+<strong>verschuiving van de vraaglijn</strong> naar fietsen <strong>naar
+rechts</strong>.</p>
+<p>Redenering: auto’s zijn een substituut voor fietsen. Als benzine
+duurder wordt, worden auto’s duurder in gebruik. Consumenten stappen
+over op het alternatief (fietsen). Bij elke prijs worden er meer fietsen
+gevraagd → de vraaglijn verschuift naar rechts.</p>
+<p>Vraagfactor: <strong>prijs van een substituut</strong> (auto’s).</p>
+<p><strong>b)</strong> De prijsverlaging door de fietsenfabrikant leidt
+tot een <strong>beweging langs de vraaglijn</strong>. De prijs van het
+goed zelf (de fiets) daalt, waardoor de gevraagde hoeveelheid stijgt.
+Dit is een beweging langs de bestaande vraaglijn, geen verschuiving.</p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.2.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 8</strong></p>
+<p><strong>a)</strong> TO = prijs x Q = €3 x 60 =
+<strong>€180</strong></p>
+<p><strong>b)</strong> TK = TCK + TVK = 80 + (1,20 x 60) = 80 + 72 =
+<strong>€152</strong></p>
+<p><strong>c)</strong> Winst = TO − TK = 180 − 152 =
+<strong>€28</strong></p>
+<p><em>Waarom:</em> De opbrengst (€180) is hoger dan de kosten (€152),
+dus de marktkraam maakt winst. Per bos is de winst: GO − GTK = 3 −
+(152/60) = 3 − 2,53 = €0,47 per bos. Keer 60 bossen = €28
+(afronding).</p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.3.1.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 9</strong></p>
+<p><strong>a)</strong> Stap 1: Constante kosten = €500, variabele kosten
+per stuk = €0,80.</p>
+<p>Stap 2: - TCK = 500 - TVK = 0,80 x Q - TK = 500 + 0,80Q</p>
+<p><strong>b)</strong> Stap 3: Vul Q = 500 en Q = 1000 in.</p>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 16%" />
+<col style="width: 39%" />
+<col style="width: 36%" />
+</colgroup>
+
+<thead>
+<tr>
+<th>Q</th>
+<th>TCK (€)</th>
+<th>TVK (€)</th>
+<th>TK (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500</td>
+<td>500</td>
+<td>0,80 x 500 = 400</td>
+<td>500 + 400 = 900</td>
+</tr>
+<tr>
+<td>1000</td>
+<td>500</td>
+<td>0,80 x 1000 = 800</td>
+<td>500 + 800 = 1300</td>
+</tr>
+</tbody>
+</table>
+<p><em>Waarom:</em> TCK blijft €500 in beide gevallen — de huur en
+verzekering veranderen niet met het aantal broden. TVK verdubbelt als Q
+verdubbelt, want elk brood kost evenveel aan ingredienten.</p>
+<p><strong>c)</strong> Stap 4: Deel de totalen door Q.</p>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 30%" />
+<col style="width: 30%" />
+<col style="width: 32%" />
+</colgroup>
+
+<thead>
+<tr>
+<th>Q</th>
+<th>GCK (€)</th>
+<th>GVK (€)</th>
+<th>GTK (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500</td>
+<td>500/500 = 1,00</td>
+<td>400/500 = 0,80</td>
+<td>900/500 = 1,80</td>
+</tr>
+<tr>
+<td>1000</td>
+<td>500/1000 = 0,50</td>
+<td>800/1000 = 0,80</td>
+<td>1300/1000 = 1,30</td>
+</tr>
+</tbody>
+</table>
+<p>Stap 5: Controle: - Q = 500: GCK + GVK = 1,00 + 0,80 = 1,80 = GTK ✓ -
+Q = 1000: GCK + GVK = 0,50 + 0,80 = 1,30 = GTK ✓</p>
+<p><strong>d)</strong> GTK daalt van €1,80 naar €1,30 als Q stijgt van
+500 naar 1000.</p>
+<p>Dit is logisch omdat: - GVK blijft constant op €0,80 (elk brood kost
+evenveel aan ingredienten). - GCK daalt van €1,00 naar €0,50 (de vaste
+kosten van €500 worden over meer broden verspreid). - GTK = GCK + GVK,
+dus als GCK daalt en GVK gelijk blijft, daalt GTK.</p>
+<p>Dit is het <strong>spreidingseffect</strong>: hoe meer je produceert,
+hoe lager de vaste kosten per stuk, en dus hoe lager de gemiddelde
+totale kosten.</p>
+<p><em>Waarom:</em> Een bakkerij die meer broden bakt, wordt goedkoper
+per brood — niet omdat het meel goedkoper wordt, maar omdat de huur en
+verzekering over meer broden worden verdeeld.</p>
+<p><strong>e)</strong> De leerling heeft <strong>ongelijk</strong>. GCK
+is juist <em>niet</em> altijd hetzelfde — GCK verandert bij elke andere
+productieomvang.</p>
+<ul>
+<li>GCK = TCK / Q</li>
+<li>TCK is vast (€500), maar Q verandert. Als Q stijgt, daalt GCK. Als Q
+daalt, stijgt GCK.</li>
+<li>Bij Q = 500: GCK = €1,00. Bij Q = 1000: GCK = €0,50.</li>
+</ul>
+<p>De leerling verwart waarschijnlijk GCK met TCK. <strong>TCK</strong>
+is wel altijd hetzelfde (de totale constante kosten veranderen niet met
+de productie). Maar <strong>GCK</strong> (de constante kosten <em>per
+stuk</em>) verandert wél, omdat je door een steeds groter getal
+deelt.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 10 — Denkertje</strong></p>
+<p><em>Modelantwoord:</em></p>
+<p><strong>a)</strong> Beide GTK-lijnen dalen, maar ze beginnen op een
+ander niveau en naderen een andere bodemwaarde: - Fabriek X (hoge TCK,
+lage GVK): GTK begint heel hoog bij kleine Q (de hoge vaste kosten
+drukken zwaar). Bij grote Q daalt GTK snel en nadert de lage GVK. -
+Fabriek Y (lage TCK, hoge GVK): GTK begint lager bij kleine Q, maar
+daalt minder steil. Bij grote Q nadert GTK de hogere GVK.</p>
+<p>De twee GTK-lijnen kruisen elkaar. Links van het snijpunt is fabriek
+Y goedkoper (lagere GTK). Rechts van het snijpunt is fabriek X
+goedkoper.</p>
+<p><strong>b)</strong> Fabriek X zit in een moeilijkere positie tijdens
+een recessie. De vraag daalt, dus Q daalt. Bij een lagere Q stijgt de
+GCK van fabriek X sterk (want de hoge vaste kosten worden over minder
+eenheden verdeeld). De GCK van fabriek Y stijgt ook, maar minder sterk
+(want de vaste kosten zijn lager). Het spreidingseffect werkt nu
+<em>tegen</em> fabriek X: minder afzet betekent veel hogere kosten per
+stuk.</p>
+<p>Fabriek Y is flexibeler: bij minder productie dalen de variabele
+kosten mee (minder handarbeid nodig), en de vaste kosten zijn sowieso
+laag. Fabriek X blijft zitten met hoge vaste kosten voor de robots,
+ongeacht hoeveel ijs wordt geproduceerd.</p>
+<p><strong>c)</strong> Voorbeeld: een luchtvaartmaatschappij. De
+vliegtuigen, pilotenopleiding, luchthavengelden en onderhoud zijn enorme
+vaste kosten. De variabele kosten per passagier (maaltijd,
+brandstofaandeel) zijn relatief laag. Een halfleeg vliegtuig kost bijna
+evenveel als een vol vliegtuig, maar de opbrengst is de helft. Daarom
+hebben luchtvaartmaatschappijen een hoge bezettingsgraad nodig: hoe meer
+passagiers, hoe lager de GCK per passagier, en hoe eerder de
+maatschappij winstgevend is.</p>
+<p>Andere goede voorbeelden: bioscopen, pretparken, softwarebedrijven,
+energiecentrales.</p>
+<p><em>Beoordelingscriteria:</em> - De leerling tekent twee dalende
+GTK-lijnen die elkaar kruisen, met correct verschil in starthoogte en
+bodemwaarde. - De leerling legt uit dat hoge vaste kosten een nadeel
+zijn bij lage Q (spreidingseffect werkt tegen je). - De leerling noemt
+een realistisch voorbeeld met hoge vaste kosten en legt het verband met
+het spreidingseffect. - De leerling gebruikt de begrippen GCK, GVK, GTK
+en spreidingseffect correct.</p>
+<div style="break-before: page;">
+
+</div>
+<h1 id="opbrengsten-antwoorden">1.3.3 Opbrengsten — antwoorden</h1>
+<p><strong>Afrondingsregel:</strong> Rond af op 2 decimalen tenzij
+anders aangegeven.</p>
+<hr />
+</div><h2 id="procedure-uit-het-uitgewerkt-voorbeeld-2">Procedure (uit het
+uitgewerkt voorbeeld)</h2>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 92%" />
+</colgroup>
+
+<thead>
+<tr>
+<th>Stap</th>
+<th>Vraag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Stel de formule voor TO op: TO = P x Q</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Stel de formule voor TK op: TK = TCK + GVK x Q</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Bereken winst: Winst = TO - TK</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Break-evenpunt: stel TO = TK, los op naar Q</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 1</strong></p>
+<p><strong>a)</strong> Lees af uit de grafiek: bij Q = 200 is TO =
+<strong>€1.000</strong> (afhankelijk van de schaal in figuur 6).</p>
+<p><em>Waarom: de TO-lijn geeft de totale verkoopopbrengst weer bij elke
+hoeveelheid.</em></p>
+<p><strong>b)</strong> Lees af uit de grafiek: bij Q = 200 is TK =
+<strong>€800</strong> (afhankelijk van de schaal in figuur 6).</p>
+<p><em>Waarom: de TK-lijn geeft de totale kosten weer, inclusief de
+constante kosten als startpunt.</em></p>
+<p><strong>c)</strong> Winst = TO - TK = 1.000 - 800 =
+<strong>€200</strong> (winst).</p>
+<p>De kledingwinkel maakt winst, want TO &gt; TK.</p>
+<p><em>Waarom: zolang de opbrengstlijn boven de kostenlijn ligt, is het
+verschil positief en maakt het bedrijf winst.</em></p>
+<p><strong>d)</strong> Het break-evenpunt ligt bij de hoeveelheid waar
+de TK-lijn en de TO-lijn elkaar kruisen. Op dat punt is de verticale
+afstand tussen de twee lijnen nul (TO = TK). Lees de Q-waarde af op de
+horizontale as bij het snijpunt.</p>
+<p><em>Waarom: links van het snijpunt is TK &gt; TO (verlies), rechts is
+TO &gt; TK (winst). Het snijpunt is het omslagpunt.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<p><strong>a)</strong> Stap 1: Bereken TO en TK bij Q = 50. TO = 5 x 50
+= <strong>€250</strong> TK = 300 + 2 x 50 = 300 + 100 =
+<strong>€400</strong></p>
+<p>Stap 2: Bereken TO en TK bij Q = 150. TO = 5 x 150 =
+<strong>€750</strong> TK = 300 + 2 x 150 = 300 + 300 =
+<strong>€600</strong></p>
+<p><em>Waarom: bij Q = 50 is TK &gt; TO (verlies van €150), bij Q = 150
+is TO &gt; TK (winst van €150). Ergens daartussenin ligt het
+break-evenpunt.</em></p>
+<p><strong>b)</strong> De TO-lijn begint in de oorsprong (0, 0) en loopt
+door (50, 250) en (150, 750). Het break-evenpunt: TO = TK → 5Q = 300 +
+2Q → 3Q = 300 → Q = 100. Bij Q = 100: TO = TK = €500. Markeer het punt
+(100, 500) als break-evenpunt.</p>
+<p><em>Waarom: de TO-lijn heeft een steilere helling (€5) dan de TK-lijn
+(€2), dus de TO-lijn haalt de TK-lijn in bij Q = 100.</em></p>
+<p><strong>c)</strong> Het winstgebied bij Q = 150 is het vlak tussen de
+TO-lijn (boven) en de TK-lijn (onder), van Q = 100 tot Q = 150. Arceer
+dit driehoekige vlak.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 3</strong></p>
+<p><strong>a)</strong> TO = P x Q = 3Q TK = TCK + GVK x Q = 600 +
+1,20Q</p>
+<p><strong>b)</strong> Stap 1: Bereken TO en TK bij Q = 400. TO = 3 x
+400 = €1.200 TK = 600 + 1,20 x 400 = 600 + 480 = €1.080</p>
+<p>Stap 2: Bereken de winst. Winst = TO - TK = 1.200 - 1.080 =
+<strong>€120</strong> (winst)</p>
+<p><em>Waarom: de opbrengst is hoger dan de kosten, dus de ijssalon
+maakt winst.</em></p>
+<p><strong>c)</strong> Stap 1: Stel TO = TK. 3Q = 600 + 1,20Q</p>
+<p>Stap 2: Los op naar Q. 3Q - 1,20Q = 600 1,80Q = 600 Q = 600 / 1,80 =
+333,33…</p>
+<p>Naar boven afgerond: <strong>Q = 334 ijsjes</strong></p>
+<p><em>Waarom: bij 333 ijsjes is de winst nog net negatief (TO = €999,
+TK = €999,60), dus de ijssalon heeft 334 ijsjes nodig om break-even te
+draaien.</em></p>
+<p><strong>d)</strong> Onder het break-evenpunt is de totale opbrengst
+lager dan de totale kosten. De opbrengst per ijsje (€3) is weliswaar
+hoger dan de variabele kosten per ijsje (€1,20), maar er zijn nog niet
+genoeg ijsjes verkocht om de constante kosten (€600) te dekken. Elk
+verkocht ijsje draagt €1,80 bij aan het dekken van de constante kosten
+(de dekkingsbijdrage), maar bij minder dan 334 ijsjes is dat totale
+bedrag nog niet genoeg.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<p><strong>a)</strong> TO = P x Q = 1,80Q TK = TCK + GVK x Q = 1.200 +
+0,60Q</p>
+<p><strong>b)</strong> Stap 1: Q = 800. TO = 1,80 x 800 = €1.440 TK =
+1.200 + 0,60 x 800 = 1.200 + 480 = €1.680 Winst = 1.440 - 1.680 =
+<strong>-€240</strong> (verlies)</p>
+<p>Stap 2: Q = 1500. TO = 1,80 x 1500 = €2.700 TK = 1.200 + 0,60 x 1500
+= 1.200 + 900 = €2.100 Winst = 2.700 - 2.100 = <strong>€600</strong>
+(winst)</p>
+<p><em>Waarom: bij 800 posters zijn de constante kosten nog niet gedekt;
+bij 1500 posters wel, met €600 over.</em></p>
+<p><strong>c)</strong> TO = TK 1,80Q = 1.200 + 0,60Q 1,20Q = 1.200 Q =
+1.200 / 1,20 <strong>Q = 1.000 posters</strong></p>
+<p>Controle: TO = 1,80 x 1.000 = €1.800. TK = 1.200 + 0,60 x 1.000 =
+€1.800. ✓</p>
+<p><em>Waarom: de dekkingsbijdrage per poster is €1,80 - €0,60 = €1,20.
+De constante kosten van €1.200 worden gedekt na 1.200 / 1,20 = 1.000
+posters.</em></p>
+<p><strong>d)</strong> Nieuwe TO = 2,10Q TO = TK → 2,10Q = 1.200 + 0,60Q
+→ 1,50Q = 1.200 → Q = 1.200 / 1,50 <strong>Q = 800 posters</strong></p>
+<p>Het break-evenpunt daalt van 1.000 naar 800 posters. Een hogere prijs
+betekent een grotere dekkingsbijdrage per stuk (€1,50 in plaats van
+€1,20), waardoor de constante kosten sneller worden gedekt.</p>
+<p><em>Waarom: bij een hogere prijs hoeft de drukkerij minder te
+verkopen om uit de kosten te komen. De TO-lijn wordt steiler en snijdt
+de TK-lijn eerder.</em></p>
+<p><strong>e)</strong> De grafiek bevat drie lijnen: - TK-lijn: begint
+bij (0, 1.200), helling €0,60 per poster - TO-lijn bij P = €1,80: begint
+in oorsprong, helling €1,80 → snijpunt met TK bij Q = 1.000 - TO-lijn
+bij P = €2,10: begint in oorsprong, helling €2,10 → snijpunt met TK bij
+Q = 800</p>
+<p>Markeer beide break-evenpunten. De steilere TO-lijn (€2,10) snijdt de
+TK-lijn eerder.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<p><strong>a)</strong> GO = TO / Q = (6 x 100) / 100 = 600 / 100 =
+<strong>€6</strong></p>
+<p><em>Waarom: bij een constante prijs is GO altijd gelijk aan P. Elk
+product brengt gemiddeld evenveel op als de verkoopprijs.</em></p>
+<p><strong>b)</strong> Stap 1: Q = 100. TO = 6 x 100 = €600 TK = 400 +
+2,50 x 100 = 400 + 250 = €650 Winst = 600 - 650 = <strong>-€50</strong>
+(verlies)</p>
+<p>Stap 2: Q = 150. TO = 6 x 150 = €900 TK = 400 + 2,50 x 150 = 400 +
+375 = €775 Winst = 900 - 775 = <strong>€125</strong> (winst)</p>
+<p><em>Waarom: bij 100 hamburgers zijn de constante kosten (€400) nog
+niet volledig gedekt door de dekkingsbijdrage (€3,50 per hamburger x 100
+= €350 &lt; €400).</em></p>
+<p><strong>c)</strong> TO = TK 6Q = 400 + 2,50Q 3,50Q = 400 Q = 400 /
+3,50 <strong>Q = 114,3 hamburgers</strong> (afgerond op 1 decimaal)</p>
+<p>Naar boven afgerond op hele hamburgers: minimaal <strong>115
+hamburgers</strong>.</p>
+<p><em>Waarom: de dekkingsbijdrage per hamburger is €6 - €2,50 = €3,50.
+De constante kosten van €400 worden gedekt na 400 / 3,50 = 114,3
+hamburgers.</em></p>
+<p><strong>d)</strong> Winst = TO - TK ≥ 250 6Q - (400 + 2,50Q) ≥ 250
+3,50Q - 400 ≥ 250 3,50Q ≥ 650 Q ≥ 650 / 3,50 <strong>Q ≥ 185,7 →
+minimaal 186 hamburgers</strong></p>
+<p><em>Waarom: boven het break-evenpunt levert elke extra hamburger
+€3,50 winst op (de dekkingsbijdrage). Na de eerste 115 hamburgers
+(break-even) heeft hij nog 186 - 115 = 71 extra hamburgers nodig voor de
+gewenste winst van €250.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 6</strong></p>
+<p><strong>a)</strong> Constante kosten (veranderen niet met Q): - Huur
+keuken: €900 - Afschrijving apparatuur: €300</p>
+<p>Variabele kosten (veranderen wel met Q): - Ingredienten per maaltijd:
+€4,50 - Verpakking per maaltijd: €0,50</p>
+<p><strong>b)</strong> TCK = 900 + 300 = <strong>€1.200</strong> GVK =
+4,50 + 0,50 = <strong>€5 per maaltijd</strong> TK = TCK + GVK x Q =
+1.200 + 5 x 200 = 1.200 + 1.000 = <strong>€2.200</strong></p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan 1.3.1.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 7</strong></p>
+<p><strong>a)</strong> GTK bij Q = 100: GTK = TK / Q = (400 + 2,50 x
+100) / 100 = 650 / 100 = <strong>€6,50</strong> GTK bij Q = 400: GTK =
+(400 + 2,50 x 400) / 400 = 1.400 / 400 = <strong>€3,50</strong></p>
+<p><strong>b)</strong> GTK daalt als Q toeneemt, omdat de constante
+kosten (€400) over meer eenheden worden verdeeld. Bij Q = 100 draagt elk
+product €4 aan constante kosten; bij Q = 400 is dat nog maar €1 per
+stuk. De gemiddelde variabele kosten (€2,50) blijven gelijk, maar het
+constante-kostendeel per stuk krimpt.</p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan 1.3.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 8</strong></p>
+<p><strong>a)</strong> De vraag naar koffieapparaten stijgt. Koffiecups
+zijn een <strong>complementair goed</strong> van koffieapparaten — je
+hebt beide nodig. Als de prijs van een complement daalt, stijgt de vraag
+naar het andere goed.</p>
+<p>De relevante vraagfactor is: <strong>prijs van complementaire
+goederen</strong>.</p>
+<p><strong>b)</strong> Dit is een <strong>verschuiving van</strong> de
+vraaglijn van koffieapparaten (naar rechts). De prijs van
+koffieapparaten zelf verandert niet — er verandert een andere factor (de
+prijs van een complement). Een verschuiving van de vraaglijn treedt op
+bij verandering van een niet-prijsfactor.</p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan 1.2.2.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 9</strong></p>
+<p><strong>a)</strong> TO = P x Q = <strong>1,50Q</strong></p>
+<p><strong>b)</strong> Stap 1: Bereken TO en TK bij Q = 500. TO = 1,50 x
+500 = €750 TK = 500 + 0,80 x 500 = 500 + 400 = €900 Winst = 750 - 900 =
+<strong>-€150</strong> (verlies)</p>
+<p>Stap 2: Bereken TO en TK bij Q = 1000. TO = 1,50 x 1000 = €1.500 TK =
+500 + 0,80 x 1000 = 500 + 800 = €1.300 Winst = 1.500 - 1.300 =
+<strong>€200</strong> (winst)</p>
+<p><em>Waarom: bij 500 broden is de opbrengst onvoldoende om de
+constante kosten te dekken. Bij 1000 broden is de opbrengst ruimschoots
+hoger dan de kosten.</em></p>
+<p><strong>c)</strong> GO = TO / Q = 750 / 500 =
+<strong>€1,50</strong></p>
+<p>Dit is precies gelijk aan de verkoopprijs. Bij een constante prijs
+geldt altijd: GO = P. De gemiddelde opbrengst per brood is per definitie
+gelijk aan de prijs waarvoor elk brood wordt verkocht.</p>
+<p><em>Waarom: GO = TO / Q = (P x Q) / Q = P. Dit is rekenkundig
+onvermijdelijk zolang elk product voor dezelfde prijs wordt
+verkocht.</em></p>
+<p><strong>d)</strong> Stap 1: Stel TO = TK. 1,50Q = 500 + 0,80Q</p>
+<p>Stap 2: Los op naar Q. 1,50Q - 0,80Q = 500 0,70Q = 500 Q = 500 / 0,70
+<strong>Q = 714,29 broden</strong> (afgerond: 715 broden)</p>
+<p>Stap 3: Controleer. TO = 1,50 x 714,29 = €1.071,43 TK = 500 + 0,80 x
+714,29 = 500 + 571,43 = €1.071,43 TO = TK ✓</p>
+<p><em>Waarom: bij 714,29 broden zijn de totale opbrengsten precies
+gelijk aan de totale kosten. De dekkingsbijdrage per brood is €1,50 -
+€0,80 = €0,70. De constante kosten van €500 worden gedekt na 500 / 0,70
+= 714,29 broden.</em></p>
+<p><strong>e)</strong> De grafiek bevat: - TK-lijn: begint bij (0, 500),
+loopt door (1000, 1.300), helling = €0,80 - TO-lijn: begint bij (0, 0),
+loopt door (1000, 1.500), helling = €1,50 - Break-evenpunt: markeer bij
+(714,3; 1.071,43) met label “break-even” - Winstgebied bij Q = 1000:
+arceer het vlak tussen TO (boven) en TK (onder) van Q = 714,3 tot Q =
+1000</p>
+<p>De verticale afstand bij Q = 1000 is €1.500 - €1.300 = €200. Dat is
+de winst.</p>
+<figure>
+<img
+src="data:image/png;base64,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"
+alt="Doeloefening: TK en TO van de bakker met break-evenpunt en winstgebied" />
+<figcaption aria-hidden="true">Doeloefening: TK en TO van de bakker met
+break-evenpunt en winstgebied</figcaption>
+</figure>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 10 — Denkertje</strong></p>
+<p><em>Modelantwoord:</em></p>
+<p><strong>a)</strong> Bij P = €1,50 en Q = 1000: TO = 1,50 x 1000 =
+€1.500 TK = 500 + 0,80 x 1000 = €1.300 Winst = 1.500 - 1.300 =
+<strong>€200</strong></p>
+<p><strong>b)</strong> Verwachte afzet: 1000 x 1,30 = 1.300 broden. TO =
+1,20 x 1300 = €1.560 TK = 500 + 0,80 x 1300 = 500 + 1.040 = €1.540 Winst
+= 1.560 - 1.540 = <strong>€20</strong></p>
+<p><strong>c)</strong> De prijsverlaging is waarschijnlijk geen goed
+idee. De winst daalt van €200 naar €20 — een daling van 90%. De bakker
+verkoopt weliswaar 30% meer broden, maar de lagere prijs per brood kost
+meer dan de extra verkoop opbrengt.</p>
+<p>Ontbrekende informatie: de bakker weet niet zeker dat de afzet
+precies 30% stijgt. Misschien stijgt de vraag meer of minder. Ook kan
+het zijn dat de concurrentie ook de prijs verlaagt, waardoor het effect
+kleiner is. Verder zou de bakker moeten nagaan of zijn
+productiecapaciteit 1300 broden aankan — misschien moet hij extra
+personeel aannemen (hogere constante kosten) of een grotere oven
+aanschaffen.</p>
+<p><em>Beoordelingscriteria:</em> - Correcte berekening van winst in
+beide scenario’s - Vergelijking van de twee winstbedragen met een
+conclusie - Minimaal een argument waarom het resultaat onzeker is
+(onbekende prijselasticiteit, concurrentiegedrag, capaciteitsgrenzen) -
+Erkenning dat meer informatie nodig is voor een definitieve
+beslissing</p>
+<div style="break-before: page;">
+
+</div>
+<h1 id="antwoorden-1.3.4-aanbod-en-kosten">Antwoorden §1.3.4 — Aanbod en
+kosten</h1>
+<hr />
+</div><h2 id="opgave-1-bakkerij-korenveld">Opgave 1: Bakkerij “Korenveld”</h2>
+<p><strong>1</strong> <em>(2 punten)</em></p>
+<p>Bij een productie van 800 croissants (uit tabel 1): - Variabele
+kosten = €1.100 - Totale kosten = €1.900</p>
+<p><strong>Stap 1:</strong> GVK = VK / Q = 1.100 / 800 = <strong>€1,375
+per croissant</strong></p>
+<p><strong>Stap 2:</strong> GTK = TK / Q = 1.900 / 800 = <strong>€2,375
+per croissant</strong></p>
+<p><em>Waarom:</em> GVK en GTK worden berekend door de totale
+(variabele) kosten te delen door de geproduceerde hoeveelheid. Het
+verschil tussen GTK en GVK is de gemiddelde constante kosten (GCK = 800
+/ 800 = €1,00).</p>
+<hr />
+<p><strong>2</strong> <em>(2 punten)</em></p>
+<p>Bij een productie van 1.000 croissants (uit tabel 1): - Totale
+opbrengst (TO) = €2.500 - Totale kosten (TK) = €2.400</p>
+<p>Winst = TO − TK = 2.500 − 2.400 = <strong>€100</strong></p>
+<p><em>Waarom:</em> Winst is het verschil tussen totale opbrengst en
+totale kosten. De totale opbrengst = prijs × hoeveelheid = €2,50 × 1.000
+= €2.500, wat overeenkomt met de tabel.</p>
+<hr />
+<p><strong>3</strong> <em>(2 punten)</em></p>
+<p>Maaike draait <strong>break-even tussen 600 en 800
+croissants</strong>. Uit tabel 1:</p>
+<ul>
+<li>Bij Q = 600: TO = €1.500, TK = €1.550 → verlies van €50</li>
+<li>Bij Q = 800: TO = €2.000, TK = €1.900 → winst van €100</li>
+</ul>
+<p>Break-even betekent dat TO = TK (winst = 0). Dat punt ligt tussen 600
+en 800 stuks — bij die productie zijn de opbrengsten precies gelijk aan
+de kosten.</p>
+<p><em>Waarom:</em> Break-even is het omslagpunt waar een bedrijf van
+verlies naar winst gaat. Uit de tabel blijkt dat de winst omslaat van
+negatief (−€50 bij 600) naar positief (+€100 bij 800).</p>
+<hr />
+<p><strong>4</strong> <em>(2 punten)</em></p>
+<p>Bereken de winst bij elk productieniveau (uit tabel 1):</p>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 30%" />
+</colgroup>
+
+<thead>
+<tr>
+<th>Productie</th>
+<th>TO (€)</th>
+<th>TK (€)</th>
+<th>Winst (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>800</td>
+<td>−800</td>
+</tr>
+<tr>
+<td>200</td>
+<td>500</td>
+<td>1.100</td>
+<td>−600</td>
+</tr>
+<tr>
+<td>400</td>
+<td>1.000</td>
+<td>1.300</td>
+<td>−300</td>
+</tr>
+<tr>
+<td>600</td>
+<td>1.500</td>
+<td>1.550</td>
+<td>−50</td>
+</tr>
+<tr>
+<td>800</td>
+<td>2.000</td>
+<td>1.900</td>
+<td>+100</td>
+</tr>
+<tr>
+<td>1.000</td>
+<td>2.500</td>
+<td>2.400</td>
+<td>+100</td>
+</tr>
+<tr>
+<td>1.200</td>
+<td>3.000</td>
+<td>3.200</td>
+<td>−200</td>
+</tr>
+</tbody>
+</table>
+<p>De winst is maximaal bij <strong>800 of 1.000 croissants per
+maand</strong>: beide geven een winst van <strong>€100</strong>.</p>
+<p><em>Waarom:</em> Om de maximale winst te vinden, bereken je bij elk
+productieniveau het verschil TO − TK. Het productieniveau met het
+hoogste verschil geeft de maximale winst. Er is hier geen marginale
+analyse nodig — je vergelijkt gewoon de winstcijfers in de tabel.</p>
+<hr />
+<p><strong>5</strong> <em>(2 punten)</em></p>
+<p>Bij 1.000 croissants maakt Maaike €100 winst (schakel 1). Bij 1.200
+croissants stijgen de variabele kosten van €1.600 naar €2.400 — een
+stijging van €800 — terwijl de extra opbrengst slechts 200 × €2,50 =
+€500 bedraagt (schakel 2). De extra kosten zijn dus hoger dan de extra
+opbrengsten, waardoor de winst daalt van +€100 naar −€200: een
+verlies.</p>
+<p><em>Waarom:</em> Meer produceren is alleen verstandig als de extra
+opbrengst hoger is dan de extra kosten. Tussen 1.000 en 1.200 stuks
+stijgen de variabele kosten sneller dan de opbrengsten — de “sweet spot”
+is al voorbij.</p>
+<hr />
+<p><strong>Denkertje — modelantwoord en
+beoordelingscriteria</strong></p>
+<p><em>Modelantwoord:</em> De uitspraak klopt niet. Uit tabel 1 blijkt
+dat de gemiddelde totale kosten (GTK) aanvankelijk dalen bij hogere
+productie, maar uiteindelijk weer stijgen:</p>
+<ul>
+<li>Bij 200 stuks: GTK = 1.100 / 200 = €5,50</li>
+<li>Bij 800 stuks: GTK = 1.900 / 800 = €2,375</li>
+<li>Bij 1.000 stuks: GTK = 2.400 / 1.000 = €2,40</li>
+<li>Bij 1.200 stuks: GTK = 3.200 / 1.200 = €2,67</li>
+</ul>
+<p>Tot 800 stuks dalen de GTK doordat de constante kosten over meer
+eenheden worden verdeeld (degressief effect). Maar vanaf 800 stuks
+stijgen de GTK weer, doordat de variabele kosten sneller stijgen dan de
+productie toeneemt. Bovendien: zelfs als de GTK dalen, betekent dat niet
+automatisch meer winst — de winst hangt af van het verschil tussen prijs
+en GTK, én van de hoeveelheid. Bij 1.200 stuks zijn de GTK (€2,67) hoger
+dan de prijs (€2,50), waardoor Maaike verlies maakt.</p>
+<p><em>Beoordelingscriteria:</em> - Laat met cijfers uit tabel 1 zien
+dat GTK eerst dalen en daarna stijgen (1 pt) - Verbindt dit aan winst:
+lage GTK ≠ automatisch meer winst; bij te hoge productie kan verlies
+ontstaan (1 pt)</p>
+<hr />
+</div><h2 id="opgave-2-fietsfabriek-velotech">Opgave 2: Fietsfabriek
+“VeloTech”</h2>
+<p><strong>6</strong> <em>(2 punten)</em></p>
+<p>Uit tabel 2 (vóór staalstijging):</p>
+<p><strong>TCK</strong> = huur + afschrijving + salarissen = 200.000 +
+80.000 + 120.000 = <strong>€400.000</strong></p>
+<p><strong>TVK</strong> = staal + energie + verpakking = 500.000 +
+50.000 + 100.000 = <strong>€650.000</strong></p>
+<p><em>Waarom:</em> Constante kosten veranderen niet met de
+productieomvang (huur, afschrijving, vaste salarissen). Variabele kosten
+veranderen wel (grondstoffen, energie, verpakking). Je sorteert de
+kosten op type en telt per categorie op.</p>
+<hr />
+<p><strong>7</strong> <em>(2 punten)</em></p>
+<p><strong>Stap 1:</strong> Totale kosten (TK) = TCK + TVK = 400.000 +
+650.000 = €1.050.000</p>
+<p><strong>Stap 2:</strong> GTK = TK / Q = 1.050.000 / 5.000 =
+<strong>€210 per fiets</strong></p>
+<p><em>Waarom:</em> De gemiddelde totale kosten geven aan hoeveel elke
+fiets gemiddeld kost om te produceren. De verkoopprijs is €230, dus vóór
+de staalstijging maakt VeloTech winst per fiets: €230 − €210 = €20.</p>
+<hr />
+<p><strong>8</strong> <em>(2 punten)</em></p>
+<p>De aanbodfactor die verandert is de <strong>prijs van
+productiefactoren</strong> (grondstoffen / inputprijzen).</p>
+<p>Dit leidt tot een <strong>verschuiving van de aanbodlijn naar
+links</strong> (omhoog). De staalprijs is geen verandering van de eigen
+verkoopprijs van fietsen, maar een verandering van de productiekosten.
+Bij elke verkoopprijs kunnen producenten minder fietsen winstgevend
+aanbieden → de aanbodlijn verschuift naar links.</p>
+<p><em>Waarom:</em> Een beweging langs de aanbodlijn ontstaat alleen bij
+een verandering van de eigen prijs van het goed. Een verandering van
+inputprijzen is een aanbodfactor die de hele lijn verschuift.</p>
+<hr />
+<p><strong>9</strong> <em>(2 punten)</em></p>
+<p><strong>Vóór de staalstijging:</strong> - TK = €1.050.000 (uit vraag
+7) - TO = 5.000 × €230 = €1.150.000 - Winst per fiets = (TO − TK) / Q =
+(1.150.000 − 1.050.000) / 5.000 = <strong>€20 per fiets</strong></p>
+<p><strong>Ná de staalstijging:</strong> - TVK nieuw = 700.000 + 50.000
++ 100.000 = €850.000 - TK nieuw = 400.000 + 850.000 = €1.250.000 - TO =
+5.000 × €230 = €1.150.000 (prijs onveranderd) - Winst per fiets =
+(1.150.000 − 1.250.000) / 5.000 = <strong>−€20 per fiets
+(verlies)</strong></p>
+<p>De stijging van de staalprijs verhoogt de variabele kosten met
+€200.000 (schakel 1). Omdat de verkoopprijs gelijk blijft, dalen de
+totale opbrengsten niet, maar stijgen de kosten wel — waardoor de winst
+per fiets daalt van €20 naar −€20 (schakel 2).</p>
+<hr />
+<p><strong>10</strong> <em>(3 punten)</em></p>
+<p>Als VeloTech de verkoopprijs verhoogt van €230 naar €270, is dit een
+<strong>beweging langs de aanbodlijn</strong>, geen verschuiving.</p>
+<p>De aanbodlijn is na de staalstijging al naar links verschoven
+(vanwege hogere inputprijzen, zie vraag 8). De verkoopprijs is de prijs
+van het goed zelf. Als die prijs stijgt van €230 naar €270, beweegt
+VeloTech langs de (nieuwe, verschoven) aanbodlijn naar een punt met een
+hogere prijs en een hogere aangeboden hoeveelheid.</p>
+<p>Het feit dat een concurrent vergelijkbare fietsen aanbiedt voor €250
+betekent dat VeloTech bij €270 mogelijk klanten verliest — maar dat
+verandert niets aan het type verandering: een prijsverandering van het
+eigen goed is altijd een beweging langs de lijn.</p>
+<p><em>Waarom:</em> Twee stappen: (1) de staalstijging verschuift de
+hele aanbodlijn (aanbodfactor ≠ eigen prijs), (2) de prijsverhoging is
+een beweging langs die nieuwe lijn (eigen prijs verandert). Dit
+onderscheid is cruciaal: verschuiving = andere factor, beweging = eigen
+prijs.</p>
+<p><strong>Puntenverdeling:</strong> - Correct: beweging langs de
+aanbodlijn (1 pt) - Motivering: de verkoopprijs is de eigen prijs van
+het goed (1 pt) - Onderscheid met vraag 8: de staalstijging verschoof de
+lijn, de prijsverhoging is een beweging langs de verschoven lijn (1
+pt)</p>
+<hr />
+<p><strong>Denkertje — modelantwoord en
+beoordelingscriteria</strong></p>
+<p><em>Modelantwoord:</em> De uitspraak klopt niet altijd. Er zijn
+redenen waarom een bedrijf bij stijgende kosten de prijs niet
+verhoogt:</p>
+<ol type="1">
+<li><p><strong>Concurrentie:</strong> Als concurrenten hun prijs niet
+verhogen (zoals de concurrent die €250 vraagt), verliest het bedrijf
+klanten bij een hogere prijs. In een markt met veel concurrentie kan een
+bedrijf gedwongen zijn de kostenstijging (deels) zelf te
+dragen.</p></li>
+<li><p><strong>Alternatieve strategieën:</strong> Een bedrijf kan ook
+kosten besparen op andere posten, efficiënter produceren, of tijdelijk
+minder winst accepteren om marktaandeel te behouden.</p></li>
+<li><p><strong>Vraagreactie:</strong> Als de vraag prijsgevoelig is,
+leidt een hogere prijs tot een sterke daling van de gevraagde
+hoeveelheid, waardoor de totale opbrengst kan dalen ondanks de hogere
+prijs per stuk.</p></li>
+</ol>
+<p>De uitspraak gaat ervan uit dat bedrijven altijd alle
+kostenstijgingen kunnen doorberekenen, maar dat hangt af van de
+marktomstandigheden.</p>
+<p><em>Beoordelingscriteria:</em> - Noemt minstens één concrete reden
+waarom niet verhogen rationeel kan zijn (concurrentie,
+vraagelasticiteit, alternatieve besparingen) (1 pt) - Verbindt de reden
+aan de context of aan een economisch mechanisme (marktwerking,
+prijsgevoeligheid) (1 pt)</p>
+</body>
+</html>

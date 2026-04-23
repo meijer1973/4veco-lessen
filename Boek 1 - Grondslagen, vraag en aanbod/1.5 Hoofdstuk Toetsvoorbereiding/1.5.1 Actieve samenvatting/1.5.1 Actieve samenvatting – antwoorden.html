@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left   { content: "1.5.1 Actieve samenvatting"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p { margin: 0 0 10pt 0; }
+
+h1 {
+  font-size: 18pt; font-weight: bold; color: #1A5276;
+  border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt;
+  margin-top: 0; margin-bottom: 18pt; break-after: avoid;
+}
+
+h2 {
+  font-size: 14pt; font-weight: bold; color: #1A5276;
+  border-bottom: 1px solid #999; padding-bottom: 4pt;
+  margin-top: 22pt; margin-bottom: 12pt; break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt; font-weight: bold; color: #1a1a1a;
+  margin-top: 16pt; margin-bottom: 6pt; break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+blockquote {
+  background: #F4F7FA; border-left: 3px solid #1A5276;
+  padding: 8pt 12pt; margin: 12pt 0;
+  font-size: 10.5pt; line-height: 1.4; break-inside: avoid;
+}
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+table {
+  border-collapse: collapse; width: 100%;
+  margin: 12pt 0; font-size: 10.5pt; break-inside: avoid;
+}
+th {
+  background: #EDF0F3; color: #1a1a1a; font-weight: bold;
+  padding: 3pt 6pt; text-align: left; border: 1px solid #999;
+}
+td { border: 1px solid #999; padding: 2pt 6pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+
+figure { margin: 14pt 0; break-inside: avoid; text-align: center; }
+figure img { max-width: 100%; width: 100%; display: block; margin: 0 auto; }
+figcaption { font-weight: bold; font-size: 10.5pt; color: #1a1a1a; text-align: left; margin-top: 6pt; }
+
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+p + figure, p + p > img { break-before: avoid; }
+
+.exercise { margin-bottom: 14pt; orphans: 2; widows: 2; }
+.exercise > p:first-child { break-after: avoid; page-break-after: avoid; }
+.exercise p { margin: 0 0 1pt 0; }
+
+code {
+  background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace; font-size: 10pt;
+}
+
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+em { color: #444; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+ol[type="a"] { list-style-type: lower-alpha; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="actieve-samenvatting-antwoorden">§1.5.1 Actieve samenvatting —
+Antwoorden</h1>
+<hr />
+</div><h2 id="blok-1-schaarste-alternatieve-kosten-en-rekenen">Blok 1:
+Schaarste, alternatieve kosten en rekenen</h2>
+<div class="exercise"><p><strong>Vraag 1 — Correct: B</strong></p>
+<p><em>(132 − 120) / 120 × 100% = 10%. Lisa maakt de klassieke fout: ze
+verwijt 12 indexpunten met 12 procent. Indexpunten geven het absolute
+verschil tussen twee indexcijfers; voor het percentage deel je door het
+OUDE indexcijfer (120), niet door 100. <strong>Valkuil:</strong> optie A
+en D berusten op dezelfde fout — indexpunten gelijkstellen aan
+procenten. Optie C deelt door het nieuwe indexcijfer (132) in plaats van
+het oude, een tweede veelgemaakte fout.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Vraag 2 — Correct: C</strong></p>
+<p><em>De alternatieve kosten zijn de opbrengst van het beste
+niet-gekozen alternatief. Tim kiest bijles (€45), dus het enige
+alternatief is de supermarkt (€35). De alternatieve kosten zijn €35.
+<strong>Valkuil:</strong> optie A verwart de opbrengst van de gekozen
+optie met de alternatieve kosten. Optie B telt alle alternatieven op
+(dat is geen economisch begrip). Optie D berekent het verschil, maar
+alternatieve kosten zijn de opbrengst zelf, niet het verschil.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Vraag 3 — Correct: B</strong></p>
+<p><em>De procentuele verandering bereken je met (nieuw − oud) / oud ×
+100% = (400 − 500) / 500 × 100% = −20%. De daling is dus 20%.
+<strong>Valkuil:</strong> optie A deelt door de nieuwe waarde (400) in
+plaats van de oude (500) — dit is de meest gemaakte fout bij procentuele
+veranderingen. Optie C geeft −25% (dezelfde fout als A maar met correcte
+teller). Optie D verwart procentuele verandering met
+indexcijfers.</em></p>
+<hr />
+</div><h2
+id="blok-2-vraag-betalingsbereidheid-vraaglijn-en-vraagfactoren">Blok 2:
+Vraag — betalingsbereidheid, vraaglijn en vraagfactoren</h2>
+</div><div class="exercise"><p><strong>Vraag 4 — Correct: B</strong></p>
+<p><em>Een verandering van de eigen prijs van een goed leidt tot een
+beweging LANGS de vraaglijn, niet tot een verschuiving VAN de vraaglijn.
+Bij een hogere prijs van boter beweeg je langs de vraaglijn naar
+links-boven (hogere P, lagere Qv). <strong>Valkuil:</strong> optie A is
+de #1 fout bij dit onderwerp: studenten verwarren een prijsverandering
+met een verschuiving van de hele lijn. Onthoud: alleen andere factoren
+(inkomen, voorkeuren, prijs substituten/complementen, aantal vragers)
+verschuiven de lijn.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Vraag 5 — Correct: A</strong></p>
+<p><em>Koffie en thee zijn substituten: als koffie duurder wordt,
+stappen consumenten over op thee. Daardoor stijgt de vraag naar thee bij
+elke prijs → de vraaglijn naar thee verschuift naar rechts.
+<strong>Valkuil:</strong> optie D klinkt logisch (“de prijs van thee
+verandert toch niet?”), maar mist dat een verandering in de prijs van
+een substituut wél een verschuivingsfactor is. Optie B maakt de
+omgekeerde fout: het is juist géén beweging langs de lijn, want de eigen
+prijs van thee verandert niet.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Vraag 6 — Correct: B</strong></p>
+<p><em>De collectieve vraag is de horizontale optelsom: je berekent per
+consument de gevraagde hoeveelheid bij P = 3 en telt die op. Anna: 10 −
+2(3) = 4. Ben: 8 − 3 = 5. Collectief: 4 + 5 = 9.
+<strong>Valkuil:</strong> optie A telt de vergelijkingen algebraïsch op
+(18 − 3P), maar bij P = 3 geeft dat toevallig ook 9 — deze methode werkt
+hier omdat beide consumenten een positieve Qv hebben, maar is
+onbetrouwbaar als één consument bij die prijs niets meer vraagt (knik in
+de collectieve vraaglijn). Optie C vermenigvuldigt in plaats van op te
+tellen. Optie D behandelt −2P alsof het −2 × P voor de hele collectieve
+vergelijking is.</em></p>
+<hr />
+</div><h2 id="blok-3-aanbod-en-kosten">Blok 3: Aanbod en kosten</h2>
+</div><div class="exercise"><p><strong>Vraag 7 — Correct: B</strong></p>
+<p><em>Bij Q = 500: TK = TCK + TVK = 500 + 0,80 × 500 = 500 + 400 =
+€900. GTK = TK/Q = 900/500 = €1,80. Dit is gelijk aan GCK + GVK = 1,00 +
+0,80 = 1,80. <strong>Valkuil:</strong> optie A negeert de constante
+kosten helemaal (alsof GTK = GVK). Optie C verwart de break-evenprijs
+met GTK bij een willekeurige Q. Optie D maakt een rekenfout: telt TCK en
+GVK op in de teller in plaats van TK te berekenen.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Vraag 8 — Correct: B</strong></p>
+<p><em>TK = TCK + TVK. Bij meer productie stijgt TVK (en dus TK), maar
+TCK blijft gelijk. GTK = TK/Q = (TCK + TVK)/Q = GCK + GVK. Omdat TCK
+wordt gedeeld door een steeds groter Q, daalt GCK (spreidingseffect).
+Bij lineaire VK blijft GVK constant, dus GTK daalt.
+<strong>Valkuil:</strong> optie A verwart “TK stijgt” met “GTK stijgt” —
+dit is de klassieke verwarring tussen totaal en gemiddeld. Het feit dat
+de totale kosten stijgen, zegt niets over de kosten per stuk.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Vraag 9 — Correct: B</strong></p>
+<p><em>De totale opbrengst (TO) is €10.000 — dat is alles wat het
+bedrijf binnenhaalt. De winst is TO − TK = 10.000 − 8.500 = €1.500. De
+leerling noemt €1.500 de “opbrengst”, maar dat is de winst.
+<strong>Valkuil:</strong> de verwarring opbrengst ≠ winst is een van de
+meest voorkomende fouten. Opbrengst = omzet = TO = P × Q. Winst = wat er
+overblijft na aftrek van alle kosten.</em></p>
+<hr />
+</div><h2 id="blok-4-marktevenwicht-en-verschuivingen">Blok 4: Marktevenwicht
+en verschuivingen</h2>
+</div><div class="exercise"><p><strong>Vraag 10 — Correct: B</strong></p>
+<p><em>Qv = Qa → −2P + 100 = 3P − 25 → 5P = 125 → P* = 25. Invullen in
+Qv: −2(25) + 100 = 50. Controle in Qa: 3(25) − 25 = 50 ✓. Dus P* = 25,
+Q* = 50. <strong>Valkuil:</strong> optie D vult P* = 25 alleen in de
+aanbodvergelijking in maar leest het verkeerd af (75 i.p.v. 50). Optie A
+en C komen voort uit rekenfouten bij het oplossen van de vergelijking —
+altijd controleren door P* in beide vergelijkingen in te
+vullen!</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Vraag 11 — Correct: B</strong></p>
+<p><em>Aanbod naar rechts = bij elke prijs wordt meer aangeboden.
+Vuistregel: A naar rechts → P daalt, Q stijgt. Intuïtief: meer aanbod
+bij dezelfde vraag drukt de prijs, en bij een lagere prijs wordt meer
+verkocht (nieuw evenwicht). <strong>Valkuil:</strong> optie A verwisselt
+de richting — dit zou kloppen bij een verschuiving naar links (minder
+aanbod).</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Vraag 12 — Correct: A</strong></p>
+<p><em>Vraag naar rechts → P↑ Q↑. Aanbod naar rechts → P↓ Q↑. Het effect
+op Q is in beide gevallen positief → Q stijgt zeker. Maar het effect op
+P is tegenstrijdig (de ene duwt P omhoog, de andere omlaag) → het
+uiteindelijke effect op P hangt af van de grootte van de verschuivingen
+en is dus onzeker (ambigu). <strong>Valkuil:</strong> optie B vergeet
+dat de twee krachten op de prijs tegen elkaar inwerken. Optie D is te
+pessimistisch: de hoeveelheid is wél zeker.</em></p>
+<hr />
+</div><h2 id="blok-5-marginale-analyse-en-winstmaximalisatie">Blok 5:
+Marginale analyse en winstmaximalisatie</h2>
+</div><div class="exercise"><p><strong>Vraag 13 — Correct: D</strong></p>
+<p><em>MK = ΔTK/ΔQ = (TK(11) − TK(10)) / (11 − 10). TK(10) = 100 +
+2(100) = 300. TK(11) = 100 + 2(121) = 342. MK = (342 − 300) / 1 = 42.
+<strong>Valkuil:</strong> optie A geeft hetzelfde getal (42), maar
+berekent het als het verschil in de variabele component (2Q²), niet als
+ΔTK/ΔQ. Dat levert hier toevallig hetzelfde op, maar de methode is
+onzuiver — de definitie van MK is altijd ΔTK/ΔQ. Optie B berekent GTK in
+plaats van MK (delen door Q i.p.v. ΔQ). Optie C gebruikt de afgeleide
+(4Q), maar past die toe bij Q = 10 in plaats van tussen 10 en
+11.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Vraag 14 — Correct: B</strong></p>
+<p><em>Bij een vaste prijs geldt MO = P = €20. Zolang MK &lt; MO (€20)
+levert elke extra eenheid extra winst op. Maar vanaf het punt waar MK
+&gt; MO (ergens tussen Q = 30 en Q = 50, waar MK van €15 naar €25
+stijgt), kost elke extra eenheid meer dan ze oplevert. De totale winst
+daalt dan. Het winstmaximum ligt bij MO = MK. <strong>Valkuil:</strong>
+optie A klopt niet — bij volkomen concurrentie is de prijs vast en daalt
+niet bij meer productie. Optie C is fout — constante kosten veranderen
+per definitie niet met de productie. Optie D is onzin — TO = P × Q
+blijft positief.</em></p>
+</body>
+</html>

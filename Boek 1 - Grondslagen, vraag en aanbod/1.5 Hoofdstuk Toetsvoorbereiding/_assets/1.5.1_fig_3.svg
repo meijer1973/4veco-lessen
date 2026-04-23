@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial">
+  <!-- Background -->
+  <rect width="720" height="360" fill="#F7FAFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">TK- en TO-lijn met break-evenpunt</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="2"/>
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="2"/>
+  <polygon points="680,310 672,306 672,314" fill="#2D3748"/>
+  <polygon points="80,45 76,53 84,53" fill="#2D3748"/>
+
+  <!-- Axis labels -->
+  <text x="15" y="180" text-anchor="middle" font-size="12" fill="#718096" transform="rotate(-90, 15, 180)">Kosten / Opbrengst (euro)</text>
+  <text x="380" y="345" text-anchor="middle" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+  <text x="72" y="325" text-anchor="end" font-size="10" fill="#718096">0</text>
+
+  <!-- Scenario: TCK = 500, GVK = 0.80, P = 1.50 (bakkerij) -->
+  <!-- TK = 500 + 0.80Q : at Q=0 TK=500, at Q=1000 TK=1300 -->
+  <!-- TO = 1.50Q : at Q=0 TO=0, at Q=1000 TO=1500 -->
+  <!-- Break-even: 1.50Q = 500 + 0.80Q => 0.70Q = 500 => Q ≈ 714 -->
+
+  <!-- Pixel mapping: Q 0..1000 -> x 80..680; euro 0..1500 -> y 310..60 -->
+  <!-- Scale: 1Q = 0.6px, 1euro = 250/1500 * (-1) from 310 -->
+  <!-- f(Q) = 80 + Q*0.6; g(euro) = 310 - euro*(250/1500) = 310 - euro*0.1667 -->
+
+  <!-- TCK horizontal line at 500 => y = 310 - 500*0.1667 = 310 - 83.3 = 226.7 -->
+  <line x1="80" y1="227" x2="680" y2="227" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="72" y="231" text-anchor="end" font-size="9" fill="#718096">TCK</text>
+
+  <!-- TK line: from (80, 310-83.3=226.7) to (680, 310-1300*0.1667=310-216.7=93.3) -->
+  <!-- Loss area: between TK and TO from Q=0 to break-even -->
+  <!-- Break-even: Q=714 => x = 80 + 714*0.6 = 80+428.6 = 508.6 -->
+  <!-- At break-even: TK=TO=1071 => y = 310 - 1071*0.1667 = 310-178.5 = 131.5 -->
+
+  <!-- Loss area (TK > TO, from Q=0 to break-even) -->
+  <!-- TO starts at (80,310) and TK starts at (80,227). At break-even both at (509,131) -->
+  <polygon points="80,227 509,131 80,310" fill="#F1948A" fill-opacity="0.35"/>
+
+  <!-- Profit area (TO > TK, from break-even to Q=1000) -->
+  <!-- At Q=1000: TO=1500 => y=310-250=60, TK=1300 => y=310-216.7=93 -->
+  <polygon points="509,131 680,60 680,93" fill="#82E0AA" fill-opacity="0.35"/>
+
+  <!-- TK line -->
+  <line x1="80" y1="227" x2="680" y2="93" stroke="#E67E22" stroke-width="2.5"/>
+  <text x="685" y="97" font-size="12" font-weight="bold" fill="#E67E22">TK</text>
+
+  <!-- TO line -->
+  <line x1="80" y1="310" x2="680" y2="60" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="685" y="64" font-size="12" font-weight="bold" fill="#1A5276">TO</text>
+
+  <!-- Break-even point -->
+  <circle cx="509" cy="131" r="5" fill="#E74C3C"/>
+  <text x="509" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#E74C3C">break-even</text>
+
+  <!-- Dashed lines from break-even to axes -->
+  <line x1="509" y1="131" x2="509" y2="310" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="509" y1="131" x2="80" y2="131" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Axis labels for break-even -->
+  <text x="509" y="325" text-anchor="middle" font-size="10" fill="#2D3748">Q* = 714</text>
+  <text x="72" y="135" text-anchor="end" font-size="9" fill="#2D3748">1071</text>
+
+  <!-- Area labels — positioned inside the shaded triangles -->
+  <!-- Loss triangle: (80,227)-(509,131)-(80,310). Center ≈ (220,220) -->
+  <text x="220" y="215" text-anchor="middle" font-size="11" font-weight="bold" fill="#D9534F">Verlies</text>
+  <text x="220" y="230" text-anchor="middle" font-size="10" fill="#D9534F">(TK &gt; TO)</text>
+  <!-- Profit triangle: (509,131)-(680,60)-(680,93). Center ≈ (610,100) -->
+  <text x="610" y="100" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E8449">Winst</text>
+
+  <!-- Formula reminder -->
+  <rect x="430" y="255" width="240" height="45" rx="4" fill="#ffffff" fill-opacity="0.9" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="550" y="273" text-anchor="middle" font-size="10" fill="#2D3748">Break-even: Q = TCK / (P - GVK)</text>
+  <text x="550" y="289" text-anchor="middle" font-size="10" fill="#2D3748">= 500 / (1,50 - 0,80) = 714</text>
+</svg>

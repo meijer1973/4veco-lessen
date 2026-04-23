@@ -1,0 +1,66 @@
+# === QUALITY REFERENCE ===
+# Generated: 2026-04-23
+# Paragraph: 1.3.4 Gemengde opgaven
+
+quality_ref:
+  paragraph: "1.3.4 Gemengde opgaven"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.3 Aanbod en kosten"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  content_inventory:
+    type: "consolidation"
+    paragraaf_md: false
+    opgaven_md: true
+    antwoorden_md: true
+    html_present: true
+    pdf_present: true
+    review_status: "usable with flags"
+
+  leerdoelen:
+    - id: L1
+      beschrijving: "De leerling combineert kosten, opbrengsten, winst en break-even in een tabelcontext."
+      bloom: "analyseren"
+      gedekt_in: [opgaven, antwoorden]
+    - id: L2
+      beschrijving: "De leerling verklaart aanbodverschuivingen vanuit inputprijsveranderingen."
+      bloom: "begrijpen"
+      gedekt_in: [opgaven, antwoorden]
+    - id: L3
+      beschrijving: "De leerling beoordeelt bedrijfseconomische keuzes bij kostenstijgingen."
+      bloom: "evalueren"
+      gedekt_in: [opgaven, antwoorden]
+
+  componenten:
+    gemengde_opgaven:
+      aanwezig: true
+      doel: "Integreert §1.3.1-§1.3.3 in twee contexten."
+      inspectie: [OP3, OR1]
+      didactiek: ["transfer", "interleaving", "Bloom-opbouw"]
+    antwoorden:
+      aanwezig: true
+      doel: "Geeft puntsgewijze modelantwoorden en beoordelingscriteria."
+      inspectie: [OP2, OP3]
+      didactiek: ["formatief evalueren", "antwoordstructurering"]
+
+  assets:
+    total_referenced: 1
+    total_present: 1
+    missing: []
+    orphaned:
+      - "1.3.4_ex_1.svg"
+    svgpng_paired: true
+    naming_compliant: true
+
+  verantwoording:
+    differentiatie: "De twee contexten mengen berekening, interpretatie en evaluatie; denkertjes bieden extra uitdaging."
+    dual_coding: "De VeloTech-context bevat een aanbodgrafiek; de bakery-context gebruikt een tabel."
+    scaffolding_fading: "Als consolidatie heeft dit minder scaffolding en vraagt het om zelfstandige toepassing."
+    voorkennis_aansluiting: "De opgaven combineren aanbod, kostenstructuren en opbrengsten uit §1.3.1-§1.3.3."
+    formatief: "Antwoorden bevatten puntentoekenning en modelredeneringen."
+    veelgemaakte_fouten: "De taken toetsen meer produceren versus meer winst en kostenstijging versus prijsdoorberekening."
+    lesdoel_zichtbaarheid: "De consolidatietitel en contexten maken de combinatievaardigheid zichtbaar."
+    oefentijd: "Twee grotere contextopgaven bieden examengerichte oefentijd."

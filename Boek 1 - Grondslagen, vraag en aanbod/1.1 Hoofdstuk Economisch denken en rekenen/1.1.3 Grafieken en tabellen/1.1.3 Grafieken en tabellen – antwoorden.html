@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left   { content: "1.1.3 Grafieken en tabellen"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 6pt 10pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 5pt 10pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+.exercise {
+  margin-bottom: 8pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="grafieken-en-tabellen-antwoorden">1.1.3 Grafieken en tabellen —
+antwoorden</h1>
+</div><h2 id="opgave-1">Opgave 1</h2>
+<p><strong>(a)</strong> Bij een prijs van €3,00 worden er <strong>200
+broodjes</strong> per week verkocht.</p>
+<p><em>(Aflezen: zoek €3,00 op de y-as → horizontale lijn naar de
+grafiek → verticale lijn omlaag naar de x-as → 200.)</em></p>
+<p><strong>(b)</strong> Er worden 150 broodjes verkocht bij een prijs
+van <strong>€3,50</strong>.</p>
+<p><em>(Aflezen: zoek 150 op de x-as → verticale lijn omhoog naar de
+grafiek → horizontale lijn naar de y-as → €3,50.)</em></p>
+<p><strong>(c)</strong> Er is een negatief verband: hoe hoger de prijs,
+hoe minder broodjes er verkocht worden.</p>
+<hr />
+</div><h2 id="opgave-2">Opgave 2</h2>
+<p><strong>(a)</strong> Grafiek met prijs op de y-as (van €0,00 tot
+€3,50) en hoeveelheid op de x-as (van 0 tot 250).</p>
+<p>De vijf punten: - (200; €1,00) - (160; €1,50) - (120; €2,00) - (80;
+€2,50) - (40; €3,00)</p>
+<p>Verbonden met rechte lijnen.</p>
+<p><strong>(b)</strong> Er is een negatief (dalend) verband: als de
+prijs stijgt, daalt het aantal verkochte bekers koffie. Bij elke
+prijsstijging van €0,50 daalt de verkoop met 40 bekers. Het verband is
+lineair (de punten liggen op een rechte lijn).</p>
+<hr />
+</div><h2 id="opgave-3">Opgave 3</h2>
+<p><strong>(a)</strong> Bij een prijs van €9,00 komen er <strong>500
+bezoekers</strong> per week.</p>
+<p><em>(Aflezen: zoek €9,00 op de y-as → horizontale lijn naar de
+grafiek → verticale lijn omlaag naar de x-as → 500.)</em></p>
+<p><strong>(b)</strong> Bij een prijs van €11,00 komen er ongeveer
+<strong>300 bezoekers</strong> per week.</p>
+<p><em>(Interpolatie: €11,00 ligt tussen €10,00 (400 bezoekers) en
+€12,00 (200 bezoekers). €11,00 ligt precies in het midden, dus de
+hoeveelheid ligt ook in het midden: (400 + 200) / 2 = 300
+bezoekers.)</em></p>
+<p><strong>(c)</strong> Bij €8,00: 600 bezoekers. Bij €12,00: 200
+bezoekers.</p>
+<p>Procentuele verandering = (nieuw − oud) / oud × 100% = (200 − 600) /
+600 × 100% = −400 / 600 × 100% = <strong>−66,7%</strong></p>
+<p>Het aantal bezoekers daalt met 66,7%.</p>
+<hr />
+</div><h2 id="opgave-4">Opgave 4</h2>
+<p><strong>(a)</strong> Grafiek met twee punten: - Punt 1: (500; €0,80)
+- Punt 2: (350; €1,20)</p>
+<p>Prijs op de y-as, hoeveelheid op de x-as.</p>
+<p><strong>(b)</strong> Bij €1,00 (het midden tussen €0,80 en €1,20)
+lees je af: <strong>425 flesjes</strong>.</p>
+<p><em>(Interpolatie: €1,00 ligt precies tussen €0,80 en €1,20. De
+hoeveelheid ligt precies tussen 500 en 350: (500 + 350) / 2 =
+425.)</em></p>
+<p><strong>(c)</strong> Indexcijfer verkoop juni = (waarde /
+basiswaarde) × 100 = (350 / 500) × 100 = <strong>70</strong></p>
+<p><em>(De verkoop in juni is 70 op basis van januari = 100, wat
+betekent dat de verkoop 30% lager is dan in januari.)</em></p>
+<p><strong>(d)</strong> Procentuele verandering = (nieuw − oud) / oud ×
+100% = (350 − 500) / 500 × 100% = −150 / 500 × 100% =
+<strong>−30%</strong></p>
+<p>De journalist schrijft dat de verkoop “met een derde” is gedaald. Een
+derde = 33,3%. De werkelijke daling is 30%. De bewering klopt dus
+<strong>niet</strong>: de daling is 30%, niet 33,3%.</p>
+<hr />
+</div><h2 id="opgave-5">Opgave 5</h2>
+<p><strong>(a)</strong> - <em>Leerling A</em> (y-as begint bij €0,00):
+de grafiek toont de hele schaal. De daling ziet er bescheiden uit ten
+opzichte van de totale hoogte van de as. - <em>Leerling B</em> (y-as
+begint bij €4,50): de grafiek “zoomt in” op het bereik van de data. De
+daling vult bijna de hele hoogte van de grafiek en ziet er daarom veel
+dramatischer uit.</p>
+<p><strong>(b)</strong> Bij de grafiek van <strong>leerling B</strong>
+lijkt de daling groter dan hij werkelijk is. Door de y-as niet bij nul
+te laten beginnen, wordt het verschil tussen de waarden uitvergroot. De
+lijnen zijn steiler en de daling vult het hele beeld.</p>
+<p><strong>(c)</strong> Eigen antwoord. Voorbeelden: - Een reclame die
+laat zien dat “de prijs fors is gedaald” door de y-as bij een hoog getal
+te laten beginnen, waardoor een kleine prijsdaling er groot uitziet. -
+Een nieuwsgrafiek over werkloosheid die begint bij 4% in plaats van 0%,
+waardoor een stijging van 4% naar 5% eruitziet als een verdubbeling. -
+Een grafiek over CO₂-uitstoot die de schaal aanpast zodat een kleine
+verandering er dramatisch uitziet.</p>
+<p><strong>Kernles:</strong> controleer altijd of de y-as bij nul
+begint. Zo niet, dan kan de grafiek misleidend zijn.</p>
+</body>
+</html>

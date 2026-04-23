@@ -1,0 +1,57 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">Anna's individuele vraaglijn naar limonade</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="180" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748" transform="rotate(-90, 15, 180)">Prijs (€)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,310 670,306 670,314" fill="#2D3748"/>
+  <text x="380" y="350" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748">Hoeveelheid bekers per week</text>
+
+  <text x="72" y="325" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">0</text>
+
+  <!-- Anna: Qd = -2P + 7
+       Function valid for 0 <= P <= 3.5 (above 3.5, Q < 0 → no purchase)
+       Scale: 1Q = 24px, 1P = 53px; origin (0,0) at (80, 310)
+       Q=0, P=3.5 -> x=80, y=310-3.5*53=124.5 ≈ 125
+       Q=7, P=0   -> x=80+7*24=248, y=310
+       VERIFY each plotted point lies exactly on this line:
+         (Q=1, P=3): x=104, y=151 ✓
+         (Q=3, P=2): x=152, y=204 ✓
+         (Q=5, P=1): x=200, y=257 ✓
+  -->
+  <line x1="80" y1="125" x2="248" y2="310" stroke="#1A5276" stroke-width="2.8"/>
+  <text x="253" y="310" font-family="Arial" font-size="16" font-weight="bold" fill="#1A5276">V_Anna</text>
+
+  <!-- Mark the cutoff point where Anna stops buying -->
+  <circle cx="80" cy="125" r="4" fill="#1A5276"/>
+  <text x="88" y="120" font-family="Arial" font-size="14" font-style="italic" fill="#1A5276">Q=0 bij €3,50</text>
+
+  <!-- Sample points: Anna's V at (Q,P) -->
+  <!-- (Q=1, P=3) -> x=104, y=151 -->
+  <circle cx="104" cy="151" r="4" fill="#1A5276"/>
+  <!-- (Q=3, P=2) -> x=152, y=204 -->
+  <circle cx="152" cy="204" r="4" fill="#1A5276"/>
+  <!-- (Q=5, P=1) -> x=200, y=257 -->
+  <circle cx="200" cy="257" r="4" fill="#1A5276"/>
+
+  <!-- Price labels -->
+  <text x="72" y="102" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€4</text>
+  <text x="72" y="155" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€3</text>
+  <text x="72" y="208" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€2</text>
+  <text x="72" y="261" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€1</text>
+
+  <!-- Quantity labels (in correct numerical order along x-axis) -->
+  <text x="104" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">1</text>
+  <text x="152" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">3</text>
+  <text x="200" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">5</text>
+  <text x="248" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">7</text>
+
+  <!-- Dashed reference lines for the (Q=1, P=3) point -->
+  <line x1="80" y1="151" x2="104" y2="151" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="104" y1="151" x2="104" y2="310" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+</svg>

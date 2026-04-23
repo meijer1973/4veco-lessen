@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left   { content: "1.1.4 Gemengde opgaven"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p { margin: 0 0 10pt 0; }
+
+h1 {
+  font-size: 18pt; font-weight: bold; color: #1A5276;
+  border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt;
+  margin-top: 0; margin-bottom: 18pt; break-after: avoid;
+}
+
+h2 {
+  font-size: 14pt; font-weight: bold; color: #1A5276;
+  border-bottom: 1px solid #999; padding-bottom: 4pt;
+  margin-top: 22pt; margin-bottom: 12pt; break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt; font-weight: bold; color: #1a1a1a;
+  margin-top: 16pt; margin-bottom: 6pt; break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+blockquote {
+  background: #F4F7FA; border-left: 3px solid #1A5276;
+  padding: 8pt 12pt; margin: 12pt 0;
+  font-size: 10.5pt; line-height: 1.4; break-inside: avoid;
+}
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+table {
+  border-collapse: collapse; width: 100%;
+  margin: 12pt 0; font-size: 10.5pt; break-inside: avoid;
+}
+th {
+  background: #EDF0F3; color: #1a1a1a; font-weight: bold;
+  padding: 6pt 10pt; text-align: left; border: 1px solid #999;
+}
+td { border: 1px solid #999; padding: 5pt 10pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+
+figure { margin: 14pt 0; break-inside: avoid; text-align: center; }
+figure img { max-width: 100%; width: 100%; display: block; margin: 0 auto; }
+figcaption { font-weight: bold; font-size: 10.5pt; color: #1a1a1a; text-align: left; margin-top: 6pt; }
+
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+p + figure, p + p > img { break-before: avoid; }
+
+.exercise { margin-bottom: 8pt; orphans: 2; widows: 2; }
+.exercise > p:first-child { break-after: avoid; page-break-after: avoid; }
+
+code {
+  background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace; font-size: 10pt;
+}
+
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+em { color: #444; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="antwoorden-gemengde-opgaven-1.1.4">Antwoorden gemengde opgaven
+§1.1.4</h1>
+<p><strong>Afrondingsregel:</strong> Rond af op 2 decimalen tenzij
+anders aangegeven.</p>
+<hr />
+</div><h2 id="opgave-1-bakkerij-knapperig">Opgave 1: Bakkerij “Knapperig”</h2>
+<p><strong>1</strong> <em>(2 punten)</em></p>
+<p>Jaarwinst = omzet − kosten:</p>
+<table>
+<thead>
+<tr>
+<th>Investering</th>
+<th>Omzet (€)</th>
+<th>Kosten (€)</th>
+<th>Winst (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Steenoven</td>
+<td>110.000</td>
+<td>72.000</td>
+<td><strong>38.000</strong></td>
+</tr>
+<tr>
+<td>Deegkneedmachine</td>
+<td>100.000</td>
+<td>62.000</td>
+<td><strong>38.000</strong></td>
+</tr>
+<tr>
+<td>Vitrine met koeling</td>
+<td>95.000</td>
+<td>60.000</td>
+<td><strong>35.000</strong></td>
+</tr>
+</tbody>
+</table>
+<p><em>Waarom:</em> De steenoven en de deegkneedmachine leveren dezelfde
+jaarwinst op (€38.000), hoewel de omzet en kosten verschillen. De
+vitrine levert minder op.</p>
+<hr />
+<p><strong>2</strong> <em>(2 punten)</em></p>
+<p>Procedure — Alternatieve kosten berekenen:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Alternatieven identificeren</td>
+<td>Steenoven, deegkneedmachine of vitrine met koeling</td>
+</tr>
+<tr>
+<td>2. Opbrengst (winst) per alternatief</td>
+<td>Steenoven: €38.000 · Deegkneedmachine: €38.000 · Vitrine:
+€35.000</td>
+</tr>
+<tr>
+<td>3. Alternatieve kosten = opbrengst beste niet-gekozen
+alternatief</td>
+<td>Beste niet-gekozen = deegkneedmachine (€38.000)</td>
+</tr>
+</tbody>
+</table>
+<p>Alternatieve kosten = <strong>€38.000</strong>.</p>
+<p><em>Waarom:</em> De alternatieve kosten zijn de opbrengst van het
+beste alternatief dat je opgeeft. Je telt de niet-gekozen alternatieven
+niet op — je vergelijkt alleen met het op-één-na-beste alternatief.
+Omdat de deegkneedmachine evenveel winst oplevert als de steenoven, zijn
+de alternatieve kosten gelijk aan de gekozen opbrengst — de keuze is
+financieel neutraal.</p>
+<hr />
+<p><strong>3</strong> <em>(2 punten)</em></p>
+<p>Procentuele verandering = (nieuw − oud) / oud × 100%</p>
+<p>= (110.000 − 85.000) / 85.000 × 100%</p>
+<p>= 25.000 / 85.000 × 100%</p>
+<p>= <strong>29,41%</strong></p>
+<p>De omzet stijgt met 29,41%.</p>
+<hr />
+<p><strong>4</strong> <em>(2 punten)</em></p>
+<p>Indexcijfer = (waarde / basiswaarde) × 100</p>
+<p>= (110.000 / 85.000) × 100</p>
+<p>= <strong>129,41</strong></p>
+<p><em>Waarom:</em> Het indexcijfer drukt de nieuwe omzet uit als
+percentage van de basiswaarde. Een index van 129,41 betekent dat de
+omzet 129,41% van de oorspronkelijke omzet bedraagt.</p>
+<hr />
+<p><strong>5</strong> <em>(2 punten)</em></p>
+<p>De uitspraak klopt <strong>niet</strong>.</p>
+<p>Het indexcijfer stijgt van 100 naar 129,41 — een verschil van 29,41
+<strong>indexpunten</strong>. Maar indexpunten zijn geen procenten.</p>
+<p>De procentuele stijging = (129,41 − 100) / 100 × 100% = 29,41%.</p>
+<p>In dit specifieke geval is het toeval dat het percentage (29,41%)
+gelijk is aan de indexpunten (29,41), omdat het basisjaar een index van
+precies 100 heeft. Bij een basisindex van 100 zijn indexpunten en
+procenten gelijk. Maar als je een verandering berekent vanuit een ander
+jaar dan het basisjaar, geldt dit niet meer.</p>
+<p><em>Waarom:</em> Dit is de klassieke valkuil. Indexpunten = absoluut
+verschil tussen indexcijfers. Procenten = relatief verschil (gedeeld
+door het oude indexcijfer). Ze zijn alleen gelijk als de oude index
+precies 100 is.</p>
+<hr />
+</div><h2 id="opgave-2-prijsontwikkeling-groente-en-fruit">Opgave 2:
+Prijsontwikkeling groente en fruit</h2>
+<p><strong>6</strong> <em>(1 punt)</em></p>
+<p>Uit figuur 1 bij 2023: de gemiddelde prijs van een kilo fruit was
+circa <strong>€2,30</strong>.</p>
+<hr />
+<p><strong>7</strong> <em>(2 punten)</em></p>
+<p>Procentuele verandering = (nieuw − oud) / oud × 100%</p>
+<p>= (135 − 120) / 120 × 100%</p>
+<p>= 15 / 120 × 100%</p>
+<p>= <strong>12,50%</strong></p>
+<p>De groenteprijs steeg van 2022 naar 2023 met 12,50%.</p>
+<hr />
+<p><strong>8</strong> <em>(2 punten)</em></p>
+<p>De bewering van de journalist klopt <strong>niet</strong>.</p>
+<p>De journalist verwart indexpunten met procenten. Het indexcijfer
+stijgt van 120 naar 135 — een verschil van 15
+<strong>indexpunten</strong>. Maar de procentuele stijging is:</p>
+<p>(135 − 120) / 120 × 100% = <strong>12,50%</strong></p>
+<p>De prijsstijging is 12,50%, niet 15%. De journalist maakt de fout om
+het absolute verschil in indexpunten (15) gelijk te stellen aan een
+procentuele verandering. Dat mag alleen als de oude index 100 is.</p>
+<hr />
+<p><strong>9</strong> <em>(2 punten)</em></p>
+<p>Uit figuur 1 aflezen: - Fruit in 2023: circa €2,30 - Fruit in 2024:
+circa €2,20</p>
+<p>Procentuele verandering = (2,20 − 2,30) / 2,30 × 100% = −0,10 / 2,30
+× 100% = <strong>−4,35%</strong></p>
+<p>De fruitprijs daalde van 2023 naar 2024 met 4,35%. Economisch
+betekent dit dat fruit iets goedkoper werd. Dit kan komen door een goed
+oogstjaar (meer aanbod) of lagere transportkosten.</p>
+<hr />
+<p><strong>10</strong> <em>(3 punten)</em></p>
+<p>Prijzen aflezen uit figuur 1:</p>
+<table>
+<thead>
+<tr>
+<th>Jaar</th>
+<th>Groente (€/kg)</th>
+<th>Fruit (€/kg)</th>
+<th>Verschil (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2020</td>
+<td>2,00</td>
+<td>1,80</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>2,10</td>
+<td>1,90</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>2,40</td>
+<td>2,00</td>
+<td>0,40</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>2,70</td>
+<td>2,30</td>
+<td>0,40</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>2,50</td>
+<td>2,20</td>
+<td>0,30</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>2,80</td>
+<td>2,50</td>
+<td>0,30</td>
+</tr>
+</tbody>
+</table>
+<p>Het prijsverschil was het grootst in <strong>2022 en 2023</strong>
+(beide €0,40 verschil per kilo).</p>
+<p><em>Waarom:</em> Je moet de grafiek systematisch lezen — bij elk jaar
+beide lijnen aflezen en het verschil berekenen. Visueel lijkt het
+verschil soms groter dan het daadwerkelijk is, daarom is aflezen en
+rekenen nodig.</p>
+<hr />
+</div><h2 id="opgave-3-schoolkantine-in-actie">Opgave 3: Schoolkantine in
+actie</h2>
+<p><strong>11</strong> <em>(2 punten)</em></p>
+<p>Er is sprake van schaarste omdat de behoeften (twee gewenste
+investeringen) groter zijn dan de beschikbare middelen (het budget van
+€5.000 is maar voor één optie voldoende). De leerlingenraad wil zowel
+een smoothie-machine als een saladebuffet, maar kan niet beide betalen.
+Ze moeten kiezen — en kiezen betekent iets anders opgeven. Dat is de
+kern van schaarste.</p>
+<hr />
+<p><strong>12</strong> <em>(2 punten)</em></p>
+<p>Procedure — Alternatieve kosten berekenen:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Uitwerking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Alternatieven identificeren</td>
+<td>Smoothie-machine of saladebuffet uitbreiden</td>
+</tr>
+<tr>
+<td>2. Opbrengst per alternatief</td>
+<td>Smoothie-machine: €3.500 extra omzet + meer leerlingen.
+Saladebuffet: €2.800 extra omzet + gezonder eetgedrag</td>
+</tr>
+<tr>
+<td>3. Alternatieve kosten = opbrengst beste niet-gekozen</td>
+<td>De opbrengst van het saladebuffet: €2.800 extra omzet per jaar</td>
+</tr>
+</tbody>
+</table>
+<p>Financieel: de alternatieve kosten zijn <strong>€2.800</strong> (de
+misgelopen extra omzet van het saladebuffet).</p>
+<p>Niet-financieel: de leerlingenraad loopt ook de bijdrage aan gezonder
+eetgedrag mis. Dit is een niet-meetbaar maar relevant offer.</p>
+<p><em>Waarom:</em> Alternatieve kosten omvatten niet alleen geld — ook
+gemiste niet-financiële voordelen horen erbij. Bij een examen wordt de
+financiële component verwacht, maar het benoemen van niet-financiële
+aspecten laat economisch inzicht zien.</p>
+<hr />
+<p><strong>13</strong> <em>(2 punten)</em></p>
+<p>Indexcijfer = (waarde / basiswaarde) × 100</p>
+<p>= (2,60 / 2,00) × 100</p>
+<p>= <strong>130</strong></p>
+<p>De broodjesprijs in 2024/25 heeft een indexcijfer van 130 (basisjaar
+2021/22 = 100).</p>
+<hr />
+<p><strong>14</strong> <em>(2 punten)</em></p>
+<p>Procentuele verandering = (nieuw − oud) / oud × 100%</p>
+<p>= (2,60 − 2,20) / 2,20 × 100%</p>
+<p>= 0,40 / 2,20 × 100%</p>
+<p>= <strong>18,18%</strong></p>
+<p>De broodjesprijs steeg van schooljaar 2022/23 naar 2024/25 met
+18,18%.</p>
+<hr />
+<p><strong>Denkertje — modelantwoord en
+beoordelingscriteria</strong></p>
+<p><em>Modelantwoord:</em></p>
+<p>Het indexcijfer stijgt van 100 (2021/22) naar 130 (2024/25) — een
+verschil van 30 indexpunten. De rector zegt dat dit 30% is.</p>
+<p>Procentuele stijging = (130 − 100) / 100 × 100% = 30%.</p>
+<p>In dit geval heeft de rector <strong>toevallig gelijk</strong>, omdat
+de verandering wordt berekend vanuit het basisjaar (index = 100). Als je
+deelt door 100, zijn indexpunten en procenten gelijk.</p>
+<p>Maar dit gaat fout zodra je een verandering berekent vanuit een ander
+jaar. Voorbeeld: stel dat het indexcijfer stijgt van 120 naar 150. Het
+verschil is 30 indexpunten, maar de procentuele stijging is (150 − 120)
+/ 120 × 100% = 25%, niet 30%.</p>
+<p>De verwarring ontstaat doordat mensen het absolute verschil tussen
+indexcijfers (indexpunten) gelijkstellen aan het relatieve verschil
+(procenten). Dat mag alleen als de oude index precies 100 is.</p>
+<p><em>Beoordelingscriteria:</em> - Correcte berekening: vanuit index
+100 zijn indexpunten = procenten (1 pt) - Uitleg: waarom dit alleen
+geldt bij basisindex 100, met tegenvoorbeeld (1 pt)</p>
+</body>
+</html>

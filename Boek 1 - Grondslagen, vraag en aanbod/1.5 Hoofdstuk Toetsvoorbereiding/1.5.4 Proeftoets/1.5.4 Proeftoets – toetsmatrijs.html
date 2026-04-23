@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left   { content: "1.5.4 Proeftoets"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p { margin: 0 0 10pt 0; }
+
+h1 {
+  font-size: 18pt; font-weight: bold; color: #1A5276;
+  border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt;
+  margin-top: 0; margin-bottom: 18pt; break-after: avoid;
+}
+
+h2 {
+  font-size: 14pt; font-weight: bold; color: #1A5276;
+  border-bottom: 1px solid #999; padding-bottom: 4pt;
+  margin-top: 22pt; margin-bottom: 12pt; break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt; font-weight: bold; color: #1a1a1a;
+  margin-top: 16pt; margin-bottom: 6pt; break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+blockquote {
+  background: #F4F7FA; border-left: 3px solid #1A5276;
+  padding: 8pt 12pt; margin: 12pt 0;
+  font-size: 10.5pt; line-height: 1.4; break-inside: avoid;
+}
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+table {
+  border-collapse: collapse; width: 100%;
+  margin: 12pt 0; font-size: 10.5pt; break-inside: avoid;
+}
+th {
+  background: #EDF0F3; color: #1a1a1a; font-weight: bold;
+  padding: 3pt 6pt; text-align: left; border: 1px solid #999;
+}
+td { border: 1px solid #999; padding: 2pt 6pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+
+figure { margin: 14pt 0; break-inside: avoid; text-align: center; }
+figure img { max-width: 100%; width: 100%; display: block; margin: 0 auto; }
+figcaption { font-weight: bold; font-size: 10.5pt; color: #1a1a1a; text-align: left; margin-top: 6pt; }
+
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+p + figure, p + p > img { break-before: avoid; }
+
+/* Each numbered question is atomic — never split across pages. */
+.exercise { margin-bottom: 14pt; orphans: 3; widows: 3;
+            break-inside: avoid; page-break-inside: avoid; }
+.exercise > p:first-child { break-after: avoid; page-break-after: avoid; }
+.exercise p { margin: 0 0 1pt 0; }
+
+.opgave-intro {
+  break-before: page; page-break-before: always;
+  break-inside: avoid-page;
+  break-after: avoid; page-break-after: avoid;
+}
+.opgave-intro + .exercise {
+  break-before: avoid; page-break-before: avoid;
+}
+.opgave-intro h2,
+.opgave-intro p,
+.opgave-intro figure,
+.opgave-intro table,
+.opgave-intro blockquote {
+  break-after: avoid; page-break-after: avoid;
+}
+.opgave-intro hr { margin-top: 8pt; margin-bottom: 6pt; }
+
+code {
+  background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace; font-size: 10pt;
+}
+
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+em { color: #444; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+ol[type="a"] { list-style-type: lower-alpha; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+</div><h1 id="toetsmatrijs-boek-1-proeftoets">Toetsmatrijs — Boek 1
+Proeftoets</h1>
+<p><strong>Paragraaf:</strong> §1.5.4 Proeftoets
+<strong>Totaal:</strong> 74 punten | 120 minuten | 5 opgaven | 25
+subvragen</p>
+<hr />
+</div><h2 id="leerdoel-bloom-punten">Leerdoel × Bloom × Punten</h2>
+<table>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 21%" />
+<col style="width: 13%" />
+<col style="width: 15%" />
+<col style="width: 13%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr>
+<th>Leerdoel</th>
+<th>Hoofdstuk</th>
+<th>Bloom</th>
+<th>Opgave</th>
+<th>Vraag</th>
+<th>Punten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Voorbeelden van constante kosten herkennen</td>
+<td>1.3</td>
+<td>Begrijpen</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>GTK berekenen en spreidingseffect uitleggen</td>
+<td>1.3</td>
+<td>Toepassen</td>
+<td>1</td>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Break-evenpunt berekenen</td>
+<td>1.3</td>
+<td>Toepassen</td>
+<td>1</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Winstberekening en prijsbeslissing beoordelen</td>
+<td>1.3 + 1.4</td>
+<td>Analyseren</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>GCK en GVK berekenen en spreidingseffect verklaren</td>
+<td>1.3</td>
+<td>Toepassen</td>
+<td>1</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Evenwichtsprijs en -hoeveelheid aflezen uit grafiek</td>
+<td>1.4</td>
+<td>Begrijpen</td>
+<td>2</td>
+<td>6</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Evenwicht algebraïsch verifiëren</td>
+<td>1.4</td>
+<td>Toepassen</td>
+<td>2</td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Nieuw evenwicht berekenen na vraagverschuiving</td>
+<td>1.4</td>
+<td>Toepassen</td>
+<td>2</td>
+<td>8</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Verschuiving vs beweging herkennen en vraagfactor noemen</td>
+<td>1.2</td>
+<td>Analyseren</td>
+<td>2</td>
+<td>9</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Procentuele verandering van Q* berekenen</td>
+<td>1.1</td>
+<td>Toepassen</td>
+<td>2</td>
+<td>10</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Nieuw evenwicht berekenen na aanbodverschuiving</td>
+<td>1.4</td>
+<td>Toepassen</td>
+<td>2</td>
+<td>11</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Aanbodfactor herkennen en verschuivingsrichting uitleggen</td>
+<td>1.3</td>
+<td>Analyseren</td>
+<td>2</td>
+<td>12</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Aanbodoverschot bij minimumprijs identificeren en berekenen</td>
+<td>1.4</td>
+<td>Analyseren</td>
+<td>2</td>
+<td>13</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Begrippen MK en MO definiëren</td>
+<td>1.4</td>
+<td>Begrijpen</td>
+<td>3</td>
+<td>14</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Met MK en MO verklaren waarom winst daalt</td>
+<td>1.4</td>
+<td>Analyseren</td>
+<td>3</td>
+<td>15</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Optimale productieomvang aflezen uit MK/MO-tabel</td>
+<td>1.4</td>
+<td>Analyseren</td>
+<td>3</td>
+<td>16</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Winstmaximalisatie algebraïsch met MO = MK</td>
+<td>1.4</td>
+<td>Toepassen</td>
+<td>3</td>
+<td>17</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Effect van gewijzigde TK op MK analyseren</td>
+<td>1.4</td>
+<td>Analyseren</td>
+<td>3</td>
+<td>18</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Procentuele verandering verifiëren</td>
+<td>1.1</td>
+<td>Toepassen</td>
+<td>4</td>
+<td>19</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Beweging langs vs verschuiving van vraaglijn herkennen</td>
+<td>1.2</td>
+<td>Analyseren</td>
+<td>4</td>
+<td>20</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Effect van substituut op vraag verklaren</td>
+<td>1.2</td>
+<td>Analyseren</td>
+<td>4</td>
+<td>21</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Drie stappen van economisch denken toepassen</td>
+<td>1.1</td>
+<td>Begrijpen</td>
+<td>4</td>
+<td>22</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Indexcijfer interpreteren; indexpunten ≠ procenten</td>
+<td>1.1</td>
+<td>Analyseren</td>
+<td>4</td>
+<td>23</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Consumentensurplus berekenen uit betalingsbereidheden</td>
+<td>1.2</td>
+<td>Toepassen</td>
+<td>5</td>
+<td>24</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Verandering in consumentensurplus bij prijsdaling verklaren</td>
+<td>1.2</td>
+<td>Analyseren</td>
+<td>5</td>
+<td>25</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div><h2 id="bloomverdeling-74-punten">Bloomverdeling (74 punten)</h2>
+<table>
+<thead>
+<tr>
+<th>Bloompijler</th>
+<th>Punten</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Begrijpen</td>
+<td>8</td>
+<td>11%</td>
+</tr>
+<tr>
+<td>Toepassen</td>
+<td>36</td>
+<td>49%</td>
+</tr>
+<tr>
+<td>Analyseren</td>
+<td>30</td>
+<td>40%</td>
+</tr>
+<tr>
+<td><strong>Totaal</strong></td>
+<td><strong>74</strong></td>
+<td><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div><h2 id="puntenverdeling-per-vraagtype">Puntenverdeling per
+vraagtype</h2>
+<table>
+<thead>
+<tr>
+<th>Punten per vraag</th>
+<th>Aantal vragen</th>
+<th>Totaal punten</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2 punten</td>
+<td>13</td>
+<td>26</td>
+<td>35%</td>
+</tr>
+<tr>
+<td>4 punten</td>
+<td>12</td>
+<td>48</td>
+<td>65%</td>
+</tr>
+<tr>
+<td><strong>Totaal</strong></td>
+<td><strong>25</strong></td>
+<td><strong>74</strong></td>
+<td><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div><h2 id="dekking-per-hoofdstuk-74-punten">Dekking per hoofdstuk (74
+punten)</h2>
+<table>
+<thead>
+<tr>
+<th>Hoofdstuk</th>
+<th>Onderwerp</th>
+<th>Punten</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.1</td>
+<td>Economisch denken en rekenen</td>
+<td>10</td>
+<td>14%</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>Vraag (inclusief consumentensurplus)</td>
+<td>14</td>
+<td>19%</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>Aanbod en kosten</td>
+<td>16</td>
+<td>22%</td>
+</tr>
+<tr>
+<td>1.3 + 1.4</td>
+<td>Kosten + prijsbeslissing (gemengd)</td>
+<td>4</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>Marktevenwicht en marginale analyse</td>
+<td>30</td>
+<td>41%</td>
+</tr>
+<tr>
+<td><strong>Totaal</strong></td>
+<td></td>
+<td><strong>74</strong></td>
+<td><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div><h2 id="vraagtype-frequenties">Vraagtype-frequenties</h2>
+<table>
+<thead>
+<tr>
+<th>Vraagtype</th>
+<th>Aantal</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“Bereken…”</td>
+<td>9</td>
+<td>36%</td>
+</tr>
+<tr>
+<td>“Leg uit (dat/of/waarom)…”</td>
+<td>9</td>
+<td>36%</td>
+</tr>
+<tr>
+<td>“Noem…”</td>
+<td>2</td>
+<td>8%</td>
+</tr>
+<tr>
+<td>“Lees af…”</td>
+<td>1</td>
+<td>4%</td>
+</tr>
+<tr>
+<td>“Beoordeel…”</td>
+<td>1</td>
+<td>4%</td>
+</tr>
+<tr>
+<td>“Bepaal…”</td>
+<td>1</td>
+<td>4%</td>
+</tr>
+<tr>
+<td>“Verifieer…”</td>
+<td>1</td>
+<td>4%</td>
+</tr>
+<tr>
+<td>“Stel dat…”</td>
+<td>1</td>
+<td>4%</td>
+</tr>
+<tr>
+<td><strong>Totaal</strong></td>
+<td><strong>25</strong></td>
+<td><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div><h2 id="bronmateriaaltypen">Bronmateriaaltypen</h2>
+<table>
+<thead>
+<tr>
+<th>Opgave</th>
+<th>Brontype</th>
+<th>Grafiek</th>
+<th>Tabel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Tekstcontext + tabel</td>
+<td>—</td>
+<td>Kostentabel</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Grafiekcontext</td>
+<td>V/A-diagram</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tabelcontext</td>
+<td>—</td>
+<td>MK/MO-tabel</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Nieuwscontext</td>
+<td>—</td>
+<td>Indexcijferreeks</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tabelcontext</td>
+<td>—</td>
+<td>BB-tabel</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

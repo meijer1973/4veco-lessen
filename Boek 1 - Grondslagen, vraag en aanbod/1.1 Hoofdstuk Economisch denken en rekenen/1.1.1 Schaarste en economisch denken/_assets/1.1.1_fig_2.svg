@@ -1,0 +1,58 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="30" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">Alternatieve kosten: wat geef je op?</text>
+
+  <!-- Y-axis -->
+  <line x1="120" y1="340" x2="120" y2="55" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="120,55 116,65 124,65" fill="#2D3748"/>
+  <text x="30" y="200" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748" transform="rotate(-90,30,200)">Waarde (€)</text>
+
+  <!-- X-axis -->
+  <line x1="120" y1="340" x2="620" y2="340" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="620,340 610,336 610,344" fill="#2D3748"/>
+  <text x="370" y="388" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748">Alternatieven</text>
+
+  <!-- Origin -->
+  <text x="112" y="358" text-anchor="end" font-family="Arial" font-size="13" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks -->
+  <line x1="115" y1="310" x2="120" y2="310" stroke="#2D3748" stroke-width="1"/>
+  <text x="108" y="314" text-anchor="end" font-family="Arial" font-size="13" fill="#2D3748">€5</text>
+  <line x1="115" y1="280" x2="120" y2="280" stroke="#2D3748" stroke-width="1"/>
+  <text x="108" y="284" text-anchor="end" font-family="Arial" font-size="13" fill="#2D3748">€10</text>
+  <line x1="115" y1="250" x2="120" y2="250" stroke="#2D3748" stroke-width="1"/>
+  <text x="108" y="254" text-anchor="end" font-family="Arial" font-size="13" fill="#2D3748">€15</text>
+  <line x1="115" y1="220" x2="120" y2="220" stroke="#2D3748" stroke-width="1"/>
+  <text x="108" y="224" text-anchor="end" font-family="Arial" font-size="13" fill="#2D3748">€20</text>
+
+  <!-- Bar 1: Bioscoop (GEKOZEN) - blue, opacity 0.25 for light fill -->
+  <rect x="175" y="268" width="140" height="72" fill="#1A5276" opacity="0.25" stroke="#1A5276" stroke-width="1.5"/>
+  <text x="245" y="258" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1A5276">€12</text>
+  <text x="245" y="365" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">Bioscoop</text>
+
+  <!-- GEKOZEN badge: solid green background with white text (high contrast) -->
+  <rect x="205" y="290" width="80" height="24" rx="4" fill="#27AE60"/>
+  <text x="245" y="307" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF">GEKOZEN</text>
+
+  <!-- Bar 2: Boek (NIET GEKOZEN) - light orange fill, dashed border -->
+  <rect x="405" y="250" width="140" height="90" fill="#E67E22" opacity="0.12" stroke="#E67E22" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="475" y="240" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#E67E22">€15</text>
+  <text x="475" y="365" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">Boek</text>
+
+  <!-- OPPORTUNITEITSKOSTEN badge: solid orange background with white text (high contrast) -->
+  <rect x="415" y="278" width="120" height="40" rx="4" fill="#E67E22"/>
+  <text x="475" y="295" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">ALTERNATIEVE</text>
+  <text x="475" y="311" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">KOSTEN</text>
+
+  <!-- Arrow from chosen to opportunity cost -->
+  <path d="M 315,300 C 345,260 375,260 405,300" fill="none" stroke="#E67E22" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="405,300 399,290 407,292" fill="#E67E22"/>
+  <text x="360" y="255" text-anchor="middle" font-family="Arial" font-size="12" fill="#E67E22">wat je misloopt</text>
+
+  <!-- Bottom explanation box: light background with dark text -->
+  <rect x="120" y="68" width="480" height="32" rx="6" fill="#FEF3E2" stroke="#E67E22" stroke-width="1"/>
+  <text x="360" y="89" text-anchor="middle" font-family="Arial" font-size="13" fill="#2D3748">Keuze: bioscoop → Alternatieve kosten = waarde boek (€15)</text>
+</svg>

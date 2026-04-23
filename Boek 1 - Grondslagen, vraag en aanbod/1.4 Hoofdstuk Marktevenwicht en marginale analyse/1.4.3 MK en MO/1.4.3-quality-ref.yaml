@@ -1,0 +1,43 @@
+# Quality Reference - 1.4.3 Marginale kosten en marginale opbrengsten
+# Generated: 2026-04-23
+
+paragraph: "1.4.3"
+title: "Marginale kosten en marginale opbrengsten"
+type: theory
+framework_version: "onderzoekskader 2021, bijgesteld 2025"
+standards_verified: "2026-04-12"
+
+content:
+  paragraaf_md: true
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: true
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  build_pdf_py: true
+
+assets:
+  total_referenced: 8
+  total_present: 8
+  missing: []
+  orphaned: []
+  svgpng_paired: true
+  naming_compliant: true
+  inventory:
+    - 1.4.3_fig_1 (TK en TO bedrijf 1)
+    - 1.4.3_fig_2 (MK en MO bedrijf 1)
+    - 1.4.3_fig_3 (TK en TO bedrijf 2)
+    - 1.4.3_fig_4 (stijgende MK bedrijf 2)
+    - 1.4.3_fig_5 (overzicht MK en MO)
+    - 1.4.3_we_1 (uitgewerkt voorbeeld snoepfabriek)
+    - 1.4.3_ex_1 (transportbedrijf TK/TO)
+    - 1.4.3_ex_2 (meubelfabriek MK/MO)
+
+review:
+  file: "1.4.3-review.md"
+  unresolved_blockers: 0
+  verdict: "PASS WITH FLAGS"
+  flags:
+    - "Opgave 2e answer should sharpen interval-versus-continuous optimum wording."
+    - "Unlimited expansion shorthand needs an economic caveat."
+    - "Startoefeningen could include more explicit delta-notation hints."

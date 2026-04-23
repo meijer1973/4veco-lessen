@@ -1,0 +1,100 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">Bedrijf 2: MK stijgt, MO blijft constant (TK = 100 + Q&#178;, P = &#8364;30)</text>
+
+  <!-- Plot area: x=80..680, y=50..330
+       Q range: 0..22, euro range: 0..40
+       px_per_Q = 600/22 = 27.273
+       px_per_euro = 280/40 = 7.0
+       q_to_x(q) = 80 + q * 27.273
+       euro_to_y(v) = 330 - v * 7.0
+  -->
+
+  <!-- Grid lines -->
+  <line x1="80" y1="260" x2="680" y2="260" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 10 -->
+  <line x1="80" y1="190" x2="680" y2="190" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 20 -->
+  <line x1="80" y1="120" x2="680" y2="120" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 30 -->
+
+  <!-- Y-axis -->
+  <line x1="80" y1="330" x2="80" y2="42" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,42 76,52 84,52" fill="#2D3748"/>
+  <text x="15" y="190" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096" transform="rotate(-90,15,190)">Euro per stuk (&#8364;)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="330" x2="685" y2="330" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="685,330 675,326 675,334" fill="#2D3748"/>
+  <text x="380" y="385" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="345" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks -->
+  <line x1="75" y1="260" x2="80" y2="260" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="264" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">10</text>
+  <line x1="75" y1="190" x2="80" y2="190" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="194" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">20</text>
+  <line x1="75" y1="120" x2="80" y2="120" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="124" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">30</text>
+  <line x1="75" y1="50" x2="80" y2="50" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="54" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">40</text>
+
+  <!-- X-axis ticks -->
+  <line x1="216.4" y1="330" x2="216.4" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="216.4" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">5</text>
+  <line x1="352.7" y1="330" x2="352.7" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="352.7" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">10</text>
+  <line x1="489.1" y1="330" x2="489.1" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="489.1" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3738">15</text>
+  <line x1="625.5" y1="330" x2="625.5" y2="335" stroke="#2D3748" stroke-width="1"/>
+  <text x="625.5" y="350" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">20</text>
+
+  <!-- MO = 30 constant: horizontal line at y = 330 - 30*7 = 120 -->
+  <line x1="80" y1="120" x2="650" y2="120" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="656" y="116" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">MO = 30</text>
+
+  <!-- MK step bars: show as horizontal steps between Q intervals
+       MK(0-5) = 5: bar from Q=0 to Q=5 at y = 330 - 5*7 = 295
+       MK(5-10) = 15: bar from Q=5 to Q=10 at y = 330 - 15*7 = 225
+       MK(10-15) = 25: bar from Q=10 to Q=15 at y = 330 - 25*7 = 155
+       MK(15-20) = 35: bar from Q=15 to Q=20 at y = 330 - 35*7 = 85
+  -->
+
+  <!-- Step bars for MK -->
+  <rect x="80" y="295" width="136.4" height="35" fill="#E67E22" fill-opacity="0.35" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="148" y="318" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#E67E22">MK = 5</text>
+
+  <rect x="216.4" y="225" width="136.3" height="105" fill="#E67E22" fill-opacity="0.35" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="284.5" y="283" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#E67E22">MK = 15</text>
+
+  <rect x="352.7" y="155" width="136.4" height="175" fill="#E67E22" fill-opacity="0.35" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="420.9" y="248" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#E67E22">MK = 25</text>
+
+  <rect x="489.1" y="85" width="136.4" height="245" fill="#E67E22" fill-opacity="0.35" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="557.3" y="213" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#E67E22">MK = 35</text>
+
+  <!-- Rising MK line through midpoints -->
+  <!-- midpoints: (Q=2.5, MK=5), (Q=7.5, MK=15), (Q=12.5, MK=25), (Q=17.5, MK=35)
+       x: 148.2, 284.5, 420.9, 557.3
+       y: 295, 225, 155, 85
+  -->
+  <line x1="148.2" y1="295" x2="557.3" y2="85" stroke="#E67E22" stroke-width="2" stroke-dasharray="6,3"/>
+  <circle cx="148.2" cy="295" r="3.5" fill="#E67E22"/>
+  <circle cx="284.5" cy="225" r="3.5" fill="#E67E22"/>
+  <circle cx="420.9" cy="155" r="3.5" fill="#E67E22"/>
+  <circle cx="557.3" cy="85" r="3.5" fill="#E67E22"/>
+  <text x="567" y="78" font-family="Arial" font-size="12" font-weight="bold" fill="#E67E22">MK</text>
+
+  <!-- Intersection MK = MO at Q=15: MK=25 vs MO=30, not yet equal
+       At Q≈15: actual MK = 2Q = 30 (continuous), so intersection at Q=15
+       Show this crossing point -->
+  <circle cx="489.1" cy="120" r="5" fill="none" stroke="#2D3748" stroke-width="1.5"/>
+  <text x="502" y="110" font-family="Arial" font-size="10" fill="#2D3748">MK = MO</text>
+  <text x="502" y="122" font-family="Arial" font-size="10" fill="#2D3748">bij Q = 15</text>
+
+  <!-- Rule label -->
+  <rect x="140" y="362" width="440" height="28" rx="4" fill="#FEF3E2" stroke="#E67E22" stroke-width="1"/>
+  <text x="360" y="380" text-anchor="middle" font-family="Arial" font-size="10" fill="#E67E22">Kwadratische TK &#8594; MK stijgt. Bij Q = 15 haalt MK de prijs (MO) in.</text>
+</svg>

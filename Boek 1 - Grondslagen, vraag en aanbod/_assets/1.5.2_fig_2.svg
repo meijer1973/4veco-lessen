@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" font-family="Arial">
+  <!-- Background -->
+  <rect width="560" height="420" fill="#F7FAFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="280" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">Markt voor T-shirts: aanbodverschuiving</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="360" x2="500" y2="360" stroke="#2D3748" stroke-width="2"/>
+  <line x1="80" y1="360" x2="80" y2="50" stroke="#2D3748" stroke-width="2"/>
+  <polygon points="500,360 492,356 492,364" fill="#2D3748"/>
+  <polygon points="80,50 76,58 84,58" fill="#2D3748"/>
+
+  <!-- Axis labels -->
+  <text x="25" y="210" text-anchor="middle" font-size="12" fill="#718096" transform="rotate(-90, 25, 210)">Prijs (P)</text>
+  <text x="290" y="400" text-anchor="middle" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+  <text x="72" y="375" text-anchor="end" font-size="10" fill="#718096">0</text>
+
+  <!--
+    Pixel mapping: P increases upward (lower pixel y).
+    V (demand): from (80,80) to (460,340). Slope = 260/380 = 0.6842.
+    A1 (old supply): from (120,340) to (460,120). Slope = -220/340 = -0.6471.
+    A2 (new supply, shifted LEFT by 60px): from (60,340) to (400,120).
+      At x=80: y = 340 - 0.6471*(80-60) = 327. Visible from (80,327) to (400,120).
+
+    E1: V ∩ A1
+    V: y = 80 + 0.6842*(x-80)
+    A1: y = 340 - 0.6471*(x-120)
+    80 + 0.6842x - 54.74 = 340 - 0.6471x + 77.65
+    1.3313x = 392.39 → x = 294.7, y = 226.9
+    E1 = (295, 227)
+
+    E2: V ∩ A2
+    A2: y = 340 - 0.6471*(x-60) = 378.83 - 0.6471x
+    80 + 0.6842*(x-80) = 378.83 - 0.6471x
+    25.26 + 0.6842x = 378.83 - 0.6471x
+    1.3313x = 353.57 → x = 265.6, y = 207.0
+    E2 = (266, 207)
+  -->
+
+  <!-- Demand line V -->
+  <line x1="80" y1="80" x2="460" y2="340" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="468" y="336" font-size="13" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- Original supply A1 -->
+  <line x1="120" y1="340" x2="460" y2="120" stroke="#27AE60" stroke-width="2.5"/>
+  <text x="465" y="116" font-size="12" fill="#27AE60">A&#x2081; (oud)</text>
+
+  <!-- New supply A2 (shifted left) -->
+  <line x1="80" y1="327" x2="400" y2="120" stroke="#27AE60" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <text x="405" y="116" font-size="12" fill="#27AE60">A&#x2082; (nieuw)</text>
+
+  <!-- Old equilibrium E1 at (295, 227) — verified on intersection of V and A1 -->
+  <!-- Convention: two curves crossing → label STRAIGHT ABOVE (dx=0, dy=-12) -->
+  <circle cx="295" cy="227" r="5" fill="#2D3748"/>
+  <text x="295" y="215" text-anchor="middle" font-size="11" font-weight="bold" fill="#2D3748">E&#x2081;</text>
+  <line x1="295" y1="227" x2="295" y2="360" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="295" y1="227" x2="80" y2="227" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="72" y="231" text-anchor="end" font-size="10" fill="#2D3748">P&#x2081;</text>
+  <text x="295" y="377" text-anchor="middle" font-size="10" fill="#2D3748">Q&#x2081;</text>
+
+  <!-- New equilibrium E2 at (266, 207) — verified on intersection of V and A2 -->
+  <circle cx="266" cy="207" r="5" fill="#E74C3C"/>
+  <!-- E2 label directly above the red dot, not offset left into V line -->
+  <text x="266" y="195" text-anchor="middle" font-size="11" font-weight="bold" fill="#E74C3C">E&#x2082;</text>
+  <line x1="266" y1="207" x2="266" y2="360" stroke="#E74C3C" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="266" y1="207" x2="80" y2="207" stroke="#E74C3C" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="72" y="211" text-anchor="end" font-size="10" fill="#E74C3C">P&#x2082;</text>
+  <text x="266" y="377" text-anchor="middle" font-size="10" fill="#E74C3C">Q&#x2082;</text>
+
+  <!-- Shift arrow from A1 to A2: between the two green lines at y=180 -->
+  <!-- At y=180: A1 x = 120 + (340-180)/0.6471 = 120+247.3 = 367; A2 x = 60 + (340-180)/0.6471 = 307 -->
+  <!-- Arrow from ~355 to ~320, pointing left -->
+  <defs>
+    <marker id="arrowShift" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C0392B"/>
+    </marker>
+  </defs>
+  <line x1="355" y1="180" x2="318" y2="180" stroke="#C0392B" stroke-width="2" marker-end="url(#arrowShift)"/>
+  <text x="337" y="172" text-anchor="middle" font-size="10" fill="#C0392B">verschuiving</text>
+
+  <!-- Legend -->
+  <rect x="340" y="270" width="190" height="80" rx="4" fill="#ffffff" fill-opacity="0.9" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="350" y="288" font-size="10" font-weight="bold" fill="#2D3748">Katoen duurder:</text>
+  <text x="350" y="304" font-size="10" fill="#2D3748">Aanbod T-shirts verschuift</text>
+  <text x="350" y="318" font-size="10" font-weight="bold" fill="#C0392B">naar links (minder aanbod)</text>
+  <text x="350" y="336" font-size="10" fill="#2D3748">P stijgt, Q daalt</text>
+</svg>

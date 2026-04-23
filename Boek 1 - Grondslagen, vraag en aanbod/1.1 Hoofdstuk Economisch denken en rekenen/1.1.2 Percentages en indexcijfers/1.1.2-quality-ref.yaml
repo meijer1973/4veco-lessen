@@ -1,0 +1,32 @@
+# Quality Reference — 1.1.2 Percentages en indexcijfers
+# Generated: 2026-04-14
+
+paragraph: "1.1.2"
+title: "Percentages en indexcijfers"
+type: theory
+
+content:
+  paragraaf_md: true
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: true
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  build_pdf_py: true
+
+assets:
+  total_referenced: 4
+  total_present: 4
+  missing: []
+  svgpng_paired: true
+  naming_compliant: true
+  inventory:
+    - 1.1.2_fig_1 (bar chart: oude vs nieuwe prijs)
+    - 1.1.2_fig_2 (lijndiagram: indexcijfers door de tijd)
+    - 1.1.2_fig_3 (indexpunten vs procenten valkuil)
+    - 1.1.2_we_1 (uitgewerkt voorbeeld: benzineprijs)
+
+review:
+  file: "1.1.2-review.md"
+  unresolved_fails: 0
+  verdict: "PASS WITH FLAGS"

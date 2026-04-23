@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  
+<style>
+/* === Layout inspired by CITO VWO exam papers ===
+   Wide left margin, clean sans-serif, generous line spacing.
+   Domain colors retained for headings/blockquotes (textbook hierarchy). */
+
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;  /* top right bottom left — exam-like indented body */
+  @bottom-left   { content: "1.3.4 Gemengde opgaven"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+/* h2 mimics the "Opgave 1 Zorgverzekering" heading: bold + thin underline */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === (simple, exam-style, no colored header background) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 6pt 10pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 5pt 10pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+/* Bare images (not in figure) */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+/* Allow exercises to break across pages to avoid whitespace,
+   but keep the "Opgave X" title with at least 2 lines of content. */
+.exercise {
+  margin-bottom: 8pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="antwoorden-1.3.4-aanbod-en-kosten">Antwoorden §1.3.4 — Aanbod en
+kosten</h1>
+<hr />
+</div><h2 id="opgave-1-bakkerij-korenveld">Opgave 1: Bakkerij “Korenveld”</h2>
+<p><strong>1</strong> <em>(2 punten)</em></p>
+<p>Bij een productie van 800 croissants (uit tabel 1): - Variabele
+kosten = €1.100 - Totale kosten = €1.900</p>
+<p><strong>Stap 1:</strong> GVK = VK / Q = 1.100 / 800 = <strong>€1,375
+per croissant</strong></p>
+<p><strong>Stap 2:</strong> GTK = TK / Q = 1.900 / 800 = <strong>€2,375
+per croissant</strong></p>
+<p><em>Waarom:</em> GVK en GTK worden berekend door de totale
+(variabele) kosten te delen door de geproduceerde hoeveelheid. Het
+verschil tussen GTK en GVK is de gemiddelde constante kosten (GCK = 800
+/ 800 = €1,00).</p>
+<hr />
+<p><strong>2</strong> <em>(2 punten)</em></p>
+<p>Bij een productie van 1.000 croissants (uit tabel 1): - Totale
+opbrengst (TO) = €2.500 - Totale kosten (TK) = €2.400</p>
+<p>Winst = TO − TK = 2.500 − 2.400 = <strong>€100</strong></p>
+<p><em>Waarom:</em> Winst is het verschil tussen totale opbrengst en
+totale kosten. De totale opbrengst = prijs × hoeveelheid = €2,50 × 1.000
+= €2.500, wat overeenkomt met de tabel.</p>
+<hr />
+<p><strong>3</strong> <em>(2 punten)</em></p>
+<p>Maaike draait <strong>break-even tussen 600 en 800
+croissants</strong>. Uit tabel 1:</p>
+<ul>
+<li>Bij Q = 600: TO = €1.500, TK = €1.550 → verlies van €50</li>
+<li>Bij Q = 800: TO = €2.000, TK = €1.900 → winst van €100</li>
+</ul>
+<p>Break-even betekent dat TO = TK (winst = 0). Dat punt ligt tussen 600
+en 800 stuks — bij die productie zijn de opbrengsten precies gelijk aan
+de kosten.</p>
+<p><em>Waarom:</em> Break-even is het omslagpunt waar een bedrijf van
+verlies naar winst gaat. Uit de tabel blijkt dat de winst omslaat van
+negatief (−€50 bij 600) naar positief (+€100 bij 800).</p>
+<hr />
+<p><strong>4</strong> <em>(2 punten)</em></p>
+<p>Bereken de winst bij elk productieniveau (uit tabel 1):</p>
+<table>
+<thead>
+<tr>
+<th>Productie</th>
+<th>TO (€)</th>
+<th>TK (€)</th>
+<th>Winst (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>800</td>
+<td>−800</td>
+</tr>
+<tr>
+<td>200</td>
+<td>500</td>
+<td>1.100</td>
+<td>−600</td>
+</tr>
+<tr>
+<td>400</td>
+<td>1.000</td>
+<td>1.300</td>
+<td>−300</td>
+</tr>
+<tr>
+<td>600</td>
+<td>1.500</td>
+<td>1.550</td>
+<td>−50</td>
+</tr>
+<tr>
+<td>800</td>
+<td>2.000</td>
+<td>1.900</td>
+<td>+100</td>
+</tr>
+<tr>
+<td>1.000</td>
+<td>2.500</td>
+<td>2.400</td>
+<td>+100</td>
+</tr>
+<tr>
+<td>1.200</td>
+<td>3.000</td>
+<td>3.200</td>
+<td>−200</td>
+</tr>
+</tbody>
+</table>
+<p>De winst is maximaal bij <strong>800 of 1.000 croissants per
+maand</strong>: beide geven een winst van <strong>€100</strong>.</p>
+<p><em>Waarom:</em> Om de maximale winst te vinden, bereken je bij elk
+productieniveau het verschil TO − TK. Het productieniveau met het
+hoogste verschil geeft de maximale winst. Er is hier geen marginale
+analyse nodig — je vergelijkt gewoon de winstcijfers in de tabel.</p>
+<hr />
+<p><strong>5</strong> <em>(2 punten)</em></p>
+<p>Bij 1.000 croissants maakt Maaike €100 winst (schakel 1). Bij 1.200
+croissants stijgen de variabele kosten van €1.600 naar €2.400 — een
+stijging van €800 — terwijl de extra opbrengst slechts 200 × €2,50 =
+€500 bedraagt (schakel 2). De extra kosten zijn dus hoger dan de extra
+opbrengsten, waardoor de winst daalt van +€100 naar −€200: een
+verlies.</p>
+<p><em>Waarom:</em> Meer produceren is alleen verstandig als de extra
+opbrengst hoger is dan de extra kosten. Tussen 1.000 en 1.200 stuks
+stijgen de variabele kosten sneller dan de opbrengsten — de “sweet spot”
+is al voorbij.</p>
+<hr />
+<p><strong>Denkertje — modelantwoord en
+beoordelingscriteria</strong></p>
+<p><em>Modelantwoord:</em> De uitspraak klopt niet. Uit tabel 1 blijkt
+dat de gemiddelde totale kosten (GTK) aanvankelijk dalen bij hogere
+productie, maar uiteindelijk weer stijgen:</p>
+<ul>
+<li>Bij 200 stuks: GTK = 1.100 / 200 = €5,50</li>
+<li>Bij 800 stuks: GTK = 1.900 / 800 = €2,375</li>
+<li>Bij 1.000 stuks: GTK = 2.400 / 1.000 = €2,40</li>
+<li>Bij 1.200 stuks: GTK = 3.200 / 1.200 = €2,67</li>
+</ul>
+<p>Tot 800 stuks dalen de GTK doordat de constante kosten over meer
+eenheden worden verdeeld (degressief effect). Maar vanaf 800 stuks
+stijgen de GTK weer, doordat de variabele kosten sneller stijgen dan de
+productie toeneemt. Bovendien: zelfs als de GTK dalen, betekent dat niet
+automatisch meer winst — de winst hangt af van het verschil tussen prijs
+en GTK, én van de hoeveelheid. Bij 1.200 stuks zijn de GTK (€2,67) hoger
+dan de prijs (€2,50), waardoor Maaike verlies maakt.</p>
+<p><em>Beoordelingscriteria:</em> - Laat met cijfers uit tabel 1 zien
+dat GTK eerst dalen en daarna stijgen (1 pt) - Verbindt dit aan winst:
+lage GTK ≠ automatisch meer winst; bij te hoge productie kan verlies
+ontstaan (1 pt)</p>
+<hr />
+</div><h2 id="opgave-2-fietsfabriek-velotech">Opgave 2: Fietsfabriek
+“VeloTech”</h2>
+<p><strong>6</strong> <em>(2 punten)</em></p>
+<p>Uit tabel 2 (vóór staalstijging):</p>
+<p><strong>TCK</strong> = huur + afschrijving + salarissen = 200.000 +
+80.000 + 120.000 = <strong>€400.000</strong></p>
+<p><strong>TVK</strong> = staal + energie + verpakking = 500.000 +
+50.000 + 100.000 = <strong>€650.000</strong></p>
+<p><em>Waarom:</em> Constante kosten veranderen niet met de
+productieomvang (huur, afschrijving, vaste salarissen). Variabele kosten
+veranderen wel (grondstoffen, energie, verpakking). Je sorteert de
+kosten op type en telt per categorie op.</p>
+<hr />
+<p><strong>7</strong> <em>(2 punten)</em></p>
+<p><strong>Stap 1:</strong> Totale kosten (TK) = TCK + TVK = 400.000 +
+650.000 = €1.050.000</p>
+<p><strong>Stap 2:</strong> GTK = TK / Q = 1.050.000 / 5.000 =
+<strong>€210 per fiets</strong></p>
+<p><em>Waarom:</em> De gemiddelde totale kosten geven aan hoeveel elke
+fiets gemiddeld kost om te produceren. De verkoopprijs is €230, dus vóór
+de staalstijging maakt VeloTech winst per fiets: €230 − €210 = €20.</p>
+<hr />
+<p><strong>8</strong> <em>(2 punten)</em></p>
+<p>De aanbodfactor die verandert is de <strong>prijs van
+productiefactoren</strong> (grondstoffen / inputprijzen).</p>
+<p>Dit leidt tot een <strong>verschuiving van de aanbodlijn naar
+links</strong> (omhoog). De staalprijs is geen verandering van de eigen
+verkoopprijs van fietsen, maar een verandering van de productiekosten.
+Bij elke verkoopprijs kunnen producenten minder fietsen winstgevend
+aanbieden → de aanbodlijn verschuift naar links.</p>
+<p><em>Waarom:</em> Een beweging langs de aanbodlijn ontstaat alleen bij
+een verandering van de eigen prijs van het goed. Een verandering van
+inputprijzen is een aanbodfactor die de hele lijn verschuift.</p>
+<hr />
+<p><strong>9</strong> <em>(2 punten)</em></p>
+<p><strong>Vóór de staalstijging:</strong> - TK = €1.050.000 (uit vraag
+7) - TO = 5.000 × €230 = €1.150.000 - Winst per fiets = (TO − TK) / Q =
+(1.150.000 − 1.050.000) / 5.000 = <strong>€20 per fiets</strong></p>
+<p><strong>Ná de staalstijging:</strong> - TVK nieuw = 700.000 + 50.000
++ 100.000 = €850.000 - TK nieuw = 400.000 + 850.000 = €1.250.000 - TO =
+5.000 × €230 = €1.150.000 (prijs onveranderd) - Winst per fiets =
+(1.150.000 − 1.250.000) / 5.000 = <strong>−€20 per fiets
+(verlies)</strong></p>
+<p>De stijging van de staalprijs verhoogt de variabele kosten met
+€200.000 (schakel 1). Omdat de verkoopprijs gelijk blijft, dalen de
+totale opbrengsten niet, maar stijgen de kosten wel — waardoor de winst
+per fiets daalt van €20 naar −€20 (schakel 2).</p>
+<hr />
+<p><strong>10</strong> <em>(3 punten)</em></p>
+<p>Als VeloTech de verkoopprijs verhoogt van €230 naar €270, is dit een
+<strong>beweging langs de aanbodlijn</strong>, geen verschuiving.</p>
+<p>De aanbodlijn is na de staalstijging al naar links verschoven
+(vanwege hogere inputprijzen, zie vraag 8). De verkoopprijs is de prijs
+van het goed zelf. Als die prijs stijgt van €230 naar €270, beweegt
+VeloTech langs de (nieuwe, verschoven) aanbodlijn naar een punt met een
+hogere prijs en een hogere aangeboden hoeveelheid.</p>
+<p>Het feit dat een concurrent vergelijkbare fietsen aanbiedt voor €250
+betekent dat VeloTech bij €270 mogelijk klanten verliest — maar dat
+verandert niets aan het type verandering: een prijsverandering van het
+eigen goed is altijd een beweging langs de lijn.</p>
+<p><em>Waarom:</em> Twee stappen: (1) de staalstijging verschuift de
+hele aanbodlijn (aanbodfactor ≠ eigen prijs), (2) de prijsverhoging is
+een beweging langs die nieuwe lijn (eigen prijs verandert). Dit
+onderscheid is cruciaal: verschuiving = andere factor, beweging = eigen
+prijs.</p>
+<p><strong>Puntenverdeling:</strong> - Correct: beweging langs de
+aanbodlijn (1 pt) - Motivering: de verkoopprijs is de eigen prijs van
+het goed (1 pt) - Onderscheid met vraag 8: de staalstijging verschoof de
+lijn, de prijsverhoging is een beweging langs de verschoven lijn (1
+pt)</p>
+<hr />
+<p><strong>Denkertje — modelantwoord en
+beoordelingscriteria</strong></p>
+<p><em>Modelantwoord:</em> De uitspraak klopt niet altijd. Er zijn
+redenen waarom een bedrijf bij stijgende kosten de prijs niet
+verhoogt:</p>
+<ol type="1">
+<li><p><strong>Concurrentie:</strong> Als concurrenten hun prijs niet
+verhogen (zoals de concurrent die €250 vraagt), verliest het bedrijf
+klanten bij een hogere prijs. In een markt met veel concurrentie kan een
+bedrijf gedwongen zijn de kostenstijging (deels) zelf te
+dragen.</p></li>
+<li><p><strong>Alternatieve strategieën:</strong> Een bedrijf kan ook
+kosten besparen op andere posten, efficiënter produceren, of tijdelijk
+minder winst accepteren om marktaandeel te behouden.</p></li>
+<li><p><strong>Vraagreactie:</strong> Als de vraag prijsgevoelig is,
+leidt een hogere prijs tot een sterke daling van de gevraagde
+hoeveelheid, waardoor de totale opbrengst kan dalen ondanks de hogere
+prijs per stuk.</p></li>
+</ol>
+<p>De uitspraak gaat ervan uit dat bedrijven altijd alle
+kostenstijgingen kunnen doorberekenen, maar dat hangt af van de
+marktomstandigheden.</p>
+<p><em>Beoordelingscriteria:</em> - Noemt minstens één concrete reden
+waarom niet verhogen rationeel kan zijn (concurrentie,
+vraagelasticiteit, alternatieve besparingen) (1 pt) - Verbindt de reden
+aan de context of aan een economisch mechanisme (marktwerking,
+prijsgevoeligheid) (1 pt)</p>
+</body>
+</html>

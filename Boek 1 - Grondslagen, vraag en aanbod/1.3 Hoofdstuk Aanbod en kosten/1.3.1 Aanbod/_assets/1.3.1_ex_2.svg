@@ -1,0 +1,71 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">Markt voor laptops &#x2014; aanbodlijn</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="180" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096" transform="rotate(-90, 15, 180)">Prijs (P)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,310 670,306 670,314" fill="#2D3748"/>
+  <text x="380" y="350" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="325" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!--
+    Scale: P 0..1200 on Y, Q 0..8000 on X
+    y(P) = 310 - (P/1200)*265 = 310 - 0.2208*P
+    x(Q) = 80 + (Q/8000)*600 = 80 + 0.075*Q
+
+    Point E: P=800, Q=5000
+    y(800) = 310 - 176.7 = 133.3 ≈ 133
+    x(5000) = 80 + 375 = 455
+
+    Supply line A₁ through E. Let's say P = 0.2Q - 200 (positive y-intercept issue)
+    Actually: let the line go through (Q=0, P=200) and (Q=5000, P=800)
+    Slope: (800-200)/5000 = 0.12, so P = 0.12Q + 200
+    At Q=8000: P = 0.12*8000 + 200 = 1160
+
+    Endpoints in px:
+    (Q=0, P=200): x=80, y=310-44.2=265.8 ≈ 266
+    (Q=7500, P=1100): x=80+562.5=642.5≈643, y=310-242.8=67.2≈67
+
+    Point E: P=800, Q=5000: x=455, y=133
+
+    P=600: at P=600, Q=(600-200)/0.12 = 3333
+    x(3333) = 80+250 = 330, y(600) = 310-132.5 = 177.5 ≈ 178
+  -->
+
+  <!-- Grid lines -->
+  <line x1="80" y1="178" x2="680" y2="178" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="133" x2="680" y2="133" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="330" y1="45" x2="330" y2="310" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="455" y1="45" x2="455" y2="310" stroke="#CBD5E0" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <!-- Supply curve A₁: from (80,266) to (643,67) -->
+  <line x1="80" y1="266" x2="643" y2="67" stroke="#1E8449" stroke-width="2.5"/>
+  <text x="648" y="62" font-family="Arial" font-size="12" font-weight="bold" fill="#1E8449">A<tspan font-size="9" dy="3">1</tspan></text>
+
+  <!-- Point E at (455, 133) -->
+  <circle cx="455" cy="133" r="5" fill="#1E8449"/>
+  <text x="468" y="125" font-family="Arial" font-size="12" font-weight="bold" fill="#1E8449">E</text>
+
+  <!-- Dashed reference lines for E -->
+  <line x1="80" y1="133" x2="455" y2="133" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="455" y1="133" x2="455" y2="310" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Price labels -->
+  <text x="72" y="137" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">800</text>
+  <text x="72" y="182" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">600</text>
+  <text x="72" y="270" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+
+  <!-- Quantity labels -->
+  <text x="455" y="325" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">5.000</text>
+  <text x="330" y="325" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">3.000</text>
+</svg>

@@ -1,0 +1,58 @@
+# Quality Reference - 1.5.1 Actieve samenvatting
+# Generated: 2026-04-23
+
+quality_ref:
+  paragraph: "1.5.1 Actieve samenvatting"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.5 Hoofdstuk Toetsvoorbereiding"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  content:
+    samenvatting_md: true
+    antwoorden_md: true
+    samenvatting_pdf: true
+    antwoorden_pdf: true
+    build_pdf_py: true
+
+  componenten_testprep:
+    type: "testprep-summary"
+    samenvatting_blokken:
+      aanwezig: true
+      aantal_blokken: 5
+      mc_per_blok: "2-3"
+      misconcepties_gedocumenteerd: true
+      hoofdstukken_gedekt: ["1.1", "1.2", "1.3", "1.4"]
+      inspectie: ["OP3"]
+      didactiek: ["retrieval practice", "misconceptie-gericht toetsen", "dual coding"]
+
+  assets:
+    total_referenced: 5
+    total_present: 5
+    missing: []
+    orphaned: []
+    svgpng_paired: true
+    naming_compliant: true
+    inventory:
+      - "1.5.1_fig_1: schaarste, keuzes en rekenhulpmiddelen"
+      - "1.5.1_fig_2: vraaglijn, consumentensurplus en verschuiving"
+      - "1.5.1_fig_3: TK- en TO-lijn met break-evenpunt"
+      - "1.5.1_fig_4: marktevenwicht en aanbodverschuiving"
+      - "1.5.1_fig_5: MK en MO bij winstmaximalisatie"
+
+  verantwoording:
+    differentiatie: "MC-vragen na elk blok geven laagdrempelige zelfcontrole; twee items hebben antwoordambiguiteit en moeten worden herzien."
+    dual_coding: "Elk samenvattingsblok heeft een gekoppelde figuur."
+    scaffolding_fading: "Leerlingen lezen eerst een compacte herhaling en beantwoorden daarna interleaved MC-vragen."
+    voorkennis_aansluiting: "De blokken sluiten aan op H1.1-H1.4 en introduceren geen bedoelde nieuwe theorie."
+    formatief: "Antwoordenblad geeft per vraag uitleg en benoemt valkuilen."
+    veelgemaakte_fouten: "Indexpunten, beweging/verschuiving, opbrengst/winst en MO/MK worden expliciet getoetst."
+    lesdoel_zichtbaarheid: "Introductie maakt duidelijk dat dit herhaling en zelftoetsing voor H1.1-H1.4 is."
+    oefentijd: "14 MC-vragen bieden korte retrieval practice over alle theorieclusters."
+
+  review:
+    file: "1.5.1-review.md"
+    unresolved_blockers: 2
+    verdict: "BLOCKED"

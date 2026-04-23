@@ -1,0 +1,64 @@
+# === QUALITY REFERENCE ===
+# Generated: 2026-04-23
+# Paragraph: 1.2.4 Gemengde opgaven
+
+quality_ref:
+  paragraph: "1.2.4 Gemengde opgaven"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.2 Hoofdstuk Vraag"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  leerdoelen:
+    - id: L1
+      beschrijving: "Collectieve vraag uit tabellen en functies bepalen."
+      eindterm: "D1.3 collectieve vraaglijn"
+      bloom: "toepassen"
+      gedekt_in: [opgaven, antwoorden]
+    - id: L2
+      beschrijving: "Beweging langs en verschuiving van de vraaglijn in gemengde contexten onderscheiden."
+      eindterm: "D1.4a verschuiving collectieve vraaglijn"
+      bloom: "analyseren"
+      gedekt_in: [opgaven, antwoorden]
+    - id: L3
+      beschrijving: "Substituten, voorkeuren, betalingsbereidheid en kinkpunten verklaren in context."
+      eindterm: "D1.1-D1.4"
+      bloom: "analyseren"
+      gedekt_in: [opgaven, antwoorden]
+
+  componenten:
+    opgaven:
+      aanwezig: true
+      doel: "Consolideert de vraagvaardigheden uit 1.2.1 tot en met 1.2.3 in twee contextopgaven."
+      inspectie: [OP3, OR1]
+      didactiek: ["transfer", "interleaving", "Bloom-opbouw"]
+    antwoorden:
+      aanwezig: true
+      doel: "Geeft puntentoekenning, berekeningen en beoordelingscriteria voor denkertjes."
+      inspectie: [OP2, OP3]
+      didactiek: ["formatief evalueren", "antwoordstructurering"]
+    paragraaf:
+      aanwezig: false
+      doel: "Consolidatieparagraaf; geen aparte theorie-uitleg verwacht."
+      inspectie: []
+      didactiek: []
+
+  assets:
+    total_referenced: 1
+    total_present: 1
+    missing: []
+    orphaned: ["1.2.4_ex_1.svg"]
+    svgpng_paired: true
+    naming_compliant: true
+
+  verantwoording:
+    differentiatie: "Denkertjes bieden analyse/evaluatie bovenop de kernvragen."
+    dual_coding: "Opgave 2 gebruikt een grafiek naast functies en tekst; opgave 1 gebruikt een tabel en functies."
+    scaffolding_fading: "Als consolidatie zijn de vragen weinig gescaffold maar wel opgebouwd per context."
+    voorkennis_aansluiting: "Alle drie eerdere paragrafen uit hoofdstuk 1.2 worden gemengd."
+    formatief: "Antwoorden bevatten punten en beoordelingscriteria."
+    veelgemaakte_fouten: "De denkertjes toetsen verwarring tussen meer verkoop en verschuiving van de vraaglijn."
+    lesdoel_zichtbaarheid: "De titel en opgavenstructuur signaleren consolidatie van vraag."
+    oefentijd: "Twee contextopgaven met twaalf punten per context bieden voldoende gemengde oefening."

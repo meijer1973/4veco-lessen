@@ -1,0 +1,99 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1E2761">Markt voor biologische honing — verschuivingen</text>
+
+  <!-- Defs: arrowheads -->
+  <defs>
+    <marker id="arrowY" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,8 L4,0 L8,8" fill="#2D3748"/>
+    </marker>
+    <marker id="arrowX" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8" fill="#2D3748"/>
+    </marker>
+  </defs>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="310" x2="80" y2="43" stroke="#2D3748" stroke-width="1.5" marker-end="url(#arrowY)"/>
+  <text x="15" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096" transform="rotate(-90,15,180)">Prijs (€/pot)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="310" x2="682" y2="310" stroke="#2D3748" stroke-width="1.5" marker-end="url(#arrowX)"/>
+  <text x="380" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">Hoeveelheid (×1.000 potten)</text>
+
+  <!-- Origin -->
+  <text x="72" y="325" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks: P=10,20,30,40,50 -->
+  <!-- px_per_P = 5.3, origin_y = 310 -->
+  <line x1="75" y1="257" x2="80" y2="257" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="261" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">10</text>
+  <line x1="75" y1="204" x2="80" y2="204" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="208" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">20</text>
+  <line x1="75" y1="151" x2="80" y2="151" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="155" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">30</text>
+  <line x1="75" y1="98" x2="80" y2="98" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="102" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">40</text>
+  <line x1="75" y1="45" x2="80" y2="45" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="49" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">50</text>
+
+  <!-- X-axis ticks: Q=10,20,30,40,50,60 -->
+  <!-- px_per_Q = 10, origin_x = 80 -->
+  <line x1="180" y1="310" x2="180" y2="315" stroke="#2D3748" stroke-width="1"/>
+  <text x="180" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">10</text>
+  <line x1="280" y1="310" x2="280" y2="315" stroke="#2D3748" stroke-width="1"/>
+  <text x="280" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">20</text>
+  <line x1="380" y1="310" x2="380" y2="315" stroke="#2D3748" stroke-width="1"/>
+  <text x="380" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">30</text>
+  <line x1="480" y1="310" x2="480" y2="315" stroke="#2D3748" stroke-width="1"/>
+  <text x="480" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">40</text>
+  <line x1="580" y1="310" x2="580" y2="315" stroke="#2D3748" stroke-width="1"/>
+  <text x="580" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">50</text>
+  <line x1="680" y1="310" x2="680" y2="315" stroke="#2D3748" stroke-width="1"/>
+  <text x="680" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">60</text>
+
+  <!-- Original demand V: Qv = -P + 50 -->
+  <!-- P=50,Q=0: (80,45) to P=0,Q=50: (580,310) -->
+  <line x1="80" y1="45" x2="580" y2="310" stroke="#1A5276" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="588" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- Shifted demand V': Qv' = -P + 56 -->
+  <!-- P=50,Q=6: (140,45) to P=0,Q=56: (640,310) -->
+  <line x1="140" y1="45" x2="640" y2="310" stroke="#1A5276" stroke-width="2" stroke-linecap="round" stroke-dasharray="8,4"/>
+  <text x="648" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1A5276">V'</text>
+
+  <!-- Original supply A: Qa = 2P - 10 -->
+  <!-- Qa=0,P=5: (80,283.5≈284) to Q=60,P=35: (680,124.5≈125) -->
+  <line x1="80" y1="284" x2="680" y2="125" stroke="#27AE60" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="688" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27AE60">A</text>
+
+  <!-- Shifted supply A': Qa' = 2P - 4 -->
+  <!-- Qa=0,P=2: (80,299.4≈299) to Q=60,P=32: (680,140.4≈140) -->
+  <line x1="80" y1="299" x2="680" y2="140" stroke="#27AE60" stroke-width="2" stroke-linecap="round" stroke-dasharray="8,4"/>
+  <text x="688" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27AE60">A'</text>
+
+  <!-- Shift arrow for demand (horizontal, quiet zone) -->
+  <line x1="180" y1="130" x2="230" y2="130" stroke="#1A5276" stroke-width="1.5" marker-end="url(#arrowX)"/>
+
+  <!-- Shift arrow for supply (horizontal, quiet zone) -->
+  <line x1="200" y1="260" x2="250" y2="260" stroke="#27AE60" stroke-width="1.5" marker-end="url(#arrowX)"/>
+
+  <!-- Original equilibrium E: P=20, Q=30 -->
+  <!-- x=80+30*10=380, y=310-20*5.3=204 -->
+  <line x1="380" y1="204" x2="380" y2="310" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="80" y1="204" x2="380" y2="204" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="5,4"/>
+  <circle cx="380" cy="204" r="4" fill="#1A5276"/>
+  <text x="380" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1A5276">E</text>
+
+  <!-- New equilibrium E'' (both shifts): P=20, Q=36 -->
+  <!-- x=80+36*10=440, y=310-20*5.3=204 -->
+  <line x1="440" y1="204" x2="440" y2="310" stroke="#E67E22" stroke-width="1" stroke-dasharray="5,4"/>
+  <circle cx="440" cy="204" r="4" fill="#E67E22"/>
+  <text x="440" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E67E22">E''</text>
+
+  <!-- Equilibrium axis labels -->
+  <text x="380" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1A5276">30</text>
+  <text x="440" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#E67E22">36</text>
+</svg>

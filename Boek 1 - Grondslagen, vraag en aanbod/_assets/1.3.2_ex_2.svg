@@ -1,0 +1,88 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="450" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="320" y="28" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">Figuur 5: Teken hier de kostenlijnen</text>
+
+  <!-- Plot area: x=80..560, y=50..390
+       Cateringbedrijf: TCK=600, VK=€4 per maaltijd
+       x-axis: Q 0-400 maaltijden
+       y-axis: Kosten €0-2400
+       Grid for students to draw on
+  -->
+
+  <!-- Grid lines — more visible for drawing -->
+  <!-- Horizontal: every €400 -->
+  <line x1="80" y1="333.3" x2="560" y2="333.3" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 400 -->
+  <line x1="80" y1="276.7" x2="560" y2="276.7" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 800 -->
+  <line x1="80" y1="220" x2="560" y2="220" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 1200 -->
+  <line x1="80" y1="163.3" x2="560" y2="163.3" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 1600 -->
+  <line x1="80" y1="106.7" x2="560" y2="106.7" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 2000 -->
+  <line x1="80" y1="50" x2="560" y2="50" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 2400 -->
+
+  <!-- Additional grid: every €200 (lighter) -->
+  <line x1="80" y1="361.7" x2="560" y2="361.7" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 200 -->
+  <line x1="80" y1="305" x2="560" y2="305" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 600 -->
+  <line x1="80" y1="248.3" x2="560" y2="248.3" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 1000 -->
+  <line x1="80" y1="191.7" x2="560" y2="191.7" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 1400 -->
+  <line x1="80" y1="135" x2="560" y2="135" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 1800 -->
+  <line x1="80" y1="78.3" x2="560" y2="78.3" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 2200 -->
+
+  <!-- Vertical: every 50 -->
+  <line x1="140" y1="50" x2="140" y2="390" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 50 -->
+  <line x1="200" y1="50" x2="200" y2="390" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 100 -->
+  <line x1="260" y1="50" x2="260" y2="390" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 150 -->
+  <line x1="320" y1="50" x2="320" y2="390" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 200 -->
+  <line x1="380" y1="50" x2="380" y2="390" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 250 -->
+  <line x1="440" y1="50" x2="440" y2="390" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 300 -->
+  <line x1="500" y1="50" x2="500" y2="390" stroke="#E5E5E5" stroke-width="0.4" stroke-dasharray="2,4"/><!-- 350 -->
+  <line x1="560" y1="50" x2="560" y2="390" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 400 -->
+
+  <!-- Y-axis -->
+  <line x1="80" y1="390" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="220" text-anchor="middle" font-family="Arial" font-size="13" fill="#718096" transform="rotate(-90,15,220)">Kosten (€)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="390" x2="565" y2="390" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="565,390 555,386 555,394" fill="#2D3748"/>
+  <text x="320" y="435" text-anchor="middle" font-family="Arial" font-size="13" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="405" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks — scale: px_per_euro = 340/2400 = 0.1417, euro_to_y(v) = 390 - v*0.1417 -->
+  <line x1="75" y1="333.3" x2="80" y2="333.3" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="337" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">400</text>
+
+  <line x1="75" y1="276.7" x2="80" y2="276.7" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="280" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">800</text>
+
+  <line x1="75" y1="220" x2="80" y2="220" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="224" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">1200</text>
+
+  <line x1="75" y1="163.3" x2="80" y2="163.3" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="167" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">1600</text>
+
+  <line x1="75" y1="106.7" x2="80" y2="106.7" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="110" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">2000</text>
+
+  <line x1="75" y1="50" x2="80" y2="50" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="54" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">2400</text>
+
+  <!-- X-axis ticks — scale: px_per_Q = 480/400 = 1.2, q_to_x(q) = 80 + q*1.2 -->
+  <line x1="200" y1="390" x2="200" y2="395" stroke="#2D3748" stroke-width="1"/>
+  <text x="200" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">100</text>
+
+  <line x1="320" y1="390" x2="320" y2="395" stroke="#2D3748" stroke-width="1"/>
+  <text x="320" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+
+  <line x1="440" y1="390" x2="440" y2="395" stroke="#2D3748" stroke-width="1"/>
+  <text x="440" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">300</text>
+
+  <line x1="560" y1="390" x2="560" y2="395" stroke="#2D3748" stroke-width="1"/>
+  <text x="560" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">400</text>
+
+  <!-- No curves — students draw their own -->
+</svg>

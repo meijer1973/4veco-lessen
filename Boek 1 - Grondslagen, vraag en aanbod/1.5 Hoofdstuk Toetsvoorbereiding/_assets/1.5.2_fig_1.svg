@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" font-family="Arial">
+  <!-- Background -->
+  <rect width="520" height="420" fill="#F7FAFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="260" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">Ongelabelde grafiek</text>
+
+  <!-- Axes — deliberately NO axis labels -->
+  <line x1="80" y1="360" x2="480" y2="360" stroke="#2D3748" stroke-width="2"/>
+  <line x1="80" y1="360" x2="80" y2="50" stroke="#2D3748" stroke-width="2"/>
+  <polygon points="480,360 472,356 472,364" fill="#2D3748"/>
+  <polygon points="80,50 76,58 84,58" fill="#2D3748"/>
+  <text x="72" y="375" text-anchor="end" font-size="10" fill="#718096">0</text>
+
+  <!--
+    Two crossing lines, no labels "V" or "A".
+    Line 1: downward-sloping (demand-like), from top-left to bottom-right.
+    Line 2: upward-sloping (supply-like), from bottom-left to top-right.
+
+    Pixel mapping: P 0..50 => y 360..60 (6px per unit), Q 0..100 => x 80..460 (3.8px per unit)
+
+    Line 1 (demand): P=50,Q=0 => (80,60). P=0,Q=100 => (460,360). But clip: (80,60) to (460,360).
+    Line 2 (supply): P=10,Q=0 => (80,300). P=50,Q=80 => (80+80*3.8,60) = (384,60).
+
+    Intersection: Line 1: P = 50 - 0.5Q. Line 2: P = 10 + 0.5Q.
+    50 - 0.5Q = 10 + 0.5Q => Q = 40, P = 30.
+    Pixel: x = 80 + 40*3.8 = 232, y = 360 - 30*6 = 180. E = (232, 180).
+  -->
+
+  <!-- Line 1: downward-sloping — from (80,60) to (460,360) -->
+  <line x1="80" y1="60" x2="460" y2="360" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="468" y="356" font-size="13" font-weight="bold" fill="#1A5276">Lijn 1</text>
+
+  <!-- Line 2: upward-sloping — from (80,300) to (384,60) -->
+  <line x1="80" y1="300" x2="384" y2="60" stroke="#27AE60" stroke-width="2.5"/>
+  <text x="390" y="56" font-size="13" font-weight="bold" fill="#27AE60">Lijn 2</text>
+
+  <!-- Intersection point at (232, 180) -->
+  <circle cx="232" cy="180" r="5" fill="#E74C3C"/>
+
+  <!-- Dashed guide lines from intersection to axes -->
+  <line x1="232" y1="180" x2="232" y2="360" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="232" y1="180" x2="80" y2="180" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Tick marks at axes (with values for students to read) -->
+  <line x1="75" y1="180" x2="80" y2="180" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="184" text-anchor="end" font-size="10" fill="#718096">30</text>
+  <line x1="232" y1="360" x2="232" y2="365" stroke="#2D3748" stroke-width="1"/>
+  <text x="232" y="378" text-anchor="middle" font-size="10" fill="#718096">40</text>
+
+  <!-- Question marks for axis labels -->
+  <text x="40" y="210" text-anchor="middle" font-size="18" font-weight="bold" fill="#999">?</text>
+  <text x="290" y="410" text-anchor="middle" font-size="18" font-weight="bold" fill="#999">?</text>
+</svg>

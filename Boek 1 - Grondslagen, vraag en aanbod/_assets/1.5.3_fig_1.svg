@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" font-family="Arial">
+  <!-- Background -->
+  <rect width="560" height="440" fill="#F7FAFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="280" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">Markt voor koffie</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="380" x2="510" y2="380" stroke="#2D3748" stroke-width="2"/>
+  <line x1="80" y1="380" x2="80" y2="50" stroke="#2D3748" stroke-width="2"/>
+  <!-- Arrowheads -->
+  <polygon points="510,380 502,376 502,384" fill="#2D3748"/>
+  <polygon points="80,50 76,58 84,58" fill="#2D3748"/>
+
+  <!-- Axis labels -->
+  <text x="25" y="220" text-anchor="middle" font-size="12" fill="#718096" transform="rotate(-90, 25, 220)">Prijs (P) in euro</text>
+  <text x="295" y="418" text-anchor="middle" font-size="12" fill="#718096">Hoeveelheid (Q) in zakken</text>
+  <text x="72" y="395" text-anchor="end" font-size="10" fill="#718096">0</text>
+
+  <!--
+    Pixel mapping:
+    Q: 0..300 => x: 80..500 (1.4 px per unit Q)
+    P: 0..16 => y: 380..60 (20 px per unit P)
+
+    V: Qv = -40P + 580. P = 14.5 - Q/40.
+       Q=0,P=14.5 => (80, 90). Q=300,P=7.0 => (500, 240).
+
+    A1: Qa = 20P - 20. P = (Q+20)/20 = Q/20 + 1.
+        Q=0,P=1 => (80, 360). Q=270,P=14.5 => (458, 90).
+
+    E: P=10, Q=180 => (332, 180).
+  -->
+
+  <!-- Price scale markers -->
+  <line x1="75" y1="360" x2="80" y2="360" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="364" text-anchor="end" font-size="10" fill="#718096">1</text>
+  <line x1="75" y1="280" x2="80" y2="280" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="284" text-anchor="end" font-size="10" fill="#718096">5</text>
+  <line x1="75" y1="180" x2="80" y2="180" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="184" text-anchor="end" font-size="10" fill="#718096">10</text>
+  <line x1="75" y1="90" x2="80" y2="90" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="94" text-anchor="end" font-size="10" fill="#718096">14,50</text>
+
+  <!-- Q scale markers -->
+  <line x1="220" y1="380" x2="220" y2="385" stroke="#2D3748" stroke-width="1"/>
+  <text x="220" y="398" text-anchor="middle" font-size="10" fill="#718096">100</text>
+  <line x1="360" y1="380" x2="360" y2="385" stroke="#2D3748" stroke-width="1"/>
+  <text x="360" y="398" text-anchor="middle" font-size="10" fill="#718096">200</text>
+  <line x1="500" y1="380" x2="500" y2="385" stroke="#2D3748" stroke-width="1"/>
+  <text x="500" y="398" text-anchor="middle" font-size="10" fill="#718096">300</text>
+
+  <!-- Demand line V: (80,90) to (500,240) -->
+  <line x1="80" y1="90" x2="500" y2="240" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="505" y="244" font-size="13" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- Supply line A1: (80,360) to (458,90) -->
+  <line x1="80" y1="360" x2="458" y2="90" stroke="#27AE60" stroke-width="2.5"/>
+  <text x="463" y="86" font-size="13" font-weight="bold" fill="#27AE60">A</text>
+
+  <!-- Equilibrium E at (332, 180) -->
+  <circle cx="332" cy="180" r="5" fill="#2D3748"/>
+  <text x="342" y="173" font-size="12" font-weight="bold" fill="#2D3748">E</text>
+  <line x1="332" y1="180" x2="332" y2="380" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="332" y1="180" x2="80" y2="180" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="332" y="398" text-anchor="middle" font-size="10" fill="#2D3748">180</text>
+  <!-- P=10 is already marked on the y-axis -->
+</svg>

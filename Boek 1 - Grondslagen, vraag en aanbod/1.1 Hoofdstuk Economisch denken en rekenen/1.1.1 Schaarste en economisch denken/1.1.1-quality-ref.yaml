@@ -1,0 +1,33 @@
+# Quality Reference — 1.1.1 Schaarste en economisch denken
+# Generated: 2026-04-14
+
+paragraph: "1.1.1"
+title: "Schaarste en economisch denken"
+type: theory
+
+content:
+  paragraaf_md: true
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: true
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  build_pdf_py: true
+
+assets:
+  total_referenced: 5
+  total_present: 5
+  missing: []
+  svgpng_paired: true
+  naming_compliant: true
+  inventory:
+    - 1.1.1_fig_1 (schaarste: behoeften vs middelen)
+    - 1.1.1_fig_2 (opportuniteitskosten: bar chart)
+    - 1.1.1_fig_3 (economisch denken: 3 stappen)
+    - 1.1.1_we_1 (uitgewerkt voorbeeld: tarwe vs mais)
+    - 1.1.1_ex_1 (opgave: drie gewassen)
+
+review:
+  file: "1.1.1-review.md"
+  unresolved_fails: 0
+  verdict: "PASS WITH FLAGS"

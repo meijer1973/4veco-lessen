@@ -1,0 +1,133 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="450" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="320" y="28" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">TCK, TVK en TK als functie van Q</text>
+
+  <!-- Grid lines (dashed, light gray) -->
+  <!-- Horizontal grid: y-axis 0-1400, step 200 -->
+  <!-- Plot area: x=80..560, y=50..390. y=390 is 0, y=50 is 1400. px_per_euro = 340/1400 = 0.2429 -->
+  <line x1="80" y1="341" x2="560" y2="341" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 200 -->
+  <line x1="80" y1="292" x2="560" y2="292" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 400 -->
+  <line x1="80" y1="244" x2="560" y2="244" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 500 — extra for TCK -->
+  <line x1="80" y1="243" x2="560" y2="243" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 600 -->
+  <line x1="80" y1="195" x2="560" y2="195" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 800 -->
+  <line x1="80" y1="146" x2="560" y2="146" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 1000 -->
+  <line x1="80" y1="97" x2="560" y2="97" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 1200 -->
+  <line x1="80" y1="49" x2="560" y2="49" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 1400 -->
+
+  <!-- Vertical grid: x-axis 0-1000, step 200 -->
+  <!-- x=80 is Q=0, x=560 is Q=1000. px_per_Q = 480/1000 = 0.48 -->
+  <line x1="176" y1="50" x2="176" y2="390" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 200 -->
+  <line x1="272" y1="50" x2="272" y2="390" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 400 -->
+  <line x1="368" y1="50" x2="368" y2="390" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 600 -->
+  <line x1="464" y1="50" x2="464" y2="390" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 800 -->
+
+  <!-- Y-axis -->
+  <line x1="80" y1="390" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="220" text-anchor="middle" font-family="Arial" font-size="13" fill="#718096" transform="rotate(-90,15,220)">Kosten (€)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="390" x2="565" y2="390" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="565,390 555,386 555,394" fill="#2D3748"/>
+  <text x="320" y="435" text-anchor="middle" font-family="Arial" font-size="13" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="405" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis tick labels -->
+  <!-- scale: euro_to_y(v) = 390 - v * (340/1400) = 390 - v * 0.2429 -->
+  <line x1="75" y1="341.4" x2="80" y2="341.4" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="345" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+
+  <line x1="75" y1="292.9" x2="80" y2="292.9" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="296" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">400</text>
+
+  <line x1="75" y1="268.6" x2="80" y2="268.6" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="272" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">500</text>
+
+  <line x1="75" y1="244.3" x2="80" y2="244.3" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="248" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">600</text>
+
+  <line x1="75" y1="195.7" x2="80" y2="195.7" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="199" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">800</text>
+
+  <line x1="75" y1="147.1" x2="80" y2="147.1" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="151" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">1000</text>
+
+  <line x1="75" y1="98.6" x2="80" y2="98.6" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="102" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">1200</text>
+
+  <line x1="75" y1="50" x2="80" y2="50" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="54" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">1400</text>
+
+  <!-- X-axis tick labels -->
+  <!-- scale: q_to_x(q) = 80 + q * 0.48 -->
+  <line x1="176" y1="390" x2="176" y2="395" stroke="#2D3748" stroke-width="1"/>
+  <text x="176" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+
+  <line x1="272" y1="390" x2="272" y2="395" stroke="#2D3748" stroke-width="1"/>
+  <text x="272" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">400</text>
+
+  <line x1="368" y1="390" x2="368" y2="395" stroke="#2D3748" stroke-width="1"/>
+  <text x="368" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">600</text>
+
+  <line x1="464" y1="390" x2="464" y2="395" stroke="#2D3748" stroke-width="1"/>
+  <text x="464" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">800</text>
+
+  <line x1="560" y1="390" x2="560" y2="395" stroke="#2D3748" stroke-width="1"/>
+  <text x="560" y="408" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">1000</text>
+
+  <!-- === CURVES === -->
+  <!-- Coordinate functions:
+       q_to_x(q) = 80 + q * 0.48
+       euro_to_y(v) = 390 - v * 0.2429
+
+       TCK = 500 (constant) → y = 390 - 500*0.2429 = 390 - 121.4 = 268.6
+       TVK = 0.80 * Q → at Q=0: y=390, at Q=1000: euro=800, y=390-194.3=195.7
+       TK = 500 + 0.80*Q → at Q=0: euro=500, y=268.6; at Q=1000: euro=1300, y=390-315.7=74.3
+  -->
+
+  <!-- TCK: horizontal dashed line at €500, y=268.6 -->
+  <line x1="80" y1="268.6" x2="560" y2="268.6" stroke="#E67E22" stroke-width="2.5" stroke-dasharray="8,5"/>
+  <text x="567" y="264" font-family="Arial" font-size="12" font-weight="bold" fill="#E67E22">TCK</text>
+
+  <!-- TVK: line from (Q=0, €0) to (Q=1000, €800) -->
+  <line x1="80" y1="390" x2="560" y2="195.7" stroke="#27AE60" stroke-width="2.5"/>
+  <text x="567" y="192" font-family="Arial" font-size="12" font-weight="bold" fill="#27AE60">TVK</text>
+
+  <!-- TK: line from (Q=0, €500) to (Q=1000, €1300) -->
+  <line x1="80" y1="268.6" x2="560" y2="74.3" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="567" y="70" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">TK</text>
+
+  <!-- Vertical bracket at Q=600 showing TCK and TVK components -->
+  <!-- Q=600: x = 80 + 600*0.48 = 368
+       TVK(600) = 480 → y = 390 - 480*0.2429 = 390 - 116.6 = 273.4
+       TK(600) = 980 → y = 390 - 980*0.2429 = 390 - 238.0 = 152.0
+       TCK = 500 → vertical distance from TVK to TK
+  -->
+
+  <!-- Dashed vertical line from x-axis to TK at Q=600 -->
+  <line x1="368" y1="390" x2="368" y2="152" stroke="#718096" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- TVK bracket: from y=390 (axis) to y=273.4 (TVK value) -->
+  <line x1="375" y1="390" x2="375" y2="273.4" stroke="#27AE60" stroke-width="1.5"/>
+  <line x1="372" y1="390" x2="378" y2="390" stroke="#27AE60" stroke-width="1.5"/>
+  <line x1="372" y1="273.4" x2="378" y2="273.4" stroke="#27AE60" stroke-width="1.5"/>
+  <text x="393" y="336" font-family="Arial" font-size="10" fill="#27AE60">TVK</text>
+  <text x="393" y="348" font-family="Arial" font-size="10" fill="#27AE60">= €480</text>
+
+  <!-- TCK bracket: from y=273.4 (TVK) to y=152 (TK value) -->
+  <line x1="375" y1="273.4" x2="375" y2="152" stroke="#E67E22" stroke-width="1.5"/>
+  <line x1="372" y1="273.4" x2="378" y2="273.4" stroke="#E67E22" stroke-width="1.5"/>
+  <line x1="372" y1="152" x2="378" y2="152" stroke="#E67E22" stroke-width="1.5"/>
+  <text x="393" y="208" font-family="Arial" font-size="10" fill="#E67E22">TCK</text>
+  <text x="393" y="220" font-family="Arial" font-size="10" fill="#E67E22">= €500</text>
+
+  <!-- Dot on TK at Q=600 -->
+  <circle cx="368" cy="152" r="3.5" fill="#1A5276"/>
+  <!-- Dot on TVK at Q=600 -->
+  <circle cx="368" cy="273.4" r="3.5" fill="#27AE60"/>
+</svg>

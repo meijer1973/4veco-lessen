@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+/* === Layout inspired by CITO VWO exam papers ===
+   Wide left margin, clean sans-serif, generous line spacing.
+   Domain colors retained for headings/blockquotes (textbook hierarchy). */
+
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;  /* top right bottom left — exam-like indented body */
+  @bottom-left   { content: "1.1.1 Schaarste en economisch denken"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+/* h2 mimics the "Opgave 1 Zorgverzekering" heading: bold + thin underline */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === (simple, exam-style, no colored header background) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 3pt 6pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 2pt 6pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+/* Bare images (not in figure) */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+/* Allow exercises to break across pages to avoid whitespace,
+   but keep the "Opgave X" title with at least 2 lines of content. */
+.exercise {
+  margin-bottom: 14pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.exercise p {
+  margin: 0 0 1pt 0;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+ol[type="a"] { list-style-type: lower-alpha; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="schaarste-en-economisch-denken-antwoorden">1.1.1 Schaarste en
+economisch denken — antwoorden</h1>
+<p><strong>Afrondingsregel:</strong> Rond af op 2 decimalen tenzij
+anders aangegeven.</p>
+<hr />
+</div><h2 id="procedure-uit-het-uitgewerkt-voorbeeld">Procedure (uit het
+uitgewerkt voorbeeld)</h2>
+<table>
+<colgroup>
+<col style="width: 46%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Vraag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Welke alternatieven zijn er?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Wat is de opbrengst van elk alternatief?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Je kiest alternatief X → alternatieve kosten = opbrengst van het
+beste niet-gekozen alternatief</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="exercise"><p><strong>Opgave 1</strong></p>
+<p><strong>a)</strong> Tarwe levert de hoogste winst per hectare op:
+<strong>€500</strong>. Dit is de hoogste balk in het diagram.</p>
+<p><strong>b)</strong> Totale winst bij zonnebloemen: 8 × €300 =
+<strong>€2.400</strong>.</p>
+<p><strong>c)</strong> Alternatieve kosten van de keuze voor
+zonnebloemen:</p>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 30%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Vraag</th>
+<th>Antwoord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Welke alternatieven zijn er?</td>
+<td>Tarwe, maïs of zonnebloemen</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Wat is de opbrengst van elk alternatief?</td>
+<td>Tarwe: 8 × €500 = €4.000 · Maïs: 8 × €350 = €2.800 · Zonnebloemen: 8
+× €300 = €2.400</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Keuze: zonnebloemen → alternatieve kosten = beste niet-gekozen
+alternatief</td>
+<td>Alternatieve kosten = <strong>€4.000</strong> (de tarweopbrengst die
+hij misloopt)</td>
+</tr>
+</tbody>
+</table>
+<p>Het beste niet-gekozen alternatief is tarwe (€4.000), niet maïs
+(€2.800). Alternatieve kosten zijn altijd gebaseerd op het
+<em>beste</em> alternatief.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<p><strong>a)</strong> <strong>Ja, er is schaarste.</strong> Er zijn 30
+leerlingen die willen computeren, maar slechts 20 computers beschikbaar.
+De behoeften (30 leerlingen) zijn groter dan de middelen (20 computers).
+Er moet gekozen worden: wie mag wel en wie mag niet?</p>
+<p><strong>b)</strong> <strong>Nee, er is geen schaarste.</strong> Er
+zijn 500 pakken melk voor 100 klanten. Zelfs als elke klant meerdere
+pakken koopt, is er waarschijnlijk genoeg. De beschikbare middelen zijn
+groter dan de behoeften.</p>
+<p><strong>c)</strong> <strong>Ja, er is schaarste.</strong> De student
+wil drie activiteiten doen die samen 6 uur kosten, maar heeft maar 4 uur
+beschikbaar. De behoefte aan tijd (6 uur) is groter dan het beschikbare
+middel (4 uur). Hij moet kiezen welke activiteiten hij doet en welke hij
+laat vallen.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 3</strong></p>
+<p><strong>a)</strong> Alternatieve kosten bij de keuze voor bijles
+geven: - Beste niet-gekozen alternatief: studeren (waarde €30) -
+Alternatieve kosten = <strong>€30</strong></p>
+<p>Je telt niet alle niet-gekozen alternatieven op (€30 + €15 = €45),
+want je had sowieso maar één alternatief kunnen kiezen. De alternatieve
+kosten zijn de waarde van het <em>beste</em> alternatief dat je opgeeft
+— in dit geval studeren.</p>
+<p><strong>b)</strong> Alternatieve kosten bij de keuze voor studeren: -
+Beste niet-gekozen alternatief: bijles geven (waarde €40) - Alternatieve
+kosten = <strong>€40</strong></p>
+<p><strong>c)</strong> De alternatieve kosten zijn het hoogst bij de
+keuze voor <strong>film kijken</strong>: - Film kijken → alternatieve
+kosten = €40 (bijles geven, het beste alternatief)</p>
+<p>Bij film kijken geef je het meest waardevolle alternatief op.
+Vergelijking:</p>
+<table>
+<thead>
+<tr>
+<th>Keuze</th>
+<th>Opbrengst</th>
+<th>Alternatieve kosten</th>
+<th>Verschil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bijles geven</td>
+<td>€40</td>
+<td>€30 (studeren)</td>
+<td>+€10</td>
+</tr>
+<tr>
+<td>Studeren</td>
+<td>€30</td>
+<td>€40 (bijles)</td>
+<td>−€10</td>
+</tr>
+<tr>
+<td>Film kijken</td>
+<td>€15</td>
+<td>€40 (bijles)</td>
+<td>−€25</td>
+</tr>
+</tbody>
+</table>
+<p>Bijles geven is economisch de beste keuze: de opbrengst (€40) is het
+hoogst en de alternatieve kosten (€30) het laagst.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<p><strong>a)</strong> De boer kiest voor 10 hectare tarwe: Totale winst
+= 10 × €500 = <strong>€5.000</strong></p>
+<p><strong>b)</strong> Alternatieve kosten van de boer:</p>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 30%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Vraag</th>
+<th>Antwoord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Welke alternatieven zijn er?</td>
+<td>10 ha tarwe of 10 ha maïs</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Opbrengst per alternatief?</td>
+<td>Tarwe: €5.000 · Maïs: 10 × €350 = €3.500</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Keuze: tarwe → alternatieve kosten</td>
+<td><strong>€3.500</strong> (de maïsopbrengst die hij misloopt)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>c)</strong> Totale winst van de buurvrouw: - Tarwe: 6 × €500
+= €3.000 - Maïs: 4 × €350 = €1.400 - Totaal: €3.000 + €1.400 =
+<strong>€4.400</strong></p>
+<p><strong>d)</strong> Nee, de buurvrouw heeft <strong>geen betere
+keuze</strong> gemaakt. De boer verdient €5.000 en de buurvrouw €4.400.
+De boer verdient €600 meer.</p>
+<p>Beide hebben hetzelfde schaarse middel: 10 hectare land. Door
+schaarste moeten ze kiezen hoe ze hun land inzetten. De boer kiest het
+alternatief met de hoogste opbrengst per hectare (tarwe, €500/ha) en zet
+daar al zijn land voor in. De buurvrouw verdeelt haar land, maar
+gebruikt een deel voor het minder winstgevende gewas (maïs, €350/ha),
+waardoor haar totale opbrengst lager is.</p>
+<p><em>Let op: in de werkelijkheid kan er een reden zijn om te spreiden
+(risicospreiding, vruchtwisseling), maar puur economisch levert de keuze
+van de boer meer op.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<p><strong>a)</strong> Een econoom zou zeggen dat niets echt “gratis”
+is, omdat je altijd tijd besteedt aan een activiteit. Een wandeling in
+het park kost geen geld, maar wel tijd. Die tijd had je ook kunnen
+besteden aan iets anders — bijvoorbeeld studeren of werken. De opbrengst
+van dat alternatief is je alternatieve kosten. Zelfs als iets geen
+geldprijs heeft, zijn er alternatieve kosten in de vorm van tijd,
+energie of andere gemiste kansen.</p>
+<p><strong>b)</strong> Dit is een open vraag. Een mogelijk antwoord:
+iets heeft geen alternatieve kosten als je er niets voor hoeft op te
+geven — geen tijd, geen geld, geen moeite. In de praktijk is dat bijna
+onmogelijk, omdat zelfs inademen een fractie van een seconde kost die je
+aan iets anders had kunnen besteden. Economen concluderen daarom dat
+vrijwel elke handeling alternatieve kosten heeft, hoe klein ook. Alleen
+als je letterlijk geen enkel alternatief hebt (geen keuze), zijn er geen
+alternatieve kosten — maar dan is er ook geen schaarste.</p>
+</body>
+</html>

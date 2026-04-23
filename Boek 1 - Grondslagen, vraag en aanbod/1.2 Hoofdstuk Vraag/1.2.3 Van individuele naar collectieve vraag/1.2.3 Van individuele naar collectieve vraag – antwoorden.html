@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+/* === Layout inspired by CITO VWO exam papers ===
+   Wide left margin, clean sans-serif, generous line spacing.
+   Domain colors retained for headings/blockquotes (textbook hierarchy). */
+
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;  /* top right bottom left — exam-like indented body */
+  @bottom-left   { content: "1.2.3 Van individuele naar collectieve vraag"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+/* h2 mimics the "Opgave 1 Zorgverzekering" heading: bold + thin underline */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === (simple, exam-style, no colored header background) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 6pt 10pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 5pt 10pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+/* Bare images (not in figure) */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+/* Allow exercises to break across pages to avoid whitespace,
+   but keep the "Opgave X" title with at least 2 lines of content. */
+.exercise {
+  margin-bottom: 8pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="van-individuele-naar-collectieve-vraag-antwoorden">1.2.3 Van
+individuele naar collectieve vraag — antwoorden</h1>
+<p><strong>Afrondingsregel:</strong> Rond af op 2 decimalen tenzij
+anders aangegeven.</p>
+<hr />
+</div><h2 id="procedure-uit-het-uitgewerkt-voorbeeld">Procedure (uit het
+uitgewerkt voorbeeld)</h2>
+<table>
+<colgroup>
+<col style="width: 46%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Vraag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Wat is mijn input — een tabel of vraagfuncties?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bij elke prijs: lees of bereken Q voor elke individuele
+consument</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tel de Q’s op (níét de prijzen)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Check of er een knik is — verlaat een consument de markt?</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="exercise"><p><strong>Opgave 1</strong></p>
+<p><strong>a)</strong> Stap 1: Lees uit figuur 1 af bij P = €2. - Q_Sara
+= 2 (rood punt op V_Sara) - Q_Tim = 4 (groen punt op V_Tim) - Samen: 2 +
+4 = 6</p>
+<p>Antwoord: Sara wil 2 ijsjes, Tim wil 4 ijsjes, samen <strong>6
+ijsjes</strong>.</p>
+<p><em>Waarom: Bij dezelfde prijs koopt elke consument zijn eigen
+hoeveelheid. De collectieve vraag is gewoon de optelsom van die
+hoeveelheden — niet meer, niet minder.</em></p>
+<p><strong>b)</strong> Het paarse punt op V_coll bij P = €2 ligt
+inderdaad bij Q = 6. Dat klopt. De <strong>horizontale
+optelling</strong> klopt omdat we bij precies dezelfde prijs (€2) de
+individuele hoeveelheden bij elkaar optellen — alle drie de punten
+liggen op dezelfde horizontale stippellijn op P = €2.</p>
+<p><em>Waarom: Op een markt geldt voor elke consument dezelfde
+marktprijs. Daarom is het altijd correct om hoeveelheden bij dezelfde
+prijs op te tellen, en nooit prijzen bij dezelfde hoeveelheid.</em></p>
+<p><strong>c)</strong> De knik in V_coll ligt bij <strong>P =
+€4</strong>. Op die prijs verlaat <strong>Sara</strong> de markt (haar
+individuele vraaglijn V_Sara raakt daar de y-as: Q_Sara = 0). Boven €4
+bestaat de collectieve vraag alleen nog uit Tim.</p>
+<p><em>Waarom: Een knik in V_coll betekent altijd: hier verandert het
+aantal kopers. Onder €4 kopen er twee, boven €4 maar één. Daarom loopt
+V_coll boven de knik minder steil.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<p><strong>a)</strong> Aflezen uit figuur 2 (V_Lara: Qd = -P + 5; V_Mo:
+Qd = -P + 3):</p>
+<table>
+<thead>
+<tr>
+<th>P</th>
+<th>Q_Lara</th>
+<th>Q_Mo</th>
+<th>Q_collectief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>€4</td>
+<td>1</td>
+<td>0 (Mo is al weg)</td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>€3</td>
+<td>2</td>
+<td>0 (precies hier verlaat Mo)</td>
+<td><strong>2</strong></td>
+</tr>
+<tr>
+<td>€2</td>
+<td>3</td>
+<td>1</td>
+<td><strong>4</strong></td>
+</tr>
+<tr>
+<td>€1</td>
+<td>4</td>
+<td>2</td>
+<td><strong>6</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>b)</strong> Verbind de collectieve punten: (1, €4) — (2, €3)
+— (4, €2) — (6, €1). Boven P = €3 sluit V_coll aan op V_Lara (alleen
+Lara koopt nog).</p>
+<p><em>Waarom: De collectieve lijn loopt onder €3 steiler dan boven €3,
+want bij elke prijsdaling kopen daar twee consumenten extra. Boven €3 is
+V_coll identiek aan V_Lara.</em></p>
+<p><strong>c)</strong> Bij <strong>P = €3</strong> verlaat Mo de markt
+(Q_Mo = -3 + 3 = 0). Boven €3 geldt: V_coll = V_Lara = -P + 5.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 3</strong></p>
+<p><strong>a)</strong> Bij P = €1: - Q_Aïsha = -1 + 6 =
+<strong>5</strong> - Q_Bram = -2·1 + 8 = <strong>6</strong> - Q_Chen =
+-1 + 4 = <strong>3</strong></p>
+<p><strong>b)</strong> Q_collectief = 5 + 6 + 3 =
+<strong>14</strong></p>
+<p><strong>c)</strong> Algebraïsche optelling:</p>
+<pre><code>Q_coll = Q_Aïsha + Q_Bram + Q_Chen
+       = (-P + 6) + (-2P + 8) + (-P + 4)
+       = -4P + 18</code></pre>
+<p>Geldig zolang <strong>alle drie</strong> kopen. Aïsha hoort op tot P
+= €6, Bram tot P = €4, Chen tot P = €4. De laagste daarvan is P = €4 —
+bij die prijs verlaten Bram én Chen tegelijk de markt. De functie
+<code>Q_coll = -4P + 18</code> is dus geldig voor <strong>0 ≤ P &lt;
+€4</strong>.</p>
+<p><em>Waarom: Een algebraïsche collectieve functie geldt alleen in het
+prijsbereik waarin álle individuele functies positief zijn. Boven dat
+bereik moet je opnieuw optellen, alleen met de overgebleven
+kopers.</em></p>
+<p><strong>d)</strong> Net boven P = €4 hebben Bram en Chen Q = 0.
+Alleen Aïsha koopt nog. Net boven €4 geldt dus:</p>
+<pre><code>Q_coll = Q_Aïsha = -P + 6</code></pre>
+<p>(Geldig voor 4 ≤ P &lt; 6; boven P = €6 koopt niemand meer en is
+Q_coll = 0.)</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<p><strong>a) Iris krijgt loonsverhoging</strong></p>
+<p>Stap 1: Een verandering in inkomen is een
+<strong>niet-prijsfactor</strong>. Frisdrank is voor Iris een normaal
+goed.</p>
+<p>Stap 2: De eigen prijs van frisdrank verandert niet. Een vraagfactor
+verandert. Dus: <strong>verschuiving van</strong> V_Iris.</p>
+<p>Stap 3: Hoger inkomen + normaal goed → Iris koopt bij elke prijs meer
+frisdrank → V_Iris verschuift naar <strong>rechts</strong>.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> V_Iris naar rechts.</p>
+<p><em>Waarom: Bij een normaal goed loopt een hoger inkomen samen met
+een hogere vraag. De hele vraaglijn van Iris verplaatst — elk punt
+schuift naar rechts.</em></p>
+<p><strong>b) Jeroen stopt helemaal met frisdrank</strong></p>
+<p>Stap 1: Jeroen’s voorkeur (preferentie) is dramatisch veranderd door
+allergie.</p>
+<p>Stap 2: De eigen prijs verandert niet. Een vraagfactor (voorkeur)
+verandert. Dus: <strong>verschuiving van</strong> V_Jeroen.</p>
+<p>Stap 3: Bij elke prijs koopt Jeroen nu nul. V_Jeroen verschuift dus
+naar <strong>links</strong>, helemaal naar de y-as. Eigenlijk valt zijn
+vraaglijn samen met de y-as: Q_Jeroen = 0 voor elke P.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> V_Jeroen helemaal naar
+links — Jeroen verdwijnt effectief van de markt.</p>
+<p><em>Waarom: Een dramatische voorkeurverandering kan een consument
+volledig uit de markt halen. Vanuit het oogpunt van de markt is dat een
+extreme linkerschuif van de individuele vraaglijn.</em></p>
+<p><strong>c)</strong> - Verandering 1 schuift V_Iris naar rechts (=
+meer vraag bij elke prijs). - Verandering 2 schuift V_Jeroen naar links,
+helemaal naar nul. - De collectieve vraag is V_Iris + V_Jeroen, dus:
+V_coll = (nieuwe V_Iris) + 0 = nieuwe V_Iris.</p>
+<p>Of de twee effecten elkaar versterken of tegenwerken, hangt af van de
+<strong>grootte</strong> van Iris’ loonsverhoging in vergelijking met
+Jeroen’s vroegere bijdrage. In het algemeen werken ze <strong>tegen
+elkaar</strong>: Iris koopt meer, Jeroen koopt niets meer. Welk effect
+wint, weet je pas als je de getallen kent.</p>
+<p><em>Waarom: Twee effecten op de collectieve vraag kunnen dezelfde of
+tegengestelde richting hebben. Het is belangrijk om ze eerst apart te
+analyseren en daarna pas te combineren — niet andersom.</em></p>
+<p><strong>d)</strong> De leerling vergeet dat <strong>de groottes van
+Iris’ toename en Jeroen’s afname zelden precies gelijk zijn</strong>.
+“Verandert niet” zou alleen kloppen als de extra vraag van Iris exact
+even groot is als de wegvallende vraag van Jeroen — dat is een bizonder
+toeval. Bovendien werken effecten op verschillende prijspunten anders
+door, dus zelfs als de totalen “kloppen”, kan de vorm van V_coll
+veranderen.</p>
+<p><em>Vuistregel: bij meerdere veranderingen op een markt moet je ze
+afzonderlijk analyseren voordat je iets over het netto-effect
+zegt.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<p><strong>a)</strong> Optellen van alle vier:</p>
+<pre><code>Q_coll = Q_1 + Q_2 + Q_3 + Q_4
+       = (-P + 3) + (-P + 4) + (-2P + 6) + (-P + 2)
+       = -5P + 15</code></pre>
+<p>Geldig zolang alle vier positief: laagste verzadigingsprijs is
+consument 4 (Q_4 = 0 bij P = 2).</p>
+<p>Antwoord: <strong>Q_coll = -5P + 15</strong>, geldig voor 0 ≤ P &lt;
+€2.</p>
+<p><strong>b)</strong> Bij <strong>P = €2</strong> verlaat consument 4
+als eerste de markt (Q_4 = -2 + 2 = 0).</p>
+<p><em>Waarom: De consument met de <strong>laagste
+verzadigingsprijs</strong> (de prijs waarbij hun individuele Q = 0)
+verlaat altijd het eerst de markt.</em></p>
+<p><strong>c)</strong> Schets: een lijn die onder €2 een hoge helling
+heeft (-5), bij P = €2 een knik krijgt, en daarboven minder steil verder
+loopt met de drie overgebleven kopers (Q_coll = (-P+3) + (-P+4) +
+(-2P+6) = -4P + 13). Daarboven volgen meer knikpunten waar consumenten 1
+en 2 afhaken (bij P = €3 en €4) en waar consument 3 als laatste afhaakt
+(bij P = €3).</p>
+<p><em>Waarom: Elke knik markeert een prijs waarbij een consument
+afhaakt. De collectieve lijn wordt steeds platter naarmate er minder
+kopers zijn.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 6</strong></p>
+<p><strong>a)</strong></p>
+<table>
+<thead>
+<tr>
+<th>P</th>
+<th>Q_jong = -10P+50</th>
+<th>Q_oud = -5P+40</th>
+<th>Q_coll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>€2</td>
+<td>30</td>
+<td>30</td>
+<td><strong>60</strong></td>
+</tr>
+<tr>
+<td>€3</td>
+<td>20</td>
+<td>25</td>
+<td><strong>45</strong></td>
+</tr>
+<tr>
+<td>€4</td>
+<td>10</td>
+<td>20</td>
+<td><strong>30</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>b)</strong> Algebraïsch:</p>
+<pre><code>Q_coll = Q_jong + Q_oud
+       = (-10P + 50) + (-5P + 40)
+       = -15P + 90</code></pre>
+<p>Check bij P = €3: -45 + 90 = 45. ✓</p>
+<p><strong>c)</strong> Jongeren afhaakprijs: -10P + 50 = 0 → P = €5.</p>
+<p><strong>d)</strong> Boven €5 geldt:</p>
+<pre><code>Q_coll (P &gt; 5) = Q_oud = -5P + 40</code></pre>
+<p>(Geldig tot P = €8, waar ook de oudere groep afhaakt.)</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 7</strong></p>
+<p><strong>a)</strong> Voor elke individuele consument: de eigen prijs
+verandert niet, maar het inkomen wel. Inkomen is een vraagfactor. Koffie
+is een normaal goed → bij dalend inkomen daalt de vraag.</p>
+<p>Antwoord: <strong>Verschuiving van</strong> elke individuele
+vraaglijn naar <strong>links</strong>.</p>
+<p><em>Waarom: Een vraagfactor (inkomen) verandert; dat verschuift de
+hele individuele vraaglijn. Voor een normaal goed: lager inkomen →
+minder vraag → naar links.</em></p>
+<p><strong>b)</strong> De collectieve vraaglijn V_coll is de horizontale
+optelsom van alle individuele lijnen. Als élke individuele lijn naar
+links verschuift, schuift de optelsom van die lijnen óók naar links —
+bij elke prijs is de collectieve gevraagde hoeveelheid lager dan
+voorheen.</p>
+<p>Antwoord: <strong>V_coll verschuift naar links.</strong></p>
+<p><em>Waarom: Wat gebeurt op individueel niveau, slaat één-op-één door
+naar collectief niveau zolang álle individuele lijnen in dezelfde
+richting bewegen. Als slechts één consument zou verschuiven, zou alleen
+zijn deel van V_coll veranderen.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 8</strong></p>
+<p><strong>a)</strong> Stap 1: Procentuele verandering = (nieuw − oud) /
+oud × 100%</p>
+<p>Stap 2: = (13.800 − 12.000) / 12.000 × 100% = 1.800 / 12.000 × 100% =
+<strong>15%</strong></p>
+<p>Antwoord: De gevraagde hoeveelheid is met <strong>15%</strong>
+gestegen.</p>
+<p><em>Kun je deze opgave niet maken? Herhaal dan §1.1.2.</em></p>
+<p><strong>b)</strong> Stap 1: Procentuele verandering = (nieuw − oud) /
+oud × 100%</p>
+<p>Stap 2: = (10 − 12) / 12 × 100% = −2 / 12 × 100% ≈
+<strong>−16,67%</strong></p>
+<p>Antwoord: De prijs is met ongeveer <strong>16,67%
+gedaald</strong>.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 9</strong></p>
+<p><strong>a)</strong></p>
+<table>
+<thead>
+<tr>
+<th>P (€)</th>
+<th>Q_studenten</th>
+<th>Q_werkenden</th>
+<th>Q_collectief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6</td>
+<td>200</td>
+<td>800</td>
+<td><strong>1.000</strong></td>
+</tr>
+<tr>
+<td>8</td>
+<td>100</td>
+<td>600</td>
+<td><strong>700</strong></td>
+</tr>
+<tr>
+<td>10</td>
+<td>0</td>
+<td>400</td>
+<td><strong>400</strong></td>
+</tr>
+<tr>
+<td>12</td>
+<td>0</td>
+<td>200</td>
+<td><strong>200</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>b)</strong> De studenten-groep verlaat de markt bij <strong>P
+= €10</strong> (Q_studenten = 0).</p>
+<p><strong>c)</strong> Op P = €10 krijgt de collectieve vraagcurve een
+<strong>knik</strong>: onder €10 lopen beide groepen mee, boven €10
+alleen de werkenden, dus de collectieve curve loopt daarboven minder
+steil.</p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 10</strong></p>
+<p><strong>a)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Prijs (€)</th>
+<th>Q_Anna</th>
+<th>Q_Ben</th>
+<th>Q_collectief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>5</td>
+<td>8</td>
+<td><strong>13</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>5</td>
+<td><strong>8</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td>1</td>
+<td>2</td>
+<td><strong>3</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td>0</td>
+<td>1</td>
+<td><strong>1</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>b)</strong> In een grafiek met P op de y-as en Q op de x-as:
+teken V_Anna door de punten (1, 5), (2, 3), (3, 1), (4, 0); teken V_Ben
+door (1, 8), (2, 5), (3, 2), (4, 1); teken V_coll door (1, 13), (2, 8),
+(3, 3), (4, 1). Boven P = €4 ligt V_coll op V_Ben (alleen Ben koopt
+nog).</p>
+<p><strong>c)</strong></p>
+<pre><code>Q_coll = Q_Anna + Q_Ben
+       = (-2P + 7) + (-3P + 11)
+       = -5P + 18</code></pre>
+<p>Geldig voor 0 ≤ P &lt; 3,5 (waar Anna’s Q nul wordt: -2P + 7 = 0 → P
+= 3,5).</p>
+<p><strong>d)</strong> Anna’s vraag is nul bij <strong>P = €3,5</strong>
+(uit <code>-2P + 7 = 0</code>). Op P = €3,5 krijgt V_coll een
+<strong>knik</strong>: boven €3,5 verdwijnt Anna’s bijdrage en
+geldt:</p>
+<pre><code>Q_coll (P &gt; 3,5) = Q_Ben = -3P + 11</code></pre>
+<p>Deze functie is op zijn beurt geldig tot P ≈ €3,67 (waar ook Ben
+afhaakt). Daarboven is Q_coll = 0.</p>
+<p><em>Waarom: Een knik markeert altijd het in- of uitstappen van een
+consument. Boven het knikpunt versmalt de markt naar minder kopers, en
+de helling van V_coll wordt vlakker.</em></p>
+<hr />
+</div><div class="exercise"><p><strong>Opgave 11 — modelantwoord en
+beoordelingscriteria</strong></p>
+<p><em>Modelantwoord:</em></p>
+<p><strong>(a)</strong> De wethouder heeft gedeeltelijk gelijk: een
+prijsverlaging zorgt ervoor dat consumenten die al bus rijden,
+<em>meer</em> gaan rijden (meer ritjes per maand) — een <strong>beweging
+langs</strong> hun individuele vraaglijn naar rechts. Maar hij
+overdrijft als hij zegt dat <em>álle</em> inwoners meer gaan kopen. Veel
+inwoners hebben helemaal geen bus in hun individuele vraagcurve (Q = 0
+bij elke prijs binnen het gangbare bereik). Een prijsverlaging beweegt
+hen niet langs hun lijn — hun lijn ligt al op nul.</p>
+<p><strong>(b)</strong> Een individuele vraaglijn is alleen “actief” als
+de consument bij de huidige prijzen überhaupt iets wil kopen. Voor
+inwoners die principieel geen bus gebruiken, ligt hun individuele
+vraaglijn helemaal links of zelfs op de y-as. Een prijsverlaging laat ze
+hooguit nét de markt opkomen, maar voor de meesten verandert er niks. De
+<strong>collectieve vraag</strong> stijgt dus beperkt, niet sterk.</p>
+<p><strong>(c)</strong> Een <strong>prijsverlaging</strong> zorgt voor
+een <strong>beweging langs</strong> de bestaande collectieve vraaglijn
+(omlaag-naar-rechts). Een <strong>reclamecampagne</strong> verandert de
+voorkeur — een vraagfactor — en zorgt voor een <strong>verschuiving
+van</strong> de vraaglijn naar rechts. De campagne raakt ook de inwoners
+die nu nog op nul zitten, omdat hun voorkeur verandert. De combinatie
+van beide effecten geeft het sterkste resultaat: én meer ritjes per
+huidige busreiziger, én nieuwe busreizigers.</p>
+<p><em>Beoordelingscriteria:</em> - Maakt het onderscheid tussen
+<em>bestaande</em> en <em>potentiële</em> busreizigers - Gebruikt het
+begrippenpaar <em>beweging langs</em> vs <em>verschuiving van</em>
+correct - Erkent dat een prijsverlaging een beweging langs is, niet een
+verschuiving - Legt uit waarom de campagne wél een verschuiving
+veroorzaakt (vraagfactor: voorkeur) - Concludeert dat beide instrumenten
+samen sterker werken dan elk apart</p>
+</body>
+</html>

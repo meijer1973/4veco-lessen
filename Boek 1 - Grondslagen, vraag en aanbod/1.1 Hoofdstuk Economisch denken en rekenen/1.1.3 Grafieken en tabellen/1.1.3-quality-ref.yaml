@@ -1,0 +1,34 @@
+# Quality Reference — 1.1.3 Grafieken en tabellen
+# Generated: 2026-04-14
+
+paragraph: "1.1.3"
+title: "Grafieken en tabellen"
+type: theory
+
+content:
+  paragraaf_md: true
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: true
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  build_pdf_py: true
+
+assets:
+  total_referenced: 6
+  total_present: 6
+  missing: []
+  svgpng_paired: true
+  naming_compliant: true
+  inventory:
+    - 1.1.3_fig_1 (P/Q grafiek met 5 datapunten)
+    - 1.1.3_fig_2 (interpolatie met stippellijnen)
+    - 1.1.3_fig_3 (juiste vs verkeerde assenconventie)
+    - 1.1.3_we_1 (uitgewerkt voorbeeld: limonade)
+    - 1.1.3_ex_1 (opgave: broodjeswinkel)
+    - 1.1.3_ex_2 (opgave: bioscoop interpolatie)
+
+review:
+  file: "1.1.3-review.md"
+  unresolved_fails: 0
+  verdict: "FLAG"

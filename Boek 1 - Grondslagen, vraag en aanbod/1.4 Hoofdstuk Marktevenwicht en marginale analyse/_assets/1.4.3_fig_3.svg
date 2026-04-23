@@ -1,0 +1,101 @@
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="420" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1E2761">Bedrijf 2: TK en TO (TK = 100 + Q&#178;, TO = 30Q)</text>
+
+  <!-- Plot area: x=80..680, y=50..350
+       Q range: 0..22, euro range: 0..650
+       px_per_Q = 600/22 = 27.273
+       px_per_euro = 300/650 = 0.4615
+       q_to_x(q) = 80 + q * 27.273
+       euro_to_y(v) = 350 - v * 0.4615
+  -->
+
+  <!-- Grid lines -->
+  <line x1="80" y1="303.8" x2="680" y2="303.8" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 100 -->
+  <line x1="80" y1="257.7" x2="680" y2="257.7" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 200 -->
+  <line x1="80" y1="211.5" x2="680" y2="211.5" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 300 -->
+  <line x1="80" y1="165.4" x2="680" y2="165.4" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 400 -->
+  <line x1="80" y1="119.2" x2="680" y2="119.2" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 500 -->
+  <line x1="80" y1="73.1" x2="680" y2="73.1" stroke="#E5E5E5" stroke-width="0.7" stroke-dasharray="4,3"/><!-- 600 -->
+
+  <!-- Y-axis -->
+  <line x1="80" y1="350" x2="80" y2="42" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,42 76,52 84,52" fill="#2D3748"/>
+  <text x="15" y="200" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096" transform="rotate(-90,15,200)">Euro (&#8364;)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="350" x2="685" y2="350" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="685,350 675,346 675,354" fill="#2D3748"/>
+  <text x="380" y="400" text-anchor="middle" font-family="Arial" font-size="12" fill="#718096">Hoeveelheid (Q)</text>
+
+  <!-- Origin -->
+  <text x="72" y="365" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">0</text>
+
+  <!-- Y-axis ticks -->
+  <line x1="75" y1="303.8" x2="80" y2="303.8" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="308" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">100</text>
+  <line x1="75" y1="257.7" x2="80" y2="257.7" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="262" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">200</text>
+  <line x1="75" y1="211.5" x2="80" y2="211.5" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="216" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">300</text>
+  <line x1="75" y1="165.4" x2="80" y2="165.4" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="169" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">400</text>
+  <line x1="75" y1="119.2" x2="80" y2="119.2" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="123" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">500</text>
+  <line x1="75" y1="73.1" x2="80" y2="73.1" stroke="#2D3748" stroke-width="1"/>
+  <text x="72" y="77" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">600</text>
+
+  <!-- X-axis ticks -->
+  <line x1="216.4" y1="350" x2="216.4" y2="355" stroke="#2D3748" stroke-width="1"/>
+  <text x="216.4" y="368" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">5</text>
+  <line x1="352.7" y1="350" x2="352.7" y2="355" stroke="#2D3748" stroke-width="1"/>
+  <text x="352.7" y="368" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">10</text>
+  <line x1="489.1" y1="350" x2="489.1" y2="355" stroke="#2D3748" stroke-width="1"/>
+  <text x="489.1" y="368" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">15</text>
+  <line x1="625.5" y1="350" x2="625.5" y2="355" stroke="#2D3748" stroke-width="1"/>
+  <text x="625.5" y="368" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">20</text>
+
+  <!-- TK = 100 + Q^2: parabola
+       Points: Q=0: 100, Q=5: 125, Q=10: 200, Q=15: 325, Q=20: 500
+       Smooth curve using path
+       Q=0: x=80, y=350-100*0.4615=303.8
+       Q=5: x=216.4, y=350-125*0.4615=292.3
+       Q=10: x=352.7, y=350-200*0.4615=257.7
+       Q=15: x=489.1, y=350-325*0.4615=200.0
+       Q=20: x=625.5, y=350-500*0.4615=119.2
+  -->
+  <path d="M 80,303.8 Q 148,300 216.4,292.3 Q 284,276 352.7,257.7 Q 421,228 489.1,200.0 Q 557,157 625.5,119.2"
+        fill="none" stroke="#E67E22" stroke-width="2.5"/>
+  <text x="635" y="115" font-family="Arial" font-size="12" font-weight="bold" fill="#E67E22">TK</text>
+
+  <!-- TO = 30Q: straight line
+       Q=0: x=80, y=350
+       Q=20: euro=600, x=625.5, y=350-600*0.4615=73.1
+  -->
+  <line x1="80" y1="350" x2="625.5" y2="73.1" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="635" y="69" font-family="Arial" font-size="12" font-weight="bold" fill="#1A5276">TO</text>
+
+  <!-- Data dots on TK -->
+  <circle cx="80" cy="303.8" r="3.5" fill="#E67E22"/>
+  <circle cx="216.4" cy="292.3" r="3.5" fill="#E67E22"/>
+  <circle cx="352.7" cy="257.7" r="3.5" fill="#E67E22"/>
+  <circle cx="489.1" cy="200.0" r="3.5" fill="#E67E22"/>
+  <circle cx="625.5" cy="119.2" r="3.5" fill="#E67E22"/>
+
+  <!-- Data dots on TO -->
+  <circle cx="80" cy="350" r="3.5" fill="#1A5276"/>
+  <circle cx="216.4" cy="280.8" r="3.5" fill="#1A5276"/><!-- TO(5)=150, y=350-69.2=280.8 -->
+  <circle cx="352.7" cy="211.5" r="3.5" fill="#1A5276"/><!-- TO(10)=300, y=350-138.5=211.5 -->
+  <circle cx="489.1" cy="142.3" r="3.5" fill="#1A5276"/><!-- TO(15)=450, y=350-207.7=142.3 -->
+  <circle cx="625.5" cy="73.1" r="3.5" fill="#1A5276"/><!-- TO(20)=600, y=350-276.9=73.1 -->
+
+  <!-- Annotation: TK curve bends upward -->
+  <text x="420" y="245" font-family="Arial" font-size="10" font-style="italic" fill="#E67E22">TK buigt omhoog</text>
+  <text x="420" y="257" font-family="Arial" font-size="10" font-style="italic" fill="#E67E22">(kwadratisch)</text>
+
+  <!-- Annotation: TO is recht -->
+  <text x="170" y="295" font-family="Arial" font-size="10" font-style="italic" fill="#1A5276">TO is recht (P constant)</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">De vraaglijn voor boter</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="180" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748" transform="rotate(-90, 15, 180)">Prijs (€)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,310 670,306 670,314" fill="#2D3748"/>
+  <text x="380" y="350" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748">Hoeveelheid (pakjes per week)</text>
+
+  <!-- Origin -->
+  <text x="72" y="325" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">0</text>
+
+  <!-- Demand curve P = -Q/300 + 5.33 (shared scale across fig 1-4) -->
+  <line x1="80" y1="75" x2="680" y2="310" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="685" y="310" font-family="Arial" font-size="16" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- Reference points €2/1000 and €3/700 -->
+  <circle cx="455" cy="222" r="4" fill="#1A5276"/>
+  <circle cx="342" cy="178" r="4" fill="#1A5276"/>
+
+  <!-- Dashed lines -->
+  <line x1="80" y1="222" x2="455" y2="222" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="455" y1="222" x2="455" y2="310" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="80" y1="178" x2="342" y2="178" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="342" y1="178" x2="342" y2="310" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Labels -->
+  <text x="72" y="182" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€3</text>
+  <text x="72" y="226" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">€2</text>
+  <text x="342" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">700</text>
+  <text x="455" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">1000</text>
+</svg>

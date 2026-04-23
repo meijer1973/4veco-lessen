@@ -1,0 +1,69 @@
+# === QUALITY REFERENCE ===
+# Generated: 2026-04-23
+# Paragraph: 1.2.2 Vraagfactoren
+
+quality_ref:
+  paragraph: "1.2.2 Vraagfactoren"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.2 Hoofdstuk Vraag"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  leerdoelen:
+    - id: L1
+      beschrijving: "Een own-price change herkennen als beweging langs de vraaglijn."
+      eindterm: "D1.2 individuele vraaglijn"
+      bloom: "begrijpen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L2
+      beschrijving: "Vraagfactoren herkennen en de richting van een vraaglijnverschuiving bepalen."
+      eindterm: "D1.4a verschuiving collectieve vraaglijn"
+      bloom: "toepassen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L3
+      beschrijving: "Substituten, complementen, normale goederen en inferieure goederen correct classificeren."
+      eindterm: "D1.4b parallelle verschuiving"
+      bloom: "analyseren"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+
+  componenten:
+    paragraaf:
+      aanwezig: true
+      doel: "Legt het verschil uit tussen beweging langs en verschuiving van de vraaglijn."
+      inspectie: [OP3]
+      didactiek: ["dual coding", "misconceptie-gericht toetsen", "expliciet lesdoel"]
+    opgaven:
+      aanwezig: true
+      doel: "Oefent classificeren, tekenen, gecombineerde veranderingen en transfer naar beleid."
+      inspectie: [OP3, OR1]
+      didactiek: ["Bloom-opbouw", "interleaving", "fading"]
+    antwoorden:
+      aanwezig: true
+      doel: "Geeft procedurele feedback per veranderingsstap."
+      inspectie: [OP2, OP3]
+      didactiek: ["formatief evalueren", "antwoordstructurering"]
+    companion_materialen:
+      aanwezig: false
+      doel: "Niet aanwezig in deze QC-scope."
+      inspectie: []
+      didactiek: []
+
+  assets:
+    total_referenced: 9
+    total_present: 9
+    missing: []
+    orphaned: []
+    svgpng_paired: true
+    naming_compliant: true
+
+  verantwoording:
+    differentiatie: "De reeks bevat herkenning, tekenen, gecombineerde verandering, herhaling en bonusbeoordeling."
+    dual_coding: "Beweging en verschuiving worden steeds met pijlen en curvebeelden ondersteund."
+    scaffolding_fading: "Opgaven starten met volledig getekende situaties en eindigen met zelfstandig tekenen."
+    voorkennis_aansluiting: "De paragraaf herneemt ceteris paribus, betalingsbereidheid, procenten en grafieklezen."
+    formatief: "Antwoorden geven bij elk scenario de stap wat verandert, factor, richting en grafiekgevolg."
+    veelgemaakte_fouten: "De centrale verwarring tussen own-price movement en vraagfactor-shift wordt expliciet benoemd."
+    lesdoel_zichtbaarheid: "De opening en samenvatting maken het kernonderscheid zichtbaar."
+    oefentijd: "Elf opgaven bieden veel classificatie- en toepassingsmomenten."

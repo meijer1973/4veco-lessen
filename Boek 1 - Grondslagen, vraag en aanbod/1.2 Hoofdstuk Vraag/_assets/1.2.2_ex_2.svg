@@ -1,0 +1,35 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="360" rx="8" fill="#F7FAFC"/>
+  <text x="360" y="25" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">Markt voor smartphones</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="80,45 76,55 84,55" fill="#2D3748"/>
+  <text x="15" y="180" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748" transform="rotate(-90, 15, 180)">Prijs (€)</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="1.5"/>
+  <polygon points="680,310 670,306 670,314" fill="#2D3748"/>
+  <text x="380" y="350" text-anchor="middle" font-family="Arial" font-size="15" fill="#2D3748">Hoeveelheid smartphones (Q)</text>
+
+  <text x="72" y="325" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">0</text>
+
+  <!-- Demand: P = -0.6Q + 1200
+       Q range: 0..2000, scale 600px => x = 80 + Q * 0.3
+       P range: 0..1200, scale 265px => y = 310 - P * 0.221
+       Q=0: x=80, P=1200: y=310-265=45
+       Q=2000: x=680, P=0: y=310
+  -->
+  <line x1="80" y1="45" x2="680" y2="310" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="685" y="310" font-family="Arial" font-size="16" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- E: Q=1000, P=600 => x=80+1000*0.3=380, y=310-600*0.221=310-132.5=177 -->
+  <circle cx="380" cy="177" r="5" fill="#2D3748"/>
+  <text x="390" y="172" font-family="Arial" font-size="15" font-weight="bold" fill="#2D3748">E</text>
+
+  <line x1="80" y1="177" x2="380" y2="177" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="380" y1="177" x2="380" y2="310" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <text x="72" y="181" text-anchor="end" font-family="Arial" font-size="14" fill="#2D3748">600</text>
+  <text x="380" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#2D3748">1000</text>
+</svg>

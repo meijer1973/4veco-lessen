@@ -1,0 +1,71 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="720" height="400" rx="8" fill="#F7FAFC"/>
+
+  <!-- Title -->
+  <text x="360" y="28" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#2D3748">Van trapfunctie naar vloeiende vraaglijn</text>
+
+  <!-- === LEFT PANEL: Step function === -->
+  <text x="195" y="55" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1A5276">Individueel (discrete eenheden)</text>
+
+  <!-- Left Y-axis -->
+  <line x1="60" y1="330" x2="60" y2="75" stroke="#2D3748" stroke-width="1.2"/>
+  <polygon points="60,75 57,83 63,83" fill="#2D3748"/>
+  <text x="30" y="200" text-anchor="middle" font-family="Arial" font-size="12" fill="#2D3748" transform="rotate(-90,30,200)">P (€)</text>
+
+  <!-- Left X-axis -->
+  <line x1="60" y1="330" x2="340" y2="330" stroke="#2D3748" stroke-width="1.2"/>
+  <polygon points="340,330 332,327 332,333" fill="#2D3748"/>
+  <text x="200" y="370" text-anchor="middle" font-family="Arial" font-size="12" fill="#2D3748">Q (stuks)</text>
+
+  <!-- Left ticks Y -->
+  <text x="52" y="314" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">€2</text>
+  <text x="52" y="271" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">€5</text>
+  <text x="52" y="207" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">€9</text>
+  <text x="52" y="143" text-anchor="end" font-family="Arial" font-size="11" fill="#2D3748">€12</text>
+
+  <!-- Left ticks X -->
+  <text x="130" y="348" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">1</text>
+  <text x="200" y="348" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">2</text>
+  <text x="270" y="348" text-anchor="middle" font-family="Arial" font-size="11" fill="#2D3748">3</text>
+
+  <!-- Step function -->
+  <polyline points="60,140 130,140 130,204 200,204 200,268 270,268 270,311 340,311"
+            fill="none" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="315" y="303" font-family="Arial" font-size="15" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- === ARROW between panels === -->
+  <line x1="355" y1="200" x2="385" y2="200" stroke="#2D3748" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs><marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2D3748"/></marker></defs>
+  <text x="370" y="225" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">veel</text>
+  <text x="370" y="240" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">kopers</text>
+
+  <!-- === RIGHT PANEL: Smooth demand curve === -->
+  <text x="545" y="55" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1A5276">Markt (deelbare hoeveelheden)</text>
+
+  <!-- Right Y-axis -->
+  <line x1="410" y1="330" x2="410" y2="75" stroke="#2D3748" stroke-width="1.2"/>
+  <polygon points="410,75 407,83 413,83" fill="#2D3748"/>
+  <text x="393" y="200" text-anchor="middle" font-family="Arial" font-size="12" fill="#2D3748" transform="rotate(-90,393,200)">P (€)</text>
+
+  <!-- Right X-axis -->
+  <line x1="410" y1="330" x2="690" y2="330" stroke="#2D3748" stroke-width="1.2"/>
+  <polygon points="690,330 682,327 682,333" fill="#2D3748"/>
+  <text x="550" y="370" text-anchor="middle" font-family="Arial" font-size="12" fill="#2D3748">Q</text>
+
+  <!-- Smooth demand curve (linear: from top-left to bottom-right) -->
+  <line x1="410" y1="100" x2="670" y2="320" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="675" y="315" font-family="Arial" font-size="15" font-weight="bold" fill="#1A5276">V</text>
+
+  <!-- Formula label -->
+  <text x="530" y="155" text-anchor="middle" font-family="Arial" font-size="13" font-style="italic" fill="#1A5276">Qv = -aP + b</text>
+
+  <!-- Dashed reference point -->
+  <circle cx="540" cy="210" r="4" fill="#1A5276"/>
+  <line x1="410" y1="210" x2="540" y2="210" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="540" y1="210" x2="540" y2="330" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Bottom annotation -->
+  <rect x="120" y="375" width="480" height="22" rx="4" fill="#EBF5FB" stroke="#3498DB" stroke-width="1"/>
+  <text x="360" y="391" text-anchor="middle" font-family="Arial" font-size="12" fill="#2D3748">De vraaglijn loopt altijd van linksboven naar rechtsonder: de <tspan font-weight="bold">wet van de vraag</tspan></text>
+</svg>

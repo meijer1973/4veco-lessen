@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial">
+  <!-- Background -->
+  <rect width="720" height="360" fill="#F7FAFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="360" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E2761">MK en MO: winstmaximalisatie</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#2D3748" stroke-width="2"/>
+  <line x1="80" y1="310" x2="80" y2="45" stroke="#2D3748" stroke-width="2"/>
+  <polygon points="680,310 672,306 672,314" fill="#2D3748"/>
+  <polygon points="80,45 76,53 84,53" fill="#2D3748"/>
+
+  <!-- Axis labels -->
+  <text x="15" y="180" text-anchor="middle" font-size="12" fill="#718096" transform="rotate(-90, 15, 180)">Euro per eenheid</text>
+  <text x="72" y="325" text-anchor="end" font-size="10" fill="#718096">0</text>
+
+  <!-- MO horizontal line at P=10 (vaste prijs, volkomen concurrentie) -->
+  <!-- Pixel mapping: euro 0..20 -> y 310..60; Q 0..100 -> x 80..680 -->
+  <!-- Scale: 1 euro = 12.5 px; 1Q = 6 px -->
+  <!-- P=10: y = 310 - 10*12.5 = 185 -->
+  <line x1="80" y1="185" x2="650" y2="185" stroke="#1A5276" stroke-width="2.5"/>
+  <text x="656" y="180" font-size="12" font-weight="bold" fill="#1A5276">MO = P</text>
+
+  <!-- MK rising line: MK = 2 + 0.16Q (lineair stijgend, simpel model) -->
+  <!-- At Q=0: MK=2 => y = 310 - 2*12.5 = 285 => (80, 285) -->
+  <!-- At Q=100: MK=18 => y = 310 - 18*12.5 = 85 => (680, 85) -->
+
+  <!-- Area MO > MK (profit zone, from Q=0 to intersection) -->
+  <!-- Intersection: 10 = 2 + 0.16Q => Q = 50 => x = 80 + 50*6 = 380 -->
+  <!-- At Q=50: both MO and MK = 10, y = 185 -->
+  <!-- Triangle: (80,185) to (380,185) to (80,285) -->
+  <polygon points="80,185 380,185 80,285" fill="#82E0AA" fill-opacity="0.4"/>
+
+  <!-- Area MO < MK (loss zone, from intersection to end) -->
+  <!-- Triangle: (380,185) to (680,185) to (680,85) -->
+  <polygon points="380,185 680,185 680,85" fill="#F1948A" fill-opacity="0.35"/>
+
+  <!-- MK line -->
+  <line x1="80" y1="285" x2="680" y2="85" stroke="#E67E22" stroke-width="2.5"/>
+  <text x="685" y="89" font-size="12" font-weight="bold" fill="#E67E22">MK</text>
+
+  <!-- Intersection point = winstmaximum -->
+  <circle cx="380" cy="185" r="5" fill="#E74C3C"/>
+
+  <!-- Dashed lines from intersection to axes -->
+  <line x1="380" y1="185" x2="380" y2="310" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="380" y="325" text-anchor="middle" font-size="10" fill="#2D3748">Q* = 50</text>
+  <text x="72" y="189" text-anchor="end" font-size="10" fill="#2D3748">10</text>
+
+  <!-- Area labels — positioned inside the shaded triangles -->
+  <!-- Green triangle: (80,185)-(380,185)-(80,285). Center ≈ (180,220) -->
+  <text x="185" y="220" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E8449">MO &gt; MK</text>
+  <text x="185" y="235" text-anchor="middle" font-size="10" fill="#1E8449">extra winst</text>
+  <!-- Red triangle: (380,185)-(680,185)-(680,85). Center ≈ (550,150) -->
+  <text x="550" y="145" text-anchor="middle" font-size="11" font-weight="bold" fill="#D9534F">MO &lt; MK</text>
+  <text x="550" y="160" text-anchor="middle" font-size="10" fill="#D9534F">winstdaling</text>
+
+  <!-- Winstmaximum label -->
+  <text x="380" y="168" text-anchor="middle" font-size="11" font-weight="bold" fill="#E74C3C">MO = MK</text>
+  <text x="380" y="155" text-anchor="middle" font-size="10" fill="#E74C3C">winstmaximum</text>
+
+  <!-- Decision rule box -->
+  <rect x="430" y="260" width="240" height="40" rx="4" fill="#ffffff" fill-opacity="0.9" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="550" y="278" text-anchor="middle" font-size="10" fill="#2D3748">Produceer zolang MO &#8805; MK</text>
+  <text x="550" y="293" text-anchor="middle" font-size="10" fill="#2D3748">Stop bij MO = MK</text>
+</svg>
