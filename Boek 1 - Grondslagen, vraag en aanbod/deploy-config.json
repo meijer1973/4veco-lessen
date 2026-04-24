@@ -24,10 +24,7 @@
       "id": "1.1.2",
       "name": "Percentages en indexcijfers",
       "chapter": "1.1",
-      "domain": "teal",
-      "skilltree": {
-        "skills": null
-      }
+      "domain": "teal"
     },
     {
       "id": "1.1.3",
