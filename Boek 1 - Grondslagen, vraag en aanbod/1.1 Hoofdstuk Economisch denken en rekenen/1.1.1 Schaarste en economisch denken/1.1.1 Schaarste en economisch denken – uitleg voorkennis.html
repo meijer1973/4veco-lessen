@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1.1.1 Schaarste en economisch denken – Uitleg voorkennis</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, sans-serif;
+    background: #F7F8FA;
+    color: #2D3748;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  :root {
+    --navy: #1E2761;
+    --dark: #2D3748;
+    --gray: #718096;
+    --light-gray: #F7F8FA;
+    --border-gray: #CBD5E0;
+    --white: #FFFFFF;
+    --sidebar-w: 260px;
+    --wiskunde-primary: #1A5276;
+    --wiskunde-light: #EBF5FB;
+    --wiskunde-dark: #154360;
+    --grafisch-primary: #1E8449;
+    --grafisch-light: #E8F8F0;
+    --grafisch-dark: #186A3B;
+    --economisch-primary: #E67E22;
+    --economisch-light: #FEF5E7;
+    --economisch-dark: #BA6A1C;
+  }
+
+  .page-layout { display: flex; min-height: 100vh; }
+
+  .sidebar {
+    width: var(--sidebar-w); flex-shrink: 0;
+    background: var(--white); border-right: 1px solid var(--border-gray);
+    position: sticky; top: 0; height: 100vh; overflow-y: auto;
+    padding: 1.2rem 0; z-index: 10;
+  }
+  .sidebar-header {
+    padding: 0.6rem 1.2rem 1rem;
+    border-bottom: 1px solid var(--border-gray);
+    margin-bottom: 0.6rem;
+  }
+  .sidebar-header h2 { font-size: 0.82rem; font-weight: bold; color: var(--navy); line-height: 1.3; }
+  .sidebar-header p { font-size: 0.7rem; color: var(--gray); margin-top: 0.2rem; }
+
+  .nav-item {
+    display: flex; align-items: flex-start; gap: 0.6rem;
+    padding: 0.65rem 1.2rem; cursor: pointer;
+    border-left: 3px solid transparent;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .nav-item:hover { background: #F7FAFC; }
+  .nav-item.active { background: var(--light-gray); font-weight: bold; }
+  .nav-item.active.domain-wiskunde { border-left-color: var(--wiskunde-primary); }
+  .domain-wiskunde .nav-number { background: var(--wiskunde-primary); }
+  .domain-wiskunde .nav-badge { background: var(--wiskunde-light); color: var(--wiskunde-primary); }
+  .section-header.border-wiskunde { border-bottom: 3px solid var(--wiskunde-primary); }
+  .section-num.bg-wiskunde { background: var(--wiskunde-primary); }
+  .badge-wiskunde { background: var(--wiskunde-light); color: var(--wiskunde-primary); }
+  .samenvatting-table caption.caption-wiskunde { background: var(--wiskunde-primary); }
+  .hero-card.card-wiskunde { border-top-color: var(--wiskunde-primary); }
+  .card-wiskunde .hero-card-domain { background: rgba(0,0,0,0.15); color: var(--wiskunde-light); }
+  .nav-item.active.domain-grafisch { border-left-color: var(--grafisch-primary); }
+  .domain-grafisch .nav-number { background: var(--grafisch-primary); }
+  .domain-grafisch .nav-badge { background: var(--grafisch-light); color: var(--grafisch-primary); }
+  .section-header.border-grafisch { border-bottom: 3px solid var(--grafisch-primary); }
+  .section-num.bg-grafisch { background: var(--grafisch-primary); }
+  .badge-grafisch { background: var(--grafisch-light); color: var(--grafisch-primary); }
+  .samenvatting-table caption.caption-grafisch { background: var(--grafisch-primary); }
+  .hero-card.card-grafisch { border-top-color: var(--grafisch-primary); }
+  .card-grafisch .hero-card-domain { background: rgba(0,0,0,0.15); color: var(--grafisch-light); }
+  .nav-item.active.domain-economisch { border-left-color: var(--economisch-primary); }
+  .domain-economisch .nav-number { background: var(--economisch-primary); }
+  .domain-economisch .nav-badge { background: var(--economisch-light); color: var(--economisch-primary); }
+  .section-header.border-economisch { border-bottom: 3px solid var(--economisch-primary); }
+  .section-num.bg-economisch { background: var(--economisch-primary); }
+  .badge-economisch { background: var(--economisch-light); color: var(--economisch-primary); }
+  .samenvatting-table caption.caption-economisch { background: var(--economisch-primary); }
+  .hero-card.card-economisch { border-top-color: var(--economisch-primary); }
+  .card-economisch .hero-card-domain { background: rgba(0,0,0,0.15); color: var(--economisch-light); }
+
+  .nav-number {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 22px; height: 22px; border-radius: 50%;
+    font-size: 0.7rem; font-weight: bold; color: var(--white); flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .nav-text { flex: 1; min-width: 0; }
+  .nav-title { font-size: 0.76rem; color: var(--dark); line-height: 1.3; display: block; }
+  .nav-badge {
+    display: inline-block; font-size: 0.6rem; font-weight: bold;
+    padding: 0.1rem 0.45rem; border-radius: 3px; margin-top: 0.2rem;
+    text-transform: uppercase; letter-spacing: 0.03em;
+  }
+
+  .sidebar-toggle {
+    display: none; position: fixed; top: 0.75rem; left: 0.75rem; z-index: 20;
+    width: 36px; height: 36px; border-radius: 6px; border: 1px solid var(--border-gray);
+    background: var(--white); cursor: pointer;
+    align-items: center; justify-content: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .sidebar-toggle svg { width: 20px; height: 20px; stroke: var(--dark); stroke-width: 2; fill: none; }
+  .sidebar-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 9; }
+
+  .content { flex: 1; min-width: 0; }
+
+  .hero {
+    background: var(--navy); color: var(--white);
+    padding: 2.5rem 2rem 1.8rem; position: relative;
+  }
+  .hero::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0;
+    height: 5px; background: linear-gradient(90deg, var(--wiskunde-primary) 0% 33%, var(--grafisch-primary) 33% 67%, var(--economisch-primary) 67% 100%);
+  }
+  .hero-inner { max-width: 860px; margin: 0 auto; }
+  .back-link {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    font-size: 0.82rem; color: rgba(255,255,255,0.7);
+    text-decoration: none; margin-bottom: 0.6rem;
+    transition: color 0.15s;
+  }
+  .back-link:hover { color: #fff; }
+  .back-link svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2; }
+  .hero-badge {
+    display: inline-block; background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2); padding: 0.25rem 0.85rem;
+    border-radius: 4px; font-size: 0.85rem; color: rgba(255,255,255,0.85);
+  }
+  .hero h1 { font-size: 2.1rem; font-weight: bold; margin: 0.6rem 0 0.3rem; }
+  .hero-sub { font-size: 0.95rem; color: rgba(255,255,255,0.65); }
+
+  .hero-cards {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem;
+    margin-top: 1.5rem;
+  }
+  .hero-card {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px; padding: 0.9rem; cursor: pointer;
+    transition: background 0.15s, transform 0.15s;
+    border-top: 3px solid transparent;
+  }
+  .hero-card:hover { background: rgba(255,255,255,0.14); transform: translateY(-2px); }
+  .hero-card-num { font-size: 0.7rem; font-weight: bold; opacity: 0.6; margin-bottom: 0.3rem; }
+  .hero-card-title { font-size: 0.82rem; font-weight: bold; line-height: 1.3; }
+  .hero-card-domain {
+    display: inline-block; font-size: 0.6rem; padding: 0.1rem 0.4rem;
+    border-radius: 3px; margin-top: 0.4rem; text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  main { max-width: 860px; margin: 0 auto; padding: 1.5rem 2rem 3rem; }
+
+  .section { margin-bottom: 3rem; scroll-margin-top: 1rem; }
+  .section-header {
+    display: flex; align-items: center; gap: 0.7rem;
+    padding-bottom: 0.7rem; margin-bottom: 1.2rem;
+  }
+  .section-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 34px; height: 34px; border-radius: 50%;
+    font-size: 0.95rem; font-weight: bold; color: var(--white); flex-shrink: 0;
+  }
+  .section-title-group { flex: 1; }
+  .section-title { font-size: 1.25rem; font-weight: bold; color: var(--dark); }
+  .section-badge {
+    display: inline-block; font-size: 0.65rem; font-weight: bold;
+    padding: 0.15rem 0.55rem; border-radius: 3px; margin-top: 0.15rem;
+    text-transform: uppercase; letter-spacing: 0.03em;
+  }
+
+  .sub-heading {
+    font-size: 1.05rem; font-weight: bold; color: var(--dark);
+    margin: 1.6rem 0 0.6rem; padding-left: 0.1rem;
+  }
+  .intro-text { font-size: 0.92rem; color: var(--gray); margin-bottom: 1rem; line-height: 1.7; }
+
+  .begrippen-table { width: 100%; border-collapse: collapse; margin-bottom: 1.2rem; font-size: 0.88rem; }
+  .begrippen-table th {
+    text-align: left; font-weight: bold; padding: 0.55rem 0.8rem;
+    border-bottom: 2px solid var(--border-gray); color: var(--dark);
+    font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em;
+  }
+  .begrippen-table td { padding: 0.55rem 0.8rem; border-bottom: 1px solid #EDF2F7; vertical-align: top; }
+  .begrippen-table tr:last-child td { border-bottom: none; }
+  .begrippen-table td:first-child { font-weight: 600; color: var(--dark); }
+  .begrippen-table td:last-child { color: #4A5568; }
+
+  .formula-box {
+    background: #F8F9FA; border: 1px solid #E2E8F0; border-radius: 6px;
+    padding: 1rem 1.2rem; margin-bottom: 1rem;
+    font-family: Consolas, 'Courier New', monospace; font-size: 0.88rem;
+    line-height: 1.8; color: var(--dark); border-left: 4px solid #A0AEC0;
+  }
+
+  .asset-figure {
+    text-align: center; margin: 1rem 0 1.2rem;
+  }
+  .asset-svg {
+    max-width: 100%; height: auto; border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+
+  .callout {
+    border-radius: 6px; padding: 0.85rem 1rem; margin-bottom: 0.8rem;
+    font-size: 0.88rem; line-height: 1.6;
+  }
+  .callout-kernregel { background: #FFF8E1; border-left: 4px solid #F9A825; color: #5D4037; }
+  .callout-letop { background: #FFF3E0; border-left: 4px solid #EF6C00; color: #BF360C; }
+  .callout-controle { background: #E8F5E9; border-left: 4px solid #43A047; color: #1B5E20; }
+  .callout-tip { background: #EBF5FB; border-left: 4px solid #1A5276; color: #154360; }
+  .callout-icon { margin-right: 0.4rem; }
+
+  .samenvatting-table {
+    width: 100%; border-collapse: collapse; margin-bottom: 1.2rem;
+    font-size: 0.88rem; background: var(--white);
+    border-radius: 6px; overflow: hidden; border: 1px solid #E2E8F0;
+  }
+  .samenvatting-table caption {
+    text-align: left; font-weight: bold; font-size: 0.82rem;
+    padding: 0.6rem 0.8rem; color: var(--white);
+  }
+  .samenvatting-table td { padding: 0.5rem 0.8rem; border-bottom: 1px solid #EDF2F7; vertical-align: top; }
+  .samenvatting-table tr:last-child td { border-bottom: none; }
+  .samenvatting-table td:first-child { font-weight: 600; color: var(--dark); width: 30%; }
+
+  .checklist-section {
+    background: var(--white); border: 1px solid var(--border-gray);
+    border-radius: 8px; padding: 1.5rem; margin-top: 2rem;
+  }
+  .checklist-title { font-size: 1.1rem; font-weight: bold; color: var(--dark); margin-bottom: 0.3rem; }
+  .checklist-sub { font-size: 0.85rem; color: var(--gray); margin-bottom: 1rem; }
+  .checklist-item {
+    display: flex; align-items: flex-start; gap: 0.6rem;
+    padding: 0.5rem 0; border-bottom: 1px solid #EDF2F7;
+    font-size: 0.88rem; color: var(--dark); cursor: pointer; user-select: none;
+  }
+  .checklist-item:last-child { border-bottom: none; }
+  .checklist-item input[type="checkbox"] {
+    width: 18px; height: 18px; margin-top: 1px; flex-shrink: 0;
+    accent-color: #1E8449; cursor: pointer;
+  }
+  .checklist-item.checked label { color: var(--gray); text-decoration: line-through; }
+
+  @media (max-width: 1024px) {
+    .hero-cards { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      position: fixed; left: -280px; top: 0; height: 100vh; width: 280px;
+      transition: left 0.25s ease; box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+    }
+    .sidebar.open { left: 0; }
+    .sidebar-toggle { display: flex; }
+    .sidebar-overlay.show { display: block; }
+    .hero { padding: 2rem 1.2rem 1.5rem; }
+    .hero h1 { font-size: 1.6rem; }
+    .hero-cards { grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+    main { padding: 1rem 1.2rem 2rem; }
+    .section-title { font-size: 1.1rem; }
+  }
+  @media (max-width: 480px) {
+    .hero-cards { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu openen">
+  <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="page-layout">
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>1.1.1 Schaarste en economisch denken</h2>
+      <p>Uitleg voorkennis</p>
+    </div>
+    <a class="nav-item domain-wiskunde" href="#sectie-1" data-section="sectie-1">
+      <span class="nav-number">1</span>
+      <span class="nav-text">
+        <span class="nav-title">Basale rekenvaardigheden</span>
+        <span class="nav-badge">Wiskundig</span>
+      </span>
+    </a>
+    <a class="nav-item domain-grafisch" href="#sectie-2" data-section="sectie-2">
+      <span class="nav-number">2</span>
+      <span class="nav-text">
+        <span class="nav-title">Staafdiagrammen lezen</span>
+        <span class="nav-badge">Grafisch</span>
+      </span>
+    </a>
+    <a class="nav-item domain-economisch" href="#sectie-3" data-section="sectie-3">
+      <span class="nav-number">3</span>
+      <span class="nav-text">
+        <span class="nav-title">Intuïtie voor kiezen</span>
+        <span class="nav-badge">Economisch</span>
+      </span>
+    </a>
+
+  </nav>
+
+  <div class="content">
+    <header class="hero">
+      <div class="hero-inner">
+        <a class="back-link" href="../index.html"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg> Terug naar overzicht</a>
+        <span class="hero-badge">1.1.1 &middot; Voorkennis</span>
+        <h1>Schaarste en economisch denken &mdash; Voorkennis</h1>
+        <p class="hero-sub">Wat moet je al kunnen voordat je aan deze paragraaf begint?</p>
+        <div class="hero-cards">
+          <div class="hero-card card-wiskunde" data-target="sectie-1">
+            <div class="hero-card-num">01</div>
+            <div class="hero-card-title">Basale rekenvaardigheden</div>
+            <span class="hero-card-domain">Wiskundig</span>
+          </div>
+          <div class="hero-card card-grafisch" data-target="sectie-2">
+            <div class="hero-card-num">02</div>
+            <div class="hero-card-title">Staafdiagrammen lezen</div>
+            <span class="hero-card-domain">Grafisch</span>
+          </div>
+          <div class="hero-card card-economisch" data-target="sectie-3">
+            <div class="hero-card-num">03</div>
+            <div class="hero-card-title">Intuïtie voor kiezen</div>
+            <span class="hero-card-domain">Economisch</span>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="section" id="sectie-1">
+        <div class="section-header border-wiskunde">
+          <span class="section-num bg-wiskunde">1</span>
+          <div class="section-title-group">
+            <div class="section-title">Basale rekenvaardigheden</div>
+            <span class="section-badge badge-wiskunde">Wiskundig</span>
+          </div>
+        </div>
+        <h3 class="sub-heading">Vermenigvuldigen en aftrekken met euro’s</h3>
+        <p class="intro-text">In de economie reken je voortdurend met bedragen. Meestal gaat het om twee eenvoudige bewerkingen: vermenigvuldigen (bijvoorbeeld een opbrengst per stuk keer het aantal stuks) en aftrekken (bijvoorbeeld om te kijken hoeveel je overhoudt, of wat het verschil is tussen twee opties). Je kent deze operaties natuurlijk allang — we frissen ze kort op in een economische context.</p>
+        <p class="intro-text">Vermenigvuldigen gebruik je als je een bedrag per eenheid hebt en je wilt weten wat het in totaal oplevert:</p>
+        <div class="formula-box">
+            totaal = aantal eenheden × bedrag per eenheid<br>
+            voorbeeld: 8 hectare × €500 per hectare = €4.000
+        </div>
+        <p class="intro-text">Aftrekken gebruik je als je het verschil tussen twee bedragen wilt weten — bijvoorbeeld tussen wat een keuze oplevert en wat de andere optie zou hebben opgeleverd:</p>
+        <div class="formula-box">
+            verschil = bedrag A − bedrag B<br>
+            voorbeeld: €5.000 − €3.500 = €1.500
+        </div>
+        <h3 class="sub-heading">Uitgewerkt voorbeeld</h3>
+        <p class="intro-text">Een boer heeft 10 hectare land en verbouwt tarwe met een opbrengst van €500 per hectare. Hoeveel levert het hem in totaal op?</p>
+        <div class="callout callout-tip">
+          <span class="callout-icon">&#10024;</span>
+          <strong>Tip:</strong> Ken de maaltafels tot 10 uit je hoofd. Zo hoef je je rekenmachine niet te pakken voor “aantal × prijs” — dat scheelt tijd bij een toets of opgave.
+        </div>
+        <div class="callout callout-controle">
+          <span class="callout-icon">&#9989;</span>
+          <strong>Controle:</strong> Kun je zonder rekenmachine uitrekenen: 8 × €500, en daarna €5.000 − €3.500?
+        </div>
+        <table class="samenvatting-table">
+          <caption class="caption-wiskunde">&#128203; Samenvatting</caption>
+          <tbody>
+            <tr><td>Vermenigvuldigen</td><td>totaal = aantal × bedrag per eenheid</td></tr>
+            <tr><td>Aftrekken</td><td>verschil = bedrag A − bedrag B</td></tr>
+            <tr><td>Toepassing</td><td>totale opbrengst en verschil tussen twee alternatieven uitrekenen</td></tr>
+          </tbody>
+        </table>
+
+      </section>
+
+      <section class="section" id="sectie-2">
+        <div class="section-header border-grafisch">
+          <span class="section-num bg-grafisch">2</span>
+          <div class="section-title-group">
+            <div class="section-title">Staafdiagrammen lezen</div>
+            <span class="section-badge badge-grafisch">Grafisch</span>
+          </div>
+        </div>
+        <h3 class="sub-heading">Wat is een staafdiagram?</h3>
+        <p class="intro-text">Een staafdiagram is een grafiek waarin je losse categorieën (bijvoorbeeld verschillende gewassen, producten of landen) naast elkaar ziet, elk met een eigen staaf. De hoogte van de staaf laat zien hoeveel er van die categorie is — bijvoorbeeld de opbrengst per hectare of het aantal verkochte eenheden. Je kent dit type grafiek al uit de onderbouw; we gebruiken het in economie om snel alternatieven met elkaar te kunnen vergelijken.</p>
+        <p class="intro-text">Drie dingen moet je altijd eerst bekijken voordat je iets aflast:</p>
+        <h3 class="sub-heading">Voorbeeld: winst per hectare</h3>
+        <p class="intro-text">In het staafdiagram hieronder zie je de winst per hectare voor drie gewassen die een boer kan verbouwen. Op de x-as staan de drie gewassen, op de y-as de winst per hectare in euro’s.</p>
+        <figure class="asset-figure">
+          <img src="_assets/1.1.1_ex_1.svg" alt="1.1.1_ex_1" class="asset-svg">
+        </figure>
+        <p class="intro-text">Voorbeeld van aflezen: trek vanaf de top van de maïs-staaf een denkbeeldige horizontale lijn naar de y-as. Daar lees je de winst per hectare van maïs af. Doe hetzelfde voor tarwe en zonnebloemen, en je kunt direct zien welk gewas het meest oplevert per hectare.</p>
+        <div class="callout callout-tip">
+          <span class="callout-icon">&#10024;</span>
+          <strong>Tip:</strong> Lees de as-labels altijd vóórdat je naar de staven kijkt. Zonder te weten wát de staaf meet (euro’s? aantallen? procenten?), kun je geen zinnige conclusie trekken.
+        </div>
+        <div class="callout callout-letop">
+          <span class="callout-icon">&#9888;&#65039;</span>
+          <strong>Let op:</strong> Let op bij grafieken waarbij de y-as niet bij 0 begint: een klein verschil lijkt dan opeens enorm. Kijk dus altijd naar de schaal, niet alleen naar de hoogteverhouding tussen de staven.
+        </div>
+        <div class="callout callout-controle">
+          <span class="callout-icon">&#9989;</span>
+          <strong>Controle:</strong> Kun je in een staafdiagram benoemen wat er op de x-as en y-as staat, en de hoogte van een staaf aflezen met de juiste eenheid?
+        </div>
+        <table class="samenvatting-table">
+          <caption class="caption-grafisch">&#128203; Samenvatting</caption>
+          <tbody>
+            <tr><td>X-as</td><td>De categorieën die je vergelijkt (bijv. gewassen)</td></tr>
+            <tr><td>Y-as</td><td>De hoeveelheid met eenheid (bijv. € per hectare)</td></tr>
+            <tr><td>Staaf</td><td>Hoogte = de waarde; aflezen naar de y-as</td></tr>
+            <tr><td>Schaal</td><td>Let op waar de as begint en in welke stappen hij oploopt</td></tr>
+          </tbody>
+        </table>
+
+      </section>
+
+      <section class="section" id="sectie-3">
+        <div class="section-header border-economisch">
+          <span class="section-num bg-economisch">3</span>
+          <div class="section-title-group">
+            <div class="section-title">Intuïtie voor kiezen</div>
+            <span class="section-badge badge-economisch">Economisch</span>
+          </div>
+        </div>
+        <h3 class="sub-heading">Je kiest al elke dag — vaak zonder erbij stil te staan</h3>
+        <p class="intro-text">Voor de economieles heb je nog geen economische theorie nodig om te snappen wat kiezen onder beperkingen is. Dat doe je al iedere dag. Je zakgeld is beperkt, je vrije tijd is beperkt, de ruimte in je tas is beperkt — en precies daarom moet je voortdurend kleine keuzes maken. Die ervaring vormt de intuïtie die je in §1.1.1 netjes in economische termen leert vangen.</p>
+        <p class="intro-text">Drie alledaagse situaties waarin je al onbewust economisch kiest:</p>
+        <h3 class="sub-heading">Wat gebeurt er in je hoofd als je kiest?</h3>
+        <p class="intro-text">Meestal kijk je eerst wat je opties zijn, daarna schat je in wat elke optie je oplevert (plezier, een goed cijfer, tijd met vrienden), en ten slotte kies je de optie die je het meest waard is. Ondertussen besef je — vaak zonder het bewust uit te spreken — dat je de andere opties opgeeft. Dit gevoel van “ik kan niet alles” is de intuïtie die economen vangen in het begrip schaarste en waarmee je in §1.1.1 gaat leren rekenen via alternatieve kosten.</p>
+        <div class="callout callout-tip">
+          <span class="callout-icon">&#10024;</span>
+          <strong>Tip:</strong> Maak het voor jezelf concreet: denk bij elke economische opgave eerst even aan een eigen keuze uit je dagelijks leven. Wat zijn mijn opties? Wat geef ik op? Die reflex helpt je later ook bij abstractere voorbeelden.
+        </div>
+        <div class="callout callout-controle">
+          <span class="callout-icon">&#9989;</span>
+          <strong>Controle:</strong> Kun je drie eigen voorbeelden noemen van situaties waarin je vandaag of deze week iets moest kiezen omdat tijd of geld beperkt was?
+        </div>
+        <table class="samenvatting-table">
+          <caption class="caption-economisch">&#128203; Samenvatting</caption>
+          <tbody>
+            <tr><td>Beperkte middelen</td><td>Geld, tijd en ruimte zijn nooit onbeperkt</td></tr>
+            <tr><td>Keuze maken</td><td>Opties vergelijken en de beste kiezen</td></tr>
+            <tr><td>Opgeven</td><td>Wat je niet kiest, loop je mis — dat hoort erbij</td></tr>
+          </tbody>
+        </table>
+
+      </section>
+
+
+      <div class="checklist-section">
+        <div class="checklist-title">Checklist voorkennis</div>
+        <p class="checklist-sub">Controleer of je de volgende zaken beheerst voordat je aan de paragraaf begint:</p>
+        <div class="checklist-item">
+          <input type="checkbox" id="check1">
+          <label for="check1">Ik kan uit mijn hoofd uitrekenen: 8 × €500.</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check2">
+          <label for="check2">Ik kan uit mijn hoofd uitrekenen: €5.000 − €3.500.</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check3">
+          <label for="check3">Ik kan in een staafdiagram de x-as en y-as benoemen.</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check4">
+          <label for="check4">Ik kan de hoogte van een staaf aflezen en de eenheid erbij noemen.</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check5">
+          <label for="check5">Ik let op of de y-as bij 0 begint vóórdat ik conclusies trek.</label>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="check6">
+          <label for="check6">Ik kan drie eigen voorbeelden noemen van kiezen bij beperkte tijd of geld.</label>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<script>
+(function() {
+  document.querySelectorAll('[data-section], [data-target]').forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      var id = el.dataset.section || el.dataset.target;
+      var target = document.getElementById(id);
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        sidebar.classList.remove('open');
+        overlay.classList.remove('show');
+      }
+    });
+  });
+
+  var navItems = document.querySelectorAll('.nav-item[data-section]');
+  var sections = document.querySelectorAll('.section');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        navItems.forEach(function(n) { n.classList.remove('active'); });
+        var active = document.querySelector('.nav-item[data-section="' + entry.target.id + '"]');
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-10% 0px -80% 0px' });
+  sections.forEach(function(s) { observer.observe(s); });
+
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('sidebarOverlay');
+  var toggle = document.getElementById('sidebarToggle');
+  toggle.addEventListener('click', function() {
+    sidebar.classList.toggle('open');
+    overlay.classList.toggle('show');
+  });
+  overlay.addEventListener('click', function() {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('show');
+  });
+
+  document.querySelectorAll('.checklist-item input').forEach(function(cb) {
+    cb.addEventListener('change', function() {
+      this.closest('.checklist-item').classList.toggle('checked', this.checked);
+    });
+  });
+})();
+</script>
+</body>
+</html>

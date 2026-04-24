@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1.1.1 Schaarste en economisch denken – Begeleide inoefening</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, sans-serif; background: #F7F8FA; color: #2D3748; line-height: 1.6; min-height: 100vh; }
+  a { color: inherit; text-decoration: none; }
+  :root {
+    --navy: #1E2761; --dark: #2D3748; --gray: #718096; --light-gray: #F7F8FA;
+    --border-gray: #CBD5E0; --white: #FFFFFF; --sidebar-w: 270px;
+    --accent: #1A5276; --accent-lt: #EBF5FB; --accent-dk: #154360;
+  }
+  .page-layout { display: flex; min-height: 100vh; }
+  .sidebar {
+    width: var(--sidebar-w); flex-shrink: 0; background: var(--white);
+    border-right: 1px solid var(--border-gray); position: sticky; top: 0;
+    height: 100vh; overflow-y: auto; padding: 1.2rem 0; z-index: 10;
+  }
+  .sidebar-header { padding: 0.6rem 1.2rem 1rem; border-bottom: 1px solid var(--border-gray); margin-bottom: 0.4rem; }
+  .sidebar-header h2 { font-size: 0.82rem; font-weight: bold; color: var(--navy); line-height: 1.3; }
+  .sidebar-header p { font-size: 0.7rem; color: var(--gray); margin-top: 0.2rem; }
+  .nav-opgave { margin-bottom: 0.15rem; }
+  .nav-opgave-title {
+    display: flex; align-items: center; gap: 0.45rem; padding: 0.45rem 1rem;
+    font-size: 0.76rem; font-weight: bold; color: var(--dark); cursor: pointer;
+    border-left: 3px solid transparent; transition: background 0.15s;
+  }
+  .nav-opgave-title:hover { background: #F7FAFC; }
+  .nav-opgave.expanded .nav-opgave-title { border-left-color: var(--accent); background: var(--light-gray); }
+  .nav-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; background: var(--accent); }
+  .nav-opgave-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .nav-arrow {
+    width: 14px; height: 14px; flex-shrink: 0; stroke: var(--gray); fill: none;
+    stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform 0.2s;
+  }
+  .nav-opgave.expanded .nav-arrow { transform: rotate(180deg); }
+  .nav-questions { display: none; padding: 0.1rem 0 0.3rem; }
+  .nav-opgave.expanded .nav-questions { display: block; }
+  .nav-q {
+    display: block; padding: 0.3rem 1rem 0.3rem 2.2rem; font-size: 0.72rem;
+    color: var(--gray); border-left: 3px solid transparent; overflow: hidden;
+    text-overflow: ellipsis; white-space: nowrap; cursor: pointer; transition: background 0.1s;
+  }
+  .nav-q:hover { color: var(--dark); background: #F7FAFC; }
+  .nav-q.active { color: var(--dark); font-weight: bold; border-left-color: var(--accent); background: var(--light-gray); }
+  .sidebar-toggle {
+    display: none; position: fixed; top: 0.75rem; left: 0.75rem; z-index: 20;
+    width: 36px; height: 36px; border-radius: 6px; border: 1px solid var(--border-gray);
+    background: var(--white); cursor: pointer; align-items: center; justify-content: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .sidebar-toggle svg { width: 20px; height: 20px; stroke: var(--dark); stroke-width: 2; fill: none; }
+  .sidebar-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 9; }
+  .content { flex: 1; min-width: 0; }
+  .hero {
+    background: var(--navy); color: var(--white); padding: 2.5rem 2rem 1.8rem; position: relative;
+  }
+  .hero::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px; background: var(--accent); }
+  .hero-inner { max-width: 860px; margin: 0 auto; }
+  .back-link {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    font-size: 0.82rem; color: rgba(255,255,255,0.7);
+    text-decoration: none; margin-bottom: 0.6rem;
+    transition: color 0.15s;
+  }
+  .back-link:hover { color: #fff; }
+  .back-link svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2; }
+  .hero-badge {
+    display: inline-block; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2);
+    padding: 0.25rem 0.85rem; border-radius: 4px; font-size: 0.85rem; color: rgba(255,255,255,0.85);
+  }
+  .hero h1 { font-size: 2.1rem; font-weight: bold; margin: 0.6rem 0 0.3rem; }
+  .hero-sub { font-size: 0.95rem; color: rgba(255,255,255,0.65); }
+  .hero-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.7rem; margin-top: 1.5rem; }
+  .hero-card {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px; padding: 0.8rem; cursor: pointer; transition: background 0.15s, transform 0.15s;
+    border-top: 3px solid var(--accent);
+  }
+  .hero-card:hover { background: rgba(255,255,255,0.14); transform: translateY(-2px); }
+  .hero-card-num { font-size: 0.7rem; font-weight: bold; opacity: 0.6; margin-bottom: 0.2rem; }
+  .hero-card-title { font-size: 0.78rem; font-weight: bold; line-height: 1.3; }
+  .hero-card-count { font-size: 0.6rem; opacity: 0.5; margin-top: 0.3rem; }
+  main { max-width: 860px; margin: 0 auto; padding: 1.5rem 2rem 3rem; }
+  .opgave-section { margin-bottom: 2.5rem; scroll-margin-top: 1rem; }
+  .opgave-header {
+    display: flex; align-items: center; gap: 0.7rem; padding-bottom: 0.7rem;
+    margin-bottom: 0.8rem; border-bottom: 3px solid var(--accent);
+  }
+  .opgave-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 34px; height: 34px; border-radius: 50%; font-size: 0.95rem;
+    font-weight: bold; color: var(--white); background: var(--accent); flex-shrink: 0;
+  }
+  .opgave-title-group { flex: 1; }
+  .opgave-title { font-size: 1.2rem; font-weight: bold; color: var(--dark); }
+  .opgave-badge {
+    display: inline-block; font-size: 0.65rem; font-weight: bold; padding: 0.15rem 0.55rem;
+    border-radius: 3px; margin-top: 0.15rem; text-transform: uppercase; letter-spacing: 0.03em;
+    background: var(--accent-lt); color: var(--accent);
+  }
+  .context-box {
+    background: #F8F9FA; border: 1px solid #E2E8F0; border-radius: 6px;
+    padding: 0.9rem 1.1rem; margin-bottom: 1.2rem; font-family: Consolas, 'Courier New', monospace;
+    font-size: 0.85rem; line-height: 1.7; color: var(--dark); border-left: 4px solid var(--accent);
+  }
+  .opgave-intro {
+    font-size: 0.92rem; color: var(--dark); margin-bottom: 1rem; padding: 0.7rem 0.9rem;
+    background: #FAFBFC; border-radius: 6px; border-left: 3px solid var(--border-gray);
+  }
+  .question-card {
+    background: var(--white); border: 1px solid var(--border-gray); border-radius: 8px;
+    margin-bottom: 1rem; overflow: hidden; scroll-margin-top: 1rem;
+  }
+  .question-header { padding: 0.9rem 1.2rem; border-bottom: 1px solid #EDF2F7; }
+  .question-label {
+    font-size: 0.72rem; font-weight: bold; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .question-text { font-size: 0.92rem; color: var(--dark); line-height: 1.6; }
+  .fill-in {
+    background: #FAFBFC; border: 1px solid #E2E8F0; border-radius: 6px;
+    padding: 0.8rem 1rem; margin: 0.6rem 1.2rem; font-family: Consolas, 'Courier New', monospace;
+    font-size: 0.85rem; line-height: 1.8; color: var(--dark);
+  }
+  .helper-section { padding: 0 1.2rem 0.8rem; }
+  details { border-radius: 5px; margin-bottom: 0.5rem; overflow: hidden; }
+  details summary {
+    padding: 0.55rem 0.8rem; font-size: 0.82rem; font-weight: 600; cursor: pointer;
+    user-select: none; list-style: none; display: flex; align-items: center; gap: 0.4rem;
+    border-radius: 5px; transition: background 0.15s;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::before { content: "▸"; font-size: 0.7rem; transition: transform 0.2s; flex-shrink: 0; }
+  details[open] summary::before { transform: rotate(90deg); }
+  details .detail-content { padding: 0.5rem 0.8rem 0.7rem; font-size: 0.85rem; line-height: 1.7; }
+  .helper-denkstappen summary { background: #E8F4FD; color: #1565C0; }
+  .helper-denkstappen summary:hover { background: #D0EAFB; }
+  .helper-denkstappen .detail-content { background: #F1F8FE; color: #0D47A1; }
+  .helper-hint summary { background: #FFF8E1; color: #F57F17; }
+  .helper-hint summary:hover { background: #FFF0C0; }
+  .helper-hint .detail-content { background: #FFFCF0; color: #E65100; }
+  .helper-formule summary { background: #F3E5F5; color: #6A1B9A; }
+  .helper-formule summary:hover { background: #E8D5EB; }
+  .helper-formule .detail-content { background: #F9F0FB; color: #4A148C; font-family: Consolas, 'Courier New', monospace; }
+  .helper-letop summary { background: #FFF3E0; color: #BF360C; }
+  .helper-letop summary:hover { background: #FFE8CC; }
+  .helper-letop .detail-content { background: #FFF8F0; color: #BF360C; }
+  .helper-controle summary { background: #E8F5E9; color: #1B5E20; }
+  .helper-controle summary:hover { background: #D5ECD7; }
+  .helper-controle .detail-content { background: #F0FAF0; color: #1B5E20; }
+  .helper-kernregel summary { background: #FFF8E1; color: #5D4037; }
+  .helper-kernregel summary:hover { background: #FFF0C0; }
+  .helper-kernregel .detail-content { background: #FFFCF0; color: #5D4037; }
+  .helper-tip summary { background: #EBF5FB; color: #154360; }
+  .helper-tip summary:hover { background: #D6EAF8; }
+  .helper-tip .detail-content { background: #F4FAFE; color: #154360; }
+  .answer-toggle { border-top: 1px solid #EDF2F7; }
+  .answer-toggle summary {
+    padding: 0.7rem 1.2rem; font-size: 0.85rem; font-weight: bold; color: var(--accent);
+    cursor: pointer; user-select: none; list-style: none; display: flex; align-items: center;
+    gap: 0.4rem; background: var(--accent-lt); transition: background 0.15s;
+  }
+  .answer-toggle summary::-webkit-details-marker { display: none; }
+  .answer-toggle summary::before { content: "▸"; font-size: 0.75rem; transition: transform 0.2s; }
+  .answer-toggle[open] summary::before { transform: rotate(90deg); }
+  .answer-toggle[open] summary { background: #D4E6F1; }
+  .answer-content { padding: 1rem 1.2rem; border-top: 1px solid #D6EAF8; }
+  .asset-figure {
+    text-align: center; margin: 0.8rem 0 1rem;
+  }
+  .asset-svg {
+    max-width: 100%; height: auto; border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .answer-box {
+    background: #F0FFF0; border: 1px solid #C8E6C9; border-radius: 6px;
+    padding: 0.8rem 1rem; margin-bottom: 0.6rem; font-family: Consolas, 'Courier New', monospace;
+    font-size: 0.85rem; line-height: 1.8; color: #1B5E20;
+  }
+  .uitleg-box {
+    background: #FFFDE7; border-left: 3px solid #AFB42B; border-radius: 0 5px 5px 0;
+    padding: 0.7rem 0.9rem; font-size: 0.85rem; line-height: 1.6; color: #827717;
+  }
+  .samenvatting-section {
+    background: var(--white); border: 1px solid var(--border-gray);
+    border-radius: 8px; overflow: hidden; margin-top: 2rem;
+  }
+  .samenvatting-caption {
+    background: var(--accent); color: var(--white); padding: 0.7rem 1rem;
+    font-weight: bold; font-size: 0.9rem;
+  }
+  .samenvatting-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+  .samenvatting-table td { padding: 0.55rem 1rem; border-bottom: 1px solid #EDF2F7; vertical-align: top; }
+  .samenvatting-table tr:last-child td { border-bottom: none; }
+  .samenvatting-table td:first-child { font-weight: 600; color: var(--dark); width: 28%; }
+  .samenvatting-table td:last-child { color: #4A5568; }
+  @media (max-width: 1100px) { .hero-cards { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 768px) {
+    .sidebar {
+      position: fixed; left: -290px; top: 0; height: 100vh; width: 290px;
+      transition: left 0.25s ease; box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+    }
+    .sidebar.open { left: 0; }
+    .sidebar-toggle { display: flex; }
+    .sidebar-overlay.show { display: block; }
+    .hero { padding: 2rem 1.2rem 1.5rem; }
+    .hero h1 { font-size: 1.6rem; }
+    .hero-cards { grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+    main { padding: 1rem 1.2rem 2rem; }
+  }
+  @media (max-width: 480px) { .hero-cards { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu openen">
+  <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="page-layout">
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>1.1.1 Schaarste en economisch denken</h2>
+      <p>Begeleide inoefening</p>
+    </div>
+    <div class="nav-opgave expanded">
+      <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-1">
+        <span class="nav-dot"></span>
+        <span class="nav-opgave-label">1 &middot; Is er sprake van schaarste?</span>
+        <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
+      </div>
+      <div class="nav-questions">
+        <a class="nav-q" href="#q1a" data-q="q1a">1a · Klas en computers</a>
+        <a class="nav-q" href="#q1b" data-q="q1b">1b · Vrije tijd</a>
+        <a class="nav-q" href="#q1c" data-q="q1c">1c · Zakgeld</a>
+      </div>
+    </div>
+    <div class="nav-opgave">
+      <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-2">
+        <span class="nav-dot"></span>
+        <span class="nav-opgave-label">2 &middot; Alternatieve kosten bij twee a</span>
+        <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
+      </div>
+      <div class="nav-questions">
+        <a class="nav-q" href="#q2a" data-q="q2a">2a · Alternatieven en opbrengsten ben...</a>
+        <a class="nav-q" href="#q2b" data-q="q2b">2b · Alternatieve kosten bij keuze vo...</a>
+        <a class="nav-q" href="#q2c" data-q="q2c">2c · Heeft Max een economisch verstan...</a>
+      </div>
+    </div>
+    <div class="nav-opgave">
+      <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-3">
+        <span class="nav-dot"></span>
+        <span class="nav-opgave-label">3 &middot; Alternatieve kosten bij drie a</span>
+        <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
+      </div>
+      <div class="nav-questions">
+        <a class="nav-q" href="#q3a" data-q="q3a">3a · Rangschik de alternatieven</a>
+        <a class="nav-q" href="#q3b" data-q="q3b">3b · Alternatieve kosten bij festival</a>
+        <a class="nav-q" href="#q3c" data-q="q3c">3c · Is de keuze economisch verstandig?</a>
+      </div>
+    </div>
+    <div class="nav-opgave">
+      <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-4">
+        <span class="nav-dot"></span>
+        <span class="nav-opgave-label">4 &middot; Winst op een schaars middel — </span>
+        <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
+      </div>
+      <div class="nav-questions">
+        <a class="nav-q" href="#q4a" data-q="q4a">4a · Totale winst per gewas</a>
+        <a class="nav-q" href="#q4b" data-q="q4b">4b · Beste keuze en alternatieve kosten</a>
+        <a class="nav-q" href="#q4c" data-q="q4c">4c · Nettowaarde van de keuze</a>
+      </div>
+    </div>
+    <div class="nav-opgave">
+      <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-5">
+        <span class="nav-dot"></span>
+        <span class="nav-opgave-label">5 &middot; Meerdere keuzerondes — Luuk ve</span>
+        <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
+      </div>
+      <div class="nav-questions">
+        <a class="nav-q" href="#q5a" data-q="q5a">5a · Mogelijke combinaties</a>
+        <a class="nav-q" href="#q5b" data-q="q5b">5b · Beste combinatie beredeneren</a>
+      </div>
+    </div>
+    <div class="nav-opgave">
+      <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-6">
+        <span class="nav-dot"></span>
+        <span class="nav-opgave-label">6 &middot; Overheidskeuze bij een schaars</span>
+        <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
+      </div>
+      <div class="nav-questions">
+        <a class="nav-q" href="#q6a" data-q="q6a">6a · Stap 1 &amp; 2 van B02</a>
+        <a class="nav-q" href="#q6b" data-q="q6b">6b · Stap 3 van B02: rangschik en bep...</a>
+        <a class="nav-q" href="#q6c" data-q="q6c">6c · Stap 4 van B02: nettowaarde en a...</a>
+        <a class="nav-q" href="#q6d" data-q="q6d">6d · Kritische reflectie</a>
+      </div>
+    </div>
+
+  </nav>
+  <div class="content">
+    <header class="hero">
+      <div class="hero-inner">
+        <a class="back-link" href="../../index.html"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg> Terug naar overzicht</a>
+        <span class="hero-badge">1.1.1 &middot; Begeleide inoefening</span>
+        <h1>Schaarste en economisch denken &mdash; Begeleide inoefening</h1>
+        <p class="hero-sub">Oefeningen met denkstappen, formule-herinneringen en hints.</p>
+        <div class="hero-cards">
+          <div class="hero-card" data-target="opgave-1">
+            <div class="hero-card-num">Opgave 1</div>
+            <div class="hero-card-title">Is er sprake van schaarste?</div>
+            <div class="hero-card-count">3 deelvragen</div>
+          </div>
+          <div class="hero-card" data-target="opgave-2">
+            <div class="hero-card-num">Opgave 2</div>
+            <div class="hero-card-title">Alternatieve kosten bij twee altern</div>
+            <div class="hero-card-count">3 deelvragen</div>
+          </div>
+          <div class="hero-card" data-target="opgave-3">
+            <div class="hero-card-num">Opgave 3</div>
+            <div class="hero-card-title">Alternatieve kosten bij drie altern</div>
+            <div class="hero-card-count">3 deelvragen</div>
+          </div>
+          <div class="hero-card" data-target="opgave-4">
+            <div class="hero-card-num">Opgave 4</div>
+            <div class="hero-card-title">Winst op een schaars middel — de bo</div>
+            <div class="hero-card-count">3 deelvragen</div>
+          </div>
+          <div class="hero-card" data-target="opgave-5">
+            <div class="hero-card-num">Opgave 5</div>
+            <div class="hero-card-title">Meerdere keuzerondes — Luuk verdeel</div>
+            <div class="hero-card-count">2 deelvragen</div>
+          </div>
+          <div class="hero-card" data-target="opgave-6">
+            <div class="hero-card-num">Opgave 6</div>
+            <div class="hero-card-title">Overheidskeuze bij een schaars budg</div>
+            <div class="hero-card-count">4 deelvragen</div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+    <main>
+
+      <section class="opgave-section" id="opgave-1">
+        <div class="opgave-header">
+          <span class="opgave-num">1</span>
+          <div class="opgave-title-group">
+            <div class="opgave-title">Is er sprake van schaarste?</div>
+            <span class="opgave-badge">Marktanalyse</span>
+          </div>
+        </div>
+        <p class="opgave-intro">Beoordeel per situatie of er sprake is van schaarste. Leg telkens kort uit waarom wel of niet. Denk aan de definitie: er is schaarste als de behoeften groter zijn dan de beschikbare middelen.</p>
+
+        <div class="question-card" id="q1a">
+          <div class="question-header">
+            <div class="question-label">Vraag 1a — Klas en computers</div>
+            <div class="question-text">In een klas zitten 28 leerlingen. Ze willen allemaal tegelijk werken aan een opdracht op de computer. Het lokaal heeft 18 werkende computers. Is er sprake van schaarste? Leg uit.</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Benoem de behoefte: wat willen de leerlingen?<br>2. Benoem het middel: wat is er beschikbaar?<br>3. Vergelijk: is de behoefte groter dan het middel?<br>4. Conclusie: wel/geen schaarste + waarom moet er gekozen worden?</div>
+            </details>
+            <details class="helper-hint">
+              <summary>Hint</summary>
+              <div class="detail-content">Schaarste gaat niet over 'weinig', maar over de verhouding tussen wensen en beschikbaar middel.</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Ja, er is schaarste. <br>Behoefte: 28 leerlingen willen computeren. Middel: 18 computers.<br>Behoefte (28) > middel (18), dus er moet gekozen worden wie wel en wie niet achter een computer kan.</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> De kern van schaarste is de verhouding behoefte ÷ middel. Omdat er 10 computers tekort zijn, moet de docent een verdeelregel toepassen (bijvoorbeeld met z'n tweeën achter één computer). Dat is exact wat schaarste afdwingt: keuzes maken.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q1b">
+          <div class="question-header">
+            <div class="question-label">Vraag 1b — Vrije tijd</div>
+            <div class="question-text">Noa heeft op woensdagmiddag 3 uur vrij. Ze wil hockeytraining volgen (1,5 uur), haar wiskundehuiswerk maken (1 uur) en afspreken met een vriendin (2 uur). Is er sprake van schaarste? Leg uit.</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Tel de totale tijd die Noa nodig heeft voor al haar wensen.<br>2. Vergelijk dat met haar beschikbare tijd (3 uur).<br>3. Conclusie: moet ze kiezen of niet?</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Ja, er is schaarste. <br>Behoefte: 1,5 + 1 + 2 = 4,5 uur aan activiteiten.<br>Middel: 3 uur vrije tijd.<br>Behoefte (4,5 uur) > middel (3 uur), dus Noa moet kiezen welke activiteit(en) ze laat vallen of inkort.</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Ook tijd is een schaars middel — misschien wel het meest universele. Elke keer dat je 'ik heb geen tijd' zegt, bedoel je eigenlijk: mijn tijd is schaars en ik moet kiezen.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q1c">
+          <div class="question-header">
+            <div class="question-label">Vraag 1c — Zakgeld</div>
+            <div class="question-text">Tim krijgt €10 zakgeld per week. Deze week wil hij één ding kopen: een stripboek van €7. Is er voor Tim sprake van schaarste bij deze keuze? Leg uit.</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Benoem de behoefte en het middel van Tim.<br>2. Let op: bij deze concrete keuze, niet in het algemeen.<br>3. Is middel groter dan, gelijk aan, of kleiner dan de behoefte?</div>
+            </details>
+            <details class="helper-hint">
+              <summary>Hint</summary>
+              <div class="detail-content">Let goed op: het gaat om deze specifieke keuze, niet om Tim's hele leven.</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Nee, voor deze keuze is er geen schaarste. <br>Behoefte: €7 (het stripboek). Middel: €10 zakgeld.<br>Middel (€10) > behoefte (€7), dus Tim kan zijn wens volledig vervullen — hij hoeft niet te kiezen.<br>Zou Tim méér willen dan €10 (bijvoorbeeld ook een shirt van €15 én het boek), dan zou er wel schaarste zijn.</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Schaarste hangt altijd af van de verhouding tussen behoefte en middel. Hetzelfde bedrag (€10) kan bij de ene persoon ruim voldoende zijn en bij de andere persoon tekortschieten. Let ook op: 'geen schaarste' is hier bijna altijd tijdelijk — zodra Tim méér wil, komt schaarste terug.</div>
+            </div>
+          </details>
+        </div>
+
+      </section>
+
+      <section class="opgave-section" id="opgave-2">
+        <div class="opgave-header">
+          <span class="opgave-num">2</span>
+          <div class="opgave-title-group">
+            <div class="opgave-title">Alternatieve kosten bij twee alternatieven</div>
+            <span class="opgave-badge">Marktanalyse</span>
+          </div>
+        </div>
+        <p class="opgave-intro">Max heeft zaterdagavond €25 te besteden. Hij twijfelt tussen twee opties: een pizza-avond met vrienden (waarde voor Max: €30 aan plezier) of een nieuwe game die in de aanbieding is (waarde voor Max: €22 aan speelplezier). Hij kan maar één ding kiezen.</p>
+
+        <div class="question-card" id="q2a">
+          <div class="question-header">
+            <div class="question-label">Vraag 2a — Alternatieven en opbrengsten benoemen</div>
+            <div class="question-text">Noem de twee alternatieven en de opbrengst (waarde) van elk alternatief voor Max.</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Welke opties staan in de tekst?<br>2. Wat is per optie de opbrengst (waarde) voor Max?</div>
+            </details>
+          </div>
+          <figure class="asset-figure"><img src="_assets/1.1.1_fig_2.svg" alt="1.1.1_fig_2" class="asset-svg"></figure>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Alternatief 1: pizza-avond met vrienden — opbrengst €30<br>Alternatief 2: nieuwe game — opbrengst €22</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Stap 1 en 2 van de procedure: altijd eerst alle opties en hun opbrengst in kaart brengen. Pas daarna kun je alternatieve kosten bepalen.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q2b">
+          <div class="question-header">
+            <div class="question-label">Vraag 2b — Alternatieve kosten bij keuze voor pizza</div>
+            <div class="question-text">Max kiest voor de pizza-avond. Wat zijn zijn alternatieve kosten?</div>
+          </div>
+          <div class="fill-in">Niet gekozen alternatief: .................<br>Opbrengst van dat alternatief: €.........<br>Alternatieve kosten: €.........</div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Welk alternatief is niet gekozen?<br>2. Wat is de opbrengst van dat niet-gekozen alternatief?<br>3. Alternatieve kosten = opbrengst van het beste niet-gekozen alternatief.</div>
+            </details>
+            <details class="helper-formule">
+              <summary>Formule-herinnering</summary>
+              <div class="detail-content">alternatieve kosten = opbrengst beste niet-gekozen alternatief</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Niet gekozen alternatief: de game.<br>Opbrengst van de game: €22.<br>Alternatieve kosten = €22 (het speelplezier dat hij misloopt)</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Let op: de alternatieve kosten zijn NIET de prijs (€25) en ook NIET de opbrengst van de gekozen optie. Het zijn de gemiste opbrengsten van de beste niet-gekozen optie.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q2c">
+          <div class="question-header">
+            <div class="question-label">Vraag 2c — Heeft Max een economisch verstandige keuze gemaakt?</div>
+            <div class="question-text">Vergelijk de opbrengst van Max&#x27; keuze met zijn alternatieve kosten. Is zijn keuze economisch verstandig? Leg uit.</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Opbrengst van de gekozen optie?<br>2. Alternatieve kosten (= opbrengst beste niet-gekozen)?<br>3. Is de opbrengst groter dan de alternatieve kosten?</div>
+            </details>
+            <details class="helper-formule">
+              <summary>Formule-herinnering</summary>
+              <div class="detail-content">nettowaarde keuze = opbrengst gekozen − alternatieve kosten</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Optie 1: Bijbaan — €48 verdienen (€8 per uur × 6 uur)<br>Optie 2: Examen leren — betere cijfers (waarde voor Sam: €35)<br>Optie 3: Festival met vriendinnen — plezier (waarde voor Sam: €40)</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Een keuze is economisch verstandig als de opbrengst groter is dan de alternatieve kosten. Dat betekent: je kiest het alternatief met de hóógste opbrengst van alle opties.</div>
+            </div>
+          </details>
+        </div>
+
+      </section>
+
+      <section class="opgave-section" id="opgave-3">
+        <div class="opgave-header">
+          <span class="opgave-num">3</span>
+          <div class="opgave-title-group">
+            <div class="opgave-title">Alternatieve kosten bij drie alternatieven</div>
+            <span class="opgave-badge">Marktanalyse</span>
+          </div>
+        </div>
+        <div class="context-box">Optie 1: Bijbaan — €48 verdienen (€8 per uur × 6 uur)<br>Optie 2: Examen leren — betere cijfers (waarde voor Sam: €35)<br>Optie 3: Festival met vriendinnen — plezier (waarde voor Sam: €40)</div>
+        <p class="opgave-intro">Sam heeft een vrije zaterdag (6 uur). Zij kan maar één activiteit doen. Zij twijfelt tussen drie opties:</p>
+
+        <div class="question-card" id="q3a">
+          <div class="question-header">
+            <div class="question-label">Vraag 3a — Rangschik de alternatieven</div>
+            <div class="question-text">Rangschik de drie alternatieven van hoogste naar laagste opbrengst.</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Zet de opbrengsten op een rijtje.<br>2. Rangschik van groot naar klein.</div>
+            </details>
+          </div>
+          <figure class="asset-figure"><img src="_assets/1.1.1_fig_2.svg" alt="1.1.1_fig_2" class="asset-svg"></figure>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">1. Bijbaan: €48<br>2. Festival: €40<br>3. Examen leren: €35</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Rangschikken helpt je later: de alternatieve kosten zijn altijd de opbrengst van het BESTE niet-gekozen alternatief — dus de hoogste van wat je overlaat.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q3b">
+          <div class="question-header">
+            <div class="question-label">Vraag 3b — Alternatieve kosten bij festival</div>
+            <div class="question-text">Sam kiest voor het festival. Wat zijn haar alternatieve kosten?</div>
+          </div>
+          <div class="fill-in">Niet-gekozen alternatieven: ................. en .................<br>Beste niet-gekozen alternatief: .................<br>Alternatieve kosten: €.........</div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Welke twee opties blijven over als Sam naar het festival gaat?<br>2. Welke van die twee heeft de hoogste opbrengst? (Dat is het 'beste niet-gekozen alternatief'.)<br>3. Alternatieve kosten = de opbrengst van dat beste niet-gekozen alternatief — NIET de som.</div>
+            </details>
+            <details class="helper-formule">
+              <summary>Formule-herinnering</summary>
+              <div class="detail-content">alternatieve kosten = opbrengst beste niet-gekozen alternatief<br>NIET: som van alle niet-gekozen opbrengsten</div>
+            </details>
+            <details class="helper-letop">
+              <summary>Let op</summary>
+              <div class="detail-content">Let op: Veel leerlingen tellen alle niet-gekozen opbrengsten bij elkaar op (€48 + €35). Dat is fout. Je kunt maar ÉÉN alternatief tegelijk doen, dus de kosten zijn alleen het beste gemiste alternatief.</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Niet-gekozen: bijbaan (€48) en examen leren (€35).<br>Beste niet-gekozen: de bijbaan (€48 > €35).<br>Alternatieve kosten = €48<br>Niet €48 + €35 = €83: Sam had ook maar één van die twee kunnen doen, niet allebei.</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Dit is dé klassieke valkuil bij alternatieve kosten. Als je 3 niet-gekozen opties hebt bij slechts één keuze, zou optellen betekenen dat je al die opties tegelijk had kunnen doen — en dat klopt niet. Je mist er slechts één: de beste.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q3c">
+          <div class="question-header">
+            <div class="question-label">Vraag 3c — Is de keuze economisch verstandig?</div>
+            <div class="question-text">Heeft Sam een economisch verstandige keuze gemaakt door voor het festival te gaan? Onderbouw met de opbrengsten en de alternatieve kosten.</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Opbrengst gekozen alternatief (festival)?<br>2. Alternatieve kosten (uit 3b)?<br>3. Is opbrengst groter of kleiner dan alternatieve kosten?<br>4. Conclusie: verstandig of niet?</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Tarwe:         €450 winst per hectare<br>Suikerbieten:  €600 winst per hectare<br>Aardappelen:   €520 winst per hectare<br>Beschikbaar:   12 hectare</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> De economisch verstandige keuze is altijd het alternatief met de hóógste opbrengst (hier: de bijbaan). Kiezen voor een mindere optie betekent per definitie dat je alternatieve kosten hoger zijn dan je opbrengst — een negatieve nettowaarde.</div>
+            </div>
+          </details>
+        </div>
+
+      </section>
+
+      <section class="opgave-section" id="opgave-4">
+        <div class="opgave-header">
+          <span class="opgave-num">4</span>
+          <div class="opgave-title-group">
+            <div class="opgave-title">Winst op een schaars middel — de boer met 12 hectare</div>
+            <span class="opgave-badge">Marktanalyse</span>
+          </div>
+        </div>
+        <div class="context-box">Tarwe:         €450 winst per hectare<br>Suikerbieten:  €600 winst per hectare<br>Aardappelen:   €520 winst per hectare<br>Beschikbaar:   12 hectare</div>
+        <p class="opgave-intro">Een akkerbouwer heeft 12 hectare land (haar schaarse middel). Zij kan kiezen uit drie gewassen. De winst per hectare verschilt per gewas. Zij gebruikt al haar land voor één gewas.</p>
+
+        <div class="question-card" id="q4a">
+          <div class="question-header">
+            <div class="question-label">Vraag 4a — Totale winst per gewas</div>
+            <div class="question-text">Bereken voor elk gewas de totale winst als de boerin al haar 12 hectare aan dat gewas besteedt.</div>
+          </div>
+          <div class="fill-in">Tarwe:        12 × €450  =  €........<br>Suikerbieten: 12 × €600  =  €........<br>Aardappelen:  12 × €520  =  €........</div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Gebruik: totale opbrengst = eenheden × opbrengst per eenheid.<br>2. Hier: eenheden = hectares (12); opbrengst per eenheid = winst per ha.<br>3. Doe dit voor alle drie gewassen.</div>
+            </details>
+            <details class="helper-formule">
+              <summary>Formule-herinnering</summary>
+              <div class="detail-content">totale opbrengst = aantal eenheden × opbrengst per eenheid<br>TO = q × o</div>
+            </details>
+          </div>
+          <figure class="asset-figure"><img src="_assets/1.1.1_we_1.svg" alt="1.1.1_we_1" class="asset-svg"></figure>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Tarwe:        12 × €450 = €5.400<br>Suikerbieten: 12 × €600 = €7.200<br>Aardappelen:  12 × €520 = €6.240</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Bij een schaars middel (land, tijd, geld) bereken je totale opbrengst altijd als 'aantal eenheden × opbrengst per eenheid'. Dit is de basis voor de vergelijking van alternatieven.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q4b">
+          <div class="question-header">
+            <div class="question-label">Vraag 4b — Beste keuze en alternatieve kosten</div>
+            <div class="question-text">Welk gewas levert de hoogste winst op? En wat zijn de alternatieve kosten van die keuze?</div>
+          </div>
+          <div class="fill-in">Beste keuze: ................. (€.........)<br>Beste niet-gekozen: ................. (€.........)<br>Alternatieve kosten: €.........</div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Kijk naar jouw drie totalen uit 4a.<br>2. Welk gewas levert het meest op? → dat is de beste keuze.<br>3. Welke twee gewassen blijven over? Welke van die twee heeft de hoogste opbrengst?<br>4. Alternatieve kosten = opbrengst van het beste niet-gekozen alternatief.</div>
+            </details>
+            <details class="helper-formule">
+              <summary>Formule-herinnering</summary>
+              <div class="detail-content">alternatieve kosten = opbrengst beste niet-gekozen alternatief</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Beste keuze: suikerbieten — €7.200. <br>Niet gekozen: aardappelen (€6.240) en tarwe (€5.400).<br>Beste niet-gekozen alternatief: aardappelen (€6.240 > €5.400).<br>Alternatieve kosten = €6.240</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> De hoogste opbrengst bepaalt de economisch beste keuze. De alternatieve kosten zijn nooit de laagste of het gemiddelde — altijd de hoogste opbrengst van wat je NIET kiest.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q4c">
+          <div class="question-header">
+            <div class="question-label">Vraag 4c — Nettowaarde van de keuze</div>
+            <div class="question-text">Hoeveel &#x27;wint&#x27; de boerin per saldo door voor suikerbieten te kiezen in plaats van voor het beste alternatief?</div>
+          </div>
+          <div class="fill-in">Nettowaarde = €........ − €........ = €........</div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Nettowaarde = opbrengst gekozen − alternatieve kosten.<br>2. Dit is de extra winst die ze boekt dankzij de beste keuze.</div>
+            </details>
+            <details class="helper-formule">
+              <summary>Formule-herinnering</summary>
+              <div class="detail-content">nettowaarde = opbrengst gekozen − alternatieve kosten</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Optie A: Bioscoopkaartje       — prijs €12, waarde €18<br>Optie B: Boek                   — prijs €15, waarde €20<br>Optie C: Pizza                  — prijs €10, waarde €12<br>Optie D: Streamingabonnement    — prijs €8,  waarde €14<br>Budget: €30</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Deze €960 is het verschil ten opzichte van haar beste alternatief — niet ten opzichte van niets doen. Economisch gezien is dit de 'winst van de beste keuze'.</div>
+            </div>
+          </details>
+        </div>
+
+      </section>
+
+      <section class="opgave-section" id="opgave-5">
+        <div class="opgave-header">
+          <span class="opgave-num">5</span>
+          <div class="opgave-title-group">
+            <div class="opgave-title">Meerdere keuzerondes — Luuk verdeelt €30</div>
+            <span class="opgave-badge">Marktanalyse</span>
+          </div>
+        </div>
+        <div class="context-box">Optie A: Bioscoopkaartje       — prijs €12, waarde €18<br>Optie B: Boek                   — prijs €15, waarde €20<br>Optie C: Pizza                  — prijs €10, waarde €12<br>Optie D: Streamingabonnement    — prijs €8,  waarde €14<br>Budget: €30</div>
+        <p class="opgave-intro">Luuk heeft €30. Hij maakt een lijstje van vier dingen die hij zou willen kopen. Hij mag combineren zolang zijn totale uitgaven €30 niet overschrijden. De waarde (hoe blij hij ervan wordt) heeft hij er zelf bij geschreven.</p>
+
+        <div class="question-card" id="q5a">
+          <div class="question-header">
+            <div class="question-label">Vraag 5a — Mogelijke combinaties</div>
+            <div class="question-text">Noem drie verschillende combinaties die binnen het budget van €30 passen. Geef per combinatie de totale prijs.</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Probeer combinaties van 2, 3 of 4 opties.<br>2. Tel de prijzen bij elkaar op: mag niet boven €30 uitkomen.<br>3. Geef bij elke combinatie de totale prijs.</div>
+            </details>
+            <details class="helper-hint">
+              <summary>Hint</summary>
+              <div class="detail-content">Er zijn meerdere goede antwoorden. Je hoeft er maar drie te noemen.</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Voorbeelden van geldige combinaties (er zijn er meer):<br>Combinatie 1: A + B = €12 + €15 = €27 ✓<br>Combinatie 2: A + C + D = €12 + €10 + €8 = €30 ✓<br>Combinatie 3: B + D = €15 + €8 = €23 ✓<br>Ongeldig zou bijvoorbeeld zijn: A + B + C = €12 + €15 + €10 = €37 (boven €30).</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Bij een budgetbeperking is de schaarse factor het geld. Je kunt niet alles, dus je moet combinaties vergelijken. Meerdere combinaties 'passen' — welke de beste is, beoordeel je pas bij 5b.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q5b">
+          <div class="question-header">
+            <div class="question-label">Vraag 5b — Beste combinatie beredeneren</div>
+            <div class="question-text">Welke combinatie levert Luuk de hoogste totale waarde op? Laat je berekening zien en beargumenteer je keuze met de 3 stappen van economisch denken.</div>
+          </div>
+          <div class="fill-in">Combinatie ...: waarde €..........  prijs €..........<br>Combinatie ...: waarde €..........  prijs €..........<br>Combinatie ...: waarde €..........  prijs €..........<br>Beste combinatie: ...........................</div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Stap 1: welke combinaties zijn haalbaar (binnen €30)?<br>2. Stap 2: wat is de totale waarde van elke haalbare combinatie?<br>3. Stap 3: welke combinatie levert de hoogste totale waarde op? Welke 'geef je op'?</div>
+            </details>
+            <details class="helper-formule">
+              <summary>Formule-herinnering</summary>
+              <div class="detail-content">totale waarde combinatie = som van waardes gekozen opties<br>beperking: som van prijzen ≤ budget (€30)</div>
+            </details>
+            <details class="helper-letop">
+              <summary>Let op</summary>
+              <div class="detail-content">Let op: Kijk niet alleen naar prijs of naar waarde los: het gaat om de totale waarde bij een gegeven budget. Reken alle haalbare combinaties door voordat je kiest.</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Plan 1: Nieuwe fietsbrug          — kosten €2.000.000, opbrengst €2.800.000<br>Plan 2: Renovatie schoolgebouw    — kosten €2.000.000, opbrengst €3.200.000<br>Plan 3: Aanleg stadspark          — kosten €2.000.000, opbrengst €2.500.000<br>Beschikbaar budget: €2.000.000 (voor één plan)</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Dit laat zien dat de schaarse middel (€30) niet één maar meerdere keuzes afdwingt. Je past dezelfde 3 stappen toe, maar nu op combinaties. De alternatieve kosten zijn de waarde van de best haalbare niet-gekozen combinatie (€38), niet de som van alle opties die je niet kiest.</div>
+            </div>
+          </details>
+        </div>
+
+      </section>
+
+      <section class="opgave-section" id="opgave-6">
+        <div class="opgave-header">
+          <span class="opgave-num">6</span>
+          <div class="opgave-title-group">
+            <div class="opgave-title">Overheidskeuze bij een schaars budget (volledige B02-procedure)</div>
+            <span class="opgave-badge">Marktanalyse</span>
+          </div>
+        </div>
+        <div class="context-box">Plan 1: Nieuwe fietsbrug          — kosten €2.000.000, opbrengst €2.800.000<br>Plan 2: Renovatie schoolgebouw    — kosten €2.000.000, opbrengst €3.200.000<br>Plan 3: Aanleg stadspark          — kosten €2.000.000, opbrengst €2.500.000<br>Beschikbaar budget: €2.000.000 (voor één plan)</div>
+        <p class="opgave-intro">Een gemeente heeft €2.000.000 (2 miljoen euro) beschikbaar voor één groot project. De wethouder overweegt drie plannen. Het ambtelijk apparaat heeft per plan de geschatte maatschappelijke opbrengst uitgerekend (in euro&#x27;s, op basis van tijdsbesparing, veiligheid en gebruik).</p>
+
+        <div class="question-card" id="q6a">
+          <div class="question-header">
+            <div class="question-label">Vraag 6a — Stap 1 &amp; 2 van B02</div>
+            <div class="question-text">Pas de eerste twee stappen van de procedure &#x27;alternatieve kosten&#x27; toe: (1) benoem de alternatieven voor het schaarse middel; (2) bereken/benoem de opbrengst per alternatief.</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Wat is het schaarse middel in dit verhaal?<br>2. Welke alternatieve bestemmingen zijn er voor dit middel?<br>3. Wat is van elk alternatief de opbrengst?</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Schaars middel: gemeentelijk budget van €2.000.000.<br>Stap 1 — alternatieven: fietsbrug, schoolrenovatie, stadspark.<br>Stap 2 — opbrengsten:<br>• Fietsbrug: €2.800.000<br>• Schoolrenovatie: €3.200.000<br>• Stadspark: €2.500.000</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Stap 1 en 2 klinken simpel, maar worden vaak overgeslagen. Zonder expliciete alternatieven-lijst en opbrengsten kun je géén alternatieve kosten berekenen — dus zet ze altijd eerst op papier.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q6b">
+          <div class="question-header">
+            <div class="question-label">Vraag 6b — Stap 3 van B02: rangschik en bepaal alternatieve kosten</div>
+            <div class="question-text">Stel dat de gemeente kiest voor de schoolrenovatie. Rangschik de alternatieven, bepaal het beste niet-gekozen alternatief en benoem daarmee de alternatieve kosten.</div>
+          </div>
+          <div class="fill-in">Rangschikking: 1. .........  2. .........  3. .........<br>Gekozen: .........<br>Beste niet-gekozen: ......... (€.........)<br>Alternatieve kosten: €.........</div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Rangschik de drie opbrengsten van hoog naar laag.<br>2. Haal het gekozen alternatief eruit.<br>3. Het resterende hoogste = beste niet-gekozen = alternatieve kosten.</div>
+            </details>
+            <details class="helper-formule">
+              <summary>Formule-herinnering</summary>
+              <div class="detail-content">alternatieve kosten = opbrengst beste niet-gekozen alternatief</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Rangschikking: 1. Schoolrenovatie €3,2 mln  2. Fietsbrug €2,8 mln  3. Stadspark €2,5 mln.<br>Gekozen: schoolrenovatie (€3,2 mln).<br>Beste niet-gekozen: fietsbrug (€2,8 mln > €2,5 mln).<br>Alternatieve kosten = €2.800.000 (de maatschappelijke opbrengst van de fietsbrug die de gemeente misloopt).</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Niet optellen: de alternatieve kosten zijn NIET €2,8 + €2,5 mln. De gemeente kon immers maar één plan kiezen, dus ze mist maar één alternatief: het beste van de niet-gekozen plannen.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q6c">
+          <div class="question-header">
+            <div class="question-label">Vraag 6c — Stap 4 van B02: nettowaarde en advies</div>
+            <div class="question-text">Pas stap 4 toe: vergelijk de opbrengst van het gekozen alternatief met de alternatieve kosten. Wat is de nettowaarde van de keuze? En welk advies zou je de wethouder geven op basis van deze berekening?</div>
+          </div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Nettowaarde = opbrengst gekozen − alternatieve kosten.<br>2. Beoordeel: is de nettowaarde positief of negatief?<br>3. Positief → economisch verstandige keuze. Negatief → een ander alternatief was beter.</div>
+            </details>
+            <details class="helper-formule">
+              <summary>Formule-herinnering</summary>
+              <div class="detail-content">nettowaarde = opbrengst gekozen − alternatieve kosten</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">Nettowaarde = €3.200.000 − €2.800.000 = €400.000.<br>Nettowaarde = +€400.000.<br>Advies: de schoolrenovatie is de economisch verstandigste keuze. De opbrengst overtreft de alternatieve kosten met €400.000. Elk ander plan zou een negatieve nettowaarde opleveren ten opzichte van de schoolrenovatie.</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Stap 4 geeft de wethouder een onderbouwd advies — niet gebaseerd op voorkeur, maar op een vergelijking van de beste opbrengst met het beste alternatief. Dit is de kern van economisch denken: beslissen op basis van alternatieve kosten, niet alleen op absolute opbrengst.</div>
+            </div>
+          </details>
+        </div>
+
+        <div class="question-card" id="q6d">
+          <div class="question-header">
+            <div class="question-label">Vraag 6d — Kritische reflectie</div>
+            <div class="question-text">De wethouder zegt tegen de gemeenteraad: &#x27;De schoolrenovatie kost ons niets, want we krijgen er €3,2 miljoen aan maatschappelijke waarde voor terug.&#x27; Leg met behulp van het begrip alternatieve kosten uit waarom deze uitspraak economisch onjuist is.</div>
+          </div>
+          <div class="fill-in">De belangrijkste kernregels van dit onderwerp op een rij:</div>
+          <div class="helper-section">
+            <details class="helper-denkstappen">
+              <summary>Denkstappen</summary>
+              <div class="detail-content">1. Wat kost de gemeente echt bij deze keuze?<br>2. Denk aan wat ze niet kunnen doen met hetzelfde geld.<br>3. Zijn alternatieve kosten ook 'echte' kosten, ook al worden ze niet uitbetaald?</div>
+            </details>
+            <details class="helper-hint">
+              <summary>Hint</summary>
+              <div class="detail-content">Denk terug aan de definitie: alternatieve kosten = opbrengst van het beste alternatief dat je opgeeft.</div>
+            </details>
+          </div>
+          <details class="answer-toggle">
+            <summary>Toon antwoord</summary>
+            <div class="answer-content">
+              <div class="answer-box">De uitspraak is onjuist: de schoolrenovatie kost de gemeente wel degelijk iets — namelijk de alternatieve kosten.<br>Door voor de schoolrenovatie te kiezen, geeft de gemeente de fietsbrug op. Die fietsbrug zou €2.800.000 aan maatschappelijke waarde hebben opgeleverd.<br>De 'echte' kosten van de schoolrenovatie zijn €2.800.000 aan gemiste brug-waarde — bovenop de €2 miljoen aan uitgegeven geld.<br>De keuze is nog steeds verstandig (nettowaarde +€400.000), maar 'kost ons niets' klopt niet: elk gekozen alternatief kost wat je opgeeft.</div>
+              <div class="uitleg-box"><strong>Uitleg:</strong> Dit is een klassieke politieke drogreden: alleen kijken naar directe uitgaven versus opbrengsten, zonder de waarde van wat je opgeeft mee te rekenen. Een econoom rekent alternatieve kosten altijd mee — ook als er geen factuur voor binnenkomt.</div>
+            </div>
+          </details>
+        </div>
+
+      </section>
+
+
+      <div class="samenvatting-section">
+        <div class="samenvatting-caption">&#9632; Samenvattend schema</div>
+        <table class="samenvatting-table">
+          <tbody>
+            <tr><td>Schaarste</td><td>Behoefte &gt; middel → er moet gekozen worden. Geldt voor scholier, boer én overheid.</td></tr>
+            <tr><td>Schaarste ≠ weinig</td><td>Het gaat om de verhouding behoefte ÷ middel, niet om absolute aantallen.</td></tr>
+            <tr><td>Alternatieve kosten</td><td>Opbrengst van het beste alternatief dat je opgeeft bij een keuze.</td></tr>
+            <tr><td>Geen som</td><td>Alternatieve kosten zijn NOOIT de som van alle niet-gekozen opties — alleen de beste.</td></tr>
+            <tr><td>Opbrengst schaars middel</td><td>TO = aantal eenheden × opbrengst per eenheid (q × o).</td></tr>
+            <tr><td>Nettowaarde keuze</td><td>opbrengst gekozen − alternatieve kosten. Positief = verstandige keuze.</td></tr>
+            <tr><td>Procedure B02 (4 stappen)</td><td>1) Alternatieven benoemen  2) Opbrengst per alt.  3) Beste niet-gekozen = alt. kosten  4) Nettowaarde bepalen.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    </main>
+  </div>
+</div>
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('sidebarOverlay');
+  var toggle = document.getElementById('sidebarToggle');
+  document.querySelectorAll('[data-toggle="opgave"]').forEach(function(title) {
+    title.addEventListener('click', function() {
+      var opgave = this.closest('.nav-opgave');
+      opgave.classList.toggle('expanded');
+      var targetId = this.dataset.scroll;
+      if (targetId) {
+        var target = document.getElementById(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          sidebar.classList.remove('open');
+          overlay.classList.remove('show');
+        }
+      }
+    });
+  });
+  document.querySelectorAll('.nav-q[data-q]').forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      e.preventDefault();
+      var target = document.getElementById(el.dataset.q);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        sidebar.classList.remove('open');
+        overlay.classList.remove('show');
+      }
+    });
+  });
+  document.querySelectorAll('[data-target]').forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      var target = document.getElementById(el.dataset.target);
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+  var navQs = document.querySelectorAll('.nav-q[data-q]');
+  var questionCards = document.querySelectorAll('.question-card');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        navQs.forEach(function(n) { n.classList.remove('active'); });
+        var active = document.querySelector('.nav-q[data-q="' + entry.target.id + '"]');
+        if (active) {
+          active.classList.add('active');
+          var parent = active.closest('.nav-opgave');
+          if (parent && !parent.classList.contains('expanded')) parent.classList.add('expanded');
+        }
+      }
+    });
+  }, { rootMargin: '-10% 0px -80% 0px' });
+  questionCards.forEach(function(q) { observer.observe(q); });
+  toggle.addEventListener('click', function() {
+    sidebar.classList.toggle('open');
+    overlay.classList.toggle('show');
+  });
+  overlay.addEventListener('click', function() {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('show');
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360">
+  <rect width="720" height="360" rx="8" fill="#F7FAFC" />
+  <text x="360" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#1E2761" text-anchor="middle">Woningmarkt Nederland: vraag en aanbod sociale huur</text>
+  <text x="360" y="50" font-family="Arial" font-size="12" fill="#718096" text-anchor="middle">Aantal woningen (× 1.000) — indicatief 2024</text>
+  <text x="50" y="190" font-family="Arial" font-size="12" fill="#2D3748" text-anchor="middle" transform="rotate(-90 50 190)">Woningen (× 1.000)</text>
+  <line x1="120" y1="300" x2="620" y2="300" stroke="#E2E8F0" stroke-width="1" /><text x="110" y="304" font-family="Arial" font-size="12" fill="#718096" text-anchor="end">0</text><line x1="120" y1="251.11111111111111" x2="620" y2="251.11111111111111" stroke="#E2E8F0" stroke-width="1" /><text x="110" y="255.11111111111111" font-family="Arial" font-size="12" fill="#718096" text-anchor="end">100</text><line x1="120" y1="202.22222222222223" x2="620" y2="202.22222222222223" stroke="#E2E8F0" stroke-width="1" /><text x="110" y="206.22222222222223" font-family="Arial" font-size="12" fill="#718096" text-anchor="end">200</text><line x1="120" y1="153.33333333333334" x2="620" y2="153.33333333333334" stroke="#E2E8F0" stroke-width="1" /><text x="110" y="157.33333333333334" font-family="Arial" font-size="12" fill="#718096" text-anchor="end">300</text><line x1="120" y1="104.44444444444446" x2="620" y2="104.44444444444446" stroke="#E2E8F0" stroke-width="1" /><text x="110" y="108.44444444444446" font-family="Arial" font-size="12" fill="#718096" text-anchor="end">400</text>
+  
+    <line x1="120" y1="80" x2="120" y2="300" stroke="#2D3748" stroke-width="1.5" />
+    <line x1="120" y1="300" x2="620" y2="300" stroke="#2D3748" stroke-width="1.5" />
+  
+  <rect x="206.66666666666669" y="104.44444444444446" width="120" height="195.55555555555554" rx="3" fill="#1A5276" /><text x="266.6666666666667" y="96.44444444444446" font-family="Arial" font-size="14" font-weight="bold" fill="#1A5276" text-anchor="middle">400</text><text x="266.6666666666667" y="322" font-family="Arial" font-size="13" fill="#2D3748" text-anchor="middle">Vraag (wachtenden)</text><rect x="413.33333333333337" y="260.8888888888889" width="120" height="39.111111111111114" rx="3" fill="#1E8449" /><text x="473.33333333333337" y="252.8888888888889" font-family="Arial" font-size="14" font-weight="bold" fill="#1E8449" text-anchor="middle">80</text><text x="473.33333333333337" y="322" font-family="Arial" font-size="13" fill="#2D3748" text-anchor="middle">Aanbod (per jaar vrij)</text>
+  
+    <line x1="370" y1="104.44444444444446"    x2="370" y2="260.8888888888889" stroke="#C0392B" stroke-width="2" stroke-dasharray="4,4" />
+    <line x1="364" y1="104.44444444444446" x2="376" y2="104.44444444444446" stroke="#C0392B" stroke-width="2" />
+    <line x1="364" y1="260.8888888888889" x2="376" y2="260.8888888888889" stroke="#C0392B" stroke-width="2" />
+    <rect x="380" y="168.66666666666669" width="160" height="28" rx="4" fill="#FDEDEC" stroke="#C0392B" stroke-width="1" />
+    <text x="460" y="187.66666666666669" font-family="Arial" font-size="13" font-weight="bold" fill="#C0392B" text-anchor="middle">Tekort: 320</text>
+  
+  <text x="120" y="350" font-family="Arial" font-size="10" fill="#718096">Bron: CBS / ministerie BZK — orde-van-grootte (onderwijsmateriaal)</text>
+</svg>
