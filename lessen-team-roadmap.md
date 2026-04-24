@@ -7,15 +7,17 @@
 | L0.5 | Green Gate Handoff | yes | Book 1 Part A and the platform/book health routine are green. |
 | L1.1 | First Companion Technical Pilot | yes | `1.1.1` passes the current complete technical gate. |
 | L1.2 | Second Companion Technical Probe | yes | `1.1.2` proved the technical pattern can repeat; probe materials were removed for didactic rebuild. |
-| L1.3 | Companion Layout And Front-End Usability | no | Current priority. Improve companion layout, navigation, readability, and front-end usability before scaling. |
-| L1.4 | Post-Layout Scaling Decision | no | Decide whether to expand after the improved layout is platform-integrated and regenerated. |
+| L1.3A | Basic HTML Layout And Front-End Usability | no | Pilot run completed for `1.1.1` `uitleg voorkennis`, `uitleg vaardigheden`, and `begeleide inoefening`; needs human usability sign-off. |
+| L1.3B | Companion SVGs And Light/Dark Visual Variants | no | Proper SVG/variant workflow is running for `1.1.1`; game/interactive visual slots still need a decision. |
+| L1.3C | PowerPoint Presentation Improvement | no | `1.1.1` PPTX regenerated with adapted slide visuals and LibreOffice roundtrip; needs presentation-quality review. |
+| L1.4 | Post-Layout Scaling Decision | no | Decide whether to expand after L1.3A-C are platform-integrated, regenerated, and reviewed. |
 | L2.1 | Book 1 Release Polish | no | Teacher-facing polish continues under the Book 1 health gate. |
 | L2.2 | Book 2 Part A Textbook Layer | no | Start Book 2 Part A only under the chapter/paragraph hard gates. |
 
 ## Roadmap Metadata
 
-Generated: 2026-04-23  
-Updated: 2026-04-24 after companion pilot review and layout/UI reprioritization  
+Generated: 2026-04-23
+Updated: 2026-04-24 after companion pilot review, layout/UI reprioritization, visual-variant direction, and L1.3A-C split
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -40,9 +42,13 @@ The first companion pilot has now been run, and the technical pattern has also
 been repeated for a second paragraph. The 1.1.2 probe materials were removed
 after the technical test because that paragraph must be recreated with explicit
 teaching and didactic design instructions. That does not finish the companion pilot.
-The main current issue is companion layout and front-end usability: the materials
-need to feel more usable, readable, navigable, and coherent before this pattern
-is repeated across many paragraphs.
+The main current issue is companion layout, image integration, and front-end
+usability: the materials need to feel more usable, readable, navigable, and
+visually coherent before this pattern is repeated across many paragraphs. Images and
+graphs should no longer feel like pasted textbook assets. They must be adapted
+to the surface where they appear: web pages, PowerPoint presentations, Word
+documents, summaries, and interactive/game pages can each need different layout,
+contrast, scale, and annotation treatment.
 
 Important boundary:
 
@@ -51,6 +57,10 @@ Important boundary:
   output design is good enough.
 - Bulk companion production should wait until layout/UI improvements are
   integrated into the platform workflow.
+- Bulk companion production should also wait until visual assets have a
+  platform-owned variant workflow, including light/dark web variants where
+  graphics contain labels, axes, fills, backgrounds, or other theme-sensitive
+  elements.
 
 ## Team Guardrails
 
@@ -69,7 +79,9 @@ node scripts\validate-paragraph.js --mode complete "<paragraph-folder>"
 ```
 
 - Every layout or user-interface improvement must be integrated in the platform, not patched into one generated lesson file.
+- Every visual or image-integration improvement must also be integrated in the platform. Do not hand-paste one-off images into generated lesson files.
 - Reusable UI work belongs in `C:\Projects\4veco\4veco-platform`: templates, shared CSS/JS, converters, generators, validators, or build scripts.
+- Reusable visual work belongs there too: SVG builders, surface-variant renderers, converter support for light/dark web images, and rules for PowerPoint/game/doc variants.
 - Generated output in `4veco-lessen` may show the result, but it should not become the source of truth for UI changes.
 
 ## Layout Reference
@@ -152,37 +164,114 @@ Exit criteria:
 - repeated setup steps are saved or documented in the platform workflow.
 - remaining risks are moved to layout/usability and quality-gate work.
 
-### Sprint L1.3: Companion Layout And Front-End Usability
+### Sprint L1.3A: Basic HTML Layout And Front-End Usability
 
 Completed: no.
 
+Latest run: 2026-04-24.
+
 Purpose:
 
-Make companion material easier to use before scaling. This is now the most
-important companion-pilot work.
+Make the basic companion HTML pages easier to read, navigate, and use before
+scaling the companion pipeline.
+
+Scope:
+
+- `uitleg voorkennis.html`
+- `uitleg vaardigheden.html`
+- `begeleide inoefening.html`
+- paragraph `index.html`
+- game shell pages only where navigation or framing is visibly weak
+
+Current evidence:
+
+- `1.1.1` default `uitleg voorkennis.html` now uses the shared platform layout instead of only the rollback/test filename.
+- `1.1.1` `begeleide inoefening.html` now uses the shared platform theme layer.
+- `1.1.1` `uitleg vaardigheden.html` remains on the shared theme layer after deploy reskin and now avoids duplicate/oversized legacy back-link SVG behavior.
+- Browser smoke passed for `uitleg voorkennis`, `uitleg vaardigheden`, and `begeleide inoefening` at desktop/mobile widths in light and dark mode.
+- Technical gates passed after regeneration: deploy link/data checks, complete paragraph validation, and Book 1 `check:book`.
 
 Work:
 
 - Compare current Book 1 companion pages against the improved rewire reference file.
-- Define a companion layout standard for at least:
-  - `uitleg voorkennis.html`
-  - `uitleg vaardigheden.html`
-  - `begeleide inoefening.html`
-  - paragraph `index.html`
-  - game shell pages where navigation or framing is weak
 - Improve navigation, mobile behavior, hierarchy, callouts, section scanning, and visual consistency.
-- Make sure the UI changes are implemented in the platform, not only in generated output.
-- Update platform templates, shared CSS/JS, converters, and validators where needed.
+- Keep the layout implementation in the platform: shared CSS/JS, converters, templates, and build scripts.
 - Rerun the pilot output after platform changes.
-- Browser-check the improved pages on desktop and mobile widths.
+- Browser-check the improved pages on desktop and mobile widths in light and dark mode.
 
 Exit criteria:
 
-- `1.1.1` companion pages have improved layout/usability from platform-owned sources.
+- The basic `1.1.1` companion HTML pages have improved layout/usability from platform-owned sources.
 - The improved layout can be regenerated, not hand-maintained.
 - The local reference file has been used as input, but the result is a new Book 1 companion design direction.
-- `validate-paragraph.js --mode complete` still passes after regeneration.
-- Link/reachability and browser smoke checks pass for the improved companion pages.
+- Link/reachability and browser smoke checks pass for the improved companion pages in light and dark mode.
+- A human usability review signs off that this layout is good enough to use as the scaling baseline.
+
+### Sprint L1.3B: Companion SVGs And Light/Dark Visual Variants
+
+Completed: no.
+
+Latest run: 2026-04-24.
+
+Purpose:
+
+Replace raw copy-pasted textbook imagery with proper companion SVGs and
+surface-specific variants, including explicit light/dark web visuals where
+needed.
+
+Current evidence:
+
+- The visual-variant builder regenerated slide, docx, summary, web-light, and web-dark variants for `1.1.1`.
+- `1.1.1` `uitleg voorkennis.html`, `uitleg vaardigheden.html`, and `begeleide inoefening.html` use light/dark image swapping where themed visuals exist.
+- Browser smoke confirmed the correct light/dark image sources on desktop and mobile.
+
+Work:
+
+- Treat Part A textbook images as source material, not finished companion artwork.
+- Replace literal book-image copy-pasting with adapted SVGs or regenerated visuals that fit each companion surface.
+- Define visual variants per surface where needed: slide, docx, summary thumbnail, web-light, web-dark, and game/interactive variants.
+- Make web visuals adaptable to light and dark mode. Any graphic with text, axes, fills, backgrounds, or low-contrast colors needs explicit light and dark variants.
+- Make sure visual changes are implemented in the platform through SVG builders, surface-variant renderers, converter support, templates, and validators where needed.
+- Decide whether game/interactive pages need explicit concept-visual slots or whether their current generated UI is sufficient for this paragraph.
+
+Exit criteria:
+
+- `1.1.1` companion images are adapted to their surfaces rather than copy-pasted from textbook material.
+- Web pages use the correct light/dark image variants where graphics need theme-specific treatment.
+- Word documents, summaries, and interactive/game surfaces use visuals sized and composed for their actual use.
+- The improved visual variants can be regenerated from platform-owned builders, not hand-maintained.
+- `validate-paragraph.js --mode complete` still passes after visual regeneration.
+
+### Sprint L1.3C: PowerPoint Presentation Improvement
+
+Completed: no.
+
+Latest run: 2026-04-24.
+
+Purpose:
+
+Improve the companion PowerPoint so it is a classroom-ready presentation, not a
+deck with pasted book images.
+
+Current evidence:
+
+- The `1.1.1` presentation builder regenerated the PPTX using adapted slide visuals.
+- The generated PPTX round-tripped through LibreOffice successfully.
+- Complete paragraph validation still passes after regeneration.
+
+Work:
+
+- Make PowerPoint visuals fit the presentation layout: readable from the back of class, aligned with slide typography, and not just pasted as book screenshots.
+- Use slide-specific visual variants with clear composition, contrast, scale, and annotation treatment.
+- Keep PowerPoint improvements in the platform presentation builder and reusable visual-variant workflow.
+- Review the slide narrative, teacher flow, visual hierarchy, and classroom readability.
+
+Exit criteria:
+
+- The `1.1.1` PPTX uses visuals sized and composed for presentation use.
+- The presentation can be regenerated from platform-owned sources.
+- The deck opens/round-trips without repair.
+- A presentation-quality review signs off before the deck pattern is reused across more paragraphs.
 
 ### Sprint L1.4: Post-Layout Scaling Decision
 
@@ -194,7 +283,7 @@ Decide whether companion production may expand after the layout/front-end sprint
 
 Work:
 
-- Review the regenerated `1.1.1` and didactically rebuilt `1.1.2` companion pages after layout/UI improvements.
+- Review the regenerated `1.1.1` and didactically rebuilt `1.1.2` companion pages after layout/UI and visual-integration improvements.
 - Decide whether to expand to 3-5 representative paragraphs.
 - Keep all builder scripts saved under the platform `build-scripts/content/book-1/` workflow.
 - Separate remaining content problems from platform usability problems.
@@ -202,7 +291,7 @@ Work:
 Exit criteria:
 
 - improved companion pages pass validation and browser checks
-- the platform team confirms the layout direction is reproducible
+- the platform team confirms the layout and visual-variant direction is reproducible
 - the lesson team has a go/no-go decision for broader companion production
 
 ### Sprint L2.1: Book 1 Release Polish
@@ -253,13 +342,13 @@ Book 2 should prove that the Book 1 Part A workflow is repeatable, not just a on
 ### Next 1 Week
 
 - Keep Book 1 green.
-- Continue companion pilot work with layout/front-end usability as the main focus.
+- Continue companion pilot work with layout/front-end usability and proper visual integration as the main focus.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
 - Keep Book 2 Part A planning moving only under the normal chapter gates.
 
 ### Next 2-4 Weeks
 
-- One improved companion paragraph exists with platform-integrated layout/UI.
+- One improved companion paragraph exists with platform-integrated layout/UI and surface-adapted visual variants.
 - The second technical companion probe remains documented as evidence, but its materials have been cleared and no broad scaling starts until layout/UI is improved.
 - Book 1 teacher-facing polish continues without breaking `check:book`.
 
@@ -267,7 +356,7 @@ Book 2 should prove that the Book 1 Part A workflow is repeatable, not just a on
 
 - Book 1 becomes pilot-ready.
 - Book 2 textbook layer becomes textbook-ready or close.
-- Companion production decisions are based on validated, usable, regenerated companion materials, not only file-count validation.
+- Companion production decisions are based on validated, usable, regenerated companion materials with proper visual integration, not only file-count validation.
 
 ## What The Lessen Team Does Not Own
 
@@ -275,6 +364,7 @@ Book 2 should prove that the Book 1 Part A workflow is repeatable, not just a on
 - Platform-level generator refactors.
 - Shared companion CSS/JS architecture.
 - Converter/template changes needed to make layout improvements reproducible.
+- Visual-builder, converter, and template changes needed to make image variants reproducible.
 - Reference-report architecture cleanup.
 
 Those should be escalated to the platform team instead of patched locally.
@@ -287,4 +377,6 @@ Bring issues back to the platform team immediately if:
 - A companion build is blocked by missing `deploy-config.json`, missing `shared/`, or missing generator/build-script infrastructure.
 - The complete-mode validator expects artifacts that the documented toolchain cannot yet produce cleanly.
 - A UI/layout improvement requires editing generated HTML directly instead of changing platform templates, converters, shared CSS/JS, or generators.
+- An image/layout improvement requires pasting a one-off picture into generated output instead of changing platform visual builders, converters, templates, shared CSS/JS, or generators.
 - The companion pages pass file validation but fail browser rendering, navigation, mobile usability, or basic readability checks.
+- Light/dark mode makes a graphic unreadable, mismatched, or visibly pasted from the wrong theme.

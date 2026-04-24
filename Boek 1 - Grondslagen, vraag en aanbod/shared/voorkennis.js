@@ -60,7 +60,7 @@
 
     function injectBackLink() {
         var host = document.querySelector('.hero .hero-inner') || document.querySelector('.hero');
-        if (!host || host.querySelector('.back-to-overview')) return;
+        if (!host || host.querySelector('.back-to-overview, .back-link')) return;
         var a = document.createElement('a');
         a.className = 'back-to-overview';
         a.href = '../index.html';
@@ -96,6 +96,32 @@
             });
         });
 
+        document.querySelectorAll('[data-toggle="opgave"]').forEach(function (el) {
+            el.addEventListener('click', function () {
+                var opgave = el.closest('.nav-opgave');
+                if (opgave) opgave.classList.toggle('expanded');
+                var id = el.dataset.scroll;
+                var target = id ? document.getElementById(id) : null;
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    if (sidebar) sidebar.classList.remove('open');
+                    if (overlay) overlay.classList.remove('show');
+                }
+            });
+        });
+
+        document.querySelectorAll('.nav-q[data-q]').forEach(function (el) {
+            el.addEventListener('click', function (e) {
+                var target = document.getElementById(el.dataset.q);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    if (sidebar) sidebar.classList.remove('open');
+                    if (overlay) overlay.classList.remove('show');
+                }
+            });
+        });
+
         var navItems = document.querySelectorAll('.nav-item[data-section]');
         var sections = document.querySelectorAll('.section');
         if (navItems.length && sections.length && 'IntersectionObserver' in window) {
@@ -109,6 +135,27 @@
                 });
             }, { rootMargin: '-10% 0px -80% 0px' });
             sections.forEach(function (s) { obs.observe(s); });
+        }
+
+        var navQs = document.querySelectorAll('.nav-q[data-q]');
+        var questionCards = document.querySelectorAll('.question-card');
+        if (navQs.length && questionCards.length && 'IntersectionObserver' in window) {
+            var qObs = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        navQs.forEach(function (n) { n.classList.remove('active'); });
+                        var active = document.querySelector('.nav-q[data-q="' + entry.target.id + '"]');
+                        if (active) {
+                            active.classList.add('active');
+                            var parent = active.closest('.nav-opgave');
+                            if (parent && !parent.classList.contains('expanded')) {
+                                parent.classList.add('expanded');
+                            }
+                        }
+                    }
+                });
+            }, { rootMargin: '-10% 0px -80% 0px' });
+            questionCards.forEach(function (q) { qObs.observe(q); });
         }
 
         document.querySelectorAll('.checklist-item input').forEach(function (cb) {
