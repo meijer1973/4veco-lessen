@@ -1,0 +1,37 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg">
+    
+    <rect width="760" height="440" rx="20" fill="#fbf8ef"/>
+    <rect x="22" y="22" width="716" height="396" rx="18" fill="#ffffff" stroke="#d9d0be" stroke-width="1.5"/>
+    <text x="54" y="64" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="2" font-style="" fill="#d08732">COMPANION VISUAL</text>
+    <text x="54" y="104" text-anchor="start" font-family="Fraunces, Georgia, serif" font-size="25" font-weight="700" letter-spacing="0" font-style="italic" fill="#1b1a17">Schaarste zichtbaar maken</text>
+    <text x="54" y="136" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="0" font-style="" fill="#4a463d">Behoeften zijn groter dan de beschikbare middelen.</text>
+  
+    <rect x="64" y="142" width="300" height="180" rx="22" fill="#f5ead8" stroke="#d08732" stroke-width="2"/>
+    <text x="214" y="181" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="0" font-style="" fill="#d08732">Behoeften</text>
+    
+    <rect x="88" y="200" width="252" height="26" rx="9" fill="#f5ead8" stroke="#d9d0be" stroke-width="1"/>
+    <text x="214" y="219" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0" font-style="" fill="#1b1a17">Bioscoop: 12</text>
+  
+    <rect x="88" y="230" width="252" height="26" rx="9" fill="#f5ead8" stroke="#d9d0be" stroke-width="1"/>
+    <text x="214" y="249" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0" font-style="" fill="#1b1a17">Boek: 15</text>
+  
+    <rect x="88" y="260" width="252" height="26" rx="9" fill="#f5ead8" stroke="#d9d0be" stroke-width="1"/>
+    <text x="214" y="279" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0" font-style="" fill="#1b1a17">Uit eten: 18</text>
+  
+    <text x="214" y="297" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="0" font-style="" fill="#d08732">Totaal gewenst: 55 euro</text>
+
+    <line x1="382" y1="232" x2="440" y2="232" stroke="#82796d" stroke-width="3"/>
+    <polygon points="440,232 424,222 424,242" fill="#82796d"/>
+    <rect x="345" y="197" width="140" height="70" rx="16" fill="#efe8d7" stroke="#d9d0be" stroke-width="1.3"/>
+    <text x="415" y="224" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900" letter-spacing="0" font-style="" fill="#1b1a17">KEUZE</text>
+    <text x="415" y="251" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0" font-style="" fill="#82796d">nodig</text>
+
+    <rect x="466" y="180" width="230" height="142" rx="22" fill="#dff6f8" stroke="#17A2B8" stroke-width="2"/>
+    <text x="581" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="0" font-style="" fill="#17A2B8">Middelen</text>
+    <rect x="498" y="247" width="166" height="46" rx="12" fill="#ffffff" stroke="#17A2B8" stroke-width="1.5"/>
+    <text x="581" y="277" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="0" font-style="" fill="#17A2B8">Budget: 20 euro</text>
+    <text x="581" y="342" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0" font-style="" fill="#82796d">Middelen zijn beperkt</text>
+
+    <rect x="80" y="360" width="600" height="38" rx="12" fill="#efe8d7" stroke="#d9d0be" stroke-width="1"/>
+    <text x="380" y="385" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="0" font-style="" fill="#1b1a17">55 euro aan wensen &gt; 20 euro budget -&gt; schaarste</text>
+  </svg>

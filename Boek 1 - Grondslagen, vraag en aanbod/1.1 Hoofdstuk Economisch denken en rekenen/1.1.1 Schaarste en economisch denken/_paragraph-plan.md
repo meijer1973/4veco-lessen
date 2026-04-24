@@ -21,7 +21,7 @@ Unit alignment: concepts 1 en 2 komen rechtstreeks uit het unit-register (B01, B
 
 ## Visuals plan
 
-Alle vijf onderstaande visuals **bestaan al** in `_assets/` als SVG+PNG (gemaakt voor Part A). Geen nieuwe visuals nodig — hergebruik.
+Alle vijf onderstaande visuals bestaan als Part A-bronmateriaal in `_assets/` als SVG+PNG. Voor companion-output is letterlijk hergebruik niet meer de bedoeling: gebruik deze bestanden als bron voor concept, data en geometrie, maar maak surface-adapted varianten voor web, presentatie, docx en samenvatting.
 
 | Filename | Graph type | Used by | Description | Parameters |
 |---|---|---|---|---|
@@ -35,16 +35,30 @@ Alle vijf onderstaande visuals **bestaan al** in `_assets/` als SVG+PNG (gemaakt
 
 ---
 
+## Visual variants plan
+
+Visual anchor = hetzelfde concept en dezelfde data, niet hetzelfde boekplaatje. Iedere surface krijgt een passende variant met eigen verhoudingen, typografie, contrast, annotaties en kleurbehandeling.
+
+| Concept visual | Source/base | Built variants | Notes |
+|---|---|---|---|
+| Schaarste: behoeften versus middelen | `1.1.1_fig_1.svg/png` | `1.1.1_fig_1_slide.svg/png`; `1.1.1_fig_1_doc.svg/png`; `1.1.1_fig_1_summary.svg/png`; `1.1.1_fig_1_web_light.svg/png`; `1.1.1_fig_1_web_dark.svg/png` | Slide/doc/summary/web variants replace literal textbook reuse. |
+| Alternatieve kosten: wat geef je op | `1.1.1_fig_2.svg/png` | `1.1.1_fig_2_slide.svg/png`; `1.1.1_fig_2_doc.svg/png`; `1.1.1_fig_2_summary.svg/png`; `1.1.1_fig_2_web_light.svg/png`; `1.1.1_fig_2_web_dark.svg/png` | Used in presentation, vaardigheden, summary, and guided scaffolding. |
+| Economisch denken in stappen | `1.1.1_fig_3.svg/png` | `1.1.1_fig_3_slide.svg/png`; `1.1.1_fig_3_doc.svg/png`; `1.1.1_fig_3_summary.svg/png`; `1.1.1_fig_3_web_light.svg/png`; `1.1.1_fig_3_web_dark.svg/png` | Keeps the same procedure anchor but adapts layout per surface. |
+| Tarwe versus Mais worked example | `1.1.1_we_1.svg/png` | `1.1.1_we_1_slide.svg/png`; `1.1.1_we_1_doc.svg/png`; `1.1.1_we_1_summary.svg/png`; `1.1.1_we_1_web_light.svg/png`; `1.1.1_we_1_web_dark.svg/png` | Used in presentation, vaardigheden, summary, and guided scaffolding. |
+| Winst per hectare drie gewassen | `1.1.1_ex_1.svg/png` | `1.1.1_ex_1_doc.svg/png`; `1.1.1_ex_1_web_light.svg/png`; `1.1.1_ex_1_web_dark.svg/png` | Eerste test voor `uitleg voorkennis`; web gets separate light/dark variants. |
+
+---
+
 ## Presentation outline
 
 Theorie + uitgewerkt voorbeeld. Geen opgaveninstructies (B9 hard rule). Narrative-first: open met Lisa en €20.
 
 1. **Title slide**: "Schaarste en economisch denken" — editorial title, subtitle "Waarom kun je niet alles hebben?"
 2. **Narrative hook**: Lisa heeft €20, wil bioscoop (€12) én boek (€15) → beide kan niet. *Geen visual.*
-3. **Concept: Schaarste** — definitie + tabel (scholier/boer/overheid) + figuur `1.1.1_fig_1.png`. Pitfall callout: "schaarste ≠ weinig".
-4. **Concept: Alternatieve kosten** — definitie + Lisa-voorbeeld uitgewerkt + figuur `1.1.1_fig_2.png`. Pitfall callout: "alternatieve kosten ≠ prijs".
-5. **Concept: Economisch denken** — 3-stappen procedure + figuur `1.1.1_fig_3.png`.
-6. **Uitgewerkt voorbeeld — tarwe vs maïs**: procedure stap-voor-stap toegepast + figuur `1.1.1_we_1.png`.
+3. **Concept: Schaarste** — definitie + tabel (scholier/boer/overheid) + figuur `1.1.1_fig_1_slide.png`. Pitfall callout: "schaarste ≠ weinig".
+4. **Concept: Alternatieve kosten** — definitie + Lisa-voorbeeld uitgewerkt + figuur `1.1.1_fig_2_slide.png`. Pitfall callout: "alternatieve kosten ≠ prijs".
+5. **Concept: Economisch denken** — 3-stappen procedure + figuur `1.1.1_fig_3_slide.png`.
+6. **Uitgewerkt voorbeeld — tarwe vs maïs**: procedure stap-voor-stap toegepast + figuur `1.1.1_we_1_slide.png`.
 7. **Samenvatting** (theorie-slide): bullets met de vijf kernpunten uit de samenvatting.
 8. **Afsluiting**: terugkoppeling naar Lisa — "in de volgende paragraaf: hoe meten we verschillen in geld?".
 
@@ -133,7 +147,7 @@ Elke opgave kent bij antwoorden naar de **canonical term** uit Terminology. Basi
 - B01 "Schaarste als kerneconomisch probleem" — mastery_target = understand. Conceptuele vaardigheid: schaarste herkennen en onderbouwen.
 - B02 "Alternatieve kosten in een keuze-situatie" — mastery_target = apply. Procedurele vaardigheid: beste niet-gekozen alternatief identificeren en opbrengst berekenen. Needs B01.
 
-Optional graphs needed for voorkennis/vaardigheden: `fig_1`, `fig_2`, `fig_3`, `we_1` (alle al in `_assets/`).
+Optional graphs needed for voorkennis/vaardigheden: use concept bases `fig_1`, `fig_2`, `fig_3`, `we_1`, with `_doc` in Word and `_web_light`/`_web_dark` in themed HTML.
 
 ---
 
@@ -154,18 +168,18 @@ De 3-stappen-procedure die in de textbook-paragraaf zelf staat ("welke alternati
 
 ## Visuelen-toewijzing (dual coding)
 
-Elke builder die een concept met matching visual uitlegt, embed die visual (B-verify dual-coding checklist).
+Elke builder die een concept met matching visual uitlegt, embed een surface-adapted variant (B-verify dual-coding checklist).
 
-| Visual | presentatie | vaardigheden | voorkennis | samenvatting |
-|---|---|---|---|---|
-| `1.1.1_fig_1.png` | slide 3 (schaarste) | — | sectie 1 (intro schaarste, als illustratie) | cel rij 1 kolom 1 (thumbnail) |
-| `1.1.1_fig_2.png` | slide 4 (alt.kosten) | skill 1 (alt.kosten herkennen) | — | cel rij 2 kolom 1 (thumbnail) |
-| `1.1.1_fig_3.png` | slide 5 (econ. denken) | skill 2 (procedure-uitleg) | — | cel rij 3 kolom 1 (thumbnail) |
-| `1.1.1_we_1.png` | slide 6 (worked example) | skill 2 (uitgewerkt voorbeeld) | — | cel rij 3 kolom 2 (thumbnail) |
-| `1.1.1_ex_1.png` | — | — | — | — (alleen voor begeleide inoefening scaffold bij oefenopgave 1) |
-| `1.1.1_news_woningtekort.png` (nieuw) | — | — | — | — (alleen voor nieuws met visual) |
+| Visual concept | presentatie | vaardigheden | voorkennis | samenvatting | themed web |
+|---|---|---|---|---|---|
+| `1.1.1_fig_1` | `1.1.1_fig_1_slide.png`, slide 3 | `1.1.1_fig_1_doc.png`, skill 1 | — | `1.1.1_fig_1_summary.png`, cel rij 1 kolom 1 | `1.1.1_fig_1_web_light.svg/png` + `1.1.1_fig_1_web_dark.svg/png` |
+| `1.1.1_fig_2` | `1.1.1_fig_2_slide.png`, slide 4 | `1.1.1_fig_2_doc.png`, skill 2 | — | `1.1.1_fig_2_summary.png`, cel rij 2 kolom 1 | `1.1.1_fig_2_web_light.svg/png` + `1.1.1_fig_2_web_dark.svg/png` |
+| `1.1.1_fig_3` | `1.1.1_fig_3_slide.png`, slide 5 | `1.1.1_fig_3_doc.png`, skill 2 | — | `1.1.1_fig_3_summary.png`, cel rij 3 kolom 1 | `1.1.1_fig_3_web_light.svg/png` + `1.1.1_fig_3_web_dark.svg/png` |
+| `1.1.1_we_1` | `1.1.1_we_1_slide.png`, slide 6 | `1.1.1_we_1_doc.png`, skill 2 | — | `1.1.1_we_1_summary.png`, cel rij 3 kolom 2 | `1.1.1_we_1_web_light.svg/png` + `1.1.1_we_1_web_dark.svg/png` |
+| `1.1.1_ex_1` | — | — | `1.1.1_ex_1_doc.png`, sectie staafdiagrammen | — | `1.1.1_ex_1_web_light.svg/png` + `1.1.1_ex_1_web_dark.svg/png` |
+| `1.1.1_news_woningtekort.png` (nieuw) | — | — | — | — | — (alleen voor nieuws met visual; niet uit Part A boekbeeld) |
 
-Begeleide inoefening: scaffoldImage-veld verplicht voor elke opgave die grafiek- of cijfervergelijking vraagt. Kandidaten: `we_1` voor tarwe/maïs-opgaven, `ex_1` voor de drie-gewassen-opgave, `fig_2` voor alt.kosten-visualisatie.
+Begeleide inoefening: scaffoldImage-veld verplicht voor elke opgave die grafiek- of cijfervergelijking vraagt. Kandidaten: `1.1.1_we_1_doc.png` voor tarwe/maïs-opgaven, `1.1.1_ex_1_doc.png` voor drie-gewassen-uitleg, `1.1.1_fig_2_doc.png` voor alt.kosten-visualisatie; HTML gebruikt de matching web-light/web-dark conceptvariant.
 
 ---
 
