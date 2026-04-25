@@ -46,6 +46,15 @@ Visual anchor = hetzelfde concept en dezelfde data, niet hetzelfde boekplaatje. 
 | Economisch denken in stappen | `1.1.1_fig_3.svg/png` | `1.1.1_fig_3_slide.svg/png`; `1.1.1_fig_3_doc.svg/png`; `1.1.1_fig_3_summary.svg/png`; `1.1.1_fig_3_web_light.svg/png`; `1.1.1_fig_3_web_dark.svg/png` | Keeps the same procedure anchor but adapts layout per surface. |
 | Tarwe versus Mais worked example | `1.1.1_we_1.svg/png` | `1.1.1_we_1_slide.svg/png`; `1.1.1_we_1_doc.svg/png`; `1.1.1_we_1_summary.svg/png`; `1.1.1_we_1_web_light.svg/png`; `1.1.1_we_1_web_dark.svg/png` | Used in presentation, vaardigheden, summary, and guided scaffolding. |
 | Winst per hectare drie gewassen | `1.1.1_ex_1.svg/png` | `1.1.1_ex_1_doc.svg/png`; `1.1.1_ex_1_web_light.svg/png`; `1.1.1_ex_1_web_dark.svg/png` | Eerste test voor `uitleg voorkennis`; web gets separate light/dark variants. |
+| Woningmarkt: vraag versus aanbod sociale huur | `1.1.1_news_woningtekort.svg/png` | `1.1.1_news_woningtekort_doc.svg/png`; `1.1.1_news_woningtekort_web_light.svg/png`; `1.1.1_news_woningtekort_web_dark.svg/png` | Produced by `b1-111-nieuws.js` via the shared SURFACES/THEMES palette. No slide/summary variants — news does not appear in the presentation or summary. |
+
+### Game visuals decision (L1.3B)
+
+Voor paragraaf 1.1.1 krijgen de game- en interactieve surfaces geen eigen concept-visual slot:
+
+- Noch de HTML-shells (`instapquiz.html`, `redeneer-spel.html`, `stappenplan.html`, `nieuws-detective.html`) noch de bijbehorende data-objects (reasoning / quiz / procedure / newsdetective) dragen vandaag een `visualAsset`-veld. Ze tonen gegenereerde UI en tekst; geen geadopteerde concept-afbeelding.
+- Voor deze paragraaf is dat voldoende: de schaarste- en alternatieve-kosten-figuren (`fig_1`, `fig_2`, `we_1`, `ex_1`) worden al gedekt door de voorkennis-, vaardigheden- en begeleide-inoefening-pagina's. Games voegen hier spelmechaniek toe, geen extra conceptueel plaatje.
+- Revisit per paragraaf. Als een latere paragraaf een concept heeft dat alléén binnen een game leesbaar wordt (bv. een grafiek die hoort bij een redeneerscenario), wordt het per-paragraaf-besluit opnieuw genomen en naar het platformteam geëscaleerd voor een shell-aanpassing.
 
 ---
 

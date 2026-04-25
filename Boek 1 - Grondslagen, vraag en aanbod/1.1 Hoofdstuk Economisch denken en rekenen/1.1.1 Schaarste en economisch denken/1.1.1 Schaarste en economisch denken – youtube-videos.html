@@ -1,106 +1,156 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="nl" data-theme="light">
 <head>
 <meta charset="UTF-8">
-<title>YouTube-video's: 1.1.1 Schaarste en economisch denken</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>(function(){try{var m=localStorage.getItem('quizMode')||'light';document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
+<title>1.1.1 Schaarste en economisch denken – YouTube-video's</title>
+<link rel="stylesheet" href="../../shared/voorkennis.css">
 <style>
-  body { font-family: Arial, sans-serif; max-width: 860px; margin: 40px auto; padding: 20px; background: #f5f5f5; }
-  h1 { color: #0E6B61; border-bottom: 3px solid #148F83; padding-bottom: 10px; font-size: 1.5em; }
-  .intro { background: white; border-radius: 8px; padding: 16px 20px; margin-bottom: 20px;
-           box-shadow: 0 2px 4px rgba(0,0,0,0.08); font-size: 14px; color: #333; line-height: 1.5; }
-  .meta { background: white; border-radius: 8px; padding: 14px 18px; margin-bottom: 20px;
-          box-shadow: 0 2px 4px rgba(0,0,0,0.08); font-size: 14px; color: #555; }
-  .meta strong { color: #0E6B61; }
-  .card { background: white; border-radius: 10px; padding: 0; margin: 16px 0;
-          box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-left: 5px solid #148F83; overflow: hidden; }
-  .card-inner { display: flex; align-items: flex-start; gap: 0; flex-wrap: wrap; }
-  .thumb-link { position: relative; flex-shrink: 0; display: block;
-                width: 220px; height: 124px; background: linear-gradient(135deg, #148F83 0%, #0E6B61 100%);
-                color: white; text-decoration: none;
-                display: flex; align-items: center; justify-content: center;
-                font-size: 48px; }
-  .thumb-link:hover { opacity: 0.9; }
-  .card-text { padding: 16px 20px; flex: 1; min-width: 280px; }
-  .card-text h3 { margin: 0 0 6px 0; font-size: 1.05em; color: #0E6B61; }
-  .card-text h3 a { color: #0E6B61; text-decoration: none; }
-  .card-text h3 a:hover { text-decoration: underline; }
-  .channel { margin: 4px 0 8px 0; font-size: 13px; font-weight: bold; color: #148F83; }
-  .description { font-size: 13px; color: #444; line-height: 1.5; margin: 8px 0 12px 0; }
-  a.btn { display: inline-block; color: white; background: #148F83; padding: 8px 16px;
-          border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 13px; }
-  a.btn:hover { background: #0E6B61; }
-  footer { color: #aaa; font-size: 11px; margin-top: 30px; text-align: center; }
+  .video-grid {
+    display: grid; gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  .video-card {
+    display: flex; gap: 1rem;
+    background: var(--bg-lift);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .video-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  }
+  .video-thumb {
+    flex-shrink: 0;
+    width: 180px; height: 108px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-dk, var(--accent)));
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .video-thumb:hover { opacity: 0.88; }
+  .video-thumb svg {
+    width: 44px; height: 44px;
+    fill: currentColor; stroke: none;
+  }
+  .video-body { flex: 1; min-width: 0; }
+  .video-body h3 {
+    font-size: 1.02rem; font-weight: 600;
+    color: var(--ink); margin: 0 0 0.25rem;
+  }
+  .video-body h3 a { color: inherit; text-decoration: none; }
+  .video-body h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .video-channel {
+    font-size: 0.78rem; font-weight: 600;
+    color: var(--accent);
+    margin: 0 0 0.5rem;
+  }
+  .video-description {
+    font-size: 0.88rem; line-height: 1.55;
+    color: var(--ink-soft);
+    margin: 0 0 0.7rem;
+  }
+  .video-cta {
+    display: inline-block;
+    background: var(--accent); color: #fff;
+    padding: 0.45rem 0.95rem;
+    border-radius: 6px;
+    font-size: 0.82rem; font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .video-cta:hover { opacity: 0.9; }
+
+  @media (max-width: 560px) {
+    .video-card { flex-direction: column; }
+    .video-thumb { width: 100%; height: 140px; }
+  }
 </style>
 </head>
-<body>
-<h1>YouTube-video's: 1.1.1 Schaarste en economisch denken</h1>
+<body data-layout="youtube-v1" data-accent-domain="wiskunde">
 
-<div class="meta">
-  <strong>Paragraaf:</strong> 1.1.1 &ndash; Schaarste en economisch denken &nbsp;|&nbsp;
-  <strong>Hoofdstuk:</strong> 1.1 &ndash; Economisch denken en rekenen &nbsp;|&nbsp;
-  <strong>Boek:</strong> 1 &ndash; Grondslagen, vraag en aanbod &nbsp;|&nbsp;
-  <strong>Niveau:</strong> Economie VWO 4<br>
-  <strong>Kernbegrippen:</strong> schaarste, alternatieve kosten, economisch denken (3-stappenprocedure)
-</div>
+<div class="page-layout">
+  <div class="content">
+    <header class="hero">
+      <div class="hero-inner">
+        <a class="back-link" href="index.html"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg> Terug naar overzicht</a>
+        <span class="hero-badge">1.1.1 &middot; YouTube-video's</span>
+        <h1>Schaarste en economisch denken &mdash; Video-uitleg</h1>
+        <p class="hero-sub">Drie korte Nederlandstalige filmpjes bij de kernbegrippen van deze paragraaf.</p>
+      </div>
+    </header>
 
-<div class="intro">
-  Drie korte Nederlandstalige filmpjes die aansluiten bij de kernbegrippen van deze paragraaf.
-  Bekijk ze als extra uitleg naast de lestekst, of gebruik ze om de theorie te herhalen voor een toets.
-  Tip: de drie video's vullen elkaar aan &mdash; samen dekken ze schaarste, alternatieve kosten en
-  de 3-stappenprocedure van economisch denken.
-</div>
+    <main>
+      <section class="section">
+        <div class="section-header border-wiskunde">
+          <span class="section-num bg-wiskunde">1</span>
+          <div class="section-title-group">
+            <div class="section-title">Over deze video's</div>
+            <span class="section-badge">1.1 Hoofdstuk Economisch denken en rekenen</span>
+          </div>
+        </div>
+        <div class="callout callout-tip">
+          <span class="callout-icon">&#10024;</span>
+          <strong>Tip:</strong> bekijk de video's als extra uitleg naast de lestekst, of om de theorie
+          te herhalen voor een toets. De drie video's vullen elkaar aan &mdash; samen dekken ze
+          schaarste, alternatieve kosten en de 3-stappenprocedure van economisch denken.
+        </div>
+      </section>
 
-<div class="card">
-  <div class="card-inner">
-    <a href="https://www.youtube.com/results?search_query=schaarste+economie+VWO" target="_blank" class="thumb-link">&#9654;</a>
-    <div class="card-text">
-      <h3><a href="https://www.youtube.com/results?search_query=schaarste+economie+VWO" target="_blank">Schaarste &ndash; wat is het en waarom moeten we kiezen?</a></h3>
-      <p class="channel">Kanaal: Ikbeneconomie (Nederlandstalig VWO/HAVO)</p>
-      <p class="description">
-        Introductie van het begrip <strong>schaarste</strong>: behoeften zijn onbegrensd, maar tijd,
-        geld en grondstoffen zijn beperkt. De video laat met voorbeelden (zakgeld, studietijd, land)
-        zien dat schaarste niet hetzelfde is als &quot;weinig&quot;, en dat schaarste altijd keuzes
-        afdwingt. Sluit direct aan op concept 1 van paragraaf 1.1.1.
-      </p>
-      <a class="btn" href="https://www.youtube.com/results?search_query=schaarste+economie+VWO" target="_blank">&#9654; Bekijk op YouTube</a>
-    </div>
+      <section class="section">
+        <div class="section-header border-wiskunde">
+          <span class="section-num bg-wiskunde">2</span>
+          <div class="section-title-group">
+            <div class="section-title">Video-lijst</div>
+            <span class="section-badge">Schaarste &middot; Alternatieve kosten &middot; Economisch denken</span>
+          </div>
+        </div>
+        <div class="video-grid">
+        <article class="video-card">
+          <a class="video-thumb" href="https://www.youtube.com/results?search_query=schaarste+economie+VWO" target="_blank" rel="noopener" aria-label="Open video 1 op YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg>
+          </a>
+          <div class="video-body">
+            <h3><a href="https://www.youtube.com/results?search_query=schaarste+economie+VWO" target="_blank" rel="noopener">Schaarste — wat is het en waarom moeten we kiezen?</a></h3>
+            <p class="video-channel">Kanaal: Ikbeneconomie (Nederlandstalig VWO/HAVO)</p>
+            <p class="video-description">Introductie van het begrip <strong>schaarste</strong>: behoeften zijn onbegrensd, maar tijd, geld en grondstoffen zijn beperkt. De video laat met voorbeelden (zakgeld, studietijd, land) zien dat schaarste niet hetzelfde is als &quot;weinig&quot;, en dat schaarste altijd keuzes afdwingt. Sluit direct aan op concept 1 van paragraaf 1.1.1.</p>
+            <a class="video-cta" href="https://www.youtube.com/results?search_query=schaarste+economie+VWO" target="_blank" rel="noopener">&#9654;&nbsp;Bekijk op YouTube</a>
+          </div>
+        </article>
+        <article class="video-card">
+          <a class="video-thumb" href="https://www.youtube.com/results?search_query=alternatieve+kosten+economie" target="_blank" rel="noopener" aria-label="Open video 2 op YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg>
+          </a>
+          <div class="video-body">
+            <h3><a href="https://www.youtube.com/results?search_query=alternatieve+kosten+economie" target="_blank" rel="noopener">Alternatieve kosten — wat geef je op als je kiest?</a></h3>
+            <p class="video-channel">Kanaal: Havisten Economie / Economie VMBO VWO (Peter Boerman)</p>
+            <p class="video-description">Uitleg van <strong>alternatieve kosten</strong> met sprekende voorbeelden: een boer die tussen tarwe en ma&iuml;s kiest, of een scholier die een avond moet verdelen over leren en sporten. De video benadrukt de valkuil dat alternatieve kosten niet de prijs zijn, maar de opbrengst van het <em>beste niet-gekozen alternatief</em>. Sluit aan op concept 2.</p>
+            <a class="video-cta" href="https://www.youtube.com/results?search_query=alternatieve+kosten+economie" target="_blank" rel="noopener">&#9654;&nbsp;Bekijk op YouTube</a>
+          </div>
+        </article>
+        <article class="video-card">
+          <a class="video-thumb" href="https://www.youtube.com/results?search_query=economisch+denken+alternatieven+kiezen" target="_blank" rel="noopener" aria-label="Open video 3 op YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg>
+          </a>
+          <div class="video-body">
+            <h3><a href="https://www.youtube.com/results?search_query=economisch+denken+alternatieven+kiezen" target="_blank" rel="noopener">Economisch denken — systematisch kiezen in 3 stappen</a></h3>
+            <p class="video-channel">Kanaal: Studyflix Nederland / Ikbeneconomie</p>
+            <p class="video-description">De <strong>3-stappenprocedure</strong> van economisch denken: (1) welke alternatieven heb je? (2) wat levert elk alternatief op? (3) wat geef je op bij je keuze? De video laat zien hoe je met deze procedure een keuze uitwerkt, bijvoorbeeld bij de besteding van een beperkt budget. Sluit aan op concept 3 en de worked example (tarwe vs ma&iuml;s).</p>
+            <a class="video-cta" href="https://www.youtube.com/results?search_query=economisch+denken+alternatieven+kiezen" target="_blank" rel="noopener">&#9654;&nbsp;Bekijk op YouTube</a>
+          </div>
+        </article>
+        </div>
+      </section>
+    </main>
   </div>
 </div>
 
-<div class="card">
-  <div class="card-inner">
-    <a href="https://www.youtube.com/results?search_query=alternatieve+kosten+economie" target="_blank" class="thumb-link">&#9654;</a>
-    <div class="card-text">
-      <h3><a href="https://www.youtube.com/results?search_query=alternatieve+kosten+economie" target="_blank">Alternatieve kosten &ndash; wat geef je op als je kiest?</a></h3>
-      <p class="channel">Kanaal: Havisten Economie / Economie VMBO VWO (Peter Boerman)</p>
-      <p class="description">
-        Uitleg van <strong>alternatieve kosten</strong> met sprekende voorbeelden: een boer die tussen
-        tarwe en ma&iuml;s kiest, of een scholier die een avond moet verdelen over leren en sporten.
-        De video benadrukt de valkuil dat alternatieve kosten niet de prijs zijn, maar de opbrengst
-        van het <em>beste niet-gekozen alternatief</em>. Sluit aan op concept 2.
-      </p>
-      <a class="btn" href="https://www.youtube.com/results?search_query=alternatieve+kosten+economie" target="_blank">&#9654; Bekijk op YouTube</a>
-    </div>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-inner">
-    <a href="https://www.youtube.com/results?search_query=economisch+denken+alternatieven+kiezen" target="_blank" class="thumb-link">&#9654;</a>
-    <div class="card-text">
-      <h3><a href="https://www.youtube.com/results?search_query=economisch+denken+alternatieven+kiezen" target="_blank">Economisch denken &ndash; systematisch kiezen in 3 stappen</a></h3>
-      <p class="channel">Kanaal: Studyflix Nederland / Ikbeneconomie</p>
-      <p class="description">
-        De <strong>3-stappenprocedure</strong> van economisch denken: (1) welke alternatieven heb je?
-        (2) wat levert elk alternatief op? (3) wat geef je op bij je keuze? De video laat zien hoe
-        je met deze procedure een keuze uitwerkt, bijvoorbeeld bij de besteding van een beperkt
-        budget. Sluit aan op concept 3 en de worked example (tarwe vs ma&iuml;s).
-      </p>
-      <a class="btn" href="https://www.youtube.com/results?search_query=economisch+denken+alternatieven+kiezen" target="_blank">&#9654; Bekijk op YouTube</a>
-    </div>
-  </div>
-</div>
-
-<footer>Aangemaakt voor Boek 1 &ndash; Grondslagen, vraag en aanbod | Economie VWO 4 | 4veco-lessen</footer>
+<script src="../../shared/voorkennis.js"></script>
 </body>
 </html>

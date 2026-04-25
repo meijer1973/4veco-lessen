@@ -7,17 +7,20 @@
 | L0.5 | Green Gate Handoff | yes | Book 1 Part A and the platform/book health routine are green. |
 | L1.1 | First Companion Technical Pilot | yes | `1.1.1` passes the current complete technical gate. |
 | L1.2 | Second Companion Technical Probe | yes | `1.1.2` proved the technical pattern can repeat; probe materials were removed for didactic rebuild. |
-| L1.3A | Basic HTML Layout And Front-End Usability | no | Pilot run completed for `1.1.1` `uitleg voorkennis`, `uitleg vaardigheden`, and `begeleide inoefening`; needs human usability sign-off. |
-| L1.3B | Companion SVGs And Light/Dark Visual Variants | no | Proper SVG/variant workflow is running for `1.1.1`; game/interactive visual slots still need a decision. |
-| L1.3C | PowerPoint Presentation Improvement | no | `1.1.1` PPTX regenerated with adapted slide visuals and LibreOffice roundtrip; needs presentation-quality review. |
-| L1.4 | Post-Layout Scaling Decision | no | Decide whether to expand after L1.3A-C are platform-integrated, regenerated, and reviewed. |
+| L1.3A | Basic HTML Layout And Front-End Usability | yes | Closed 2026-04-25. `1.1.1` companions on shared platform layout/theme; converters and landing-page generator landed in platform; browser smoke + technical gates green. |
+| L1.3B | Companion SVGs And Light/Dark Visual Variants | yes | Closed 2026-04-25. `lib-visual-surfaces.js` is the shared SURFACES/THEMES module; light/dark symmetry validator enforced; news visual on the variant system; game-visuals decision recorded per paragraph. |
+| L1.3C | PowerPoint Presentation Improvement | yes | Closed 2026-04-25. `1.1.1` PPTX regenerated with adapted slide visuals; teacher-supporting slide rules + read-through QA gate documented in `econ-pptx-templates`; LibreOffice roundtrip clean. |
+| L1.4 | First Pipeline Regression Paragraph | no | Active 2026-04-25. Building `1.1.2 Percentages en indexcijfers` end-to-end against the L1.3A-C platform state to prove the pipeline still works on fresh content. |
+| L1.5 | Layout Round 2 | no | Tighten layout/UI based on the L1.3A-C usability review and anything L1.4 surfaced. Platform-owned only. |
+| L1.6 | Second Pipeline Regression Paragraph | no | Build one more Book 1 companion paragraph after L1.5 to confirm the layout changes did not break the pipeline. |
+| L1.7 | Post-Layout Scaling Decision | no | Decide whether to expand broadly after L1.3A-C + L1.4-L1.6 prove the layout survives two independent paragraph builds. |
 | L2.1 | Book 1 Release Polish | no | Teacher-facing polish continues under the Book 1 health gate. |
 | L2.2 | Book 2 Part A Textbook Layer | no | Start Book 2 Part A only under the chapter/paragraph hard gates. |
 
 ## Roadmap Metadata
 
 Generated: 2026-04-23
-Updated: 2026-04-24 after companion pilot review, layout/UI reprioritization, visual-variant direction, and L1.3A-C split
+Updated: 2026-04-25 after Sprint L1.3A-C close — basic HTML layout, companion SVG variant system with light/dark symmetry validator, and PPTX teacher-supporting slide rules all landed in platform; L1.4 (pipeline regression on `1.1.2 Percentages en indexcijfers`) is now active.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -166,9 +169,9 @@ Exit criteria:
 
 ### Sprint L1.3A: Basic HTML Layout And Front-End Usability
 
-Completed: no.
+Completed: yes.
 
-Latest run: 2026-04-24.
+Closed: 2026-04-25.
 
 Purpose:
 
@@ -209,9 +212,9 @@ Exit criteria:
 
 ### Sprint L1.3B: Companion SVGs And Light/Dark Visual Variants
 
-Completed: no.
+Completed: yes.
 
-Latest run: 2026-04-24.
+Closed: 2026-04-25.
 
 Purpose:
 
@@ -221,9 +224,13 @@ needed.
 
 Current evidence:
 
-- The visual-variant builder regenerated slide, docx, summary, web-light, and web-dark variants for `1.1.1`.
+- `SURFACES` and `THEMES` are now a single platform-owned module (`4veco-platform/build-scripts/lib/lib-visual-surfaces.js`). Both the figure/worked-example/exercise builder (`b1-111-visual-variants.js`) and the news builder (`b1-111-nieuws.js`) import from it.
+- The news visual `1.1.1_news_woningtekort` is now produced through the shared variant system: `doc`, `web_light`, `web_dark` surface variants plus a canonical base file, with the Word document embedding the `_doc` PNG instead of a raw base screenshot.
+- `b1-111-visual-variants.js` still regenerates slide, doc, summary, web-light, and web-dark variants for `1.1.1` figures/worked examples/exercises. Byte-diff after the shared-lib refactor was empty.
 - `1.1.1` `uitleg voorkennis.html`, `uitleg vaardigheden.html`, and `begeleide inoefening.html` use light/dark image swapping where themed visuals exist.
-- Browser smoke confirmed the correct light/dark image sources on desktop and mobile.
+- Browser smoke confirmed the correct light/dark image sources on desktop and mobile (pre-refactor; re-check after the news variant regeneration is still needed).
+- `validate-paragraph.js --mode complete` now enforces `_web_light`/`_web_dark` symmetry: any variant declared without its counterpart (in `_paragraph-plan.md`) fails the gate. 6 pair(s) pass for 1.1.1 today. Platform unit tests green; a temp fixture confirmed the new FAIL path fires.
+- The game/interactive visuals decision for 1.1.1 is recorded in `1.1.1/_paragraph-plan.md` §"Game visuals decision (L1.3B)": no concept-visual slot for this paragraph; revisit per-paragraph.
 
 Work:
 
@@ -244,9 +251,9 @@ Exit criteria:
 
 ### Sprint L1.3C: PowerPoint Presentation Improvement
 
-Completed: no.
+Completed: yes.
 
-Latest run: 2026-04-24.
+Closed: 2026-04-25.
 
 Purpose:
 
@@ -273,25 +280,120 @@ Exit criteria:
 - The deck opens/round-trips without repair.
 - A presentation-quality review signs off before the deck pattern is reused across more paragraphs.
 
-### Sprint L1.4: Post-Layout Scaling Decision
+### Sprint L1.4: First Pipeline Regression Paragraph
+
+Completed: no.
+
+Active since: 2026-04-25. Target paragraph: `1.1.2 Percentages en indexcijfers` (Part A is complete; Part B build is starting against the L1.3A-C platform state).
+
+Purpose:
+
+Prove the new layout/visual pipeline still works on fresh content — not just on
+re-regenerations of `1.1.1`. Surface any pipeline gap, platform assumption, or
+layout regression that only shows up the second time the full Part B workflow
+is driven.
+
+Work:
+
+- Pick one additional Book 1 paragraph for a complete Part B build against the
+  L1.3A-C platform state. Natural candidate: `1.1.2 Percentages en indexcijfers`
+  (materials were cleared after the earlier probe and await a didactic rebuild).
+- Drive the full pipeline: converters (voorkennis / vaardigheden / begeleide
+  inoefening), presentation builder, visual variants, paragraaf landing page,
+  youtube-videos generator if in scope.
+- Pass `validate-paragraph.js --mode complete`, `check-links.js`, and
+  `check:book`.
+- Browser-smoke each generated page on desktop and mobile, light and dark.
+- Treat every gap as a platform issue: file a fix against the relevant platform
+  script. Do not hand-patch anything inside `4veco-lessen/`.
+
+Exit criteria:
+
+- a second Book 1 paragraph has a complete Part B companion set that passes
+  complete-mode validation
+- every pipeline gap surfaced is fixed in the platform, not in generated output
+- browser smoke confirms the L1.3A-C layout direction holds on new content
+
+### Sprint L1.5: Layout Round 2
 
 Completed: no.
 
 Purpose:
 
-Decide whether companion production may expand after the layout/front-end sprint.
+Tighten the companion layout/front-end based on the L1.3A-C usability review
+plus whatever L1.4 exposed. Land the improvements in platform-owned sources so
+both paragraphs regenerate cleanly against the updated look.
 
 Work:
 
-- Review the regenerated `1.1.1` and didactically rebuilt `1.1.2` companion pages after layout/UI and visual-integration improvements.
-- Decide whether to expand to 3-5 representative paragraphs.
-- Keep all builder scripts saved under the platform `build-scripts/content/book-1/` workflow.
+- Consolidate P1 and P2 findings from the L1.3A-C human usability review.
+- Act on anything L1.4 surfaced: accent-domain mismatches, empty-section
+  states on Part-A-only paragraphs, sidebar defaults, mobile breakpoints,
+  resource-card density, callout hierarchy, light/dark regressions on new
+  content.
+- Keep all changes in platform-owned CSS/JS, converters, templates, and
+  build scripts. No one-off fixes in generated files.
+- Rerun both `1.1.1` and the L1.4 paragraph end to end and confirm no
+  regressions against the hard gates.
+
+Exit criteria:
+
+- layout/UI improvements land in platform sources and regenerate cleanly for
+  both paragraphs
+- no outstanding P1 items remain from the L1.3A-C usability review
+- `validate-paragraph.js --mode complete` passes for both paragraphs
+
+### Sprint L1.6: Second Pipeline Regression Paragraph
+
+Completed: no.
+
+Purpose:
+
+Confirm the L1.5 layout changes did not break the pipeline by driving the
+full Part B workflow end to end on a third Book 1 paragraph. Two independent
+regenerations against two successive layout states is the minimum signal that
+the pattern is safe to scale.
+
+Work:
+
+- Pick a third Book 1 paragraph (team picks — likely `1.1.3 Grafieken en
+  tabellen` or `1.1.4 Gemengde opgaven`, whichever has clean Part A and a
+  defensible Part B scope).
+- Drive the full pipeline; same validator + check-links + check:book gates as
+  L1.4.
+- Browser-smoke the generated pages in light and dark on desktop and mobile.
+- Any breakage becomes a platform fix and a regeneration; no hand-patches.
+
+Exit criteria:
+
+- a third Book 1 paragraph has a complete Part B companion set that passes
+  complete-mode validation
+- zero hand-patches remain in `4veco-lessen/` for the new paragraph
+- browser smoke confirms Layout Round 2 holds on new content
+
+### Sprint L1.7: Post-Layout Scaling Decision
+
+Completed: no.
+
+Purpose:
+
+Decide whether companion production may expand broadly after two independent
+paragraph builds against two successive layout states.
+
+Work:
+
+- Review the regenerated `1.1.1` plus the L1.4 and L1.6 paragraphs after
+  layout/UI and visual-integration improvements.
+- Decide whether to expand to 3-5 more representative paragraphs.
+- Keep all builder scripts saved under the platform `build-scripts/content/book-1/`
+  workflow.
 - Separate remaining content problems from platform usability problems.
 
 Exit criteria:
 
 - improved companion pages pass validation and browser checks
-- the platform team confirms the layout and visual-variant direction is reproducible
+- the platform team confirms the layout and visual-variant direction is
+  reproducible across three paragraphs under two layout states
 - the lesson team has a go/no-go decision for broader companion production
 
 ### Sprint L2.1: Book 1 Release Polish
@@ -348,8 +450,10 @@ Book 2 should prove that the Book 1 Part A workflow is repeatable, not just a on
 
 ### Next 2-4 Weeks
 
-- One improved companion paragraph exists with platform-integrated layout/UI and surface-adapted visual variants.
-- The second technical companion probe remains documented as evidence, but its materials have been cleared and no broad scaling starts until layout/UI is improved.
+- `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.
+- A second Book 1 companion paragraph is built under L1.4 against the current platform state, surfacing any pipeline gap that a second regeneration reveals.
+- Layout Round 2 (L1.5) acts on the combined findings from the L1.3A-C usability review and the L1.4 regression paragraph; changes land in platform-owned sources only.
+- A third Book 1 companion paragraph is built under L1.6 to confirm the Round 2 layout survives a second independent regeneration before the scaling decision.
 - Book 1 teacher-facing polish continues without breaking `check:book`.
 
 ### Months 1-3
