@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4veco — Praktische Economie VWO 4</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #1E2761;
+    --dark: #2D3748;
+    --gray: #718096;
+    --bg: #F7F8FA;
+    --white: #FFFFFF;
+    --border: #CBD5E0;
+    --teal: #17A2B8;
+    --teal-dk: #117A8B;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--dark);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .eyebrow {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--gray);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: var(--navy);
+    line-height: 1.2;
+  }
+  .subtitle {
+    color: var(--gray);
+    font-size: 1.05rem;
+    margin-top: 0.6rem;
+  }
+  .book-list { list-style: none; display: grid; gap: 1rem; }
+  .book {
+    display: block;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--teal);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .book:hover {
+    border-left-color: var(--teal-dk);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    transform: translateY(-1px);
+  }
+  .book-number {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gray);
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+  .book-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--navy);
+    margin-bottom: 0.4rem;
+  }
+  .book-summary {
+    color: var(--dark);
+    font-size: 0.98rem;
+  }
+  .book-status {
+    display: inline-block;
+    margin-top: 0.7rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--teal-dk);
+    background: rgba(23, 162, 184, 0.1);
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+  }
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--teal-dk); }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <p class="eyebrow">4veco</p>
+      <h1>Praktische Economie — VWO 4</h1>
+      <p class="subtitle">Lesmateriaal voor leerlingen en docenten.</p>
+    </header>
+
+    <ul class="book-list">
+      <li>
+        <a class="book" href="Boek%201%20-%20Grondslagen,%20vraag%20en%20aanbod/index.html">
+          <div class="book-number">Boek 1</div>
+          <div class="book-title">Grondslagen, vraag en aanbod</div>
+          <div class="book-summary">Economisch denken en rekenen, vraag, aanbod, en marktwerking — de fundamenten voor de rest van het schooljaar.</div>
+          <span class="book-status">in opbouw</span>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      <p>Repository: <a href="https://github.com/meijer1973/4veco-lessen">github.com/meijer1973/4veco-lessen</a></p>
+    </footer>
+  </div>
+</body>
+</html>
