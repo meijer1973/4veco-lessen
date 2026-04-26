@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script>(function(){try{var m=localStorage.getItem('quizMode')||'light';document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
+<script>(function(){try{var m=localStorage.getItem('quizMode')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
 <title>1.1.2 Percentages en indexcijfers – Lesmateriaal</title>
 <link rel="stylesheet" href="../../shared/voorkennis.css">
 <style>
@@ -17,7 +17,7 @@
 
   .resource-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 0.9rem;
   }
   .resource-card {
@@ -131,7 +131,7 @@
       <a href="../index.html">&larr; Hoofdstuk 1 – Economisch denken en rekenen</a><br>
       <a href="../../index.html">Boek 1: Grondslagen, vraag en aanbod</a>
     </div>
-      <a class="nav-item domain-wiskunde" href="#oefenen" data-section="oefenen">
+      <a class="nav-item domain-economisch" href="#oefenen" data-section="oefenen">
         <span class="nav-number">2</span>
         <span class="nav-text">
           <span class="nav-title">Oefenen</span>
@@ -152,11 +152,11 @@
 
     <main>
       <section class="section" id="oefenen">
-        <div class="section-header border-wiskunde">
-          <span class="section-num bg-wiskunde">2</span>
+        <div class="section-header border-economisch">
+          <span class="section-num bg-economisch">2</span>
           <div class="section-title-group">
             <div class="section-title">Oefenen</div>
-            <span class="section-badge">Kies een interactieve oefening</span>
+            <span class="section-badge badge-economisch">Kies een interactieve oefening</span>
           </div>
         </div>
         <div class="resource-grid">

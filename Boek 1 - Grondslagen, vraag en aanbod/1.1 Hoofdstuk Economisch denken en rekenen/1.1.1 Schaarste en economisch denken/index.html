@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script>(function(){try{var m=localStorage.getItem('quizMode')||'light';document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
+<script>(function(){try{var m=localStorage.getItem('quizMode')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
 <title>1.1.1 Schaarste en economisch denken – Lesmateriaal</title>
 <link rel="stylesheet" href="../../shared/voorkennis.css">
 <style>
@@ -17,7 +17,7 @@
 
   .resource-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 0.9rem;
   }
   .resource-card {
@@ -138,21 +138,21 @@
           <span class="nav-badge">Check wat je al weet en wat je nog nodig hebt</span>
         </span>
       </a>
-      <a class="nav-item domain-wiskunde" href="#oefenen" data-section="oefenen">
+      <a class="nav-item domain-economisch" href="#oefenen" data-section="oefenen">
         <span class="nav-number">2</span>
         <span class="nav-text">
           <span class="nav-title">Oefenen</span>
           <span class="nav-badge">Kies een interactieve oefening</span>
         </span>
       </a>
-      <a class="nav-item domain-wiskunde" href="#leren" data-section="leren">
+      <a class="nav-item domain-grafisch" href="#leren" data-section="leren">
         <span class="nav-number">3</span>
         <span class="nav-text">
           <span class="nav-title">Leren</span>
           <span class="nav-badge">De les doorwerken: presentatie, uitleg en video’s</span>
         </span>
       </a>
-      <a class="nav-item domain-wiskunde" href="#opgaven" data-section="opgaven">
+      <a class="nav-item domain-economisch" href="#opgaven" data-section="opgaven">
         <span class="nav-number">4</span>
         <span class="nav-text">
           <span class="nav-title">Opgaven</span>
@@ -177,7 +177,7 @@
           <span class="section-num bg-wiskunde">1</span>
           <div class="section-title-group">
             <div class="section-title">Voorbereiden</div>
-            <span class="section-badge">Check wat je al weet en wat je nog nodig hebt</span>
+            <span class="section-badge badge-wiskunde">Check wat je al weet en wat je nog nodig hebt</span>
           </div>
         </div>
         <div class="resource-grid">
@@ -211,11 +211,11 @@
       </section>
 
       <section class="section" id="oefenen">
-        <div class="section-header border-wiskunde">
-          <span class="section-num bg-wiskunde">2</span>
+        <div class="section-header border-economisch">
+          <span class="section-num bg-economisch">2</span>
           <div class="section-title-group">
             <div class="section-title">Oefenen</div>
-            <span class="section-badge">Kies een interactieve oefening</span>
+            <span class="section-badge badge-economisch">Kies een interactieve oefening</span>
           </div>
         </div>
         <div class="resource-grid">
@@ -249,11 +249,11 @@
       </section>
 
       <section class="section" id="leren">
-        <div class="section-header border-wiskunde">
-          <span class="section-num bg-wiskunde">3</span>
+        <div class="section-header border-grafisch">
+          <span class="section-num bg-grafisch">3</span>
           <div class="section-title-group">
             <div class="section-title">Leren</div>
-            <span class="section-badge">De les doorwerken: presentatie, uitleg en video’s</span>
+            <span class="section-badge badge-grafisch">De les doorwerken: presentatie, uitleg en video’s</span>
           </div>
         </div>
         <div class="resource-grid">
@@ -314,11 +314,11 @@
       </section>
 
       <section class="section" id="opgaven">
-        <div class="section-header border-wiskunde">
-          <span class="section-num bg-wiskunde">4</span>
+        <div class="section-header border-economisch">
+          <span class="section-num bg-economisch">4</span>
           <div class="section-title-group">
             <div class="section-title">Opgaven</div>
-            <span class="section-badge">Oefen op je eigen niveau</span>
+            <span class="section-badge badge-economisch">Oefen op je eigen niveau</span>
           </div>
         </div>
         <div class="resource-grid">

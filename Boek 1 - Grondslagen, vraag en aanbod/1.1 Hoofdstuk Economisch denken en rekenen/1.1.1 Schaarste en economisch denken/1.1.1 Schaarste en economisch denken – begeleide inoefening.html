@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script>(function(){try{var m=localStorage.getItem('quizMode')||'light';document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
+<script>(function(){try{var m=localStorage.getItem('quizMode')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
 <title>1.1.1 Schaarste en economisch denken – Begeleide inoefening</title>
 <link rel="stylesheet" href="../../shared/voorkennis.css">
 </head>
@@ -21,7 +21,7 @@
     <div class="nav-opgave expanded">
       <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-1">
         <span class="nav-dot"></span>
-        <span class="nav-opgave-label">1 &middot; Is er sprake van schaarste?</span>
+        <span class="nav-opgave-label" title="Is er sprake van schaarste?">1 &middot; Is er sprake van schaarste?</span>
         <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
       </div>
       <div class="nav-questions">
@@ -33,7 +33,7 @@
     <div class="nav-opgave">
       <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-2">
         <span class="nav-dot"></span>
-        <span class="nav-opgave-label">2 &middot; Alternatieve kosten bij twee a</span>
+        <span class="nav-opgave-label" title="Alternatieve kosten bij twee alternatieven">2 &middot; Alternatieve kosten bij twee alternatieven</span>
         <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
       </div>
       <div class="nav-questions">
@@ -45,7 +45,7 @@
     <div class="nav-opgave">
       <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-3">
         <span class="nav-dot"></span>
-        <span class="nav-opgave-label">3 &middot; Alternatieve kosten bij drie a</span>
+        <span class="nav-opgave-label" title="Alternatieve kosten bij drie alternatieven">3 &middot; Alternatieve kosten bij drie alternatieven</span>
         <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
       </div>
       <div class="nav-questions">
@@ -57,7 +57,7 @@
     <div class="nav-opgave">
       <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-4">
         <span class="nav-dot"></span>
-        <span class="nav-opgave-label">4 &middot; Winst op een schaars middel — </span>
+        <span class="nav-opgave-label" title="Winst op een schaars middel — de boer met 12 hectare">4 &middot; Winst op een schaars middel — de boer met 12 hectare</span>
         <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
       </div>
       <div class="nav-questions">
@@ -69,7 +69,7 @@
     <div class="nav-opgave">
       <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-5">
         <span class="nav-dot"></span>
-        <span class="nav-opgave-label">5 &middot; Meerdere keuzerondes — Luuk ve</span>
+        <span class="nav-opgave-label" title="Meerdere keuzerondes — Luuk verdeelt €30">5 &middot; Meerdere keuzerondes — Luuk verdeelt €30</span>
         <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
       </div>
       <div class="nav-questions">
@@ -80,7 +80,7 @@
     <div class="nav-opgave">
       <div class="nav-opgave-title" data-toggle="opgave" data-scroll="opgave-6">
         <span class="nav-dot"></span>
-        <span class="nav-opgave-label">6 &middot; Overheidskeuze bij een schaars</span>
+        <span class="nav-opgave-label" title="Overheidskeuze bij een schaars budget (volledige B02-procedure)">6 &middot; Overheidskeuze bij een schaars budget (volledige B02-procedure)</span>
         <svg class="nav-arrow" viewBox="0 0 14 14"><polyline points="3 5 7 9 11 5"/></svg>
       </div>
       <div class="nav-questions">
@@ -106,27 +106,27 @@
           </div>
           <div class="hero-card" data-target="opgave-2">
             <div class="hero-card-num">Opgave 2</div>
-            <div class="hero-card-title">Alternatieve kosten bij twee altern</div>
+            <div class="hero-card-title">Alternatieve kosten bij twee alternatieven</div>
             <div class="hero-card-count">3 deelvragen</div>
           </div>
           <div class="hero-card" data-target="opgave-3">
             <div class="hero-card-num">Opgave 3</div>
-            <div class="hero-card-title">Alternatieve kosten bij drie altern</div>
+            <div class="hero-card-title">Alternatieve kosten bij drie alternatieven</div>
             <div class="hero-card-count">3 deelvragen</div>
           </div>
           <div class="hero-card" data-target="opgave-4">
             <div class="hero-card-num">Opgave 4</div>
-            <div class="hero-card-title">Winst op een schaars middel — de bo</div>
+            <div class="hero-card-title">Winst op een schaars middel — de boer met 12 hectare</div>
             <div class="hero-card-count">3 deelvragen</div>
           </div>
           <div class="hero-card" data-target="opgave-5">
             <div class="hero-card-num">Opgave 5</div>
-            <div class="hero-card-title">Meerdere keuzerondes — Luuk verdeel</div>
+            <div class="hero-card-title">Meerdere keuzerondes — Luuk verdeelt €30</div>
             <div class="hero-card-count">2 deelvragen</div>
           </div>
           <div class="hero-card" data-target="opgave-6">
             <div class="hero-card-num">Opgave 6</div>
-            <div class="hero-card-title">Overheidskeuze bij een schaars budg</div>
+            <div class="hero-card-title">Overheidskeuze bij een schaars budget (volledige B02-procedure)</div>
             <div class="hero-card-count">4 deelvragen</div>
           </div>
 
