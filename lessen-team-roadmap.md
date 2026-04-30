@@ -474,7 +474,7 @@ Purpose:
 
 Tighten the companion layout/front-end on the items that need fresh-paragraph
 input or that touch generators. Use L1.4's findings as input plus the
-deferred item #3 from the rolled-back round-2 attempt.
+deferred items from the rolled-back round-2 attempt and from L1.5A's planner.
 
 Work:
 
@@ -486,6 +486,19 @@ Work:
 - Land the deferred round-2 item #3 (split "Valkuilen en misvattingen" into
   per-card pitfalls in `build-landing-page.js`) — generator-touching, so it
   needs L1.4's fresh-paragraph regression in the rear-view mirror.
+- Land the deferred round-2 item #1 (per-section accents on chapter/book
+  index cards). The L1.5A planning sub-agent reclassified this as
+  generator-touching with the following evidence: `.section-card` does not
+  exist in the platform; cards are emitted as `.chapter-card`
+  (`build-scripts/platform/build-landing-page.js` ~line 499) and `.para-card`
+  (~line 542); current accent is an inline `style="--ch-color: ${dc2.main}"`
+  from a 5-color palette, not the editorial 3-token system; editorial accent
+  CSS rules in `engines/voorkennis.css` require either `body[data-accent-domain]`
+  or class hooks (`bg-economisch` / `border-...` / `badge-...` / `domain-...`)
+  or a `data-domain` attribute, none of which the cards carry. Implementation
+  requires editing the renderBookPage / renderChapterPage emission sites to
+  add a `data-domain` attribute (or matching class hook) and adding matching
+  CSS rules.
 - Keep all changes in platform-owned CSS/JS, converters, templates, and
   build scripts. No one-off fixes in generated files.
 - Rerun both `1.1.1` and the L1.4 paragraph end to end and confirm no
