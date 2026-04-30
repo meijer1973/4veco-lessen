@@ -1,0 +1,24 @@
+# Repo policy: text files use LF in both repo and working tree.
+#
+# Why: deploy.js (in 4veco-platform) writes LF-terminated files into this
+# repo. Windows core.autocrlf=true previously converted those to CRLF on
+# checkout, producing a "modified" flag on every deploy even when content
+# was unchanged. Pinning eol=lf removes the mismatch.
+
+* text=auto eol=lf
+
+# Known binary types — disable line-ending normalization explicitly.
+*.docx  binary
+*.pptx  binary
+*.xlsx  binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.zip   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
