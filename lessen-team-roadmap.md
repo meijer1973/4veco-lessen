@@ -10,10 +10,13 @@
 | L1.3A | Basic HTML Layout And Front-End Usability | yes | Closed 2026-04-25. `1.1.1` companions on shared platform layout/theme; converters and landing-page generator landed in platform; browser smoke + technical gates green. |
 | L1.3B | Companion SVGs And Light/Dark Visual Variants | yes | Closed 2026-04-25. `lib-visual-surfaces.js` is the shared SURFACES/THEMES module; light/dark symmetry validator enforced; news visual on the variant system; game-visuals decision recorded per paragraph. |
 | L1.3C | PowerPoint Presentation Improvement | yes | Closed 2026-04-25. `1.1.1` PPTX regenerated with adapted slide visuals; teacher-supporting slide rules + read-through QA gate documented in `econ-pptx-templates`; LibreOffice roundtrip clean. |
-| L1.4 | First Pipeline Regression Paragraph | no | Active 2026-04-25. Building `1.1.2 Percentages en indexcijfers` end-to-end against the L1.3A-C platform state to prove the pipeline still works on fresh content. |
-| L1.5 | Layout Round 2 | no | Tighten layout/UI based on the L1.3A-C usability review and anything L1.4 surfaced. Platform-owned only. |
-| L1.6 | Second Pipeline Regression Paragraph | no | Build one more Book 1 companion paragraph after L1.5 to confirm the layout changes did not break the pipeline. |
-| L1.7 | Post-Layout Scaling Decision | no | Decide whether to expand broadly after L1.3A-C + L1.4-L1.6 prove the layout survives two independent paragraph builds. |
+| L1.5A | Easy Layout Round 2 | no | Active 2026-04-30. Ship rolled-back round-2 items #0/#1/#2 (book-index back-link guard, per-section card accents, BI back-link). Single-paragraph-safe edits in `4veco-platform-layout` worktree off platform `c21ee14`. |
+| L1.5D | Authored Content As Web | no | After L1.5A. Two-phase sprint: D1 DOCX rendered as web on paragraph pages with `.docx` download; D2 PPTX rendered as web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout. |
+| L1.4 | First Pipeline Regression Paragraph | no | Paused 2026-04-30 (was active since 2026-04-25); resumes after L1.5D. Building `1.1.2 Percentages en indexcijfers` now serves three purposes: layout regression + games regression on the platform's reworked unit-register (`c21ee14`) + DOCX/PPTX-as-web regression on fresh content. |
+| L1.5B | Layout Round 2 — Generator Items | no | After L1.4. Originally L1.5. Acts on what L1.4 surfaced + the deferred round-2 item #3 (split valkuilen pitfalls) + anything generator-touching that L1.5A's planner pushed here. |
+| L1.5G | Three-Aspect Game Coverage | no | After L1.5B. Bring the user's graphical-game prototype into the platform; one working prototype per learning aspect (reasoning, calculation, graphical). Architectural constraint: each game accepts adaptive input via localStorage; existing 5 games get a light refactor for the same seam. |
+| L1.6 | Second Pipeline Regression Paragraph | no | After L1.5G. Third Book 1 paragraph build confirms Round 2 layout + the new graphical game + the adaptive-input seam survive a fresh end-to-end build. |
+| L1.7 | Post-Layout Scaling Decision | no | After L1.6. Decide whether to expand broadly once L1.3A-C through L1.5G have proven the layout, web-doc, and game pipelines survive two independent paragraph builds. |
 | L2.1 | Book 1 Release Polish | no | Teacher-facing polish continues under the Book 1 health gate. |
 | L2.2 | Book 2 Part A Textbook Layer | no | Start Book 2 Part A only under the chapter/paragraph hard gates. |
 
@@ -21,6 +24,7 @@
 
 Generated: 2026-04-23
 Updated: 2026-04-25 after Sprint L1.3A-C close — basic HTML layout, companion SVG variant system with light/dark symmetry validator, and PPTX teacher-supporting slide rules all landed in platform; L1.4 (pipeline regression on `1.1.2 Percentages en indexcijfers`) is now active.
+Updated: 2026-04-30 — sprint sequence restructured. L1.4 paused to ship layout polish + web-native authored content first; L1.5 split into L1.5A (single-paragraph-safe items, active now) and L1.5B (generator-touching items, after L1.4). New L1.5D (DOCX/PPTX as web) sequenced before L1.4 because both should be tested against L1.4's fresh-paragraph regression. New L1.5G (three-aspect games coverage) sequenced after L1.5B with adaptive-ready architecture as a cross-cutting constraint. L1.4 resumes with triple-purpose scope: layout + games + web-docs regression on fresh content.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -107,6 +111,32 @@ useful because it already shows several patterns worth studying:
 
 The task is not to copy this file by hand. The task is to turn the useful parts
 of this direction into a platform-owned companion layout system.
+
+## Architecture: adaptive-ready from L1.5G onward
+
+The companion's eventual end-state is adaptive paragraphs: after a student takes
+a first quiz, an advisor surfaces guidance ("focus here next, skip this, try the
+harder variant") and the games adapt to that guidance — difficulty, focus, or
+sequencing. That advisor and its evaluation logic are not built in this roadmap.
+
+But L1.5G builds the seam in place so the adaptive layer can wire in later
+without re-engineering the games. Concretely:
+
+- Every game (the graphical prototype landing in L1.5G plus the existing five —
+  quiz, newsdetective, reasoning, skilltree, procedure) accepts an adaptive
+  payload at runtime by reading a well-defined localStorage key.
+- Today the payload is empty / paragraph-default; games behave as they do now.
+- Tomorrow a post-quiz advisor populates that key; games read it and adapt
+  without engine changes.
+
+Implication for L1.5G scope: existing games get a light refactor to expose the
+same hook the new graphical game implements, even though no advisor writes to
+it yet. Doing this in L1.5G — alongside the new game — is cheaper than
+retrofitting all six games under pressure later.
+
+Out of scope for this roadmap: building the advisor, defining the payload
+schema beyond a placeholder, or shipping any adaptive behavior. Those are a
+later sprint cycle.
 
 ## Sprint Details
 
@@ -280,27 +310,143 @@ Exit criteria:
 - The deck opens/round-trips without repair.
 - A presentation-quality review signs off before the deck pattern is reused across more paragraphs.
 
+### Sprint L1.5A: Easy Layout Round 2
+
+Completed: no.
+
+Active since: 2026-04-30 (pulled forward of L1.4 to ship single-paragraph-safe
+layout fixes while the platform team is at a stable point — `c21ee14` closed
+the unit-register gap with `fix(skilltree): hide generator-blocked catalog
+units`).
+
+Purpose:
+
+Ship the low-risk subset of the rolled-back round-2 layout candidates from the
+2026-04-29 attempt — the items that can be validated against `1.1.1` alone, do
+not touch generators in ways that need a fresh-paragraph regression, and
+include the one observable Pages regression introduced by round-1.
+
+Pre-flight done:
+
+- Platform baseline gate suite green on `c21ee14` (jest 364 pass, deploy.js
+  link+data tests pass, check:book 26/26, validate-paragraph 1.1.1 complete
+  pass) on 2026-04-30.
+- Layout worktree staged at `C:/Projects/4veco/4veco-platform-layout` on branch
+  `layout/1.1.1-round-2-redo` from `c21ee14`. Empty, ready.
+
+Scope (subject to L1.5A planner sub-agent confirmation):
+
+- Item #0 — book-index back-link guard. 3-line fix in
+  `engines/voorkennis.js#injectBackLink` to skip injection when
+  `data-layout="landing-book-v1"`. Documented in
+  `~/.claude/projects/.../memory/project_open-regressions.md`. Fixes the
+  `Overzicht` link 404 introduced by round-1 commit `3db70d8`.
+- Item #1 — per-section accent on `.section-card` so chapter/book index cards
+  pick up the editorial section accents that round-1 only applied to hero
+  blocks. Planner confirms whether this is CSS-only (in scope here) or
+  generator-touching (moves to L1.5B).
+- Item #2 — Begeleide-Inoefening static back-link via converter pattern that
+  matches the voorkennis back-link.
+
+Out of scope, explicitly:
+
+- Item #3 from rolled-back round-2 (split "Valkuilen en misvattingen" into
+  per-card pitfalls) — touches `build-landing-page.js` generator structure,
+  needs L1.4's fresh-paragraph regression to be safe. Deferred to L1.5B.
+- DOCX/PPTX-as-web work — separate sprint L1.5D.
+- New game work — separate sprint L1.5G.
+
+Exit criteria:
+
+- selected items shipped via PR to platform `main`; lessen-side regenerated
+  and pushed
+- `validate-paragraph.js --mode complete` for `1.1.1` still passes
+- deploy.js + check:book + jest match the 2026-04-30 baseline (no regression)
+- Pages browser-smoke confirms each item's expected change is live and
+  regression-free
+- the book-index `Overzicht` 404 link is gone (Item #0 verification)
+
+### Sprint L1.5D: Authored Content As Web
+
+Completed: no.
+
+Position: after L1.5A, before L1.4. Two-phase, single sprint.
+
+Purpose:
+
+Render authored Word and PowerPoint content natively on the paragraph pages so
+students can read it in the same surface as the rest of the companion (light
+and dark, mobile and desktop, sidebar navigation). Keep the original Office
+files downloadable for users who want them. Move toward video-like classroom
+material by surfacing PowerPoint speaker notes and (stretch) reading them
+aloud.
+
+Phase D1 — DOCX as web:
+
+Some prior work exists; this phase consolidates and ships it.
+
+- Render Word document content as web HTML on the paragraph page surface,
+  using the platform-owned converter pipeline (extend
+  `convert_voorkennis.py` / `convert_vaardigheden.py` / a new docx-content
+  converter as appropriate).
+- Light/dark theme variants throughout, matching the editorial CSS direction
+  established in L1.3A.
+- Keep the original `.docx` available as a download from the paragraph page.
+- Link/reachability and complete-mode validation pass on `1.1.1` after
+  regeneration.
+
+Phase D2 — PPTX as web:
+
+- Render slide content as web HTML on the paragraph page (slide-by-slide,
+  navigable, light/dark-aware).
+- Speaker notes shown below each slide on the web surface.
+- Keep the original `.pptx` available as a download from the paragraph page.
+- Stretch goal: text-to-speech readout of speaker notes via the Web Speech
+  API, gated behind a "play" control. Pushes the surface toward
+  video-like content. May not work on every browser; ship as
+  progressive-enhancement, not core.
+
+Exit criteria:
+
+- DOCX content for `1.1.1` renders as web on the paragraph page with download
+  link; passes the same gates the prior HTML conversions pass.
+- PPTX content for `1.1.1` renders as web on the paragraph page with speaker
+  notes and download link; passes gates.
+- Both phases land in platform-owned converters / builders / templates, not
+  hand-edited into generated output.
+- `validate-paragraph.js --mode complete` for `1.1.1` continues to pass.
+
 ### Sprint L1.4: First Pipeline Regression Paragraph
 
 Completed: no.
 
-Active since: 2026-04-25. Target paragraph: `1.1.2 Percentages en indexcijfers` (Part A is complete; Part B build is starting against the L1.3A-C platform state).
+Status: paused 2026-04-30, was active since 2026-04-25. Resumes after L1.5D.
+
+Target paragraph: `1.1.2 Percentages en indexcijfers` (Part A is complete; Part
+B build will run against the L1.3A-C + L1.5A + L1.5D platform state).
 
 Purpose:
 
-Prove the new layout/visual pipeline still works on fresh content — not just on
-re-regenerations of `1.1.1`. Surface any pipeline gap, platform assumption, or
-layout regression that only shows up the second time the full Part B workflow
-is driven.
+Prove the platform's pipeline still works on fresh content — not just on
+re-regenerations of `1.1.1`. After this restructure, L1.4 carries three
+regressions at once:
+
+1. **Layout regression.** Confirm the L1.3A-C layout direction + the L1.5A
+   easy polish hold on fresh content.
+2. **Games regression on the reworked unit-register.** The platform team
+   completed RX.1 / RX.2 representation-and-mutation work and shipped
+   `c21ee14 fix(skilltree): hide generator-blocked catalog units`. Building
+   1.1.2 confirms the existing 5 games still deploy cleanly with the reworked
+   micro-teaching-units before any new games are added in L1.5G.
+3. **Web-docs regression.** Confirm the DOCX/PPTX-as-web pipeline from L1.5D
+   produces correct output on a paragraph that wasn't its development target.
 
 Work:
 
-- Pick one additional Book 1 paragraph for a complete Part B build against the
-  L1.3A-C platform state. Natural candidate: `1.1.2 Percentages en indexcijfers`
-  (materials were cleared after the earlier probe and await a didactic rebuild).
 - Drive the full pipeline: converters (voorkennis / vaardigheden / begeleide
   inoefening), presentation builder, visual variants, paragraaf landing page,
-  youtube-videos generator if in scope.
+  youtube-videos generator if in scope, plus the L1.5D DOCX/PPTX-as-web
+  rendering paths.
 - Pass `validate-paragraph.js --mode complete`, `check-links.js`, and
   `check:book`.
 - Browser-smoke each generated page on desktop and mobile, light and dark.
@@ -312,17 +458,23 @@ Exit criteria:
 - a second Book 1 paragraph has a complete Part B companion set that passes
   complete-mode validation
 - every pipeline gap surfaced is fixed in the platform, not in generated output
-- browser smoke confirms the L1.3A-C layout direction holds on new content
+- browser smoke confirms the L1.3A-C + L1.5A layout direction holds on new
+  content
+- the existing 5 games deploy cleanly under the reworked unit-register
+- DOCX/PPTX rendered as web matches the L1.5D spec on `1.1.2`
 
-### Sprint L1.5: Layout Round 2
+### Sprint L1.5B: Layout Round 2 — Generator Items
 
 Completed: no.
 
+Position: after L1.4. Originally the whole of L1.5; L1.5A was split off and
+pulled forward.
+
 Purpose:
 
-Tighten the companion layout/front-end based on the L1.3A-C usability review
-plus whatever L1.4 exposed. Land the improvements in platform-owned sources so
-both paragraphs regenerate cleanly against the updated look.
+Tighten the companion layout/front-end on the items that need fresh-paragraph
+input or that touch generators. Use L1.4's findings as input plus the
+deferred item #3 from the rolled-back round-2 attempt.
 
 Work:
 
@@ -331,6 +483,9 @@ Work:
   states on Part-A-only paragraphs, sidebar defaults, mobile breakpoints,
   resource-card density, callout hierarchy, light/dark regressions on new
   content.
+- Land the deferred round-2 item #3 (split "Valkuilen en misvattingen" into
+  per-card pitfalls in `build-landing-page.js`) — generator-touching, so it
+  needs L1.4's fresh-paragraph regression in the rear-view mirror.
 - Keep all changes in platform-owned CSS/JS, converters, templates, and
   build scripts. No one-off fixes in generated files.
 - Rerun both `1.1.1` and the L1.4 paragraph end to end and confirm no
@@ -343,25 +498,86 @@ Exit criteria:
 - no outstanding P1 items remain from the L1.3A-C usability review
 - `validate-paragraph.js --mode complete` passes for both paragraphs
 
+### Sprint L1.5G: Three-Aspect Game Coverage
+
+Completed: no.
+
+Position: after L1.5B.
+
+Purpose:
+
+Have one working prototype per learning aspect — reasoning, calculation, and
+graphical — so the companion has a complete set of game types before scaling
+content. Bring the user's graphical-game prototype into the platform as the
+third-aspect representative. Refactor existing games to expose the adaptive-
+input seam described in the "Architecture: adaptive-ready" section, so the
+later adaptive layer can wire in without engine changes.
+
+Aspect mapping:
+
+- Reasoning: `newsdetective`, `reasoning` (existing, polish to working-prototype
+  quality).
+- Calculation: `quiz`, `skilltree`, `procedure` (existing, polish).
+- Graphical: graphical-game prototype landing in this sprint (currently outside
+  the platform; bring it in).
+
+Work:
+
+- Bring the graphical-game prototype into `4veco-platform/engines/`. Match the
+  existing engine pattern (separate `<game>.js` and `<game>-ui.js` where
+  applicable; CSS in a single file; HTML-shell builder under
+  `build-scripts/platform/`; data file convention under `shared/<game>/`).
+- Polish each of the six engines (5 existing + 1 new graphical) to
+  working-prototype quality: keyboard navigation, mobile behaviour, light/dark
+  parity, deterministic output for tests where possible.
+- Adaptive-seam refactor: every game accepts an adaptive payload from a
+  well-defined localStorage key on init; the payload is empty / default today
+  and the game behaves as it does now; the seam is in place for the future
+  advisor.
+- Add tests for the adaptive seam: empty payload → existing behaviour; mock
+  payload → game state reflects it.
+
+Out of scope:
+
+- Building the post-quiz advisor or evaluation logic.
+- Defining the adaptive payload schema beyond a placeholder structure.
+- Shipping any actual adaptive behaviour to students.
+
+Exit criteria:
+
+- one working prototype exists per aspect (reasoning, calculation, graphical),
+  all integrated into the platform deploy.
+- all six game engines accept an adaptive payload via the same localStorage
+  seam (no payload = current behaviour).
+- `validate-paragraph.js --mode complete` continues to pass for both `1.1.1`
+  and the L1.4 paragraph.
+- browser smoke confirms each game's prototype is reachable and functional in
+  light and dark, on desktop and mobile.
+
 ### Sprint L1.6: Second Pipeline Regression Paragraph
 
 Completed: no.
 
+Position: after L1.5G.
+
 Purpose:
 
-Confirm the L1.5 layout changes did not break the pipeline by driving the
-full Part B workflow end to end on a third Book 1 paragraph. Two independent
-regenerations against two successive layout states is the minimum signal that
-the pattern is safe to scale.
+Confirm the L1.5B layout changes + L1.5G new graphical game + adaptive-seam
+refactor did not break the pipeline by driving the full Part B workflow end to
+end on a third Book 1 paragraph. Two independent regenerations against the
+post-restructure platform state is the minimum signal that the pattern is safe
+to scale.
 
 Work:
 
 - Pick a third Book 1 paragraph (team picks — likely `1.1.3 Grafieken en
   tabellen` or `1.1.4 Gemengde opgaven`, whichever has clean Part A and a
   defensible Part B scope).
-- Drive the full pipeline; same validator + check-links + check:book gates as
+- Drive the full pipeline including the new graphical game and the DOCX/PPTX-
+  as-web rendering paths; same validator + check-links + check:book gates as
   L1.4.
-- Browser-smoke the generated pages in light and dark on desktop and mobile.
+- Browser-smoke the generated pages in light and dark on desktop and mobile,
+  including each game's prototype and the web-rendered authored content.
 - Any breakage becomes a platform fix and a regeneration; no hand-patches.
 
 Exit criteria:
@@ -369,7 +585,8 @@ Exit criteria:
 - a third Book 1 paragraph has a complete Part B companion set that passes
   complete-mode validation
 - zero hand-patches remain in `4veco-lessen/` for the new paragraph
-- browser smoke confirms Layout Round 2 holds on new content
+- browser smoke confirms Layout Round 2 + new graphical game + adaptive seam
+  + web-rendered authored content hold on new content
 
 ### Sprint L1.7: Post-Layout Scaling Decision
 
