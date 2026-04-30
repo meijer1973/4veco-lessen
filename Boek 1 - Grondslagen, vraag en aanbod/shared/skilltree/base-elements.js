@@ -1466,28 +1466,33 @@
                     "name": "Prijselasticiteit van de vraag",
                     "layer": 1,
                     "needs": [
-                            "A04"
+                            "A04",
+                            "A38"
                     ],
                     "desc": "Bereken de prijselasticiteit: Ev = %ΔQv / %ΔP. Bepaal of de vraag elastisch of inelastisch is."
             },
             {
                     "id": "A16",
                     "name": "Kruiselasticiteit",
-                    "layer": 1,
-                    "needs": [],
+                    "layer": 2,
+                    "needs": [
+                            "A15"
+                    ],
                     "desc": "Bereken de kruiselasticiteit: Ekr = %ΔQa / %ΔPb. Bepaal of goederen substituten of complementen zijn."
             },
             {
                     "id": "A17",
                     "name": "Inkomenselasticiteit",
-                    "layer": 1,
-                    "needs": [],
+                    "layer": 2,
+                    "needs": [
+                            "A15"
+                    ],
                     "desc": "Bereken de inkomenselasticiteit: Ei = %ΔQ / %ΔY. Bepaal of een goed normaal, inferieur of luxe is."
             },
             {
                     "id": "A18",
                     "name": "Comparatief voordeel bepalen",
-                    "layer": 1,
+                    "layer": 3,
                     "needs": [],
                     "desc": "Vergelijk de alternatieve kosten van twee producenten om te bepalen wie een comparatief voordeel heeft."
             },
@@ -1726,7 +1731,7 @@
             {
                     "id": "A43",
                     "name": "Totale winst uit gemengde allocatie berekenen",
-                    "layer": 0,
+                    "layer": 3,
                     "needs": [],
                     "desc": "Bereken de totale winst van een verdeling van beperkte middelen over meerdere activiteiten door per activiteit (hoeveelheid × winst/eenheid) te berekenen en op te tellen."
             },
@@ -1736,6 +1741,208 @@
                     "layer": 2,
                     "needs": [],
                     "desc": "Teken de individuele vraagcurve van één consument als een stapfunctie: voor elke eenheid een horizontale stap op de hoogte van de betalingsbereidheid voor die eenheid."
+            },
+            {
+                    "id": "A45",
+                    "name": "P-Q grafiek tekenen uit tabel",
+                    "layer": 0,
+                    "needs": [],
+                    "desc": "Teken een prijs-hoeveelheidsgrafiek uit tabelwaarden met prijs op de verticale as en hoeveelheid op de horizontale as."
+            },
+            {
+                    "id": "A46",
+                    "name": "Waarden aflezen en interpoleren in P-Q grafiek",
+                    "layer": 1,
+                    "needs": [
+                            "A45"
+                    ],
+                    "desc": "Lees prijs- en hoeveelheidswaarden af uit een P-Q grafiek en schat tussenliggende waarden door interpolatie."
+            },
+            {
+                    "id": "A47",
+                    "name": "Collectieve vraag uit tabellen optellen",
+                    "layer": 2,
+                    "needs": [
+                            "A46"
+                    ],
+                    "desc": "Bereken collectieve vraag door individuele gevraagde hoeveelheden bij dezelfde prijs op te tellen."
+            },
+            {
+                    "id": "A48",
+                    "name": "Collectieve vraagfunctie algebraisch optellen",
+                    "layer": 3,
+                    "needs": [
+                            "A03",
+                            "A47"
+                    ],
+                    "desc": "Tel lineaire individuele vraagfuncties horizontaal op door bij dezelfde prijs de gevraagde hoeveelheden te sommeren."
+            },
+            {
+                    "id": "A49",
+                    "name": "Aanbodcurve tekenen met economenassen",
+                    "layer": 1,
+                    "needs": [
+                            "A45"
+                    ],
+                    "desc": "Teken een stijgende aanbodcurve met prijs op de verticale as en aangeboden hoeveelheid op de horizontale as."
+            },
+            {
+                    "id": "A50",
+                    "name": "GVK en GCK berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "A08"
+                    ],
+                    "desc": "Bereken gemiddelde variabele kosten en gemiddelde constante kosten uit totale kosten en productiehoeveelheid."
+            },
+            {
+                    "id": "A51",
+                    "name": "Overschot en tekort bij niet-evenwichtsprijs berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "A06"
+                    ],
+                    "desc": "Bepaal bij een opgelegde prijs of er een overschot of tekort ontstaat en bereken de omvang als verschil tussen Qa en Qv."
+            },
+            {
+                    "id": "A52",
+                    "name": "MK en MO uit tabelverschillen berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "A08"
+                    ],
+                    "desc": "Bereken marginale kosten en marginale opbrengsten uit opeenvolgende verschillen in een tabel."
+            },
+            {
+                    "id": "A53",
+                    "name": "MK benaderen uit kwadratische TK-functie",
+                    "layer": 3,
+                    "needs": [
+                            "A52"
+                    ],
+                    "desc": "Gebruik de precalculus-regel dat bij TK = a + bQ² de marginale kosten ongeveer gelijk zijn aan 2bQ."
+            },
+            {
+                    "id": "A54",
+                    "name": "Winstoptimum controleren met Q-1, Q en Q+1",
+                    "layer": 3,
+                    "needs": [
+                            "A52"
+                    ],
+                    "desc": "Controleer een voorgesteld winstoptimum door totale winst bij de naburige hoeveelheden Q-1 en Q+1 te vergelijken."
+            },
+            {
+                    "id": "A55",
+                    "name": "Gevraagde hoeveelheid voorspellen met elasticiteit",
+                    "layer": 2,
+                    "needs": [
+                            "A15",
+                            "A38"
+                    ],
+                    "desc": "Bereken de procentuele verandering van de gevraagde hoeveelheid met prijselasticiteit en zet die om naar een nieuwe hoeveelheid."
+            },
+            {
+                    "id": "A56",
+                    "name": "Korte zijde bepalen bij bindende prijs",
+                    "layer": 3,
+                    "needs": [
+                            "A51"
+                    ],
+                    "desc": "Bepaal bij een bindende minimum- of maximumprijs welke marktzijde de verhandelde hoeveelheid beperkt."
+            },
+            {
+                    "id": "A57",
+                    "name": "Afwentelingspercentage berekenen",
+                    "layer": 3,
+                    "needs": [
+                            "A38"
+                    ],
+                    "desc": "Bereken welk percentage van een heffing of kostenstijging wordt doorberekend in de prijs."
+            },
+            {
+                    "id": "A58",
+                    "name": "Subsidie-uitgaven berekenen",
+                    "layer": 1,
+                    "needs": [
+                            "A04"
+                    ],
+                    "desc": "Bereken totale subsidie-uitgaven als subsidie per eenheid maal de nieuwe verhandelde hoeveelheid."
+            },
+            {
+                    "id": "A59",
+                    "name": "Opkoopkosten bij minimumprijs berekenen",
+                    "layer": 4,
+                    "needs": [
+                            "A51",
+                            "A56"
+                    ],
+                    "desc": "Bereken wat de overheid betaalt als zij het overschot bij een minimumprijs opkoopt."
+            },
+            {
+                    "id": "A60",
+                    "name": "Vraagfunctie inverteren bij quotumhoeveelheid",
+                    "layer": 1,
+                    "needs": [
+                            "A03"
+                    ],
+                    "desc": "Bereken welke prijs hoort bij een gegeven quotumhoeveelheid door de vraagfunctie om te schrijven."
+            },
+            {
+                    "id": "A61",
+                    "name": "Tabelwaarden selecteren voor berekening",
+                    "layer": 0,
+                    "needs": [],
+                    "desc": "Selecteer in een economische tabel de waarden die nodig zijn voor een berekening: juiste rij, kolom, periode en oude/nieuwe waarde."
+            },
+            {
+                    "id": "A66",
+                    "name": "Basiswaarde en vergelijkingswaarde in bron bepalen",
+                    "layer": 1,
+                    "needs": [
+                            "A61"
+                    ],
+                    "desc": "Bepaal in een bron welke waarde de basiswaarde is en welke waarde de vergelijkingswaarde is voordat je een procentuele verandering berekent."
+            },
+            {
+                    "id": "A67",
+                    "name": "Procentuele verandering berekenen vanuit tabel",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A61",
+                            "A66"
+                    ],
+                    "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een tabel hebt geselecteerd."
+            },
+            {
+                    "id": "A70",
+                    "name": "Percentagepuntverandering in aandeel herkennen",
+                    "layer": 1,
+                    "needs": [
+                            "A38"
+                    ],
+                    "desc": "Herken een verandering in procentpunten tussen twee percentagewaarden en onderscheid die van een procentuele verandering."
+            },
+            {
+                    "id": "A72",
+                    "name": "Indexcijfer berekenen vanuit tabel",
+                    "layer": 2,
+                    "needs": [
+                            "A39",
+                            "A61"
+                    ],
+                    "desc": "Bereken een indexcijfer vanuit tabelwaarden door het doeljaar te delen door het basisjaar en te vermenigvuldigen met 100."
+            },
+            {
+                    "id": "A74",
+                    "name": "Procentuele verandering berekenen vanuit indexcijfers",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A39",
+                            "A66"
+                    ],
+                    "desc": "Bereken een procentuele verandering tussen twee indexcijfers door de verandering te delen door het oude indexcijfer."
             }
     ];
 
