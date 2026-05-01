@@ -2,23 +2,34 @@
 
 ## Sprint Ledger
 
+The currently-active sprint sits at the top. Future sprints follow in sequence.
+Closed sprints are recorded separately in the "Closed Sprints" section below.
+
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L0.5 | Green Gate Handoff | yes | Book 1 Part A and the platform/book health routine are green. |
-| L1.1 | First Companion Technical Pilot | yes | `1.1.1` passes the current complete technical gate. |
-| L1.2 | Second Companion Technical Probe | yes | `1.1.2` proved the technical pattern can repeat; probe materials were removed for didactic rebuild. |
-| L1.3A | Basic HTML Layout And Front-End Usability | yes | Closed 2026-04-25. `1.1.1` companions on shared platform layout/theme; converters and landing-page generator landed in platform; browser smoke + technical gates green. |
-| L1.3B | Companion SVGs And Light/Dark Visual Variants | yes | Closed 2026-04-25. `lib-visual-surfaces.js` is the shared SURFACES/THEMES module; light/dark symmetry validator enforced; news visual on the variant system; game-visuals decision recorded per paragraph. |
-| L1.3C | PowerPoint Presentation Improvement | yes | Closed 2026-04-25. `1.1.1` PPTX regenerated with adapted slide visuals; teacher-supporting slide rules + read-through QA gate documented in `econ-pptx-templates`; LibreOffice roundtrip clean. |
-| L1.5A | Easy Layout Round 2 | no | Active 2026-04-30. Ship rolled-back round-2 items #0/#1/#2 (book-index back-link guard, per-section card accents, BI back-link). Single-paragraph-safe edits in `4veco-platform-layout` worktree off platform `c21ee14`. |
-| L1.5D | Authored Content As Web | no | After L1.5A. Two-phase sprint: D1 DOCX rendered as web on paragraph pages with `.docx` download; D2 PPTX rendered as web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout; where PV-backed visual states exist, semantic visual anchors must survive across docx/html/pptx surfaces. |
-| L1.4 | First Pipeline Regression Paragraph | no | Paused 2026-04-30 (was active since 2026-04-25); resumes after L1.5D. Building `1.1.2 Percentages en indexcijfers` now serves three purposes: layout regression + games regression on the platform's reworked unit-register (`c21ee14`) + DOCX/PPTX-as-web regression on fresh content. May test PV formula/table templates only if PV.2/PV.3 are ready; must not wait for full PV completion. |
-| L1.5B | Layout Round 2 — Generator Items | no | After L1.4. Originally L1.5. Acts on what L1.4 surfaced + the deferred round-2 item #3 (split valkuilen pitfalls) + anything generator-touching that L1.5A's planner pushed here. |
+| L1.5D | Authored Content As Web | no | **ACTIVE 2026-05-01** (succeeds L1.5A). Two-phase sprint: D1 DOCX rendered as web on paragraph pages with `.docx` download; D2 PPTX rendered as web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout; where PV-backed visual states exist, semantic visual anchors must survive across docx/html/pptx surfaces. |
+| L1.4 | First Pipeline Regression Paragraph | no | After L1.5D. Paused 2026-04-30 (was active since 2026-04-25). Building `1.1.2 Percentages en indexcijfers` now serves three purposes: layout regression + games regression on the platform's reworked unit-register (`c21ee14`) + DOCX/PPTX-as-web regression on fresh content. May test PV formula/table templates only if PV.2/PV.3 are ready; must not wait for full PV completion. |
+| L1.5B | Layout Round 2 — Generator Items | no | After L1.4. Originally L1.5. Acts on what L1.4 surfaced + the deferred round-2 item #3 (split valkuilen pitfalls) + the deferred item #1 (per-section card accents — reclassified as generator-touching by L1.5A planner). |
 | L1.5G | Three-Aspect Game Coverage | no | After L1.5B. Bring the user's graphical-game prototype into the platform; one working prototype per learning aspect (reasoning, calculation, graphical). Architectural constraint: each game accepts adaptive input via localStorage; existing 5 games get a light refactor for the same seam. Graphical-game semantics must align with PV records where they exist. |
 | L1.6 | Second Pipeline Regression Paragraph | no | After L1.5G. Third Book 1 paragraph build confirms Round 2 layout + the new graphical game + the adaptive-input seam survive a fresh end-to-end build, with at least one procedure/visual sequence generated from or validated against PV data if the PV registry is available. |
 | L1.7 | Post-Layout Scaling Decision | no | After L1.6. Decide whether to expand broadly once L1.3A-C through L1.5G have proven the layout, web-doc, and game pipelines survive two independent paragraph builds; include PV readiness in the scaling decision. |
 | L2.1 | Book 1 Release Polish | no | Teacher-facing polish continues under the Book 1 health gate. |
 | L2.2 | Book 2 Part A Textbook Layer | no | Start Book 2 Part A only under the chapter/paragraph hard gates. |
+
+## Closed Sprints
+
+Closed sprints in reverse-chronological order. The full record of each sprint
+remains in the "Sprint Details" section further down.
+
+| Sprint | Name | Closed | One-line summary |
+|--------|------|--------|-------|
+| L1.5A | Easy Layout Round 2 | 2026-05-01 | Shipped book-root back-link guard (platform `5b8c216`) + BI static back-link (platform `b9c5085`); lessen-side `2a8455b` regenerated. Verification: SHIPPED CLEAN, all 4 baseline gates green. Platform PR https://github.com/meijer1973/4veco-platform/pull/2 open at close awaiting merge to platform main. Item #1 reclassified as generator-touching, deferred to L1.5B. |
+| L1.3C | PowerPoint Presentation Improvement | 2026-04-25 | `1.1.1` PPTX regenerated with adapted slide visuals; teacher-supporting slide rules + read-through QA gate documented in `econ-pptx-templates`; LibreOffice roundtrip clean. |
+| L1.3B | Companion SVGs And Light/Dark Visual Variants | 2026-04-25 | `lib-visual-surfaces.js` is the shared SURFACES/THEMES module; light/dark symmetry validator enforced; news visual on the variant system; game-visuals decision recorded per paragraph. |
+| L1.3A | Basic HTML Layout And Front-End Usability | 2026-04-25 | `1.1.1` companions on shared platform layout/theme; converters and landing-page generator landed in platform; browser smoke + technical gates green. |
+| L1.2 | Second Companion Technical Probe | (pre-restructure) | `1.1.2` proved the technical pattern can repeat; probe materials were removed for didactic rebuild. |
+| L1.1 | First Companion Technical Pilot | (pre-restructure) | `1.1.1` passes the current complete technical gate. |
+| L0.5 | Green Gate Handoff | (pre-restructure) | Book 1 Part A and the platform/book health routine are green. |
 
 ## Roadmap Metadata
 
@@ -26,6 +37,7 @@ Generated: 2026-04-23
 Updated: 2026-04-25 after Sprint L1.3A-C close — basic HTML layout, companion SVG variant system with light/dark symmetry validator, and PPTX teacher-supporting slide rules all landed in platform; L1.4 (pipeline regression on `1.1.2 Percentages en indexcijfers`) is now active.
 Updated: 2026-04-30 — sprint sequence restructured. L1.4 paused to ship layout polish + web-native authored content first; L1.5 split into L1.5A (single-paragraph-safe items, active now) and L1.5B (generator-touching items, after L1.4). New L1.5D (DOCX/PPTX as web) sequenced before L1.4 because both should be tested against L1.4's fresh-paragraph regression. New L1.5G (three-aspect games coverage) sequenced after L1.5B with adaptive-ready architecture as a cross-cutting constraint. L1.4 resumes with triple-purpose scope: layout + games + web-docs regression on fresh content.
 Updated: 2026-05-01 — added the PV Consumption Rule after leadership approved the Procedure-Visual Backbone. The lesson repo remains a generated target and consumer: L1.5G aligns the graphical game with platform/reference PV records, L1.6 proves one PV-backed or PV-validated procedure/visual sequence on a fresh paragraph, and L1.7 includes PV readiness before scaling.
+Updated: 2026-05-01 — Sprint Ledger reorganized: active sprint sits at the top, future sprints follow, and closed sprints moved to a separate "Closed Sprints" archive. L1.5A closed (lessen `2a8455b` shipped, platform PR #2 open at close); L1.5D promoted to active sprint.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -323,12 +335,14 @@ Exit criteria:
 
 ### Sprint L1.5A: Easy Layout Round 2
 
-Completed: no.
+Completed: yes.
 
-Active since: 2026-04-30 (pulled forward of L1.4 to ship single-paragraph-safe
-layout fixes while the platform team is at a stable point — `c21ee14` closed
-the unit-register gap with `fix(skilltree): hide generator-blocked catalog
-units`).
+Closed: 2026-05-01.
+
+Active 2026-04-30 → 2026-05-01 (pulled forward of L1.4 to ship single-
+paragraph-safe layout fixes while the platform team was at a stable point —
+`c21ee14` closed the unit-register gap with
+`fix(skilltree): hide generator-blocked catalog units`).
 
 Purpose:
 
@@ -343,21 +357,33 @@ Pre-flight done:
   link+data tests pass, check:book 26/26, validate-paragraph 1.1.1 complete
   pass) on 2026-04-30.
 - Layout worktree staged at `C:/Projects/4veco/4veco-platform-layout` on branch
-  `layout/1.1.1-round-2-redo` from `c21ee14`. Empty, ready.
+  `layout/1.1.1-round-2-redo` from `c21ee14`.
 
-Scope (subject to L1.5A planner sub-agent confirmation):
+Shipped scope (per L1.5A planner sub-agent classification):
 
-- Item #0 — book-index back-link guard. 3-line fix in
-  `engines/voorkennis.js#injectBackLink` to skip injection when
-  `data-layout="landing-book-v1"`. Documented in
-  `~/.claude/projects/.../memory/project_open-regressions.md`. Fixes the
-  `Overzicht` link 404 introduced by round-1 commit `3db70d8`.
-- Item #1 — per-section accent on `.section-card` so chapter/book index cards
-  pick up the editorial section accents that round-1 only applied to hero
-  blocks. Planner confirms whether this is CSS-only (in scope here) or
-  generator-touching (moves to L1.5B).
-- Item #2 — Begeleide-Inoefening static back-link via converter pattern that
-  matches the voorkennis back-link.
+- Item #0 — book-index back-link guard. Platform commit
+  `5b8c216 fix(voorkennis): skip back-link injection on book-root landing`.
+  Adds a 3-line guard in `engines/voorkennis.js#injectBackLink` skipping
+  injection when `document.body.dataset.layout === 'landing-book-v1'`. Fixes
+  the `Overzicht` link 404 introduced by round-1 commit `3db70d8`.
+- Item #2 — Begeleide-Inoefening static back-link via converter. Platform
+  commit `b9c5085 feat(bi-converter): emit static back-link in shared-CSS
+  hero`. Adds the standard `<a class="back-link" href="../index.html">` to
+  the BI hero in `convert_begeleide_inoefening.py`'s shared_prefix branch,
+  mirroring the voorkennis pattern. Removes the brief flash of un-back-
+  linked hero before JS runs.
+
+Deferred to L1.5B (per L1.5A planner sub-agent reclassification):
+
+- Item #1 — per-section accent on chapter/book index cards. Planner found
+  that `.section-card` does not exist in the platform (cards are
+  `.chapter-card` ~line 499 and `.para-card` ~line 542 in
+  `build-landing-page.js`); they currently carry an inline 5-color palette
+  accent, not the editorial 3-token system; editorial accent CSS rules
+  require a `data-domain` attribute or matching class hook the cards do not
+  carry. Implementation requires editing the generator (`build-landing-
+  page.js` renderBookPage / renderChapterPage emission sites) — out of
+  L1.5A scope, in L1.5B scope.
 
 Out of scope, explicitly:
 
@@ -367,15 +393,44 @@ Out of scope, explicitly:
 - DOCX/PPTX-as-web work — separate sprint L1.5D.
 - New game work — separate sprint L1.5G.
 
-Exit criteria:
+Closing evidence:
+
+- Platform PR https://github.com/meijer1973/4veco-platform/pull/2 opened from
+  `layout/1.1.1-round-2-redo` to platform `main`. **Open at close**, awaiting
+  merge.
+- Lessen `2a8455b L1.5A: ship book-root back-link guard + BI static back-link`
+  pushed to `origin/main`.
+- Verification sub-agent on 2026-05-01 reported "L1.5A SHIPPED CLEAN":
+  - Static HTML book root and chapter index emit the correct `data-layout`
+    markers (`landing-book-v1` / `landing-chapter-v1`).
+  - Deployed `shared/voorkennis.js` line 66 contains the
+    `dataset.layout === 'landing-book-v1'` guard.
+  - BI page has `<a class="back-link" href="../index.html">` with
+    `Terug naar overzicht`, ordered before the `hero-badge` (correct DOM
+    insertion).
+  - Pages root URL returns HTTP 200 and lists Boek 1.
+  - Baseline gates on the layout worktree: jest 364 pass / 6 skipped / 0
+    failed; deploy.js link + 99 data tests pass; `npm run check:book` 26/26;
+    `validate-paragraph.js --mode complete` for `1.1.1` PASSED.
+
+Exit criteria (all met):
 
 - selected items shipped via PR to platform `main`; lessen-side regenerated
-  and pushed
-- `validate-paragraph.js --mode complete` for `1.1.1` still passes
-- deploy.js + check:book + jest match the 2026-04-30 baseline (no regression)
-- Pages browser-smoke confirms each item's expected change is live and
-  regression-free
-- the book-index `Overzicht` 404 link is gone (Item #0 verification)
+  and pushed ✓ (PR open, lessen pushed)
+- `validate-paragraph.js --mode complete` for `1.1.1` still passes ✓
+- deploy.js + check:book + jest match the 2026-04-30 baseline ✓
+- Pages browser-smoke confirms each item's expected change is live ✓
+- the book-index `Overzicht` 404 link is gone ✓ (deployed `voorkennis.js`
+  carries the guard; runtime no longer injects on the book root)
+
+Open follow-ups:
+
+- Merge platform PR #2 to durably land the fix on platform `main`. Until
+  then, anyone running `deploy.js` from platform `main` regenerates without
+  the guard. Lessen-side artifacts on Pages are unaffected — they already
+  reflect the fix.
+- After PR merge, update memory `project_open-regressions.md` to mark the
+  back-link 404 regression resolved.
 
 ### Sprint L1.5D: Authored Content As Web
 
