@@ -1895,6 +1895,37 @@
                     "desc": "Selecteer in een economische tabel de waarden die nodig zijn voor een berekening: juiste rij, kolom, periode en oude/nieuwe waarde."
             },
             {
+                    "id": "A62",
+                    "name": "Waarden aflezen uit staafdiagram",
+                    "layer": 0,
+                    "needs": [],
+                    "desc": "Lees een waarde af uit een staafdiagram door context, labels, eenheid en schaal te controleren voordat je de staafhoogte gebruikt."
+            },
+            {
+                    "id": "A63",
+                    "name": "Waarden aflezen uit lijngrafiek",
+                    "layer": 0,
+                    "needs": [],
+                    "desc": "Lees een punt of periode af uit een lijngrafiek door context, aslabels, eenheden, schaal en eventuele interpolatie expliciet te controleren."
+            },
+            {
+                    "id": "A64",
+                    "name": "Aandelen aflezen uit cirkeldiagram",
+                    "layer": 0,
+                    "needs": [],
+                    "desc": "Lees een aandeel uit een cirkeldiagram door context, categorie, legenda, totaal en de betekenis van procenten of delen te controleren."
+            },
+            {
+                    "id": "A65",
+                    "name": "Absolute hoeveelheid berekenen uit aandeel en totaal",
+                    "layer": 1,
+                    "needs": [
+                            "A64",
+                            "A04"
+                    ],
+                    "desc": "Bereken een absolute hoeveelheid door een aandeel uit een bron te vermenigvuldigen met het totale aantal, bedrag of volume."
+            },
+            {
                     "id": "A66",
                     "name": "Basiswaarde en vergelijkingswaarde in bron bepalen",
                     "layer": 1,
@@ -1915,6 +1946,28 @@
                     "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een tabel hebt geselecteerd."
             },
             {
+                    "id": "A68",
+                    "name": "Procentuele verandering berekenen vanuit staafdiagram",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A62",
+                            "A66"
+                    ],
+                    "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een staafdiagram hebt afgelezen met de juiste basiswaarde."
+            },
+            {
+                    "id": "A69",
+                    "name": "Procentuele verandering berekenen vanuit lijngrafiek",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A63",
+                            "A66"
+                    ],
+                    "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een lijngrafiek of tijdreeks hebt afgelezen."
+            },
+            {
                     "id": "A70",
                     "name": "Percentagepuntverandering in aandeel herkennen",
                     "layer": 1,
@@ -1932,6 +1985,16 @@
                             "A61"
                     ],
                     "desc": "Bereken een indexcijfer vanuit tabelwaarden door het doeljaar te delen door het basisjaar en te vermenigvuldigen met 100."
+            },
+            {
+                    "id": "A73",
+                    "name": "Indexverandering aflezen uit lijngrafiek",
+                    "layer": 2,
+                    "needs": [
+                            "A39",
+                            "A63"
+                    ],
+                    "desc": "Lees indexcijfers uit een lijngrafiek af en onderscheid een verandering in indexpunten van een procentuele verandering."
             },
             {
                     "id": "A74",
