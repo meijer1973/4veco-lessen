@@ -11,12 +11,12 @@
 | L1.3B | Companion SVGs And Light/Dark Visual Variants | yes | Closed 2026-04-25. `lib-visual-surfaces.js` is the shared SURFACES/THEMES module; light/dark symmetry validator enforced; news visual on the variant system; game-visuals decision recorded per paragraph. |
 | L1.3C | PowerPoint Presentation Improvement | yes | Closed 2026-04-25. `1.1.1` PPTX regenerated with adapted slide visuals; teacher-supporting slide rules + read-through QA gate documented in `econ-pptx-templates`; LibreOffice roundtrip clean. |
 | L1.5A | Easy Layout Round 2 | no | Active 2026-04-30. Ship rolled-back round-2 items #0/#1/#2 (book-index back-link guard, per-section card accents, BI back-link). Single-paragraph-safe edits in `4veco-platform-layout` worktree off platform `c21ee14`. |
-| L1.5D | Authored Content As Web | no | After L1.5A. Two-phase sprint: D1 DOCX rendered as web on paragraph pages with `.docx` download; D2 PPTX rendered as web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout. |
-| L1.4 | First Pipeline Regression Paragraph | no | Paused 2026-04-30 (was active since 2026-04-25); resumes after L1.5D. Building `1.1.2 Percentages en indexcijfers` now serves three purposes: layout regression + games regression on the platform's reworked unit-register (`c21ee14`) + DOCX/PPTX-as-web regression on fresh content. |
+| L1.5D | Authored Content As Web | no | After L1.5A. Two-phase sprint: D1 DOCX rendered as web on paragraph pages with `.docx` download; D2 PPTX rendered as web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout; where PV-backed visual states exist, semantic visual anchors must survive across docx/html/pptx surfaces. |
+| L1.4 | First Pipeline Regression Paragraph | no | Paused 2026-04-30 (was active since 2026-04-25); resumes after L1.5D. Building `1.1.2 Percentages en indexcijfers` now serves three purposes: layout regression + games regression on the platform's reworked unit-register (`c21ee14`) + DOCX/PPTX-as-web regression on fresh content. May test PV formula/table templates only if PV.2/PV.3 are ready; must not wait for full PV completion. |
 | L1.5B | Layout Round 2 — Generator Items | no | After L1.4. Originally L1.5. Acts on what L1.4 surfaced + the deferred round-2 item #3 (split valkuilen pitfalls) + anything generator-touching that L1.5A's planner pushed here. |
-| L1.5G | Three-Aspect Game Coverage | no | After L1.5B. Bring the user's graphical-game prototype into the platform; one working prototype per learning aspect (reasoning, calculation, graphical). Architectural constraint: each game accepts adaptive input via localStorage; existing 5 games get a light refactor for the same seam. |
-| L1.6 | Second Pipeline Regression Paragraph | no | After L1.5G. Third Book 1 paragraph build confirms Round 2 layout + the new graphical game + the adaptive-input seam survive a fresh end-to-end build. |
-| L1.7 | Post-Layout Scaling Decision | no | After L1.6. Decide whether to expand broadly once L1.3A-C through L1.5G have proven the layout, web-doc, and game pipelines survive two independent paragraph builds. |
+| L1.5G | Three-Aspect Game Coverage | no | After L1.5B. Bring the user's graphical-game prototype into the platform; one working prototype per learning aspect (reasoning, calculation, graphical). Architectural constraint: each game accepts adaptive input via localStorage; existing 5 games get a light refactor for the same seam. Graphical-game semantics must align with PV records where they exist. |
+| L1.6 | Second Pipeline Regression Paragraph | no | After L1.5G. Third Book 1 paragraph build confirms Round 2 layout + the new graphical game + the adaptive-input seam survive a fresh end-to-end build, with at least one procedure/visual sequence generated from or validated against PV data if the PV registry is available. |
+| L1.7 | Post-Layout Scaling Decision | no | After L1.6. Decide whether to expand broadly once L1.3A-C through L1.5G have proven the layout, web-doc, and game pipelines survive two independent paragraph builds; include PV readiness in the scaling decision. |
 | L2.1 | Book 1 Release Polish | no | Teacher-facing polish continues under the Book 1 health gate. |
 | L2.2 | Book 2 Part A Textbook Layer | no | Start Book 2 Part A only under the chapter/paragraph hard gates. |
 
@@ -25,6 +25,7 @@
 Generated: 2026-04-23
 Updated: 2026-04-25 after Sprint L1.3A-C close — basic HTML layout, companion SVG variant system with light/dark symmetry validator, and PPTX teacher-supporting slide rules all landed in platform; L1.4 (pipeline regression on `1.1.2 Percentages en indexcijfers`) is now active.
 Updated: 2026-04-30 — sprint sequence restructured. L1.4 paused to ship layout polish + web-native authored content first; L1.5 split into L1.5A (single-paragraph-safe items, active now) and L1.5B (generator-touching items, after L1.4). New L1.5D (DOCX/PPTX as web) sequenced before L1.4 because both should be tested against L1.4's fresh-paragraph regression. New L1.5G (three-aspect games coverage) sequenced after L1.5B with adaptive-ready architecture as a cross-cutting constraint. L1.4 resumes with triple-purpose scope: layout + games + web-docs regression on fresh content.
+Updated: 2026-05-01 — added the PV Consumption Rule after leadership approved the Procedure-Visual Backbone. The lesson repo remains a generated target and consumer: L1.5G aligns the graphical game with platform/reference PV records, L1.6 proves one PV-backed or PV-validated procedure/visual sequence on a fresh paragraph, and L1.7 includes PV readiness before scaling.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -90,6 +91,16 @@ node scripts\validate-paragraph.js --mode complete "<paragraph-folder>"
 - Reusable UI work belongs in `C:\Projects\4veco\4veco-platform`: templates, shared CSS/JS, converters, generators, validators, or build scripts.
 - Reusable visual work belongs there too: SVG builders, surface-variant renderers, converter support for light/dark web images, and rules for PowerPoint/game/doc variants.
 - Generated output in `4veco-lessen` may show the result, but it should not become the source of truth for UI changes.
+
+## PV Consumption Rule: Visual Backbone Alignment
+
+The lesson repository remains a generated student-facing target. Procedure-visual semantics live in the platform/reference layer, starting with the Procedure-Visual Registry under `4veco-platform/references/data/procedure-visual/`.
+
+L1.5G graphical-game work must align with the Procedure-Visual Registry where PV records exist. The graphical prototype may not hard-code a separate semantic model for operations, visual states, or procedure sequences that the PV layer already defines.
+
+L1.6 must use one fresh paragraph build to prove at least one procedure/visual sequence can be generated from or validated against PV data, if the PV registry and validator have reached the required gate.
+
+L1.7 scaling decision must include PV readiness: procedure consistency, visual semantic anchors, surface variants, game mapping, answer-model alignment, and generator-block controls.
 
 ## Layout Reference
 
@@ -412,6 +423,10 @@ Exit criteria:
   link; passes the same gates the prior HTML conversions pass.
 - PPTX content for `1.1.1` renders as web on the paragraph page with speaker
   notes and download link; passes gates.
+- Where a paragraph uses a PV-backed visual state, web-rendered authored
+  content preserves the same semantic visual anchor across docx/html/pptx
+  surfaces. This is an acceptance criterion only; L1.5D does not build the PV
+  schema.
 - Both phases land in platform-owned converters / builders / templates, not
   hand-edited into generated output.
 - `validate-paragraph.js --mode complete` for `1.1.1` continues to pass.
@@ -441,6 +456,9 @@ regressions at once:
 3. **Web-docs regression.** Confirm the DOCX/PPTX-as-web pipeline from L1.5D
    produces correct output on a paragraph that wasn't its development target.
 
+PV note: L1.4 may test formula/table/percentage PV templates only if PV.2/PV.3
+are ready. Do not delay L1.4 waiting for the full PV track.
+
 Work:
 
 - Drive the full pipeline: converters (voorkennis / vaardigheden / begeleide
@@ -452,6 +470,8 @@ Work:
 - Browser-smoke each generated page on desktop and mobile, light and dark.
 - Treat every gap as a platform issue: file a fix against the relevant platform
   script. Do not hand-patch anything inside `4veco-lessen/`.
+- If PV.2/PV.3 are available before the build, use `1.1.2` as a regression
+  surface for one formula/table/percentage PV template or validator check.
 
 Exit criteria:
 
@@ -462,6 +482,8 @@ Exit criteria:
   content
 - the existing 5 games deploy cleanly under the reworked unit-register
 - DOCX/PPTX rendered as web matches the L1.5D spec on `1.1.2`
+- PV is not a blocker for L1.4; any PV check here is opportunistic and must
+  come from platform/reference data, not a lesson-side hand model.
 
 ### Sprint L1.5B: Layout Round 2 — Generator Items
 
@@ -526,6 +548,12 @@ third-aspect representative. Refactor existing games to expose the adaptive-
 input seam described in the "Architecture: adaptive-ready" section, so the
 later adaptive layer can wire in without engine changes.
 
+PV constraint: the graphical-game prototype may not hard-code its own semantic
+model if equivalent PV visual-state, operation, or procedure-template records
+exist in the platform/reference layer. Temporary local semantics are allowed
+only when documented as temporary technical debt and shaped so PV-backed data
+can replace them.
+
 Aspect mapping:
 
 - Reasoning: `newsdetective`, `reasoning` (existing, polish to working-prototype
@@ -540,6 +568,9 @@ Work:
   existing engine pattern (separate `<game>.js` and `<game>-ui.js` where
   applicable; CSS in a single file; HTML-shell builder under
   `build-scripts/platform/`; data file convention under `shared/<game>/`).
+- If equivalent PV visual-state, operation, or procedure-template records
+  exist, the graphical-game prototype consumes or validates against them
+  instead of hard-coding a separate semantic model.
 - Polish each of the six engines (5 existing + 1 new graphical) to
   working-prototype quality: keyboard navigation, mobile behaviour, light/dark
   parity, deterministic output for tests where possible.
@@ -547,6 +578,9 @@ Work:
   well-defined localStorage key on init; the payload is empty / default today
   and the game behaves as it does now; the seam is in place for the future
   advisor.
+- Graphical-game data accepts a PV-aligned shape with `unit_id`,
+  `procedure_template_id`, `visual_state_sequence`, and `student_actions` where
+  equivalent PV records exist.
 - Add tests for the adaptive seam: empty payload → existing behaviour; mock
   payload → game state reflects it.
 
@@ -560,8 +594,12 @@ Exit criteria:
 
 - one working prototype exists per aspect (reasoning, calculation, graphical),
   all integrated into the platform deploy.
+- the graphical prototype is PV-aligned where PV records exist, or temporary
+  semantic duplication is explicitly documented as technical debt.
 - all six game engines accept an adaptive payload via the same localStorage
   seam (no payload = current behaviour).
+- graphical-game semantics align with existing PV records, or any temporary
+  divergence is explicitly documented with a migration path back to PV.
 - `validate-paragraph.js --mode complete` continues to pass for both `1.1.1`
   and the L1.4 paragraph.
 - browser smoke confirms each game's prototype is reachable and functional in
@@ -591,6 +629,10 @@ Work:
   L1.4.
 - Browser-smoke the generated pages in light and dark on desktop and mobile,
   including each game's prototype and the web-rendered authored content.
+- If PV.2/PV.3/PV.4 are ready, use or validate at least one procedure/visual
+  sequence from the PV registry in the fresh paragraph. Acceptable proof is one
+  procedure game mapped to formal steps, one visual-state sequence used in a
+  companion visual, or one answer model validated against PV step order.
 - Any breakage becomes a platform fix and a regeneration; no hand-patches.
 
 Exit criteria:
@@ -598,6 +640,8 @@ Exit criteria:
 - a third Book 1 paragraph has a complete Part B companion set that passes
   complete-mode validation
 - zero hand-patches remain in `4veco-lessen/` for the new paragraph
+- at least one procedure/visual sequence is generated from or validated
+  against PV data if the PV registry has passed the required gate
 - browser smoke confirms Layout Round 2 + new graphical game + adaptive seam
   + web-rendered authored content hold on new content
 
@@ -618,12 +662,17 @@ Work:
 - Keep all builder scripts saved under the platform `build-scripts/content/book-1/`
   workflow.
 - Separate remaining content problems from platform usability problems.
+- Include PV readiness in the scaling decision: procedure consistency, visual
+  semantic anchors, surface variants, game mapping, answer-model alignment,
+  and generator-block controls.
 
 Exit criteria:
 
 - improved companion pages pass validation and browser checks
 - the platform team confirms the layout and visual-variant direction is
   reproducible across three paragraphs under two layout states
+- PV-backed or PV-validated pilot sequences do not require manual duplication
+  across lesson surfaces before scaling
 - the lesson team has a go/no-go decision for broader companion production
 
 ### Sprint L2.1: Book 1 Release Polish
