@@ -16,6 +16,17 @@ The lesson-material corpus answers:
 - which assets (figures, worked examples, exercises, news visuals) anchor the visual layer
 - which shared engines render the interactive companion games
 
+Repository boundary:
+
+- `4veco-lessen` contains generated and student-facing lesson output: book, chapter, paragraph, companion, asset, and shared-runtime files.
+- Authoring and build logic lives in `4veco-platform`: generators, engines, source data, skills, validators, references, and reports are maintained there.
+- Copied shared engines in `shared/` are platform-managed deploy output. Do not hand-edit them here; inspect and change the source engine files in `4veco-platform`.
+- Generated lesson artifacts must be checked in this repo, not in the platform repo. A platform builder, source file, or roadmap entry does not prove the student-facing artifact currently exists.
+- Agents must not infer platform capability from generated lesson artifacts alone. A lesson artifact shows current output, not necessarily the source logic that produced it.
+- For cross-repo questions, read both repository maps before concluding anything:
+  - `4veco-lessen/RESEARCH_AGENT_MAP.md`
+  - `4veco-platform/RESEARCH_AGENT_MAP.md`
+
 This repository is a **generated student-facing target**, not a content authoring platform. The platform repo (`4veco-platform`) builds into this one. When a research question is about *how* output is produced, redirect to the platform repo; when the question is *what is currently published*, this repo is the authoritative source.
 
 When a planning document and a generated artifact disagree, inspect both. The planning document records intent; the generated artifact records the last successful build.
