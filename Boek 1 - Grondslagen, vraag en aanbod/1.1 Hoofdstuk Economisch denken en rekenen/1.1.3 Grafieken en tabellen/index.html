@@ -83,6 +83,20 @@
   }
   .resource-card-pair { border-left-color: var(--accent); }
   .resource-card-interactive { border-left-color: var(--accent); }
+  .resource-card-with-source { position: relative; border-left-color: var(--accent); }
+  .resource-card-with-source:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  }
+  .resource-card-cover-link {
+    position: absolute; inset: 0;
+    z-index: 1;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .resource-card-with-source > .resource-card-icon,
+  .resource-card-with-source > .resource-card-body { position: relative; z-index: 0; pointer-events: none; }
+  .resource-card-with-source .resource-sub-links { position: relative; z-index: 2; pointer-events: auto; }
 
   @media (max-width: 640px) {
     .resource-grid { grid-template-columns: 1fr; }

@@ -548,6 +548,328 @@ body[data-layout="begeleide-inoefening-v1"] .hero-card-count {
   margin-top: 8px;
 }
 
+/* ── Samenvatting (one-A4 infographic rendered as web) ──────────────── */
+
+/* Lift the editorial prose-width cap (820px is right for long-form
+   reading; samenvatting is an infographic with short cell content, so
+   a wider canvas is appropriate). The auto-fit grid below will still
+   choose the column count based on actual available width. */
+body[data-layout="samenvatting-v1"] {
+  --content-max: 1500px;
+}
+
+/* Sidebar nav-item: stretch the title to fill remaining space so the
+   domain badge always lands on the right edge — consistent regardless
+   of how short or long the title is. The default voorkennis pattern
+   wraps title+badge in a .nav-text container; samenvatting emits them
+   as siblings, so we pin .nav-title to flex:1 here instead. */
+body[data-layout="samenvatting-v1"] .sidebar .nav-title {
+  flex: 1;
+  min-width: 0;
+}
+
+body[data-layout="samenvatting-v1"] .hero-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+}
+body[data-layout="samenvatting-v1"] .hero-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: var(--mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: opacity 0.15s;
+}
+body[data-layout="samenvatting-v1"] .hero-action:hover {
+  opacity: 0.85;
+}
+
+body[data-layout="samenvatting-v1"] .samenvatting-grid {
+  display: grid;
+  /* Auto-fit at 360px minimum — preserves the original polished tile width
+     while letting the column count flex with viewport / zoom / sidebar
+     state. On a 1440+ laptop content area: 3 columns. On wide desktops:
+     4 columns. On a 1366 laptop (sidebar reserved): 2 columns at slightly
+     wider than 360px each. On phones: 1 column. */
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 18px;
+  padding: 24px 40px 48px;
+}
+@media (max-width: 600px) {
+  body[data-layout="samenvatting-v1"] .samenvatting-grid {
+    padding: 20px 16px 40px;
+    gap: 14px;
+  }
+}
+
+body[data-layout="samenvatting-v1"] .samenvatting-cell {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--border-lift);
+  border-radius: 8px;
+  padding: 18px 22px;
+  scroll-margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body[data-layout="samenvatting-v1"] .samenvatting-cell.domain-economisch { border-left-color: var(--economisch); }
+body[data-layout="samenvatting-v1"] .samenvatting-cell.domain-wiskunde   { border-left-color: var(--wiskundig); }
+body[data-layout="samenvatting-v1"] .samenvatting-cell.domain-grafisch   { border-left-color: var(--grafisch); }
+
+body[data-layout="samenvatting-v1"] .cell-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+  margin: 0;
+}
+body[data-layout="samenvatting-v1"] .cell-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-lift);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+body[data-layout="samenvatting-v1"] .domain-economisch .cell-num { background: var(--economisch-tint); color: var(--economisch); }
+body[data-layout="samenvatting-v1"] .domain-wiskunde   .cell-num { background: var(--wiskundig-tint); color: var(--wiskundig); }
+body[data-layout="samenvatting-v1"] .domain-grafisch   .cell-num { background: var(--grafisch-tint);  color: var(--grafisch); }
+
+body[data-layout="samenvatting-v1"] .cell-title {
+  font-family: var(--heading-font);
+  font-style: var(--heading-style);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink);
+  flex: 1;
+  margin: 0;
+  line-height: 1.3;
+}
+body[data-layout="samenvatting-v1"] .cell-badge {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+body[data-layout="samenvatting-v1"] .cell-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body[data-layout="samenvatting-v1"] .cell-para {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+body[data-layout="samenvatting-v1"] .cell-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+body[data-layout="samenvatting-v1"] .cell-table th,
+body[data-layout="samenvatting-v1"] .cell-table td {
+  padding: 6px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+body[data-layout="samenvatting-v1"] .cell-table th {
+  background: var(--bg-lift);
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--ink-soft);
+  font-weight: 700;
+}
+body[data-layout="samenvatting-v1"] .cell-table tr:last-child td {
+  border-bottom: 0;
+}
+
+body[data-layout="samenvatting-v1"] .asset-figure {
+  margin: 0;
+}
+body[data-layout="samenvatting-v1"] .asset-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body[data-layout="samenvatting-v1"] .callout-body {
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+/* ── Nieuws met visual (article + visual + Q&A as web) ──────────────── */
+
+/* Text-heavy reading surface — narrower than samenvatting's 1500px so
+   article paragraphs stay at a comfortable line length, but wider than
+   the editorial 820px prose default to fit the visual + Q&A stack. */
+body[data-layout="nieuws-v1"] {
+  --content-max: 1100px;
+}
+
+body[data-layout="nieuws-v1"] .sidebar .nav-title {
+  flex: 1;
+  min-width: 0;
+}
+
+body[data-layout="nieuws-v1"] .hero-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+}
+body[data-layout="nieuws-v1"] .hero-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: var(--mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: opacity 0.15s;
+}
+body[data-layout="nieuws-v1"] .hero-action:hover {
+  opacity: 0.85;
+}
+
+/* Single-column flow — article reads top-to-bottom, not as a grid. */
+body[data-layout="nieuws-v1"] .nieuws-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 24px 40px 48px;
+}
+@media (max-width: 600px) {
+  body[data-layout="nieuws-v1"] .nieuws-grid {
+    padding: 20px 16px 40px;
+    gap: 14px;
+  }
+}
+
+/* Reuses .samenvatting-cell visuals (border-left domain stripe, padding,
+   rounded card framing) via the inherited class on each section. */
+
+/* Article body typography — slightly larger, comfortable line height. */
+body[data-layout="nieuws-v1"] .nieuws-article .cell-para {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink);
+  margin-bottom: 0.6em;
+}
+
+/* Source line — small, italic, with a subtle external-link arrow. */
+body[data-layout="nieuws-v1"] .nieuws-source {
+  margin-top: 14px;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+body[data-layout="nieuws-v1"] .external-source {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent);
+}
+body[data-layout="nieuws-v1"] .external-source::after {
+  content: " ↗";
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 2px;
+}
+body[data-layout="nieuws-v1"] .external-source:hover {
+  border-bottom-style: solid;
+}
+
+/* Question / answer ordered lists. */
+body[data-layout="nieuws-v1"] .nieuws-q-list {
+  margin: 6px 0 0 0;
+  padding-left: 1.4em;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body[data-layout="nieuws-v1"] .nieuws-q-list li {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink);
+  padding-left: 4px;
+}
+body[data-layout="nieuws-v1"] .nieuws-q-list li::marker {
+  font-family: var(--mono);
+  color: var(--wiskundig);
+  font-weight: 700;
+}
+
+/* Antwoordmodel disclosure — make <summary> a proper button affordance.
+   Default browser rendering puts a triangle marker; we style a chevron
+   indicator and a button-like surface so it's obviously interactive. */
+body[data-layout="nieuws-v1"] .nieuws-answers {
+  /* still a samenvatting-cell underneath — keep the card framing. */
+}
+body[data-layout="nieuws-v1"] .nieuws-answers > summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  background: var(--bg-lift);
+  color: var(--ink);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.15s, border-color 0.15s;
+  user-select: none;
+}
+body[data-layout="nieuws-v1"] .nieuws-answers > summary::-webkit-details-marker {
+  display: none;
+}
+body[data-layout="nieuws-v1"] .nieuws-answers > summary::before {
+  content: "▶";
+  font-size: 9px;
+  transition: transform 0.2s;
+}
+body[data-layout="nieuws-v1"] .nieuws-answers[open] > summary::before {
+  transform: rotate(90deg);
+}
+body[data-layout="nieuws-v1"] .nieuws-answers > summary:hover {
+  background: var(--bg-card);
+  border-color: var(--border-lift);
+}
+body[data-layout="nieuws-v1"] .nieuws-answers > .cell-body {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
 .opgave-section {
   margin-bottom: 44px;
   scroll-margin-top: 1rem;
