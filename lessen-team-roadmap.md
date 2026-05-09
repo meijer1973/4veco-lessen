@@ -530,11 +530,66 @@ mechanically once the registry is right.
 
 Required changes (per the L1.5V instruction):
 
-1. **Canonical procedure fidelity.** Update `_paragraph-plan.md` Concept
-   3 description to the 4-step form; replace the 3-step `fig_3` visual
-   with a 4-step variant in `b1-111-visual-variants.js`; update
-   `b1-111-vaardigheden.js` skill 2 procedure text to the 4 steps; do
-   NOT silently bridge two competing procedures.
+1. **Canonical procedure fidelity — 3→4 step propagation.** This is
+   the FIRST item to ship and the prerequisite for items 2–8: it
+   updates the canonical procedure registry (the source of truth that
+   every other surface consumes), then propagates the 4-step form to
+   every dependent artifact in 1.1.1.
+
+   Registry / source-of-truth update:
+   - `4veco-lessen/Boek 1 .../1.1.1 .../_paragraph-plan.md` Concept 3
+     row: rewrite the procedure description from the 3-step verbal
+     form to the 4-step canonical form. Update the visual-anchor row
+     for `1.1.1_fig_3` to reference the 4-step flowchart.
+
+   Visual generator:
+   - `4veco-platform/build-scripts/content/book-1/b1-111-visual-
+     variants.js`: replace the 3-step `fig_3` flowchart with a 4-step
+     variant (slide / doc / summary / web_light / web_dark surfaces all
+     regenerate from the same source). Step terminology must match the
+     registry verbatim. Surface-adapted variants required.
+
+   Content surfaces that reference B02's procedure:
+   - `b1-111-vaardigheden.js` skill 2 procedure block — update to 4
+     steps (this is the L1.5V-vaardigheden core).
+   - `b1-111-samenvatting.js` cell 5 ("Economisch denken — 3 stappen")
+     — rename header, content, and visual reference to match the 4
+     steps.
+   - `b1-111-presentatie.js` slide 5 (Concept: Economisch denken) —
+     same.
+   - `b1-111-inoefening.js` BI scaffold — wherever it references the
+     procedure, propagate the 4-step form.
+   - Opgaven (`b1-111-opgaven.js` and the basis/midden/verrijking
+     question docx generators) — wherever a question or answer refers
+     to "3-stappen procedure" or "Welke alternatieven? → opbrengsten?
+     → wat geef je op?", update to the 4-step form.
+   - Game data referencing the procedure: `source-data/book-1/
+     reasoning/1.1.1.csv` already uses "alternatieve kosten" canonical
+     vocabulary (committed earlier) — re-check that no row still
+     models the 3-step procedure as canonical (some structure_label
+     fields or distractors may need updating).
+   - Stappenplan game data file (if 1.1.1 has a procedure-game data
+     JSON/JS file referencing the procedure) — same.
+
+   Regenerate-and-verify:
+   - Run the affected per-paragraph builders (visual-variants,
+     vaardigheden, samenvatting, presentatie, inoefening, opgaven).
+   - Run `node scripts/deploy.js` against the lessen book — all 5
+     docx-to-web converters re-emit HTML with the 4-step procedure
+     present.
+   - Validate-paragraph + check:book + jest must stay green.
+   - Manual diff check: every rendered surface (samenvatting.html,
+     vaardigheden.html, presentatie.pptx slide 5, BI HTML, basis /
+     midden / verrijking opgaven) shows step 4 ("Vergelijk opbrengst
+     met alternatieve kosten om de nettowaarde te beoordelen") and
+     none shows the legacy 3-step header or footer.
+   - The fig_3 visual on every surface (slide / doc / summary /
+     web_light / web_dark) shows 4 steps with the canonical wording.
+
+   Do NOT silently bridge two competing procedures. Do NOT regenerate
+   piecewise: if any surface lags behind, the registry is in an
+   inconsistent state and the next deploy could re-introduce the
+   3-step form.
 2. **Visual-text synchronization.** Lisa with €20 / bioscoop €12 /
    boek €15 — the visual must use the same numbers as the adjacent
    text, or the text must explicitly explain a broader-variant visual.
@@ -575,10 +630,13 @@ Out of scope (deferred or not L1.5V's territory):
 
 Pre-flight (must hold before any code change):
 
-- Platform PR #3 (L1.5D D1) merged to platform `main`. Until merged,
-  fresh branch off main would be missing the docx-as-web infrastructure
-  L1.5V regenerations depend on. Do not branch off `webdocs/1.5d` —
-  mixes scopes.
+- **Platform PR #3 (L1.5D D1) reviewed AND merged to platform `main`.**
+  PR #3 is currently under review; the reviewer flagged the converter
+  ERROR-vs-OK contract issue (since fixed in commit `eda176d`). L1.5V
+  cannot start until the reviewer signs off and the merge lands. Until
+  merged, fresh branch off main would be missing the docx-as-web
+  infrastructure L1.5V regenerations depend on. Do not branch off
+  `webdocs/1.5d` — mixes scopes.
 - Baseline gates green on platform `main` post-merge: jest, deploy.js,
   check:book, validate-paragraph 1.1.1.
 - `feedback_baseline-gate-check.md` and `feedback_conditional-
