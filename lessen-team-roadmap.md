@@ -7,9 +7,9 @@ Closed sprints are recorded separately in the "Closed Sprints" section below.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.5V | Vaardigheden Quality Polish for 1.1.1 | no | **ACTIVE 2026-05-09** (inserted between L1.5D D1 and L1.5D D2). Improves `uitleg vaardigheden.html` for §1.1.1 by integrating the strongest didactic improvements from a Team B reference draft into Team A's platform-consistent two-section structure. 8 required changes: 4-step canonical B02 procedure (registry update + visual replace), Lisa-numbers visual/text sync, tarwe/maïs worked-example calculation table in text, schaarste-checks visible as structured HTML, scaffold imports nested under B01/B02 (keuzekaart, pitfall, checklist, route advice), visual quality (remove COMPANION VISUAL labels, mais→maïs), meaningful alt text, "Wat nu?" routing block. Blocked on platform PR #3 merge before a fresh branch off main. |
-| L1.5D | Authored Content As Web | no | **D1 SHIPPED 2026-05-08** (PR #3 https://github.com/meijer1973/4veco-platform/pull/3 awaiting merge; lessen-side `0332911` live). **D2 PAUSED** — resumes after L1.5V. D1 = DOCX-as-web (samenvatting + nieuws converters, polish CSS, landing-page sub-links, deploy.js wire); D2 = PPTX-as-web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout; where PV-backed visual states exist, semantic visual anchors must survive across docx/html/pptx surfaces. |
-| L1.4 | First Pipeline Regression Paragraph | no | After L1.5D D2. Paused 2026-04-30 (was active since 2026-04-25). Building `1.1.2 Percentages en indexcijfers` now serves three purposes: layout regression + games regression on the platform's reworked unit-register (`c21ee14`) + DOCX/PPTX-as-web regression on fresh content. May test PV formula/table templates only if PV.2/PV.3 are ready; must not wait for full PV completion. |
+| L1.5V | Companion Quality Polish + Pilot Lock-in for 1.1.1 | **2026-05-09** | **CLOSED 2026-05-09**. 17 platform commits on `content/1.1.1-companion-quality` + 2 lessen commits on `main`. All 4 hard fails + QA-1 from the original `1.1.1-companion-visual-review.md` resolved; verification sub-agent verdict **PASS WITH FLAGS** (3 non-blocking flags: visual-internal `alt. kosten` shorthand documented as scope decision, Team B reference HTMLs untracked-by-design, optional CSS polish on vaardigheden checklist trailer). Buckets A+B+C+D+E+F all closed. Validator `--mode complete` flips green: `OK Paragraph 1.1.1 PASSED all checks`. Jest 441/0/7 (69 new regression tests vs baseline). Pilot lock-in delivered: `BUILD-PARAGRAPH.md` carries Common pre-conditions section + clean Part A / Part B split, every skill in `skills/` has a `pipeline:` frontmatter label, `validate-paragraph.js` has F2 fixes (split Part A / Part B review gates, structured verdict parser, schema_version 2 awareness), `1.1.1-quality-ref.yaml` migrated to schema_version 2 with `partA:` + `companion:` blocks. L1.4 unblocked. |
+| L1.5D | Authored Content As Web | no | **D1 SHIPPED + MERGED 2026-05-09** (PR #3 https://github.com/meijer1973/4veco-platform/pull/3 merged to platform main; lessen-side `0332911` live). **D2 PAUSED** — resumes after L1.5V. D1 = DOCX-as-web (samenvatting + nieuws converters, polish CSS, landing-page sub-links, deploy.js wire, converter ERROR-vs-OK contract fix from review); D2 = PPTX-as-web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout; where PV-backed visual states exist, semantic visual anchors must survive across docx/html/pptx surfaces. |
+| L1.4 | First Pipeline Regression Paragraph | no | **L1.5V Bucket F CLOSED 2026-05-09 — pilot lock-in delivered, L1.4 unblocked.** Still after L1.5D D2 (which itself resumes after L1.5V close, now satisfied). Paused 2026-04-30 (was active since 2026-04-25). Building `1.1.2 Percentages en indexcijfers` runs against the cleaned-up Part A / Part B QC pipeline established by §1.1.1's pilot lock-in (BUILD-PARAGRAPH.md restructured, validator modes split + schema_version 2 quality-ref). Triple regression purpose stays: layout + games (on reworked unit-register `c21ee14`) + DOCX/PPTX-as-web on fresh content. May test PV formula/table templates only if PV.2/PV.3 are ready; must not wait for full PV completion. |
 | L1.5B | Layout Round 2 — Generator Items | no | After L1.4. Originally L1.5. Acts on what L1.4 surfaced + the deferred round-2 item #3 (split valkuilen pitfalls) + the deferred item #1 (per-section card accents — reclassified as generator-touching by L1.5A planner). |
 | L1.5G | Three-Aspect Game Coverage | no | After L1.5B. Bring the user's graphical-game prototype into the platform; one working prototype per learning aspect (reasoning, calculation, graphical). Architectural constraint: each game accepts adaptive input via localStorage; existing 5 games get a light refactor for the same seam. Graphical-game semantics must align with PV records where they exist. |
 | L1.6 | Second Pipeline Regression Paragraph | no | After L1.5G. Third Book 1 paragraph build confirms Round 2 layout + the new graphical game + the adaptive-input seam survive a fresh end-to-end build, with at least one procedure/visual sequence generated from or validated against PV data if the PV registry is available. |
@@ -40,6 +40,7 @@ Updated: 2026-04-30 — sprint sequence restructured. L1.4 paused to ship layout
 Updated: 2026-05-01 — added the PV Consumption Rule after leadership approved the Procedure-Visual Backbone. The lesson repo remains a generated target and consumer: L1.5G aligns the graphical game with platform/reference PV records, L1.6 proves one PV-backed or PV-validated procedure/visual sequence on a fresh paragraph, and L1.7 includes PV readiness before scaling.
 Updated: 2026-05-01 — Sprint Ledger reorganized: active sprint sits at the top, future sprints follow, and closed sprints moved to a separate "Closed Sprints" archive. L1.5A closed (lessen `2a8455b` shipped, platform PR #2 open at close); L1.5D promoted to active sprint.
 Updated: 2026-05-09 — L1.5V (Vaardigheden Quality Polish for 1.1.1) inserted between L1.5D D1 and L1.5D D2. Triggered by a Team B reference draft that surfaced visual-text mismatches, scaffold gaps, and a canonical-procedure ambiguity in the existing `uitleg vaardigheden.html`. Canonical procedure decision recorded: B02 is 4-step (was 3-step in `_paragraph-plan.md`), driving registry update + propagation across vaardigheden, samenvatting, presentatie, stappenplan, BI, opgaven. L1.5D D1 shipped 2026-05-08; PR #3 awaiting merge before L1.5V branches off main. L1.5D D2 paused, resumes after L1.5V.
+Updated: 2026-05-09 (later) — L1.5V scope EXPANDED to "Companion Quality Polish + Pilot Lock-in for 1.1.1" after (a) the `econ-companion-visual-review` agent ran on `uitleg voorkennis` and returned FAIL with four hard-fail defects + QA-1 (DOCX style collision), several of which are upstream platform issues shared with vaardigheden, and (b) the user direction that §1.1.1 is the pilot paragraph and L1.5V is the moment to set up the Part A / Part B build skill, quality test, and review-agent pipeline cleanly before L1.4 starts paragraph 2. New buckets E (Part A QC integration — fold in the previously deferred quality-record schema extension) and F (Part A / Part B QC pipeline separation pilot, gating L1.4) added. New platform skill `skills/econ-companion-artifacts.md` is the authoring spec; `agents/econ-companion-visual-review.md` is the closure gate. PR #3 merged; L1.5V branches off platform main as `content/1.1.1-companion-quality`. L1.4 row updated to mark Bucket F closure as a pre-condition. See full sprint detail below for the six-bucket item list and per-item workflow that pairs the skill with the review agent on every iteration.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -488,25 +489,49 @@ Exit criteria:
   hand-edited into generated output.
 - `validate-paragraph.js --mode complete` for `1.1.1` continues to pass.
 
-### Sprint L1.5V: Vaardigheden Quality Polish for 1.1.1
+### Sprint L1.5V: Companion Quality Polish for 1.1.1
 
 Completed: no.
 
-Active 2026-05-09 (inserted between L1.5D D1 and L1.5D D2 after a Team B
-reference draft surfaced visual-text mismatches, scaffold gaps, and a
-canonical-procedure ambiguity in the existing `uitleg vaardigheden.html`).
+Active 2026-05-09. Expanded scope after the `econ-companion-visual-review`
+agent ran on `uitleg voorkennis` (review file
+`1.1.1 Schaarste en economisch denken/1.1.1-companion-visual-review.md`)
+and returned **FAIL** with four hard-fail defects plus a DOCX QA failure.
+The voorkennis defects are largely **shared platform issues** (visual
+frame, converter list rendering, checklist routing, alt-text emission)
+that also constrain `uitleg vaardigheden`. Fixing them once unblocks
+both surfaces. The original vaardigheden-only scope from the Team B
+reference draft is retained as a sub-bucket of the expanded sprint.
 
 Purpose:
 
-Improve `1.1.1 Schaarste en economisch denken – uitleg vaardigheden.html`
-by integrating the strongest didactic improvements from a Team B
-reference draft (`uitleg vaardigheden team b.html`) into Team A's
-platform-consistent two-section structure (B01 schaarste herkennen,
-B02 alternatieve kosten berekenen). Team A stays the implementation
-baseline because it is closer to the platform structure (canonical
-skill sections, generated companion layout, themed web visual hooks);
-Team B is treated as a quality-improvement source, not a competing
-production baseline.
+Bring **both** companion explainer surfaces for §1.1.1 to a verdict of
+PASS or PASS WITH FLAGS under `agents/econ-companion-visual-review.md`:
+
+- `1.1.1 Schaarste en economisch denken – uitleg voorkennis.html` (and
+  matching `.docx`).
+- `1.1.1 Schaarste en economisch denken – uitleg vaardigheden.html`.
+
+For vaardigheden, integrate the strongest didactic improvements from a
+Team B reference draft (`uitleg vaardigheden team b.html`) into Team
+A's platform-consistent two-section structure (B01 schaarste
+herkennen, B02 alternatieve kosten berekenen). Team A stays the
+implementation baseline because it is closer to the platform structure
+(canonical skill sections, generated companion layout, themed web
+visual hooks); Team B is treated as a quality-improvement source, not
+a competing production baseline.
+
+Authoring spec + review gate:
+
+- **Skill** (authoring + regeneration): `skills/econ-companion-artifacts.md`
+  on the platform side. New as of 2026-05-09. It encodes the
+  platform-wide rules for student-facing companion artifacts and is
+  required reading before edits.
+- **Review agent** (closure gate): `agents/econ-companion-visual-review.md`.
+  Already used to produce the §1.1.1 voorkennis review that triggered
+  the scope expansion. The skill's "Review before delivery" checklist
+  is identical in shape to the agent's pass sequence so they cannot
+  drift.
 
 Canonical procedure decision (recorded 2026-05-09):
 
@@ -528,162 +553,454 @@ need updating to the 4-step form. L1.5V owns the registry change and
 the vaardigheden-side propagation; the other surfaces regenerate
 mechanically once the registry is right.
 
-Required changes (per the L1.5V instruction):
+Required changes — grouped by bucket. Bucket A (shared platform fixes)
+ships first because both voorkennis and vaardigheden surfaces depend
+on it; Bucket B (canonical procedure) is a hard prerequisite for all
+B02-using surfaces; Buckets C and D are surface-specific.
 
-1. **Canonical procedure fidelity — 3→4 step propagation.** This is
-   the FIRST item to ship and the prerequisite for items 2–8: it
-   updates the canonical procedure registry (the source of truth that
-   every other surface consumes), then propagates the 4-step form to
-   every dependent artifact in 1.1.1.
+#### Bucket A — Shared platform fixes (ship FIRST)
 
-   Registry / source-of-truth update:
-   - `4veco-lessen/Boek 1 .../1.1.1 .../_paragraph-plan.md` Concept 3
-     row: rewrite the procedure description from the 3-step verbal
-     form to the 4-step canonical form. Update the visual-anchor row
-     for `1.1.1_fig_3` to reference the 4-step flowchart.
+These are upstream defects from the §1.1.1 voorkennis review that also
+affect the vaardigheden surface or any future paragraph's companions.
+Fixing them once unblocks both surfaces and reduces L1.4 risk.
 
-   Visual generator:
-   - `4veco-platform/build-scripts/content/book-1/b1-111-visual-
-     variants.js`: replace the 3-step `fig_3` flowchart with a 4-step
-     variant (slide / doc / summary / web_light / web_dark surfaces all
-     regenerate from the same source). Step terminology must match the
-     registry verbatim. Surface-adapted variants required.
+**A1. Strip production label `COMPANION VISUAL` from shared visual
+frame.**
+- Source: `build-scripts/lib/lib-visual-surfaces.js:131` emits the
+  label in the shared visual frame for non-slide variants.
+- Fix: remove or guard the label so student-facing doc / web_light /
+  web_dark / summary surfaces never carry it. (Slide internal use, if
+  any, may stay during build, but no rendered student surface should
+  show it.)
+- Regenerate: rerun `b1-111-visual-variants.js`, then DOCX/HTML/PPTX
+  for §1.1.1 so the label disappears from every existing variant.
+- Acceptance: no asset under `_assets/` for §1.1.1 contains the text
+  `COMPANION VISUAL`; review agent's hard-fail on production labels
+  cannot trigger.
 
-   Content surfaces that reference B02's procedure:
-   - `b1-111-vaardigheden.js` skill 2 procedure block — update to 4
-     steps (this is the L1.5V-vaardigheden core).
-   - `b1-111-samenvatting.js` cell 5 ("Economisch denken — 3 stappen")
-     — rename header, content, and visual reference to match the 4
-     steps.
-   - `b1-111-presentatie.js` slide 5 (Concept: Economisch denken) —
-     same.
-   - `b1-111-inoefening.js` BI scaffold — wherever it references the
-     procedure, propagate the 4-step form.
-   - Opgaven (`b1-111-opgaven.js` and the basis/midden/verrijking
-     question docx generators) — wherever a question or answer refers
-     to "3-stappen procedure" or "Welke alternatieven? → opbrengsten?
-     → wat geef je op?", update to the 4-step form.
-   - Game data referencing the procedure: `source-data/book-1/
-     reasoning/1.1.1.csv` already uses "alternatieve kosten" canonical
-     vocabulary (committed earlier) — re-check that no row still
-     models the 3-step procedure as canonical (some structure_label
-     fields or distractors may need updating).
-   - Stappenplan game data file (if 1.1.1 has a procedure-game data
-     JSON/JS file referencing the procedure) — same.
+**A2. `convert_voorkennis.py` renders normal-section list items.**
+- Source: `build-scripts/lib/convert_voorkennis.py:548-588` only
+  renders paragraphs / formulas / assets / callouts / summaries; there
+  is no branch for normal-section `list_item`. As a result the HTML
+  drops worked-example steps (`b1-111-voorkennis.js:430-434`) and
+  bar-chart reading bullets (`:456-459`) that exist in the DOCX.
+- Fix: teach the converter to emit `<ul>/<li>` (or `<ol>/<li>`
+  where source signals ordered) for normal-section list items, with
+  an associated CSS hook so `voorkennis.css` styles them.
+- Acceptance: regenerated voorkennis.html contains the worked-example
+  steps and the x-axis / y-axis / scale bullets that exist in the
+  DOCX; review agent's source-output-parity hard-fail cannot trigger.
 
-   Regenerate-and-verify:
-   - Run the affected per-paragraph builders (visual-variants,
-     vaardigheden, samenvatting, presentatie, inoefening, opgaven).
-   - Run `node scripts/deploy.js` against the lessen book — all 5
-     docx-to-web converters re-emit HTML with the 4-step procedure
-     present.
-   - Validate-paragraph + check:book + jest must stay green.
-   - Manual diff check: every rendered surface (samenvatting.html,
-     vaardigheden.html, presentatie.pptx slide 5, BI HTML, basis /
-     midden / verrijking opgaven) shows step 4 ("Vergelijk opbrengst
-     met alternatieve kosten om de nettowaarde te beoordelen") and
-     none shows the legacy 3-step header or footer.
-   - The fig_3 visual on every surface (slide / doc / summary /
-     web_light / web_dark) shows 4 steps with the canonical wording.
+**A3. Voorkennis checklist emits next-step routing.**
+- Source: `convert_voorkennis.py:602-617` generates the checklist
+  HTML without a route block, and `b1-111-voorkennis.js` does not
+  author one.
+- Fix: add a generated next-action block after the checklist —
+  "alles afgevinkt → ga verder naar Uitleg vaardigheden / Presentatie";
+  "nog niet → herhaal sectie X / doe Instapquiz". Use the route table
+  in `skills/econ-companion-artifacts.md` as the canonical mapping.
+- Acceptance: regenerated voorkennis.html ends with a visible,
+  keyboard-accessible next-action block; review agent's affordance
+  hard-fail cannot trigger.
 
-   Do NOT silently bridge two competing procedures. Do NOT regenerate
-   piecewise: if any surface lags behind, the registry is in an
-   inconsistent state and the next deploy could re-introduce the
-   3-step form.
-2. **Visual-text synchronization.** Lisa with €20 / bioscoop €12 /
-   boek €15 — the visual must use the same numbers as the adjacent
-   text, or the text must explicitly explain a broader-variant visual.
-3. **Worked-example text-completeness.** Add the tarwe/maïs arithmetic
-   as an explicit table in the verbal channel (not only in the visual):
-   opbrengst tarwe (10 × €500 = €5.000), opbrengst maïs (10 × €350 =
-   €3.500), beste niet-gekozen alternatief (maïs = €3.500),
-   alternatieve kosten (€3.500), nettowaarde (€5.000 − €3.500 = €1.500).
-4. **Schaarste checks visible as structured HTML.** The "Schaarste
-   herkennen" section must render the three checks as `<ol><li>` (or
-   styled step block), not as loose text inside a callout.
-5. **Import Team B scaffold under B01/B02.** Keep two canonical
-   sections; nest as subblocks: keuzekaart pre-organizer under B02 step
-   1; "prijs en kosten uit elkaar houden" misconception/pitfall block
-   under B02; explicit tarwe/maïs calculation table as the worked
-   example; granular checklist + route advice as the final block.
-   Do NOT expand into 5+ parallel skill sections.
-6. **Visual quality.** Remove production/debug labels (`COMPANION
-   VISUAL`); fix arrows to be visibly meaningful; consistent spelling
-   (`maïs`, not `Mais`; `alternatieve kosten`, not English/informal);
-   readable contrast in light/dark; surface-adapted web visuals with
-   light/dark variants (no direct base-SVG embedding).
-7. **Meaningful alt text.** No filename-like alt (`alt="1.1.1_fig_1"`).
-   Use semantic descriptions, e.g.: *"Diagram waarin wensen groter zijn
-   dan het beschikbare budget, waardoor schaarste ontstaat."*
-8. **"Wat nu?" routing block.** Final checklist routes the student to
-   the next appropriate artifact based on what they couldn't do yet
-   (Voorkennis / Stappenplan / Begeleide inoefening / Basisopgaven /
-   Middenopgaven / Verrijking).
+**A4. Meaningful alt-text infrastructure for visuals.**
+- Source: HTML emits `alt="1.1.1_ex_1"` (filename-like) and DOCX
+  emits `descr="asset:1.1.1_ex_1"` (asset-id-like).
+- Fix: introduce an alt-text map keyed by concept-base in the
+  paragraph plan (`_paragraph-plan.md` visual-variants section, or a
+  dedicated alt-text registry), thread it through `b1-111-voorkennis.js`,
+  `b1-111-vaardigheden.js`, the other §1.1.1 builders, and the matching
+  converters so both DOCX `docPr` and HTML `alt` receive a human-
+  readable description (e.g. *"Staafdiagram met opbrengst per gewas:
+  tarwe €500 per hectare, maïs €350, zonnebloemen €300."*). Builders
+  must fall back to a clear placeholder if alt text is missing for a
+  concept-base, so omissions surface in review.
+- Acceptance: no rendered `alt` or `descr` is filename-like or
+  asset-id-like for any visual on the two §1.1.1 explainer surfaces.
+
+**A5. Fix duplicate `Heading1` style ID so DOCX artifact-tool render
+works.**
+- Source: `b1-111-voorkennis.js:350` defines a custom style id
+  `Heading1` colliding with the built-in. `render_docx.py --renderer
+  artifact-tool` errors with `Argument_AddingDuplicateWithKey,
+  Heading1`.
+- Fix: rename the custom style or align with the built-in Word style;
+  rerun artifact-tool to confirm page PNG render. If the same pattern
+  exists for `b1-111-vaardigheden.js`, fix in parallel.
+- Acceptance: `render_docx.py --renderer artifact-tool` succeeds on
+  both regenerated DOCX files and produces page PNGs.
+
+#### Bucket B — Canonical procedure 3 → 4 step propagation
+
+Hard prerequisite for every Bucket C item and for any other §1.1.1
+surface that displays B02. This is unchanged from the previous L1.5V
+plan; reproduced here so the sprint stays self-contained.
+
+**B1. Registry / source-of-truth update.**
+- `4veco-lessen/Boek 1 .../1.1.1 .../_paragraph-plan.md` Concept 3
+  row: rewrite the procedure description from the 3-step verbal form
+  to the 4-step canonical form. Update the visual-anchor row for
+  `1.1.1_fig_3` to reference the 4-step flowchart.
+
+**B2. Visual generator.**
+- `build-scripts/content/book-1/b1-111-visual-variants.js`: replace
+  the 3-step `fig_3` flowchart with a 4-step variant (slide / doc /
+  summary / web_light / web_dark surfaces all regenerate from the
+  same source). Step terminology must match the registry verbatim.
+  Surface-adapted variants required.
+
+**B3. Content surfaces that reference B02's procedure.**
+- `b1-111-vaardigheden.js` skill 2 procedure block — 4 steps.
+- `b1-111-samenvatting.js` cell 5 ("Economisch denken — 3 stappen") —
+  rename header, content, and visual reference to match the 4 steps.
+- `b1-111-presentatie.js` slide 5 (Concept: Economisch denken) — same.
+- `b1-111-inoefening.js` BI scaffold — propagate the 4-step form.
+- Opgaven (`b1-111-opgaven.js` and basis / midden / verrijking question
+  docx generators) — every "3-stappen procedure" / "Welke
+  alternatieven? → opbrengsten? → wat geef je op?" reference becomes
+  the 4-step form.
+- Game data: `source-data/book-1/reasoning/1.1.1.csv` already uses
+  "alternatieve kosten" canonical vocabulary; re-check no row still
+  models the 3-step procedure as canonical. Stappenplan game data, if
+  any, mirrors.
+
+**B4. Regenerate-and-verify.**
+- Per-paragraph builders (visual-variants, vaardigheden, samenvatting,
+  presentatie, inoefening, opgaven).
+- `node scripts/deploy.js` — all 5 docx-to-web converters re-emit
+  HTML with the 4-step procedure present.
+- `npx jest`, `npm run check:book`, `node scripts/validate-paragraph.js
+  --mode complete` — all green.
+- Manual diff: every rendered surface (samenvatting.html,
+  vaardigheden.html, presentatie.pptx slide 5, BI HTML, basis / midden
+  / verrijking opgaven) shows step 4 ("Vergelijk opbrengst met
+  alternatieve kosten om de nettowaarde te beoordelen") and none
+  shows the legacy 3-step header or footer.
+- The fig_3 visual on every surface (slide / doc / summary / web_light
+  / web_dark) shows 4 steps with the canonical wording.
+
+Do NOT silently bridge two competing procedures. Do NOT regenerate
+piecewise: if any surface lags behind, the registry is in an
+inconsistent state and the next deploy could re-introduce the 3-step
+form.
+
+#### Bucket C — Vaardigheden-specific (after Buckets A + B)
+
+**C1. Visual-text synchronization.** Lisa with €20 / bioscoop €12 /
+boek €15 — the visual must use the same numbers as the adjacent text,
+or the text must explicitly explain a broader-variant visual.
+
+**C2. Worked-example text-completeness.** Add the tarwe/maïs
+arithmetic as an explicit table in the verbal channel (not only in
+the visual): opbrengst tarwe (10 × €500 = €5.000), opbrengst maïs
+(10 × €350 = €3.500), beste niet-gekozen alternatief (maïs = €3.500),
+alternatieve kosten (€3.500), nettowaarde (€5.000 − €3.500 = €1.500).
+
+**C3. Schaarste checks visible as structured HTML.** The "Schaarste
+herkennen" section must render the three checks as `<ol><li>` (or a
+styled step block), not as loose text inside a callout.
+
+**C4. Import Team B scaffold under B01/B02.** Keep two canonical
+sections; nest as subblocks: keuzekaart pre-organizer under B02 step 1;
+"prijs en kosten uit elkaar houden" misconception/pitfall block under
+B02; explicit tarwe/maïs calculation table as the worked example;
+granular checklist + route advice as the final block. Do NOT expand
+into 5+ parallel skill sections.
+
+**C5. "Wat nu?" routing block.** Final checklist routes the student
+to the next appropriate artifact based on what they couldn't do yet
+(Voorkennis / Stappenplan / Begeleide inoefening / Basisopgaven /
+Middenopgaven / Verrijking). Use the route table in
+`skills/econ-companion-artifacts.md`.
+
+**C6. Visual quality.** Beyond A1 (production label), apply the
+spelling/contrast/variant checks: `maïs` not `Mais`, `alternatieve
+kosten` not English/informal, readable contrast in light/dark,
+surface-adapted web visuals with light/dark variants (no direct
+base-SVG embedding), arrows visibly meaningful.
+
+#### Bucket D — Voorkennis-specific (after Buckets A)
+
+**D1. Convert the schaarste/budget illustration to a meaningful
+caption + alt text per A4.** Aligns the chart inspection prompts with
+the visible chart values (Tarwe €500, Mais €350, Zonnebloemen €300)
+and adds a one-line caption that mirrors the alt text.
+
+**D2. Confirm worked-example steps survive regeneration.** Once A2 is
+in, re-render and verify the three worked-example steps and the
+x/y-axis/scale bullets are present. This is a parity check, not a new
+authoring step.
+
+**D3. Confirm checklist routing block is wired into the rendered
+page** per A3. Spot-check link targets resolve under GitHub Pages.
+
+#### Bucket E — Part A quality-control integration (was deferred, now in scope)
+
+The voorkennis review's quality-log explicitly flagged that
+`X.Y.Z-quality-ref.yaml` records Part A asset state only, and the
+existing `validate-paragraph.js` passes despite Part B/companion hard
+fails. The team direction (2026-05-09) is to **fold this into L1.5V**
+rather than defer, because L1.5V is also the moment Part B is being
+formalised by the new skill + review agent — the right time to ensure
+Part A and Part B both have first-class records.
+
+**E1. Extend the §1.1.1 quality records.**
+- Audit the current `1.1.1-quality-ref.yaml`. Confirm exact scope of
+  what it records (Part A asset state per the review).
+- Decide schema shape with the F-planning sub-agent (one record file
+  with explicit Part A and Part B sections, two record files, or a
+  third companion-specific record file). Default: extend the existing
+  YAML with a `companion:` section that mirrors the Part A fields.
+- Wire `agents/econ-companion-visual-review.md` to write/update the
+  Part B section of the chosen record on every run, in addition to its
+  human-readable `1.1.1-companion-visual-review.md` report.
+
+**E2. Decide whether `validate-paragraph.js` should fail on
+companion-review hard fails.**
+- Current behavior: validator is independent of the visual review;
+  validator-pass does not imply review-pass.
+- Options to evaluate in the F-plan: (a) keep them independent and
+  document that closure requires both green; (b) have validator read
+  the companion-review record file and refuse close if its verdict is
+  FAIL; (c) keep independent but have a wrapper script (`scripts/
+  qc-paragraph.js` or similar) that runs both and aggregates.
+- This is a Bucket-F-shaped decision and is mostly handled there;
+  E2 records the dependency and lists §1.1.1 as the proving paragraph.
+
+**E3. Re-record §1.1.1 closure under the chosen schema.**
+- Once E1 + the relevant Bucket F decisions are made, populate the
+  Part A record (carry-forward from existing) and the Part B record
+  (from the post-Bucket-A-D regen + final review-agent verdict).
+  §1.1.1 then serves as the canonical example for paragraph 2 (L1.4)
+  to follow.
+
+#### Bucket F — Part A / Part B quality-cycle separation (pilot lock-in before L1.4)
+
+**Why this is in L1.5V.** §1.1.1 is the pilot paragraph: every skill,
+test, agent, and quality record we touch here becomes the template
+that paragraph 2 (L1.4 = §1.1.2) builds against. The current build
+documentation, validator, and quality records mix Part A (textbook
+markdown + assets) and Part B (companion HTML/DOCX/PPTX/games + index)
+together, which is confusing now that Part B has its own authoring
+spec (`skills/econ-companion-artifacts.md`) and review agent
+(`agents/econ-companion-visual-review.md`). L1.4 should not start
+under that ambiguity. **L1.4 is gated on Bucket F closing.**
+
+**F-plan (sub-agent).** Audit + propose-design pass. The F-planning
+sub-agent surveys the current state and produces a written design
+proposal for user review before any F-execute work begins.
+
+Audit inputs:
+- `BUILD-PARAGRAPH.md` — read in full; tag every paragraph as Part A,
+  Part B, or A+B; identify mixed-scope sections (Phase 6 / 6a, the
+  A-verify / B-verify checklists, the validate-paragraph mode flags).
+- `BUILD-CHAPTER.md` — same audit at chapter scope.
+- `scripts/validate-paragraph.js` — list current modes (`complete`,
+  `part-a`, `part-b`?) and their actual gate coverage; check if mode
+  semantics match the BUILD-PARAGRAPH documented split.
+- Skills: `econ-textbook-paragraph` (Part A producer),
+  `econ-companion-artifacts` (Part B umbrella), `econ-explainer-docs`,
+  `econ-exercise-builder`, `econ-pptx-templates`, `econ-word-templates`,
+  `econ-paragraph-review`, `econ-quality-control`, `econ-pdf-builder`,
+  `qc-references`, `manage-references`. For each: does it own Part A,
+  Part B, or both? Where does ownership leak across the line?
+- Agents: `agents/econ-companion-visual-review.md` is Part B only.
+  Confirm there is no equivalent Part A reviewer agent or that the
+  Part A path is covered by a skill instead.
+- Quality records in the lessen tree: `X.Y.Z-quality-ref.yaml`,
+  `X.Y.Z-review.md`, `X.Y.Z-companion-visual-review.md`. Map each to
+  its scope and consumer.
+- File layout under a paragraph folder. Are Part A files (markdown,
+  PDF, `_assets/`) and Part B files (`*.html`, `*.docx`, `*.pptx`,
+  `index.html`, game shells) cleanly distinguishable by name and
+  prefix? Decide if the layout itself benefits from a sub-folder
+  split or if naming is sufficient. **Default: do not move files;
+  prefer in-place scope clarification, because the lessen tree is
+  generated output and physical reorganization would propagate to the
+  build pipeline, the GitHub Pages URLs, and student bookmarks.**
+
+Audit outputs (the F-plan delivers these for user review BEFORE any
+F-execute work begins):
+- Mixed-scope section list with proposed split.
+- Proposed final shape of `BUILD-PARAGRAPH.md`: either (a) one file
+  with three top-level sections (Common pre-conditions, Part A, Part B)
+  or (b) split into `BUILD-PARAGRAPH-A.md` + `BUILD-PARAGRAPH-B.md`
+  with a small `BUILD-PARAGRAPH.md` index. Recommend one with
+  rationale.
+- Proposed validator behavior: confirm `--mode part-a`, `--mode part-b`,
+  `--mode complete` are present; document each mode's coverage; close
+  any gap where `complete` should aggregate part-a and part-b.
+- Proposed quality-record schema (resolves Bucket E1).
+- Proposed skill ownership table: skill → which Part(s) it owns →
+  which gate runs against its output.
+- Proposed test taxonomy: which jest test suites belong to Part A,
+  Part B, or shared infrastructure; whether suite naming/folder
+  reflects that.
+- A migration plan that touches §1.1.1 only (paragraph 2 in L1.4
+  inherits the cleaned pipeline; older paragraphs are out of scope).
+
+**F-execute (main agent + per-item sub-agents as needed).** Implement
+the F-plan after user approval. One commit per coherent change. Never
+move generated lesson output (per Default above) unless F-plan
+explicitly requests it and the user approves.
+
+Likely items (final list comes from F-plan):
+- F1. Restructure `BUILD-PARAGRAPH.md` per the chosen shape.
+- F2. Adjust `validate-paragraph.js` if a mode is missing or wrongly
+  scoped; document each mode's coverage in BUILD-PARAGRAPH.
+- F3. Implement the chosen quality-record schema; migrate §1.1.1's
+  records.
+- F4. Update skill files where Part A/Part B ownership is unclear
+  (mostly: front-matter description, "When to use," "How this skill
+  connects to the rest of the platform" sections).
+- F5. Adjust agents/README.md and the `econ-companion-artifacts`
+  skill cross-references if the F-plan changes them.
+- F6. Update CLAUDE.md (project-level) and AGENTS.md "Quality control"
+  sections to reflect the cleaner pipeline.
+
+**F-verify (sub-agent).**
+- Re-run end-to-end on §1.1.1 with the cleaned pipeline. Each gate
+  runs separately for Part A and Part B; both must pass; the
+  aggregate must pass.
+- Confirm the §1.1.1 voorkennis review file (post-Bucket-A-D regen)
+  is recorded in the new quality record schema.
+- Confirm the gates would catch each of the original voorkennis
+  review hard fails if reintroduced (regression test, conceptually:
+  insert each defect, run validator + review agent, expect FAIL,
+  revert).
+
+**Closure of Bucket F is the gate to L1.4.** Roadmap row for L1.4
+updated accordingly.
+
+#### Cross-bucket workflow per item
+
+Every item in every bucket follows the same loop, mandated by
+`skills/econ-companion-artifacts.md` and gated by
+`agents/econ-companion-visual-review.md`:
+
+1. **Read** `skills/econ-companion-artifacts.md`, the matching builder
+   skill (e.g. `econ-explainer-docs`), the paragraph plan, the
+   canonical unit registry, the existing artifact, and the affected
+   builder/converter/asset.
+2. **Author / regenerate.** Edit source layer only. Never hand-edit
+   `4veco-lessen/`.
+3. **Verify rendered output** in browser (HTML) or by inspecting the
+   DOCX/PNG export. Confirm source-output parity (bullets / tables /
+   calculations / steps / labels / alt text / route block survived).
+4. **Run gates.** `npx jest`, `node scripts/deploy.js`, `npm run
+   check:book`, `node scripts/validate-paragraph.js --mode complete`.
+5. **Run the review agent** on the regenerated surface. Hard fails
+   from the agent are the same as the skill's "Do not return PASS if"
+   list. Iterate until verdict is PASS or PASS WITH FLAGS for both
+   surfaces.
 
 Out of scope (deferred or not L1.5V's territory):
 
 - The "Economisch oordeel geven" Team B section. Not a named
   answer-writing scaffold in the canonical registry; do not import as
   a fifth procedure.
-- Re-rendering of all paragraphs. L1.5V scopes to 1.1.1 only.
+- Re-rendering of all paragraphs. L1.5V scopes to §1.1.1 only.
 - L1.5D D2 (PPTX-as-web). Resumes after L1.5V closes.
+- File-layout reorganization of the lessen tree (Part A vs Part B
+  sub-folders, URL changes). Default in F-plan is to keep the layout
+  and clarify scope by naming + documentation only. Physical moves
+  are a separate decision the user owns; do not let F drift into one.
+- Migration of older paragraphs to the cleaned pipeline (Bucket F is
+  scoped to §1.1.1 as the pilot). L1.4 uses the cleaned pipeline by
+  default for paragraph 2; older paragraphs catch up opportunistically
+  in later sprints.
 
 Pre-flight (must hold before any code change):
 
-- **Platform PR #3 (L1.5D D1) reviewed AND merged to platform `main`.**
-  PR #3 is currently under review; the reviewer flagged the converter
-  ERROR-vs-OK contract issue (since fixed in commit `eda176d`). L1.5V
-  cannot start until the reviewer signs off and the merge lands. Until
-  merged, fresh branch off main would be missing the docx-as-web
-  infrastructure L1.5V regenerations depend on. Do not branch off
-  `webdocs/1.5d` — mixes scopes.
-- Baseline gates green on platform `main` post-merge: jest, deploy.js,
-  check:book, validate-paragraph 1.1.1.
-- `feedback_baseline-gate-check.md` and `feedback_conditional-
-  authorization-expires.md` apply: re-verify platform team activity
-  state at branch creation; do not assume idle from prior session.
+- ✅ **Platform PR #3 merged** to platform `main` (2026-05-09). The
+  converter ERROR-vs-OK contract fix (`eda176d` upstream / `5dcaf2a`
+  on main) is in. The docx-as-web infrastructure L1.5V regenerations
+  depend on is therefore present.
+- Baseline gates green on platform `main` head: `npx jest`,
+  `node scripts/deploy.js "../4veco-lessen/Boek 1 ..."`,
+  `npm run check:book`, `node scripts/validate-paragraph.js --mode
+  complete "..."`. Re-run before branching per
+  `feedback_baseline-gate-check.md`.
+- `feedback_conditional-authorization-expires.md` applies: re-verify
+  platform team activity state at branch creation; do not assume idle
+  from prior session.
+- Stale worktrees pruned: `4veco-platform-d1d2` (was `webdocs/1.5d`,
+  now merged) and `4veco-platform-layout` (was `layout/1.1.1-round-2-redo`,
+  L1.5A merged) can be removed before creating the new worktree.
 
 Sub-agent-driven workflow (per `feedback_sprint-task-workflow.md`):
 
-1. **Plan sub-agent (whole-sprint scope)** — survey current Team A
-   `b1-111-vaardigheden.js` source, `convert_vaardigheden.py`
-   converter, `_paragraph-plan.md` procedure block, `b1-111-visual-
-   variants.js` fig_3 generator, plus Team B's `uitleg vaardigheden
-   team b.html`. Produce a per-item execution plan with file paths,
-   before/after sketches, gates, browser-smoke targets.
-2. **Per-item planning** for any item with non-obvious scope (e.g.
-   the registry change, the fig_3 visual replacement).
-3. Main agent executes, one commit per item, on a fresh branch
-   `content/1.1.1-vaardigheden-quality` off platform main.
+1. **Whole-sprint planning sub-agent.** Survey: current source for both
+   `b1-111-voorkennis.js` and `b1-111-vaardigheden.js`; matching
+   converters; `_paragraph-plan.md` procedure + visual-variants
+   blocks; shared `lib-visual-surfaces.js`; canonical units B01 + B02;
+   Team B's `uitleg vaardigheden team b.html`; the §1.1.1 voorkennis
+   review file. Produce a per-item execution plan with file paths,
+   before/after sketches, gates, browser-smoke targets, structured by
+   the four buckets above. Confirm the dependency order
+   (Bucket A1+A4 → A2+A3 → A5 → B → C → D) and flag any item that
+   should subdivide.
+2. **Per-item planning sub-agent** for non-obvious items: A2 (list-
+   rendering converter design), A4 (alt-text registry shape), B2
+   (4-step `fig_3` visual replacement), C4 (Team B scaffold imports).
+3. Main agent executes, one commit per item (or per coherent
+   sub-bucket where items co-edit the same file), on a fresh branch
+   `content/1.1.1-companion-quality` off platform main, in worktree
+   `4veco-platform-companion`.
 4. **Verification sub-agent** runs gates + Pages browser-smoke;
-   compares rendered HTML against the 8 acceptance criteria.
-5. PR to platform main; lessen regen + commit + push.
+   compares rendered HTML against the acceptance criteria; **runs
+   `agents/econ-companion-visual-review.md` on both surfaces** and
+   attaches its verdict + report to the verification output.
+5. PR to platform main; lessen regen + commit + push; live Pages
+   browser-smoke after deploy.
 
-Acceptance criteria (per L1.5V instruction):
+Acceptance criteria (per `skills/econ-companion-artifacts.md` review
+gate):
 
-- No 3-step/4-step procedure mismatch on the rendered page.
+For both `uitleg voorkennis.html` and `uitleg vaardigheden.html`:
+
+- No 3-step/4-step procedure mismatch on any rendered surface.
 - Every procedure visual matches its canonical procedure in step
   count, order, and terminology.
-- Schaarste visual + adjacent text use matching numbers (or text
-  explicitly explains the variant).
-- Tarwe/maïs worked example calculation in text, not only visual.
-- Three schaarste checks visible as structured HTML.
-- Visuals legible, no production labels, consistent spelling.
-- Semantic alt text everywhere.
-- Surface-adapted light/dark web visuals.
-- Routing block routes the student to the right next artifact.
-- Companion visual review agent returns PASS or only non-blocking
-  flags after regeneration.
+- Visuals match adjacent text in numbers, units, and terminology (or
+  text explicitly explains a broader-variant visual).
+- Worked examples are text-complete (calculations visible in prose,
+  not only in the visual).
+- Where the artifact contains a list/checks/checklist, it renders as
+  structured semantic HTML (`<ul>` / `<ol>` / `<li>`).
+- No production / debug labels (`COMPANION VISUAL`, asset filenames,
+  internal IDs) on any rendered student-facing visual.
+- Alt text and DOCX `descr` are meaningful, not filename-like.
+- Surface-adapted light / dark web visuals work.
+- Final block routes the student to the right next artifact (per the
+  skill's route table).
+- `agents/econ-companion-visual-review.md` returns **PASS** or **PASS
+  WITH FLAGS** (no hard fails) on both surfaces.
+- `render_docx.py --renderer artifact-tool` succeeds on both
+  regenerated DOCX files.
 
-Proof required (per L1.5V instruction):
+Proof required (per `skills/econ-companion-artifacts.md` "Required
+delivery" + the review agent's closure proofs):
 
-- Regenerated `uitleg vaardigheden.html`.
-- Browser-verification screenshots / sub-agent fetch report.
-- Evidence canonical B02 procedure + fig_3 visual now match.
-- Evidence light/dark variants work.
-- Source-output parity check: bullets, tables, calculations,
-  checklist content survive generation.
-- Companion visual review agent output.
+- Regenerated `uitleg voorkennis.html`, `uitleg voorkennis.docx`,
+  `uitleg vaardigheden.html` (and `.docx` if the vaardigheden DOCX
+  was edited as part of the sprint).
+- Browser-verification screenshots / sub-agent fetch report for both
+  surfaces, including light + dark variant smoke.
+- Evidence canonical B02 procedure + `fig_3` visual now match across
+  every surface that displays B02.
+- Evidence the alt-text registry / map yields meaningful descriptions
+  in both DOCX `descr` and HTML `alt`.
+- Evidence the voorkennis checklist now ends with a routing block;
+  spot-check link targets resolve under GitHub Pages.
+- Source-output parity report: bullets, tables, calculations,
+  checklist content, alt text, route block survive generation.
+- `agents/econ-companion-visual-review.md` output for both surfaces
+  with verdict PASS or PASS WITH FLAGS, saved as
+  `1.1.1-companion-visual-review.md` (overwriting or versioning the
+  existing voorkennis review file as the new baseline).
+- `render_docx.py --renderer artifact-tool` page PNGs for both
+  regenerated DOCX files, attached as artifact-tool render proof.
 
 ### Sprint L1.4: First Pipeline Regression Paragraph
 

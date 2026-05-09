@@ -1,33 +1,66 @@
 # Quality Reference — 1.1.1 Schaarste en economisch denken
-# Generated: 2026-04-14
+# Generated: 2026-04-14 (Part A baseline)
+# Migrated to schema_version 2: 2026-05-09 (L1.5V Bucket E1+E3)
 
 paragraph: "1.1.1"
 title: "Schaarste en economisch denken"
 type: theory
+schema_version: 2
 
-content:
-  paragraaf_md: true
-  opgaven_md: true
-  antwoorden_md: true
-  paragraaf_pdf: true
-  opgaven_pdf: true
-  antwoorden_pdf: true
-  build_pdf_py: true
+partA:
+  content:
+    paragraaf_md: true
+    opgaven_md: true
+    antwoorden_md: true
+    paragraaf_pdf: true
+    opgaven_pdf: true
+    antwoorden_pdf: true
+    build_pdf_py: true
+  assets:
+    total_referenced: 5
+    total_present: 5
+    missing: []
+    svgpng_paired: true
+    naming_compliant: true
+    inventory:
+      - 1.1.1_fig_1 (schaarste: behoeften vs middelen)
+      - 1.1.1_fig_2 (alternatieve kosten: bar chart)
+      - 1.1.1_fig_3 (economisch denken: 4 stappen, B02)   # was 3 stappen pre-Bucket B
+      - 1.1.1_we_1 (uitgewerkt voorbeeld: tarwe vs maïs)
+      - 1.1.1_ex_1 (opgave: drie gewassen)
+  review:
+    file: "1.1.1-review.md"
+    unresolved_fails: 0
+    verdict: "PASS WITH FLAGS"
+    last_reviewed: "2026-04-14"
 
-assets:
-  total_referenced: 5
-  total_present: 5
-  missing: []
-  svgpng_paired: true
-  naming_compliant: true
-  inventory:
-    - 1.1.1_fig_1 (schaarste: behoeften vs middelen)
-    - 1.1.1_fig_2 (opportuniteitskosten: bar chart)
-    - 1.1.1_fig_3 (economisch denken: 3 stappen)
-    - 1.1.1_we_1 (uitgewerkt voorbeeld: tarwe vs mais)
-    - 1.1.1_ex_1 (opgave: drie gewassen)
+companion:
+  review_file: "1.1.1-companion-visual-review.md"
+  review_verdict: "PASS WITH FLAGS"          # populated post-Bucket-A-D regen + verification sub-agent
+  last_reviewed: "2026-05-09"
+  hard_fails_open: 0                          # pre-L1.5V: 4 (HF-1..HF-4 + QA-1)
+  procedure_b02_step_count: 4                 # canonical 4 (post-Bucket B)
+  assets_meaningful_alt: true                 # post-Bucket A4
+  checklist_route_present: true               # post-Bucket A3 (voorkennis) + C5 (vaardigheden)
+  artifact_tool_render_clean: true            # post-Bucket A5 (Heading1 collision fix)
+  surfaces:
+    voorkennis_html: clean                    # post-A1+A2+A3+A4+D1+D4
+    voorkennis_docx: clean                    # post-A4+A5+D4
+    vaardigheden_html: clean                  # post-A1+A2+A4+B3a+C1+C2+C3+C4+C5+C6
+    vaardigheden_docx: clean                  # post-A4+A5+C4+C6
+    presentatie_pptx: clean                   # post-B3c+C6
+    nieuws_docx: clean                        # post-A4+C6
+    samenvatting_docx: clean                  # post-A4+B3b+C6
+    begeleide_inoefening_html: clean          # post-A2+A4+B3d+C6
+    games:
+      instapquiz: clean
+      nieuws_detective: clean
+      stappenplan: clean                      # 4-stappen procedure (post-Bucket B)
+      redeneer_spel: clean
+      wiskundevaardigheden: clean
 
-review:
-  file: "1.1.1-review.md"
-  unresolved_fails: 0
-  verdict: "PASS WITH FLAGS"
+# Schema authority: docs/L1.5V/F-plan-part-a-b-separation.md §4.3.
+# Validator: scripts/validate-paragraph.js reads either schema (legacy
+# top-level keys or schema_version 2 partA: + companion: blocks).
+# Closure proof for Part B: 1.1.1-companion-visual-review.md (verdict
+# field above mirrors the verdict block of that review file).

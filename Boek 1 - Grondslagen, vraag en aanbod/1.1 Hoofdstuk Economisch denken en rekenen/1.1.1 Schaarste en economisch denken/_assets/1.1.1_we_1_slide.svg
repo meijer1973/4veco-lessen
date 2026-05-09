@@ -15,7 +15,7 @@
     
       <rect x="555" y="186.25" width="165" height="148.75" rx="14" fill="#d08732" stroke="#d08732" stroke-width="2" stroke-dasharray="8,5" opacity="0.76"/>
       <text x="637.5" y="173.25" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900" letter-spacing="0" font-style="" fill="#d08732">3500 euro</text>
-      <text x="637.5" y="368" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="0" font-style="" fill="#1b1a17">Mais (10 ha)</text>
+      <text x="637.5" y="368" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="0" font-style="" fill="#1b1a17">maïs (10 ha)</text>
       <rect x="569" y="242.625" width="137" height="36" rx="10" fill="#d08732"/><text x="637.5" y="267.625" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="900" letter-spacing="0" font-style="" fill="#ffffff">ALT. KOSTEN</text>
     
     
@@ -23,5 +23,5 @@
       <text x="498" y="161.375" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" letter-spacing="0" font-style="" fill="#2f7d4a">+1500</text>
     
     <rect x="90" y="558" width="780" height="38" rx="12" fill="#efe8d7" stroke="#d9d0be" stroke-width="1"/>
-    <text x="480" y="583" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="0" font-style="" fill="#1b1a17">Alternatieve kosten bij tarwe = 3500 euro gemiste Maisopbrengst.</text>
+    <text x="480" y="583" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="0" font-style="" fill="#1b1a17">Alternatieve kosten bij tarwe = 3500 euro gemiste maïsopbrengst.</text>
   </svg>

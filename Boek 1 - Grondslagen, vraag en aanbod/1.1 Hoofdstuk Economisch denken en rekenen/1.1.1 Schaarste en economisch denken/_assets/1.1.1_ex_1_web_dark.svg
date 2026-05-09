@@ -17,7 +17,7 @@
     
       <rect x="415" y="290.25" width="130" height="148.75" rx="14" fill="#4ade80" stroke="#4ade80" stroke-width="2" opacity="0.82"/>
       <text x="480" y="277.25" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900" letter-spacing="0" font-style="" fill="#4ade80">350 euro</text>
-      <text x="480" y="472" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="0" font-style="" fill="#f2efe8">Mais</text>
+      <text x="480" y="472" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="0" font-style="" fill="#f2efe8">maïs</text>
       
     
       <rect x="625" y="311.5" width="130" height="127.5" rx="14" fill="#fbbf24" stroke="#fbbf24" stroke-width="2" opacity="0.82"/>
@@ -27,5 +27,5 @@
     
     
     <rect x="90" y="450" width="780" height="38" rx="12" fill="#0c1015" stroke="#364253" stroke-width="1"/>
-    <text x="480" y="475" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="0" font-style="" fill="#f2efe8">Tarwe is 150 euro per hectare hoger dan Mais.</text>
+    <text x="480" y="475" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="0" font-style="" fill="#f2efe8">Tarwe is 150 euro per hectare hoger dan maïs.</text>
   </svg>
