@@ -7,8 +7,9 @@ Closed sprints are recorded separately in the "Closed Sprints" section below.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.5D | Authored Content As Web | no | **ACTIVE 2026-05-01** (succeeds L1.5A). Two-phase sprint: D1 DOCX rendered as web on paragraph pages with `.docx` download; D2 PPTX rendered as web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout; where PV-backed visual states exist, semantic visual anchors must survive across docx/html/pptx surfaces. |
-| L1.4 | First Pipeline Regression Paragraph | no | After L1.5D. Paused 2026-04-30 (was active since 2026-04-25). Building `1.1.2 Percentages en indexcijfers` now serves three purposes: layout regression + games regression on the platform's reworked unit-register (`c21ee14`) + DOCX/PPTX-as-web regression on fresh content. May test PV formula/table templates only if PV.2/PV.3 are ready; must not wait for full PV completion. |
+| L1.5V | Vaardigheden Quality Polish for 1.1.1 | no | **ACTIVE 2026-05-09** (inserted between L1.5D D1 and L1.5D D2). Improves `uitleg vaardigheden.html` for §1.1.1 by integrating the strongest didactic improvements from a Team B reference draft into Team A's platform-consistent two-section structure. 8 required changes: 4-step canonical B02 procedure (registry update + visual replace), Lisa-numbers visual/text sync, tarwe/maïs worked-example calculation table in text, schaarste-checks visible as structured HTML, scaffold imports nested under B01/B02 (keuzekaart, pitfall, checklist, route advice), visual quality (remove COMPANION VISUAL labels, mais→maïs), meaningful alt text, "Wat nu?" routing block. Blocked on platform PR #3 merge before a fresh branch off main. |
+| L1.5D | Authored Content As Web | no | **D1 SHIPPED 2026-05-08** (PR #3 https://github.com/meijer1973/4veco-platform/pull/3 awaiting merge; lessen-side `0332911` live). **D2 PAUSED** — resumes after L1.5V. D1 = DOCX-as-web (samenvatting + nieuws converters, polish CSS, landing-page sub-links, deploy.js wire); D2 = PPTX-as-web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout; where PV-backed visual states exist, semantic visual anchors must survive across docx/html/pptx surfaces. |
+| L1.4 | First Pipeline Regression Paragraph | no | After L1.5D D2. Paused 2026-04-30 (was active since 2026-04-25). Building `1.1.2 Percentages en indexcijfers` now serves three purposes: layout regression + games regression on the platform's reworked unit-register (`c21ee14`) + DOCX/PPTX-as-web regression on fresh content. May test PV formula/table templates only if PV.2/PV.3 are ready; must not wait for full PV completion. |
 | L1.5B | Layout Round 2 — Generator Items | no | After L1.4. Originally L1.5. Acts on what L1.4 surfaced + the deferred round-2 item #3 (split valkuilen pitfalls) + the deferred item #1 (per-section card accents — reclassified as generator-touching by L1.5A planner). |
 | L1.5G | Three-Aspect Game Coverage | no | After L1.5B. Bring the user's graphical-game prototype into the platform; one working prototype per learning aspect (reasoning, calculation, graphical). Architectural constraint: each game accepts adaptive input via localStorage; existing 5 games get a light refactor for the same seam. Graphical-game semantics must align with PV records where they exist. |
 | L1.6 | Second Pipeline Regression Paragraph | no | After L1.5G. Third Book 1 paragraph build confirms Round 2 layout + the new graphical game + the adaptive-input seam survive a fresh end-to-end build, with at least one procedure/visual sequence generated from or validated against PV data if the PV registry is available. |
@@ -38,6 +39,7 @@ Updated: 2026-04-25 after Sprint L1.3A-C close — basic HTML layout, companion 
 Updated: 2026-04-30 — sprint sequence restructured. L1.4 paused to ship layout polish + web-native authored content first; L1.5 split into L1.5A (single-paragraph-safe items, active now) and L1.5B (generator-touching items, after L1.4). New L1.5D (DOCX/PPTX as web) sequenced before L1.4 because both should be tested against L1.4's fresh-paragraph regression. New L1.5G (three-aspect games coverage) sequenced after L1.5B with adaptive-ready architecture as a cross-cutting constraint. L1.4 resumes with triple-purpose scope: layout + games + web-docs regression on fresh content.
 Updated: 2026-05-01 — added the PV Consumption Rule after leadership approved the Procedure-Visual Backbone. The lesson repo remains a generated target and consumer: L1.5G aligns the graphical game with platform/reference PV records, L1.6 proves one PV-backed or PV-validated procedure/visual sequence on a fresh paragraph, and L1.7 includes PV readiness before scaling.
 Updated: 2026-05-01 — Sprint Ledger reorganized: active sprint sits at the top, future sprints follow, and closed sprints moved to a separate "Closed Sprints" archive. L1.5A closed (lessen `2a8455b` shipped, platform PR #2 open at close); L1.5D promoted to active sprint.
+Updated: 2026-05-09 — L1.5V (Vaardigheden Quality Polish for 1.1.1) inserted between L1.5D D1 and L1.5D D2. Triggered by a Team B reference draft that surfaced visual-text mismatches, scaffold gaps, and a canonical-procedure ambiguity in the existing `uitleg vaardigheden.html`. Canonical procedure decision recorded: B02 is 4-step (was 3-step in `_paragraph-plan.md`), driving registry update + propagation across vaardigheden, samenvatting, presentatie, stappenplan, BI, opgaven. L1.5D D1 shipped 2026-05-08; PR #3 awaiting merge before L1.5V branches off main. L1.5D D2 paused, resumes after L1.5V.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -485,6 +487,145 @@ Exit criteria:
 - Both phases land in platform-owned converters / builders / templates, not
   hand-edited into generated output.
 - `validate-paragraph.js --mode complete` for `1.1.1` continues to pass.
+
+### Sprint L1.5V: Vaardigheden Quality Polish for 1.1.1
+
+Completed: no.
+
+Active 2026-05-09 (inserted between L1.5D D1 and L1.5D D2 after a Team B
+reference draft surfaced visual-text mismatches, scaffold gaps, and a
+canonical-procedure ambiguity in the existing `uitleg vaardigheden.html`).
+
+Purpose:
+
+Improve `1.1.1 Schaarste en economisch denken – uitleg vaardigheden.html`
+by integrating the strongest didactic improvements from a Team B
+reference draft (`uitleg vaardigheden team b.html`) into Team A's
+platform-consistent two-section structure (B01 schaarste herkennen,
+B02 alternatieve kosten berekenen). Team A stays the implementation
+baseline because it is closer to the platform structure (canonical
+skill sections, generated companion layout, themed web visual hooks);
+Team B is treated as a quality-improvement source, not a competing
+production baseline.
+
+Canonical procedure decision (recorded 2026-05-09):
+
+The canonical procedure for B02 is **4-step**, not the 3-step verbal
+expansion that the current `_paragraph-plan.md` declares. The 4 steps:
+
+1. Benoem alle beschikbare alternatieven voor het schaarse middel.
+2. Bereken voor elk alternatief de opbrengst of verwachte opbrengst.
+3. Rangschik de alternatieven; het hoogste niet-gekozen alternatief
+   is de alternatieve kosten.
+4. Vergelijk de opbrengst van de gekozen optie met de alternatieve
+   kosten om de nettowaarde te beoordelen.
+
+This decision propagates beyond vaardigheden: the `_paragraph-plan.md`
+Concept 3 description, the `1.1.1_fig_3` flowchart visual, the
+samenvatting cell 5, the presentatie slide 5, the stappenplan game,
+the begeleide-inoefening scaffold, and the opgaven references all
+need updating to the 4-step form. L1.5V owns the registry change and
+the vaardigheden-side propagation; the other surfaces regenerate
+mechanically once the registry is right.
+
+Required changes (per the L1.5V instruction):
+
+1. **Canonical procedure fidelity.** Update `_paragraph-plan.md` Concept
+   3 description to the 4-step form; replace the 3-step `fig_3` visual
+   with a 4-step variant in `b1-111-visual-variants.js`; update
+   `b1-111-vaardigheden.js` skill 2 procedure text to the 4 steps; do
+   NOT silently bridge two competing procedures.
+2. **Visual-text synchronization.** Lisa with €20 / bioscoop €12 /
+   boek €15 — the visual must use the same numbers as the adjacent
+   text, or the text must explicitly explain a broader-variant visual.
+3. **Worked-example text-completeness.** Add the tarwe/maïs arithmetic
+   as an explicit table in the verbal channel (not only in the visual):
+   opbrengst tarwe (10 × €500 = €5.000), opbrengst maïs (10 × €350 =
+   €3.500), beste niet-gekozen alternatief (maïs = €3.500),
+   alternatieve kosten (€3.500), nettowaarde (€5.000 − €3.500 = €1.500).
+4. **Schaarste checks visible as structured HTML.** The "Schaarste
+   herkennen" section must render the three checks as `<ol><li>` (or
+   styled step block), not as loose text inside a callout.
+5. **Import Team B scaffold under B01/B02.** Keep two canonical
+   sections; nest as subblocks: keuzekaart pre-organizer under B02 step
+   1; "prijs en kosten uit elkaar houden" misconception/pitfall block
+   under B02; explicit tarwe/maïs calculation table as the worked
+   example; granular checklist + route advice as the final block.
+   Do NOT expand into 5+ parallel skill sections.
+6. **Visual quality.** Remove production/debug labels (`COMPANION
+   VISUAL`); fix arrows to be visibly meaningful; consistent spelling
+   (`maïs`, not `Mais`; `alternatieve kosten`, not English/informal);
+   readable contrast in light/dark; surface-adapted web visuals with
+   light/dark variants (no direct base-SVG embedding).
+7. **Meaningful alt text.** No filename-like alt (`alt="1.1.1_fig_1"`).
+   Use semantic descriptions, e.g.: *"Diagram waarin wensen groter zijn
+   dan het beschikbare budget, waardoor schaarste ontstaat."*
+8. **"Wat nu?" routing block.** Final checklist routes the student to
+   the next appropriate artifact based on what they couldn't do yet
+   (Voorkennis / Stappenplan / Begeleide inoefening / Basisopgaven /
+   Middenopgaven / Verrijking).
+
+Out of scope (deferred or not L1.5V's territory):
+
+- The "Economisch oordeel geven" Team B section. Not a named
+  answer-writing scaffold in the canonical registry; do not import as
+  a fifth procedure.
+- Re-rendering of all paragraphs. L1.5V scopes to 1.1.1 only.
+- L1.5D D2 (PPTX-as-web). Resumes after L1.5V closes.
+
+Pre-flight (must hold before any code change):
+
+- Platform PR #3 (L1.5D D1) merged to platform `main`. Until merged,
+  fresh branch off main would be missing the docx-as-web infrastructure
+  L1.5V regenerations depend on. Do not branch off `webdocs/1.5d` —
+  mixes scopes.
+- Baseline gates green on platform `main` post-merge: jest, deploy.js,
+  check:book, validate-paragraph 1.1.1.
+- `feedback_baseline-gate-check.md` and `feedback_conditional-
+  authorization-expires.md` apply: re-verify platform team activity
+  state at branch creation; do not assume idle from prior session.
+
+Sub-agent-driven workflow (per `feedback_sprint-task-workflow.md`):
+
+1. **Plan sub-agent (whole-sprint scope)** — survey current Team A
+   `b1-111-vaardigheden.js` source, `convert_vaardigheden.py`
+   converter, `_paragraph-plan.md` procedure block, `b1-111-visual-
+   variants.js` fig_3 generator, plus Team B's `uitleg vaardigheden
+   team b.html`. Produce a per-item execution plan with file paths,
+   before/after sketches, gates, browser-smoke targets.
+2. **Per-item planning** for any item with non-obvious scope (e.g.
+   the registry change, the fig_3 visual replacement).
+3. Main agent executes, one commit per item, on a fresh branch
+   `content/1.1.1-vaardigheden-quality` off platform main.
+4. **Verification sub-agent** runs gates + Pages browser-smoke;
+   compares rendered HTML against the 8 acceptance criteria.
+5. PR to platform main; lessen regen + commit + push.
+
+Acceptance criteria (per L1.5V instruction):
+
+- No 3-step/4-step procedure mismatch on the rendered page.
+- Every procedure visual matches its canonical procedure in step
+  count, order, and terminology.
+- Schaarste visual + adjacent text use matching numbers (or text
+  explicitly explains the variant).
+- Tarwe/maïs worked example calculation in text, not only visual.
+- Three schaarste checks visible as structured HTML.
+- Visuals legible, no production labels, consistent spelling.
+- Semantic alt text everywhere.
+- Surface-adapted light/dark web visuals.
+- Routing block routes the student to the right next artifact.
+- Companion visual review agent returns PASS or only non-blocking
+  flags after regeneration.
+
+Proof required (per L1.5V instruction):
+
+- Regenerated `uitleg vaardigheden.html`.
+- Browser-verification screenshots / sub-agent fetch report.
+- Evidence canonical B02 procedure + fig_3 visual now match.
+- Evidence light/dark variants work.
+- Source-output parity check: bullets, tables, calculations,
+  checklist content survive generation.
+- Companion visual review agent output.
 
 ### Sprint L1.4: First Pipeline Regression Paragraph
 
