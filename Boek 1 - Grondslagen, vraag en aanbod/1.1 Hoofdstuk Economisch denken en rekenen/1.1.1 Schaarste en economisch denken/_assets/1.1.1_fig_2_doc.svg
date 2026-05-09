@@ -2,7 +2,6 @@
     
     <rect width="1000" height="640" rx="28" fill="#fbf8ef"/>
     <rect x="32" y="32" width="936" height="576" rx="24" fill="#ffffff" stroke="#d9d0be" stroke-width="1.5"/>
-    <text x="64" y="74" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2" font-style="" fill="#17A2B8">COMPANION VISUAL</text>
     <text x="64" y="114" text-anchor="start" font-family="Fraunces, Georgia, serif" font-size="34" font-weight="700" letter-spacing="0" font-style="italic" fill="#1b1a17">Alternatieve kosten</text>
     <text x="64" y="146" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="0" font-style="" fill="#4a463d">De waarde van het beste alternatief dat je niet kiest.</text>
   

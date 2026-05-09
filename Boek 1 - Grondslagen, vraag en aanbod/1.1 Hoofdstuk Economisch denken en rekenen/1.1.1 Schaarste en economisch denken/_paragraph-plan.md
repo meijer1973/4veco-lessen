@@ -12,7 +12,7 @@ Pedagogical type: **intro** — narrative-first (named characters: Lisa met €2
 |---|---------|------------------------|---------|-------------------|
 | 1 | Schaarste | Behoeften zijn groter dan de beschikbare middelen, waardoor keuzes onvermijdelijk zijn. | — | F. Infographic/flowchart (behoeften vs middelen) |
 | 2 | Alternatieve kosten | De opbrengst van het beste niet-gekozen alternatief bij een keuze. | `alt.kosten = opbrengst beste niet-gekozen alternatief` | H. Custom — keuzediagram (twee alternatieven naast elkaar) |
-| 3 | Economisch denken (3-stappen procedure) | Systematisch alternatieven vergelijken: (1) welke opties? (2) wat levert elk op? (3) wat geef je op? | — | F. Flowchart (drie stappen) |
+| 3 | Economisch denken (4-stappen procedure B02) | Systematisch alternatieven vergelijken: (1) benoem alternatieven; (2) bereken opbrengst per alternatief; (3) rangschik — beste niet-gekozen = alternatieve kosten; (4) bereken nettowaarde = opbrengst − alternatieve kosten. | — | F. Flowchart (vier stappen) |
 | 4 | Totale opbrengst bij inzet van een schaars middel | Opbrengst = eenheden schaars middel × opbrengst per eenheid. | `TO = q × o` | G. Bar chart (vergelijking alternatieven) |
 
 Unit alignment: concepts 1 en 2 komen rechtstreeks uit het unit-register (B01, B02). Concept 3 is een verbale uitwerking van de procedure van B02. Concept 4 is rekentechnisch een deelvaardigheid zonder eigen unit (het is simpele vermenigvuldiging, geen A-vaardigheid).
@@ -27,7 +27,7 @@ Alle vijf onderstaande visuals bestaan als Part A-bronmateriaal in `_assets/` al
 |---|---|---|---|---|
 | `1.1.1_fig_1` | F. Infographic | presentatie (schaarste-slide), voorkennis (concept intro), samenvatting | Behoeften-trechter (onbegrensd) → schaarste-filter → keuze | — |
 | `1.1.1_fig_2` | H. Keuzediagram | presentatie (alt.kosten-slide), vaardigheden (skill 1), samenvatting | Twee alternatieven naast elkaar met opbrengst; pijl wijst het niet-gekozen alternatief aan als "alternatieve kosten" | — |
-| `1.1.1_fig_3` | F. Flowchart | presentatie (economisch-denken-slide), vaardigheden (skill 2 procedure), stappenplan-game | 3-stappenflow: Alternatieven? → Opbrengsten? → Wat geef je op? | — |
+| `1.1.1_fig_3` | F. Flowchart | presentatie (economisch-denken-slide), vaardigheden (skill 2 procedure), stappenplan-game | 4-stappenflow B02: Alternatieven → Opbrengsten → Rangschik (alt. kosten) → Nettowaarde | — |
 | `1.1.1_we_1` | H. Custom | presentatie (worked example), vaardigheden (skill 2 worked example), begeleide inoefening (scaffold) | Tarwe vs maïs op 10 ha, winst per ha en totaal, met alt.kosten-annotatie | Tarwe €500/ha · Maïs €350/ha · 10 ha |
 | `1.1.1_ex_1` | G. Bar chart | begeleide inoefening (scaffold voor opgave 1), opgavensets (basis) | Winst/ha voor 3 gewassen: tarwe, maïs, zonnebloemen | Tarwe €500 · Maïs €350 · Zonnebloemen €300 |
 
@@ -66,7 +66,7 @@ Theorie + uitgewerkt voorbeeld. Geen opgaveninstructies (B9 hard rule). Narrativ
 2. **Narrative hook**: Lisa heeft €20, wil bioscoop (€12) én boek (€15) → beide kan niet. *Geen visual.*
 3. **Concept: Schaarste** — definitie + tabel (scholier/boer/overheid) + figuur `1.1.1_fig_1_slide.png`. Pitfall callout: "schaarste ≠ weinig".
 4. **Concept: Alternatieve kosten** — definitie + Lisa-voorbeeld uitgewerkt + figuur `1.1.1_fig_2_slide.png`. Pitfall callout: "alternatieve kosten ≠ prijs".
-5. **Concept: Economisch denken** — 3-stappen procedure + figuur `1.1.1_fig_3_slide.png`.
+5. **Concept: Economisch denken** — 4-stappen procedure (B02) + figuur `1.1.1_fig_3_slide.png`.
 6. **Uitgewerkt voorbeeld — tarwe vs maïs**: procedure stap-voor-stap toegepast + figuur `1.1.1_we_1_slide.png`.
 7. **Samenvatting** (theorie-slide): bullets met de vijf kernpunten uit de samenvatting.
 8. **Afsluiting**: terugkoppeling naar Lisa — "in de volgende paragraaf: hoe meten we verschillen in geld?".
@@ -100,7 +100,7 @@ Infographic-table-based samenvatting — één A4 met domain-gekleurde cellen (t
 - [x] Definitie alternatieve kosten
 - [x] Alternatieve kosten ≠ prijs (pitfall)
 - [x] Alternatieve kosten = beste niet-gekozen alternatief (niet de som)
-- [x] Procedure economisch denken (3 stappen)
+- [x] Procedure economisch denken (4 stappen, B02)
 - [x] Mini-worked-example: tarwe vs maïs
 - [x] Canonical term: "alternatieve kosten" (niet "opportunity costs" of "opportuniteitskosten")
 
@@ -109,7 +109,7 @@ Cell layout (table-based, B9 hard rule):
 | Rij 1 | Wat is schaarste? (def + fig_1-thumbnail) | Schaarste-voorbeelden (scholier/boer/overheid) |
 |---|---|---|
 | Rij 2 | Alternatieve kosten (def + fig_2-thumbnail) | Pitfalls (niet ≠ prijs; niet optellen) |
-| Rij 3 | Economisch denken 3-stappen (fig_3-thumbnail) | Mini-worked-example tarwe/maïs |
+| Rij 3 | Economisch denken 4 stappen B02 (fig_3-thumbnail) | Mini-worked-example tarwe/maïs |
 
 ---
 
@@ -136,7 +136,7 @@ Opgavensets basis / midden / verrijking — in aanvulling op de bestaande Part A
 | Level | Count | Topics | Question type |
 |---|---|---|---|
 | **Basis** (8) | 8 | Schaarste herkennen (ja/nee + uitleg), canonical termen matchen, eenvoudige alt.kosten-berekening bij 2 alternatieven | multiple choice (3), ja/nee + uitleg (3), korte rekenopgave (2) |
-| **Midden** (6) | 6 | Alt.kosten met 3+ alternatieven, winst op schaarse middelen (ha × €/ha), 3-stappen-procedure zelfstandig toepassen in nieuwe context | rekenopgaven met stappen + uitleg |
+| **Midden** (6) | 6 | Alt.kosten met 3+ alternatieven, winst op schaarse middelen (ha × €/ha), 4-stappen-procedure (B02) zelfstandig toepassen in nieuwe context | rekenopgaven met stappen + uitleg |
 | **Verrijking** (4) | 4 | Gemengde allocatie (zoals de buurvrouw in opgave 4), gratis-is-niet-gratis redenering, schaarste-claim kritisch beoordelen, overheidskeuze met alternatieve kosten | open redeneeropgaven + case |
 
 Elke opgave kent bij antwoorden naar de **canonical term** uit Terminology. Basis is multiple-choice-zwaar (vlot oefenen); verrijking is open (analyse/evaluatie).
@@ -171,7 +171,7 @@ Snapshot ter documentatie (NIET authoritative):
 | B01 | Schaarste als kerneconomisch probleem | — (conceptueel, geen procedure; gebruik `kern` + `pitfalls`) |
 | B02 | Alternatieve kosten in een keuze-situatie | 4 stappen: (1) benoem alternatieven voor het schaarse middel; (2) bereken opbrengst per alternatief; (3) rangschik — hoogste niet-gekozen opbrengst = alternatieve kosten; (4) vergelijk opbrengst gekozen alternatief met alternatieve kosten voor nettowaarde. |
 
-De 3-stappen-procedure die in de textbook-paragraaf zelf staat ("welke alternatieven / wat levert elk op / wat geef je op") is een didactische vereenvoudiging van B02's 4 stappen voor intro-niveau. **Vaardigheden.docx en stappenplan-game gebruiken de volledige B02-procedure (4 stappen)**; de presentatie en de samenvatting mogen de 3-stappen-didactische variant gebruiken zolang stap 2+3 van de didactiek samen met B02's stap 3 overeenkomen. Beide versies moeten expliciet benoemen dat het **beste** niet-gekozen alternatief telt, niet de som.
+**Update L1.5V (2026-05-09):** alle §1.1.1 surfaces gebruiken nu de canonical 4-stappen B02-procedure verbatim — geen didactische 3-stappen variant meer. Vaardigheden, stappenplan-game, presentatie slide 5, samenvatting cel rij 3, begeleide inoefening en opgaven zijn allemaal op 4 stappen gemigreerd. Het visual `1.1.1_fig_3` (alle 5 surface-variants) toont de 4 stappen verbatim. De vroegere 3-stappen-didactische tekst is gerd; reden: surface-onderlinge inconsistentie creëerde een hard-fail risk in de companion review (HF-2 procedure-fidelity).
 
 ---
 
