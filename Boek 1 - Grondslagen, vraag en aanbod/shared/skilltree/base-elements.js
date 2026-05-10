@@ -1741,271 +1741,267 @@
                     "layer": 2,
                     "needs": [],
                     "desc": "Teken de individuele vraagcurve van één consument als een stapfunctie: voor elke eenheid een horizontale stap op de hoogte van de betalingsbereidheid voor die eenheid."
-            },
+            }
+    ];
+    var GENERATOR_BLOCKED_SKILLS = [
             {
                     "id": "A45",
                     "name": "P-Q grafiek tekenen uit tabel",
-                    "layer": 0,
-                    "needs": [],
-                    "desc": "Teken een prijs-hoeveelheidsgrafiek uit tabelwaarden met prijs op de verticale as en hoeveelheid op de horizontale as."
+                    "generator": "GEN_A45",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A46",
                     "name": "Waarden aflezen en interpoleren in P-Q grafiek",
-                    "layer": 1,
-                    "needs": [
-                            "A45"
-                    ],
-                    "desc": "Lees prijs- en hoeveelheidswaarden af uit een P-Q grafiek en schat tussenliggende waarden door interpolatie."
+                    "generator": "GEN_A46",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A47",
                     "name": "Collectieve vraag uit tabellen optellen",
-                    "layer": 2,
-                    "needs": [
-                            "A46"
-                    ],
-                    "desc": "Bereken collectieve vraag door individuele gevraagde hoeveelheden bij dezelfde prijs op te tellen."
+                    "generator": "GEN_A47",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A48",
                     "name": "Collectieve vraagfunctie algebraisch optellen",
-                    "layer": 3,
-                    "needs": [
-                            "A03",
-                            "A47"
-                    ],
-                    "desc": "Tel lineaire individuele vraagfuncties horizontaal op door bij dezelfde prijs de gevraagde hoeveelheden te sommeren."
+                    "generator": "GEN_A48",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A49",
                     "name": "Aanbodcurve tekenen met economenassen",
-                    "layer": 1,
-                    "needs": [
-                            "A45"
-                    ],
-                    "desc": "Teken een stijgende aanbodcurve met prijs op de verticale as en aangeboden hoeveelheid op de horizontale as."
+                    "generator": "GEN_A49",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A50",
                     "name": "GVK en GCK berekenen",
-                    "layer": 2,
-                    "needs": [
-                            "A08"
-                    ],
-                    "desc": "Bereken gemiddelde variabele kosten en gemiddelde constante kosten uit totale kosten en productiehoeveelheid."
+                    "generator": "GEN_A50",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A51",
                     "name": "Overschot en tekort bij niet-evenwichtsprijs berekenen",
-                    "layer": 2,
-                    "needs": [
-                            "A06"
-                    ],
-                    "desc": "Bepaal bij een opgelegde prijs of er een overschot of tekort ontstaat en bereken de omvang als verschil tussen Qa en Qv."
+                    "generator": "GEN_A51",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A52",
                     "name": "MK en MO uit tabelverschillen berekenen",
-                    "layer": 2,
-                    "needs": [
-                            "A08"
-                    ],
-                    "desc": "Bereken marginale kosten en marginale opbrengsten uit opeenvolgende verschillen in een tabel."
+                    "generator": "GEN_A52",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A53",
                     "name": "MK benaderen uit kwadratische TK-functie",
-                    "layer": 3,
-                    "needs": [
-                            "A52"
-                    ],
-                    "desc": "Gebruik de precalculus-regel dat bij TK = a + bQ² de marginale kosten ongeveer gelijk zijn aan 2bQ."
+                    "generator": "GEN_A53",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A54",
                     "name": "Winstoptimum controleren met Q-1, Q en Q+1",
-                    "layer": 3,
-                    "needs": [
-                            "A52"
-                    ],
-                    "desc": "Controleer een voorgesteld winstoptimum door totale winst bij de naburige hoeveelheden Q-1 en Q+1 te vergelijken."
+                    "generator": "GEN_A54",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A55",
                     "name": "Gevraagde hoeveelheid voorspellen met elasticiteit",
-                    "layer": 2,
-                    "needs": [
-                            "A15",
-                            "A38"
-                    ],
-                    "desc": "Bereken de procentuele verandering van de gevraagde hoeveelheid met prijselasticiteit en zet die om naar een nieuwe hoeveelheid."
+                    "generator": "GEN_A55",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A56",
                     "name": "Korte zijde bepalen bij bindende prijs",
-                    "layer": 3,
-                    "needs": [
-                            "A51"
-                    ],
-                    "desc": "Bepaal bij een bindende minimum- of maximumprijs welke marktzijde de verhandelde hoeveelheid beperkt."
+                    "generator": "GEN_A56",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A57",
                     "name": "Afwentelingspercentage berekenen",
-                    "layer": 3,
-                    "needs": [
-                            "A38"
-                    ],
-                    "desc": "Bereken welk percentage van een heffing of kostenstijging wordt doorberekend in de prijs."
+                    "generator": "GEN_A57",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A58",
                     "name": "Subsidie-uitgaven berekenen",
-                    "layer": 1,
-                    "needs": [
-                            "A04"
-                    ],
-                    "desc": "Bereken totale subsidie-uitgaven als subsidie per eenheid maal de nieuwe verhandelde hoeveelheid."
+                    "generator": "GEN_A58",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A59",
                     "name": "Opkoopkosten bij minimumprijs berekenen",
-                    "layer": 4,
-                    "needs": [
-                            "A51",
-                            "A56"
-                    ],
-                    "desc": "Bereken wat de overheid betaalt als zij het overschot bij een minimumprijs opkoopt."
+                    "generator": "GEN_A59",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A60",
                     "name": "Vraagfunctie inverteren bij quotumhoeveelheid",
-                    "layer": 1,
-                    "needs": [
-                            "A03"
-                    ],
-                    "desc": "Bereken welke prijs hoort bij een gegeven quotumhoeveelheid door de vraagfunctie om te schrijven."
+                    "generator": "GEN_A60",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A61",
                     "name": "Tabelwaarden selecteren voor berekening",
-                    "layer": 0,
-                    "needs": [],
-                    "desc": "Selecteer in een economische tabel de waarden die nodig zijn voor een berekening: juiste rij, kolom, periode en oude/nieuwe waarde."
+                    "generator": "GEN_A61",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A62",
                     "name": "Waarden aflezen uit staafdiagram",
-                    "layer": 0,
-                    "needs": [],
-                    "desc": "Lees een waarde af uit een staafdiagram door context, labels, eenheid en schaal te controleren voordat je de staafhoogte gebruikt."
+                    "generator": "GEN_A62",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A63",
                     "name": "Waarden aflezen uit lijngrafiek",
-                    "layer": 0,
-                    "needs": [],
-                    "desc": "Lees een punt of periode af uit een lijngrafiek door context, aslabels, eenheden, schaal en eventuele interpolatie expliciet te controleren."
+                    "generator": "GEN_A63",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A64",
                     "name": "Aandelen aflezen uit cirkeldiagram",
-                    "layer": 0,
-                    "needs": [],
-                    "desc": "Lees een aandeel uit een cirkeldiagram door context, categorie, legenda, totaal en de betekenis van procenten of delen te controleren."
+                    "generator": "GEN_A64",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A65",
                     "name": "Absolute hoeveelheid berekenen uit aandeel en totaal",
-                    "layer": 1,
-                    "needs": [
-                            "A64",
-                            "A04"
-                    ],
-                    "desc": "Bereken een absolute hoeveelheid door een aandeel uit een bron te vermenigvuldigen met het totale aantal, bedrag of volume."
+                    "generator": "GEN_A65",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A66",
                     "name": "Basiswaarde en vergelijkingswaarde in bron bepalen",
-                    "layer": 1,
-                    "needs": [
-                            "A61"
-                    ],
-                    "desc": "Bepaal in een bron welke waarde de basiswaarde is en welke waarde de vergelijkingswaarde is voordat je een procentuele verandering berekent."
+                    "generator": "GEN_A66",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A67",
                     "name": "Procentuele verandering berekenen vanuit tabel",
-                    "layer": 2,
-                    "needs": [
-                            "A38",
-                            "A61",
-                            "A66"
-                    ],
-                    "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een tabel hebt geselecteerd."
+                    "generator": "GEN_A67",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A68",
                     "name": "Procentuele verandering berekenen vanuit staafdiagram",
-                    "layer": 2,
-                    "needs": [
-                            "A38",
-                            "A62",
-                            "A66"
-                    ],
-                    "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een staafdiagram hebt afgelezen met de juiste basiswaarde."
+                    "generator": "GEN_A68",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A69",
                     "name": "Procentuele verandering berekenen vanuit lijngrafiek",
-                    "layer": 2,
-                    "needs": [
-                            "A38",
-                            "A63",
-                            "A66"
-                    ],
-                    "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een lijngrafiek of tijdreeks hebt afgelezen."
+                    "generator": "GEN_A69",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A70",
                     "name": "Percentagepuntverandering in aandeel herkennen",
-                    "layer": 1,
-                    "needs": [
-                            "A38"
-                    ],
-                    "desc": "Herken een verandering in procentpunten tussen twee percentagewaarden en onderscheid die van een procentuele verandering."
+                    "generator": "GEN_A70",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A72",
                     "name": "Indexcijfer berekenen vanuit tabel",
-                    "layer": 2,
-                    "needs": [
-                            "A39",
-                            "A61"
-                    ],
-                    "desc": "Bereken een indexcijfer vanuit tabelwaarden door het doeljaar te delen door het basisjaar en te vermenigvuldigen met 100."
+                    "generator": "GEN_A72",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A73",
                     "name": "Indexverandering aflezen uit lijngrafiek",
-                    "layer": 2,
-                    "needs": [
-                            "A39",
-                            "A63"
-                    ],
-                    "desc": "Lees indexcijfers uit een lijngrafiek af en onderscheid een verandering in indexpunten van een procentuele verandering."
+                    "generator": "GEN_A73",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             },
             {
                     "id": "A74",
                     "name": "Procentuele verandering berekenen vanuit indexcijfers",
-                    "layer": 2,
-                    "needs": [
-                            "A38",
-                            "A39",
-                            "A66"
-                    ],
-                    "desc": "Bereken een procentuele verandering tussen twee indexcijfers door de verandering te delen door het oude indexcijfer."
+                    "generator": "GEN_A74",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A75",
+                    "name": "Totale winst berekenen uit opbrengsten- en kostentabel",
+                    "generator": "GEN_A75",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A76",
+                    "name": "Totale winst berekenen uit P, GTK en Q",
+                    "generator": "GEN_A76",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A77",
+                    "name": "Break-even aflezen uit TO-TK-grafiek",
+                    "generator": "GEN_A77",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A78",
+                    "name": "Winst of verlies aflezen uit TO-TK-grafiek",
+                    "generator": "GEN_A78",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A79",
+                    "name": "Maximale winst bepalen uit TO-TK-tabel",
+                    "generator": "GEN_A79",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A82",
+                    "name": "Elasticiteit berekenen uit tabelwaarden",
+                    "generator": "GEN_A82",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A83",
+                    "name": "Prijselasticiteit van de vraag berekenen uit P-Q-grafiek",
+                    "generator": "GEN_A83",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A84",
+                    "name": "Omzetverandering beoordelen met elasticiteit uit bron",
+                    "generator": "GEN_A84",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             }
     ];
 
@@ -2021,6 +2017,7 @@
 
     return {
         SKILLS: SKILLS,
+        GENERATOR_BLOCKED_SKILLS: GENERATOR_BLOCKED_SKILLS,
         LAYER_NAMES: LAYER_NAMES,
         LAYER_COLORS: LAYER_COLORS,
         GEN: GEN,
