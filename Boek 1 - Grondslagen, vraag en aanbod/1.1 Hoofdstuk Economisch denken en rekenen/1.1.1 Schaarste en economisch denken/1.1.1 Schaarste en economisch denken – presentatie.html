@@ -21,15 +21,15 @@ if(m==="dark"){document.documentElement.setAttribute("data-theme","dark");}
       <h2>1.1.1 Schaarste en economisch denken</h2>
       <p>Presentatie</p>
     </div>
-        <a class="nav-item" href="#slide-1"><span class="nav-num">01</span><span class="nav-title">Schaarste en</span></a>
-        <a class="nav-item" href="#slide-2"><span class="nav-num">02</span><span class="nav-title">€12</span></a>
-        <a class="nav-item" href="#slide-3"><span class="nav-num">03</span><span class="nav-title">Schaarste</span></a>
-        <a class="nav-item" href="#slide-4"><span class="nav-num">04</span><span class="nav-title">Alternatieve kosten</span></a>
-        <a class="nav-item" href="#slide-5"><span class="nav-num">05</span><span class="nav-title">Economisch denken in vier stapp…</span></a>
-        <a class="nav-item" href="#slide-6"><span class="nav-num">06</span><span class="nav-title">Wat levert elk gewas op?</span></a>
-        <a class="nav-item" href="#slide-7"><span class="nav-num">07</span><span class="nav-title">€3.500</span></a>
-        <a class="nav-item" href="#slide-8"><span class="nav-num">08</span><span class="nav-title">Vijf dingen om te onthouden</span></a>
-        <a class="nav-item" href="#slide-9"><span class="nav-num">09</span><span class="nav-title">Terug naar Lisa.</span></a>
+        <a class="nav-item" href="#slide-1" data-slide-link="1"><span class="nav-num">01</span><span class="nav-title">Schaarste en</span></a>
+        <a class="nav-item" href="#slide-2" data-slide-link="2"><span class="nav-num">02</span><span class="nav-title">€12</span></a>
+        <a class="nav-item" href="#slide-3" data-slide-link="3"><span class="nav-num">03</span><span class="nav-title">Schaarste</span></a>
+        <a class="nav-item" href="#slide-4" data-slide-link="4"><span class="nav-num">04</span><span class="nav-title">Alternatieve kosten</span></a>
+        <a class="nav-item" href="#slide-5" data-slide-link="5"><span class="nav-num">05</span><span class="nav-title">Economisch denken in vier stapp…</span></a>
+        <a class="nav-item" href="#slide-6" data-slide-link="6"><span class="nav-num">06</span><span class="nav-title">Wat levert elk gewas op?</span></a>
+        <a class="nav-item" href="#slide-7" data-slide-link="7"><span class="nav-num">07</span><span class="nav-title">€3.500</span></a>
+        <a class="nav-item" href="#slide-8" data-slide-link="8"><span class="nav-num">08</span><span class="nav-title">Vijf dingen om te onthouden</span></a>
+        <a class="nav-item" href="#slide-9" data-slide-link="9"><span class="nav-num">09</span><span class="nav-title">Terug naar Lisa.</span></a>
   </nav>
   <div class="content">
   <header class="hero">
@@ -44,7 +44,13 @@ if(m==="dark"){document.documentElement.setAttribute("data-theme","dark");}
     </div>
   </header>
     <main class="presentatie-grid">
-      <section class="slide slide--dark" id="slide-1" data-slide="1">
+    <div class="slide-controls" role="navigation" aria-label="Dia-navigatie">
+      <button type="button" class="slide-prev" aria-label="Vorige dia" data-slide-prev>&larr; Vorige</button>
+      <span class="slide-counter"><span data-slide-current>1</span> / <span class="slide-total">9</span></span>
+      <button type="button" class="slide-next" aria-label="Volgende dia" data-slide-next>Volgende &rarr;</button>
+    </div>
+      <div class="presentatie-deck" data-slide-deck>
+      <section class="slide slide--dark" id="slide-1" data-slide="1" hidden>
     <h2 class="slide-title">Schaarste en
 economisch denken</h2>
     <div class="slide-body">
@@ -66,7 +72,7 @@ economisch denken</h2>
       </dl>
     </details>
       </section>
-      <section class="slide slide--light" id="slide-2" data-slide="2">
+      <section class="slide slide--light" id="slide-2" data-slide="2" hidden>
     <p class="slide-kicker">NARRATIEF VERHAAL</p>
     <h2 class="slide-title">Lisa heeft €20</h2>
     <div class="slide-body">
@@ -95,7 +101,7 @@ economisch denken</h2>
       </dl>
     </details>
       </section>
-      <section class="slide slide--light" id="slide-3" data-slide="3">
+      <section class="slide slide--light" id="slide-3" data-slide="3" hidden>
     <p class="slide-kicker">KERNBEGRIP 1</p>
     <h2 class="slide-title">Schaarste</h2>
     <div class="slide-body">
@@ -116,7 +122,7 @@ economisch denken</h2>
       </dl>
     </details>
       </section>
-      <section class="slide slide--light" id="slide-4" data-slide="4">
+      <section class="slide slide--light" id="slide-4" data-slide="4" hidden>
     <p class="slide-kicker">KERNBEGRIP 2</p>
     <h2 class="slide-title">Alternatieve kosten</h2>
     <div class="slide-body">
@@ -137,7 +143,7 @@ economisch denken</h2>
       </dl>
     </details>
       </section>
-      <section class="slide slide--light" id="slide-5" data-slide="5">
+      <section class="slide slide--light" id="slide-5" data-slide="5" hidden>
     <p class="slide-kicker">KERNBEGRIP 3</p>
     <h2 class="slide-title">Economisch denken in vier stappen</h2>
     <div class="slide-cards">
@@ -188,7 +194,7 @@ economisch denken</h2>
       </dl>
     </details>
       </section>
-      <section class="slide slide--light" id="slide-6" data-slide="6">
+      <section class="slide slide--light" id="slide-6" data-slide="6" hidden>
     <p class="slide-kicker">UITGEWERKT VOORBEELD · STAP 2</p>
     <h2 class="slide-title">Wat levert elk gewas op?</h2>
     <table class="slide-pseudotable">
@@ -215,7 +221,7 @@ economisch denken</h2>
       </dl>
     </details>
       </section>
-      <section class="slide slide--light" id="slide-7" data-slide="7">
+      <section class="slide slide--light" id="slide-7" data-slide="7" hidden>
     <p class="slide-kicker">UITGEWERKT VOORBEELD · STAP 3</p>
     <h2 class="slide-title">Wat geeft hij op?</h2>
     <div class="slide-body">
@@ -238,7 +244,7 @@ economisch denken</h2>
       </dl>
     </details>
       </section>
-      <section class="slide slide--dark" id="slide-8" data-slide="8">
+      <section class="slide slide--dark" id="slide-8" data-slide="8" hidden>
     <h2 class="slide-title">Vijf dingen om te onthouden</h2>
     <div class="slide-cards">
       <div class="slide-card">
@@ -289,7 +295,7 @@ economisch denken</h2>
       </dl>
     </details>
       </section>
-      <section class="slide slide--dark" id="slide-9" data-slide="9">
+      <section class="slide slide--dark" id="slide-9" data-slide="9" hidden>
     <h2 class="slide-title">Terug naar Lisa.</h2>
     <div class="slide-body">
       <p class="slide-text">TOT SLOT</p>
@@ -311,9 +317,84 @@ economisch denken</h2>
       </dl>
     </details>
       </section>
+      </div>
+    <div class="slide-controls" role="navigation" aria-label="Dia-navigatie">
+      <button type="button" class="slide-prev" aria-label="Vorige dia" data-slide-prev>&larr; Vorige</button>
+      <span class="slide-counter"><span data-slide-current>1</span> / <span class="slide-total">9</span></span>
+      <button type="button" class="slide-next" aria-label="Volgende dia" data-slide-next>Volgende &rarr;</button>
+    </div>
     </main>
   </div>
 </div>
 <script src="../../shared/voorkennis.js"></script>
+<script>
+(function(){
+  var deck = document.querySelector('[data-slide-deck]');
+  if (!deck) return;
+  var slides = Array.prototype.slice.call(deck.querySelectorAll('.slide'));
+  if (!slides.length) return;
+  var sidebarLinks = document.querySelectorAll('[data-slide-link]');
+  var counters = document.querySelectorAll('[data-slide-current]');
+  var prevButtons = document.querySelectorAll('[data-slide-prev]');
+  var nextButtons = document.querySelectorAll('[data-slide-next]');
+  var current = 0;
+
+  function show(idx){
+    if (idx < 0) idx = 0;
+    if (idx >= slides.length) idx = slides.length - 1;
+    slides.forEach(function(s, i){
+      if (i === idx) { s.hidden = false; s.classList.add('is-active'); }
+      else { s.hidden = true; s.classList.remove('is-active'); }
+    });
+    sidebarLinks.forEach(function(a){
+      var n = parseInt(a.getAttribute('data-slide-link'), 10);
+      if (n === idx + 1) a.classList.add('is-active');
+      else a.classList.remove('is-active');
+    });
+    counters.forEach(function(el){ el.textContent = String(idx + 1); });
+    prevButtons.forEach(function(b){ b.disabled = (idx === 0); });
+    nextButtons.forEach(function(b){ b.disabled = (idx === slides.length - 1); });
+    current = idx;
+    var slideId = slides[idx].id;
+    if (slideId && history.replaceState) {
+      history.replaceState(null, '', '#' + slideId);
+    }
+  }
+
+  function fromHash(){
+    var m = (location.hash || '').match(/^#slide-(\d+)$/);
+    if (m) {
+      var n = parseInt(m[1], 10) - 1;
+      if (n >= 0 && n < slides.length) return n;
+    }
+    return 0;
+  }
+
+  prevButtons.forEach(function(b){ b.addEventListener('click', function(){ show(current - 1); }); });
+  nextButtons.forEach(function(b){ b.addEventListener('click', function(){ show(current + 1); }); });
+
+  sidebarLinks.forEach(function(a){
+    a.addEventListener('click', function(e){
+      var n = parseInt(a.getAttribute('data-slide-link'), 10);
+      if (!isNaN(n)) {
+        e.preventDefault();
+        show(n - 1);
+      }
+    });
+  });
+
+  document.addEventListener('keydown', function(e){
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+    if (e.key === 'ArrowRight' || e.key === 'PageDown') { e.preventDefault(); show(current + 1); }
+    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); show(current - 1); }
+    else if (e.key === 'Home') { e.preventDefault(); show(0); }
+    else if (e.key === 'End') { e.preventDefault(); show(slides.length - 1); }
+  });
+
+  window.addEventListener('hashchange', function(){ show(fromHash()); });
+
+  show(fromHash());
+})();
+</script>
 </body>
 </html>
