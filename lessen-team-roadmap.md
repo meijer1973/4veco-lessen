@@ -7,6 +7,7 @@ Closed sprints are recorded separately in the "Closed Sprints" section below.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
+| L1.5P | Boek 1 Print-Edition Cut for Publisher | no | **URGENT** — publisher hand-off in a few weeks (as of 2026-05-11; owner to fill in exact date). Trim Boek 1 to print page budget; first candidate to remove from print is `1.5 Hoofdstuk Toetsvoorbereiding` (move to website-only). Other long stretches and full answer keys reviewed for print/web split. Runs in parallel with the companion-quality stream; does not block L1.4. |
 | L1.5V | Companion Quality Polish + Pilot Lock-in for 1.1.1 | **2026-05-09** | **CLOSED 2026-05-09**. 17 platform commits on `content/1.1.1-companion-quality` + 2 lessen commits on `main`. All 4 hard fails + QA-1 from the original `1.1.1-companion-visual-review.md` resolved; verification sub-agent verdict **PASS WITH FLAGS** (3 non-blocking flags: visual-internal `alt. kosten` shorthand documented as scope decision, Team B reference HTMLs untracked-by-design, optional CSS polish on vaardigheden checklist trailer). Buckets A+B+C+D+E+F all closed. Validator `--mode complete` flips green: `OK Paragraph 1.1.1 PASSED all checks`. Jest 441/0/7 (69 new regression tests vs baseline). Pilot lock-in delivered: `BUILD-PARAGRAPH.md` carries Common pre-conditions section + clean Part A / Part B split, every skill in `skills/` has a `pipeline:` frontmatter label, `validate-paragraph.js` has F2 fixes (split Part A / Part B review gates, structured verdict parser, schema_version 2 awareness), `1.1.1-quality-ref.yaml` migrated to schema_version 2 with `partA:` + `companion:` blocks. L1.4 unblocked. |
 | L1.5D | Authored Content As Web | no | **D1 SHIPPED + MERGED 2026-05-09** (PR #3 https://github.com/meijer1973/4veco-platform/pull/3 merged to platform main; lessen-side `0332911` live). **D2 PAUSED** — resumes after L1.5V. D1 = DOCX-as-web (samenvatting + nieuws converters, polish CSS, landing-page sub-links, deploy.js wire, converter ERROR-vs-OK contract fix from review); D2 = PPTX-as-web with speaker notes + `.pptx` download (TTS readout as stretch). Light/dark variants throughout; where PV-backed visual states exist, semantic visual anchors must survive across docx/html/pptx surfaces. |
 | L1.4 | First Pipeline Regression Paragraph | no | **L1.5V Bucket F CLOSED 2026-05-09 — pilot lock-in delivered, L1.4 unblocked.** Still after L1.5D D2 (which itself resumes after L1.5V close, now satisfied). Paused 2026-04-30 (was active since 2026-04-25). Building `1.1.2 Percentages en indexcijfers` runs against the cleaned-up Part A / Part B QC pipeline established by §1.1.1's pilot lock-in (BUILD-PARAGRAPH.md restructured, validator modes split + schema_version 2 quality-ref). Triple regression purpose stays: layout + games (on reworked unit-register `c21ee14`) + DOCX/PPTX-as-web on fresh content. May test PV formula/table templates only if PV.2/PV.3 are ready; must not wait for full PV completion. |
@@ -40,6 +41,7 @@ Updated: 2026-04-30 — sprint sequence restructured. L1.4 paused to ship layout
 Updated: 2026-05-01 — added the PV Consumption Rule after leadership approved the Procedure-Visual Backbone. The lesson repo remains a generated target and consumer: L1.5G aligns the graphical game with platform/reference PV records, L1.6 proves one PV-backed or PV-validated procedure/visual sequence on a fresh paragraph, and L1.7 includes PV readiness before scaling.
 Updated: 2026-05-01 — Sprint Ledger reorganized: active sprint sits at the top, future sprints follow, and closed sprints moved to a separate "Closed Sprints" archive. L1.5A closed (lessen `2a8455b` shipped, platform PR #2 open at close); L1.5D promoted to active sprint.
 Updated: 2026-05-09 — L1.5V (Vaardigheden Quality Polish for 1.1.1) inserted between L1.5D D1 and L1.5D D2. Triggered by a Team B reference draft that surfaced visual-text mismatches, scaffold gaps, and a canonical-procedure ambiguity in the existing `uitleg vaardigheden.html`. Canonical procedure decision recorded: B02 is 4-step (was 3-step in `_paragraph-plan.md`), driving registry update + propagation across vaardigheden, samenvatting, presentatie, stappenplan, BI, opgaven. L1.5D D1 shipped 2026-05-08; PR #3 awaiting merge before L1.5V branches off main. L1.5D D2 paused, resumes after L1.5V.
+Updated: 2026-05-11 — added Sprint L1.5P (Boek 1 Print-Edition Cut for Publisher) as a parallel urgent sprint; publisher hand-off in a few weeks. Added the "Adaptive learning replaces three-track differentiation" subsection to the architecture chapter to record that basis/middenopgaven/verrijking will be deprecated next school year (2026/27 cohort) in favor of a dynamic adaptive `begeleide inoefening`, with the repo-wide audit scoped explicitly out of this roadmap. Lesboek section added to the platform landing-page builder (`build-landing-page.js`): every paragraph index now shows the textbook source (`paragraaf` HTML + PDF, `opgaven`/`antwoorden` HTML + PDF) as a final row at the bottom — landed on §1.1.1's regenerated index.
 Updated: 2026-05-09 (later) — L1.5V scope EXPANDED to "Companion Quality Polish + Pilot Lock-in for 1.1.1" after (a) the `econ-companion-visual-review` agent ran on `uitleg voorkennis` and returned FAIL with four hard-fail defects + QA-1 (DOCX style collision), several of which are upstream platform issues shared with vaardigheden, and (b) the user direction that §1.1.1 is the pilot paragraph and L1.5V is the moment to set up the Part A / Part B build skill, quality test, and review-agent pipeline cleanly before L1.4 starts paragraph 2. New buckets E (Part A QC integration — fold in the previously deferred quality-record schema extension) and F (Part A / Part B QC pipeline separation pilot, gating L1.4) added. New platform skill `skills/econ-companion-artifacts.md` is the authoring spec; `agents/econ-companion-visual-review.md` is the closure gate. PR #3 merged; L1.5V branches off platform main as `content/1.1.1-companion-quality`. L1.4 row updated to mark Bucket F closure as a pre-condition. See full sprint detail below for the six-bucket item list and per-item workflow that pairs the skill with the review agent on every iteration.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
@@ -163,6 +165,34 @@ retrofitting all six games under pressure later.
 Out of scope for this roadmap: building the advisor, defining the payload
 schema beyond a placeholder, or shipping any adaptive behavior. Those are a
 later sprint cycle.
+
+### Adaptive learning replaces three-track differentiation (next-year cycle)
+
+The current three-track differentiation method — basisopgaven /
+middenopgaven / verrijkingsopgaven (three pre-authored static handouts at
+fixed difficulty) — will be deprecated next school year (2026/27 cohort).
+It is replaced by a dynamic, adaptive version of `begeleide inoefening`:
+same exercise companion surface, but items, hints, and difficulty are
+chosen at runtime against the same adaptive-payload seam that L1.5G
+builds for the games. One adaptive exercise surface, not three static
+handouts.
+
+This is a future sprint cycle, scheduled after L1.7. It is not built in
+this roadmap; the only thing this roadmap carries is the shared seam, so
+the dynamic `begeleide inoefening` can wire onto the same localStorage
+payload when the advisor lands.
+
+Repo-wide changeover note (for the future adaptive-learning sprint, not
+now): when the three-track method is dropped, every reference to it must
+be updated in one deliberate pass — the landing-page builder section
+"Opgaven" and its `HIDE_TASK_ROWS` flag, paragraph plans
+(`_paragraph-plan.md`) that name the three tracks, exercise builders
+(`b1-XYZ-opgaven.js` and the per-track DOCX builders), companion-skill
+and review-agent rules that assume the three-track scaffold, fixtures
+under `engines/tests/` and `references/`, and this roadmap's own mentions
+of basis / midden / verrijking. The changeover sprint must include a
+deliberate repo-wide audit so the deprecation does not leave half-renamed
+references behind.
 
 ## Sprint Details
 
@@ -1245,6 +1275,53 @@ Exit criteria:
 - PV-backed or PV-validated pilot sequences do not require manual duplication
   across lesson surfaces before scaling
 - the lesson team has a go/no-go decision for broader companion production
+
+### Sprint L1.5P: Boek 1 Print-Edition Cut for Publisher
+
+Completed: no.
+
+Position: in parallel with the companion-quality stream (L1.5x). Hard
+deadline: publisher hand-off in a few weeks (as of 2026-05-11; owner to
+fill in exact date).
+
+Purpose:
+
+Trim Boek 1 to fit the publisher's print-edition page budget before the
+hand-off date. The current Boek 1 build is too long for print. The
+print edition does not include companion artifacts, games, or
+interactive material — those stay on the website.
+
+Scope:
+
+- Identify which chapter(s) and paragraph(s) put Boek 1 over the page
+  budget. First candidate for cutting from print:
+  `1.5 Hoofdstuk Toetsvoorbereiding` (proeftoets, toetsmatrijs,
+  voorbereidingstaken) — moves to website-only. Other candidates to
+  review: optional extension content, verrijkingsopgaven in print, and
+  full answer keys (consider moving answer keys to website only).
+- For each cut item, record where the content survives online (companion
+  paragraph index, website-only PDF/HTML, or companion download).
+- Update the book assembly (`Boek 1 ... – boek.md`, chapter pages, book
+  index) so the printed flow reads cleanly without the cut material.
+- Keep the cut material reachable from the website index so a student or
+  teacher who wants test-preparation still has it.
+- Re-run `check:book` and chapter/paragraph validators after every cut
+  to confirm link/reference integrity.
+
+Out of scope:
+
+- Companion polish (continues in L1.5x).
+- Pipeline-regression paragraphs (L1.4, L1.6).
+- Changes to chapters that are not over the page budget.
+
+Exit criteria:
+
+- Boek 1 print PDF fits the publisher's page budget.
+- Every cut piece is reachable from the website index.
+- `check:book` and all paragraph validators still pass.
+- The print/web split is recorded so the website-only artifacts stay in
+  scope for the future Book 1 release polish (L2.1) and the
+  adaptive-learning cycle without re-discovery.
 
 ### Sprint L2.1: Book 1 Release Polish
 
