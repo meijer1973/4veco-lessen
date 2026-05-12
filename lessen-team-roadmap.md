@@ -7,6 +7,7 @@ Closed sprints are recorded separately in the "Closed Sprints" section below.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
+| L1.5O | Output Profile Simplification | **2026-05-12** | **CLOSED 2026-05-12 PASS**. Inserted before L1.4 to stop carrying Office documents through the default paragraph build. Platform validator now has explicit profiles: `student-web` (default; 14 web-first Part B files, no DOCX/PDF requirement), `legacy-full` (old 27-file contract), `office` (student-web plus DOCX exports), and `publisher-print` (the three textbook PDFs + `build_pdf.py`). `check-book.js` keeps Part A book health on `publisher-print`; paragraph 1.1.2 should use `--mode complete --profile student-web` unless Office exports are explicitly requested. Evidence: focused Jest 21/21 plus 1.1.1 validation green in `student-web`, `legacy-full`, and `publisher-print`. |
 | L1.5P | Boek 1 Print-Edition Cut for Publisher | no | **URGENT** — publisher hand-off in a few weeks (as of 2026-05-11; owner to fill in exact date). Trim Boek 1 to print page budget; first candidate to remove from print is `1.5 Hoofdstuk Toetsvoorbereiding` (move to website-only). Other long stretches and full answer keys reviewed for print/web split. Runs in parallel with the companion-quality stream; does not block L1.4. |
 | L1.5D | Authored Content As Web | **2026-05-11** | **CLOSED 2026-05-11 PASS WITH FLAGS**. D1 (DOCX-as-web for samenvatting + nieuws) and D2 (PPTX-as-web for presentatie) both shipped. v2 lead review returned FAIL with eight blockers (B1–B8); remediation cycle closed all eight: B1+B2 mobile responsive CSS at 390px (platform `362f0e2`), B7 detect_card_stack x-column filter (platform `6646bec`), B5+B6 validator gates D1 web outputs + BUILD-PARAGRAPH.md 24→27 contract (platform `b90b918`), B4 validate-chapter.js structured verdict parser (platform `e04d160`), B8 PPTX accessibility — 14pt floor across deck + speaker notes + AA contrast tokens (platform `830ebf4`). Selector-presence regression test added (`l1-5d-v2-mobile-fixes.test.js`). v3 lead review returned **PASS WITH FLAGS**: validators 27/27 + 26/26 + 454/0/7 jest + audit 0 sub-14pt + 0 contrast violations all green. Two non-blocking flags remain: long Dutch compound nouns on slide 1's dark-hero body line and nieuws cell-title still wrap with mid-word breaks at 390px (logged as platform follow-up, not reopening the sprint). |
 | L1.5V | Companion Quality Polish + Pilot Lock-in for 1.1.1 | **2026-05-09** | **CLOSED 2026-05-09**. 17 platform commits on `content/1.1.1-companion-quality` + 2 lessen commits on `main`. All 4 hard fails + QA-1 from the original `1.1.1-companion-visual-review.md` resolved; verification sub-agent verdict **PASS WITH FLAGS** (3 non-blocking flags: visual-internal `alt. kosten` shorthand documented as scope decision, Team B reference HTMLs untracked-by-design, optional CSS polish on vaardigheden checklist trailer). Buckets A+B+C+D+E+F all closed. Validator `--mode complete` flips green: `OK Paragraph 1.1.1 PASSED all checks`. Jest 441/0/7 (69 new regression tests vs baseline). Pilot lock-in delivered: `BUILD-PARAGRAPH.md` carries Common pre-conditions section + clean Part A / Part B split, every skill in `skills/` has a `pipeline:` frontmatter label, `validate-paragraph.js` has F2 fixes (split Part A / Part B review gates, structured verdict parser, schema_version 2 awareness), `1.1.1-quality-ref.yaml` migrated to schema_version 2 with `partA:` + `companion:` blocks. L1.4 unblocked. |
@@ -44,6 +45,7 @@ Updated: 2026-05-09 — L1.5V (Vaardigheden Quality Polish for 1.1.1) inserted b
 Updated: 2026-05-11 (later) — L1.5D **CLOSED PASS WITH FLAGS** after a v2-review remediation cycle. D1 (DOCX-as-web for samenvatting + nieuws) shipped earlier; D2 (PPTX-as-web for presentatie, slide-by-slide with prev/next/keyboard/sidebar) shipped this session. Then v2 lead-review returned FAIL with 8 blockers (mobile responsive overflow at 390px on all three D1+D2 web surfaces, caption absorbed into card subtitle, D1 web files ungated in validator, stale 24-file Part B doc, chapter validator using token-grep instead of structured verdict, PPTX accessibility 56 sub-18pt runs + 2.9:1 contrast). All 8 closed across platform commits 362f0e2 / 6646bec / b90b918 / e04d160 / 830ebf4 + regression test ae60dc6. v3 lead-review returned PASS WITH FLAGS — gates green (27/27 validator, 26/26 check:book, 454/0/7 jest, 0 sub-14pt audit, 0 contrast violations), two non-blocking flags on mid-word Dutch compound-noun wraps logged as platform follow-up. L1.4 (pipeline regression on §1.1.2) and L1.5B (Layout Round 2 generator items) are now both unblocked.
 Updated: 2026-05-11 — added Sprint L1.5P (Boek 1 Print-Edition Cut for Publisher) as a parallel urgent sprint; publisher hand-off in a few weeks. Added the "Adaptive learning replaces three-track differentiation" subsection to the architecture chapter to record that basis/middenopgaven/verrijking will be deprecated next school year (2026/27 cohort) in favor of a dynamic adaptive `begeleide inoefening`, with the repo-wide audit scoped explicitly out of this roadmap. Lesboek section added to the platform landing-page builder (`build-landing-page.js`): every paragraph index now shows the textbook source (`paragraaf` HTML + PDF, `opgaven`/`antwoorden` HTML + PDF) as a final row at the bottom — landed on §1.1.1's regenerated index.
 Updated: 2026-05-09 (later) — L1.5V scope EXPANDED to "Companion Quality Polish + Pilot Lock-in for 1.1.1" after (a) the `econ-companion-visual-review` agent ran on `uitleg voorkennis` and returned FAIL with four hard-fail defects + QA-1 (DOCX style collision), several of which are upstream platform issues shared with vaardigheden, and (b) the user direction that §1.1.1 is the pilot paragraph and L1.5V is the moment to set up the Part A / Part B build skill, quality test, and review-agent pipeline cleanly before L1.4 starts paragraph 2. New buckets E (Part A QC integration — fold in the previously deferred quality-record schema extension) and F (Part A / Part B QC pipeline separation pilot, gating L1.4) added. New platform skill `skills/econ-companion-artifacts.md` is the authoring spec; `agents/econ-companion-visual-review.md` is the closure gate. PR #3 merged; L1.5V branches off platform main as `content/1.1.1-companion-quality`. L1.4 row updated to mark Bucket F closure as a pre-condition. See full sprint detail below for the six-bucket item list and per-item workflow that pairs the skill with the review agent on every iteration.
+Updated: 2026-05-12 — Sprint L1.5O closed. Default paragraph validation is now web-first (`--profile student-web`), Office exports are opt-in (`--profile office` or `legacy-full`), and the three textbook PDFs move to the explicit publisher/print profile (`--profile publisher-print`). L1.4 should build `1.1.2 Percentages en indexcijfers` against the lighter student-web profile before any optional Office package is requested.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -519,6 +521,38 @@ Exit criteria:
 - Both phases land in platform-owned converters / builders / templates, not
   hand-edited into generated output.
 - `validate-paragraph.js --mode complete` for `1.1.1` continues to pass.
+
+### Sprint L1.5O: Output Profile Simplification
+
+Completed: yes, 2026-05-12.
+
+Purpose:
+
+- make paragraph 1.1.2 cheaper and lighter to build by stopping DOCX files from being default outputs;
+- keep the three textbook PDFs for a deliberate publisher/print pipeline;
+- keep old 1.1.1 / legacy-full validation available for regression checks.
+
+Delivered:
+
+- `validate-paragraph.js` supports `student-web`, `legacy-full`, `office`, and `publisher-print` profiles.
+- `student-web` is the direct validator default and requires the 14 web-first Part B files, not the old 27-file DOCX contract.
+- `office` / `legacy-full` explicitly require DOCX exports.
+- `publisher-print` explicitly requires `paragraaf.pdf`, `opgaven.pdf`, `antwoorden.pdf`, and `build_pdf.py`.
+- `check-book.js` keeps Part A book health on `publisher-print` by default.
+- `BUILD-PARAGRAPH.md`, `build-scripts/README.md`, and this roadmap record the split.
+
+Evidence:
+
+- Focused Jest: 21/21 tests passed.
+- `1.1.1` passed `--mode complete --profile student-web`.
+- `1.1.1` passed `--mode complete --profile legacy-full`.
+- `1.1.1` passed `--mode part-a --profile publisher-print`.
+
+Operational rule for L1.4:
+
+- Build `1.1.2 Percentages en indexcijfers` with `--mode complete --profile student-web`.
+- Do not generate Office exports unless the requested product explicitly needs them.
+- Treat textbook PDFs as publisher-print outputs, not routine student-web artifacts.
 
 ### Sprint L1.5V: Companion Quality Polish for 1.1.1
 
