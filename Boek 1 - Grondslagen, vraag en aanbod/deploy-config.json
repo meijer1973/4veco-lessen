@@ -26,7 +26,16 @@
       "chapter": "1.1",
       "domain": "teal",
       "skilltree": {
-        "skills": null
+        "skills": [
+          "A38",
+          "A39"
+        ],
+        "chapterSkills": [
+          "A38",
+          "A39",
+          "A42",
+          "A43"
+        ]
       }
     },
     {

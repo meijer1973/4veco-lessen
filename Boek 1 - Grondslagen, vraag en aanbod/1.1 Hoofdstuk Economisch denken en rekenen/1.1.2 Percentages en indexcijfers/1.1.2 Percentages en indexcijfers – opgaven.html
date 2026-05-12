@@ -94,14 +94,14 @@ th {
   background: #EDF0F3;
   color: #1a1a1a;
   font-weight: bold;
-  padding: 6pt 10pt;
+  padding: 3pt 6pt;
   text-align: left;
   border: 1px solid #999;
 }
 
 td {
   border: 1px solid #999;
-  padding: 5pt 10pt;
+  padding: 2pt 6pt;
 }
 
 tr:nth-child(even) td { background: #FAFBFC; }
@@ -143,7 +143,7 @@ p + figure, p + p > img { break-before: avoid; }
 /* Allow exercises to break across pages to avoid whitespace,
    but keep the "Opgave X" title with at least 2 lines of content. */
 .exercise {
-  margin-bottom: 8pt;
+  margin-bottom: 14pt;
   orphans: 2;
   widows: 2;
 }
@@ -151,6 +151,10 @@ p + figure, p + p > img { break-before: avoid; }
 .exercise > p:first-child {
   break-after: avoid;
   page-break-after: avoid;
+}
+
+.exercise p {
+  margin: 0 0 1pt 0;
 }
 
 /* === MISC === */
@@ -171,6 +175,7 @@ hr {
 em { color: #444; }
 
 ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+ol[type="a"] { list-style-type: lower-alpha; }
 li { margin-bottom: 4pt; }
 </style></head>
 <body>
@@ -292,7 +297,6 @@ benzineprijs als indexcijfer</figcaption>
 <p><strong>(b)</strong> Stel dat de prijs daarna daalt van €920 naar
 €800. Bereken de procentuele prijsdaling. Leg uit waarom dit percentage
 anders is dan je antwoord bij (a).</p>
-<hr />
 </div><div class="exercise"><p><strong>Opgave 2</strong></p>
 <p>In 2023 kost een standaard boodschappenmandje €150. In 2024 kost
 hetzelfde mandje €156. In 2025 kost het €162. Het basisjaar is 2023
@@ -313,7 +317,6 @@ in 2024 gelijk aan 112. Bereken hoeveel het loon in 2024 had moeten zijn
 om dezelfde koopkracht te behouden als in 2022.</p>
 <p><strong>(c)</strong> Beoordeel: is de koopkracht van de werknemer
 gestegen of gedaald? Licht je antwoord toe met een berekening.</p>
-<hr />
 </div><div class="exercise"><p><strong>Opgave 4</strong></p>
 <p>Het CBS publiceert de volgende indexcijfers voor de
 consumentenprijzen (basisjaar 2020 = 100):</p>
@@ -361,9 +364,9 @@ prijs.</p>
 <p><strong>(a)</strong> Een klant zegt: “Eerst 20% erbij, dan 20% eraf —
 dan ben je weer terug bij af.” Laat met een rekenvoorbeeld zien of de
 klant gelijk heeft. Gebruik een startprijs van €100.</p>
-<p><strong>(b)</strong> Leg uit waarom het percentage korting groter
-moet zijn dan het percentage van de oorspronkelijke verhoging om weer op
-de oude prijs uit te komen.</p>
+<p><strong>(b)</strong> Leg uit waarom het percentage korting lager moet
+zijn dan het percentage van de oorspronkelijke verhoging om weer op de
+oude prijs uit te komen.</p>
 <p><strong>(c)</strong> Bereken welk kortingspercentage (op de verhoogde
 prijs) nodig is om precies terug te keren naar de oorspronkelijke prijs
 van €100.</p>

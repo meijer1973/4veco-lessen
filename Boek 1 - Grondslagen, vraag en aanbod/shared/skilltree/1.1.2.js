@@ -5,6 +5,7 @@
 window.SKILL_TREE_DATA = {
     parNr: "1.1.2",
     parName: "Percentages en indexcijfers",
-    activeSkills: null,
+    activeSkills: ["A38","A39"],
+    chapterSkills: ["A38","A39","A42","A43"],
     newSkills: []
 };

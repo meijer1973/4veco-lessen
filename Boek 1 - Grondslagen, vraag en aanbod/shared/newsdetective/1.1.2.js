@@ -30,6 +30,11 @@ var NEWS_DETECTIVE_DATA = {
           "text": "Alleen het absolute prijsverschil in euro's",
           "correct": false,
           "feedback": "Absolute verschillen zijn niet vergelijkbaar tussen producten. Daarom gebruiken economen percentages en indexcijfers."
+        },
+        {
+          "text": "De gemiddelde temperatuur in april",
+          "correct": false,
+          "feedback": "Temperatuur kan prijzen beïnvloeden, maar inflatie gaat over prijsverandering in de consumentenprijsindex."
         }
       ]
     },
@@ -80,6 +85,13 @@ var NEWS_DETECTIVE_DATA = {
           "description": "Je zet een indexreeks op maar rekent geen verandering uit.",
           "correct": false,
           "feedback": "Een basisjaar is nodig voor indexcijfers, maar deze zin vraagt om een procentuele verandering tussen twee maanden."
+        },
+        {
+          "id": "procentpunt",
+          "label": "Alleen procentpunten vergelijken",
+          "description": "Je noemt het verschil tussen 2,7 procent en 2,8 procent.",
+          "correct": false,
+          "feedback": "Dat verschil is 0,1 procentpunt. De maand-op-maand prijsverandering vraagt om een aparte procentuele vergelijking."
         }
       ]
     },

@@ -1,8 +1,8 @@
 # Paragraph Plan - 1.1.2 Percentages en indexcijfers
 
 Generated: 2026-05-12  
-Sprint: L1.4 student-web companion build  
-Profile: student-web, no default Word exports
+Sprint: L1.4 student-web companion rebuild  
+Profile: polished student-web baseline, no default Word exports
 
 ## Learning Goals
 
@@ -22,7 +22,7 @@ The lesson starts from Sanne's smartphone price change from EUR 600 to EUR 648. 
 - Instapquiz: checks percentage change, index numbers, and index-point misconceptions
 - Uitleg voorkennis: old/new/base value, fractions, tables, and rounding
 - Uitleg vaardigheden: percentage change, index numbers, index points versus percentages
-- Begeleide inoefening: scaffolded problems with revealable answers
+- Begeleide inoefening: textbook opgaven transformed into guided questions with denkstappen, hints, and revealable answers
 - Nieuws met visual: CBS April 2026 inflation quick estimate as current data context
 - Nieuws-detective: interactive current-affairs reasoning game
 - Presentatie: short classroom deck with speaker notes for future TTS/video use
@@ -70,7 +70,11 @@ Student-facing copy uses the full skill names, not internal unit codes. Procedur
 
 - Part A publisher-print validator remains green.
 - Complete student-web validator passes.
+- Voorkennis, vaardigheden, samenvatting, nieuws, video, and begeleide inoefening use the established shared page layout with left navigation.
+- Begeleide inoefening covers every textbook opgave and subquestion, unless a written plan explicitly scopes an opgave out.
+- Light and dark modes both use the shared 4veco theme tokens and keep charts/tables readable.
 - Landing page shows student-facing tile labels and no "HTML" badges.
 - Landing page does not expose Word download options by default.
 - No student-facing internal unit codes are present.
+- Wiskundevaardigheden paragraph mode shows only paragraph-relevant skills, with broader Hoofdstuk and Alles toggles.
 - Presentation web page has semantic slide labels and speaker notes.

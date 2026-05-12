@@ -1,109 +1,264 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl" data-theme="light">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Percentages en indexcijfers - Uitleg vaardigheden</title>
-  <link rel="stylesheet" href="../../shared/voorkennis.css">
-  <script>(function(){try{var m=localStorage.getItem("quizMode");if(!m&&matchMedia("(prefers-color-scheme: dark)").matches)m="dark";if(m==="dark")document.documentElement.setAttribute("data-theme","dark");}catch(e){}})();</script>
-  <style>
-    .lesson-shell{max-width:1180px;margin:0 auto;padding:28px 24px 56px}
-    .lesson-hero{padding:28px 0 22px;border-bottom:1px solid var(--border-subtle,#d9e2ec);margin-bottom:24px}
-    .lesson-hero h1{margin:8px 0 8px;font-size:clamp(2rem,4vw,3.4rem);line-height:1.05;letter-spacing:0}
-    .lesson-kicker{font-weight:800;text-transform:uppercase;color:var(--accent,#0f766e);font-size:.78rem;letter-spacing:.08em}
-    .lesson-sub{font-size:1.05rem;max-width:840px;color:var(--text-muted,#52606d)}
-    .lesson-nav{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}
-    .lesson-nav a{padding:8px 12px;border-radius:8px;border:1px solid var(--border-subtle,#d9e2ec);text-decoration:none;color:var(--text-main,#102a43);background:var(--surface,#fff);font-weight:700;font-size:.92rem}
-    .lesson-nav a.active{background:var(--accent,#0f766e);color:#fff;border-color:var(--accent,#0f766e)}
-    .back-row{display:flex;justify-content:space-between;gap:12px;align-items:center}
-    .back-row a{color:var(--accent,#0f766e);font-weight:800;text-decoration:none}
-    .content-grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:24px;align-items:start}
-    .main-flow{display:grid;gap:18px}
-    .side-note{position:sticky;top:20px;border:1px solid var(--border-subtle,#d9e2ec);border-radius:8px;padding:16px;background:var(--surface-raised,#fff)}
-    .side-note h2{font-size:1.05rem;margin:0 0 8px}
-    .card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-    .triple-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-    .lesson-card,.step-card,.example-card{border:1px solid var(--border-subtle,#d9e2ec);border-radius:8px;padding:16px;background:var(--surface-raised,#fff)}
-    .lesson-card h2,.step-card h3,.example-card h3{margin-top:0}
-    .step-list{counter-reset:step;display:grid;gap:10px;padding:0;margin:0;list-style:none}
-    .step-list li{counter-increment:step;padding:12px 12px 12px 48px;border:1px solid var(--border-subtle,#d9e2ec);border-radius:8px;position:relative;background:var(--surface,#fff)}
-    .step-list li:before{content:counter(step);position:absolute;left:12px;top:12px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--accent,#0f766e);color:#fff;font-weight:800}
-    .formula{font-family:"JetBrains Mono",Consolas,monospace;background:var(--code-bg,#eef5f4);border-radius:8px;padding:12px;overflow:auto}
-    .data-table{width:100%;border-collapse:collapse;background:var(--surface,#fff);border-radius:8px;overflow:hidden}
-    .data-table th,.data-table td{border:1px solid var(--border-subtle,#d9e2ec);padding:10px;text-align:left}
-    .data-table th{background:var(--table-head,#e8f3f1)}
-    .callout{border-left:5px solid var(--accent,#0f766e);background:var(--callout-bg,#eef9f6);padding:14px 16px;border-radius:8px}
-    .warning{border-left-color:#c2410c;background:var(--warning-bg,#fff7ed)}
-    .visual-box{border-radius:8px;padding:16px;background:linear-gradient(135deg,rgba(20,184,166,.13),rgba(249,115,22,.10));border:1px solid var(--border-subtle,#d9e2ec)}
-    .bar-row{display:grid;grid-template-columns:88px 1fr 54px;gap:10px;align-items:center;margin:10px 0}
-    .bar-track{height:18px;border-radius:999px;background:rgba(148,163,184,.25);overflow:hidden}
-    .bar-fill{height:100%;border-radius:999px;background:var(--accent,#0f766e)}
-    details.lesson-card summary{cursor:pointer;font-weight:800}
-    @media(max-width:980px){.content-grid{grid-template-columns:1fr}.side-note{position:static}.triple-grid{grid-template-columns:1fr}.card-grid{grid-template-columns:1fr}}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>(function(){try{var m=localStorage.getItem('quizMode')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
+<title>1.1.2 Percentages en indexcijfers – Uitleg vaardigheden</title>
+<link rel="stylesheet" href="../../shared/voorkennis.css">
+<style>
+  .concept-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:16px 0}
+  .concept-grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .concept-card{background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:14px 16px;box-shadow:var(--shadow-card)}
+  .concept-card h4{margin:0 0 6px;font-family:var(--heading-font);font-style:var(--heading-style);font-weight:var(--heading-weight);letter-spacing:var(--heading-letter);font-size:1.05rem;color:var(--ink)}
+  .concept-card p{margin:0;color:var(--ink-soft);font-size:.92rem}
+  .concept-card strong{color:var(--ink)}
+  .value-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}
+  .value-tile{border:1px solid var(--border);border-radius:8px;background:var(--bg-lift);padding:12px}
+  .value-label{font-family:var(--mono);font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--ink-muted);font-weight:700}
+  .value-number{display:block;margin-top:4px;font-size:1.45rem;line-height:1.1;font-weight:800;color:var(--ink)}
+  .value-caption{display:block;margin-top:4px;color:var(--ink-soft);font-size:.84rem}
+  .bar-visual{display:grid;gap:10px;margin:16px 0;padding:14px;border:1px solid var(--border);border-radius:8px;background:var(--bg-lift)}
+  .bar-item{display:grid;grid-template-columns:104px minmax(0,1fr) 64px;gap:10px;align-items:center;font-size:.9rem;color:var(--ink-soft)}
+  .bar-track{height:18px;background:var(--bg-inset);border:1px solid var(--border);border-radius:999px;overflow:hidden}
+  .bar-fill{height:100%;width:var(--w);background:linear-gradient(90deg,var(--accent),color-mix(in oklab,var(--accent) 70%,var(--grafisch)));border-radius:999px}
+  .step-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:15px 0}
+  .step-tile{position:relative;background:var(--bg-card);border:1px solid var(--border);border-top:3px solid var(--accent);border-radius:8px;padding:13px 12px 12px;min-height:128px}
+  .step-num{font-family:var(--mono);font-size:10px;font-weight:800;color:var(--accent);letter-spacing:1px;text-transform:uppercase}
+  .step-tile h4{margin:6px 0 5px;font-size:.98rem;line-height:1.25;color:var(--ink)}
+  .step-tile p{margin:0;color:var(--ink-soft);font-size:.86rem;line-height:1.42}
+  .route-panel{border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;background:var(--bg-card);padding:14px 16px;margin:16px 0}
+  .route-panel h3{margin-top:0}
+  .answer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:10px}
+  .answer-box,.uitleg-box{border-radius:8px;padding:12px 14px;background:var(--bg-lift);border:1px solid var(--border)}
+  .answer-box{border-left:3px solid var(--accent)}
+  .uitleg-box{border-left:3px solid var(--grafisch)}
+  .source-note{font-size:.82rem;color:var(--ink-muted);margin-top:8px}
+  .video-list{display:grid;gap:12px}
+  .video-card{display:block;border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;background:var(--bg-card);padding:14px 16px;color:inherit;text-decoration:none}
+  .video-card:hover{box-shadow:var(--shadow-lift);transform:translateY(-1px)}
+  .video-card h3{margin-top:0}
+  .video-card p{margin-bottom:0;color:var(--ink-soft)}
+  @media(max-width:900px){.concept-grid,.concept-grid.three,.value-strip,.step-grid,.answer-grid{grid-template-columns:1fr}.bar-item{grid-template-columns:86px minmax(0,1fr) 54px}}
+</style>
 </head>
-<body data-accent-domain="teal">
-  <main class="lesson-shell">
-    <div class="back-row">
-      <a href="index.html">&larr; Terug naar overzicht</a>
-      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Licht/donker wisselen"></button>
+<body data-layout="voorkennis-v1" data-accent-domain="wiskunde">
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu openen">
+  <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="page-layout">
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>1.1.2 Percentages en indexcijfers</h2>
+      <p>Uitleg vaardigheden</p>
     </div>
-    <header class="lesson-hero">
-      <span class="lesson-kicker">&sect;1.1.2 - Uitleg vaardigheden</span>
-      <h1>Percentages en indexcijfers</h1>
-      <p class="lesson-sub">De vaste aanpak voor procentuele verandering, indexcijfers en de indexpuntenvalkuil.</p>
-      <nav class="lesson-nav" aria-label="Companion onderdelen">
-<a  href="1.1.2 Percentages en indexcijfers – uitleg voorkennis.html">Voorkennis</a>
-<a class="active" href="#">Vaardigheden</a>
-<a  href="1.1.2 Percentages en indexcijfers – samenvatting.html">Samenvatting</a>
-<a  href="1.1.2 Percentages en indexcijfers – begeleide inoefening.html">Oefenen</a>
-<a  href="1.1.2 Percentages en indexcijfers – nieuws met visual.html">Nieuws</a>
-<a  href="1.1.2 Percentages en indexcijfers – youtube-videos.html">Video's</a>
-      </nav>
+    <a class="nav-item domain-wiskunde" href="#sectie-1" data-section="sectie-1">
+      <span class="nav-number">1</span>
+      <span class="nav-text">
+        <span class="nav-title">Procentuele verandering</span>
+        <span class="nav-badge">Wiskundig</span>
+      </span>
+    </a>
+    <a class="nav-item domain-grafisch" href="#sectie-2" data-section="sectie-2">
+      <span class="nav-number">2</span>
+      <span class="nav-text">
+        <span class="nav-title">Indexcijfer berekenen</span>
+        <span class="nav-badge">Grafisch</span>
+      </span>
+    </a>
+    <a class="nav-item domain-wiskunde" href="#sectie-3" data-section="sectie-3">
+      <span class="nav-number">3</span>
+      <span class="nav-text">
+        <span class="nav-title">Index naar procent</span>
+        <span class="nav-badge">Wiskundig</span>
+      </span>
+    </a>
+    <a class="nav-item domain-economisch" href="#sectie-4" data-section="sectie-4">
+      <span class="nav-number">4</span>
+      <span class="nav-text">
+        <span class="nav-title">Koopkracht beoordelen</span>
+        <span class="nav-badge">Economisch</span>
+      </span>
+    </a>
+  </nav>
+  <div class="content">
+    <header class="hero">
+      <div class="hero-inner">
+        <a class="back-link" href="index.html"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg> Terug naar paragraaf</a>
+        <span class="hero-badge">1.1.2 · Vaardigheden</span>
+        <h1>Percentages en indexcijfers — Uitleg vaardigheden</h1>
+        <p class="hero-sub">De vaste aanpak voor procentuele verandering, indexcijfers, indexpunten en koopkracht.</p>
+        <div class="hero-cards">
+          <div class="hero-card card-wiskunde" data-target="sectie-1">
+            <div class="hero-card-num">01</div>
+            <div class="hero-card-title">Procentuele verandering</div>
+            <span class="hero-card-domain">Wiskundig</span>
+          </div>
+          <div class="hero-card card-grafisch" data-target="sectie-2">
+            <div class="hero-card-num">02</div>
+            <div class="hero-card-title">Indexcijfer berekenen</div>
+            <span class="hero-card-domain">Grafisch</span>
+          </div>
+          <div class="hero-card card-wiskunde" data-target="sectie-3">
+            <div class="hero-card-num">03</div>
+            <div class="hero-card-title">Index naar procent</div>
+            <span class="hero-card-domain">Wiskundig</span>
+          </div>
+          <div class="hero-card card-economisch" data-target="sectie-4">
+            <div class="hero-card-num">04</div>
+            <div class="hero-card-title">Koopkracht beoordelen</div>
+            <span class="hero-card-domain">Economisch</span>
+          </div>
+        </div>
+      </div>
     </header>
-    <div class="content-grid">
-      <section class="main-flow">
-        <article class="lesson-card">
-          <h2>Procentuele verandering berekenen</h2>
-          <ol class="step-list">
-            <li>Bepaal de oude waarde en de nieuwe waarde.</li>
-            <li>Bereken het absolute verschil: nieuwe waarde min oude waarde.</li>
-            <li>Deel het verschil door de oude waarde en vermenigvuldig met 100.</li>
-            <li>Lees het teken: positief is een stijging, negatief is een daling.</li>
-          </ol>
-          <p class="formula">(nieuw - oud) / oud x 100%</p>
-        </article>
-        <article class="lesson-card">
-          <h2>Indexcijfer berekenen</h2>
-          <ol class="step-list">
-            <li>Kies het basisjaar. Dat jaar krijgt index 100.</li>
-            <li>Bepaal de waarde in het doeljaar.</li>
-            <li>Deel de waarde in het doeljaar door de waarde in het basisjaar en vermenigvuldig met 100.</li>
-            <li>Interpreteer: index 125 betekent 25% hoger dan het basisjaar.</li>
-          </ol>
-          <p class="formula">indexcijfer = waarde doeljaar / waarde basisjaar x 100</p>
-        </article>
-        <article class="lesson-card">
-          <h2>Indexpunten en procenten onderscheiden</h2>
-          <p>Een stijging van index 125 naar 135 is 10 indexpunten. De procentuele verandering is iets anders.</p>
-          <ol class="step-list">
-            <li>Bepaal het oude indexcijfer: 125.</li>
-            <li>Bepaal het nieuwe indexcijfer: 135.</li>
-            <li>Bereken het verschil: 10 indexpunten.</li>
-            <li>Deel door het oude indexcijfer: 10 / 125 x 100% = 8%.</li>
-          </ol>
-          <p class="callout warning"><strong>Valkuil:</strong> indexpunten zijn alleen gelijk aan procenten als het oude indexcijfer precies 100 is.</p>
-        </article>
+    <main>
+      <section class="section" id="sectie-1">
+        <div class="section-header border-wiskunde">
+          <span class="section-num bg-wiskunde">1</span>
+          <div class="section-title-group">
+            <div class="section-title">Procentuele verandering berekenen</div>
+            <span class="section-badge badge-wiskunde">Wiskundig</span>
+          </div>
+        </div>
+        <p class="intro-text">Gebruik deze aanpak bij een verandering van één waarde naar een andere waarde: prijs, loon, omzet, kosten of hoeveelheid.</p>
+        <div class="step-grid">
+          <div class="step-tile">
+            <span class="step-num">Stap 1</span>
+            <h4>Bepaal oud en nieuw</h4>
+            <p>Schrijf eerst het startpunt en eindpunt op.</p>
+          </div>
+          <div class="step-tile">
+            <span class="step-num">Stap 2</span>
+            <h4>Bereken het verschil</h4>
+            <p>Nieuwe waarde min oude waarde.</p>
+          </div>
+          <div class="step-tile">
+            <span class="step-num">Stap 3</span>
+            <h4>Deel door oud</h4>
+            <p>Verschil / oude waarde x 100%.</p>
+          </div>
+          <div class="step-tile">
+            <span class="step-num">Stap 4</span>
+            <h4>Interpreteer</h4>
+            <p>Positief is stijging, negatief is daling.</p>
+          </div>
+        </div>
+        <div class="formula-box">Voorbeeld: (920 - 800) / 800 x 100% = 15%. De fiets is 15% duurder.</div>
+                <div class="callout callout-letop">
+          <span class="callout-icon">!</span>
+          <div><strong>Valkuil:</strong> Bij een daling van €920 naar €800 deel je door €920, niet door €800. Daarom is de daling 13,0% en niet 15%.</div>
+        </div>
       </section>
-      <aside class="side-note">
-        <h2>Wanneer gebruik je wat?</h2>
-        <p><strong>Bedrag naar bedrag:</strong> procentuele verandering.</p>
-        <p><strong>Reeks door de tijd:</strong> indexcijfer.</p>
-        <p><strong>Index naar index:</strong> procentuele verandering berekenen op de indexcijfers.</p>
-      </aside>
-    </div>
-  </main>
-  <script src="../../shared/theme.js"></script>
-  <script src="../../shared/voorkennis.js"></script>
+      <section class="section" id="sectie-2">
+        <div class="section-header border-grafisch">
+          <span class="section-num bg-grafisch">2</span>
+          <div class="section-title-group">
+            <div class="section-title">Indexcijfer berekenen</div>
+            <span class="section-badge badge-grafisch">Grafisch</span>
+          </div>
+        </div>
+        <p class="intro-text">Een indexcijfer zet een waarde om naar een getal ten opzichte van een basisjaar. Het basisjaar krijgt index 100.</p>
+        <div class="step-grid">
+          <div class="step-tile">
+            <span class="step-num">Stap 1</span>
+            <h4>Kies de basis</h4>
+            <p>Het basisjaar of de basiswaarde krijgt 100.</p>
+          </div>
+          <div class="step-tile">
+            <span class="step-num">Stap 2</span>
+            <h4>Neem de doelwaarde</h4>
+            <p>Dat is de waarde in het jaar dat je wilt berekenen.</p>
+          </div>
+          <div class="step-tile">
+            <span class="step-num">Stap 3</span>
+            <h4>Deel door de basis</h4>
+            <p>Doelwaarde / basiswaarde x 100.</p>
+          </div>
+          <div class="step-tile">
+            <span class="step-num">Stap 4</span>
+            <h4>Leg uit</h4>
+            <p>Index 104 betekent 4% hoger dan de basis.</p>
+          </div>
+        </div>
+        <table class="samenvatting-table">
+          <caption class="caption-grafisch">Boodschappenmandje, basisjaar 2023 = 100</caption>
+          <tbody>
+            <tr><td>2024</td><td>156 / 150 x 100</td><td>104</td></tr>
+            <tr><td>2025</td><td>162 / 150 x 100</td><td>108</td></tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="section" id="sectie-3">
+        <div class="section-header border-wiskunde">
+          <span class="section-num bg-wiskunde">3</span>
+          <div class="section-title-group">
+            <div class="section-title">Van indexcijfers naar procentuele verandering</div>
+            <span class="section-badge badge-wiskunde">Wiskundig</span>
+          </div>
+        </div>
+        <p class="intro-text">Als je twee indexcijfers vergelijkt, bereken je opnieuw een procentuele verandering. Het oude indexcijfer is dan de basis.</p>
+        <div class="step-grid">
+          <div class="step-tile">
+            <span class="step-num">Stap 1</span>
+            <h4>Oude index</h4>
+            <p>Bijvoorbeeld 108.</p>
+          </div>
+          <div class="step-tile">
+            <span class="step-num">Stap 2</span>
+            <h4>Nieuwe index</h4>
+            <p>Bijvoorbeeld 112.</p>
+          </div>
+          <div class="step-tile">
+            <span class="step-num">Stap 3</span>
+            <h4>Puntenverschil</h4>
+            <p>112 - 108 = 4 indexpunten.</p>
+          </div>
+          <div class="step-tile">
+            <span class="step-num">Stap 4</span>
+            <h4>Procent</h4>
+            <p>4 / 108 x 100% = 3,7%.</p>
+          </div>
+        </div>
+                <div class="callout callout-kernregel">
+          <span class="callout-icon">*</span>
+          <div><strong>Kernregel:</strong> Van 108 naar 112 is 4 indexpunten, maar 3,7% stijging. Het puntenverschil en het percentage zijn verschillende antwoorden.</div>
+        </div>
+      </section>
+      <section class="section" id="sectie-4">
+        <div class="section-header border-economisch">
+          <span class="section-num bg-economisch">4</span>
+          <div class="section-title-group">
+            <div class="section-title">Koopkracht beoordelen</div>
+            <span class="section-badge badge-economisch">Economisch</span>
+          </div>
+        </div>
+        <p class="intro-text">Bij koopkracht vergelijk je hoeveel het loon stijgt met hoeveel de prijzen stijgen. Een loonstijging kan dus toch koopkrachtverlies betekenen.</p>
+        <div class="concept-grid">
+          <div class="concept-card"><h4>Loon</h4><p>€3.000 naar €3.240 is <strong>8%</strong> stijging. Het loonindexcijfer is 108.</p></div>
+          <div class="concept-card"><h4>Prijzen</h4><p>Prijsindex 112 betekent dat prijzen <strong>12%</strong> hoger liggen dan in het basisjaar.</p></div>
+        </div>
+        <div class="route-panel">
+          <h3>Conclusie</h3>
+          <p>Het loon stijgt minder hard dan de prijzen. De werknemer kan minder kopen dan eerst: de koopkracht is gedaald.</p>
+        </div>
+      </section>
+      <section class="checklist-section">
+        <h2 class="checklist-title">Klaar om verder te gaan?</h2>
+        <p class="checklist-sub">Vink af wat je beheerst. Gebruik daarna de route eronder.</p>
+        <label class="checklist-item"><input type="checkbox"><span>Ik kan oude waarde, nieuwe waarde en verschil aanwijzen.</span></label>
+        <label class="checklist-item"><input type="checkbox"><span>Ik weet dat de oude waarde onder de breukstreep staat.</span></label>
+        <label class="checklist-item"><input type="checkbox"><span>Ik kan indexpunten en procentuele verandering uit elkaar houden.</span></label>
+        <div class="checklist-route">
+          <div class="route-title">Wat nu?</div>
+          <p class="route-line route-yes"><strong>Dit lukt:</strong> ga naar <a href="1.1.2 Percentages en indexcijfers – begeleide inoefening.html">begeleide inoefening</a>.</p>
+          <p class="route-line route-no"><strong>Dit hapert:</strong> open <a href="1.1.2 Percentages en indexcijfers – stappenplan.html">het stappenplan</a> of <a href="1.1.2 Percentages en indexcijfers – wiskundevaardigheden.html">wiskundevaardigheden</a>.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+<script src="../../shared/voorkennis.js"></script>
 </body>
 </html>
