@@ -49,6 +49,7 @@ Updated: 2026-05-09 (later) — L1.5V scope EXPANDED to "Companion Quality Polis
 Updated: 2026-05-12 — Sprint L1.5O closed. Default paragraph validation is now web-first (`--profile student-web`), Office exports are opt-in (`--profile office` or `legacy-full`), and the three textbook PDFs move to the explicit publisher/print profile (`--profile publisher-print`). L1.4 should build `1.1.2 Percentages en indexcijfers` against the lighter student-web profile before any optional Office package is requested.
 Updated: 2026-05-12 (later) — closed narrow follow-up `L1.5D-B02`. This cleaned up the §1.1.1 parity record after the second web-PowerPoint review: Part A and Part B now share the four-step economisch-denken procedure with nettowaarde; student-facing pages no longer expose `B02`; the presentation web converter now ignores prototype decks when selecting the official PowerPoint; and the regenerated artifacts/reviews are committed as bookkeeping before starting the next paragraph sprint.
 Updated: 2026-05-12 (landing cleanup) — paragraph landing pages now suppress Word-download options on student-facing tiles and hide the old basis/midden/verrijking Word exercise row. The 1.1.1 landing page was regenerated from platform commit `548270c`; future paragraph builds should route students to HTML/web practice surfaces, with Office exports only when explicitly requested.
+Updated: 2026-05-12 (landing language) — paragraph landing-page tiles no longer show `html` as a visible chip. The clickable tile itself is the web action; only meaningful extra choices remain visible, such as `Interactief`, `Download als PowerPoint`, and PDF links. Regenerated chapter 1.1 paragraph indexes from platform commit `6de425f`.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -589,6 +590,8 @@ Delivered:
 - `check-book.js` keeps Part A book health on `publisher-print` by default.
 - Paragraph landing pages no longer offer Word downloads on web-backed tiles
   and no longer show the legacy basis/midden/verrijking Word exercise row.
+- Paragraph landing-page tiles no longer show developer-facing `html` format
+  badges; remaining small action chips are student-facing choices.
 - `BUILD-PARAGRAPH.md`, `build-scripts/README.md`, and this roadmap record the split.
 
 Evidence:
@@ -599,6 +602,8 @@ Evidence:
 - `1.1.1` passed `--mode part-a --profile publisher-print`.
 - Landing-page regression: `scripts/tests/build-landing-page.test.js` passed;
   platform commit `548270c`.
+- Landing tile language cleanup: `scripts/tests/build-landing-page.test.js`
+  passed; platform commit `6de425f`.
 
 Operational rule for L1.4:
 
