@@ -48,6 +48,7 @@ Updated: 2026-05-11 — added Sprint L1.5P (Boek 1 Print-Edition Cut for Publish
 Updated: 2026-05-09 (later) — L1.5V scope EXPANDED to "Companion Quality Polish + Pilot Lock-in for 1.1.1" after (a) the `econ-companion-visual-review` agent ran on `uitleg voorkennis` and returned FAIL with four hard-fail defects + QA-1 (DOCX style collision), several of which are upstream platform issues shared with vaardigheden, and (b) the user direction that §1.1.1 is the pilot paragraph and L1.5V is the moment to set up the Part A / Part B build skill, quality test, and review-agent pipeline cleanly before L1.4 starts paragraph 2. New buckets E (Part A QC integration — fold in the previously deferred quality-record schema extension) and F (Part A / Part B QC pipeline separation pilot, gating L1.4) added. New platform skill `skills/econ-companion-artifacts.md` is the authoring spec; `agents/econ-companion-visual-review.md` is the closure gate. PR #3 merged; L1.5V branches off platform main as `content/1.1.1-companion-quality`. L1.4 row updated to mark Bucket F closure as a pre-condition. See full sprint detail below for the six-bucket item list and per-item workflow that pairs the skill with the review agent on every iteration.
 Updated: 2026-05-12 — Sprint L1.5O closed. Default paragraph validation is now web-first (`--profile student-web`), Office exports are opt-in (`--profile office` or `legacy-full`), and the three textbook PDFs move to the explicit publisher/print profile (`--profile publisher-print`). L1.4 should build `1.1.2 Percentages en indexcijfers` against the lighter student-web profile before any optional Office package is requested.
 Updated: 2026-05-12 (later) — closed narrow follow-up `L1.5D-B02`. This cleaned up the §1.1.1 parity record after the second web-PowerPoint review: Part A and Part B now share the four-step economisch-denken procedure with nettowaarde; student-facing pages no longer expose `B02`; the presentation web converter now ignores prototype decks when selecting the official PowerPoint; and the regenerated artifacts/reviews are committed as bookkeeping before starting the next paragraph sprint.
+Updated: 2026-05-12 (landing cleanup) — paragraph landing pages now suppress Word-download options on student-facing tiles and hide the old basis/midden/verrijking Word exercise row. The 1.1.1 landing page was regenerated from platform commit `548270c`; future paragraph builds should route students to HTML/web practice surfaces, with Office exports only when explicitly requested.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -586,6 +587,8 @@ Delivered:
 - `office` / `legacy-full` explicitly require DOCX exports.
 - `publisher-print` explicitly requires `paragraaf.pdf`, `opgaven.pdf`, `antwoorden.pdf`, and `build_pdf.py`.
 - `check-book.js` keeps Part A book health on `publisher-print` by default.
+- Paragraph landing pages no longer offer Word downloads on web-backed tiles
+  and no longer show the legacy basis/midden/verrijking Word exercise row.
 - `BUILD-PARAGRAPH.md`, `build-scripts/README.md`, and this roadmap record the split.
 
 Evidence:
@@ -594,6 +597,8 @@ Evidence:
 - `1.1.1` passed `--mode complete --profile student-web`.
 - `1.1.1` passed `--mode complete --profile legacy-full`.
 - `1.1.1` passed `--mode part-a --profile publisher-print`.
+- Landing-page regression: `scripts/tests/build-landing-page.test.js` passed;
+  platform commit `548270c`.
 
 Operational rule for L1.4:
 
