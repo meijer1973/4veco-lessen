@@ -65,6 +65,9 @@ Access rules:
 - Preserve spaces, parentheses, commas, en-dashes (`–`, U+2013), and Dutch characters in relative paths; URL-encode them only when required by the HTTP client. Book folder names contain ` - ` (space hyphen space) and `, `; chapter folder names contain ` `; artifact filenames contain ` – ` (space en-dash space).
 - Directories are path namespaces, not fetch targets.
 - Fetch files only by declared path, declared namespace search, or declared path template.
+- Use exact paths from this file or `AGENT_GITHUB_ENTRY.md` when possible; these curated files are more reliable than GitHub search results.
+- Use `reports/github-agent-index-platform.md` and `reports/github-agent-index-lessen.md` from `4veco-platform` for file-existence checks.
+- Use GitHub search mainly for discovery, not proof. Confirm discoveries by fetching exact paths or checking the generated inventory.
 - Some artifacts are large binaries (PDF up to ~5 MB, PPTX, DOCX, HTML up to ~7 MB for assembled-book HTML). Range-requests or connector access may be required.
 - If raw URL access fails, retry through authenticated GitHub connector access before concluding the file is unavailable.
 
@@ -73,6 +76,7 @@ Access rules:
 Human-readable:
 
 - `index.html` (top-level landing — book list)
+- `AGENT_GITHUB_ENTRY.md` (one-page GitHub orientation for agents)
 - `AGENTS.md` (operating rules for any agent acting on this repo)
 - `lessen-team-roadmap.md` (sprint ledger, mission, current status, guardrails)
 - `course_blueprint_v4.md` (full 4-book × 5-chapter curriculum blueprint)

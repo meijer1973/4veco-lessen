@@ -4,6 +4,12 @@ This repo is the generated, student-facing lesson-material corpus for 4veco. It 
 
 The authoring and build platform lives in the companion repo `4veco-platform`. For cross-repo work, start by reading both `RESEARCH_AGENT_MAP.md` files.
 
+Path reliability:
+
+- Use exact paths from `RESEARCH_AGENT_MAP.md` or this file when possible.
+- Use `4veco-platform/reports/github-agent-index-platform.md` and `4veco-platform/reports/github-agent-index-lessen.md` for existence checks.
+- Use GitHub search mainly for discovery, not proof; confirm search hits through exact paths or the generated inventory.
+
 | Question type | Inspect first |
 |---|---|
 | Does a generated lesson artifact currently exist for students? | `4veco-lessen` |
