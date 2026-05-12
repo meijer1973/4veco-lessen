@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="nl" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Percentages en indexcijfers - Uitleg voorkennis</title>
+  <link rel="stylesheet" href="../../shared/voorkennis.css">
+  <script>(function(){try{var m=localStorage.getItem("quizMode");if(!m&&matchMedia("(prefers-color-scheme: dark)").matches)m="dark";if(m==="dark")document.documentElement.setAttribute("data-theme","dark");}catch(e){}})();</script>
+  <style>
+    .lesson-shell{max-width:1180px;margin:0 auto;padding:28px 24px 56px}
+    .lesson-hero{padding:28px 0 22px;border-bottom:1px solid var(--border-subtle,#d9e2ec);margin-bottom:24px}
+    .lesson-hero h1{margin:8px 0 8px;font-size:clamp(2rem,4vw,3.4rem);line-height:1.05;letter-spacing:0}
+    .lesson-kicker{font-weight:800;text-transform:uppercase;color:var(--accent,#0f766e);font-size:.78rem;letter-spacing:.08em}
+    .lesson-sub{font-size:1.05rem;max-width:840px;color:var(--text-muted,#52606d)}
+    .lesson-nav{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}
+    .lesson-nav a{padding:8px 12px;border-radius:8px;border:1px solid var(--border-subtle,#d9e2ec);text-decoration:none;color:var(--text-main,#102a43);background:var(--surface,#fff);font-weight:700;font-size:.92rem}
+    .lesson-nav a.active{background:var(--accent,#0f766e);color:#fff;border-color:var(--accent,#0f766e)}
+    .back-row{display:flex;justify-content:space-between;gap:12px;align-items:center}
+    .back-row a{color:var(--accent,#0f766e);font-weight:800;text-decoration:none}
+    .content-grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:24px;align-items:start}
+    .main-flow{display:grid;gap:18px}
+    .side-note{position:sticky;top:20px;border:1px solid var(--border-subtle,#d9e2ec);border-radius:8px;padding:16px;background:var(--surface-raised,#fff)}
+    .side-note h2{font-size:1.05rem;margin:0 0 8px}
+    .card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .triple-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .lesson-card,.step-card,.example-card{border:1px solid var(--border-subtle,#d9e2ec);border-radius:8px;padding:16px;background:var(--surface-raised,#fff)}
+    .lesson-card h2,.step-card h3,.example-card h3{margin-top:0}
+    .step-list{counter-reset:step;display:grid;gap:10px;padding:0;margin:0;list-style:none}
+    .step-list li{counter-increment:step;padding:12px 12px 12px 48px;border:1px solid var(--border-subtle,#d9e2ec);border-radius:8px;position:relative;background:var(--surface,#fff)}
+    .step-list li:before{content:counter(step);position:absolute;left:12px;top:12px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--accent,#0f766e);color:#fff;font-weight:800}
+    .formula{font-family:"JetBrains Mono",Consolas,monospace;background:var(--code-bg,#eef5f4);border-radius:8px;padding:12px;overflow:auto}
+    .data-table{width:100%;border-collapse:collapse;background:var(--surface,#fff);border-radius:8px;overflow:hidden}
+    .data-table th,.data-table td{border:1px solid var(--border-subtle,#d9e2ec);padding:10px;text-align:left}
+    .data-table th{background:var(--table-head,#e8f3f1)}
+    .callout{border-left:5px solid var(--accent,#0f766e);background:var(--callout-bg,#eef9f6);padding:14px 16px;border-radius:8px}
+    .warning{border-left-color:#c2410c;background:var(--warning-bg,#fff7ed)}
+    .visual-box{border-radius:8px;padding:16px;background:linear-gradient(135deg,rgba(20,184,166,.13),rgba(249,115,22,.10));border:1px solid var(--border-subtle,#d9e2ec)}
+    .bar-row{display:grid;grid-template-columns:88px 1fr 54px;gap:10px;align-items:center;margin:10px 0}
+    .bar-track{height:18px;border-radius:999px;background:rgba(148,163,184,.25);overflow:hidden}
+    .bar-fill{height:100%;border-radius:999px;background:var(--accent,#0f766e)}
+    details.lesson-card summary{cursor:pointer;font-weight:800}
+    @media(max-width:980px){.content-grid{grid-template-columns:1fr}.side-note{position:static}.triple-grid{grid-template-columns:1fr}.card-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body data-accent-domain="teal">
+  <main class="lesson-shell">
+    <div class="back-row">
+      <a href="index.html">&larr; Terug naar overzicht</a>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Licht/donker wisselen"></button>
+    </div>
+    <header class="lesson-hero">
+      <span class="lesson-kicker">&sect;1.1.2 - Uitleg voorkennis</span>
+      <h1>Percentages en indexcijfers</h1>
+      <p class="lesson-sub">Alles wat je al nodig hebt voordat je met percentages en indexcijfers gaat rekenen.</p>
+      <nav class="lesson-nav" aria-label="Companion onderdelen">
+<a class="active" href="#">Voorkennis</a>
+<a  href="1.1.2 Percentages en indexcijfers – uitleg vaardigheden.html">Vaardigheden</a>
+<a  href="1.1.2 Percentages en indexcijfers – samenvatting.html">Samenvatting</a>
+<a  href="1.1.2 Percentages en indexcijfers – begeleide inoefening.html">Oefenen</a>
+<a  href="1.1.2 Percentages en indexcijfers – nieuws met visual.html">Nieuws</a>
+<a  href="1.1.2 Percentages en indexcijfers – youtube-videos.html">Video's</a>
+      </nav>
+    </header>
+    <div class="content-grid">
+      <section class="main-flow">
+        <article class="lesson-card">
+          <h2>1. Oud, nieuw en basiswaarde herkennen</h2>
+          <p>Bij elke procentuele verandering moet je eerst bepalen waar je mee vergelijkt. De oude waarde is de basis. De nieuwe waarde is wat daarna gebeurt.</p>
+          <table class="data-table">
+            <thead><tr><th>Situatie</th><th>Oud</th><th>Nieuw</th><th>Verschil</th></tr></thead>
+            <tbody>
+              <tr><td>Smartphoneprijs</td><td>EUR 600</td><td>EUR 648</td><td>EUR 48 hoger</td></tr>
+              <tr><td>Benzineprijs</td><td>EUR 1,98</td><td>EUR 1,89</td><td>EUR 0,09 lager</td></tr>
+            </tbody>
+          </table>
+        </article>
+        <article class="lesson-card">
+          <h2>2. Deel door de basis</h2>
+          <p>Een percentage is een verhouding. Daarom deel je het verschil door de oude waarde. Daarna vermenigvuldig je met 100.</p>
+          <p class="formula">(nieuw - oud) / oud x 100%</p>
+          <div class="visual-box">
+            <div class="bar-row"><strong>Oud</strong><span class="bar-track"><span class="bar-fill" style="width:92.6%"></span></span><span>600</span></div>
+            <div class="bar-row"><strong>Nieuw</strong><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span>648</span></div>
+          </div>
+        </article>
+        <article class="lesson-card">
+          <h2>3. Tabellen en tijd herkennen</h2>
+          <p>Indexcijfers staan vaak in een tabel of grafiek. Het basisjaar heeft index 100. Een index boven 100 betekent hoger dan het basisjaar, onder 100 betekent lager.</p>
+          <table class="data-table">
+            <thead><tr><th>Jaar</th><th>Prijs mandje</th><th>Index</th></tr></thead>
+            <tbody>
+              <tr><td>2021</td><td>EUR 120</td><td>100</td></tr>
+              <tr><td>2023</td><td>EUR 150</td><td>125</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+      <aside class="side-note">
+        <h2>Check jezelf</h2>
+        <p>Kun je bij een zin als "de prijs steeg van EUR 200 naar EUR 250" meteen aanwijzen wat oud, nieuw en verschil is?</p>
+        <p class="callout">Oud = EUR 200, nieuw = EUR 250, verschil = EUR 50. De basis voor het percentage is EUR 200.</p>
+      </aside>
+    </div>
+  </main>
+  <script src="../../shared/theme.js"></script>
+  <script src="../../shared/voorkennis.js"></script>
+</body>
+</html>

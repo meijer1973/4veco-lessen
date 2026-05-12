@@ -1,32 +1,55 @@
-# Quality Reference — 1.1.2 Percentages en indexcijfers
-# Generated: 2026-04-14
+# Quality Reference - 1.1.2 Percentages en indexcijfers
+# Refreshed: 2026-05-12 (L1.4 student-web companion build)
 
 paragraph: "1.1.2"
 title: "Percentages en indexcijfers"
 type: theory
+schema_version: 2
 
-content:
-  paragraaf_md: true
-  opgaven_md: true
-  antwoorden_md: true
-  paragraaf_pdf: true
-  opgaven_pdf: true
-  antwoorden_pdf: true
-  build_pdf_py: true
+partA:
+  content:
+    paragraaf_md: true
+    opgaven_md: true
+    antwoorden_md: true
+    paragraaf_pdf: true
+    opgaven_pdf: true
+    antwoorden_pdf: true
+    build_pdf_py: true
+  assets:
+    total_referenced: 4
+    total_present: 4
+    missing: []
+    svgpng_paired: true
+    naming_compliant: true
+  review:
+    file: "1.1.2-review.md"
+    unresolved_fails: 0
+    verdict: "PASS WITH FLAGS"
+    last_reviewed: "2026-04-14"
 
-assets:
-  total_referenced: 4
-  total_present: 4
-  missing: []
-  svgpng_paired: true
-  naming_compliant: true
-  inventory:
-    - 1.1.2_fig_1 (bar chart: oude vs nieuwe prijs)
-    - 1.1.2_fig_2 (lijndiagram: indexcijfers door de tijd)
-    - 1.1.2_fig_3 (indexpunten vs procenten valkuil)
-    - 1.1.2_we_1 (uitgewerkt voorbeeld: benzineprijs)
-
-review:
-  file: "1.1.2-review.md"
-  unresolved_fails: 0
-  verdict: "PASS WITH FLAGS"
+companion:
+  review_file: "1.1.2-companion-visual-review.md"
+  review_verdict: "PASS WITH FLAGS"
+  last_reviewed: "2026-05-12"
+  hard_fails_open: 0
+  default_office_exports: false
+  student_facing_internal_codes: false
+  procedures:
+    procentuele_verandering_step_count: 4
+    indexcijfer_step_count: 4
+    indexpunten_procenten_step_count: 5
+  surfaces:
+    voorkennis_html: clean
+    vaardigheden_html: clean
+    presentatie_pptx: clean
+    presentatie_html: clean
+    nieuws_html: clean
+    samenvatting_html: clean
+    begeleide_inoefening_html: clean
+    youtube_videos_html: clean
+    games:
+      instapquiz: clean
+      nieuws_detective: clean
+      stappenplan: clean
+      redeneer_spel: clean
+      wiskundevaardigheden: clean
