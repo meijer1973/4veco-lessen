@@ -1,6 +1,7 @@
 # Quality Reference — 1.1.1 Schaarste en economisch denken
 # Generated: 2026-04-14 (Part A baseline)
 # Migrated to schema_version 2: 2026-05-09 (L1.5V Bucket E1+E3)
+# B02 cross-surface parity refreshed: 2026-05-12
 
 paragraph: "1.1.1"
 title: "Schaarste en economisch denken"
@@ -32,7 +33,7 @@ partA:
     file: "1.1.1-review.md"
     unresolved_fails: 0
     verdict: "PASS WITH FLAGS"
-    last_reviewed: "2026-04-14"
+    last_reviewed: "2026-05-12"
 
 companion:
   review_file: "1.1.1-companion-visual-review.md"

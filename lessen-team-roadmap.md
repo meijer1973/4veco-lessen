@@ -7,6 +7,7 @@ Closed sprints are recorded separately in the "Closed Sprints" section below.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
+| L1.5D-B02 | 1.1.1 Cross-Surface Parity + Bookkeeping Fix | **2026-05-12** | **CLOSED 2026-05-12 PASS**. Narrow follow-up after the second web-PowerPoint review. Fixed the §1.1.1 Part A / Part B drift to the four-step economisch-denken procedure with nettowaarde, removed student-facing `B02` unit-code labels from generated/student pages, regenerated Part A HTML/PDF + companion DOCX-derived HTML + presentation PPTX/HTML + quiz/YouTube/shared CSS through the platform workflow, fixed `convert_presentatie.py` so the official `presentatie.pptx` is selected instead of local prototype decks, and taught the link checker to ignore `*-prototype.html` baselines as non-navigation artifacts. Completion log: `L1.5D-b02-cross-surface-parity-plan.md`; refreshed Part A review: `1.1.1-review.md`. |
 | L1.5O | Output Profile Simplification | **2026-05-12** | **CLOSED 2026-05-12 PASS**. Inserted before L1.4 to stop carrying Office documents through the default paragraph build. Platform validator now has explicit profiles: `student-web` (default; 14 web-first Part B files, no DOCX/PDF requirement), `legacy-full` (old 27-file contract), `office` (student-web plus DOCX exports), and `publisher-print` (the three textbook PDFs + `build_pdf.py`). `check-book.js` keeps Part A book health on `publisher-print`; paragraph 1.1.2 should use `--mode complete --profile student-web` unless Office exports are explicitly requested. Evidence: focused Jest 21/21 plus 1.1.1 validation green in `student-web`, `legacy-full`, and `publisher-print`. |
 | L1.5P | Boek 1 Print-Edition Cut for Publisher | no | **URGENT** — publisher hand-off in a few weeks (as of 2026-05-11; owner to fill in exact date). Trim Boek 1 to print page budget; first candidate to remove from print is `1.5 Hoofdstuk Toetsvoorbereiding` (move to website-only). Other long stretches and full answer keys reviewed for print/web split. Runs in parallel with the companion-quality stream; does not block L1.4. |
 | L1.5D | Authored Content As Web | **2026-05-11** | **CLOSED 2026-05-11 PASS WITH FLAGS**. D1 (DOCX-as-web for samenvatting + nieuws) and D2 (PPTX-as-web for presentatie) both shipped. v2 lead review returned FAIL with eight blockers (B1–B8); remediation cycle closed all eight: B1+B2 mobile responsive CSS at 390px (platform `362f0e2`), B7 detect_card_stack x-column filter (platform `6646bec`), B5+B6 validator gates D1 web outputs + BUILD-PARAGRAPH.md 24→27 contract (platform `b90b918`), B4 validate-chapter.js structured verdict parser (platform `e04d160`), B8 PPTX accessibility — 14pt floor across deck + speaker notes + AA contrast tokens (platform `830ebf4`). Selector-presence regression test added (`l1-5d-v2-mobile-fixes.test.js`). v3 lead review returned **PASS WITH FLAGS**: validators 27/27 + 26/26 + 454/0/7 jest + audit 0 sub-14pt + 0 contrast violations all green. Two non-blocking flags remain: long Dutch compound nouns on slide 1's dark-hero body line and nieuws cell-title still wrap with mid-word breaks at 390px (logged as platform follow-up, not reopening the sprint). |
@@ -46,6 +47,7 @@ Updated: 2026-05-11 (later) — L1.5D **CLOSED PASS WITH FLAGS** after a v2-revi
 Updated: 2026-05-11 — added Sprint L1.5P (Boek 1 Print-Edition Cut for Publisher) as a parallel urgent sprint; publisher hand-off in a few weeks. Added the "Adaptive learning replaces three-track differentiation" subsection to the architecture chapter to record that basis/middenopgaven/verrijking will be deprecated next school year (2026/27 cohort) in favor of a dynamic adaptive `begeleide inoefening`, with the repo-wide audit scoped explicitly out of this roadmap. Lesboek section added to the platform landing-page builder (`build-landing-page.js`): every paragraph index now shows the textbook source (`paragraaf` HTML + PDF, `opgaven`/`antwoorden` HTML + PDF) as a final row at the bottom — landed on §1.1.1's regenerated index.
 Updated: 2026-05-09 (later) — L1.5V scope EXPANDED to "Companion Quality Polish + Pilot Lock-in for 1.1.1" after (a) the `econ-companion-visual-review` agent ran on `uitleg voorkennis` and returned FAIL with four hard-fail defects + QA-1 (DOCX style collision), several of which are upstream platform issues shared with vaardigheden, and (b) the user direction that §1.1.1 is the pilot paragraph and L1.5V is the moment to set up the Part A / Part B build skill, quality test, and review-agent pipeline cleanly before L1.4 starts paragraph 2. New buckets E (Part A QC integration — fold in the previously deferred quality-record schema extension) and F (Part A / Part B QC pipeline separation pilot, gating L1.4) added. New platform skill `skills/econ-companion-artifacts.md` is the authoring spec; `agents/econ-companion-visual-review.md` is the closure gate. PR #3 merged; L1.5V branches off platform main as `content/1.1.1-companion-quality`. L1.4 row updated to mark Bucket F closure as a pre-condition. See full sprint detail below for the six-bucket item list and per-item workflow that pairs the skill with the review agent on every iteration.
 Updated: 2026-05-12 — Sprint L1.5O closed. Default paragraph validation is now web-first (`--profile student-web`), Office exports are opt-in (`--profile office` or `legacy-full`), and the three textbook PDFs move to the explicit publisher/print profile (`--profile publisher-print`). L1.4 should build `1.1.2 Percentages en indexcijfers` against the lighter student-web profile before any optional Office package is requested.
+Updated: 2026-05-12 (later) — closed narrow follow-up `L1.5D-B02`. This cleaned up the §1.1.1 parity record after the second web-PowerPoint review: Part A and Part B now share the four-step economisch-denken procedure with nettowaarde; student-facing pages no longer expose `B02`; the presentation web converter now ignores prototype decks when selecting the official PowerPoint; and the regenerated artifacts/reviews are committed as bookkeeping before starting the next paragraph sprint.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -521,6 +523,51 @@ Exit criteria:
 - Both phases land in platform-owned converters / builders / templates, not
   hand-edited into generated output.
 - `validate-paragraph.js --mode complete` for `1.1.1` continues to pass.
+
+### Sprint L1.5D-B02: 1.1.1 Cross-Surface Parity + Bookkeeping Fix
+
+Completed: yes, 2026-05-12.
+
+Purpose:
+
+- close the second review finding that Part A and Part B disagreed on the
+  economisch-denken procedure;
+- keep `B02` as an internal repository skill code, but remove it from
+  student-facing copy;
+- stabilize the web PowerPoint conversion enough that local prototype decks do
+  not contaminate generated official output;
+- document the follow-up before paragraph 1.1.2 starts.
+
+Delivered:
+
+- Part A paragraaf/opgaven/antwoorden now use the same four-step
+  economisch-denken procedure as the companion surfaces, including
+  nettowaarde.
+- Student-facing HTML/SVG/JS/markdown for 1.1.1 no longer exposes `B02`; review
+  and plan files may still use the code internally.
+- The presentation builder adds semantic navigation metadata and student-facing
+  labels; the web converter renders option comparisons as grouped cards and
+  uses sprekersnotities terminology.
+- `convert_presentatie.py` selects the exact official `presentatie.pptx` when
+  present, instead of accidentally converting local prototype decks.
+- The link checker ignores intentionally unlinked `*-prototype.html` baselines.
+- Review/bookkeeping artifacts were added or refreshed:
+  `L1.5D-b02-cross-surface-parity-plan.md`, `1.1.1-review.md`, and the
+  L1.5D review/handoff logs.
+
+Evidence:
+
+- `npm run check:platform` passed.
+- `validate-paragraph.js --mode complete --profile student-web` passed for
+  1.1.1.
+- `validate-paragraph.js --mode complete --profile publisher-print` passed for
+  1.1.1.
+- `npm run check:book` passed for Boek 1.
+- `check-sprint-plan.js` passed for the L1.5D-B02 plan.
+- A student-facing `B02` sweep over generated HTML/SVG/JS and Part A markdown
+  returned clean.
+- Platform source commit: `52a0d77` (`Fix 1.1.1 parity and presentation web
+  conversion`).
 
 ### Sprint L1.5O: Output Profile Simplification
 

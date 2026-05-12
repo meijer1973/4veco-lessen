@@ -2,11 +2,11 @@ var QUIZ_DATA = {
   "meta": {
     "parNr": "1.1.1",
     "parName": "Schaarste en economisch denken",
-    "subtitle": "Test je kennis van schaarste, alternatieve kosten en de drie-stappen-procedure economisch denken. Deze instapquiz bereidt je voor op de oefeningen.",
+    "subtitle": "Test je kennis van schaarste, alternatieve kosten en de 4-stappenprocedure voor economisch denken, inclusief nettowaarde. Deze instapquiz bereidt je voor op de oefeningen.",
     "testTopics": [
       "Schaarste herkennen in dagelijkse situaties",
       "Alternatieve kosten berekenen",
-      "De drie-stappen-procedure economisch denken",
+      "De 4-stappenprocedure voor economisch denken, inclusief nettowaarde",
       "Misconcepties rond schaarste en alternatieve kosten"
     ]
   },
