@@ -1,7 +1,7 @@
 # Paragraph Plan - 1.1.2 Percentages en indexcijfers
 
-Generated: 2026-05-12  
-Sprint: L1.4 student-web companion rebuild  
+Generated: 2026-05-13
+Sprint: L1.4-PARITY procedure and quality cleanup
 Profile: polished student-web baseline, no default Word exports
 
 ## Learning Goals
@@ -52,6 +52,17 @@ Student-facing copy uses the full skill names, not internal unit codes. Procedur
    - calculate the index-point difference
    - divide by the old index and multiply by 100
    - name index points and percentage change separately
+
+## Rounding Policy
+
+- Percentages are rounded to 1 decimal unless the question says otherwise.
+- Exact values may be shown next to the rounded answer when that clarifies a check.
+- Index numbers are written as whole numbers when the result is exact; otherwise round to 1 decimal.
+
+## Skilltree Mapping
+
+- A38 covers procentuele verandering berekenen.
+- A39 covers indexcijfer berekenen and includes the indexpoints/procenten distinction through index-change questions.
 
 ## Visuelen-Toewijzing
 

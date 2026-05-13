@@ -276,31 +276,11 @@ var PROCEDURE_DATA = {
           "label": "Stap 4",
           "options": [
             {
-              "text": "Deel het verschil door het oude indexcijfer en vermenigvuldig met 100",
+              "text": "Deel door het oude indexcijfer, vermenigvuldig met 100 en benoem beide eenheden apart",
               "correct": true
             },
             {
               "text": "Deel door het nieuwe indexcijfer",
-              "correct": false,
-              "feedback": "Dit verandert de basis van de berekening en levert een verkeerd antwoord op."
-            },
-            {
-              "text": "Laat het verschil in punten staan",
-              "correct": false,
-              "feedback": "Deze stap klinkt logisch, maar past niet bij deze procedure."
-            }
-          ]
-        },
-        {
-          "type": "choose",
-          "label": "Stap 5",
-          "options": [
-            {
-              "text": "Benoem indexpunten en procentuele verandering apart",
-              "correct": true
-            },
-            {
-              "text": "Gebruik maar een van beide termen",
               "correct": false,
               "feedback": "Dit verandert de basis van de berekening en levert een verkeerd antwoord op."
             },

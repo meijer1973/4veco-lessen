@@ -5,7 +5,7 @@ var NEWS_DETECTIVE_DATA = {
   },
   "article": {
     "headline": "Inflatie in april 2026 naar 2,8 procent bij snelle raming",
-    "body": "Het CBS meldde dat de inflatie in april 2026 2,8 procent was bij de snelle raming. In maart was dat 2,7 procent. Ten opzichte van maart lagen consumentenprijzen in april 1,1 procent hoger. Vanaf 2026 gebruikt de CPI het basisjaar 2025 = 100.",
+    "body": "Het CBS meldde dat de inflatie in april 2026 2,8 procent was bij de snelle raming. In maart was dat 2,7 procent. Ten opzichte van maart lagen consumentenprijzen in april 1,1 procent hoger. Dit is een voorlopige snelle raming; de oefening gaat daarom over het lezen van zo'n raming. Vanaf 2026 gebruikt de CPI het basisjaar 2025 = 100.",
     "source": "CBS",
     "sourceDate": "30 april 2026",
     "sourceUrl": "https://www.cbs.nl/nl-nl/nieuws/2026/18/inflatie-in-april-2-8-procent-bij-snelle-raming",

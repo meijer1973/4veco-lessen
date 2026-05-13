@@ -13,7 +13,7 @@
 
 ## Shared conventions
 - **Notation**: procentuele verandering = (nieuw − oud) / oud × 100, indexcijfer = waarde / basiswaarde × 100
-- **Colours**: 
+- **Colours**:
   - Primary/data: #1A5276 (blauw) — hoofdkleur voor grafieken en datapunten
   - Accent/highlight: #E67E22 (oranje) — markering van alternatieve kosten, veranderingen
   - Positive/correct: #27AE60 (groen) — correcte antwoorden, winst
@@ -35,21 +35,31 @@
 
 ## Procedure plan (unified experience)
 - **Alternatieve kosten berekenen** (§1.1.1):
-  1. Welke alternatieven zijn er?
-  2. Wat is de opbrengst van elk alternatief?
-  3. Je kiest alternatief X → alternatieve kosten = opbrengst van het beste niet-gekozen alternatief
-  → gebruikt in §1.1.1 theorie, uitgewerkt voorbeeld, alle opgaven
+  1. Benoem de alternatieven
+  2. Bereken de opbrengst per alternatief
+  3. Rangschik; de opbrengst van het beste niet-gekozen alternatief is de alternatieve kosten
+  4. Bereken nettowaarde = opbrengst gekozen alternatief − alternatieve kosten
+  → gebruikt in §1.1.1 theorie, uitgewerkt voorbeeld, alle opgaven en companion-oppervlakken
 
 - **Procentuele verandering berekenen** (§1.1.2):
   1. Noteer de oude waarde en de nieuwe waarde
-  2. Bereken: (nieuw − oud) / oud × 100%
-  3. Positief = stijging, negatief = daling
+  2. Bereken het verschil: nieuw − oud
+  3. Deel het verschil door de oude waarde en vermenigvuldig met 100%
+  4. Interpreteer het teken: positief = stijging, negatief = daling
   → gebruikt in §1.1.2 theorie, uitgewerkt voorbeeld, alle opgaven
 
 - **Indexcijfer berekenen** (§1.1.2):
-  1. Bepaal het basisjaar (index = 100)
-  2. Bereken: (waarde / basiswaarde) × 100
-  3. Verandering in procenten: (nieuw indexcijfer − oud indexcijfer) / oud indexcijfer × 100%
+  1. Kies of controleer het basisjaar: index = 100
+  2. Bepaal de waarde in het doeljaar en de waarde in het basisjaar
+  3. Deel de doeljaarwaarde door de basisjaarwaarde en vermenigvuldig met 100
+  4. Interpreteer het indexcijfer ten opzichte van 100
+  → gebruikt in §1.1.2 theorie, uitgewerkt voorbeeld, alle opgaven
+
+- **Indexpunten en procentuele verandering onderscheiden** (§1.1.2):
+  1. Noteer het oude indexcijfer en het nieuwe indexcijfer
+  2. Bereken het verschil in indexpunten: nieuw − oud
+  3. Deel het verschil door het oude indexcijfer en vermenigvuldig met 100%
+  4. Benoem indexpunten en procentuele verandering apart
   → let op: indexpunten ≠ procenten (klassieke valkuil)
 
 - **Grafiek tekenen van tabeldata** (§1.1.3):
