@@ -40,13 +40,24 @@ records and platform intake from the current lesson-owned artifacts.
 Current reconciled state:
 
 - Lesson proof records cite lesson commit
-  `7ab984512178249fe39e0c7ade56da0b8acc212f`.
+  `52f9237de9e465e7f75483f6feac4e80241e8631`.
 - Lesson proof records report `lesson_worktree_dirty_at_generation: false`.
 - Platform proof intake now embeds the same lesson commit and clean-worktree
   metadata.
 - Platform proof intake checker passes.
 - The older commit mismatch noted by HCS is preserved in the review record as
   review-time context, not as current intake state.
+
+Post-closure report-state cleanup:
+
+- The PV-G4 intake generator was made closure-aware so current reports now show
+  `pass_with_conditions` instead of asking the lesson team to submit an already
+  reviewed HCS packet.
+- The lesson HCS packet generator was also made closure-aware; it now labels the
+  packet as `gate_reviewed_pass_with_conditions`.
+- This cleanup refreshed generated proof metadata to lesson commit
+  `52f9237de9e465e7f75483f6feac4e80241e8631`, which is the lesson-side
+  closure/sync commit available before this cleanup commit.
 
 ## Validation
 
