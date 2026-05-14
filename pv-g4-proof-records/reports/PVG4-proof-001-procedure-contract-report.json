@@ -1,0 +1,2130 @@
+{
+  "schema_version": 1,
+  "report_id": "lesson-procedure-contract-validation",
+  "generated_by": "scripts/validate-procedure-contracts.js",
+  "generated_on": "2026-05-14T07:40:29.394Z",
+  "platform_repo_commit": "9005f5c3fbcbd4c5a21a1c6319f15e570d302c8a",
+  "lesson_repo_commit": "93e1b03c1905d3f8ee9f5a4e8996418012e801d2",
+  "contract_path": "references\\data\\procedure-visual\\lesson-procedure-contracts.json",
+  "book_root": "C:\\Projects\\4veco\\4veco-lessen\\Boek 1 - Grondslagen, vraag en aanbod",
+  "contract_count": 4,
+  "check_count": 289,
+  "failure_count": 0,
+  "status": "passed",
+  "failures": [],
+  "checks": [
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/_paragraph-plan.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/1.1.1 Schaarste en economisch denken – paragraaf.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/1.1.1 Schaarste en economisch denken – opgaven.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_opgaven_md",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/1.1.1 Schaarste en economisch denken – antwoorden.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "part_a_antwoorden_md",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/1.1.1 Schaarste en economisch denken – uitleg vaardigheden.html"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/1.1.1 Schaarste en economisch denken – begeleide inoefening.html"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/1.1.1 Schaarste en economisch denken – presentatie.html"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found shared/procedure/1.1.1.js"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_data_parse",
+      "status": "passed",
+      "detail": "Procedure data parsed"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_exists",
+      "status": "passed",
+      "detail": "Found procedure altkosten-berekenen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_template_id",
+      "status": "passed",
+      "detail": "procedure_template_id=choose_by_opportunity_cost_flow, expected choose_by_opportunity_cost_flow",
+      "expected": "choose_by_opportunity_cost_flow",
+      "actual": "choose_by_opportunity_cost_flow"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_choose_step_count",
+      "status": "passed",
+      "detail": "choose step count=4, expected 4",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "formal_step_ids_present",
+      "status": "passed",
+      "detail": "All choose steps have formal_step_id",
+      "actual": [
+        "list_alternatives",
+        "calculate_payoffs",
+        "rank_not_chosen",
+        "interpret_net_choice_value"
+      ]
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "formal_step_id_order",
+      "status": "passed",
+      "detail": "formal_step_ids=list_alternatives > calculate_payoffs > rank_not_chosen > interpret_net_choice_value, expected list_alternatives > calculate_payoffs > rank_not_chosen > interpret_net_choice_value",
+      "expected": [
+        "list_alternatives",
+        "calculate_payoffs",
+        "rank_not_chosen",
+        "interpret_net_choice_value"
+      ],
+      "actual": [
+        "list_alternatives",
+        "calculate_payoffs",
+        "rank_not_chosen",
+        "interpret_net_choice_value"
+      ]
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:list_alternatives",
+      "status": "passed",
+      "detail": "Procedure step 1 matches list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:calculate_payoffs",
+      "status": "passed",
+      "detail": "Procedure step 2 matches calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:rank_not_chosen",
+      "status": "passed",
+      "detail": "Procedure step 3 matches rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Procedure step 4 matches interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "quality_ref",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/1.1.1-quality-ref.yaml"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "quality_ref",
+      "check_id": "quality_ref_step_count",
+      "status": "passed",
+      "detail": "procedure_b02_step_count=4, expected 4",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/_chapter-plan.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1 Economisch denken en rekenen – hoofdstuk.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "chapter_aggregate_md",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found Boek 1 Grondslagen, vraag en aanbod – boek.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "step_keywords:list_alternatives",
+      "status": "passed",
+      "detail": "Surface contains keyword for list_alternatives"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "step_keywords:calculate_payoffs",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_payoffs"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "step_keywords:rank_not_chosen",
+      "status": "passed",
+      "detail": "Surface contains keyword for rank_not_chosen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "book_aggregate_md",
+      "check_id": "step_keywords:interpret_net_choice_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_net_choice_value"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_summary_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.5 Hoofdstuk Toetsvoorbereiding/1.5.1 Actieve samenvatting/1.5.1 Actieve samenvatting – samenvatting.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_summary_md",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_summary_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_summary_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_summary_md",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_summary_md",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_summary_md",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.5 Hoofdstuk Toetsvoorbereiding/1.5.4 Proeftoets/1.5.4 Proeftoets – toets.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_md",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_md",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_md",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_md",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_answers_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.5 Hoofdstuk Toetsvoorbereiding/1.5.4 Proeftoets/1.5.4 Proeftoets – antwoorden.md"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_answers_md",
+      "check_id": "forbidden_legacy:Je berekent ze in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Je berekent ze in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_answers_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken — het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken — het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_answers_md",
+      "check_id": "forbidden_legacy:Figuur 3: Economisch denken - het keuzeproces in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Figuur 3: Economisch denken - het keuzeproces in drie stappen"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_answers_md",
+      "check_id": "forbidden_legacy:Noem de drie stappen van economisch denken",
+      "status": "passed",
+      "detail": "Legacy wording absent: Noem de drie stappen van economisch denken"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_answers_md",
+      "check_id": "forbidden_legacy:De drie stappen van economisch denken zijn",
+      "status": "passed",
+      "detail": "Legacy wording absent: De drie stappen van economisch denken zijn"
+    },
+    {
+      "contract_id": "1.1.1-altkosten-b02",
+      "surface_id": "testprep_exam_answers_md",
+      "check_id": "student_code_leak:B02",
+      "status": "passed",
+      "detail": "Student-facing internal code absent: B02"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "paragraph_plan",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/_paragraph-plan.md"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "paragraph_plan",
+      "check_id": "forbidden_legacy:Procentuele verandering berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Procentuele verandering berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:identify_old_new_values",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_new_values"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:calculate_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_difference"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:divide_by_old_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for divide_by_old_value"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:interpret_sign",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_sign"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – paragraaf.md"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "forbidden_legacy:Procentuele verandering berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Procentuele verandering berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:identify_old_new_values",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_new_values"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:calculate_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_difference"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:divide_by_old_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for divide_by_old_value"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:interpret_sign",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_sign"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – uitleg vaardigheden.html"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "forbidden_legacy:Procentuele verandering berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Procentuele verandering berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:identify_old_new_values",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_new_values"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:calculate_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_difference"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:divide_by_old_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for divide_by_old_value"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:interpret_sign",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_sign"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – begeleide inoefening.html"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "forbidden_legacy:Procentuele verandering berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Procentuele verandering berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "step_keywords:identify_old_new_values",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_new_values"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "step_keywords:calculate_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_difference"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "step_keywords:divide_by_old_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for divide_by_old_value"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "begeleide_inoefening",
+      "check_id": "step_keywords:interpret_sign",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_sign"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "presentation",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – presentatie.html"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "presentation",
+      "check_id": "forbidden_legacy:Procentuele verandering berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Procentuele verandering berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:identify_old_new_values",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_new_values"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:calculate_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_difference"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:divide_by_old_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for divide_by_old_value"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:interpret_sign",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_sign"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found shared/procedure/1.1.2.js"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "forbidden_legacy:Procentuele verandering berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Procentuele verandering berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_data_parse",
+      "status": "passed",
+      "detail": "Procedure data parsed"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_exists",
+      "status": "passed",
+      "detail": "Found procedure procentuele-verandering"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_choose_step_count",
+      "status": "passed",
+      "detail": "choose step count=4, expected 4",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "formal_step_ids_present",
+      "status": "passed",
+      "detail": "All choose steps have formal_step_id",
+      "actual": [
+        "identify_old_new_values",
+        "calculate_difference",
+        "divide_by_old_value",
+        "interpret_sign"
+      ]
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "formal_step_id_order",
+      "status": "passed",
+      "detail": "formal_step_ids=identify_old_new_values > calculate_difference > divide_by_old_value > interpret_sign, expected identify_old_new_values > calculate_difference > divide_by_old_value > interpret_sign",
+      "expected": [
+        "identify_old_new_values",
+        "calculate_difference",
+        "divide_by_old_value",
+        "interpret_sign"
+      ],
+      "actual": [
+        "identify_old_new_values",
+        "calculate_difference",
+        "divide_by_old_value",
+        "interpret_sign"
+      ]
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:identify_old_new_values",
+      "status": "passed",
+      "detail": "Procedure step 1 matches identify_old_new_values"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:calculate_difference",
+      "status": "passed",
+      "detail": "Procedure step 2 matches calculate_difference"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:divide_by_old_value",
+      "status": "passed",
+      "detail": "Procedure step 3 matches divide_by_old_value"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:interpret_sign",
+      "status": "passed",
+      "detail": "Procedure step 4 matches interpret_sign"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "quality_ref",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2-quality-ref.yaml"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "quality_ref",
+      "check_id": "quality_ref_step_count",
+      "status": "passed",
+      "detail": "procentuele_verandering_step_count=4, expected 4",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "chapter_plan",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/_chapter-plan.md"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "chapter_plan",
+      "check_id": "forbidden_legacy:Procentuele verandering berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Procentuele verandering berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:identify_old_new_values",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_new_values"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:calculate_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_difference"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:divide_by_old_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for divide_by_old_value"
+    },
+    {
+      "contract_id": "1.1.2-procentuele-verandering",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:interpret_sign",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_sign"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "paragraph_plan",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/_paragraph-plan.md"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "paragraph_plan",
+      "check_id": "forbidden_legacy:Indexcijfer berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexcijfer berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:choose_base_year",
+      "status": "passed",
+      "detail": "Surface contains keyword for choose_base_year"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:identify_target_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_target_value"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:calculate_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:interpret_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – paragraaf.md"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "forbidden_legacy:Indexcijfer berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexcijfer berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:choose_base_year",
+      "status": "passed",
+      "detail": "Surface contains keyword for choose_base_year"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:identify_target_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_target_value"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:calculate_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:interpret_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – uitleg vaardigheden.html"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "forbidden_legacy:Indexcijfer berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexcijfer berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:choose_base_year",
+      "status": "passed",
+      "detail": "Surface contains keyword for choose_base_year"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:identify_target_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_target_value"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:calculate_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:interpret_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "presentation",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – presentatie.html"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "presentation",
+      "check_id": "forbidden_legacy:Indexcijfer berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexcijfer berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:choose_base_year",
+      "status": "passed",
+      "detail": "Surface contains keyword for choose_base_year"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:identify_target_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_target_value"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:calculate_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:interpret_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found shared/procedure/1.1.2.js"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "forbidden_legacy:Indexcijfer berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexcijfer berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_data_parse",
+      "status": "passed",
+      "detail": "Procedure data parsed"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_exists",
+      "status": "passed",
+      "detail": "Found procedure indexcijfer"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_choose_step_count",
+      "status": "passed",
+      "detail": "choose step count=4, expected 4",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "formal_step_ids_present",
+      "status": "passed",
+      "detail": "All choose steps have formal_step_id",
+      "actual": [
+        "choose_base_year",
+        "identify_target_value",
+        "calculate_index_number",
+        "interpret_index_number"
+      ]
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "formal_step_id_order",
+      "status": "passed",
+      "detail": "formal_step_ids=choose_base_year > identify_target_value > calculate_index_number > interpret_index_number, expected choose_base_year > identify_target_value > calculate_index_number > interpret_index_number",
+      "expected": [
+        "choose_base_year",
+        "identify_target_value",
+        "calculate_index_number",
+        "interpret_index_number"
+      ],
+      "actual": [
+        "choose_base_year",
+        "identify_target_value",
+        "calculate_index_number",
+        "interpret_index_number"
+      ]
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:choose_base_year",
+      "status": "passed",
+      "detail": "Procedure step 1 matches choose_base_year"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:identify_target_value",
+      "status": "passed",
+      "detail": "Procedure step 2 matches identify_target_value"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:calculate_index_number",
+      "status": "passed",
+      "detail": "Procedure step 3 matches calculate_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:interpret_index_number",
+      "status": "passed",
+      "detail": "Procedure step 4 matches interpret_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "quality_ref",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2-quality-ref.yaml"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "quality_ref",
+      "check_id": "quality_ref_step_count",
+      "status": "passed",
+      "detail": "indexcijfer_step_count=4, expected 4",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "chapter_plan",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/_chapter-plan.md"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "chapter_plan",
+      "check_id": "forbidden_legacy:Indexcijfer berekenen in drie stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexcijfer berekenen in drie stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:choose_base_year",
+      "status": "passed",
+      "detail": "Surface contains keyword for choose_base_year"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:identify_target_value",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_target_value"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:calculate_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexcijfer",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:interpret_index_number",
+      "status": "passed",
+      "detail": "Surface contains keyword for interpret_index_number"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "paragraph_plan",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/_paragraph-plan.md"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "paragraph_plan",
+      "check_id": "forbidden_legacy:Indexpunten en procenten onderscheiden in vijf stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexpunten en procenten onderscheiden in vijf stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "paragraph_plan",
+      "check_id": "forbidden_legacy:indexpunten_procenten_step_count: 5",
+      "status": "passed",
+      "detail": "Legacy wording absent: indexpunten_procenten_step_count: 5"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:identify_old_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:identify_new_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_new_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:calculate_index_point_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_point_difference"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "paragraph_plan",
+      "check_id": "step_keywords:convert_index_difference_to_percent",
+      "status": "passed",
+      "detail": "Surface contains keyword for convert_index_difference_to_percent"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – paragraaf.md"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "forbidden_legacy:Indexpunten en procenten onderscheiden in vijf stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexpunten en procenten onderscheiden in vijf stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "forbidden_legacy:indexpunten_procenten_step_count: 5",
+      "status": "passed",
+      "detail": "Legacy wording absent: indexpunten_procenten_step_count: 5"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:identify_old_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:identify_new_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_new_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:calculate_index_point_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_point_difference"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "part_a_paragraaf_md",
+      "check_id": "step_keywords:convert_index_difference_to_percent",
+      "status": "passed",
+      "detail": "Surface contains keyword for convert_index_difference_to_percent"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – uitleg vaardigheden.html"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "forbidden_legacy:Indexpunten en procenten onderscheiden in vijf stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexpunten en procenten onderscheiden in vijf stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "forbidden_legacy:indexpunten_procenten_step_count: 5",
+      "status": "passed",
+      "detail": "Legacy wording absent: indexpunten_procenten_step_count: 5"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:identify_old_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:identify_new_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_new_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:calculate_index_point_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_point_difference"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "uitleg_vaardigheden",
+      "check_id": "step_keywords:convert_index_difference_to_percent",
+      "status": "passed",
+      "detail": "Surface contains keyword for convert_index_difference_to_percent"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "presentation",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2 Percentages en indexcijfers – presentatie.html"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "presentation",
+      "check_id": "forbidden_legacy:Indexpunten en procenten onderscheiden in vijf stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexpunten en procenten onderscheiden in vijf stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "presentation",
+      "check_id": "forbidden_legacy:indexpunten_procenten_step_count: 5",
+      "status": "passed",
+      "detail": "Legacy wording absent: indexpunten_procenten_step_count: 5"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:identify_old_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:identify_new_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_new_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:calculate_index_point_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_point_difference"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "presentation",
+      "check_id": "step_keywords:convert_index_difference_to_percent",
+      "status": "passed",
+      "detail": "Surface contains keyword for convert_index_difference_to_percent"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found shared/procedure/1.1.2.js"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "forbidden_legacy:Indexpunten en procenten onderscheiden in vijf stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexpunten en procenten onderscheiden in vijf stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "forbidden_legacy:indexpunten_procenten_step_count: 5",
+      "status": "passed",
+      "detail": "Legacy wording absent: indexpunten_procenten_step_count: 5"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_data_parse",
+      "status": "passed",
+      "detail": "Procedure data parsed"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_exists",
+      "status": "passed",
+      "detail": "Found procedure indexpunten-procenten"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_choose_step_count",
+      "status": "passed",
+      "detail": "choose step count=4, expected 4",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "formal_step_ids_present",
+      "status": "passed",
+      "detail": "All choose steps have formal_step_id",
+      "actual": [
+        "identify_old_index",
+        "identify_new_index",
+        "calculate_index_point_difference",
+        "convert_index_difference_to_percent"
+      ]
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "formal_step_id_order",
+      "status": "passed",
+      "detail": "formal_step_ids=identify_old_index > identify_new_index > calculate_index_point_difference > convert_index_difference_to_percent, expected identify_old_index > identify_new_index > calculate_index_point_difference > convert_index_difference_to_percent",
+      "expected": [
+        "identify_old_index",
+        "identify_new_index",
+        "calculate_index_point_difference",
+        "convert_index_difference_to_percent"
+      ],
+      "actual": [
+        "identify_old_index",
+        "identify_new_index",
+        "calculate_index_point_difference",
+        "convert_index_difference_to_percent"
+      ]
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:identify_old_index",
+      "status": "passed",
+      "detail": "Procedure step 1 matches identify_old_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:identify_new_index",
+      "status": "passed",
+      "detail": "Procedure step 2 matches identify_new_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:calculate_index_point_difference",
+      "status": "passed",
+      "detail": "Procedure step 3 matches calculate_index_point_difference"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "procedure_game_data",
+      "check_id": "procedure_step_label:convert_index_difference_to_percent",
+      "status": "passed",
+      "detail": "Procedure step 4 matches convert_index_difference_to_percent"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "quality_ref",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2-quality-ref.yaml"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "quality_ref",
+      "check_id": "quality_ref_step_count",
+      "status": "passed",
+      "detail": "indexpunten_procenten_step_count=4, expected 4",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "chapter_plan",
+      "check_id": "surface_exists",
+      "status": "passed",
+      "detail": "Found 1.1 Hoofdstuk Economisch denken en rekenen/_chapter-plan.md"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "chapter_plan",
+      "check_id": "forbidden_legacy:Indexpunten en procenten onderscheiden in vijf stappen",
+      "status": "passed",
+      "detail": "Legacy wording absent: Indexpunten en procenten onderscheiden in vijf stappen"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "chapter_plan",
+      "check_id": "forbidden_legacy:indexpunten_procenten_step_count: 5",
+      "status": "passed",
+      "detail": "Legacy wording absent: indexpunten_procenten_step_count: 5"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:identify_old_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_old_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:identify_new_index",
+      "status": "passed",
+      "detail": "Surface contains keyword for identify_new_index"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:calculate_index_point_difference",
+      "status": "passed",
+      "detail": "Surface contains keyword for calculate_index_point_difference"
+    },
+    {
+      "contract_id": "1.1.2-indexpunten-procenten",
+      "surface_id": "chapter_plan",
+      "check_id": "step_keywords:convert_index_difference_to_percent",
+      "status": "passed",
+      "detail": "Surface contains keyword for convert_index_difference_to_percent"
+    }
+  ]
+}

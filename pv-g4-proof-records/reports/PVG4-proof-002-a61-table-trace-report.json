@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "report_id": "PVG4-proof-002-a61-table-trace-report",
+  "generated_by": "build-scripts/references/build-pv-g4-lesson-proof-records.js",
+  "generated_on": "2026-05-14T07:40:31.064Z",
+  "status": "passed",
+  "pilot_surface": "pv-g4-proof-records/pilot-surfaces/a61-table-trace-pilot.json",
+  "pv_records_used": {
+    "procedure_template_ids": [
+      "select_table_values_trace"
+    ],
+    "visual_state_ids": [
+      "table_trace_source_values_selected"
+    ],
+    "unit_template_link_ids": [
+      "A61:select_table_values_trace"
+    ]
+  },
+  "checks": [
+    {
+      "id": "template_exists",
+      "status": "passed",
+      "detail": "Template select_table_values_trace"
+    },
+    {
+      "id": "visual_state_exists",
+      "status": "passed",
+      "detail": "Visual state table_trace_source_values_selected"
+    },
+    {
+      "id": "unit_template_link_exists",
+      "status": "passed",
+      "detail": "Unit-template link A61:select_table_values_trace"
+    },
+    {
+      "id": "step_order_matches_template",
+      "status": "passed",
+      "detail": "actual=read_question_target > check_table_headers_units > select_needed_values > label_selected_values, expected=read_question_target > check_table_headers_units > select_needed_values > label_selected_values",
+      "actual": [
+        "read_question_target",
+        "check_table_headers_units",
+        "select_needed_values",
+        "label_selected_values"
+      ],
+      "expected": [
+        "read_question_target",
+        "check_table_headers_units",
+        "select_needed_values",
+        "label_selected_values"
+      ]
+    },
+    {
+      "id": "not_student_facing",
+      "status": "passed",
+      "detail": "Pilot remains a lesson-owned proof artifact, not student-facing publication."
+    },
+    {
+      "id": "visual_anchors_present",
+      "status": "passed",
+      "detail": "Pilot records table-trace visual anchors."
+    }
+  ],
+  "failures": []
+}

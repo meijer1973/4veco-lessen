@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "surface_id": "l-pv3-a61-table-trace-pilot",
+  "owner": "lesson_team",
+  "student_facing": false,
+  "paragraph_or_surface": "Bounded A61 table-trace pilot surface for PV-G4 proof 002",
+  "procedure_template_id": "select_table_values_trace",
+  "visual_state_id": "table_trace_source_values_selected",
+  "unit_template_link_id": "A61:select_table_values_trace",
+  "task_context": {
+    "prompt": "Lees uit een tabel met jaren en prijzen de waarden af die nodig zijn voor een procentuele verandering.",
+    "source_table_columns": [
+      "jaar",
+      "prijs"
+    ],
+    "target": "prijs in oud jaar en prijs in nieuw jaar"
+  },
+  "steps": [
+    {
+      "formal_step_id": "read_question_target",
+      "surface_label": "Lees wat de vraag vraagt",
+      "text_anchor": "Bepaal of je een oud jaar, nieuw jaar, prijs of index nodig hebt."
+    },
+    {
+      "formal_step_id": "check_table_headers_units",
+      "surface_label": "Controleer kolommen en eenheden",
+      "text_anchor": "Lees de tabelkoppen en noteer of de waarden euro, procent of indexcijfers zijn."
+    },
+    {
+      "formal_step_id": "select_needed_values",
+      "surface_label": "Selecteer de waarden",
+      "text_anchor": "Markeer alleen de twee tabelcellen die je nodig hebt voor de berekening."
+    },
+    {
+      "formal_step_id": "label_selected_values",
+      "surface_label": "Label oud en nieuw",
+      "text_anchor": "Schrijf bij elke geselecteerde waarde of het de oude waarde of nieuwe waarde is."
+    }
+  ],
+  "visual_anchors": [
+    "table headers checked before value selection",
+    "needed values selected",
+    "selected values labelled old/new"
+  ],
+  "publication_boundary": "PV validation proof only; no student-facing PV projection authorized."
+}

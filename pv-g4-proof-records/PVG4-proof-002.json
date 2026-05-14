@@ -1,0 +1,39 @@
+{
+  "proof_id": "PVG4-proof-002",
+  "lesson_repo_commit": "93e1b03c1905d3f8ee9f5a4e8996418012e801d2",
+  "lesson_worktree_dirty_at_generation": false,
+  "paragraph_or_surface": "Bounded lesson-owned A61 table-trace pilot surface",
+  "pv_records_used": {
+    "procedure_template_ids": [
+      "select_table_values_trace"
+    ],
+    "visual_state_ids": [
+      "table_trace_source_values_selected"
+    ],
+    "unit_template_link_ids": [
+      "A61:select_table_values_trace"
+    ]
+  },
+  "validation_commands": [
+    {
+      "command": "node build-scripts\\references\\build-pv-g4-lesson-proof-records.js (A61 pilot validation stage)",
+      "status": "passed",
+      "evidence_artifact": "pv-g4-proof-records/reports/PVG4-proof-002-a61-table-trace-report.json"
+    }
+  ],
+  "generated_output_touched": false,
+  "hand_patch_absent": true,
+  "hand_patch_absent_evidence": [
+    "Generated lesson-target procedure data is produced by platform script b1-111-procedure-data.js.",
+    "Proof records and pilot surfaces are lesson-owned proof artifacts, not generated student output.",
+    "PV records remain in references/data/procedure-visual; no references/machine PV registry is created."
+  ],
+  "proof_artifacts": [
+    "pv-g4-proof-records/pilot-surfaces/a61-table-trace-pilot.json",
+    "pv-g4-proof-records/reports/PVG4-proof-002-a61-table-trace-report.json",
+    "pv-g4-proof-records/PVG4-proof-002.json"
+  ],
+  "owner": "lesson_team",
+  "review_status": "submitted_for_pv_g4_review",
+  "notes": "Proof 002 uses a different PV template and validates A61 table-trace step order without student-facing PV projection."
+}

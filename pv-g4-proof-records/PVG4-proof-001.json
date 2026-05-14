@@ -1,0 +1,144 @@
+{
+  "proof_id": "PVG4-proof-001",
+  "lesson_repo_commit": "93e1b03c1905d3f8ee9f5a4e8996418012e801d2",
+  "lesson_worktree_dirty_at_generation": false,
+  "paragraph_or_surface": "1.1.1 Schaarste en economisch denken / procedure-game + answer-model parity",
+  "pv_records_used": {
+    "procedure_template_ids": [
+      "choose_by_opportunity_cost_flow"
+    ],
+    "visual_state_ids": [
+      "flowchart_opportunity_cost_choice"
+    ],
+    "unit_template_link_ids": [
+      "B02:choose_by_opportunity_cost_flow"
+    ]
+  },
+  "validation_commands": [
+    {
+      "command": "node scripts\\validate-procedure-contracts.js --book-root \"C:\\Projects\\4veco\\4veco-lessen\\Boek 1 - Grondslagen, vraag en aanbod\" --report \"C:\\Projects\\4veco\\4veco-lessen\\pv-g4-proof-records\\reports\\PVG4-proof-001-procedure-contract-report.json\"",
+      "status": "passed",
+      "output_tail": [
+        "OK Procedure contract validation passed (289 checks)"
+      ]
+    },
+    {
+      "command": "node scripts\\validate-paragraph.js --mode complete --profile student-web \"C:\\Projects\\4veco\\4veco-lessen\\Boek 1 - Grondslagen, vraag en aanbod\\1.1 Hoofdstuk Economisch denken en rekenen\\1.1.1 Schaarste en economisch denken\"",
+      "status": "passed",
+      "output_tail": [
+        "  14/14 required Part B files present (student-web)",
+        "",
+        "-- Part B plan and game data --",
+        "  OK _paragraph-plan.md",
+        "  OK shared/questions/1.1.1.js (10.7 KB)",
+        "  OK shared/newsdetective/1.1.1.js (5.6 KB)",
+        "  OK shared/reasoning/1.1.1.js (25.3 KB)",
+        "  OK shared/procedure/1.1.1.js (4.6 KB)",
+        "  OK shared/skilltree/1.1.1.js (0.5 KB)",
+        "  OK Quiz: 15 questions, 4 categories",
+        "  OK Stappenplan: 1 procedure(s) defined",
+        "",
+        "-- Part B QC artifacts --",
+        "  OK Companion review: 1.1.1-companion-visual-review.md (verdict PASS WITH FLAGS)",
+        "",
+        "-- B02 cross-surface procedure parity --",
+        "  OK B02 procedure parity checked 10 surface(s) against canonical 4-step procedure",
+        "",
+        "==========================================",
+        "OK Paragraph 1.1.1 \"Schaarste en economisch denken\" PASSED all checks."
+      ]
+    },
+    {
+      "command": "node scripts\\validate-paragraph.js --mode part-a --profile publisher-print \"C:\\Projects\\4veco\\4veco-lessen\\Boek 1 - Grondslagen, vraag en aanbod\\1.1 Hoofdstuk Economisch denken en rekenen\\1.1.1 Schaarste en economisch denken\"",
+      "status": "passed",
+      "output_tail": [
+        "  OK paragraaf.md: 1.1.1 Schaarste en economisch denken – paragraaf.md",
+        "  OK opgaven.md: 1.1.1 Schaarste en economisch denken – opgaven.md",
+        "  OK antwoorden.md: 1.1.1 Schaarste en economisch denken – antwoorden.md",
+        "  OK 1.1.1 Schaarste en economisch denken – paragraaf.pdf (378 KB)",
+        "  OK 1.1.1 Schaarste en economisch denken – opgaven.pdf (126 KB)",
+        "  OK 1.1.1 Schaarste en economisch denken – antwoorden.pdf (25 KB)",
+        "  OK build_pdf.py",
+        "",
+        "-- Asset integrity --",
+        "  OK 6 web_light/web_dark variant pair(s) symmetric",
+        "  OK 5 image refs all resolve",
+        "  OK 32 companion asset(s) declared in _paragraph-plan.md",
+        "  OK _assets/: 32 SVGs, 36 PNGs",
+        "",
+        "-- Part A QC artifacts --",
+        "  OK Part A review: 1.1.1-review.md (verdict PASS WITH FLAGS)",
+        "  OK Quality ref: 1.1.1-quality-ref.yaml (valid)",
+        "",
+        "==========================================",
+        "OK Paragraph 1.1.1 \"Schaarste en economisch denken\" PASSED all checks."
+      ]
+    },
+    {
+      "command": "node scripts\\validate-paragraph.js --mode complete --profile student-web \"C:\\Projects\\4veco\\4veco-lessen\\Boek 1 - Grondslagen, vraag en aanbod\\1.1 Hoofdstuk Economisch denken en rekenen\\1.1.2 Percentages en indexcijfers\"",
+      "status": "passed",
+      "output_tail": [
+        "  14/14 required Part B files present (student-web)",
+        "",
+        "-- Part B plan and game data --",
+        "  OK _paragraph-plan.md",
+        "  OK shared/questions/1.1.2.js (5.4 KB)",
+        "  OK shared/newsdetective/1.1.2.js (4.7 KB)",
+        "  OK shared/reasoning/1.1.2.js (6.7 KB)",
+        "  OK shared/procedure/1.1.2.js (10.3 KB)",
+        "  OK shared/skilltree/1.1.2.js (0.3 KB)",
+        "  OK Quiz: 12 questions, 4 categories",
+        "  OK Stappenplan: 3 procedure(s) defined",
+        "",
+        "-- Part B QC artifacts --",
+        "  OK Companion review: 1.1.2-companion-visual-review.md (verdict PASS WITH FLAGS)",
+        "",
+        "-- Declared procedure step-count parity --",
+        "  OK Procedure step-count parity checked 3 declared procedure(s)",
+        "",
+        "==========================================",
+        "OK Paragraph 1.1.2 \"Percentages en indexcijfers\" PASSED all checks."
+      ]
+    },
+    {
+      "command": "npm.cmd run check:book -- \"C:\\Projects\\4veco\\4veco-lessen\\Boek 1 - Grondslagen, vraag en aanbod\"",
+      "status": "passed",
+      "output_tail": [
+        "OK paragraph 1.2.1",
+        "OK paragraph 1.2.2",
+        "OK paragraph 1.2.3",
+        "OK paragraph 1.2.4",
+        "OK paragraph 1.3.1",
+        "OK paragraph 1.3.2",
+        "OK paragraph 1.3.3",
+        "OK paragraph 1.3.4",
+        "OK paragraph 1.4.1",
+        "OK paragraph 1.4.2",
+        "OK paragraph 1.4.3",
+        "OK paragraph 1.4.4",
+        "OK paragraph 1.4.5",
+        "OK paragraph 1.5.1",
+        "OK paragraph 1.5.2",
+        "OK paragraph 1.5.3",
+        "OK paragraph 1.5.4",
+        "",
+        "==========================================",
+        "BOOK HEALTH CHECK PASSED: 26/26 checks passed."
+      ]
+    }
+  ],
+  "generated_output_touched": true,
+  "hand_patch_absent": true,
+  "hand_patch_absent_evidence": [
+    "Generated lesson-target procedure data is produced by platform script b1-111-procedure-data.js.",
+    "Proof records and pilot surfaces are lesson-owned proof artifacts, not generated student output.",
+    "PV records remain in references/data/procedure-visual; no references/machine PV registry is created."
+  ],
+  "proof_artifacts": [
+    "pv-g4-proof-records/reports/PVG4-proof-001-procedure-contract-report.json",
+    "pv-g4-proof-records/PVG4-proof-001.json"
+  ],
+  "owner": "lesson_team",
+  "review_status": "submitted_for_pv_g4_review",
+  "notes": "Proof 001 validates that the 1.1.1 procedure-game data maps to formal B02/PV steps and that lesson surfaces no longer drift to the old three-step route."
+}
