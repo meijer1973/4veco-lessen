@@ -195,13 +195,14 @@ Figuur 2 vergelijkt twee alternatieven en laat zien hoe je de alternatieve koste
 
 ### Economisch denken: kiezen bij schaarste
 
-Economie draait om het maken van keuzes bij schaarste. Economen analyseren die keuzes systematisch:
+Economie draait om het maken van keuzes bij schaarste. Economen analyseren die keuzes systematisch met de 4-stappenprocedure voor economisch denken:
 
-1. **Welke alternatieven zijn er?** — Welke opties heb je?
-2. **Wat levert elk alternatief op?** — Wat is de opbrengst of waarde?
-3. **Wat geef je op?** — Wat zijn de alternatieve kosten?
+1. **Benoem alternatieven.** — Welke opties heb je voor het schaarse middel?
+2. **Bereken opbrengst per alternatief.** — Wat levert elke optie op?
+3. **Rangschik.** — Het beste niet-gekozen alternatief bepaalt de alternatieve kosten.
+4. **Bereken nettowaarde.** — Opbrengst gekozen alternatief − alternatieve kosten.
 
-Dit noemen we **economisch denken**: je weegt de voor- en nadelen van elke optie tegen elkaar af. Een keuze is economisch verstandig als de opbrengst van het gekozen alternatief groter is dan de alternatieve kosten.
+Dit noemen we **economisch denken**: je weegt de voor- en nadelen van elke optie tegen elkaar af. Volgens deze opbrengstmaat is een keuze voordelig als de opbrengst van het gekozen alternatief groter is dan de alternatieve kosten.
 
 Neem de boer uit de openingstabel. Hij heeft 10 hectare land en twee opties:
 
@@ -210,11 +211,11 @@ Neem de boer uit de openingstabel. Hij heeft 10 hectare land en twee opties:
 | Tarwe | €500 | €5.000 |
 | Maïs | €350 | €3.500 |
 
-Als hij kiest voor tarwe, zijn zijn alternatieve kosten de opbrengst van maïs: €3.500. De winst van zijn keuze ten opzichte van het alternatief is €5.000 − €3.500 = €1.500.
+Als hij kiest voor tarwe, zijn zijn alternatieve kosten de totale winst met maïs: €3.500. De nettowaarde van zijn keuze is €5.000 − €3.500 = €1.500.
 
 Dit patroon — alternatieven vergelijken en de kosten van je keuze berekenen — is de kern van economisch denken. Het helpt je om betere beslissingen te nemen, of je nu een scholier bent die €20 uitgeeft of een boer die zijn land indeelt.
 
-![Figuur 3: Economisch denken — het keuzeproces in drie stappen](_assets/1.1.1_fig_3.svg)
+![Figuur 3: Economisch denken — het keuzeproces in vier stappen](_assets/1.1.1_fig_3.svg)
 
 ---
 
@@ -230,7 +231,8 @@ Dit patroon — alternatieven vergelijken en de kosten van je keuze berekenen �
 |------|-------|----------|
 | 1 | Welke alternatieven zijn er? | Tarwe of maïs verbouwen |
 | 2 | Wat is de opbrengst van elk alternatief? | Tarwe: 10 × €500 = €5.000 · Maïs: 10 × €350 = €3.500 |
-| 3 | Je kiest tarwe → alternatieve kosten = opbrengst van het beste niet-gekozen alternatief | Alternatieve kosten = €3.500 (de maïsopbrengst die hij misloopt) |
+| 3 | Rangschik → beste niet-gekozen alternatief = alternatieve kosten | Tarwe is gekozen; maïs is het beste niet-gekozen alternatief. Alternatieve kosten = €3.500 |
+| 4 | Bereken nettowaarde | Nettowaarde = €5.000 − €3.500 = €1.500 |
 
 ![Uitgewerkt voorbeeld: Tarwe versus maïs — alternatieve kosten](_assets/1.1.1_we_1.svg)
 
@@ -241,7 +243,7 @@ Dit patroon — alternatieven vergelijken en de kosten van je keuze berekenen �
 > **Samenvatting §1.1.1**
 > - **Schaarste** ontstaat wanneer behoeften groter zijn dan de beschikbare middelen — daardoor moeten er keuzes worden gemaakt.
 > - Elke keuze heeft **alternatieve kosten**: de opbrengst van het beste alternatief dat je opgeeft.
-> - **Economisch denken** betekent systematisch alternatieven vergelijken: (1) welke opties zijn er? (2) wat levert elk op? (3) wat geef je op?
+> - **Economisch denken** betekent systematisch alternatieven vergelijken: (1) alternatieven benoemen, (2) opbrengsten berekenen, (3) rangschikken en alternatieve kosten bepalen, (4) nettowaarde berekenen.
 > - Alternatieve kosten zijn niet hetzelfde als de prijs die je betaalt — het gaat om wat je *misloopt*.
 > - Schaarste geldt voor iedereen: consumenten, producenten en de overheid.
 
@@ -264,7 +266,7 @@ a) Welk gewas levert de hoogste winst per hectare op? Lees dit af uit het diagra
 
 b) De boer heeft 8 hectare en kiest voor zonnebloemen. Bereken zijn totale winst.
 
-c) Wat zijn de alternatieve kosten van zijn keuze? Gebruik de procedure uit het uitgewerkt voorbeeld.
+c) Wat zijn de alternatieve kosten en nettowaarde van zijn keuze? Gebruik de 4-stappenprocedure uit het uitgewerkt voorbeeld.
 
 
 **Opgave 2** *(herken schaarste)*
@@ -302,11 +304,11 @@ c) Bij welke keuze zijn de alternatieve kosten het hoogst? Leg uit.
 
 **Opgave 4** *(trade-off met verdeling)*
 
-Een boer heeft 10 hectare land. Hij kan tarwe verbouwen (winst €500 per hectare) of maïs (winst €350 per hectare). Zijn buurvrouw heeft ook 10 hectare. Zij verdeelt haar land: 6 hectare tarwe en 4 hectare maïs.
+Een boer heeft 10 hectare land. Hij kan tarwe verbouwen (winst €500 per hectare) of maïs (winst €350 per hectare). Hij kiest voor 10 hectare tarwe. Zijn buurvrouw heeft ook 10 hectare. Zij verdeelt haar land: 6 hectare tarwe en 4 hectare maïs.
 
 a) Bereken de totale winst van de boer.
 
-b) Bereken de alternatieve kosten van de boer.
+b) Bereken de alternatieve kosten en nettowaarde van de boer.
 
 c) Bereken de totale winst van de buurvrouw.
 
@@ -358,14 +360,19 @@ Laten we dit stap voor stap toepassen op het voorbeeld van Sanne's smartphone.
 > **Procedure: Procentuele verandering berekenen**
 >
 > 1. Noteer de oude waarde en de nieuwe waarde
-> 2. Bereken: (nieuw − oud) / oud × 100%
-> 3. Positief = stijging, negatief = daling
+> 2. Bereken het verschil: nieuw − oud
+> 3. Deel het verschil door de oude waarde en vermenigvuldig met 100%
+> 4. Interpreteer het teken: positief = stijging, negatief = daling
 
 **Voorbeeld:** De smartphone steeg van €600 naar €648.
 
 - Stap 1: Oud = €600, Nieuw = €648
-- Stap 2: (648 − 600) / 600 × 100% = 48 / 600 × 100% = **8%**
-- Stap 3: Positief → het is een prijsstijging van 8%.
+- Stap 2: Verschil = 648 − 600 = €48
+- Stap 3: 48 / 600 × 100% = **8%**
+- Stap 4: Positief → het is een prijsstijging van 8%.
+
+> **Afronden**
+> Rond percentages in deze paragraaf af op 1 decimaal, tenzij de opgave iets anders vraagt. Een exact antwoord mag je erbij zetten als dat helpt om je controle te begrijpen.
 
 Figuur 1 laat het verschil zien tussen de oude en de nieuwe prijs. De oranje markering toont de stijging van €48 — dat is 8% van de oude prijs.
 
@@ -392,10 +399,10 @@ Het idee is simpel: je kiest één jaar als startpunt (het **basisjaar**) en gee
 
 > **Procedure: Indexcijfer berekenen**
 >
-> 1. Bepaal het basisjaar (index = 100)
-> 2. Bereken: (waarde / basiswaarde) × 100
-> 3. Verandering in procenten: (nieuw indexcijfer − oud indexcijfer) / oud indexcijfer × 100%
-> → Let op: indexpunten ≠ procenten (klassieke valkuil)
+> 1. Kies of controleer het basisjaar: index = 100
+> 2. Bepaal de waarde in het doeljaar en de waarde in het basisjaar
+> 3. Deel de doeljaarwaarde door de basisjaarwaarde en vermenigvuldig met 100
+> 4. Interpreteer het indexcijfer ten opzichte van 100
 
 **Voorbeeld:** Een standaard boodschappenmandje kost in 2021 €120. In 2023 kost het €150. Het basisjaar is 2021.
 
@@ -429,6 +436,13 @@ Berekening: (135 − 125) / **125** × 100% = 10 / 125 × 100% = **8%**
 
 De prijzen stegen dus met 8%, niet met 10%. Het verschil: 10 is het aantal **indexpunten**, 8% is de **procentuele stijging**. Indexpunten en procenten zijn alleen gelijk als het oude indexcijfer precies 100 is.
 
+> **Procedure: Indexpunten en procentuele verandering onderscheiden**
+>
+> 1. Noteer het oude indexcijfer en het nieuwe indexcijfer
+> 2. Bereken het verschil in indexpunten: nieuw − oud
+> 3. Deel het verschil door het oude indexcijfer en vermenigvuldig met 100%
+> 4. Benoem indexpunten en procentuele verandering apart
+
 ![Figuur 3: Indexpunten vs. procenten — de klassieke valkuil](_assets/1.1.2_fig_3.svg)
 
 > **⚠️ Let op — veelgemaakte fout**
@@ -453,8 +467,9 @@ De prijzen stegen dus met 8%, niet met 10%. Het verschil: 10 is het aantal **ind
 | Stap | Uitwerking |
 |------|-----------|
 | 1. Noteer de oude en nieuwe waarde | Oud = €1,80 · Nieuw = €1,98 |
-| 2. (nieuw − oud) / oud × 100% | (1,98 − 1,80) / 1,80 × 100% = 0,18 / 1,80 × 100% = **10%** |
-| 3. Positief of negatief? | Positief → prijsstijging van 10% |
+| 2. Bereken het verschil | 1,98 − 1,80 = €0,18 |
+| 3. Deel door oud en × 100% | 0,18 / 1,80 × 100% = **10%** |
+| 4. Interpreteer het teken | Positief → prijsstijging van 10% |
 
 ---
 
@@ -463,8 +478,9 @@ De prijzen stegen dus met 8%, niet met 10%. Het verschil: 10 is het aantal **ind
 | Stap | Uitwerking |
 |------|-----------|
 | 1. Bepaal het basisjaar | Basisjaar = 2022, basiswaarde = €1,80 |
-| 2. Index 2023 = waarde / basiswaarde × 100 | 1,98 / 1,80 × 100 = **110** |
-| 2. Index 2024 = waarde / basiswaarde × 100 | 1,89 / 1,80 × 100 = **105** |
+| 2. Bepaal de doelwaarden | 2023 = €1,98 · 2024 = €1,89 |
+| 3. Deel doelwaarde door basiswaarde en × 100 | 2023: 1,98 / 1,80 × 100 = **110** · 2024: 1,89 / 1,80 × 100 = **105** |
+| 4. Interpreteer | 2023 ligt 10% boven 2022; 2024 ligt 5% boven 2022 |
 
 ---
 
@@ -473,8 +489,9 @@ De prijzen stegen dus met 8%, niet met 10%. Het verschil: 10 is het aantal **ind
 | Stap | Uitwerking |
 |------|-----------|
 | 1. Noteer de indexcijfers | Oud (2023) = 110 · Nieuw (2024) = 105 |
-| 2. (nieuw − oud) / oud × 100% | (105 − 110) / 110 × 100% = −5 / 110 × 100% = **−4,5%** |
-| 3. Positief of negatief? | Negatief → prijsdaling van 4,5% |
+| 2. Bereken het verschil in indexpunten | 105 − 110 = −5 indexpunten |
+| 3. Deel door het oude indexcijfer en × 100% | −5 / 110 × 100% = **−4,5%** |
+| 4. Benoem beide eenheden | −5 indexpunten; prijsdaling van 4,5% |
 
 Let op: het verschil is 5 indexpunten, maar de procentuele verandering is −4,5%. Indexpunten ≠ procenten!
 
@@ -2042,7 +2059,7 @@ Hoe kan het dat een verandering in de prijs van een grondstof het hele aanbod be
 
 De **aanbodlijn** laat het verband zien tussen de prijs van een goed en de aangeboden hoeveelheid, **terwijl alle andere omstandigheden gelijk blijven** (ceteris paribus).
 
-Op de verticale as staat de prijs (P), op de horizontale as de aangeboden hoeveelheid (Q). We tekenen de aanbodlijn voor zonnepanelen. Bij een prijs van €200 per paneel bieden fabrikanten 2.000 panelen per maand aan. Bij een prijs van €400 bieden ze 6.000 panelen aan.
+Op de verticale as staat de prijs (P), op de horizontale as de aangeboden hoeveelheid (Q). We tekenen de aanbodlijn voor zonnepanelen. Bij een prijs van €200 per paneel bieden fabrikanten 400 panelen per maand aan. Bij een prijs van €400 bieden ze 800 panelen aan.
 
 ![Figuur 1: De aanbodlijn voor zonnepanelen](_assets/1.3.1_fig_1.svg)
 
@@ -2058,7 +2075,7 @@ Waarom loopt de aanbodlijn omhoog? Bij een hogere prijs is het voor meer produce
 
 ### Beweging langs de aanbodlijn
 
-Wat gebeurt er als de prijs van zonnepanelen stijgt van €200 naar €400? Je schuift *langs* de aanbodlijn omhoog: van punt A naar punt B. De aangeboden hoeveelheid stijgt van 2.000 naar 6.000 panelen.
+Wat gebeurt er als de prijs van zonnepanelen stijgt van €200 naar €400? Je schuift *langs* de aanbodlijn omhoog: van punt A naar punt B. De aangeboden hoeveelheid stijgt van 400 naar 800 panelen.
 
 Dit heet een **beweging langs de aanbodlijn**. De lijn zelf verandert niet. Je verplaatst je alleen naar een ander punt op dezelfde lijn.
 
@@ -2074,7 +2091,7 @@ Let op de pijl in figuur 2: die loopt *langs* de bestaande lijn. De lijn verschu
 
 Nu het tweede geval. De prijs van zonnepanelen blijft €200. Maar de prijs van silicium (de grondstof) verdrievoudigt. Producenten moeten bij *elke* prijs meer kosten maken. Sommige stoppen, anderen produceren minder.
 
-Bij €200 bieden ze geen 2.000, maar 1.000 panelen aan. Bij €400 geen 6.000, maar 5.000 panelen. Elk punt op de lijn schuift naar links. Er ontstaat een nieuwe aanbodlijn (A₂), links van de oude (A₁).
+Bij €200 bieden ze geen 400, maar 200 panelen aan. Bij €400 geen 800, maar 600 panelen. Elk punt op de lijn schuift naar links. Er ontstaat een nieuwe aanbodlijn (A₂), links van de oude (A₁).
 
 Dit heet een **verschuiving van de aanbodlijn**. De hele lijn verplaatst.
 
@@ -2140,10 +2157,10 @@ De onderstaande tabel laat bij elke prijs zien hoeveel panelen worden aangeboden
 
 | Prijs (€) | Q aangeboden (A₁) | Q aangeboden (A₂, kosten ↑) | Q aangeboden (A₃, subsidie) |
 |---|---|---|---|
-| 100 | 500 | 0 | 1.500 |
-| 200 | 2.000 | 1.000 | 3.000 |
-| 300 | 4.000 | 3.000 | 5.000 |
-| 400 | 6.000 | 5.000 | 7.000 |
+| 100 | 200 | 0 | 400 |
+| 200 | 400 | 200 | 600 |
+| 300 | 600 | 400 | 800 |
+| 400 | 800 | 600 | 1.000 |
 
 Zo zie je dezelfde informatie nu in drie vormen tegelijk: in de tekst hierboven, in de overzichtsfiguur, én in deze tabel.
 
@@ -4895,7 +4912,7 @@ Hieronder vind je een beknopte samenvatting van alle theorie uit Hoofdstuk 1 t/m
 
 ## Blok 1: Schaarste, alternatieve kosten en rekenen (H1.1)
 
-Schaarste ontstaat doordat je behoeften groter zijn dan je beschikbare middelen — je kunt niet alles tegelijk hebben en moet dus kiezen. Bij elke keuze horen **alternatieve kosten**: de opbrengst van het beste alternatief dat je opgeeft. Je berekent ze in drie stappen: (1) noem alle alternatieven, (2) bepaal de opbrengst van elk alternatief, (3) de alternatieve kosten zijn de opbrengst van het beste *niet-gekozen* alternatief.
+Schaarste ontstaat doordat je behoeften groter zijn dan je beschikbare middelen — je kunt niet alles tegelijk hebben en moet dus kiezen. Bij elke keuze horen **alternatieve kosten**: de opbrengst van het beste alternatief dat je opgeeft. Je gebruikt de 4-stappenprocedure voor economisch denken: (1) benoem de alternatieven, (2) bereken de opbrengst van elk alternatief, (3) rangschik en bepaal het beste *niet-gekozen* alternatief als alternatieve kosten, (4) bereken de nettowaarde: opbrengst gekozen alternatief min alternatieve kosten.
 
 Voor het rekenen gebruik je twee hulpmiddelen. De **procentuele verandering** bereken je met (nieuw − oud) / oud × 100%. Let op: je deelt altijd door de **oude** waarde. Het **indexcijfer** bereken je met waarde / basiswaarde × 100. Een verandering in *indexpunten* is niet hetzelfde als een verandering in *procenten* — voor het percentage deel je door het oude indexcijfer, niet door 100.
 
@@ -4973,15 +4990,15 @@ Vijf factoren verschuiven de **hele** vraaglijn: inkomen, voorkeuren, prijs van 
 
 **Vraag 6**
 
-> Twee consumenten hebben de volgende individuele vraag: Anna: Qv = 10 − 2P, Ben: Qv = 8 − P. Wat is de collectieve gevraagde hoeveelheid bij P = 3?
+> Twee consumenten hebben de volgende individuele vraag: Anna: Qv = 10 − 2P, Ben: Qv = 8 − P. Wat is de collectieve gevraagde hoeveelheid bij P = 6?
 
-**(A)** Qv = 18 − 3P = 18 − 9 = 9.
+**(A)** Qv = 18 − 3P = 18 − 18 = 0.
 
-**(B)** Qv = (10 − 6) + (8 − 3) = 4 + 5 = 9.
+**(B)** Qv = max(0, 10 − 12) + (8 − 6) = 0 + 2 = 2.
 
-**(C)** Qv = (10 − 6) × (8 − 3) = 4 × 5 = 20.
+**(C)** Qv = (10 − 12) × (8 − 6) = −2 × 2 = −4.
 
-**(D)** Qv = 10 + 8 − 2 × 3 = 12.
+**(D)** Qv = 10 + 8 − 2 × 6 = 6.
 
 ---
 
@@ -5097,7 +5114,7 @@ Het **winstmaximum** bereik je bij MO = MK. Produceer zolang MO ≥ MK — elke 
 
 > Een bedrijf heeft TK = 100 + 2Q². De productie stijgt van 10 naar 11 eenheden. Wat zijn de marginale kosten?
 
-**(A)** MK = 2 × 11² − 2 × 10² = 242 − 200 = 42.
+**(A)** MK = 2 × 11 − 2 × 10 = 22 − 20 = 2.
 
 **(B)** MK = TK(11) / 11 = (100 + 242) / 11 = 31,1.
 
@@ -5111,7 +5128,7 @@ Het **winstmaximum** bereik je bij MO = MK. Produceer zolang MO ≥ MK — elke 
 
 **(A)** Omdat de prijs daalt bij meer productie.
 
-**(B)** Omdat na Q = 30 de MK boven de MO komen en elke extra eenheid verlies oplevert, waardoor de totale winst daalt.
+**(B)** Omdat ergens tussen Q = 30 en Q = 50 de MK boven de MO komen en elke extra eenheid daarna verlies oplevert, waardoor de totale winst daalt.
 
 **(C)** Omdat de constante kosten stijgen bij meer productie.
 
@@ -5260,7 +5277,7 @@ Op de koffiemarkt gelden de volgende vergelijkingen:
 
 ---
 
-**Vraag (a)** *(4 punten)*
+**Vraag (a) — H1.3 Kostenstructuur: TK, GTK en spreidingseffect** *(4 punten)*
 
 Bereken de totale kosten (TK) en de gemiddelde totale kosten (GTK) bij Q = 200 en bij Q = 400.
 
@@ -5268,7 +5285,7 @@ Wat valt je op als je de GTK bij beide productieniveaus vergelijkt? Leg uit met 
 
 ---
 
-**Vraag (b)** *(4 punten)*
+**Vraag (b) — H1.4 Marktevenwicht: oplossen en controleren** *(4 punten)*
 
 Het marktevenwicht ligt bij P = 10 en Q = 180. Verifieer dit met behulp van de vraag- en aanbodfuncties.
 
@@ -5276,7 +5293,7 @@ Toon alle stappen: vergelijking opstellen, oplossen, invullen en controleren.
 
 ---
 
-**Vraag (c)** *(6 punten)*
+**Vraag (c) — H1.2/H1.4 Vraag-aanbodgrafiek en aanbodverschuiving** *(6 punten)*
 
 Een nieuwsbericht waarschuwt dat de prijs van koffiebonen met 20% zal stijgen. Door deze kostenstijging wordt de nieuwe aanbodfunctie:
 
@@ -5292,17 +5309,19 @@ Gebruik de onderstaande grafiek als uitgangspunt.
 
 ---
 
-**Vraag (d)** *(4 punten)*
+**Vraag (d) — H1.4 Marginale analyse: MO en MK bij een prijsnemer** *(4 punten)*
 
 Bij het nieuwe evenwicht ontvangt de koffiebrander een prijs van €10,67 per zak. De totale kostenfunctie is nog steeds TK = 800 + 3Q.
 
 Bereken de marginale kosten (MK) en de marginale opbrengsten (MO).
 
-Moet de koffiebrander bij het nieuwe evenwicht meer of minder zakken produceren dan het evenwichtsaantal van 153 zakken? Leg uit aan de hand van de vergelijking tussen MO en MK.
+Is het verkopen van één extra zak koffie bij deze prijs winstgevend voor de koffiebrander? Leg uit aan de hand van de vergelijking tussen MO en MK.
+
+Waarom kun je uit deze vergelijking niet concluderen dat deze kleine koffiebrander zelf het volledige marktevenwicht van 153 zakken moet produceren?
 
 ---
 
-**Vraag (e)** *(2 punten)*
+**Vraag (e) — H1.1 Procentuele verandering** *(2 punten)*
 
 Bereken de procentuele verandering van de evenwichtsprijs (van het oude naar het nieuwe evenwicht).
 
@@ -5310,7 +5329,7 @@ Stijgt de evenwichtsprijs met hetzelfde percentage als de koffiebonenprijs (20%)
 
 ---
 
-**Vraag (f)** *(4 punten)*
+**Vraag (f) — H1.3/H1.4 Standpuntbepaling: aantal aanbieders en consumenteneffect** *(4 punten)*
 
 Een mede-ondernemer wil een tweede koffiebrander openen in dezelfde buurt.
 
@@ -5397,9 +5416,9 @@ Snoepfabriek ZoetGenoeg produceert zakken snoep. De totale kostenfunctie is:
 
 De verkoopprijs is vast: **P = €30 per zak**.
 
-De onderstaande tabel toont de kosten, opbrengsten en winst bij verschillende productieniveaus. De marginale kosten (MK) en marginale opbrengsten (MO) zijn berekend per blok van 5 stuks.
+De onderstaande tabel toont de kosten, opbrengsten en winst bij verschillende productieniveaus. De marginale kosten (MK) en marginale opbrengsten (MO) zijn per stuk berekend over het laatst toegevoegde blok van 5 stuks.
 
-| Q | TK = 100 + Q² (€) | TO = 30Q (€) | Winst (€) | MK (per 5 stuks, €) | MO (€) |
+| Q | TK = 100 + Q² (€) | TO = 30Q (€) | Winst (€) | MK (per stuk over laatste blok, €) | MO (per stuk, €) |
 |---|-------------------|-------------|-----------|---------------------|--------|
 | 0 | 100 | 0 | −100 | — | — |
 | 5 | 125 | 150 | 25 | 5 | 30 |
@@ -5437,7 +5456,7 @@ Lees het onderstaande krantenbericht.
 
 **21** *(2p)* Biodiesel is een substituut voor benzine. De kosten van biodiesel zijn gedaald. Leg uit wat het effect is van de dalende biodieselkosten op de markt voor **benzine**. Gebruik het begrip **vraagfactor** in je antwoord.
 
-**22** *(2p)* Noem de drie stappen van economisch denken en pas ze kort toe op de keuze van een automobilist tussen benzine en biodiesel.
+**22** *(2p)* Noem de vier stappen van economisch denken en pas ze kort toe op de keuze van een automobilist tussen benzine en biodiesel.
 
 **23** *(4p)* Het Centraal Bureau voor de Statistiek publiceert indexcijfers voor motorbrandstof. In 2023 was het indexcijfer 100, in 2024 was het 108, en in 2025 is het 120. Een klasgenoot beweert: *"De prijs is dus van 2024 tot 2025 met 12 procent gestegen, want 120 − 108 = 12."* Leg uit waarom deze redenering fout is en bereken de juiste procentuele stijging tussen 2024 en 2025.
 
@@ -5469,6 +5488,8 @@ De marktprijs is **P = €80**.
 <div class="book-glossary">
 <h1>Begrippenlijst</h1>
 <dl>
+<dt>alternatieve kosten</dt>
+<dd>De opbrengst of waarde van het beste niet-gekozen alternatief.</dd>
 <dt>arbeid <span class="term-abbrev">(L)</span></dt>
 <dd>Menselijke inspanning, zowel fysiek als mentaal, ingezet om goederen en diensten te produceren. In de macro-economie aangeduid met L en gemeten in gewerkte uren of aantal werkenden.</dd>
 <dt>betalingsbereidheid</dt>
@@ -5500,6 +5521,8 @@ De marktprijs is **P = €80**.
 <dt>producentensurplus <span class="term-abbrev">(PS)</span></dt>
 <dd>Het verschil tussen de marktprijs en de minimumprijs waarvoor aanbieders bereid zijn te leveren. In een vraag-aanbod-diagram is het de driehoek onder de marktprijs en boven de aanbodlijn.</dd>
 <dd class="term-formula"><code>PS = ½ × (P* − P_min) × Q*  (bij lineaire aanbod)</code></dd>
+<dt>schaarste</dt>
+<dd>Situatie waarin middelen beperkt zijn ten opzichte van behoeften, waardoor kiezen noodzakelijk is.</dd>
 <dt>subsidies</dt>
 <dd>Bijdrage die de overheid per verkocht product geeft aan aanbieders. De collectieve aanbodlijn verschuift verticaal omlaag met het subsidiebedrag, waardoor de marktprijs daalt.</dd>
 <dt>totale kosten <span class="term-abbrev">(TK)</span></dt>
@@ -5529,6 +5552,7 @@ De marktprijs is **P = €80**.
 <li><span class="book-kind book-kind-procedure">Procedure</span> Procentuele verandering berekenen</li>
 <li><span class="book-kind book-kind-definitie">Definitie</span> Indexcijfer</li>
 <li><span class="book-kind book-kind-procedure">Procedure</span> Indexcijfer berekenen</li>
+<li><span class="book-kind book-kind-procedure">Procedure</span> Indexpunten en procentuele verandering onderscheiden</li>
 <li><span class="book-kind book-kind-procedure">Procedure</span> Grafiek tekenen van tabeldata</li>
 <li><span class="book-kind book-kind-definitie">Definitie</span> Assenconventie in de economie</li>
 <li><span class="book-kind book-kind-procedure">Procedure</span> Waarden aflezen uit een grafiek</li>

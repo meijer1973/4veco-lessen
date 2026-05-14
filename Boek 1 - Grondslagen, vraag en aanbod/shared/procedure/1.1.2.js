@@ -18,6 +18,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 1",
+          "formal_step_id": "identify_old_new_values",
           "options": [
             {
               "text": "Bepaal de oude waarde en de nieuwe waarde",
@@ -38,6 +39,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 2",
+          "formal_step_id": "calculate_difference",
           "options": [
             {
               "text": "Bereken het verschil: nieuw min oud",
@@ -58,6 +60,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 3",
+          "formal_step_id": "divide_by_old_value",
           "options": [
             {
               "text": "Deel het verschil door de oude waarde en vermenigvuldig met 100",
@@ -78,6 +81,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 4",
+          "formal_step_id": "interpret_sign",
           "options": [
             {
               "text": "Benoem stijging of daling op basis van het teken",
@@ -116,6 +120,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 1",
+          "formal_step_id": "choose_base_year",
           "options": [
             {
               "text": "Kies het basisjaar en geef dit index 100",
@@ -136,6 +141,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 2",
+          "formal_step_id": "identify_target_value",
           "options": [
             {
               "text": "Bepaal de waarde in het doeljaar",
@@ -156,6 +162,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 3",
+          "formal_step_id": "calculate_index_number",
           "options": [
             {
               "text": "Deel de doeljaarwaarde door de basisjaarwaarde en vermenigvuldig met 100",
@@ -176,6 +183,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 4",
+          "formal_step_id": "interpret_index_number",
           "options": [
             {
               "text": "Interpreteer het indexcijfer ten opzichte van 100",
@@ -214,6 +222,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 1",
+          "formal_step_id": "identify_old_index",
           "options": [
             {
               "text": "Bepaal het oude indexcijfer",
@@ -234,6 +243,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 2",
+          "formal_step_id": "identify_new_index",
           "options": [
             {
               "text": "Bepaal het nieuwe indexcijfer",
@@ -254,6 +264,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 3",
+          "formal_step_id": "calculate_index_point_difference",
           "options": [
             {
               "text": "Bereken het verschil in indexpunten",
@@ -274,6 +285,7 @@ var PROCEDURE_DATA = {
         {
           "type": "choose",
           "label": "Stap 4",
+          "formal_step_id": "convert_index_difference_to_percent",
           "options": [
             {
               "text": "Deel door het oude indexcijfer, vermenigvuldig met 100 en benoem beide eenheden apart",
