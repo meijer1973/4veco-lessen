@@ -2,7 +2,7 @@
   "schema_version": 1,
   "report_id": "PVG4-proof-002-a61-table-trace-report",
   "generated_by": "build-scripts/references/build-pv-g4-lesson-proof-records.js",
-  "generated_on": "2026-05-14T07:40:31.064Z",
+  "generated_on": "2026-05-14T14:13:13.871Z",
   "status": "passed",
   "pilot_surface": "pv-g4-proof-records/pilot-surfaces/a61-table-trace-pilot.json",
   "pv_records_used": {
