@@ -16,8 +16,8 @@ Closed sprints are recorded separately in the "Closed Sprints" section below.
 | L1.5B | Layout Round 2 - Generator Items | **2026-05-14** | **CLOSED PASS.** Platform `cb216ed160a9298f7f4393034b6c1d842a387ff9` shipped generator-owned landing/index polish: domain hooks, stronger book/chapter card hierarchy, availability chips, structured per-card pitfall support, and mobile/dark wrapping fixes. Book 1 landing/index output was regenerated through `deploy.js`. Green gates: landing generator Jest, procedure-contract validator (289 checks), `1.1.1` and `1.1.2` complete student-web validation, Book 1 health 26/26, diff hygiene, and desktop/mobile light/dark screenshot QA. Closure log: `L1.5B-closure-log.md`. |
 | L1.5G-A | Graphical Game Scope Cut And Prototype Audit | **2026-05-16** | **CLOSED PASS.** Split the oversized L1.5G into L1.5G-A through L1.5G-E after checking `knowledge/grafiekmeester_representatie_arena.html`. GrafiekMeester is an 87 KB standalone product prototype with UI, state, XP, skill tree, badges, localStorage progress, and broad graph domains, so it is a design reference rather than a direct port. MVP cut: bar/line graph reading plus old/new value selection before percentage change; technical target `1.1.2` or sandbox, fresh production proof in L1.6/`1.1.3`. Artifacts: `L1.5G-A-graphical-game-scope-plan.md`, `L1.5G-A-prototype-extraction-matrix.md`, `L1.5G-A-mvp-data-model-sketch.md`. |
 | L1.5G-B | Adaptive Input Seam Contract | **2026-05-16** | **CLOSED PASS.** Platform `9014a50eb85ccbd48c0770bf677b36d75455aa48` added an inert `adaptive-seam.js` helper with localStorage key `4veco.adaptivePayload.v1`, wired quiz/newsdetective/reasoning/skilltree/procedure engines to read and store the normalized payload without using it for gameplay, added focused seam tests, updated shell builders and deploy copy list, and regenerated Book 1 game shells through `deploy.js`. Green gates: focused seam Jest 8/8, deploy link/data checks, procedure-contract validator 289 checks, `1.1.1` + `1.1.2` complete student-web validation, Book 1 health 26/26, full platform Jest 488 passed / 7 skipped. No advisor, diagnostics, adaptive routing, mastery, sequencing, AI, summative use, PV projection, or PV machine promotion. Closure log: `L1.5G-B-closure-log.md`. |
-| L1.5G-C | Graphical Game MVP Engine | no | **NEXT GAME-TRACK SPRINT.** Build the sixth platform game from the narrow MVP only: platform-owned engine/UI/CSS, shell generator, data validator, and 3-5 explicit challenge records. No full skill tree, badges, campaign mode, producer graphs, elasticity graphs, market-equilibrium manipulation, broad random-generator universe, or adaptive behavior beyond reading the default seam. |
-| L1.5G-D | Three-Aspect Game Routing | no | Define and route the three learning aspects clearly: reasoning, calculation, and graphical representation. Add the graphical-game route to one pilot paragraph without creating game soup or student-facing PV/adaptive claims. |
+| L1.5G-C | Graphical Game MVP Engine | **2026-05-16** | **CLOSED PASS.** Platform `042d7aea4f4cfbe5cd026a3a29cbb57891f795be` added the sixth game as a narrow graphical MVP: engine/UI/CSS, shell generator, data builder, tests, deploy wiring, landing-card detection, and explicit `1.1.2` pilot data. Generated output was rebuilt through `deploy.js`: `shared/graphical/1.1.2.js`, shared graphical engine files, `1.1.2 ... – grafiekenspel.html`, and the `1.1.2` landing page. Green gates: focused graphical/adaptive Jest 20/20, deploy link/data checks, `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, platform Jest 494 passed / 8 skipped, desktop/mobile Chrome screenshot smoke. No PV projection, adaptive behavior, diagnostics, mastery, sequencing, AI, or summative use. Closure log: `L1.5G-C-closure-log.md`. |
+| L1.5G-D | Three-Aspect Game Routing | no | **NEXT GAME-TRACK SPRINT.** Define and route the three learning aspects clearly: reasoning, calculation, and graphical representation. Add the graphical-game route to one pilot paragraph without creating game soup or student-facing PV/adaptive claims. |
 | L1.5G-E | Integration, QA, And Review Gate | no | Close the split L1.5G track only after generated lesson output is reachable and usable, validators pass, desktop/mobile light/dark screenshots are checked, procedure-contract validation remains green where relevant, and teacher/student review runs if the graphical MVP is used in a real paragraph. |
 | L1.4-PARITY | 1.1.2 Procedure And Quality Cleanup | **2026-05-13** | **CLOSED 2026-05-13 PASS WITH FLAGS.** Narrow follow-up after the post-L1.4 review. Canonicalized §1.1.2 to four-step student-facing procedures across Part A, companion pages, presentation-v2, procedure game, paragraph plan, quality-ref, and chapter plan; added an explicit 1-decimal rounding rule; fixed opgave 5c so rounded `16,7%` is not treated as exact; framed CBS April 2026 as a `snelle raming` exercise; corrected presentation-v2 route aria labels and reasoning metadata title discovery; documented skilltree A38/A39 coverage. Added validator parity gate comparing declared procedure step counts in `quality-ref.yaml` with shared procedure data. Green gates: complete student-web validation, publisher-print Part A validation, focused Jest, full `check:book`, deploy link/data checks, and presentation-v2 automated screenshot QA. Plan: `L1.4-PARITY-sprint-plan.md`. Remaining flag: formal teacher/student review still required before final house-style promotion. |
 | L1.5D-B02 | 1.1.1 Cross-Surface Parity + Bookkeeping Fix | **2026-05-12** | **CLOSED 2026-05-12 PASS**. Narrow follow-up after the second web-PowerPoint review. Fixed the §1.1.1 Part A / Part B drift to the four-step economisch-denken procedure with nettowaarde, removed student-facing `B02` unit-code labels from generated/student pages, regenerated Part A HTML/PDF + companion DOCX-derived HTML + presentation PPTX/HTML + quiz/YouTube/shared CSS through the platform workflow, fixed `convert_presentatie.py` so the official `presentatie.pptx` is selected instead of local prototype decks, and taught the link checker to ignore `*-prototype.html` baselines as non-navigation artifacts. Completion log: `L1.5D-b02-cross-surface-parity-plan.md`; refreshed Part A review: `1.1.1-review.md`. |
@@ -70,6 +70,7 @@ Updated: 2026-05-14 (PV-G4 report-state cleanup) - the platform PV-G4 intake/rep
 Updated: 2026-05-14 (L1.5B close) - L1.5B closed PASS. Platform commit `cb216ed160a9298f7f4393034b6c1d842a387ff9` added domain hooks, richer generated book/chapter landing cards, structured per-card pitfall support, and mobile/dark wrapping fixes. Book 1 landing/index output was regenerated through platform `deploy.js`; green gates include landing Jest, procedure-contract validator (289 checks), `1.1.1` + `1.1.2` complete student-web validation, Book 1 health 26/26, diff hygiene, and desktop/mobile light/dark screenshot QA. The next lesson-game work remained under the PV-G4 condition boundary and was later split into L1.5G-A through L1.5G-E.
 Updated: 2026-05-16 (L1.5G split) - L1.5G was split into L1.5G-A through L1.5G-E after auditing `knowledge/grafiekmeester_representatie_arena.html`. L1.5G-A closed PASS with a scope plan, extraction matrix, and MVP data-model sketch. Direct port is rejected; first graphical MVP is graph reading and value selection only. L1.5G-B is next and must define the adaptive seam contract before any graphical engine work.
 Updated: 2026-05-16 (L1.5G-B close) - L1.5G-B closed PASS. Platform commit `9014a50eb85ccbd48c0770bf677b36d75455aa48` added the inert adaptive seam helper, wired all five existing game engines to read it without behavior change, updated shell generation/deploy, and regenerated Book 1 game output through `deploy.js`. Green gates: focused seam Jest, deploy link/data checks, procedure-contract validator, `1.1.1` + `1.1.2` complete student-web validation, Book 1 health, and full platform Jest. L1.5G-C is next; it may read the seam but may not claim adaptive behavior.
+Updated: 2026-05-16 (L1.5G-C close) - L1.5G-C closed PASS. Platform commit `042d7aea4f4cfbe5cd026a3a29cbb57891f795be` added the graphical-game MVP as a sixth platform game with engine/UI/CSS, shell generator, explicit `1.1.2` pilot data, tests, deploy wiring, landing-page reachability, and desktop/mobile rendered smoke checks. L1.5G-D is next; L1.5G-E remains the formal integration/review gate before L1.6.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -1644,7 +1645,7 @@ Closure evidence:
 
 ### Sprint L1.5G-C: Graphical Game MVP Engine
 
-Completed: no.
+Completed: 2026-05-16.
 
 Position: after L1.5G-B.
 
@@ -1654,14 +1655,34 @@ Create a narrow platform-owned sixth game from the L1.5G-A MVP cut.
 
 Work:
 
-- add `engines/graphical-engine.js`, `engines/graphical-ui.js`, and
-  `engines/graphical.css` or equivalent final naming;
-- add a shell generator under `build-scripts/platform/`;
-- add a validated per-paragraph data format;
-- seed only 3-5 explicit challenge records;
-- use bar/line value reading and old/new percentage-change tasks;
-- support keyboard interaction, mobile layout, and light/dark mode;
-- keep PV alignment internal and non-projecting.
+- added `engines/graphical-engine.js`, `engines/graphical-ui.js`, and
+  `engines/graphical.css`;
+- added `build-scripts/platform/build-graphical-shells.js`;
+- added `build-scripts/content/book-1/b1-112-graphical-data.js`;
+- added focused graphical engine/data tests and an adaptive-seam regression
+  test for the sixth game;
+- updated `scripts/deploy.js` to copy graphical engine files and generate
+  shells;
+- updated `build-scripts/platform/build-landing-page.js` so `grafiekenspel`
+  is reachable from the paragraph landing page;
+- seeded four explicit `1.1.2` challenge records: bar value read, line value
+  read, bar old/new percentage change, and line/index old/new percentage
+  change;
+- regenerated Book 1 output through platform `deploy.js`, with no generated
+  output hand-patching.
+
+Closure evidence:
+
+- Platform commit `042d7aea4f4cfbe5cd026a3a29cbb57891f795be`.
+- Lesson closure log: `L1.5G-C-closure-log.md`.
+- Sprint plan: `L1.5G-C-graphical-game-mvp-plan.md`.
+- Generated output includes `shared/graphical/1.1.2.js`, shared graphical
+  engine files, `1.1.2 Percentages en indexcijfers – grafiekenspel.html`,
+  and a regenerated `1.1.2` landing page.
+- Green gates: focused graphical/adaptive Jest 20/20, deploy link/data checks,
+  `1.1.2` complete student-web validation, procedure-contract validator
+  289 checks, Book 1 health 26/26, platform Jest 494 passed / 8 skipped, and
+  desktop/mobile Chrome screenshot smoke.
 
 Out of scope:
 
@@ -1671,6 +1692,11 @@ Out of scope:
 - elasticity and market-equilibrium graphs;
 - broad random generator universe;
 - adaptive behavior beyond reading the default seam.
+
+Decision:
+
+Closed PASS. L1.5G-D is now the next game-track sprint. L1.5G-E remains the
+formal integration/review gate before L1.6.
 
 ### Sprint L1.5G-D: Three-Aspect Game Routing
 
