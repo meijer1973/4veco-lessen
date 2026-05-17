@@ -52,6 +52,63 @@
     font-size: 0.82rem; color: var(--ink-soft);
     line-height: 1.45; margin: 0 0 0.45rem;
   }
+  .learning-aspect-block,
+  .guided-practice-block {
+    display: grid;
+    gap: 0.85rem;
+  }
+  .guided-practice-block {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+  .learning-aspect-copy {
+    max-width: 70ch;
+  }
+  .learning-aspect-copy h3 {
+    margin: 0.1rem 0 0.25rem;
+    font-size: 1rem;
+    color: var(--ink);
+  }
+  .learning-aspect-copy p {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.84rem;
+    line-height: 1.45;
+  }
+  .resource-aspect-label {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 0 0.35rem;
+    font-family: var(--mono);
+    font-size: 0.67rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink-soft);
+  }
+  .resource-card-aspect.aspect-economisch {
+    border-left-color: var(--economisch);
+  }
+  .resource-card-aspect.aspect-wiskunde {
+    border-left-color: var(--wiskundig);
+  }
+  .resource-card-aspect.aspect-grafisch {
+    border-left-color: var(--grafisch);
+  }
+  .resource-card-aspect.aspect-economisch .resource-card-icon {
+    color: var(--economisch);
+    background: var(--economisch-tint);
+  }
+  .resource-card-aspect.aspect-wiskunde .resource-card-icon {
+    color: var(--wiskundig);
+    background: var(--wiskundig-tint);
+  }
+  .resource-card-aspect.aspect-grafisch .resource-card-icon {
+    color: var(--grafisch);
+    background: var(--grafisch-tint);
+  }
   .resource-card-action {
     display: inline-block;
     font-size: 0.78rem; font-weight: 600;
