@@ -1,5 +1,5 @@
 # Quality Reference - 1.1.2 Percentages en indexcijfers
-# Refreshed: 2026-05-13 (L1.4-PARITY procedure and quality cleanup)
+# Refreshed: 2026-05-17 (L1.5G-E graphical-game review fix)
 
 paragraph: "1.1.2"
 title: "Percentages en indexcijfers"
@@ -31,7 +31,7 @@ partA:
 companion:
   review_file: "1.1.2-companion-visual-review.md"
   review_verdict: "PASS WITH FLAGS"
-  last_reviewed: "2026-05-13"
+  last_reviewed: "2026-05-17"
   hard_fails_open: 0
   default_office_exports: false
   student_facing_internal_codes: false
@@ -57,3 +57,4 @@ companion:
       stappenplan: clean
       redeneer_spel: clean
       wiskundevaardigheden: clean
+      grafiekenspel: revised_pending_final_review
