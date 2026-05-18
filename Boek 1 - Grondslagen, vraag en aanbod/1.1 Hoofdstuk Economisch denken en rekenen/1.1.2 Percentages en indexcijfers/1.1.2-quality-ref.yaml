@@ -1,5 +1,5 @@
 # Quality Reference - 1.1.2 Percentages en indexcijfers
-# Refreshed: 2026-05-17 (L1.5G-E graphical-game review fix)
+# Refreshed: 2026-05-18 (L1.5G-E final-feedback review fix)
 
 paragraph: "1.1.2"
 title: "Percentages en indexcijfers"
@@ -57,4 +57,4 @@ companion:
       stappenplan: clean
       redeneer_spel: clean
       wiskundevaardigheden: clean
-      grafiekenspel: revised_pending_final_review
+      grafiekenspel: final_feedback_revised_pending_recheck
