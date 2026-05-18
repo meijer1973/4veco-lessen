@@ -42,7 +42,23 @@
       "id": "1.1.3",
       "name": "Grafieken en tabellen",
       "chapter": "1.1",
-      "domain": "teal"
+      "domain": "teal",
+      "skilltree": {
+        "skills": [
+          "A61",
+          "A62",
+          "A63",
+          "A38",
+          "A39"
+        ],
+        "chapterSkills": [
+          "A38",
+          "A39",
+          "A61",
+          "A62",
+          "A63"
+        ]
+      }
     },
     {
       "id": "1.1.4",

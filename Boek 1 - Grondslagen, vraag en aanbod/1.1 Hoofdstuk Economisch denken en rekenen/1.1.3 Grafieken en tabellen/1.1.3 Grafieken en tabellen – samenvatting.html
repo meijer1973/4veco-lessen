@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="nl" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grafieken en tabellen - Samenvatting</title>
+  <link rel="stylesheet" href="../../shared/voorkennis.css">
+  <script>(function(){try{var m=localStorage.getItem("quizMode");if(!m&&matchMedia("(prefers-color-scheme: dark)").matches)m="dark";if(m==="dark")document.documentElement.setAttribute("data-theme","dark");}catch(e){}})();</script>
+  <style>
+    .lesson-shell{max-width:1180px;margin:0 auto;padding:28px 24px 56px}
+    .back-row{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:14px}
+    .back-row a{color:var(--accent);font-weight:800;text-decoration:none}
+    .lesson-hero{padding:26px 0 20px;border-bottom:1px solid var(--border);margin-bottom:24px}
+    .lesson-kicker{font:700 .78rem var(--mono);text-transform:uppercase;color:var(--accent);letter-spacing:.08em}
+    .lesson-hero h1{margin:.45rem 0 .4rem;font-size:clamp(2rem,4vw,3.3rem);line-height:1.05;letter-spacing:0}
+    .lesson-sub{max-width:830px;color:var(--ink-soft);font-size:1.03rem;line-height:1.55}
+    .lesson-nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+    .lesson-nav a{padding:8px 12px;border:1px solid var(--border);border-radius:8px;text-decoration:none;color:var(--ink);background:var(--bg-card);font-weight:700;font-size:.9rem}
+    .lesson-nav a.active{background:var(--accent);border-color:var(--accent);color:#fff}
+    .content-grid{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:24px;align-items:start}
+    .main-flow{display:grid;gap:18px}
+    .side-note{position:sticky;top:20px;border:1px solid var(--border);border-radius:8px;padding:16px;background:var(--bg-card)}
+    .side-note h2{font-size:1.05rem;margin:0 0 8px}
+    .lesson-card,.step-card,.example-card{border:1px solid var(--border);border-radius:8px;padding:16px;background:var(--bg-card);box-shadow:var(--shadow-card)}
+    .lesson-card h2,.step-card h3,.example-card h3{margin-top:0}
+    .card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .triple-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .step-list{counter-reset:step;display:grid;gap:10px;padding:0;margin:0;list-style:none}
+    .step-list li{counter-increment:step;position:relative;padding:12px 12px 12px 48px;border:1px solid var(--border);border-radius:8px;background:var(--bg)}
+    .step-list li:before{content:counter(step);position:absolute;left:12px;top:12px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font-weight:800}
+    .data-table{width:100%;border-collapse:collapse;background:var(--bg);border-radius:8px;overflow:hidden}
+    .data-table th,.data-table td{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}
+    .data-table th{background:var(--bg-lift)}
+    .formula{font-family:var(--mono);background:var(--bg-lift);border-radius:8px;padding:12px;overflow:auto}
+    .callout{border-left:5px solid var(--accent);background:var(--accent-soft);padding:14px 16px;border-radius:8px}
+    .warning{border-left-color:var(--letop-ink);background:var(--letop-bg)}
+    .mini-chart{display:grid;gap:10px}
+    .bar-row{display:grid;grid-template-columns:96px 1fr 62px;gap:10px;align-items:center}
+    .bar-track{height:18px;border-radius:999px;background:color-mix(in oklab,var(--accent) 14%,var(--bg-lift));overflow:hidden}
+    .bar-fill{height:100%;border-radius:999px;background:var(--accent)}
+    details.lesson-card summary{cursor:pointer;font-weight:800}
+    @media(max-width:980px){.content-grid{grid-template-columns:1fr}.side-note{position:static}.triple-grid,.card-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body data-accent-domain="grafisch">
+  <main class="lesson-shell">
+    <div class="back-row">
+      <a href="index.html">&larr; Terug naar overzicht</a>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Licht/donker wisselen"></button>
+    </div>
+    <header class="lesson-hero">
+      <span class="lesson-kicker">&sect;1.1.3 - Samenvatting</span>
+      <h1>Grafieken en tabellen</h1>
+      <p class="lesson-sub">De kern van tabellen en grafieken: eerst lezen, dan tekenen of rekenen.</p>
+      <nav class="lesson-nav" aria-label="Companion onderdelen">
+<a href="1.1.3 Grafieken en tabellen – uitleg voorkennis.html">Voorkennis</a>
+<a href="1.1.3 Grafieken en tabellen – uitleg vaardigheden.html">Vaardigheden</a>
+<a class="active" href="#">Samenvatting</a>
+<a href="1.1.3 Grafieken en tabellen – begeleide inoefening.html">Oefenen</a>
+<a href="1.1.3 Grafieken en tabellen – nieuws met visual.html">Nieuws</a>
+<a href="1.1.3 Grafieken en tabellen – youtube-videos.html">Video's</a>
+      </nav>
+    </header>
+    <section class="main-flow">
+      <article class="lesson-card">
+        <h2>Onthoudschema</h2>
+        <div class="triple-grid">
+          <div class="step-card"><h3>Tabel</h3><p>Lees kolomkoppen, rijlabels en eenheden voordat je een getal kiest.</p></div>
+          <div class="step-card"><h3>Grafiek</h3><p>In economie staat prijs op de verticale as en hoeveelheid op de horizontale as.</p></div>
+          <div class="step-card"><h3>Claim</h3><p>Vraag bij elk percentage: vergeleken met wat?</p></div>
+        </div>
+      </article>
+      <article class="lesson-card">
+        <h2>Veelgemaakte fouten</h2>
+        <table class="data-table">
+          <thead><tr><th>Fout</th><th>Hoe voorkom je die?</th></tr></thead>
+          <tbody>
+            <tr><td>Prijs op de horizontale as zetten</td><td>Controleer de economie-conventie: P verticaal, Q horizontaal.</td></tr>
+            <tr><td>Een zichtbaar getal pakken zonder label</td><td>Schrijf altijd de eenheid en het label naast het getal.</td></tr>
+            <tr><td>Een grafiek geloven zonder schaalcheck</td><td>Bekijk of de as bij nul begint en welke stappen de schaal gebruikt.</td></tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+  </main>
+  <script src="../../shared/theme.js"></script>
+  <script src="../../shared/voorkennis.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafieken en tabellen – Stappenplan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../../shared/procedure.css">
+</head>
+<body>
+<div class="p-app">
+    <div class="p-header">
+        <h1><span class="par-badge">1.1.3</span> Grafieken en tabellen – Stappenplan</h1>
+    </div>
+
+    <div class="p-content-layout">
+    <div class="p-main-area">
+
+    <!-- Menu Screen -->
+    <div id="p-menu" class="p-screen active">
+        <h2 class="p-menu-title">Stappenplannen oefenen</h2>
+        <p class="p-menu-subtitle">Kies een procedure en bouw het stappenplan op. De eerste en laatste stap zijn gegeven — jij kiest de tussenstappen.</p>
+        <div class="p-procedure-grid" id="p-procedure-grid"></div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="p-game" class="p-screen">
+        <div class="p-game-bar">
+            <button class="p-back-btn" id="p-back-btn">← Menu</button>
+            <span class="p-game-title" id="p-game-title"></span>
+            <span class="p-step-counter" id="p-step-counter">0/0 gekozen</span>
+        </div>
+        <div class="p-pipeline-wrapper">
+            <div class="p-pipeline" id="p-pipeline"></div>
+        </div>
+        <div class="p-btn-row">
+            <button class="p-btn" id="p-check-btn" disabled><i class="fa-solid fa-check-double"></i> Controleer</button>
+            <button class="p-btn" id="p-next-btn" style="display:none"><i class="fa-solid fa-arrow-right"></i> Bekijk resultaat</button>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="p-results" class="p-screen p-results">
+        <div class="p-results-emoji" id="p-results-emoji"></div>
+        <h2 class="p-results-title" id="p-results-title"></h2>
+        <p class="p-results-score" id="p-results-score"></p>
+        <div class="p-results-bar"><div class="p-results-fill" id="p-results-fill"></div></div>
+        <div class="p-results-detail" id="p-results-detail"></div>
+        <div class="p-btn-row">
+            <button class="p-btn" id="p-replay-btn"><i class="fa-solid fa-rotate-right"></i> Opnieuw proberen</button>
+            <button class="p-btn p-btn-secondary" id="p-menu-btn">Ander stappenplan →</button>
+        </div>
+    </div>
+
+    </div><!-- /p-main-area -->
+
+    <div class="p-sidebar">
+        <h3 class="p-sidebar-title"><i class="fa-solid fa-list-check"></i> Stappenplannen</h3>
+        <ul class="p-sidebar-list" id="p-sidebar-list"></ul>
+    </div>
+
+    </div><!-- /p-content-layout -->
+</div>
+<script src="../../shared/theme.js"></script>
+<script src="../../shared/procedure/1.1.3.js"></script>
+<script src="../../shared/adaptive-seam.js"></script>
+<script src="../../shared/procedure-engine.js"></script>
+<script src="../../shared/procedure-ui.js"></script>
+</body>
+</html>
