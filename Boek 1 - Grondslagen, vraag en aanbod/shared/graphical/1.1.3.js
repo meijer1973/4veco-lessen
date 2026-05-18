@@ -86,24 +86,24 @@ var GRAPHICAL_GAME_DATA = {
         "unit": "euro",
         "series": [
           {
-            "label": "300 broodjes",
-            "value": 2
-          },
-          {
-            "label": "250 broodjes",
-            "value": 2.5
-          },
-          {
-            "label": "200 broodjes",
-            "value": 3
+            "label": "100 broodjes",
+            "value": 4
           },
           {
             "label": "150 broodjes",
             "value": 3.5
           },
           {
-            "label": "100 broodjes",
-            "value": 4
+            "label": "200 broodjes",
+            "value": 3
+          },
+          {
+            "label": "250 broodjes",
+            "value": 2.5
+          },
+          {
+            "label": "300 broodjes",
+            "value": 2
           }
         ]
       },
