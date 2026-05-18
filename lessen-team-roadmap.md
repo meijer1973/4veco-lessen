@@ -7,8 +7,8 @@ Closed sprints are recorded separately in the "Closed Sprints" section below.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.5P | Boek 1 Print-Edition Cut + 2026/27 12-Paragraph Scope | no | **URGENT / ACTIVE PRINT TRACK.** Trim Boek 1 for publisher hand-off under the new 2026/27 scope: printed Boek 1 contains 12 count-bearing paragraphs only. Test preparation moves to website-only. Costs, revenue, and marginal-analysis material are excluded from Book 1 print and recorded for migration to later books. Keep all cut material reachable online or parked with a clear migration note. Rebuild book assembly and run publisher-print + check:book gates. |
-| L1.5Q | Course Blueprint v5 + Four Test-Week Book Plan | no | **NEW CURRICULUM-SOURCE SPRINT.** After L1.5P, update the full course blueprint to the 12/12/14/16 paragraph distribution. Record one formal test-week scope per book. Mark test-preparation packages as web-only and not counted. Update or regenerate target-exercise references so v5 becomes the source of truth. |
+| L1.5Q | Course Blueprint v5 + Four Test-Week Book Plan | no | **ACTIVE CURRICULUM-SOURCE SPRINT.** After the L1.5P print cut, update the full course blueprint to the 12/12/14/16 paragraph distribution. Record one formal test-week scope per book. Mark test-preparation packages as web-only and not counted. Update or regenerate target-exercise references so v5 becomes the source of truth. |
+| L1.5P | Boek 1 Print-Edition Cut + 2026/27 12-Paragraph Scope | **2026-05-18** | **CLOSED PASS.** Printed Book 1 is generated through the platform book workflow from a 12-paragraph print manifest: chapters 1.1 and 1.2 plus a composed print chapter 1.3 (`Aanbod en marktevenwicht`). Test preparation is website-only; cost/revenue/marginal-analysis material remains online/parked for later migration. Green gates: print-scope checker 12/12, `check:book` 26/26, focused print-scope Jest 3/3, full platform Jest 500 passed / 8 skipped, PDF generated. Logs: `L1.5P-sprint-plan.md`, `L1.5P-cut-survival-map.md`, `L1.5P-closure-log.md`. |
 | L1.6 | Second Pipeline Regression Paragraph | no | After L1.5P/L1.5Q sequencing is made safe for print and curriculum-source work. Third Book 1 paragraph build confirms Round 2 layout + the new graphical game + the adaptive-input seam survive a fresh end-to-end build, using the L-PV contract/proof machinery for at least one procedure/visual sequence where PV data exists. Any A61 route needs full student-facing build and teacher-learning-quality review; Proof 002 alone is not enough. |
 | L1.7 | Post-Layout Scaling Decision | no | After L1.6. Decide whether to expand broadly once L1.3A-C through L1.5G have proven the layout, web-doc, game, and PV proof pipelines survive independent paragraph builds; include PV readiness in the scaling decision. L1.7 may log visible target-exercise red flags but does not perform the full target-exercise distribution audit. |
 | L2.1 | Book 1 Release Polish | no | Teacher-facing polish continues under the Book 1 health gate after the print scope is stable. |
@@ -80,6 +80,7 @@ Updated: 2026-05-17 (L1.5G-E human-review revise response) - human review return
 Updated: 2026-05-18 (L1.5G-E focused re-review revise response) - focused re-review returned REVISE because the final challenge skipped feedback and jumped straight to summary. Platform `graphical-ui.js` now renders summary only when the engine is complete and no final `lastResult` feedback is pending; the final challenge now shows diagnostic feedback and `Bron/Waarden/Berekening` first, with `Bekijk resultaat` opening the summary afterward. Added a focused UI safeguard test and regenerated lesson output through `deploy.js`. Screenshot evidence now includes desktop and true-390px mobile final-feedback states. L1.5G-E remains open until final focused human recheck accepts the revised final-feedback flow.
 Updated: 2026-05-18 (L1.5G-E close) - second-revision review accepted the final-feedback fix and closed L1.5G-E as PASS WITH FLAGS. `1.1.2-quality-ref.yaml` now records `grafiekenspel: pass_with_flags`; student-experience, teacher-learning-quality, human-review, lead-review, technical-QA, and closure-log records all agree. Flags carried forward: L1.6 must prove the graphical game and adaptive seam on a fresh paragraph; later graphical-game variants should include harder graph reading without direct value labels; PV-G4 blocked-use boundaries remain active.
 Updated: 2026-05-18 (L1.5P/L1.5Q/L2.4-TEA roadmap insertion) - checked local Book 1 assembly, chapter 1.3 plan, `course_blueprint_v4.md`, the platform target-exercise registry, and platform roadmap paths before updating the sequence. L1.5P is now the urgent active print track for the 2026/27 12-paragraph Book 1 scope; L1.5Q is the curriculum-source sprint for `course_blueprint_v5.md` and the four formal test-week book plan; L2.4-TEA is deferred until MTU quality and companion-review instruments are mature enough. Repository-map freshness note: the platform roadmap files exist locally under `knowledge/old/`, so any map pointing to `knowledge/platform-team-roadmap.md` or `knowledge/three-month-roadmap.md` is stale.
+Updated: 2026-05-18 (L1.5P close) - L1.5P closed PASS. Platform book builder now supports backwards-compatible composed print chapters, Book 1 manifest now generates the 2026/27 12-paragraph print scope, and the voorwoord says the printed book has three chapters/twelve paragraphs with test preparation on the website. Generated Book 1 markdown/HTML/PDF rebuilt through `python build-scripts/books/build-book.py --book 1`. Green gates: `check-book-print-scope` 12/12, `check:book` 26/26, focused print-scope Jest 3/3, full platform Jest 500 passed / 8 skipped. L1.5Q is now the active curriculum-source sprint.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -657,7 +658,7 @@ Operational rule for L1.4:
 
 ### Sprint L1.5V: Companion Quality Polish for 1.1.1
 
-Completed: no.
+Completed: 2026-05-09.
 
 Active 2026-05-09. Expanded scope after the `econ-companion-visual-review`
 agent ran on `uitleg voorkennis` (review file
@@ -1934,10 +1935,10 @@ Exit criteria:
 
 ### Sprint L1.5P: Boek 1 Print-Edition Cut + 2026/27 12-Paragraph Scope
 
-Completed: no.
+Completed: 2026-05-18.
 
-Position: immediate active production sprint. Hard deadline: publisher
-hand-off in a few weeks (as of 2026-05-11; owner to fill in exact date).
+Position: closed urgent production sprint. Publisher hand-off print scope is
+now generated; L1.5Q owns the broader curriculum-source update.
 
 Purpose:
 
@@ -2166,19 +2167,17 @@ Outputs:
 ### Next 1 Week
 
 - Keep Book 1 green.
-- Run L1.5P as the active production track: make Book 1 print-ready under the
-  12-paragraph 2026/27 scope, with all cut material preserved online, archived,
-  or explicitly parked for migration.
-- Continue companion pilot work only where it does not conflict with L1.5P
-  files or publisher-print deadlines.
+- Use the L1.5P print PDF as the current publisher-print baseline.
+- Start L1.5Q as the active curriculum-source track: create the v5 blueprint
+  and target-exercise source-of-truth migration path.
+- Continue companion pilot work only where it does not conflict with L1.5Q
+  source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
 - Keep Book 2 Part A planning paused behind L1.5Q if it depends on the new
   course structure.
 
 ### Next 2-4 Weeks
 
-- Close L1.5P with a 12-paragraph Book 1 print PDF and green publisher-print
-  gates.
 - Run L1.5Q so `course_blueprint_v5.md` and the target-exercise source-of-truth
   path are clear before Book 2 production.
 - `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.

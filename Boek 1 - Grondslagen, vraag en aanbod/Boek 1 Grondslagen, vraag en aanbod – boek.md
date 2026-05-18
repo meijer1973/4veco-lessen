@@ -18,44 +18,39 @@
 <div style="break-before: page;"></div>
 
 <div class="book-voorwoord">
-<h1 id="voorwoord">Voorwoord</h1>
-<p>Elke dag neem je economische beslissingen. Koop je vandaag een
-broodje kaas of geef je je geld uit aan iets anders? Ga je vanavond
-werken of ga je leren voor je toets? Achter al deze keuzes zit hetzelfde
-kernidee: wat je aan het ene besteedt, kun je niet meer aan het andere
-besteden. Dat is <strong>schaarste</strong>, en dat is waar economie
-over gaat.</p>
-<p>In dit boek leer je hoe economen die keuzes bestuderen. Je begint met
-de basisgereedschappen — percentages, grafieken en tabellen — die je
-nodig hebt om door de rest van je VWO-carrière heen te komen. Daarna
-duik je de markt op: hoe ontstaat de prijs van een product? Waarom
-verschuift een vraaglijn? Wat gebeurt er als aanbod en vraag elkaar
-ontmoeten? Aan het eind van het boek kun je niet alleen een
-marktevenwicht uitrekenen en tekenen, maar begrijp je ook waarom
-bedrijven precies daar produceren waar marginale opbrengst en marginale
-kosten elkaar raken.</p>
-<h2 id="hoe-is-dit-boek-opgebouwd">Hoe is dit boek opgebouwd?</h2>
-<p>Het boek bestaat uit <strong>vijf hoofdstukken</strong>. Elk
-theoriehoofdstuk heeft drie of vier paragrafen met theorie en
-oefeningen, en eindigt met een consolidatiehoofdstuk waarin je alles bij
-elkaar brengt in grotere, examenachtige opgaven. Het laatste hoofdstuk
-is bedoeld voor toetsvoorbereiding: een actieve samenvatting,
-examenvaardigheden trainen, een integratieoefening en een
-proeftoets.</p>
-<p>Elke paragraaf begint met een <strong>doeloefening</strong>: precies
-de oefening die je aan het eind van die les moet kunnen maken. Zo weet
-je altijd waar je naartoe werkt.</p>
-<h2 id="waar-vind-je-de-antwoorden">Waar vind je de antwoorden?</h2>
-<p>De antwoorden en extra interactieve oefeningen staan op de
-begeleidende website, niet in dit boek. Daar vind je ook kennisquizzen,
-uitlegvideo’s en oefenspellen die je helpen om de stof actief te
-verwerken.</p>
-<h2 id="succes">Succes</h2>
-<p>Economie is een prachtig vak omdat het over échte keuzes gaat — die
-van jou, van bedrijven en van overheden. Neem de tijd om de theorie te
-begrijpen, oefen totdat je de doeloefeningen zelfstandig kunt maken, en
-vraag om hulp zodra iets niet klopt. Veel plezier met dit eerste
-boek.</p>
+<h1 id="voorwoord">Voorwoord</h1>
+<p>Elke dag neem je economische beslissingen. Koop je vandaag een
+broodje kaas of geef je je geld uit aan iets anders? Ga je vanavond
+werken of ga je leren voor je toets? Achter al deze keuzes zit hetzelfde
+kernidee: wat je aan het ene besteedt, kun je niet meer aan het andere
+besteden. Dat is <strong>schaarste</strong>, en dat is waar economie
+over gaat.</p>
+<p>In dit boek leer je hoe economen keuzes en markten bestuderen. Je
+begint met de basisgereedschappen: percentages, indexcijfers, grafieken
+en tabellen. Daarna kijk je naar vraag, aanbod en marktevenwicht. Aan
+het eind van dit boek kun je uitleggen waarom vraag- en aanbodlijnen
+verschuiven, hoe een evenwichtsprijs ontstaat en wat er gebeurt als de
+markt verandert.</p>
+<h2 id="hoe-is-dit-boek-opgebouwd">Hoe is dit boek opgebouwd?</h2>
+<p>De gedrukte versie van Boek 1 bestaat uit <strong>drie hoofdstukken
+met samen twaalf paragrafen</strong>. Elk hoofdstuk eindigt met gemengde
+opgaven waarin je de stof combineert. Kosten, opbrengsten en marginale
+analyse komen later in de cursus terug.</p>
+<p>Elke paragraaf begint met een <strong>doeloefening</strong>: precies
+de oefening die je aan het eind van die les moet kunnen maken. Zo weet
+je altijd waar je naartoe werkt. De toets gaat over Boek 1.</p>
+<h2 id="waar-vind-je-de-antwoorden-en-toetsvoorbereiding">Waar vind je
+de antwoorden en toetsvoorbereiding?</h2>
+<p>De antwoorden, interactieve oefeningen en toetsvoorbereiding staan op
+de begeleidende website, niet in dit gedrukte boek. Daar vind je ook
+kennisquizzen, uitlegvideo’s en oefenspellen die je helpen om de stof
+actief te verwerken.</p>
+<h2 id="succes">Succes</h2>
+<p>Economie is een prachtig vak omdat het over echte keuzes gaat: die
+van jou, van bedrijven en van overheden. Neem de tijd om de theorie te
+begrijpen, oefen totdat je de doeloefeningen zelfstandig kunt maken, en
+vraag om hulp zodra iets niet klopt. Veel plezier met dit eerste
+boek.</p>
 
 </div>
 
@@ -75,22 +70,11 @@ boek.</p>
 <tr class="toc-paragraph"><td class="toc-nr">§1.2.2</td><td class="toc-title">Vraagfactoren</td></tr>
 <tr class="toc-paragraph"><td class="toc-nr">§1.2.3</td><td class="toc-title">Van individuele naar collectieve vraag</td></tr>
 <tr class="toc-paragraph"><td class="toc-nr">§1.2.4</td><td class="toc-title">Gemengde opgaven</td></tr>
-<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.3</td><td class="toc-title">Aanbod en kosten</td></tr>
+<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.3</td><td class="toc-title">Aanbod en marktevenwicht</td></tr>
 <tr class="toc-paragraph"><td class="toc-nr">§1.3.1</td><td class="toc-title">Aanbod</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.3.2</td><td class="toc-title">Kostenstructuren</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.3.3</td><td class="toc-title">Opbrengsten</td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.3.2</td><td class="toc-title">Marktevenwicht</td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.3.3</td><td class="toc-title">Verschuivingen en nieuw evenwicht</td></tr>
 <tr class="toc-paragraph"><td class="toc-nr">§1.3.4</td><td class="toc-title">Gemengde opgaven</td></tr>
-<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.4</td><td class="toc-title">Marktevenwicht en marginale analyse</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.4.1</td><td class="toc-title">Marktevenwicht</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.4.2</td><td class="toc-title">Verschuivingen en nieuw evenwicht</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.4.3</td><td class="toc-title">Marginale kosten en marginale opbrengsten</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.4.4</td><td class="toc-title">Winstmaximalisatie</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.4.5</td><td class="toc-title">Gemengde opgaven</td></tr>
-<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.5</td><td class="toc-title">Toetsvoorbereiding</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.5.1</td><td class="toc-title">Actieve samenvatting</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.5.2</td><td class="toc-title">Examenvaardigheden</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.5.3</td><td class="toc-title">Integratieoefening</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.5.4</td><td class="toc-title">Proeftoets</td></tr>
 </tbody></table></div>
 
 <!-- BOOK-CONTENT-START -->
@@ -1997,7 +1981,7 @@ Geef voor elk van deze twee veranderingen apart aan of het een beweging langs of
 
 <div class="chapter-front">
 
-<h1>Hoofdstuk 3 — Aanbod en kosten</h1>
+<h1>Hoofdstuk 3 - Aanbod en marktevenwicht</h1>
 
 <h2>Inhoud</h2>
 
@@ -2005,8 +1989,8 @@ Geef voor elk van deze twee veranderingen apart aan of het een beweging langs of
 <thead><tr><th>§</th><th>Onderwerp</th></tr></thead>
 <tbody>
 <tr><td>1.3.1</td><td>Aanbod</td></tr>
-<tr><td>1.3.2</td><td>Kostenstructuren</td></tr>
-<tr><td>1.3.3</td><td>Opbrengsten</td></tr>
+<tr><td>1.3.2</td><td>Marktevenwicht</td></tr>
+<tr><td>1.3.3</td><td>Verschuivingen en nieuw evenwicht</td></tr>
 <tr><td>1.3.4</td><td>Gemengde opgaven</td></tr>
 </tbody>
 </table>
@@ -2016,22 +2000,18 @@ Geef voor elk van deze twee veranderingen apart aan of het een beweging langs of
 <p>Na dit hoofdstuk kun je:</p>
 
 <ul>
-<li>Een aanbodlijn tekenen en interpreteren (stijgend verloop)</li>
-<li>Aanbodfactoren benoemen en uitleggen: inputprijzen, technologie, aantal aanbieders, verwachtingen, overheidsbeleid</li>
+<li>Een aanbodlijn tekenen en interpreteren</li>
 <li>Het verschil uitleggen tussen een beweging langs de aanbodlijn en een verschuiving van de aanbodlijn</li>
-<li>Verschuivingen van de aanbodlijn grafisch weergeven</li>
-<li>Het verschil uitleggen tussen constante kosten (CK) en variabele kosten (VK)</li>
-<li>TK, TCK en TVK berekenen</li>
-<li>Gemiddelde kosten berekenen: GTK, GVK en GCK</li>
-<li>Verklaren waarom GCK daalt bij toenemende productie (spreidingseffect)</li>
-<li>TO en GO berekenen</li>
-<li>Winst berekenen als TO − TK</li>
-<li>Het break-evenpunt bepalen (algebraïsch en grafisch)</li>
+<li>Aanbodfactoren benoemen en gebruiken om verschuivingen te verklaren</li>
+<li>Het marktevenwicht berekenen door Qv = Qa op te lossen</li>
+<li>Een aanbodoverschot of vraagoverschot herkennen en berekenen</li>
+<li>Een nieuw evenwicht berekenen na een verschuiving van vraag of aanbod</li>
+<li>Uitleggen wanneer een prijs- of hoeveelheidsverandering eenduidig of onzeker is</li>
 </ul>
 
-<h2>Wat kost het om brood te bakken?</h2>
+<h2>Vraag en aanbod komen samen</h2>
 
-<p>Een bakker verkoopt elke dag honderden broden. Maar hoeveel kost het eigenlijk om één brood te maken? En waarom wordt elk brood goedkoper als hij er meer bakt? In dit hoofdstuk leer je hoe producenten beslissen hoeveel ze aanbieden, welke kosten ze maken, en wanneer ze winst draaien. Je ontdekt dat sommige kosten altijd doorlopen — ook als de bakker geen enkel brood bakt — en dat het break-evenpunt bepaalt of de zaak rendabel is.</p>
+<p>In dit hoofdstuk kijk je eerst naar de aanbodkant van de markt. Daarna breng je vraag en aanbod samen: je berekent het marktevenwicht en onderzoekt wat er gebeurt als vraag of aanbod verschuift. Kosten, opbrengsten en marginale analyse horen niet meer bij de gedrukte versie van Boek 1; die stof komt later terug.</p>
 
 </div>
 
@@ -2377,217 +2357,36 @@ a) Leg met behulp van het verschil tussen aanbodfactoren uit hoe beide maatregel
 
 b) Een criticus stelt: "Maatregel A kost de overheid elk jaar geld. Maatregel B kost eenmalig geld, maar het effect is blijvend." Beoordeel deze stelling. Gebruik economische argumenten en betrek de begrippen 'productiekosten' en 'technologie' in je antwoord.
 
-
-<div style="break-before: page;"></div>
-
-# 1.3.2 Kostenstructuren
-
-## Wat kost het om brood te bakken?
-
-Stel je voor: je opent een bakkerij. Nog voordat je het eerste brood bakt, ben je al geld kwijt. De huur van het pand loopt, de verzekering is betaald, en de oven staat klaar. Deze kosten heb je altijd, ongeacht of je 10 broden bakt of 1000. Maar zodra je begint te bakken, komen er kosten bij: meel, boter, energie. Hoe meer broden je bakt, hoe hoger die kosten worden.
-
-Als ondernemer wil je weten: wat kost het me *in totaal* om te produceren? En misschien nog belangrijker: wat kost *elk brood* gemiddeld? Want als je dat weet, kun je bepalen welke prijs je minstens moet vragen om geen verlies te draaien.
-
-In deze paragraaf leer je zeven kostenbegrippen die je helpen om de kosten van een bedrijf te ontleden. Het lijkt veel terminologie, maar de logica is steeds dezelfde: je splitst kosten op in een vast en een variabel deel, en je berekent totalen en gemiddelden.
-
----
-
-## Theorie
-
-### Constante en variabele kosten
-
-Niet alle kosten gedragen zich hetzelfde. Sommige kosten veranderen niet als je meer of minder produceert. Andere kosten stijgen juist mee met de productie.
-
-> **Definitie: Constante kosten (CK)**
-> Kosten die niet veranderen als de productie toe- of afneemt.
-> Voorbeelden: huur, verzekering, afschrijving van machines.
-
-> **Definitie: Variabele kosten (VK)**
-> Kosten die veranderen als de productie toe- of afneemt.
-> Voorbeelden: grondstoffen, energie per eenheid, stukloon.
-
-Een bakkerij betaalt elke maand €500 huur en verzekering, of ze nu 100 broden bakt of 1000. Dat zijn constante kosten. Maar het meel en de energie per brood kosten €0,80. Hoe meer broden, hoe hoger deze variabele kosten.
-
----
-
-### Totale kosten: TCK, TVK en TK
-
-We noteren de kosten als *totalen* over de hele productie:
-
-> **Definitie: Totale constante kosten (TCK)**
-> De som van alle constante kosten. TCK verandert niet met de productieomvang.
-
-> **Definitie: Totale variabele kosten (TVK)**
-> De som van alle variabele kosten. TVK stijgt als de productie toeneemt.
-
-> **Definitie: Totale kosten (TK)**
-> De som van alle kosten: TK = TCK + TVK.
-
-> **Formule**
-> ```
-> TCK = vast bedrag (onafhankelijk van Q)
-> TVK = variabele kosten per stuk x Q
-> TK  = TCK + TVK
-> ```
-
-Voor de bakkerij met TCK = €500 en variabele kosten van €0,80 per brood:
-
-| Q (broden) | TCK (€) | TVK (€) | TK (€) |
-|-----------|---------|---------|--------|
-| 0         | 500     | 0       | 500    |
-| 100       | 500     | 80      | 580    |
-| 250       | 500     | 200     | 700    |
-| 500       | 500     | 400     | 900    |
-| 750       | 500     | 600     | 1100   |
-| 1000      | 500     | 800     | 1300   |
-
-Merk op: TCK is een horizontale lijn in de tabel — altijd €500. TVK stijgt evenredig met Q. TK stijgt ook, maar begint bij €500 (niet bij 0).
-
-We tekenen deze drie kostenlijnen in een grafiek. Op de horizontale as staat de hoeveelheid (Q), op de verticale as de kosten in euro's. De TCK-lijn is horizontaal. De TVK-lijn begint in de oorsprong en loopt schuin omhoog. De TK-lijn loopt evenwijdig aan TVK, maar begint op €500 — het verschil tussen TK en TVK is altijd precies TCK.
-
-![Figuur 1: TCK, TVK en TK als functie van Q](_assets/1.3.2_fig_1.svg)
-
-De verticale afstand tussen de TK-lijn en de TVK-lijn is altijd gelijk aan TCK (€500). Dat klopt, want TK = TCK + TVK.
-
----
-
-### Gemiddelde kosten: GTK, GVK en GCK
-
-Een ondernemer wil niet alleen de totale kosten weten, maar ook de kosten *per stuk*. Die berekent hij door de totale kosten te delen door het aantal geproduceerde eenheden.
-
-> **Definitie: Gemiddelde totale kosten (GTK)**
-> De totale kosten per eenheid product: GTK = TK / Q.
-
-> **Definitie: Gemiddelde variabele kosten (GVK)**
-> De variabele kosten per eenheid product: GVK = TVK / Q.
-
-> **Definitie: Gemiddelde constante kosten (GCK)**
-> De constante kosten per eenheid product: GCK = TCK / Q.
-
-> **Formule**
-> ```
-> GTK = TK / Q
-> GVK = TVK / Q
-> GCK = TCK / Q
-> GTK = GCK + GVK
-> ```
-
-We berekenen de gemiddelde kosten voor de bakkerij:
-
-| Q | TCK (€) | TVK (€) | TK (€) | GCK (€) | GVK (€) | GTK (€) |
-|---|---------|---------|--------|---------|---------|---------|
-| 100  | 500 | 80   | 580  | 5,00 | 0,80 | 5,80 |
-| 250  | 500 | 200  | 700  | 2,00 | 0,80 | 2,80 |
-| 500  | 500 | 400  | 900  | 1,00 | 0,80 | 1,80 |
-| 750  | 500 | 600  | 1100 | 0,67 | 0,80 | 1,47 |
-| 1000 | 500 | 800  | 1300 | 0,50 | 0,80 | 1,30 |
-
-Kijk goed naar de kolommen. Twee patronen vallen op:
-
-1. **GVK blijft constant op €0,80.** Dat is logisch: elk brood kost evenveel aan grondstoffen (€0,80). Als de variabele kosten per stuk niet veranderen, is GVK altijd hetzelfde getal.
-
-2. **GCK daalt steeds verder.** Bij 100 broden is GCK = €5,00. Bij 1000 broden is GCK nog maar €0,50. De vaste kosten worden over steeds meer eenheden *verspreid*. Dit heet het **spreidingseffect**.
-
-Omdat GTK = GCK + GVK, en GVK constant is terwijl GCK daalt, daalt GTK ook — maar GTK kan nooit onder GVK zakken. De GVK-lijn is als het ware de bodem waar GTK naar toe kruipt.
-
-Nu tekenen we de gemiddelde kostenlijnen. De GVK-lijn is horizontaal (constant op €0,80). De GCK-lijn is een dalende curve die naar nul kruipt maar het nooit bereikt. De GTK-lijn ligt altijd boven GVK en daalt, omdat GCK steeds kleiner wordt.
-
-![Figuur 2: GCK, GVK en GTK als functie van Q](_assets/1.3.2_fig_2.svg)
-
-> **⚠️ Let op — veelgemaakte fout**
-> Verwar *totale* kosten niet met *gemiddelde* kosten. TK stijgt als Q toeneemt (er komen kosten bij). Maar GTK *daalt* als Q toeneemt (de kosten worden over meer eenheden verdeeld). Een hogere TK betekent dus niet automatisch hogere kosten per stuk — het kan juist goedkoper per stuk worden.
-
----
-
-### Het spreidingseffect
-
-Waarom is het voor een bedrijf aantrekkelijk om meer te produceren? Omdat de vaste kosten per stuk dalen. Dit noemen economen het **spreidingseffect** (of: degressie van de constante kosten).
-
-Denk aan een streamingdienst die een serie produceert voor €10 miljoen. Of 1 miljoen mensen kijken of 10 miljoen maakt voor de productiekosten niet uit — die €10 miljoen is al uitgegeven. Maar de kosten per kijker dalen spectaculair:
-
-| Aantal kijkers | GCK per kijker |
-|---------------|---------------|
-| 1.000.000     | €10,00        |
-| 5.000.000     | €2,00         |
-| 10.000.000    | €1,00         |
-
-Hoe meer kijkers, hoe lager de kosten per kijker. Dit verklaart waarom bedrijven met hoge vaste kosten (techbedrijven, luchtvaart, energiecentrales) streven naar een zo groot mogelijke afzet.
-
----
-
-### Overzicht van de zeven kostenbegrippen
-
-Figuur 3 vat alle kostenbegrippen in een overzicht samen.
-
-![Figuur 3: De zeven kostenbegrippen — overzicht](_assets/1.3.2_fig_3.svg)
-
-De onderstaande samenvattingstabel kun je in je schrift overnemen als naslagkaart:
-
-| Afkorting | Volledige naam | Formule | Verloop bij stijgende Q |
-|-----------|---------------|---------|------------------------|
-| TCK | Totale constante kosten | vast bedrag | constant |
-| TVK | Totale variabele kosten | GVK x Q | stijgend |
-| TK  | Totale kosten | TCK + TVK | stijgend |
-| GCK | Gemiddelde constante kosten | TCK / Q | dalend |
-| GVK | Gemiddelde variabele kosten | TVK / Q | constant* |
-| GTK | Gemiddelde totale kosten | TK / Q | dalend |
-
-*\*GVK is constant wanneer de variabele kosten per stuk niet veranderen. In de praktijk kan GVK soms stijgen of dalen — dat leer je in latere hoofdstukken.*
-
----
+## Opgaven
 
 ## Uitgewerkt voorbeeld
 
-> **De fietsenmaker**
+> **De markt voor elektrische fietsen**
 >
-> Een fietsenmaker heeft constante kosten van €800 per maand (huur werkplaats, gereedschap, verzekering). De variabele kosten zijn €15 per fietsreparatie (onderdelen en smeermiddelen).
+> De markt voor elektrische fietsen (e-bikes) is in evenwicht bij P = €1.500 en Q = 3.000 fietsen per maand. De aanbodlijn loopt via A₁.
 
-**(a)** Schrijf de formules voor TCK, TVK en TK als functie van Q (het aantal reparaties).
+**(a)** De prijs van e-bikes stijgt naar €2.000. Is dit een beweging langs of een verschuiving van de aanbodlijn? Verklaar je antwoord.
 
-*Stap 1: Identificeer de constante en variabele kosten.*
+*Antwoord:* Dit is een **beweging langs** de aanbodlijn. De prijs van het goed zelf verandert (van €1.500 naar €2.000). Bij een hogere prijs is de aangeboden hoeveelheid groter. Je schuift langs de bestaande aanbodlijn naar een punt rechtsboven.
 
-- Constante kosten: €800 per maand → TCK = 800
-- Variabele kosten: €15 per reparatie → TVK = 15 x Q
+**(b)** De prijs van e-bikes blijft €1.500, maar de prijs van lithiumbatterijen (een belangrijke grondstof) daalt fors. Is dit een beweging langs of een verschuiving van de aanbodlijn? Verklaar je antwoord.
 
-*Stap 2: Stel de formule voor TK op.*
+*Antwoord:* Dit is een **verschuiving van** de aanbodlijn naar rechts. De prijs van e-bikes verandert niet, maar een aanbodfactor wel: **de prijs van een productiefactor** (lithiumbatterijen). Doordat de grondstof goedkoper wordt, dalen de productiekosten. Producenten kunnen bij elke prijs meer e-bikes aanbieden. De aanbodlijn verschuift van A₁ naar A₂ (naar rechts).
 
-TK = TCK + TVK = 800 + 15Q
+> ⚠️ Let op de juiste aanbodfactor. Het is verleidelijk om te zeggen "de technologie is verbeterd". Maar er is niets veranderd aan de manier van produceren — alleen de grondstofprijs is gedaald. De economisch precieze categorie is daarom *prijs van een productiefactor (inputprijs)*.
 
-**(b)** Bereken TK, TVK en TCK bij Q = 40 en Q = 80.
+**(c)** Leg in eigen woorden uit waarom de aanbodlijn naar rechts verschuift en niet naar links als de grondstofkosten dalen.
 
-*Stap 3: Vul de hoeveelheden in.*
-
-| Q | TCK (€) | TVK (€) | TK (€) |
-|---|---------|---------|--------|
-| 40  | 800 | 15 x 40 = 600   | 800 + 600 = 1400 |
-| 80  | 800 | 15 x 80 = 1200  | 800 + 1200 = 2000 |
-
-**(c)** Bereken GTK, GVK en GCK bij Q = 40 en Q = 80.
-
-*Stap 4: Deel de totalen door Q.*
-
-| Q | GCK (€) | GVK (€) | GTK (€) |
-|---|---------|---------|---------|
-| 40  | 800 / 40 = 20,00  | 600 / 40 = 15,00  | 1400 / 40 = 35,00 |
-| 80  | 800 / 80 = 10,00  | 1200 / 80 = 15,00 | 2000 / 80 = 25,00 |
-
-Controle: GTK = GCK + GVK → 20 + 15 = 35 ✓ en 10 + 15 = 25 ✓
-
-**(d)** Wat gebeurt er met GTK als Q toeneemt?
-
-GTK daalt van €35 naar €25. Dit komt doordat GCK daalt (van €20 naar €10): de vaste kosten worden over meer reparaties verspreid. GVK blijft constant op €15. Dus de daling van GTK wordt volledig veroorzaakt door het spreidingseffect van de constante kosten.
-
-![Uitgewerkt voorbeeld: kosten van de fietsenmaker](_assets/1.3.2_we_1.svg)
+*Antwoord:* Als grondstoffen goedkoper worden, kan een fabrikant dezelfde e-bike voor minder kosten maken. Daardoor wordt het bij een lagere prijs al rendabel om te produceren. Producenten die voorheen niet uit de kosten kwamen, kunnen nu wél aanbieden. Bij elke prijs zijn er dus meer e-bikes beschikbaar — de hele aanbodlijn schuift naar rechts.
 
 ---
 
-> **Samenvatting §1.3.2**
-> - Kosten bestaan uit **constante kosten** (CK, veranderen niet met Q) en **variabele kosten** (VK, veranderen wel met Q).
-> - **Totale kosten**: TK = TCK + TVK. TCK is vast, TVK stijgt met Q.
-> - **Gemiddelde kosten**: GTK = TK/Q, GVK = TVK/Q, GCK = TCK/Q. Ook geldt: GTK = GCK + GVK.
-> - **Spreidingseffect**: GCK daalt als Q stijgt, omdat de vaste kosten over meer eenheden worden verdeeld. Daardoor daalt ook GTK.
-> - GVK is constant wanneer de variabele kosten per stuk niet veranderen.
-> - *In §1.3.3 leer je hoe je de opbrengsten (TO, GO) berekent en vergelijkt met de kosten om de winst te bepalen.*
+> **Samenvatting §1.3.1**
+> - De aanbodlijn laat het verband zien tussen de prijs en de aangeboden hoeveelheid (ceteris paribus). De lijn loopt omhoog: hoe hoger de prijs, hoe meer er wordt aangeboden (**wet van het aanbod**).
+> - Een verandering van de prijs van het goed zelf veroorzaakt een **beweging langs** de aanbodlijn.
+> - Een verandering van een aanbodfactor (inputprijzen, technologie, aantal aanbieders, verwachtingen, overheidsbeleid) veroorzaakt een **verschuiving van** de aanbodlijn.
+> - Verschuiving naar rechts = aanbod neemt toe. Verschuiving naar links = aanbod neemt af.
+> - *In de volgende paragraaf bekijken we de kostenstructuur van een producent: welke kosten zijn vast, welke variabel, en hoe berekent een ondernemer de gemiddelde kosten per product?*
 
 > **💡 Vastgelopen op een opgave?**
 > Op de website vind je bij elke opgave een **begeleide inoefening**: stap voor stap krijg je extra hints en tussenstappen. Klik op de opgave om de begeleiding te starten.
@@ -2598,639 +2397,160 @@ GTK daalt van €35 naar €25. Dit komt doordat GCK daalt (van €20 naar €10
 
 ### Startoefeningen
 
-**Opgave 1** *(lees de grafiek — zie figuur 4)*
-
-In figuur 4 zie je de TK-, TVK- en TCK-lijnen van een kledingfabriek.
-
-![Figuur 4: Kostenlijnen van een kledingfabriek](_assets/1.3.2_ex_1.svg)
-
-a) Lees uit de grafiek af: hoe hoog zijn de totale constante kosten (TCK)?
-
-b) Lees af: wat zijn de totale kosten (TK) bij Q = 200? En wat zijn de totale variabele kosten (TVK) bij Q = 200?
-
-c) Controleer: klopt het dat TK = TCK + TVK bij Q = 200? Laat je berekening zien.
-
-d) Een medewerker zegt: "Als we meer produceren, stijgen alle kosten." Klopt deze bewering? Leg uit welke kosten stijgen en welke niet.
-
-
-**Opgave 2** *(bereken en teken)*
-
-Een cateringbedrijf heeft vaste kosten van €600 per maand (huur keuken, apparatuur). De variabele kosten bedragen €4 per maaltijd.
-
-a) Schrijf de formules voor TCK, TVK en TK als functie van Q (het aantal maaltijden).
-
-b) Bereken TK bij Q = 50, Q = 150 en Q = 300. Zet de resultaten in een tabel.
-
-c) Teken de drie kostenlijnen (TCK, TVK en TK) in een assenstelsel met Q op de x-as en kosten (€) op de y-as. Gebruik het lege assenstelsel in figuur 5.
-
-![Figuur 5: Teken hier de kostenlijnen](_assets/1.3.2_ex_2.svg)
-
-d) Leg uit waarom de TK-lijn en de TVK-lijn evenwijdig lopen.
-
-
-**Opgave 3** *(gemiddelde kosten berekenen — geen grafiek)*
-
-Een drukkerij heeft constante kosten van €1200 per maand. De variabele kosten zijn €0,50 per flyer.
-
-a) Bereken GTK, GVK en GCK bij een productie van 400 flyers.
-
-b) Bereken GTK, GVK en GCK bij een productie van 2400 flyers.
-
-c) Leg uit waarom GTK daalt als de productie stijgt. Gebruik de begrippen GCK en GVK in je uitleg.
-
-d) Een klant bestelt 400 flyers en betaalt €4 per stuk. Een andere klant bestelt 2400 flyers en betaalt €1,50 per stuk. Bij welke bestelling verdient de drukkerij meer per flyer? Leg uit.
-
----
-
-### Zelfstandige oefening
-
-**Opgave 4**
-
-Een sportschool heeft vaste kosten van €3000 per maand (huur, apparatuur, personeel). De variabele kosten per lid bedragen €5 per maand (water, schoonmaak, handdoeken).
-
-a) Schrijf de formules voor TCK, TVK en TK als functie van Q (het aantal leden).
-
-b) Bereken TK, GTK, GVK en GCK bij Q = 100 en Q = 600. Zet alle resultaten in een overzichtelijke tabel.
-
-c) De sportschool rekent een maandabonnement van €15 per lid. Bereken bij welk aantal leden de opbrengst per lid precies gelijk is aan de gemiddelde totale kosten (GTK). *Hint: stel GO = GTK en los op naar Q.*
-
-d) Teken de GCK-, GVK- en GTK-lijnen in een assenstelsel. Geef aan naar welke waarde GTK kruipt bij heel grote Q.
-
-
-**Opgave 5**
-
-Twee bedrijven produceren hetzelfde product:
-
-| | Bedrijf A | Bedrijf B |
-|---|-----------|-----------|
-| TCK per maand | €2000 | €500 |
-| GVK per stuk | €3 | €6 |
-
-a) Schrijf voor beide bedrijven de formule voor TK als functie van Q.
-
-b) Bereken voor beide bedrijven GTK bij Q = 200 en Q = 1000.
-
-c) Bij welk productievolume zijn de GTK van beide bedrijven gelijk? Laat je berekening zien.
-
-d) Welk bedrijf heeft een voordeel bij een groot productievolume? Leg uit met het begrip spreidingseffect.
-
----
-
-### Herhaling (interleaving)
-
-**Opgave 6** *(herhaling §1.2.1: betalingsbereidheid en koopbeslissing)*
-
-Een consument wil smoothies kopen. Zijn betalingsbereidheid: €5 voor de eerste, €3,50 voor de tweede, €2 voor de derde, €0,75 voor de vierde.
-
-a) De marktprijs is €3. Hoeveel smoothies koopt de consument?
-
-b) Bereken het totale consumentensurplus.
-
-
-**Opgave 7** *(herhaling §1.2.2: verschuiving van de vraaglijn)*
-
-De markt voor fietsen wordt getroffen door twee gebeurtenissen:
-1. De benzineprijs stijgt fors.
-2. Tegelijkertijd verlaagt een grote fietsenfabrikant zijn prijzen.
-
-a) Welke gebeurtenis leidt tot een verschuiving van de vraaglijn naar fietsen? Leg uit welke richting de vraaglijn verschuift en noem de vraagfactor.
-
-b) Welke gebeurtenis leidt tot een beweging langs de vraaglijn? Leg uit.
-
-
-**Opgave 8** *(herhaling §1.3.1: opbrengsten — als §1.3.1 behandeld is)*
-
-Een marktkraam verkoopt bloemen voor €3 per bos. De vaste kosten zijn €80 per dag. De variabele kosten bedragen €1,20 per bos.
-
-a) Bereken de totale opbrengst (TO) bij een verkoop van 60 bossen.
-
-b) Bereken de totale kosten (TK) bij Q = 60.
-
-c) Bereken de winst bij Q = 60.
-
----
-
-### Doeloefening
-
-**Opgave 9**
-
-Een bakkerij heeft constante kosten van €500 per maand (huur, verzekering). Elk brood kost €0,80 aan ingredienten en energie (variabele kosten per stuk).
-
-a) Schrijf de formules voor TK, TVK en TCK als functie van Q.
-
-b) Bereken TK, TVK en TCK bij Q = 500 en Q = 1000.
-
-c) Bereken GTK, GVK en GCK bij Q = 500 en Q = 1000.
-
-d) Wat gebeurt er met GTK als Q toeneemt? Leg uit waarom dit logisch is.
-
-e) Een leerling zegt: "GCK is altijd hetzelfde." Klopt dit? Leg uit.
-
----
-
-### Denkertje *(bonusopgave)*
-
-**Opgave 10**
-
-Twee ijsfabrieken produceren precies hetzelfde ijs. Fabriek X heeft gekozen voor dure, moderne robots (hoge vaste kosten, lage variabele kosten per stuk). Fabriek Y werkt met goedkopere apparatuur en meer handarbeid (lage vaste kosten, hoge variabele kosten per stuk).
-
-a) Schets voor beide fabrieken (in dezelfde grafiek) een mogelijke GTK-lijn. Geef aan bij welk productievolume fabriek X goedkoper produceert dan fabriek Y, en andersom.
-
-b) In een recessie daalt de vraag naar ijs sterk. Welke fabriek zit dan in een moeilijkere positie? Beargumenteer je antwoord met behulp van de begrippen GCK en spreidingseffect.
-
-c) Bedenk een ander voorbeeld uit de echte wereld van een bedrijf met zeer hoge vaste kosten en lage variabele kosten. Leg uit waarom zo'n bedrijf een groot afzetvolume nodig heeft om winstgevend te zijn.
-
-
-<div style="break-before: page;"></div>
-
-# 1.3.3 Opbrengsten
-
-## Wanneer verdient de bakker geld?
-
-De bakker uit de vorige paragraaf kent nu zijn kosten: de constante kosten zijn €500 per week (huur, verzekering, afschrijving) en de variabele kosten zijn €0,80 per brood. Zijn totale kosten: TK = 500 + 0,80Q.
-
-Maar kosten zijn maar de helft van het verhaal. De bakker wil ook weten: hoeveel geld komt er *binnen*? En vooral: bij hoeveel broden verdient hij meer dan hij uitgeeft? Vanaf welk punt maakt hij winst?
-
----
-
-> **Herhaling uit 1.3.2**
-> De totale kosten bestaan uit constante en variabele kosten:
-> TK = TCK + TVK = 500 + 0,80Q
-> De gemiddelde totale kosten: GTK = TK / Q
-
----
-
-## Theorie
-
-### Totale opbrengst (TO)
-
-De bakker verkoopt elk brood voor €1,50. Als hij 100 broden verkoopt, ontvangt hij 100 x €1,50 = €150. Dat bedrag heet de **totale opbrengst**.
-
-> **Definitie: Totale opbrengst (TO)**
-> Het totale bedrag dat een producent ontvangt uit de verkoop van zijn producten.
-> TO = P x Q
-> waarbij P = prijs per stuk en Q = verkochte hoeveelheid.
-
-We rekenen de totale opbrengst bij een paar hoeveelheden uit:
-
-| Q (broden) | P (€) | TO = P x Q (€) |
-|---|---|---|
-| 0 | 1,50 | 0 |
-| 200 | 1,50 | 300 |
-| 500 | 1,50 | 750 |
-| 1000 | 1,50 | 1.500 |
-
-De TO-lijn begint in de oorsprong (bij Q = 0 is de opbrengst €0) en loopt recht omhoog. Hoe meer de bakker verkoopt, hoe hoger zijn opbrengst.
-
-![Figuur 1: De totale opbrengst van de bakker (TO = 1,50Q)](_assets/1.3.3_fig_1.svg)
-
----
-
-### Gemiddelde opbrengst (GO)
-
-Hoeveel opbrengst levert elk brood gemiddeld op? Dat is de **gemiddelde opbrengst**.
-
-> **Definitie: Gemiddelde opbrengst (GO)**
-> De opbrengst per verkochte eenheid.
-> GO = TO / Q
-
-We berekenen GO bij Q = 500:
-GO = 750 / 500 = €1,50
-
-En bij Q = 1000:
-GO = 1.500 / 1000 = €1,50
-
-De gemiddelde opbrengst is steeds €1,50 — precies gelijk aan de prijs. Dat is logisch: als elk brood dezelfde prijs heeft, is de gemiddelde opbrengst per brood altijd gelijk aan die prijs.
-
-> **Formule**
-> ```
-> TO = P x Q
-> GO = TO / Q = P   (bij constante prijs)
-> ```
-
-> **Let op — veelgemaakte fout**
-> Leerlingen verwarren soms *opbrengst* met *winst*. Opbrengst is alles wat binnenkomt (TO = P x Q). Winst is wat er overblijft na aftrek van de kosten (TO - TK). Je kunt een hoge opbrengst hebben en toch verlies draaien als de kosten hoger zijn.
-
----
-
-### Winst en verlies
-
-De bakker wil uiteindelijk weten: hoeveel houdt hij over? Het verschil tussen opbrengst en kosten is de **winst**.
-
-> **Definitie: Winst**
-> Het verschil tussen de totale opbrengst en de totale kosten.
-> Winst = TO - TK
-> Als de winst negatief is, spreken we van **verlies**.
-
-We rekenen de winst bij twee productieniveaus uit:
-
-| Q | TO = 1,50Q (€) | TK = 500 + 0,80Q (€) | Winst = TO - TK (€) |
-|---|---|---|---|
-| 500 | 750 | 900 | -150 (verlies) |
-| 1000 | 1.500 | 1.300 | 200 (winst) |
-
-Bij 500 broden maakt de bakker €150 verlies. Bij 1000 broden maakt hij €200 winst. Ergens daartussenin slaat het om van verlies naar winst. Dat omslagpunt heet het *break-evenpunt*.
-
----
-
-### Het break-evenpunt
-
-Het **break-evenpunt** is de productieomvang waarbij de winst precies nul is: de opbrengst dekt exact de kosten.
-
-> **Definitie: Break-evenpunt**
-> Het productieniveau waarbij TO = TK, dus winst = 0.
-> De producent maakt geen winst en geen verlies.
-
-We berekenen het break-evenpunt van de bakker:
-
-TO = TK
-1,50Q = 500 + 0,80Q
-1,50Q - 0,80Q = 500
-0,70Q = 500
-Q = 500 / 0,70
-**Q = 714,3 broden** (afgerond op 1 decimaal)
-
-Bij 714,3 broden is TO = TK = €1.071,43. Onder dit punt maakt de bakker verlies, erboven maakt hij winst.
-
-> **Formule**
-> ```
-> Break-evenpunt: TO = TK
-> P x Q = TCK + GVK x Q
-> Q_break-even = TCK / (P - GVK)
-> ```
-> De uitdrukking (P - GVK) heet ook wel de *bijdrage per stuk* of *dekkingsbijdrage*: het bedrag dat elk verkocht product bijdraagt aan het dekken van de constante kosten.
-
----
-
-### De grafiek: TK en TO samen
-
-Nu tekenen we de TK-lijn en de TO-lijn in dezelfde grafiek. Dit is de krachtigste manier om winst, verlies en het break-evenpunt in een oogopslag te zien.
-
-We beginnen met de TK-lijn. Die start bij €500 (de constante kosten bij Q = 0) en loopt omhoog met een helling van €0,80 per brood.
-
-![Figuur 2: De totale kosten van de bakker (TK = 500 + 0,80Q)](_assets/1.3.3_fig_2.svg)
-
-Nu voegen we de TO-lijn toe. Die start in de oorsprong en loopt omhoog met een helling van €1,50 per brood. Omdat de helling van TO (€1,50) groter is dan de helling van TK (€0,80), haalt de TO-lijn de TK-lijn op een gegeven moment in.
-
-![Figuur 3: TK en TO samen — het break-evenpunt](_assets/1.3.3_fig_3.svg)
-
-Het snijpunt van de twee lijnen is het break-evenpunt: Q = 714,3 broden, TO = TK = €1.071,43.
-
-- **Links van het break-evenpunt**: TK > TO, dus de bakker maakt *verlies*. Het verlies is de verticale afstand tussen TK en TO.
-- **Rechts van het break-evenpunt**: TO > TK, dus de bakker maakt *winst*. De winst is de verticale afstand tussen TO en TK.
-
-![Figuur 4: Winst- en verliesgebied met het break-evenpunt](_assets/1.3.3_fig_4.svg)
-
-In figuur 4 is het verliesgebied (links van het break-evenpunt) rood gearceerd en het winstgebied (rechts) groen gearceerd. Bij Q = 1000 is de winst de verticale afstand tussen TO en TK: €1.500 - €1.300 = €200.
-
-| Q | TO (€) | TK (€) | Winst/Verlies (€) | Toelichting |
-|---|---|---|---|---|
-| 0 | 0 | 500 | -500 | Alleen constante kosten |
-| 500 | 750 | 900 | -150 | Verliesgebied |
-| 714,3 | 1.071,43 | 1.071,43 | 0 | Break-evenpunt |
-| 1000 | 1.500 | 1.300 | 200 | Winstgebied |
-
-![Figuur 5: Opbrengsten en kosten — overzicht](_assets/1.3.3_fig_5.svg)
-
----
-
-## Uitgewerkt voorbeeld
-
-> **De fietsenmaker**
->
-> Een fietsenmaker heeft constante kosten van €800 per maand (huur werkplaats, gereedschap). De variabele kosten per reparatie zijn €15. Hij rekent €35 per reparatie.
-
-**(a)** Schrijf de formules voor TO en TK als functie van Q (het aantal reparaties).
-
-*Stap 1: Stel de formule voor TO op.*
-TO = P x Q = 35Q
-
-*Stap 2: Stel de formule voor TK op.*
-TK = TCK + GVK x Q = 800 + 15Q
-
----
-
-**(b)** Bereken de winst bij Q = 30 en Q = 60 reparaties.
-
-*Stap 1: Bereken TO en TK bij Q = 30.*
-TO = 35 x 30 = €1.050
-TK = 800 + 15 x 30 = 800 + 450 = €1.250
-
-*Stap 2: Bereken de winst.*
-Winst = TO - TK = 1.050 - 1.250 = **-€200** (verlies)
-
-*Stap 3: Herhaal voor Q = 60.*
-TO = 35 x 60 = €2.100
-TK = 800 + 15 x 60 = 800 + 900 = €1.700
-Winst = 2.100 - 1.700 = **€400** (winst)
-
----
-
-**(c)** Bereken het break-evenpunt.
-
-*Stap 1: Stel TO = TK.*
-35Q = 800 + 15Q
-
-*Stap 2: Los op naar Q.*
-35Q - 15Q = 800
-20Q = 800
-Q = 800 / 20
-**Q = 40 reparaties**
-
-*Stap 3: Controleer.*
-TO = 35 x 40 = €1.400
-TK = 800 + 15 x 40 = €1.400
-TO = TK ✓
-
-De fietsenmaker moet minimaal 40 reparaties per maand doen om uit de kosten te komen.
-
-![Uitgewerkt voorbeeld: TK en TO van de fietsenmaker](_assets/1.3.3_we_1.svg)
-
----
-
-> **Samenvatting 1.3.3**
-> - De **totale opbrengst** is het totale verkoopbedrag: TO = P x Q.
-> - De **gemiddelde opbrengst** is de opbrengst per stuk: GO = TO / Q. Bij een constante prijs geldt GO = P.
-> - **Winst** = TO - TK. Is de winst negatief, dan is er *verlies*.
-> - Het **break-evenpunt** is het productieniveau waarbij TO = TK (winst = 0). Bereken: Q = TCK / (P - GVK).
-> - In de grafiek is het break-evenpunt het snijpunt van de TK-lijn en de TO-lijn. Links ervan is verlies, rechts winst.
-> - *In 1.3.4 oefen je met opgaven die kosten en opbrengsten combineren.*
-
-> **Vastgelopen op een opgave?**
-> Op de website vind je bij elke opgave een **begeleide inoefening**: stap voor stap krijg je extra hints en tussenstappen. Klik op de opgave om de begeleiding te starten.
-
----
-
-## Opgaven
-
-### Startoefeningen
-
 **Opgave 1** *(lees de grafiek — zie figuur 6)*
 
-In figuur 6 zie je de TK-lijn en de TO-lijn van een kledingwinkel.
+In figuur 6 zie je twee veranderingen op de markt voor brood. Beide situaties zijn al voor je getekend en gelabeld.
 
-![Figuur 6: TK en TO van een kledingwinkel](_assets/1.3.3_ex_1.svg)
+![Figuur 6: Markt voor brood — twee veranderingen](_assets/1.3.1_ex_1.svg)
 
-a) Lees uit de grafiek af: wat is de totale opbrengst bij Q = 200?
+a) Beschrijf wat er in **Situatie 1** gebeurt: wat verandert er met de prijs en de aangeboden hoeveelheid? Welke factor zou dit veroorzaakt kunnen hebben?
 
-b) Lees uit de grafiek af: wat zijn de totale kosten bij Q = 200?
+b) Beschrijf wat er in **Situatie 2** gebeurt: wat verandert er met de prijs en de aangeboden hoeveelheid? Welke factor zou dit veroorzaakt kunnen hebben?
 
-c) Maakt de kledingwinkel winst of verlies bij Q = 200? Bereken het verschil.
-
-d) Bij welke hoeveelheid ligt ongeveer het break-evenpunt? Leg uit hoe je dit uit de grafiek afleest.
+c) Leg in eigen woorden uit waarom Situatie 1 een *beweging langs* de aanbodlijn is, en Situatie 2 een *verschuiving van* de aanbodlijn.
 
 
 **Opgave 2** *(teken in de grafiek — zie figuur 7)*
 
-Een bloemist heeft constante kosten van €300 per week en variabele kosten van €2 per boeket. Ze verkoopt elk boeket voor €5.
+De markt voor laptops is in evenwicht bij P = €800 en Q = 5.000 stuks per maand. In figuur 7 zie je de aanbodlijn A₁ met punt E.
 
-a) Bereken TO en TK bij Q = 50 en Q = 150.
+![Figuur 7: Markt voor laptops — aanbodlijn met punt E](_assets/1.3.1_ex_2.svg)
 
-b) In figuur 7 is de TK-lijn al getekend. Teken de TO-lijn in dezelfde grafiek. Markeer het break-evenpunt.
+a) De prijs van laptops daalt naar €600. Laat in de grafiek zien wat er gebeurt. Is dit een verschuiving van de aanbodlijn of een beweging langs de aanbodlijn? Leg uit.
 
-![Figuur 7: TK van de bloemist — teken de TO-lijn](_assets/1.3.3_ex_2.svg)
+b) Een nieuwe chiptechnologie verlaagt de productiekosten van laptops aanzienlijk. Laat in de grafiek zien wat er gebeurt met het aanbod van laptops. Is dit een verschuiving of een beweging? Leg uit.
 
-c) Arceer in je grafiek het winstgebied bij Q = 150.
+c) De overheid voert een milieubelasting in op de productie van laptops. Wat verwacht je dat er gebeurt met de aanbodlijn? Is dit een verschuiving of een beweging? Geef de richting aan.
 
 
-**Opgave 3** *(redeneer zonder grafiek)*
+**Opgave 3**
 
-Een ijssalon heeft constante kosten van €600 per maand en variabele kosten van €1,20 per ijsje. De verkoopprijs is €3 per ijsje.
+De markt voor koffie is in evenwicht. Er doen zich achtereenvolgens drie veranderingen voor. Beantwoord voor elke verandering de vragen. Er is geen grafiek bij deze opgave — beschrijf wat er in een grafiek zou gebeuren.
 
-a) Schrijf de formules voor TO en TK als functie van Q.
+a) De prijs van koffie daalt van €8 naar €6 per kilo.
+- Verschuift de aanbodlijn of beweeg je langs de aanbodlijn?
+- In welke richting?
 
-b) Bereken de winst bij Q = 400. Maakt de ijssalon winst of verlies?
+b) Door een droogte in Brazilië mislukt een groot deel van de koffieoogst. De kosten per kilo koffiebonen stijgen fors. De prijs van koffie blijft gelijk.
+- Verschuift de aanbodlijn of beweeg je langs de aanbodlijn?
+- In welke richting verschuift of beweegt de lijn?
 
-c) Bereken het break-evenpunt. Geef je antwoord in hele ijsjes (rond naar boven af).
+c) De overheid verlaagt de importbelasting op koffie.
+- Wat gebeurt er nu met het aanbod van koffie?
+- Is dit een verschuiving of een beweging? Leg uit.
 
-d) Leg uit waarom de ijssalon verlies maakt als hij minder dan het break-evenaantal verkoopt.
+d) Noem bij elk van de drie situaties (a, b, c) welke aanbodfactor verandert. Kies uit: eigen prijs, inputprijzen, technologie, aantal aanbieders, verwachtingen, overheidsbeleid.
+
+
+**Opgave 4** *(twee veranderingen tegelijk — let goed op!)*
+
+Op de markt voor T-shirts gebeuren twee dingen op dezelfde dag:
+
+1. De prijs van T-shirts stijgt van €15 naar €20.
+2. Tegelijk stijgt het minimumloon fors, waardoor de loonkosten voor textielfabrieken toenemen.
+
+a) Bekijk eerst alleen verandering 1. Wat gebeurt er met het aanbod van T-shirts? Is dit een beweging langs of een verschuiving van de aanbodlijn? In welke richting?
+
+b) Bekijk nu alleen verandering 2. Wat gebeurt er met het aanbod van T-shirts? Is dit een beweging langs of een verschuiving van de aanbodlijn? In welke richting?
+
+c) Beide veranderingen gebeuren tegelijkertijd. Beschrijf het netto-effect op de aangeboden hoeveelheid T-shirts. Versterken de twee effecten elkaar of werken ze tegen elkaar in?
+
+d) Een leerling zegt: "De prijs verandert *en* de kosten veranderen, dus alles is een beweging langs de aanbodlijn." Leg uit waarom dit niet klopt.
 
 ---
 
 ### Zelfstandige oefening
 
-**Opgave 4**
-
-Een drukkerij heeft constante kosten van €1.200 per maand. De variabele kosten per poster zijn €0,60. De verkoopprijs per poster is €1,80.
-
-a) Stel de formules op voor TO en TK als functie van Q.
-
-b) Bereken de winst bij Q = 800 en Q = 1500.
-
-c) Bereken het break-evenpunt.
-
-d) De eigenaar overweegt de prijs te verhogen naar €2,10. Bereken het nieuwe break-evenpunt. Wat valt je op?
-
-e) Teken een grafiek met de TK-lijn en beide TO-lijnen (bij €1,80 en bij €2,10). Markeer beide break-evenpunten.
-
-
 **Opgave 5**
 
-Een foodtruck verkoopt hamburgers voor €6 per stuk. De constante kosten zijn €400 per dag (huur standplaats, generator). De variabele kosten per hamburger zijn €2,50.
+De markt voor biologische melk is in evenwicht bij P = €1,20 per liter en Q = 50.000 liter per week.
 
-a) Bereken GO bij Q = 100.
+a) Geef vier aanbodfactoren die de aanbodlijn van biologische melk kunnen laten verschuiven (niet: de eigen prijs).
 
-b) Bereken de winst bij Q = 100 en bij Q = 150.
+b) Leg voor elk van de vier factoren uit of de aanbodlijn naar rechts of naar links verschuift. Geef bij elke factor een concreet voorbeeld.
 
-c) Bereken het break-evenpunt. Hoeveel hamburgers moet de foodtruck minimaal verkopen om geen verlies te maken?
+c) De prijs van biologisch veevoer (een grondstof) stijgt met 30%. Teken een aanbodlijn voor biologische melk en laat zien wat er gebeurt. Is dit een verschuiving of een beweging? Leg uit.
 
-d) De eigenaar wil minstens €250 winst per dag maken. Bereken hoeveel hamburgers hij dan moet verkopen.
+d) Na de kostenstijging van het veevoer besluit de zuivelcoöperatie de melkprijs te verhogen van €1,20 naar €1,50. Teken in dezelfde grafiek wat er nu gebeurt met de aangeboden hoeveelheid. Is dit een verschuiving of een beweging?
+
+
+**Opgave 6**
+
+Hieronder staan zes situaties op de markt voor kleding. Vul de tabel in: bepaal voor elke situatie of het om een beweging of een verschuiving gaat, welke richting, en welke aanbodfactor de oorzaak is.
+
+| | Situatie | Beweging of verschuiving? | Richting | Aanbodfactor |
+|---|---|---|---|---|
+| a | De verkoopprijs van jassen stijgt van €80 naar €110. |  |  |  |
+| b | De prijs van katoen (grondstof) daalt door een goede oogst. |  |  |  |
+| c | Drie nieuwe kledingfabrieken openen in Turkije. |  |  |  |
+| d | Fabrikanten verwachten dat de vraag naar winterjassen volgend seizoen sterk stijgt. |  |  |  |
+| e | De overheid voert een CO₂-belasting in op textielproductie. |  |  |  |
+| f | Een nieuw robotsysteem maakt het naaien van kleding twee keer zo snel. |  |  |  |
 
 ---
 
 ### Herhaling (interleaving)
 
-**Opgave 6** *(herhaling 1.3.1: constante en variabele kosten)*
+**Opgave 7** *(herhaling §1.1.2: procentuele verandering)*
 
-Een cateringbedrijf heeft de volgende kosten per maand:
-- Huur keuken: €900
-- Ingredienten per maaltijd: €4,50
-- Verpakking per maaltijd: €0,50
-- Afschrijving apparatuur: €300
+De prijs van silicium stijgt van €25 per kilo naar €32 per kilo.
 
-a) Welke kosten zijn constant en welke zijn variabel?
+a) Bereken de procentuele prijsstijging.
 
-b) Bereken TCK, GVK en TK bij Q = 200 maaltijden.
+b) Een jaar later daalt de prijs met 15% ten opzichte van €32. Bereken de nieuwe prijs.
 
 
-**Opgave 7** *(herhaling 1.3.2: GTK berekenen)*
+**Opgave 8** *(herhaling §1.2.1: betalingsbereidheid en individuele vraag)*
 
-Een T-shirtbedrijf heeft TK = 400 + 2,50Q.
+Een consument wil een zonnepaneel kopen. Zijn maximale betalingsbereidheid is €350.
 
-a) Bereken GTK bij Q = 100 en Q = 400.
+a) Het zonnepaneel kost €290. Bereken het consumentensurplus.
 
-b) Leg uit waarom GTK daalt als Q toeneemt.
+b) De prijs stijgt naar €375. Koopt de consument het paneel? Leg uit met het begrip betalingsbereidheid.
 
 
-**Opgave 8** *(herhaling 1.2.2: vraagfactoren)*
+**Opgave 9** *(herhaling §1.2.2: vraagfactoren — verschuiving versus beweging)*
 
-De prijs van koffiecups voor een koffieapparaat daalt van €0,40 naar €0,25.
+Op de markt voor hardloopschoenen doen zich twee veranderingen voor:
 
-a) Verwacht je dat de vraag naar koffieapparaten stijgt of daalt? Leg uit welke vraagfactor hier speelt.
+a) De prijs van hardloopschoenen stijgt van €120 naar €140. Is dit een verschuiving van of een beweging langs de vraaglijn? Welke richting?
 
-b) Is dit een beweging langs of een verschuiving van de vraaglijn van koffieapparaten?
+b) Een populaire influencer promoot hardlopen op social media. De prijs van hardloopschoenen blijft gelijk. Is dit een verschuiving of een beweging? Welke vraagfactor verandert?
 
 ---
 
 ### Doeloefening
 
-**Opgave 9**
+**Opgave 10**
 
-De bakker uit de theorie verkoopt brood voor €1,50 per stuk. Zijn constante kosten zijn €500 en zijn variabele kosten zijn €0,80 per brood (TK = 500 + 0,80Q).
+De markt voor zonnepanelen is in evenwicht.
 
-a) Schrijf de formule voor TO als functie van Q.
+a) Een fabrikant van zonnepanelen wordt geconfronteerd met hogere siliciumprijzen. Laat in een grafiek zien wat er gebeurt met de aanbodlijn van zonnepanelen. Verklaar je antwoord.
 
-b) Bereken TO en winst (TO - TK) bij Q = 500 en Q = 1000.
+b) De overheid voert een subsidie in op de productie van zonnepanelen. Laat het effect op de aanbodlijn zien.
 
-c) Bereken GO (= TO/Q) bij Q = 500. Wat valt je op?
+c) Noem drie factoren die de aanbodlijn doen verschuiven en geef bij elke factor een voorbeeld.
 
-d) Bij welk productieniveau draait de bakker precies break-even (winst = 0)? Laat dit zien met een berekening.
-
-e) Teken een grafiek met TK en TO. Markeer het break-evenpunt. Arceer het winstgebied bij Q = 1000.
+d) Teken een aanbodlijn. Geef in de grafiek een beweging langs de lijn aan én een verschuiving van de lijn. Label duidelijk welke welke is.
 
 ---
 
 ### Denkertje *(bonusopgave)*
 
-**Opgave 10**
+**Opgave 11**
 
-De bakker overweegt om de prijs van zijn brood te verlagen van €1,50 naar €1,20. Hij verwacht dat hij daardoor 30% meer broden verkoopt.
+De Europese Unie wil de productie van groene waterstof stimuleren. Er worden twee maatregelen overwogen:
 
-a) Stel dat de bakker nu 1000 broden per week verkoopt. Bereken de winst bij de huidige prijs (€1,50).
+- **Maatregel A:** Een subsidie van €2 per kilogram geproduceerde groene waterstof.
+- **Maatregel B:** Investeren in onderzoek naar een nieuwe, goedkopere productiemethode voor groene waterstof.
 
-b) Bereken de verwachte afzet en de winst bij de nieuwe prijs (€1,20).
+a) Leg met behulp van het verschil tussen aanbodfactoren uit hoe beide maatregelen de aanbodlijn van groene waterstof beïnvloeden. Welke aanbodfactor wordt in elk geval aangesproken?
 
-c) Is de prijsverlaging een goed idee? Beargumenteer je antwoord. Bedenk daarbij: welke informatie mist de bakker nog om een definitieve beslissing te nemen?
-
-
-<div style="break-before: page;"></div>
-
-# Gemengde opgaven §1.3.4 — Aanbod en kosten
-
----
-
-## Opgave 1: Bakkerij "Korenveld"
-
-Maaike is eigenaar van bakkerij "Korenveld" in Amersfoort. Ze verkoopt ambachtelijke croissants aan horecazaken in de regio. De verkoopprijs is vast: elke croissant levert €2,50 op. Maaike huurt een bakkerij voor €800 per maand (vast contract, ongeacht productie). De kosten voor ingrediënten, energie en verpakking hangen af van het aantal croissants dat ze bakt.
-
-In haar jaarverslag heeft Maaike de kosten en opbrengsten per maand samengevat voor verschillende productieniveaus.
-
-**Tabel 1: Kosten en opbrengsten bakkerij "Korenveld" per maand**
-
-| Productie (stuks) | Constante kosten (€) | Variabele kosten (€) | Totale kosten (€) | Totale opbrengst (€) |
-|---|---|---|---|---|
-| 0 | 800 | 0 | 800 | 0 |
-| 200 | 800 | 300 | 1.100 | 500 |
-| 400 | 800 | 500 | 1.300 | 1.000 |
-| 600 | 800 | 750 | 1.550 | 1.500 |
-| 800 | 800 | 1.100 | 1.900 | 2.000 |
-| 1.000 | 800 | 1.600 | 2.400 | 2.500 |
-| 1.200 | 800 | 2.400 | 3.200 | 3.000 |
-
----
-
-**1** *(2p)* Bereken de gemiddelde variabele kosten (GVK) en de gemiddelde totale kosten (GTK) bij een productie van 800 croissants. Laat je berekening zien.
-
-**2** *(2p)* Bereken de winst van bakkerij "Korenveld" bij een productie van 1.000 croissants per maand.
-
-**3** *(2p)* Leg uit bij welk productieniveau Maaike break-even draait. Gebruik de gegevens uit tabel 1 in je antwoord.
-
-**4** *(2p)* Bepaal met behulp van tabel 1 bij welke productie de winst maximaal is. Laat zien hoe je dit vaststelt.
-
-**5** *(2p)* Maaike overweegt om 1.200 croissants per maand te bakken in plaats van 1.000. Leg uit waarom dit bedrijfseconomisch geen verstandige keuze is, ook al verkoopt ze dan meer croissants.
-
-**Denkertje** *(2p)* Maaike zegt: "Hoe meer ik produceer, hoe lager mijn gemiddelde kosten, dus ik moet altijd zoveel mogelijk bakken." Beoordeel of deze uitspraak klopt. Gebruik gegevens uit tabel 1 om je antwoord te onderbouwen.
-
----
-
-## Opgave 2: Fietsfabriek "VeloTech"
-
-Fietsfabriek "VeloTech" produceert stadsfietsen. Figuur 1 toont de oorspronkelijke aanbodlijn van stadsfietsen op de Nederlandse markt.
-
-![Figuur 1: Aanbod van stadsfietsen op de Nederlandse markt](_assets/1.3.4_ex_1.png)
-
-Lees het volgende nieuwsbericht:
-
-> **Staalprijs stijgt met 30% door exportbeperkingen**
->
-> De prijs van staal is het afgelopen kwartaal fors gestegen. China heeft exportbeperkingen ingevoerd voor staal, waardoor de wereldwijde aanvoer is afgenomen. Voor Nederlandse fietsfabrikanten betekent dit hogere inkoopkosten voor frames en onderdelen. Branchevereniging RAI verwacht dat de productiekosten per fiets gemiddeld met €40 stijgen.
-
-VeloTech heeft de volgende kostenstructuur bij een productie van 5.000 fietsen per jaar:
-
-**Tabel 2: Kostenstructuur VeloTech (5.000 fietsen per jaar)**
-
-| Kostenpost | Bedrag (€) | Type |
-|---|---|---|
-| Huur fabriek | 200.000 | Constant |
-| Afschrijving machines | 80.000 | Constant |
-| Salarissen vaste medewerkers | 120.000 | Constant |
-| Staal en onderdelen | 500.000 | Variabel |
-| Energie | 50.000 | Variabel |
-| Verpakking en transport | 100.000 | Variabel |
-
-De verkoopprijs per fiets is €230. Na de staalstijging worden de kosten voor staal en onderdelen €200.000 hoger (€700.000 in totaal).
-
----
-
-**6** *(2p)* Bereken de totale constante kosten (TCK) en de totale variabele kosten (TVK) van VeloTech vóór de staalstijging. Gebruik tabel 2.
-
-**7** *(2p)* Bereken de gemiddelde totale kosten (GTK) per fiets vóór de staalstijging.
-
-**8** *(2p)* Het nieuwsbericht beschrijft een stijging van de staalprijs. Noem de aanbodfactor die hierdoor verandert. Leg uit of dit leidt tot een verschuiving van de aanbodlijn of een beweging langs de aanbodlijn.
-
-**9** *(2p)* Leg uit dat de stijging van de staalprijs leidt tot een daling van de winst per fiets voor VeloTech. Gebruik een berekening vóór en ná de staalstijging.
-
-**10** *(3p)* Na de staalstijging overweegt VeloTech de verkoopprijs te verhogen naar €270. Een concurrent biedt vergelijkbare fietsen aan voor €250. Leg uit wat het effect is op de aanbodlijn als VeloTech de prijs verhoogt naar €270. Is dit een verschuiving of een beweging langs de lijn? Motiveer je antwoord.
-
-**Denkertje** *(2p)* Een econoom zegt: "Als de productiekosten stijgen, moeten bedrijven altijd hun verkoopprijs verhogen om te overleven." Beoordeel deze uitspraak. Geef in je antwoord minstens één reden waarom een bedrijf ervoor kan kiezen de prijs niet te verhogen.
+b) Een criticus stelt: "Maatregel A kost de overheid elk jaar geld. Maatregel B kost eenmalig geld, maar het effect is blijvend." Beoordeel deze stelling. Gebruik economische argumenten en betrek de begrippen 'productiekosten' en 'technologie' in je antwoord.
 
 <div style="break-before: page;"></div>
 
-<div class="chapter-front">
-
-<h1>Hoofdstuk 4 — Marktevenwicht en marginale analyse</h1>
-
-<h2>Inhoud</h2>
-
-<table>
-<thead><tr><th>§</th><th>Onderwerp</th></tr></thead>
-<tbody>
-<tr><td>1.4.1</td><td>Marktevenwicht</td></tr>
-<tr><td>1.4.2</td><td>Verschuivingen en nieuw evenwicht</td></tr>
-<tr><td>1.4.3</td><td>Marginale kosten en marginale opbrengsten</td></tr>
-<tr><td>1.4.4</td><td>Winstmaximalisatie</td></tr>
-<tr><td>1.4.5</td><td>Gemengde opgaven</td></tr>
-</tbody>
-</table>
-
-<h2>Leerdoelen</h2>
-
-<p>Na dit hoofdstuk kun je:</p>
-
-<ul>
-<li>Het marktevenwicht berekenen door Qa = Qv op te lossen</li>
-<li>De evenwichtsprijs en -hoeveelheid grafisch aflezen</li>
-<li>Een aanbodoverschot of vraagoverschot herkennen en berekenen bij een gegeven prijs</li>
-<li>Een nieuw evenwicht berekenen na een verschuiving van vraag of aanbod</li>
-<li>Voorspellen welke richting prijs en hoeveelheid opgaan na een verschuiving</li>
-<li>Analyseren wat er gebeurt bij gelijktijdige verschuivingen (dubbelzinnig prijseffect)</li>
-<li>MK definiëren als de extra kosten van één extra eenheid (ΔTK/ΔQ)</li>
-<li>MO definiëren als de extra opbrengst van één extra eenheid (ΔTO/ΔQ)</li>
-<li>MK en MO berekenen vanuit een tabel</li>
-<li>De winstmaximalisatieregel toepassen: produceer waar MO = MK</li>
-<li>De optimale productieomvang berekenen met en zonder tabel</li>
-</ul>
-
-<h2>Wanneer stopt de fabrikant met produceren?</h2>
-
-<p>Een fabrikant kan altijd meer produceren — maar moet hij dat ook doen? Elke extra eenheid levert geld op, maar kost ook geld. Zolang de extra opbrengst hoger is dan de extra kosten, loont het om door te gaan. Maar op een gegeven moment kantelt het. In dit hoofdstuk leer je eerst hoe vraag en aanbod samen de marktprijs bepalen, en daarna hoe een producent met marginale analyse precies het punt vindt waar de winst het grootst is.</p>
-
-</div>
-
-
-<div style="break-before: page;"></div>
-
-# 1.4.1 Marktevenwicht
+# 1.3.2 Marktevenwicht
 
 ## Twee lijnen, één kruispunt — en toch snapt bijna niemand het in één keer
 
@@ -3412,7 +2732,7 @@ Aanbodoverschot = Qa − Qv = 40 − 15 = 25 pennen.
 
 ---
 
-> **Samenvatting §1.4.1**
+> **Samenvatting §1.3.2**
 > - Het marktevenwicht is het punt waar Qv = Qa: de gevraagde hoeveelheid is gelijk aan de aangeboden hoeveelheid.
 > - Je berekent P* door Qv = Qa te stellen en op te lossen naar P. Vul P* vervolgens in om Q* te vinden.
 > - Controleer altijd door P* in **beide** vergelijkingen in te vullen.
@@ -3573,14 +2893,237 @@ c) Leg uit waarom de overheid een maximumprijs zou willen instellen, ondanks het
 
 d) Bedenk een maatregel waarmee de overheid het tekort kan verkleinen zonder de maximumprijs los te laten.
 
+## Opgaven
+
+## Uitgewerkt voorbeeld
+
+> **De markt voor pennen**
+>
+> Op de markt voor pennen geldt:
+> - Qv = −3P + 90
+> - Qa = 2P − 10
+
+**(a) Bereken de evenwichtsprijs en de evenwichtshoeveelheid.**
+
+*Stap 1: Stel Qv = Qa.*
+
+−3P + 90 = 2P − 10
+
+*Stap 2: Los op naar P.*
+
+90 + 10 = 2P + 3P
+
+100 = 5P
+
+P* = 20
+
+*Stap 3: Vul P* = 20 in.*
+
+Qv = −3 × 20 + 90 = −60 + 90 = 30
+
+**Antwoord:** P* = EUR 20, Q* = 30 pennen.
+
+**(b) Controleer je antwoord.**
+
+Qa = 2 × 20 − 10 = 40 − 10 = 30 ✓
+
+Beide vergelijkingen geven Q = 30, dus de berekening klopt.
+
+**(c) Teken de vraaglijn en de aanbodlijn en markeer het evenwichtspunt.**
+
+De vraaglijn loopt van (Q = 0, P = 30) naar (Q = 90, P = 0). De aanbodlijn begint bij (Q = 0, P = 5). Het evenwichtspunt E ligt op P* = 20, Q* = 30.
+
+![Uitgewerkt voorbeeld: markt voor pennen](_assets/1.4.1_we_1.svg)
+
+**(d) Bij een prijs van EUR 25: is er een overschot of een tekort? Bereken de grootte.**
+
+*Stap 1: Bereken Qv en Qa bij P = 25.*
+
+Qv = −3 × 25 + 90 = −75 + 90 = 15
+
+Qa = 2 × 25 − 10 = 50 − 10 = 40
+
+*Stap 2: Vergelijk.*
+
+Qa = 40 > Qv = 15 → er is een **aanbodoverschot**.
+
+*Stap 3: Bereken de grootte.*
+
+Aanbodoverschot = Qa − Qv = 40 − 15 = 25 pennen.
+
+**De procedure samengevat:**
+
+| Stap | Actie |
+|------|-------|
+| 1 | Stel Qv = Qa en los op naar P → P* |
+| 2 | Vul P* in een vergelijking in → Q* |
+| 3 | Controleer: vul P* in de andere vergelijking in → dezelfde Q*? |
+| 4 | Teken de lijnen en markeer E op (Q*, P*) |
+| 5 | Bij een gegeven prijs: bereken Qv en Qa, vergelijk → overschot of tekort |
+
+---
+
+## Opgaven
+
+### Startoefeningen
+
+**Opgave 1** *(invuloefening)*
+
+Op de markt voor schriften geldt: Qv = −2P + 100 en Qa = 3P − 25.
+
+a) Vul in: het evenwicht vind je door Qv ... Qa te stellen (=, >, <).
+
+b) Schrijf de vergelijking op die je moet oplossen om P* te vinden.
+
+c) Wat is P*? Wat is Q*?
+
+d) Controleer je antwoord door P* in de andere vergelijking in te vullen.
+
+
+**Opgave 2** *(oefenen met de procedure)*
+
+Op de markt voor potloden geldt:
+- Qv = −4P + 80
+- Qa = P − 5
+
+a) Bereken de evenwichtsprijs P*.
+
+b) Bereken de evenwichtshoeveelheid Q*.
+
+c) Controleer je antwoord.
+
+
+**Opgave 3** *(overschot en tekort)*
+
+Gebruik de vergelijkingen uit opgave 2 (Qv = −4P + 80, Qa = P − 5).
+
+a) Bereken Qv en Qa bij een prijs van EUR 20.
+
+b) Is er bij P = 20 een vraagoverschot of een aanbodoverschot? Bereken de grootte.
+
+c) Bereken Qv en Qa bij een prijs van EUR 10.
+
+d) Is er bij P = 10 een vraagoverschot of een aanbodoverschot? Bereken de grootte.
+
+---
+
+### Zelfstandige oefening
+
+**Opgave 4** *(de doeloefening — schriftenmarkt)*
+
+Op de markt voor schriften geldt: Qv = −2P + 100 en Qa = 3P − 25.
+
+a) Bereken de evenwichtsprijs en de evenwichtshoeveelheid.
+
+b) Controleer je antwoord door P* in beide vergelijkingen in te vullen.
+
+c) Teken de vraaglijn en de aanbodlijn in een grafiek en markeer het evenwichtspunt. *(Zie figuur 5 voor een leeg assenstelsel.)*
+
+![Figuur 5: Leeg assenstelsel voor opgave 4c](_assets/1.4.1_ex_1.svg)
+
+d) Bij een prijs van EUR 30: is er een aanbodoverschot of een vraagoverschot? Bereken de grootte.
+
+
+**Opgave 5** *(nieuwe markt)*
+
+Op de markt voor USB-sticks geldt:
+- Qv = −P + 40
+- Qa = 2P − 20
+
+a) Bereken de evenwichtsprijs en de evenwichtshoeveelheid.
+
+b) Controleer je antwoord.
+
+c) Teken de vraaglijn en de aanbodlijn in een grafiek en markeer het evenwichtspunt.
+
+d) Bij een prijs van EUR 15: is er een overschot of een tekort? Bereken de grootte.
+
+e) Bij een prijs van EUR 25: is er een overschot of een tekort? Bereken de grootte.
+
+
+**Opgave 6** *(drie vergelijkingsparen)*
+
+Bereken voor elk van de volgende markten de evenwichtsprijs en evenwichtshoeveelheid. Controleer telkens je antwoord.
+
+a) Qv = −5P + 200, Qa = 3P − 40
+
+b) Qv = −P + 50, Qa = 4P − 75
+
+c) Qv = −3P + 120, Qa = 2P − 30
+
+---
+
+### Herhaling (interleaving)
+
+**Opgave 7** *(herhaling §1.3.1: aanbodverschuiving)*
+
+De aanbodlijn van broodjes verschuift naar links doordat de graanprijs stijgt.
+
+a) Welke aanbodfactor is hier veranderd?
+
+b) Wat gebeurt er met de evenwichtsprijs als de aanbodlijn naar links verschuift en de vraaglijn gelijk blijft? Leg uit.
+
+c) Wat gebeurt er met de evenwichtshoeveelheid? Leg uit.
+
+
+**Opgave 8** *(herhaling §1.2.2: vraagfactoren)*
+
+De markt voor elektrische fietsen is in evenwicht. De overheid kondigt aan dat ze een subsidie geeft op elektrische fietsen.
+
+a) Is dit een verandering van de eigen prijs of van een andere factor?
+
+b) Verschuift de vraaglijn of de aanbodlijn? In welke richting?
+
+c) Wat verwacht je dat er met de evenwichtsprijs en de evenwichtshoeveelheid gebeurt?
+
+---
+
+### Doeloefening
+
+**Opgave 9** *(alles samen)*
+
+Op de markt voor rekenmachines geldt:
+- Qv = −2P + 80
+- Qa = 3P − 20
+
+a) Bereken de evenwichtsprijs en de evenwichtshoeveelheid.
+
+b) Controleer je antwoord door P* in beide vergelijkingen in te vullen.
+
+c) Teken de vraaglijn en de aanbodlijn in een grafiek. Markeer het evenwichtspunt.
+
+d) Bij een prijs van EUR 25 — is er een overschot of een tekort? Bereken de grootte.
+
+e) Noem een factor die de vraaglijn naar rechts kan laten verschuiven. Wat zou er dan met het evenwicht gebeuren?
+
+---
+
+### Denkertje *(bonusopgave)*
+
+**Opgave 10**
+
+De overheid legt een maximumprijs van EUR 15 op de markt voor schriften (Qv = −2P + 100, Qa = 3P − 25).
+
+a) Bereken de gevraagde en aangeboden hoeveelheid bij P = 15.
+
+b) Ontstaat er een vraagoverschot of een aanbodoverschot? Bereken de grootte.
+
+c) Leg uit waarom de overheid een maximumprijs zou willen instellen, ondanks het tekort dat ontstaat.
+
+d) Bedenk een maatregel waarmee de overheid het tekort kan verkleinen zonder de maximumprijs los te laten.
+
+---
+
+> **💡 Vastgelopen op een opgave?**
+> Op de website vind je bij elke opgave een **begeleide inoefening**: stap voor stap krijg je extra hints en tussenstappen. Klik op de opgave om de begeleiding te starten.
 
 <div style="break-before: page;"></div>
 
-# 1.4.2 Verschuivingen en nieuw evenwicht
+# 1.3.3 Verschuivingen en nieuw evenwicht
 
 ## De schriftenmarkt draait op volle toeren — tot er iets verandert
 
-In §1.4.1 heb je geleerd dat de markt voor schriften in evenwicht is bij P* = EUR 25 en Q* = 50 stuks. Maar markten staan niet stil. Een nieuwe fabriek opent, het inkomen van scholieren stijgt, of grondstoffen worden duurder. Wat gebeurt er dan met de evenwichtsprijs en de evenwichtshoeveelheid?
+In §1.3.2 heb je geleerd dat de markt voor schriften in evenwicht is bij P* = EUR 25 en Q* = 50 stuks. Maar markten staan niet stil. Een nieuwe fabriek opent, het inkomen van scholieren stijgt, of grondstoffen worden duurder. Wat gebeurt er dan met de evenwichtsprijs en de evenwichtshoeveelheid?
 
 In deze paragraaf leer je hoe je het **nieuwe evenwicht** berekent na een verschuiving van de aanbodlijn of de vraaglijn — en wat er gebeurt als *beide* tegelijk verschuiven.
 
@@ -3590,11 +3133,11 @@ In deze paragraaf leer je hoe je het **nieuwe evenwicht** berekent na een versch
 
 ### Het uitgangspunt: de schriftenmarkt
 
-> **📋 Herhaling uit §1.4.1**
+> **📋 Herhaling uit §1.3.2**
 > De evenwichtsprijs vind je door Qv = Qa te stellen en op te lossen naar P. Vul P* vervolgens in om Q* te vinden. Controleer altijd door P* in beide vergelijkingen in te vullen.
 
 > **📋 Herhaling uit §1.3.2**
-> Kostenstructuren bepalen de positie van de aanbodlijn. Als de kosten per eenheid dalen (bijv. door efficiëntere productie), verschuift de aanbodlijn naar rechts: bij elke prijs bieden producenten meer aan.
+> Productiekosten bepalen de positie van de aanbodlijn. Als de kosten per eenheid dalen (bijv. door efficiëntere productie), verschuift de aanbodlijn naar rechts: bij elke prijs bieden producenten meer aan.
 
 We beginnen met de bekende vergelijkingen van de schriftenmarkt:
 
@@ -3616,7 +3159,7 @@ De nieuwe aanbodvergelijking is: **Qa' = 3P − 10**
 
 Merk op: de helling (3) is hetzelfde gebleven, maar de constante is veranderd van −25 naar −10. Dat betekent dat de aanbodlijn 15 eenheden naar rechts is verschoven: bij elke prijs bieden producenten 15 schriften meer aan dan voorheen.
 
-**Hoe berekenen we het nieuwe evenwicht?** Dezelfde drie stappen als in §1.4.1:
+**Hoe berekenen we het nieuwe evenwicht?** Dezelfde drie stappen als in §1.3.2:
 
 *Stap 1: Stel Qv = Qa' (nieuw).*
 
@@ -3839,7 +3382,7 @@ Dit klopt met de vuistregel: aanbod naar rechts → prijs daalt, hoeveelheid sti
 
 ---
 
-> **Samenvatting §1.4.2**
+> **Samenvatting §1.3.3**
 > - Een verschuiving van de aanbodlijn of vraaglijn leidt tot een **nieuw evenwicht** met een andere prijs en hoeveelheid.
 > - Je berekent het nieuwe evenwicht met dezelfde methode: Qv = Qa (nieuw) → P*' → Q*'.
 > - Aanbod naar rechts → P* daalt, Q* stijgt. Vraag naar rechts → P* stijgt, Q* stijgt.
@@ -3994,7 +3537,7 @@ e) Nu vinden BEIDE veranderingen tegelijk plaats: Qa' = 3P − 10 en Qv' = −2P
 
 ### Herhaling (interleaving)
 
-**Opgave 6** *(herhaling §1.4.1: evenwicht berekenen)*
+**Opgave 6** *(herhaling §1.3.2: evenwicht berekenen)*
 
 Op de markt voor rekenmachines geldt:
 - Qv = −2P + 70
@@ -4057,200 +3600,55 @@ c) Laat zien dat de evenwichtsprijs niet verandert, ongeacht de waarde van k. Le
 
 d) Wat gebeurt er met de evenwichtshoeveelheid als k groter wordt?
 
-
-<div style="break-before: page;"></div>
-
-# 1.4.3 Marginale kosten en marginale opbrengsten
-
-## Loont het om nog één extra te produceren?
-
-Een ijsfabrikant verkoopt elk ijsje voor €3. Hij maakt er nu 500 per dag. Een medewerker vraagt: "Zullen we er 501 maken?" De ondernemer denkt na. Dat ene extra ijsje levert €3 op. Maar wat kost het om dat ene extra ijsje te maken? Als de extra kosten €2 zijn, levert het ijsje €1 winst op. Maar als de extra kosten €4 zijn, verliest hij er juist €1 op.
-
-De ondernemer hoeft niet de *totale* winst opnieuw uit te rekenen. Hij hoeft alleen te kijken naar de **extra kosten** en de **extra opbrengst** van dat ene product. Dit is de kern van *marginaal denken*: niet het geheel, maar de verandering aan de marge.
-
-In deze paragraaf leer je twee nieuwe begrippen: marginale kosten (MK) en marginale opbrengsten (MO). Je leert ze berekenen met een tabel en je ziet wat er gebeurt als de kosten lineair of kwadratisch stijgen.
-
----
-
-## Theorie
-
-### Marginale kosten (MK)
-
-> **📋 Herhaling uit §1.3.3**
-> De totale kosten (TK) zijn de som van alle constante en variabele kosten: TK = TCK + TVK. De totale opbrengst is TO = P x Q. De winst is TO - TK.
-
-Stel dat een bedrijf nu Q = 20 eenheden produceert en de totale kosten TK = €260 bedragen. Als het bedrijf de productie verhoogt naar Q = 21, stijgen de totale kosten naar TK = €263. De kosten zijn dus met €3 gestegen. Die €3 noemen we de **marginale kosten**: de extra kosten van één extra eenheid.
-
-> **Definitie: Marginale kosten (MK)**
-> De extra kosten die een bedrijf maakt als het één eenheid meer produceert.
-> MK = ΔTK / ΔQ (de verandering van de totale kosten gedeeld door de verandering van de hoeveelheid).
-
-> **Formule**
-> ```
-> MK = ΔTK / ΔQ
-> ```
-> Waarbij ΔTK = TK(nieuw) − TK(oud) en ΔQ = Q(nieuw) − Q(oud).
-
-Neem bedrijf 1 als voorbeeld. Dit bedrijf heeft TK = 200 + 3Q. Elke extra eenheid voegt precies €3 toe aan de totale kosten. De marginale kosten zijn dus constant: MK = 3.
-
-We berekenen de waarden in een tabel:
-
-| Q | TK = 200 + 3Q | ΔTK (t.o.v. vorige rij) | ΔQ | MK = ΔTK / ΔQ |
-|---|--------------|------------------------|-----|----------------|
-| 0 | 200 | — | — | — |
-| 10 | 230 | 30 | 10 | 3 |
-| 20 | 260 | 30 | 10 | 3 |
-| 30 | 290 | 30 | 10 | 3 |
-| 40 | 320 | 30 | 10 | 3 |
-| 50 | 350 | 30 | 10 | 3 |
-
-MK is bij elke stap precies 3. Dat klopt: de formule TK = 200 + 3Q is lineair. Het variabele deel stijgt met €3 per eenheid, ongeacht hoeveel je al produceert.
-
----
-
-### Marginale opbrengsten (MO)
-
-Nu dezelfde vraag voor de opbrengstenkant. Het bedrijf verkoopt elk product voor €8. De totale opbrengst is TO = 8Q. Als het bedrijf één eenheid meer verkoopt, stijgt de totale opbrengst met €8. Die €8 noemen we de **marginale opbrengsten**.
-
-> **Definitie: Marginale opbrengsten (MO)**
-> De extra opbrengst die een bedrijf ontvangt als het één eenheid meer verkoopt.
-> MO = ΔTO / ΔQ (de verandering van de totale opbrengst gedeeld door de verandering van de hoeveelheid).
-
-> **Formule**
-> ```
-> MO = ΔTO / ΔQ
-> ```
-> Waarbij ΔTO = TO(nieuw) − TO(oud) en ΔQ = Q(nieuw) − Q(oud).
-
-Bij een constante prijs (het bedrijf is een prijsnemer) geldt: MO = P. Elke extra eenheid levert precies de marktprijs op. Dit is logisch: als de prijs niet verandert, is de extra opbrengst van elk volgend product gelijk aan de prijs.
-
----
-
-### Bedrijf 1: MK en MO samen in de tabel
-
-We combineren nu kosten en opbrengsten voor bedrijf 1 (TK = 200 + 3Q, P = €8, TO = 8Q):
-
-| Q | TK | TO | Winst (TO − TK) | MK | MO |
-|---|-----|-----|-----------------|-----|-----|
-| 0 | 200 | 0 | −200 | — | — |
-| 10 | 230 | 80 | −150 | 3 | 8 |
-| 20 | 260 | 160 | −100 | 3 | 8 |
-| 30 | 290 | 240 | −50 | 3 | 8 |
-| 40 | 320 | 320 | 0 | 3 | 8 |
-| 50 | 350 | 400 | 50 | 3 | 8 |
-
-Figuur 1 toont TK en TO als rechte lijnen. Het snijpunt bij Q = 40 is het break-evenpunt (BEP): daar is de winst precies nul.
-
-![Figuur 1: TK en TO van bedrijf 1](_assets/1.4.3_fig_1.svg)
-
-In figuur 2 zie je MK en MO als twee horizontale lijnen. MK = 3 en MO = 8. Het verschil MO − MK = 5 is de extra winst per eenheid: elke extra eenheid levert €5 winst op. Zolang MO groter is dan MK, loont het om meer te produceren.
-
-![Figuur 2: MK en MO van bedrijf 1 — beide constant](_assets/1.4.3_fig_2.svg)
-
-Zo zie je dezelfde informatie in drie vormen tegelijk: in de tabel hierboven, in de twee grafieken, en in de tekst die ze verbindt.
-
----
-
-### Bedrijf 2: kwadratische kosten
-
-Niet alle bedrijven hebben constante marginale kosten. Neem bedrijf 2 met TK = 100 + Q². De kosten stijgen nu niet meer gelijkmatig: hoe meer je produceert, hoe sneller de kosten stijgen. Dit bedrijf verkoopt tegen P = €30, dus TO = 30Q.
-
-| Q | TK = 100 + Q² | TO = 30Q | Winst | ΔTK | ΔQ | MK = ΔTK/ΔQ | MO |
-|---|--------------|---------|-------|-----|-----|-------------|-----|
-| 0 | 100 | 0 | −100 | — | — | — | — |
-| 5 | 125 | 150 | 25 | 25 | 5 | 5 | 30 |
-| 10 | 200 | 300 | 100 | 75 | 5 | 15 | 30 |
-| 15 | 325 | 450 | 125 | 125 | 5 | 25 | 30 |
-| 20 | 500 | 600 | 100 | 175 | 5 | 35 | 30 |
-
-Kijk naar de kolom MK: 5, 15, 25, 35. De marginale kosten *stijgen*. Elke extra groep van 5 eenheden wordt duurder om te produceren. Dit komt doordat TK kwadratisch is: de kosten accelereren.
-
-MO blijft constant op 30 — logisch, want de prijs is vast op €30.
-
-Figuur 3 toont TK als een *kromme* (omhoogbuigend) en TO als een rechte lijn.
-
-![Figuur 3: TK en TO van bedrijf 2 — kwadratische kosten](_assets/1.4.3_fig_3.svg)
-
-Figuur 4 laat de stijgende MK zien als stappen. Bij Q = 15 is MK = 25, nog onder MO = 30. Bij Q = 20 is MK = 35, al boven MO = 30. Ergens tussen Q = 15 en Q = 20 haalt MK de prijs in. Vanaf dat punt kost elke extra eenheid meer dan ze oplevert.
-
-![Figuur 4: Stijgende MK bij kwadratische kosten](_assets/1.4.3_fig_4.svg)
-
-> **⚠️ Let op — veelgemaakte fout**
-> Veel leerlingen denken dat de winst het hoogst is bij de grootste productie. Maar kijk naar de tabel: bij Q = 15 is de winst €125, bij Q = 20 is de winst €100. Meer produceren kan de winst *verlagen* als de marginale kosten boven de marginale opbrengsten uitstijgen.
-
----
-
-### Twee patronen: lineair versus kwadratisch
-
-| | Lineaire TK (bedrijf 1) | Kwadratische TK (bedrijf 2) |
-|---|------------------------|---------------------------|
-| Formule TK | TK = 200 + 3Q | TK = 100 + Q² |
-| Grafiek TK | Rechte lijn | Kromme (buigt omhoog) |
-| MK | Constant (= 3) | Stijgend (5, 15, 25, 35, …) |
-| MO bij vaste prijs | Constant (= P) | Constant (= P) |
-
-Figuur 5 vat het marginale denken in een overzicht samen.
-
-![Figuur 5: Overzicht marginale kosten en marginale opbrengsten](_assets/1.4.3_fig_5.svg)
-
----
+## Opgaven
 
 ## Uitgewerkt voorbeeld
 
-> **De snoepfabriek**
+> **De markt voor fietsbellen**
 >
-> Een snoepfabriek heeft vaste kosten van €300 per dag (huur, machines). De variabele kosten bedragen €5 per zak snoep. De verkoopprijs is €12 per zak.
+> Op de markt voor fietsbellen geldt:
+> - Qv = −P + 60
+> - Qa = 2P − 30
+>
+> Door een technologische verbetering daalt de productiekost. De nieuwe aanbodvergelijking wordt: Qa' = 2P − 18.
 
-**(a)** Schrijf de formules voor TK en TO als functie van Q.
+**(a) Bereken het oorspronkelijke evenwicht.**
 
-*Stap 1: Identificeer constante en variabele kosten.*
+*Stap 1: Stel Qv = Qa.*
 
-- TCK = €300 (vast)
-- TVK = €5 per zak → TVK = 5Q
-- TK = TCK + TVK = 300 + 5Q
+−P + 60 = 2P − 30
 
-*Stap 2: Schrijf de formule voor TO.*
+*Stap 2: Los op naar P.*
 
-- TO = P × Q = 12 × Q = 12Q
+90 = 3P → P* = 30
 
-**(b)** Bereken MK en MO.
+*Stap 3: Vul P* = 30 in.*
 
-*Stap 3: Bereken MK = ΔTK / ΔQ.*
+Qv = −30 + 60 = 30
 
-TK = 300 + 5Q. Als Q met 1 stijgt, stijgt TK met €5. Dus MK = 5.
+*Controle:* Qa = 2 × 30 − 30 = 30 ✓
 
-*Stap 4: Bereken MO = ΔTO / ΔQ.*
+**Antwoord:** P* = EUR 30, Q* = 30 fietsbellen.
 
-TO = 12Q. Als Q met 1 stijgt, stijgt TO met €12. Dus MO = 12.
+**(b) Bereken het nieuwe evenwicht na de aanbodverschuiving.**
 
-**(c)** Vul de tabel in voor Q = 0, 10, 20, 30, 40, 50.
+*Stap 1: Stel Qv = Qa'.*
 
-| Q | TK = 300 + 5Q | TO = 12Q | Winst | MK | MO |
-|---|--------------|---------|-------|----|----|
-| 0 | 300 | 0 | −300 | — | — |
-| 10 | 350 | 120 | −230 | 5 | 12 |
-| 20 | 400 | 240 | −160 | 5 | 12 |
-| 30 | 450 | 360 | −90 | 5 | 12 |
-| 40 | 500 | 480 | −20 | 5 | 12 |
-| 50 | 550 | 600 | 50 | 5 | 12 |
+−P + 60 = 2P − 18 → 78 = 3P → P*' = 26
 
-**(d)** Wat valt op aan MK en MO?
+*Stap 3: Vul in.*
 
-MK is constant op €5 (lineaire TK). MO is constant op €12 (constante prijs). Elke extra zak snoep levert €12 − €5 = €7 winst op. Het loont altijd om meer te produceren, want MO > MK bij elke hoeveelheid.
+Qv = −26 + 60 = 34. *Controle:* Qa' = 2 × 26 − 18 = 34 ✓
 
-![Uitgewerkt voorbeeld: MK en MO van de snoepfabriek](_assets/1.4.3_we_1.svg)
+**Antwoord:** P*' = EUR 26, Q*' = 34 fietsbellen.
 
----
+**(c) Vergelijk het oude en nieuwe evenwicht.**
 
-> **Samenvatting §1.4.3**
-> - **Marginale kosten (MK)** = de extra kosten van één extra eenheid: MK = ΔTK / ΔQ.
-> - **Marginale opbrengsten (MO)** = de extra opbrengst van één extra eenheid: MO = ΔTO / ΔQ.
-> - Bij een **constante prijs** geldt: MO = P (de prijs is de extra opbrengst per stuk).
-> - Bij **lineaire TK** is MK constant. Bij **kwadratische TK** stijgt MK met de productie.
-> - Zolang MO > MK levert elke extra eenheid winst op. *In §1.4.4 gebruik je deze regel om de winstmaximaliserende productie te bepalen.*
+Prijs daalt (EUR 30 → EUR 26), hoeveelheid stijgt (30 → 34). Aanbod naar rechts → prijs daalt, hoeveelheid stijgt.
 
-> **💡 Vastgelopen op een opgave?**
-> Op de website vind je bij elke opgave een **begeleide inoefening**: stap voor stap krijg je extra hints en tussenstappen. Klik op de opgave om de begeleiding te starten.
+**(d) Teken de verschuiving in een grafiek.**
+
+![Uitgewerkt voorbeeld: markt voor fietsbellen](_assets/1.4.2_we_1.png)
 
 ---
 
@@ -4258,147 +3656,139 @@ MK is constant op €5 (lineaire TK). MO is constant op €12 (constante prijs).
 
 ### Startoefeningen
 
-**Opgave 1** *(lees de tabel en de grafiek — zie figuur 6)*
+**Opgave 1** *(invuloefening)*
 
-Een transportbedrijf heeft TK = 400 + 6Q (Q = aantal ritten). Het bedrijf ontvangt €10 per rit, dus TO = 10Q.
+Vul de juiste woorden in.
 
-In figuur 6 zie je de TK- en TO-lijnen.
+a) Als de aanbodlijn naar rechts verschuift en de vraaglijn gelijk blijft, dan ... (stijgt/daalt) de evenwichtsprijs en ... (stijgt/daalt) de evenwichtshoeveelheid.
 
-![Figuur 6: TK en TO van het transportbedrijf](_assets/1.4.3_ex_1.svg)
+b) Als de vraaglijn naar rechts verschuift en de aanbodlijn gelijk blijft, dan ... (stijgt/daalt) de evenwichtsprijs en ... (stijgt/daalt) de evenwichtshoeveelheid.
 
-a) Vul de onderstaande tabel in:
+c) Een verschuiving van de aanbodlijn wordt veroorzaakt door een verandering van een ... (vraagfactor/aanbodfactor). Noem twee voorbeelden.
 
-| Q | TK | TO | Winst | MK | MO |
-|---|-----|-----|-------|----|----|
-| 0 | | | | — | — |
-| 20 | | | | | |
-| 40 | | | | | |
-| 60 | | | | | |
-| 80 | | | | | |
-| 100 | | | | | |
-
-b) Wat valt je op aan de kolom MK? Is MK constant of veranderlijk? Leg uit waarom.
-
-c) Wat valt je op aan de kolom MO? Waarom is dit logisch bij een vaste prijs?
-
-d) Bij welk aantal ritten is de winst precies nul (break-evenpunt)? Controleer dit met de grafiek.
+d) Een verschuiving van de vraaglijn wordt veroorzaakt door een verandering van een ... (vraagfactor/aanbodfactor). Noem twee voorbeelden.
 
 
-**Opgave 2** *(bereken MK bij kwadratische kosten)*
+**Opgave 2** *(oefenen: aanbodverschuiving)*
 
-Een tuinbouwbedrijf heeft TK = 50 + 2Q². Het verkoopt planten voor €40 per stuk, dus TO = 40Q.
+Op de markt voor ringbanden geldt:
+- Qv = −3P + 120
+- Qa = 2P − 30
 
-a) Bereken TK bij Q = 0, 5, 10, 15, 20.
+Door stijgende grondstofprijzen wordt de aanbodvergelijking: Qa' = 2P − 50.
 
-b) Bereken MK voor elk interval (ΔQ = 5). Zet alles in een tabel.
+a) Bereken het oorspronkelijke evenwicht (P* en Q*).
 
-c) Wat gebeurt er met MK als Q toeneemt? Leg uit waarom MK stijgt.
+b) Bereken het nieuwe evenwicht na de aanbodverschuiving.
 
-d) Bereken MO. Is MO constant of veranderlijk?
+c) Is de aanbodlijn naar links of naar rechts verschoven? Leg uit.
 
-e) Bij welk interval wordt MK groter dan MO? Wat betekent dit voor het bedrijf?
+d) Vergelijk het oude en nieuwe evenwicht. Past de verandering bij de vuistregel?
 
 
-**Opgave 3** *(begrip toepassen — geen berekening)*
+**Opgave 3** *(oefenen: vraagverschuiving)*
 
-Leg in je eigen woorden uit:
+Op de markt voor geodriehoeken geldt:
+- Qv = −P + 50
+- Qa = 4P − 75
 
-a) Wat vertelt MK je over een bedrijf?
+Een concurrent brengt een goedkoop alternatief op de markt. De nieuwe vraagvergelijking is: Qv' = −P + 40.
 
-b) Wat vertelt MO je over een bedrijf?
+a) Bereken het oorspronkelijke evenwicht.
 
-c) Een bedrijf heeft MK = 7 en MO = 10. Moet dit bedrijf meer of minder produceren? Leg uit.
+b) Bereken het nieuwe evenwicht.
 
-d) Een bedrijf heeft MK = 15 en MO = 9. Wat adviseer je dit bedrijf? Leg uit.
+c) Is de vraaglijn naar links of naar rechts verschoven? Welke vraagfactor is veranderd?
+
+d) Vergelijk het oude en nieuwe evenwicht. Past de verandering bij de vuistregel?
 
 ---
 
 ### Zelfstandige oefening
 
-**Opgave 4** *(berekenen en grafiek lezen — zie figuur 7)*
+**Opgave 4** *(de procedure — nieuwe markt)*
 
-Een meubelfabriek heeft TK = 500 + 0,5Q². De verkoopprijs is €25 per stoel, dus TO = 25Q.
+Op de markt voor linialen geldt:
+- Qv = −2P + 80
+- Qa = 3P − 20
 
-In figuur 7 zie je MK en MO van de meubelfabriek.
+Door automatisering worden de productiekosten lager. De nieuwe aanbodvergelijking is: Qa' = 3P − 5.
 
-![Figuur 7: MK en MO van de meubelfabriek](_assets/1.4.3_ex_2.svg)
+a) Bereken het oorspronkelijke evenwicht.
 
-a) Bereken TK bij Q = 0, 10, 20, 30, 40, 50.
+b) Bereken het nieuwe evenwicht.
 
-b) Bereken MK voor elk interval (ΔQ = 10). Zet alles in een tabel met kolommen Q, TK, ΔTK, MK, TO, MO.
+c) Vergelijk: wat is er met de prijs en de hoeveelheid gebeurd?
 
-c) Bij welk interval wordt MK voor het eerst groter dan MO? Controleer dit met de grafiek.
-
-d) Bereken de winst bij Q = 20 en bij Q = 30. Bij welke hoeveelheid is de winst hoger?
+d) Teken de oorspronkelijke vraaglijn, de oorspronkelijke aanbodlijn en de nieuwe aanbodlijn in een grafiek. Markeer E en E'.
 
 
-**Opgave 5** *(vergelijken van twee bedrijven)*
+**Opgave 5** *(de doeloefening — schriftenmarkt, alle stappen)*
 
-Twee bedrijven produceren hetzelfde product en verkopen het voor €20 per stuk.
+Ga uit van de schriftenmarkt: Qv = −2P + 100, Qa = 3P − 25, P* = EUR 25, Q* = 50.
 
-| | Bedrijf X | Bedrijf Y |
-|---|-----------|-----------|
-| TK-formule | TK = 100 + 4Q | TK = 50 + Q² |
+a) Een nieuwe fabriek opent. De nieuwe aanbodvergelijking is Qa' = 3P − 10. Bereken het nieuwe evenwicht.
 
-a) Bereken MK van bedrijf X. Is MK constant of veranderlijk?
+b) Vergelijk met het oude evenwicht: wat is er met de prijs en de hoeveelheid gebeurd? Is dit logisch? Leg uit.
 
-b) Bereken MK van bedrijf Y bij de intervallen Q = 0 → 5, Q = 5 → 10, Q = 10 → 15. Is MK constant of veranderlijk?
+c) Het inkomen van scholieren stijgt. De nieuwe vraagvergelijking is Qv' = −2P + 120 (het aanbod is weer de oorspronkelijke: Qa = 3P − 25). Bereken het nieuwe evenwicht.
 
-c) Bereken MO voor beide bedrijven. Verschilt MO tussen de bedrijven?
+d) Teken een grafiek waarin je beide verschuivingen (apart) laat zien met pijlen die de richting aangeven.
 
-d) Bij welk bedrijf worden extra eenheden op een gegeven moment te duur om te produceren? Leg uit met behulp van MK en MO.
+![Opgave 5d: Verschuivingen in de schriftenmarkt](_assets/1.4.2_ex_1.png)
+
+e) Nu vinden BEIDE veranderingen tegelijk plaats: Qa' = 3P − 10 en Qv' = −2P + 120. Bereken het nieuwe evenwicht. Had je de richting van de prijsverandering kunnen voorspellen zonder te rekenen? Leg uit.
+
+![Opgave 5e: Beide verschuivingen tegelijk](_assets/1.4.2_ex_2.png)
 
 ---
 
 ### Herhaling (interleaving)
 
-**Opgave 6** *(herhaling §1.3.3: TO, TK, winst, break-even)*
+**Opgave 6** *(herhaling §1.3.2: evenwicht berekenen)*
 
-Een schoenmaker heeft vaste kosten van €600 per maand. De variabele kosten zijn €8 per paar schoenen. De verkoopprijs is €20 per paar.
+Op de markt voor rekenmachines geldt:
+- Qv = −2P + 70
+- Qa = 3P − 30
 
-a) Schrijf de formules voor TK en TO als functie van Q.
+a) Bereken de evenwichtsprijs en de evenwichtshoeveelheid.
 
-b) Bereken het break-evenpunt (waar winst = 0).
+b) Controleer je antwoord door P* in beide vergelijkingen in te vullen.
 
-c) Bereken de winst bij Q = 100.
+c) Bij een prijs van EUR 25: is er een overschot of een tekort? Bereken de grootte.
 
 
-**Opgave 7** *(herhaling §1.2.1: betalingsbereidheid)*
+**Opgave 7** *(herhaling §1.3.2: kostenstructuren)*
 
-Een consument wil kopjes koffie kopen. Zijn betalingsbereidheid per kopje: €4,00 voor het eerste, €3,00 voor het tweede, €1,80 voor het derde, €0,50 voor het vierde.
+Een schriftenfabriek heeft constante kosten van EUR 5.000 per maand en variabele kosten van EUR 8 per schrift.
 
-a) De marktprijs is €2,50. Hoeveel kopjes koopt hij?
+a) Schrijf de formule voor de totale kosten (TK) als functie van Q.
 
-b) Bereken het totale consumentensurplus.
+b) Bereken de gemiddelde totale kosten (GTK) bij een productie van 200 schriften.
 
-c) Leg uit wat het verband is tussen betalingsbereidheid en marginaal nut (de extra tevredenheid van één extra kopje).
+c) De fabriek verkoopt schriften voor EUR 25 per stuk. Bereken de winst bij een productie van 200 schriften.
+
+d) Leg uit: als de variabele kosten per schrift dalen (bijv. van EUR 8 naar EUR 6), wat gebeurt er dan met de aanbodlijn van deze fabriek? Verschuift deze naar links of naar rechts?
 
 ---
 
 ### Doeloefening
 
-**Opgave 8**
+**Opgave 8** *(alles samen — twee markten)*
 
-Een bedrijf heeft TK = 200 + 3Q en verkoopt tegen een vaste prijs van €8 per eenheid, dus TO = 8Q.
+Op de markt voor vulpennen geldt:
+- Qv = −4P + 200
+- Qa = P − 10
 
-a) Vul de tabel in voor Q = 0, 10, 20, 30, 40, 50:
+a) Bereken het oorspronkelijke evenwicht.
 
-| Q | TK | TO | Winst | MK (= ΔTK bij ΔQ = 10) | MO (= ΔTO bij ΔQ = 10) |
-|---|-----|-----|-------|------------------------|------------------------|
-| 0 | | | | — | — |
-| 10 | | | | | |
-| 20 | | | | | |
-| 30 | | | | | |
-| 40 | | | | | |
-| 50 | | | | | |
+b) Door een trend op sociale media willen meer scholieren een vulpen. De nieuwe vraagvergelijking is: Qv' = −4P + 240. Bereken het nieuwe evenwicht.
 
-b) Wat valt je op aan MK? Is MK constant of veranderlijk?
+c) Vergelijk het oude en nieuwe evenwicht. Past de verandering bij de vuistregel?
 
-c) Wat valt je op aan MO? Waarom is dit logisch bij een constante prijs?
+d) Tegelijkertijd wordt inkt duurder, waardoor de aanbodvergelijking verandert in: Qa' = P − 20. Bereken het evenwicht als BEIDE veranderingen tegelijk optreden (Qv' = −4P + 240 en Qa' = P − 20).
 
-d) Een tweede bedrijf heeft TK = 100 + Q² en verkoopt tegen €30 per eenheid. Vul een vergelijkbare tabel in voor Q = 0, 5, 10, 15, 20. Wat gebeurt er nu met MK?
-
-e) Leg in je eigen woorden uit: wat vertelt MK je? Wat vertelt MO je?
+e) Vergelijk dit evenwicht met het oorspronkelijke. De hoeveelheid is ... (gestegen/gedaald/gelijk gebleven). De prijs is ... Leg uit waarom het prijseffect lastig te voorspellen was zonder te rekenen.
 
 ---
 
@@ -4406,1080 +3796,111 @@ e) Leg in je eigen woorden uit: wat vertelt MK je? Wat vertelt MO je?
 
 **Opgave 9**
 
-Een ondernemer overweegt of hij zijn productie moet uitbreiden van 100 naar 101 eenheden. De totale kosten stijgen van €5.000 naar €5.060. De totale opbrengst stijgt van €6.000 naar €6.050.
+Op een markt geldt: Qv = −2P + 100 en Qa = 3P − 25 (P* = 25, Q* = 50).
 
-a) Bereken MK en MO van de 101e eenheid.
+Het aanbod verschuift naar rechts met precies dezelfde hoeveelheid als waarmee de vraag naar rechts verschuift. Stel: beide lijnen verschuiven k eenheden naar rechts.
 
-b) Moet de ondernemer de 101e eenheid produceren? Leg uit.
+a) Schrijf de nieuwe vergelijkingen op als functie van k.
 
-c) De ondernemer overweegt ook de 102e eenheid. De totale kosten stijgen naar €5.130 en de totale opbrengst naar €6.100. Bereken MK en MO van de 102e eenheid. Moet hij deze ook produceren?
+b) Bereken het nieuwe evenwicht (P*' en Q*') als functie van k.
 
-d) De ondernemer merkt dat MK steeds sneller stijgt. Leg uit waarom er een punt komt waarop hij moet stoppen met uitbreiden, ook al is de totale winst nog steeds positief.
+c) Laat zien dat de evenwichtsprijs niet verandert, ongeacht de waarde van k. Leg economisch uit waarom dit zo is.
 
+d) Wat gebeurt er met de evenwichtshoeveelheid als k groter wordt?
 
 <div style="break-before: page;"></div>
 
-# 1.4.4 Winstmaximalisatie: de MO = MK-regel
+# 1.3.4 Gemengde opgaven
 
-## Wanneer moet een bedrijf stoppen met produceren?
+In deze paragraaf oefen je met vraag, aanbod, marktevenwicht en verschuivingen. Er komt geen nieuwe theorie bij. Gebruik steeds dezelfde volgorde:
 
-Bedrijf 2 uit de vorige paragraaf verkoopt elk product voor €30. Bij Q = 10 maakt het bedrijf €100 winst. Bij Q = 15 is de winst €125. Maar bij Q = 20 daalt de winst weer naar €100. Er is dus een hoeveelheid waarbij de winst het hoogst is. Hoe vind je dat punt — zonder elke hoeveelheid uit te rekenen?
+1. Lees eerst welke markt en welke periode bedoeld worden.
+2. Bepaal of je met vraag, aanbod of beide werkt.
+3. Kijk of de eigen prijs verandert of dat een andere factor verschuift.
+4. Bereken of teken het oude en nieuwe evenwicht.
+5. Controleer of je antwoord economisch logisch is.
 
-Het antwoord zit in de marginale kosten en marginale opbrengsten die je in §1.4.3 hebt geleerd. In deze paragraaf ontdek je de **MO = MK-regel**: het punt waar de winst maximaal is, en hoe je dat punt kunt berekenen.
+## Opgave 1: De markt voor schriften
 
----
+Op de markt voor schriften gelden de volgende vergelijkingen:
 
-## Theorie
+- Vraag: Qv = -2P + 100
+- Aanbod: Qa = 3P - 25
 
-### De winst per hoeveelheid: een tabel
+**a.** Bereken de evenwichtsprijs en de evenwichtshoeveelheid.
 
-> **📋 Herhaling uit §1.4.3**
-> MK = ΔTK / ΔQ (extra kosten van één extra eenheid). MO = ΔTO / ΔQ (extra opbrengst van één extra eenheid). Bij een vaste prijs geldt MO = P.
+**b.** Controleer je antwoord door de prijs in beide vergelijkingen in te vullen.
 
-We pakken bedrijf 2 weer op: TK = 100 + Q², P = €30, TO = 30Q. Nu berekenen we de winst bij elke hoeveelheid, met stappen van ΔQ = 1:
+**c.** Bij een prijs van EUR 30 ontstaat er geen evenwicht. Bereken of er een vraagoverschot of aanbodoverschot is en hoe groot dat overschot is.
 
-| Q | TK = 100 + Q² | TO = 30Q | Winst (TO − TK) | MK | MO |
-|---|--------------|---------|-----------------|-----|-----|
-| 0 | 100 | 0 | −100 | — | — |
-| 5 | 125 | 150 | 25 | 5 | 30 |
-| 10 | 200 | 300 | 100 | 15 | 30 |
-| 13 | 269 | 390 | 121 | 25 | 30 |
-| 14 | 296 | 420 | 124 | 27 | 30 |
-| 15 | 325 | 450 | 125 | 29 | 30 |
-| 16 | 356 | 480 | 124 | 31 | 30 |
-| 17 | 389 | 510 | 121 | 33 | 30 |
-| 20 | 500 | 600 | 100 | 35 | 30 |
+**d.** Leg uit waarom de prijs in een vrije markt richting de evenwichtsprijs beweegt.
 
-*MK-waarden berekend als ΔTK/ΔQ over intervallen van 5 bij de eerste rijen, en van 1 rond het optimum.*
+## Opgave 2: Meer vraag naar bioscoopkaartjes
 
-Kijk goed naar de kolom Winst. De winst stijgt tot Q = 15 (winst = €125) en daalt daarna. Het maximum ligt bij Q = 15.
+Een bioscoop merkt dat jongeren na een populaire filmreeks vaker naar de bioscoop willen. De vraaglijn verschuift naar rechts. De aanbodlijn blijft gelijk.
 
-Kijk nu naar MK en MO. Bij Q = 14 is MK = 27, nog onder MO = 30. Bij Q = 15 is MK = 29, nagenoeg gelijk aan MO = 30. Bij Q = 16 is MK = 31, boven MO = 30. Precies bij het winstmaximum zijn MK en MO (bijna) gelijk.
+**a.** Leg uit waarom dit een verschuiving van de vraaglijn is en geen beweging langs de vraaglijn.
 
----
+**b.** Teken in een assenstelsel de oude vraaglijn, de nieuwe vraaglijn en dezelfde aanbodlijn.
 
-### Waarom MO = MK het winstmaximum geeft
+**c.** Geef aan wat er waarschijnlijk gebeurt met de evenwichtsprijs.
 
-Stel je staat op Q = 10 en overweegt of je één extra eenheid moet produceren:
+**d.** Geef aan wat er waarschijnlijk gebeurt met de evenwichtshoeveelheid.
 
-- De extra opbrengst is MO = €30.
-- De extra kosten zijn MK = €21 (want TK(11) − TK(10) = 221 − 200 = 21).
-- Het verschil MO − MK = €9 is de **extra winst** van die ene eenheid.
+**e.** Formuleer je antwoord in een economische redenering van twee zinnen.
 
-Zolang MO > MK levert elke extra eenheid meer op dan het kost. Je winst stijgt. Produceer door!
+## Opgave 3: Goedkopere productie van zonnepanelen
 
-Maar bij Q = 16:
+Door een nieuwe techniek kunnen producenten zonnepanelen goedkoper maken. Bij elke prijs willen producenten meer panelen aanbieden.
 
-- MO = €30 en MK = €31 (want TK(16) − TK(15) = 356 − 325 = 31).
-- Nu is MO − MK = −€1. Die eenheid kost meer dan het oplevert. Je winst daalt.
+**a.** Welke lijn verschuift: de vraaglijn of de aanbodlijn?
 
-Het omslagpunt is waar MO = MK. Daar voegt de laatst geproduceerde eenheid precies niets meer toe aan de winst. Dit is het winstmaximum.
+**b.** Verschuift deze lijn naar links of naar rechts? Leg uit.
 
-![Figuur 1: MK kruist MO bij het winstmaximum (bedrijf 2)](_assets/1.4.4_fig_1.png)
+**c.** Wat gebeurt er waarschijnlijk met de evenwichtsprijs?
 
----
+**d.** Wat gebeurt er waarschijnlijk met de evenwichtshoeveelheid?
 
-### De MO = MK-regel
+**e.** Leg uit waarom consumenten door deze verandering waarschijnlijk meer zonnepanelen kopen, ook al is hun voorkeur niet veranderd.
 
-> **Definitie: Winstmaximalisatie**
-> Een bedrijf maximaliseert zijn winst door te produceren tot het punt waar MO = MK. Bij die hoeveelheid is de totale winst het hoogst.
+## Opgave 4: Vraag en aanbod verschuiven tegelijk
 
-> **Formule**
-> ```
-> Winstmaximum bij: MO = MK
-> ```
-> Produceer zolang MO ≥ MK. Stop zodra MO = MK.
+Op de markt voor elektrische fietsen gebeuren twee dingen tegelijk:
 
-De logica in drie stappen:
+- Consumenten krijgen meer interesse in elektrische fietsen.
+- De accu's worden duurder voor producenten.
 
-1. **MO > MK** → de extra eenheid levert meer op dan het kost → winst stijgt → **produceer meer**
-2. **MO = MK** → de extra eenheid levert precies op wat het kost → winst is maximaal → **stop hier**
-3. **MO < MK** → de extra eenheid kost meer dan het oplevert → winst daalt → **produceer minder**
+**a.** Leg uit welke verandering de vraaglijn verschuift.
 
-> **⚠️ Let op — veelgemaakte fout**
-> Veel leerlingen denken dat het bedrijf moet stoppen zodra de winst positief is, of dat maximale productie altijd de meeste winst geeft. Maar de tabel laat zien: bij Q = 20 is de winst lager dan bij Q = 15, ondanks de hogere productie. Het gaat niet om *hoeveel* je produceert, maar om *tot waar* elke extra eenheid nog bijdraagt aan de winst.
+**b.** Leg uit welke verandering de aanbodlijn verschuift.
 
----
+**c.** Teken de richting van beide verschuivingen in een grafiek.
 
-### De grafische weergave
+**d.** Is het effect op de evenwichtshoeveelheid zeker of onzeker? Leg uit.
 
-In figuur 2 zie je de TK- en TO-lijnen van bedrijf 2. Het verticale verschil tussen TO en TK is de winst. Dat verschil is het grootst bij Q = 15 — daar is de afstand tussen de twee lijnen maximaal.
+**e.** Is het effect op de evenwichtsprijs zeker of onzeker? Leg uit.
 
-![Figuur 2: TK en TO van bedrijf 2 met winstgebied](_assets/1.4.4_fig_2.png)
+## Opgave 5: Doeloefening
 
-In figuur 3 zie je MK en MO. De stijgende MK-lijn kruist de horizontale MO-lijn bij Q = 15. Links van het snijpunt is MO > MK (elke eenheid voegt winst toe). Rechts is MO < MK (elke eenheid vermindert de winst).
+Op de markt voor brood gelden eerst:
 
-![Figuur 3: MK en MO — het snijpunt is het winstmaximum](_assets/1.4.4_fig_3.png)
+- Vraag: Qv = -4P + 120
+- Aanbod: Qa = 6P - 30
 
-Zo zie je dezelfde informatie in drie vormen tegelijk: in de tabel hierboven, in de twee grafieken, en in de tekst die ze verbindt.
+Daarna stijgen de kosten voor bakkers. De nieuwe aanbodvergelijking wordt:
 
----
+- Nieuw aanbod: Qa = 6P - 60
 
-### De regel algebraisch toepassen
+**a.** Bereken de oude evenwichtsprijs en evenwichtshoeveelheid.
 
-Bij bedrijf 2 weten we dat MK ≈ 2Q (de benadering voor TK = 100 + Q²) en MO = 30. De MO = MK-regel wordt dan:
+**b.** Bereken de nieuwe evenwichtsprijs en evenwichtshoeveelheid.
 
-```
-MO = MK
-30 = 2Q
-Q = 15
-```
+**c.** Leg met de aanbodfactoren uit waardoor de aanbodlijn is verschoven.
 
-Dit klopt met de tabel: bij Q = 15 is de winst het hoogst. Je hoeft geen hele tabel te maken — je lost gewoon MO = MK op als vergelijking.
+**d.** Vergelijk oud en nieuw: wat gebeurt er met de prijs en wat gebeurt er met de hoeveelheid?
 
-Neem een nieuw bedrijf: bedrijf 3 met TK = 50 + 2Q² en P = €40. Dan is MK ≈ 4Q en MO = 40:
+**e.** Controleer of je antwoord logisch is: passen een hogere kostprijs, een hogere marktprijs en een lagere verkochte hoeveelheid bij elkaar?
 
-```
-MO = MK
-40 = 4Q
-Q = 10
-```
-
-De winstmaximaliserende hoeveelheid is Q = 10. We controleren met de winst:
-
-| Q | TK = 50 + 2Q² | TO = 40Q | Winst |
-|---|---------------|---------|-------|
-| 9 | 50 + 162 = 212 | 360 | 148 |
-| 10 | 50 + 200 = 250 | 400 | **150** |
-| 11 | 50 + 242 = 292 | 440 | 148 |
-
-Inderdaad: de winst is het hoogst bij Q = 10. Bij Q = 9 en Q = 11 is de winst lager.
-
-![Figuur 4: De MO = MK-regel — overzicht](_assets/1.4.4_fig_4.png)
-
----
-
-## Uitgewerkt voorbeeld
-
-> **De fietsenmaker**
->
-> Een fietsenmaker heeft TK = 80 + 0,5Q². Hij verkoopt elke fiets voor €20. We bepalen de winstmaximaliserende productie.
-
-**(a)** Schrijf de formules voor TK, TO en winst.
-
-*Stap 1: Noteer de gegeven informatie.*
-
-- TK = 80 + 0,5Q²
-- P = €20, dus TO = 20Q
-- Winst = TO − TK = 20Q − 80 − 0,5Q²
-
-**(b)** Bepaal MK en MO.
-
-*Stap 2: Bepaal MK.*
-
-MK ≈ Q (de benadering bij TK = 80 + 0,5Q²: als Q met 1 stijgt, stijgt Q² met ≈ 2Q · 1 = 2Q, dus ΔTK ≈ 0,5 · 2Q = Q).
-
-*Stap 3: Bepaal MO.*
-
-MO = P = 20 (constante prijs).
-
-**(c)** Pas de MO = MK-regel toe.
-
-*Stap 4: Stel MO = MK en los op.*
-
-```
-MO = MK
-20 = Q
-Q = 20
-```
-
-De winstmaximaliserende productie is Q = 20.
-
-**(d)** Controleer door de winst te berekenen bij Q = 19, 20 en 21.
-
-*Stap 5: Bereken de winst bij drie waarden rond het optimum.*
-
-| Q | TK = 80 + 0,5Q² | TO = 20Q | Winst |
-|---|-----------------|---------|-------|
-| 19 | 80 + 180,5 = 260,5 | 380 | 119,5 |
-| 20 | 80 + 200 = 280 | 400 | **120** |
-| 21 | 80 + 220,5 = 300,5 | 420 | 119,5 |
-
-De winst is inderdaad het hoogst bij Q = 20.
-
-![Uitgewerkt voorbeeld: MK en MO van de fietsenmaker](_assets/1.4.4_we_1.png)
-
----
-
-> **Samenvatting §1.4.4**
-> - Een bedrijf maximaliseert zijn winst bij de hoeveelheid waar **MO = MK**.
-> - Zolang MO > MK levert elke extra eenheid winst op. Zodra MO < MK daalt de winst.
-> - De MO = MK-regel kun je grafisch aflezen (snijpunt van MK- en MO-lijn) of algebraisch oplossen (stel MO = MK en los op naar Q).
-> - **Formule**: winstmaximum bij MO = MK. Bij kwadratische kosten TK = c + aQ²: MK ≈ 2aQ.
-> - *In §1.4.5 pas je de MO = MK-regel toe op een bedrijf in volkomen concurrentie en bekijk je de gevolgen voor de markt.*
-
-> **💡 Vastgelopen op een opgave?**
-> Op de website vind je bij elke opgave een **begeleide inoefening**: stap voor stap krijg je extra hints en tussenstappen. Klik op de opgave om de begeleiding te starten.
-
----
-
-## Opgaven
-
-### Startoefeningen
-
-**Opgave 1** *(lees de tabel — winst aflezen)*
-
-Een bedrijf met TK = 100 + Q² verkoopt tegen P = €30 (bedrijf 2 uit §1.4.3). Hieronder staat de uitgebreide tabel:
-
-| Q | TK | TO | Winst | MK | MO |
-|---|-----|-----|-------|----|----|
-| 0 | 100 | 0 | −100 | — | — |
-| 5 | 125 | 150 | 25 | 5 | 30 |
-| 10 | 200 | 300 | 100 | 15 | 30 |
-| 13 | 269 | 390 | 121 | 25 | 30 |
-| 14 | 296 | 420 | 124 | 27 | 30 |
-| 15 | 325 | 450 | 125 | 29 | 30 |
-| 16 | 356 | 480 | 124 | 31 | 30 |
-| 17 | 389 | 510 | 121 | 33 | 30 |
-| 20 | 500 | 600 | 100 | 35 | 30 |
-
-a) Bij welke Q is de winst het hoogst?
-
-b) Kijk naar de kolommen MK en MO bij dat Q. Wat valt je op?
-
-c) Leg uit waarom het bedrijf bij Q = 14 nog één eenheid extra moet produceren.
-
-d) Leg uit waarom het bedrijf bij Q = 16 juist één eenheid minder moet produceren.
-
-
-**Opgave 2** *(de regel in woorden)*
-
-a) Schrijf de MO = MK-regel in je eigen woorden op.
-
-b) Een bedrijf heeft bij de huidige productie MO = 25 en MK = 18. Moet het bedrijf meer of minder produceren? Leg uit.
-
-c) Een ander bedrijf heeft MO = 12 en MK = 19. Wat adviseer je? Leg uit.
-
-d) Bij welke verhouding tussen MO en MK is de winst maximaal?
-
-
-**Opgave 3** *(grafiek lezen — zie figuur 5)*
-
-In figuur 5 zie je MK en MO van een bedrijf.
-
-![Figuur 5: MK en MO — opgave 3](_assets/1.4.4_ex_1.png)
-
-a) Lees uit de grafiek af: bij welke Q kruisen MK en MO?
-
-b) Is bij Q = 8 de winst aan het stijgen of dalen? Leg uit met MK en MO.
-
-c) Is bij Q = 20 de winst aan het stijgen of dalen? Leg uit.
-
-d) Arceer in de grafiek het gebied waar elke extra eenheid winst toevoegt (het gebied waar MO > MK).
-
----
-
-### Zelfstandige oefening
-
-**Opgave 4** *(berekenen met de MO = MK-regel)*
-
-Een bedrijf heeft TK = 200 + 0,5Q² en verkoopt tegen P = €30.
-
-a) Bereken MK (gebruik de benadering MK ≈ Q).
-
-b) Bereken MO.
-
-c) Bepaal de winstmaximaliserende Q met de MO = MK-regel.
-
-d) Controleer je antwoord door de winst te berekenen bij Q − 1, Q en Q + 1.
-
-
-**Opgave 5** *(bedrijf 3 volledig doorrekenen)*
-
-Bedrijf 3 heeft TK = 50 + 2Q² en verkoopt tegen P = €40 per stuk.
-
-a) Schrijf de formule voor TO.
-
-b) Bereken MK (gebruik de benadering MK ≈ 4Q).
-
-c) Pas de MO = MK-regel toe om de winstmaximaliserende Q te vinden.
-
-d) Bereken de winst bij Q − 1, Q en Q + 1 om je antwoord te controleren.
-
-e) Bereken de maximale winst.
-
----
-
-### Herhaling (interleaving)
-
-**Opgave 6** *(herhaling §1.4.3: MK en MO berekenen)*
-
-Een drukkerij heeft TK = 300 + 4Q. De verkoopprijs is €14 per boek.
-
-a) Bereken MK. Is MK constant of veranderlijk?
-
-b) Bereken MO.
-
-c) Is MO > MK bij elke hoeveelheid? Wat betekent dit voor de winstmaximaliserende productie?
-
-
-**Opgave 7** *(herhaling §1.3.3: break-even)*
-
-Een bakkerij heeft TK = 450 + 3Q en verkoopt brood voor €7,50 per stuk.
-
-a) Bereken het break-evenpunt.
-
-b) Bereken de winst bij Q = 200.
-
-c) Bereken MK en MO. Loont het om de productie uit te breiden voorbij Q = 200?
-
----
-
-### Doeloefening
-
-**Opgave 8**
-
-Gebruik bedrijf 2 uit §1.4.3 (TK = 100 + Q², TO = 30Q).
-
-a) Breid je tabel uit met een kolom voor winst bij Q = 0, 5, 10, 13, 14, 15, 16, 17, 20.
-
-b) Bij welke Q is de winst het hoogst?
-
-c) Kijk naar de kolommen MK en MO. Wat is waar over MK en MO bij de winstmaximaliserende Q?
-
-d) Leg de regel uit: "produceer zolang MO ≥ MK, stop wanneer MO = MK."
-
-e) Bedrijf 3 heeft TK = 50 + 2Q² en verkoopt tegen P = €40. Gebruik MO = MK om de winstmaximaliserende Q te berekenen ZONDER een volledige tabel. (Hint: MK ≈ 4Q. Stel dus 4Q = 40.)
-
-f) Controleer door de winst te berekenen bij Q − 1, Q en Q + 1.
-
----
-
-### Denkertje *(bonusopgave)*
-
-**Opgave 9**
-
-Een ondernemer heeft TK = 500 + 3Q². De marktprijs is €60.
-
-a) Bepaal de winstmaximaliserende Q met MO = MK (hint: MK ≈ 6Q).
-
-b) Bereken de maximale winst.
-
-c) De overheid legt een belasting van €12 per eenheid op aan de producent. Zijn nieuwe kosten worden TK = 500 + 3Q² + 12Q. Bereken de nieuwe MK (hint: MK ≈ 6Q + 12). Bepaal de nieuwe winstmaximaliserende Q.
-
-d) Vergelijk de oude en nieuwe situatie. Wat is het effect van de belasting op de geproduceerde hoeveelheid en de winst?
-
-
-<div style="break-before: page;"></div>
-
-# Gemengde opgaven §1.4.5 — Marktevenwicht en marginale analyse
-
----
-
-## Opgave 1: Fruitkraam "De Mandarijn"
-
-Hassan heeft een fruitkraam op de weekmarkt in Utrecht. Hij verkoopt kratten mandarijnen aan horecazaken. Op de markt voor mandarijnen geldt de volgende vraaglijn en aanbodlijn:
-
-- Vraaglijn: Qv = −P + 50
-- Aanbodlijn: Qa = 2P − 34
-
-Hierbij is P de prijs in euro's per krat en Q de hoeveelheid in kratten per week.
-
-Hassan is een prijsnemer op de markt en verkoopt zijn kratten tegen de evenwichtsprijs. Hij heeft zijn kosten en opbrengsten per week bijgehouden voor verschillende productieniveaus:
-
-**Tabel 1: Kosten en opbrengsten fruitkraam "De Mandarijn" per week**
-
-| Productie (kratten) | TCK (€) | TVK (€) | TK (€) | TO (€) | MK (€/krat) | MO (€/krat) |
-|---|---|---|---|---|---|---|
-| 0 | 150 | 0 | 150 | 0 | – | – |
-| 5 | 150 | 50 | 200 | 140 | 10 | 28 |
-| 10 | 150 | 80 | 230 | 280 | 6 | 28 |
-| 15 | 150 | 120 | 270 | 420 | 8 | 28 |
-| 20 | 150 | 200 | 350 | 560 | 16 | 28 |
-| 25 | 150 | 350 | 500 | 700 | 30 | 28 |
-| 30 | 150 | 570 | 720 | 840 | 44 | 28 |
-
-![Figuur 1: Vraag en aanbod van mandarijnen op de weekmarkt](_assets/1.4.5_ex_1.png)
-
----
-
-**1** *(2p)* Bereken de evenwichtsprijs en de evenwichtshoeveelheid op de markt voor mandarijnen. Laat je berekening zien.
-
-**2** *(2p)* Bereken de gemiddelde totale kosten (GTK) per krat bij een productie van 20 kratten. Laat je berekening zien.
-
-**3** *(2p)* Leg uit met behulp van tabel 1 hoe je de marginale kosten (MK) berekent. Gebruik de stap van 15 naar 20 kratten als voorbeeld.
-
-**4** *(2p)* Bepaal met behulp van tabel 1 bij welke productie de winst van Hassan maximaal is. Gebruik de MO = MK-regel in je antwoord.
-
-**5** *(2p)* Bereken de totale winst van Hassan bij de winstmaximaliserende productie.
-
-**Denkertje** *(2p)* Hassan zegt: "Ik moet zoveel mogelijk kratten verkopen, want bij elke extra verkoop krijg ik €28 extra opbrengst." Beoordeel of het verstandig is dat Hassan zijn productie verhoogt van 20 naar 25 kratten. Gebruik gegevens uit tabel 1 in je antwoord.
-
----
-
-## Opgave 2: De markt voor biologische honing
-
-Lees het volgende nieuwsbericht:
-
-> **Dubbele klap voor honingmarkt: nieuwe technologie én stijgende inkomens**
->
-> Imkers profiteren van een nieuw type bijenkast dat de honingoogst per volk met 20% verhoogt. Tegelijkertijd stijgt de vraag naar biologische producten doordat het besteedbaar inkomen van Nederlandse huishoudens is toegenomen. Brancheorganisatie NBV verwacht dat beide ontwikkelingen de markt flink zullen beïnvloeden.
-
-Op de markt voor biologische honing gelden de volgende functies:
-
-- Vraaglijn: Qv = −P + 50
-- Aanbodlijn: Qa = 2P − 10
-
-Hierbij is P de prijs in euro's per pot en Q de hoeveelheid in potten per maand (×1.000).
-
-Door de nieuwe technologie verschuift de aanbodlijn naar: Qa' = 2P − 4
-
-Door de stijging van het inkomen verschuift de vraaglijn naar: Qv' = −P + 56
-
-Een individuele imker, "Honinghoeve Bloesem", verkoopt tegen de marktprijs en heeft de volgende kostenstructuur:
-
-**Tabel 2: Kosten en opbrengsten Honinghoeve Bloesem per maand**
-
-| Productie (potten) | TCK (€) | TVK (€) | TK (€) | MK (€/pot) |
-|---|---|---|---|---|
-| 0 | 200 | 0 | 200 | – |
-| 100 | 200 | 800 | 1.000 | 8 |
-| 200 | 200 | 1.400 | 1.600 | 6 |
-| 300 | 200 | 1.800 | 2.000 | 4 |
-| 400 | 200 | 2.400 | 2.600 | 6 |
-| 500 | 200 | 3.400 | 3.600 | 10 |
-| 600 | 200 | 4.800 | 5.000 | 14 |
-| 700 | 200 | 6.800 | 7.000 | 20 |
-| 800 | 200 | 9.400 | 9.600 | 26 |
-
-![Figuur 2: Markt voor biologische honing — verschuivingen](_assets/1.4.5_ex_2.png)
-
----
-
-**6** *(2p)* Bereken de oorspronkelijke evenwichtsprijs en evenwichtshoeveelheid op de markt voor biologische honing.
-
-**7** *(2p)* Bereken het nieuwe evenwicht als alleen de aanbodlijn verschuift (door de nieuwe technologie). Leg uit of de prijs stijgt of daalt.
-
-**8** *(2p)* Bereken het nieuwe evenwicht als alleen de vraaglijn verschuift (door de inkomensstijging). Leg uit of de prijs stijgt of daalt.
-
-**9** *(2p)* Bepaal het evenwicht als beide verschuivingen tegelijk optreden. Bereken de nieuwe evenwichtsprijs en evenwichtshoeveelheid.
-
-**10** *(2p)* Na beide verschuivingen is de marktprijs €20 per pot. Honinghoeve Bloesem ontvangt deze prijs voor elke pot. Bepaal met behulp van tabel 2 de winstmaximaliserende productie van Honinghoeve Bloesem. Gebruik de MO = MK-regel.
-
-**Denkertje** *(2p)* Een politicus beweert: "Als vraag en aanbod tegelijk toenemen, blijft de prijs altijd gelijk." Beoordeel deze uitspraak. Gebruik de berekeningen uit vraag 6 t/m 9 in je antwoord.
-
-<div style="break-before: page;"></div>
-
-<div class="chapter-front">
-
-<h1>Hoofdstuk 5 — Toetsvoorbereiding</h1>
-
-<h2>Inhoud</h2>
-
-<table>
-<thead><tr><th>§</th><th>Onderwerp</th></tr></thead>
-<tbody>
-<tr><td>1.5.1</td><td>Actieve samenvatting</td></tr>
-<tr><td>1.5.2</td><td>Examenvaardigheden</td></tr>
-<tr><td>1.5.3</td><td>Integratieoefening</td></tr>
-<tr><td>1.5.4</td><td>Proeftoets</td></tr>
-</tbody>
-</table>
-
-<h2>Leerdoelen</h2>
-
-<p>Na dit hoofdstuk kun je:</p>
-
-<ul>
-<li>De kernbegrippen uit hoofdstukken 1–4 actief ophalen en toepassen</li>
-<li>Schaarste, alternatieve kosten en economisch denken herkennen en berekenen</li>
-<li>Procentuele veranderingen en indexcijfers correct berekenen (inclusief de valkuil indexpunten ≠ procenten)</li>
-<li>De vraaglijn en aanbodlijn tekenen, aflezen en interpreteren</li>
-<li>Het verschil uitleggen tussen een beweging langs en een verschuiving van een vraaglijn of aanbodlijn</li>
-<li>Kostenstructuren berekenen (TK, TCK, TVK, GTK, GVK, GCK) en het spreidingseffect verklaren</li>
-<li>TO, GO en winst berekenen en het break-evenpunt bepalen</li>
-<li>Het marktevenwicht berekenen (Qv = Qa) en een nieuw evenwicht na een verschuiving</li>
-<li>MK en MO berekenen en de winstmaximalisatieregel (MO = MK) toepassen</li>
-<li>Examenvragen correct structureren: ‘bereken’ met alle stappen, ‘leg uit’ met causale keten</li>
-<li>Concepten uit meerdere hoofdstukken combineren in één samenhangende context</li>
-<li>Een toets onder tijdsdruk maken en je eigen antwoorden beoordelen</li>
-</ul>
-
-<h2>Ben je er klaar voor?</h2>
-
-<p>Je hebt geleerd over schaarste en keuzes, over vraag en aanbod, over kosten en opbrengsten, en over marktevenwicht en marginale analyse. Maar kun je al die puzzelstukken ook samenvoegen als het erop aankomt? In dit hoofdstuk bereid je je voor op de eindtoets. Je herhaalt actief de theorie, traint je examenvaardigheden, lost een integratieoefening op die alle hoofdstukken combineert, en maakt een volledige proeftoets onder examencondities. Geen nieuwe theorie — alleen oefenen, oefenen, oefenen.</p>
-
-</div>
-
-
-<div style="break-before: page;"></div>
-
-# §1.5.1 Actieve samenvatting
-
-Hieronder vind je een beknopte samenvatting van alle theorie uit Hoofdstuk 1 t/m 4. Na elk blok staan meerkeuze-vragen waarmee je toetst of je de stof écht begrijpt. Lees het blok, beantwoord de vragen en controleer je antwoorden in het antwoordenblad.
-
----
-
-## Blok 1: Schaarste, alternatieve kosten en rekenen (H1.1)
-
-Schaarste ontstaat doordat je behoeften groter zijn dan je beschikbare middelen — je kunt niet alles tegelijk hebben en moet dus kiezen. Bij elke keuze horen **alternatieve kosten**: de opbrengst van het beste alternatief dat je opgeeft. Je gebruikt de 4-stappenprocedure voor economisch denken: (1) benoem de alternatieven, (2) bereken de opbrengst van elk alternatief, (3) rangschik en bepaal het beste *niet-gekozen* alternatief als alternatieve kosten, (4) bereken de nettowaarde: opbrengst gekozen alternatief min alternatieve kosten.
-
-Voor het rekenen gebruik je twee hulpmiddelen. De **procentuele verandering** bereken je met (nieuw − oud) / oud × 100%. Let op: je deelt altijd door de **oude** waarde. Het **indexcijfer** bereken je met waarde / basiswaarde × 100. Een verandering in *indexpunten* is niet hetzelfde als een verandering in *procenten* — voor het percentage deel je door het oude indexcijfer, niet door 100.
-
-![Figuur 1: Schaarste, keuzes en rekenhulpmiddelen](_assets/1.5.1_fig_1.png)
-
-**Vraag 1**
-
-> Het indexcijfer van de benzineprijs steeg van 120 naar 132. Lisa beweert: "De benzineprijs is met 12% gestegen." Wat klopt er?
-
-**(A)** Lisa heeft gelijk: 132 − 120 = 12, dus 12%.
-
-**(B)** Lisa heeft ongelijk: (132 − 120) / 120 × 100% = 10%.
-
-**(C)** Lisa heeft ongelijk: (132 − 120) / 132 × 100% = 9,1%.
-
-**(D)** Lisa heeft gelijk: 12 indexpunten is altijd 12%.
-
-**Vraag 2**
-
-> Tim kan na school werken bij de supermarkt (€35) of bijles geven (€45). Hij kiest voor bijles. Wat zijn de alternatieve kosten van deze keuze?
-
-**(A)** €45, want dat is wat hij verdient.
-
-**(B)** €80, want dat is de totale opbrengst van alle alternatieven.
-
-**(C)** €35, want dat is de opbrengst van het beste niet-gekozen alternatief.
-
-**(D)** €10, want dat is het verschil tussen bijles en de supermarkt.
-
-**Vraag 3**
-
-> De prijs van een fiets daalt van €500 naar €400. Een leerling berekent de procentuele verandering als (500 − 400) / 400 × 100% = 25%. Klopt dit?
-
-**(A)** Ja, 25% daling is correct.
-
-**(B)** Nee, de daling is (500 − 400) / 500 × 100% = 20%.
-
-**(C)** Nee, de daling is (400 − 500) / 400 × 100% = −25%.
-
-**(D)** Nee, de daling is (400 / 500) × 100 = 80 indexpunten.
-
----
-
-## Blok 2: Vraag — betalingsbereidheid, vraaglijn en vraagfactoren (H1.2)
-
-De **betalingsbereidheid** (BB) is het maximale bedrag dat een consument voor een extra eenheid wil betalen. De **individuele vraaglijn** loopt dalend: bij een hogere prijs koop je minder. Je koopt zolang BB ≥ P. Het **consumentensurplus** (CS) is het verschil tussen je betalingsbereidheid en de prijs die je betaalt — in de grafiek het driehoekige gebied boven de prijslijn en onder de vraaglijn.
-
-Vijf factoren verschuiven de **hele** vraaglijn: inkomen, voorkeuren, prijs van substituten, prijs van complementen en het aantal vragers. Een verandering van de *eigen prijs* geeft een **beweging langs** de vraaglijn, geen verschuiving. De **collectieve vraaglijn** is de horizontale optelsom van alle individuele vraaglijnen.
-
-![Figuur 2: Vraaglijn, consumentensurplus en verschuiving](_assets/1.5.1_fig_2.png)
-
-**Vraag 4**
-
-> De prijs van boter stijgt. Wat gebeurt er met de vraaglijn naar boter?
-
-**(A)** De vraaglijn verschuift naar links, want consumenten willen minder boter.
-
-**(B)** Er is een beweging langs de vraaglijn naar links-boven: bij hogere P daalt Qv.
-
-**(C)** De vraaglijn verschuift naar rechts, want boter wordt schaarser.
-
-**(D)** Er gebeurt niets met de vraaglijn; alleen de aanbodlijn verandert.
-
-**Vraag 5**
-
-> Koffie en thee zijn substituten. De prijs van koffie stijgt fors. Wat gebeurt er met de vraaglijn naar thee?
-
-**(A)** De vraaglijn naar thee verschuift naar rechts, want consumenten stappen over op thee.
-
-**(B)** Er is een beweging langs de vraaglijn naar thee, want de prijs van thee verandert niet.
-
-**(C)** De vraaglijn naar thee verschuift naar links, want koffie en thee gaan samen.
-
-**(D)** De vraaglijn naar thee blijft gelijk, want alleen de prijs van koffie verandert.
-
-**Vraag 6**
-
-> Twee consumenten hebben de volgende individuele vraag: Anna: Qv = 10 − 2P, Ben: Qv = 8 − P. Wat is de collectieve gevraagde hoeveelheid bij P = 6?
-
-**(A)** Qv = 18 − 3P = 18 − 18 = 0.
-
-**(B)** Qv = max(0, 10 − 12) + (8 − 6) = 0 + 2 = 2.
-
-**(C)** Qv = (10 − 12) × (8 − 6) = −2 × 2 = −4.
-
-**(D)** Qv = 10 + 8 − 2 × 6 = 6.
-
----
-
-## Blok 3: Aanbod en kosten (H1.3)
-
-De **aanbodlijn** loopt stijgend: bij hogere prijs bieden producenten meer aan. Vijf factoren verschuiven de hele aanbodlijn: inputprijzen, technologie, aantal aanbieders, verwachtingen en overheidsbeleid. Kosten bestaan uit **constante kosten** (CK, onafhankelijk van Q) en **variabele kosten** (VK, afhankelijk van Q). De totale kosten zijn TK = TCK + TVK.
-
-De **gemiddelde kosten** bereken je door te delen: GTK = TK/Q, GVK = TVK/Q, GCK = TCK/Q. Het **spreidingseffect** houdt in dat GCK daalt naarmate je meer produceert — de vaste kosten worden over meer eenheden verdeeld. De **totale opbrengst** is TO = P × Q. **Winst** = TO − TK (let op: opbrengst is niet hetzelfde als winst!). Bij het **break-evenpunt** geldt TO = TK, ofwel Q = TCK / (P − GVK).
-
-![Figuur 3: TK- en TO-lijn met break-evenpunt](_assets/1.5.1_fig_3.png)
-
-**Vraag 7**
-
-> Een bakkerij heeft TCK = €500, GVK = €0,80 per brood en verkoopt brood voor €1,50.
->
-> | Productie (Q) | TK | GTK |
-> |---|---|---|
-> | 200 | ? | ? |
-> | 500 | ? | ? |
-> | 1000 | ? | ? |
->
-> Wat is GTK bij Q = 500?
-
-**(A)** €0,80, want GTK = GVK als je genoeg produceert.
-
-**(B)** €1,80, want GTK = GVK + GCK = 0,80 + 500/500 = 0,80 + 1,00 = 1,80.
-
-**(C)** €1,50, want GTK = prijs bij break-even.
-
-**(D)** €2,30, want GTK = (500 + 0,80) / 500.
-
-**Vraag 8**
-
-> Bij dezelfde bakkerij stijgt de productie van 200 naar 1000 broden. Wat gebeurt er met TK en GTK?
-
-**(A)** TK stijgt en GTK stijgt ook, want meer produceren is altijd duurder per stuk.
-
-**(B)** TK stijgt, maar GTK daalt door het spreidingseffect van de constante kosten.
-
-**(C)** TK blijft gelijk en GTK daalt, want de constante kosten veranderen niet.
-
-**(D)** TK en GTK dalen allebei, want de bakkerij wordt efficiënter.
-
-**Vraag 9**
-
-> Een bedrijf heeft TO = €10.000 en TK = €8.500. Een leerling schrijft: "De opbrengst is €1.500." Wat is hierop aan te merken?
-
-**(A)** Niets, de berekening klopt.
-
-**(B)** De leerling verwart opbrengst met winst: TO = €10.000 is de opbrengst, winst = TO − TK = €1.500.
-
-**(C)** De opbrengst is €8.500, want opbrengst = kosten.
-
-**(D)** De winst is €10.000 en de opbrengst is €1.500.
-
----
-
-## Blok 4: Marktevenwicht en verschuivingen (H1.4 §1–2)
-
-Het **marktevenwicht** vind je waar de gevraagde hoeveelheid gelijk is aan de aangeboden hoeveelheid: Qv = Qa. Je lost op naar de **evenwichtsprijs** (P\*) en vult die in om de **evenwichtshoeveelheid** (Q\*) te berekenen. Controleer altijd door P\* in beide vergelijkingen in te vullen. Bij P > P\* ontstaat een **aanbodoverschot** (Qa > Qv); bij P < P\* een **vraagoverschot** (Qv > Qa).
-
-Een verschuiving van vraag of aanbod leidt tot een nieuw evenwicht. **Vuistregels:** aanbod naar rechts → P daalt, Q stijgt; vraag naar rechts → P stijgt, Q stijgt. Bij twee gelijktijdige verschuivingen is de richting van één variabele (P of Q) altijd ambigu — je kunt niet zeggen welke kant die opgaat zonder de grootte van de verschuivingen te kennen.
-
-![Figuur 4: Marktevenwicht en verschuiving van het aanbod](_assets/1.5.1_fig_4.png)
-
-**Vraag 10**
-
-> Op de schriftenmarkt geldt: Qv = −2P + 100 en Qa = 3P − 25. Wat zijn de evenwichtsprijs en -hoeveelheid?
-
-**(A)** P\* = 15, Q\* = 70.
-
-**(B)** P\* = 25, Q\* = 50.
-
-**(C)** P\* = 20, Q\* = 60.
-
-**(D)** P\* = 25, Q\* = 75.
-
-**Vraag 11**
-
-> Door nieuwe technologie verschuift de aanbodlijn op de schriftenmarkt naar rechts. Wat is het effect op het evenwicht?
-
-**(A)** De evenwichtsprijs stijgt en de evenwichtshoeveelheid daalt.
-
-**(B)** De evenwichtsprijs daalt en de evenwichtshoeveelheid stijgt.
-
-**(C)** Zowel de evenwichtsprijs als de evenwichtshoeveelheid stijgen.
-
-**(D)** De evenwichtsprijs daalt en de evenwichtshoeveelheid daalt.
-
-**Vraag 12**
-
-> De vraag naar fietsen verschuift naar rechts (meer vraag) en tegelijkertijd verschuift het aanbod naar rechts (meer aanbod). Welke uitspraak is correct?
-
-**(A)** De evenwichtshoeveelheid stijgt zeker, maar het effect op de prijs is onzeker.
-
-**(B)** Zowel prijs als hoeveelheid stijgen zeker.
-
-**(C)** De evenwichtsprijs daalt zeker, maar het effect op de hoeveelheid is onzeker.
-
-**(D)** Het effect op zowel prijs als hoeveelheid is onzeker.
-
----
-
-## Blok 5: Marginale analyse en winstmaximalisatie (H1.4 §3–4)
-
-De **marginale kosten** (MK) zijn de extra kosten van één extra eenheid: MK = ΔTK/ΔQ. De **marginale opbrengst** (MO) is de extra opbrengst van één extra eenheid: MO = ΔTO/ΔQ. Bij een **vaste prijs** (volkomen concurrentie) geldt MO = P. Bij een lineaire TK-functie (TK = a + bQ) is MK constant en gelijk aan b. Bij een kwadratische TK-functie (TK = a + bQ²) stijgt MK naarmate Q toeneemt.
-
-Het **winstmaximum** bereik je bij MO = MK. Produceer zolang MO ≥ MK — elke extra eenheid levert dan meer op dan ze kost. Zodra MO < MK wordt, kost een extra eenheid meer dan ze oplevert en daalt je winst. "Meer produceren is altijd beter" klopt dus niet bij stijgende MK.
-
-![Figuur 5: MK en MO — winstmaximalisatie](_assets/1.5.1_fig_5.png)
-
-**Vraag 13**
-
-> Een bedrijf heeft TK = 100 + 2Q². De productie stijgt van 10 naar 11 eenheden. Wat zijn de marginale kosten?
-
-**(A)** MK = 2 × 11 − 2 × 10 = 22 − 20 = 2.
-
-**(B)** MK = TK(11) / 11 = (100 + 242) / 11 = 31,1.
-
-**(C)** MK = 2 × 2Q = 4 × 10 = 40.
-
-**(D)** MK = ΔTK/ΔQ = (TK(11) − TK(10)) / 1 = (342 − 300) / 1 = 42.
-
-**Vraag 14**
-
-> Een producent verkoopt tegen een vaste prijs van €20 per stuk. Zijn MK stijgt: bij Q = 30 is MK = €15 en bij Q = 50 is MK = €25. Een leerling zegt: "Je moet altijd zoveel mogelijk produceren, want meer afzet = meer winst." Waarom klopt deze redenering niet?
-
-**(A)** Omdat de prijs daalt bij meer productie.
-
-**(B)** Omdat ergens tussen Q = 30 en Q = 50 de MK boven de MO komen en elke extra eenheid daarna verlies oplevert, waardoor de totale winst daalt.
-
-**(C)** Omdat de constante kosten stijgen bij meer productie.
-
-**(D)** Omdat bij Q = 50 de totale opbrengst negatief wordt.
-
-
-<div style="break-before: page;"></div>
-
-# §1.5.2 Examenvaardigheden
-
-In deze paragraaf oefen je de vaardigheden die je nodig hebt om goed te scoren op de toets. Er komt geen nieuwe theorie aan bod — je leert **hoe** je toetsvragen correct beantwoordt. Lees bij elke oefening eerst de vaardigheidstip en maak dan de opgaven.
-
----
-
-## Oefening 1 — Vaardigheid: een ongelabelde grafiek lezen
-
-Bekijk de onderstaande grafiek. De grafiek bevat twee lijnen, maar er staan geen labels bij de assen en geen letters bij de lijnen. Eén van de lijnen heeft een gearceerd driehoekig vlak erboven (tussen de lijn en de bovenrand van de grafiek, tot aan het snijpunt).
-
-![Figuur 1: Ongelabelde grafiek](_assets/1.5.2_fig_1.svg)
-
-> **Vaardigheidstip:** Op het examen krijg je soms een grafiek zonder labels. Je moet dan zelf herkennen welke lijn de vraaglijn is en welke de aanbodlijn. De sleutel: de vraaglijn loopt dalend, de aanbodlijn loopt stijgend.
-
-**1** *(2p)* Welke lijn is de vraaglijn? Welke is de aanbodlijn? Leg uit hoe je dat kunt zien aan het verloop van de lijnen.
-
-**2** *(1p)* Lees de evenwichtsprijs en de evenwichtshoeveelheid af uit de grafiek.
-
-**3** *(2p)* Geef de juiste labels voor de assen. Welke conventie geldt in de economie voor de positie van P en Q? Waarom is dat anders dan in de wiskunde?
-
-**4** *(2p)* Het gearceerde driehoekige vlak stelt een economisch begrip voor. Noem dit begrip en leg uit wat het betekent. Gebruik de termen betalingsbereidheid en marktprijs in je antwoord.
-
----
-
-## Oefening 2 — Vaardigheid: gegevens uit een tabel halen en doorrekenen
-
-Een bedrijf heeft constante kosten (TCK) van €600. De variabele kosten stijgen lineair met de productie. De verkoopprijs is €10 per stuk. In de tabel staan de kostengegevens bij verschillende productieniveaus.
-
-| Q (stuks) | TCK (€) | TVK (€) | TK (€) |
-|-----------|---------|---------|--------|
-| 0         | 600     | 0       | 600    |
-| 50        | 600     | 250     | 850    |
-| 100       | 600     | 500     | 1.100  |
-| 150       | 600     | 750     | 1.350  |
-| 200       | 600     | 1.000   | 1.600  |
-
-> **Vaardigheidstip:** Bij een 'bereken'-vraag met een tabel lees je eerst de juiste waarden af en schrijf je dan de formule op. Noteer altijd: formule → invullen → berekenen → antwoord met eenheid.
-
-**5** *(2p)* Bereken de GVK. Leg uit hoe je dit kunt aflezen uit de tabel zonder te delen.
-
-**6** *(2p)* Bereken de GTK bij Q = 100 en bij Q = 200.
-
-**7** *(2p)* Leg uit waarom de GTK daalt als Q stijgt. Gebruik het begrip **spreidingseffect**.
-
-**8** *(3p)* Bereken het break-evenpunt. Toon alle stappen.
-
-**9** *(2p)* Bereken de winst bij Q = 200. Is het bedrijf winstgevend bij dit productieniveau?
-
----
-
-## Oefening 3 — Vaardigheid: een 'bereken'-antwoord structureren
-
-Op de markt voor pennen geldt Qv = −3P + 90 en Qa = 2P − 10. Twee leerlingen berekenen het marktevenwicht.
-
-**Antwoord A (leerling 1):**
-
-> "P* = 20, Q* = 30."
-
-**Antwoord B (leerling 2):**
-
-> "Stap 1: Qv = Qa → −3P + 90 = 2P − 10
-> Stap 2: 90 + 10 = 2P + 3P → 100 = 5P → P* = 20
-> Stap 3: Qv = −3 × 20 + 90 = 30
-> Controle: Qa = 2 × 20 − 10 = 30 ✓
-> Antwoord: P* = €20, Q* = 30 pennen."
-
-> **Vaardigheidstip:** Bij het examen krijg je punten voor elke stap, niet alleen voor het eindantwoord. Schrijf altijd: vergelijking opstellen → oplossen → invullen → controleren → antwoord met eenheid.
-
-**10** *(2p)* Welk antwoord scoort meer punten bij een examen? Waarom?
-
-**11** *(2p)* Hoeveel punten verdient leerling 1 bij een 4-punts berekenopgave? En leerling 2?
-
-**12** *(4p)* Schrijf zelf een volledig antwoord bij de volgende opgave: *"Op de markt voor USB-sticks geldt Qv = −P + 40 en Qa = 2P − 20. Bereken de evenwichtsprijs en de evenwichtshoeveelheid."*
-
----
-
-## Oefening 4 — Vaardigheid: een 'leg uit'-antwoord structureren
-
-Een krantenartikel meldt dat de prijs van katoen — een grondstof voor kleding — dit jaar met 35% is gestegen. Een leerling wordt gevraagd: *"Leg uit wat het effect is op de markt voor T-shirts."*
-
-De leerling schrijft:
-
-> "Als katoen duurder wordt, worden T-shirts ook duurder."
-
-![Figuur 2: Aanbodverschuiving op de markt voor T-shirts](_assets/1.5.2_fig_2.svg)
-
-> **Vaardigheidstip:** Een 'leg uit'-antwoord heeft een **causale keten** nodig. Je noemt het gegeven, legt de tussenstappen uit en eindigt met een conclusie. Structuur: gegeven → schakel 1 → schakel 2 → conclusie.
-
-**13** *(2p)* Is het antwoord van de leerling correct? Wat ontbreekt er?
-
-**14** *(3p)* Schrijf zelf het volledige antwoord. Gebruik de structuur: gegeven → schakel 1 → schakel 2 → conclusie.
-
-**15** *(2p)* Een medeleerling beweert: *"De vraaglijn van T-shirts verschuift naar links."* Is dit correct? Leg uit met het verschil tussen **beweging langs** en **verschuiving van** een lijn.
-
-**16** *(2p)* Het indexcijfer van de katoenprijs was vorig jaar 140. Dit jaar is het 189. Een leerling zegt: *"De prijs is met 49% gestegen."* Klopt dit? Toon je berekening.
-
----
-
-## Oefening 5 — Vaardigheid: meerstaps-berekening (evenwicht, verschuiving en marginale analyse)
-
-Op de markt voor schriften geldt Qv = −2P + 100 en Qa = 3P − 25. Door hogere grondstofprijzen wordt de aanbodvergelijking: Qa' = 3P − 40.
-
-Een producent op deze markt heeft TK = 200 + 4Q. Hij verkoopt tegen de evenwichtsprijs.
-
-> **Vaardigheidstip:** Bij een opgave met een verschuiving bereken je eerst het oorspronkelijke evenwicht, dan het nieuwe. Vergelijk de twee en trek een conclusie. Bij MK en MO: vergelijk per eenheid of uitbreiden loont.
-
-**17** *(4p)* Bereken het oorspronkelijke evenwicht. Toon alle stappen.
-
-**18** *(4p)* Bereken het nieuwe evenwicht na de aanbodverschuiving. Toon alle stappen.
-
-**19** *(2p)* Bereken de procentuele verandering van de evenwichtsprijs.
-
-**20** *(2p)* Bij de oorspronkelijke evenwichtsprijs van €25: bereken de gevraagde en aangeboden hoeveelheid met de **nieuwe** aanbodvergelijking. Is er dan een vraagoverschot of een aanbodoverschot?
-
-**21** *(2p)* Bereken de MK en MO van de producent bij de nieuwe evenwichtsprijs. Moet hij meer of minder produceren? Leg uit.
-
-**22** *(2p)* Leg uit waarom de evenwichtsprijs is gestegen. Gebruik de begrippen **aanbodfactor** en **verschuiving** in je antwoord.
-
-
-<div style="break-before: page;"></div>
-
-# §1.5.3 Integratieoefening
-
-In deze oefening werk je aan een samenhangende casus die vaardigheden uit alle vier de theoriehoofdstukken combineert. Je past kostenberekeningen, evenwichtsanalyse, verschuivingen, marginale analyse en procentuele veranderingen toe op dezelfde situatie. Er komt geen nieuwe theorie aan bod.
-
----
-
-## De koffiebrander
-
-Een kleine koffiebrander verkoopt zakken koffie op een markt met volkomen concurrentie. De constante kosten bedragen €800 per maand en de variabele kosten zijn €3 per zak. De totale kostenfunctie is:
-
-**TK = 800 + 3Q**
-
-Op de koffiemarkt gelden de volgende vergelijkingen:
-
-- Vraagfunctie: **Qv = −40P + 580**
-- Aanbodfunctie: **Qa = 20P − 20**
-
----
-
-**Vraag (a) — H1.3 Kostenstructuur: TK, GTK en spreidingseffect** *(4 punten)*
-
-Bereken de totale kosten (TK) en de gemiddelde totale kosten (GTK) bij Q = 200 en bij Q = 400.
-
-Wat valt je op als je de GTK bij beide productieniveaus vergelijkt? Leg uit met behulp van het begrip **spreidingseffect**.
-
----
-
-**Vraag (b) — H1.4 Marktevenwicht: oplossen en controleren** *(4 punten)*
-
-Het marktevenwicht ligt bij P = 10 en Q = 180. Verifieer dit met behulp van de vraag- en aanbodfuncties.
-
-Toon alle stappen: vergelijking opstellen, oplossen, invullen en controleren.
-
----
-
-**Vraag (c) — H1.2/H1.4 Vraag-aanbodgrafiek en aanbodverschuiving** *(6 punten)*
-
-Een nieuwsbericht waarschuwt dat de prijs van koffiebonen met 20% zal stijgen. Door deze kostenstijging wordt de nieuwe aanbodfunctie:
-
-**Qa' = 20P − 60**
-
-**(c1)** Teken in een grafiek de vraaglijn (V), de oorspronkelijke aanbodlijn (A₁) en de nieuwe aanbodlijn (A₂). Markeer het oude evenwicht (E) en het nieuwe evenwicht (E').
-
-Gebruik de onderstaande grafiek als uitgangspunt.
-
-![Figuur 1: Markt voor koffie — vraaglijn en oorspronkelijke aanbodlijn](_assets/1.5.3_fig_1.svg)
-
-**(c2)** Bereken het nieuwe evenwicht (P' en Q'). Toon alle stappen.
-
----
-
-**Vraag (d) — H1.4 Marginale analyse: MO en MK bij een prijsnemer** *(4 punten)*
-
-Bij het nieuwe evenwicht ontvangt de koffiebrander een prijs van €10,67 per zak. De totale kostenfunctie is nog steeds TK = 800 + 3Q.
-
-Bereken de marginale kosten (MK) en de marginale opbrengsten (MO).
-
-Is het verkopen van één extra zak koffie bij deze prijs winstgevend voor de koffiebrander? Leg uit aan de hand van de vergelijking tussen MO en MK.
-
-Waarom kun je uit deze vergelijking niet concluderen dat deze kleine koffiebrander zelf het volledige marktevenwicht van 153 zakken moet produceren?
-
----
-
-**Vraag (e) — H1.1 Procentuele verandering** *(2 punten)*
-
-Bereken de procentuele verandering van de evenwichtsprijs (van het oude naar het nieuwe evenwicht).
-
-Stijgt de evenwichtsprijs met hetzelfde percentage als de koffiebonenprijs (20%)? Leg uit waarom wel of niet.
-
----
-
-**Vraag (f) — H1.3/H1.4 Standpuntbepaling: aantal aanbieders en consumenteneffect** *(4 punten)*
-
-Een mede-ondernemer wil een tweede koffiebrander openen in dezelfde buurt.
-
-Beoordeel of de opening van een tweede koffiebrander goed is voor de consumenten. Gebruik in je antwoord economische begrippen en geef zowel argumenten voor als tegen. Sluit af met een beargumenteerde conclusie.
-
-
-<div style="break-before: page;"></div>
-
-# §1.5.4 Proeftoets
-
-**Boek 1 — Economie VWO 4**
-**Tijd:** 120 minuten | **Totaal:** 74 punten | **Hulpmiddelen:** rekenmachine
-
-> **Instructies**
-> - Lees elke opgave zorgvuldig door voordat je begint.
-> - Toon bij elke berekening alle tussenstappen.
-> - Geef bij "leg uit"-vragen een redenering met economische begrippen.
-> - Rond bedragen af op 2 decimalen, tenzij anders aangegeven.
-
----
-
-## Opgave 1: Sportschool "FitForLife" (18 punten)
-
-Sportschool FitForLife opent een nieuwe vestiging. De eigenaar heeft de volgende kostengegevens verzameld. De constante kosten bedragen €3.000 per maand (huur, afschrijving apparatuur, verzekeringen). De variabele kosten zijn €5 per lid per maand (schoonmaak, energie per lid, slijtage). De abonnementsprijs is €15 per lid per maand.
-
-| Aantal leden (Q) | TCK (€) | TVK (€) | TK (€) | TO bij P = €15 (€) |
-|-------------------|---------|---------|--------|---------------------|
-| 0 | 3.000 | 0 | 3.000 | 0 |
-| 100 | 3.000 | 500 | 3.500 | 1.500 |
-| 200 | 3.000 | 1.000 | 4.000 | 3.000 |
-| 300 | 3.000 | 1.500 | 4.500 | 4.500 |
-| 400 | 3.000 | 2.000 | 5.000 | 6.000 |
-
----
-
-**1** *(2p)* Noem twee voorbeelden van constante kosten van een sportschool.
-
-**2** *(4p)* Bereken de gemiddelde totale kosten (GTK) bij Q = 200 en bij Q = 400. Leg uit waarom de GTK daalt naarmate het aantal leden toeneemt. Gebruik het begrip **spreidingseffect**.
-
-**3** *(4p)* Bereken het break-evenpunt van FitForLife. Toon alle stappen.
-
-**4** *(4p)* FitForLife heeft 400 leden. De eigenaar overweegt de prijs te verlagen van €15 naar €12 per maand om meer leden te trekken. Bereken de winst bij de oude prijs (€15) en bij de nieuwe prijs (€12), beide bij Q = 400. Beoordeel of de prijsverlaging verstandig is. Gebruik je berekeningen in je antwoord.
-
-**5** *(4p)* Bereken bij Q = 300 de gemiddelde constante kosten (GCK), de gemiddelde variabele kosten (GVK) en toon met een berekening aan dat GTK = GCK + GVK. Leg vervolgens in één zin uit waarom de GCK daalt bij toenemende productie, maar de GVK gelijk blijft.
-
----
-
-## Opgave 2: De markt voor hardloopschoenen (24 punten)
-
-Op de markt voor hardloopschoenen gelden de volgende vergelijkingen:
-
-- Vraagfunctie: **Qv = −P + 80**
-- Aanbodfunctie: **Qa = 2P − 40**
-
-In de grafiek hieronder zijn de vraaglijn (V) en de aanbodlijn (A) getekend. Het evenwichtspunt E is gemarkeerd.
-
-![Figuur 1: Markt voor hardloopschoenen](_assets/1.5.4_fig_1.svg)
-
----
-
-**6** *(2p)* Lees de evenwichtsprijs en de evenwichtshoeveelheid af uit de grafiek.
-
-**7** *(4p)* Verifieer het evenwicht door Qv = Qa op te lossen. Toon alle stappen en controleer je antwoord door P* in te vullen in beide vergelijkingen.
-
-**8** *(4p)* Een populaire influencer promoot hardlopen op social media. Hierdoor neemt de vraag naar hardloopschoenen toe. De nieuwe vraagfunctie wordt: **Qv' = −P + 100**. Bereken het nieuwe evenwicht (P*' en Q*'). Toon alle stappen.
-
-**9** *(2p)* Leg uit of de toename van de vraag door de influencer een **verschuiving van de vraaglijn** is of een **beweging langs de vraaglijn**. Noem de vraagfactor die veranderd is.
-
-**10** *(2p)* Bereken de procentuele verandering van de evenwichtshoeveelheid (van het oude naar het nieuwe evenwicht).
-
-**11** *(4p)* Los van de influencer-campagne stijgen de grondstofprijzen voor rubber. Hierdoor verschuift het aanbod. De nieuwe aanbodfunctie wordt: **Qa' = 2P − 60**. Bereken het nieuwe evenwicht bij de **oorspronkelijke** vraagfunctie (Qv = −P + 80). Toon alle stappen.
-
-**12** *(2p)* Leg uit welke aanbodfactor hier is veranderd en waarom de aanbodlijn naar links (omhoog) verschuift.
-
-**13** *(4p)* Neem nu weer de oorspronkelijke vraag- en aanbodfuncties (Qv = −P + 80 en Qa = 2P − 40). De overheid stelt een minimumprijs in van **P = €60**. Leg uit of er op deze markt een aanbodoverschot of een vraagoverschot ontstaat en bereken de omvang ervan.
-
----
-
-## Opgave 3: Snoepfabriek "ZoetGenoeg" (12 punten)
-
-Snoepfabriek ZoetGenoeg produceert zakken snoep. De totale kostenfunctie is:
-
-**TK = 100 + Q²**
-
-De verkoopprijs is vast: **P = €30 per zak**.
-
-De onderstaande tabel toont de kosten, opbrengsten en winst bij verschillende productieniveaus. De marginale kosten (MK) en marginale opbrengsten (MO) zijn per stuk berekend over het laatst toegevoegde blok van 5 stuks.
-
-| Q | TK = 100 + Q² (€) | TO = 30Q (€) | Winst (€) | MK (per stuk over laatste blok, €) | MO (per stuk, €) |
-|---|-------------------|-------------|-----------|---------------------|--------|
-| 0 | 100 | 0 | −100 | — | — |
-| 5 | 125 | 150 | 25 | 5 | 30 |
-| 10 | 200 | 300 | 100 | 15 | 30 |
-| 15 | 325 | 450 | 125 | 25 | 30 |
-| 20 | 500 | 600 | 100 | 35 | 30 |
-
----
-
-**14** *(2p)* Noem de definitie van marginale kosten (MK) en marginale opbrengsten (MO).
-
-**15** *(2p)* Leg uit met behulp van de tabel waarom de winst bij Q = 20 lager is dan bij Q = 15. Gebruik de begrippen MK en MO in je antwoord.
-
-**16** *(2p)* Bij welke hoeveelheid is de winst maximaal? Leg uit hoe je dit kunt aflezen uit de kolommen MK en MO.
-
-**17** *(4p)* Bereken de optimale productieomvang algebraïsch met de MO = MK-regel. Toon alle stappen. *Hint:* Bij TK = 100 + Q² geldt MK ≈ 2Q.
-
-**18** *(2p)* Stel dat de totale kostenfunctie verandert naar **TK = 100 + 2Q²** (hogere variabele kosten per eenheid). Leg uit of de MK nu constant of stijgend wordt en geef de formule voor de MK.
-
----
-
-## Opgave 4: Krantenbericht over de benzineprijs (12 punten)
-
-Lees het onderstaande krantenbericht.
-
-> **Benzineprijs stijgt fors**
->
-> De benzineprijs is dit jaar met 12% gestegen, van €1,80 naar €2,02 per liter. Tankstations melden dat automobilisten minder tanken. "We zien een duidelijke daling van het aantal liters per tankbeurt", aldus een woordvoerder. Tegelijk zijn de kosten van biodiesel — een substituut voor benzine — gedaald door nieuwe productiemethoden. Steeds meer automobilisten stappen over op biodiesel.
-
----
-
-**19** *(2p)* Bereken of de procentuele stijging van 12% klopt. Toon alle stappen.
-
-**20** *(2p)* Automobilisten tanken minder benzine doordat de benzineprijs is gestegen. Leg uit of dit een **verschuiving van de vraaglijn** is of een **beweging langs de vraaglijn**.
-
-**21** *(2p)* Biodiesel is een substituut voor benzine. De kosten van biodiesel zijn gedaald. Leg uit wat het effect is van de dalende biodieselkosten op de markt voor **benzine**. Gebruik het begrip **vraagfactor** in je antwoord.
-
-**22** *(2p)* Noem de vier stappen van economisch denken en pas ze kort toe op de keuze van een automobilist tussen benzine en biodiesel.
-
-**23** *(4p)* Het Centraal Bureau voor de Statistiek publiceert indexcijfers voor motorbrandstof. In 2023 was het indexcijfer 100, in 2024 was het 108, en in 2025 is het 120. Een klasgenoot beweert: *"De prijs is dus van 2024 tot 2025 met 12 procent gestegen, want 120 − 108 = 12."* Leg uit waarom deze redenering fout is en bereken de juiste procentuele stijging tussen 2024 en 2025.
-
----
-
-## Opgave 5: Betalingsbereidheid en consumentensurplus (8 punten)
-
-Op de markt voor een populair paar koptelefoons zijn vier consumenten actief. De betalingsbereidheden (BB) zijn:
-
-| Consument | Betalingsbereidheid (€) |
-|-----------|-------------------------|
-| Anne      | 140                     |
-| Bram      | 120                     |
-| Carla     | 90                      |
-| Daan      | 60                      |
-
-De marktprijs is **P = €80**.
-
----
-
-**24** *(4p)* Bepaal welke consumenten het product kopen en bereken het **totale consumentensurplus** bij P = €80. Toon alle stappen.
-
-**25** *(4p)* De prijs daalt naar **P = €50** door meer concurrentie op de markt. Bereken het nieuwe totale consumentensurplus en de verandering ten opzichte van de situatie bij P = €80. Leg in één zin uit waarom het consumentensurplus toeneemt.
 
 <!-- BOOK-CONTENT-END -->
 
@@ -5510,9 +3931,6 @@ De marktprijs is **P = €80**.
 <dd class="term-formula"><code>GTK = TK / Q</code></dd>
 <dt>individuele vraaglijn</dt>
 <dd>Grafiek die voor één consument laat zien hoeveel hij van een product vraagt bij elke prijs. De lijn daalt omdat de consument bij een hogere prijs minder koopt.</dd>
-<dt>marginale kosten <span class="term-abbrev">(MK)</span></dt>
-<dd>De extra kosten van één extra geproduceerde eenheid. Voor een individuele aanbieder vormt de MK-lijn zijn aanbodlijn vanaf het minimum van de GTK.</dd>
-<dd class="term-formula"><code>MK = ΔTK / ΔQ</code></dd>
 <dt>marginale opbrengsten <span class="term-abbrev">(MO)</span></dt>
 <dd>De extra opbrengst van één extra verkochte eenheid. De maximale totale winst ligt bij de afzet waarvoor MO gelijk is aan MK.</dd>
 <dd class="term-formula"><code>MO = ΔTO / ΔQ</code> &middot; <code>MO = MK  (maximale winst)</code></dd>
@@ -5533,8 +3951,6 @@ De marktprijs is **P = €80**.
 <dd class="term-formula"><code>TO = P × Q</code></dd>
 <dt>variabele kosten <span class="term-abbrev">(TVK)</span></dt>
 <dd>Kosten die meestijgen met de geproduceerde hoeveelheid, zoals grondstoffen en uurlonen. Bij nul productie zijn de variabele kosten ook nul.</dd>
-<dt>volkomen concurrentie</dt>
-<dd>Marktvorm met veel kleine aanbieders die een homogeen goed verkopen en vrije toetreding kennen. Geen enkele aanbieder heeft marktmacht; de prijs komt tot stand door vraag en aanbod op de markt.</dd>
 <dt>winst</dt>
 <dd>Het verschil tussen totale opbrengst en totale kosten. Positief bij winst, nul bij break-even, negatief bij verlies.</dd>
 <dd class="term-formula"><code>winst = TO − TK</code></dd>
@@ -5571,34 +3987,14 @@ De marktprijs is **P = €80**.
 <li><span class="book-kind book-kind-definitie">Definitie</span> Collectieve vraag (marktvraag)</li>
 <li><span class="book-kind book-kind-formule">Formule</span> Collectieve vraagfunctie (zolang beide kopen)</li>
 </ul>
-<p class="book-formulas-chapter">Hoofdstuk 1.3 — Aanbod en kosten</p>
+<p class="book-formulas-chapter">Hoofdstuk 1.3 — Aanbod en marktevenwicht</p>
 <ul class="book-formula-list">
 <li><span class="book-kind book-kind-definitie">Definitie</span> Aanbodlijn (A)</li>
 <li><span class="book-kind book-kind-definitie">Definitie</span> Wet van het aanbod</li>
 <li><span class="book-kind book-kind-definitie">Definitie</span> Aanbodfactoren</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Constante kosten (CK)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Variabele kosten (VK)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Totale constante kosten (TCK)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Totale variabele kosten (TVK)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Totale kosten (TK)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Gemiddelde totale kosten (GTK)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Gemiddelde variabele kosten (GVK)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Gemiddelde constante kosten (GCK)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Totale opbrengst (TO)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Gemiddelde opbrengst (GO)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Winst</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Break-evenpunt</li>
-</ul>
-<p class="book-formulas-chapter">Hoofdstuk 1.4 — Marktevenwicht en marginale analyse</p>
-<ul class="book-formula-list">
 <li><span class="book-kind book-kind-definitie">Definitie</span> Marktevenwicht</li>
 <li><span class="book-kind book-kind-definitie">Definitie</span> Aanbodoverschot (surplus)</li>
 <li><span class="book-kind book-kind-definitie">Definitie</span> Vraagoverschot (tekort)</li>
 <li><span class="book-kind book-kind-definitie">Definitie</span> Ambigue uitkomst</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Marginale kosten (MK)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Marginale opbrengsten (MO)</li>
-<li><span class="book-kind book-kind-definitie">Definitie</span> Winstmaximalisatie</li>
 </ul>
-<p class="book-formulas-chapter">Hoofdstuk 1.5 — Toetsvoorbereiding</p>
-<p><em>Geen formules of definities gevonden.</em></p>
 </div>
