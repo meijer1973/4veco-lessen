@@ -1,5 +1,5 @@
 # Quality Reference - 1.1.2 Percentages en indexcijfers
-# Refreshed: 2026-05-18 (L1.5G-E final-feedback review fix)
+# Refreshed: 2026-05-18 (L1.5G-E closed PASS WITH FLAGS)
 
 paragraph: "1.1.2"
 title: "Percentages en indexcijfers"
@@ -31,7 +31,7 @@ partA:
 companion:
   review_file: "1.1.2-companion-visual-review.md"
   review_verdict: "PASS WITH FLAGS"
-  last_reviewed: "2026-05-17"
+  last_reviewed: "2026-05-18"
   hard_fails_open: 0
   default_office_exports: false
   student_facing_internal_codes: false
@@ -57,4 +57,4 @@ companion:
       stappenplan: clean
       redeneer_spel: clean
       wiskundevaardigheden: clean
-      grafiekenspel: final_feedback_revised_pending_recheck
+      grafiekenspel: pass_with_flags
