@@ -9,12 +9,12 @@ for closed work live under `archive/sprints/<sprint-id>/`.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.6R | 1.1.3 Dual-Coding Remediation | no | **REVISE ADDRESSED / FOCUSED HUMAN RECHECK READY, NOT CLOSED.** First L1.6R human review accepted the main dual-coding remediation but returned REVISE because `begeleide inoefening` used generic visuals that did not match several exercise prompts. Platform source now generates exercise-specific guided-practice visuals for broodjes, koffie, bioscoop, and water/index, and the focused semantic Jest gate checks visual-value concordance. Green gates after the targeted revision: deploy link/data checks 417 refs + 217/217 data tests, focused L1.6R dual-coding Jest 5/5, presentation-v2 screenshot QA 30 screenshots, rich-page screenshot QA 20 screenshots, complete student-web validation, publisher-print Part A validation, procedure-contract validator 341 checks, Book 1 health 26/26, and full platform Jest 515 passed / 8 skipped. Review files: `L1.6R-human-review-packet.md`, `L1.6R-student-experience-review.md`, `L1.6R-teacher-learning-quality-review.md`, `L1.6R-human-review-record.md`, `L1.6R-lead-review-summary.md`, `L1.6R-closure-log.md`; QA: `L1.6R-technical-qa-report.md`, `L1.6R-semantic-visual-qa-report.md`; screenshots: `L1.6R-screenshots/`. Broad scaling remains blocked until focused human recheck closes L1.6R and L1.7A makes an explicit readiness decision. |
-| SYNC-1 | Roadmap Reconciliation | **2026-05-18** | **CLOSED PASS.** Log: `archive/sprints/SYNC-1/SYNC-1-roadmap-reconciliation-log.md`. Joint roadmap sync after L1.5P/L1.5Q/L1.6. Lesson and reference roadmaps now agree that broad lesson scaling is not approved yet. Coming-period focus is foundation hardening: reconcile roadmap state, normalize the rough three-year blueprint as a non-authoritative planning prototype, classify MTU/target-exercise gaps, triage lesson-side flags, and decide controlled production only through a later Scale Gate. |
-| L1.7A | Scaling Readiness And Modality Gate Review | no | **NEXT AFTER L1.6R / FOUNDATION-HARDENING DECISION SPRINT.** Replaces the old `L1.7 Post-Layout Scaling Decision` framing. Do not treat L1.6 as broad-scaling approval. L1.7A may start only after the `1.1.3` dual-coding incident is either remediated or explicitly accepted as still blocking scale. Build a readiness matrix for Part A, landing pages, procedure contracts, semantic visual adequacy, presentation-v2, begeleide inoefening, graphical game, inert adaptive seam, target exercises, and PV/A61 boundaries. Classify flags as fix-now / carry-forward / defer. Expected decision: controlled next-step production may continue only if modality gates stay explicit; broad paragraph scaling remains paused until quality gates are cleaner. |
+| L1.7A | Scaling Readiness And Modality Gate Review | no | **ACTIVE / FOUNDATION-HARDENING DECISION SPRINT.** Replaces the old `L1.7 Post-Layout Scaling Decision` framing. Do not treat L1.6 or L1.6R as broad-scaling approval. Build a readiness matrix for Part A, landing pages, procedure contracts, semantic visual adequacy, presentation-v2, begeleide inoefening, graphical game, inert adaptive seam, target exercises, and PV/A61 boundaries. Classify flags as fix-now / carry-forward / defer. Expected decision: controlled next-step production may continue only if modality gates stay explicit; broad paragraph scaling remains paused until quality gates are cleaner. |
 | L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | no | **FUTURE CLEANUP SPRINT BEFORE BROAD SCALING.** Clean easy visible flags and define the Book 1 student-web house-style baseline from `1.1.1` through `1.1.3`: figure numbering, duplicated worked-example policy, consistent quality-ref status language, operational meaning of PASS WITH FLAGS, and house-style notes for landing, presentation, guided practice, procedure contracts, and graphical MVP limits. No new features. |
 | Scale Gate 1 | Foundation Hardening Scale Gate | no | **FUTURE JOINT DECISION.** After L1.7A, L2.0, REF-CT0/REF-CT1, and minimal curriculum-versioning readiness, decide controlled production versus more reference hardening. No adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion may be authorized by this gate. |
-| L1.6 | Second Pipeline Regression Paragraph | **2026-05-18** | **CLOSED AS TECHNICAL PROOF; COMPANION QUALITY REOPENED BY L1.6R.** Sprint plan: `archive/sprints/L1.6/L1.6-sprint-plan.md`; review packet: `archive/sprints/L1.6/L1.6-human-review-packet.md`; QA: `archive/sprints/L1.6/L1.6-technical-qa-report.md`; review records: `archive/sprints/L1.6/L1.6-student-experience-review.md`, `archive/sprints/L1.6/L1.6-teacher-learning-quality-review.md`, `archive/sprints/L1.6/L1.6-human-review-record.md`, `archive/sprints/L1.6/L1.6-lead-review-summary.md`; closure log: `archive/sprints/L1.6/L1.6-closure-log.md`. L1.6 still proves the fresh paragraph build, graphical-game transfer, inert adaptive seam, A61/table-value procedure contract, and v5 baseline integration. Post-closure review found that the main `1.1.3` companion explanation surfaces lack required graph/table learning objects, so the student-facing companion verdict is reopened under `L1.6R`. Green technical gates remain historically useful; they are not sufficient for scaling. Broad production remains blocked until semantic visual adequacy is remediated and reviewed. |
+| SYNC-1 | Roadmap Reconciliation | **2026-05-18** | **CLOSED PASS.** Log: `archive/sprints/SYNC-1/SYNC-1-roadmap-reconciliation-log.md`. Joint roadmap sync after L1.5P/L1.5Q/L1.6. Lesson and reference roadmaps now agree that broad lesson scaling is not approved yet. Coming-period focus is foundation hardening: reconcile roadmap state, normalize the rough three-year blueprint as a non-authoritative planning prototype, classify MTU/target-exercise gaps, triage lesson-side flags, and decide controlled production only through a later Scale Gate. |
+| L1.6R | 1.1.3 Dual-Coding Remediation | **2026-05-19** | **CLOSED PASS WITH FLAGS.** L1.6R reopened the `1.1.3` companion quality verdict after post-closure review found a systemic dual-coding failure. First remediation fixed the main explanation surfaces; focused human review then returned REVISE because guided-practice visuals were present but not exercise-specific. Final correction added exercise-specific guided visuals for broodjes, koffie, bioscoop, and water/index and guarded visual-value concordance in focused Jest. Green gates: deploy link/data checks 417 refs + 217/217 data tests, focused L1.6R dual-coding Jest 5/5, presentation-v2 screenshot QA 30 screenshots, rich-page screenshot QA 20 screenshots, complete student-web validation, publisher-print Part A validation, procedure-contract validator 341 checks, Book 1 health 26/26, and full platform Jest 515 passed / 8 skipped. `1.1.3-quality-ref.yaml` now records `human_review_status: "pass_with_flags"`. Archive: `archive/sprints/L1.6R/`. Flags: scaffolded/value-labelled graph visuals remain acceptable MVP surfaces; later graph-reading variants should reduce direct labels; visual-value concordance should become a reusable QA gate. |
+| L1.6 | Second Pipeline Regression Paragraph | **2026-05-18** | **CLOSED AS TECHNICAL PROOF; COMPANION QUALITY REMEDIATED BY L1.6R.** Sprint plan: `archive/sprints/L1.6/L1.6-sprint-plan.md`; review packet: `archive/sprints/L1.6/L1.6-human-review-packet.md`; QA: `archive/sprints/L1.6/L1.6-technical-qa-report.md`; review records: `archive/sprints/L1.6/L1.6-student-experience-review.md`, `archive/sprints/L1.6/L1.6-teacher-learning-quality-review.md`, `archive/sprints/L1.6/L1.6-human-review-record.md`, `archive/sprints/L1.6/L1.6-lead-review-summary.md`; closure log: `archive/sprints/L1.6/L1.6-closure-log.md`. L1.6 proves the fresh paragraph build, graphical-game transfer, inert adaptive seam, A61/table-value procedure contract, and v5 baseline integration. Post-closure review found that the main `1.1.3` companion explanation surfaces lacked required graph/table learning objects; L1.6R closed that companion-quality incident as PASS WITH FLAGS. Green technical gates remain historically useful; they are not sufficient for broad scaling without L1.7A readiness review. |
 | L1.5Q | Course Blueprint v5 + Four Test-Week Book Plan | **2026-05-18** | **CLOSED PASS WITH FLAGS.** Created the active v5 curriculum-source baseline for the four-book/four-test-week model. Active target-exercise registry now points to v5 with 54 count-bearing records and exact counts 12/12/14/16; v4 registry is archived, v4 blueprint/meta are superseded, v5 owned blueprint/meta exist, v5 validator checks counts, web-only test-prep, placeholder semantics, and blueprint anchors. Phase B upgraded `course_blueprint_v5.md` from scaffold to curriculum-source prose and closed with regenerated owned-source, owned-content, source-document, inventory, and URL-index artifacts. Flags: migrated target exercises and gemengde-opgaven placeholders are not reviewed final; L2.4-TEA remains the later target-exercise distribution audit. Log: `archive/sprints/L1.5Q/L1.5Q-closure-log.md`. |
 | L1.5P | Boek 1 Print-Edition Cut + 2026/27 12-Paragraph Scope | **2026-05-18** | **CLOSED PASS AFTER LEAD-REVIEW CORRECTION.** Printed Book 1 is generated through the platform book workflow from a 12-paragraph print manifest: chapters 1.1 and 1.2 plus a composed print chapter 1.3 (`Aanbod en marktevenwicht`). Test preparation is website-only; cost/revenue/marginal-analysis material remains online/parked for later migration. Independent lead review found duplicate opgaven and excluded body/glossary leakage after the first close; corrections are now platform-owned and regenerated. Green gates: strengthened print-scope checker 12/12, `check:book` 26/26, focused print-scope Jest 5/5, full platform Jest 502 passed / 8 skipped, markdown/PDF excluded-term scans clean, PDF generated. Logs: `archive/sprints/L1.5P/L1.5P-sprint-plan.md`, `archive/sprints/L1.5P/L1.5P-cut-survival-map.md`, `archive/sprints/L1.5P/L1.5P-closure-log.md`, `archive/sprints/L1.5P/L1.5P-lead-review-record.md`. |
 | L2.1 | Book 1 Release Polish | no | Teacher-facing polish continues under the Book 1 health gate after the print scope is stable. |
@@ -98,6 +98,8 @@ Updated: 2026-05-18 (L1.6 close) - focused re-review accepted the `Broodjesverko
 Updated: 2026-05-18 (SYNC-1 roadmap reconciliation) - after reading the post-L1.6 strategy paper and checking current lesson/reference roadmap state, L1.7 was reframed as `L1.7A Scaling Readiness And Flag Triage Gate`. Broad lesson scaling is not approved. The next lesson-side work is a readiness/triage decision, followed by Book 1 flag burn-down/house-style cleanup before any broader production decision. The rough three-year blueprint is treated as a non-authoritative planning prototype for the reference team, not a curriculum source of truth.
 
 Updated: 2026-05-19 (L1.6R revise addressed) - L1.6R human review returned REVISE after confirming the main explanation surfaces now show real graph/table objects but finding that guided-practice visuals did not match several exercise prompts. Platform source now generates exercise-specific guided visuals for broodjes, koffie, bioscoop, and water/index; the focused L1.6R Jest gate includes visual-value concordance; `1.1.3-quality-ref.yaml` marks the companion status as guided-concordance revised pending human review. Green gates: deploy link/data checks 417 refs + 217/217 data tests, focused L1.6R Jest 5/5, presentation screenshot QA 30 screenshots, rich-page screenshot QA 20 screenshots, complete student-web validation, publisher-print Part A validation, procedure-contract validator 341 checks, Book 1 health 26/26, and full platform Jest 515 passed / 8 skipped. L1.6R is ready for focused human recheck but not closed.
+
+Updated: 2026-05-19 (L1.6R close) - focused human recheck accepted the guided-practice visual-value concordance correction and closed L1.6R as PASS WITH FLAGS. `1.1.3-quality-ref.yaml` now records `human_review_status: "pass_with_flags"` and `l16r_dual_coding.status: "pass_with_flags"`. L1.6R sprint plans, review records, QA reports, closure log, and screenshots are archived under `archive/sprints/L1.6R/`. L1.7A is now the active readiness/modality gate; broad scaling remains paused until that decision is recorded.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -1921,18 +1923,19 @@ On 2026-05-19, post-closure review accepted that L1.6 was technically useful
 but found a systemic dual-coding failure in the `1.1.3` companion layer. The
 presentation, vaardigheden page, and guided-practice surfaces explain
 graphs/tables without consistently showing the graph/table learning objects.
-This does not erase the fresh-build proof, but it reopens the `1.1.3`
-student-facing companion quality verdict. L1.6R must run before L1.7A.
+This does not erase the fresh-build proof, but it reopened the `1.1.3`
+student-facing companion quality verdict. L1.6R later remediated this incident
+and closed PASS WITH FLAGS.
 
 ### Sprint L1.6R: 1.1.3 Dual-Coding Remediation
 
-Completed: no.
+Completed: 2026-05-19.
 
-Position: active incident-remediation sprint before L1.7A.
+Position: closed incident-remediation sprint before L1.7A.
 
-Plan: `L1.6R-dual-coding-remediation-plan.md`.
+Plan: `archive/sprints/L1.6R/L1.6R-dual-coding-remediation-plan.md`.
 
-Incident record: `L1.6R-dual-coding-incident-record.md`.
+Incident record: `archive/sprints/L1.6R/L1.6R-dual-coding-incident-record.md`.
 
 Purpose:
 
@@ -1977,15 +1980,18 @@ Exit criteria:
 - Part A publisher-print validation remains green
 - procedure-contract validation and Book 1 health remain green
 - review records close L1.6R as PASS WITH FLAGS or better
-- L1.7A receives an explicit modality-gate result
+- L1.7A receives an explicit modality-gate result after closure
 
-Focused recheck state:
+Closure state:
 
 The first L1.6R human review returned REVISE because the guided-practice
 visuals existed but did not consistently match the exercise data. The targeted
 revision now uses exercise-specific visuals for broodjes, koffie, bioscoop, and
-water/index and adds visual-value concordance to the focused Jest gate. L1.6R
-is not closed until focused human recheck accepts that correction.
+water/index and adds visual-value concordance to the focused Jest gate. Focused
+human recheck accepted the correction and closed L1.6R as PASS WITH FLAGS.
+Remaining flags: scaffolded/value-labelled graph visuals are acceptable for
+this remediation sprint; later graph-reading variants should reduce direct
+labels; visual-value concordance should become a reusable QA gate.
 
 ### Sprint L1.7A: Scaling Readiness And Modality Gate Review
 
@@ -2323,10 +2329,10 @@ Outputs:
 
 - Keep Book 1 green.
 - Use the L1.5P print PDF as the current publisher-print baseline.
-- Run L1.6R as the active lesson-quality remediation track before L1.7A.
+- Start L1.7A now that L1.6R has closed PASS WITH FLAGS.
 - Keep L1.5Q/v5 as the active curriculum-source baseline, but do not treat
   migrated target exercises as final-reviewed.
-- Continue companion pilot work only where it supports the L1.6R modality gate
+- Continue companion pilot work only where it supports the L1.7A modality gate
   or does not conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
 - Keep Book 2 Part A planning paused behind L1.5Q if it depends on the new
@@ -2334,7 +2340,7 @@ Outputs:
 
 ### Next 2-4 Weeks
 
-- Complete L1.6R and use L1.7A to decide whether the next lesson sprint is
+- Use L1.7A to decide whether the next lesson sprint is
   cleanup, another regression paragraph, controlled production, or reference
   hardening.
 - Keep `course_blueprint_v5.md` and the target-exercise source-of-truth path as
@@ -2342,8 +2348,9 @@ Outputs:
 - `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.
 - A second Book 1 companion paragraph is built under L1.4 against the current platform state, surfacing any pipeline gap that a second regeneration reveals.
 - Layout Round 2 (L1.5) acts on the combined findings from the L1.3A-C usability review and the L1.4 regression paragraph; changes land in platform-owned sources only.
-- L1.6 remains the third-paragraph technical proof, but L1.6R must repair the
-  `1.1.3` companion dual-coding failure before the scaling decision.
+- L1.6 remains the third-paragraph technical proof; L1.6R repaired the `1.1.3`
+  companion dual-coding failure, and L1.7A must decide whether the evidence is
+  enough for controlled production or more hardening.
 - Book 1 teacher-facing polish continues without breaking `check:book`.
 
 ### Months 1-3

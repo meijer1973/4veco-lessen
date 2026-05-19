@@ -35,11 +35,11 @@ companion:
   review_verdict: "PASS WITH FLAGS"
   last_reviewed: "2026-05-19"
   hard_fails_open: 0
-  human_review_status: "l16r_guided_concordance_revised_pending_human_review"
+  human_review_status: "pass_with_flags"
   default_office_exports: false
   student_facing_internal_codes: false
   l16r_dual_coding:
-    status: "guided_concordance_revised_pending_human_review"
+    status: "pass_with_flags"
     required_objects_present:
       ice_table: true
       pq_graph: true
@@ -59,13 +59,13 @@ companion:
     active_skills: ["A61", "A62", "A63", "A38", "A39"]
     coverage_note: "A61/A62/A63 cover table and graph reading; A38/A39 support percentage and index use with graph/table values."
   surfaces:
-    voorkennis_html: l16r_guided_concordance_revised_pending_human_review
-    vaardigheden_html: l16r_guided_concordance_revised_pending_human_review
+    voorkennis_html: pass_with_flags
+    vaardigheden_html: pass_with_flags
     presentatie_pptx: pass_with_flags
-    presentatie_html: l16r_guided_concordance_revised_pending_human_review
-    nieuws_html: l16r_guided_concordance_revised_pending_human_review
-    samenvatting_html: l16r_guided_concordance_revised_pending_human_review
-    begeleide_inoefening_html: l16r_guided_concordance_revised_pending_human_review
+    presentatie_html: pass_with_flags
+    nieuws_html: pass_with_flags
+    samenvatting_html: pass_with_flags
+    begeleide_inoefening_html: pass_with_flags
     youtube_videos_html: pass_with_flags
     games:
       instapquiz: pass_with_flags
