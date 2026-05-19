@@ -33,6 +33,7 @@ Useful entry points:
 - `RESEARCH_AGENT_MAP.md`
 - `AGENTS.md`
 - `lessen-team-roadmap.md`
+- `lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md`
 - `course_blueprint_v4.md`
 - `index.html`
 - `4veco-platform/reports/github-agent-index-lessen.md` after running `npm run agent:index` in `4veco-platform`

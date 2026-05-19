@@ -135,6 +135,7 @@ URL index (single fetch unlocks the rest of the surface, served from the platfor
 {
   "repo_operating_rules": "AGENTS.md",
   "team_roadmap": "lessen-team-roadmap.md",
+  "open_lesson_ticket_cp6a_chapter13_alignment": "lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md",
   "course_blueprint": "course_blueprint_v4.md",
   "active_root_plan": "plan-1.1.1-part-b-clarity-audit.md",
   "exam_reference_pdf": "vw-1022-a-25-1-o.pdf",
@@ -156,6 +157,7 @@ Concrete index-anchor files (templates with `<book-title>` / `N.M.K` placeholder
 
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/AGENTS.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v4.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/plan-1.1.1-part-b-clarity-audit.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/vw-1022-a-25-1-o.pdf
