@@ -38,6 +38,7 @@
     .visual-object{border:1px solid var(--border);border-radius:8px;padding:12px;background:var(--bg);min-width:0}
     .visual-object h3{margin:0 0 8px;font-size:1rem}
     .visual-object p{margin:8px 0 0;color:var(--ink-soft);font-size:.92rem;line-height:1.45}
+    .visual-object img{display:block;width:100%;height:auto;max-height:360px;object-fit:contain;border:1px solid var(--border);border-radius:8px;background:#fff}
     .source-table td.is-highlighted,.source-table th.is-highlighted{background:color-mix(in oklab,var(--accent) 22%,var(--bg-lift));font-weight:900}
     .inline-graph{display:block;width:100%;height:auto;max-height:300px}
     .inline-graph .axis{stroke:var(--ink);stroke-width:2}
@@ -91,40 +92,25 @@
       </article>
       <details class="lesson-card">
     <summary>Opgave 1 - Broodjesgrafiek</summary>
-    <div class="guided-source"><figure class="visual-object" data-visual-id="guided_bread_graph">
+    <div class="guided-source"><figure class="visual-object" data-visual-id="guided_bread_graph" data-source-asset="1.1.3_ex_1.svg">
     <h3>Broodjesverkoop: bron-grafiek</h3>
-    <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Broodjesverkoop: bron-grafiek met prijs op de verticale as en hoeveelheid op de horizontale as">
-      <line class="axis" x1="68" y1="220" x2="386" y2="220"></line>
-      <line class="axis" x1="68" y1="220" x2="68" y2="36"></line>
-      <line class="grid" x1="68" y1="164" x2="386" y2="164"></line>
-      <line class="grid" x1="68" y1="108" x2="386" y2="108"></line>
-      <text x="360" y="248">Q</text>
-      <text x="18" y="50">P</text>
-      <text x="40" y="64">EUR 1</text>
-      <text x="40" y="134">EUR 2</text>
-      <text x="40" y="204">EUR 3</text>
-      <text x="108" y="246">500</text>
-      <text x="228" y="246">300</text>
-      <text x="348" y="246">100</text>
-      <polyline class="curve" points="112,60 172,95 232,130 292,165 352,200"></polyline>
-      <circle class="point" cx="112" cy="60" r="5"></circle><circle class="point" cx="172" cy="95" r="5"></circle><circle class="point" cx="232" cy="130" r="5"></circle><text x="240" y="122">(300;2,00)</text><circle class="point" cx="292" cy="165" r="5"></circle><circle class="point" cx="352" cy="200" r="5"></circle>
-    </svg>
-    <p>Lees prijs op de verticale as en hoeveelheid op de horizontale as.</p>
+    <img src="_assets/1.1.3_ex_1.svg" alt="Broodjesgrafiek met prijs op de verticale as en hoeveelheid broodjes op de horizontale as">
+    <p>Gebruik deze bron bij Opgave 1: EUR 3,00 hoort bij 200 broodjes; 150 broodjes hoort bij EUR 3,50.</p>
   </figure></div>
     <ol><li>Zoek eerst de prijs op de verticale as.</li><li>Ga horizontaal naar de lijn en daarna verticaal naar de hoeveelheid.</li><li>Beschrijf daarna het verband in woorden.</li></ol>
     <div class="callout"><strong>Controle:</strong> Bij EUR 3,00 worden 200 broodjes verkocht. Bij 150 broodjes hoort EUR 3,50. Het verband is negatief: hogere prijs, lagere verkoop.</div>
   </details>
       <details class="lesson-card">
     <summary>Opgave 2 - Koffie tekenen</summary>
-    <div class="guided-source"><figure class="visual-object" data-visual-id="ice_table">
-    <h3>IJsjesverkoop: brongegevens</h3>
+    <div class="guided-source"><figure class="visual-object" data-visual-id="guided_coffee_table">
+    <h3>Koffieverkoop: bron-tabel</h3>
     <table class="data-table source-table">
-      <thead><tr><th class="is-highlighted">Prijs per ijsje</th><th class="is-highlighted">Aantal verkocht</th></tr></thead>
+      <thead><tr><th class="is-highlighted">Prijs per beker</th><th class="is-highlighted">Verkocht per dag</th></tr></thead>
       <tbody>
-        <tr><td class="is-highlighted">EUR 1,00</td><td class="is-highlighted">500 ijsjes</td></tr><tr><td class="">EUR 1,50</td><td class="">400 ijsjes</td></tr><tr><td class="is-highlighted">EUR 2,00</td><td class="is-highlighted">300 ijsjes</td></tr><tr><td class="">EUR 2,50</td><td class="">200 ijsjes</td></tr><tr><td class="">EUR 3,00</td><td class="">100 ijsjes</td></tr>
+        <tr><td>EUR 1,00</td><td>200 bekers</td></tr><tr><td>EUR 1,50</td><td>160 bekers</td></tr><tr><td>EUR 2,00</td><td>120 bekers</td></tr><tr><td>EUR 2,50</td><td>80 bekers</td></tr><tr><td>EUR 3,00</td><td>40 bekers</td></tr>
       </tbody>
     </table>
-    <p>Lees eerst kop, rij en eenheid. Pas daarna kies je waarden voor een berekening.</p>
+    <p>Gebruik deze tabel voor Opgave 2: punten als (200; 1,00), (160; 1,50), (120; 2,00), (80; 2,50), (40; 3,00).</p>
   </figure><div class="guided-source"><figure class="visual-object" data-visual-id="blank_axes_template">
     <h3>Assen-template voor tekenen</h3>
     <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Lege P-Q assen om punten uit een tabel te tekenen">
@@ -144,26 +130,10 @@
   </details>
       <details class="lesson-card">
     <summary>Opgave 3 - Bioscoop interpoleren</summary>
-    <div class="guided-source"><figure class="visual-object" data-visual-id="guided_cinema_interpolation">
+    <div class="guided-source"><figure class="visual-object" data-visual-id="guided_cinema_interpolation" data-source-asset="1.1.3_ex_2.svg">
     <h3>Bioscoopbezoekers interpoleren</h3>
-    <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Bioscoopbezoekers interpoleren met prijs op de verticale as en hoeveelheid op de horizontale as">
-      <line class="axis" x1="68" y1="220" x2="386" y2="220"></line>
-      <line class="axis" x1="68" y1="220" x2="68" y2="36"></line>
-      <line class="grid" x1="68" y1="164" x2="386" y2="164"></line>
-      <line class="grid" x1="68" y1="108" x2="386" y2="108"></line>
-      <text x="360" y="248">Q</text>
-      <text x="18" y="50">P</text>
-      <text x="40" y="64">EUR 1</text>
-      <text x="40" y="134">EUR 2</text>
-      <text x="40" y="204">EUR 3</text>
-      <text x="108" y="246">500</text>
-      <text x="228" y="246">300</text>
-      <text x="348" y="246">100</text>
-      <polyline class="curve" points="112,60 172,95 232,130 292,165 352,200"></polyline>
-      <circle class="point" cx="112" cy="60" r="5"></circle><circle class="point" cx="172" cy="95" r="5"></circle><circle class="point" cx="232" cy="130" r="5"></circle><text x="240" y="122">(300;2,00)</text><circle class="point" cx="292" cy="165" r="5"></circle><circle class="point" cx="352" cy="200" r="5"></circle>
-      <line class="guide" x1="68" y1="112" x2="262" y2="112"></line><line class="guide" x1="262" y1="112" x2="262" y2="220"></line><circle class="point" cx="262" cy="112" r="6"></circle><text x="78" y="104">EUR 1,75</text><text x="270" y="214">ongeveer 350</text>
-    </svg>
-    <p>Gebruik hulplijnen om een tussenliggende prijs af te lezen.</p>
+    <img src="_assets/1.1.3_ex_2.svg" alt="Bioscoopgrafiek met bezoekers op de horizontale as en prijs op de verticale as">
+    <p>Gebruik deze bron bij Opgave 3: EUR 9,00 hoort bij 500 bezoekers; EUR 11,00 ligt tussen EUR 10,00 en EUR 12,00 en hoort bij ongeveer 300 bezoekers.</p>
   </figure></div>
     <ol><li>Lees EUR 9,00 direct af.</li><li>EUR 11,00 ligt midden tussen EUR 10,00 en EUR 12,00.</li><li>Voor de procentuele verandering gebruik je de oude waarde als basis.</li></ol>
     <div class="callout"><strong>Controle:</strong> Bij EUR 9,00 komen 500 bezoekers. Bij EUR 11,00 ongeveer 300 bezoekers. Van 600 naar 200 is -66,7%.</div>
@@ -171,25 +141,28 @@
       <details class="lesson-card">
     <summary>Opgave 4 - Water en index</summary>
     <div class="guided-source"><figure class="visual-object" data-visual-id="guided_water_two_point">
-    <h3>Waterverkoop: twee punten</h3>
-    <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Waterverkoop: twee punten met prijs op de verticale as en hoeveelheid op de horizontale as">
+    <h3>Waterverkoop: twee punten en interpolatie</h3>
+    <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Waterverkoop met punten januari en juni en interpolatie bij EUR 1,00">
       <line class="axis" x1="68" y1="220" x2="386" y2="220"></line>
       <line class="axis" x1="68" y1="220" x2="68" y2="36"></line>
-      <line class="grid" x1="68" y1="164" x2="386" y2="164"></line>
-      <line class="grid" x1="68" y1="108" x2="386" y2="108"></line>
+      <line class="grid" x1="68" y1="188" x2="386" y2="188"></line>
+      <line class="grid" x1="68" y1="126" x2="386" y2="126"></line>
+      <line class="grid" x1="68" y1="64" x2="386" y2="64"></line>
       <text x="360" y="248">Q</text>
       <text x="18" y="50">P</text>
-      <text x="40" y="64">EUR 1</text>
-      <text x="40" y="134">EUR 2</text>
-      <text x="40" y="204">EUR 3</text>
-      <text x="108" y="246">500</text>
-      <text x="228" y="246">300</text>
-      <text x="348" y="246">100</text>
-      <polyline class="curve" points="112,60 172,95 232,130 292,165 352,200"></polyline>
-      <circle class="point" cx="112" cy="60" r="5"></circle><circle class="point" cx="172" cy="95" r="5"></circle><circle class="point" cx="232" cy="130" r="5"></circle><text x="240" y="122">(300;2,00)</text><circle class="point" cx="292" cy="165" r="5"></circle><circle class="point" cx="352" cy="200" r="5"></circle>
-      <line class="guide" x1="68" y1="112" x2="262" y2="112"></line><line class="guide" x1="262" y1="112" x2="262" y2="220"></line><circle class="point" cx="262" cy="112" r="6"></circle><text x="78" y="104">EUR 1,75</text><text x="270" y="214">ongeveer 350</text>
+      <text x="31" y="192">EUR 0,80</text>
+      <text x="31" y="130">EUR 1,00</text>
+      <text x="31" y="68">EUR 1,20</text>
+      <text x="142" y="246">350</text>
+      <text x="232" y="246">425</text>
+      <text x="322" y="246">500</text>
+      <polyline class="curve" points="328,188 148,64"></polyline>
+      <circle class="point" cx="328" cy="188" r="6"></circle><text x="230" y="181">(500; 0,80)</text>
+      <circle class="point" cx="148" cy="64" r="6"></circle><text x="156" y="57">(350; 1,20)</text>
+      <line class="guide" x1="68" y1="126" x2="238" y2="126"></line><line class="guide" x1="238" y1="126" x2="238" y2="220"></line>
+      <circle class="point" cx="238" cy="126" r="6"></circle><text x="246" y="119">EUR 1,00 -> 425</text>
     </svg>
-    <p>Twee punten geven genoeg steun om ongeveer af te lezen.</p>
+    <p>Deze visual hoort bij Opgave 4: januari 500 bij EUR 0,80, juni 350 bij EUR 1,20, en bij EUR 1,00 lees je ongeveer 425 flesjes af.</p>
   </figure></div>
     <ol><li>Teken de twee punten (500; 0,80) en (350; 1,20).</li><li>EUR 1,00 ligt midden tussen beide prijzen.</li><li>Gebruik januari als basis voor het indexcijfer.</li></ol>
     <div class="callout"><strong>Controle:</strong> Bij EUR 1,00 lees je 425 flesjes af. Index juni = 350 / 500 x 100 = 70. De daling is 30%, niet een derde.</div>
