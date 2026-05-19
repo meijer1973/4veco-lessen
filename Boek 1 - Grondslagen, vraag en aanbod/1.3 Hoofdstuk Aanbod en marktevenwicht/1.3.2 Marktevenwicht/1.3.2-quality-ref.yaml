@@ -1,0 +1,36 @@
+# Quality Reference - 1.3.2 Marktevenwicht
+paragraph: "1.3.2"
+title: "Marktevenwicht"
+chapter: "1.3 Aanbod en marktevenwicht"
+type: theory
+framework_version: "onderzoekskader 2021, bijgesteld 2025"
+standards_verified: "2026-05-19"
+target_exercise_status: "migrated_from_v4_needs_v5_review"
+cp6_quality_ready: false
+content:
+  paragraaf_md: true
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: true
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  build_pdf_py: true
+assets:
+  total_referenced: 6
+  total_present: 6
+  missing: []
+  orphaned: []
+  svgpng_paired: true
+  naming_compliant: true
+review:
+  file: "1.3.2-review.md"
+  unresolved_blockers: 0
+  verdict: "PASS WITH FLAGS"
+  flags:
+    - "Target exercise is migrated from v4 and still needs v5 final review."
+    - "Opgaven staan zowel in paragraaf.md als opgaven.md as current Part A pattern."
+l_cp6a:
+  status: "aligned_with_active_v5_with_flags"
+  migrated_from: "1.4.1 Marktevenwicht"
+  cp6_closed: false
+  year1_closed: false

@@ -1,0 +1,82 @@
+# === QUALITY REFERENCE ===
+# Generated: 2026-04-23
+# Paragraph: 1.3.1 Aanbod
+
+quality_ref:
+  paragraph: "1.3.1 Aanbod"
+  module: "Boek 1 - Grondslagen, vraag en aanbod"
+  chapter: "1.3 Aanbod en marktevenwicht"
+  niveau: "vwo"
+  generated: "2026-04-23"
+  framework_version: "onderzoekskader 2021, bijgesteld 2025"
+  standards_verified: "2026-04-12"
+
+  content_inventory:
+    type: "theory"
+    paragraaf_md: true
+    opgaven_md: true
+    antwoorden_md: true
+    html_present: true
+    pdf_present: true
+    review_status: "blocker: numerical graph-text mismatch in supply figures"
+
+  leerdoelen:
+    - id: L1
+      beschrijving: "De leerling onderscheidt een beweging langs de aanbodlijn van een verschuiving van de aanbodlijn."
+      bloom: "begrijpen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L2
+      beschrijving: "De leerling benoemt aanbodfactoren en voorspelt de richting van de aanbodverschuiving."
+      bloom: "toepassen"
+      gedekt_in: [paragraaf, opgaven, antwoorden]
+    - id: L3
+      beschrijving: "De leerling tekent en interpreteert aanbodlijnen met bewegingen en verschuivingen."
+      bloom: "toepassen"
+      gedekt_in: [opgaven, antwoorden]
+
+  componenten:
+    theorie:
+      aanwezig: true
+      doel: "Introduceert aanbodlijn, wet van het aanbod, aanbodfactoren en beweging-versus-verschuiving."
+      inspectie: [OP1, OP3]
+      didactiek: ["dual coding", "expliciet lesdoel", "misconcepties adresseren"]
+    uitgewerkt_voorbeeld:
+      aanwezig: true
+      doel: "Modelleert de procedure voor eigen prijs versus aanbodfactor."
+      inspectie: [OP3]
+      didactiek: ["worked examples", "scaffolding"]
+    opgaven:
+      aanwezig: true
+      doel: "Oefent grafieklezen, tekenen, interleaving en transfer."
+      inspectie: [OP3, OR1]
+      didactiek: ["fading", "retrieval practice", "Bloom-opbouw"]
+    antwoorden:
+      aanwezig: true
+      doel: "Geeft stapsgewijze modelantwoorden."
+      inspectie: [OP2, OP3]
+      didactiek: ["formatief evalueren"]
+
+  assets:
+    total_referenced: 9
+    total_present: 9
+    missing: []
+    orphaned:
+      - "1.3.1_ex_1.png"
+      - "1.3.1_ex_2.png"
+      - "1.3.1_fig_1.png"
+      - "1.3.1_fig_2.png"
+      - "1.3.1_fig_3.png"
+      - "1.3.1_fig_4.png"
+      - "1.3.1_fig_5.png"
+    svgpng_paired: true
+    naming_compliant: true
+
+  verantwoording:
+    differentiatie: "Startoefeningen hebben volledige visuele steun; latere opgaven vragen zelfstandig tekenen en transfer."
+    dual_coding: "Alle kernconcepten worden met tekst, grafiek of overzichtsschema ondersteund."
+    scaffolding_fading: "De oefenreeks loopt van grafiek lezen naar zelf tekenen en beoordelen."
+    voorkennis_aansluiting: "De paragraaf verwijst expliciet naar vraaglijnlogica uit §1.2.2."
+    formatief: "Antwoorden gebruiken een vaste procedure die leerlingen kunnen vergelijken met hun eigen aanpak."
+    veelgemaakte_fouten: "Het materiaal benoemt eigen-prijs versus aanbodfactor als centrale misconceptie."
+    lesdoel_zichtbaarheid: "Leerdoelen zijn in de opening verwerkt."
+    oefentijd: "Er zijn start-, zelfstandige, herhalings-, doel- en bonusopgaven."

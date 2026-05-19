@@ -1,12 +1,24 @@
 # Lesson Team Ticket L-CP6A: Book 1 Chapter 1.3 v5 Alignment Remediation
 
-Status: open
+Status: closed pass with flags
 
 Owner: lesson team
 
 Created: 2026-05-19
 
 Source handoff: platform `CP.6a Book 1 Chapter 1.3 Lesson-Side Alignment`
+
+Closure: 2026-05-19
+
+Closure evidence:
+
+- Sprint plan: `archive/sprints/L-CP6A/L-CP6A-sprint-plan.md`
+- Technical QA: `archive/sprints/L-CP6A/L-CP6A-technical-qa-report.md`
+- Closure log: `archive/sprints/L-CP6A/L-CP6A-closure-log.md`
+- Handoff: `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`
+
+The lesson-side mismatch is fixed with carried conditions. CP-6 and Year 1 are
+not closed by this ticket.
 
 ## Problem
 

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  
+<style>
+/* === Layout inspired by CITO VWO exam papers ===
+   Wide left margin, clean sans-serif, generous line spacing.
+   Domain colors retained for headings/blockquotes (textbook hierarchy). */
+
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;  /* top right bottom left — exam-like indented body */
+  @bottom-left   { content: "1.3.4 Gemengde opgaven"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages);  font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 10pt 0;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+/* h2 mimics the "Opgave 1 Zorgverzekering" heading: bold + thin underline */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+/* === DEFINITION / FORMULA / WARNING BOXES === */
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+
+/* === TABLES === (simple, exam-style, no colored header background) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 3pt 6pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 2pt 6pt;
+}
+
+tr:nth-child(even) td { background: #FAFBFC; }
+
+/* === FIGURES === */
+figure {
+  margin: 14pt 0;
+  break-inside: avoid;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #1a1a1a;
+  text-align: left;
+  margin-top: 6pt;
+}
+
+/* Bare images (not in figure) */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+p + figure, p + p > img { break-before: avoid; }
+
+/* === EXERCISES === */
+/* Allow exercises to break across pages to avoid whitespace,
+   but keep the "Opgave X" title with at least 2 lines of content. */
+.exercise {
+  margin-bottom: 14pt;
+  orphans: 2;
+  widows: 2;
+}
+
+.exercise > p:first-child {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.exercise p {
+  margin: 0 0 1pt 0;
+}
+
+/* === MISC === */
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #BBB;
+  margin: 18pt 0;
+}
+
+em { color: #444; }
+
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+ol[type="a"] { list-style-type: lower-alpha; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="gemengde-opgaven">1.3.4 Gemengde opgaven</h1>
+<p>In deze paragraaf oefen je met vraag, aanbod, marktevenwicht en
+verschuivingen. Er komt geen nieuwe theorie bij. Gebruik steeds dezelfde
+volgorde:</p>
+<ol type="1">
+<li>Lees eerst welke markt en welke periode bedoeld worden.</li>
+<li>Bepaal of je met vraag, aanbod of beide werkt.</li>
+<li>Kijk of de eigen prijs verandert of dat een andere factor
+verschuift.</li>
+<li>Bereken of teken het oude en nieuwe evenwicht.</li>
+<li>Controleer of je antwoord economisch logisch is.</li>
+</ol>
+</div><h2 id="opgave-1-de-markt-voor-schriften">Opgave 1: De markt voor
+schriften</h2>
+<p>Op de markt voor schriften gelden de volgende vergelijkingen:</p>
+<ul>
+<li>Vraag: Qv = -2P + 100</li>
+<li>Aanbod: Qa = 3P - 25</li>
+</ul>
+<p><strong>a.</strong> Bereken de evenwichtsprijs en de
+evenwichtshoeveelheid.</p>
+<p><strong>b.</strong> Controleer je antwoord door de prijs in beide
+vergelijkingen in te vullen.</p>
+<p><strong>c.</strong> Bij een prijs van EUR 30 ontstaat er geen
+evenwicht. Bereken of er een vraagoverschot of aanbodoverschot is en hoe
+groot dat overschot is.</p>
+<p><strong>d.</strong> Leg uit waarom de prijs in een vrije markt
+richting de evenwichtsprijs beweegt.</p>
+</div><h2 id="opgave-2-meer-vraag-naar-bioscoopkaartjes">Opgave 2: Meer vraag
+naar bioscoopkaartjes</h2>
+<p>Een bioscoop merkt dat jongeren na een populaire filmreeks vaker naar
+de bioscoop willen. De vraaglijn verschuift naar rechts. De aanbodlijn
+blijft gelijk.</p>
+<p><strong>a.</strong> Leg uit waarom dit een verschuiving van de
+vraaglijn is en geen beweging langs de vraaglijn.</p>
+<p><strong>b.</strong> Teken in een assenstelsel de oude vraaglijn, de
+nieuwe vraaglijn en dezelfde aanbodlijn.</p>
+<p><strong>c.</strong> Geef aan wat er waarschijnlijk gebeurt met de
+evenwichtsprijs.</p>
+<p><strong>d.</strong> Geef aan wat er waarschijnlijk gebeurt met de
+evenwichtshoeveelheid.</p>
+<p><strong>e.</strong> Formuleer je antwoord in een economische
+redenering van twee zinnen.</p>
+</div><h2 id="opgave-3-goedkopere-productie-van-zonnepanelen">Opgave 3:
+Goedkopere productie van zonnepanelen</h2>
+<p>Door een nieuwe techniek kunnen producenten zonnepanelen goedkoper
+maken. Bij elke prijs willen producenten meer panelen aanbieden.</p>
+<p><strong>a.</strong> Welke lijn verschuift: de vraaglijn of de
+aanbodlijn?</p>
+<p><strong>b.</strong> Verschuift deze lijn naar links of naar rechts?
+Leg uit.</p>
+<p><strong>c.</strong> Wat gebeurt er waarschijnlijk met de
+evenwichtsprijs?</p>
+<p><strong>d.</strong> Wat gebeurt er waarschijnlijk met de
+evenwichtshoeveelheid?</p>
+<p><strong>e.</strong> Leg uit waarom consumenten door deze verandering
+waarschijnlijk meer zonnepanelen kopen, ook al is hun voorkeur niet
+veranderd.</p>
+</div><h2 id="opgave-4-vraag-en-aanbod-verschuiven-tegelijk">Opgave 4: Vraag
+en aanbod verschuiven tegelijk</h2>
+<p>Op de markt voor elektrische fietsen gebeuren twee dingen
+tegelijk:</p>
+<ul>
+<li>Consumenten krijgen meer interesse in elektrische fietsen.</li>
+<li>De accu’s worden duurder voor producenten.</li>
+</ul>
+<p><strong>a.</strong> Leg uit welke verandering de vraaglijn
+verschuift.</p>
+<p><strong>b.</strong> Leg uit welke verandering de aanbodlijn
+verschuift.</p>
+<p><strong>c.</strong> Teken de richting van beide verschuivingen in een
+grafiek.</p>
+<p><strong>d.</strong> Is het effect op de evenwichtshoeveelheid zeker
+of onzeker? Leg uit.</p>
+<p><strong>e.</strong> Is het effect op de evenwichtsprijs zeker of
+onzeker? Leg uit.</p>
+</div><h2 id="opgave-5-doeloefening">Opgave 5: Doeloefening</h2>
+<p>Op de markt voor brood gelden eerst:</p>
+<ul>
+<li>Vraag: Qv = -4P + 120</li>
+<li>Aanbod: Qa = 6P - 30</li>
+</ul>
+<p>Daarna stijgen de kosten voor bakkers. De nieuwe aanbodvergelijking
+wordt:</p>
+<ul>
+<li>Nieuw aanbod: Qa = 6P - 60</li>
+</ul>
+<p><strong>a.</strong> Bereken de oude evenwichtsprijs en
+evenwichtshoeveelheid.</p>
+<p><strong>b.</strong> Bereken de nieuwe evenwichtsprijs en
+evenwichtshoeveelheid.</p>
+<p><strong>c.</strong> Leg met de aanbodfactoren uit waardoor de
+aanbodlijn is verschoven.</p>
+<p><strong>d.</strong> Vergelijk oud en nieuw: wat gebeurt er met de
+prijs en wat gebeurt er met de hoeveelheid?</p>
+<p><strong>e.</strong> Controleer of je antwoord logisch is: passen een
+hogere kostprijs, een hogere marktprijs en een lagere verkochte
+hoeveelheid bij elkaar?</p>
+</body>
+</html>

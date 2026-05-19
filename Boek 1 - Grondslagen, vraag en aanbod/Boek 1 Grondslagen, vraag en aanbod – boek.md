@@ -1981,7 +1981,7 @@ Geef voor elk van deze twee veranderingen apart aan of het een beweging langs of
 
 <div class="chapter-front">
 
-<h1>Hoofdstuk 3 - Aanbod en marktevenwicht</h1>
+<h1>Hoofdstuk 3 — Aanbod en marktevenwicht</h1>
 
 <h2>Inhoud</h2>
 
@@ -2357,6 +2357,7 @@ a) Leg met behulp van het verschil tussen aanbodfactoren uit hoe beide maatregel
 
 b) Een criticus stelt: "Maatregel A kost de overheid elk jaar geld. Maatregel B kost eenmalig geld, maar het effect is blijvend." Beoordeel deze stelling. Gebruik economische argumenten en betrek de begrippen 'productiekosten' en 'technologie' in je antwoord.
 
+
 <div style="break-before: page;"></div>
 
 # 1.3.2 Marktevenwicht
@@ -2386,11 +2387,11 @@ Stel dat op de markt voor schriften de volgende vergelijkingen gelden:
 
 We tekenen eerst de vraaglijn. Bij P = 0 is de gevraagde hoeveelheid Qv = 100 stuks (het x-snijpunt). Bij Qv = 0 is de prijs P = 50 (het y-snijpunt).
 
-![Figuur 1: De vraaglijn voor schriften](_assets/1.4.1_fig_1.svg)
+![Figuur 1: De vraaglijn voor schriften](_assets/1.3.2_fig_1.svg)
 
 Nu voegen we de aanbodlijn toe. De aanbodlijn begint bij P = 8⅓ (want bij Q = 0 geldt: 0 = 3P − 25, dus P = 25/3 ≈ 8,33). Hoe hoger de prijs, hoe meer schriften producenten willen aanbieden.
 
-![Figuur 2: Vraag en aanbod op de markt voor schriften](_assets/1.4.1_fig_2.svg)
+![Figuur 2: Vraag en aanbod op de markt voor schriften](_assets/1.3.2_fig_2.svg)
 
 ---
 
@@ -2432,7 +2433,7 @@ Qa = 3 × 25 − 25 = 75 − 25 = 50 ✓
 
 Beide geven Q = 50, dus het klopt. De evenwichtsprijs is **P* = EUR 25** en de evenwichtshoeveelheid is **Q* = 50 schriften**.
 
-![Figuur 3: Marktevenwicht (P* = 25, Q* = 50)](_assets/1.4.1_fig_3.svg)
+![Figuur 3: Marktevenwicht (P* = 25, Q* = 50)](_assets/1.3.2_fig_3.svg)
 
 > **⚠️ Let op — veelgemaakte fout**
 > Leerlingen vergeten vaak de controlestap. Als je P* maar in één vergelijking invult, merk je een rekenfout niet op. Vul P* altijd in **beide** vergelijkingen in en controleer dat je dezelfde Q* krijgt.
@@ -2469,7 +2470,7 @@ De volgende tabel laat het verband zien bij drie verschillende prijzen:
 
 Figuur 4 vat de kernbegrippen van het marktevenwicht in één beeld samen.
 
-![Figuur 4: Marktevenwicht — overzicht](_assets/1.4.1_fig_4.svg)
+![Figuur 4: Marktevenwicht — overzicht](_assets/1.3.2_fig_4.svg)
 
 ---
 
@@ -2511,7 +2512,7 @@ Beide vergelijkingen geven Q = 30, dus de berekening klopt.
 
 De vraaglijn loopt van (Q = 0, P = 30) naar (Q = 90, P = 0). De aanbodlijn begint bij (Q = 0, P = 5). Het evenwichtspunt E ligt op P* = 20, Q* = 30.
 
-![Uitgewerkt voorbeeld: markt voor pennen](_assets/1.4.1_we_1.svg)
+![Uitgewerkt voorbeeld: markt voor pennen](_assets/1.3.2_we_1.svg)
 
 **(d) Bij een prijs van EUR 25: is er een overschot of een tekort? Bereken de grootte.**
 
@@ -2559,6 +2560,8 @@ Aanbodoverschot = Qa − Qv = 40 − 15 = 25 pennen.
 
 **Opgave 1** *(invuloefening)*
 
+> Hint: gebruik de stappen uit het uitgewerkte voorbeeld: stel Qv = Qa, los P op en controleer daarna beide vergelijkingen.
+
 Op de markt voor schriften geldt: Qv = −2P + 100 en Qa = 3P − 25.
 
 a) Vul in: het evenwicht vind je door Qv ... Qa te stellen (=, >, <).
@@ -2572,6 +2575,8 @@ d) Controleer je antwoord door P* in de andere vergelijking in te vullen.
 
 **Opgave 2** *(oefenen met de procedure)*
 
+> Hint: gebruik de stappen uit het uitgewerkte voorbeeld: stel Qv = Qa, los P op en controleer daarna beide vergelijkingen.
+
 Op de markt voor potloden geldt:
 - Qv = −4P + 80
 - Qa = P − 5
@@ -2584,6 +2589,8 @@ c) Controleer je antwoord.
 
 
 **Opgave 3** *(overschot en tekort)*
+
+> Hint: bereken eerst Qv en Qa bij de gegeven prijs. Vergelijk daarna welke hoeveelheid groter is.
 
 Gebruik de vergelijkingen uit opgave 2 (Qv = −4P + 80, Qa = P − 5).
 
@@ -2609,7 +2616,7 @@ b) Controleer je antwoord door P* in beide vergelijkingen in te vullen.
 
 c) Teken de vraaglijn en de aanbodlijn in een grafiek en markeer het evenwichtspunt. *(Zie figuur 5 voor een leeg assenstelsel.)*
 
-![Figuur 5: Leeg assenstelsel voor opgave 4c](_assets/1.4.1_ex_1.svg)
+![Figuur 5: Leeg assenstelsel voor opgave 4c](_assets/1.3.2_ex_1.svg)
 
 d) Bij een prijs van EUR 30: is er een aanbodoverschot of een vraagoverschot? Bereken de grootte.
 
@@ -2658,7 +2665,7 @@ c) Wat gebeurt er met de evenwichtshoeveelheid? Leg uit.
 
 **Opgave 8** *(herhaling §1.2.2: vraagfactoren)*
 
-De markt voor elektrische fietsen is in evenwicht. De overheid kondigt aan dat ze een subsidie geeft op elektrische fietsen.
+De markt voor elektrische fietsen is in evenwicht. De overheid kondigt aan dat consumenten een aankoopsubsidie krijgen op elektrische fietsen.
 
 a) Is dit een verandering van de eigen prijs of van een andere factor?
 
@@ -2702,6 +2709,7 @@ c) Leg uit waarom de overheid een maximumprijs zou willen instellen, ondanks het
 
 d) Bedenk een maatregel waarmee de overheid het tekort kan verkleinen zonder de maximumprijs los te laten.
 
+
 <div style="break-before: page;"></div>
 
 # 1.3.3 Verschuivingen en nieuw evenwicht
@@ -2721,7 +2729,7 @@ In deze paragraaf leer je hoe je het **nieuwe evenwicht** berekent na een versch
 > **📋 Herhaling uit §1.3.2**
 > De evenwichtsprijs vind je door Qv = Qa te stellen en op te lossen naar P. Vul P* vervolgens in om Q* te vinden. Controleer altijd door P* in beide vergelijkingen in te vullen.
 
-> **📋 Herhaling uit §1.3.2**
+> **📋 Herhaling uit §1.3.1**
 > Productiekosten bepalen de positie van de aanbodlijn. Als de kosten per eenheid dalen (bijv. door efficiëntere productie), verschuift de aanbodlijn naar rechts: bij elke prijs bieden producenten meer aan.
 
 We beginnen met de bekende vergelijkingen van de schriftenmarkt:
@@ -2732,7 +2740,7 @@ We beginnen met de bekende vergelijkingen van de schriftenmarkt:
 
 De vraaglijn laat het verband zien tussen de prijs en de gevraagde hoeveelheid, **terwijl alle andere omstandigheden gelijk blijven** (ceteris paribus). De aanbodlijn laat hetzelfde verband zien voor de aangeboden hoeveelheid.
 
-![Figuur 1: De schriftenmarkt in evenwicht](_assets/1.4.2_fig_1.png)
+![Figuur 1: De schriftenmarkt in evenwicht](_assets/1.3.3_fig_1.png)
 
 ---
 
@@ -2775,7 +2783,7 @@ Het nieuwe evenwicht is **P*' = EUR 22, Q*' = 56 schriften**.
 
 Dit is logisch: meer aanbod → meer concurrentie tussen producenten → de prijs daalt. Omdat de prijs daalt, willen consumenten meer kopen → de hoeveelheid stijgt.
 
-![Figuur 2: Verschuiving van de aanbodlijn naar rechts](_assets/1.4.2_fig_2.png)
+![Figuur 2: Verschuiving van de aanbodlijn naar rechts](_assets/1.3.3_fig_2.png)
 
 ---
 
@@ -2816,7 +2824,7 @@ Het nieuwe evenwicht is **P*' = EUR 29, Q*' = 62 schriften**.
 
 Dit is logisch: meer vraag → consumenten bieden tegen elkaar op → de prijs stijgt. Omdat de prijs stijgt, willen producenten meer aanbieden → de hoeveelheid stijgt.
 
-![Figuur 3: Verschuiving van de vraaglijn naar rechts](_assets/1.4.2_fig_3.png)
+![Figuur 3: Verschuiving van de vraaglijn naar rechts](_assets/1.3.3_fig_3.png)
 
 > **⚠️ Let op — veelgemaakte fout**
 > Veel leerlingen verwarren een *verschuiving van* de vraaglijn met een *beweging langs* de vraaglijn. Een prijsverandering van het goed zelf → beweging LANGS de lijn (je schuift over de bestaande lijn naar een ander punt). Een verandering van inkomen, voorkeuren of andere factoren → verschuiving VAN de hele lijn (de lijn krijgt een nieuwe positie).
@@ -2838,7 +2846,7 @@ De volgende tabel vat de effecten samen:
 
 Figuur 4 vat de twee soorten verschuivingen in één beeld samen.
 
-![Figuur 4: Overzicht — verschuiving van A versus verschuiving van V](_assets/1.4.2_fig_4.png)
+![Figuur 4: Overzicht — verschuiving van A versus verschuiving van V](_assets/1.3.3_fig_4.png)
 
 ---
 
@@ -2884,7 +2892,7 @@ De **prijs** is onzeker: meer aanbod drukt de prijs omlaag, maar meer vraag duwt
 
 Figuur 5 vat alle verschuivingen en hun effecten in één overzicht samen.
 
-![Figuur 5: Verschuivingen en het effect op het evenwicht](_assets/1.4.2_fig_5.png)
+![Figuur 5: Verschuivingen en het effect op het evenwicht](_assets/1.3.3_fig_5.png)
 
 ---
 
@@ -2953,7 +2961,7 @@ Dit klopt met de vuistregel: aanbod naar rechts → prijs daalt, hoeveelheid sti
 
 **(d) Teken de verschuiving in een grafiek.**
 
-![Uitgewerkt voorbeeld: markt voor fietsbellen](_assets/1.4.2_we_1.png)
+![Uitgewerkt voorbeeld: markt voor fietsbellen](_assets/1.3.3_we_1.png)
 
 **De procedure samengevat:**
 
@@ -3025,7 +3033,7 @@ Prijs daalt (€30 → €26), hoeveelheid stijgt (30 → 34). Aanbod naar recht
 
 **(d) Teken de verschuiving in een grafiek.**
 
-![Uitgewerkt voorbeeld: markt voor fietsbellen](_assets/1.4.2_we_1.svg)
+![Uitgewerkt voorbeeld: markt voor fietsbellen](_assets/1.3.3_we_1.svg)
 
 ---
 
@@ -3112,11 +3120,11 @@ c) Het inkomen van scholieren stijgt. De nieuwe vraagvergelijking is Qv' = −2P
 
 d) Teken een grafiek waarin je beide verschuivingen (apart) laat zien met pijlen die de richting aangeven.
 
-![Opgave 5d: Verschuivingen in de schriftenmarkt](_assets/1.4.2_ex_1.svg)
+![Opgave 5d: Verschuivingen in de schriftenmarkt](_assets/1.3.3_ex_1.svg)
 
 e) Nu vinden BEIDE veranderingen tegelijk plaats: Qa' = 3P − 10 en Qv' = −2P + 120. Bereken het nieuwe evenwicht. Had je de richting van de prijsverandering kunnen voorspellen zonder te rekenen? Leg uit.
 
-![Opgave 5e: Beide verschuivingen tegelijk](_assets/1.4.2_ex_2.svg)
+![Opgave 5e: Beide verschuivingen tegelijk](_assets/1.3.3_ex_2.svg)
 
 ---
 
@@ -3134,9 +3142,12 @@ b) Controleer je antwoord door P* in beide vergelijkingen in te vullen.
 
 c) Bij een prijs van €25: is er een overschot of een tekort? Bereken de grootte.
 
+
+
+
 ### Doeloefening
 
-**Opgave 8** *(alles samen — twee markten)*
+**Opgave 7** *(alles samen — twee markten)*
 
 Op de markt voor vulpennen geldt:
 - Qv = −4P + 200
@@ -3150,13 +3161,13 @@ c) Vergelijk het oude en nieuwe evenwicht. Past de verandering bij de vuistregel
 
 d) Tegelijkertijd wordt inkt duurder, waardoor de aanbodvergelijking verandert in: Qa' = P − 20. Bereken het evenwicht als BEIDE veranderingen tegelijk optreden (Qv' = −4P + 240 en Qa' = P − 20).
 
-e) Vergelijk dit evenwicht met het oorspronkelijke. De hoeveelheid is ... (gestegen/gedaald/gelijk gebleven). De prijs is ... Leg uit waarom het prijseffect lastig te voorspellen was zonder te rekenen.
+e) Vergelijk dit evenwicht met het oorspronkelijke. De hoeveelheid is ... (gestegen/gedaald/gelijk gebleven). De prijs is ... Leg uit waarom het hoeveelheidseffect lastig te voorspellen was zonder te rekenen.
 
 ---
 
 ### Denkertje *(bonusopgave)*
 
-**Opgave 9**
+**Opgave 8**
 
 Op een markt geldt: Qv = −2P + 100 en Qa = 3P − 25 (P* = 25, Q* = 50).
 
@@ -3169,6 +3180,7 @@ b) Bereken het nieuwe evenwicht (P*' en Q*') als functie van k.
 c) Laat zien dat de evenwichtsprijs niet verandert, ongeacht de waarde van k. Leg economisch uit waarom dit zo is.
 
 d) Wat gebeurt er met de evenwichtshoeveelheid als k groter wordt?
+
 
 <div style="break-before: page;"></div>
 
@@ -3262,7 +3274,6 @@ Daarna stijgen de kosten voor bakkers. De nieuwe aanbodvergelijking wordt:
 **d.** Vergelijk oud en nieuw: wat gebeurt er met de prijs en wat gebeurt er met de hoeveelheid?
 
 **e.** Controleer of je antwoord logisch is: passen een hogere kostprijs, een hogere marktprijs en een lagere verkochte hoeveelheid bij elkaar?
-
 
 <!-- BOOK-CONTENT-END -->
 
