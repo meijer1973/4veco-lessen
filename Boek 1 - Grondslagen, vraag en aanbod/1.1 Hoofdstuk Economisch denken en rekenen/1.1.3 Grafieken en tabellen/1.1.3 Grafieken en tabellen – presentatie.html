@@ -36,22 +36,39 @@
         <article class="pv2-slide pv2-slide-choiceTensionCover" id="start" data-pv2-slide="1" aria-labelledby="start-title" >
           <div class="pv2-slide-canvas">
             <div class="pv2-slide-count">1 / 5</div>
-            <div class="pv2-cover-grid">
-            <div class="pv2-cover-copy">
-              <p class="pv2-eyebrow">Paragraaf 1.1.3</p>
-              <h2 id="start-title">Van tabel naar grafiek</h2>
-              <p class="pv2-thesis">Een ijskraam verkoopt bij lagere prijzen meer ijsjes.</p>
-              <p class="pv2-prompt">De tabel geeft de data; de grafiek laat het patroon zien.</p>
+            <div class="pv2-cover-grid pv2-cover-grid-visual">
+              <div class="pv2-cover-copy">
+                <p class="pv2-eyebrow">Paragraaf 1.1.3</p>
+                <h2 id="start-title">Van tabel naar grafiek</h2>
+                <p class="pv2-thesis">Een ijskraam verkoopt bij lagere prijzen meer ijsjes.</p>
+                <p class="pv2-prompt">De tabel geeft de data; de grafiek laat het patroon zien.</p>
+              </div>
+              <div class="pv2-cover-visual-stack">
+                <div class="pv2-visual-combo" data-visual-id="slide_start_table_graph">
+      <figure class="pv2-visual-panel" data-visual-id="slide_ice_table">
+      <figcaption>IJsjesverkoop</figcaption>
+      <table class="pv2-data-table">
+        <thead><tr><th>Prijs</th><th>Aantal verkocht</th></tr></thead>
+        <tbody>
+          <tr><td class="is-highlighted">EUR 1,00</td><td class="is-highlighted">500 ijsjes</td></tr><tr><td class="">EUR 1,50</td><td class="">400 ijsjes</td></tr><tr><td class="is-highlighted">EUR 2,00</td><td class="is-highlighted">300 ijsjes</td></tr><tr><td class="">EUR 2,50</td><td class="">200 ijsjes</td></tr><tr><td class="">EUR 3,00</td><td class="">100 ijsjes</td></tr>
+        </tbody>
+      </table>
+      <p>De geselecteerde waarden krijgen pas betekenis met label en eenheid.</p>
+    </figure><figure class="pv2-visual-panel" data-visual-id="slide_pq_graph">
+      <figcaption>P-Q-grafiek</figcaption>
+      <svg class="pv2-inline-graph" viewBox="0 0 420 250" role="img" aria-label="P-Q-grafiek met prijs verticaal en hoeveelheid horizontaal">
+        <line x1="58" y1="206" x2="374" y2="206"></line>
+        <line x1="58" y1="206" x2="58" y2="34"></line>
+        <text x="342" y="232">Q</text>
+        <text x="22" y="48">P</text>
+        <polyline points="330,62 275,94 220,126 165,158 110,190"></polyline>
+        <circle cx="330" cy="62" r="4"></circle><text x="336" y="56"></text><circle cx="275" cy="94" r="4"></circle><text x="281" y="88"></text><circle cx="220" cy="126" r="4"></circle><text x="226" y="120">(300;2,00)</text><circle cx="165" cy="158" r="4"></circle><text x="171" y="152"></text><circle cx="110" cy="190" r="4"></circle><text x="116" y="184"></text>
+      </svg>
+      <p>Prijs staat verticaal; hoeveelheid staat horizontaal.</p>
+    </figure>
+    </div>
+              </div>
             </div>
-            <div class="pv2-tension" aria-label="Budgetspanning">
-              <div class="pv2-metric"><span>lage prijs</span><strong>EUR 1,00</strong></div>
-              <div class="pv2-metric"><span>verkoop</span><strong>500</strong></div>
-              <div class="pv2-metric"><span>hoge prijs</span><strong>EUR 3,00 -&gt; 100</strong></div>
-            </div>
-          </div>
-          <div class="pv2-path-strip" aria-label="Keuzepaden">
-            <div class="pv2-path pv2-path-1"><span>tabel</span><strong>rijen en kolommen</strong></div><div class="pv2-path pv2-path-2"><span>grafiek</span><strong>verband in beeld</strong></div>
-          </div>
             <div class="pv2-sr-speaker-text" data-pv2-speaker-text>Begin met de concrete ijskraam. Laat leerlingen zien dat de tabel al informatie bevat, maar dat het verband pas snel zichtbaar wordt in de grafiek.
 
 Vandaag leren ze bronwaarden kiezen, de economie-assen gebruiken en kritisch naar grafieken kijken.</div>
@@ -66,8 +83,19 @@ Vandaag leren ze bronwaarden kiezen, de economie-assen gebruiken en kritisch naa
             <h2 id="tabelwaarden-title">Tabelwaarden</h2>
             <p>Gebruik deze route voordat je gaat rekenen met procenten of indexcijfers.</p>
           </div>
-          <ol class="pv2-route" aria-label="Tabelwaarden selecteren voor een berekening in vier stappen">
-            <li class="pv2-step pv2-accent-teal">
+          <div class="pv2-route-with-visual">
+            <figure class="pv2-visual-panel" data-visual-id="slide_ice_table">
+      <figcaption>IJsjesverkoop</figcaption>
+      <table class="pv2-data-table">
+        <thead><tr><th>Prijs</th><th>Aantal verkocht</th></tr></thead>
+        <tbody>
+          <tr><td class="is-highlighted">EUR 1,00</td><td class="is-highlighted">500 ijsjes</td></tr><tr><td class="">EUR 1,50</td><td class="">400 ijsjes</td></tr><tr><td class="is-highlighted">EUR 2,00</td><td class="is-highlighted">300 ijsjes</td></tr><tr><td class="">EUR 2,50</td><td class="">200 ijsjes</td></tr><tr><td class="">EUR 3,00</td><td class="">100 ijsjes</td></tr>
+        </tbody>
+      </table>
+      <p>De geselecteerde waarden krijgen pas betekenis met label en eenheid.</p>
+    </figure>
+            <ol class="pv2-route" aria-label="Tabelwaarden selecteren voor een berekening in vier stappen">
+              <li class="pv2-step pv2-accent-teal">
             <span>01</span>
             <strong>Lees de vraag</strong>
             <em>Welke rij, kolom of periode is nodig?</em>
@@ -84,7 +112,8 @@ Vandaag leren ze bronwaarden kiezen, de economie-assen gebruiken en kritisch naa
             <strong>Label je waarden</strong>
             <em>Schrijf bijvoorbeeld oud = 500 ijsjes.</em>
           </li>
-          </ol>
+            </ol>
+          </div>
           <p class="pv2-example">Gebruik deze route voordat je gaat rekenen met procenten of indexcijfers.</p>
             <div class="pv2-sr-speaker-text" data-pv2-speaker-text>Dit is de belangrijkste broncontrole. Leerlingen moeten leren dat het getal pas betekenis heeft met label en eenheid.
 
@@ -100,8 +129,21 @@ Gebruik de gewone leerlingnaam: tabelwaarden selecteren voor een berekening.</di
             <h2 id="assen-title">Assen</h2>
             <p>In economie staat P op de verticale as en Q op de horizontale as.</p>
           </div>
-          <ol class="pv2-route" aria-label="Grafiek tekenen van tabeldata">
-            <li class="pv2-step pv2-accent-teal">
+          <div class="pv2-route-with-visual">
+            <figure class="pv2-visual-panel" data-visual-id="slide_pq_graph">
+      <figcaption>P-Q-grafiek</figcaption>
+      <svg class="pv2-inline-graph" viewBox="0 0 420 250" role="img" aria-label="P-Q-grafiek met prijs verticaal en hoeveelheid horizontaal">
+        <line x1="58" y1="206" x2="374" y2="206"></line>
+        <line x1="58" y1="206" x2="58" y2="34"></line>
+        <text x="342" y="232">Q</text>
+        <text x="22" y="48">P</text>
+        <polyline points="330,62 275,94 220,126 165,158 110,190"></polyline>
+        <circle cx="330" cy="62" r="4"></circle><text x="336" y="56"></text><circle cx="275" cy="94" r="4"></circle><text x="281" y="88"></text><circle cx="220" cy="126" r="4"></circle><text x="226" y="120">(300;2,00)</text><circle cx="165" cy="158" r="4"></circle><text x="171" y="152"></text><circle cx="110" cy="190" r="4"></circle><text x="116" y="184"></text>
+      </svg>
+      <p>Prijs staat verticaal; hoeveelheid staat horizontaal.</p>
+    </figure>
+            <ol class="pv2-route" aria-label="Grafiek tekenen van tabeldata">
+              <li class="pv2-step pv2-accent-teal">
             <span>01</span>
             <strong>Bepaal variabelen</strong>
             <em>Prijs en hoeveelheid.</em>
@@ -118,7 +160,8 @@ Gebruik de gewone leerlingnaam: tabelwaarden selecteren voor een berekening.</di
             <strong>Zet punten uit</strong>
             <em>Verbind ze passend.</em>
           </li>
-          </ol>
+            </ol>
+          </div>
           <p class="pv2-example">In economie staat P op de verticale as en Q op de horizontale as.</p>
             <div class="pv2-sr-speaker-text" data-pv2-speaker-text>Dit is de dia waarop je de economie-conventie stevig neerzet. Laat leerlingen een punt als (Q; P) uitspreken.
 
@@ -134,8 +177,22 @@ De valkuil is dat leerlingen vanuit wiskunde automatisch prijs horizontaal zette
             <h2 id="aflezen-title">Aflezen</h2>
             <p>Interpoleren is schatten tussen bekende punten.</p>
           </div>
-          <ol class="pv2-route" aria-label="Waarden aflezen en interpoleren">
-            <li class="pv2-step pv2-accent-teal">
+          <div class="pv2-route-with-visual">
+            <figure class="pv2-visual-panel" data-visual-id="slide_interpolation_graph">
+      <figcaption>Interpoleren bij EUR 1,75</figcaption>
+      <svg class="pv2-inline-graph" viewBox="0 0 420 250" role="img" aria-label="P-Q-grafiek met prijs verticaal en hoeveelheid horizontaal">
+        <line x1="58" y1="206" x2="374" y2="206"></line>
+        <line x1="58" y1="206" x2="58" y2="34"></line>
+        <text x="342" y="232">Q</text>
+        <text x="22" y="48">P</text>
+        <polyline points="330,62 275,94 220,126 165,158 110,190"></polyline>
+        <circle cx="330" cy="62" r="4"></circle><text x="336" y="56"></text><circle cx="275" cy="94" r="4"></circle><text x="281" y="88"></text><circle cx="220" cy="126" r="4"></circle><text x="226" y="120">(300;2,00)</text><circle cx="165" cy="158" r="4"></circle><text x="171" y="152"></text><circle cx="110" cy="190" r="4"></circle><text x="116" y="184"></text>
+        <line class="guide" x1="248" y1="112" x2="248" y2="206"></line><line class="guide" x1="58" y1="112" x2="248" y2="112"></line><text x="256" y="198">Q ~ 350</text><text x="66" y="104">EUR 1,75</text>
+      </svg>
+      <p>Hulplijnen maken de schatting controleerbaar.</p>
+    </figure>
+            <ol class="pv2-route" aria-label="Waarden aflezen en interpoleren">
+              <li class="pv2-step pv2-accent-teal">
             <span>01</span>
             <strong>Lees titel en assen</strong>
             <em>Wat meet de grafiek?</em>
@@ -152,7 +209,8 @@ De valkuil is dat leerlingen vanuit wiskunde automatisch prijs horizontaal zette
             <strong>Schat netjes</strong>
             <em>Tussen 400 en 300 ligt ongeveer 350.</em>
           </li>
-          </ol>
+            </ol>
+          </div>
           <p class="pv2-example">Interpoleren is schatten tussen bekende punten.</p>
             <div class="pv2-sr-speaker-text" data-pv2-speaker-text>Maak duidelijk dat interpoleren een beredeneerde schatting is. Het ligt tussen twee bekende punten en gebruikt de schaal van de grafiek.</div>
           </div>
@@ -166,8 +224,16 @@ De valkuil is dat leerlingen vanuit wiskunde automatisch prijs horizontaal zette
             <h2 id="kritisch-title">Kijk naar de schaal</h2>
             <p>Een verschil kan groter lijken door de askeuze.</p>
           </div>
-          <ol class="pv2-route" aria-label="Grafiekclaim controleren in vier checks">
-            <li class="pv2-step pv2-accent-teal">
+          <div class="pv2-route-with-visual">
+            <figure class="pv2-visual-panel" data-visual-id="slide_misleading_axis_comparison">
+      <figcaption>Zelfde data, andere schaal</figcaption>
+      <div class="pv2-axis-compare">
+        <section><strong>Y-as vanaf 0</strong><div class="pv2-mini-bar"><span>Week 1</span><i style="height:96%"></i><b>520</b></div><div class="pv2-mini-bar"><span>Week 2</span><i style="height:92%"></i><b>500</b></div></section><section><strong>Y-as vanaf 490</strong><div class="pv2-mini-bar"><span>Week 1</span><i style="height:96%"></i><b>520</b></div><div class="pv2-mini-bar"><span>Week 2</span><i style="height:34%"></i><b>500</b></div></section>
+      </div>
+      <p>De ingezoomde as maakt dezelfde daling dramatischer.</p>
+    </figure>
+            <ol class="pv2-route" aria-label="Grafiekclaim controleren in vier checks">
+              <li class="pv2-step pv2-accent-teal">
             <span>01</span>
             <strong>Lees de kop</strong>
             <em>Wat beweert de tekst?</em>
@@ -184,7 +250,8 @@ De valkuil is dat leerlingen vanuit wiskunde automatisch prijs horizontaal zette
             <strong>Check basis</strong>
             <em>Past het percentage bij die basis?</em>
           </li>
-          </ol>
+            </ol>
+          </div>
           <p class="pv2-example">Een ingezoomde as kan een kleine daling dramatisch maken.</p>
             <div class="pv2-sr-speaker-text" data-pv2-speaker-text>Hier komt de kritische datahouding binnen. Grafieken zijn niet verdacht, maar je moet wel weten welke keuzes het beeld sturen.
 

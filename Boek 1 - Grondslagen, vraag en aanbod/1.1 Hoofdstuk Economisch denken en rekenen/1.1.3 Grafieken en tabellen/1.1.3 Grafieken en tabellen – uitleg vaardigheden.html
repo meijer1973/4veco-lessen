@@ -34,12 +34,30 @@
     .formula{font-family:var(--mono);background:var(--bg-lift);border-radius:8px;padding:12px;overflow:auto}
     .callout{border-left:5px solid var(--accent);background:var(--accent-soft);padding:14px 16px;border-radius:8px}
     .warning{border-left-color:var(--letop-ink);background:var(--letop-bg)}
+    .dual-card{display:grid;grid-template-columns:minmax(280px,.95fr) minmax(0,1.05fr);gap:16px;align-items:start}
+    .visual-object{border:1px solid var(--border);border-radius:8px;padding:12px;background:var(--bg);min-width:0}
+    .visual-object h3{margin:0 0 8px;font-size:1rem}
+    .visual-object p{margin:8px 0 0;color:var(--ink-soft);font-size:.92rem;line-height:1.45}
+    .source-table td.is-highlighted,.source-table th.is-highlighted{background:color-mix(in oklab,var(--accent) 22%,var(--bg-lift));font-weight:900}
+    .inline-graph{display:block;width:100%;height:auto;max-height:300px}
+    .inline-graph .axis{stroke:var(--ink);stroke-width:2}
+    .inline-graph .grid{stroke:var(--border);stroke-width:1}
+    .inline-graph .curve{fill:none;stroke:var(--accent);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+    .inline-graph .guide{stroke:var(--letop-ink);stroke-width:2;stroke-dasharray:6 5}
+    .inline-graph .point{fill:var(--economisch);stroke:var(--bg-card);stroke-width:2}
+    .inline-graph text{fill:var(--ink-soft);font:700 13px system-ui,sans-serif}
+    .axis-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .axis-panel{border:1px solid var(--border);border-radius:8px;padding:10px;background:var(--bg)}
+    .axis-bars{height:150px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:end;border-left:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:10px 10px 0;margin-top:8px}
+    .axis-bar{display:grid;align-items:end;justify-items:center;gap:4px;height:100%;font-size:.8rem;font-weight:800;color:var(--ink-soft)}
+    .axis-bar span:nth-child(2){width:46px;border-radius:6px 6px 0 0;background:var(--accent);display:block}
+    .guided-source{margin-top:12px}
     .mini-chart{display:grid;gap:10px}
     .bar-row{display:grid;grid-template-columns:96px 1fr 62px;gap:10px;align-items:center}
     .bar-track{height:18px;border-radius:999px;background:color-mix(in oklab,var(--accent) 14%,var(--bg-lift));overflow:hidden}
     .bar-fill{height:100%;border-radius:999px;background:var(--accent)}
     details.lesson-card summary{cursor:pointer;font-weight:800}
-    @media(max-width:980px){.content-grid{grid-template-columns:1fr}.side-note{position:static}.triple-grid,.card-grid{grid-template-columns:1fr}}
+    @media(max-width:980px){.content-grid{grid-template-columns:1fr}.side-note{position:static}.triple-grid,.card-grid,.dual-card,.axis-compare{grid-template-columns:1fr}}
   </style>
 </head>
 <body data-accent-domain="grafisch">
@@ -65,34 +83,101 @@
       <section class="main-flow">
         <article class="lesson-card">
           <h2>Tabelwaarden selecteren voor een berekening</h2>
-          <ol class="step-list">
+          <div class="dual-card"><figure class="visual-object" data-visual-id="ice_table">
+    <h3>IJsjesverkoop: brongegevens</h3>
+    <table class="data-table source-table">
+      <thead><tr><th class="is-highlighted">Prijs per ijsje</th><th class="is-highlighted">Aantal verkocht</th></tr></thead>
+      <tbody>
+        <tr><td class="is-highlighted">EUR 1,00</td><td class="is-highlighted">500 ijsjes</td></tr><tr><td class="">EUR 1,50</td><td class="">400 ijsjes</td></tr><tr><td class="is-highlighted">EUR 2,00</td><td class="is-highlighted">300 ijsjes</td></tr><tr><td class="">EUR 2,50</td><td class="">200 ijsjes</td></tr><tr><td class="">EUR 3,00</td><td class="">100 ijsjes</td></tr>
+      </tbody>
+    </table>
+    <p>Lees eerst kop, rij en eenheid. Pas daarna kies je waarden voor een berekening.</p>
+  </figure><div><ol class="step-list">
             <li><strong>Lees de vraag.</strong> Bepaal welke grootheid, periode, rij of kolom nodig is.</li>
             <li><strong>Controleer de bron.</strong> Kijk naar tabelkop, rijlabel, kolomlabel en eenheid.</li>
             <li><strong>Selecteer de waarden.</strong> Kies de oude waarde, nieuwe waarde of gevraagde waarde voordat je rekent.</li>
             <li><strong>Label je waarden.</strong> Noteer bijvoorbeeld: oud = 500 ijsjes, nieuw = 300 ijsjes.</li>
-          </ol>
+          </ol></div></div>
         </article>
         <article class="lesson-card">
           <h2>Grafiek tekenen van tabeldata</h2>
-          <ol class="step-list">
+          <div class="dual-card"><figure class="visual-object" data-visual-id="vaardigheden_pq_graph">
+    <h3>Tabelpunten als P-Q-grafiek</h3>
+    <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Tabelpunten als P-Q-grafiek met prijs op de verticale as en hoeveelheid op de horizontale as">
+      <line class="axis" x1="68" y1="220" x2="386" y2="220"></line>
+      <line class="axis" x1="68" y1="220" x2="68" y2="36"></line>
+      <line class="grid" x1="68" y1="164" x2="386" y2="164"></line>
+      <line class="grid" x1="68" y1="108" x2="386" y2="108"></line>
+      <text x="360" y="248">Q</text>
+      <text x="18" y="50">P</text>
+      <text x="40" y="64">EUR 1</text>
+      <text x="40" y="134">EUR 2</text>
+      <text x="40" y="204">EUR 3</text>
+      <text x="108" y="246">500</text>
+      <text x="228" y="246">300</text>
+      <text x="348" y="246">100</text>
+      <polyline class="curve" points="112,60 172,95 232,130 292,165 352,200"></polyline>
+      <circle class="point" cx="112" cy="60" r="5"></circle><circle class="point" cx="172" cy="95" r="5"></circle><circle class="point" cx="232" cy="130" r="5"></circle><text x="240" y="122">(300;2,00)</text><circle class="point" cx="292" cy="165" r="5"></circle><circle class="point" cx="352" cy="200" r="5"></circle>
+    </svg>
+    <p>Prijs staat verticaal; hoeveelheid staat horizontaal.</p>
+  </figure><div><ol class="step-list">
             <li>Bepaal welke variabelen in de tabel staan.</li>
             <li>Zet in economie de prijs op de verticale as en hoeveelheid op de horizontale as.</li>
             <li>Kies een schaalverdeling die alle punten netjes laat passen.</li>
             <li>Zet de punten uit en verbind ze passend.</li>
-          </ol>
+          </ol></div></div>
         </article>
         <article class="lesson-card">
           <h2>Waarden aflezen en interpoleren</h2>
-          <ol class="step-list">
+          <div class="dual-card"><figure class="visual-object" data-visual-id="vaardigheden_interpolation_graph">
+    <h3>Interpoleren bij EUR 1,75</h3>
+    <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Interpoleren bij EUR 1,75 met prijs op de verticale as en hoeveelheid op de horizontale as">
+      <line class="axis" x1="68" y1="220" x2="386" y2="220"></line>
+      <line class="axis" x1="68" y1="220" x2="68" y2="36"></line>
+      <line class="grid" x1="68" y1="164" x2="386" y2="164"></line>
+      <line class="grid" x1="68" y1="108" x2="386" y2="108"></line>
+      <text x="360" y="248">Q</text>
+      <text x="18" y="50">P</text>
+      <text x="40" y="64">EUR 1</text>
+      <text x="40" y="134">EUR 2</text>
+      <text x="40" y="204">EUR 3</text>
+      <text x="108" y="246">500</text>
+      <text x="228" y="246">300</text>
+      <text x="348" y="246">100</text>
+      <polyline class="curve" points="112,60 172,95 232,130 292,165 352,200"></polyline>
+      <circle class="point" cx="112" cy="60" r="5"></circle><circle class="point" cx="172" cy="95" r="5"></circle><circle class="point" cx="232" cy="130" r="5"></circle><text x="240" y="122">(300;2,00)</text><circle class="point" cx="292" cy="165" r="5"></circle><circle class="point" cx="352" cy="200" r="5"></circle>
+      <line class="guide" x1="68" y1="112" x2="262" y2="112"></line><line class="guide" x1="262" y1="112" x2="262" y2="220"></line><circle class="point" cx="262" cy="112" r="6"></circle><text x="78" y="104">EUR 1,75</text><text x="270" y="214">ongeveer 350</text>
+    </svg>
+    <p>Gebruik hulplijnen: van prijs naar grafiek, daarna naar hoeveelheid.</p>
+  </figure><div><ol class="step-list">
             <li>Lees titel, assen en eenheden.</li>
             <li>Zoek de gevraagde waarde op de juiste as.</li>
             <li>Lees de bijbehorende waarde op de andere as.</li>
             <li>Schat tussen twee bekende punten als de waarde niet exact in de tabel staat.</li>
-          </ol>
+          </ol></div></div>
         </article>
         <article class="lesson-card warning">
           <h2>Valkuil</h2>
-          <p>Een grafiek kan een verschil groter laten lijken door de as niet bij nul te laten beginnen. Kijk daarom altijd naar de schaal voordat je een conclusie trekt.</p>
+          <div class="dual-card"><figure class="visual-object" data-visual-id="misleading_axis_comparison">
+    <h3>Zelfde data, andere schaal</h3>
+    <div class="axis-compare">
+      <section class="axis-panel">
+        <strong>Y-as vanaf 0</strong>
+        <div class="axis-bars">
+          <div class="axis-bar"><span>Week 1</span><span style="height:96%"></span><b>520</b></div>
+          <div class="axis-bar"><span>Week 2</span><span style="height:92%"></span><b>500</b></div>
+        </div>
+      </section>
+      <section class="axis-panel">
+        <strong>Y-as vanaf 490</strong>
+        <div class="axis-bars">
+          <div class="axis-bar"><span>Week 1</span><span style="height:96%"></span><b>520</b></div>
+          <div class="axis-bar"><span>Week 2</span><span style="height:34%"></span><b>500</b></div>
+        </div>
+      </section>
+    </div>
+    <p>De waarden zijn gelijk, maar de ingezoomde as maakt het verschil groter.</p>
+  </figure><div><p>Een grafiek kan een verschil groter laten lijken door de as niet bij nul te laten beginnen. Kijk daarom altijd naar de schaal voordat je een conclusie trekt.</p></div></div>
         </article>
       </section>
       <aside class="side-note">

@@ -1,7 +1,7 @@
 # Paragraph Plan - 1.1.3 Grafieken en tabellen
 
-Generated: 2026-05-18
-Sprint: L1.6 Second Pipeline Regression Paragraph
+Generated: 2026-05-19
+Sprint: L1.6R Dual-Coding Remediation
 Profile: student-web, no default Word exports
 
 ## Learning Goals
@@ -69,6 +69,35 @@ language; no internal unit code or PV label is shown.
 - Nieuwsvisual: askeuze en afgesneden assen als bron van misleiding.
 - Grafiekenspel: dezelfde tabel/grafiekvaardigheden als interactieve oefenroute.
 
+## Dual-Coding Contract
+
+Required learning objects:
+
+- ice_table:
+  - type: table
+  - must appear in: uitleg vaardigheden, presentatie, begeleide inoefening
+  - semantic anchors: prijs per ijsje, aantal verkocht, EUR 1,00, EUR 2,00,
+    500 ijsjes, 300 ijsjes
+- pq_graph:
+  - type: graph
+  - must appear in: uitleg voorkennis, uitleg vaardigheden, presentatie,
+    samenvatting
+  - semantic anchors: P vertical, Q horizontal, (300; 2,00)
+- interpolation_graph:
+  - type: graph
+  - must appear in: uitleg vaardigheden, presentatie, begeleide inoefening
+  - semantic anchors: EUR 1,75, ongeveer 350, guide lines
+- misleading_axis_comparison:
+  - type: graph_pair
+  - must appear in: uitleg vaardigheden, presentatie, nieuws met visual,
+    samenvatting, begeleide inoefening
+  - semantic anchors: y-axis from 0, y-axis from 490, same data different scale
+
+Closure rule:
+
+For this paragraph, a procedure route without the required visual learning
+object is a companion hard fail, even if procedure-contract validation passes.
+
 ## Terminologie
 
 - tabelkop, rijlabel, kolomlabel en eenheid
@@ -101,5 +130,7 @@ sprint does not mark it final-reviewed.
 - Part A publisher-print validator remains green.
 - Graphical-game data validates and renders on desktop/mobile in light/dark.
 - Procedure-contract validator passes, including the 1.1.3 table-value route.
+- Semantic visual QA confirms required graph/table learning objects are present
+  in the generated companion surfaces.
 - No student-facing internal code or blocked-use claim appears.
 - Student-experience and teacher-learning-quality review records exist before closure.

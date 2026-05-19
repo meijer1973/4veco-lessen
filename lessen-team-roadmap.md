@@ -4,34 +4,40 @@
 
 The currently-active sprint sits at the top. Future sprints follow in sequence.
 Closed sprints are recorded separately in the "Closed Sprints" section below.
+Sprint plans, review records, QA reports, closure logs, and screenshot evidence
+for closed work live under `archive/sprints/<sprint-id>/`.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.6 | Second Pipeline Regression Paragraph | **2026-05-18** | **CLOSED PASS WITH FLAGS.** Sprint plan: `L1.6-sprint-plan.md`; review packet: `L1.6-human-review-packet.md`; QA: `L1.6-technical-qa-report.md`; review records: `L1.6-student-experience-review.md`, `L1.6-teacher-learning-quality-review.md`, `L1.6-human-review-record.md`, `L1.6-lead-review-summary.md`; closure log: `L1.6-closure-log.md`. Initial human review returned REVISE because the `1.1.3` graphical-game P-Q line chart ordered quantity labels backwards left-to-right, and because one presentation speaker note used meta/internal-code wording. Platform source fixed both issues, regenerated generated lesson output, and `1.1.3-quality-ref.yaml` now records `pass_with_flags`. Focused re-review accepted the correction and closed L1.6 as PASS WITH FLAGS. Green gates: deploy link/data checks, focused graphical/adaptive Jest 30/30, `1.1.3` complete student-web validation, `1.1.3` publisher-print Part A validation, procedure-contract validator 341 checks, Book 1 health 26/26, full platform Jest 510 passed / 8 skipped, presentation-v2 screenshot QA, and landing/game desktop/mobile light/dark screenshot QA. Flags: graphical MVP is still scaffolded; harder graph-reading variants remain later work; `1.1.3` v5 target exercise remains migrated/not final-reviewed; existing Part A flags remain non-blocking; PV-G4 boundaries remain active. |
-| L1.5Q | Course Blueprint v5 + Four Test-Week Book Plan | **2026-05-18** | **CLOSED PASS WITH FLAGS.** Created the active v5 curriculum-source baseline for the four-book/four-test-week model. Active target-exercise registry now points to v5 with 54 count-bearing records and exact counts 12/12/14/16; v4 registry is archived, v4 blueprint/meta are superseded, v5 owned blueprint/meta exist, v5 validator checks counts, web-only test-prep, placeholder semantics, and blueprint anchors. Phase B upgraded `course_blueprint_v5.md` from scaffold to curriculum-source prose and closed with regenerated owned-source, owned-content, source-document, inventory, and URL-index artifacts. Flags: migrated target exercises and gemengde-opgaven placeholders are not reviewed final; L2.4-TEA remains the later target-exercise distribution audit. Log: `L1.5Q-closure-log.md`. |
-| L1.5P | Boek 1 Print-Edition Cut + 2026/27 12-Paragraph Scope | **2026-05-18** | **CLOSED PASS AFTER LEAD-REVIEW CORRECTION.** Printed Book 1 is generated through the platform book workflow from a 12-paragraph print manifest: chapters 1.1 and 1.2 plus a composed print chapter 1.3 (`Aanbod en marktevenwicht`). Test preparation is website-only; cost/revenue/marginal-analysis material remains online/parked for later migration. Independent lead review found duplicate opgaven and excluded body/glossary leakage after the first close; corrections are now platform-owned and regenerated. Green gates: strengthened print-scope checker 12/12, `check:book` 26/26, focused print-scope Jest 5/5, full platform Jest 502 passed / 8 skipped, markdown/PDF excluded-term scans clean, PDF generated. Logs: `L1.5P-sprint-plan.md`, `L1.5P-cut-survival-map.md`, `L1.5P-closure-log.md`, `L1.5P-lead-review-record.md`. |
-| L1.7 | Post-Layout Scaling Decision | no | After L1.6. Decide whether to expand broadly once L1.3A-C through L1.5G have proven the layout, web-doc, game, and PV proof pipelines survive independent paragraph builds; include PV readiness in the scaling decision. L1.7 may log visible target-exercise red flags but does not perform the full target-exercise distribution audit. |
+| L1.6R | 1.1.3 Dual-Coding Remediation | no | **TECHNICAL QA PASS / READY FOR HUMAN REVIEW, NOT CLOSED.** Post-closure review found a systemic dual-coding failure in the `1.1.3 Grafieken en tabellen` companion layer: the procedure and technical gates passed, but the main presentation, vaardigheden page, and guided-practice surfaces did not consistently show the table/graph objects students must reason from. Platform-owned remediation is now generated into lesson output: `uitleg vaardigheden`, `begeleide inoefening`, presentation HTML/PPTX, voorkennis, samenvatting, and nieuws met visual now include concrete required visual objects. Green gates: deploy link/data checks, focused L1.6R dual-coding Jest, presentation-v2 screenshot QA, rich-page screenshot QA, complete student-web validation, publisher-print Part A validation, procedure-contract validator 341 checks, Book 1 health 26/26, and full platform Jest 514 passed / 8 skipped. Human-review packet: `L1.6R-human-review-packet.md`; QA: `L1.6R-technical-qa-report.md`, `L1.6R-semantic-visual-qa-report.md`; screenshots: `L1.6R-screenshots/`. Broad scaling remains blocked until human review closes L1.6R and L1.7A makes an explicit readiness decision. |
+| SYNC-1 | Roadmap Reconciliation | **2026-05-18** | **CLOSED PASS.** Log: `archive/sprints/SYNC-1/SYNC-1-roadmap-reconciliation-log.md`. Joint roadmap sync after L1.5P/L1.5Q/L1.6. Lesson and reference roadmaps now agree that broad lesson scaling is not approved yet. Coming-period focus is foundation hardening: reconcile roadmap state, normalize the rough three-year blueprint as a non-authoritative planning prototype, classify MTU/target-exercise gaps, triage lesson-side flags, and decide controlled production only through a later Scale Gate. |
+| L1.7A | Scaling Readiness And Modality Gate Review | no | **NEXT AFTER L1.6R / FOUNDATION-HARDENING DECISION SPRINT.** Replaces the old `L1.7 Post-Layout Scaling Decision` framing. Do not treat L1.6 as broad-scaling approval. L1.7A may start only after the `1.1.3` dual-coding incident is either remediated or explicitly accepted as still blocking scale. Build a readiness matrix for Part A, landing pages, procedure contracts, semantic visual adequacy, presentation-v2, begeleide inoefening, graphical game, inert adaptive seam, target exercises, and PV/A61 boundaries. Classify flags as fix-now / carry-forward / defer. Expected decision: controlled next-step production may continue only if modality gates stay explicit; broad paragraph scaling remains paused until quality gates are cleaner. |
+| L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | no | **FUTURE CLEANUP SPRINT BEFORE BROAD SCALING.** Clean easy visible flags and define the Book 1 student-web house-style baseline from `1.1.1` through `1.1.3`: figure numbering, duplicated worked-example policy, consistent quality-ref status language, operational meaning of PASS WITH FLAGS, and house-style notes for landing, presentation, guided practice, procedure contracts, and graphical MVP limits. No new features. |
+| Scale Gate 1 | Foundation Hardening Scale Gate | no | **FUTURE JOINT DECISION.** After L1.7A, L2.0, REF-CT0/REF-CT1, and minimal curriculum-versioning readiness, decide controlled production versus more reference hardening. No adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion may be authorized by this gate. |
+| L1.6 | Second Pipeline Regression Paragraph | **2026-05-18** | **CLOSED AS TECHNICAL PROOF; COMPANION QUALITY REOPENED BY L1.6R.** Sprint plan: `archive/sprints/L1.6/L1.6-sprint-plan.md`; review packet: `archive/sprints/L1.6/L1.6-human-review-packet.md`; QA: `archive/sprints/L1.6/L1.6-technical-qa-report.md`; review records: `archive/sprints/L1.6/L1.6-student-experience-review.md`, `archive/sprints/L1.6/L1.6-teacher-learning-quality-review.md`, `archive/sprints/L1.6/L1.6-human-review-record.md`, `archive/sprints/L1.6/L1.6-lead-review-summary.md`; closure log: `archive/sprints/L1.6/L1.6-closure-log.md`. L1.6 still proves the fresh paragraph build, graphical-game transfer, inert adaptive seam, A61/table-value procedure contract, and v5 baseline integration. Post-closure review found that the main `1.1.3` companion explanation surfaces lack required graph/table learning objects, so the student-facing companion verdict is reopened under `L1.6R`. Green technical gates remain historically useful; they are not sufficient for scaling. Broad production remains blocked until semantic visual adequacy is remediated and reviewed. |
+| L1.5Q | Course Blueprint v5 + Four Test-Week Book Plan | **2026-05-18** | **CLOSED PASS WITH FLAGS.** Created the active v5 curriculum-source baseline for the four-book/four-test-week model. Active target-exercise registry now points to v5 with 54 count-bearing records and exact counts 12/12/14/16; v4 registry is archived, v4 blueprint/meta are superseded, v5 owned blueprint/meta exist, v5 validator checks counts, web-only test-prep, placeholder semantics, and blueprint anchors. Phase B upgraded `course_blueprint_v5.md` from scaffold to curriculum-source prose and closed with regenerated owned-source, owned-content, source-document, inventory, and URL-index artifacts. Flags: migrated target exercises and gemengde-opgaven placeholders are not reviewed final; L2.4-TEA remains the later target-exercise distribution audit. Log: `archive/sprints/L1.5Q/L1.5Q-closure-log.md`. |
+| L1.5P | Boek 1 Print-Edition Cut + 2026/27 12-Paragraph Scope | **2026-05-18** | **CLOSED PASS AFTER LEAD-REVIEW CORRECTION.** Printed Book 1 is generated through the platform book workflow from a 12-paragraph print manifest: chapters 1.1 and 1.2 plus a composed print chapter 1.3 (`Aanbod en marktevenwicht`). Test preparation is website-only; cost/revenue/marginal-analysis material remains online/parked for later migration. Independent lead review found duplicate opgaven and excluded body/glossary leakage after the first close; corrections are now platform-owned and regenerated. Green gates: strengthened print-scope checker 12/12, `check:book` 26/26, focused print-scope Jest 5/5, full platform Jest 502 passed / 8 skipped, markdown/PDF excluded-term scans clean, PDF generated. Logs: `archive/sprints/L1.5P/L1.5P-sprint-plan.md`, `archive/sprints/L1.5P/L1.5P-cut-survival-map.md`, `archive/sprints/L1.5P/L1.5P-closure-log.md`, `archive/sprints/L1.5P/L1.5P-lead-review-record.md`. |
 | L2.1 | Book 1 Release Polish | no | Teacher-facing polish continues under the Book 1 health gate after the print scope is stable. |
-| L2.2 | Book 2 Part A Textbook Layer | no | Start Book 2 Part A only after the blueprint v5 source-of-truth path is clear and under the chapter/paragraph hard gates. |
+| L2.2 | Book 2 Part A Textbook Layer | no | Start Book 2 Part A only after foundation-hardening gates say the v5/MTU/target-exercise path is stable enough. Do not start Book 2 full production merely because L1.5Q made v5 active. |
 | L2.4-TEA | Target Exercise Distribution Audit | no | **FUTURE QUALITY SPRINT.** Do not execute until the micro-teaching-unit layer and companion-quality instruments are mature enough. Evaluate target exercises across the new book structure using MTU dependencies, teacher-learning-quality review, student-experience review, and built paragraph evidence. |
-| L-PV0 | PV-G4 Lesson Proof Track Planning | **2026-05-14** | **CLOSED PASS.** Operational proof plan added in `L-PV0-proof-track-plan.md`. Current repos were checked first: PV-G4 intake was `0/2`, `shared/procedure/1.1.1.js` still exposed `(unit B02)`, and chapter/book aggregates still carried stale three-step wording. Candidate 1 selected `1.1.1`/B02; candidate 2 selected a bounded A61 table-trace pilot. |
+| L-PV0 | PV-G4 Lesson Proof Track Planning | **2026-05-14** | **CLOSED PASS.** Operational proof plan added in `archive/sprints/L-PV0/L-PV0-proof-track-plan.md`. Current repos were checked first: PV-G4 intake was `0/2`, `shared/procedure/1.1.1.js` still exposed `(unit B02)`, and chapter/book aggregates still carried stale three-step wording. Candidate 1 selected `1.1.1`/B02; candidate 2 selected a bounded A61 table-trace pilot. |
 | L-PV1 | Procedure Contract Hardening | **2026-05-14** | **CLOSED PASS.** Platform now has a lesson procedure-contract registry and `validate-procedure-contracts.js`. The validator checks counts, formal step IDs, order, keywords, surface coverage, stale legacy wording, and student-facing internal-code leakage. Negative Jest fixtures prove wrong order, internal-code leakage, and old three-step language fail. |
 | L-PV2 | Proof 001 - 1.1.1 B02 Procedure Mapping | **2026-05-14** | **CLOSED PASS.** `PVG4-proof-001` prepared for `1.1.1 Schaarste en economisch denken`, mapping the procedure game and answer/surface parity to `choose_by_opportunity_cost_flow`. `shared/procedure/1.1.1.js` is generated by platform source, carries formal step IDs, and no longer exposes `B02` in student-facing description/data. Stale chapter/book/test-prep three-step surfaces were refreshed through existing build scripts. |
 | L-PV3 | Proof 002 - Fresh PV-Validated Surface | **2026-05-14** | **CLOSED PASS WITH HCS CONDITION.** `PVG4-proof-002` prepared from a bounded lesson-owned A61 table-trace pilot surface. It validates `select_table_values_trace` step order and visual anchors without claiming student-facing PV publication. HCS accepted it as proof diversity only; it is not a classroom-ready or student-facing A61 route. |
 | L-PV4 | PV-G4 Intake Closure Packet | **2026-05-14** | **CLOSED / HCS PACKAGE SUBMITTED.** Two lesson-owned proof records exist under `pv-g4-proof-records/`; platform proof intake records `2/2` and the checker passes. HCS review packet was prepared and then reviewed in L-PV5. This package does not authorize PV machine promotion, student-facing PV projection, diagnostics, adaptive use, AI, sequencing, mastery, or summative use. |
-| L-PV5 | Roadmap Sync After PV-G4 | **2026-05-14** | **CLOSED PASS WITH CONDITIONS LOGGED.** HCS lead review returned `PASS WITH CONDITIONS`. The evidence-freshness condition was reconciled by regenerating the lesson proof records and platform intake: both now cite lesson commit `52f9237de9e465e7f75483f6feac4e80241e8631` with `lesson_worktree_dirty_at_generation: false`, and the platform intake checker passes. A post-closure report-state cleanup made the intake and lesson HCS packet closure-aware. Proof 002 remains a bounded, non-student-facing A61 pilot only. Log: `L-PV5-roadmap-sync-log.md`. |
-| L1.5B | Layout Round 2 - Generator Items | **2026-05-14** | **CLOSED PASS.** Platform `cb216ed160a9298f7f4393034b6c1d842a387ff9` shipped generator-owned landing/index polish: domain hooks, stronger book/chapter card hierarchy, availability chips, structured per-card pitfall support, and mobile/dark wrapping fixes. Book 1 landing/index output was regenerated through `deploy.js`. Green gates: landing generator Jest, procedure-contract validator (289 checks), `1.1.1` and `1.1.2` complete student-web validation, Book 1 health 26/26, diff hygiene, and desktop/mobile light/dark screenshot QA. Closure log: `L1.5B-closure-log.md`. |
-| L1.5G-A | Graphical Game Scope Cut And Prototype Audit | **2026-05-16** | **CLOSED PASS.** Split the oversized L1.5G into L1.5G-A through L1.5G-E after checking `knowledge/grafiekmeester_representatie_arena.html`. GrafiekMeester is an 87 KB standalone product prototype with UI, state, XP, skill tree, badges, localStorage progress, and broad graph domains, so it is a design reference rather than a direct port. MVP cut: bar/line graph reading plus old/new value selection before percentage change; technical target `1.1.2` or sandbox, fresh production proof in L1.6/`1.1.3`. Artifacts: `L1.5G-A-graphical-game-scope-plan.md`, `L1.5G-A-prototype-extraction-matrix.md`, `L1.5G-A-mvp-data-model-sketch.md`. |
-| L1.5G-B | Adaptive Input Seam Contract | **2026-05-16** | **CLOSED PASS.** Platform `9014a50eb85ccbd48c0770bf677b36d75455aa48` added an inert `adaptive-seam.js` helper with localStorage key `4veco.adaptivePayload.v1`, wired quiz/newsdetective/reasoning/skilltree/procedure engines to read and store the normalized payload without using it for gameplay, added focused seam tests, updated shell builders and deploy copy list, and regenerated Book 1 game shells through `deploy.js`. Green gates: focused seam Jest 8/8, deploy link/data checks, procedure-contract validator 289 checks, `1.1.1` + `1.1.2` complete student-web validation, Book 1 health 26/26, full platform Jest 488 passed / 7 skipped. No advisor, diagnostics, adaptive routing, mastery, sequencing, AI, summative use, PV projection, or PV machine promotion. Closure log: `L1.5G-B-closure-log.md`. |
-| L1.5G-C | Graphical Game MVP Engine | **2026-05-16** | **CLOSED PASS.** Platform `042d7aea4f4cfbe5cd026a3a29cbb57891f795be` added the sixth game as a narrow graphical MVP: engine/UI/CSS, shell generator, data builder, tests, deploy wiring, landing-card detection, and explicit `1.1.2` pilot data. Generated output was rebuilt through `deploy.js`: `shared/graphical/1.1.2.js`, shared graphical engine files, `1.1.2 ... – grafiekenspel.html`, and the `1.1.2` landing page. Green gates: focused graphical/adaptive Jest 20/20, deploy link/data checks, `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, platform Jest 494 passed / 8 skipped, desktop/mobile Chrome screenshot smoke. No PV projection, adaptive behavior, diagnostics, mastery, sequencing, AI, or summative use. Closure log: `L1.5G-C-closure-log.md`. |
-| L1.5G-D | Three-Aspect Game Routing | **2026-05-17** | **CLOSED PASS.** Platform `84ed88e78791203db779a4daecbc02589c99ed1d` added a generated three-aspect game routing layer to paragraph landing pages: `Redeneren`, `Rekenen`, and `Grafieken`, with stable `data-learning-aspect` metadata and student-facing copy. `Begeleide inoefening` is now visually separated as `Extra steun`, not treated as a fourth aspect. Generated output was rebuilt through `deploy.js` for chapter 1.1 landing pages. Green gates: landing generator Jest, deploy link/data checks, `1.1.1` + `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, platform Jest 494 passed / 8 skipped, desktop/mobile Chrome screenshot smoke. No PV projection, adaptive behavior, diagnostics, mastery, sequencing, AI, or summative use. Closure log: `L1.5G-D-closure-log.md`. |
-| L1.5G-E | Integration, QA, And Review Gate | **2026-05-18** | **CLOSED PASS WITH FLAGS.** Human review first returned REVISE for answer-revealing placeholders, unsafe old/new defaults, missing checklist scaffolding, generic feedback, and quality-ref bookkeeping; focused re-review then returned REVISE because the final challenge skipped feedback and jumped to summary. Platform source fixed both rounds, generated lesson output was rebuilt through `deploy.js`, `1.1.2-quality-ref.yaml` now marks `grafiekenspel: pass_with_flags`, and screenshots confirm neutral placeholders, explicit old/new selectors, checklist, diagnostic feedback, and final-challenge feedback before summary. Green gates: graphical/adaptive Jest 23/23, deploy link/data checks 160/160, `1.1.1` + `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, platform Jest 497 passed / 8 skipped, blocked-word search, and rendered final-feedback screenshot proof. Closure log: `L1.5G-E-closure-log.md`. Flags: L1.6 must prove the graphical game/adaptive seam on a fresh paragraph; later graphical variants should reduce direct value labels; PV-G4 boundaries remain in force. |
-| L1.4-PARITY | 1.1.2 Procedure And Quality Cleanup | **2026-05-13** | **CLOSED 2026-05-13 PASS WITH FLAGS.** Narrow follow-up after the post-L1.4 review. Canonicalized §1.1.2 to four-step student-facing procedures across Part A, companion pages, presentation-v2, procedure game, paragraph plan, quality-ref, and chapter plan; added an explicit 1-decimal rounding rule; fixed opgave 5c so rounded `16,7%` is not treated as exact; framed CBS April 2026 as a `snelle raming` exercise; corrected presentation-v2 route aria labels and reasoning metadata title discovery; documented skilltree A38/A39 coverage. Added validator parity gate comparing declared procedure step counts in `quality-ref.yaml` with shared procedure data. Green gates: complete student-web validation, publisher-print Part A validation, focused Jest, full `check:book`, deploy link/data checks, and presentation-v2 automated screenshot QA. Plan: `L1.4-PARITY-sprint-plan.md`. Remaining flag: formal teacher/student review still required before final house-style promotion. |
-| L1.5D-B02 | 1.1.1 Cross-Surface Parity + Bookkeeping Fix | **2026-05-12** | **CLOSED 2026-05-12 PASS**. Narrow follow-up after the second web-PowerPoint review. Fixed the §1.1.1 Part A / Part B drift to the four-step economisch-denken procedure with nettowaarde, removed student-facing `B02` unit-code labels from generated/student pages, regenerated Part A HTML/PDF + companion DOCX-derived HTML + presentation PPTX/HTML + quiz/YouTube/shared CSS through the platform workflow, fixed `convert_presentatie.py` so the official `presentatie.pptx` is selected instead of local prototype decks, and taught the link checker to ignore `*-prototype.html` baselines as non-navigation artifacts. Completion log: `L1.5D-b02-cross-surface-parity-plan.md`; refreshed Part A review: `1.1.1-review.md`. |
+| L-PV5 | Roadmap Sync After PV-G4 | **2026-05-14** | **CLOSED PASS WITH CONDITIONS LOGGED.** HCS lead review returned `PASS WITH CONDITIONS`. The evidence-freshness condition was reconciled by regenerating the lesson proof records and platform intake: both now cite lesson commit `52f9237de9e465e7f75483f6feac4e80241e8631` with `lesson_worktree_dirty_at_generation: false`, and the platform intake checker passes. A post-closure report-state cleanup made the intake and lesson HCS packet closure-aware. Proof 002 remains a bounded, non-student-facing A61 pilot only. Log: `archive/sprints/L-PV5/L-PV5-roadmap-sync-log.md`. |
+| L1.5B | Layout Round 2 - Generator Items | **2026-05-14** | **CLOSED PASS.** Platform `cb216ed160a9298f7f4393034b6c1d842a387ff9` shipped generator-owned landing/index polish: domain hooks, stronger book/chapter card hierarchy, availability chips, structured per-card pitfall support, and mobile/dark wrapping fixes. Book 1 landing/index output was regenerated through `deploy.js`. Green gates: landing generator Jest, procedure-contract validator (289 checks), `1.1.1` and `1.1.2` complete student-web validation, Book 1 health 26/26, diff hygiene, and desktop/mobile light/dark screenshot QA. Closure log: `archive/sprints/L1.5B/L1.5B-closure-log.md`. |
+| L1.5G-A | Graphical Game Scope Cut And Prototype Audit | **2026-05-16** | **CLOSED PASS.** Split the oversized L1.5G into L1.5G-A through L1.5G-E after checking `knowledge/grafiekmeester_representatie_arena.html`. GrafiekMeester is an 87 KB standalone product prototype with UI, state, XP, skill tree, badges, localStorage progress, and broad graph domains, so it is a design reference rather than a direct port. MVP cut: bar/line graph reading plus old/new value selection before percentage change; technical target `1.1.2` or sandbox, fresh production proof in L1.6/`1.1.3`. Artifacts: `archive/sprints/L1.5G-A/L1.5G-A-graphical-game-scope-plan.md`, `archive/sprints/L1.5G-A/L1.5G-A-prototype-extraction-matrix.md`, `archive/sprints/L1.5G-A/L1.5G-A-mvp-data-model-sketch.md`. |
+| L1.5G-B | Adaptive Input Seam Contract | **2026-05-16** | **CLOSED PASS.** Platform `9014a50eb85ccbd48c0770bf677b36d75455aa48` added an inert `adaptive-seam.js` helper with localStorage key `4veco.adaptivePayload.v1`, wired quiz/newsdetective/reasoning/skilltree/procedure engines to read and store the normalized payload without using it for gameplay, added focused seam tests, updated shell builders and deploy copy list, and regenerated Book 1 game shells through `deploy.js`. Green gates: focused seam Jest 8/8, deploy link/data checks, procedure-contract validator 289 checks, `1.1.1` + `1.1.2` complete student-web validation, Book 1 health 26/26, full platform Jest 488 passed / 7 skipped. No advisor, diagnostics, adaptive routing, mastery, sequencing, AI, summative use, PV projection, or PV machine promotion. Closure log: `archive/sprints/L1.5G-B/L1.5G-B-closure-log.md`. |
+| L1.5G-C | Graphical Game MVP Engine | **2026-05-16** | **CLOSED PASS.** Platform `042d7aea4f4cfbe5cd026a3a29cbb57891f795be` added the sixth game as a narrow graphical MVP: engine/UI/CSS, shell generator, data builder, tests, deploy wiring, landing-card detection, and explicit `1.1.2` pilot data. Generated output was rebuilt through `deploy.js`: `shared/graphical/1.1.2.js`, shared graphical engine files, `1.1.2 ... – grafiekenspel.html`, and the `1.1.2` landing page. Green gates: focused graphical/adaptive Jest 20/20, deploy link/data checks, `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, platform Jest 494 passed / 8 skipped, desktop/mobile Chrome screenshot smoke. No PV projection, adaptive behavior, diagnostics, mastery, sequencing, AI, or summative use. Closure log: `archive/sprints/L1.5G-C/L1.5G-C-closure-log.md`. |
+| L1.5G-D | Three-Aspect Game Routing | **2026-05-17** | **CLOSED PASS.** Platform `84ed88e78791203db779a4daecbc02589c99ed1d` added a generated three-aspect game routing layer to paragraph landing pages: `Redeneren`, `Rekenen`, and `Grafieken`, with stable `data-learning-aspect` metadata and student-facing copy. `Begeleide inoefening` is now visually separated as `Extra steun`, not treated as a fourth aspect. Generated output was rebuilt through `deploy.js` for chapter 1.1 landing pages. Green gates: landing generator Jest, deploy link/data checks, `1.1.1` + `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, platform Jest 494 passed / 8 skipped, desktop/mobile Chrome screenshot smoke. No PV projection, adaptive behavior, diagnostics, mastery, sequencing, AI, or summative use. Closure log: `archive/sprints/L1.5G-D/L1.5G-D-closure-log.md`. |
+| L1.5G-E | Integration, QA, And Review Gate | **2026-05-18** | **CLOSED PASS WITH FLAGS.** Human review first returned REVISE for answer-revealing placeholders, unsafe old/new defaults, missing checklist scaffolding, generic feedback, and quality-ref bookkeeping; focused re-review then returned REVISE because the final challenge skipped feedback and jumped to summary. Platform source fixed both rounds, generated lesson output was rebuilt through `deploy.js`, `1.1.2-quality-ref.yaml` now marks `grafiekenspel: pass_with_flags`, and screenshots confirm neutral placeholders, explicit old/new selectors, checklist, diagnostic feedback, and final-challenge feedback before summary. Green gates: graphical/adaptive Jest 23/23, deploy link/data checks 160/160, `1.1.1` + `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, platform Jest 497 passed / 8 skipped, blocked-word search, and rendered final-feedback screenshot proof. Closure log: `archive/sprints/L1.5G-E/L1.5G-E-closure-log.md`. Flags: L1.6 must prove the graphical game/adaptive seam on a fresh paragraph; later graphical variants should reduce direct value labels; PV-G4 boundaries remain in force. |
+| L1.4-PARITY | 1.1.2 Procedure And Quality Cleanup | **2026-05-13** | **CLOSED 2026-05-13 PASS WITH FLAGS.** Narrow follow-up after the post-L1.4 review. Canonicalized §1.1.2 to four-step student-facing procedures across Part A, companion pages, presentation-v2, procedure game, paragraph plan, quality-ref, and chapter plan; added an explicit 1-decimal rounding rule; fixed opgave 5c so rounded `16,7%` is not treated as exact; framed CBS April 2026 as a `snelle raming` exercise; corrected presentation-v2 route aria labels and reasoning metadata title discovery; documented skilltree A38/A39 coverage. Added validator parity gate comparing declared procedure step counts in `quality-ref.yaml` with shared procedure data. Green gates: complete student-web validation, publisher-print Part A validation, focused Jest, full `check:book`, deploy link/data checks, and presentation-v2 automated screenshot QA. Plan: `archive/sprints/L1.4-PARITY/L1.4-PARITY-sprint-plan.md`. Remaining flag: formal teacher/student review still required before final house-style promotion. |
+| L1.5D-B02 | 1.1.1 Cross-Surface Parity + Bookkeeping Fix | **2026-05-12** | **CLOSED 2026-05-12 PASS**. Narrow follow-up after the second web-PowerPoint review. Fixed the §1.1.1 Part A / Part B drift to the four-step economisch-denken procedure with nettowaarde, removed student-facing `B02` unit-code labels from generated/student pages, regenerated Part A HTML/PDF + companion DOCX-derived HTML + presentation PPTX/HTML + quiz/YouTube/shared CSS through the platform workflow, fixed `convert_presentatie.py` so the official `presentatie.pptx` is selected instead of local prototype decks, and taught the link checker to ignore `*-prototype.html` baselines as non-navigation artifacts. Completion log: `archive/sprints/L1.5D-B02/L1.5D-b02-cross-surface-parity-plan.md`; refreshed Part A review: `1.1.1-review.md`. |
 | L1.5O | Output Profile Simplification | **2026-05-12** | **CLOSED 2026-05-12 PASS**. Inserted before L1.4 to stop carrying Office documents through the default paragraph build. Platform validator now has explicit profiles: `student-web` (default; 14 web-first Part B files, no DOCX/PDF requirement), `legacy-full` (old 27-file contract), `office` (student-web plus DOCX exports), and `publisher-print` (the three textbook PDFs + `build_pdf.py`). `check-book.js` keeps Part A book health on `publisher-print`; paragraph 1.1.2 should use `--mode complete --profile student-web` unless Office exports are explicitly requested. Evidence: focused Jest 21/21 plus 1.1.1 validation green in `student-web`, `legacy-full`, and `publisher-print`. |
 | L1.5D | Authored Content As Web | **2026-05-11** | **CLOSED 2026-05-11 PASS WITH FLAGS**. D1 (DOCX-as-web for samenvatting + nieuws) and D2 (PPTX-as-web for presentatie) both shipped. v2 lead review returned FAIL with eight blockers (B1–B8); remediation cycle closed all eight: B1+B2 mobile responsive CSS at 390px (platform `362f0e2`), B7 detect_card_stack x-column filter (platform `6646bec`), B5+B6 validator gates D1 web outputs + BUILD-PARAGRAPH.md 24→27 contract (platform `b90b918`), B4 validate-chapter.js structured verdict parser (platform `e04d160`), B8 PPTX accessibility — 14pt floor across deck + speaker notes + AA contrast tokens (platform `830ebf4`). Selector-presence regression test added (`l1-5d-v2-mobile-fixes.test.js`). v3 lead review returned **PASS WITH FLAGS**: validators 27/27 + 26/26 + 454/0/7 jest + audit 0 sub-14pt + 0 contrast violations all green. Two non-blocking flags remain: long Dutch compound nouns on slide 1's dark-hero body line and nieuws cell-title still wrap with mid-word breaks at 390px (logged as platform follow-up, not reopening the sprint). |
 | L1.5V | Companion Quality Polish + Pilot Lock-in for 1.1.1 | **2026-05-09** | **CLOSED 2026-05-09**. 17 platform commits on `content/1.1.1-companion-quality` + 2 lessen commits on `main`. All 4 hard fails + QA-1 from the original `1.1.1-companion-visual-review.md` resolved; verification sub-agent verdict **PASS WITH FLAGS** (3 non-blocking flags: visual-internal `alt. kosten` shorthand documented as scope decision, Team B reference HTMLs untracked-by-design, optional CSS polish on vaardigheden checklist trailer). Buckets A+B+C+D+E+F all closed. Validator `--mode complete` flips green: `OK Paragraph 1.1.1 PASSED all checks`. Jest 441/0/7 (69 new regression tests vs baseline). Pilot lock-in delivered: `BUILD-PARAGRAPH.md` carries Common pre-conditions section + clean Part A / Part B split, every skill in `skills/` has a `pipeline:` frontmatter label, `validate-paragraph.js` has F2 fixes (split Part A / Part B review gates, structured verdict parser, schema_version 2 awareness), `1.1.1-quality-ref.yaml` migrated to schema_version 2 with `partA:` + `companion:` blocks. L1.4 unblocked. |
-| L1.4 | First Pipeline Regression Paragraph | **2026-05-12** | **CLOSED 2026-05-12 PASS WITH FLAGS.** Built and then polished `1.1.2 Percentages en indexcijfers` through the platform-owned `student-web` profile after L1.5O. Delivered native student-facing HTML companions, source-aligned begeleide inoefening, interactive shared data, skilltree paragraph/chapter/all toggles, shell pages, PPTX + semantic presentation-v2 web deck, companion review, quality-ref refresh, and `_paragraph-plan.md`; no new Word exports were generated. Validation green: `validate-paragraph --mode complete --profile student-web`, `validate-paragraph --mode part-a --profile publisher-print`, local link checker/deploy data tests, focused skilltree Jest, full `check:book`, and browser screenshot QA for index, voorkennis, begeleide inoefening, wiskundevaardigheden, and presentation surfaces in representative light/dark and wide/narrow states. Flag: formal teacher/student review still needs a separate review gate before declaring this the final scaling house style. Sprint plan: `L1.4-sprint-plan.md`. |
+| L1.4 | First Pipeline Regression Paragraph | **2026-05-12** | **CLOSED 2026-05-12 PASS WITH FLAGS.** Built and then polished `1.1.2 Percentages en indexcijfers` through the platform-owned `student-web` profile after L1.5O. Delivered native student-facing HTML companions, source-aligned begeleide inoefening, interactive shared data, skilltree paragraph/chapter/all toggles, shell pages, PPTX + semantic presentation-v2 web deck, companion review, quality-ref refresh, and `_paragraph-plan.md`; no new Word exports were generated. Validation green: `validate-paragraph --mode complete --profile student-web`, `validate-paragraph --mode part-a --profile publisher-print`, local link checker/deploy data tests, focused skilltree Jest, full `check:book`, and browser screenshot QA for index, voorkennis, begeleide inoefening, wiskundevaardigheden, and presentation surfaces in representative light/dark and wide/narrow states. Flag: formal teacher/student review still needs a separate review gate before declaring this the final scaling house style. Sprint plan: `archive/sprints/L1.4/L1.4-sprint-plan.md`. |
 
 ## Closed Sprints
 
@@ -53,7 +59,7 @@ remains in the "Sprint Details" section further down.
 Generated: 2026-04-23
 Updated: 2026-04-25 after Sprint L1.3A-C close — basic HTML layout, companion SVG variant system with light/dark symmetry validator, and PPTX teacher-supporting slide rules all landed in platform; L1.4 (pipeline regression on `1.1.2 Percentages en indexcijfers`) is now active.
 Updated: 2026-04-30 — sprint sequence restructured. L1.4 paused to ship layout polish + web-native authored content first; L1.5 split into L1.5A (single-paragraph-safe items, active now) and L1.5B (generator-touching items, after L1.4). New L1.5D (DOCX/PPTX as web) sequenced before L1.4 because both should be tested against L1.4's fresh-paragraph regression. New L1.5G (three-aspect games coverage) sequenced after L1.5B with adaptive-ready architecture as a cross-cutting constraint. L1.4 resumes with triple-purpose scope: layout + games + web-docs regression on fresh content.
-Updated: 2026-05-01 — added the PV Consumption Rule after leadership approved the Procedure-Visual Backbone. The lesson repo remains a generated target and consumer: L1.5G aligns the graphical game with platform/reference PV records, L1.6 proves one PV-backed or PV-validated procedure/visual sequence on a fresh paragraph, and L1.7 includes PV readiness before scaling.
+Updated: 2026-05-01 — added the PV Consumption Rule after leadership approved the Procedure-Visual Backbone. The lesson repo remains a generated target and consumer: L1.5G aligns the graphical game with platform/reference PV records, L1.6 proves one PV-backed or PV-validated procedure/visual sequence on a fresh paragraph, and L1.7A includes PV readiness before any scaling decision.
 Updated: 2026-05-01 — Sprint Ledger reorganized: active sprint sits at the top, future sprints follow, and closed sprints moved to a separate "Closed Sprints" archive. L1.5A closed (lessen `2a8455b` shipped, platform PR #2 open at close); L1.5D promoted to active sprint.
 Updated: 2026-05-09 — L1.5V (Vaardigheden Quality Polish for 1.1.1) inserted between L1.5D D1 and L1.5D D2. Triggered by a Team B reference draft that surfaced visual-text mismatches, scaffold gaps, and a canonical-procedure ambiguity in the existing `uitleg vaardigheden.html`. Canonical procedure decision recorded: B02 is 4-step (was 3-step in `_paragraph-plan.md`), driving registry update + propagation across vaardigheden, samenvatting, presentatie, stappenplan, BI, opgaven. L1.5D D1 shipped 2026-05-08; PR #3 awaiting merge before L1.5V branches off main. L1.5D D2 paused, resumes after L1.5V.
 Updated: 2026-05-11 (later) — L1.5D **CLOSED PASS WITH FLAGS** after a v2-review remediation cycle. D1 (DOCX-as-web for samenvatting + nieuws) shipped earlier; D2 (PPTX-as-web for presentatie, slide-by-slide with prev/next/keyboard/sidebar) shipped this session. Then v2 lead-review returned FAIL with 8 blockers (mobile responsive overflow at 390px on all three D1+D2 web surfaces, caption absorbed into card subtitle, D1 web files ungated in validator, stale 24-file Part B doc, chapter validator using token-grep instead of structured verdict, PPTX accessibility 56 sub-18pt runs + 2.9:1 contrast). All 8 closed across platform commits 362f0e2 / 6646bec / b90b918 / e04d160 / 830ebf4 + regression test ae60dc6. v3 lead-review returned PASS WITH FLAGS — gates green (27/27 validator, 26/26 check:book, 454/0/7 jest, 0 sub-14pt audit, 0 contrast violations), two non-blocking flags on mid-word Dutch compound-noun wraps logged as platform follow-up. L1.4 (pipeline regression on §1.1.2) and L1.5B (Layout Round 2 generator items) are now both unblocked.
@@ -65,7 +71,7 @@ Updated: 2026-05-12 (landing cleanup) — paragraph landing pages now suppress W
 Updated: 2026-05-12 (landing language) — paragraph landing-page tiles no longer show `html` as a visible chip. The clickable tile itself is the web action; only meaningful extra choices remain visible, such as `Interactief`, `Download als PowerPoint`, and PDF links. Regenerated chapter 1.1 paragraph indexes from platform commit `6de425f`.
 Updated: 2026-05-12 (L1.4 polished close) — `1.1.2 Percentages en indexcijfers` now has a polished student-web companion set generated from platform source without new Word exports. The closure pass corrected the initial too-minimal build: begeleide inoefening now follows the textbook opgaven and answer model, voorkennis/vaardigheden/samenvatting/nieuws/video pages use the 1.1.1 rich layout pattern, wiskundevaardigheden has paragraph/chapter/all skill toggles, dark/light styling is shared, and mobile/narrow CSS was visually checked. Green gates: Part A publisher-print validation, complete student-web validation, local link checker/deploy data tests, focused skilltree Jest, full `check:book`, and browser screenshot QA across representative wide/narrow and light/dark states. Remaining flag is formal teacher/student review only.
 Updated: 2026-05-13 — Sprint L1.4-PARITY closed after the post-L1.4 review found substantive procedure-parity flags. §1.1.2 now uses four-step routes for procentuele verandering, indexcijfer berekenen, and indexpunten/procenten across Part A, companion pages, presentation, procedure game, quality-ref, and chapter plan. Added rounding policy, fixed opgave 5c exact/rounded control, corrected presentation-v2 route aria labels, fixed reasoning metadata for flat paragraph folders, and added a validator gate that compares declared procedure step counts with shared procedure data. Green gates: complete student-web validation, publisher-print Part A validation, focused Jest, full `check:book`, deploy link/data checks, and presentation-v2 screenshot QA.
-Updated: 2026-05-14 - inserted the lesson-side PV-G4 proof track (`L-PV0` through `L-PV5`) at the top of the sprint ledger after checking the current repos. Current platform evidence still shows PV-G4 proof intake at `0/2`; the existing L1.5D-B02 and L1.4-PARITY work is useful cleanup evidence but not formal PV-G4 proof-record evidence. Also confirmed one live student-facing risk for the track: `shared/procedure/1.1.1.js` still contains `(unit B02)` in the procedure-game description, despite the quality-ref claim that generated/student pages no longer expose `B02`. PV-dependent L1.5B/L1.5G/L1.6/L1.7 work is now sequenced behind the proof track unless explicitly scoped as non-PV/non-procedure work.
+Updated: 2026-05-14 - inserted the lesson-side PV-G4 proof track (`L-PV0` through `L-PV5`) at the top of the sprint ledger after checking the current repos. Current platform evidence still shows PV-G4 proof intake at `0/2`; the existing L1.5D-B02 and L1.4-PARITY work is useful cleanup evidence but not formal PV-G4 proof-record evidence. Also confirmed one live student-facing risk for the track: `shared/procedure/1.1.1.js` still contains `(unit B02)` in the procedure-game description, despite the quality-ref claim that generated/student pages no longer expose `B02`. PV-dependent L1.5B/L1.5G/L1.6/L1.7A work is now sequenced behind the proof track unless explicitly scoped as non-PV/non-procedure work.
 Updated: 2026-05-14 (PV-G4 HCS package) - executed L-PV0 through L-PV4 and prepared the HCS human-review packet. The platform now has a procedure-contract validator and proof-record/intake workflow; lesson output now has formal step IDs for 1.1.1 and 1.1.2 procedure data; stale three-step B02 wording in chapter/book/test-prep aggregates was corrected and rebuilt. `pv-g4-proof-records/PVG4-proof-001.json` and `PVG4-proof-002.json` are present, and the platform PV-G4 intake now records `2/2` with checker green. At L-PV4 close, PV-G4 was still waiting on HCS decision; the later L-PV5 update records that decision.
 Updated: 2026-05-14 (PV-G4 HCS decision) - HCS lead review returned `PASS WITH CONDITIONS`. L-PV5 reconciled the evidence-freshness condition by regenerating lesson proof records and platform intake from current authoritative artifacts; post-closure report-state cleanup now has both citing lesson commit `52f9237de9e465e7f75483f6feac4e80241e8631` with `lesson_worktree_dirty_at_generation: false`, and the platform intake checker passes. Proof 002 remains a bounded, non-student-facing A61 pilot only. PV machine promotion, student-facing PV projection, diagnostics, adaptive use, AI, sequencing, mastery, and summative use remain blocked.
 Updated: 2026-05-14 (PV-G4 report-state cleanup) - the platform PV-G4 intake/report generators are closure-aware. Current generated intake and review packet status is `pass_with_conditions`, not `ready_for_hcs_review`; the lesson HCS packet is now `gate_reviewed_pass_with_conditions`. L1.5B is the next active lesson sprint and must start with a checkable sprint plan.
@@ -75,7 +81,7 @@ Updated: 2026-05-16 (L1.5G-B close) - L1.5G-B closed PASS. Platform commit `9014
 Updated: 2026-05-16 (L1.5G-C close) - L1.5G-C closed PASS. Platform commit `042d7aea4f4cfbe5cd026a3a29cbb57891f795be` added the graphical-game MVP as a sixth platform game with engine/UI/CSS, shell generator, explicit `1.1.2` pilot data, tests, deploy wiring, landing-page reachability, and desktop/mobile rendered smoke checks. L1.5G-D is next; L1.5G-E remains the formal integration/review gate before L1.6.
 Updated: 2026-05-17 (L1.5G-D close) - L1.5G-D closed PASS. Platform commit `84ed88e78791203db779a4daecbc02589c99ed1d` added student-facing game routing by aspect: Redeneren, Rekenen, and Grafieken. `Begeleide inoefening` is separated as guided support. Chapter 1.1 paragraph landing pages were regenerated through `deploy.js`; L1.5G-E is now the formal integration, QA, and review gate before L1.6.
 
-Updated: 2026-05-17 (L1.5G-E technical gate) - L1.5G-E technical QA passed but the sprint is not closed. The gate found a mobile chart framing problem in `grafiekenspel`; platform source was fixed in `engines/graphical-ui.js` and `engines/graphical.css`, generated lesson output was rebuilt through `deploy.js`, and final true 390px Chrome DevTools screenshots were checked in light and dark mode. Green gates: focused graphical/adaptive Jest 20/20, deploy link/data checks 160/160, `1.1.1` + `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, platform Jest 494 passed / 8 skipped, and blocked-word search with no internal/PV/adaptive/diagnostic claims in checked surfaces. Next action is formal student-experience and teacher-learning-quality review using `L1.5G-E-human-review-packet.md`; L1.6 remains blocked until that gate is closed or the roadmap is explicitly changed.
+Updated: 2026-05-17 (L1.5G-E technical gate) - L1.5G-E technical QA passed but the sprint is not closed. The gate found a mobile chart framing problem in `grafiekenspel`; platform source was fixed in `engines/graphical-ui.js` and `engines/graphical.css`, generated lesson output was rebuilt through `deploy.js`, and final true 390px Chrome DevTools screenshots were checked in light and dark mode. Green gates: focused graphical/adaptive Jest 20/20, deploy link/data checks 160/160, `1.1.1` + `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, platform Jest 494 passed / 8 skipped, and blocked-word search with no internal/PV/adaptive/diagnostic claims in checked surfaces. Next action is formal student-experience and teacher-learning-quality review using `archive/sprints/L1.5G-E/L1.5G-E-human-review-packet.md`; L1.6 remains blocked until that gate is closed or the roadmap is explicitly changed.
 Updated: 2026-05-17 (L1.5G-E human-review revise response) - human review returned REVISE for `grafiekenspel` because placeholders could reveal answers and the percentage-change tasks needed explicit old/new selection, a visible checklist, and diagnostic feedback. Platform source addressed those blockers, generated output was rebuilt through `deploy.js`, `1.1.2-quality-ref.yaml` included `grafiekenspel`, and screenshot evidence was refreshed for the first challenge, the percentage selector state, and wrong-new-value diagnostic feedback. Green focused gates: graphical/adaptive Jest 22/22, deploy link/data checks, `1.1.1` + `1.1.2` complete student-web validation, procedure-contract validator 289 checks, Book 1 health 26/26, and blocked-word search. L1.5G-E remained open until focused human recheck.
 Updated: 2026-05-18 (L1.5G-E focused re-review revise response) - focused re-review returned REVISE because the final challenge skipped feedback and jumped straight to summary. Platform `graphical-ui.js` now renders summary only when the engine is complete and no final `lastResult` feedback is pending; the final challenge now shows diagnostic feedback and `Bron/Waarden/Berekening` first, with `Bekijk resultaat` opening the summary afterward. Added a focused UI safeguard test and regenerated lesson output through `deploy.js`. Screenshot evidence now includes desktop and true-390px mobile final-feedback states. L1.5G-E remains open until final focused human recheck accepts the revised final-feedback flow.
 Updated: 2026-05-18 (L1.5G-E close) - second-revision review accepted the final-feedback fix and closed L1.5G-E as PASS WITH FLAGS. `1.1.2-quality-ref.yaml` now records `grafiekenspel: pass_with_flags`; student-experience, teacher-learning-quality, human-review, lead-review, technical-QA, and closure-log records all agree. Flags carried forward: L1.6 must prove the graphical game and adaptive seam on a fresh paragraph; later graphical-game variants should include harder graph reading without direct value labels; PV-G4 blocked-use boundaries remain active.
@@ -83,11 +89,13 @@ Updated: 2026-05-18 (L1.5P/L1.5Q/L2.4-TEA roadmap insertion) - checked local Boo
 Updated: 2026-05-18 (L1.5P close after lead-review correction) - L1.5P closed PASS after an independent lead review found and forced correction of duplicate opgaven, excluded/stale body content, glossary leakage, and a shallow first print-scope validator. Platform book builder now supports backwards-compatible composed print chapters plus manifest-controlled print removals and glossary exclusions. Book 1 manifest now generates the 2026/27 12-paragraph print scope, and the voorwoord says the printed book has three chapters/twelve paragraphs with test preparation on the website. Generated Book 1 markdown/HTML/PDF rebuilt through `python build-scripts/books/build-book.py --book 1`. Green gates: strengthened `check-book-print-scope` 12/12, `check:book` 26/26, focused print-scope Jest 5/5, full platform Jest 502 passed / 8 skipped, markdown/PDF excluded-term scans clean. L1.5Q is now the active curriculum-source sprint.
 Updated: 2026-05-18 (L1.5Q Phase A source-of-truth seam) - L1.5Q Phase A implemented the v4->v5 source migration seam before the full pedagogical rewrite. The platform now preserves the v4 target-exercise registry under `references/authored/archive/course-target-exercises-v4.json`; active `references/authored/course-target-exercises.json` declares `blueprint_version: "v5"`, points to `references/owned/course-blueprint-v5.md`, and contains 54 count-bearing records with exact counts 12/12/14/16. Gemengde-opgaven records are explicit no-new-theory placeholders, and migrated records are marked `migrated_from_v4_needs_v5_review`. New validator `scripts/check-course-target-exercises-v5.js` plus focused Jest guard the counts, web-only test-prep boundary, and placeholder semantics. Derived owned-source, owned-content, source-document, inventory, and URL-index reports were regenerated; full platform Jest, Book 1 health, print-scope check, and diff hygiene are green. L1.5Q remains active for Phase B: the final pedagogical v5 blueprint and migration review.
 Updated: 2026-05-18 (L1.5Q close) - L1.5Q closed PASS WITH FLAGS. `course_blueprint_v5.md` now states the four-book/four-test-week model, exact counts 12/12/14/16, web-only test preparation, Book 1's L1.5P scope, book-level intent, migration decisions, and placeholder boundaries. Platform owned v5 blueprint/meta mirror the lesson source, active `course-target-exercises.json` remains v5 with 54 records, and the v5 checker now verifies all 54 blueprint anchors. Green gates: v5 checker, focused v5 Jest 5/5, owned-source/content/source-document checks, source manifest/document inventory, source-of-truth check, Book 1 health 26/26, print-scope 12/12, full platform Jest 507 passed / 8 skipped, and diff hygiene. L1.6 is now the next active lesson pipeline sprint.
-Updated: 2026-05-18 (L1.6 technical QA) - L1.6 generated `1.1.3 Grafieken en tabellen` as the fresh student-web regression paragraph after L1.5G/L1.5Q. Platform sources now build the companion pages, presentation, shared data, graphical game data, graph/table skilltree generators, and the A61/table-value procedure contract. Technical gates are green: deploy link/data checks, `1.1.3` complete student-web validation, `1.1.3` publisher-print Part A validation, procedure-contract validator 341 checks, focused game/procedure Jest 151/151, Book 1 health 26/26, full platform Jest 510 passed / 8 skipped, presentation screenshot QA, and landing/game desktop/mobile light/dark screenshot QA. L1.6 is ready for human review but not closed; required review packet is `L1.6-human-review-packet.md`.
+Updated: 2026-05-18 (L1.6 technical QA) - L1.6 generated `1.1.3 Grafieken en tabellen` as the fresh student-web regression paragraph after L1.5G/L1.5Q. Platform sources now build the companion pages, presentation, shared data, graphical game data, graph/table skilltree generators, and the A61/table-value procedure contract. Technical gates are green: deploy link/data checks, `1.1.3` complete student-web validation, `1.1.3` publisher-print Part A validation, procedure-contract validator 341 checks, focused game/procedure Jest 151/151, Book 1 health 26/26, full platform Jest 510 passed / 8 skipped, presentation screenshot QA, and landing/game desktop/mobile light/dark screenshot QA. L1.6 is ready for human review but not closed; required review packet is `archive/sprints/L1.6/L1.6-human-review-packet.md`.
 
 Updated: 2026-05-18 (L1.6 revise addressed) - L1.6 human review returned REVISE for a real semantic transfer issue: the `Broodjesverkoop` P-Q line chart in `grafiekenspel` ordered quantity labels backwards left-to-right while `1.1.3` teaches quantity on the horizontal axis. Platform source fixed the data ordering, added a graphical-data assertion for quantity line charts, rephrased the presentation speaker-note meta wording, regenerated `1.1.3`, and reran the focused gates. Review records now exist and the sprint is ready for focused human recheck, but it is not closed until the lead-review summary records a final verdict.
 
-Updated: 2026-05-18 (L1.6 close) - focused re-review accepted the `Broodjesverkoop` graph-order fix and presentation speaker-note polish. L1.6 closed PASS WITH FLAGS. `1.1.3-quality-ref.yaml` now records `pass_with_flags`; all review records, closure log, and roadmap agree. L1.7 is next, with flags carried forward for scaffolded graphical-game MVP scope, later harder graph-reading variants, the migrated/not-final-reviewed v5 target exercise, non-blocking Part A flags, and PV-G4 blocked-use boundaries.
+Updated: 2026-05-18 (L1.6 close) - focused re-review accepted the `Broodjesverkoop` graph-order fix and presentation speaker-note polish. L1.6 closed PASS WITH FLAGS. `1.1.3-quality-ref.yaml` now records `pass_with_flags`; all review records, closure log, and roadmap agree. L1.7A is next, with flags carried forward for scaffolded graphical-game MVP scope, later harder graph-reading variants, the migrated/not-final-reviewed v5 target exercise, non-blocking Part A flags, and PV-G4 blocked-use boundaries.
+
+Updated: 2026-05-18 (SYNC-1 roadmap reconciliation) - after reading the post-L1.6 strategy paper and checking current lesson/reference roadmap state, L1.7 was reframed as `L1.7A Scaling Readiness And Flag Triage Gate`. Broad lesson scaling is not approved. The next lesson-side work is a readiness/triage decision, followed by Book 1 flag burn-down/house-style cleanup before any broader production decision. The rough three-year blueprint is treated as a non-authoritative planning prototype for the reference team, not a curriculum source of truth.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -95,7 +103,8 @@ Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 Own the material side of delivery:
 
 - Book 1 release polish
-- Book 2 Part A textbook production
+- Book 1 foundation hardening and flag burn-down
+- Book 2 Part A textbook production only after the foundation gates allow it
 - companion MVP work, treated as an active pilot until quality and usability are good enough to scale
 
 ## Current Status
@@ -107,9 +116,10 @@ That means:
 - Book 1 Part A is green.
 - Book 1 print scope has completed the urgent L1.5P cut and is the current
   publisher-print baseline.
-- Book 2 Part A should wait until L1.5Q makes the v5 blueprint and
-  target-exercise source-of-truth path clear.
-- Companion production may continue, but it is still pilot work.
+- Book 2 Part A should wait until L1.7A, REF-CT0/REF-CT1, and the later scale
+  gate make the v5/MTU/target-exercise path quality-stable enough.
+- Companion production may continue only as controlled next-step production; it
+  is not approved for broad scaling.
 
 The first companion pilot has now been run, and the technical pattern has also
 been repeated for a second paragraph. The 1.1.2 probe materials were removed
@@ -128,8 +138,8 @@ Important boundary:
 - A complete paragraph plus companion pipeline is not yet routine.
 - The first companion paragraph proves that the workflow can run, not that the
   output design is good enough.
-- Bulk companion production should wait until layout/UI improvements are
-  integrated into the platform workflow.
+- Bulk companion production should wait until layout/UI improvements and
+  quality-gate decisions are integrated into the platform workflow.
 - Bulk companion production should also wait until visual assets have a
   platform-owned variant workflow, including light/dark web variants where
   graphics contain labels, axes, fills, backgrounds, or other theme-sensitive
@@ -145,7 +155,7 @@ npm.cmd run check:book -- "..\4veco-lessen\Boek 1 - Grondslagen, vraag en aanbod
 
 - Reviews and quality refs are mandatory artifacts, not optional paperwork.
 - Rebuild affected paragraph/chapter/book HTML/PDF whenever source markdown or assets change.
-- Do not scale companion production until the pilot has passed both technical validation and layout/usability review:
+- Do not scale companion production until L1.7A/L2.0 explicitly clear the relevant flags and the pilot has passed both technical validation and layout/usability review:
 
 ```powershell
 node scripts\validate-paragraph.js --mode complete "<paragraph-folder>"
@@ -177,7 +187,7 @@ L1.5G graphical-game work is split into L1.5G-A through L1.5G-E. Any graphical-g
 
 L1.6 must use one fresh paragraph build to prove at least one procedure/visual sequence can be generated from or validated against PV data, using the L-PV contract/proof machinery if the PV registry and validator have reached the required gate.
 
-L1.7 scaling decision must include PV readiness: procedure consistency, visual semantic anchors, surface variants, game mapping, answer-model alignment, proof-record completeness, and generator-block controls.
+L1.7A scaling-readiness gate must include PV readiness: procedure consistency, visual semantic anchors, surface variants, game mapping, answer-model alignment, proof-record completeness, and generator-block controls.
 
 ## Layout Reference
 
@@ -237,7 +247,7 @@ chosen at runtime against the same adaptive-payload seam that L1.5G-B
 builds for the games. One adaptive exercise surface, not three static
 handouts.
 
-This is a future sprint cycle, scheduled after L1.7. It is not built in
+This is a future sprint cycle, scheduled after L1.7A. It is not built in
 this roadmap; the only thing this roadmap carries is the shared seam, so
 the dynamic `begeleide inoefening` can wire onto the same localStorage
 payload when the advisor lands.
@@ -607,7 +617,7 @@ Delivered:
   present, instead of accidentally converting local prototype decks.
 - The link checker ignores intentionally unlinked `*-prototype.html` baselines.
 - Review/bookkeeping artifacts were added or refreshed:
-  `L1.5D-b02-cross-surface-parity-plan.md`, `1.1.1-review.md`, and the
+  `archive/sprints/L1.5D-B02/L1.5D-b02-cross-surface-parity-plan.md`, `1.1.1-review.md`, and the
   L1.5D review/handoff logs.
 
 Evidence:
@@ -1233,7 +1243,7 @@ Exit criteria:
 
 Closure evidence:
 
-- `L1.4-sprint-plan.md` contains the executed procedure and closure log.
+- `archive/sprints/L1.4/L1.4-sprint-plan.md` contains the executed procedure and closure log.
 - `1.1.2-companion-visual-review.md` records `PASS WITH FLAGS`.
 - Green gates at close: `student-web` complete validation, `publisher-print` Part A validation, deploy link/data tests, skilltree Jest, full `check:book`, and browser screenshot QA for wide/narrow plus light/dark representative states.
 - Remaining flag: formal teacher/student review is still needed before final house-style lock-in.
@@ -1256,7 +1266,7 @@ Work:
 - Read the PV-G4 proof requirements, proof template, and current proof-intake
   report from `4veco-platform/references/data/procedure-visual/` and
   `4veco-platform/reports/review-gates/GATE-PV-G4-lesson-regression/`.
-- Write `L-PV0-proof-track-plan.md` with exact proof candidates, artifact paths,
+- Write `archive/sprints/L-PV0/L-PV0-proof-track-plan.md` with exact proof candidates, artifact paths,
   validation commands, no-hand-patch evidence, stop conditions, and non-goals.
 - Candidate 1 should be `1.1.1 Schaarste en economisch denken` mapped to
   `choose_by_opportunity_cost_flow`, unless L-PV0 finds a current blocker.
@@ -1276,7 +1286,7 @@ Exit criteria:
 
 Closure evidence:
 
-- `L-PV0-proof-track-plan.md` created and later marked closed.
+- `archive/sprints/L-PV0/L-PV0-proof-track-plan.md` created and later marked closed.
 - Candidate 1 selected `1.1.1` B02 / `choose_by_opportunity_cost_flow`.
 - Candidate 2 selected bounded A61 table-trace pilot / `select_table_values_trace`.
 
@@ -1489,7 +1499,7 @@ Closure evidence:
 - HCS review plan: `pv-g4-proof-records/HCS-PV-G4-lead-review-plan.md`.
 - HCS review record: `pv-g4-proof-records/HCS-PV-G4-lead-review-record.md`.
 - HCS verification: `pv-g4-proof-records/HCS-PV-G4-lead-review-verification.md`.
-- Sync log: `L-PV5-roadmap-sync-log.md`.
+- Sync log: `archive/sprints/L-PV5/L-PV5-roadmap-sync-log.md`.
 - Reconciled platform intake: `reports/json/procedure-visual-lesson-regression-proof-intake.json` in `4veco-platform`.
 
 Decision recorded:
@@ -1567,8 +1577,8 @@ Exit criteria:
 
 Closure evidence:
 
-- Plan and closure: `L1.5B-sprint-plan.md`.
-- Dedicated log: `L1.5B-closure-log.md`.
+- Plan and closure: `archive/sprints/L1.5B/L1.5B-sprint-plan.md`.
+- Dedicated log: `archive/sprints/L1.5B/L1.5B-closure-log.md`.
 - Platform source commit:
   `cb216ed160a9298f7f4393034b6c1d842a387ff9`.
 - Generated output: Book 1 root index, chapter 1.1 index, and shared
@@ -1616,9 +1626,9 @@ MVP cut:
 
 Closure evidence:
 
-- `L1.5G-A-graphical-game-scope-plan.md`
-- `L1.5G-A-prototype-extraction-matrix.md`
-- `L1.5G-A-mvp-data-model-sketch.md`
+- `archive/sprints/L1.5G-A/L1.5G-A-graphical-game-scope-plan.md`
+- `archive/sprints/L1.5G-A/L1.5G-A-prototype-extraction-matrix.md`
+- `archive/sprints/L1.5G-A/L1.5G-A-mvp-data-model-sketch.md`
 
 PV/adaptive boundary:
 
@@ -1655,8 +1665,8 @@ Exit criteria:
 Closure evidence:
 
 - Platform commit `9014a50eb85ccbd48c0770bf677b36d75455aa48`.
-- Lesson closure log: `L1.5G-B-closure-log.md`.
-- Sprint plan: `L1.5G-B-adaptive-seam-plan.md`.
+- Lesson closure log: `archive/sprints/L1.5G-B/L1.5G-B-closure-log.md`.
+- Sprint plan: `archive/sprints/L1.5G-B/L1.5G-B-adaptive-seam-plan.md`.
 - Generated Book 1 game shells were rebuilt by platform `deploy.js`; no
   generated lesson output was hand-patched.
 - Gates passed: focused seam Jest 8/8, deploy link/data checks, procedure
@@ -1694,8 +1704,8 @@ Work:
 Closure evidence:
 
 - Platform commit `042d7aea4f4cfbe5cd026a3a29cbb57891f795be`.
-- Lesson closure log: `L1.5G-C-closure-log.md`.
-- Sprint plan: `L1.5G-C-graphical-game-mvp-plan.md`.
+- Lesson closure log: `archive/sprints/L1.5G-C/L1.5G-C-closure-log.md`.
+- Sprint plan: `archive/sprints/L1.5G-C/L1.5G-C-graphical-game-mvp-plan.md`.
 - Generated output includes `shared/graphical/1.1.2.js`, shared graphical
   engine files, `1.1.2 Percentages en indexcijfers – grafiekenspel.html`,
   and a regenerated `1.1.2` landing page.
@@ -1751,8 +1761,8 @@ Exit criteria:
 Closure evidence:
 
 - Platform commit `84ed88e78791203db779a4daecbc02589c99ed1d`.
-- Sprint plan: `L1.5G-D-three-aspect-routing-plan.md`.
-- Closure log: `L1.5G-D-closure-log.md`.
+- Sprint plan: `archive/sprints/L1.5G-D/L1.5G-D-three-aspect-routing-plan.md`.
+- Closure log: `archive/sprints/L1.5G-D/L1.5G-D-closure-log.md`.
 - Green gates: landing generator Jest, deploy link/data checks, `1.1.1` and
   `1.1.2` complete student-web validation, procedure-contract validator
   289 checks, Book 1 health 26/26, platform Jest 494 passed / 8 skipped, and
@@ -1797,16 +1807,16 @@ preserved.
 
 Technical evidence prepared:
 
-- Plan: `L1.5G-E-integration-qa-review-gate-plan.md`.
-- Technical QA report: `L1.5G-E-technical-qa-report.md`.
-- Human-review packet: `L1.5G-E-human-review-packet.md`.
-- Human-review record: `L1.5G-E-human-review-record.md`.
-- Student-experience review: `L1.5G-E-student-experience-review.md`.
+- Plan: `archive/sprints/L1.5G-E/L1.5G-E-integration-qa-review-gate-plan.md`.
+- Technical QA report: `archive/sprints/L1.5G-E/L1.5G-E-technical-qa-report.md`.
+- Human-review packet: `archive/sprints/L1.5G-E/L1.5G-E-human-review-packet.md`.
+- Human-review record: `archive/sprints/L1.5G-E/L1.5G-E-human-review-record.md`.
+- Student-experience review: `archive/sprints/L1.5G-E/L1.5G-E-student-experience-review.md`.
 - Teacher-learning-quality review:
-  `L1.5G-E-teacher-learning-quality-review.md`.
-- Lead review summary: `L1.5G-E-lead-review-summary.md`.
-- Closure log: `L1.5G-E-closure-log.md`.
-- Screenshot evidence: `L1.5G-E-screenshots/`.
+  `archive/sprints/L1.5G-E/L1.5G-E-teacher-learning-quality-review.md`.
+- Lead review summary: `archive/sprints/L1.5G-E/L1.5G-E-lead-review-summary.md`.
+- Closure log: `archive/sprints/L1.5G-E/L1.5G-E-closure-log.md`.
+- Screenshot evidence: `archive/sprints/L1.5G-E/L1.5G-E-screenshots/`.
 
 Technical status:
 
@@ -1862,7 +1872,7 @@ L1.5G-A through L1.5G-E sections above as the authoritative plan.
 
 ### Sprint L1.6: Second Pipeline Regression Paragraph
 
-Completed: no.
+Completed: 2026-05-18.
 
 Position: after the urgent L1.5P print cut and the L1.5Q blueprint-source
 decision are safe enough not to conflict with the fresh paragraph build. L1.6
@@ -1903,20 +1913,95 @@ Exit criteria:
 - browser smoke confirms Layout Round 2 + new graphical game + adaptive seam
   + web-rendered authored content hold on new content
 
-### Sprint L1.7: Post-Layout Scaling Decision
+Post-closure incident:
+
+On 2026-05-19, post-closure review accepted that L1.6 was technically useful
+but found a systemic dual-coding failure in the `1.1.3` companion layer. The
+presentation, vaardigheden page, and guided-practice surfaces explain
+graphs/tables without consistently showing the graph/table learning objects.
+This does not erase the fresh-build proof, but it reopens the `1.1.3`
+student-facing companion quality verdict. L1.6R must run before L1.7A.
+
+### Sprint L1.6R: 1.1.3 Dual-Coding Remediation
+
+Completed: no.
+
+Position: active incident-remediation sprint before L1.7A.
+
+Plan: `L1.6R-dual-coding-remediation-plan.md`.
+
+Incident record: `L1.6R-dual-coding-incident-record.md`.
+
+Purpose:
+
+Repair the `1.1.3 Grafieken en tabellen` companion layer so graph/table
+procedures are visibly attached to the tables, axes, points, guide lines,
+scales, and graph comparisons students must inspect.
+
+Work:
+
+- Rebuild the presentation through platform source so graph/table slides show
+  actual visuals, not only text cards or procedure routes.
+- Rebuild `uitleg vaardigheden` so each core procedure has a worked visual
+  example beside the steps.
+- Rebuild `begeleide inoefening` so graph/table exercises include their source
+  graph or table.
+- Add visual support to voorkennis, samenvatting, and nieuws met visual where
+  needed.
+- Add or log the platform path for a dual-coding contract, semantic
+  visual-object presence check, plan-vs-artifact visual reconciliation, and
+  semantic screenshot QA.
+- Update review questions so graph/table paragraphs require visible evidence:
+  table, axis, point, guide line, and scale comparison.
+- Update quality-ref/review state so core modality absence is REVISE/FAIL, not
+  PASS WITH FLAGS.
+
+Out of scope:
+
+- broad redesign of the graphical game
+- target-exercise distribution audit
+- adaptive behavior, diagnostics, mastery, sequencing, AI, or summative use
+- PV projection or PV machine promotion
+- hand-patching generated lesson output
+
+Exit criteria:
+
+- required visuals are present on presentation, vaardigheden, and guided
+  practice surfaces
+- every graph/table procedure has `procedure + worked visual example + student
+  action`
+- semantic visual QA records each required visual object and evidence
+- `1.1.3` complete student-web validation passes again
+- Part A publisher-print validation remains green
+- procedure-contract validation and Book 1 health remain green
+- review records close L1.6R as PASS WITH FLAGS or better
+- L1.7A receives an explicit modality-gate result
+
+### Sprint L1.7A: Scaling Readiness And Modality Gate Review
 
 Completed: no.
 
 Purpose:
 
-Decide whether companion production may expand broadly after two independent
-paragraph builds against two successive layout states.
+Decide what the lesson side has actually proven and what remains too weak for
+broad scaling. L1.7A is a readiness, modality, and flag-triage gate, not a
+production scaling sprint.
 
 Work:
 
 - Review the regenerated `1.1.1` plus the L1.4 and L1.6 paragraphs after
   layout/UI and visual-integration improvements.
-- Decide whether to expand to 3-5 more representative paragraphs.
+- Build a readiness matrix for Part A, landing pages, procedure contracts,
+  semantic visual adequacy, presentation-v2, begeleide inoefening, graphical
+  game, inert adaptive seam, target exercises, and PV/A61 boundaries.
+- Record whether L1.6R repaired the `1.1.3` dual-coding failure or whether it
+  remains a scale-blocking modality risk.
+- Classify every visible flag as fix-now, carry-forward, or defer.
+- Decide whether the next lesson sprint should be polish, another regression
+  paragraph, controlled production, or a pause for reference hardening.
+- Explicitly answer: are we ready to scale many paragraphs? Current expected
+  answer is no: ready for controlled next-step production only, not broad
+  scaling.
 - Keep all builder scripts saved under the platform `build-scripts/content/book-1/`
   workflow.
 - Separate remaining content problems from platform usability problems.
@@ -1926,20 +2011,60 @@ Work:
 
 Target-exercise note:
 
-L1.7 may log visible target-exercise red flags found during companion scaling,
+L1.7A may log visible target-exercise red flags found during readiness review,
 but it does not perform the full target-exercise distribution audit. The full
 audit is deferred to L2.4-TEA, after MTU quality and review instrumentation are
-strong enough to support reliable judgement. L1.7 is a companion-scaling and
-generator-reproducibility decision, not a hidden curriculum redesign sprint.
+strong enough to support reliable judgement. L1.7A is a readiness and flag
+triage sprint, not a hidden curriculum redesign sprint.
 
 Exit criteria:
 
-- improved companion pages pass validation and browser checks
-- the platform team confirms the layout and visual-variant direction is
-  reproducible across three paragraphs under two layout states
-- PV-backed or PV-validated pilot sequences do not require manual duplication
-  across lesson surfaces before scaling
-- the lesson team has a go/no-go decision for broader companion production
+- a readiness matrix exists and covers each major pipeline area
+- each current L1.6/L1.5Q flag is classified as fix-now, carry-forward, or
+  defer
+- the lesson team records whether the next sprint is L2.0 cleanup, another
+  regression paragraph, controlled production, or reference hardening
+- broad companion production is either explicitly rejected for now or given a
+  narrow, evidence-bounded condition set
+- PV-G4 blocked-use boundaries remain explicit
+
+### Sprint L2.0: Book 1 Flag Burn-down And House-Style Cleanup
+
+Completed: no.
+
+Position: after L1.7A and before any broad companion scaling.
+
+Purpose:
+
+Clean the easy and visible flags from the first three built paragraphs and
+turn `1.1.1` through `1.1.3` into a trustworthy Book 1 student-web house-style
+baseline.
+
+Work:
+
+- Fix or explicitly accept the `1.1.3` Part A figure-numbering flag.
+- Decide whether duplicated worked examples in `opgaven.md` are intentional
+  standalone-document support or unnecessary bloat.
+- Review whether `1.1.1`, `1.1.2`, and `1.1.3` quality refs use consistent
+  status language.
+- Define what `PASS WITH FLAGS` means operationally for pilot, release, and
+  scaling decisions.
+- Create a concise Book 1 student-web house-style baseline from the first three
+  built paragraphs.
+
+Out of scope:
+
+- new companion/game features
+- adaptive behavior
+- target-exercise distribution audit
+- broad paragraph production
+
+Exit criteria:
+
+- each easy visible Book 1 flag has a decision or fix
+- house-style baseline exists and references the actual built paragraphs
+- Book 1 health remains green
+- no generated lesson output is hand-patched
 
 ### Sprint L1.5P: Boek 1 Print-Edition Cut + 2026/27 12-Paragraph Scope
 
@@ -2036,7 +2161,7 @@ Closure evidence:
 - Final green gates: strengthened print-scope checker 12/12, `check:book`
   26/26, focused print-scope Jest 5/5, full platform Jest 502 passed / 8
   skipped, markdown/PDF excluded-term scans clean.
-- Review and correction record: `L1.5P-lead-review-record.md`.
+- Review and correction record: `archive/sprints/L1.5P/L1.5P-lead-review-record.md`.
 
 ### Sprint L1.5Q: Course Blueprint v5 + Four Test-Week Book Plan
 
@@ -2137,7 +2262,7 @@ Book 2 should prove that the Book 1 Part A workflow is repeatable, not just a on
 
 Completed: no.
 
-Position: future quality sprint after L1.7 and after the micro-teaching-unit
+Position: future quality sprint after L1.7A and after the micro-teaching-unit
 layer plus companion-quality review instruments are mature enough to support
 reliable judgement.
 
@@ -2188,22 +2313,27 @@ Outputs:
 
 - Keep Book 1 green.
 - Use the L1.5P print PDF as the current publisher-print baseline.
-- Start L1.5Q as the active curriculum-source track: create the v5 blueprint
-  and target-exercise source-of-truth migration path.
-- Continue companion pilot work only where it does not conflict with L1.5Q
-  source-of-truth decisions.
+- Run L1.6R as the active lesson-quality remediation track before L1.7A.
+- Keep L1.5Q/v5 as the active curriculum-source baseline, but do not treat
+  migrated target exercises as final-reviewed.
+- Continue companion pilot work only where it supports the L1.6R modality gate
+  or does not conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
 - Keep Book 2 Part A planning paused behind L1.5Q if it depends on the new
   course structure.
 
 ### Next 2-4 Weeks
 
-- Run L1.5Q so `course_blueprint_v5.md` and the target-exercise source-of-truth
-  path are clear before Book 2 production.
+- Complete L1.6R and use L1.7A to decide whether the next lesson sprint is
+  cleanup, another regression paragraph, controlled production, or reference
+  hardening.
+- Keep `course_blueprint_v5.md` and the target-exercise source-of-truth path as
+  the active baseline before Book 2 production.
 - `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.
 - A second Book 1 companion paragraph is built under L1.4 against the current platform state, surfacing any pipeline gap that a second regeneration reveals.
 - Layout Round 2 (L1.5) acts on the combined findings from the L1.3A-C usability review and the L1.4 regression paragraph; changes land in platform-owned sources only.
-- A third Book 1 companion paragraph is built under L1.6 to confirm the Round 2 layout survives a second independent regeneration before the scaling decision.
+- L1.6 remains the third-paragraph technical proof, but L1.6R must repair the
+  `1.1.3` companion dual-coding failure before the scaling decision.
 - Book 1 teacher-facing polish continues without breaking `check:book`.
 
 ### Months 1-3
