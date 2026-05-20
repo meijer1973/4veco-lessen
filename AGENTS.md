@@ -34,6 +34,28 @@ artifacts when the platform workflow explicitly calls for writing them here.
 If the task changes how materials are produced, make that change in
 `4veco-platform` first.
 
+## Exam-Target Paragraph End-State
+
+The lesson side is being prepared for paragraphs whose target exercise is an
+official CvTE economics exam question.
+
+An exam-target paragraph must build backward from the official question,
+source annexes, figures/tables/graphs, official correction model, point
+allocation, and answer-construction requirements. The paragraph plan must make
+every official answer-model step traceable to one of:
+
+- taught explicitly in Part A;
+- practised in textbook opgaven;
+- scaffolded in begeleide inoefening;
+- repeated in a companion/game surface;
+- assumed as prior knowledge with MTU evidence;
+- deliberately out of scope, with reason.
+
+Do not build or patch this directly in generated lesson output. Use the
+platform exam-ingestion overlay, MTU mapping, paragraph-plan contract, and
+build workflow once the reference team has authorized the relevant EX/L-EX
+sprint.
+
 ## Read first
 
 - Use `../CLAUDE.md` "Working agreement — how Claude operates in this repo" for the seven non-negotiable operating rules (read-first, sanity-check-plans, be-honest-about-mistakes, quality-over-patchwork). Applies to every task.

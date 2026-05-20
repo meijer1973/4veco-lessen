@@ -11,6 +11,8 @@ for closed work live under `archive/sprints/<sprint-id>/`.
 |--------|------|-----------|---------------|
 | L1.7A | Scaling Readiness And Modality Gate Review | no | **ACTIVE / FOUNDATION-HARDENING DECISION SPRINT.** Replaces the old `L1.7 Post-Layout Scaling Decision` framing. Do not treat L1.6 or L1.6R as broad-scaling approval. Build a readiness matrix for Part A, landing pages, procedure contracts, semantic visual adequacy, presentation-v2, begeleide inoefening, graphical game, inert adaptive seam, target exercises, and PV/A61 boundaries. Classify flags as fix-now / carry-forward / defer. Expected decision: controlled next-step production may continue only if modality gates stay explicit; broad paragraph scaling remains paused until quality gates are cleaner. |
 | L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | no | **FUTURE CLEANUP SPRINT BEFORE BROAD SCALING.** Clean easy visible flags and define the Book 1 student-web house-style baseline from `1.1.1` through `1.1.3`: figure numbering, duplicated worked-example policy, consistent quality-ref status language, operational meaning of PASS WITH FLAGS, and house-style notes for landing, presentation, guided practice, procedure contracts, and graphical MVP limits. No new features. |
+| L-EX0 | Exam-Target Paragraph Contract | no | **FUTURE CONTRACT SPRINT.** Define how the lesson team builds a paragraph when the target exercise is an official exam question. No broad production. Output is a paragraph-plan contract, review checklist, handoff requirements back to platform, and one dry-run plan. Requires platform EX-0 contract evidence or an explicitly bounded substitute. |
+| L-EX1 | Exam-Target Paragraph Pilot | no | **FUTURE CONTROLLED PILOT.** Build one paragraph around a real official exam question using platform exam-ingestion data, source annexes, answer-model decomposition, MTU mapping, and companion visual/answer-model gates. No broad companion scaling or generated-output hand patching. |
 | L-CP6A | Book 1 Chapter 1.3 v5 Alignment Remediation | **2026-05-19** | **CLOSED PASS WITH FLAGS.** Lesson-side CP.6a mismatch is fixed for references-team recheck, without claiming CP-6 or Year-1 closure. Active Chapter 1.3 now aligns v5 as `1.3.1 Aanbod`, `1.3.2 Marktevenwicht`, `1.3.3 Verschuivingen en nieuw evenwicht`, and `1.3.4 Gemengde opgaven`; former costs/revenue material is archived under `archive/sprints/L-CP6A/displaced-book2-material/` for Book 2 survival. Green gates: active Chapter 1.3 validation, Book 1 health 26/26, Book 1 print scope 12/12, v5 target-exercise count 54 with 12/12/14/16, focused book Jest 7/7, full platform Jest 515 passed / 8 skipped. Records: `archive/sprints/L-CP6A/L-CP6A-sprint-plan.md`, `archive/sprints/L-CP6A/L-CP6A-technical-qa-report.md`, `archive/sprints/L-CP6A/L-CP6A-closure-log.md`, `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`. Flags: target exercises remain migrated/placeholders, inherited Part A duplicate-opgaven pattern remains a maintenance flag, and references team must re-evaluate CP.6a. |
 | Scale Gate 1 | Foundation Hardening Scale Gate | no | **FUTURE JOINT DECISION.** After L1.7A, L2.0, REF-CT0/REF-CT1, and minimal curriculum-versioning readiness, decide controlled production versus more reference hardening. No adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion may be authorized by this gate. |
 | SYNC-1 | Roadmap Reconciliation | **2026-05-18** | **CLOSED PASS.** Log: `archive/sprints/SYNC-1/SYNC-1-roadmap-reconciliation-log.md`. Joint roadmap sync after L1.5P/L1.5Q/L1.6. Lesson and reference roadmaps now agree that broad lesson scaling is not approved yet. Coming-period focus is foundation hardening: reconcile roadmap state, normalize the rough three-year blueprint as a non-authoritative planning prototype, classify MTU/target-exercise gaps, triage lesson-side flags, and decide controlled production only through a later Scale Gate. |
@@ -103,6 +105,7 @@ Updated: 2026-05-19 (L1.6R revise addressed) - L1.6R human review returned REVIS
 Updated: 2026-05-19 (L1.6R close) - focused human recheck accepted the guided-practice visual-value concordance correction and closed L1.6R as PASS WITH FLAGS. `1.1.3-quality-ref.yaml` now records `human_review_status: "pass_with_flags"` and `l16r_dual_coding.status: "pass_with_flags"`. L1.6R sprint plans, review records, QA reports, closure log, and screenshots are archived under `archive/sprints/L1.6R/`. L1.7A is now the active readiness/modality gate; broad scaling remains paused until that decision is recorded.
 
 Updated: 2026-05-19 (L-CP6A close) - lesson-side CP.6a remediation closed PASS WITH FLAGS. A platform-owned migration script aligned active Book 1 Chapter 1.3 to v5, archived displaced costs/revenue material for Book 2 survival, regenerated `1.3.2`, `1.3.3`, `1.3.4`, Chapter 1.3, and aggregate Book 1 output, and preserved the rule that CP-6/Year 1 are not closed here. Green gates: Chapter 1.3 validation, Book 1 health 26/26, print-scope 12/12, v5 target-exercise counts 54 with 12/12/14/16, focused book Jest 7/7, full platform Jest 515 passed / 8 skipped. References-team handoff: `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`.
+Updated: 2026-05-20 (EX-NS0 exam-ingestion north-star) - official exam-target paragraph work is now explicit as a future cross-repo endpoint. The platform side owns exam-ingestion overlays, source-annex and answer-model traceability, MTU mapping, and operation classification. The lesson side now inserts L-EX0 and L-EX1 before L2.4-TEA: first define the paragraph-plan contract and review checklist, then run one controlled pilot paragraph around a real official exam question. This update authorizes no broad production, no generated-output hand patching, no CP-6/Year-1 closure, no target-exercise promotion, and no diagnostics/adaptive/mastery/summative/student-facing AI use.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
 
 ## Mission
@@ -113,6 +116,7 @@ Own the material side of delivery:
 - Book 1 foundation hardening and flag burn-down
 - Book 2 Part A textbook production only after the foundation gates allow it
 - companion MVP work, treated as an active pilot until quality and usability are good enough to scale
+- exam-target paragraph contracts, once the platform reference layer provides official exam prompt, source-annex, correction-model, MTU, and answer-operation evidence
 
 ## Current Status
 
@@ -2276,6 +2280,75 @@ Required gates:
 - chapter validation
 
 Book 2 should prove that the Book 1 Part A workflow is repeatable, not just a one-off success.
+
+### Sprint L-EX0: Exam-Target Paragraph Contract
+
+Completed: no.
+
+Position: future contract sprint before L2.4-TEA and before any exam-target
+paragraph production.
+
+Purpose:
+
+Define how the lesson team builds a paragraph when the target exercise is an
+official exam question rather than a clean owned target exercise.
+
+Inputs:
+
+- platform exam-ingestion overlay or explicitly bounded EX-0 substitute
+- official question prompt
+- source annexes / figures / tables
+- official correction model
+- MTU decomposition
+- graph/source/answer-operation requirements
+
+Outputs:
+
+- updated paragraph-plan contract for exam-target paragraphs
+- one dry-run paragraph plan, no full production required
+- review checklist for exam-target paragraphs
+- handoff requirements back to platform when source annexes, answer-model
+  steps, graph objects, operations, or MTUs are missing
+
+Exit criteria:
+
+- a reviewer can trace every official answer-model step to something taught,
+  practised, scaffolded, or deliberately assumed
+- no generated lesson output is hand-patched
+- no broad companion scaling is authorized by this sprint
+- diagnostics, adaptive routing, mastery, sequencing, student-facing AI, and
+  summative use remain blocked
+
+### Sprint L-EX1: Exam-Target Paragraph Pilot
+
+Completed: no.
+
+Position: future controlled pilot after L-EX0.
+
+Purpose:
+
+Build one paragraph around a real official exam question using platform
+exam-ingestion data, source annexes, official answer-model decomposition, MTU
+mapping, and companion visual/answer-model gates.
+
+Pilot focus:
+
+- Part A: theory, worked example, opgaven, and answer model prepare the exact
+  official question.
+- Part B: uitleg vaardigheden, presentation, guided practice, and games repeat
+  the same procedure and answer-construction route.
+- Visual QA: all source tables, graphs, and figures required by the official
+  question appear where students need them.
+- Answer-model QA: the paragraph teaches students to produce the answer in the
+  way the correction model rewards.
+
+Exit criteria:
+
+- one controlled paragraph passes exam-target review gates
+- every answer-model operation is taught, practised, scaffolded, or justified
+  as prior knowledge with MTU evidence
+- carried flags are explicit
+- no broad production or target-exercise distribution audit is authorized
 
 ### Sprint L2.4-TEA: Target Exercise Distribution Audit
 

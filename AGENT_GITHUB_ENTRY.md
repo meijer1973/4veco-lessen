@@ -34,6 +34,12 @@ Useful entry points:
 - `AGENTS.md`
 - `lessen-team-roadmap.md`
 - `lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md`
-- `course_blueprint_v4.md`
+- `course_blueprint_v5.md`
 - `index.html`
 - `4veco-platform/reports/github-agent-index-lessen.md` after running `npm run agent:index` in `4veco-platform`
+
+Exam-target work:
+
+- Use `course_blueprint_v5.md` as the active lesson-side curriculum-source baseline.
+- Use `4veco-platform/references/SOURCE_OF_TRUTH.md`, `4veco-platform/references/data/exercises/README.md`, and `4veco-platform/BUILD-PARAGRAPH.md` for the official exam-question ingestion and exam-target paragraph contracts.
+- Do not treat an official exam prompt as enough for a paragraph build unless source annexes and the official correction model are represented or explicitly marked as gaps by the platform-side evidence.

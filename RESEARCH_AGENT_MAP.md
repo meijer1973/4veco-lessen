@@ -15,6 +15,7 @@ The lesson-material corpus answers:
 - which planning state and quality verdict applies to each paragraph
 - which assets (figures, worked examples, exercises, news visuals) anchor the visual layer
 - which shared engines render the interactive companion games
+- how future exam-target paragraphs should trace official exam prompts, source annexes, correction-model steps, and MTU/operation requirements to teaching and practice surfaces
 
 Repository boundary:
 
@@ -30,6 +31,13 @@ Repository boundary:
 This repository is a **generated student-facing target**, not a content authoring platform. The platform repo (`4veco-platform`) builds into this one. When a research question is about *how* output is produced, redirect to the platform repo; when the question is *what is currently published*, this repo is the authoritative source.
 
 When a planning document and a generated artifact disagree, inspect both. The planning document records intent; the generated artifact records the last successful build.
+
+Exam-target paragraph note: this repo can show whether a paragraph, source
+object, companion surface, or quality log exists. It does not own the
+exam-ingestion contract. For official exam-question ingestion, source-annex
+coverage, correction-model decomposition, MTU mapping, and answer-operation
+requirements, inspect `4veco-platform` first, then confirm generated lesson
+artifacts here.
 
 ## Access Layer
 
@@ -79,7 +87,7 @@ Human-readable:
 - `AGENT_GITHUB_ENTRY.md` (one-page GitHub orientation for agents)
 - `AGENTS.md` (operating rules for any agent acting on this repo)
 - `lessen-team-roadmap.md` (sprint ledger, mission, current status, guardrails)
-- `course_blueprint_v4.md` (full 4-book × 5-chapter curriculum blueprint)
+- `course_blueprint_v5.md` (active four-book / four-test-week curriculum-source baseline)
 - `plan-1.1.1-part-b-clarity-audit.md` (active plan document at root)
 - `Boek 1 - Grondslagen, vraag en aanbod/index.html` (book-level landing)
 - `Boek 1 - Grondslagen, vraag en aanbod/Boek 1 Grondslagen, vraag en aanbod – boek.md`
@@ -105,7 +113,7 @@ entry_points (full URLs):
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/index.html
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/AGENTS.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
-- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v4.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v5.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/plan-1.1.1-part-b-clarity-audit.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/index.html
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/Boek%201%20Grondslagen%2C%20vraag%20en%20aanbod%20%E2%80%93%20boek.md
@@ -135,8 +143,8 @@ URL index (single fetch unlocks the rest of the surface, served from the platfor
 {
   "repo_operating_rules": "AGENTS.md",
   "team_roadmap": "lessen-team-roadmap.md",
-  "open_lesson_ticket_cp6a_chapter13_alignment": "lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md",
-  "course_blueprint": "course_blueprint_v4.md",
+  "closed_lesson_ticket_cp6a_chapter13_alignment": "lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md",
+  "course_blueprint": "course_blueprint_v5.md",
   "active_root_plan": "plan-1.1.1-part-b-clarity-audit.md",
   "exam_reference_pdf": "vw-1022-a-25-1-o.pdf",
   "top_landing": "index.html",
@@ -158,7 +166,7 @@ Concrete index-anchor files (templates with `<book-title>` / `N.M.K` placeholder
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/AGENTS.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md
-- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v4.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v5.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/plan-1.1.1-part-b-clarity-audit.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/vw-1022-a-25-1-o.pdf
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/index.html
@@ -189,14 +197,14 @@ Use these index anchors before free-form browsing. The plan files state intent, 
     "Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/1.1.3 Grafieken en tabellen",
     "Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/1.1.4 Gemengde opgaven",
     "Boek 1 - Grondslagen, vraag en aanbod/1.2 Hoofdstuk Vraag",
-    "Boek 1 - Grondslagen, vraag en aanbod/1.3 Hoofdstuk Aanbod en kosten",
+    "Boek 1 - Grondslagen, vraag en aanbod/1.3 Hoofdstuk Aanbod en marktevenwicht",
     "Boek 1 - Grondslagen, vraag en aanbod/1.4 Hoofdstuk Marktevenwicht en marginale analyse",
     "Boek 1 - Grondslagen, vraag en aanbod/1.5 Hoofdstuk Toetsvoorbereiding"
   ],
   "root_doc_paths": [
     "AGENTS.md",
     "lessen-team-roadmap.md",
-    "course_blueprint_v4.md",
+    "course_blueprint_v5.md",
     "plan-1.1.1-part-b-clarity-audit.md",
     "vw-1022-a-25-1-o.pdf",
     "index.html",
@@ -314,7 +322,7 @@ root_doc_paths (full URLs):
 
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/AGENTS.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
-- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v4.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v5.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/plan-1.1.1-part-b-clarity-audit.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/vw-1022-a-25-1-o.pdf
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/index.html
@@ -378,9 +386,9 @@ If a constructed path fails, apply `Failure Handling`.
 {
   "root_planning_and_reference": {
     "epistemic_role": "operating rules, course blueprint, sprint state, and one external exam reference",
-    "contains": "AGENTS.md, lessen-team-roadmap.md, course_blueprint_v4.md, plan-*.md, vw-*.pdf, top-level index.html",
+    "contains": "AGENTS.md, lessen-team-roadmap.md, course_blueprint_v5.md, plan-*.md, vw-*.pdf, top-level index.html",
     "preferred_use": "understand mission, current sprint, blueprint scope, and external alignment",
-    "edit_policy": "AGENTS.md and roadmap edited only as planning updates; course_blueprint_v4.md and the exam PDF are read-only references; index.html is hand-maintained"
+    "edit_policy": "AGENTS.md and roadmap edited only as planning updates; course_blueprint_v5.md and the exam PDF are read-only references; index.html is hand-maintained"
   },
   "book_layer": {
     "epistemic_role": "per-book deploy config, landing page, and assembled-book artifacts",
@@ -445,7 +453,7 @@ Use this hierarchy when evidence conflicts:
 6. The review markdown — `<id>-review.md` — is the authoritative human-pass verdict.
 7. Assembled artifacts (`– hoofdstuk.{html,pdf}`, `– boek.{html,pdf}`) reflect the last build only; if they disagree with the paragraph markdown, trust the paragraph markdown and flag the assembly as stale.
 8. The team roadmap — `lessen-team-roadmap.md` — is planning state, not factual evidence about generated artifacts.
-9. The course blueprint — `course_blueprint_v4.md` — is upstream curriculum design, not proof that any paragraph implements it.
+9. The course blueprint — `course_blueprint_v5.md` — is upstream curriculum design, not proof that any paragraph implements it.
 10. Companion artifacts (HTML games, DOCX, PPTX) are pilot-stage; absence of a companion is not a defect unless the paragraph is in a closed companion sprint.
 
 Do not infer that an artifact exists from the plan. Always confirm by listing the directory or fetching the file.
@@ -528,7 +536,7 @@ Rules:
 ```json
 {
   "course_overview": [
-    "course_blueprint_v4.md",
+    "course_blueprint_v5.md",
     "lessen-team-roadmap.md",
     "index.html",
     "Boek 1 - Grondslagen, vraag en aanbod/index.html"
@@ -606,8 +614,13 @@ Rules:
   ],
   "exam_alignment": [
     "vw-1022-a-25-1-o.pdf",
-    "course_blueprint_v4.md",
+    "course_blueprint_v5.md",
     "Boek 1 - Grondslagen, vraag en aanbod/1.5 Hoofdstuk Toetsvoorbereiding"
+  ],
+  "exam_target_paragraph_research": [
+    "lessen-team-roadmap.md",
+    "AGENTS.md",
+    "course_blueprint_v5.md"
   ],
   "toetsvoorbereiding_research": [
     "Boek N - <book-title>/N.M Hoofdstuk Toetsvoorbereiding/_chapter-plan.md",
@@ -702,7 +715,7 @@ Suggested categories:
 - engine drift (`shared/` file out of sync with `4veco-platform/engines/`)
 - quality-log integrity (yaml or review.md missing or contradicting markdown)
 - roadmap/ownership clarity
-- exam alignment (against `vw-1022-a-25-1-o.pdf` and `course_blueprint_v4.md`)
+- exam alignment (against `vw-1022-a-25-1-o.pdf` and `course_blueprint_v5.md`)
 
 ## Output Constraints
 
