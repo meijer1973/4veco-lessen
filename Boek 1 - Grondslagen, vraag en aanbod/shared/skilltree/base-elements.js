@@ -1450,6 +1450,9 @@
                     "name": "Lineaire functie opstellen",
                     "layer": 0,
                     "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Stel een lineaire functie op (y = ax + b) vanuit een economische context, zoals een vraag- of aanbodfunctie."
             },
             {
@@ -1457,6 +1460,10 @@
                     "name": "Vergelijking oplossen",
                     "layer": 0,
                     "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Los een vergelijking met één onbekende op, bijvoorbeeld door twee functies aan elkaar gelijk te stellen."
             },
             {
@@ -1464,6 +1471,9 @@
                     "name": "Functie omschrijven (P↔Q)",
                     "layer": 0,
                     "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Schrijf een functie om van P als functie van Q naar Q als functie van P, of andersom."
             },
             {
@@ -1471,6 +1481,10 @@
                     "name": "Substitueren",
                     "layer": 0,
                     "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Vul een waarde in een functie in en bereken het resultaat."
             },
             {
@@ -1478,6 +1492,10 @@
                     "name": "Snijpunt met P-as berekenen",
                     "layer": 0,
                     "needs": [],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
                     "desc": "Bereken het snijpunt van een functie met de verticale as (P-as) door Q = 0 in te vullen."
             },
             {
@@ -1487,6 +1505,10 @@
                     "needs": [
                             "A01",
                             "A02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
                     ],
                     "desc": "Bereken de evenwichtsprijs en -hoeveelheid door vraag en aanbod aan elkaar gelijk te stellen."
             },
@@ -1498,6 +1520,11 @@
                             "A01",
                             "A03"
                     ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Stel de totale opbrengstfunctie op: TO = P × Q. Schrijf de vraagfunctie om zodat P in Q is uitgedrukt."
             },
             {
@@ -1506,6 +1533,10 @@
                     "layer": 1,
                     "needs": [
                             "A01"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
                     ],
                     "desc": "Herken en werk met de totale kostenfunctie (TK), vaak gegeven als TK = vaste kosten + variabele kosten × Q."
             },
@@ -1516,6 +1547,9 @@
                     "needs": [
                             "A03"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Tel individuele aanbodfuncties op tot een collectieve aanbodfunctie."
             },
             {
@@ -1525,6 +1559,10 @@
                     "needs": [
                             "A04"
                     ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
                     "desc": "Bereken de oppervlakte van een driehoek in een grafiek: ½ × basis × hoogte."
             },
             {
@@ -1533,6 +1571,9 @@
                     "layer": 1,
                     "needs": [
                             "A01"
+                    ],
+                    "aspects": [
+                            "rekenen"
                     ],
                     "desc": "Bepaal de afgeleide van een functie. Bijvoorbeeld: als TO = 5Q², dan is MO = 10Q."
             },
@@ -1544,6 +1585,10 @@
                             "A11",
                             "A07"
                     ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
                     "desc": "Bepaal de marginale opbrengst (MO) door de afgeleide van de TO-functie te nemen."
             },
             {
@@ -1554,6 +1599,9 @@
                             "A11",
                             "A08"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bepaal de marginale kosten (MK) door de afgeleide van de TK-functie te nemen."
             },
             {
@@ -1562,6 +1610,10 @@
                     "layer": 2,
                     "needs": [
                             "A08"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
                     ],
                     "desc": "Bereken de gemiddelde totale kosten: GTK = TK / Q."
             },
@@ -1573,6 +1625,10 @@
                             "A04",
                             "A38"
                     ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Bereken de prijselasticiteit: Ev = %ΔQv / %ΔP. Bepaal of de vraag elastisch of inelastisch is."
             },
             {
@@ -1581,6 +1637,10 @@
                     "layer": 2,
                     "needs": [
                             "A15"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
                     ],
                     "desc": "Bereken de kruiselasticiteit: Ekr = %ΔQa / %ΔPb. Bepaal of goederen substituten of complementen zijn."
             },
@@ -1591,6 +1651,9 @@
                     "needs": [
                             "A15"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bereken de inkomenselasticiteit: Ei = %ΔQ / %ΔY. Bepaal of een goed normaal, inferieur of luxe is."
             },
             {
@@ -1598,6 +1661,10 @@
                     "name": "Comparatief voordeel bepalen",
                     "layer": 3,
                     "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Vergelijk de alternatieve kosten van twee producenten om te bepalen wie een comparatief voordeel heeft."
             },
             {
@@ -1607,6 +1674,11 @@
                     "needs": [
                             "A06",
                             "A10"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
                     ],
                     "desc": "Bereken het consumenten- of producentensurplus als driehoeksoppervlakte in de vraag-/aanbodgrafiek."
             },
@@ -1619,6 +1691,10 @@
                             "A13",
                             "A02"
                     ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Vind de winstmaximaliserende hoeveelheid door MO gelijk te stellen aan MK en op te lossen."
             },
             {
@@ -1629,6 +1705,10 @@
                             "A07",
                             "A08",
                             "A04"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
                     ],
                     "desc": "Bereken de winst door de totale opbrengst min de totale kosten: W = TO − TK."
             },
@@ -1641,6 +1721,10 @@
                             "A08",
                             "A02"
                     ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Vind de break-evenhoeveelheid door TO = TK op te lossen. Bij dit punt is de winst nul."
             },
             {
@@ -1652,6 +1736,9 @@
                             "A01",
                             "A15"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bereken het nieuwe marktevenwicht nadat de overheid een heffing (accijns) heeft opgelegd, en analyseer hoe de heffing verdeeld wordt tussen consument en producent."
             },
             {
@@ -1662,6 +1749,9 @@
                             "A09",
                             "A03"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bepaal het collectieve aanbod vanuit meerdere individuele aanbieders en bereken het marktevenwicht."
             },
             {
@@ -1671,6 +1761,11 @@
                     "needs": [
                             "A06"
                     ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Analyseer het effect van een minimumprijs: bereken het vraagoverschot en het welvaartsverlies."
             },
             {
@@ -1679,6 +1774,11 @@
                     "layer": 3,
                     "needs": [
                             "A06"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
                     ],
                     "desc": "Analyseer het effect van een maximumprijs: bereken het vraagoverschot en de gevolgen voor consumenten."
             },
@@ -1690,6 +1790,11 @@
                             "A06",
                             "A01"
                     ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Bereken het effect van een subsidie op het marktevenwicht, de prijs en de verdeling van het voordeel."
             },
             {
@@ -1700,6 +1805,10 @@
                             "A13",
                             "A14"
                     ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
                     "desc": "Vind de hoeveelheid waar MK = GTK. Dit is het minimum van de GTK-curve (efficiënte schaal)."
             },
             {
@@ -1708,6 +1817,9 @@
                     "layer": 4,
                     "needs": [
                             "A22"
+                    ],
+                    "aspects": [
+                            "rekenen"
                     ],
                     "desc": "Voer een volledige break-evenanalyse uit: vind de break-evenhoeveelheid en bepaal winst/verlies bij een gegeven Q."
             },
@@ -1718,6 +1830,9 @@
                     "needs": [
                             "A19"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bereken het consumentensurplus voor en na een beleidsverandering en bepaal het verschil."
             },
             {
@@ -1726,6 +1841,9 @@
                     "layer": 4,
                     "needs": [
                             "A24"
+                    ],
+                    "aspects": [
+                            "rekenen"
                     ],
                     "desc": "Ga van individuele aanbodcurves naar de collectieve aanbodcurve en bereken het marktevenwicht."
             },
@@ -1736,6 +1854,10 @@
                     "needs": [
                             "A19",
                             "A23"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
                     ],
                     "desc": "Bereken het welvaartsverlies (deadweight loss) dat ontstaat door een belasting als driehoeksoppervlakte."
             },
@@ -1748,6 +1870,9 @@
                             "A14",
                             "A04"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bepaal de optimale productie bij volkomen mededinging: produceer waar P = MK en bereken de winst."
             },
             {
@@ -1758,6 +1883,10 @@
                             "A19",
                             "A23",
                             "A06"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
                     ],
                     "desc": "Analyseer de effecten van een invoerrecht op binnenlandse productie, consumptie, import en welvaart."
             },
@@ -1770,6 +1899,9 @@
                             "A21",
                             "A04"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bereken de maximale winst van een monopolist: vind Q waar MO = MK, bepaal P en reken W = TO − TK uit."
             },
             {
@@ -1780,6 +1912,9 @@
                             "A20",
                             "A21"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bereken de winst bij prijsdiscriminatie: de monopolist rekent verschillende prijzen in verschillende markten."
             },
             {
@@ -1789,6 +1924,9 @@
                     "needs": [
                             "A28"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bepaal het lange-termijnevenwicht bij volkomen mededinging: P = MK = GTK (minimale GTK)."
             },
             {
@@ -1796,6 +1934,9 @@
                     "name": "Procentuele verandering berekenen",
                     "layer": 0,
                     "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bereken de procentuele verandering met %Δ = (nieuw − oud) / oud × 100, en pas dit toe op prijzen, hoeveelheden, indexcijfers en reële variabelen."
             },
             {
@@ -1804,6 +1945,9 @@
                     "layer": 1,
                     "needs": [
                             "A38"
+                    ],
+                    "aspects": [
+                            "rekenen"
                     ],
                     "desc": "Bereken een prijsindex als mandprijs-jaar-t / mandprijs-basisjaar × 100, en interpreteer het getal als relatieve prijsverandering ten opzichte van basisjaar = 100."
             },
@@ -1814,6 +1958,9 @@
                     "needs": [
                             "A10"
                     ],
+                    "aspects": [
+                            "grafisch"
+                    ],
                     "desc": "Identificeer en arceer de juiste welvaartsregio op een P–Q diagram: consumentensurplus, producentensurplus, belastingopbrengst-rechthoek, welvaartsverlies-driehoek, subsidie-rechthoek, monopoliewinst-rechthoek, of tarief-DWL."
             },
             {
@@ -1823,6 +1970,9 @@
                     "needs": [
                             "A03"
                     ],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Leid de na-belasting aanbodfunctie af door de heffing per eenheid bij de inverse aanbodfunctie op te tellen; bij een subsidie trek je de subsidie per eenheid af. Vervolgens los je Qa_nieuw = Qv op voor het nieuwe evenwicht."
             },
             {
@@ -1830,6 +1980,9 @@
                     "name": "Grafische verschuiving met voor-en-na pijlen",
                     "layer": 1,
                     "needs": [],
+                    "aspects": [
+                            "grafisch"
+                    ],
                     "desc": "Teken een grafische verschuiving (vraag- of aanbodcurve) met zowel de oude als de nieuwe curve, gelabeld D / D' of S / S', en geef de richting aan met pijlen tussen de oude en nieuwe positie."
             },
             {
@@ -1837,6 +1990,9 @@
                     "name": "Totale winst uit gemengde allocatie berekenen",
                     "layer": 3,
                     "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
                     "desc": "Bereken de totale winst van een verdeling van beperkte middelen over meerdere activiteiten door per activiteit (hoeveelheid × winst/eenheid) te berekenen en op te tellen."
             },
             {
@@ -1844,6 +2000,9 @@
                     "name": "Individuele stapfunctie-vraagcurve tekenen uit betalingsbereidheid",
                     "layer": 2,
                     "needs": [],
+                    "aspects": [
+                            "grafisch"
+                    ],
                     "desc": "Teken de individuele vraagcurve van één consument als een stapfunctie: voor elke eenheid een horizontale stap op de hoogte van de betalingsbereidheid voor die eenheid."
             },
             {
@@ -1851,6 +2010,10 @@
                     "name": "Tabelwaarden selecteren voor berekening",
                     "layer": 0,
                     "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
                     "desc": "Selecteer in een economische tabel de waarden die nodig zijn voor een berekening: juiste rij, kolom, periode en oude/nieuwe waarde."
             },
             {
@@ -1858,6 +2021,9 @@
                     "name": "Waarden aflezen uit staafdiagram",
                     "layer": 0,
                     "needs": [],
+                    "aspects": [
+                            "grafisch"
+                    ],
                     "desc": "Lees een waarde af uit een staafdiagram door context, labels, eenheid en schaal te controleren voordat je de staafhoogte gebruikt."
             },
             {
@@ -1865,6 +2031,9 @@
                     "name": "Waarden aflezen uit lijngrafiek",
                     "layer": 0,
                     "needs": [],
+                    "aspects": [
+                            "grafisch"
+                    ],
                     "desc": "Lees een punt of periode af uit een lijngrafiek door context, aslabels, eenheden, schaal en eventuele interpolatie expliciet te controleren."
             }
     ];

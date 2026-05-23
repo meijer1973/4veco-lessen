@@ -84,6 +84,14 @@ var GRAPHICAL_GAME_DATA = {
         "x_label": "hoeveelheid",
         "y_label": "prijs",
         "unit": "euro",
+        "show_value_labels": false,
+        "y_ticks": [
+          2,
+          2.5,
+          3,
+          3.5,
+          4
+        ],
         "series": [
           {
             "label": "100 broodjes",
