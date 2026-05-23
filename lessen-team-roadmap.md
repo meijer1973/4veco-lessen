@@ -9,9 +9,9 @@ for closed work live under `archive/sprints/<sprint-id>/`.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.7C-0 | Shared Skill-Map Engine Contract | no | **ACTIVE / REQUIRED BEFORE THREE-ASPECT GAME UPGRADE AND EXIT-TICKET MVP IMPLEMENTATION.** L1.7B completed the companion-set contract and recorded a stop decision: the current exit-ticket prototype is useful design evidence but is untracked and uses mastery/score/evidence/adaptive-focus semantics that cannot be imported as-is. Define one shared skill-map / skill-tree engine used by the three second-row practice games: `Redeneren`, `Rekenen`, and `Grafieken`, and compact checkpoint mode for the later exit ticket. The shared engine must support aspect filters: reasoning/verbal, calculation, graphical, and mixed only when explicitly requested. It must avoid showing all skills by default. Primary affordance: `Start oefenen` / `Ga verder`. Secondary affordances: skill info, dependency route, goal path, and full tree view. No adaptive diagnostics, mastery decisions, automatic sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
+| L1.7C | Three-Aspect Game Quality Upgrade | no | **ACTIVE / CONTRACT READY, REQUIRED BEFORE BROAD GAME SCALING.** L1.7C-0 closed the shared skill-map engine contract and handed platform support to `GAME-UX-1`. Upgrade `Redeneren`, `Rekenen`, and `Grafieken` as separate core second-row skill-practice engines that consume the shared skill-map contract. Each game receives a scoped skill route: reasoning/verbal only, calculation only, or graph/table/visual only. Produce a reusable game-row quality rubric covering student experience, teacher-learning quality, feedback, scaffolding, final-challenge behavior, mobile/dark rendering, replay value, success states, skill-map clarity, and MTU/procedure/visual alignment where available. Remove answer-revealing defaults, generic feedback, unsafe auto-correct behavior, unclear success states, and unfiltered all-skill views. Graph game needs at least one harder less-labelled variant; calculation game needs calculation field, answer field, and unit where relevant; reasoning game must test causal/procedural reasoning, not only recognition. Stop if meaningful game-row review requires the platform implementation before proceeding. No adaptive diagnostics, mastery, sequencing, AI, summative use, PV projection, or PV machine promotion. |
+| L1.7C-0 | Shared Skill-Map Engine Contract | **2026-05-23** | **CLOSED PASS WITH FLAGS.** Defined one shared skill-map / skill-tree engine contract for the three second-row practice games and compact checkpoint mode for the later exit ticket. Contract defines aspect filters (`reasoning`, `calculation`, `graphical`, explicit `mixed`), modes (`compact`, `route`, restricted `full`), state/progress language, game consumers, landing-page preview use, exit-ticket compact use, accessibility expectations, and product-use boundaries. Platform implementation remains a `GAME-UX-1` dependency before real shared route UI exists. Records: `archive/sprints/L1.7C-0/L1.7C-0-sprint-plan.md`, `archive/sprints/L1.7C-0/L1.7C-0-current-state-audit.md`, `archive/sprints/L1.7C-0/L1.7C-0-shared-skill-map-contract.md`, `archive/sprints/L1.7C-0/L1.7C-0-handoff-to-platform.md`, `archive/sprints/L1.7C-0/L1.7C-0-validation-log.md`, `archive/sprints/L1.7C-0/L1.7C-0-closure-log.md`. |
 | L1.7B | Exit Ticket Game MVP + Companion Completion Contract | no | **PAUSED AFTER CONTRACT-AND-STOP DECISION.** L1.7B inspected the untracked prototype `../4veco-platform/knowledge/exit-ticket-game-1.1.1.zip`, ran its own prototype unit test successfully, and recorded it as design evidence only. The companion-completion contract and future MVP scope now exist, but implementation is paused because the prototype is not source-controlled, uses mastery/score/pass/evidence/adaptive-focus language, and depends on compact checkpoint-mode skill-map behavior that L1.7C-0 must define first. Records: `archive/sprints/L1.7B/L1.7B-sprint-plan.md`, `archive/sprints/L1.7B/L1.7B-prototype-inventory.md`, `archive/sprints/L1.7B/L1.7B-companion-completion-contract.md`, `archive/sprints/L1.7B/L1.7B-exit-ticket-mvp-scope.md`, `archive/sprints/L1.7B/L1.7B-stop-decision.md`, `archive/sprints/L1.7B/L1.7B-validation-log.md`. |
-| L1.7C | Three-Aspect Game Quality Upgrade | no | **REQUIRES L1.7C-0 / REQUIRED BEFORE BROAD GAME SCALING.** Upgrade `Redeneren`, `Rekenen`, and `Grafieken` as separate core second-row skill-practice engines that consume the shared skill-map engine. Each game receives a scoped skill route: reasoning/verbal only, calculation only, or graph/table/visual only. Produce a reusable game-row quality rubric covering student experience, teacher-learning quality, feedback, scaffolding, final-challenge behavior, mobile/dark rendering, replay value, success states, skill-map clarity, and MTU/procedure/visual alignment where available. Remove answer-revealing defaults, generic feedback, unsafe auto-correct behavior, unclear success states, and unfiltered all-skill views. Graph game needs at least one harder less-labelled variant; calculation game needs calculation field, answer field, and unit where relevant; reasoning game must test causal/procedural reasoning, not only recognition. No adaptive diagnostics, mastery, sequencing, AI, summative use, PV projection, or PV machine promotion. |
 | L1.7D | Paragraph Landing Page Information Architecture Cleanup | no | **NEW / REQUIRED BEFORE SCALE GATE.** Redesign the paragraph landing page as a controlled learning route rather than a file/card dump. Define primary, secondary, collapsed, advanced, teacher-facing, and download-only surfaces. Landing cleanup must consume the shared skill-map/game architecture from L1.7C-0 so the second-row games expose a consistent scoped skill route instead of three separate skill-tree UIs or a full unfiltered catalog. Default visible route should support `Start`, `Leer`, `Oefen`, `Check`, and `Verdiep` without showing every artifact as a peer card. Demote redundant surfaces before scaling so clutter is not repeated across future paragraphs. Implement only through platform generator changes, not hand patches. Validate desktop/mobile, light/dark, keyboard navigation, and student cognitive-load clarity. |
 | L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | no | **FUTURE CLEANUP SPRINT AFTER L1.7B/L1.7C-0/L1.7C/L1.7D AND BEFORE BROAD SCALING.** Clean easy visible flags and define the Book 1 student-web house-style baseline from `1.1.1` through `1.1.3`: duplicated worked-example policy, consistent quality-ref status language, operational meaning of PASS WITH FLAGS, and house-style notes for landing, presentation, guided practice, procedure contracts, game-row MVP limits, shared skill-map use, and the companion completion contract. No new features. |
 | L-EX0 | Exam-Target Paragraph Contract | no | **FUTURE CONTRACT SPRINT.** Define how the lesson team builds a paragraph when the target exercise is an official exam question. No broad production. Output is a paragraph-plan contract, review checklist, handoff requirements back to platform, and one dry-run plan. Requires platform EX-0 contract evidence or an explicitly bounded substitute. |
@@ -118,6 +118,8 @@ Updated: 2026-05-22 (shared skill-map architecture) - added `L1.7C-0 Shared Skil
 Updated: 2026-05-23 (L1.7A close) - L1.7A closed PASS WITH FLAGS as a readiness decision sprint. Current validation is green for `1.1.1` through `1.1.3`, procedure contracts, Book 1 health, print scope, and v5 target-exercise counts. Decision: not ready for broad companion scaling. Continue controlled foundation hardening through L1.7B, L1.7C-0, L1.7C, L1.7D, L2.0, then Scale Gate 1. L1.7B is now the active sprint.
 
 Updated: 2026-05-23 (L1.7B contract-and-stop) - L1.7B inspected the local untracked exit-ticket prototype, ran its prototype unit test in a temp copy, and recorded the prototype as design evidence only. The companion-completion contract and future MVP scope now exist under `archive/sprints/L1.7B/`. Implementation is paused because the prototype is not source-controlled, uses mastery/score/pass/evidence/adaptive-focus semantics, and depends on compact checkpoint-mode skill-map behavior that does not exist yet. L1.7C-0 is now the active dependency; it must define the shared skill-map engine and compact checkpoint mode before exit-ticket MVP implementation resumes.
+
+Updated: 2026-05-23 (L1.7C-0 close) - L1.7C-0 closed PASS WITH FLAGS as a contract sprint. The shared skill-map contract now defines one common route/progression layer for `Redeneren`, `Rekenen`, `Grafieken`, the later exit ticket, and landing-page route previews. It defines `compact`, `route`, and restricted `full` modes; aspect filters for reasoning, calculation, graphical, and explicit mixed views; non-mastery state/progress language; accessibility expectations; and product-use boundaries. Platform implementation is handed to `GAME-UX-1`; L1.7C is now active and must stop if meaningful game-row review requires that implementation first.
 
 Updated: 2026-05-19 (L-CP6A close) - lesson-side CP.6a remediation closed PASS WITH FLAGS. A platform-owned migration script aligned active Book 1 Chapter 1.3 to v5, archived displaced costs/revenue material for Book 2 survival, regenerated `1.3.2`, `1.3.3`, `1.3.4`, Chapter 1.3, and aggregate Book 1 output, and preserved the rule that CP-6/Year 1 are not closed here. Green gates: Chapter 1.3 validation, Book 1 health 26/26, print-scope 12/12, v5 target-exercise counts 54 with 12/12/14/16, focused book Jest 7/7, full platform Jest 515 passed / 8 skipped. References-team handoff: `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`.
 Updated: 2026-05-20 (EX-NS0 exam-ingestion north-star) - official exam-target paragraph work is now explicit as a future cross-repo endpoint. The platform side owns exam-ingestion overlays, source-annex and answer-model traceability, MTU mapping, and operation classification. The lesson side now inserts L-EX0 and L-EX1 before L2.4-TEA: first define the paragraph-plan contract and review checklist, then run one controlled pilot paragraph around a real official exam question. This update authorizes no broad production, no generated-output hand patching, no CP-6/Year-1 closure, no target-exercise promotion, and no diagnostics/adaptive/mastery/summative/student-facing AI use.
@@ -2161,10 +2163,10 @@ Records:
 
 ### Sprint L1.7C-0: Shared Skill-Map Engine Contract
 
-Completed: no.
+Completed: 2026-05-23.
 
-Position: active after the L1.7B contract-and-stop decision and before L1.7C.
-Platform support is tracked as `GAME-UX-1`.
+Position: closed as the contract prerequisite for L1.7C. Platform
+implementation support is tracked as `GAME-UX-1`.
 
 Purpose:
 
@@ -2240,11 +2242,37 @@ Exit criteria:
 - mobile, dark-mode, and keyboard accessibility expectations are defined before
   implementation
 
+Outcome:
+
+- Current skill-tree audit completed. The platform already has paragraph,
+  chapter, and all-skill/module views, local stars, next-skill logic, and
+  landing-page aspect metadata, but it lacks the aspect-filtered shared route
+  contract needed by the three games.
+- Contract accepted: three practice engines plus one shared skill-map engine.
+- Modes accepted: `compact`, `route`, and restricted `full`.
+- Aspect filters accepted: `reasoning`, `calculation`, `graphical`, and
+  explicit `mixed`.
+- State/progress semantics accepted as local practice progress only; no mastery,
+  diagnostic, grading, or automatic sequencing claim.
+- Exit-ticket use accepted only as compact checkpoint mode.
+- Landing-page use accepted only as scoped route previews, not a full catalog or
+  artifact/card dump.
+- Platform handoff recorded for `GAME-UX-1`.
+
+Records:
+
+- `archive/sprints/L1.7C-0/L1.7C-0-sprint-plan.md`
+- `archive/sprints/L1.7C-0/L1.7C-0-current-state-audit.md`
+- `archive/sprints/L1.7C-0/L1.7C-0-shared-skill-map-contract.md`
+- `archive/sprints/L1.7C-0/L1.7C-0-handoff-to-platform.md`
+- `archive/sprints/L1.7C-0/L1.7C-0-validation-log.md`
+- `archive/sprints/L1.7C-0/L1.7C-0-closure-log.md`
+
 ### Sprint L1.7C: Three-Aspect Game Quality Upgrade
 
 Completed: no.
 
-Position: after L1.7C-0 and before broad game-row scaling.
+Position: active after L1.7C-0 and before broad game-row scaling.
 
 Purpose:
 
@@ -2258,6 +2286,8 @@ UIs.
 Work:
 
 - Produce a reusable game-row quality rubric that includes skill-map clarity.
+- Use the L1.7C-0 shared skill-map contract as the baseline for every game-row
+  decision.
 - Give each game a scoped skill route: reasoning/verbal, calculation, or
   graph/table/visual.
 - Review each game for student experience, teacher-learning quality, feedback
@@ -2272,6 +2302,8 @@ Work:
 - Reasoning game: test causal/procedural reasoning construction rather than only
   recognition.
 - Keep PV/adaptive boundaries explicit.
+- Stop if meaningful review requires the platform `GAME-UX-1` implementation
+  before the games can be assessed honestly.
 
 Out of scope:
 
@@ -2709,15 +2741,16 @@ Outputs:
 
 - Keep Book 1 green.
 - Use the L1.5P print PDF as the current publisher-print baseline.
-- Start L1.7C-0 now that L1.7B has recorded the exit-ticket
-  companion-completion contract and paused MVP implementation behind the shared
-  skill-map dependency.
+- Start L1.7C using the L1.7C-0 shared skill-map contract as the baseline for
+  game-row review.
 - Preserve the L1.7B exit-ticket findings: the local untracked prototype is
   design evidence only until it is source-controlled or rewritten with
   mastery/score/pass/evidence/adaptive-focus semantics removed.
-- Prepare L1.7C-0, L1.7C, and L1.7D as the next pre-scale sequence:
-  shared skill-map architecture, game-row quality, and landing-page information
-  architecture.
+- Preserve the L1.7C-0 finding: current platform skill-tree behavior needs
+  `GAME-UX-1` implementation before real shared route UI exists in all three
+  games.
+- Prepare L1.7C and L1.7D as the next pre-scale sequence: game-row quality and
+  landing-page information architecture.
 - Keep L1.5Q/v5 as the active curriculum-source baseline, but do not treat
   migrated target exercises as final-reviewed.
 - Continue companion pilot work only where it supports the L1.7A decision and
@@ -2729,9 +2762,9 @@ Outputs:
 
 ### Next 2-4 Weeks
 
-- Use the L1.7A readiness decision and L1.7B contract-and-stop outcome as the
-  baseline, then run L1.7C-0, L1.7C, and L1.7D before L2.0/Scale Gate 1 if
-  companion scaling is still desired.
+- Use the L1.7A readiness decision, L1.7B contract-and-stop outcome, and
+  L1.7C-0 shared skill-map contract as the baseline, then run L1.7C and L1.7D
+  before L2.0/Scale Gate 1 if companion scaling is still desired.
 - Keep `course_blueprint_v5.md` and the target-exercise source-of-truth path as
   the active baseline before Book 2 production.
 - `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.
