@@ -9,17 +9,19 @@ for closed work live under `archive/sprints/<sprint-id>/`.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | no | **ACTIVE FOUNDATION-HARDENING SPRINT AFTER L1.7D; NOT BROAD SCALING.** Clean easy visible flags and define the Book 1 student-web house-style baseline from `1.1.1` through `1.1.3`: duplicated worked-example policy, consistent quality-ref status language, operational meaning of PASS WITH FLAGS, house-style notes for landing, presentation, guided practice, procedure contracts, game-row MVP limits, shared skill-map use, and companion completion. Add a dedicated consolidation/gemengde-opgaven landing rule before broad scale because L1.7D carried the `1.1.4` weak `Verdiep`-only route as a scaling flag. No new features. |
+| L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | no | **ACTIVE FOUNDATION-HARDENING SPRINT AFTER L1.7D; NOT BROAD SCALING.** Clean easy visible flags and define the Book 1 student-web house-style baseline from `1.1.1` through `1.1.3`. Minimum outputs: PASS WITH FLAGS operational definition; student-web house-style baseline; game-row MVP limitations and L1.7C carried-flag disposition as fix-before-scale / carry into controlled production / defer; landing-page route rules after L1.7D; exit-ticket readiness checklist; quality-ref status language standard; screenshot/QA expectations for future paragraph builds; and a dedicated consolidation/gemengde-opgaven landing rule before broad scale because L1.7D carried the `1.1.4` weak `Verdiep`-only route as a scaling flag. No new features. |
+| L1.7B-R | Boundary-Safe Exit Ticket MVP Resume | no | **REQUIRED BEFORE SCALE GATE 1 UNLESS EXPLICITLY WAIVED BY HUMAN DECISION.** Resume exit-ticket implementation only after L2.0 closes and source-control/product-boundary issues are resolved. Import or rewrite the prototype as source-controlled platform code. Remove mastery/pass/score/evidence/adaptive-focus language. Consume shared skill-map compact checkpoint mode from `GAME-UX-1`. Build one non-summative checkpoint MVP on one already-built paragraph. It may give feedback and self-check guidance, but must not make grading, mastery, diagnostic, adaptive-routing, sequencing, AI, summative, PV-projection, or PV-machine-promotion claims. Landing-page `Check` activation belongs here unless split later: enable `Check` only for paragraphs with reviewed exit-ticket output and keep it hidden elsewhere. Requires student-experience review, teacher-learning-quality review, screenshot/interaction QA, and generator-owned landing-page integration. |
+| GATE-L1.7B | Exit Ticket Product-Boundary Review | no | **REQUIRED BEFORE SCALE GATE 1 UNLESS EXPLICITLY WAIVED BY HUMAN DECISION.** Human review gate for the exit-ticket MVP. Confirm the surface is a non-summative checkpoint, not a test, grade, mastery decision, adaptive diagnosis, sequencing decision, or AI/student-facing recommendation engine. Verify source-controlled implementation, shared skill-map compact checkpoint use, neutral feedback language, no pass/fail thresholds, no hidden adaptive payload behavior, no internal MTU codes in student-facing text, and no generated-output hand patches. Platform evidence from `GAME-UX-2` must be attached if the MVP uses new platform engine/wrapper support. |
 | L1.7D | Paragraph Landing Page Information Architecture Cleanup | **2026-05-24** | **CLOSED PASS WITH FLAGS.** Platform generator now renders paragraph landing pages as a controlled route with `Start`, `Leer`, `Oefen`, optional `Check`, and `Verdiep`. `Check` stays hidden until a reviewed exit-ticket surface exists. `Oefen` separates guided support from scoped practice routes and routes `Rekenen` to `stappenplan` when present; the full skill map is demoted to a collapsed advanced source item. Summary/news/presentation/textbook/source surfaces are collapsed under `Verdiep`, and legacy Word exercise rows remain hidden from student landing pages. Human review closed PASS WITH FLAGS. Green gates: deploy link/data checks, focused landing Jest, complete student-web validation for `1.1.1`-`1.1.3`, procedure-contract validation 341 checks, Book 1 Part A health 26/26, v5 target-exercise validation 54 records with 12/12/14/16, screenshot QA for representative landings, and full platform Jest 543 passed / 8 skipped. Carried flags: calculation route is not a full numeric engine, `Check` remains future/non-summative, screenshot QA is representative, and `1.1.4` needs a dedicated consolidation landing pattern before broad scale. Records: `archive/sprints/L1.7D/`. |
 | L1.7C | Three-Aspect Game Quality Upgrade | **2026-05-24** | **CLOSED PASS WITH FLAGS.** L1.7C consumed platform `GAME-UX-1` shared skill-map runtime and regenerated Book 1 through the platform workflow so `Redeneren`, `Rekenen/Stappenplan`, and `Grafieken` consume one shared compact route panel. First human review returned REVISE because the route panel could expose internal skill IDs such as `A61`; focused revision fixed the label, added an `A61` regression test, corrected `1.1.1` landing copy, and added route-panel screenshots. Focused human recheck closed PASS WITH FLAGS. Carried flags: `Rekenen` is not yet a full numeric calculation engine, `Grafieken` has only one less-labelled variant, `Redeneren` needs richer variants/replay value, and game screenshot QA should mature. No adaptive diagnostics, mastery, sequencing, AI, summative use, PV projection, or PV machine promotion. Records: `archive/sprints/L1.7C/`. |
 | L1.7C-0 | Shared Skill-Map Engine Contract | **2026-05-23** | **CLOSED PASS WITH FLAGS.** Defined one shared skill-map / skill-tree engine contract for the three second-row practice games and compact checkpoint mode for the later exit ticket. Contract defines aspect filters (`reasoning`, `calculation`, `graphical`, explicit `mixed`), modes (`compact`, `route`, restricted `full`), state/progress language, game consumers, landing-page preview use, exit-ticket compact use, accessibility expectations, and product-use boundaries. Platform implementation has since completed in `GAME-UX-1` commit `6509895`, tag `checkpoint/GAME-UX-1-shared-skill-map-engine`. Records: `archive/sprints/L1.7C-0/L1.7C-0-sprint-plan.md`, `archive/sprints/L1.7C-0/L1.7C-0-current-state-audit.md`, `archive/sprints/L1.7C-0/L1.7C-0-shared-skill-map-contract.md`, `archive/sprints/L1.7C-0/L1.7C-0-handoff-to-platform.md`, `archive/sprints/L1.7C-0/L1.7C-0-validation-log.md`, `archive/sprints/L1.7C-0/L1.7C-0-closure-log.md`. |
-| L1.7B | Exit Ticket Game MVP + Companion Completion Contract | no | **PAUSED AFTER CONTRACT-AND-STOP DECISION.** L1.7B inspected the untracked prototype `../4veco-platform/knowledge/exit-ticket-game-1.1.1.zip`, ran its own prototype unit test successfully, and recorded it as design evidence only. The companion-completion contract and future MVP scope now exist, but implementation is paused because the prototype is not source-controlled, uses mastery/score/pass/evidence/adaptive-focus language, and depends on compact checkpoint-mode skill-map behavior that L1.7C-0 must define first. Records: `archive/sprints/L1.7B/L1.7B-sprint-plan.md`, `archive/sprints/L1.7B/L1.7B-prototype-inventory.md`, `archive/sprints/L1.7B/L1.7B-companion-completion-contract.md`, `archive/sprints/L1.7B/L1.7B-exit-ticket-mvp-scope.md`, `archive/sprints/L1.7B/L1.7B-stop-decision.md`, `archive/sprints/L1.7B/L1.7B-validation-log.md`. |
+| L1.7B-C | Exit Ticket Companion Contract | **2026-05-23** | **CLOSED CONTRACT-ONLY / MVP PAUSED.** Prototype inspected and recorded as design evidence only. Companion-completion contract and future MVP scope exist. Implementation is not authorized because the prototype is untracked, uses mastery/score/pass/evidence/adaptive-focus language, and must consume shared skill-map compact checkpoint mode before any student-facing use. Records remain under `archive/sprints/L1.7B/`: sprint plan, prototype inventory, companion-completion contract, exit-ticket MVP scope, stop decision, and validation log. |
 | L-EX0 | Exam-Target Paragraph Contract | no | **FUTURE CONTRACT SPRINT.** Define how the lesson team builds a paragraph when the target exercise is an official exam question. No broad production. Output is a paragraph-plan contract, review checklist, handoff requirements back to platform, and one dry-run plan. Requires platform EX-0 contract evidence or an explicitly bounded substitute. |
 | L-EX1 | Exam-Target Paragraph Pilot | no | **FUTURE CONTROLLED PILOT.** Build one paragraph around a real official exam question using platform exam-ingestion data, source annexes, answer-model decomposition, MTU mapping, and companion visual/answer-model gates. No broad companion scaling or generated-output hand patching. |
-| L1.7A | Scaling Readiness And Modality Gate Review | **2026-05-23** | **CLOSED PASS WITH FLAGS.** Decision sprint, not production. Green current gates: `1.1.1`/`1.1.2`/`1.1.3` complete student-web validation, the same three Part A publisher-print validations, procedure-contract validation 341 checks, Book 1 health 26/26, print scope 12/12, and v5 target-exercise count 54 with 12/12/14/16. Decision: broad companion scaling is rejected. Controlled foundation hardening may continue through L1.7B, L1.7C-0, L1.7C, L1.7D, L2.0, then Scale Gate 1. Records: `archive/sprints/L1.7A/L1.7A-sprint-plan.md`, `archive/sprints/L1.7A/L1.7A-evidence-inventory.md`, `archive/sprints/L1.7A/L1.7A-readiness-matrix.md`, `archive/sprints/L1.7A/L1.7A-flag-triage.md`, `archive/sprints/L1.7A/L1.7A-decision-record.md`, `archive/sprints/L1.7A/L1.7A-validation-log.md`, `archive/sprints/L1.7A/L1.7A-closure-log.md`. |
+| L1.7A | Scaling Readiness And Modality Gate Review | **2026-05-23** | **CLOSED PASS WITH FLAGS.** Decision sprint, not production. Green current gates: `1.1.1`/`1.1.2`/`1.1.3` complete student-web validation, the same three Part A publisher-print validations, procedure-contract validation 341 checks, Book 1 health 26/26, print scope 12/12, and v5 target-exercise count 54 with 12/12/14/16. Decision: broad companion scaling is rejected. Controlled foundation hardening may continue through L1.7B-C contract evidence, L1.7C-0, L1.7C, L1.7D, L2.0, L1.7B-R, GATE-L1.7B, then Scale Gate 1. Records: `archive/sprints/L1.7A/L1.7A-sprint-plan.md`, `archive/sprints/L1.7A/L1.7A-evidence-inventory.md`, `archive/sprints/L1.7A/L1.7A-readiness-matrix.md`, `archive/sprints/L1.7A/L1.7A-flag-triage.md`, `archive/sprints/L1.7A/L1.7A-decision-record.md`, `archive/sprints/L1.7A/L1.7A-validation-log.md`, `archive/sprints/L1.7A/L1.7A-closure-log.md`. |
 | L-CP6A | Book 1 Chapter 1.3 v5 Alignment Remediation | **2026-05-19** | **CLOSED PASS WITH FLAGS.** Lesson-side CP.6a mismatch is fixed for references-team recheck, without claiming CP-6 or Year-1 closure. Active Chapter 1.3 now aligns v5 as `1.3.1 Aanbod`, `1.3.2 Marktevenwicht`, `1.3.3 Verschuivingen en nieuw evenwicht`, and `1.3.4 Gemengde opgaven`; former costs/revenue material is archived under `archive/sprints/L-CP6A/displaced-book2-material/` for Book 2 survival. Green gates: active Chapter 1.3 validation, Book 1 health 26/26, Book 1 print scope 12/12, v5 target-exercise count 54 with 12/12/14/16, focused book Jest 7/7, full platform Jest 515 passed / 8 skipped. Records: `archive/sprints/L-CP6A/L-CP6A-sprint-plan.md`, `archive/sprints/L-CP6A/L-CP6A-technical-qa-report.md`, `archive/sprints/L-CP6A/L-CP6A-closure-log.md`, `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`. Flags: target exercises remain migrated/placeholders, inherited Part A duplicate-opgaven pattern remains a maintenance flag, and references team must re-evaluate CP.6a. |
 | L-CP6E | 1.1.3 Part A Figure Numbering Remediation | **2026-05-21** | **CLOSED PASS WITH FLAGS.** Fixed the CP.6e lesson-side blocker for `1.1.3 Grafieken en tabellen`: Part A now introduces figures in first-use order `1 -> 2 -> 3` across markdown, regenerated HTML, and regenerated PDF. The axis-convention figure is now `Figuur 2`; interpolation is now `Figuur 3`; affected paragraph, Chapter 1.1, and Book 1 publisher-print outputs were rebuilt through existing build scripts. Green gates: focused markdown/HTML/PDF figure-order check, `1.1.3` Part A publisher-print validation, Chapter 1.1 validation, Book 1 health 26/26, print scope 12/12, and v5 target-exercise count 54 with 12/12/14/16. Records: `archive/sprints/L-CP6E/L-CP6E-sprint-plan.md`, `archive/sprints/L-CP6E/L-CP6E-technical-qa-report.md`, `archive/sprints/L-CP6E/L-CP6E-closure-log.md`, `archive/sprints/L-CP6E/L-CP6E-handoff-to-references.md`. Flags: repeated worked-example scaffolding in `opgaven.md` remains accepted/non-blocking; CP.6f must recheck before references-side closure reliance. |
-| Scale Gate 1 | Foundation Hardening Scale Gate | no | **FUTURE JOINT DECISION.** After L1.7A, L1.7B, L1.7C-0, L1.7C, L1.7D, L2.0, REF-CT0/REF-CT1, and minimal curriculum-versioning readiness, decide controlled production versus more reference hardening. Broad companion scaling is not allowed until the companion-set contract, shared skill-map engine contract, game-row quality rubric, and landing-page information architecture are explicit. No adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion may be authorized by this gate. |
+| Scale Gate 1 | Foundation Hardening Scale Gate | no | **FUTURE JOINT DECISION.** Broad companion scaling remains blocked until the following are closed or explicitly waived by human decision: L2.0 Book 1 house-style cleanup; L1.7B-R boundary-safe exit-ticket MVP; GATE-L1.7B exit-ticket product-boundary review; L1.7C game-row quality rubric with carried game-MVP flags classified; L1.7D landing-page IA implemented and validated; minimal curriculum-versioning readiness; and reference-side status on GATE-EX5 / operation-answer-skill contract. Scale Gate 1 may authorize controlled production only, not adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
 | SYNC-1 | Roadmap Reconciliation | **2026-05-18** | **CLOSED PASS.** Log: `archive/sprints/SYNC-1/SYNC-1-roadmap-reconciliation-log.md`. Joint roadmap sync after L1.5P/L1.5Q/L1.6. Lesson and reference roadmaps now agree that broad lesson scaling is not approved yet. Coming-period focus is foundation hardening: reconcile roadmap state, normalize the rough three-year blueprint as a non-authoritative planning prototype, classify MTU/target-exercise gaps, triage lesson-side flags, and decide controlled production only through a later Scale Gate. |
 | L1.6R | 1.1.3 Dual-Coding Remediation | **2026-05-19** | **CLOSED PASS WITH FLAGS.** L1.6R reopened the `1.1.3` companion quality verdict after post-closure review found a systemic dual-coding failure. First remediation fixed the main explanation surfaces; focused human review then returned REVISE because guided-practice visuals were present but not exercise-specific. Final correction added exercise-specific guided visuals for broodjes, koffie, bioscoop, and water/index and guarded visual-value concordance in focused Jest. Green gates: deploy link/data checks 417 refs + 217/217 data tests, focused L1.6R dual-coding Jest 5/5, presentation-v2 screenshot QA 30 screenshots, rich-page screenshot QA 20 screenshots, complete student-web validation, publisher-print Part A validation, procedure-contract validator 341 checks, Book 1 health 26/26, and full platform Jest 515 passed / 8 skipped. `1.1.3-quality-ref.yaml` now records `human_review_status: "pass_with_flags"`. Archive: `archive/sprints/L1.6R/`. Flags: scaffolded/value-labelled graph visuals remain acceptable MVP surfaces; later graph-reading variants should reduce direct labels; visual-value concordance should become a reusable QA gate. |
 | L1.6 | Second Pipeline Regression Paragraph | **2026-05-18** | **CLOSED AS TECHNICAL PROOF; COMPANION QUALITY REMEDIATED BY L1.6R.** Sprint plan: `archive/sprints/L1.6/L1.6-sprint-plan.md`; review packet: `archive/sprints/L1.6/L1.6-human-review-packet.md`; QA: `archive/sprints/L1.6/L1.6-technical-qa-report.md`; review records: `archive/sprints/L1.6/L1.6-student-experience-review.md`, `archive/sprints/L1.6/L1.6-teacher-learning-quality-review.md`, `archive/sprints/L1.6/L1.6-human-review-record.md`, `archive/sprints/L1.6/L1.6-lead-review-summary.md`; closure log: `archive/sprints/L1.6/L1.6-closure-log.md`. L1.6 proves the fresh paragraph build, graphical-game transfer, inert adaptive seam, A61/table-value procedure contract, and v5 baseline integration. Post-closure review found that the main `1.1.3` companion explanation surfaces lacked required graph/table learning objects; L1.6R closed that companion-quality incident as PASS WITH FLAGS. Green technical gates remain historically useful; they are not sufficient for broad scaling without L1.7A readiness review. |
@@ -111,13 +113,13 @@ Updated: 2026-05-19 (L1.6R close) - focused human recheck accepted the guided-pr
 
 Updated: 2026-05-21 (L-CP6E close) - CP.6e failed references-side clearance because `1.1.3` Part A still introduced figures as `1 -> 3 -> 2`. L-CP6E fixed the owning paragraph source, swapped the axis-convention and interpolation figure numbering, regenerated paragraph/Chapter 1.1/Book 1 publisher-print outputs, and updated `1.1.3-review.md` plus `1.1.3-quality-ref.yaml`. Focused markdown/HTML/PDF order checks now read `1 -> 2 -> 3`; `validate-paragraph`, `validate-chapter`, Book 1 health 26/26, print scope 12/12, and v5 target-exercise count validation pass. CP-6 and Year 1 remain open pending references-side CP.6f recheck.
 
-Updated: 2026-05-22 (companion pre-scale roadmap update) - added three explicit pre-scale sprints after L1.7A: `L1.7B Exit Ticket Game MVP + Companion Completion Contract`, `L1.7C Three-Aspect Game Quality Upgrade`, and `L1.7D Paragraph Landing Page Information Architecture Cleanup`. This sharpens the foundation-hardening stance: broad companion scaling is blocked not only by quality flags, but also by product-sprawl risk. The roadmap now requires a complete companion-set contract, a reusable game-row quality rubric, and a landing-page route hierarchy before Scale Gate 1. A local untracked platform candidate exists at `../4veco-platform/knowledge/exit-ticket-game-1.1.1.zip`; L1.7B must either bring the prototype under source-control review or record the source-control gap before implementation.
+Updated: 2026-05-22 (companion pre-scale roadmap update) - added three explicit pre-scale sprints after L1.7A: the original `L1.7B Exit Ticket Game MVP + Companion Completion Contract` lane, `L1.7C Three-Aspect Game Quality Upgrade`, and `L1.7D Paragraph Landing Page Information Architecture Cleanup`. The original L1.7B lane was later split into `L1.7B-C` contract-only evidence and `L1.7B-R` future MVP resume. This sharpens the foundation-hardening stance: broad companion scaling is blocked not only by quality flags, but also by product-sprawl risk. The roadmap now requires a complete companion-set contract, a reusable game-row quality rubric, and a landing-page route hierarchy before Scale Gate 1. A local untracked platform candidate exists at `../4veco-platform/knowledge/exit-ticket-game-1.1.1.zip`; L1.7B-R must either bring the prototype under source-control review or rewrite it before implementation.
 
 Updated: 2026-05-22 (shared skill-map architecture) - added `L1.7C-0 Shared Skill-Map Engine Contract` before the three-aspect game upgrade. The roadmap now frames the scalable game architecture as three practice engines (`Redeneren`, `Rekenen`, `Grafieken`) plus one shared skill-map / skill-tree engine for progression display, aspect filtering, recommendations, prerequisites, locked/open/completed states, stars/progress, and scoped routes. The exit ticket uses compact checkpoint mode; landing IA must consume the shared architecture rather than expose separate full skill-tree UIs. Broad game and companion scaling remain blocked.
 
-Updated: 2026-05-23 (L1.7A close) - L1.7A closed PASS WITH FLAGS as a readiness decision sprint. Current validation is green for `1.1.1` through `1.1.3`, procedure contracts, Book 1 health, print scope, and v5 target-exercise counts. Decision: not ready for broad companion scaling. Continue controlled foundation hardening through L1.7B, L1.7C-0, L1.7C, L1.7D, L2.0, then Scale Gate 1. L1.7B is now the active sprint.
+Updated: 2026-05-23 (L1.7A close) - L1.7A closed PASS WITH FLAGS as a readiness decision sprint. Current validation is green for `1.1.1` through `1.1.3`, procedure contracts, Book 1 health, print scope, and v5 target-exercise counts. Decision: not ready for broad companion scaling. Continue controlled foundation hardening through L1.7B-C contract evidence, L1.7C-0, L1.7C, L1.7D, L2.0, L1.7B-R, GATE-L1.7B, then Scale Gate 1.
 
-Updated: 2026-05-23 (L1.7B contract-and-stop) - L1.7B inspected the local untracked exit-ticket prototype, ran its prototype unit test in a temp copy, and recorded the prototype as design evidence only. The companion-completion contract and future MVP scope now exist under `archive/sprints/L1.7B/`. Implementation is paused because the prototype is not source-controlled, uses mastery/score/pass/evidence/adaptive-focus semantics, and depends on compact checkpoint-mode skill-map behavior that does not exist yet. L1.7C-0 is now the active dependency; it must define the shared skill-map engine and compact checkpoint mode before exit-ticket MVP implementation resumes.
+Updated: 2026-05-23 (L1.7B-C contract-and-stop) - L1.7B-C inspected the local untracked exit-ticket prototype, ran its prototype unit test in a temp copy, and recorded the prototype as design evidence only. The companion-completion contract and future MVP scope now exist under `archive/sprints/L1.7B/`. Implementation is paused because the prototype is not source-controlled, uses mastery/score/pass/evidence/adaptive-focus semantics, and depends on compact checkpoint-mode skill-map behavior that did not yet exist at the time. L1.7C-0 then defined the shared skill-map engine contract; L1.7B-R remains the later safe resume path.
 
 Updated: 2026-05-23 (L1.7C-0 close) - L1.7C-0 closed PASS WITH FLAGS as a contract sprint. The shared skill-map contract now defines one common route/progression layer for `Redeneren`, `Rekenen`, `Grafieken`, the later exit ticket, and landing-page route previews. It defines `compact`, `route`, and restricted `full` modes; aspect filters for reasoning, calculation, graphical, and explicit mixed views; non-mastery state/progress language; accessibility expectations; and product-use boundaries. Platform implementation is handed to `GAME-UX-1`; L1.7C is now active and must stop if meaningful game-row review requires that implementation first.
 
@@ -132,6 +134,8 @@ Updated: 2026-05-24 (L1.7C close) - Focused human recheck accepted the route-lab
 Updated: 2026-05-24 (L1.7D technical QA ready) - L1.7D implemented the paragraph landing-page information architecture through the platform generator and regenerated Book 1 landing output. Paragraph landings now use `Start`, `Leer`, `Oefen`, optional `Check`, and `Verdiep`; `Check` is hidden until a reviewed exit-ticket exists; `Oefen` exposes guided support plus scoped `Redeneren`, `Rekenen / stappenplan`, and `Grafieken` routes where available; the full skill map and source/download surfaces are collapsed under `Verdiep`. Technical gates are green: deploy/link/data checks, focused landing Jest, complete student-web validation for `1.1.1`-`1.1.3`, procedure-contract validation 341 checks, Book 1 Part A health 26/26, v5 target-exercise validation 54 records with 12/12/14/16, representative desktop/mobile light/dark screenshot QA, and full platform Jest 543 passed / 8 skipped. L1.7D is ready for human review, not closed.
 
 Updated: 2026-05-24 (L1.7D close) - Human review accepted L1.7D as PASS WITH FLAGS. The controlled route IA is accepted for pilot use and no implementation revision is required. Carried flags: `Rekenen / stappenplan` is not a full numeric calculation engine, `Check` remains hidden until a reviewed non-summative exit-ticket exists, screenshot evidence is representative, and `1.1.4 Gemengde opgaven` needs a dedicated consolidation landing pattern before broad scale. L2.0 is now the active foundation-hardening cleanup sprint; broad companion scaling remains blocked.
+
+Updated: 2026-05-25 (exit-ticket and Scale Gate precision) - L1.7B is split into `L1.7B-C` and `L1.7B-R`. `L1.7B-C` is the closed contract-only evidence: prototype inspected, companion-completion contract recorded, future MVP scope recorded, and implementation paused. `L1.7B-R` is the future boundary-safe exit-ticket MVP resume and remains required before Scale Gate 1 unless explicitly waived by human decision. Added `GATE-L1.7B` as the exit-ticket product-boundary review gate. L2.0 now must classify L1.7C game-row carried flags as fix-before-scale / carry / defer and define an exit-ticket readiness checklist. Scale Gate 1 now requires or explicitly waives L2.0, L1.7B-R, GATE-L1.7B, L1.7C flag disposition, L1.7D landing IA, minimal curriculum-versioning readiness, and reference-side GATE-EX5 status.
 
 Updated: 2026-05-19 (L-CP6A close) - lesson-side CP.6a remediation closed PASS WITH FLAGS. A platform-owned migration script aligned active Book 1 Chapter 1.3 to v5, archived displaced costs/revenue material for Book 2 survival, regenerated `1.3.2`, `1.3.3`, `1.3.4`, Chapter 1.3, and aggregate Book 1 output, and preserved the rule that CP-6/Year 1 are not closed here. Green gates: Chapter 1.3 validation, Book 1 health 26/26, print-scope 12/12, v5 target-exercise counts 54 with 12/12/14/16, focused book Jest 7/7, full platform Jest 515 passed / 8 skipped. References-team handoff: `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`.
 Updated: 2026-05-20 (EX-NS0 exam-ingestion north-star) - official exam-target paragraph work is now explicit as a future cross-repo endpoint. The platform side owns exam-ingestion overlays, source-annex and answer-model traceability, MTU mapping, and operation classification. The lesson side now inserts L-EX0 and L-EX1 before L2.4-TEA: first define the paragraph-plan contract and review checklist, then run one controlled pilot paragraph around a real official exam question. This update authorizes no broad production, no generated-output hand patching, no CP-6/Year-1 closure, no target-exercise promotion, and no diagnostics/adaptive/mastery/summative/student-facing AI use.
@@ -156,8 +160,9 @@ That means:
 - Book 1 Part A is green.
 - Book 1 print scope has completed the urgent L1.5P cut and is the current
   publisher-print baseline.
-- Book 2 Part A should wait until L1.7A, L1.7B, L1.7C-0, L1.7C,
-  L1.7D, REF-CT0/REF-CT1, and the later scale gate make the
+- Book 2 Part A should wait until L1.7A, L1.7B-C, L1.7C-0, L1.7C,
+  L1.7D, L2.0, L1.7B-R or an explicit Scale Gate waiver,
+  GATE-L1.7B or an explicit Scale Gate waiver, REF-CT0/REF-CT1, and the later scale gate make the
   v5/MTU/target-exercise path quality-stable enough.
 - Companion production may continue only as controlled next-step production; it
   is not approved for broad scaling.
@@ -196,10 +201,11 @@ npm.cmd run check:book -- "..\4veco-lessen\Boek 1 - Grondslagen, vraag en aanbod
 
 - Reviews and quality refs are mandatory artifacts, not optional paperwork.
 - Rebuild affected paragraph/chapter/book HTML/PDF whenever source markdown or assets change.
-- Do not scale companion production until L1.7A, L1.7B, L1.7C-0,
-  L1.7C, L1.7D, and L2.0 explicitly clear the relevant flags, define
-  the complete companion-set contract and shared skill-map architecture, and
-  the pilot has passed both technical validation and layout/usability review:
+- Do not scale companion production until L1.7A, L1.7B-C, L1.7C-0,
+  L1.7C, L1.7D, L2.0, L1.7B-R, GATE-L1.7B, and Scale Gate 1 explicitly clear
+  or waive the relevant flags, define the complete companion-set contract and
+  shared skill-map architecture, and prove that the exit-ticket checkpoint, if
+  included in scaling, is a reviewed non-summative surface:
 
 ```powershell
 node scripts\validate-paragraph.js --mode complete "<paragraph-folder>"
@@ -2087,55 +2093,86 @@ Exit criteria:
 Closure state:
 
 L1.7A closed PASS WITH FLAGS. Current validators are green, but broad companion
-scaling is rejected. L1.7B has since paused implementation after recording the
-exit-ticket companion contract; the next active sprint is L1.7C-0. Evidence and decision
-records live under `archive/sprints/L1.7A/`.
+scaling is rejected. L1.7B-C has since paused implementation after recording
+the exit-ticket companion contract; the active lesson-side work has moved
+through L1.7C-0, L1.7C, and L1.7D to L2.0. Evidence and decision records live
+under `archive/sprints/L1.7A/`.
 
-### Sprint L1.7B: Exit Ticket Game MVP + Companion Completion Contract
+### Sprint L1.7B-C: Exit Ticket Companion Contract
 
-Completed: no. Status: paused after contract-and-stop decision.
+Completed: 2026-05-23. Status: closed contract-only / MVP paused.
 
-Position: after L1.7A. Phase-A planning/contract work is complete; MVP
-implementation is blocked until L1.7C-0 defines compact checkpoint-mode
-skill-map behavior and the prototype is either source-controlled or rewritten.
+Position: after L1.7A. This row records the completed contract and stop
+decision from the original L1.7B work. It does not authorize implementation.
 
 Purpose:
 
 Define the complete paragraph companion set and decide whether an exit-ticket
-game is the missing completion surface. The exit ticket is a non-summative
-retrieval/checkpoint activity, not a grade, mastery decision, sequencing input,
-or adaptive diagnostic.
+game is the missing completion surface. The exit ticket remains a
+non-summative retrieval/checkpoint activity, not a grade, mastery decision,
+sequencing input, or adaptive diagnostic.
 
-First task:
+Completed work:
 
-- Locate and inspect the existing exit-ticket prototype. Current local evidence
-  shows an untracked candidate at
+- Inspected the existing untracked exit-ticket prototype at
   `../4veco-platform/knowledge/exit-ticket-game-1.1.1.zip`.
-- If no repository-tracked prototype exists, record that as a source-control gap
-  and either import the prototype through an explicit review path or request that
-  the prototype be added before implementation.
+- Recorded the prototype as design evidence only.
+- Logged the prototype source-control gap.
+- Ran the prototype unit test in a temporary copy.
+- Recorded the companion-completion contract.
+- Recorded the future MVP scope.
+- Recorded the implementation stop decision.
+
+Stop decision:
+
+Implementation is not authorized from L1.7B-C because the prototype is
+untracked, uses mastery/score/pass/evidence/adaptive-focus language, and must
+consume shared skill-map compact checkpoint mode before any student-facing use.
+Human review and screenshot QA were not run because no MVP was generated.
+
+Records:
+
+- `archive/sprints/L1.7B/L1.7B-sprint-plan.md`
+- `archive/sprints/L1.7B/L1.7B-prototype-inventory.md`
+- `archive/sprints/L1.7B/L1.7B-companion-completion-contract.md`
+- `archive/sprints/L1.7B/L1.7B-exit-ticket-mvp-scope.md`
+- `archive/sprints/L1.7B/L1.7B-stop-decision.md`
+- `archive/sprints/L1.7B/L1.7B-validation-log.md`
+
+### Sprint L1.7B-R: Boundary-Safe Exit Ticket MVP Resume
+
+Completed: no. Status: future required sprint before Scale Gate 1 unless
+explicitly waived by human decision.
+
+Position: after L2.0 and platform support planning. Platform implementation
+support is expected under `GAME-UX-2`.
+
+Purpose:
+
+Resume exit-ticket implementation as a source-controlled, non-summative
+checkpoint MVP. The implementation must be a platform-owned engine or wrapper,
+not a one-off lesson artifact.
 
 Work:
 
-- Define the complete scalable companion set per paragraph:
-  voorbereiding/voorkennis, uitleg vaardigheden, begeleide inoefening,
-  three-aspect games, samenvatting/nieuws/presentatie, lesboek/downloads, and
-  exit ticket.
-- Scope-cut the exit-ticket game to a narrow MVP on one already-built paragraph.
-- Consume the shared skill-map engine in compact checkpoint mode once L1.7C-0
-  defines it.
-- Make the student-facing role clear: quick retrieval, reflection, and self-check
-  guidance.
-- Allow only bounded next-practice suggestions such as "try Redeneren next" or
-  "review this graph skill"; do not make mastery, diagnostic, sequencing,
-  grading, or summative claims.
-- Add student-experience and teacher-learning-quality review records before the
-  exit ticket becomes part of the scalable paragraph contract.
+- Import or rewrite the prototype as source-controlled platform code.
+- Remove mastery/pass/score/evidence/adaptive-focus language.
+- Consume shared skill-map compact checkpoint mode from `GAME-UX-1`.
+- Build one checkpoint MVP on one already-built paragraph.
+- Use neutral feedback and self-check/retry affordances.
+- Allow bounded guidance such as "try Redeneren next" or "review this graph
+  skill" only as practice support, not diagnosis or sequencing.
+- Integrate the landing-page `Check` slot through the generator: show `Check`
+  only for paragraphs with reviewed exit-ticket output and keep it hidden
+  elsewhere.
+- Add student-experience review, teacher-learning-quality review, and
+  screenshot/interaction QA.
 - Keep the build owned by platform generators; no hand-patched generated output.
 
 Out of scope:
 
 - grading
+- pass/fail thresholds
 - mastery decisions
 - adaptive routing or diagnostics
 - sequencing
@@ -2146,32 +2183,40 @@ Out of scope:
 
 Exit criteria:
 
-- companion-set contract exists
-- prototype source-control status is resolved or explicitly logged as a blocker
-- one narrow exit-ticket MVP is built or a stop decision is recorded
-- compact checkpoint-mode skill-map use is defined or explicitly blocked until
-  the shared engine exists
-- human review confirms the exit ticket is useful and non-summative
-- validators and screenshot/interaction QA required by the platform workflow pass
+- source-controlled implementation exists or a renewed stop decision is
+  recorded
+- shared skill-map compact checkpoint mode is consumed
+- no internal MTU codes appear in student-facing text
+- no adaptive payload keys are used for routing
+- landing-page `Check` activation is generator-owned and scoped to reviewed
+  exit-ticket output
+- validators and screenshot/interaction QA required by the platform workflow
+  pass
+- GATE-L1.7B is ready for human review
 
-Current L1.7B outcome:
+### Gate GATE-L1.7B: Exit Ticket Product-Boundary Review
 
-- prototype source-control gap logged
-- prototype inspected and treated as design evidence only
-- prototype unit test passed in a temp copy
-- companion-set contract recorded
-- future MVP scope recorded
-- implementation stop decision recorded
-- human review and screenshot QA are not run because no MVP is generated
+Completed: no. Status: required after L1.7B-R and before Scale Gate 1 unless
+explicitly waived by human decision.
 
-Records:
+Purpose:
 
-- `archive/sprints/L1.7B/L1.7B-sprint-plan.md`
-- `archive/sprints/L1.7B/L1.7B-prototype-inventory.md`
-- `archive/sprints/L1.7B/L1.7B-companion-completion-contract.md`
-- `archive/sprints/L1.7B/L1.7B-exit-ticket-mvp-scope.md`
-- `archive/sprints/L1.7B/L1.7B-stop-decision.md`
-- `archive/sprints/L1.7B/L1.7B-validation-log.md`
+Confirm that the exit-ticket MVP is a non-summative checkpoint surface, not a
+test, grade, mastery decision, adaptive diagnosis, sequencing decision, or
+student-facing recommendation engine.
+
+Review must verify:
+
+- source-controlled implementation
+- shared skill-map compact checkpoint use
+- neutral feedback language
+- no pass/fail thresholds
+- no mastery, score, evidence, or adaptive-focus language
+- no hidden adaptive payload routing behavior
+- no internal MTU codes in student-facing text
+- no generated-output hand patches
+- no diagnostics, adaptive routing, mastery, sequencing, student-facing AI,
+  summative use, PV projection, or PV machine promotion
 
 ### Sprint L1.7C-0: Shared Skill-Map Engine Contract
 
@@ -2380,9 +2425,10 @@ Closure result:
 
 ### Sprint L1.7D: Paragraph Landing Page Information Architecture Cleanup
 
-Completed: no.
+Completed: 2026-05-24.
 
-Position: active after L1.7C closed PASS WITH FLAGS; before L2.0 or Scale Gate 1.
+Position: closed PASS WITH FLAGS after L1.7C; before L2.0, L1.7B-R,
+GATE-L1.7B, and Scale Gate 1.
 
 Purpose:
 
@@ -2444,8 +2490,8 @@ Exit criteria:
 
 Completed: no.
 
-Position: after L1.7A, L1.7B, L1.7C-0, L1.7C, and L1.7D; before any broad
-companion scaling.
+Position: after L1.7A, L1.7B-C, L1.7C-0, L1.7C, and L1.7D; before L1.7B-R,
+GATE-L1.7B, Scale Gate 1, or any broad companion scaling.
 
 Purpose:
 
@@ -2465,6 +2511,16 @@ Work:
   scaling decisions.
 - Create a concise Book 1 student-web house-style baseline from the first three
   built paragraphs.
+- Classify L1.7C carried game-row flags as fix-before-scale, carry into
+  controlled production, or defer:
+  - `Rekenen` is not yet a full numeric calculation engine.
+  - `Grafieken` has only one less-labelled variant.
+  - `Redeneren` needs richer variants and replay value.
+  - reusable game screenshot QA should mature.
+- Define landing-page route rules after L1.7D, including that `Check` remains
+  hidden until reviewed non-summative exit-ticket output exists.
+- Define an exit-ticket readiness checklist for L1.7B-R.
+- Define screenshot/QA expectations for future paragraph builds.
 
 Out of scope:
 
@@ -2477,6 +2533,12 @@ Exit criteria:
 
 - each easy visible Book 1 flag has a decision or fix
 - house-style baseline exists and references the actual built paragraphs
+- PASS WITH FLAGS operational definition exists
+- game-row carried flags are classified as fix-before-scale, carry, or defer
+- exit-ticket readiness checklist exists
+- landing-page `Check` activation rule is explicit
+- quality-ref status language standard exists
+- screenshot/QA expectations exist
 - Book 1 health remains green
 - no generated lesson output is hand-patched
 
@@ -2796,20 +2858,19 @@ Outputs:
 
 - Keep Book 1 green.
 - Use the L1.5P print PDF as the current publisher-print baseline.
-- Start L1.7C using the L1.7C-0 shared skill-map contract as the baseline for
-  game-row review.
-- Preserve the L1.7B exit-ticket findings: the local untracked prototype is
+- Continue L2.0 as the active foundation-hardening sprint, not broad scaling.
+- Preserve the L1.7B-C exit-ticket findings: the local untracked prototype is
   design evidence only until it is source-controlled or rewritten with
   mastery/score/pass/evidence/adaptive-focus semantics removed.
-- Preserve the L1.7C-0 finding: current platform skill-tree behavior needs
-  `GAME-UX-1` implementation before real shared route UI exists in all three
-  games.
-- Prepare L1.7C and L1.7D as the next pre-scale sequence: game-row quality and
-  landing-page information architecture.
+- Preserve the L1.7C and L1.7D carried flags: game-row MVP limitations need
+  disposition, and `Check` remains hidden until reviewed exit-ticket output
+  exists.
+- Prepare L1.7B-R and GATE-L1.7B only after L2.0 defines the exit-ticket
+  readiness checklist and game-row flag disposition.
 - Keep L1.5Q/v5 as the active curriculum-source baseline, but do not treat
   migrated target exercises as final-reviewed.
 - Continue companion pilot work only where it supports the L1.7A decision and
-  the L1.7B/L1.7C-0/L1.7C/L1.7D foundation-hardening sequence, or does not
+  the L1.7B-C/L1.7C-0/L1.7C/L1.7D/L2.0/L1.7B-R foundation-hardening sequence, or does not
   conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
 - Keep Book 2 Part A planning paused behind L1.5Q if it depends on the new
@@ -2817,9 +2878,10 @@ Outputs:
 
 ### Next 2-4 Weeks
 
-- Use the L1.7A readiness decision, L1.7B contract-and-stop outcome, and
-  L1.7C-0 shared skill-map contract as the baseline, then run L1.7C and L1.7D
-  before L2.0/Scale Gate 1 if companion scaling is still desired.
+- Use the L1.7A readiness decision, L1.7B-C contract-and-stop outcome,
+  L1.7C-0 shared skill-map contract, L1.7C game-row closure, and L1.7D landing
+  IA closure as the baseline. Complete L2.0 before L1.7B-R/GATE-L1.7B and
+  Scale Gate 1 if companion scaling is still desired.
 - Keep `course_blueprint_v5.md` and the target-exercise source-of-truth path as
   the active baseline before Book 2 production.
 - `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.
@@ -2828,10 +2890,12 @@ Outputs:
 - L1.6 remains the third-paragraph technical proof; L1.6R repaired the `1.1.3`
   companion dual-coding failure, and L1.7A decided that the evidence supports
   controlled foundation hardening only, not broad scaling.
-- L1.7B through L1.7D must prevent companion product sprawl before scaling:
-  keep the exit-ticket role non-summative, define the shared skill-map engine
-  contract, harden the three-aspect game row, and redesign paragraph landing
-  pages as learning routes.
+- L1.7B-C through GATE-L1.7B must prevent companion product sprawl before
+  scaling: keep the exit-ticket role non-summative, preserve the shared
+  skill-map engine contract, classify game-row carried flags, keep `Check`
+  hidden until reviewed output exists, and require a boundary-safe exit-ticket
+  MVP plus product-boundary review before scale unless explicitly waived by
+  human decision.
 - Book 1 teacher-facing polish continues without breaking `check:book`.
 
 ### Months 1-3
