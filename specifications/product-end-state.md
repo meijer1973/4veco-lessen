@@ -170,17 +170,18 @@ These labels must stay distinct:
 
 - **Published paragraph complete:** the generated student-facing paragraph
   exists and passes its applicable validators and reviews.
-- **Companion-pilot complete:** a bounded companion or game surface is accepted
-  for controlled pilot use.
+- **Companion controlled-scope complete:** a bounded companion or game surface
+  is accepted for controlled paragraph-limited use.
 - **Target-exercise-readiness complete:** the route and exit ticket cover the
   target exercise operation chain well enough to say the student is ready to
   try the target exercise.
 - **Scale-ready:** the product, metadata, review gates, rendered evidence, and
   boundary language are strong enough for broader controlled production.
 
-Calling something a pilot, MVP, or controlled checkpoint may reduce immediate
-scope, but it does not change the end-state definition. Missing end-state work
-must be named and routed to a follow-up sprint.
+Calling something a bounded implementation, first reviewed implementation, or
+controlled checkpoint may reduce immediate scope, but it does not change the
+end-state definition. Missing end-state work must be named and routed to a
+follow-up sprint.
 
 ## Required Use
 
@@ -207,4 +208,4 @@ specification:
 | Product end-state was distributed across repository maps, agent prompts, roadmap entries, and sprint plans instead of stated once. | medium-high | platform specs / roadmap / agent prompts | Keep this canonical file linked from lesson and platform operating docs. |
 | Exit-ticket semantics are not yet fully target-exercise-readiness evidence. | high | companion / exit ticket / roadmap | Complete metadata alignment and Q2 readiness work before using readiness language broadly. |
 | Exam ingestion end state exists conceptually but not as a full ingestion object. | medium-high | platform references / exam ingestion | Keep `L-EX0` and `L-EX1` as product-infrastructure work, not just content work. |
-| Companion pilot status can be confused with product completeness. | medium | lesson roadmap / reviews | Keep explicit distinction between published paragraph complete, companion-pilot complete, target-readiness complete, and scale-ready. |
+| Companion controlled-scope status can be confused with product completeness. | medium | lesson roadmap / reviews | Keep explicit distinction between published paragraph complete, companion controlled-scope complete, target-readiness complete, and scale-ready. |

@@ -15,7 +15,7 @@ structure, practice games, exit tickets, readiness language, or Scale Gate
 evidence, it must preserve that product-end-state baseline.
 
 If the roadmap, a sprint plan, or a review packet conflicts with this file,
-the conflict must be named explicitly. The team may choose a smaller pilot
+the conflict must be named explicitly. The team may choose a smaller bounded
 scope, but it may not treat that smaller scope as satisfying the full
 specification unless the missing work is assigned to a named follow-up sprint.
 
@@ -37,8 +37,8 @@ specification unless the missing work is assigned to a named follow-up sprint.
   game-row, exit-ticket, and review semantics. Approval route:
   SPEC-END-STATE specification-hardening sprint. Consequence: future
   companion sprints must preserve the end-state distinction between
-  companion-pilot completeness, target-exercise-readiness completeness, and
-  scale readiness.
+  companion bounded-scope completeness, target-exercise-readiness
+  completeness, and scale readiness.
 - 2026-05-26: added the sprint close-out communication rule at human request.
   Affected surface: sprint/review operations. Approval route: roadmap
   maintenance after L1.7C-MATH closure. Consequence: future sprint final chat
@@ -53,8 +53,6 @@ specification unless the missing work is assigned to a named follow-up sprint.
 ## Global Product Rules
 
 - A good product is the default sprint outcome.
-- `Pilot` and `MVP` are scope labels, not permission to undercut the stated
-  product specification.
 - Product work must preserve the end-state route from current readiness to
   target-exercise readiness. A sprint may produce a smaller controlled step,
   but missing end-state work must be named and routed to a follow-up sprint.
@@ -70,6 +68,26 @@ specification unless the missing work is assigned to a named follow-up sprint.
   sequencing, summative use, student-facing AI, PV projection, PV machine
   promotion, CP-6 closure, Year-1 closure, or broad scaling unless a later
   explicit gate authorizes that use.
+
+## Scope-Language Discipline
+
+Specifications must be executed as written. Planning agents may not reinterpret
+a specification as an MVP, pilot, prototype, or reduced-quality version.
+
+The terms `MVP`, `minimal viable product`, `minimum viable product`, `pilot`,
+and `prototype` are prohibited in new sprint titles, roadmap rows, review
+packets, and agent plans unless:
+
+1. the authorizing specification, gate, or human decision explicitly uses that
+   exact term;
+2. the term is needed for traceability to that authority;
+3. the plan states the full quality bar inside the bounded scope;
+4. every omitted specification requirement is listed as a named blocker,
+   follow-up sprint, or explicit human waiver.
+
+A scope label never lowers the quality bar. If a sprint implements only part of
+a specification, the result is a bounded implementation, not a completed
+specification.
 
 ## Game-Row Specification
 
@@ -187,7 +205,7 @@ Flag levels:
 
 - `minor_carry_flag`: outside the sprint core objective; may remain after
   closure.
-- `scale_blocker`: may allow controlled pilot closure but blocks scale
+- `scale_blocker`: may allow bounded-scope closure but blocks scale
   reliance.
 - `core_spec_failure`: must return REVISE, FAIL, or PAUSE.
 

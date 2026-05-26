@@ -466,7 +466,7 @@ Use this hierarchy when evidence conflicts:
 7. Assembled artifacts (`– hoofdstuk.{html,pdf}`, `– boek.{html,pdf}`) reflect the last build only; if they disagree with the paragraph markdown, trust the paragraph markdown and flag the assembly as stale.
 8. The team roadmap — `lessen-team-roadmap.md` — is planning state, not factual evidence about generated artifacts.
 9. The course blueprint — `course_blueprint_v5.md` — is upstream curriculum design, not proof that any paragraph implements it.
-10. Companion artifacts (HTML games, DOCX, PPTX) are pilot-stage; absence of a companion is not a defect unless the paragraph is in a closed companion sprint.
+10. Companion artifacts (HTML games, DOCX, PPTX) are controlled-scope surfaces; absence of a companion is not a defect unless the paragraph is in a closed companion sprint.
 
 Do not infer that an artifact exists from the plan. Always confirm by listing the directory or fetching the file.
 
@@ -738,6 +738,6 @@ Suggested categories:
 - Separate evidence, interpretation, proposal, and unresolved issue lists.
 - Use raw URLs or relative paths consistently.
 - Quote paragraph markdown when summarising lesson content; do not paraphrase as if it were your own writing.
-- Distinguish published-paragraph status from companion-pilot status; the bar for "complete" differs between the two.
+- Distinguish published-paragraph status from companion controlled-scope status; the bar for "complete" differs between the two.
 - Keep internal technical categories (engine drift, quality-log integrity, build staleness) inside developer-facing reports, not in any output meant for students.
 - Do not produce student-facing lesson text from this map. This file is for research navigation, not lesson production. Lesson production lives in `4veco-platform`.
