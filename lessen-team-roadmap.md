@@ -9,7 +9,7 @@ for closed work live under `archive/sprints/<sprint-id>/`.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.7B-R | Boundary-Safe Exit Ticket MVP Resume | no | **PAUSED; PLATFORM SUPPORT REQUESTED; MVP NOT BUILT.** L1.7B-R created an operational plan, baseline audit, `GAME-UX-2` platform support request, stop decision, and validation log under `archive/sprints/L1.7B-R/`. Decision: do not implement or generate exit-ticket output from the lesson repo while the platform roadmap keeps `GAME-UX-2` inactive pending GATE-EX5 or an explicit waiver. The untracked prototype remains design evidence only and was not imported. Required future work remains: source-controlled platform checkpoint engine/wrapper, neutral non-summative task/feedback model, shared skill-map compact checkpoint consumption, generator-owned `Check` activation for reviewed output only, screenshot/interaction QA, student/teacher review, and GATE-L1.7B. |
+| L1.7B-R | Boundary-Safe Exit Ticket MVP Resume | no | **READY FOR HUMAN REVIEW; NOT CLOSED.** Platform `GAME-UX-2` completed and pushed the source-controlled exit-ticket checkpoint engine MVP. Lesson output commit `5c47961269096c21a7d50bbc97c71de7984ff6e1` generated the `1.1.1` checkpoint and activated landing `Check` through platform scripts only; tag `checkpoint/GAME-UX-2-exit-ticket-mvp-lesson`. Lesson-side resume records now include platform response, technical QA, archived screenshots, and human-review packet under `archive/sprints/L1.7B-R/`. Green checks: platform focused checkpoint/landing/skill-map tests, full platform Jest 554 passed / 8 skipped, deploy, `1.1.1` validation, Book 1 checks, procedure contracts, target exercises, sprint bundle, and checkpoint/landing desktop/mobile light/dark screenshot QA; local focused recheck 26/26 and `1.1.1` complete student-web validation passed. Human review must explicitly resolve the metadata-concordance flag: generated checkpoint metadata uses `A43`/`A04`, while the `1.1.1` paragraph plan names `B01`/`B02`. L1.7B-R remains open until review records and lead summary exist; GATE-L1.7B remains required before Scale Gate 1. |
 | GATE-L1.7B | Exit Ticket Product-Boundary Review | no | **REQUIRED BEFORE SCALE GATE 1 UNLESS EXPLICITLY WAIVED BY HUMAN DECISION.** Human review gate for the exit-ticket MVP. Confirm the surface is a non-summative checkpoint, not a test, grade, mastery decision, adaptive diagnosis, sequencing decision, or AI/student-facing recommendation engine. Verify source-controlled implementation, shared skill-map compact checkpoint use, neutral feedback language, no pass/fail thresholds, no hidden adaptive payload behavior, no internal MTU codes in student-facing text, and no generated-output hand patches. Platform evidence from `GAME-UX-2` must be attached if the MVP uses new platform engine/wrapper support. |
 | L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | **2026-05-25** | **CLOSED PASS WITH FLAGS.** L2.0 defined the Book 1 student-web house-style baseline, PASS WITH FLAGS operational meaning, flag dispositions, quality-ref status language, screenshot/QA expectations, exit-ticket readiness checklist, and consolidation/gemengde-opgaven landing rule. Platform generator routes `1.1.4 Gemengde opgaven` to primary `Oefen gemengd` instead of a weak `Verdiep`-only page; chapter landing tags also show `Oefen gemengd`. Human review closed PASS WITH FLAGS with no product blocker. Green gates: focused landing Jest 2/2, deploy link/data checks 460 refs + 221 data tests, complete student-web validation for `1.1.1`-`1.1.3`, `1.1.4` publisher-print validation, Book 1 health 26/26, procedure-contract validation 341 checks, v5 target-exercise validation 54 records with 12/12/14/16, `1.1.4` desktop/mobile light/dark screenshot QA, and full platform Jest 544 passed / 8 skipped. Carried flags: `1.1.4` remains legacy `FLAG`, graph-drawing consolidation and profit-formula framing need later content review, game-row variants remain MVP-level, exit-ticket implementation remains L1.7B-R/GATE-L1.7B, and broad companion scaling remains blocked. Records: `archive/sprints/L2.0/`. |
 | L1.7D | Paragraph Landing Page Information Architecture Cleanup | **2026-05-24** | **CLOSED PASS WITH FLAGS.** Platform generator now renders paragraph landing pages as a controlled route with `Start`, `Leer`, `Oefen`, optional `Check`, and `Verdiep`. `Check` stays hidden until a reviewed exit-ticket surface exists. `Oefen` separates guided support from scoped practice routes and routes `Rekenen` to `stappenplan` when present; the full skill map is demoted to a collapsed advanced source item. Summary/news/presentation/textbook/source surfaces are collapsed under `Verdiep`, and legacy Word exercise rows remain hidden from student landing pages. Human review closed PASS WITH FLAGS. Green gates: deploy link/data checks, focused landing Jest, complete student-web validation for `1.1.1`-`1.1.3`, procedure-contract validation 341 checks, Book 1 Part A health 26/26, v5 target-exercise validation 54 records with 12/12/14/16, screenshot QA for representative landings, and full platform Jest 543 passed / 8 skipped. Carried flags: calculation route is not a full numeric engine, `Check` remains future/non-summative, screenshot QA is representative, and `1.1.4` needs a dedicated consolidation landing pattern before broad scale. Records: `archive/sprints/L1.7D/`. |
@@ -142,6 +142,8 @@ Updated: 2026-05-25 (L2.0 technical QA ready) - L2.0 created the house-style bas
 Updated: 2026-05-25 (L2.0 close) - Human review accepted L2.0 as PASS WITH FLAGS. No implementation revision is required. The consolidation landing rule is accepted: `1.1.4 Gemengde opgaven` presents as `Oefen gemengd`, not as a `Verdiep`-only leftover. L2.0 also closes the house-style baseline, PASS WITH FLAGS definition, flag-disposition table, quality-ref status standard, screenshot/QA expectations, and exit-ticket readiness checklist. Carried flags: `1.1.4` remains legacy `FLAG`; graph-drawing consolidation and profit-formula framing need later content review; `Rekenen / stappenplan` is not a full numeric calculation engine; graph/reasoning game variants remain MVP-level; exit-ticket implementation remains L1.7B-R/GATE-L1.7B; broad companion scaling remains blocked.
 
 Updated: 2026-05-25 (L1.7B-R platform handoff) - L1.7B-R created its operational resume plan and stopped before implementation. The lesson team issued `archive/sprints/L1.7B-R/L1.7B-R-platform-support-request.md` for platform `GAME-UX-2`, because the platform roadmap still treats the exit-ticket checkpoint engine as a future support lane pending GATE-EX5 or explicit waiver. No prototype import, platform runtime code, generated lesson output, landing `Check` activation, screenshot QA, or human-review packet was produced. L1.7B-R remains not MVP-closed; GATE-L1.7B remains blocked until a source-controlled generated checkpoint surface exists and is reviewed.
+
+Updated: 2026-05-26 (L1.7B-R platform support received) - Platform `GAME-UX-2` completed and pushed the source-controlled exit-ticket checkpoint MVP. Lesson output commit `5c47961269096c21a7d50bbc97c71de7984ff6e1` now contains generated `1.1.1` checkpoint output and landing-page `Check` activation through platform scripts only. L1.7B-R added platform-response, technical-QA, screenshot archive, and human-review packet records under `archive/sprints/L1.7B-R/`. Technical QA is green, but L1.7B-R remains open pending human review. The lead review must explicitly resolve the internal skill-scope metadata question: generated checkpoint metadata uses `A43`/`A04`, while the `1.1.1` paragraph plan names `B01`/`B02`. GATE-L1.7B remains required before Scale Gate 1.
 
 Updated: 2026-05-19 (L-CP6A close) - lesson-side CP.6a remediation closed PASS WITH FLAGS. A platform-owned migration script aligned active Book 1 Chapter 1.3 to v5, archived displaced costs/revenue material for Book 2 survival, regenerated `1.3.2`, `1.3.3`, `1.3.4`, Chapter 1.3, and aggregate Book 1 output, and preserved the rule that CP-6/Year 1 are not closed here. Green gates: Chapter 1.3 validation, Book 1 health 26/26, print-scope 12/12, v5 target-exercise counts 54 with 12/12/14/16, focused book Jest 7/7, full platform Jest 515 passed / 8 skipped. References-team handoff: `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`.
 Updated: 2026-05-20 (EX-NS0 exam-ingestion north-star) - official exam-target paragraph work is now explicit as a future cross-repo endpoint. The platform side owns exam-ingestion overlays, source-annex and answer-model traceability, MTU mapping, and operation classification. The lesson side now inserts L-EX0 and L-EX1 before L2.4-TEA: first define the paragraph-plan contract and review checklist, then run one controlled pilot paragraph around a real official exam question. This update authorizes no broad production, no generated-output hand patching, no CP-6/Year-1 closure, no target-exercise promotion, and no diagnostics/adaptive/mastery/summative/student-facing AI use.
@@ -2147,10 +2149,11 @@ Records:
 
 ### Sprint L1.7B-R: Boundary-Safe Exit Ticket MVP Resume
 
-Completed: no. Status: paused after platform-support request; MVP not built.
+Completed: no. Status: ready for human review after platform `GAME-UX-2`;
+not closed.
 
 Position: after L2.0 and platform support planning. Platform implementation
-support is expected under `GAME-UX-2`.
+support has been delivered under `GAME-UX-2`.
 
 Purpose:
 
@@ -2199,13 +2202,16 @@ Exit criteria:
   pass
 - GATE-L1.7B is ready for human review
 
-Current stop decision, 2026-05-25:
+Current resume decision, 2026-05-26:
 
-L1.7B-R cannot safely implement in the lesson repo while `GAME-UX-2` is still
-future/not active in the platform roadmap. The sprint created the plan,
-baseline audit, platform support request, stop decision, and validation log.
-No platform runtime code, generated lesson output, landing-page `Check`
-activation, screenshot QA output, or human-review packet was produced.
+Platform `GAME-UX-2` has produced the source-controlled checkpoint engine and
+generated lesson output through platform scripts only. Lesson output commit
+`5c47961269096c21a7d50bbc97c71de7984ff6e1` contains the `1.1.1` checkpoint
+surface and landing-page `Check` activation. L1.7B-R technical QA is green and
+the sprint is ready for human review, not closure. The lead review must
+explicitly resolve whether generated checkpoint metadata `A43`/`A04` versus
+paragraph-plan skills `B01`/`B02` is acceptable as a carried
+platform/skill-map limitation or requires revision before closure.
 
 Records:
 
@@ -2214,6 +2220,10 @@ Records:
 - `archive/sprints/L1.7B-R/L1.7B-R-platform-support-request.md`
 - `archive/sprints/L1.7B-R/L1.7B-R-stop-decision.md`
 - `archive/sprints/L1.7B-R/L1.7B-R-validation-log.md`
+- `archive/sprints/L1.7B-R/L1.7B-R-platform-response.md`
+- `archive/sprints/L1.7B-R/L1.7B-R-technical-qa-report.md`
+- `archive/sprints/L1.7B-R/L1.7B-R-human-review-packet.md`
+- `archive/sprints/L1.7B-R/L1.7B-R-screenshots/`
 
 ### Gate GATE-L1.7B: Exit Ticket Product-Boundary Review
 
