@@ -9,6 +9,11 @@ This file records the stable product specifications for the student-facing
 companion surfaces. It exists outside the active roadmap and outside sprint
 plans so that roadmap updates cannot quietly weaken the intended product.
 
+This file implements the companion-surface part of
+`specifications/product-end-state.md`. If a companion sprint touches route
+structure, practice games, exit tickets, readiness language, or Scale Gate
+evidence, it must preserve that product-end-state baseline.
+
 If the roadmap, a sprint plan, or a review packet conflicts with this file,
 the conflict must be named explicitly. The team may choose a smaller pilot
 scope, but it may not treat that smaller scope as satisfying the full
@@ -27,6 +32,13 @@ specification unless the missing work is assigned to a named follow-up sprint.
 
 ## Change Notes
 
+- 2026-05-26: linked this companion specification to the new canonical
+  product-end-state specification. Affected surface: companion route,
+  game-row, exit-ticket, and review semantics. Approval route:
+  SPEC-END-STATE specification-hardening sprint. Consequence: future
+  companion sprints must preserve the end-state distinction between
+  companion-pilot completeness, target-exercise-readiness completeness, and
+  scale readiness.
 - 2026-05-26: added the sprint close-out communication rule at human request.
   Affected surface: sprint/review operations. Approval route: roadmap
   maintenance after L1.7C-MATH closure. Consequence: future sprint final chat
@@ -43,6 +55,9 @@ specification unless the missing work is assigned to a named follow-up sprint.
 - A good product is the default sprint outcome.
 - `Pilot` and `MVP` are scope labels, not permission to undercut the stated
   product specification.
+- Product work must preserve the end-state route from current readiness to
+  target-exercise readiness. A sprint may produce a smaller controlled step,
+  but missing end-state work must be named and routed to a follow-up sprint.
 - Sprint close-out communication must state the next step if work simply
   continues. If there is no safe next step, the close-out must say what human
   decision or missing evidence is blocking continuation.

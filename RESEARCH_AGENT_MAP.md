@@ -86,6 +86,8 @@ Human-readable:
 - `index.html` (top-level landing — book list)
 - `AGENT_GITHUB_ENTRY.md` (one-page GitHub orientation for agents)
 - `AGENTS.md` (operating rules for any agent acting on this repo)
+- `specifications/product-end-state.md` (canonical product north star)
+- `specifications/companion-core-specifications.md` (stable companion specifications)
 - `lessen-team-roadmap.md` (sprint ledger, mission, current status, guardrails)
 - `course_blueprint_v5.md` (active four-book / four-test-week curriculum-source baseline)
 - `plan-1.1.1-part-b-clarity-audit.md` (active plan document at root)
@@ -112,6 +114,8 @@ entry_points (full URLs):
 
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/index.html
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/AGENTS.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/product-end-state.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/companion-core-specifications.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v5.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/plan-1.1.1-part-b-clarity-audit.md
@@ -142,6 +146,8 @@ URL index (single fetch unlocks the rest of the surface, served from the platfor
 ```json
 {
   "repo_operating_rules": "AGENTS.md",
+  "product_end_state_spec": "specifications/product-end-state.md",
+  "companion_core_spec": "specifications/companion-core-specifications.md",
   "team_roadmap": "lessen-team-roadmap.md",
   "closed_lesson_ticket_cp6a_chapter13_alignment": "lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md",
   "course_blueprint": "course_blueprint_v5.md",
@@ -164,6 +170,8 @@ index_anchors (full URLs):
 Concrete index-anchor files (templates with `<book-title>` / `N.M.K` placeholders are not fetchable until substituted; only the concrete anchors are listed here):
 
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/AGENTS.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/product-end-state.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/companion-core-specifications.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v5.md
@@ -180,6 +188,8 @@ Use these index anchors before free-form browsing. The plan files state intent, 
   "root": "https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/",
   "declared_path_namespaces": [
     ".",
+    "specifications",
+    "archive/sprints/SPEC-END-STATE",
     "Boek 1 - Grondslagen, vraag en aanbod",
     "Boek 1 - Grondslagen, vraag en aanbod/_assets",
     "Boek 1 - Grondslagen, vraag en aanbod/shared",
@@ -203,6 +213,8 @@ Use these index anchors before free-form browsing. The plan files state intent, 
   ],
   "root_doc_paths": [
     "AGENTS.md",
+    "specifications/product-end-state.md",
+    "specifications/companion-core-specifications.md",
     "lessen-team-roadmap.md",
     "course_blueprint_v5.md",
     "plan-1.1.1-part-b-clarity-audit.md",
@@ -463,7 +475,10 @@ Do not infer that an artifact exists from the plan. Always confirm by listing th
 Agents MUST follow this sequence:
 
 1. Load this map.
-2. Load `AGENTS.md` (operating rules) and `lessen-team-roadmap.md` (sprint state).
+2. Load `AGENTS.md` (operating rules),
+   `specifications/product-end-state.md` (product north star),
+   `specifications/companion-core-specifications.md` (companion baseline), and
+   `lessen-team-roadmap.md` (sprint state).
    - Determine which sprint is active and which paragraphs are in scope for companion-output research.
 3. Load the relevant book's deploy-config and landing page:
    - `Boek N - <book-title>/deploy-config.json`

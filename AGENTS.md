@@ -34,6 +34,19 @@ artifacts when the platform workflow explicitly calls for writing them here.
 If the task changes how materials are produced, make that change in
 `4veco-platform` first.
 
+## Product End-State
+
+Use `specifications/product-end-state.md` as the canonical north star for the
+student-facing product. The end state is a generated, review-gated learning
+route for every paragraph: the student moves from current readiness to
+target-exercise readiness through `Start -> Leer -> Oefen -> Check ->
+Verdiep`.
+
+Roadmap entries, sprint plans, review packets, and closure records may choose
+a smaller controlled scope, but they must not present that smaller scope as the
+full product unless the missing work is assigned to a named follow-up sprint or
+explicitly waived by human decision with stated consequences.
+
 ## Exam-Target Paragraph End-State
 
 The lesson side is being prepared for paragraphs whose target exercise is an
@@ -58,6 +71,8 @@ sprint.
 
 ## Read first
 
+- Use `specifications/product-end-state.md` as the stable product north star before roadmap, sprint, review, or Scale Gate work.
+- Use `specifications/companion-core-specifications.md` as the stable companion-surface specification.
 - Use `../CLAUDE.md` "Working agreement — how Claude operates in this repo" for the seven non-negotiable operating rules (read-first, sanity-check-plans, be-honest-about-mistakes, quality-over-patchwork). Applies to every task.
 - Use [BUILD-PARAGRAPH.md](C:\Projects\4veco\4veco-platform\BUILD-PARAGRAPH.md) as the end-to-end guide for building a complete paragraph.
 - Use [BUILD-CHAPTER.md](C:\Projects\4veco\4veco-platform\BUILD-CHAPTER.md) as the end-to-end guide for assembling paragraphs into a chapter.
