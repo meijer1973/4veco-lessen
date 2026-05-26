@@ -7,6 +7,12 @@ Closed sprints are recorded separately in the "Closed Sprints" section below.
 Sprint plans, review records, QA reports, closure logs, and screenshot evidence
 for closed work live under `archive/sprints/<sprint-id>/`.
 
+Stable companion specifications live in
+`specifications/companion-core-specifications.md`. Roadmap and sprint updates
+must not silently weaken that file; any conflict requires an explicit
+specification-change review or a named follow-up sprint that restores the full
+product.
+
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
 | L1.7C-MATH | Restore Skill-Tree Math Game + Four-Game Architecture Integrity | no | **ACTIVE / HARD BLOCKER BEFORE SCALE GATE 1.** Restore `wiskundevaardigheden.html` / the old skill-tree math game as the primary `Rekenen` practice route where it exists. Keep `stappenplan.html` visible as procedure support / extra steun, not as the replacement math game. Audit the full game-row architecture: `Redeneren`, `Rekenen`/skill-tree math, `Grafieken`, and the shared skill-map route layer. Closure requires proof that each game can access the shared skill-map in the correct aspect scope and that a student can open the skill tree for that skill type without seeing an overloaded full catalog by default. |
@@ -163,6 +169,8 @@ Updated: 2026-05-26 (skill-tree math route correction) - Added `L1.7C-MATH Resto
 
 Updated: 2026-05-26 (core-spec hardening) - Tightened the pre-scale sequence after human review feedback that "pilot" and "MVP" language must not weaken the original product specification. `L1.7C-MATH` is now the first hard blocker because the primary math route is wrong. `L1.7B-MAP`, `L1.7B-P23`, `L1.7B-Q2`, and `GATE-L1.7B-Q2` now explicitly restore the exit-ticket path from short checkpoint to target-exercise-readiness evidence before stronger claims. Added `REV-STD-1 Core-Spec Review Standard Hardening` before Scale Gate 1 so PASS WITH FLAGS cannot carry core-spec failures, and Scale Gate 1 is blocked until these sprints are closed or explicitly waived by human decision with consequences.
 
+Updated: 2026-05-26 (stable companion specification) - Added `specifications/companion-core-specifications.md` as a smaller, more static specification baseline outside the active roadmap and sprint folders. Future roadmap and sprint changes must reconcile against this file; if a sprint ships a smaller pilot/MVP scope, the missing specification work must be assigned to a named follow-up sprint or changed through explicit specification review.
+
 Updated: 2026-05-19 (L-CP6A close) - lesson-side CP.6a remediation closed PASS WITH FLAGS. A platform-owned migration script aligned active Book 1 Chapter 1.3 to v5, archived displaced costs/revenue material for Book 2 survival, regenerated `1.3.2`, `1.3.3`, `1.3.4`, Chapter 1.3, and aggregate Book 1 output, and preserved the rule that CP-6/Year 1 are not closed here. Green gates: Chapter 1.3 validation, Book 1 health 26/26, print-scope 12/12, v5 target-exercise counts 54 with 12/12/14/16, focused book Jest 7/7, full platform Jest 515 passed / 8 skipped. References-team handoff: `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`.
 Updated: 2026-05-20 (EX-NS0 exam-ingestion north-star) - official exam-target paragraph work is now explicit as a future cross-repo endpoint. The platform side owns exam-ingestion overlays, source-annex and answer-model traceability, MTU mapping, and operation classification. The lesson side now inserts L-EX0 and L-EX1 before L2.4-TEA: first define the paragraph-plan contract and review checklist, then run one controlled pilot paragraph around a real official exam question. This update authorizes no broad production, no generated-output hand patching, no CP-6/Year-1 closure, no target-exercise promotion, and no diagnostics/adaptive/mastery/summative/student-facing AI use.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
@@ -228,6 +236,9 @@ npm.cmd run check:book -- "..\4veco-lessen\Boek 1 - Grondslagen, vraag en aanbod
 ```
 
 - Reviews and quality refs are mandatory artifacts, not optional paperwork.
+- Stable companion specifications live in
+  `specifications/companion-core-specifications.md`; read that file before
+  changing roadmap scope, sprint scope, or review criteria.
 - "Pilot" and "MVP" are scope labels, not permission to undercut the stated
   product specification. If a sprint deliberately ships a smaller version, the
   roadmap must name the sprint that restores the full specified product.

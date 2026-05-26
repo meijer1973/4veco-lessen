@@ -13,6 +13,12 @@ product.
 `Pilot` and `MVP` describe scope. They do not excuse missing non-negotiable
 requirements.
 
+The stable companion baseline is
+`specifications/companion-core-specifications.md`. Review packets must cite the
+relevant section of that file when reviewing companion game rows, skill maps,
+exit tickets, landing routes, or scale gates. If a roadmap or sprint plan
+conflicts with the stable specification, the conflict must be named explicitly.
+
 ## Flag Levels
 
 `minor_carry_flag`
@@ -80,6 +86,8 @@ Required when:
 Every future review packet should include:
 
 - original sprint specification;
+- relevant stable specification section from
+  `specifications/companion-core-specifications.md`;
 - non-negotiable requirements;
 - student-facing product role;
 - implementation scope and what was deliberately not built;

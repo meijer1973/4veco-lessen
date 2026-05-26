@@ -33,6 +33,7 @@ roadmap must name the sprint that restores the full specified product.
 
 ## Read-First Evidence
 
+- `specifications/companion-core-specifications.md`
 - `lessen-team-roadmap.md`
 - `archive/sprints/L1.7C/L1.7C-human-review-packet.md`
 - `archive/sprints/L1.7C/L1.7C-lead-review-summary.md`
@@ -55,7 +56,8 @@ roadmap must name the sprint that restores the full specified product.
    - `core_spec_failure`.
 2. Update review-packet templates or packet instructions so every review
    includes:
-   - original sprint specification;
+   - original sprint specification, including the relevant section of
+     `specifications/companion-core-specifications.md`;
    - non-negotiable requirements;
    - student-facing product role;
    - evidence inspected;
@@ -80,6 +82,8 @@ roadmap must name the sprint that restores the full specified product.
    - GATE-L1.7B;
    - L2.0.
 6. Produce an inherited-flag table for Scale Gate 1.
+7. Verify that any roadmap or sprint plan that narrows the specification names
+   the follow-up sprint or gate that restores the full product.
 
 ## Review Verdict Definitions
 
@@ -118,6 +122,8 @@ decision.
 
 - `archive/sprints/REV-STD-1/REV-STD-1-review-standard.md`
 - `archive/sprints/REV-STD-1/REV-STD-1-inherited-flag-table.md`
+- confirmed baseline use of `specifications/companion-core-specifications.md`
+  in future review packets;
 - updated review-packet template/instructions, if such a platform-owned or
   lesson-owned template exists;
 - `archive/sprints/REV-STD-1/REV-STD-1-technical-qa-report.md`
@@ -127,6 +133,8 @@ decision.
 ## Acceptance Criteria
 
 - Future review packets separate core specification from optional improvement.
+- Future review packets cite `specifications/companion-core-specifications.md`
+  where relevant.
 - PASS WITH FLAGS cannot hide core failure.
 - Scale Gate 1 has an explicit inherited-flag table.
 - Review agents are instructed to compare output against the original
