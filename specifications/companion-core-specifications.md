@@ -25,11 +25,22 @@ specification unless the missing work is assigned to a named follow-up sprint.
 - A sprint may add implementation details, but it may not weaken these
   specifications without an explicit specification-change review.
 
+## Change Notes
+
+- 2026-05-26: added the sprint close-out communication rule at human request.
+  Affected surface: sprint/review operations. Approval route: roadmap
+  maintenance after L1.7C-MATH closure. Consequence: future sprint final chat
+  messages must name the next step if work continues, or name the human
+  decision/evidence that blocks continuation.
+
 ## Global Product Rules
 
 - A good product is the default sprint outcome.
 - `Pilot` and `MVP` are scope labels, not permission to undercut the stated
   product specification.
+- Sprint close-out communication must state the next step if work simply
+  continues. If there is no safe next step, the close-out must say what human
+  decision or missing evidence is blocking continuation.
 - Technical QA cannot replace student-experience review or
   teacher-learning-quality review.
 - Generated lesson output may not be hand-patched to satisfy a sprint.
