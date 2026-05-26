@@ -1,7 +1,7 @@
 # GATE-L1.7B Sprint Plan
 
 Date: 2026-05-26
-Status: READY FOR HUMAN REVIEW; NOT CLOSED
+Status: CLOSED PASS WITH FLAGS
 
 ## Gate Name
 
@@ -104,3 +104,10 @@ After human review:
 - `archive/sprints/GATE-L1.7B/GATE-L1.7B-lead-review-summary.md`
 - `archive/sprints/GATE-L1.7B/GATE-L1.7B-closure-log.md` only if closure is
   allowed
+
+## Closure Decision
+
+Human review closed GATE-L1.7B as PASS WITH FLAGS. The checkpoint product
+boundary is accepted for the `1.1.1` controlled pilot. `L1.7B-R-CF1` is
+carried forward as `GATE-L1.7B-CF1`, not resolved. Scale Gate 1 remains a
+separate decision.

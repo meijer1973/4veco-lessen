@@ -1,7 +1,7 @@
 # GATE-L1.7B Validation Log
 
 Date: 2026-05-26
-Status: PRE-REVIEW EVIDENCE CHECK COMPLETE; NOT CLOSED
+Status: CLOSED PASS WITH FLAGS
 
 ## Purpose
 
@@ -100,5 +100,7 @@ Created:
 
 ## Boundary Result
 
-Pass for pre-review evidence readiness. GATE-L1.7B is ready for human review
-after this packet is committed, but it is not closed.
+Pass for pre-review evidence readiness. Human review later closed GATE-L1.7B
+as PASS WITH FLAGS. This validation log remains the evidence-readiness record;
+the closure decision is recorded in the gate human-review record, lead-review
+summary, and closure log.
