@@ -9,12 +9,13 @@ for closed work live under `archive/sprints/<sprint-id>/`.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.7B-MAP | Exit Ticket Skill-Metadata Alignment | no | **NEW / REQUIRED BEFORE EXIT-TICKET SCALE EVIDENCE.** Resolve or map the `A43`/`A04` versus `B01`/`B02` mismatch in the `1.1.1` checkpoint. Decide the authoritative metadata route: paragraph-plan skills, MTU ids, target-exercise skills, or a reviewed mapping layer. Until this closes, checkpoint metadata may not be used for diagnostics, mastery, sequencing, target-exercise promotion, CP-6/Year-1 reliance, PV use, Scale Gate 1 scale evidence, or broad exit-ticket scaling. Platform handoff is expected if B-unit skill-map scoping or a mapping layer is needed. |
-| L1.7C-MATH | Restore Skill-Tree Math Game Primary Route | no | **NEW / REQUIRED BEFORE GAME-ROW OR COMPANION SCALE GATE.** Review the four-part game/skill-map architecture history and correct the L1.7D route displacement: `wiskundevaardigheden.html` / the old skill-tree math game must be the primary `Rekenen` practice route again, while `stappenplan.html` remains available as step/procedure support or `Extra steun`. The sprint must audit and align all four pieces: the skill-tree math game, reasoning game, graph game, and shared skill-map display layer. Implement only through the platform landing/game generators, not generated-output hand patches. No diagnostics, mastery, sequencing, summative claims, PV, or broad scaling. |
-| L1.7B-P23 | Exit Ticket Pilot Coverage For 1.1.2 And 1.1.3 | no | **NEW / REQUIRED BEFORE EXIT-TICKET TARGET-READINESS CLAIMS.** Create reviewed pilot exit-ticket plans or generated checkpoints for `1.1.2 Percentages en indexcijfers` and `1.1.3 Grafieken en tabellen`, because these introduce calculation/index and graph/table skills not tested by the `1.1.1` MVP. Use the platform workflow only. `1.1.2` must surface calculation, answer, and unit/percentage needs; `1.1.3` must surface graph/table reading needs and likely graph-specific UI adjustments. `Check` remains hidden until each paragraph has reviewed generated checkpoint output. No diagnostics, mastery, automatic sequencing, summative use, PV, or broad scaling. |
-| L1.7B-Q2 | Exit Ticket Target-Exercise Readiness Prototype | no | **NEW / NEXT QUALITY STEP AFTER MVP.** Upgrade one paragraph checkpoint from non-summative practice check to target-exercise-readiness evidence. The checkpoint must test the operation chain needed for the paragraph target exercise, including calculation fields, unit fields, reasoning steps, graph/table interpretation, or short constructed responses where relevant. Requires metadata alignment, answer-model alignment, teacher-learning-quality review, student-experience review, screenshot/interaction QA, and no generated-output hand patching. Still no summative grading, mastery, automatic sequencing, student-facing AI, PV projection, CP-6/Year-1 closure, or broad scaling. |
-| GATE-L1.7B-Q2 | Exit Ticket Completion Language And Readiness Review | no | **NEW / REQUIRED BEFORE STRONGER CHECK COMPLETION COPY.** Decide what the checkpoint may say when all answers are correct. Allowed language may include `Je hebt deze check goed afgerond` and, after Q2 evidence, `Je bent klaar om de eindopgave te proberen`. Prohibited language includes mastery, grade, automatic progression, sequencing, summative claims, diagnostics, or target-exercise proof unless a later explicit mastery/sequencing gate authorizes them. |
-| Scale Gate 1 | Foundation Hardening Scale Gate | no | **FUTURE JOINT DECISION; EXIT-TICKET PRODUCT-BOUNDARY GATE SATISFIED WITH FLAGS, BUT TARGET-READINESS AND MATH-GAME ROUTING ARE NOT READY.** L1.7B-R, GATE-L1.7B, and L2.0 are closed PASS WITH FLAGS, but broad companion scaling remains blocked until Scale Gate 1 is explicitly run and closed or waived by human decision. Scale Gate 1 may not treat exit-ticket output as scale or target-exercise-readiness evidence unless `L1.7B-MAP` closes and either `L1.7B-Q2` plus `GATE-L1.7B-Q2` close, or Scale Gate 1 explicitly limits exit tickets to non-summative MVP status during controlled production. Scale Gate 1 must also decide `L1.7C-MATH`, `L1.7B-P23`, L1.7C/L2.0 game-row flags, L1.7D/L2.0 landing baseline, minimal curriculum-versioning readiness, and reference-side status on GATE-EX5 / operation-answer-skill contract. It may authorize controlled production only, not adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
+| L1.7C-MATH | Restore Skill-Tree Math Game + Four-Game Architecture Integrity | no | **ACTIVE / HARD BLOCKER BEFORE SCALE GATE 1.** Restore `wiskundevaardigheden.html` / the old skill-tree math game as the primary `Rekenen` practice route where it exists. Keep `stappenplan.html` visible as procedure support / extra steun, not as the replacement math game. Audit the full game-row architecture: `Redeneren`, `Rekenen`/skill-tree math, `Grafieken`, and the shared skill-map route layer. Closure requires proof that each game can access the shared skill-map in the correct aspect scope and that a student can open the skill tree for that skill type without seeing an overloaded full catalog by default. |
+| L1.7B-MAP | Exit Ticket Skill-Metadata Alignment | no | **REQUIRED BEFORE EXIT-TICKET EVIDENCE.** Resolve or map the `A43`/`A04` versus `B01`/`B02` mismatch in the `1.1.1` checkpoint. The accepted metadata route must support paragraph-plan skills and target-exercise-readiness evidence. Until this closes, checkpoint metadata may not be used for diagnostics, mastery, sequencing, target-exercise promotion, CP-6/Year-1 reliance, PV use, Scale Gate 1 scale evidence, or broad exit-ticket scaling. Platform handoff is expected if B-unit skill-map scoping or a mapping layer is needed. |
+| L1.7B-P23 | Exit Ticket Target-Skill Pilots For 1.1.2 And 1.1.3 | no | **REQUIRED BEFORE EXIT-TICKET GENERALIZATION.** Design reviewed exit-ticket pilots or stop/handoff decisions for `1.1.2 Percentages en indexcijfers` and `1.1.3 Grafieken en tabellen`. These may not be MC-only unless the paragraph target exercise is MC-like. `1.1.2` must test percentage/index calculation with calculation field, final answer, and unit/percentage handling. `1.1.3` must test graph/table reading, axis conventions, interpolation, and at least one graph-specific interaction or constructed response. `Check` remains hidden until each paragraph has reviewed generated checkpoint output. |
+| L1.7B-Q2 | Exit Ticket Target-Exercise Readiness Prototype | no | **REQUIRED BEFORE STRONGER CHECK CLAIMS.** Upgrade one checkpoint into target-exercise-readiness evidence. It must decompose the paragraph target exercise into operations and test the complete operation chain. The output remains non-summative but should answer: "Is this student ready to try the target exercise?" Requires metadata alignment, answer-model alignment, teacher-learning-quality review, student-experience review, screenshot/interaction QA, and no generated-output hand patching. |
+| GATE-L1.7B-Q2 | Exit Ticket Completion Language And Readiness Review | no | **REQUIRED BEFORE STRONGER COMPLETION COPY.** Decide what the checkpoint may say when all answers are correct. `Je bent klaar om de eindopgave te proberen` is allowed only if Q2 proves target-exercise-readiness coverage. Mastery, grade, automatic progression, sequencing, diagnostics, summative claims, PV, and AI language remain prohibited. |
+| REV-STD-1 | Core-Spec Review Standard Hardening | no | **NEW / REQUIRED BEFORE SCALE GATE 1.** Update review packets and lead-review rules so core specification failures cannot be carried as ordinary flags. Every review packet must include the original sprint specification, non-negotiable requirements, and a core-requirement checklist. PASS WITH FLAGS is allowed only for issues outside the sprint's core objective. |
+| Scale Gate 1 | Foundation Hardening Scale Gate | no | **BLOCKED.** May not run until `L1.7C-MATH`, `L1.7B-MAP`, `L1.7B-P23`, `L1.7B-Q2`, `GATE-L1.7B-Q2`, and `REV-STD-1` are closed or explicitly waived by human decision with stated consequences. Scale Gate 1 may not treat exit-ticket output as scale or target-exercise-readiness evidence unless metadata alignment closes and either Q2 closes or the gate explicitly limits exit tickets to non-summative checkpoint status during controlled production. It may authorize controlled production only, not adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
 | GATE-L1.7B | Exit Ticket Product-Boundary Review | **2026-05-26** | **CLOSED PASS WITH FLAGS.** The `1.1.1` checkpoint product boundary is accepted as a non-summative, practice-oriented `Check` MVP for controlled pilot use. GATE-L1.7B does not authorize Scale Gate 1, broad scaling, CP-6/Year-1 closure, target-exercise promotion, diagnostics, mastery, sequencing, summative use, student-facing AI, PV projection, or PV machine promotion. Carried flag `GATE-L1.7B-CF1`: `A43`/`A04` metadata mismatch remains live and blocks metadata reliance for diagnostics, mastery, sequencing, target-exercise promotion, CP-6/Year-1, PV, Scale Gate 1 scale evidence, or broad exit-ticket scaling until platform B-unit scoping or a reviewed mapping layer exists. Records: `archive/sprints/GATE-L1.7B/`. |
 | L1.7B-R | Boundary-Safe Exit Ticket MVP Resume | **2026-05-26** | **CLOSED PASS WITH FLAGS.** Platform `GAME-UX-2` completed the source-controlled exit-ticket checkpoint engine MVP and generated lesson output through platform scripts only. Lesson output commit `5c47961269096c21a7d50bbc97c71de7984ff6e1` contains the `1.1.1` checkpoint and landing `Check` activation; tag `checkpoint/GAME-UX-2-exit-ticket-mvp-lesson`. Human review accepted the checkpoint as a boundary-safe, non-summative controlled-pilot MVP. Green checks: platform focused checkpoint/landing/skill-map tests, full platform Jest 554 passed / 8 skipped, deploy, `1.1.1` validation, Book 1 checks, procedure contracts, target exercises, sprint bundle, and checkpoint/landing desktop/mobile light/dark screenshot QA; local focused recheck 26/26 and `1.1.1` complete student-web validation passed. Carried flag `L1.7B-R-CF1`: checkpoint metadata uses `A43`/`A04`, while paragraph-plan skills are `B01`/`B02`; this may not be used for diagnostics, mastery, sequencing, target-exercise promotion, CP-6/Year-1, PV, Scale Gate 1, or broad-scaling evidence until fixed or mapped. Records: `archive/sprints/L1.7B-R/`. GATE-L1.7B remains required before Scale Gate 1. |
 | L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | **2026-05-25** | **CLOSED PASS WITH FLAGS.** L2.0 defined the Book 1 student-web house-style baseline, PASS WITH FLAGS operational meaning, flag dispositions, quality-ref status language, screenshot/QA expectations, exit-ticket readiness checklist, and consolidation/gemengde-opgaven landing rule. Platform generator routes `1.1.4 Gemengde opgaven` to primary `Oefen gemengd` instead of a weak `Verdiep`-only page; chapter landing tags also show `Oefen gemengd`. Human review closed PASS WITH FLAGS with no product blocker. Green gates: focused landing Jest 2/2, deploy link/data checks 460 refs + 221 data tests, complete student-web validation for `1.1.1`-`1.1.3`, `1.1.4` publisher-print validation, Book 1 health 26/26, procedure-contract validation 341 checks, v5 target-exercise validation 54 records with 12/12/14/16, `1.1.4` desktop/mobile light/dark screenshot QA, and full platform Jest 544 passed / 8 skipped. Carried flags: `1.1.4` remains legacy `FLAG`, graph-drawing consolidation and profit-formula framing need later content review, game-row variants remain MVP-level, exit-ticket target-readiness remains future work under L1.7B-MAP/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2, and the primary math-game route must be corrected under L1.7C-MATH before broad companion scaling. Records: `archive/sprints/L2.0/`. |
@@ -160,6 +161,8 @@ Updated: 2026-05-26 (exit-ticket quality ladder) - Added a stricter pre-scale ex
 
 Updated: 2026-05-26 (skill-tree math route correction) - Added `L1.7C-MATH Restore Skill-Tree Math Game Primary Route` before Scale Gate 1. Review of L1.7C-0/L1.7C/L1.7D history shows that GAME-UX-1 added the shared skill-map display layer and did not remove the old `wiskundevaardigheden` skill-tree math game, but L1.7D's landing generator made `stappenplan` the primary `Rekenen` route and pushed the old skill-tree math game into `Verdiep` as `Volledige vaardigheidskaart`. That displacement is now treated as a pre-scale route defect. L1.7C-MATH must restore the old skill-tree math game as the primary math practice route, keep `stappenplan` as support/extra steps, and re-audit the full four-part architecture: math skill-tree game, reasoning game, graph game, and shared skill-map route/display layer.
 
+Updated: 2026-05-26 (core-spec hardening) - Tightened the pre-scale sequence after human review feedback that "pilot" and "MVP" language must not weaken the original product specification. `L1.7C-MATH` is now the first hard blocker because the primary math route is wrong. `L1.7B-MAP`, `L1.7B-P23`, `L1.7B-Q2`, and `GATE-L1.7B-Q2` now explicitly restore the exit-ticket path from short checkpoint to target-exercise-readiness evidence before stronger claims. Added `REV-STD-1 Core-Spec Review Standard Hardening` before Scale Gate 1 so PASS WITH FLAGS cannot carry core-spec failures, and Scale Gate 1 is blocked until these sprints are closed or explicitly waived by human decision with consequences.
+
 Updated: 2026-05-19 (L-CP6A close) - lesson-side CP.6a remediation closed PASS WITH FLAGS. A platform-owned migration script aligned active Book 1 Chapter 1.3 to v5, archived displaced costs/revenue material for Book 2 survival, regenerated `1.3.2`, `1.3.3`, `1.3.4`, Chapter 1.3, and aggregate Book 1 output, and preserved the rule that CP-6/Year 1 are not closed here. Green gates: Chapter 1.3 validation, Book 1 health 26/26, print-scope 12/12, v5 target-exercise counts 54 with 12/12/14/16, focused book Jest 7/7, full platform Jest 515 passed / 8 skipped. References-team handoff: `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`.
 Updated: 2026-05-20 (EX-NS0 exam-ingestion north-star) - official exam-target paragraph work is now explicit as a future cross-repo endpoint. The platform side owns exam-ingestion overlays, source-annex and answer-model traceability, MTU mapping, and operation classification. The lesson side now inserts L-EX0 and L-EX1 before L2.4-TEA: first define the paragraph-plan contract and review checklist, then run one controlled pilot paragraph around a real official exam question. This update authorizes no broad production, no generated-output hand patching, no CP-6/Year-1 closure, no target-exercise promotion, and no diagnostics/adaptive/mastery/summative/student-facing AI use.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
@@ -184,9 +187,11 @@ That means:
 - Book 1 print scope has completed the urgent L1.5P cut and is the current
   publisher-print baseline.
 - Book 2 Part A should wait until L1.7A, L1.7B-C, L1.7C-0, L1.7C,
-  L1.7D, L2.0, L1.7B-R or an explicit Scale Gate waiver,
-  GATE-L1.7B or an explicit Scale Gate waiver, REF-CT0/REF-CT1, and the later scale gate make the
-  v5/MTU/target-exercise path quality-stable enough.
+  L1.7D, L2.0, L1.7B-R, GATE-L1.7B, L1.7C-MATH, L1.7B-MAP,
+  L1.7B-P23, L1.7B-Q2, GATE-L1.7B-Q2, REV-STD-1, REF-CT0/REF-CT1,
+  and the later scale gate make the v5/MTU/target-exercise path
+  quality-stable enough, unless a human Scale Gate waiver explicitly accepts
+  the consequences.
 - Companion production may continue only as controlled next-step production; it
   is not approved for broad scaling.
 
@@ -223,10 +228,17 @@ npm.cmd run check:book -- "..\4veco-lessen\Boek 1 - Grondslagen, vraag en aanbod
 ```
 
 - Reviews and quality refs are mandatory artifacts, not optional paperwork.
+- "Pilot" and "MVP" are scope labels, not permission to undercut the stated
+  product specification. If a sprint deliberately ships a smaller version, the
+  roadmap must name the sprint that restores the full specified product.
+- `PASS WITH FLAGS` may not hide a core-specification failure. A flag that
+  changes the student's primary route, source-of-truth metadata,
+  target-exercise readiness, or scale authorization is at least a scale blocker
+  and may require REVISE/PAUSE instead of closure.
 - Rebuild affected paragraph/chapter/book HTML/PDF whenever source markdown or assets change.
 - Do not scale companion production until L1.7A, L1.7B-C, L1.7C-0,
   L1.7C, L1.7D, L2.0, L1.7B-R, GATE-L1.7B, L1.7B-MAP, L1.7C-MATH,
-  L1.7B-P23, L1.7B-Q2, GATE-L1.7B-Q2, and Scale Gate 1 explicitly clear
+  L1.7B-P23, L1.7B-Q2, GATE-L1.7B-Q2, REV-STD-1, and Scale Gate 1 explicitly clear
   or waive the relevant flags, define the complete companion-set contract and
   shared skill-map architecture, and prove that the exit-ticket checkpoint, if
   included in scaling, is either explicitly limited to MVP checkpoint status or
@@ -2231,6 +2243,11 @@ versus paragraph-plan skills `B01`/`B02` is accepted as a carried
 platform/skill-map limitation, not as a closure blocker. It must be carried
 into GATE-L1.7B and any scale decision.
 
+Retrospective REV-STD-1 classification: L1.7B-R closed a checkpoint-only
+product boundary. It did not satisfy the fuller exit-ticket
+target-exercise-readiness specification. That gap is now assigned to L1.7B-MAP,
+L1.7B-P23, L1.7B-Q2, and GATE-L1.7B-Q2.
+
 Records:
 
 - `archive/sprints/L1.7B-R/L1.7B-R-sprint-plan.md`
@@ -2271,6 +2288,11 @@ Review must verify:
 - no diagnostics, adaptive routing, mastery, sequencing, student-facing AI,
   summative use, PV projection, or PV machine promotion
 
+Retrospective REV-STD-1 classification: GATE-L1.7B accepted the current
+checkpoint boundary only. It does not close the original target-exercise
+readiness specification and must not be used as proof that students are ready
+for the paragraph target exercise.
+
 Records prepared before review:
 
 - `archive/sprints/GATE-L1.7B/GATE-L1.7B-sprint-plan.md`
@@ -2286,27 +2308,38 @@ Closure records:
 
 ### Sprint L1.7B-MAP: Exit Ticket Skill-Metadata Alignment
 
-Completed: no. Status: future required before exit-ticket scale evidence.
+Completed: no. Status: required before exit-ticket evidence.
 
-Position: after GATE-L1.7B; before L1.7B-P23, L1.7B-Q2, and any Scale Gate 1
-reliance on exit-ticket metadata.
+Position: after L1.7C-MATH unless there is no route-file conflict; before
+L1.7B-P23, L1.7B-Q2, and any Scale Gate 1 reliance on exit-ticket metadata.
 
 Purpose:
 
 Resolve or map the mismatch between the current `1.1.1` checkpoint metadata
 and the paragraph-plan skills. The generated checkpoint uses `A43`/`A04` as
 `targetSkillIds`/`skillScopeIds`, while the paragraph plan names `B01` and
-`B02`.
+`B02`. This was accepted as a carried flag for the first checkpoint, but it may
+not be carried into target-exercise-readiness, scale evidence, or
+source-of-truth skill claims.
 
 Work:
 
 - Audit the current checkpoint metadata route from platform source data to
   generated lesson output.
+- Trace current metadata through platform source data, generated output,
+  paragraph plan, target-exercise registry, and MTU/procedure registry.
 - Decide the authoritative metadata route for exit tickets:
   paragraph-plan skills, MTU ids, target-exercise skills, or a reviewed
   mapping layer.
+- Define a metadata contract covering visible task label, paragraph skill,
+  MTU/procedure unit where available, target-exercise operation, and
+  practice-route suggestion.
 - If platform support is needed, hand off a precise platform request for
   B-unit skill-map scoping or a reviewed mapping layer.
+- Add validation that no checkpoint can claim target-exercise readiness if
+  metadata is unmapped.
+- Add validation that no checkpoint can activate `Check` if target/scope
+  metadata is invalid for the intended product role.
 - Add tests or validation evidence that visible checkpoint tasks, source
   metadata, paragraph-plan skills, and target-exercise readiness records do not
   drift silently.
@@ -2328,25 +2361,29 @@ Exit criteria:
 
 - the `A43`/`A04` versus `B01`/`B02` mismatch is fixed or represented by a
   reviewed mapping layer
+- the accepted metadata route can support paragraph-plan skills and
+  target-exercise-readiness evidence
 - technical validation proves the route
 - teacher-learning-quality review accepts the metadata route
 - no student-facing internal-code leakage is introduced
 - the closure record states whether exit-ticket metadata can be used as Scale
   Gate evidence or remains excluded
 
-### Sprint L1.7C-MATH: Restore Skill-Tree Math Game Primary Route
+### Sprint L1.7C-MATH: Restore Skill-Tree Math Game + Four-Game Architecture Integrity
 
-Completed: no. Status: future required before game-row or companion scale gate.
+Completed: no. Status: active hard blocker before Scale Gate 1.
 
-Position: after L1.7C/L1.7D history review; before Scale Gate 1 and before any
-claim that the three-game row is aligned with the shared skill-map
+Position: first in the pre-scale correction sequence; before Scale Gate 1 and
+before any claim that the game row is aligned with the shared skill-map
 architecture.
 
 Purpose:
 
 Restore the old `wiskundevaardigheden` skill-tree math game as the primary
 `Rekenen` practice route. Keep `stappenplan` as support/step practice, not as
-the replacement math game.
+the replacement math game. This is a restoration/integrity sprint, not
+cosmetic cleanup: the primary student math route currently points at the wrong
+kind of product.
 
 History finding:
 
@@ -2375,6 +2412,17 @@ Work:
   procedure-step practice.
 - Re-check whether the skill-tree math game opens as a safe scoped calculation
   practice surface or an overloaded full catalog.
+- For `Redeneren`, `Rekenen`, and `Grafieken`, prove that each game requests
+  the correct aspect scope, does not default to the full catalog, can show the
+  relevant skill tree or route, uses student-facing labels, and avoids
+  diagnostics/mastery/sequencing/grade/summative/AI/PV claims.
+- Add tests that the landing route points to `wiskundevaardigheden.html` when
+  present, `stappenplan.html` remains visible as support, all three game types
+  can access the shared skill-map route layer, full catalog is not the default
+  student view, and internal IDs are not visible.
+- Add screenshot/browser evidence for `1.1.2` landing with primary `Rekenen`
+  restored, the `1.1.2` math skill-tree page after JS loads, a graph route, a
+  reasoning route, and representative desktop/mobile/light/dark evidence.
 - Regenerate through the platform workflow only.
 - Review with student-experience and teacher-learning-quality evidence before
   closure.
@@ -2395,14 +2443,21 @@ Exit criteria:
 
 - `Rekenen` primary route points to `wiskundevaardigheden.html` where available
 - `Stappenplan` remains visible and usable as support
+- Redeneren, Rekenen, and Grafieken all consume or expose the shared skill-map
+  route language in the correct aspect scope
+- the skill tree shown to a student is scoped to the relevant skill type by
+  default
+- the full catalog is not an accidental student default
 - the four-part game/skill-map architecture is documented and reviewed
 - technical validation and human review accept the restored route, or record
   the blocker before Scale Gate 1
+- PASS WITH FLAGS is allowed only for issues outside the core game-row
+  architecture; failure to restore the primary math route is REVISE/PAUSE, not
+  a carry flag
 
-### Sprint L1.7B-P23: Exit Ticket Pilot Coverage For 1.1.2 And 1.1.3
+### Sprint L1.7B-P23: Exit Ticket Target-Skill Pilots For 1.1.2 And 1.1.3
 
-Completed: no. Status: future required before exit-ticket target-readiness
-claims cover the first pilot chapter.
+Completed: no. Status: required before exit-ticket generalization.
 
 Position: after L1.7B-MAP and preferably after L1.7C-MATH if `1.1.2`
 checkpoint practice links depend on the calculation route; before L1.7B-Q2
@@ -2410,21 +2465,34 @@ unless explicitly waived by human decision.
 
 Purpose:
 
-Create reviewed checkpoint pilots or operational build plans for `1.1.2
-Percentages en indexcijfers` and `1.1.3 Grafieken en tabellen`. These
-paragraphs introduce calculation/index and graph/table skills that the
-`1.1.1` checkpoint does not test.
+Create reviewed checkpoint pilots or operational stop/handoff decisions for
+`1.1.2 Percentages en indexcijfers` and `1.1.3 Grafieken en tabellen`. These
+paragraphs introduce calculation/index and graph/table skills that the `1.1.1`
+checkpoint does not test. This sprint may not produce weak MC-only checks
+unless the paragraph target exercise is itself MC-like.
 
 Work:
 
 - Audit each paragraph's target exercise, paragraph plan, procedure contracts,
   and companion surfaces.
+- Decompose each paragraph target exercise into the operation chain an exit
+  ticket must probe.
 - Define the exit-ticket operation chain for `1.1.2`, including calculation
-  field, answer field, and unit/percentage handling where relevant.
+  field, final answer field, and unit/percentage handling. It must cover
+  selecting old/new values, calculating percentage change, calculating an
+  index number, distinguishing index points from percentage change, and writing
+  a final answer with percentage/index notation.
 - Define the exit-ticket operation chain for `1.1.3`, including table-value
   selection, axis/graph reading, interpolation, or graph/table interpretation
-  where relevant.
+  where relevant. It must cover table headings, row labels, column labels and
+  units, economic axis conventions, value reading, interpolation between graph
+  points, and graph/percentage claim judgement where the target exercise needs
+  those operations.
 - Identify UI changes needed for calculation and graph reading before building.
+- Decide whether the current exit-ticket engine can support calculation field,
+  final answer field, unit/percentage field, graph/table interaction, and short
+  constructed response. If it cannot, stop and write a platform handoff instead
+  of forcing everything into MC.
 - Generate output only through the platform workflow.
 - Keep `Check` hidden until a paragraph has reviewed generated checkpoint
   output.
@@ -2444,13 +2512,17 @@ Exit criteria:
 
 - `1.1.2` and `1.1.3` have reviewed checkpoint pilots or a documented stop
   decision with platform handoff
+- the pilots or stop decisions are based on target-exercise operation chains
+- the sprint does not close with two MC-only checks that fail to cover the
+  operation chains
 - UI needs for calculation and graph/table reading are recorded
 - student-experience and teacher-learning-quality review determine whether the
-  pilots are MVP-only or ready for Q2 target-readiness work
+  pilots meet their target-skill probe specification or must pause for platform
+  support
 
 ### Sprint L1.7B-Q2: Exit Ticket Target-Exercise Readiness Prototype
 
-Completed: no. Status: future next quality step after MVP.
+Completed: no. Status: required before stronger check claims.
 
 Position: after L1.7B-MAP and preferably after L1.7C-MATH and L1.7B-P23;
 before GATE-L1.7B-Q2.
@@ -2458,9 +2530,15 @@ before GATE-L1.7B-Q2.
 Purpose:
 
 Upgrade one paragraph checkpoint from a non-summative practice check into
-target-exercise-readiness evidence. This responds to the core product intent:
-the exit ticket should test whether the student is ready to try the paragraph's
+target-exercise-readiness evidence. This restores the core product intent: the
+exit ticket should test whether the student is ready to try the paragraph's
 target exercise, not merely answer a short recall check.
+
+Recommended first paragraph:
+
+`1.1.2 Percentages en indexcijfers`, because it forces calculation input,
+final-answer notation, percentage/index distinctions, and unit handling while
+being technically simpler than graph drawing.
 
 Work:
 
@@ -2470,6 +2548,8 @@ Work:
 - Build checkpoint tasks that cover that operation chain.
 - Add answer types required by the paragraph: calculation field, unit field,
   reasoning step, graph/table interpretation, or short constructed response.
+- Include calculation/work field, final answer field, percentage/index/unit
+  field, and short explanation where needed for the chosen target exercise.
 - Align metadata with paragraph-plan skills and target-exercise skills.
 - Record answer-model alignment and teacher-learning-quality review.
 - Preserve non-summative language and local practice feedback.
@@ -2488,11 +2568,15 @@ Out of scope:
 Exit criteria:
 
 - checkpoint tasks cover the target-exercise operation chain
+- a student who completes the checkpoint correctly has plausibly demonstrated
+  readiness to try the target exercise
 - metadata alignment is accepted
 - answer-model alignment is documented
 - calculation/graph UI needs are met for the selected paragraph
-- student-experience and teacher-learning-quality reviews pass or pass with
-  explicit flags
+- teacher-learning-quality review accepts the operation-chain coverage
+- student-experience review accepts clarity and feedback
+- PASS WITH FLAGS is allowed only for issues outside the target-readiness
+  specification; missing operation-chain coverage is REVISE/PAUSE
 
 ### Gate GATE-L1.7B-Q2: Exit Ticket Completion Language And Readiness Review
 
@@ -2510,8 +2594,10 @@ sequencing, grading, or summative claims.
 Allowed candidate language:
 
 - `Je hebt deze check goed afgerond.`
-- `Je bent klaar om de eindopgave te proberen.`
+- `Je hebt deze check afgerond.` for MVP-only checkpoints.
 - `Gebruik dit als signaal om de eindopgave te proberen.`
+- `Je bent klaar om de eindopgave te proberen.` only for Q2-approved
+  checkpoints.
 
 Prohibited language unless a later explicit mastery/sequencing gate authorizes
 it:
@@ -2530,6 +2616,78 @@ Exit criteria:
   checkpoints
 - MVP checkpoints remain limited to non-summative check-completion language
 - Scale Gate 1 knows whether exit tickets are MVP-only or Q2-ready
+
+### Sprint REV-STD-1: Core-Spec Review Standard Hardening
+
+Completed: no. Status: required before Scale Gate 1.
+
+Position: after the current correction sprints are planned; before Scale Gate
+1 or any later review packet relies on `PASS WITH FLAGS` as a scale signal.
+
+Purpose:
+
+Update review packets, lead-review rules, and flag handling so a core
+specification failure cannot be carried as an ordinary flag. A pilot or MVP is
+allowed to be smaller in scope, but it must still meet its stated
+specification. If the team deliberately ships a smaller product than the
+original specification, the roadmap must name the sprint that restores the full
+specified product.
+
+Work:
+
+- Define three flag levels:
+  - `minor_carry_flag`: may remain after closure because it is outside the
+    sprint core objective;
+  - `scale_blocker`: may allow controlled pilot closure but blocks scale
+    reliance;
+  - `core_spec_failure`: must return REVISE, FAIL, or PAUSE.
+- Update review-packet templates so every review includes:
+  - original sprint specification;
+  - non-negotiable requirements;
+  - student-facing product role;
+  - evidence inspected;
+  - core-requirement checklist;
+  - explicit distinction between pilot, controlled production, and scale-ready.
+- Update lead-review rules:
+  - PASS WITH FLAGS is forbidden if a non-negotiable requirement fails;
+  - a flag carried across two consecutive sprints becomes a gate question;
+  - a carried scale blocker cannot be ignored by the next scale gate;
+  - technical QA cannot substitute for teacher-learning-quality review.
+- Add a flag budget:
+  - max 3 carried flags per sprint unless the lead review explains why more is
+    not a PAUSE condition;
+  - any flag touching primary student route, source-of-truth metadata,
+    target-exercise readiness, or scale authorization is at least a
+    `scale_blocker`.
+- Apply the standard retroactively to L1.7C, L1.7D, L1.7B-R, GATE-L1.7B, and
+  L2.0 so Scale Gate 1 inherits an explicit flag table.
+
+Review verdict definitions:
+
+- PASS: all core requirements are met; remaining issues are cosmetic or clearly
+  outside scope.
+- PASS WITH FLAGS: the product meets the sprint core specification and the
+  flags do not affect the primary route, source-of-truth metadata,
+  target-exercise readiness, or scale authorization.
+- REVISE: required when the primary student route is wrong, the product
+  implements a weaker product than specified, a core game/exit-ticket
+  requirement is missing, or review depends on pilot/MVP language to excuse a
+  core failure.
+- FAIL: required when student-facing output is misleading, output implies
+  mastery/diagnosis/grading without authorization, generated output was
+  hand-patched, or invalid source-of-truth metadata is visible or used for
+  claims.
+- PAUSE: required when the platform cannot support the requested product safely,
+  the team cannot identify the source of truth, or a fix requires a platform
+  architecture decision.
+
+Exit criteria:
+
+- future review packets separate core specification from optional improvement
+- PASS WITH FLAGS cannot hide core failure
+- Scale Gate 1 has an explicit inherited-flag table
+- review agents are instructed to compare output against the original
+  specification, not only the current MVP framing
 
 ### Sprint L1.7C-0: Shared Skill-Map Engine Contract
 
@@ -3201,7 +3359,7 @@ Outputs:
   migrated target exercises as final-reviewed.
 - Continue companion pilot work only where it supports the L1.7A decision and
   the L1.7B-C/L1.7C-0/L1.7C/L1.7D/L2.0/L1.7B-R/GATE-L1.7B plus
-  L1.7B-MAP/L1.7C-MATH/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2 foundation-hardening sequence,
+  L1.7C-MATH/L1.7B-MAP/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2/REV-STD-1 foundation-hardening sequence,
   or does not conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
 - Keep Book 2 Part A planning paused behind L1.5Q if it depends on the new
@@ -3212,11 +3370,11 @@ Outputs:
 - Use the L1.7A readiness decision, L1.7B-C contract-and-stop outcome,
   L1.7C-0 shared skill-map contract, L1.7C game-row closure, and L1.7D landing
   IA closure plus L2.0 house-style closure as the baseline. L1.7B-R and
-  GATE-L1.7B have closed only an MVP product boundary; complete
-  L1.7B-MAP/L1.7C-MATH/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2 or explicitly limit
-  exit tickets to MVP checkpoint status before Scale Gate 1 if companion
-  scaling is still desired. L1.7C-MATH must also restore the primary math
-  practice route to the skill-tree math game unless a later reviewed
+  GATE-L1.7B have closed only a non-summative checkpoint boundary; complete
+  L1.7C-MATH/L1.7B-MAP/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2/REV-STD-1 or
+  explicitly waive each blocker with stated consequences before Scale Gate 1
+  if companion scaling is still desired. L1.7C-MATH must restore the primary
+  math practice route to the skill-tree math game unless a later reviewed
   calculation-engine replacement is explicitly accepted.
 - Keep `course_blueprint_v5.md` and the target-exercise source-of-truth path as
   the active baseline before Book 2 production.
@@ -3226,13 +3384,14 @@ Outputs:
 - L1.6 remains the third-paragraph technical proof; L1.6R repaired the `1.1.3`
   companion dual-coding failure, and L1.7A decided that the evidence supports
   controlled foundation hardening only, not broad scaling.
-- L1.7B-C through GATE-L1.7B closed the MVP product boundary only. Before
-  scaling, L1.7B-MAP through GATE-L1.7B-Q2 must decide whether exit tickets are
-  merely non-summative checks or target-exercise-readiness evidence; keep
-  `Check` hidden until reviewed output exists, preserve the shared skill-map
-  engine contract, restore the primary math route through L1.7C-MATH, classify
-  game-row carried flags, and do not permit mastery, sequencing, diagnostics,
-  summative claims, PV, or broad scaling through exit tickets or game routing.
+- L1.7B-C through GATE-L1.7B closed the checkpoint product boundary only.
+  Before scaling, L1.7B-MAP through GATE-L1.7B-Q2 must restore exit tickets to
+  target-exercise-readiness evidence or explicitly limit them to checkpoint
+  status; keep `Check` hidden until reviewed output exists, preserve the shared
+  skill-map engine contract, restore the primary math route through
+  L1.7C-MATH, harden review standards through REV-STD-1, classify game-row
+  carried flags, and do not permit mastery, sequencing, diagnostics, summative
+  claims, PV, or broad scaling through exit tickets or game routing.
 - Book 1 teacher-facing polish continues without breaking `check:book`.
 
 ### Months 1-3
