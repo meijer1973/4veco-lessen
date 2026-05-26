@@ -20,7 +20,7 @@ that restores the full product.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.7B-P23 | Exit Ticket Target-Skill Checkpoint Designs For 1.1.2 And 1.1.3 | no | **ACTIVE NEXT SPRINT / REQUIRED BEFORE EXIT-TICKET GENERALIZATION.** Design reviewed exit-ticket checkpoint designs or stop/handoff decisions for `1.1.2 Percentages en indexcijfers` and `1.1.3 Grafieken en tabellen`. This sprint must cite `specifications/product-end-state.md` and may not turn the checkpoint designs into weak generic MC checks. These may not be MC-only unless the paragraph target exercise is MC-like. `1.1.2` must test percentage/index calculation with calculation field, final answer, and unit/percentage handling. `1.1.3` must test graph/table reading, axis conventions, interpolation, and at least one graph-specific interaction or constructed response. `Check` remains hidden until each paragraph has reviewed generated checkpoint output. If we continue from the current state, the next step is the L1.7B-P23 sprint plan and implementation path. |
+| L1.7B-P23 | Exit Ticket Target-Skill Checkpoint Designs For 1.1.2 And 1.1.3 | no | **READY FOR HUMAN REVIEW / STOP-HANDOFF DECISION.** Operation-chain analysis shows `1.1.2` needs calculation/work fields, final answer entry, percentage/index notation, and short explanation, while `1.1.3` needs table/graph handling, economic axis convention, graph drawing or point placement, interpolation, and short explanation. The current exit-ticket engine/UI supports only choice tasks, so the sprint stopped instead of generating weak generic MC checks. `Check` remains hidden for `1.1.2` and `1.1.3`; no source data or generated exit-ticket output was created. Human review must decide whether the stop/handoff is accepted. If we continue from the current state, the next step is the L1.7B-P23 human review. |
 | L1.7B-Q2 | Exit Ticket Target-Exercise Readiness Implementation | no | **REQUIRED BEFORE STRONGER CHECK CLAIMS.** Upgrade one checkpoint into target-exercise-readiness evidence under `specifications/product-end-state.md`. It must decompose the paragraph target exercise into operations and test the complete operation chain. The output remains non-summative but should answer: "Is this student ready to try the target exercise?" Requires metadata alignment, answer-model alignment, teacher-learning-quality review, student-experience review, screenshot/interaction QA, and no generated-output hand patching. |
 | GATE-L1.7B-Q2 | Exit Ticket Completion Language And Readiness Review | no | **REQUIRED BEFORE STRONGER COMPLETION COPY.** Decide what the checkpoint may say when all answers are correct. `Je bent klaar om de eindopgave te proberen` is allowed only if Q2 proves target-exercise-readiness coverage. Mastery, grade, automatic progression, sequencing, diagnostics, summative claims, PV, and AI language remain prohibited. |
 | REV-STD-1 | Core-Spec Review Standard Hardening | no | **REQUIRED BEFORE SCALE GATE 1.** Update review packets and lead-review rules so core specification failures cannot be carried as ordinary flags. Every review packet must include `specifications/product-end-state.md`, the original sprint specification, non-negotiable requirements, and a core-requirement checklist. PASS WITH FLAGS is allowed only for issues outside the sprint's core objective. Scope-language enforcement is handled by closed `SCOPE-LANG-1`; plan-level quality-standard enforcement is handled by closed `QUALITY-STD-1`; REV-STD-1 still owns the wider review-template and lead-review-rule hardening. |
@@ -196,6 +196,8 @@ Updated: 2026-05-26 (L1.7C-MATH close) - Focused human recheck accepted L1.7C-MA
 Updated: 2026-05-26 (active-next roadmap correction and close-out policy) - Promoted `L1.7B-MAP` to the top of the sprint ledger as the active next sprint after L1.7C-MATH closure, moved L1.7C-MATH below the remaining open pre-scale sequence as a closed Scale Gate flag carrier, and removed L1.7C-MATH from the list of still-open Scale Gate blockers. Added an explicit sprint close-out communication policy: final chat after a sprint must state the next step if work simply continues, or state that the next step is paused pending human decision.
 
 Updated: 2026-05-26 (L1.7B-MAP close) - Human review accepted L1.7B-MAP as PASS WITH FLAGS. The `1.1.1` checkpoint metadata now uses `B01/B02` for checkpoint-assessed target/scope fields, removes `A04`, records the target-exercise skill set as `A43/B01/B02`, and keeps `targetReadinessEvidence: false`. This resolves the prior metadata mismatch for the current checkpoint role, but it does not make the checkpoint target-exercise-readiness evidence. Scale Gate 1 remains blocked until L1.7B-P23, L1.7B-Q2, GATE-L1.7B-Q2, and REV-STD-1 close or are explicitly waived by human decision with consequences. If work continues, the next step is L1.7B-P23.
+
+Updated: 2026-05-26 (L1.7B-P23 stop/handoff packet) - L1.7B-P23 is ready for human review. The sprint plan was upgraded to the current quality-standard format. Baseline audit and operation-chain analysis show that `1.1.2` requires calculation/work fields, final answer entry, unit or percentage/index notation, and short explanation, while `1.1.3` requires table/graph handling, economic axis convention, graph drawing or point placement, interpolation, and short explanation. The current exit-ticket engine/UI supports only choice tasks, so the sprint stopped and wrote a platform handoff instead of generating weak generic MC checks. `Check` remains hidden for `1.1.2` and `1.1.3`; no source data or generated exit-ticket output was created. If work continues, the next step is the L1.7B-P23 human review.
 
 Updated: 2026-05-26 (product end-state canonicalization) - Added `SPEC-END-STATE` and created `specifications/product-end-state.md` as the canonical product north star outside the active roadmap. The end-state sentence is now fixed: for every paragraph, 4veco gives the student a visible route from current readiness to target-exercise readiness. Future exit-ticket, game-row, exam-ingestion, review-standard, and Scale Gate work must cite this baseline and may not use restricted scope-language to weaken the full product specification.
 
@@ -2581,7 +2583,7 @@ Exit criteria:
 
 ### Sprint L1.7B-P23: Exit Ticket Target-Skill Checkpoint Designs For 1.1.2 And 1.1.3
 
-Completed: no. Status: required before exit-ticket generalization.
+Completed: no. Status: READY FOR HUMAN REVIEW; STOP-HANDOFF DECISION.
 
 Position: after L1.7B-MAP and preferably after L1.7C-MATH if `1.1.2`
 checkpoint practice links depend on the calculation route; before L1.7B-Q2
@@ -2598,6 +2600,14 @@ unless the paragraph target exercise is itself MC-like.
 The checkpoint designs must cite `specifications/product-end-state.md` and show how each
 checkpoint moves from current readiness toward target-exercise readiness, even
 if the sprint closes with a platform handoff instead of generated output.
+
+Current result:
+
+- the operation-chain analysis is complete
+- the current engine/UI is confirmed as choice-task-only
+- no generated exit-ticket output was created for `1.1.2` or `1.1.3`
+- platform task-type support is required before generated output
+- the sprint is ready for human review of the stop/handoff decision
 
 Work:
 
