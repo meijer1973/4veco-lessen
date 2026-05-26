@@ -32,6 +32,11 @@ specification unless the missing work is assigned to a named follow-up sprint.
   maintenance after L1.7C-MATH closure. Consequence: future sprint final chat
   messages must name the next step if work continues, or name the human
   decision/evidence that blocks continuation.
+- 2026-05-26: clarified exit-ticket metadata namespace discipline during
+  L1.7B-MAP. Affected surface: exit-ticket/checkpoint metadata. Approval
+  route: L1.7B-MAP sprint plan and technical implementation. Consequence:
+  future checkpoints must distinguish assessed paragraph skills from
+  target-exercise-readiness evidence instead of using one ambiguous skill list.
 
 ## Global Product Rules
 
@@ -110,6 +115,15 @@ Non-negotiable requirements:
   not be forced into MC-only form unless the target exercise is MC-like.
 - Its metadata route is valid or mapped across paragraph skills, MTU/procedure
   units where relevant, target-exercise operations, and practice suggestions.
+- Its metadata explicitly distinguishes:
+  - checkpoint-assessed paragraph skills: what the tasks actually check;
+  - target-exercise required skills/operations: what must be covered before
+    readiness can be claimed;
+  - skill-map display/request scope where the shared route layer uses a
+    narrower supported namespace;
+  - a target-readiness evidence flag or status.
+- A checkpoint may not set or imply target-exercise-readiness evidence unless
+  its tasks cover the complete reviewed target-exercise operation chain.
 - Internal IDs are not visible to students.
 - Feedback is local, neutral, and non-summative.
 - `Check` appears on a paragraph landing page only after reviewed generated
