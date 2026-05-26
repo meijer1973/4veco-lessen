@@ -49,6 +49,12 @@ specification unless the missing work is assigned to a named follow-up sprint.
   route: L1.7B-MAP sprint plan and technical implementation. Consequence:
   future checkpoints must distinguish assessed paragraph skills from
   target-exercise-readiness evidence instead of using one ambiguous skill list.
+- 2026-05-26: added the specification-fulfilment rule and planning quality
+  floor after human feedback that quality language must shape plans before
+  implementation. Affected surface: sprint planning, review packets, and
+  companion closure evidence. Approval route: QUALITY-STD-1 governance
+  hardening. Consequence: future non-trivial plans must prove how the
+  specification is fulfilled, not merely show that files exist or tests pass.
 
 ## Global Product Rules
 
@@ -88,6 +94,48 @@ packets, and agent plans unless:
 A scope label never lowers the quality bar. If a sprint implements only part of
 a specification, the result is a bounded implementation, not a completed
 specification.
+
+## Specification-Fulfilment Rule
+
+A companion surface must be judged against the specification it is supposed to
+serve, not against the smallest implementation that can be defended.
+
+The default expectation is a coherent student-facing product:
+
+- clear route;
+- correct concepts;
+- canonical terminology;
+- procedure fidelity;
+- meaningful visuals;
+- usable affordance;
+- local feedback;
+- rendered-output proof;
+- review evidence.
+
+A surface that is technically present but weak in learning value is not a
+completed specification. It is either a partial implementation, a carried
+blocker, or a follow-up sprint.
+
+## Planning Quality Floor
+
+Every non-trivial companion, route, game, checkpoint, or review sprint must
+state the quality floor before implementation. The plan must include:
+
+- the original specification requirements being fulfilled;
+- the implementation evidence required for each requirement;
+- rendered-output proof where the surface is visual, navigational, or
+  interactive;
+- student-experience and teacher-learning-quality review when student-facing
+  usefulness or learning quality is claimed;
+- omitted requirements as named follow-up work, explicit blockers, or human
+  waivers.
+
+The plan should also classify quality improvement candidates as:
+
+- `include_now`: improves the current specification without scope risk;
+- `defer_named_follow_up`: useful, but should not block this sprint;
+- `reject_scope_creep`: not authorized or distracting from the current
+  specification.
 
 ## Game-Row Specification
 
