@@ -15,7 +15,7 @@ product.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.7C-MATH | Restore Skill-Tree Math Game + Four-Game Architecture Integrity | no | **TECHNICAL QA GREEN / READY FOR HUMAN REVIEW; NOT CLOSED.** Platform generator now restores scoped `wiskundevaardigheden.html` as the primary `Rekenen` route for `1.1.2` and `1.1.3`, keeps `stappenplan.html` visible as `Rekenstappen` support, and prevents the unscoped/full-catalog `1.1.1` skill tree from becoming the primary math route. Screenshot QA covers the restored landing, skill-tree math, reasoning, and graph surfaces. Human review must still decide whether the four-part architecture is restored before this blocker can close. Records: `archive/sprints/L1.7C-MATH/`. |
+| L1.7C-MATH | Restore Skill-Tree Math Game + Four-Game Architecture Integrity | no | **REVISE ADDRESSED / FOCUSED RECHECK READY; NOT CLOSED.** First human review accepted the route restoration but returned REVISE because the restored math-game result state could show `Volgende: A39`. Targeted revision now renders the next action with student-facing skill names, replaces visible dependency-node IDs with `Vaardigheid`, adds focused source tests, and adds post-exercise screenshot QA showing `Volgende: Prijsindex (CPI) berekenen` with no internal `A##`/`B##` code. Focused human recheck must confirm the blocker is fixed before closure. Records: `archive/sprints/L1.7C-MATH/`. |
 | L1.7B-MAP | Exit Ticket Skill-Metadata Alignment | no | **REQUIRED BEFORE EXIT-TICKET EVIDENCE.** Resolve or map the `A43`/`A04` versus `B01`/`B02` mismatch in the `1.1.1` checkpoint. The accepted metadata route must support paragraph-plan skills and target-exercise-readiness evidence. Until this closes, checkpoint metadata may not be used for diagnostics, mastery, sequencing, target-exercise promotion, CP-6/Year-1 reliance, PV use, Scale Gate 1 scale evidence, or broad exit-ticket scaling. Platform handoff is expected if B-unit skill-map scoping or a mapping layer is needed. |
 | L1.7B-P23 | Exit Ticket Target-Skill Pilots For 1.1.2 And 1.1.3 | no | **REQUIRED BEFORE EXIT-TICKET GENERALIZATION.** Design reviewed exit-ticket pilots or stop/handoff decisions for `1.1.2 Percentages en indexcijfers` and `1.1.3 Grafieken en tabellen`. These may not be MC-only unless the paragraph target exercise is MC-like. `1.1.2` must test percentage/index calculation with calculation field, final answer, and unit/percentage handling. `1.1.3` must test graph/table reading, axis conventions, interpolation, and at least one graph-specific interaction or constructed response. `Check` remains hidden until each paragraph has reviewed generated checkpoint output. |
 | L1.7B-Q2 | Exit Ticket Target-Exercise Readiness Prototype | no | **REQUIRED BEFORE STRONGER CHECK CLAIMS.** Upgrade one checkpoint into target-exercise-readiness evidence. It must decompose the paragraph target exercise into operations and test the complete operation chain. The output remains non-summative but should answer: "Is this student ready to try the target exercise?" Requires metadata alignment, answer-model alignment, teacher-learning-quality review, student-experience review, screenshot/interaction QA, and no generated-output hand patching. |
@@ -170,6 +170,8 @@ Updated: 2026-05-26 (skill-tree math route correction) - Added `L1.7C-MATH Resto
 Updated: 2026-05-26 (core-spec hardening) - Tightened the pre-scale sequence after human review feedback that "pilot" and "MVP" language must not weaken the original product specification. `L1.7C-MATH` is now the first hard blocker because the primary math route is wrong. `L1.7B-MAP`, `L1.7B-P23`, `L1.7B-Q2`, and `GATE-L1.7B-Q2` now explicitly restore the exit-ticket path from short checkpoint to target-exercise-readiness evidence before stronger claims. Added `REV-STD-1 Core-Spec Review Standard Hardening` before Scale Gate 1 so PASS WITH FLAGS cannot carry core-spec failures, and Scale Gate 1 is blocked until these sprints are closed or explicitly waived by human decision with consequences.
 
 Updated: 2026-05-26 (L1.7C-MATH technical QA) - Platform generator changes restored scoped `wiskundevaardigheden.html` as the primary `Rekenen` route for `1.1.2` and `1.1.3`, kept `stappenplan.html` visible as `Rekenstappen` support, and prevented the unscoped/full-catalog `1.1.1` skill-tree file from becoming primary practice. Lesson output was regenerated through platform deploy only. Technical QA is green: focused landing Jest 4/4, full platform Jest 555 passed / 8 skipped, deploy link/data checks 472 refs + 221 data tests, complete student-web validation for `1.1.1`-`1.1.3`, Book 1 health 26/26, procedure contracts 341 checks, target exercises 54 records with 12/12/14/16, and screenshot QA for landing/skill-tree/reasoning/graph surfaces across desktop/mobile light/dark. L1.7C-MATH is ready for human review but not closed.
+
+Updated: 2026-05-26 (L1.7C-MATH targeted revise fix) - First L1.7C-MATH human review returned REVISE because the restored math-game result state could expose internal skill IDs such as `Volgende: A39`. Targeted platform revision now uses student-facing skill labels in result next-action copy, replaces visible dependency-node IDs with `Vaardigheid`, and extends screenshot QA to exercise the skill-tree page to a post-result state. Focused evidence shows `Volgende: Prijsindex (CPI) berekenen` and `skillTreeResultHasInternalCode: false`. Validation is green: focused visible-copy/landing Jest 14 tests, full platform Jest 557 passed / 8 skipped, complete student-web validation for `1.1.1`-`1.1.3`, Book 1 health 26/26, procedure contracts 341 checks, target exercises 54 records, and 17 screenshot QA captures. L1.7C-MATH is focused-recheck ready but not closed.
 
 Updated: 2026-05-26 (stable companion specification) - Added `specifications/companion-core-specifications.md` as a smaller, more static specification baseline outside the active roadmap and sprint folders. Future roadmap and sprint changes must reconcile against this file; if a sprint ships a smaller pilot/MVP scope, the missing specification work must be assigned to a named follow-up sprint or changed through explicit specification review.
 
@@ -2384,7 +2386,8 @@ Exit criteria:
 
 ### Sprint L1.7C-MATH: Restore Skill-Tree Math Game + Four-Game Architecture Integrity
 
-Completed: no. Status: technical QA green; ready for human review; not closed.
+Completed: no. Status: first review returned REVISE; targeted fix implemented;
+focused recheck ready; not closed.
 
 Position: first in the pre-scale correction sequence; before Scale Gate 1 and
 before any claim that the game row is aligned with the shared skill-map
@@ -2423,7 +2426,12 @@ Implementation status on 2026-05-26:
 - Technical QA is recorded in
   `archive/sprints/L1.7C-MATH/L1.7C-MATH-technical-qa-report.md` and
   `archive/sprints/L1.7C-MATH/L1.7C-MATH-validation-log.md`.
-- Human review remains required before closure.
+- First human review returned REVISE because the restored math-game result
+  state could show `Volgende: A39`.
+- The targeted fix now renders `Volgende: Prijsindex (CPI) berekenen`, removes
+  visible dependency-node IDs, adds source regression tests, and adds
+  post-exercise result screenshot QA.
+- Focused human recheck remains required before closure.
 
 Work:
 
