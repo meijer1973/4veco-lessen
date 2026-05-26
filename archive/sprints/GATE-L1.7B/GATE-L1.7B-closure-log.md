@@ -73,7 +73,7 @@ PV projection, or PV machine promotion.
   `973abba3d6f3000510b6e66fdb8702ee7ad52750`
 - Gate packet commit:
   `e536c55b2fef81d8aa8663e10b5c06e20f67b443`
-- Gate closure-record commit: recorded when this closure log is committed.
+- Gate closure-record commit: `a1d29661315de7ea9087680032ebc96367481b5f`
 
 ## Next Action
 
