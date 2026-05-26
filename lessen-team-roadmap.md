@@ -10,15 +10,16 @@ for closed work live under `archive/sprints/<sprint-id>/`.
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
 | L1.7B-MAP | Exit Ticket Skill-Metadata Alignment | no | **NEW / REQUIRED BEFORE EXIT-TICKET SCALE EVIDENCE.** Resolve or map the `A43`/`A04` versus `B01`/`B02` mismatch in the `1.1.1` checkpoint. Decide the authoritative metadata route: paragraph-plan skills, MTU ids, target-exercise skills, or a reviewed mapping layer. Until this closes, checkpoint metadata may not be used for diagnostics, mastery, sequencing, target-exercise promotion, CP-6/Year-1 reliance, PV use, Scale Gate 1 scale evidence, or broad exit-ticket scaling. Platform handoff is expected if B-unit skill-map scoping or a mapping layer is needed. |
+| L1.7C-MATH | Restore Skill-Tree Math Game Primary Route | no | **NEW / REQUIRED BEFORE GAME-ROW OR COMPANION SCALE GATE.** Review the four-part game/skill-map architecture history and correct the L1.7D route displacement: `wiskundevaardigheden.html` / the old skill-tree math game must be the primary `Rekenen` practice route again, while `stappenplan.html` remains available as step/procedure support or `Extra steun`. The sprint must audit and align all four pieces: the skill-tree math game, reasoning game, graph game, and shared skill-map display layer. Implement only through the platform landing/game generators, not generated-output hand patches. No diagnostics, mastery, sequencing, summative claims, PV, or broad scaling. |
 | L1.7B-P23 | Exit Ticket Pilot Coverage For 1.1.2 And 1.1.3 | no | **NEW / REQUIRED BEFORE EXIT-TICKET TARGET-READINESS CLAIMS.** Create reviewed pilot exit-ticket plans or generated checkpoints for `1.1.2 Percentages en indexcijfers` and `1.1.3 Grafieken en tabellen`, because these introduce calculation/index and graph/table skills not tested by the `1.1.1` MVP. Use the platform workflow only. `1.1.2` must surface calculation, answer, and unit/percentage needs; `1.1.3` must surface graph/table reading needs and likely graph-specific UI adjustments. `Check` remains hidden until each paragraph has reviewed generated checkpoint output. No diagnostics, mastery, automatic sequencing, summative use, PV, or broad scaling. |
 | L1.7B-Q2 | Exit Ticket Target-Exercise Readiness Prototype | no | **NEW / NEXT QUALITY STEP AFTER MVP.** Upgrade one paragraph checkpoint from non-summative practice check to target-exercise-readiness evidence. The checkpoint must test the operation chain needed for the paragraph target exercise, including calculation fields, unit fields, reasoning steps, graph/table interpretation, or short constructed responses where relevant. Requires metadata alignment, answer-model alignment, teacher-learning-quality review, student-experience review, screenshot/interaction QA, and no generated-output hand patching. Still no summative grading, mastery, automatic sequencing, student-facing AI, PV projection, CP-6/Year-1 closure, or broad scaling. |
 | GATE-L1.7B-Q2 | Exit Ticket Completion Language And Readiness Review | no | **NEW / REQUIRED BEFORE STRONGER CHECK COMPLETION COPY.** Decide what the checkpoint may say when all answers are correct. Allowed language may include `Je hebt deze check goed afgerond` and, after Q2 evidence, `Je bent klaar om de eindopgave te proberen`. Prohibited language includes mastery, grade, automatic progression, sequencing, summative claims, diagnostics, or target-exercise proof unless a later explicit mastery/sequencing gate authorizes them. |
-| Scale Gate 1 | Foundation Hardening Scale Gate | no | **FUTURE JOINT DECISION; EXIT-TICKET PRODUCT-BOUNDARY GATE SATISFIED WITH FLAGS, BUT TARGET-READINESS NOT READY.** L1.7B-R, GATE-L1.7B, and L2.0 are closed PASS WITH FLAGS, but broad companion scaling remains blocked until Scale Gate 1 is explicitly run and closed or waived by human decision. Scale Gate 1 may not treat exit-ticket output as scale or target-exercise-readiness evidence unless `L1.7B-MAP` closes and either `L1.7B-Q2` plus `GATE-L1.7B-Q2` close, or Scale Gate 1 explicitly limits exit tickets to non-summative MVP status during controlled production. Scale Gate 1 must also decide `L1.7B-P23`, L1.7C/L2.0 game-row flags, L1.7D/L2.0 landing baseline, minimal curriculum-versioning readiness, and reference-side status on GATE-EX5 / operation-answer-skill contract. It may authorize controlled production only, not adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
+| Scale Gate 1 | Foundation Hardening Scale Gate | no | **FUTURE JOINT DECISION; EXIT-TICKET PRODUCT-BOUNDARY GATE SATISFIED WITH FLAGS, BUT TARGET-READINESS AND MATH-GAME ROUTING ARE NOT READY.** L1.7B-R, GATE-L1.7B, and L2.0 are closed PASS WITH FLAGS, but broad companion scaling remains blocked until Scale Gate 1 is explicitly run and closed or waived by human decision. Scale Gate 1 may not treat exit-ticket output as scale or target-exercise-readiness evidence unless `L1.7B-MAP` closes and either `L1.7B-Q2` plus `GATE-L1.7B-Q2` close, or Scale Gate 1 explicitly limits exit tickets to non-summative MVP status during controlled production. Scale Gate 1 must also decide `L1.7C-MATH`, `L1.7B-P23`, L1.7C/L2.0 game-row flags, L1.7D/L2.0 landing baseline, minimal curriculum-versioning readiness, and reference-side status on GATE-EX5 / operation-answer-skill contract. It may authorize controlled production only, not adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
 | GATE-L1.7B | Exit Ticket Product-Boundary Review | **2026-05-26** | **CLOSED PASS WITH FLAGS.** The `1.1.1` checkpoint product boundary is accepted as a non-summative, practice-oriented `Check` MVP for controlled pilot use. GATE-L1.7B does not authorize Scale Gate 1, broad scaling, CP-6/Year-1 closure, target-exercise promotion, diagnostics, mastery, sequencing, summative use, student-facing AI, PV projection, or PV machine promotion. Carried flag `GATE-L1.7B-CF1`: `A43`/`A04` metadata mismatch remains live and blocks metadata reliance for diagnostics, mastery, sequencing, target-exercise promotion, CP-6/Year-1, PV, Scale Gate 1 scale evidence, or broad exit-ticket scaling until platform B-unit scoping or a reviewed mapping layer exists. Records: `archive/sprints/GATE-L1.7B/`. |
 | L1.7B-R | Boundary-Safe Exit Ticket MVP Resume | **2026-05-26** | **CLOSED PASS WITH FLAGS.** Platform `GAME-UX-2` completed the source-controlled exit-ticket checkpoint engine MVP and generated lesson output through platform scripts only. Lesson output commit `5c47961269096c21a7d50bbc97c71de7984ff6e1` contains the `1.1.1` checkpoint and landing `Check` activation; tag `checkpoint/GAME-UX-2-exit-ticket-mvp-lesson`. Human review accepted the checkpoint as a boundary-safe, non-summative controlled-pilot MVP. Green checks: platform focused checkpoint/landing/skill-map tests, full platform Jest 554 passed / 8 skipped, deploy, `1.1.1` validation, Book 1 checks, procedure contracts, target exercises, sprint bundle, and checkpoint/landing desktop/mobile light/dark screenshot QA; local focused recheck 26/26 and `1.1.1` complete student-web validation passed. Carried flag `L1.7B-R-CF1`: checkpoint metadata uses `A43`/`A04`, while paragraph-plan skills are `B01`/`B02`; this may not be used for diagnostics, mastery, sequencing, target-exercise promotion, CP-6/Year-1, PV, Scale Gate 1, or broad-scaling evidence until fixed or mapped. Records: `archive/sprints/L1.7B-R/`. GATE-L1.7B remains required before Scale Gate 1. |
-| L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | **2026-05-25** | **CLOSED PASS WITH FLAGS.** L2.0 defined the Book 1 student-web house-style baseline, PASS WITH FLAGS operational meaning, flag dispositions, quality-ref status language, screenshot/QA expectations, exit-ticket readiness checklist, and consolidation/gemengde-opgaven landing rule. Platform generator routes `1.1.4 Gemengde opgaven` to primary `Oefen gemengd` instead of a weak `Verdiep`-only page; chapter landing tags also show `Oefen gemengd`. Human review closed PASS WITH FLAGS with no product blocker. Green gates: focused landing Jest 2/2, deploy link/data checks 460 refs + 221 data tests, complete student-web validation for `1.1.1`-`1.1.3`, `1.1.4` publisher-print validation, Book 1 health 26/26, procedure-contract validation 341 checks, v5 target-exercise validation 54 records with 12/12/14/16, `1.1.4` desktop/mobile light/dark screenshot QA, and full platform Jest 544 passed / 8 skipped. Carried flags: `1.1.4` remains legacy `FLAG`, graph-drawing consolidation and profit-formula framing need later content review, game-row variants remain MVP-level, exit-ticket target-readiness remains future work under L1.7B-MAP/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2, and broad companion scaling remains blocked. Records: `archive/sprints/L2.0/`. |
-| L1.7D | Paragraph Landing Page Information Architecture Cleanup | **2026-05-24** | **CLOSED PASS WITH FLAGS.** Platform generator now renders paragraph landing pages as a controlled route with `Start`, `Leer`, `Oefen`, optional `Check`, and `Verdiep`. `Check` stays hidden until a reviewed exit-ticket surface exists. `Oefen` separates guided support from scoped practice routes and routes `Rekenen` to `stappenplan` when present; the full skill map is demoted to a collapsed advanced source item. Summary/news/presentation/textbook/source surfaces are collapsed under `Verdiep`, and legacy Word exercise rows remain hidden from student landing pages. Human review closed PASS WITH FLAGS. Green gates: deploy link/data checks, focused landing Jest, complete student-web validation for `1.1.1`-`1.1.3`, procedure-contract validation 341 checks, Book 1 Part A health 26/26, v5 target-exercise validation 54 records with 12/12/14/16, screenshot QA for representative landings, and full platform Jest 543 passed / 8 skipped. Carried flags: calculation route is not a full numeric engine, `Check` remains future/non-summative, screenshot QA is representative, and `1.1.4` needs a dedicated consolidation landing pattern before broad scale. Records: `archive/sprints/L1.7D/`. |
-| L1.7C | Three-Aspect Game Quality Upgrade | **2026-05-24** | **CLOSED PASS WITH FLAGS.** L1.7C consumed platform `GAME-UX-1` shared skill-map runtime and regenerated Book 1 through the platform workflow so `Redeneren`, `Rekenen/Stappenplan`, and `Grafieken` consume one shared compact route panel. First human review returned REVISE because the route panel could expose internal skill IDs such as `A61`; focused revision fixed the label, added an `A61` regression test, corrected `1.1.1` landing copy, and added route-panel screenshots. Focused human recheck closed PASS WITH FLAGS. Carried flags: `Rekenen` is not yet a full numeric calculation engine, `Grafieken` has only one less-labelled variant, `Redeneren` needs richer variants/replay value, and game screenshot QA should mature. No adaptive diagnostics, mastery, sequencing, AI, summative use, PV projection, or PV machine promotion. Records: `archive/sprints/L1.7C/`. |
+| L2.0 | Book 1 Flag Burn-down And House-Style Cleanup | **2026-05-25** | **CLOSED PASS WITH FLAGS.** L2.0 defined the Book 1 student-web house-style baseline, PASS WITH FLAGS operational meaning, flag dispositions, quality-ref status language, screenshot/QA expectations, exit-ticket readiness checklist, and consolidation/gemengde-opgaven landing rule. Platform generator routes `1.1.4 Gemengde opgaven` to primary `Oefen gemengd` instead of a weak `Verdiep`-only page; chapter landing tags also show `Oefen gemengd`. Human review closed PASS WITH FLAGS with no product blocker. Green gates: focused landing Jest 2/2, deploy link/data checks 460 refs + 221 data tests, complete student-web validation for `1.1.1`-`1.1.3`, `1.1.4` publisher-print validation, Book 1 health 26/26, procedure-contract validation 341 checks, v5 target-exercise validation 54 records with 12/12/14/16, `1.1.4` desktop/mobile light/dark screenshot QA, and full platform Jest 544 passed / 8 skipped. Carried flags: `1.1.4` remains legacy `FLAG`, graph-drawing consolidation and profit-formula framing need later content review, game-row variants remain MVP-level, exit-ticket target-readiness remains future work under L1.7B-MAP/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2, and the primary math-game route must be corrected under L1.7C-MATH before broad companion scaling. Records: `archive/sprints/L2.0/`. |
+| L1.7D | Paragraph Landing Page Information Architecture Cleanup | **2026-05-24** | **CLOSED PASS WITH FLAGS; RETROSPECTIVE MATH-ROUTE CORRECTION REQUIRED.** Platform generator now renders paragraph landing pages as a controlled route with `Start`, `Leer`, `Oefen`, optional `Check`, and `Verdiep`. `Check` stays hidden until a reviewed exit-ticket surface exists. L1.7D intentionally routed `Rekenen` to `stappenplan` when present and demoted the full skill map to a collapsed advanced source item; this is now recognized as too strong because the old skill-tree math game should remain the primary math practice route and `stappenplan` should remain support. Summary/news/presentation/textbook/source surfaces are collapsed under `Verdiep`, and legacy Word exercise rows remain hidden from student landing pages. Human review closed PASS WITH FLAGS. Green gates: deploy link/data checks, focused landing Jest, complete student-web validation for `1.1.1`-`1.1.3`, procedure-contract validation 341 checks, Book 1 Part A health 26/26, v5 target-exercise validation 54 records with 12/12/14/16, screenshot QA for representative landings, and full platform Jest 543 passed / 8 skipped. Carried flags: calculation route is not a full numeric engine, L1.7C-MATH must restore primary skill-tree math routing, `Check` remains future/non-summative, screenshot QA is representative, and `1.1.4` needs a dedicated consolidation landing pattern before broad scale. Records: `archive/sprints/L1.7D/`. |
+| L1.7C | Three-Aspect Game Quality Upgrade | **2026-05-24** | **CLOSED PASS WITH FLAGS; RETROSPECTIVE ROUTE GAP NOW SPLIT TO L1.7C-MATH.** L1.7C consumed platform `GAME-UX-1` shared skill-map runtime and regenerated Book 1 through the platform workflow so `Redeneren`, `Rekenen/Stappenplan`, and `Grafieken` consume one shared compact route panel. First human review returned REVISE because the route panel could expose internal skill IDs such as `A61`; focused revision fixed the label, added an `A61` regression test, corrected `1.1.1` landing copy, and added route-panel screenshots. Focused human recheck closed PASS WITH FLAGS. Carried flags: `Rekenen` is not yet a full numeric calculation engine, `Grafieken` has only one less-labelled variant, `Redeneren` needs richer variants/replay value, and game screenshot QA should mature. New correction: `Rekenen/Stappenplan` must not replace the old skill-tree math game as the primary math practice route; L1.7C-MATH must restore and review the four-part game/skill-map architecture. No adaptive diagnostics, mastery, sequencing, AI, summative use, PV projection, or PV machine promotion. Records: `archive/sprints/L1.7C/`. |
 | L1.7C-0 | Shared Skill-Map Engine Contract | **2026-05-23** | **CLOSED PASS WITH FLAGS.** Defined one shared skill-map / skill-tree engine contract for the three second-row practice games and compact checkpoint mode for the later exit ticket. Contract defines aspect filters (`reasoning`, `calculation`, `graphical`, explicit `mixed`), modes (`compact`, `route`, restricted `full`), state/progress language, game consumers, landing-page preview use, exit-ticket compact use, accessibility expectations, and product-use boundaries. Platform implementation has since completed in `GAME-UX-1` commit `6509895`, tag `checkpoint/GAME-UX-1-shared-skill-map-engine`. Records: `archive/sprints/L1.7C-0/L1.7C-0-sprint-plan.md`, `archive/sprints/L1.7C-0/L1.7C-0-current-state-audit.md`, `archive/sprints/L1.7C-0/L1.7C-0-shared-skill-map-contract.md`, `archive/sprints/L1.7C-0/L1.7C-0-handoff-to-platform.md`, `archive/sprints/L1.7C-0/L1.7C-0-validation-log.md`, `archive/sprints/L1.7C-0/L1.7C-0-closure-log.md`. |
 | L1.7B-C | Exit Ticket Companion Contract | **2026-05-23** | **CLOSED CONTRACT-ONLY / MVP PAUSED.** Prototype inspected and recorded as design evidence only. Companion-completion contract and future MVP scope exist. Implementation is not authorized because the prototype is untracked, uses mastery/score/pass/evidence/adaptive-focus language, and must consume shared skill-map compact checkpoint mode before any student-facing use. Records remain under `archive/sprints/L1.7B/`: sprint plan, prototype inventory, companion-completion contract, exit-ticket MVP scope, stop decision, and validation log. |
 | L-EX0 | Exam-Target Paragraph Contract | no | **FUTURE CONTRACT SPRINT.** Define how the lesson team builds a paragraph when the target exercise is an official exam question. No broad production. Output is a paragraph-plan contract, review checklist, handoff requirements back to platform, and one dry-run plan. Requires platform EX-0 contract evidence or an explicitly bounded substitute. |
@@ -157,6 +158,8 @@ Updated: 2026-05-26 (GATE-L1.7B close) - Human review accepted GATE-L1.7B as PAS
 
 Updated: 2026-05-26 (exit-ticket quality ladder) - Added a stricter pre-scale exit-ticket quality path before Scale Gate 1: `L1.7B-MAP` for skill-metadata alignment, `L1.7B-P23` for 1.1.2/1.1.3 checkpoint pilots, `L1.7B-Q2` for target-exercise-readiness checkpoint proof, and `GATE-L1.7B-Q2` for completion/readiness language. This records the human/reviewer concern that the current `1.1.1` exit ticket is only a short non-summative checkpoint MVP, not a target-exercise-readiness test. Scale Gate 1 may not treat exit tickets as scale or target-readiness evidence unless metadata alignment closes and either Q2 closes or Scale Gate 1 explicitly limits exit tickets to MVP checkpoint status.
 
+Updated: 2026-05-26 (skill-tree math route correction) - Added `L1.7C-MATH Restore Skill-Tree Math Game Primary Route` before Scale Gate 1. Review of L1.7C-0/L1.7C/L1.7D history shows that GAME-UX-1 added the shared skill-map display layer and did not remove the old `wiskundevaardigheden` skill-tree math game, but L1.7D's landing generator made `stappenplan` the primary `Rekenen` route and pushed the old skill-tree math game into `Verdiep` as `Volledige vaardigheidskaart`. That displacement is now treated as a pre-scale route defect. L1.7C-MATH must restore the old skill-tree math game as the primary math practice route, keep `stappenplan` as support/extra steps, and re-audit the full four-part architecture: math skill-tree game, reasoning game, graph game, and shared skill-map route/display layer.
+
 Updated: 2026-05-19 (L-CP6A close) - lesson-side CP.6a remediation closed PASS WITH FLAGS. A platform-owned migration script aligned active Book 1 Chapter 1.3 to v5, archived displaced costs/revenue material for Book 2 survival, regenerated `1.3.2`, `1.3.3`, `1.3.4`, Chapter 1.3, and aggregate Book 1 output, and preserved the rule that CP-6/Year 1 are not closed here. Green gates: Chapter 1.3 validation, Book 1 health 26/26, print-scope 12/12, v5 target-exercise counts 54 with 12/12/14/16, focused book Jest 7/7, full platform Jest 515 passed / 8 skipped. References-team handoff: `archive/sprints/L-CP6A/L-CP6A-handoff-to-references.md`.
 Updated: 2026-05-20 (EX-NS0 exam-ingestion north-star) - official exam-target paragraph work is now explicit as a future cross-repo endpoint. The platform side owns exam-ingestion overlays, source-annex and answer-model traceability, MTU mapping, and operation classification. The lesson side now inserts L-EX0 and L-EX1 before L2.4-TEA: first define the paragraph-plan contract and review checklist, then run one controlled pilot paragraph around a real official exam question. This update authorizes no broad production, no generated-output hand patching, no CP-6/Year-1 closure, no target-exercise promotion, and no diagnostics/adaptive/mastery/summative/student-facing AI use.
 Source: split from `knowledge/three-month-roadmap.md` after Sprint 0.5 sign-off
@@ -222,12 +225,14 @@ npm.cmd run check:book -- "..\4veco-lessen\Boek 1 - Grondslagen, vraag en aanbod
 - Reviews and quality refs are mandatory artifacts, not optional paperwork.
 - Rebuild affected paragraph/chapter/book HTML/PDF whenever source markdown or assets change.
 - Do not scale companion production until L1.7A, L1.7B-C, L1.7C-0,
-  L1.7C, L1.7D, L2.0, L1.7B-R, GATE-L1.7B, L1.7B-MAP,
+  L1.7C, L1.7D, L2.0, L1.7B-R, GATE-L1.7B, L1.7B-MAP, L1.7C-MATH,
   L1.7B-P23, L1.7B-Q2, GATE-L1.7B-Q2, and Scale Gate 1 explicitly clear
   or waive the relevant flags, define the complete companion-set contract and
   shared skill-map architecture, and prove that the exit-ticket checkpoint, if
   included in scaling, is either explicitly limited to MVP checkpoint status or
-  reviewed as target-exercise-readiness evidence:
+  reviewed as target-exercise-readiness evidence. The primary math practice
+  route must use the skill-tree math game unless Scale Gate explicitly accepts
+  a different reviewed calculation-engine replacement:
 
 ```powershell
 node scripts\validate-paragraph.js --mode complete "<paragraph-folder>"
@@ -2329,13 +2334,79 @@ Exit criteria:
 - the closure record states whether exit-ticket metadata can be used as Scale
   Gate evidence or remains excluded
 
+### Sprint L1.7C-MATH: Restore Skill-Tree Math Game Primary Route
+
+Completed: no. Status: future required before game-row or companion scale gate.
+
+Position: after L1.7C/L1.7D history review; before Scale Gate 1 and before any
+claim that the three-game row is aligned with the shared skill-map
+architecture.
+
+Purpose:
+
+Restore the old `wiskundevaardigheden` skill-tree math game as the primary
+`Rekenen` practice route. Keep `stappenplan` as support/step practice, not as
+the replacement math game.
+
+History finding:
+
+- GAME-UX-1 implemented shared skill-map support and did not remove the old
+  skill-tree math game.
+- L1.7C reviewed `Stappenplan/Rekenen` as the current procedure-practice role
+  and carried the missing full numeric calculation-engine flag.
+- L1.7D then made `stappenplan` the primary `Rekenen` route when present and
+  demoted `wiskundevaardigheden` to `Verdiep`.
+- That route displacement is now a pre-scale defect.
+
+Work:
+
+- Review the audit in `archive/sprints/L1.7C-MATH/L1.7C-MATH-history-audit.md`.
+- Use the platform handoff draft in
+  `archive/sprints/L1.7C-MATH/L1.7C-MATH-platform-handoff.md` if generator
+  changes are needed.
+- Audit all four pieces together:
+  - skill-tree math game;
+  - reasoning game;
+  - graph game;
+  - shared skill-map / route-display layer.
+- Update platform generator logic so `wiskundevaardigheden.html` is the primary
+  `Rekenen` route when it exists.
+- Keep `stappenplan.html` visible as `Stappenplan`, `Extra steun`, or
+  procedure-step practice.
+- Re-check whether the skill-tree math game opens as a safe scoped calculation
+  practice surface or an overloaded full catalog.
+- Regenerate through the platform workflow only.
+- Review with student-experience and teacher-learning-quality evidence before
+  closure.
+
+Out of scope:
+
+- deleting `stappenplan`
+- generated-output hand patches
+- diagnostics
+- mastery decisions
+- automatic sequencing
+- summative use
+- student-facing AI
+- PV projection or PV machine promotion
+- broad companion scaling
+
+Exit criteria:
+
+- `Rekenen` primary route points to `wiskundevaardigheden.html` where available
+- `Stappenplan` remains visible and usable as support
+- the four-part game/skill-map architecture is documented and reviewed
+- technical validation and human review accept the restored route, or record
+  the blocker before Scale Gate 1
+
 ### Sprint L1.7B-P23: Exit Ticket Pilot Coverage For 1.1.2 And 1.1.3
 
 Completed: no. Status: future required before exit-ticket target-readiness
 claims cover the first pilot chapter.
 
-Position: after L1.7B-MAP; before L1.7B-Q2 unless explicitly waived by human
-decision.
+Position: after L1.7B-MAP and preferably after L1.7C-MATH if `1.1.2`
+checkpoint practice links depend on the calculation route; before L1.7B-Q2
+unless explicitly waived by human decision.
 
 Purpose:
 
@@ -2357,6 +2428,9 @@ Work:
 - Generate output only through the platform workflow.
 - Keep `Check` hidden until a paragraph has reviewed generated checkpoint
   output.
+- Stop if a `1.1.2` checkpoint would point students to an unresolved or
+  displaced calculation route before L1.7C-MATH has restored or explicitly
+  resolved the primary math game.
 
 Out of scope:
 
@@ -2378,8 +2452,8 @@ Exit criteria:
 
 Completed: no. Status: future next quality step after MVP.
 
-Position: after L1.7B-MAP and preferably after L1.7B-P23; before
-GATE-L1.7B-Q2.
+Position: after L1.7B-MAP and preferably after L1.7C-MATH and L1.7B-P23;
+before GATE-L1.7B-Q2.
 
 Purpose:
 
@@ -3127,7 +3201,7 @@ Outputs:
   migrated target exercises as final-reviewed.
 - Continue companion pilot work only where it supports the L1.7A decision and
   the L1.7B-C/L1.7C-0/L1.7C/L1.7D/L2.0/L1.7B-R/GATE-L1.7B plus
-  L1.7B-MAP/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2 foundation-hardening sequence,
+  L1.7B-MAP/L1.7C-MATH/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2 foundation-hardening sequence,
   or does not conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
 - Keep Book 2 Part A planning paused behind L1.5Q if it depends on the new
@@ -3139,9 +3213,11 @@ Outputs:
   L1.7C-0 shared skill-map contract, L1.7C game-row closure, and L1.7D landing
   IA closure plus L2.0 house-style closure as the baseline. L1.7B-R and
   GATE-L1.7B have closed only an MVP product boundary; complete
-  L1.7B-MAP/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2 or explicitly limit exit tickets
-  to MVP checkpoint status before Scale Gate 1 if companion scaling is still
-  desired.
+  L1.7B-MAP/L1.7C-MATH/L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2 or explicitly limit
+  exit tickets to MVP checkpoint status before Scale Gate 1 if companion
+  scaling is still desired. L1.7C-MATH must also restore the primary math
+  practice route to the skill-tree math game unless a later reviewed
+  calculation-engine replacement is explicitly accepted.
 - Keep `course_blueprint_v5.md` and the target-exercise source-of-truth path as
   the active baseline before Book 2 production.
 - `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.
@@ -3154,9 +3230,9 @@ Outputs:
   scaling, L1.7B-MAP through GATE-L1.7B-Q2 must decide whether exit tickets are
   merely non-summative checks or target-exercise-readiness evidence; keep
   `Check` hidden until reviewed output exists, preserve the shared skill-map
-  engine contract, classify game-row carried flags, and do not permit mastery,
-  sequencing, diagnostics, summative claims, PV, or broad scaling through exit
-  tickets.
+  engine contract, restore the primary math route through L1.7C-MATH, classify
+  game-row carried flags, and do not permit mastery, sequencing, diagnostics,
+  summative claims, PV, or broad scaling through exit tickets or game routing.
 - Book 1 teacher-facing polish continues without breaking `check:book`.
 
 ### Months 1-3
