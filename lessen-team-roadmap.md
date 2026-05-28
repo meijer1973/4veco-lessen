@@ -20,11 +20,12 @@ that restores the full product.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| L1.7B-P23 | Exit Ticket Target-Skill Checkpoint Designs For 1.1.2 And 1.1.3 | no | **READY FOR HUMAN REVIEW / STOP-HANDOFF DECISION.** Operation-chain analysis shows `1.1.2` needs calculation/work fields, final answer entry, percentage/index notation, and short explanation, while `1.1.3` needs table/graph handling, economic axis convention, graph drawing or point placement, interpolation, and short explanation. The current exit-ticket engine/UI supports only choice tasks, so the sprint stopped instead of generating weak generic MC checks. `Check` remains hidden for `1.1.2` and `1.1.3`; no source data or generated exit-ticket output was created. Human review must decide whether the stop/handoff is accepted. If we continue from the current state, the next step is the L1.7B-P23 human review. |
-| L1.7B-Q2 | Exit Ticket Target-Exercise Readiness Implementation | no | **REQUIRED BEFORE STRONGER CHECK CLAIMS.** Upgrade one checkpoint into target-exercise-readiness evidence under `specifications/product-end-state.md`. It must decompose the paragraph target exercise into operations and test the complete operation chain. The output remains non-summative but should answer: "Is this student ready to try the target exercise?" Requires metadata alignment, answer-model alignment, teacher-learning-quality review, student-experience review, screenshot/interaction QA, and no generated-output hand patching. |
+| GAME-UX-3 | Exit Ticket Task-Type Expansion | no | **PLATFORM HANDOFF / ACTIVE NEXT DEPENDENCY BEFORE L1.7B-Q2.** L1.7B-P23 closed as a correct stop/handoff: `1.1.2` needs calculation/work fields, final answer entry, percentage/index notation, and short explanation, while `1.1.3` needs table/graph handling, economic axis convention, graph drawing or point placement, interpolation, and short explanation. The current exit-ticket engine/UI supports only choice tasks. Platform support must add reviewed task families and validation before generated `1.1.2` or `1.1.3` checkpoints can be produced. If we continue from the current state, the next step is the platform task-type expansion handoff. |
+| L1.7B-Q2 | Exit Ticket Target-Exercise Readiness Implementation | no | **BLOCKED PENDING PLATFORM TASK-TYPE SUPPORT / REQUIRED BEFORE STRONGER CHECK CLAIMS.** Upgrade one checkpoint into target-exercise-readiness evidence under `specifications/product-end-state.md`. It must decompose the paragraph target exercise into operations and test the complete operation chain. The output remains non-summative but should answer: "Is this student ready to try the target exercise?" Requires metadata alignment, answer-model alignment, task types that support the operation chain, teacher-learning-quality review, student-experience review, screenshot/interaction QA, and no generated-output hand patching. |
 | GATE-L1.7B-Q2 | Exit Ticket Completion Language And Readiness Review | no | **REQUIRED BEFORE STRONGER COMPLETION COPY.** Decide what the checkpoint may say when all answers are correct. `Je bent klaar om de eindopgave te proberen` is allowed only if Q2 proves target-exercise-readiness coverage. Mastery, grade, automatic progression, sequencing, diagnostics, summative claims, PV, and AI language remain prohibited. |
 | REV-STD-1 | Core-Spec Review Standard Hardening | no | **REQUIRED BEFORE SCALE GATE 1.** Update review packets and lead-review rules so core specification failures cannot be carried as ordinary flags. Every review packet must include `specifications/product-end-state.md`, the original sprint specification, non-negotiable requirements, and a core-requirement checklist. PASS WITH FLAGS is allowed only for issues outside the sprint's core objective. Scope-language enforcement is handled by closed `SCOPE-LANG-1`; plan-level quality-standard enforcement is handled by closed `QUALITY-STD-1`; REV-STD-1 still owns the wider review-template and lead-review-rule hardening. |
-| Scale Gate 1 | Foundation Hardening Scale Gate | no | **BLOCKED.** `L1.7C-MATH` and `L1.7B-MAP` are closed, but Scale Gate 1 may not run until `L1.7B-P23`, `L1.7B-Q2`, `GATE-L1.7B-Q2`, and `REV-STD-1` are closed or explicitly waived by human decision with stated consequences. Scale Gate 1 must use `specifications/product-end-state.md` as the north-star baseline and may not treat exit-ticket output as scale or target-exercise-readiness evidence unless Q2 closes or the gate explicitly limits exit tickets to non-summative checkpoint status during controlled production. It may authorize controlled production only, not adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
+| Scale Gate 1 | Foundation Hardening Scale Gate | no | **BLOCKED.** `L1.7C-MATH`, `L1.7B-MAP`, and `L1.7B-P23` are closed, but Scale Gate 1 may not run until platform task-type support, `L1.7B-Q2`, `GATE-L1.7B-Q2`, and `REV-STD-1` are closed or explicitly waived by human decision with stated consequences. Scale Gate 1 must use `specifications/product-end-state.md` as the north-star baseline and may not treat exit-ticket output as scale or target-exercise-readiness evidence unless Q2 closes or the gate explicitly limits exit tickets to non-summative checkpoint status during controlled production. It may authorize controlled production only, not adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
+| L1.7B-P23 | Exit Ticket Target-Skill Checkpoint Designs For 1.1.2 And 1.1.3 | **2026-05-28** | **CLOSED PASS WITH FLAGS / PLATFORM HANDOFF.** Human review accepted the stop/handoff decision. Operation-chain analysis showed that `1.1.2` requires calculation/work input, final numeric answer, percentage/index notation, and short explanation; `1.1.3` requires table/graph handling, axis convention, graph drawing or point-placement substitute, interpolation, and short explanation. No `1.1.2` or `1.1.3` exit-ticket output was generated because the current engine/UI is choice-only. `Check` remains hidden until reviewed generated checkpoint output exists. Carried flags: platform task-type expansion is required, L1.7B-Q2 cannot produce readiness evidence for calculation/graph paragraphs until task-type support exists, and target-exercise/MTU review flags remain live. Records: `archive/sprints/L1.7B-P23/`. |
 | L1.7B-MAP | Exit Ticket Skill-Metadata Alignment | **2026-05-26** | **CLOSED PASS WITH FLAGS / READINESS FLAG CARRIER.** Human review accepted the metadata alignment: `1.1.1` checkpoint-assessed metadata now uses `B01/B02`, `A04` is removed from checkpoint target/scope metadata, `metadataAlignment.targetExerciseSkillIds` records `A43/B01/B02`, and `targetReadinessEvidence` remains `false`. The metadata mismatch is fixed for the checkpoint's current role, but the current checkpoint is not target-exercise-readiness evidence because it does not cover the full `A43` operation chain. Carried flags: readiness belongs to `L1.7B-Q2`, future checkpoint designs must use task forms appropriate to the target exercise, Scale Gate 1 may not rely on the current checkpoint as readiness evidence, and the `1.1.1` target-exercise registry record still needs its separate final review path. Records: `archive/sprints/L1.7B-MAP/`. |
 | L1.7C-MATH | Restore Skill-Tree Math Game + Four-Game Architecture Integrity | **2026-05-26** | **CLOSED PASS WITH FLAGS / SCALE GATE FLAG CARRIER.** First human review accepted the route restoration but returned REVISE because the restored math-game result state could show `Volgende: A39`. Targeted revision now renders the next action with student-facing skill names, replaces visible dependency-node IDs with `Vaardigheid`, adds focused source tests, and adds post-exercise screenshot QA showing `Volgende: Prijsindex (CPI) berekenen` with no internal `A##`/`B##` code. Focused human recheck closed PASS WITH FLAGS. Primary `Rekenen` now points to scoped `wiskundevaardigheden.html` for `1.1.2` and `1.1.3`; `stappenplan.html` remains `Rekenstappen` support; unscoped `1.1.1` stays collapsed as `Brede vaardigheidskaart`. Carried flags: skill-tree progress language needs Scale Gate 1 review, restored math is not target-exercise-readiness evidence, keyboard/focus proof should strengthen before scale, and scoped skilltree comments need cleanup. Records: `archive/sprints/L1.7C-MATH/`. |
 | QUALITY-STD-1 | Planning Quality Standard Enforcement | **2026-05-26** | **CLOSED PASS.** Added quality-driven execution language to both repo `AGENTS.md` files, inserted a Specification-Fulfilment Rule and Planning Quality Floor into `specifications/companion-core-specifications.md`, added paragraph-build quality-standard guidance, and hardened the platform sprint-plan checker so future non-trivial plans require `Quality Standard`, `Specification Fulfilment Matrix`, `Quality Improvement Candidates`, and `Proof Required to Close`. No lesson output was generated and no product-use boundary was loosened. Records: `archive/sprints/QUALITY-STD-1/`. |
@@ -198,6 +199,8 @@ Updated: 2026-05-26 (active-next roadmap correction and close-out policy) - Prom
 Updated: 2026-05-26 (L1.7B-MAP close) - Human review accepted L1.7B-MAP as PASS WITH FLAGS. The `1.1.1` checkpoint metadata now uses `B01/B02` for checkpoint-assessed target/scope fields, removes `A04`, records the target-exercise skill set as `A43/B01/B02`, and keeps `targetReadinessEvidence: false`. This resolves the prior metadata mismatch for the current checkpoint role, but it does not make the checkpoint target-exercise-readiness evidence. Scale Gate 1 remains blocked until L1.7B-P23, L1.7B-Q2, GATE-L1.7B-Q2, and REV-STD-1 close or are explicitly waived by human decision with consequences. If work continues, the next step is L1.7B-P23.
 
 Updated: 2026-05-26 (L1.7B-P23 stop/handoff packet) - L1.7B-P23 is ready for human review. The sprint plan was upgraded to the current quality-standard format. Baseline audit and operation-chain analysis show that `1.1.2` requires calculation/work fields, final answer entry, unit or percentage/index notation, and short explanation, while `1.1.3` requires table/graph handling, economic axis convention, graph drawing or point placement, interpolation, and short explanation. The current exit-ticket engine/UI supports only choice tasks, so the sprint stopped and wrote a platform handoff instead of generating weak generic MC checks. `Check` remains hidden for `1.1.2` and `1.1.3`; no source data or generated exit-ticket output was created. If work continues, the next step is the L1.7B-P23 human review.
+
+Updated: 2026-05-28 (L1.7B-P23 close) - Human review accepted L1.7B-P23 as PASS WITH FLAGS. The stop/handoff decision is accepted as the correct product decision: generating choice-only exit tickets for `1.1.2` and `1.1.3` would undercut the target-exercise-readiness specification. `Check` remains hidden for both paragraphs and no generated exit-ticket output was created. The next blocker is platform task-type expansion before L1.7B-Q2 can honestly produce readiness evidence for calculation or graph/table paragraphs.
 
 Updated: 2026-05-26 (product end-state canonicalization) - Added `SPEC-END-STATE` and created `specifications/product-end-state.md` as the canonical product north star outside the active roadmap. The end-state sentence is now fixed: for every paragraph, 4veco gives the student a visible route from current readiness to target-exercise readiness. Future exit-ticket, game-row, exam-ingestion, review-standard, and Scale Gate work must cite this baseline and may not use restricted scope-language to weaken the full product specification.
 
@@ -2583,7 +2586,7 @@ Exit criteria:
 
 ### Sprint L1.7B-P23: Exit Ticket Target-Skill Checkpoint Designs For 1.1.2 And 1.1.3
 
-Completed: no. Status: READY FOR HUMAN REVIEW; STOP-HANDOFF DECISION.
+Completed: 2026-05-28. Status: CLOSED PASS WITH FLAGS.
 
 Position: after L1.7B-MAP and preferably after L1.7C-MATH if `1.1.2`
 checkpoint practice links depend on the calculation route; before L1.7B-Q2
@@ -2607,7 +2610,7 @@ Current result:
 - the current engine/UI is confirmed as choice-task-only
 - no generated exit-ticket output was created for `1.1.2` or `1.1.3`
 - platform task-type support is required before generated output
-- the sprint is ready for human review of the stop/handoff decision
+- human review accepted the stop/handoff decision as PASS WITH FLAGS
 
 Work:
 
@@ -2658,12 +2661,51 @@ Exit criteria:
   checkpoint designs meet their target-skill probe specification or must pause for platform
   support
 
+Closure result:
+
+- L1.7B-P23 closed as a correct stop/handoff sprint
+- no `1.1.2` or `1.1.3` generated checkpoint output was produced
+- `Check` remains hidden for `1.1.2` and `1.1.3`
+- platform task-type expansion is required before L1.7B-Q2 can produce
+  readiness evidence for calculation or graph/table paragraphs
+- target-exercise and MTU review flags for `1.1.2` and `1.1.3` remain live
+
+### Platform Dependency GAME-UX-3: Exit Ticket Task-Type Expansion
+
+Completed: no. Status: ACTIVE NEXT DEPENDENCY BEFORE L1.7B-Q2.
+
+Position: after L1.7B-P23; before L1.7B-Q2 readiness implementation for
+calculation or graph/table paragraphs.
+
+Purpose:
+
+Implement reusable exit-ticket task types and validation so generated
+checkpoints can test target-exercise operation chains without weakening the
+exit-ticket specification.
+
+Required capabilities:
+
+- numeric input with tolerance and rounding policy
+- calculation/work capture
+- unit or notation input for percent/index/index-point distinctions
+- short constructed response with reviewed local answer model
+- table-value selection
+- graph reading with approximate/interpolated answers
+- graph construction or axis/point-placement checks
+
+Boundaries:
+
+This dependency does not authorize diagnostics, mastery decisions, automatic
+sequencing, grading or summative use, student-facing AI, PV projection, PV
+machine promotion, target-exercise promotion, CP-6 or Year 1 closure, Scale
+Gate 1, or broad companion scaling.
+
 ### Sprint L1.7B-Q2: Exit Ticket Target-Exercise Readiness Implementation
 
 Completed: no. Status: required before stronger check claims.
 
-Position: after L1.7B-MAP and preferably after L1.7C-MATH and L1.7B-P23;
-before GATE-L1.7B-Q2.
+Position: after L1.7B-MAP, L1.7C-MATH, L1.7B-P23, and platform task-type
+support; before GATE-L1.7B-Q2.
 
 Purpose:
 
@@ -3496,8 +3538,8 @@ Outputs:
 - Use the L1.5P print PDF as the current publisher-print baseline.
 - Use `specifications/product-end-state.md` as the north-star baseline for
   readiness, route, and completeness claims.
-- Proceed to L1.7B-P23 as the active foundation-hardening sprint, not broad
-  scaling.
+- Proceed to the platform task-type expansion handoff as the active
+  foundation-hardening dependency, not broad scaling.
 - Use the closed L1.7B-R and GATE-L1.7B records as input only for the current
   checkpoint product boundary. They do not prove target-exercise readiness.
 - Preserve the L1.7C-MATH closure: primary `Rekenen` is restored to the
@@ -3508,14 +3550,14 @@ Outputs:
   current `1.1.1` checkpoint is not target-exercise-readiness evidence, and
   `1.1.4` content/quality-ref flags remain future review work.
 - Use the L2.0 exit-ticket readiness checklist, GATE-L1.7B carried flags,
-  L1.7C-MATH closure flags, and L1.7B-MAP metadata contract as entry
-  conditions for L1.7B-P23.
+  L1.7C-MATH closure flags, L1.7B-MAP metadata contract, and L1.7B-P23
+  platform handoff as entry conditions for platform task-type expansion.
 - Keep L1.5Q/v5 as the active curriculum-source baseline, but do not treat
   migrated target exercises as final-reviewed.
 - Continue companion controlled-scope work only where it supports the L1.7A
   decision, the closed L1.7B-C/L1.7C-0/L1.7C/L1.7D/L2.0/L1.7B-R/GATE-L1.7B/
-  L1.7C-MATH/L1.7B-MAP foundation, and the open
-  L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2/REV-STD-1 correction sequence, or does not
+  L1.7C-MATH/L1.7B-MAP/L1.7B-P23 foundation, and the open platform
+  task-type/L1.7B-Q2/GATE-L1.7B-Q2/REV-STD-1 correction sequence, or does not
   conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
 - Keep Book 2 Part A planning paused behind L1.5Q if it depends on the new
@@ -3528,10 +3570,10 @@ Outputs:
   closure, L2.0 house-style closure, L1.7B-R/GATE-L1.7B checkpoint-boundary
   closure, L1.7C-MATH math-route restoration, and L1.7B-MAP metadata alignment
   closure as the baseline. L1.7B-R and GATE-L1.7B have closed only a
-  non-summative checkpoint boundary; L1.7B-MAP fixed metadata only. Complete
-  L1.7B-P23/L1.7B-Q2/GATE-L1.7B-Q2/REV-STD-1 or explicitly waive each blocker
-  with stated consequences before Scale Gate 1 if companion scaling is still
-  desired.
+  non-summative checkpoint boundary; L1.7B-MAP fixed metadata only; L1.7B-P23
+  accepted a stop/handoff. Complete platform task-type support,
+  L1.7B-Q2/GATE-L1.7B-Q2/REV-STD-1 or explicitly waive each blocker with stated
+  consequences before Scale Gate 1 if companion scaling is still desired.
 - Keep `course_blueprint_v5.md` and the target-exercise source-of-truth path as
   the active baseline before Book 2 production.
 - `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.
@@ -3541,9 +3583,10 @@ Outputs:
   companion dual-coding failure, and L1.7A decided that the evidence supports
   controlled foundation hardening only, not broad scaling.
 - L1.7B-C through GATE-L1.7B closed the checkpoint product boundary only.
-  L1.7B-MAP has fixed metadata alignment only. Before scaling, L1.7B-P23
-  through GATE-L1.7B-Q2 must restore exit tickets to target-exercise-readiness
-  evidence or explicitly limit them to checkpoint
+  L1.7B-MAP has fixed metadata alignment only. L1.7B-P23 accepted the
+  stop/handoff and requires platform task-type support. Before scaling,
+  L1.7B-Q2 through GATE-L1.7B-Q2 must restore exit tickets to
+  target-exercise-readiness evidence or explicitly limit them to checkpoint
   status; keep `Check` hidden until reviewed output exists, preserve the shared
   skill-map engine contract, keep the L1.7C-MATH restored primary math route
   intact, harden review standards through REV-STD-1, classify game-row carried
