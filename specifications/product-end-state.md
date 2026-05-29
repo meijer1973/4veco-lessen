@@ -1,6 +1,6 @@
 # Product End-State Specification
 
-Date: 2026-05-26
+Date: 2026-05-29
 Status: CANONICAL PRODUCT NORTH STAR; CHANGE ONLY BY EXPLICIT REVIEW
 
 ## Purpose
@@ -15,6 +15,16 @@ records may choose a smaller implementation scope, but they must not present a
 smaller scope as the full product unless the missing work is assigned to a
 named follow-up sprint or explicitly waived by human decision with stated
 consequences.
+
+## Change Notes
+
+- 2026-05-29: added the shared operational UI requirement after the
+  engine-operationalization roadmap report. Affected surface: shared skill-map
+  route, task-type shell, practice games, exit-ticket/checkpoint interaction,
+  and Scale Gate proof. Approval route: SYNC-4 roadmap/specification update at
+  human request. Consequence: future engine work must prove student-visible
+  route and task interaction quality, not only contracts, routing, or runtime
+  architecture.
 
 ## End-State Sentence
 
@@ -37,6 +47,38 @@ annexes, figures, tables, graphs, correction model, point allocation,
 answer-construction requirements, concepts, calculations, graph/table/source
 operations, reasoning steps, and MTU/lesson implications into the paragraph
 plan and generated student route.
+
+## Shared Operational UI
+
+The student route must be visible as one operational interface, not as separate
+engines that only share data behind the scenes.
+
+At full maturity, companion interaction is organized around:
+
+- a shared skill-map / route layer that shows the relevant skill subset,
+  current paragraph target, recommended next skill, local practice progress,
+  and next practice link without exposing internal MTU or operation codes;
+- a shared task-type shell that provides common interaction patterns,
+  validation hooks, neutral feedback, retry/self-check behavior, keyboard/focus
+  behavior, screenshot-QA expectations, and product-boundary language;
+- practice engines for reasoning, math/calculation, graph/table work, and
+  checkpoint/readiness composition that consume the route layer and reuse the
+  task shell where the interaction type overlaps.
+
+The shared task-type shell must support, at minimum, numeric input,
+calculation/work capture, final-answer entry, unit/notation fields, short
+constructed response, table-value selection, graph reading, point placement or
+graph-construction substitute, and neutral feedback/retry/self-check states.
+
+The task shell is not an exit-ticket-only feature. It is the common interaction
+foundation for graph/table practice, math/calculation practice, and readiness
+checkpoints. Reasoning practice may use the same shell where constructed
+response, structured reasoning, feedback, or self-check behavior overlaps.
+
+Engine architecture is product progress only when a student can see the route,
+practise the right task through the right interaction, receive useful local
+feedback, and understand what to do next. Architecture-only proof is not enough
+for Scale Gate or controlled engine scaling.
 
 ## Student Route
 
@@ -62,6 +104,12 @@ practice, graph/table practice, basis/midden/verrijking, or mixed practice.
 `Stappenplan` is procedure support. It must not silently replace the primary
 math skill-tree practice route where that route is scoped to the paragraph.
 
+Practice engines must make the relevant skill route visible enough for the
+student to understand which skill they are practising, why the current game or
+task fits the paragraph target, and what next action is useful. A shared
+task-type UI should be reused when graph/table, calculation, constructed
+response, or checkpoint tasks ask students to perform the same kind of action.
+
 ### Check
 
 The exit ticket is not merely a short quiz. Its product purpose is to check
@@ -74,6 +122,10 @@ answer forms that match the skill type, and give neutral next-step feedback.
 Completion language may only become target-exercise-readiness language after a
 reviewed readiness standard proves that coverage. Until then, checkpoint copy
 must stay non-summative and local.
+
+The checkpoint should consume the shared task-type shell rather than inventing
+separate interaction rules for calculation, graph/table, unit/notation, or
+short-response tasks.
 
 ### Verdiep
 
@@ -138,6 +190,14 @@ Generated lesson output may not be hand-patched to satisfy a sprint. If a
 student-facing output needs to change because of production logic, change the
 platform source or handoff the platform work.
 
+### 7. Operational UI proof before engine scaling
+
+Shared contracts, route engines, generators, and task shells must be judged by
+student-visible behavior. Before engine scaling, review evidence must show what
+the student sees on the landing page, which route opens, which skill subset is
+visible, what task is played, what feedback appears, and whether the route
+helps the student move toward the paragraph target exercise.
+
 ## Paragraph End-State Completeness
 
 A paragraph is not end-state complete merely because files exist. It is
@@ -160,6 +220,10 @@ complete when all of the following are true:
   taught;
 - the landing page exposes a coherent route:
   `Start -> Leer -> Oefen -> Check -> Verdiep`;
+- practice and checkpoint surfaces show the relevant skill route, current task
+  purpose, useful feedback, and next action without internal codes;
+- graph/table, calculation, constructed-response, and checkpoint interactions
+  use the shared task-type shell where the same action is being asked;
 - review gates pass for economics correctness, learning quality, student
   affordance, visual quality, source-output parity, and product-boundary
   claims.
@@ -196,6 +260,14 @@ specification:
 - `L1.7B-P23`
 - `L1.7B-Q2`
 - `GATE-L1.7B-Q2`
+- `GAME-UX-3A`
+- `ENGINE-OP-1`
+- `SKILLMAP-OP-1`
+- `GRAPH-UX-2`
+- `MATH-UX-2`
+- `REASON-UX-2`
+- `GAME-ARCH-1`
+- `GATE-ENGINE-1`
 - `REV-STD-1`
 - `Scale Gate 1`
 - `L-EX0`
@@ -207,5 +279,6 @@ specification:
 |---|---:|---|---|
 | Product end-state was distributed across repository maps, agent prompts, roadmap entries, and sprint plans instead of stated once. | medium-high | platform specs / roadmap / agent prompts | Keep this canonical file linked from lesson and platform operating docs. |
 | Exit-ticket semantics are not yet fully target-exercise-readiness evidence. | high | companion / exit ticket / roadmap | Complete metadata alignment and Q2 readiness work before using readiness language broadly. |
+| Shared engine architecture exists before enough student-visible operational proof. | high | game row / skill map / task UI / checkpoint | Run `ENGINE-OP-1`, then implement shared task shell and route visibility work before controlled engine scaling. |
 | Exam ingestion end state exists conceptually but not as a full ingestion object. | medium-high | platform references / exam ingestion | Keep `L-EX0` and `L-EX1` as product-infrastructure work, not just content work. |
 | Companion controlled-scope status can be confused with product completeness. | medium | lesson roadmap / reviews | Keep explicit distinction between published paragraph complete, companion controlled-scope complete, target-readiness complete, and scale-ready. |

@@ -1,6 +1,6 @@
 # Companion Core Specifications
 
-Date: 2026-05-26
+Date: 2026-05-29
 Status: BASELINE SPECIFICATION; CHANGE ONLY BY EXPLICIT REVIEW
 
 ## Purpose
@@ -55,6 +55,13 @@ specification unless the missing work is assigned to a named follow-up sprint.
   companion closure evidence. Approval route: QUALITY-STD-1 governance
   hardening. Consequence: future non-trivial plans must prove how the
   specification is fulfilled, not merely show that files exist or tests pass.
+- 2026-05-29: added the shared task-type shell as a companion product
+  requirement after the engine-operationalization roadmap report. Affected
+  surface: exit tickets, graph/table practice, math/calculation practice,
+  reasoning tasks where constructed response or feedback overlaps, and Scale
+  Gate proof. Approval route: SYNC-4 roadmap/specification update at human
+  request. Consequence: future task-type work must be reusable across
+  checkpoint and practice engines, not exit-ticket-only.
 
 ## Global Product Rules
 
@@ -70,6 +77,9 @@ specification unless the missing work is assigned to a named follow-up sprint.
 - Generated lesson output may not be hand-patched to satisfy a sprint.
 - Reusable UI, runtime, generator, and validation work belongs in the platform
   repository: `C:\Projects\4veco\4veco-platform`.
+- Shared task-type UI belongs in the platform runtime/generator layer and must
+  be reused across checkpoint, graph/table, and math/calculation surfaces when
+  they ask the same student action.
 - Student-facing copy may not imply diagnostics, mastery, grading, automatic
   sequencing, summative use, student-facing AI, PV projection, PV machine
   promotion, CP-6 closure, Year-1 closure, or broad scaling unless a later
@@ -159,6 +169,8 @@ Non-negotiable requirements:
   `Stappenplan`, or `Extra steun`.
 - `Redeneren`, `Rekenen`, and `Grafieken` expose or consume the shared
   skill-map/route language.
+- Graph/table, calculation, and checkpoint tasks use the shared task-type shell
+  where the interaction type overlaps.
 - Each game requests the correct aspect scope.
 - The student default is not an overloaded full catalog.
 - Student-facing route text uses readable labels, not internal skill IDs.
@@ -179,6 +191,52 @@ Required behavior:
 - expose student-facing labels rather than internal codes;
 - preserve keyboard, mobile, and light/dark usability expectations.
 
+## Shared Task-Type Shell Specification
+
+The shared task-type shell is the common interaction layer for student tasks
+that require the same kind of action, regardless of whether the task appears in
+an exit ticket, graph/table game, math/calculation game, or reasoning practice.
+
+Required task families:
+
+- numeric input;
+- calculation/work capture;
+- final-answer entry;
+- unit or notation field;
+- short constructed response;
+- table-value selection;
+- graph reading;
+- point placement or graph-construction substitute;
+- structured reasoning or short explanation where the task benefits from the
+  same feedback/self-check behavior.
+
+Required behavior:
+
+- neutral feedback and retry/self-check states;
+- no mastery, grade, pass/fail, diagnostic, adaptive, sequencing, summative,
+  AI, PV, or promotion claims;
+- visible task purpose connected to the current paragraph route;
+- route/skill labels in student language, not internal MTU or operation codes;
+- keyboard/focus and mobile behavior suitable for student use;
+- light/dark rendering that does not hide graph/table information;
+- screenshot and interaction QA requirements for every new task family before
+  Scale Gate reliance;
+- validation hooks that can later connect to target-exercise operation chains
+  without forcing all tasks into choice form.
+
+The shell may be implemented incrementally, but each accepted task family must
+be strong enough for its own student-facing use. A task family that exists only
+as a data contract, generator route, or unreviewed UI is not product-complete.
+
+The shell should become the foundation for:
+
+- exit-ticket/readiness checkpoint tasks;
+- graph/table operations such as table lookup, graph reading, axis convention,
+  interpolation, and point placement;
+- math/calculation operations such as formula substitution, work capture,
+  final answer, percentage/index notation, and units;
+- reasoning tasks when structured short response and feedback are needed.
+
 ## Exit-Ticket Specification
 
 The exit ticket is not merely a short quiz. Its product purpose is to check
@@ -194,6 +252,9 @@ Non-negotiable requirements:
   graph/table, unit, percentage/index, and reasoning skills may require input
   fields, graph/table interactions, or short constructed responses; they may
   not be forced into MC-only form unless the target exercise is MC-like.
+- It consumes the shared task-type shell for calculation, graph/table,
+  unit/notation, and short-response interactions instead of defining separate
+  one-off interaction rules.
 - Its metadata route is valid or mapped across paragraph skills, MTU/procedure
   units where relevant, target-exercise operations, and practice suggestions.
 - Its metadata explicitly distinguishes:
