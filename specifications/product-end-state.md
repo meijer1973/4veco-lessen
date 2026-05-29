@@ -25,11 +25,19 @@ consequences.
   human request. Consequence: future engine work must prove student-visible
   route and task interaction quality, not only contracts, routing, or runtime
   architecture.
+- 2026-05-29: corrected exit-ticket semantics from readiness-to-try to
+  target-equivalent proof and strengthened exam-ingestion end-product
+  integration. Affected surface: exit ticket, completion language, shared
+  task-type shell, official-exam target paragraphs, answer models, and Scale
+  Gate proof. Approval route: SPEC-ET-1 specification correction at human
+  request. Consequence: future exit-ticket work must prove same-level
+  operation-chain and answer-form coverage before local paragraph-completion
+  language is allowed.
 
 ## End-State Sentence
 
 For every paragraph, 4veco gives the student a visible route from current
-readiness to target-exercise readiness.
+readiness to local target-equivalent proof for the paragraph target exercise.
 
 ## Product Definition
 
@@ -38,8 +46,9 @@ system in which every paragraph is built backward from the paragraph target
 exercise. The student-facing product is not a textbook plus loose companion
 games. It is a coherent learning route: the student starts by finding out what
 they already can do, receives the explanation and practice route needed to
-close the gap, and ends with a check that determines whether they are ready to
-attempt the paragraph target exercise.
+close the gap, and ends with a target-equivalent proof task that checks whether
+they can complete the paragraph target-exercise operation chain at the same
+cognitive level with matching answer forms.
 
 At full maturity, the strongest target exercises are official CvTE-style or
 CvTE-derived tasks. Official exam-target paragraphs must trace prompt, source
@@ -47,6 +56,31 @@ annexes, figures, tables, graphs, correction model, point allocation,
 answer-construction requirements, concepts, calculations, graph/table/source
 operations, reasoning steps, and MTU/lesson implications into the paragraph
 plan and generated student route.
+
+## Exam-Ingestion End State
+
+At full maturity, official CvTE questions and CvTE-derived questions are not
+merely reference data. They are one of the strongest sources for paragraph
+target exercises and target-equivalent exit tickets.
+
+For an exam-target paragraph, the student route must trace the official
+prompt, source annexes, figures/tables/graphs, correction model, point
+allocation, answer-construction requirements, concepts, calculations,
+graph/table/source operations, reasoning operations, and answer-writing
+requirements into:
+
+- the paragraph plan;
+- the explanation;
+- the practice route;
+- the skill-map route;
+- the shared task-type UI;
+- the exit ticket;
+- the answer model;
+- review gates.
+
+The exit ticket for an exam-target paragraph must be target-equivalent to the
+exam-style target exercise and must check the operation and answer-form chain
+required by the official correction model.
 
 ## Shared Operational UI
 
@@ -62,8 +96,8 @@ At full maturity, companion interaction is organized around:
   validation hooks, neutral feedback, retry/self-check behavior, keyboard/focus
   behavior, screenshot-QA expectations, and product-boundary language;
 - practice engines for reasoning, math/calculation, graph/table work, and
-  checkpoint/readiness composition that consume the route layer and reuse the
-  task shell where the interaction type overlaps.
+  target-equivalent checkpoint composition that consume the route layer and
+  reuse the task shell where the interaction type overlaps.
 
 The shared task-type shell must support, at minimum, numeric input,
 calculation/work capture, final-answer entry, unit/notation fields, short
@@ -71,9 +105,10 @@ constructed response, table-value selection, graph reading, point placement or
 graph-construction substitute, and neutral feedback/retry/self-check states.
 
 The task shell is not an exit-ticket-only feature. It is the common interaction
-foundation for graph/table practice, math/calculation practice, and readiness
-checkpoints. Reasoning practice may use the same shell where constructed
-response, structured reasoning, feedback, or self-check behavior overlaps.
+foundation for graph/table practice, math/calculation practice,
+target-equivalent exit tickets, and checkpoint-only local checks. Reasoning
+practice may use the same shell where constructed response, structured
+reasoning, feedback, or self-check behavior overlaps.
 
 Engine architecture is product progress only when a student can see the route,
 practise the right task through the right interaction, receive useful local
@@ -113,15 +148,25 @@ response, or checkpoint tasks ask students to perform the same kind of action.
 ### Check
 
 The exit ticket is not merely a short quiz. Its product purpose is to check
-whether the student is ready to try the paragraph target exercise.
+the same target-exercise operation chain at the same cognitive level, using
+answer forms that match the paragraph target exercise. It is the paragraph
+target-equivalent proof task.
+
+If the student completes the exit ticket correctly, the product may say that
+the student has demonstrated they can complete the paragraph target exercise or
+can now proceed to the paragraph target exercise. This is a local
+non-summative paragraph-completion claim, not a grade, diagnostic
+classification, adaptive-routing decision, automatic sequencing decision, or
+long-term mastery claim.
 
 That means it must cover the paragraph target skills, decompose the target
-exercise into operations, test the operation chain at an appropriate level, use
-answer forms that match the skill type, and give neutral next-step feedback.
+exercise into operations, test the complete reviewed operation chain at the
+same level, use answer forms that match the target exercise, and give neutral
+next-step feedback.
 
-Completion language may only become target-exercise-readiness language after a
-reviewed readiness standard proves that coverage. Until then, checkpoint copy
-must stay non-summative and local.
+Completion language may only become target-equivalent paragraph-completion
+language after a reviewed proof standard establishes that coverage. Until then,
+checkpoint copy must stay non-summative and local.
 
 The checkpoint should consume the shared task-type shell rather than inventing
 separate interaction rules for calculation, graph/table, unit/notation, or
@@ -211,8 +256,8 @@ complete when all of the following are true:
   exercise;
 - the practice layer gives differentiated routes for weaker, typical, and
   stronger students;
-- the exit ticket checks readiness for the target exercise, not just recall of
-  isolated facts;
+- the exit ticket is a target-equivalent proof task for the target exercise,
+  not just recall of isolated facts;
 - every answer-model operation in the target exercise is covered somewhere in
   the route as taught, practised, scaffolded, prior knowledge, or explicitly
   out of scope;
@@ -236,9 +281,10 @@ These labels must stay distinct:
   exists and passes its applicable validators and reviews.
 - **Companion controlled-scope complete:** a bounded companion or game surface
   is accepted for controlled paragraph-limited use.
-- **Target-exercise-readiness complete:** the route and exit ticket cover the
-  target exercise operation chain well enough to say the student is ready to
-  try the target exercise.
+- **Target-equivalent proof complete:** the route and exit ticket cover the
+  target exercise operation and answer-form chain at the same cognitive level
+  well enough to say the student has locally demonstrated that they can do the
+  paragraph target exercise.
 - **Scale-ready:** the product, metadata, review gates, rendered evidence, and
   boundary language are strong enough for broader controlled production.
 
@@ -258,6 +304,8 @@ specification:
 
 - `L1.7B-MAP`
 - `L1.7B-P23`
+- `SPEC-ET-1`
+- `EX-LESSON-1`
 - `L1.7B-Q2`
 - `GATE-L1.7B-Q2`
 - `GAME-UX-3A`
@@ -278,7 +326,7 @@ specification:
 | Issue | Severity | Surface | Next action |
 |---|---:|---|---|
 | Product end-state was distributed across repository maps, agent prompts, roadmap entries, and sprint plans instead of stated once. | medium-high | platform specs / roadmap / agent prompts | Keep this canonical file linked from lesson and platform operating docs. |
-| Exit-ticket semantics are not yet fully target-exercise-readiness evidence. | high | companion / exit ticket / roadmap | Complete metadata alignment and Q2 readiness work before using readiness language broadly. |
+| Exit-ticket target-equivalent proof is specified but not yet implemented in generated output. | high | companion / exit ticket / roadmap | Complete GAME-UX-3A, engine operational proof, Q2 target-equivalent implementation, and GATE-L1.7B-Q2 before using local paragraph-completion language broadly. |
 | Shared engine architecture exists before enough student-visible operational proof. | high | game row / skill map / task UI / checkpoint | Run `ENGINE-OP-1`, then implement shared task shell and route visibility work before controlled engine scaling. |
-| Exam ingestion end state exists conceptually but not as a full ingestion object. | medium-high | platform references / exam ingestion | Keep `L-EX0` and `L-EX1` as product-infrastructure work, not just content work. |
-| Companion controlled-scope status can be confused with product completeness. | medium | lesson roadmap / reviews | Keep explicit distinction between published paragraph complete, companion controlled-scope complete, target-readiness complete, and scale-ready. |
+| Exam ingestion end state exists conceptually but not yet as a fully student-routed implementation path. | medium-high | platform references / exam ingestion / lesson route | Run `EX-LESSON-1`, then keep `L-EX0` and `L-EX1` as product-infrastructure work, not just content work. |
+| Companion controlled-scope status can be confused with product completeness. | medium | lesson roadmap / reviews | Keep explicit distinction between published paragraph complete, companion controlled-scope complete, target-equivalent proof complete, and scale-ready. |

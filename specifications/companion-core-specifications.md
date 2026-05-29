@@ -62,13 +62,21 @@ specification unless the missing work is assigned to a named follow-up sprint.
   Gate proof. Approval route: SYNC-4 roadmap/specification update at human
   request. Consequence: future task-type work must be reusable across
   checkpoint and practice engines, not exit-ticket-only.
+- 2026-05-29: corrected exit-ticket semantics from readiness-to-try to
+  target-equivalent proof. Affected surface: exit-ticket purpose, completion
+  language, shared task-type shell, Q2 review standard, and Scale Gate proof.
+  Approval route: SPEC-ET-1 specification correction at human request.
+  Consequence: target-equivalent completion language is allowed only after a
+  reviewed same-level operation-chain and answer-form proof; checkpoint-only
+  surfaces keep local check-completion copy.
 
 ## Global Product Rules
 
 - A good product is the default sprint outcome.
 - Product work must preserve the end-state route from current readiness to
-  target-exercise readiness. A sprint may produce a smaller controlled step,
-  but missing end-state work must be named and routed to a follow-up sprint.
+  local target-equivalent proof for the paragraph target exercise. A sprint may
+  produce a smaller controlled step, but missing end-state work must be named
+  and routed to a follow-up sprint.
 - Sprint close-out communication must state the next step if work simply
   continues. If there is no safe next step, the close-out must say what human
   decision or missing evidence is blocking continuation.
@@ -195,7 +203,8 @@ Required behavior:
 
 The shared task-type shell is the common interaction layer for student tasks
 that require the same kind of action, regardless of whether the task appears in
-an exit ticket, graph/table game, math/calculation game, or reasoning practice.
+a target-equivalent exit ticket, checkpoint-only local check, graph/table game,
+math/calculation game, or reasoning practice.
 
 Required task families:
 
@@ -230,7 +239,7 @@ as a data contract, generator route, or unreviewed UI is not product-complete.
 
 The shell should become the foundation for:
 
-- exit-ticket/readiness checkpoint tasks;
+- target-equivalent exit-ticket tasks and checkpoint-only local checks;
 - graph/table operations such as table lookup, graph reading, axis convention,
   interpolation, and point placement;
 - math/calculation operations such as formula substitution, work capture,
@@ -240,14 +249,17 @@ The shell should become the foundation for:
 ## Exit-Ticket Specification
 
 The exit ticket is not merely a short quiz. Its product purpose is to check
-whether the student is ready to try the paragraph target exercise.
+the same target-exercise operation chain at the same cognitive level, using
+answer forms that match the paragraph target exercise. It is the paragraph
+target-equivalent proof task.
 
 Non-negotiable requirements:
 
 - It covers the paragraph target skills.
 - It aligns with the paragraph plan and target exercise.
 - It decomposes the paragraph target exercise into operations and checks the
-  operation chain at an appropriate level.
+  complete reviewed operation chain at the same cognitive level.
+- It uses answer forms that match the paragraph target exercise.
 - It uses task types that match the skill being checked. Calculation,
   graph/table, unit, percentage/index, and reasoning skills may require input
   fields, graph/table interactions, or short constructed responses; they may
@@ -259,13 +271,14 @@ Non-negotiable requirements:
   units where relevant, target-exercise operations, and practice suggestions.
 - Its metadata explicitly distinguishes:
   - checkpoint-assessed paragraph skills: what the tasks actually check;
-  - target-exercise required skills/operations: what must be covered before
-    readiness can be claimed;
+  - target-exercise required skills/operations: what must be covered before a
+    target-equivalent proof claim can be made;
   - skill-map display/request scope where the shared route layer uses a
     narrower supported namespace;
-  - a target-readiness evidence flag or status.
-- A checkpoint may not set or imply target-exercise-readiness evidence unless
-  its tasks cover the complete reviewed target-exercise operation chain.
+  - a target-equivalent proof evidence flag or status.
+- A checkpoint may not set or imply target-equivalent proof evidence unless its
+  tasks cover the complete reviewed target-exercise operation and answer-form
+  chain at the same level.
 - Internal IDs are not visible to students.
 - Feedback is local, neutral, and non-summative.
 - `Check` appears on a paragraph landing page only after reviewed generated
@@ -273,17 +286,25 @@ Non-negotiable requirements:
 
 Allowed completion language depends on evidence:
 
-- Checkpoint-only output may say: `Je hebt deze check afgerond.`
-- Q2-approved target-exercise-readiness output may say:
-  `Je bent klaar om de eindopgave te proberen.`
+- Checkpoint-only output may say:
+  - `Je hebt deze check afgerond.`
+- Target-equivalent exit-ticket output approved by `GATE-L1.7B-Q2` may say:
+  - `Je hebt laten zien dat je de eindopgave van deze paragraaf aankunt.`
+  - `Je kunt nu door naar de eindopgave.`
+  - `Je hebt deze paragraaf-check succesvol afgerond.`
 
 Prohibited language unless a later explicit gate authorizes it:
 
 - `Je beheerst deze paragraaf.`
 - `Je mag door naar de volgende paragraaf.`
-- `Je hebt bewezen dat je de eindopgave kunt.`
-- pass/fail, grade, diagnostic, mastery, automatic sequencing, summative, AI,
-  PV, CP-6, Year-1, or promotion claims.
+- grade or cijfer;
+- permanent mastery;
+- automatic sequencing across paragraphs;
+- adaptive diagnostic classification;
+- summative pass/fail;
+- AI decision;
+- PV projection or machine promotion;
+- CP-6, Year-1, or broad-scaling claims.
 
 ## Landing-Route Specification
 
