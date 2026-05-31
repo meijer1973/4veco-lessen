@@ -39,8 +39,8 @@ GATE-MTU-H4 (closed PASS WITH CONDITIONS for routing only)
 -> LEAD-REVIEW-2 (closed strict validation hardening)
 -> GRAPH-UX-2 (closed graph/task-shell integration)
 -> MATH-UX-2 (closed math/task-shell integration)
--> REASON-UX-2 (active next)
--> GAME-ARCH-1
+-> REASON-UX-2 (closed reasoning/task-shell integration)
+-> GAME-ARCH-1 (active next)
 -> GATE-ENGINE-1
 -> L1.7B-Q2
 -> GATE-L1.7B-Q2
@@ -57,16 +57,16 @@ interface, receive useful neutral feedback, and understand the next action.
 | GRAPH-UX-2 | Graph Game + Checkpoint UI Integration | **2026-05-31** | **CLOSED LIVE GRAPH/TABLE TASK-SHELL INTEGRATION / GENERATED OUTPUT THROUGH PLATFORM DEPLOY ONLY.** Platform integrated the GAME-UX-3A shared task shell into the generated Book 1 `1.1.3` graph route. The route now covers table-value selection, graph reading, economic axis convention, interpolation, point placement, graph-construction substitute, calculation/work capture, and a less-labelled graph variant, with the route panel visible before task controls on mobile. Checkpoint-style graph tasks are proven by a non-published fixture using `ExitTicketEngine`/`ExitTicketUI` with `targetReadinessEvidence: false`; no `1.1.3` exit-ticket source or page was created. This closes graph/table UI integration only; it authorizes no target-equivalent completion language, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or student/product use. Records: `archive/sprints/GRAPH-UX-2/`. |
 | SKILLMAP-OP-1 | Student-Visible Skill-Map Route | **2026-05-31** | **CLOSED LIVE ROUTE-VISIBILITY SPRINT / GENERATED OUTPUT THROUGH PLATFORM DEPLOY ONLY.** Platform added a route-display catalog, per-surface route scopes for Book 1 `1.1.1`, `1.1.2`, and `1.1.3`, shared route panels in reasoning, graph/table, procedure support, and math/calculation surfaces, and desktop/mobile screenshot proof. Students now see paragraph target, recommended focus, local progress, and practice action without internal MTU codes. This closes route visibility only; it authorizes no target-equivalent completion language, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or student/product use. Records: `archive/sprints/SKILLMAP-OP-1/`. |
 | ENGINE-OP-1 | Four-Engine Operational Proof Audit | **2026-05-31** | **CLOSED AUDIT / PASS WITH FLAGS FOR EVIDENCE ONLY.** Platform produced screenshots, a screenshot manifest, student-path trace, and operational audit for `1.1.1`, `1.1.2`, and `1.1.3` without mutating generated lesson output or protected references. Findings: `1.1.3` graph practice is the strongest current operational route and gives neutral source/value/calculation feedback; `1.1.2` math practice is restored and scoped; `1.1.1` check remains a local short check only; generated output does not yet use the GAME-UX-3A shared task shell; `1.1.2` and `1.1.3` have no target-equivalent checkpoint route; and shared skill-map route panels are empty or mis-scoped in several places. Records: `archive/sprints/ENGINE-OP-1/`. |
-| GAME-UX-3A | Shared Task-Type UX Foundation | **2026-05-30** | **CLOSED PLATFORM RUNTIME FOUNDATION / NO GENERATED LESSON OUTPUT.** Platform added a shared task-shell engine, static UI renderer, CSS, exit-ticket shell load hooks, deploy copy support, focused tests, fixtures, and closure records. Supported task families now include numeric input, calculation/work capture, final-answer entry, unit/notation field, short constructed response, table-value selection, graph reading, point placement, graph-construction substitute, and structured reasoning. The shell preserves neutral feedback, retry/self-check states, keyboard/focus hooks, and no mastery, diagnostic, sequencing, summative, AI, PV, or product-use claims. ENGINE-OP-1 has since proved that generated output did not yet use the shell; GRAPH-UX-2 and MATH-UX-2 have since integrated it into live graph/table and math/calculation routes. REASON-UX-2, `L1.7B-Q2`, and `GATE-L1.7B-Q2` still must prove remaining live student-route quality and target-equivalent checkpoint status. Records: `archive/sprints/GAME-UX-3A/`. |
+| GAME-UX-3A | Shared Task-Type UX Foundation | **2026-05-30** | **CLOSED PLATFORM RUNTIME FOUNDATION / NO GENERATED LESSON OUTPUT.** Platform added a shared task-shell engine, static UI renderer, CSS, exit-ticket shell load hooks, deploy copy support, focused tests, fixtures, and closure records. Supported task families now include numeric input, calculation/work capture, final-answer entry, unit/notation field, short constructed response, table-value selection, graph reading, point placement, graph-construction substitute, and structured reasoning. The shell preserves neutral feedback, retry/self-check states, keyboard/focus hooks, and no mastery, diagnostic, sequencing, summative, AI, PV, or product-use claims. ENGINE-OP-1 proved that generated output did not yet use the shell; GRAPH-UX-2, MATH-UX-2, and REASON-UX-2 have since integrated it into live graph/table, math/calculation, and reasoning routes. `L1.7B-Q2` and `GATE-L1.7B-Q2` still own target-equivalent checkpoint status. Records: `archive/sprints/GAME-UX-3A/`. |
 | EX-LESSON-1 | Exam-Ingestion End-State Integration | **2026-05-30** | **CLOSED HANDOFF / NO GENERATED OUTPUT.** Updated paragraph-plan requirements, paragraph-build guidance, companion/textbook authoring guidance, and review prompts so official CvTE and CvTE-derived target exercises trace prompt, source annexes, graphs/tables/figures, correction model, point allocation, answer-construction requirements, concepts, calculations, graph/table/source operations, reasoning operations, and answer-writing requirements into the explanation, skill-map route, shared task shell, target-equivalent exit ticket, and answer model. Produced the platform EX-LESSON-1 exam-target route checklist. This closes the route-trace handoff only; it authorizes no generated output, protected reference mutation, target-exercise mutation, diagnostics, mastery, sequencing, summative use, PV, Scale Gate 1, or student/product use. Records: `archive/sprints/EX-LESSON-1/`. |
 | MTU-H4C | Answer-Form Bounded CLI Execution | **2026-05-30** | **CLOSED PLATFORM REFERENCE EXECUTION / NO LESSON OUTPUT.** Platform added `A80`, `A81`, and `A96`-`A99` through governed `unit-add.js` execution and rebuilt generator readiness. The new answer-form units remain generator-blocked/non-interactive until later generator implementation or no-exposure design authorizes use. No target-exercise `question_type`/`answer_form` fields, candidate storage, candidate writes, generated lesson output, diagnostics, mastery, sequencing, summative use, PV, Scale Gate 1, or student/product use were authorized. |
-| REASON-UX-2 | Reasoning Game Variant And Feedback Upgrade | no | **MAKE REDENEREN A REAL PRACTICE ENGINE.** Improve the reasoning game with richer causal/procedural variants, better replay value, short explanation or structured reasoning tasks, and feedback that explains reasoning errors. Align with answer-form MTUs and target-exercise operation chains where available. |
+| REASON-UX-2 | Reasoning Game Variant And Feedback Upgrade | **2026-05-31** | **CLOSED LIVE REASONING TASK-SHELL INTEGRATION / GENERATED OUTPUT THROUGH PLATFORM DEPLOY ONLY.** Platform added a sixth reasoning mode, `Redeneerantwoord opbouwen`, using the GAME-UX-3A `structured_reasoning` task shell. Existing reasoning modes now give richer repair feedback with example chains and selected-answer comparison, while mode 5 remains self-check-only and does not count as persistent `goed` progress. The sprint produced desktop/mobile light/dark screenshot proof, route-output checks, student-experience review, accessibility review, and a real lead-review cycle that caught and repaired a UI scoping regression. This closes reasoning UI integration only; it authorizes no target-equivalent completion language, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or student/product use. Records: `archive/sprints/REASON-UX-2/`. |
 | GAME-ARCH-1 | Practice Engine Build-vs-Rebuild Decision | no | **DECISION SPRINT AFTER ENGINE-OP-1.** Compare continuing refactor against rebuilding practice engines around one shared task shell and one shared skill-map route. Evaluate graph, math, reasoning, and checkpoint engines for duplicated UI, state drift, inaccessible skill-map behavior, internal-code leakage, weak feedback, and inability to support target-exercise operation chains. If refactor cost exceeds rebuild cost, authorize a fresh integrated practice-engine architecture through a later explicit plan. |
 | GATE-ENGINE-1 | Four-Engine Operational Integration Review | no | **HUMAN REVIEW GATE BEFORE ENGINE SCALE.** Review whether the shared skill-map, graph game, math game, reasoning game, and exit-ticket checkpoint operate as one coherent student-facing route. The gate must inspect live generated output and student-path traces, not only contracts. It must decide whether to continue refactoring, rebuild one or more engines from scratch through a later plan, allow controlled production, or pause for roadmap correction. |
 | L1.7B-Q2 | Exit Ticket Target-Equivalent Implementation | no | **BLOCKED PENDING ENGINE OPERATIONAL PROOF AND INTEGRATION / REQUIRED BEFORE TARGET-EQUIVALENT COMPLETION CLAIMS.** Upgrade one checkpoint into a target-equivalent proof task under `specifications/product-end-state.md`. It must be at the same cognitive level as the paragraph target exercise and cover the complete reviewed target-exercise operation and answer-form chain through task types that fit the operation chain. The output remains non-summative but should answer: "Has this student locally demonstrated that they can complete the paragraph target exercise?" Requires metadata alignment, answer-model alignment, GAME-UX-3A task support, teacher-learning-quality review, student-experience review, screenshot/interaction QA, and no generated-output hand patching. |
 | GATE-L1.7B-Q2 | Exit Ticket Target-Equivalent Proof Review | no | **REQUIRED BEFORE TARGET-EQUIVALENT COMPLETION COPY.** Decide whether successful completion justifies local paragraph-completion language such as `Je hebt laten zien dat je de eindopgave van deze paragraaf aankunt`, `Je kunt nu door naar de eindopgave`, or `Je hebt deze paragraaf-check succesvol afgerond`. Mastery, grade, automatic progression, sequencing, diagnostics, summative claims, PV, and AI language remain prohibited. |
 | REV-STD-1 | Core-Spec Review Standard Hardening | no | **REQUIRED BEFORE SCALE GATE 1.** Update review packets and lead-review rules so core specification failures cannot be carried as ordinary flags. Every review packet must include `specifications/product-end-state.md`, the original sprint specification, non-negotiable requirements, and a core-requirement checklist. PASS WITH FLAGS is allowed only for issues outside the sprint's core objective. Scope-language enforcement is handled by closed `SCOPE-LANG-1`; plan-level quality-standard enforcement is handled by closed `QUALITY-STD-1`; REV-STD-1 still owns the wider review-template and lead-review-rule hardening. |
-| Scale Gate 1 | Foundation Hardening Scale Gate | no | **BLOCKED.** `SPEC-ET-1`, `EX-LESSON-1`, `GAME-UX-3A`, `ENGINE-OP-1`, `SKILLMAP-OP-1`, `GRAPH-UX-2`, `MATH-UX-2`, `MTU-H4C`, `L1.7C-MATH`, `L1.7B-MAP`, and `L1.7B-P23` are closed, but Scale Gate 1 may not run until `REASON-UX-2`, `GAME-ARCH-1`, `GATE-ENGINE-1`, `L1.7B-Q2`, `GATE-L1.7B-Q2`, and `REV-STD-1` are closed or explicitly waived by human decision with stated consequences. Scale Gate 1 must use `specifications/product-end-state.md` as the north-star baseline and may not treat engine architecture, shared skill-map runtime, answer-form MTUs, exam-target route traces, task-shell runtime support, or exit-ticket output as scale or target-equivalent proof unless live student-route proof and Q2 target-equivalent evidence close. If target-equivalent status is waived, landing-page `Check` must be labelled as local practice check or checkpoint-only status, not paragraph-completion proof. Scale Gate 1 may authorize controlled production only, not adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
+| Scale Gate 1 | Foundation Hardening Scale Gate | no | **BLOCKED.** `SPEC-ET-1`, `EX-LESSON-1`, `GAME-UX-3A`, `ENGINE-OP-1`, `SKILLMAP-OP-1`, `GRAPH-UX-2`, `MATH-UX-2`, `REASON-UX-2`, `MTU-H4C`, `L1.7C-MATH`, `L1.7B-MAP`, and `L1.7B-P23` are closed, but Scale Gate 1 may not run until `GAME-ARCH-1`, `GATE-ENGINE-1`, `L1.7B-Q2`, `GATE-L1.7B-Q2`, and `REV-STD-1` are closed or explicitly waived by human decision with stated consequences. Scale Gate 1 must use `specifications/product-end-state.md` as the north-star baseline and may not treat engine architecture, shared skill-map runtime, answer-form MTUs, exam-target route traces, task-shell runtime support, or exit-ticket output as scale or target-equivalent proof unless live student-route proof and Q2 target-equivalent evidence close. If target-equivalent status is waived, landing-page `Check` must be labelled as local practice check or checkpoint-only status, not paragraph-completion proof. Scale Gate 1 may authorize controlled production only, not adaptive diagnostics, mastery/sequencing, student-facing AI, summative use, PV projection, or PV machine promotion. |
 | SPEC-ET-1 | Exit Ticket Target-Equivalent Specification Correction | **2026-05-29** | **CLOSED PASS / SPECIFICATION CORRECTION.** Updated `specifications/product-end-state.md` and `specifications/companion-core-specifications.md` so the exit ticket is defined as a target-equivalent proof task rather than merely readiness-to-try. Added local non-summative completion-language hierarchy, strengthened exam-ingestion end-product integration, revised `L1.7B-Q2`, `GATE-L1.7B-Q2`, `GAME-UX-3A`, and Scale Gate 1 wording, and preserved all blocks on grades, diagnostics, mastery, sequencing, summative use, AI, PV, Scale Gate 1, and student/product use. Records: `archive/sprints/SPEC-ET-1/`. |
 | MTU-H4A | Answer-Form CLI-Mutation Planning Packet | **2026-05-29** | **CLOSED PLATFORM SOURCE-PLANNING DEPENDENCY AFTER GATE-MTU-H4.** Prepared only a bounded answer-form planning packet: exact lane specs, held Type 4 / motiveer / classificatie lane, `bron` as source-use modifier plus underlying answer form, graph/draw/shade planning-only evidence condition, held analysis/evaluation, visible q3/q15 EX overlays, and future source/projection boundaries. This authorizes no mutation, candidate storage, candidate writes, target-exercise fields, projection refresh, lesson output, diagnostics, mastery, sequencing, summative use, PV, Scale Gate 1, or student/product use. Top operational next action is `GATE-MTU-H4A`. |
 | L1.7B-P23 | Exit Ticket Target-Skill Checkpoint Designs For 1.1.2 And 1.1.3 | **2026-05-28** | **CLOSED PASS WITH FLAGS / PLATFORM HANDOFF.** Human review accepted the stop/handoff decision. Operation-chain analysis showed that `1.1.2` requires calculation/work input, final numeric answer, percentage/index notation, and short explanation; `1.1.3` requires table/graph handling, axis convention, graph drawing or point-placement substitute, interpolation, and short explanation. No `1.1.2` or `1.1.3` exit-ticket output was generated because the current engine/UI is choice-only. `Check` remains hidden until reviewed generated checkpoint output exists. Carried flags: shared task-type shell support is required, L1.7B-Q2 cannot produce target-equivalent proof for calculation/graph paragraphs until task-type support exists, and target-exercise/MTU review flags remain live. Records: `archive/sprints/L1.7B-P23/`. |
@@ -293,7 +293,7 @@ closes runtime foundation only. ENGINE-OP-1 has since proved that current
 generated output does not yet use the shell; SKILLMAP-OP-1 has since made the
 shared route visible and scoped, GRAPH-UX-2 has integrated the shell into live
 graph/table output, and MATH-UX-2 has integrated the shell into live
-calculation/index output. REASON-UX-2 is now the next dependency before
+calculation/index output. GAME-ARCH-1 is now the next dependency before
 `GATE-ENGINE-1`, `L1.7B-Q2`, `GATE-L1.7B-Q2`, or Scale Gate 1 rely on the
 shared task shell and route system.
 
@@ -305,8 +305,7 @@ output does not yet use the GAME-UX-3A task shell, `1.1.2` and `1.1.3` still
 have no target-equivalent checkpoint route, and several shared skill-map route
 panels are empty or mis-scoped. SKILLMAP-OP-1 has since closed route-visibility
 proof, GRAPH-UX-2 has since closed graph/table task-shell integration, and
-MATH-UX-2 has since closed math/calculation task-shell integration. Active
-next sprint is REASON-UX-2. No target-equivalent completion
+MATH-UX-2 has since closed math/calculation task-shell integration. Active next sprint is GAME-ARCH-1. No target-equivalent completion
 claim, Scale Gate 1, diagnostics, adaptive routing, mastery/sequencing,
 summative use, AI, PV, or product use is authorized.
 
@@ -346,9 +345,8 @@ That means:
   L2.0, L1.7B-R, GATE-L1.7B, L1.7C-MATH, L1.7B-MAP, L1.7B-P23,
   reference-side GATE-MTU-H4 routing review, MTU-H4A through MTU-H4C,
   SPEC-ET-1, EX-LESSON-1, GAME-UX-3A, ENGINE-OP-1, SKILLMAP-OP-1,
-  GRAPH-UX-2, and MATH-UX-2.
-  Still-open blockers are REASON-UX-2,
-  GAME-ARCH-1, GATE-ENGINE-1, L1.7B-Q2,
+  GRAPH-UX-2, MATH-UX-2, and REASON-UX-2.
+  Still-open blockers are GAME-ARCH-1, GATE-ENGINE-1, L1.7B-Q2,
   GATE-L1.7B-Q2, REV-STD-1, REF-CT0/REF-CT1, and the later scale gate unless a
   human Scale Gate waiver explicitly accepts the consequences.
 - Companion production may continue only as controlled next-step production; it
@@ -3047,17 +3045,21 @@ student/product use.
 
 ### Sprint REASON-UX-2: Reasoning Game Variant And Feedback Upgrade
 
-Completed: no. Status: required before reasoning-game scale reliance.
+Completed: 2026-05-31. Status: closed reasoning task-shell integration proof;
+not scale or target-equivalent proof.
 
 Position: after ENGINE-OP-1 and answer-form MTU routing evidence; before
 GATE-ENGINE-1.
 
 Purpose:
 
-Make `Redeneren` a richer practice engine with more causal/procedural variants,
-replay value, structured explanation tasks, and feedback that explains
-reasoning errors. Align with answer-form MTUs and target-exercise operation
-chains where available.
+Made `Redeneren` a richer practice engine by adding a shared task-shell
+structured-reasoning self-check mode, preserving six dynamic modes, improving
+repair feedback in existing modes, and keeping self-check completion out of
+scored/persistent `goed` progress. Closure carries mobile feedback-density and
+terse source-label flags to later engine/content work. No target-equivalent
+completion, diagnostics, adaptive routing, mastery, summative use, PV, Scale
+Gate 1, or student/product use was authorized.
 
 ### Sprint GAME-ARCH-1: Practice Engine Build-vs-Rebuild Decision
 
@@ -3959,8 +3961,9 @@ Outputs:
   route panels empty or mis-scoped, generated task-shell use absent, and
   missing `1.1.2`/`1.1.3` target-equivalent checkpoint routes. `SKILLMAP-OP-1`
   has since closed route-visibility proof, `GRAPH-UX-2` has closed
-  graph/table task-shell integration, and `MATH-UX-2` has closed
-  math/calculation task-shell integration; `REASON-UX-2` is now the active
+  graph/table task-shell integration, `MATH-UX-2` has closed
+  math/calculation task-shell integration, and `REASON-UX-2` has closed
+  reasoning task-shell integration; `GAME-ARCH-1` is now the active
   operational dependency.
 - Use the closed L1.7B-R and GATE-L1.7B records as input only for the current
   checkpoint product boundary. They do not prove target-equivalent completion.
@@ -3984,7 +3987,7 @@ Outputs:
 - Continue companion controlled-scope work only where it supports the L1.7A
   decision, the closed L1.7B-C/L1.7C-0/L1.7C/L1.7D/L2.0/L1.7B-R/GATE-L1.7B/
   L1.7C-MATH/L1.7B-MAP/L1.7B-P23/SPEC-ET-1/EX-LESSON-1/GAME-UX-3A/ENGINE-OP-1/SKILLMAP-OP-1/GRAPH-UX-2/MATH-UX-2 foundation, and the open
-  REASON-UX-2/GAME-ARCH-1/GATE-ENGINE-1/L1.7B-Q2/
+  GAME-ARCH-1/GATE-ENGINE-1/L1.7B-Q2/
   GATE-L1.7B-Q2/REV-STD-1 correction
   sequence, or does not conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.

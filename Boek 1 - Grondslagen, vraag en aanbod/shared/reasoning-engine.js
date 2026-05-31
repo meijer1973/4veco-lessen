@@ -1,7 +1,7 @@
 // AUTO-COPIED FROM 4veco-platform/engines/ — DO NOT EDIT HERE
 /**
  * ReasoningEngine — Pure game logic for the Reasoning Game.
- * Supports 5 game modes and 3 content domains.
+ * Supports 6 game modes and 3 content domains.
  * No DOM references. Works in both browser (<script>) and Node.js (require).
  */
 (function (root, factory) {
@@ -67,6 +67,16 @@
         };
     }
 
+    function getTaskShellEngine() {
+        if (typeof globalThis !== 'undefined' && globalThis.TaskShellEngine) {
+            return globalThis.TaskShellEngine;
+        }
+        if (typeof require === 'function') {
+            try { return require('./task-shell-engine'); } catch (e) { return null; }
+        }
+        return null;
+    }
+
     // ── Domain configurations ───────────────────────────────────────
 
     var DOMAINS = {
@@ -109,7 +119,8 @@
         'Build Sub-Questions',
         'Find the Error',
         'Build Flow Diagram',
-        'Match Structures'
+        'Match Structures',
+        'Build Reasoning Answer'
     ];
 
     var MODE_NAMES_NL = [
@@ -117,7 +128,8 @@
         'Deelvragen opbouwen',
         'Vind de fout',
         'Stroomdiagram bouwen',
-        'Structuren matchen'
+        'Structuren matchen',
+        'Redeneerantwoord opbouwen'
     ];
 
     // ── CSV Parser ──────────────────────────────────────────────────
@@ -220,6 +232,39 @@
         };
     }
 
+    function buildStructuredReasoningTask(problem) {
+        var criteria = [
+            'Noem de beginsituatie of oorzaak.',
+            'Leg de economische tussenstap uit.',
+            'Sluit af met de conclusie in de context.'
+        ];
+        return {
+            id: 'reasoning-answer-' + problem.id,
+            family: 'structured_reasoning',
+            skillLabel: 'Redeneerantwoord opbouwen',
+            purpose: 'Schrijf de denkroute in woorden en vergelijk daarna met de zelfcheck.',
+            prompt: 'Schrijf een korte redenering bij de situatie hierboven.',
+            interaction: {
+                inputLabel: 'Jouw redenering',
+                placeholder: 'Oorzaak -> tussenstap -> conclusie'
+            },
+            expected: {
+                kind: 'self_check',
+                criteria: criteria
+            },
+            feedback: {
+                selfCheckTitle: 'Vergelijk je redenering',
+                selfCheckText: 'Loop oorzaak, tussenstap en conclusie rustig na.',
+                retryTitle: 'Schrijf eerst je redenering',
+                retryText: 'Noteer minimaal de oorzaak, een tussenstap en de conclusie.'
+            },
+            practiceRoute: {
+                label: 'Oefen verder met redeneren',
+                href: 'redeneer-spel.html'
+            }
+        };
+    }
+
     // ── Shuffle (Fisher-Yates) ──────────────────────────────────────
 
     function shuffle(arr) {
@@ -296,7 +341,7 @@
      * @returns {{ roundCount: number, modeName: string }}
      */
     ReasoningEngine.prototype.startGame = function (modeIndex) {
-        if (modeIndex < 0 || modeIndex > 4) throw new Error('Invalid mode: ' + modeIndex);
+        if (modeIndex < 0 || modeIndex >= MODE_NAMES.length) throw new Error('Invalid mode: ' + modeIndex);
 
         this._mode = modeIndex;
         this._score = 0;
@@ -341,6 +386,7 @@
             case 2: return this._presentFindError(problem);
             case 3: return this._presentFlowDiagram(problem);
             case 4: return this._presentMatchStructures();
+            case 5: return this._presentStructuredReasoning(problem);
             default: return null;
         }
     };
@@ -492,6 +538,36 @@
         };
     };
 
+    // Mode 5: Build Reasoning Answer
+    ReasoningEngine.prototype._presentStructuredReasoning = function (problem) {
+        var task = buildStructuredReasoningTask(problem);
+        var taskShell = getTaskShellEngine();
+        if (taskShell && typeof taskShell.validateTask === 'function') {
+            taskShell.validateTask(task);
+        }
+        return {
+            mode: 5,
+            modeName: MODE_NAMES_NL[5],
+            problemText: problem.text,
+            taskShellTask: task,
+            reasoningGuide: problem.steps.map(function (step) {
+                return {
+                    label: step.label,
+                    detail: step.detail,
+                    formula: step.formula
+                };
+            }),
+            flowGuide: problem.flowSlots.map(function (slot) {
+                return {
+                    type: slot.type,
+                    text: slot.text
+                };
+            }),
+            roundNumber: this._roundIdx + 1,
+            totalRounds: this._rounds.length
+        };
+    };
+
     // ── Answer checking ─────────────────────────────────────────────
 
     /**
@@ -510,16 +586,23 @@
             case 2: result = this._checkFindError(answer); break;
             case 3: result = this._checkFlowDiagram(answer); break;
             case 4: result = this._checkMatchStructures(answer); break;
+            case 5: result = this._checkStructuredReasoning(answer); break;
             default: result = { correct: false, feedback: {} };
         }
 
-        if (result.correct) this._score++;
+        if (result.correct && !result.selfCheckOnly) this._score++;
 
         var currentProblem = this.problems[this._rounds[this._roundIdx]];
-        this._roundResults.push({ structureType: currentProblem.structureType, correct: result.correct });
+        this._roundResults.push({
+            structureType: currentProblem.structureType,
+            correct: result.selfCheckOnly ? false : result.correct,
+            practiced: !!result.selfCheckOnly && !!result.completed
+        });
 
         return {
             correct: result.correct,
+            selfCheckOnly: !!result.selfCheckOnly,
+            completed: !!result.completed,
             score: this._score,
             totalRounds: this._rounds.length,
             feedback: result.feedback
@@ -627,6 +710,27 @@
         };
     };
 
+    // Mode 5 check: answer = free-text reasoning response
+    ReasoningEngine.prototype._checkStructuredReasoning = function (answer) {
+        var problem = this.problems[this._rounds[this._roundIdx]];
+        var task = buildStructuredReasoningTask(problem);
+        var taskShell = getTaskShellEngine();
+        if (!taskShell || typeof taskShell.evaluateTask !== 'function') {
+            throw new Error('TaskShellEngine is required for structured reasoning mode');
+        }
+        var taskShellResult = taskShell.evaluateTask(task, answer);
+        return {
+            correct: taskShellResult.state === 'self_check',
+            selfCheckOnly: true,
+            completed: taskShellResult.state === 'self_check',
+            feedback: {
+                taskShellResult: taskShellResult,
+                reasoningGuide: problem.steps,
+                flowGuide: problem.flowSlots
+            }
+        };
+    };
+
     // ── Round advancement ───────────────────────────────────────────
 
     /**
@@ -651,8 +755,10 @@
         var emoji = ratio >= 1 ? '\uD83C\uDFC6' : (ratio >= 0.5 ? '\uD83D\uDCC8' : '\uD83D\uDCDA');
 
         var perType = {};
+        var selfCheckCount = 0;
         for (var i = 0; i < this._roundResults.length; i++) {
             var rr = this._roundResults[i];
+            if (rr.practiced) selfCheckCount++;
             if (!perType[rr.structureType]) perType[rr.structureType] = { correct: 0, total: 0 };
             perType[rr.structureType].total++;
             if (rr.correct) perType[rr.structureType].correct++;
@@ -664,6 +770,8 @@
             ratio: ratio,
             emoji: emoji,
             modeName: MODE_NAMES_NL[this._mode],
+            selfCheckOnlyMode: this._mode === 5,
+            selfCheckCount: selfCheckCount,
             perType: perType
         };
     };
