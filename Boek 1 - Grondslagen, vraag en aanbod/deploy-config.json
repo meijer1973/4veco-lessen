@@ -17,7 +17,43 @@
       "chapter": "1.1",
       "domain": "teal",
       "skilltree": {
-        "skills": null
+        "skills": null,
+        "skillMapRoutes": {
+          "reasoning": {
+            "title": "Oefenroute Redeneren",
+            "paragraphTarget": "Schaarste en alternatieve kosten herkennen in keuzes.",
+            "routePurpose": "Oefen hoe je een keuze uitlegt vanuit schaarste en het opgeofferde alternatief.",
+            "aspectFilter": "reasoning",
+            "skillScope": [
+              "B01",
+              "B02"
+            ],
+            "targetSkills": [
+              "B02"
+            ],
+            "practiceHref": "1.1.1 Schaarste en economisch denken \u2013 redeneer-spel.html",
+            "practiceLabel": "Open redeneer-spel"
+          },
+          "calculation": {
+            "enabled": false
+          },
+          "graphical": {
+            "enabled": false
+          },
+          "checkpoint": {
+            "title": "Route naar de paragraaf-check",
+            "paragraphTarget": "Schaarste en alternatieve kosten herkennen in keuzes.",
+            "routePurpose": "Gebruik dezelfde begrippen in de check als in het redeneer-spel.",
+            "aspectFilter": "reasoning",
+            "skillScope": [
+              "B01",
+              "B02"
+            ],
+            "targetSkills": [
+              "B02"
+            ]
+          }
+        }
       }
     },
     {
@@ -35,7 +71,75 @@
           "A39",
           "A42",
           "A43"
-        ]
+        ],
+        "skillMapRoutes": {
+          "reasoning": {
+            "title": "Oefenroute Redeneren",
+            "paragraphTarget": "Procentuele verandering en indexcijfers controleerbaar berekenen.",
+            "routePurpose": "Gebruik het redeneer-spel om de rekenstappen en betekenis van percentages hardop te ordenen.",
+            "aspectFilter": "calculation",
+            "skillScope": [
+              "A38",
+              "A39"
+            ],
+            "targetSkills": [
+              "A38",
+              "A39"
+            ],
+            "practiceHref": "1.1.2 Percentages en indexcijfers \u2013 redeneer-spel.html",
+            "practiceLabel": "Open redeneer-spel"
+          },
+          "calculation": {
+            "title": "Oefenroute Rekenen",
+            "paragraphTarget": "Procentuele verandering en indexcijfers controleerbaar berekenen.",
+            "routePurpose": "Oefen eerst procentuele verandering en daarna indexcijfers met zichtbare tussenstappen.",
+            "aspectFilter": "calculation",
+            "skillScope": [
+              "A38",
+              "A39"
+            ],
+            "targetSkills": [
+              "A38",
+              "A39"
+            ],
+            "practiceHref": "1.1.2 Percentages en indexcijfers \u2013 wiskundevaardigheden.html",
+            "practiceLabel": "Open rekenroute"
+          },
+          "graphical": {
+            "title": "Oefenroute Grafieken",
+            "paragraphTarget": "Grafiekwaarden aflezen en gebruiken in procent- of indexberekeningen.",
+            "routePurpose": "Lees eerst de grafiekwaarde, kies daarna de berekening die bij de vraag hoort.",
+            "aspectFilter": "graphical",
+            "skillScope": [
+              "A62",
+              "A63",
+              "A38",
+              "A39"
+            ],
+            "targetSkills": [
+              "A62",
+              "A63",
+              "A38",
+              "A39"
+            ],
+            "practiceHref": "1.1.2 Percentages en indexcijfers \u2013 grafiekenspel.html",
+            "practiceLabel": "Open grafiekenspel"
+          },
+          "checkpoint": {
+            "title": "Route naar de paragraaf-check",
+            "paragraphTarget": "Procentuele verandering en indexcijfers controleerbaar berekenen.",
+            "routePurpose": "De check moet dezelfde reken- en antwoordstappen vragen als de eindopgave.",
+            "aspectFilter": "calculation",
+            "skillScope": [
+              "A38",
+              "A39"
+            ],
+            "targetSkills": [
+              "A38",
+              "A39"
+            ]
+          }
+        }
       }
     },
     {
@@ -57,7 +161,83 @@
           "A61",
           "A62",
           "A63"
-        ]
+        ],
+        "skillMapRoutes": {
+          "reasoning": {
+            "title": "Oefenroute Redeneren",
+            "paragraphTarget": "Tabel- en grafiekgegevens kiezen, aflezen en uitleggen.",
+            "routePurpose": "Orden de bronstappen voordat je de grafiek- of tabelvraag beantwoordt.",
+            "aspectFilter": "graphical",
+            "skillScope": [
+              "A61",
+              "A62",
+              "A63"
+            ],
+            "targetSkills": [
+              "A61",
+              "A62",
+              "A63"
+            ],
+            "practiceHref": "1.1.3 Grafieken en tabellen \u2013 redeneer-spel.html",
+            "practiceLabel": "Open redeneer-spel"
+          },
+          "calculation": {
+            "title": "Oefenroute Rekenen",
+            "paragraphTarget": "Tabelwaarden selecteren en gebruiken in een berekening.",
+            "routePurpose": "Kies eerst de juiste tabelwaarden; reken daarna pas verder met percentages of indexen.",
+            "aspectFilter": "calculation",
+            "skillScope": [
+              "A61",
+              "A38",
+              "A39"
+            ],
+            "targetSkills": [
+              "A61",
+              "A38",
+              "A39"
+            ],
+            "practiceHref": "1.1.3 Grafieken en tabellen \u2013 wiskundevaardigheden.html",
+            "practiceLabel": "Open rekenroute"
+          },
+          "graphical": {
+            "title": "Oefenroute Grafieken",
+            "paragraphTarget": "Tabel- en grafiekgegevens kiezen, aflezen en gebruiken.",
+            "routePurpose": "Oefen tabelselectie, staafdiagrammen en lijngrafieken als een samenhangende bronroute.",
+            "aspectFilter": "graphical",
+            "skillScope": [
+              "A61",
+              "A62",
+              "A63",
+              "A38",
+              "A39"
+            ],
+            "targetSkills": [
+              "A61",
+              "A62",
+              "A63"
+            ],
+            "practiceHref": "1.1.3 Grafieken en tabellen \u2013 grafiekenspel.html",
+            "practiceLabel": "Open grafiekenspel"
+          },
+          "checkpoint": {
+            "title": "Route naar de paragraaf-check",
+            "paragraphTarget": "Tabel- en grafiekgegevens kiezen, aflezen en gebruiken.",
+            "routePurpose": "De check moet bronkeuze, aflezen en antwoordvorm in dezelfde keten controleren.",
+            "aspectFilter": "graphical",
+            "skillScope": [
+              "A61",
+              "A62",
+              "A63",
+              "A38",
+              "A39"
+            ],
+            "targetSkills": [
+              "A61",
+              "A62",
+              "A63"
+            ]
+          }
+        }
       }
     },
     {

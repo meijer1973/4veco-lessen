@@ -500,7 +500,7 @@
         };
     };
 
-    GEN.A20 = function () {
+    GEN.A95 = function () {
         var bMO = ri(2, 6), bMK = ri(1, 4);
         var totalB = bMO + bMK;
         var Qs = ri(3, 15);
@@ -1579,7 +1579,7 @@
             },
             {
                     "id": "A12",
-                    "name": "MO bepalen",
+                    "name": "MO bepalen met afgeleide",
                     "layer": 2,
                     "needs": [
                             "A11",
@@ -1589,7 +1589,7 @@
                             "grafisch",
                             "rekenen"
                     ],
-                    "desc": "Bepaal de marginale opbrengst (MO) door de afgeleide van de TO-functie te nemen."
+                    "desc": "Bepaal marginale opbrengst door eerst TO op te stellen en daarvan de afgeleide naar Q te nemen."
             },
             {
                     "id": "A13",
@@ -1683,8 +1683,599 @@
                     "desc": "Bereken het consumenten- of producentensurplus als driehoeksoppervlakte in de vraag-/aanbodgrafiek."
             },
             {
+                    "id": "A21",
+                    "name": "Winst = TO − TK",
+                    "layer": 3,
+                    "needs": [
+                            "A07",
+                            "A08",
+                            "A04"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken de winst door de totale opbrengst min de totale kosten: W = TO − TK."
+            },
+            {
+                    "id": "A22",
+                    "name": "Break-even (TO = TK)",
+                    "layer": 3,
+                    "needs": [
+                            "A07",
+                            "A08",
+                            "A02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Vind de break-evenhoeveelheid door TO = TK op te lossen. Bij dit punt is de winst nul."
+            },
+            {
+                    "id": "A23",
+                    "name": "Evenwicht met heffing",
+                    "layer": 3,
+                    "needs": [
+                            "A06",
+                            "A01",
+                            "A15"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken het nieuwe marktevenwicht nadat de overheid een heffing (accijns) heeft opgelegd, en analyseer hoe de heffing verdeeld wordt tussen consument en producent."
+            },
+            {
+                    "id": "A24",
+                    "name": "Collectief aanbod bepalen",
+                    "layer": 3,
+                    "needs": [
+                            "A09",
+                            "A03"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal het collectieve aanbod vanuit meerdere individuele aanbieders en bereken het marktevenwicht."
+            },
+            {
+                    "id": "A25",
+                    "name": "Minimumprijs analyseren",
+                    "layer": 3,
+                    "needs": [
+                            "A06"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer het effect van een minimumprijs: bereken het vraagoverschot en het welvaartsverlies."
+            },
+            {
+                    "id": "A26",
+                    "name": "Maximumprijs analyseren",
+                    "layer": 3,
+                    "needs": [
+                            "A06"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer het effect van een maximumprijs: bereken het vraagoverschot en de gevolgen voor consumenten."
+            },
+            {
+                    "id": "A27",
+                    "name": "Subsidie analyseren",
+                    "layer": 3,
+                    "needs": [
+                            "A06",
+                            "A01"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken het effect van een subsidie op het marktevenwicht, de prijs en de verdeling van het voordeel."
+            },
+            {
+                    "id": "A28",
+                    "name": "MK = GTK oplossen",
+                    "layer": 3,
+                    "needs": [
+                            "A13",
+                            "A14"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Vind de hoeveelheid waar MK = GTK. Dit is het minimum van de GTK-curve (efficiënte schaal)."
+            },
+            {
+                    "id": "A29",
+                    "name": "Break-even analyse",
+                    "layer": 4,
+                    "needs": [
+                            "A22"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Voer een volledige break-evenanalyse uit: vind de break-evenhoeveelheid en bepaal winst/verlies bij een gegeven Q."
+            },
+            {
+                    "id": "A30",
+                    "name": "Consumentensurplus",
+                    "layer": 4,
+                    "needs": [
+                            "A19"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken het consumentensurplus voor en na een beleidsverandering en bepaal het verschil."
+            },
+            {
+                    "id": "A31",
+                    "name": "Individueel → collectief aanbod",
+                    "layer": 4,
+                    "needs": [
+                            "A24"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Ga van individuele aanbodcurves naar de collectieve aanbodcurve en bereken het marktevenwicht."
+            },
+            {
+                    "id": "A32",
+                    "name": "Welvaartsverlies belasting",
+                    "layer": 5,
+                    "needs": [
+                            "A19",
+                            "A23"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bereken het welvaartsverlies (deadweight loss) dat ontstaat door een belasting als driehoeksoppervlakte."
+            },
+            {
+                    "id": "A33",
+                    "name": "Optimale productie bij VM",
+                    "layer": 4,
+                    "needs": [
+                            "A13",
+                            "A14",
+                            "A04"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal de optimale productie bij volkomen mededinging: produceer waar P = MK en bereken de winst."
+            },
+            {
+                    "id": "A34",
+                    "name": "Effecten invoerrecht",
+                    "layer": 5,
+                    "needs": [
+                            "A19",
+                            "A23",
+                            "A06"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer de effecten van een invoerrecht op binnenlandse productie, consumptie, import en welvaart."
+            },
+            {
+                    "id": "A35",
+                    "name": "Max. winst monopolist",
+                    "layer": 5,
+                    "needs": [
+                            "A21",
+                            "A04"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de maximale winst van een monopolist: vind Q waar MO = MK, bepaal P en reken W = TO − TK uit."
+            },
+            {
+                    "id": "A36",
+                    "name": "Prijsdiscriminatie",
+                    "layer": 5,
+                    "needs": [
+                            "A21"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de winst bij prijsdiscriminatie: de monopolist rekent verschillende prijzen in verschillende markten."
+            },
+            {
+                    "id": "A37",
+                    "name": "Lange-termijnevenwicht VM",
+                    "layer": 5,
+                    "needs": [
+                            "A28"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal het lange-termijnevenwicht bij volkomen mededinging: P = MK = GTK (minimale GTK)."
+            },
+            {
+                    "id": "A38",
+                    "name": "Procentuele verandering berekenen",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de procentuele verandering met %Δ = (nieuw − oud) / oud × 100, en pas dit toe op prijzen, hoeveelheden, indexcijfers en reële variabelen."
+            },
+            {
+                    "id": "A39",
+                    "name": "Prijsindex (CPI) berekenen",
+                    "layer": 1,
+                    "needs": [
+                            "A38"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken een prijsindex als mandprijs-jaar-t / mandprijs-basisjaar × 100, en interpreteer het getal als relatieve prijsverandering ten opzichte van basisjaar = 100."
+            },
+            {
+                    "id": "A40",
+                    "name": "Welvaartsgebied op P–Q diagram arceren",
+                    "layer": 2,
+                    "needs": [
+                            "A10"
+                    ],
+                    "aspects": [
+                            "grafisch"
+                    ],
+                    "desc": "Identificeer en arceer de juiste welvaartsregio op een P–Q diagram: consumentensurplus, producentensurplus, belastingopbrengst-rechthoek, welvaartsverlies-driehoek, subsidie-rechthoek, monopoliewinst-rechthoek, of tarief-DWL."
+            },
+            {
+                    "id": "A41",
+                    "name": "Na-belasting of na-subsidie aanbodfunctie afleiden",
+                    "layer": 1,
+                    "needs": [
+                            "A03"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Leid de na-belasting aanbodfunctie af door de heffing per eenheid bij de inverse aanbodfunctie op te tellen; bij een subsidie trek je de subsidie per eenheid af. Vervolgens los je Qa_nieuw = Qv op voor het nieuwe evenwicht."
+            },
+            {
+                    "id": "A42",
+                    "name": "Grafische verschuiving met voor-en-na pijlen",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "grafisch"
+                    ],
+                    "desc": "Teken een grafische verschuiving (vraag- of aanbodcurve) met zowel de oude als de nieuwe curve, gelabeld D / D' of S / S', en geef de richting aan met pijlen tussen de oude en nieuwe positie."
+            },
+            {
+                    "id": "A43",
+                    "name": "Totale winst uit gemengde allocatie berekenen",
+                    "layer": 3,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de totale winst van een verdeling van beperkte middelen over meerdere activiteiten door per activiteit (hoeveelheid × winst/eenheid) te berekenen en op te tellen."
+            },
+            {
+                    "id": "A44",
+                    "name": "Individuele stapfunctie-vraagcurve tekenen uit betalingsbereidheid",
+                    "layer": 2,
+                    "needs": [],
+                    "aspects": [
+                            "grafisch"
+                    ],
+                    "desc": "Teken de individuele vraagcurve van één consument als een stapfunctie: voor elke eenheid een horizontale stap op de hoogte van de betalingsbereidheid voor die eenheid."
+            },
+            {
+                    "id": "A61",
+                    "name": "Tabelwaarden selecteren voor berekening",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Selecteer in een economische tabel de waarden die nodig zijn voor een berekening: juiste rij, kolom, periode en oude/nieuwe waarde."
+            },
+            {
+                    "id": "A62",
+                    "name": "Waarden aflezen uit staafdiagram",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "grafisch"
+                    ],
+                    "desc": "Lees een waarde af uit een staafdiagram door context, labels, eenheid en schaal te controleren voordat je de staafhoogte gebruikt."
+            },
+            {
+                    "id": "A63",
+                    "name": "Waarden aflezen uit lijngrafiek",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "grafisch"
+                    ],
+                    "desc": "Lees een punt of periode af uit een lijngrafiek door context, aslabels, eenheden, schaal en eventuele interpolatie expliciet te controleren."
+            },
+            {
+                    "id": "A95",
+                    "name": "MO = gegeven MK-functie oplossen",
+                    "layer": 1,
+                    "needs": [
+                            "A02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Los MO = MK op wanneer de MK-functie in de opgave staat en niet uit TK hoeft te worden afgeleid."
+            }
+    ];
+    var ROUTE_SKILLS = [
+            {
+                    "id": "A01",
+                    "name": "Lineaire functie opstellen",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Stel een lineaire functie op (y = ax + b) vanuit een economische context, zoals een vraag- of aanbodfunctie."
+            },
+            {
+                    "id": "A02",
+                    "name": "Vergelijking oplossen",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Los een vergelijking met één onbekende op, bijvoorbeeld door twee functies aan elkaar gelijk te stellen."
+            },
+            {
+                    "id": "A03",
+                    "name": "Functie omschrijven (P↔Q)",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Schrijf een functie om van P als functie van Q naar Q als functie van P, of andersom."
+            },
+            {
+                    "id": "A04",
+                    "name": "Substitueren",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Vul een waarde in een functie in en bereken het resultaat."
+            },
+            {
+                    "id": "A05",
+                    "name": "Snijpunt met P-as berekenen",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bereken het snijpunt van een functie met de verticale as (P-as) door Q = 0 in te vullen."
+            },
+            {
+                    "id": "A06",
+                    "name": "Evenwichtsprijs & -hoeveelheid",
+                    "layer": 1,
+                    "needs": [
+                            "A01",
+                            "A02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken de evenwichtsprijs en -hoeveelheid door vraag en aanbod aan elkaar gelijk te stellen."
+            },
+            {
+                    "id": "A07",
+                    "name": "TO-functie opstellen",
+                    "layer": 1,
+                    "needs": [
+                            "A01",
+                            "A03"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Stel de totale opbrengstfunctie op: TO = P × Q. Schrijf de vraagfunctie om zodat P in Q is uitgedrukt."
+            },
+            {
+                    "id": "A08",
+                    "name": "TK-functie herkennen",
+                    "layer": 1,
+                    "needs": [
+                            "A01"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Herken en werk met de totale kostenfunctie (TK), vaak gegeven als TK = vaste kosten + variabele kosten × Q."
+            },
+            {
+                    "id": "A09",
+                    "name": "Collectief aanbod",
+                    "layer": 1,
+                    "needs": [
+                            "A03"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Tel individuele aanbodfuncties op tot een collectieve aanbodfunctie."
+            },
+            {
+                    "id": "A10",
+                    "name": "Oppervlakte driehoek",
+                    "layer": 1,
+                    "needs": [
+                            "A04"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de oppervlakte van een driehoek in een grafiek: ½ × basis × hoogte."
+            },
+            {
+                    "id": "A11",
+                    "name": "Afgeleide bepalen",
+                    "layer": 1,
+                    "needs": [
+                            "A01"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal de afgeleide van een functie. Bijvoorbeeld: als TO = 5Q², dan is MO = 10Q."
+            },
+            {
+                    "id": "A12",
+                    "name": "MO bepalen met afgeleide",
+                    "layer": 2,
+                    "needs": [
+                            "A11",
+                            "A07"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal marginale opbrengst door eerst TO op te stellen en daarvan de afgeleide naar Q te nemen."
+            },
+            {
+                    "id": "A13",
+                    "name": "MK bepalen",
+                    "layer": 2,
+                    "needs": [
+                            "A11",
+                            "A08"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal de marginale kosten (MK) door de afgeleide van de TK-functie te nemen."
+            },
+            {
+                    "id": "A14",
+                    "name": "GTK bepalen",
+                    "layer": 2,
+                    "needs": [
+                            "A08"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken de gemiddelde totale kosten: GTK = TK / Q."
+            },
+            {
+                    "id": "A15",
+                    "name": "Prijselasticiteit van de vraag",
+                    "layer": 1,
+                    "needs": [
+                            "A04",
+                            "A38"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken de prijselasticiteit: Ev = %ΔQv / %ΔP. Bepaal of de vraag elastisch of inelastisch is."
+            },
+            {
+                    "id": "A16",
+                    "name": "Kruiselasticiteit",
+                    "layer": 2,
+                    "needs": [
+                            "A15"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken de kruiselasticiteit: Ekr = %ΔQa / %ΔPb. Bepaal of goederen substituten of complementen zijn."
+            },
+            {
+                    "id": "A17",
+                    "name": "Inkomenselasticiteit",
+                    "layer": 2,
+                    "needs": [
+                            "A15"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de inkomenselasticiteit: Ei = %ΔQ / %ΔY. Bepaal of een goed normaal, inferieur of luxe is."
+            },
+            {
+                    "id": "A18",
+                    "name": "Comparatief voordeel bepalen",
+                    "layer": 3,
+                    "needs": [
+                            "B02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Vergelijk de alternatieve kosten van twee producenten om te bepalen wie een comparatief voordeel heeft."
+            },
+            {
+                    "id": "A19",
+                    "name": "Surplus berekenen (CS/PS)",
+                    "layer": 3,
+                    "needs": [
+                            "A06",
+                            "A10"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken het consumenten- of producentensurplus als driehoeksoppervlakte in de vraag-/aanbodgrafiek."
+            },
+            {
                     "id": "A20",
-                    "name": "MO = MK oplossen",
+                    "name": "Winstmaximum oplossen met afgeleide MO en MK",
                     "layer": 3,
                     "needs": [
                             "A12",
@@ -1695,7 +2286,7 @@
                             "rekenen",
                             "verbaal"
                     ],
-                    "desc": "Vind de winstmaximaliserende hoeveelheid door MO gelijk te stellen aan MK en op te lossen."
+                    "desc": "Los de winstmaximaliserende hoeveelheid op nadat MO uit TO en MK uit TK zijn afgeleid."
             },
             {
                     "id": "A21",
@@ -1989,7 +2580,9 @@
                     "id": "A43",
                     "name": "Totale winst uit gemengde allocatie berekenen",
                     "layer": 3,
-                    "needs": [],
+                    "needs": [
+                            "B02"
+                    ],
                     "aspects": [
                             "rekenen"
                     ],
@@ -1999,11 +2592,215 @@
                     "id": "A44",
                     "name": "Individuele stapfunctie-vraagcurve tekenen uit betalingsbereidheid",
                     "layer": 2,
-                    "needs": [],
+                    "needs": [
+                            "D35"
+                    ],
                     "aspects": [
                             "grafisch"
                     ],
                     "desc": "Teken de individuele vraagcurve van één consument als een stapfunctie: voor elke eenheid een horizontale stap op de hoogte van de betalingsbereidheid voor die eenheid."
+            },
+            {
+                    "id": "A45",
+                    "name": "P-Q grafiek tekenen uit tabel",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "grafisch"
+                    ],
+                    "desc": "Teken een prijs-hoeveelheidsgrafiek uit tabelwaarden met prijs op de verticale as en hoeveelheid op de horizontale as."
+            },
+            {
+                    "id": "A46",
+                    "name": "Waarden aflezen en interpoleren in P-Q grafiek",
+                    "layer": 1,
+                    "needs": [
+                            "A45"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Lees prijs- en hoeveelheidswaarden af uit een P-Q grafiek en schat tussenliggende waarden door interpolatie."
+            },
+            {
+                    "id": "A47",
+                    "name": "Collectieve vraag uit tabellen optellen",
+                    "layer": 2,
+                    "needs": [
+                            "A46"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "grafisch"
+                    ],
+                    "desc": "Bereken collectieve vraag door individuele gevraagde hoeveelheden bij dezelfde prijs op te tellen."
+            },
+            {
+                    "id": "A48",
+                    "name": "Collectieve vraagfunctie algebraisch optellen",
+                    "layer": 3,
+                    "needs": [
+                            "A03",
+                            "A47"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "grafisch"
+                    ],
+                    "desc": "Tel lineaire individuele vraagfuncties horizontaal op door bij dezelfde prijs de gevraagde hoeveelheden te sommeren."
+            },
+            {
+                    "id": "A49",
+                    "name": "Aanbodcurve tekenen met economenassen",
+                    "layer": 1,
+                    "needs": [
+                            "A45"
+                    ],
+                    "aspects": [
+                            "grafisch"
+                    ],
+                    "desc": "Teken een stijgende aanbodcurve met prijs op de verticale as en aangeboden hoeveelheid op de horizontale as."
+            },
+            {
+                    "id": "A50",
+                    "name": "GVK en GCK berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "A08"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken gemiddelde variabele kosten en gemiddelde constante kosten uit totale kosten en productiehoeveelheid."
+            },
+            {
+                    "id": "A51",
+                    "name": "Overschot en tekort bij niet-evenwichtsprijs berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "A06"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal bij een opgelegde prijs of er een overschot of tekort ontstaat en bereken de omvang als verschil tussen Qa en Qv."
+            },
+            {
+                    "id": "A52",
+                    "name": "MK en MO uit tabelverschillen berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "A08"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken marginale kosten en marginale opbrengsten uit opeenvolgende verschillen in een tabel."
+            },
+            {
+                    "id": "A53",
+                    "name": "MK benaderen uit kwadratische TK-functie",
+                    "layer": 3,
+                    "needs": [
+                            "A52"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Gebruik de precalculus-regel dat bij TK = a + bQ² de marginale kosten ongeveer gelijk zijn aan 2bQ."
+            },
+            {
+                    "id": "A54",
+                    "name": "Winstoptimum controleren met Q-1, Q en Q+1",
+                    "layer": 3,
+                    "needs": [
+                            "A52"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Controleer een voorgesteld winstoptimum door totale winst bij de naburige hoeveelheden Q-1 en Q+1 te vergelijken."
+            },
+            {
+                    "id": "A55",
+                    "name": "Gevraagde hoeveelheid voorspellen met elasticiteit",
+                    "layer": 2,
+                    "needs": [
+                            "A15",
+                            "A38"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de procentuele verandering van de gevraagde hoeveelheid met prijselasticiteit en zet die om naar een nieuwe hoeveelheid."
+            },
+            {
+                    "id": "A56",
+                    "name": "Korte zijde bepalen bij bindende prijs",
+                    "layer": 3,
+                    "needs": [
+                            "A51",
+                            "D34"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal bij een bindende minimum- of maximumprijs welke marktzijde de verhandelde hoeveelheid beperkt."
+            },
+            {
+                    "id": "A57",
+                    "name": "Afwentelingspercentage berekenen",
+                    "layer": 3,
+                    "needs": [
+                            "A38",
+                            "D34"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken welk percentage van een heffing of kostenstijging wordt doorberekend in de prijs."
+            },
+            {
+                    "id": "A58",
+                    "name": "Subsidie-uitgaven berekenen",
+                    "layer": 1,
+                    "needs": [
+                            "A04"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken totale subsidie-uitgaven als subsidie per eenheid maal de nieuwe verhandelde hoeveelheid."
+            },
+            {
+                    "id": "A59",
+                    "name": "Opkoopkosten bij minimumprijs berekenen",
+                    "layer": 4,
+                    "needs": [
+                            "A51",
+                            "A56"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bereken wat de overheid betaalt als zij het overschot bij een minimumprijs opkoopt."
+            },
+            {
+                    "id": "A60",
+                    "name": "Vraagfunctie inverteren bij quotumhoeveelheid",
+                    "layer": 1,
+                    "needs": [
+                            "A03"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "grafisch"
+                    ],
+                    "desc": "Bereken welke prijs hoort bij een gegeven quotumhoeveelheid door de vraagfunctie om te schrijven."
             },
             {
                     "id": "A61",
@@ -2035,9 +2832,2370 @@
                             "grafisch"
                     ],
                     "desc": "Lees een punt of periode af uit een lijngrafiek door context, aslabels, eenheden, schaal en eventuele interpolatie expliciet te controleren."
+            },
+            {
+                    "id": "A64",
+                    "name": "Aandelen aflezen uit cirkeldiagram",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Lees een aandeel uit een cirkeldiagram door context, categorie, legenda, totaal en de betekenis van procenten of delen te controleren."
+            },
+            {
+                    "id": "A65",
+                    "name": "Absolute hoeveelheid berekenen uit aandeel en totaal",
+                    "layer": 1,
+                    "needs": [
+                            "A64",
+                            "A04"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bereken een absolute hoeveelheid door een aandeel uit een bron te vermenigvuldigen met het totale aantal, bedrag of volume."
+            },
+            {
+                    "id": "A66",
+                    "name": "Basiswaarde en vergelijkingswaarde in bron bepalen",
+                    "layer": 1,
+                    "needs": [
+                            "A61"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bepaal in een bron welke waarde de basiswaarde is en welke waarde de vergelijkingswaarde is voordat je een procentuele verandering berekent."
+            },
+            {
+                    "id": "A67",
+                    "name": "Procentuele verandering berekenen vanuit tabel",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A61",
+                            "A66"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een tabel hebt geselecteerd."
+            },
+            {
+                    "id": "A68",
+                    "name": "Procentuele verandering berekenen vanuit staafdiagram",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A62",
+                            "A66"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een staafdiagram hebt afgelezen met de juiste basiswaarde."
+            },
+            {
+                    "id": "A69",
+                    "name": "Procentuele verandering berekenen vanuit lijngrafiek",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A63",
+                            "A66"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bereken een procentuele verandering nadat je de oude en nieuwe waarde uit een lijngrafiek of tijdreeks hebt afgelezen."
+            },
+            {
+                    "id": "A70",
+                    "name": "Percentagepuntverandering in aandeel herkennen",
+                    "layer": 1,
+                    "needs": [
+                            "A38"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Herken een verandering in procentpunten tussen twee percentagewaarden en onderscheid die van een procentuele verandering."
+            },
+            {
+                    "id": "A72",
+                    "name": "Indexcijfer berekenen vanuit tabel",
+                    "layer": 2,
+                    "needs": [
+                            "A39",
+                            "A61"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken een indexcijfer vanuit tabelwaarden door het doeljaar te delen door het basisjaar en te vermenigvuldigen met 100."
+            },
+            {
+                    "id": "A73",
+                    "name": "Indexverandering aflezen uit lijngrafiek",
+                    "layer": 2,
+                    "needs": [
+                            "A39",
+                            "A63"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Lees indexcijfers uit een lijngrafiek af en onderscheid een verandering in indexpunten van een procentuele verandering."
+            },
+            {
+                    "id": "A74",
+                    "name": "Procentuele verandering berekenen vanuit indexcijfers",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A39",
+                            "A66"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken een procentuele verandering tussen twee indexcijfers door de verandering te delen door het oude indexcijfer."
+            },
+            {
+                    "id": "A75",
+                    "name": "Totale winst berekenen uit opbrengsten- en kostentabel",
+                    "layer": 1,
+                    "needs": [
+                            "A04",
+                            "A61"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken totale winst door TO en TK uit een opbrengsten- en kostentabel te selecteren en TO - TK toe te passen."
+            },
+            {
+                    "id": "A76",
+                    "name": "Totale winst berekenen uit P, GTK en Q",
+                    "layer": 3,
+                    "needs": [
+                            "A14",
+                            "A04",
+                            "A61"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken totale winst met TW = (P - GTK) x Q nadat je P, GTK en Q uit de producentengegevens hebt geselecteerd."
+            },
+            {
+                    "id": "A77",
+                    "name": "Break-even aflezen uit TO-TK-grafiek",
+                    "layer": 5,
+                    "needs": [
+                            "A63",
+                            "A29"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Lees in een TO-TK-grafiek het snijpunt van totale opbrengsten en totale kosten af en interpreteer dit als break-evenhoeveelheid."
+            },
+            {
+                    "id": "A78",
+                    "name": "Winst of verlies aflezen uit TO-TK-grafiek",
+                    "layer": 6,
+                    "needs": [
+                            "A63",
+                            "A75",
+                            "A77"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Lees bij een hoeveelheid Q de TO- en TK-waarden in een TO-TK-grafiek af, gebruik de verticale afstand en bepaal of er winst of verlies is."
+            },
+            {
+                    "id": "A79",
+                    "name": "Maximale winst bepalen uit TO-TK-tabel",
+                    "layer": 2,
+                    "needs": [
+                            "A75",
+                            "A61"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bepaal de maximale winst door per hoeveelheid de winst uit een TO-TK-tabel te vergelijken."
+            },
+            {
+                    "id": "A80",
+                    "name": "Noem of geef-aan antwoord geven",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Geef bij noem/geef-aan vragen precies de gevraagde identificatie of lijst, zonder onnodige berekening of redenering."
+            },
+            {
+                    "id": "A81",
+                    "name": "Bron gebruiken in een antwoord",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal",
+                            "grafisch"
+                    ],
+                    "desc": "Gebruik een brongegeven expliciet als bewijs of startpunt en maak daarna de onderliggende uitleg-, bereken-, classificatie- of grafische antwoordvorm af."
+            },
+            {
+                    "id": "A82",
+                    "name": "Elasticiteit berekenen uit tabelwaarden",
+                    "layer": 2,
+                    "needs": [
+                            "A15",
+                            "A61",
+                            "A66"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken prijselasticiteit nadat je oude en nieuwe prijs- en hoeveelheidswaarden uit een tabel hebt geselecteerd en de juiste waardenparen hebt gekoppeld."
+            },
+            {
+                    "id": "A83",
+                    "name": "Prijselasticiteit van de vraag berekenen uit P-Q-grafiek",
+                    "layer": 2,
+                    "needs": [
+                            "A15",
+                            "A46",
+                            "A66"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Lees twee prijs-hoeveelheidsparen uit een P-Q-grafiek van de vraag af en bereken de prijselasticiteit van de vraag met correcte procentuele veranderingen."
+            },
+            {
+                    "id": "A84",
+                    "name": "Omzetverandering beoordelen met elasticiteit uit bron",
+                    "layer": 3,
+                    "needs": [
+                            "A15",
+                            "A67"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Beoordeel met brongegevens en prijselasticiteit of omzet stijgt, daalt of ongeveer gelijk blijft: bij elastische vraag beweegt omzet tegengesteld aan de prijs, bij inelastische vraag mee met de prijs, en bij unitair elastische vraag ongeveer niet."
+            },
+            {
+                    "id": "A85",
+                    "name": "Totale opbrengst puntberekening: TO = P x Q",
+                    "layer": 1,
+                    "needs": [
+                            "A04"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken totale opbrengst uit een enkele prijs en hoeveelheid zonder eerst een volledige TO-functie op te stellen."
+            },
+            {
+                    "id": "A86",
+                    "name": "TVK berekenen uit constante variabele kosten",
+                    "layer": 1,
+                    "needs": [
+                            "A04"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken totale variabele kosten door constante variabele kosten per stuk met de hoeveelheid te vermenigvuldigen."
+            },
+            {
+                    "id": "A87",
+                    "name": "Onbekende vaste kosten berekenen uit winstvergelijking",
+                    "layer": 2,
+                    "needs": [
+                            "A02",
+                            "A85",
+                            "A86"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Los W = TO - (TVK + TCK) op naar de onbekende vaste kosten wanneer winst, opbrengst en variabele kosten bekend zijn."
+            },
+            {
+                    "id": "A88",
+                    "name": "Schaalfactoren in examencijfers toepassen",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal",
+                            "grafisch"
+                    ],
+                    "desc": "Gebruik schaalvermeldingen zoals x 1.000 correct in formules, tabellen, grafieklabels en eindantwoorden."
+            },
+            {
+                    "id": "A89",
+                    "name": "GO herkennen als prijsfunctie van de monopolist",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal",
+                            "rekenen"
+                    ],
+                    "desc": "Herken dat de GO- of vraagfunctie bij een monopolist de prijsfunctie P(Q) geeft die later met Q* moet worden gebruikt."
+            },
+            {
+                    "id": "A90",
+                    "name": "MO bepalen uit lineaire GO-regel zonder afgeleiden",
+                    "layer": 1,
+                    "needs": [
+                            "A89"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bepaal bij een lineaire monopolistische prijsfunctie de MO-regel zonder de afgeleide route verplicht te maken."
+            },
+            {
+                    "id": "A91",
+                    "name": "MO = gegeven MK oplossen",
+                    "layer": 1,
+                    "needs": [
+                            "A02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Los MO = MK op wanneer de marginale kosten als constante of gegeven waarde in de opgave staan."
+            },
+            {
+                    "id": "A92",
+                    "name": "Nieuwe prijs bepalen na winstmaximaliserende Q",
+                    "layer": 1,
+                    "needs": [
+                            "A04",
+                            "A89"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bepaal na Q* de prijs door Q* in de GO- of prijsfunctie P(Q) in te vullen."
+            },
+            {
+                    "id": "A93",
+                    "name": "Procentuele prijsverandering na kostenverandering",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A92"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken de procentuele verandering van de prijs na een kostenverandering met de oude prijs als noemer en onderscheid dit van pass-through."
+            },
+            {
+                    "id": "A94",
+                    "name": "MO = P en afgeleide MK oplossen",
+                    "layer": 3,
+                    "needs": [
+                            "A13",
+                            "A02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Los de winstmaximaliserende hoeveelheid op wanneer MO bij een prijsnemer gelijk is aan P en MK eerst uit TK moet worden afgeleid."
+            },
+            {
+                    "id": "A95",
+                    "name": "MO = gegeven MK-functie oplossen",
+                    "layer": 1,
+                    "needs": [
+                            "A02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Los MO = MK op wanneer de MK-functie in de opgave staat en niet uit TK hoeft te worden afgeleid."
+            },
+            {
+                    "id": "A96",
+                    "name": "Bereken-vraag beantwoorden",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Beantwoord een bereken-vraag controleerbaar door formule, invulling, tussenstappen, eindantwoord, eenheid of notatie en korte conclusie te tonen."
+            },
+            {
+                    "id": "A97",
+                    "name": "Leg-uit-dat antwoord opbouwen",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Bouw bij een gegeven conclusie een causaleketen op met voldoende schakels en keer expliciet terug naar de gevraagde conclusie."
+            },
+            {
+                    "id": "A98",
+                    "name": "Leg-uit-of antwoord opbouwen",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Beantwoord een leg-uit-of vraag door eerst de richting of keuze te bepalen en daarna de redenering te geven die die richting verklaart."
+            },
+            {
+                    "id": "A99",
+                    "name": "Leg uit met voorbeeld beantwoorden",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Geef een passend voorbeeld, leg uit waarom het voorbeeld bij het gevraagde begrip of mechanisme hoort, en verbind het voorbeeld met de context."
+            },
+            {
+                    "id": "B01",
+                    "name": "Schaarste als kerneconomisch probleem",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Herken schaarste als de basisvoorwaarde van alle economische keuzes: middelen (tijd, geld, grondstoffen) zijn beperkt terwijl wensen onbeperkt zijn, waardoor keuzes onvermijdelijk zijn."
+            },
+            {
+                    "id": "B02",
+                    "name": "Alternatieve kosten in een keuze-situatie",
+                    "layer": 2,
+                    "needs": [
+                            "B01"
+                    ],
+                    "aspects": [
+                            "verbaal",
+                            "rekenen"
+                    ],
+                    "desc": "Identificeer de alternatieve kosten van een keuze als de opbrengst van het beste niet-gekozen alternatief, en bereken deze expliciet wanneer de cijfers gegeven zijn."
+            },
+            {
+                    "id": "D01",
+                    "name": "Accijnsopbrengst uit grafiek",
+                    "layer": 5,
+                    "needs": [
+                            "D05"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bepaal accijnsopbrengst door verhandelde hoeveelheid na belasting met belastingbedrag te vermenigvuldigen."
+            },
+            {
+                    "id": "D02",
+                    "name": "Constante kosten en winst",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Constante kosten beïnvloeden break-even analyse maar niet het MO = MK optimum."
+            },
+            {
+                    "id": "D03",
+                    "name": "Consumentensurplus en accijns",
+                    "layer": 5,
+                    "needs": [
+                            "D05",
+                            "A30"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Accijns verhoogt prijs, consumenten betalen meer, consumentensurplus daalt."
+            },
+            {
+                    "id": "D05",
+                    "name": "Evenwicht bij accijns",
+                    "layer": 4,
+                    "needs": [
+                            "A23"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken nieuw evenwicht en accijnsopbrengst na invoering van een heffing."
+            },
+            {
+                    "id": "D06",
+                    "name": "Vraagreactie via prijselasticiteit interpreteren",
+                    "layer": 2,
+                    "needs": [
+                            "A15"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Gebruik de prijselasticiteit van de vraag (Ev) om te voorspellen hoe Qv reageert op een prijsverandering en verklaar het resultaat in context."
+            },
+            {
+                    "id": "D07",
+                    "name": "Heffing afwentelingspercentage berekenen",
+                    "layer": 1,
+                    "needs": [
+                            "D42",
+                            "A38"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken welk percentage van een heffing bij consumenten en producenten terechtkomt nadat de euro-bedragen van de belastingdruk bekend zijn."
+            },
+            {
+                    "id": "D08",
+                    "name": "Heffing tegen overconsumptie",
+                    "layer": 2,
+                    "needs": [
+                            "A15"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer of een heffing overconsumptie tegengaat via veranderde vraag."
+            },
+            {
+                    "id": "D09",
+                    "name": "Homogene en heterogene goederen",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Homogene goederen zijn identiek; heterogene goederen verschillen in kwaliteit of kenmerken."
+            },
+            {
+                    "id": "D10",
+                    "name": "Vraag/aanbod-verschuiving bij conjunctuurschok",
+                    "layer": 3,
+                    "needs": [
+                            "A06",
+                            "D33"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe een conjunctuurschok de collectieve vraaglijn of aanbodlijn verschuift en wat dit doet met evenwichtsprijs en -hoeveelheid."
+            },
+            {
+                    "id": "D11",
+                    "name": "Inkomenselasticiteit berekenen en interpreteren",
+                    "layer": 3,
+                    "needs": [
+                            "A17"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken Ei uit twee waarnemingen en interpreteer de uitkomst in de context van het goed."
+            },
+            {
+                    "id": "D12",
+                    "name": "Kruiselasticiteit en substituten",
+                    "layer": 3,
+                    "needs": [
+                            "A16"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal uit kruiselasticiteit of goederen substituten zijn en analyseer vraagverschuivingen."
+            },
+            {
+                    "id": "D13",
+                    "name": "Kostenstijging en aanbodverschuiving",
+                    "layer": 3,
+                    "needs": [
+                            "A06",
+                            "D33"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe een stijging van productiekosten (zoals loon per eenheid product) de collectieve aanbodlijn verschuift en doorwerkt in evenwichtsprijs."
+            },
+            {
+                    "id": "D14",
+                    "name": "Marktfalen en overheidsinterventie beoordelen",
+                    "layer": 6,
+                    "needs": [
+                            "F18",
+                            "F02",
+                            "G02",
+                            "A35",
+                            "D28"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Beoordeel of marktwerking tot een doelmatige uitkomst leidt en of overheidsinterventie gerechtvaardigd is."
+            },
+            {
+                    "id": "D15",
+                    "name": "Marktvormen classificeren",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Classificeer markten aan hand van aantal aanbieders, aard van goederen en toetreding."
+            },
+            {
+                    "id": "D16",
+                    "name": "Minimumprijs en werkloosheid",
+                    "layer": 3,
+                    "needs": [
+                            "D34",
+                            "L10"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Minimumloon boven marktloon veroorzaakt vraagoverschot van arbeid en werkloosheid."
+            },
+            {
+                    "id": "D17",
+                    "name": "Monopolie minimaal verlies",
+                    "layer": 3,
+                    "needs": [
+                            "A14"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Onderneming met alleen vaste kosten heeft MK = 0, dus MK = GVK. Minimaal verlies waar prijs totale opbrengst dekt."
+            },
+            {
+                    "id": "D18",
+                    "name": "Monopolie met prijsdiscriminatie",
+                    "layer": 6,
+                    "needs": [
+                            "D24",
+                            "A36"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal hoe monopolist winst behaalt via prijsdiscriminatie over verschillende markten."
+            },
+            {
+                    "id": "D19",
+                    "name": "Subsidie en Pareto-efficiëntie",
+                    "layer": 5,
+                    "needs": [
+                            "D20",
+                            "A27"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit of een subsidie-evenwicht Pareto-efficiënt is."
+            },
+            {
+                    "id": "D20",
+                    "name": "Pareto-efficiëntie in marktevenwicht",
+                    "layer": 4,
+                    "needs": [
+                            "A19"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit wanneer een marktevenwicht Pareto-efficiënt is."
+            },
+            {
+                    "id": "D21",
+                    "name": "Prijsdiscriminatie over inkomensgroepen",
+                    "layer": 7,
+                    "needs": [
+                            "D18",
+                            "D28"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe bedrijven prijzen differentieren en welvaartsgevolgen per inkomensgroep."
+            },
+            {
+                    "id": "D22",
+                    "name": "Prijsdiscriminatie en subsidies",
+                    "layer": 4,
+                    "needs": [
+                            "D24",
+                            "A27"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Herken of subsidies prijsdiscriminatie veroorzaken en analyseer gevolgen."
+            },
+            {
+                    "id": "D24",
+                    "name": "Drie voorwaarden prijsdiscriminatie",
+                    "layer": 2,
+                    "needs": [
+                            "D35",
+                            "D15"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit de drie voorwaarden voor prijsdiscriminatie: voldoende marktmacht, scheidbare deelmarkten met verschillende prijselasticiteiten en betalingsbereidheid."
+            },
+            {
+                    "id": "D25",
+                    "name": "Prijselasticiteit en omzet",
+                    "layer": 2,
+                    "needs": [
+                            "A15"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Bij inelastische vraag leidt grotere hoeveelheid tot lagere prijs; totale omzet kan dalen."
+            },
+            {
+                    "id": "D26",
+                    "name": "Soorten variabele kosten classificeren",
+                    "layer": 2,
+                    "needs": [
+                            "A08"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Onderscheid tussen degressief, progressief en proportioneel variabele kosten."
+            },
+            {
+                    "id": "D27",
+                    "name": "Substituten en complementen",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Substituten vervangen elkaar; complementen worden samen gebruikt."
+            },
+            {
+                    "id": "D28",
+                    "name": "Welvaart en surplus-effect",
+                    "layer": 5,
+                    "needs": [
+                            "A19",
+                            "A30"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Prijsverlaging verhoogt consumentensurplus; effect op producentensurplus verschilt per geval."
+            },
+            {
+                    "id": "D29",
+                    "name": "Welvaartsverlies bij subsidie",
+                    "layer": 6,
+                    "needs": [
+                            "A32"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal en arceer het deadweight loss ontstaan door subsidies als gevolg van allocatieve inefficientie."
+            },
+            {
+                    "id": "D30",
+                    "name": "Winstmaximalisatie MO = MK",
+                    "layer": 4,
+                    "needs": [
+                            "A12",
+                            "A13",
+                            "A20"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Winstmaximale hoeveelheid vind je waar marginale opbrengst gelijk is aan marginale kosten."
+            },
+            {
+                    "id": "D31",
+                    "name": "Indexpunt versus procentuele verandering",
+                    "layer": 2,
+                    "needs": [
+                            "A38",
+                            "A39"
+                    ],
+                    "aspects": [
+                            "verbaal",
+                            "rekenen"
+                    ],
+                    "desc": "Onderscheid een indexpunt-verandering (absoluut verschil tussen twee indexcijfers) van een procentuele verandering (relatief verschil); beide kunnen leiden tot totaal andere conclusies bij hoge indexwaarden."
+            },
+            {
+                    "id": "D32",
+                    "name": "Verschuiving versus beweging langs de curve",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal",
+                            "grafisch"
+                    ],
+                    "desc": "Onderscheid een beweging langs de vraag- of aanbodcurve (veroorzaakt door eigen-prijsverandering) van een verschuiving van de curve (veroorzaakt door een andere factor dan eigen prijs)."
+            },
+            {
+                    "id": "D33",
+                    "name": "Vraag- en aanbodverschuivingsfactoren benoemen",
+                    "layer": 2,
+                    "needs": [
+                            "D32"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Noem en herken de standaard verschuivingsfactoren: voor vraag (inkomen, voorkeuren, prijzen substituten/complementen, verwachtingen) en voor aanbod (inputprijzen, technologie, aantal aanbieders, verwachtingen, overheidsbeleid)."
+            },
+            {
+                    "id": "D34",
+                    "name": "Bindende prijsregulering: voorwaarde voor effect",
+                    "layer": 2,
+                    "needs": [
+                            "A06"
+                    ],
+                    "aspects": [
+                            "verbaal",
+                            "grafisch"
+                    ],
+                    "desc": "Herken dat een maximumprijs alleen effect heeft als deze onder het evenwicht ligt, en een minimumprijs alleen als deze erboven ligt; anders is de regulering niet-bindend en heeft geen invloed op uitkomst."
+            },
+            {
+                    "id": "D35",
+                    "name": "Betalingsbereidheid definiëren",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Definieer betalingsbereidheid als de maximale prijs die een consument bereid is te betalen voor één extra eenheid van een goed; deze kan dalen naarmate meer eenheden al gekocht zijn."
+            },
+            {
+                    "id": "D36",
+                    "name": "Beslisregel: koop als P ≤ betalingsbereidheid",
+                    "layer": 2,
+                    "needs": [
+                            "D35"
+                    ],
+                    "aspects": [
+                            "verbaal",
+                            "rekenen"
+                    ],
+                    "desc": "Pas de consumentenbeslissingsregel toe: een consument koopt een extra eenheid precies dan wanneer zijn betalingsbereidheid voor die eenheid ≥ de marktprijs P; gebruik dit om de individuele vraag bij een gegeven P te bepalen."
+            },
+            {
+                    "id": "D37",
+                    "name": "Wet van de vraag verbaal uitleggen",
+                    "layer": 3,
+                    "needs": [
+                            "D35",
+                            "D36"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit waarom de vraagcurve dalend is: bij een lagere prijs vinden meer consumenten het waardevol om te kopen (hun betalingsbereidheid overschrijdt de prijs), en individuele consumenten zijn bereid meer eenheden te kopen doordat hun dalende betalingsbereidheid dan nog steeds boven P ligt."
+            },
+            {
+                    "id": "D38",
+                    "name": "GCK daalt door spreiding van constante kosten",
+                    "layer": 3,
+                    "needs": [
+                            "D02",
+                            "A50"
+                    ],
+                    "aspects": [
+                            "verbaal",
+                            "rekenen"
+                    ],
+                    "desc": "Leg uit dat gemiddelde constante kosten dalen wanneer dezelfde constante kosten over meer producten worden verdeeld."
+            },
+            {
+                    "id": "D39",
+                    "name": "Totale surplus als CS plus PS",
+                    "layer": 6,
+                    "needs": [
+                            "D28"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Bereken totale surplus als de som van consumentensurplus en producentensurplus."
+            },
+            {
+                    "id": "D40",
+                    "name": "Surplusrekening bij marktinterventie controleren",
+                    "layer": 7,
+                    "needs": [
+                            "D39"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen"
+                    ],
+                    "desc": "Controleer of de veranderingen in surplus, overheidsinkomsten of -uitgaven en verloren surplus samen consistent zijn."
+            },
+            {
+                    "id": "D41",
+                    "name": "Belastingwig en Pc/Pp grafisch labelen",
+                    "layer": 5,
+                    "needs": [
+                            "D05"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "verbaal"
+                    ],
+                    "desc": "Label in een P-Q diagram de consumentenprijs Pc, producentenprijs Pp, belastingwig t = Pc - Pp en de verhandelde hoeveelheid Qt na een heffing."
+            },
+            {
+                    "id": "D42",
+                    "name": "Belastingdruk in eurobedragen berekenen",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken in euro per eenheid welk deel van een heffing door consument en producent wordt gedragen."
+            },
+            {
+                    "id": "D43",
+                    "name": "Subsidie-evenwicht en effectieve prijzen bepalen",
+                    "layer": 2,
+                    "needs": [
+                            "A41"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bepaal na een subsidie de consumentenprijs Pc, de effectieve producentenontvangst Pp en de nieuwe hoeveelheid."
+            },
+            {
+                    "id": "D45",
+                    "name": "Incidentie verklaren met relatieve elasticiteiten",
+                    "layer": 2,
+                    "needs": [
+                            "A15"
+                    ],
+                    "aspects": [
+                            "verbaal",
+                            "grafisch"
+                    ],
+                    "desc": "Leg uit dat de relatief minder elastische kant van de markt meer belastingdruk draagt of meer subsidievoordeel ontvangt."
+            },
+            {
+                    "id": "D46",
+                    "name": "Kostenstijging doorberekenen als pass-through share",
+                    "layer": 3,
+                    "needs": [
+                            "A93"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken welk percentage van een kostenstijging in de prijs wordt doorberekend en houd dit gescheiden van de procentuele prijsverandering in A93."
+            },
+            {
+                    "id": "E01",
+                    "name": "Intergenerationele ruil",
+                    "layer": 2,
+                    "needs": [
+                            "E02"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe pensioenstelsels intergenerationele ruil faciliteren."
+            },
+            {
+                    "id": "E02",
+                    "name": "Intertemporele ruil in pensioenstelsels",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe pensioenen ruil over tijd vertegenwoordigen."
+            },
+            {
+                    "id": "E03",
+                    "name": "Kapitaaldekking en renteeffecten",
+                    "layer": 5,
+                    "needs": [
+                            "E02",
+                            "H15"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe rentes de betaalbaarheid van kapitaalgedekte pensioenen onder druk zetten."
+            },
+            {
+                    "id": "E04",
+                    "name": "Omslagstelsel (AOW)",
+                    "layer": 3,
+                    "needs": [
+                            "E01",
+                            "E02"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Omslagstelsel: werkenden betalen premie voor huidige uitkeringen; gevoelig voor vergrijzing."
+            },
+            {
+                    "id": "E05",
+                    "name": "Pensioenkorting en intergenerationele solidariteit",
+                    "layer": 5,
+                    "needs": [
+                            "E04",
+                            "H01"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe een korting op pensioenuitkeringen de solidariteit tussen jongere premiebetalers en oudere ontvangers beïnvloedt."
+            },
+            {
+                    "id": "E06",
+                    "name": "Voorraad- en stroomgrootheden onderscheiden",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Onderscheid tussen voorraad- en stroomgrootheden."
+            },
+            {
+                    "id": "E07",
+                    "name": "Koop- versus huurlasten vergelijken",
+                    "layer": 5,
+                    "needs": [
+                            "E02",
+                            "H15"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Vergelijk netto woonlasten van kopen en huren door rente, aflossing, onderhoud en huurprijs systematisch tegen elkaar af te zetten."
+            },
+            {
+                    "id": "F01",
+                    "name": "Berovingsprobleem herkennen",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Bij relatiespecifieke investeringen loopt de investerende partij het risico dat de ander na de investering het contract heronderhandelt of verbreekt."
+            },
+            {
+                    "id": "F02",
+                    "name": "Collectief goed classificeren",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Herken collectieve goederen aan hand van excludeerbaarheid en rivaliteit."
+            },
+            {
+                    "id": "F03",
+                    "name": "Dominante strategie",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Dominante strategie is de beste keuze voor een speler ongeacht wat de ander doet."
+            },
+            {
+                    "id": "F04",
+                    "name": "Dominante strategieën in pay-off matrix",
+                    "layer": 2,
+                    "needs": [
+                            "F03"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Identificeer dominante strategieën van beide spelers in een pay-off matrix en bepaal de uitkomst waarbij elke speler zijn dominante strategie kiest."
+            },
+            {
+                    "id": "F05",
+                    "name": "Emissierechten als prikkel",
+                    "layer": 5,
+                    "needs": [
+                            "F07",
+                            "F10"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Verhandelbare emissierechten zetten een prijs op vervuiling, waardoor bedrijven een prikkel krijgen om uitstoot te verminderen of schoner te produceren."
+            },
+            {
+                    "id": "F06",
+                    "name": "Heffing op externe effecten als innovatieprikkel",
+                    "layer": 3,
+                    "needs": [
+                            "F07"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Een heffing op negatieve externe effecten verhoogt de private kosten van vervuilen en geeft bedrijven daarmee een prikkel om te investeren in schonere technologie."
+            },
+            {
+                    "id": "F07",
+                    "name": "Overproductie bij negatieve externe effecten",
+                    "layer": 2,
+                    "needs": [
+                            "F16"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Bij negatieve externe effecten liggen de maatschappelijke kosten hoger dan de private kosten, waardoor de markt meer produceert dan maatschappelijk optimaal is."
+            },
+            {
+                    "id": "F08",
+                    "name": "Verloren surplus door negatieve externe effecten",
+                    "layer": 3,
+                    "needs": [
+                            "F07"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Productie of consumptie voorbij het maatschappelijk optimum leidt tot verloren surplus: het verschil tussen maatschappelijke kosten en baten op de extra eenheden."
+            },
+            {
+                    "id": "F09",
+                    "name": "Gevangenendilemma",
+                    "layer": 2,
+                    "needs": [
+                            "F03"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Situatie waarbij dominante strategie leidt tot suboptimale uitkomst voor beide spelers."
+            },
+            {
+                    "id": "F10",
+                    "name": "Internalisatie van externe effecten",
+                    "layer": 4,
+                    "needs": [
+                            "F07",
+                            "F08"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Door de externe kosten of baten via heffing, subsidie of rechten in de prijs op te nemen, komt de marktuitkomst dichter bij het maatschappelijk optimum."
+            },
+            {
+                    "id": "F11",
+                    "name": "Lumpsum-subsidie bij positieve externe effecten",
+                    "layer": 5,
+                    "needs": [
+                            "F10"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Een lumpsum-subsidie vergoedt de producent voor positieve externe effecten zonder de marginale beslissing te verstoren, zodat een maatschappelijk gewenste activiteit rendabel wordt."
+            },
+            {
+                    "id": "F12",
+                    "name": "Nash-evenwicht in pay-off matrix",
+                    "layer": 2,
+                    "needs": [
+                            "F03"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bepaal het Nash-evenwicht in een pay-off matrix: de uitkomst waarbij geen van beide spelers zijn strategie wil veranderen gegeven de keuze van de ander."
+            },
+            {
+                    "id": "F13",
+                    "name": "Berovingsprobleem op de arbeidsmarkt",
+                    "layer": 2,
+                    "needs": [
+                            "F01"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Pas het berovingsprobleem toe op de arbeidsmarkt: kortere opzegtermijnen verhogen het risico voor werkgevers op relatiespecifieke scholingsinvesteringen, wat loonkosten en investeringsbereidheid beïnvloedt."
+            },
+            {
+                    "id": "F14",
+                    "name": "Concentratie-externaliteiten analyseren",
+                    "layer": 4,
+                    "needs": [
+                            "F08"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe ruimtelijke of sectorale concentratie van economische activiteit negatieve externe effecten versterkt en wanneer ingrijpen maatschappelijk gewenst is."
+            },
+            {
+                    "id": "F15",
+                    "name": "Verzonken kosten negeren in beslissingen",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Verzonken kosten zijn niet terugvorderbare uitgaven uit het verleden en horen geen rol te spelen in toekomstgerichte beslissingen; alleen toekomstige opbrengsten en kosten tellen mee."
+            },
+            {
+                    "id": "F16",
+                    "name": "MPC–MSC en MPB–MSB onderscheiden",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal",
+                            "grafisch"
+                    ],
+                    "desc": "Onderscheid private van sociale marginale kosten/opbrengsten: bij een negatief extern effect is MSC = MPC + externe kost/eenheid, bij een positief extern effect is MSB = MPB + externe baat/eenheid."
+            },
+            {
+                    "id": "F17",
+                    "name": "Over- en onderproductiegap bij externaliteiten",
+                    "layer": 2,
+                    "needs": [
+                            "A06",
+                            "F16"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "grafisch"
+                    ],
+                    "desc": "Bereken de productie-gap tussen marktuitkomst en sociaal optimum: bij negatieve externaliteiten produceert de markt Q_markt > Q_sociaal (overproductie); bij positieve externaliteiten Q_markt < Q_sociaal (onderproductie)."
+            },
+            {
+                    "id": "F18",
+                    "name": "Pigou-heffing en corrigerende subsidie bepalen",
+                    "layer": 3,
+                    "needs": [
+                            "F16",
+                            "F17",
+                            "A41"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal de omvang van de corrigerende overheidsinstrument: een Pigou-heffing gelijk aan de externe kost per eenheid (bij negatieve externaliteiten) of een subsidie gelijk aan de externe baat per eenheid (bij positieve externaliteiten) laat de marktuitkomst samenvallen met het sociaal optimum."
+            },
+            {
+                    "id": "F19",
+                    "name": "Maatschappelijke kosten verbaal herkennen",
+                    "layer": 0,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Herken dat een keuze, productie of consumptie kosten veroorzaakt die niet door de directe gebruiker of producent worden gedragen."
+            },
+            {
+                    "id": "F20",
+                    "name": "Maatschappelijke kosten uitleggen met voorbeeld",
+                    "layer": 1,
+                    "needs": [
+                            "F19"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Geef een contextspecifiek voorbeeld van maatschappelijke of externe kosten en leg uit waarom die kosten bij anderen of de samenleving terechtkomen."
+            },
+            {
+                    "id": "G01",
+                    "name": "Risicoinschatting en averechtse selectie",
+                    "layer": 3,
+                    "needs": [
+                            "G10",
+                            "G02"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Betere risicoinschatting door verzekeraars vermindert informatieasymmetrie en verkleint daardoor averechtse selectie op de verzekeringsmarkt."
+            },
+            {
+                    "id": "G02",
+                    "name": "Averechtse selectie herkennen",
+                    "layer": 2,
+                    "needs": [
+                            "G10"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Herken averechtse selectie als gevolg van informatieasymmetrie op markten."
+            },
+            {
+                    "id": "G03",
+                    "name": "Onderlinge risicopool zonder informatieasymmetrie",
+                    "layer": 2,
+                    "needs": [
+                            "G10"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "In een kleine, vertrouwde risicopool ontbreekt informatieasymmetrie omdat deelnemers elkaars risicoprofiel kennen, waardoor averechtse selectie en moreel wangedrag beperkt blijven."
+            },
+            {
+                    "id": "G04",
+                    "name": "Eigen risico en moral hazard",
+                    "layer": 2,
+                    "needs": [
+                            "G10"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Eigen risico geeft verzekerden een prikkel om voorzichtiger te handelen."
+            },
+            {
+                    "id": "G05",
+                    "name": "Belangentegenstelling in principaal-agentrelatie",
+                    "layer": 2,
+                    "needs": [
+                            "G06"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "In een principaal-agentrelatie verschillen de belangen van principaal en agent, waardoor de agent keuzes kan maken die ten koste gaan van de principaal."
+            },
+            {
+                    "id": "G06",
+                    "name": "Principaal-agentprobleem identificeren",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Identificeer principaal-agentrelaties en de problemen die daaruit voortvloeien."
+            },
+            {
+                    "id": "G07",
+                    "name": "Transactiekosten berekenen en interpreteren",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken de totale transactiekosten van een ruil door zoek-, onderhandel- en controlekosten bij elkaar op te tellen en beoordeel of de ruil na aftrek nog rendabel is."
+            },
+            {
+                    "id": "G08",
+                    "name": "Risicodeling via gemeenschappelijk fonds",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Een gemeenschappelijk fonds vlakt individuele risico's uit door premies te bundelen en kostenverschillen tussen deelnemers te compenseren."
+            },
+            {
+                    "id": "G09",
+                    "name": "Gepersonaliseerde premies ondermijnen solidariteit",
+                    "layer": 2,
+                    "needs": [
+                            "G08"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Premies gebaseerd op individuele risicoprofielen verkleinen de herverdeling tussen lage- en hogerrisicogroepen en ondermijnen zo de solidariteit in een collectieve verzekering."
+            },
+            {
+                    "id": "G10",
+                    "name": "Informatieasymmetrie verzekeringsmarkt",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Informatieongelijkheid tussen verzekeraar en klant kan selectie- en moraalrisicoproblemen veroorzaken."
+            },
+            {
+                    "id": "G11",
+                    "name": "Wisselkoersrisico bij internationale handel",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Bij betalingen in vreemde valuta leidt een ongunstige wisselkoersverandering tussen contractmoment en betalingsmoment tot lagere reële opbrengsten voor de exporteur of hogere kosten voor de importeur."
+            },
+            {
+                    "id": "G12",
+                    "name": "Verzekeringspremie berekenen uit verwachte schade",
+                    "layer": 1,
+                    "needs": [
+                            "A38"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken een verzekeringspremie als verwachte schade (kans × schadebedrag) plus opslag voor administratiekosten en risico-/winstmarge; interpreteer verschillen in premie tussen risicogroepen."
+            },
+            {
+                    "id": "H01",
+                    "name": "AOW-leeftijd als houdbaarheidsinstrument",
+                    "layer": 4,
+                    "needs": [
+                            "E04"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe een hogere AOW-leeftijd via premiegrondslag en uitkeringsduur de houdbaarheid van het AOW-stelsel verbetert bij vergrijzing."
+            },
+            {
+                    "id": "H02",
+                    "name": "AIQ (arbeidsinkomenquote) berekenen",
+                    "layer": 1,
+                    "needs": [
+                            "A02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken de arbeidsinkomenquote: (arbeidsinkomen / nationaal inkomen) x 100%."
+            },
+            {
+                    "id": "H03",
+                    "name": "Armington-elasticiteit en importbeleid",
+                    "layer": 2,
+                    "needs": [
+                            "A15"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de Armington-elasticiteit en beoordeel daarmee hoe sterk importvraag reageert op een prijsverandering van binnenlandse versus buitenlandse varianten."
+            },
+            {
+                    "id": "H04",
+                    "name": "Belastingschijven berekening",
+                    "layer": 1,
+                    "needs": [
+                            "A02"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Belastingdruk bepaald aan hand van marginaal tarief en betreffende schijven."
+            },
+            {
+                    "id": "H05",
+                    "name": "Circulaire economie in groen bbp",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe circulaire productie via minder milieuschade en minder grondstofgebruik het groen bbp per hoofd verhoogt."
+            },
+            {
+                    "id": "H06",
+                    "name": "Totale CO2-uitstoot berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "A06"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken totale milieueffect van marktveranderingen door per-eenheid emissie met hoeveelheid te vermenigvuldigen."
+            },
+            {
+                    "id": "H07",
+                    "name": "Vergrijzing, spaarquote en rente",
+                    "layer": 5,
+                    "needs": [
+                            "H01"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Hogere sparende populatie vergroot kapitaalaanbod, wat de evenwichtsrente drukt."
+            },
+            {
+                    "id": "H08",
+                    "name": "Denivellering en progressieve belasting",
+                    "layer": 2,
+                    "needs": [
+                            "H04"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Denivellering treedt op wanneer belastingveranderingen het verschil in netto-inkomsten tussen inkomensgroepen verkleinen."
+            },
+            {
+                    "id": "H09",
+                    "name": "Kostenvoordeel exporteurs als protectionisme",
+                    "layer": 3,
+                    "needs": [
+                            "H03"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Beargumenteer wanneer een kostenvoordeel voor binnenlandse exporteurs (bv. gratis toegewezen emissierechten) feitelijk werkt als protectionisme tegen buitenlandse concurrenten."
+            },
+            {
+                    "id": "H10",
+                    "name": "Gini-coefficient bij recessie",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Gini-coefficient stijgt tijdens recessie door werkloosheidsconcentratie en toename inkomensongelijkheid."
+            },
+            {
+                    "id": "H11",
+                    "name": "Groen bbp en CO2",
+                    "layer": 3,
+                    "needs": [
+                            "H05",
+                            "H06"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Lagere CO2-uitstoot vergroot groen bbp; minder productie wegens minder emissierechten verkleint het."
+            },
+            {
+                    "id": "H12",
+                    "name": "Houdbaarheidssaldo",
+                    "layer": 5,
+                    "needs": [
+                            "H01"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Het houdbaarheidssaldo geeft aan of overheidsvoorzieningen op lange termijn betaalbaar blijven; stijgende grijze druk verslechtert het saldo."
+            },
+            {
+                    "id": "H13",
+                    "name": "Minimumuurloon: kostenkanaal naar concurrentiepositie",
+                    "layer": 4,
+                    "needs": [
+                            "D13"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Redeneer via het kostenkanaal hoe een hoger minimumuurloon de internationale concurrentiepositie kan verslechteren."
+            },
+            {
+                    "id": "H14",
+                    "name": "Minimumuurloon: vraagkanaal naar bbp-groei",
+                    "layer": 2,
+                    "needs": [
+                            "I14"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Redeneer via het bestedingskanaal hoe een hoger minimumuurloon de consumptie en daarmee de bbp-groei kan verhogen."
+            },
+            {
+                    "id": "H15",
+                    "name": "Nominale rente op staatsobligaties verklaren",
+                    "layer": 4,
+                    "needs": [
+                            "H30",
+                            "H31"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Verklaar bewegingen in de nominale rente op staatsobligaties vanuit vraag-en-aanbod op de obligatiemarkt en risicoperceptie."
+            },
+            {
+                    "id": "H16",
+                    "name": "Soepeler ontslagrecht en werkgeversrisico",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe versoepeling van ontslagrecht het aannamerisico voor werkgevers verlaagt en het effect op werkgelegenheid beredeneer."
+            },
+            {
+                    "id": "H17",
+                    "name": "Arbeidsproductiviteit, werkgelegenheid en lange termijn",
+                    "layer": 5,
+                    "needs": [
+                            "H13"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Onderscheid het korte-termijn werkgelegenheidseffect van productiviteitsverhogende investeringen van het lange-termijn concurrentie-effect."
+            },
+            {
+                    "id": "H18",
+                    "name": "Progressief tarief berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "H04"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken totale belasting bij progressieve tarieven en analyseer stimulansen."
+            },
+            {
+                    "id": "H19",
+                    "name": "Publiek kapitaal en staatsschuldquote",
+                    "layer": 2,
+                    "needs": [
+                            "H21"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe investeringen in publiek kapitaal op lange termijn staatsschuldquote kunnen verlagen."
+            },
+            {
+                    "id": "H20",
+                    "name": "Spaarsaldo en betalingsbalans",
+                    "layer": 2,
+                    "needs": [
+                            "H21"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Interpreteer positieve en negatieve particuliere spaarsalda."
+            },
+            {
+                    "id": "H21",
+                    "name": "Staatsschuldquote berekenen",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken staatsschuldquote = staatsschuld / bbp x 100% en bepaal drempels voor duurzaamheid."
+            },
+            {
+                    "id": "H22",
+                    "name": "Belastingtariefaanpassing en secundaire inkomenseffecten",
+                    "layer": 3,
+                    "needs": [
+                            "H04",
+                            "H08"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe een wijziging in belastingtarieven via veranderd besteedbaar inkomen de vraag en daarmee secundaire inkomenseffecten oproept."
+            },
+            {
+                    "id": "H23",
+                    "name": "Belastingwig en uitverdieneffect op arbeidsaanbod",
+                    "layer": 3,
+                    "needs": [
+                            "H18"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe een hogere belastingwig via het substitutie-effect het arbeidsaanbod verkleint (uitverdieneffect)."
+            },
+            {
+                    "id": "H24",
+                    "name": "Wisselkoers en depreciatie",
+                    "layer": 1,
+                    "needs": [
+                            "A38"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken wisselkoerseffecten van depreciatie en leg uit hoe deze reële inkomens beïnvloeden."
+            },
+            {
+                    "id": "H25",
+                    "name": "Wisselkoers, export en bbp-groei",
+                    "layer": 2,
+                    "needs": [
+                            "H24"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe een depreciatie van de wisselkoers via goedkopere export tot hogere bbp-groei kan leiden."
+            },
+            {
+                    "id": "H27",
+                    "name": "Productiefunctie Y = A·f(K, L) toepassen",
+                    "layer": 6,
+                    "needs": [
+                            "H17"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Pas de productiefunctie Y = A·f(K, L) toe: verklaar hoe groei in kapitaal K, arbeid L en totale factorproductiviteit A bijdraagt aan lange-termijn productie; herken afnemend grensproduct wanneer K óf L alleen toeneemt."
+            },
+            {
+                    "id": "H28",
+                    "name": "Betalingsbalans: saldo lopende rekening",
+                    "layer": 2,
+                    "needs": [
+                            "H24"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bereken het saldo op de lopende rekening van de betalingsbalans uit netto-export (goederen + diensten), primair inkomen (netto-factorinkomen uit buitenland) en secundair inkomen (overdrachten); interpreteer een overschot als binnenlandse besparingen > investeringen."
+            },
+            {
+                    "id": "H29",
+                    "name": "Obligatie als verhandelbaar schuldpapier",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Benoem wat een obligatie is — een verhandelbaar schuldpapier met vaste nominale waarde, couponrente en looptijd — en onderscheid de primaire markt (emissie/veiling door de uitgever) van de secundaire markt (handel tussen beleggers)."
+            },
+            {
+                    "id": "H30",
+                    "name": "Vraag en aanbod op de obligatiemarkt",
+                    "layer": 2,
+                    "needs": [
+                            "H29",
+                            "D32"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe vraag en aanbod op de secundaire obligatiemarkt samen de obligatiekoers bepalen. Noem de drie belangrijkste demand-shifters (risicoperceptie, alternatieve rendementen, inflatieverwachting) en de belangrijkste supply-shifter (nieuwe uitgiften door overheid of bedrijven)."
+            },
+            {
+                    "id": "H31",
+                    "name": "Inverse relatie obligatiekoers en rente",
+                    "layer": 3,
+                    "needs": [
+                            "H29",
+                            "H30"
+                    ],
+                    "aspects": [
+                            "verbaal",
+                            "rekenen"
+                    ],
+                    "desc": "Leg uit dat obligatiekoers en effectief rendement omgekeerd bewegen: bij gelijke couponstroom betekent een hogere aankoopkoers een lager effectief rendement, en omgekeerd."
+            },
+            {
+                    "id": "I01",
+                    "name": "Anticyclisch begrotingsbeleid",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Beschrijf hoe de overheid in laagconjunctuur bestedingen verhoogt of belastingen verlaagt en in hoogconjunctuur het omgekeerde doet om de conjunctuurcyclus af te vlakken."
+            },
+            {
+                    "id": "I02",
+                    "name": "Automatische stabilisatoren via inkomensoverdrachten",
+                    "layer": 2,
+                    "needs": [
+                            "I01"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe inkomensoverdrachten zoals WW en bijstand automatisch meebewegen met de conjunctuur en zo de bestedingen stabiliseren zonder nieuw beleid."
+            },
+            {
+                    "id": "I03",
+                    "name": "Renteongevoeligheid van investeringen bij ondergrens",
+                    "layer": 6,
+                    "needs": [
+                            "I17"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit waarom bedrijfsinvesteringen beperkt reageren op renteverlagingen als de vraag laag is of de effectieve ondergrens nominale rente nadert."
+            },
+            {
+                    "id": "I04",
+                    "name": "CAO-looptijd en loonrigiditeit",
+                    "layer": 4,
+                    "needs": [
+                            "L19"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe langere CAO-looptijden loonaanpassingen vertragen en daarmee de flexibiliteit van de arbeidsmarkt en de effectiviteit van conjunctuurbeleid beïnvloeden."
+            },
+            {
+                    "id": "I05",
+                    "name": "Rentebesluit van centrale bank",
+                    "layer": 6,
+                    "needs": [
+                            "I17",
+                            "I07"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Bepaal op basis van inflatie, outputgap en duaal mandaat of een centrale bank de beleidsrente verhoogt, verlaagt of constant houdt."
+            },
+            {
+                    "id": "I06",
+                    "name": "Deflatiespiraal",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe dalende prijzen consumenten en bedrijven aanzetten tot uitstel van bestedingen en investeringen, waardoor de laagconjunctuur zichzelf versterkt."
+            },
+            {
+                    "id": "I07",
+                    "name": "IS-MB-GA-model: outputgap en inflatie",
+                    "layer": 5,
+                    "needs": [
+                            "I10",
+                            "I14"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer met het IS-MB-GA-model hoe een schok via outputgap en inflatie doorwerkt op rente, bbp en prijsniveau."
+            },
+            {
+                    "id": "I08",
+                    "name": "Keynesiaans kruis: verschuivingen analyseren",
+                    "layer": 2,
+                    "needs": [
+                            "I14"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe een verandering in autonome bestedingen (C, I, G of X−M) de geplande bestedingen verschuift en via de multiplier een nieuw evenwicht op Y = bestedingen oplevert."
+            },
+            {
+                    "id": "I09",
+                    "name": "Koopkrachtbehoud bij inflatie berekenen",
+                    "layer": 1,
+                    "needs": [
+                            "A02"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de nominale loon- of uitkeringsstijging die nodig is om de koopkracht gelijk te houden bij een gegeven inflatiepercentage."
+            },
+            {
+                    "id": "I10",
+                    "name": "Loonrigiditeit en helling GA-curve",
+                    "layer": 4,
+                    "needs": [
+                            "L19"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe starre lonen leiden tot een vlakkere GA-curve op korte termijn en hoe flexibele lonen de curve steiler maken."
+            },
+            {
+                    "id": "I11",
+                    "name": "Monetair beleid: starre versus flexibele arbeidsmarkt",
+                    "layer": 7,
+                    "needs": [
+                            "I10",
+                            "I05"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "verbaal"
+                    ],
+                    "desc": "Vergelijk het effect van een renteverlaging op bbp en prijsniveau tussen een starre en een flexibele arbeidsmarkt en verklaar het verschil via de helling van de GA-curve."
+            },
+            {
+                    "id": "I12",
+                    "name": "Wisselkoerskanaal van rentebeleid",
+                    "layer": 6,
+                    "needs": [
+                            "I17",
+                            "I20"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe een renteverlaging via kapitaaluitstroom leidt tot depreciatie van de valuta en daarmee de exportcompetitiviteit vergroot."
+            },
+            {
+                    "id": "I13",
+                    "name": "Monetair trilemma",
+                    "layer": 7,
+                    "needs": [
+                            "I12"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer waarom een land hooguit twee van de drie doelen — vaste wisselkoers, vrij kapitaalverkeer en zelfstandig rentebeleid — tegelijk kan bereiken."
+            },
+            {
+                    "id": "I14",
+                    "name": "Multiplier en lekkages",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe een toename van autonome bestedingen via de multiplier een groter inkomenseffect oproept en hoe belastingen, spaarneiging en import als lekkages de multiplier verkleinen."
+            },
+            {
+                    "id": "I15",
+                    "name": "Outputgap bij vraag- en aanbodschokken",
+                    "layer": 6,
+                    "needs": [
+                            "I07",
+                            "I14"
+                    ],
+                    "aspects": [
+                            "grafisch",
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Analyseer hoe een positieve of negatieve vraag- of aanbodschok de feitelijke productie ten opzichte van het potentieel bbp verschuift en een output gap veroorzaakt."
+            },
+            {
+                    "id": "I16",
+                    "name": "Overheidssaldo en conjunctuur",
+                    "layer": 2,
+                    "needs": [
+                            "H21"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe belastingontvangsten en overheidsuitgaven samen het overheidssaldo bepalen en hoe dit saldo met de conjunctuur meebeweegt."
+            },
+            {
+                    "id": "I17",
+                    "name": "Rentebeleid en transmissiemechanisme",
+                    "layer": 5,
+                    "needs": [
+                            "H15"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe een renteverhoging via duurder krediet consumptie en investeringen afremt en hoe een renteverlaging deze bestedingen stimuleert."
+            },
+            {
+                    "id": "I18",
+                    "name": "Reële waarde van nominaal eigen risico",
+                    "layer": 2,
+                    "needs": [
+                            "I09"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe inflatie de reële last van een nominaal vast eigen risico verlaagt en waarom herziening nodig is om het beleidsdoel vast te houden."
+            },
+            {
+                    "id": "I19",
+                    "name": "Wisselkoerseffect van monetair beleid op conjunctuur",
+                    "layer": 7,
+                    "needs": [
+                            "I12",
+                            "H24"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit hoe rentebeleid via de wisselkoers de netto export verandert en zo de binnenlandse conjunctuur beïnvloedt."
+            },
+            {
+                    "id": "I20",
+                    "name": "Internationale kapitaalmobiliteit en rentepariteit",
+                    "layer": 2,
+                    "needs": [
+                            "H24"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit waarom een relatief hogere binnenlandse rente buitenlands kapitaal aantrekt en een relatieve renteverlaging kapitaal doet wegvloeien; deze kapitaalbewegingen drijven via vraag en aanbod op de valutamarkt de wisselkoers."
+            },
+            {
+                    "id": "L01",
+                    "name": "Waarde marginaal product (VMP)",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken VMP = marginaal product × prijs per eenheid output uit een tabel met aflopende marginale productiviteit, en gebruik VMP als grens voor de individuele arbeidsvraag."
+            },
+            {
+                    "id": "L02",
+                    "name": "Inhuurregel VMP ≥ W",
+                    "layer": 2,
+                    "needs": [
+                            "L01"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bepaal hoeveel werkenden een werkgever aanneemt door VMP per werkende met het loon W te vergelijken: neem aan zolang VMP ≥ W, stop zodra VMP < W."
+            },
+            {
+                    "id": "L03",
+                    "name": "Afgeleide vraag (derived demand)",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit waarom de vraag naar arbeid een afgeleide vraag is: werkgevers vragen arbeid omdat consumenten de eindproducten willen kopen, niet omdat arbeid zelf gewenst is."
+            },
+            {
+                    "id": "L04",
+                    "name": "Arbeidsvraagcurve tekenen uit VMP",
+                    "layer": 2,
+                    "needs": [
+                            "L01"
+                    ],
+                    "aspects": [
+                            "grafisch"
+                    ],
+                    "desc": "Teken de individuele arbeidsvraagcurve van een werkgever door VMP per werkende op de verticale as en de werknemersrij op de horizontale as uit te zetten; het resultaat is de dalende VMP-curve."
+            },
+            {
+                    "id": "L05",
+                    "name": "Beroepsbevolking, niet-beroepsbevolking, werkloze beroepsbevolking",
+                    "layer": 1,
+                    "needs": [],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Definieer beroepsbevolking (iedereen van 15–75 die werkt of werk zoekt), niet-beroepsbevolking (wel die leeftijd maar werkt niet en zoekt geen werk) en werkloze beroepsbevolking (zoekt werk, heeft nog geen baan)."
+            },
+            {
+                    "id": "L06",
+                    "name": "Bruto participatiegraad berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "L05"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken de bruto participatiegraad = beroepsbevolking / bevolking 15–75 × 100, en interpreteer het resultaat als het percentage dat actief is op de arbeidsmarkt."
+            },
+            {
+                    "id": "L07",
+                    "name": "Werkloosheidspercentage berekenen",
+                    "layer": 2,
+                    "needs": [
+                            "L05"
+                    ],
+                    "aspects": [
+                            "rekenen"
+                    ],
+                    "desc": "Bereken het werkloosheidspercentage = werkloze beroepsbevolking / beroepsbevolking × 100; de noemer is de beroepsbevolking, niet de totale bevolking."
+            },
+            {
+                    "id": "L08",
+                    "name": "Effect van loonstijging op participatiegraad",
+                    "layer": 3,
+                    "needs": [
+                            "L05",
+                            "L06"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit dat een aanhoudende loonstijging mensen uit de niet-beroepsbevolking kan trekken naar de beroepsbevolking, waardoor de participatiegraad stijgt."
+            },
+            {
+                    "id": "L09",
+                    "name": "Krappe versus ruime arbeidsmarkt",
+                    "layer": 2,
+                    "needs": [
+                            "L05"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Herken een krappe arbeidsmarkt (arbeidsvraag > arbeidsaanbod, oplopende lonen) versus een ruime arbeidsmarkt (arbeidsaanbod > arbeidsvraag, dalende lonen en oplopende werkloosheid)."
+            },
+            {
+                    "id": "L10",
+                    "name": "Arbeidsmarktevenwicht als transfer van goederenmarkt",
+                    "layer": 2,
+                    "needs": [
+                            "A02",
+                            "A04",
+                            "A06"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "grafisch"
+                    ],
+                    "desc": "Pas het goederenmarkt-evenwichtsraamwerk toe op de arbeidsmarkt door W voor P en werkenden voor Q te substitueren; los Qa = Qv op voor W* en bereken de evenwichtswerkgelegenheid."
+            },
+            {
+                    "id": "L11",
+                    "name": "Conjuncturele werkloosheid",
+                    "layer": 2,
+                    "needs": [
+                            "L05"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Definieer conjuncturele werkloosheid als werkloosheid door tekortschietende bestedingen tijdens laagconjunctuur; verdwijnt als de economie herstelt."
+            },
+            {
+                    "id": "L12",
+                    "name": "Structurele werkloosheid",
+                    "layer": 2,
+                    "needs": [
+                            "L05"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Definieer structurele werkloosheid als werkloosheid door blijvende mismatch tussen vaardigheden en vraag (bijvoorbeeld door automatisering of sectorverschuiving); blijft bestaan zonder gericht beleid."
+            },
+            {
+                    "id": "L13",
+                    "name": "Frictiewerkloosheid",
+                    "layer": 2,
+                    "needs": [
+                            "L05"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Definieer frictiewerkloosheid als kortdurende werkloosheid tijdens het zoeken naar een nieuwe baan; is normaal en zelfs gezond op een dynamische arbeidsmarkt."
+            },
+            {
+                    "id": "L14",
+                    "name": "Werkloosheid classificeren uit context",
+                    "layer": 3,
+                    "needs": [
+                            "L11",
+                            "L12",
+                            "L13"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Classificeer een werkloosheidssituatie als conjunctureel, structureel of frictioneel op basis van de oorzaak (bestedingstekort, skills-mismatch, of tussen-banen-zoektijd)."
+            },
+            {
+                    "id": "L15",
+                    "name": "Beleidsinstrument koppelen aan type werkloosheid",
+                    "layer": 4,
+                    "needs": [
+                            "L14"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Koppel het juiste beleidsinstrument aan elk type werkloosheid: fiscale stimulus voor conjunctureel, herscholing/onderwijs voor structureel, vacaturebemiddeling voor frictioneel."
+            },
+            {
+                    "id": "L16",
+                    "name": "Werknemers- en werkgeverssurplus bij minimumloon",
+                    "layer": 4,
+                    "needs": [
+                            "A02",
+                            "A04",
+                            "A06",
+                            "A10",
+                            "A19",
+                            "L10"
+                    ],
+                    "aspects": [
+                            "rekenen",
+                            "grafisch"
+                    ],
+                    "desc": "Bereken werknemerssurplus (arbeidsmarkt-CS) en werkgeverssurplus (arbeidsmarkt-PS) voor en na invoering van een minimumloon; identificeer welvaartsverlies als de \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"verloren driehoek\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" bij W_min > W*."
+            },
+            {
+                    "id": "L17",
+                    "name": "CAO als bindende loonafspraak",
+                    "layer": 4,
+                    "needs": [
+                            "D16"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Leg uit dat een CAO (collectieve arbeidsovereenkomst) dat lonen boven het evenwichtsloon afspreekt werkt als een bindend minimumloon voor de gehele sector, met werkloosheid als gevolg."
+            },
+            {
+                    "id": "L18",
+                    "name": "Voordelen en nadelen van vakbonden",
+                    "layer": 5,
+                    "needs": [
+                            "L17"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Noem voordelen van vakbonden voor werkenden (hogere lonen, betere voorwaarden, collectieve onderhandelingsmacht) en nadelen (hogere loonkosten voor werkgevers, lagere werkgelegenheid, insiders vs outsiders)."
+            },
+            {
+                    "id": "L19",
+                    "name": "Loonstarheid",
+                    "layer": 3,
+                    "needs": [
+                            "L09"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Definieer loonstarheid als de neiging van lonen om traag (vooral omlaag) aan te passen aan veranderingen in arbeidsmarkt-omstandigheden, met als gevolg persistente werkloosheid na een negatieve schok."
+            },
+            {
+                    "id": "L20",
+                    "name": "Loonflexibiliteit versus actief arbeidsmarktbeleid",
+                    "layer": 4,
+                    "needs": [
+                            "L19"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Vergelijk twee beleidsreacties op werkloosheid: verlagen van de loonvloer (wacht op loondaling) versus actief arbeidsmarktbeleid (herscholing, bemiddeling); beoordeel op effectiviteit per type werkloosheid."
+            },
+            {
+                    "id": "L21",
+                    "name": "Standpuntbepaling minimumloon",
+                    "layer": 5,
+                    "needs": [
+                            "L16"
+                    ],
+                    "aspects": [
+                            "verbaal"
+                    ],
+                    "desc": "Schrijf een beoordeel-antwoord over het minimumloon dat beide kanten benoemt: hogere lonen voor wie nog werk heeft versus werkloosheid voor wie uitgeprijsd wordt; onderbouw met surplus-berekeningen."
             }
     ];
     var GENERATOR_BLOCKED_SKILLS = [
+            {
+                    "id": "A20",
+                    "name": "Winstmaximum oplossen met afgeleide MO en MK",
+                    "generator": "GEN_A20",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
             {
                     "id": "A45",
                     "name": "P-Q grafiek tekenen uit tabel",
@@ -2256,6 +5414,20 @@
                     "studentFacingSkilltreeUseAllowed": false
             },
             {
+                    "id": "A80",
+                    "name": "Noem of geef-aan antwoord geven",
+                    "generator": "GEN_A80",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A81",
+                    "name": "Bron gebruiken in een antwoord",
+                    "generator": "GEN_A81",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
                     "id": "A82",
                     "name": "Elasticiteit berekenen uit tabelwaarden",
                     "generator": "GEN_A82",
@@ -2275,6 +5447,104 @@
                     "generator": "GEN_A84",
                     "status": "missing_generator_implementation",
                     "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A85",
+                    "name": "Totale opbrengst puntberekening: TO = P x Q",
+                    "generator": "GEN_A85",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A86",
+                    "name": "TVK berekenen uit constante variabele kosten",
+                    "generator": "GEN_A86",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A87",
+                    "name": "Onbekende vaste kosten berekenen uit winstvergelijking",
+                    "generator": "GEN_A87",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A88",
+                    "name": "Schaalfactoren in examencijfers toepassen",
+                    "generator": "GEN_A88",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A89",
+                    "name": "GO herkennen als prijsfunctie van de monopolist",
+                    "generator": "GEN_A89",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A90",
+                    "name": "MO bepalen uit lineaire GO-regel zonder afgeleiden",
+                    "generator": "GEN_A90",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A91",
+                    "name": "MO = gegeven MK oplossen",
+                    "generator": "GEN_A91",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A92",
+                    "name": "Nieuwe prijs bepalen na winstmaximaliserende Q",
+                    "generator": "GEN_A92",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A93",
+                    "name": "Procentuele prijsverandering na kostenverandering",
+                    "generator": "GEN_A93",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A94",
+                    "name": "MO = P en afgeleide MK oplossen",
+                    "generator": "GEN_A94",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A96",
+                    "name": "Bereken-vraag beantwoorden",
+                    "generator": "GEN_A96",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A97",
+                    "name": "Leg-uit-dat antwoord opbouwen",
+                    "generator": "GEN_A97",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A98",
+                    "name": "Leg-uit-of antwoord opbouwen",
+                    "generator": "GEN_A98",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
+            },
+            {
+                    "id": "A99",
+                    "name": "Leg uit met voorbeeld beantwoorden",
+                    "generator": "GEN_A99",
+                    "status": "missing_generator_implementation",
+                    "studentFacingSkilltreeUseAllowed": false
             }
     ];
 
@@ -2290,6 +5560,7 @@
 
     return {
         SKILLS: SKILLS,
+        ROUTE_SKILLS: ROUTE_SKILLS,
         GENERATOR_BLOCKED_SKILLS: GENERATOR_BLOCKED_SKILLS,
         LAYER_NAMES: LAYER_NAMES,
         LAYER_COLORS: LAYER_COLORS,
