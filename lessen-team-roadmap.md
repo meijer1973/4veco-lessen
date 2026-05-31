@@ -35,6 +35,7 @@ GATE-MTU-H4 (closed PASS WITH CONDITIONS for routing only)
 -> GAME-UX-3A (closed shared task-shell foundation)
 -> ENGINE-OP-1 (closed operational proof audit with flags)
 -> SKILLMAP-OP-1 (closed student-visible route)
+-> LEAD-REVIEW-1 (closed process repair)
 -> GRAPH-UX-2 (active next)
 -> MATH-UX-2
 -> REASON-UX-2
@@ -119,6 +120,7 @@ remains in the "Sprint Details" section further down.
 
 | Sprint | Name | Closed | One-line summary |
 |--------|------|--------|-------|
+| LEAD-REVIEW-1 | Lead-Review Protocol Repair | 2026-05-31 | Closed PASS WITH FLAGS. Platform repaired sprint lead-review enforcement, proved future human gates fail without pre-human-gate lead-review metadata, and ran real lead-reviewer-agent audits for the recent non-MTU/non-human-gated sprint bundles while excluding MTU human-gated sprints by explicit user direction. |
 | SPEC-ET-1 | Exit Ticket Target-Equivalent Specification Correction | 2026-05-29 | Closed PASS. Corrected product and companion specs so exit tickets are target-equivalent proof tasks, added completion-language hierarchy, strengthened exam-ingestion route trace, and updated the pre-scale roadmap rows. |
 | SPEC-END-STATE | Product End-State Specification Canonicalization | 2026-05-26 | Closed PASS. Created `specifications/product-end-state.md` as the canonical end-state baseline and linked it from lesson/platform operating docs, the companion spec, roadmap, and repository maps. |
 | L1.7C-MATH | Restore Skill-Tree Math Game + Four-Game Architecture Integrity | 2026-05-26 | Closed PASS WITH FLAGS after focused recheck. Scoped `wiskundevaardigheden.html` is restored as primary `Rekenen` for `1.1.2` and `1.1.3`; `stappenplan.html` remains `Rekenstappen` support; `Volgende: A39`-style ID leakage is fixed. |
