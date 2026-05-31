@@ -33,6 +33,13 @@ consequences.
   request. Consequence: future exit-ticket work must prove same-level
   operation-chain and answer-form coverage before local paragraph-completion
   language is allowed.
+- 2026-05-31: clarified that advisory short checks remain part of the
+  intended product route but are separate from target-equivalent exit tickets.
+  Affected surface: checkpoint/check route, next-step advice, shared task-type
+  shell, exit-ticket semantics, and Scale Gate proof. Approval route:
+  GAME-ARCH-1 architecture decision sprint at human request. Consequence:
+  short checks may provide local route advice, but they are not a
+  target-equivalent proof and may not replace the separate exit ticket.
 
 ## End-State Sentence
 
@@ -110,6 +117,13 @@ target-equivalent exit tickets, and checkpoint-only local checks. Reasoning
 practice may use the same shell where constructed response, structured
 reasoning, feedback, or self-check behavior overlaps.
 
+Advisory short checks are also part of the end-state route. They are light,
+local checks that help a student decide what to do next: practise a named
+skill, use a named game, proceed to the exit ticket, or continue for now while
+revisiting a weak skill later. A short check is not a target-equivalent proof,
+not a grade, not a diagnostic classification, not an automatic sequence
+decision, and not a paragraph-completion claim.
+
 Engine architecture is product progress only when a student can see the route,
 practise the right task through the right interaction, receive useful local
 feedback, and understand what to do next. Architecture-only proof is not enough
@@ -147,10 +161,16 @@ response, or checkpoint tasks ask students to perform the same kind of action.
 
 ### Check
 
-The exit ticket is not merely a short quiz. Its product purpose is to check
-the same target-exercise operation chain at the same cognitive level, using
-answer forms that match the paragraph target exercise. It is the paragraph
-target-equivalent proof task.
+The route may include advisory short checks before the exit ticket. A short
+check answers: "How is this going, and what should I do next?" It may give
+local, non-binding advice such as practising a named game, going to the exit
+ticket, or continuing for now while revisiting a named weak skill later. It may
+not claim that the student has proven the paragraph target exercise.
+
+The exit ticket is not merely a short quiz and is separate from the short
+check. Its product purpose is to check the same target-exercise operation chain
+at the same cognitive level, using answer forms that match the paragraph
+target exercise. It is the paragraph target-equivalent proof task.
 
 If the student completes the exit ticket correctly, the product may say that
 the student has demonstrated they can complete the paragraph target exercise or

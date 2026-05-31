@@ -69,6 +69,13 @@ specification unless the missing work is assigned to a named follow-up sprint.
   Consequence: target-equivalent completion language is allowed only after a
   reviewed same-level operation-chain and answer-form proof; checkpoint-only
   surfaces keep local check-completion copy.
+- 2026-05-31: clarified advisory short checks as a retained companion surface
+  separate from the target-equivalent exit ticket. Affected surface: Check
+  route, short-check advice, task-shell reuse, exit-ticket semantics, and Scale
+  Gate proof. Approval route: GAME-ARCH-1 architecture decision sprint at
+  human request. Consequence: short checks may provide local, non-binding
+  route advice but may not claim target-equivalent proof or replace the
+  separate exit ticket.
 
 ## Global Product Rules
 
@@ -246,12 +253,41 @@ The shell should become the foundation for:
   final answer, percentage/index notation, and units;
 - reasoning tasks when structured short response and feedback are needed.
 
+## Advisory Short-Check Specification
+
+The short check is a retained companion surface. It is not the
+target-equivalent exit ticket.
+
+Purpose:
+
+- offer a low-pressure local check during or near the end of a lesson route;
+- tell the student what local next action is useful;
+- recommend a named practice route, game, or skill when something is weak;
+- recommend going to the target-equivalent exit ticket when the local evidence
+  is strong enough;
+- give proceed-for-now advice only as non-binding route guidance, never as an
+  automatic sequencing or proof decision.
+
+Allowed short-check advice may include:
+
+- `Oefen nog met [spel of vaardigheid].`
+- `Ga door naar de exit-ticket-check.`
+- `Je kunt voorlopig verder, maar herhaal [vaardigheid] later nog.`
+- `Je kunt voorlopig door naar de volgende paragraaf, maar oefen
+  [vaardigheid] later nog.`
+
+Short-check advice must remain local and non-binding. It may not claim that
+the paragraph target exercise has been proven, may not set
+target-equivalent proof evidence, and may not authorize a grade, diagnostic
+classification, automatic sequence, permanent mastery, summative pass/fail,
+student-facing AI decision, PV projection, or broad scale evidence.
+
 ## Exit-Ticket Specification
 
 The exit ticket is not merely a short quiz. Its product purpose is to check
 the same target-exercise operation chain at the same cognitive level, using
 answer forms that match the paragraph target exercise. It is the paragraph
-target-equivalent proof task.
+target-equivalent proof task. It is separate from the advisory short check.
 
 Non-negotiable requirements:
 
@@ -288,6 +324,10 @@ Allowed completion language depends on evidence:
 
 - Checkpoint-only output may say:
   - `Je hebt deze check afgerond.`
+- Advisory short-check output may say, after reviewed copy rules:
+  - `Oefen nog met [spel of vaardigheid].`
+  - `Ga door naar de exit-ticket-check.`
+  - `Je kunt voorlopig verder, maar herhaal [vaardigheid] later nog.`
 - Target-equivalent exit-ticket output approved by `GATE-L1.7B-Q2` may say:
   - `Je hebt laten zien dat je de eindopgave van deze paragraaf aankunt.`
   - `Je kunt nu door naar de eindopgave.`
@@ -296,7 +336,8 @@ Allowed completion language depends on evidence:
 Prohibited language unless a later explicit gate authorizes it:
 
 - `Je beheerst deze paragraaf.`
-- `Je mag door naar de volgende paragraaf.`
+- `Je mag door naar de volgende paragraaf.` as an automatic sequence,
+  permission, unlock, or proof claim;
 - grade or cijfer;
 - permanent mastery;
 - automatic sequencing across paragraphs;

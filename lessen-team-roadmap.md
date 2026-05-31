@@ -292,10 +292,12 @@ placement, graph-construction substitute, and structured reasoning. This
 closes runtime foundation only. ENGINE-OP-1 has since proved that current
 generated output does not yet use the shell; SKILLMAP-OP-1 has since made the
 shared route visible and scoped, GRAPH-UX-2 has integrated the shell into live
-graph/table output, and MATH-UX-2 has integrated the shell into live
-calculation/index output. GAME-ARCH-1 is now the next dependency before
-`GATE-ENGINE-1`, `L1.7B-Q2`, `GATE-L1.7B-Q2`, or Scale Gate 1 rely on the
-shared task shell and route system.
+graph/table output, MATH-UX-2 has integrated the shell into live
+calculation/index output, REASON-UX-2 has integrated the shell into reasoning
+output, and GAME-ARCH-1 has closed the build-vs-rebuild decision. GAME-ARCH-2
+is now the next dependency before `GATE-ENGINE-1`, `L1.7B-Q2`,
+`GATE-L1.7B-Q2`, or Scale Gate 1 rely on the shared task shell and route
+system.
 
 Updated: 2026-05-31 (ENGINE-OP-1 close) - Platform ENGINE-OP-1 completed the
 four-engine operational proof audit with screenshots, a screenshot manifest,
@@ -305,9 +307,23 @@ output does not yet use the GAME-UX-3A task shell, `1.1.2` and `1.1.3` still
 have no target-equivalent checkpoint route, and several shared skill-map route
 panels are empty or mis-scoped. SKILLMAP-OP-1 has since closed route-visibility
 proof, GRAPH-UX-2 has since closed graph/table task-shell integration, and
-MATH-UX-2 has since closed math/calculation task-shell integration. Active next sprint is GAME-ARCH-1. No target-equivalent completion
+MATH-UX-2 has since closed math/calculation task-shell integration. GAME-ARCH-1 has since closed. Active next sprint is GAME-ARCH-2. No target-equivalent completion
 claim, Scale Gate 1, diagnostics, adaptive routing, mastery/sequencing,
 summative use, AI, PV, or product use is authorized.
+
+Updated: 2026-05-31 (GAME-ARCH-1 close) - Platform GAME-ARCH-1 completed the
+no-generated-output architecture decision sprint after lead-review round 2 PASS. Decision: keep and harden
+the shared skill-map route, keep the shared task shell as core architecture,
+keep/refactor the graph UI direction as the reference pattern, refactor math
+around target-exercise operation chains, refactor reasoning around answer-form
+and constructed-response standards, keep the short check as an advisory local
+checkpoint, and keep the target-equivalent exit ticket separate as a later
+proof task. GAME-ARCH-2 is the required integrated practice-engine
+architecture plan before GATE-ENGINE-1. GATE-ENGINE-1 must inspect live rendered output and explicitly decide
+keep/refactor/rebuild/hold for each component. No generated lesson output,
+target-equivalent completion claim, Scale Gate 1, diagnostics, adaptive
+routing, mastery/sequencing, summative use, AI, PV, or product use is
+authorized.
 
 Updated: 2026-05-26 (product end-state canonicalization) - Added `SPEC-END-STATE` and created `specifications/product-end-state.md` as the canonical product north star outside the active roadmap. The end-state sentence is now fixed: for every paragraph, 4veco gives the student a visible route from current readiness to target-exercise readiness. Future exit-ticket, game-row, exam-ingestion, review-standard, and Scale Gate work must cite this baseline and may not use restricted scope-language to weaken the full product specification.
 
@@ -3063,38 +3079,70 @@ Gate 1, or student/product use was authorized.
 
 ### Sprint GAME-ARCH-1: Practice Engine Build-vs-Rebuild Decision
 
-Completed: no. Status: required before GATE-ENGINE-1 can authorize scale.
+Completed: yes. Status: closed as a no-generated-output decision sprint.
 
 Position: after ENGINE-OP-1 has audited the live route and before committing to
 broad refactor or replacement work.
 
 Purpose:
 
-Compare continuing refactor against rebuilding practice engines around one
-shared task shell and one shared skill-map route. The decision must evaluate
-duplicated UI, state drift, inaccessible skill-map behavior, internal-code
-leakage, weak feedback, and inability to support target-exercise operation
-chains.
+Decision: keep and harden the shared skill-map route, keep the shared task
+shell as core architecture, keep/refactor the graph UI direction as the
+reference pattern, refactor math around target-exercise operation chains,
+refactor reasoning around answer-form and constructed-response standards, keep
+the short check as an advisory local checkpoint, and keep the
+target-equivalent exit ticket separate as a later proof task.
 
 Exit criteria:
 
-- decision record names refactor, rebuild, or pause
-- if rebuild is recommended, a later implementation plan must define ownership,
-  migration, validation, screenshot QA, and product-boundary checks before any
-  code replacement starts
+- decision record names keep/refactor/rebuild/hold per component
+- GAME-ARCH-2 must define ownership, migration, validation, screenshot QA,
+  short-check advice rules, target-operation coverage, and product-boundary
+  checks before any code replacement starts
+
+### Sprint GAME-ARCH-2: Integrated Practice Engine Architecture Plan
+
+Completed: no. Status: required before GATE-ENGINE-1 can authorize scale.
+
+Position: after GAME-ARCH-1; before GATE-ENGINE-1 and before L1.7B-Q2 relies
+on the shared engine architecture.
+
+Purpose:
+
+Produce the canonical architecture for shared route layer, shared task shell,
+graph/table module, math/calculation module, reasoning module, advisory short
+check, and target-equivalent checkpoint composition. Define which current
+engine files are kept, wrapped, deprecated, or rebuilt. Define state
+ownership, feedback/focus ownership, short-check advice copy rules,
+target-exercise operation-chain coverage requirements, and GATE-ENGINE-1 live
+rendered-output proof.
+
+Exit criteria:
+
+- file-level keep/wrap/deprecate/rebuild list exists
+- shared route/task-shell ownership is explicit
+- short check remains advisory and separate from the target-equivalent exit
+  ticket
+- target-equivalent exit-ticket implementation remains with L1.7B-Q2 and
+  GATE-L1.7B-Q2
+- no generated output, diagnostics, adaptive routing, mastery, sequencing,
+  summative use, AI, PV, Scale Gate 1, or product use is authorized
 
 ### Gate GATE-ENGINE-1: Four-Engine Operational Integration Review
 
 Completed: no. Status: required before engine scale.
 
-Position: after SKILLMAP-OP-1, GRAPH-UX-2, MATH-UX-2, REASON-UX-2, and
-GAME-ARCH-1; before L1.7B-Q2 or Scale Gate 1 relies on the engine system.
+Position: after SKILLMAP-OP-1, GRAPH-UX-2, MATH-UX-2, REASON-UX-2,
+GAME-ARCH-1, and GAME-ARCH-2; before L1.7B-Q2 or Scale Gate 1 relies on the
+engine system.
 
 Purpose:
 
-Review live generated output and student-path traces to decide whether the
-shared skill-map, graph game, math game, reasoning game, and checkpoint route
-operate as one coherent student-facing route.
+Review live rendered output and student-path traces to decide whether the
+shared skill-map, graph game, math game, reasoning game, advisory short check,
+and target-equivalent checkpoint boundary operate as one coherent
+student-facing route. The gate must explicitly decide keep/refactor/rebuild/
+hold per component.
 
 Required gate questions:
 
