@@ -19,8 +19,8 @@
     ],
     "targetEquivalent": {
       "candidate": true,
-      "gateApproved": false,
-      "completionLanguageEligible": false
+      "gateApproved": true,
+      "completionLanguageEligible": true
     },
     "metadataAlignment": {
       "status": "target_equivalent_aligned",
@@ -43,7 +43,7 @@
       },
       "notes": [
         "The task sequence covers percentage change, index conversion, percentage change between index values, and the required short notation explanation.",
-        "Gate approval and completion-language eligibility remain false until GATE-L1.7B-Q2 reviews live output."
+        "GATE-L1.7B-Q2 approved this exact local, non-summative completion copy for reviewed 1.1.2 only."
       ]
     },
     "skillMap": {
@@ -378,7 +378,7 @@
     ],
     "completion": {
       "title": "Check afgerond",
-      "text": "Je hebt deze check afgerond. Bekijk je feedback en bespreek de eindopgave met je docent."
+      "text": "Je hebt laten zien dat je de eindopgave van deze paragraaf aankunt."
     }
   };
   if (typeof module !== 'undefined' && module.exports) module.exports = root.EXIT_TICKET_DATA;
