@@ -59,9 +59,9 @@ Core standard:
 | TASK-SHELL-UX-2 | Shared Task Shell UX Hardening | **2026-06-01** | **CLOSED PASS WITH FLAGS / GENERATED OUTPUT THROUGH PLATFORM DEPLOY ONLY.** Platform added separate unit/notation fields for calculation-work tasks, hidden/collapsible task-shell hints where allowed, controlled labelled feedback regions, and exit-ticket display rules that suppress pre-attempt criteria and answer-revealing placeholders while keeping source criteria for validation. Generated Book 1 shared output was refreshed through deploy only. Flags: improve future screenshot manifest DOM proof, continue reasoning standard expansion in `REASON-STD-1`, and preserve source/render boundaries in future exit tickets. No target-equivalent authority was broadened; `1.1.1` remains advisory, `1.1.3` exit-ticket source remains absent, and no diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use is authorized. |
 | TASK-FAMILY-CHOICE-1 | Structured Choice Task-Family Contract | **2026-06-01** | **CLOSED CONTRACT / NO IMPLEMENTATION OR GENERATED OUTPUT.** Platform defined shared-shell contracts for `cloze_text`, `multi_select`, `matching_pairs`, `step_ordering`, `two_tier_choice`, and `assertion_reason`, including response shapes, validation/evaluation owners, feedback owners, focus/keyboard expectations, use cases, and target-proof limits. No engine implementation, generated output, target-equivalent reliance, diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use was authorized. |
 | TASK-FAMILY-CONSTRUCT-1 | Constrained Construction Task-Family Contract | **2026-06-01** | **CLOSED CONTRACT / NO IMPLEMENTATION OR GENERATED OUTPUT.** Platform defined construction contracts for `cloze_tile_select`, `sentence_builder`, `formula_builder`, `source_value_selection`, `source_chain_builder`, and `label_placement`, including token/tile-bank rules, distractor policy, ordering/placement semantics, accessibility expectations, use cases, and operation-chain proof limits. No engine implementation, generated output, target-equivalent reliance, diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use was authorized. |
-| TASK-FAMILY-CLOZE-TILE-1 | Cloze Tile-Select Task-Family Implementation | **2026-06-01** | **CLOSED PASS WITH FLAGS / NO GENERATED LESSON OUTPUT.** Platform added `cloze_tile_select` as a deterministic shared task-shell family with inline blanks, selectable tile bank, distractor validation, default no-reuse behavior, exact `{ blanks }` response matching, shared UI helpers, wrapper collection support, focused tests, rendered report fixture, proof JSON, and checker. Flags: unrelated `knowledge/exit-ticket-game-1.1.1.zip` remains unstaged/out of scope; product-route screenshots remain required before adoption. No source-data writes, generated output, target-equivalent reliance, diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use was authorized. |
-| TASK-FAMILY-SENTENCE-1 | Sentence Builder Task-Family Implementation | **2026-06-01** | **CLOSED PASS WITH FLAGS / NO GENERATED LESSON OUTPUT.** Platform added `sentence_builder` as a deterministic shared task-shell family with fragment bank, ordered construction zone, clear/remove/reorder controls, distractor validation, default no-reuse behavior, exact `{ tokens }` response matching, shared UI helpers, wrapper collection support, focused tests, rendered report fixture, proof JSON, and checker. Flags: unrelated `knowledge/exit-ticket-game-1.1.1.zip` remains unstaged/out of scope; product-route screenshots and rendered interaction proof remain required before adoption. No source-data writes, generated output, target-equivalent reliance, diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use was authorized. |
-| TASK-FAMILY-FORMULA-1 | Formula Builder Task-Family Implementation | no | Platform adds `formula_builder` so students construct formulas from symbols or terms before calculation work, including percentage change, index numbers, elasticity, revenue, profit, and later marginal/average procedures. |
+| TASK-FAMILY-CLOZE-TILE-1 | Cloze Tile-Select Task-Family Implementation | **2026-06-01** | **CLOSED PASS WITH FLAGS / NO GENERATED LESSON OUTPUT.** Platform added `cloze_tile_select` as a deterministic shared task-shell family with inline blanks, selectable tile bank, distractor validation, default no-reuse behavior, exact `{ blanks }` response matching, shared UI helpers, wrapper collection support, focused tests, rendered report fixture, proof JSON, and checker. Product-route screenshots remain required before adoption. No source-data writes, generated output, target-equivalent reliance, diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use was authorized. |
+| TASK-FAMILY-SENTENCE-1 | Sentence Builder Task-Family Implementation | **2026-06-01** | **CLOSED PASS WITH FLAGS / NO GENERATED LESSON OUTPUT.** Platform added `sentence_builder` as a deterministic shared task-shell family with fragment bank, ordered construction zone, clear/remove/reorder controls, distractor validation, default no-reuse behavior, exact `{ tokens }` response matching, shared UI helpers, wrapper collection support, focused tests, rendered report fixture, proof JSON, and checker. Product-route screenshots and rendered interaction proof remain required before adoption. No source-data writes, generated output, target-equivalent reliance, diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use was authorized. |
+| TASK-FAMILY-FORMULA-1 | Formula Builder Task-Family Implementation | **2026-06-01** | **CLOSED PASS WITH FLAGS / NO GENERATED LESSON OUTPUT.** Platform added `formula_builder` as a deterministic shared task-shell family with formula-block bank, ordered construction zone, formula category metadata, clear/remove/reorder controls, distractor validation, default no-reuse behavior, exact `{ tokens }` response matching including extra-key rejection, shared UI helpers, wrapper collection support, focused tests, rendered report fixture, proof JSON, and checker. Round 1 returned REVISE for extra response keys being accepted; corrections resolved this and round 2 passed with flags. Product-route screenshots and rendered interaction proof remain required before adoption; formula equivalence beyond exact sequences and calculation execution remain separate follow-up work. No source-data writes, generated output, target-equivalent reliance, diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use was authorized. |
 | TASK-FAMILY-CLOZE-1 | Cloze Text Task-Family Implementation | no | Platform adds inline `cloze_text` as the highest-priority bridge between recognition and open response, with proof for index-points-versus-percent, formula substitution, source-value labels, and causal statements. |
 | TASK-FAMILY-MULTI-1 | Multi-Select Task-Family Implementation | no | Platform adds `multi_select` with exact-set matching, practice-only partial self-check where approved, and feedback for missing required options or selected distractors. |
 | TASK-FAMILY-ORDER-1 | Step-Ordering Task-Family Implementation | no | Platform adds shared `step_ordering` for procedure-control and reasoning-sequence tasks so reasoning can migrate out of private engine-only ordering logic. |
@@ -121,7 +121,7 @@ GATE-MTU-H4 (closed PASS WITH CONDITIONS for routing only)
 -> TASK-FAMILY-CONSTRUCT-1
 -> TASK-FAMILY-CLOZE-TILE-1 (closed PASS WITH FLAGS)
 -> TASK-FAMILY-SENTENCE-1 (closed PASS WITH FLAGS)
--> TASK-FAMILY-FORMULA-1
+-> TASK-FAMILY-FORMULA-1 (closed PASS WITH FLAGS)
 -> TASK-FAMILY-CLOZE-1
 -> TASK-FAMILY-MULTI-1
 -> TASK-FAMILY-ORDER-1
@@ -156,7 +156,7 @@ or a human waiver explicitly records consequences.
 | TASK-FAMILY-CONSTRUCT-1 | Constrained Construction Task-Family Contract | **2026-06-01** | **CLOSED CONTRACT / NO IMPLEMENTATION OR GENERATED OUTPUT.** Platform produced `reports/sprints/TASK-FAMILY-CONSTRUCT-1-contract.md`, `reports/json/task-family-construction-contract.json`, and checker `build-scripts/sprints/check-task-family-construct1-contract.js`. Records: platform `reports/sprints/TASK-FAMILY-CONSTRUCT-1-result.md`. |
 | TASK-FAMILY-CLOZE-TILE-1 | Cloze Tile-Select Task-Family Implementation | **2026-06-01** | **CLOSED PASS WITH FLAGS / NO GENERATED LESSON OUTPUT.** Platform implemented selectable-tile cloze runtime support and proof artifacts only. Product-route adoption and screenshots remain later work. Records: platform `reports/sprints/TASK-FAMILY-CLOZE-TILE-1-result.md`. |
 | TASK-FAMILY-SENTENCE-1 | Sentence Builder Task-Family Implementation | **2026-06-01** | **CLOSED PASS WITH FLAGS / NO GENERATED LESSON OUTPUT.** Platform implemented sentence and causal-chain building from word or fragment banks with strict token-sequence validation and shared-shell wrapper support. Product-route adoption and screenshots remain later work. Records: platform `reports/sprints/TASK-FAMILY-SENTENCE-1-result.md`. |
-| TASK-FAMILY-FORMULA-1 | Formula Builder Task-Family Implementation | no | Platform implementation sprint for formula construction from formula blocks or symbols before calculation-work tasks. |
+| TASK-FAMILY-FORMULA-1 | Formula Builder Task-Family Implementation | **2026-06-01** | **CLOSED PASS WITH FLAGS / NO GENERATED LESSON OUTPUT.** Platform implemented formula construction from formula blocks or symbols before calculation-work tasks with category validation, exact sequence matching, wrapper support, proof artifacts, and lead-review records. Product-route adoption and screenshots remain later work. Records: platform `reports/sprints/TASK-FAMILY-FORMULA-1-result.md`. |
 | TASK-FAMILY-CLOZE-1 | Cloze Text Task-Family Implementation | no | Platform implementation sprint for inline cloze text as the first bridge between recognition and constructed response. |
 | TASK-FAMILY-MULTI-1 | Multi-Select Task-Family Implementation | no | Platform implementation sprint for multi-select tasks with exact set matching and approved practice-only partial feedback. |
 | TASK-FAMILY-ORDER-1 | Step-Ordering Task-Family Implementation | no | Platform implementation sprint for shared step-ordering tasks needed by procedure and reasoning standardization. |
@@ -4258,9 +4258,8 @@ Outputs:
   migrated target exercises as final-reviewed.
 - Continue companion controlled-scope work only where it supports the L1.7A
   decision, the closed L1.7B-C/L1.7C-0/L1.7C/L1.7D/L2.0/L1.7B-R/GATE-L1.7B/
-  L1.7C-MATH/L1.7B-MAP/L1.7B-P23/SPEC-ET-1/EX-LESSON-1/GAME-UX-3A/ENGINE-OP-1/SKILLMAP-OP-1/GRAPH-UX-2/MATH-UX-2/REASON-UX-2/GATE-ENGINE-1/GRAPH-REFINE-1/MATH-REFINE-1/REASON-REFINE-1/CHECK-Q2-PLAN/L1.7B-Q2/GATE-L1.7B-Q2/L1.7B-Q2-COPY/L1.7B-Q2-D31-STRUCT/SYNC-PRODUCT-1/CHECK-SHORT-EXIT-1/STANDARD-EXERCISES-1/TASK-SHELL-UX-2/TASK-FAMILY-CHOICE-1/TASK-FAMILY-CONSTRUCT-1/TASK-FAMILY-CLOZE-TILE-1 foundation, and the open Product Proof Track:
-  TASK-FAMILY-SENTENCE-1,
-  TASK-FAMILY-FORMULA-1, TASK-FAMILY-CLOZE-1, TASK-FAMILY-MULTI-1,
+  L1.7C-MATH/L1.7B-MAP/L1.7B-P23/SPEC-ET-1/EX-LESSON-1/GAME-UX-3A/ENGINE-OP-1/SKILLMAP-OP-1/GRAPH-UX-2/MATH-UX-2/REASON-UX-2/GATE-ENGINE-1/GRAPH-REFINE-1/MATH-REFINE-1/REASON-REFINE-1/CHECK-Q2-PLAN/L1.7B-Q2/GATE-L1.7B-Q2/L1.7B-Q2-COPY/L1.7B-Q2-D31-STRUCT/SYNC-PRODUCT-1/CHECK-SHORT-EXIT-1/STANDARD-EXERCISES-1/TASK-SHELL-UX-2/TASK-FAMILY-CHOICE-1/TASK-FAMILY-CONSTRUCT-1/TASK-FAMILY-CLOZE-TILE-1/TASK-FAMILY-SENTENCE-1/TASK-FAMILY-FORMULA-1 foundation, and the open Product Proof Track:
+  TASK-FAMILY-CLOZE-1, TASK-FAMILY-MULTI-1,
   TASK-FAMILY-ORDER-1, TASK-FAMILY-SOURCE-1, TASK-FAMILY-LABEL-1,
   TASK-FAMILY-MATCH-1, TASK-FAMILY-TWO-TIER-1, TASK-FAMILY-ASSERTION-1,
   GATE-TASK-FAMILY-1, GAME-ROUTE-AFFORDANCE-1,
@@ -4288,16 +4287,17 @@ Outputs:
   MATH-REFINE-1, REASON-REFINE-1, CHECK-Q2-PLAN, L1.7B-Q2,
   GATE-L1.7B-Q2, L1.7B-Q2-COPY, L1.7B-Q2-D31-STRUCT,
   SYNC-PRODUCT-1, CHECK-SHORT-EXIT-1, STANDARD-EXERCISES-1, TASK-SHELL-UX-2,
-  TASK-FAMILY-CHOICE-1, TASK-FAMILY-CONSTRUCT-1, and
-  TASK-FAMILY-CLOZE-TILE-1 have since
+  TASK-FAMILY-CHOICE-1, TASK-FAMILY-CONSTRUCT-1,
+  TASK-FAMILY-CLOZE-TILE-1, TASK-FAMILY-SENTENCE-1, and
+  TASK-FAMILY-FORMULA-1 have since
   closed with local `1.1.2` proof/copy only, a first-three-paragraph
   check-surface inventory, a standard exercise-family coverage audit, and
   shared task-shell UX hardening with unit/notation and exit-ticket
   scaffold-suppression rules, structured choice/construction task-family
-  contracts, and selectable-tile cloze runtime support. Complete the remaining
+  contracts, selectable-tile cloze runtime support, sentence-builder runtime
+  support, and formula-builder runtime support. Complete the remaining
   Product Proof Track
-  through TASK-FAMILY-SENTENCE-1,
-  TASK-FAMILY-FORMULA-1, TASK-FAMILY-CLOZE-1, TASK-FAMILY-MULTI-1,
+  through TASK-FAMILY-CLOZE-1, TASK-FAMILY-MULTI-1,
   TASK-FAMILY-ORDER-1, TASK-FAMILY-SOURCE-1, TASK-FAMILY-LABEL-1,
   TASK-FAMILY-MATCH-1, TASK-FAMILY-TWO-TIER-1, TASK-FAMILY-ASSERTION-1,
   GATE-TASK-FAMILY-1,
