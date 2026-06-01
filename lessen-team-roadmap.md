@@ -36,6 +36,10 @@ Core standard:
   learning exercises;
 - shared task-type UI is the default for overlapping graph/table, calculation,
   reasoning, and checkpoint actions;
+- structured choice task families (`cloze_text`, `multi_select`,
+  `matching_pairs`, `step_ordering`, `two_tier_choice`, and
+  `assertion_reason`) are reviewed student actions, not quiz variety or weak
+  substitutes for richer target-operation proof;
 - route items in graph, math, reasoning, and skill-map panels must be
   actionable;
 - the skill map must become a visible student product surface;
@@ -48,6 +52,14 @@ Core standard:
 | CHECK-SHORT-EXIT-1 | Paragraph Check Surface Inventory And Contract | **2026-06-01** | **CLOSED AUDIT/CONTRACT / NO GENERATED OUTPUT.** Platform inventory records `1.1.1` as advisory `Korte check` only with missing target-equivalent exit ticket, `1.1.2` as reviewed local target-equivalent exit ticket with missing advisory short check, and `1.1.3` as missing both short check and target-equivalent graph/table exit ticket. No generated output, source exit-ticket writes, engine implementation, diagnostics, mastery/sequencing, student-facing AI, summative use, PV, Scale Gate 1, or product-wide use was authorized. |
 | STANDARD-EXERCISES-1 | Unified Standard Exercise Coverage Audit | **2026-06-01** | **CLOSED AUDIT/CONTRACT / NO GENERATED OUTPUT.** Platform coverage matrix records math, graph/table, and reviewed `1.1.2` exit-ticket actions as mostly covered by existing shared task-shell families; `structured_short_response` is runtime-supported but needs standard documentation and UX hardening; reasoning requires standard expansion for step ordering, causal chains, claim/reason/evidence, flow diagrams, classification with explanation, and source-based explanation. Guided practice and procedure support remain learning/support surfaces, not target-equivalent proof. No generated output, implementation, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or product-wide use was authorized. |
 | TASK-SHELL-UX-2 | Shared Task Shell UX Hardening | **2026-06-01** | **CLOSED PASS WITH FLAGS / GENERATED OUTPUT THROUGH PLATFORM DEPLOY ONLY.** Platform added separate unit/notation fields for calculation-work tasks, hidden/collapsible task-shell hints where allowed, controlled labelled feedback regions, and exit-ticket display rules that suppress pre-attempt criteria and answer-revealing placeholders while keeping source criteria for validation. Generated Book 1 shared output was refreshed through deploy only. Flags: improve future screenshot manifest DOM proof, continue reasoning standard expansion in `REASON-STD-1`, and preserve source/render boundaries in future exit tickets. No target-equivalent authority was broadened; `1.1.1` remains advisory, `1.1.3` exit-ticket source remains absent, and no diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use is authorized. |
+| TASK-FAMILY-CHOICE-1 | Structured Choice Task-Family Contract | no | Platform must define the shared-shell contract for `cloze_text`, `multi_select`, `matching_pairs`, `step_ordering`, `two_tier_choice`, and `assertion_reason`, including response shapes, validation/evaluation owners, feedback owners, focus/keyboard behavior, product-boundary flags, and route/checkpoint use cases. No implementation or generated output. |
+| TASK-FAMILY-CLOZE-1 | Cloze Text Task-Family Implementation | no | Platform adds inline `cloze_text` as the highest-priority bridge between recognition and open response, with proof for index-points-versus-percent, formula substitution, source-value labels, and causal statements. |
+| TASK-FAMILY-MULTI-1 | Multi-Select Task-Family Implementation | no | Platform adds `multi_select` with exact-set matching, practice-only partial self-check where approved, and feedback for missing required options or selected distractors. |
+| TASK-FAMILY-ORDER-1 | Step-Ordering Task-Family Implementation | no | Platform adds shared `step_ordering` for procedure-control and reasoning-sequence tasks so reasoning can migrate out of private engine-only ordering logic. |
+| TASK-FAMILY-MATCH-1 | Matching-Pairs Task-Family Implementation | no | Platform adds `matching_pairs` for concept/definition, graph-element/meaning, source-value/label, formula-component/interpretation, and event/curve-shift tasks. |
+| TASK-FAMILY-TWO-TIER-1 | Two-Tier Choice Task-Family Implementation | no | Platform adds answer-plus-reason `two_tier_choice` for misconception repair and explanation-quality feedback without diagnostics or mastery claims. |
+| TASK-FAMILY-ASSERTION-1 | Assertion-Reason Task-Family Implementation | no | Platform adds `assertion_reason` only after the higher-priority families exist; it must remain a reviewed compact reasoning task, not default quiz variety. |
+| GATE-TASK-FAMILY-1 | Structured Choice Task-Family Review | no | Human/lead review of rendered output, feedback, schema/validation, focus/keyboard behavior, and target-proof boundaries before these families are relied on in reasoning migration, check implementation, product proof, or Scale Gate 1. |
 | GAME-ROUTE-AFFORDANCE-1 | Clickable Route Items For Non-Exit Practice Games | no | Make graph/math/reasoning/skill-map route items actionable. Preserve existing `1.1.2` exit-ticket route links and add regression guard. |
 | SKILLMAP-PRODUCT-1 | Student Skill Map Product Surface | no | Make the skill map accessible and useful as a student-facing route overview for the first three paragraphs. |
 | REASON-STD-1 | Reasoning Game Unified Exercise Migration | no | Bring reasoning task types into the shared standard, including step-by-step and flow-diagram tasks; decide refactor versus rebuild. |
@@ -94,6 +106,14 @@ GATE-MTU-H4 (closed PASS WITH CONDITIONS for routing only)
 -> CHECK-SHORT-EXIT-1 (closed audit/contract)
 -> STANDARD-EXERCISES-1 (closed audit/contract)
 -> TASK-SHELL-UX-2 (closed implementation/proof)
+-> TASK-FAMILY-CHOICE-1
+-> TASK-FAMILY-CLOZE-1
+-> TASK-FAMILY-MULTI-1
+-> TASK-FAMILY-ORDER-1
+-> TASK-FAMILY-MATCH-1
+-> TASK-FAMILY-TWO-TIER-1
+-> TASK-FAMILY-ASSERTION-1
+-> GATE-TASK-FAMILY-1
 -> GAME-ROUTE-AFFORDANCE-1
 -> SKILLMAP-PRODUCT-1
 -> REASON-STD-1
@@ -115,6 +135,14 @@ or a human waiver explicitly records consequences.
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
 | TASK-SHELL-UX-2 | Shared Task Shell UX Hardening | **2026-06-01** | **CLOSED PASS WITH FLAGS / GENERATED OUTPUT THROUGH PLATFORM DEPLOY ONLY.** Platform produced `reports/sprints/TASK-SHELL-UX-2-ui-contract.md`, screenshot proof, `reports/json/task-shell-ux2-proof.json`, and checker `build-scripts/sprints/check-task-shell-ux2.js`. It added unit/notation support, controlled feedback, hidden hints where allowed, and exit-ticket display suppression for criteria/answer placeholders. Round-1 lead review returned REVISE for placeholder leaks; round 2 passed after correction. Records: platform `reports/sprints/TASK-SHELL-UX-2-result.md`. |
+| TASK-FAMILY-CHOICE-1 | Structured Choice Task-Family Contract | no | Platform planning sprint to define `cloze_text`, `multi_select`, `matching_pairs`, `step_ordering`, `two_tier_choice`, and `assertion_reason` as shared task-shell families with response shapes, validation/evaluation ownership, feedback ownership, focus/keyboard expectations, product-boundary flags, and use limits. |
+| TASK-FAMILY-CLOZE-1 | Cloze Text Task-Family Implementation | no | Platform implementation sprint for inline cloze text as the first bridge between recognition and constructed response. |
+| TASK-FAMILY-MULTI-1 | Multi-Select Task-Family Implementation | no | Platform implementation sprint for multi-select tasks with exact set matching and approved practice-only partial feedback. |
+| TASK-FAMILY-ORDER-1 | Step-Ordering Task-Family Implementation | no | Platform implementation sprint for shared step-ordering tasks needed by procedure and reasoning standardization. |
+| TASK-FAMILY-MATCH-1 | Matching-Pairs Task-Family Implementation | no | Platform implementation sprint for matching-pairs tasks with accessible rendered proof. |
+| TASK-FAMILY-TWO-TIER-1 | Two-Tier Choice Task-Family Implementation | no | Platform implementation sprint for answer-plus-reason tasks used for misconception repair without diagnostics or mastery claims. |
+| TASK-FAMILY-ASSERTION-1 | Assertion-Reason Task-Family Implementation | no | Platform implementation sprint for compact assertion-reason reasoning checks after higher-priority families exist. |
+| GATE-TASK-FAMILY-1 | Structured Choice Task-Family Review | no | Review rendered output and boundaries before the structured choice families are used for reasoning migration, check implementation, product proof, or Scale Gate 1. |
 | STANDARD-EXERCISES-1 | Unified Standard Exercise Coverage Audit | **2026-06-01** | **CLOSED AUDIT/CONTRACT / NO GENERATED OUTPUT.** Platform produced `reports/sprints/STANDARD-EXERCISES-1-exercise-family-audit.md`, `reports/json/standard-exercise-family-coverage.json`, and checker `build-scripts/sprints/check-standard-exercises1-coverage.js`. It keeps shared task-shell coverage for math, graph/table, and reviewed `1.1.2` exit-ticket actions, flags `structured_short_response` for documentation/UX hardening, routes missing reasoning families to `REASON-STD-1`, and keeps guided practice/procedure support outside target-equivalent proof. Records: platform `reports/sprints/STANDARD-EXERCISES-1-result.md`. |
 | CHECK-SHORT-EXIT-1 | Paragraph Check Surface Inventory And Contract | **2026-06-01** | **CLOSED AUDIT/CONTRACT / NO GENERATED OUTPUT.** Platform produced the first three paragraph check-surface inventory. Findings: `1.1.1` has only advisory `Korte check` and lacks target-equivalent A43/B01/B02 proof; `1.1.2` has approved local target-equivalent proof/copy and lacks a separate advisory short check; `1.1.3` lacks both check surfaces and still needs graph/table target-equivalent proof work. Records: platform `reports/sprints/CHECK-SHORT-EXIT-1-result.md`. |
 | SYNC-PRODUCT-1 | Product Proof Roadmap Alignment | **2026-06-01** | **CLOSED ROADMAP/SPECIFICATION ALIGNMENT / NO GENERATED OUTPUT.** Platform aligned the roadmaps and stable specs around the next Product Proof Track before Scale Gate 1. It makes explicit that every paragraph eventually needs both an advisory short check and separate target-equivalent exit ticket, non-exit route items need actions, the skill map is a student product surface, dual coding is a task-quality decision, and the first three paragraphs must pass product proof before Scale Gate 1. No implementation, generated output, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or product-wide use was authorized. Records: platform `reports/sprints/SYNC-PRODUCT-1-result.md`. |
@@ -4208,10 +4236,12 @@ Outputs:
 - Continue companion controlled-scope work only where it supports the L1.7A
   decision, the closed L1.7B-C/L1.7C-0/L1.7C/L1.7D/L2.0/L1.7B-R/GATE-L1.7B/
   L1.7C-MATH/L1.7B-MAP/L1.7B-P23/SPEC-ET-1/EX-LESSON-1/GAME-UX-3A/ENGINE-OP-1/SKILLMAP-OP-1/GRAPH-UX-2/MATH-UX-2/REASON-UX-2/GATE-ENGINE-1/GRAPH-REFINE-1/MATH-REFINE-1/REASON-REFINE-1/CHECK-Q2-PLAN/L1.7B-Q2/GATE-L1.7B-Q2/L1.7B-Q2-COPY/L1.7B-Q2-D31-STRUCT/SYNC-PRODUCT-1/CHECK-SHORT-EXIT-1/STANDARD-EXERCISES-1/TASK-SHELL-UX-2 foundation, and the open Product Proof Track:
-  GAME-ROUTE-AFFORDANCE-1, SKILLMAP-PRODUCT-1, REASON-STD-1,
-  DUAL-CODING-STD-1, ENGINE-UNIFY-1, CHECK-SHORT-EXIT-2,
-  SCALE-PROOF-3P, GATE-PRODUCT-3P, and REV-STD-1; or does not conflict
-  with source-of-truth decisions.
+  TASK-FAMILY-CHOICE-1, TASK-FAMILY-CLOZE-1, TASK-FAMILY-MULTI-1,
+  TASK-FAMILY-ORDER-1, TASK-FAMILY-MATCH-1, TASK-FAMILY-TWO-TIER-1,
+  TASK-FAMILY-ASSERTION-1, GATE-TASK-FAMILY-1, GAME-ROUTE-AFFORDANCE-1,
+  SKILLMAP-PRODUCT-1, REASON-STD-1, DUAL-CODING-STD-1, ENGINE-UNIFY-1,
+  CHECK-SHORT-EXIT-2, SCALE-PROOF-3P, GATE-PRODUCT-3P, and REV-STD-1; or
+  does not conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
 - Keep Book 2 Part A planning paused behind L1.5Q if it depends on the new
   course structure.
@@ -4237,11 +4267,14 @@ Outputs:
   check-surface inventory, a standard exercise-family coverage audit, and
   shared task-shell UX hardening with unit/notation and exit-ticket
   scaffold-suppression rules. Complete the remaining Product Proof Track
-  through GAME-ROUTE-AFFORDANCE-1,
-  SKILLMAP-PRODUCT-1, REASON-STD-1, DUAL-CODING-STD-1, ENGINE-UNIFY-1,
-  CHECK-SHORT-EXIT-2, SCALE-PROOF-3P, GATE-PRODUCT-3P, and REV-STD-1,
-  or explicitly waive blockers with stated consequences before Scale Gate 1
-  if companion scaling is still desired.
+  through TASK-FAMILY-CHOICE-1, TASK-FAMILY-CLOZE-1,
+  TASK-FAMILY-MULTI-1, TASK-FAMILY-ORDER-1, TASK-FAMILY-MATCH-1,
+  TASK-FAMILY-TWO-TIER-1, TASK-FAMILY-ASSERTION-1, GATE-TASK-FAMILY-1,
+  GAME-ROUTE-AFFORDANCE-1, SKILLMAP-PRODUCT-1, REASON-STD-1,
+  DUAL-CODING-STD-1, ENGINE-UNIFY-1, CHECK-SHORT-EXIT-2,
+  SCALE-PROOF-3P, GATE-PRODUCT-3P, and REV-STD-1, or explicitly waive
+  blockers with stated consequences before Scale Gate 1 if companion scaling
+  is still desired.
 - Keep `course_blueprint_v5.md` and the target-exercise source-of-truth path as
   the active baseline before Book 2 production.
 - `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.

@@ -83,6 +83,14 @@ specification unless the missing work is assigned to a named follow-up sprint.
   Approval route: SYNC-PRODUCT-1 roadmap/spec alignment at human request.
   Consequence: first-three-paragraph product proof and `GATE-PRODUCT-3P` are
   required before Scale Gate 1 unless explicitly waived by human decision.
+- 2026-06-01: added structured choice task-family expansion to the shared
+  task-type shell. Affected surface: cloze text, multi-select, matching pairs,
+  step ordering, two-tier choice, assertion-reason, reasoning standardization,
+  advisory checks, and exit-ticket task design. Approval route: roadmap/spec
+  alignment at human request after the multiple-choice family report.
+  Consequence: these families must be added through reviewed schemas, UI,
+  feedback, focus/keyboard behavior, and product-boundary checks; they may not
+  be used as generic weak substitutes for richer target-operation proof.
 
 ## Global Product Rules
 
@@ -240,12 +248,17 @@ Required task families:
 - point placement or graph-construction substitute;
 - structured reasoning or short explanation where the task benefits from the
   same feedback/self-check behavior.
+- cloze text;
+- multi-select;
+- matching pairs;
 - step ordering;
 - cause-effect chain;
 - claim-reason-evidence;
 - flow-diagram build;
 - classification with explanation;
 - source-based explanation.
+- two-tier choice;
+- assertion-reason.
 
 Required behavior:
 
@@ -266,6 +279,13 @@ Required behavior:
   Scale Gate reliance;
 - validation hooks that can later connect to target-exercise operation chains
   without forcing all tasks into choice form.
+- structured choice families must state the student action, response shape,
+  validation/evaluation owner, feedback owner, focus/keyboard requirements,
+  product-boundary flags, and route/checkpoint use case before implementation;
+- generic `choice` remains valid for genuinely choice-like actions, but
+  choice-only checks may not stand in for calculation, graph/table,
+  constructed reasoning, or target-equivalent proof when the target operation
+  requires a richer action.
 
 The shell may be implemented incrementally, but each accepted task family must
 be strong enough for its own student-facing use. A task family that exists only

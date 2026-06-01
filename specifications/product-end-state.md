@@ -47,6 +47,15 @@ consequences.
   SYNC-PRODUCT-1 roadmap/spec alignment at human request. Consequence:
   Scale Gate 1 must wait for coherent product proof across the first three
   paragraphs or an explicit human waiver with stated consequences.
+- 2026-06-01: added structured choice task-family expansion to the shared
+  task-type shell baseline. Affected surface: cloze text, multi-select,
+  matching pairs, step ordering, two-tier choice, assertion-reason tasks,
+  reasoning migration, short checks, and target-equivalent exit-ticket design.
+  Approval route: roadmap/spec alignment at human request after the
+  multiple-choice family report. Consequence: future task-family work must add
+  these as reviewed student actions with schemas, feedback, focus/keyboard
+  proof, and product-boundary checks, not as generic quiz variety or weak
+  target-proof substitutes.
 
 ## End-State Sentence
 
@@ -133,8 +142,19 @@ items are product defects.
 The shared task-type shell must support, at minimum, numeric input,
 calculation/work capture, final-answer entry, unit/notation fields, short
 constructed response, table-value selection, graph reading, point placement or
-graph-construction substitute, structured reasoning, step/chain interactions
-where needed, and neutral feedback/retry/self-check states.
+graph-construction substitute, structured reasoning, step ordering, step/chain
+interactions where needed, cloze text, multi-select, matching pairs,
+two-tier choice, and assertion-reason interactions, plus neutral
+feedback/retry/self-check states.
+
+Structured choice families are not quiz variety. A new choice-like family is
+appropriate only when the current task families cannot represent the student
+action. It must define the student action, response shape,
+validation/evaluation owner, feedback owner, focus and keyboard behavior,
+product-boundary flags, and route/checkpoint use case. Generic choice-only
+checks may not substitute for calculation, graph/table, reasoning, or
+target-equivalent proof unless the target exercise action itself is genuinely
+choice-like.
 
 The task shell is not an exit-ticket-only feature. It is the common interaction
 foundation for graph/table practice, math/calculation practice,
