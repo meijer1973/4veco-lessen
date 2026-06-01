@@ -47,7 +47,7 @@ Core standard:
 | SYNC-PRODUCT-1 | Product Proof Roadmap Alignment | **2026-06-01** | **CLOSED ROADMAP/SPECIFICATION ALIGNMENT / NO GENERATED OUTPUT.** Platform aligned both roadmaps and stable specs around the Product Proof Track before Scale Gate 1: short check plus target-equivalent exit ticket, shared task UI, visible/actionable skill map, route affordance, dual-coding task decisions, and three-paragraph product proof. No implementation, generated lesson output, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or product-wide use was authorized. |
 | CHECK-SHORT-EXIT-1 | Paragraph Check Surface Inventory And Contract | **2026-06-01** | **CLOSED AUDIT/CONTRACT / NO GENERATED OUTPUT.** Platform inventory records `1.1.1` as advisory `Korte check` only with missing target-equivalent exit ticket, `1.1.2` as reviewed local target-equivalent exit ticket with missing advisory short check, and `1.1.3` as missing both short check and target-equivalent graph/table exit ticket. No generated output, source exit-ticket writes, engine implementation, diagnostics, mastery/sequencing, student-facing AI, summative use, PV, Scale Gate 1, or product-wide use was authorized. |
 | STANDARD-EXERCISES-1 | Unified Standard Exercise Coverage Audit | **2026-06-01** | **CLOSED AUDIT/CONTRACT / NO GENERATED OUTPUT.** Platform coverage matrix records math, graph/table, and reviewed `1.1.2` exit-ticket actions as mostly covered by existing shared task-shell families; `structured_short_response` is runtime-supported but needs standard documentation and UX hardening; reasoning requires standard expansion for step ordering, causal chains, claim/reason/evidence, flow diagrams, classification with explanation, and source-based explanation. Guided practice and procedure support remain learning/support surfaces, not target-equivalent proof. No generated output, implementation, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or product-wide use was authorized. |
-| TASK-SHELL-UX-2 | Shared Task Shell UX Hardening | no | Harden shared task-shell UX: hidden hints where allowed, no exit-ticket answer hints, separate unit/notation fields, controlled feedback, next-action clarity, keyboard/focus, mobile and dark-mode proof. |
+| TASK-SHELL-UX-2 | Shared Task Shell UX Hardening | **2026-06-01** | **CLOSED PASS WITH FLAGS / GENERATED OUTPUT THROUGH PLATFORM DEPLOY ONLY.** Platform added separate unit/notation fields for calculation-work tasks, hidden/collapsible task-shell hints where allowed, controlled labelled feedback regions, and exit-ticket display rules that suppress pre-attempt criteria and answer-revealing placeholders while keeping source criteria for validation. Generated Book 1 shared output was refreshed through deploy only. Flags: improve future screenshot manifest DOM proof, continue reasoning standard expansion in `REASON-STD-1`, and preserve source/render boundaries in future exit tickets. No target-equivalent authority was broadened; `1.1.1` remains advisory, `1.1.3` exit-ticket source remains absent, and no diagnostics, mastery/sequencing, PV, Scale Gate 1, or product-wide use is authorized. |
 | GAME-ROUTE-AFFORDANCE-1 | Clickable Route Items For Non-Exit Practice Games | no | Make graph/math/reasoning/skill-map route items actionable. Preserve existing `1.1.2` exit-ticket route links and add regression guard. |
 | SKILLMAP-PRODUCT-1 | Student Skill Map Product Surface | no | Make the skill map accessible and useful as a student-facing route overview for the first three paragraphs. |
 | REASON-STD-1 | Reasoning Game Unified Exercise Migration | no | Bring reasoning task types into the shared standard, including step-by-step and flow-diagram tasks; decide refactor versus rebuild. |
@@ -93,7 +93,7 @@ GATE-MTU-H4 (closed PASS WITH CONDITIONS for routing only)
 -> SYNC-PRODUCT-1 (closed product-proof roadmap/spec alignment)
 -> CHECK-SHORT-EXIT-1 (closed audit/contract)
 -> STANDARD-EXERCISES-1 (closed audit/contract)
--> TASK-SHELL-UX-2
+-> TASK-SHELL-UX-2 (closed implementation/proof)
 -> GAME-ROUTE-AFFORDANCE-1
 -> SKILLMAP-PRODUCT-1
 -> REASON-STD-1
@@ -114,6 +114,7 @@ or a human waiver explicitly records consequences.
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
+| TASK-SHELL-UX-2 | Shared Task Shell UX Hardening | **2026-06-01** | **CLOSED PASS WITH FLAGS / GENERATED OUTPUT THROUGH PLATFORM DEPLOY ONLY.** Platform produced `reports/sprints/TASK-SHELL-UX-2-ui-contract.md`, screenshot proof, `reports/json/task-shell-ux2-proof.json`, and checker `build-scripts/sprints/check-task-shell-ux2.js`. It added unit/notation support, controlled feedback, hidden hints where allowed, and exit-ticket display suppression for criteria/answer placeholders. Round-1 lead review returned REVISE for placeholder leaks; round 2 passed after correction. Records: platform `reports/sprints/TASK-SHELL-UX-2-result.md`. |
 | STANDARD-EXERCISES-1 | Unified Standard Exercise Coverage Audit | **2026-06-01** | **CLOSED AUDIT/CONTRACT / NO GENERATED OUTPUT.** Platform produced `reports/sprints/STANDARD-EXERCISES-1-exercise-family-audit.md`, `reports/json/standard-exercise-family-coverage.json`, and checker `build-scripts/sprints/check-standard-exercises1-coverage.js`. It keeps shared task-shell coverage for math, graph/table, and reviewed `1.1.2` exit-ticket actions, flags `structured_short_response` for documentation/UX hardening, routes missing reasoning families to `REASON-STD-1`, and keeps guided practice/procedure support outside target-equivalent proof. Records: platform `reports/sprints/STANDARD-EXERCISES-1-result.md`. |
 | CHECK-SHORT-EXIT-1 | Paragraph Check Surface Inventory And Contract | **2026-06-01** | **CLOSED AUDIT/CONTRACT / NO GENERATED OUTPUT.** Platform produced the first three paragraph check-surface inventory. Findings: `1.1.1` has only advisory `Korte check` and lacks target-equivalent A43/B01/B02 proof; `1.1.2` has approved local target-equivalent proof/copy and lacks a separate advisory short check; `1.1.3` lacks both check surfaces and still needs graph/table target-equivalent proof work. Records: platform `reports/sprints/CHECK-SHORT-EXIT-1-result.md`. |
 | SYNC-PRODUCT-1 | Product Proof Roadmap Alignment | **2026-06-01** | **CLOSED ROADMAP/SPECIFICATION ALIGNMENT / NO GENERATED OUTPUT.** Platform aligned the roadmaps and stable specs around the next Product Proof Track before Scale Gate 1. It makes explicit that every paragraph eventually needs both an advisory short check and separate target-equivalent exit ticket, non-exit route items need actions, the skill map is a student product surface, dual coding is a task-quality decision, and the first three paragraphs must pass product proof before Scale Gate 1. No implementation, generated output, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or product-wide use was authorized. Records: platform `reports/sprints/SYNC-PRODUCT-1-result.md`. |
@@ -4206,8 +4207,7 @@ Outputs:
   migrated target exercises as final-reviewed.
 - Continue companion controlled-scope work only where it supports the L1.7A
   decision, the closed L1.7B-C/L1.7C-0/L1.7C/L1.7D/L2.0/L1.7B-R/GATE-L1.7B/
-  L1.7C-MATH/L1.7B-MAP/L1.7B-P23/SPEC-ET-1/EX-LESSON-1/GAME-UX-3A/ENGINE-OP-1/SKILLMAP-OP-1/GRAPH-UX-2/MATH-UX-2/REASON-UX-2/GATE-ENGINE-1/GRAPH-REFINE-1/MATH-REFINE-1/REASON-REFINE-1/CHECK-Q2-PLAN/L1.7B-Q2/GATE-L1.7B-Q2/L1.7B-Q2-COPY/L1.7B-Q2-D31-STRUCT/SYNC-PRODUCT-1/CHECK-SHORT-EXIT-1/STANDARD-EXERCISES-1 foundation, and the open Product Proof Track:
-  TASK-SHELL-UX-2,
+  L1.7C-MATH/L1.7B-MAP/L1.7B-P23/SPEC-ET-1/EX-LESSON-1/GAME-UX-3A/ENGINE-OP-1/SKILLMAP-OP-1/GRAPH-UX-2/MATH-UX-2/REASON-UX-2/GATE-ENGINE-1/GRAPH-REFINE-1/MATH-REFINE-1/REASON-REFINE-1/CHECK-Q2-PLAN/L1.7B-Q2/GATE-L1.7B-Q2/L1.7B-Q2-COPY/L1.7B-Q2-D31-STRUCT/SYNC-PRODUCT-1/CHECK-SHORT-EXIT-1/STANDARD-EXERCISES-1/TASK-SHELL-UX-2 foundation, and the open Product Proof Track:
   GAME-ROUTE-AFFORDANCE-1, SKILLMAP-PRODUCT-1, REASON-STD-1,
   DUAL-CODING-STD-1, ENGINE-UNIFY-1, CHECK-SHORT-EXIT-2,
   SCALE-PROOF-3P, GATE-PRODUCT-3P, and REV-STD-1; or does not conflict
@@ -4232,11 +4232,12 @@ Outputs:
   reasoning task-shell integration proof. GATE-ENGINE-1, GRAPH-REFINE-1,
   MATH-REFINE-1, REASON-REFINE-1, CHECK-Q2-PLAN, L1.7B-Q2,
   GATE-L1.7B-Q2, L1.7B-Q2-COPY, L1.7B-Q2-D31-STRUCT,
-  SYNC-PRODUCT-1, CHECK-SHORT-EXIT-1, and STANDARD-EXERCISES-1 have since
+  SYNC-PRODUCT-1, CHECK-SHORT-EXIT-1, STANDARD-EXERCISES-1, and TASK-SHELL-UX-2 have since
   closed with local `1.1.2` proof/copy only, a first-three-paragraph
-  check-surface inventory, and a standard exercise-family coverage audit.
-  Complete the remaining Product Proof Track through TASK-SHELL-UX-2,
-  GAME-ROUTE-AFFORDANCE-1,
+  check-surface inventory, a standard exercise-family coverage audit, and
+  shared task-shell UX hardening with unit/notation and exit-ticket
+  scaffold-suppression rules. Complete the remaining Product Proof Track
+  through GAME-ROUTE-AFFORDANCE-1,
   SKILLMAP-PRODUCT-1, REASON-STD-1, DUAL-CODING-STD-1, ENGINE-UNIFY-1,
   CHECK-SHORT-EXIT-2, SCALE-PROOF-3P, GATE-PRODUCT-3P, and REV-STD-1,
   or explicitly waive blockers with stated consequences before Scale Gate 1

@@ -148,10 +148,12 @@
       push(task.interaction.inputLabel);
       push(task.interaction.workLabel);
       push(task.interaction.finalAnswerLabel);
+      push(task.interaction.unitNotationLabel);
       push(task.interaction.unitLabel);
       push(task.interaction.xLabel);
       push(task.interaction.yLabel);
       push(task.interaction.placeholder);
+      push(task.interaction.unitNotationPlaceholder);
       (task.interaction.fields || []).forEach(function (field) {
         push(field.label);
         push(field.placeholder);
@@ -164,6 +166,7 @@
       });
       (task.interaction.criteria || []).forEach(push);
     }
+    (task.hints || []).forEach(push);
     if (task.feedback) {
       push(task.feedback.matchTitle);
       push(task.feedback.matchText);
@@ -251,6 +254,22 @@
     return ids;
   }
 
+  function validateHints(hints, path) {
+    requireArray(hints, path, 1);
+    hints.forEach(function (hint, idx) {
+      requireString(hint, path + '[' + idx + ']');
+    });
+  }
+
+  function validateUnitNotation(expected, path) {
+    assert(isObject(expected), path + ' must be an object');
+    assert(expected.kind === 'text', path + '.kind must be text');
+    requireArray(expected.accepted, path + '.accepted', 1);
+    if (expected.required !== undefined) {
+      assert(typeof expected.required === 'boolean', path + '.required must be boolean');
+    }
+  }
+
   function validateExpected(task, optionIds) {
     var expected = task.expected;
     assert(isObject(expected), task.id + '.expected is required');
@@ -316,6 +335,10 @@
       }
       if (expected.criteria !== undefined) requireArray(expected.criteria, task.id + '.expected.criteria', 1);
       if (expected.requiredWorkText !== undefined) validateTextGroups(expected.requiredWorkText, task.id + '.expected.requiredWorkText');
+      if (expected.unitNotation !== undefined) {
+        validateUnitNotation(expected.unitNotation, task.id + '.expected.unitNotation');
+        requireString(task.interaction.unitNotationLabel, task.id + '.interaction.unitNotationLabel');
+      }
       return;
     }
 
@@ -382,6 +405,9 @@
     } else if (task.family === 'calculation_work_capture') {
       requireString(task.interaction.workLabel, path + '.workLabel');
       requireString(task.interaction.finalAnswerLabel, path + '.finalAnswerLabel');
+      optionalString(task.interaction.finalAnswerPlaceholder, path + '.finalAnswerPlaceholder');
+      optionalString(task.interaction.unitNotationLabel, path + '.unitNotationLabel');
+      optionalString(task.interaction.unitNotationPlaceholder, path + '.unitNotationPlaceholder');
     } else if (
       task.family === 'numeric_input' ||
       task.family === 'final_answer_entry' ||
@@ -411,6 +437,7 @@
     requireString(task.skillLabel, task.id + '.skillLabel');
     requireString(task.prompt, task.id + '.prompt');
     optionalString(task.purpose, task.id + '.purpose');
+    if (task.hints !== undefined) validateHints(task.hints, task.id + '.hints');
     var optionIds = validateInteraction(task);
     validateExpected(task, optionIds);
     validateFeedback(task);
@@ -463,6 +490,12 @@
     if (expected.kind === 'number') return numberMatches(value, expected);
     if (expected.kind === 'text') return textMatches(value, expected.accepted);
     return false;
+  }
+
+  function unitNotationMatches(value, expected) {
+    if (!expected) return true;
+    if (expected.required === false && !hasValue(value)) return true;
+    return textMatches(value, expected.accepted);
   }
 
   function textGroupsMatch(value, groups) {
@@ -523,7 +556,8 @@
       if (!response || typeof response !== 'object') return false;
       if (task.expected.workRequired !== false && !hasValue(response.work)) return false;
       if (task.expected.requiredWorkText && !textGroupsMatch(response.work, task.expected.requiredWorkText)) return false;
-      return finalAnswerMatches(response.finalAnswer, task.expected.finalAnswer);
+      return finalAnswerMatches(response.finalAnswer, task.expected.finalAnswer) &&
+        unitNotationMatches(response.unitNotation, task.expected.unitNotation);
     }
     if (
       (task.family === 'short_constructed_response' || task.family === 'structured_reasoning') &&
@@ -589,7 +623,11 @@
       return ['[data-task-id="' + task.id + '"][data-point-axis="x"]', '[data-task-id="' + task.id + '"][data-point-axis="y"]'];
     }
     if (task.family === 'calculation_work_capture') {
-      return ['[data-task-id="' + task.id + '"][data-input-role="work"]', '[data-task-id="' + task.id + '"][data-input-role="final-answer"]'];
+      var plan = ['[data-task-id="' + task.id + '"][data-input-role="work"]', '[data-task-id="' + task.id + '"][data-input-role="final-answer"]'];
+      if (task.interaction && task.interaction.unitNotationLabel) {
+        plan.push('[data-task-id="' + task.id + '"][data-input-role="unit-notation"]');
+      }
+      return plan;
     }
     return ['[data-task-id="' + task.id + '"][data-input-role="answer"]'];
   }

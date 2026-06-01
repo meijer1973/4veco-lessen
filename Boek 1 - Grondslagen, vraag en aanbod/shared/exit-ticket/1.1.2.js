@@ -79,7 +79,10 @@
           "interaction": {
             "workLabel": "Berekening",
             "finalAnswerLabel": "Eindantwoord in procenten",
-            "placeholder": "Laat formule, invulling en tussenstap zien."
+            "placeholder": "Laat formule, invulling en tussenstap zien.",
+            "finalAnswerPlaceholder": "Bijvoorbeeld 15",
+            "unitNotationLabel": "Notatie",
+            "unitNotationPlaceholder": "Bijvoorbeeld %"
           },
           "expected": {
             "kind": "calculation",
@@ -94,6 +97,15 @@
                 "15.0",
                 "15.0%"
               ]
+            },
+            "unitNotation": {
+              "kind": "text",
+              "accepted": [
+                "%",
+                "procent",
+                "procentteken"
+              ],
+              "required": false
             },
             "workRequired": true,
             "criteria": [
@@ -156,7 +168,10 @@
           "interaction": {
             "workLabel": "Berekening",
             "finalAnswerLabel": "Indexcijfer",
-            "placeholder": "Laat zien welke waarde gedeeld wordt door de basiswaarde."
+            "placeholder": "Laat zien welke waarde gedeeld wordt door de basiswaarde.",
+            "finalAnswerPlaceholder": "Bijvoorbeeld 108",
+            "unitNotationLabel": "Notatie",
+            "unitNotationPlaceholder": "Bijvoorbeeld indexcijfer"
           },
           "expected": {
             "kind": "calculation",
@@ -167,6 +182,16 @@
                 "index 108",
                 "indexcijfer 108"
               ]
+            },
+            "unitNotation": {
+              "kind": "text",
+              "accepted": [
+                "index",
+                "indexcijfer",
+                "geen procent",
+                "zonder procentteken"
+              ],
+              "required": false
             },
             "workRequired": true,
             "criteria": [
@@ -234,7 +259,10 @@
           "interaction": {
             "workLabel": "Berekening",
             "finalAnswerLabel": "Eindantwoord in procenten",
-            "placeholder": "Gebruik het oude indexcijfer als basis."
+            "placeholder": "Gebruik het oude indexcijfer als basis.",
+            "finalAnswerPlaceholder": "Bijvoorbeeld 3,7",
+            "unitNotationLabel": "Notatie",
+            "unitNotationPlaceholder": "Bijvoorbeeld %"
           },
           "expected": {
             "kind": "calculation",
@@ -252,6 +280,15 @@
                 "3,7 procent",
                 "3.7 procent"
               ]
+            },
+            "unitNotation": {
+              "kind": "text",
+              "accepted": [
+                "%",
+                "procent",
+                "procentteken"
+              ],
+              "required": false
             },
             "workRequired": true,
             "criteria": [
