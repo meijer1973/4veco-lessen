@@ -91,6 +91,14 @@ specification unless the missing work is assigned to a named follow-up sprint.
   Consequence: these families must be added through reviewed schemas, UI,
   feedback, focus/keyboard behavior, and product-boundary checks; they may not
   be used as generic weak substitutes for richer target-operation proof.
+- 2026-06-01: added constrained construction task-family expansion to the
+  shared task-type shell. Affected surface: word-bank/sentence builders,
+  formula builders, cloze tile selection, source-value/source-chain builders,
+  label placement, reasoning, math, graph/table practice, and exit-ticket
+  task design. Approval route: roadmap/spec alignment at human request after
+  the constrained-construction task report. Consequence: these families must
+  be reviewed as operation-chain construction tasks, not as decorative
+  game-like quiz formats.
 
 ## Global Product Rules
 
@@ -249,9 +257,15 @@ Required task families:
 - structured reasoning or short explanation where the task benefits from the
   same feedback/self-check behavior.
 - cloze text;
+- cloze tile selection;
+- sentence builder;
+- formula builder;
 - multi-select;
 - matching pairs;
 - step ordering;
+- source-value selection;
+- source-chain builder;
+- label placement;
 - cause-effect chain;
 - claim-reason-evidence;
 - flow-diagram build;
@@ -286,6 +300,16 @@ Required behavior:
   choice-only checks may not stand in for calculation, graph/table,
   constructed reasoning, or target-equivalent proof when the target operation
   requires a richer action.
+- constrained construction families must define token/tile banks, distractors,
+  allowed reuse, expected order or placement, validation strictness, feedback
+  for missing or misplaced elements, and whether partial self-check is allowed
+  only in practice/short-check mode;
+- sentence, formula, source-chain, and label-placement tasks must prove that
+  the constructed answer matches a target-operation chain rather than merely
+  recognizing familiar words, symbols, or labels;
+- source-value and label-placement tasks require visual, keyboard/focus,
+  mobile, and dark-mode proof because their correctness depends on how source
+  or graph structure is rendered.
 
 The shell may be implemented incrementally, but each accepted task family must
 be strong enough for its own student-facing use. A task family that exists only

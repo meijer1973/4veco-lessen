@@ -56,6 +56,15 @@ consequences.
   these as reviewed student actions with schemas, feedback, focus/keyboard
   proof, and product-boundary checks, not as generic quiz variety or weak
   target-proof substitutes.
+- 2026-06-01: added constrained construction task-family expansion to the
+  shared task-type shell baseline. Affected surface: sentence builders,
+  formula builders, cloze tile selection, source-value/source-chain builders,
+  label placement, graph/table representation tasks, reasoning migration, and
+  exit-ticket operation-chain proof. Approval route: roadmap/spec alignment at
+  human request after the constrained-construction task report. Consequence:
+  future task-family work must prefer building answers from parts when that
+  better matches the target operation, and must not present token/tile
+  construction as a shallow recognition game.
 
 ## End-State Sentence
 
@@ -144,17 +153,21 @@ calculation/work capture, final-answer entry, unit/notation fields, short
 constructed response, table-value selection, graph reading, point placement or
 graph-construction substitute, structured reasoning, step ordering, step/chain
 interactions where needed, cloze text, multi-select, matching pairs,
-two-tier choice, and assertion-reason interactions, plus neutral
-feedback/retry/self-check states.
+two-tier choice, assertion-reason, cloze tile selection, sentence builders,
+formula builders, source-value and source-chain builders, and label-placement
+interactions, plus neutral feedback/retry/self-check states.
 
-Structured choice families are not quiz variety. A new choice-like family is
-appropriate only when the current task families cannot represent the student
-action. It must define the student action, response shape,
-validation/evaluation owner, feedback owner, focus and keyboard behavior,
-product-boundary flags, and route/checkpoint use case. Generic choice-only
-checks may not substitute for calculation, graph/table, reasoning, or
-target-equivalent proof unless the target exercise action itself is genuinely
-choice-like.
+Structured choice and constrained construction families are not quiz variety.
+A new choice-like or construction family is appropriate only when the current
+task families cannot represent the student action. It must define the student
+action, response shape, validation/evaluation owner, feedback owner, focus and
+keyboard behavior, product-boundary flags, and route/checkpoint use case.
+Generic choice-only checks may not substitute for calculation, graph/table,
+reasoning, or target-equivalent proof unless the target exercise action itself
+is genuinely choice-like. Token, tile, word-bank, formula-bank, and label-bank
+interactions are valuable only when the fragments force the same reasoning,
+formula, source, graph, or answer-construction structure required by the target
+exercise.
 
 The task shell is not an exit-ticket-only feature. It is the common interaction
 foundation for graph/table practice, math/calculation practice,
