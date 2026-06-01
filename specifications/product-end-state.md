@@ -40,6 +40,13 @@ consequences.
   GAME-ARCH-1 architecture decision sprint at human request. Consequence:
   short checks may provide local route advice, but they are not a
   target-equivalent proof and may not replace the separate exit ticket.
+- 2026-06-01: clarified the product-proof track before Scale Gate 1. Affected
+  surface: first-three-paragraph proof, advisory short checks, target-equivalent
+  exit tickets, shared route affordance, skill-map product surface,
+  task-family coverage, and dual-coding task decisions. Approval route:
+  SYNC-PRODUCT-1 roadmap/spec alignment at human request. Consequence:
+  Scale Gate 1 must wait for coherent product proof across the first three
+  paragraphs or an explicit human waiver with stated consequences.
 
 ## End-State Sentence
 
@@ -56,6 +63,13 @@ they already can do, receives the explanation and practice route needed to
 close the gap, and ends with a target-equivalent proof task that checks whether
 they can complete the paragraph target-exercise operation chain at the same
 cognitive level with matching answer forms.
+
+At full maturity, every paragraph has two distinct Check surfaces: an advisory
+short check for feedback, hints, repair, and local next-step advice; and a
+separate target-equivalent exit ticket that proves the paragraph target
+exercise can be completed locally and non-summatively. A sprint may leave one
+of those surfaces missing only by naming the missing surface as a follow-up or
+blocker.
 
 At full maturity, the strongest target exercises are official CvTE-style or
 CvTE-derived tasks. Official exam-target paragraphs must trace prompt, source
@@ -106,10 +120,21 @@ At full maturity, companion interaction is organized around:
   target-equivalent checkpoint composition that consume the route layer and
   reuse the task shell where the interaction type overlaps.
 
+The skill map is a student product surface, not only infrastructure. It should
+show the relevant paragraph skills, local route, current focus, what each game
+or check practises, and an actionable next practice link without exposing
+internal codes or claiming mastery.
+
+Visible route items in graph, math, reasoning, and skill-map panels must be
+actionable. Each route item should have a student-facing label, purpose, status
+or focus, and a direct target action or an explicit fallback. Silent dead route
+items are product defects.
+
 The shared task-type shell must support, at minimum, numeric input,
 calculation/work capture, final-answer entry, unit/notation fields, short
 constructed response, table-value selection, graph reading, point placement or
-graph-construction substitute, and neutral feedback/retry/self-check states.
+graph-construction substitute, structured reasoning, step/chain interactions
+where needed, and neutral feedback/retry/self-check states.
 
 The task shell is not an exit-ticket-only feature. It is the common interaction
 foundation for graph/table practice, math/calculation practice,
@@ -161,8 +186,9 @@ response, or checkpoint tasks ask students to perform the same kind of action.
 
 ### Check
 
-The route may include advisory short checks before the exit ticket. A short
-check answers: "How is this going, and what should I do next?" It may give
+Every paragraph should eventually include an advisory short check before the
+exit ticket. A short check answers: "How is this going, and what should I do
+next?" It may give
 local, non-binding advice such as practising a named game, going to the exit
 ticket, or continuing for now while revisiting a named weak skill later. It may
 not claim that the student has proven the paragraph target exercise.
@@ -171,6 +197,12 @@ The exit ticket is not merely a short quiz and is separate from the short
 check. Its product purpose is to check the same target-exercise operation chain
 at the same cognitive level, using answer forms that match the paragraph
 target exercise. It is the paragraph target-equivalent proof task.
+
+Short checks and practice routes may use hints, but those hints should be
+clickable or collapsed by default. Exit tickets must not expose learning hints,
+answer-revealing scaffolding, or teaching-mode feedback before the student
+attempts the task unless a later review explicitly approves purely
+interface-level help.
 
 If the student completes the exit ticket correctly, the product may say that
 the student has demonstrated they can complete the paragraph target exercise or
@@ -245,6 +277,12 @@ specification, including economics correctness, learning quality, student
 affordance, visual quality, source-output parity, procedure fidelity, and
 product-boundary language.
 
+Before Scale Gate 1, the first three paragraphs must be treated as the product
+proof set. Review must trace the full student path from landing page through
+Start, Leer, Oefen, skill map, practice task, advisory short check, exit
+ticket, and next action. Engine architecture, task-shell availability, and a
+single approved local `1.1.2` completion copy are not broad product proof.
+
 ### 6. Generated, reproducible, source-controlled product
 
 Reusable UI, generators, engines, data contracts, and deploy logic belong in
@@ -283,6 +321,9 @@ complete when all of the following are true:
   out of scope;
 - visual artifacts actually contain the visuals needed for the skill being
   taught;
+- task design records when text-only is acceptable, when dual coding is
+  recommended, and when visual, graph/table, or flow-diagram interaction is
+  required;
 - the landing page exposes a coherent route:
   `Start -> Leer -> Oefen -> Check -> Verdiep`;
 - practice and checkpoint surfaces show the relevant skill route, current task

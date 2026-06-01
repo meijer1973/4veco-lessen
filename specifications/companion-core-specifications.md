@@ -76,6 +76,13 @@ specification unless the missing work is assigned to a named follow-up sprint.
   human request. Consequence: short checks may provide local, non-binding
   route advice but may not claim target-equivalent proof or replace the
   separate exit ticket.
+- 2026-06-01: clarified the Product Proof Track before Scale Gate 1. Affected
+  surface: advisory short-check coverage, target-equivalent exit-ticket
+  coverage, hint policy, non-exit route affordance, student skill-map product
+  surface, reasoning task-family standardization, and dual-coding task policy.
+  Approval route: SYNC-PRODUCT-1 roadmap/spec alignment at human request.
+  Consequence: first-three-paragraph product proof and `GATE-PRODUCT-3P` are
+  required before Scale Gate 1 unless explicitly waived by human decision.
 
 ## Global Product Rules
 
@@ -186,6 +193,9 @@ Non-negotiable requirements:
   skill-map/route language.
 - Graph/table, calculation, and checkpoint tasks use the shared task-type shell
   where the interaction type overlaps.
+- Route items in graph/table, math/calculation, reasoning, and shared
+  skill-map panels provide a direct action or explicit fallback instead of
+  passive labels only.
 - Each game requests the correct aspect scope.
 - The student default is not an overloaded full catalog.
 - Student-facing route text uses readable labels, not internal skill IDs.
@@ -202,6 +212,11 @@ Required behavior:
   explicit mixed contexts;
 - support compact, route, and restricted full modes;
 - hide or collapse the full catalog by default for students;
+- behave as a student-facing product surface showing paragraph target, current
+  route, relevant skills, game/check coverage, local progress, and next useful
+  practice action;
+- make route items actionable through direct links, task anchors, mode opens,
+  or explicit fallback actions;
 - show local practice progress without claiming mastery;
 - expose student-facing labels rather than internal codes;
 - preserve keyboard, mobile, and light/dark usability expectations.
@@ -225,10 +240,22 @@ Required task families:
 - point placement or graph-construction substitute;
 - structured reasoning or short explanation where the task benefits from the
   same feedback/self-check behavior.
+- step ordering;
+- cause-effect chain;
+- claim-reason-evidence;
+- flow-diagram build;
+- classification with explanation;
+- source-based explanation.
 
 Required behavior:
 
 - neutral feedback and retry/self-check states;
+- hints hidden behind click/collapse controls where hints are allowed;
+- separate number and unit/notation fields where the answer form requires
+  both, instead of forcing students to combine them in one ambiguous box;
+- one controlled feedback region per attempt, without endless stacked feedback
+  blocks;
+- clear next action after correct answers;
 - no mastery, grade, pass/fail, diagnostic, adaptive, sequencing, summative,
   AI, PV, or promotion claims;
 - visible task purpose connected to the current paragraph route;
@@ -258,6 +285,10 @@ The shell should become the foundation for:
 The short check is a retained companion surface. It is not the
 target-equivalent exit ticket.
 
+Every paragraph should eventually have an advisory short check unless a later
+review explicitly waives it with consequences. Missing short checks must be
+recorded as missing work, not silently treated as product-complete.
+
 Purpose:
 
 - offer a low-pressure local check during or near the end of a lesson route;
@@ -267,6 +298,8 @@ Purpose:
   is strong enough;
 - give proceed-for-now advice only as non-binding route guidance, never as an
   automatic sequencing or proof decision.
+- use hints, guidance, and repair feedback only as learning support; content
+  hints should be hidden or collapsed until clicked.
 
 Allowed short-check advice may include:
 
@@ -289,6 +322,11 @@ the same target-exercise operation chain at the same cognitive level, using
 answer forms that match the paragraph target exercise. It is the paragraph
 target-equivalent proof task. It is separate from the advisory short check.
 
+Every paragraph should eventually have a target-equivalent exit ticket unless
+a later review explicitly records a different proof route or waiver with
+consequences. Missing exit tickets must be recorded as blockers or follow-up
+work before product-scale reliance.
+
 Non-negotiable requirements:
 
 - It covers the paragraph target skills.
@@ -300,6 +338,9 @@ Non-negotiable requirements:
   graph/table, unit, percentage/index, and reasoning skills may require input
   fields, graph/table interactions, or short constructed responses; they may
   not be forced into MC-only form unless the target exercise is MC-like.
+- It must not expose learning hints, answer-revealing scaffolds, or
+  teaching-mode feedback before the student attempts the task unless a later
+  review explicitly approves purely interface-level help.
 - It consumes the shared task-type shell for calculation, graph/table,
   unit/notation, and short-response interactions instead of defining separate
   one-off interaction rules.
@@ -395,3 +436,32 @@ Verdicts:
 Scale Gate 1 may not close while an unresolved `core_spec_failure` remains
 unless a human decision explicitly waives the specification with stated
 consequences.
+
+## Dual-Coding Task Policy
+
+Task authors and reviewers must decide whether each exercise is:
+
+- text-only acceptable;
+- dual coding recommended;
+- dual coding required;
+- visual construction required;
+- graph/table interaction required;
+- flow-diagram interaction required.
+
+If a task would be stronger as a diagram, graph/table interaction, visual
+classification, or flow/step-chain task, a text-only choice must be justified
+or routed to a named follow-up sprint. This is especially important for
+reasoning tasks where a cause-effect chain or flow diagram can reduce
+guessing and cognitive load.
+
+## First-Three-Paragraph Product Proof
+
+Before Scale Gate 1, `1.1.1`, `1.1.2`, and `1.1.3` must be reviewed as a
+coherent product proof set. The review must inspect the student path through
+landing page, Start, Leer, Oefen, skill map, practice task, advisory short
+check, target-equivalent exit ticket, feedback, and next action.
+
+`GATE-PRODUCT-3P` must reject missing core product requirements rather than
+carrying them as ordinary flags. Engine architecture, route data, advisory
+short checks, and the reviewed local `1.1.2` completion copy do not by
+themselves prove broad scale readiness.
