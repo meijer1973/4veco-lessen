@@ -6,7 +6,7 @@ Produces:
   - 1.1 Economisch denken en rekenen – hoofdstuk.md / .html / .pdf
   - 1.1 Economisch denken en rekenen – antwoorden.md / .html / .pdf
 """
-import base64, re, os, subprocess, sys
+import base64, filecmp, re, os, shutil, subprocess, sys
 from pathlib import Path
 
 BASE = Path(__file__).parent
@@ -86,6 +86,55 @@ PARAGRAPHS = [
         "asset_prefix": "_assets/",
     },
 ]
+
+def refresh_chapter_assets():
+    """Refresh chapter aggregate assets from paragraph-level source assets."""
+    ASSET_DIR.mkdir(exist_ok=True)
+    allowed_prefixes = tuple(f"{p['dir'].name.split(' ')[0]}_" for p in PARAGRAPHS)
+    referenced_names = set()
+    image_ref_re = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
+    for p in PARAGRAPHS:
+        for key in ("para", "answers"):
+            source_path = p["dir"] / p[key]
+            if not source_path.exists():
+                continue
+            source_md = source_path.read_text(encoding="utf-8")
+            for match in image_ref_re.finditer(source_md):
+                filename = Path(match.group(1)).name
+                if not filename:
+                    continue
+                referenced_names.add(filename)
+                if filename.endswith(".svg"):
+                    referenced_names.add(filename[:-4] + ".png")
+                elif filename.endswith(".png"):
+                    referenced_names.add(filename[:-4] + ".svg")
+    for asset in ASSET_DIR.iterdir():
+        if (
+            asset.is_file()
+            and asset.suffix.lower() in {".svg", ".png"}
+            and (not asset.name.startswith(allowed_prefixes) or asset.name not in referenced_names)
+        ):
+            asset.unlink()
+    refreshed = 0
+    for p in PARAGRAPHS:
+        src_dir = p["dir"] / "_assets"
+        if not src_dir.is_dir():
+            continue
+        for asset in src_dir.iterdir():
+            if not asset.is_file():
+                continue
+            if (
+                asset.suffix.lower() not in {".svg", ".png"}
+                or not asset.name.startswith(allowed_prefixes)
+                or asset.name not in referenced_names
+            ):
+                continue
+            dest = ASSET_DIR / asset.name
+            if dest.exists() and filecmp.cmp(asset, dest, shallow=False):
+                continue
+            shutil.copy2(asset, dest)
+            refreshed += 1
+    print(f"Refreshed {refreshed} chapter asset(s)")
 
 # ---------------------------------------------------------------------------
 # CSS (same as per-paragraph builds, with front page additions)
@@ -503,6 +552,8 @@ def md_to_pdf(md, output_stem):
 
 
 if __name__ == "__main__":
+    refresh_chapter_assets()
+
     # 1. Assemble chapter markdown
     print("=== Assembling chapter ===")
     chapter_md = assemble_chapter()

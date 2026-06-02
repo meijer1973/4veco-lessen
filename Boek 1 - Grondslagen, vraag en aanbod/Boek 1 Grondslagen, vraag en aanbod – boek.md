@@ -60,21 +60,21 @@ boek.</p>
 <h1>Inhoudsopgave</h1>
 <table class="toc-table">
 <tbody>
-<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.1</td><td class="toc-title">Economisch denken en rekenen</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.1.1</td><td class="toc-title">Schaarste en economisch denken</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.1.2</td><td class="toc-title">Percentages en indexcijfers</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.1.3</td><td class="toc-title">Grafieken en tabellen</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.1.4</td><td class="toc-title">Gemengde opgaven</td></tr>
-<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.2</td><td class="toc-title">Vraag</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.2.1</td><td class="toc-title">Individuele vraag</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.2.2</td><td class="toc-title">Vraagfactoren</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.2.3</td><td class="toc-title">Van individuele naar collectieve vraag</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.2.4</td><td class="toc-title">Gemengde opgaven</td></tr>
-<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.3</td><td class="toc-title">Aanbod en marktevenwicht</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.3.1</td><td class="toc-title">Aanbod</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.3.2</td><td class="toc-title">Marktevenwicht</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.3.3</td><td class="toc-title">Verschuivingen en nieuw evenwicht</td></tr>
-<tr class="toc-paragraph"><td class="toc-nr">§1.3.4</td><td class="toc-title">Gemengde opgaven</td></tr>
+<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.1</td><td class="toc-title"><a href="#book-toc-chapter-1-1">Economisch denken en rekenen</a></td><td class="toc-page"><a href="#book-toc-chapter-1-1" aria-label="Pagina voor hoofdstuk 1.1"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.1.1</td><td class="toc-title"><a href="#book-toc-paragraph-1-1-1">Schaarste en economisch denken</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-1-1" aria-label="Pagina voor paragraaf 1.1.1"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.1.2</td><td class="toc-title"><a href="#book-toc-paragraph-1-1-2">Percentages en indexcijfers</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-1-2" aria-label="Pagina voor paragraaf 1.1.2"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.1.3</td><td class="toc-title"><a href="#book-toc-paragraph-1-1-3">Grafieken en tabellen</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-1-3" aria-label="Pagina voor paragraaf 1.1.3"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.1.4</td><td class="toc-title"><a href="#book-toc-paragraph-1-1-4">Gemengde opgaven</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-1-4" aria-label="Pagina voor paragraaf 1.1.4"></a></td></tr>
+<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.2</td><td class="toc-title"><a href="#book-toc-chapter-1-2">Vraag</a></td><td class="toc-page"><a href="#book-toc-chapter-1-2" aria-label="Pagina voor hoofdstuk 1.2"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.2.1</td><td class="toc-title"><a href="#book-toc-paragraph-1-2-1">Individuele vraag</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-2-1" aria-label="Pagina voor paragraaf 1.2.1"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.2.2</td><td class="toc-title"><a href="#book-toc-paragraph-1-2-2">Vraagfactoren</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-2-2" aria-label="Pagina voor paragraaf 1.2.2"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.2.3</td><td class="toc-title"><a href="#book-toc-paragraph-1-2-3">Van individuele naar collectieve vraag</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-2-3" aria-label="Pagina voor paragraaf 1.2.3"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.2.4</td><td class="toc-title"><a href="#book-toc-paragraph-1-2-4">Gemengde opgaven</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-2-4" aria-label="Pagina voor paragraaf 1.2.4"></a></td></tr>
+<tr class="toc-chapter"><td class="toc-nr">Hoofdstuk 1.3</td><td class="toc-title"><a href="#book-toc-chapter-1-3">Aanbod en marktevenwicht</a></td><td class="toc-page"><a href="#book-toc-chapter-1-3" aria-label="Pagina voor hoofdstuk 1.3"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.3.1</td><td class="toc-title"><a href="#book-toc-paragraph-1-3-1">Aanbod</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-3-1" aria-label="Pagina voor paragraaf 1.3.1"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.3.2</td><td class="toc-title"><a href="#book-toc-paragraph-1-3-2">Marktevenwicht</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-3-2" aria-label="Pagina voor paragraaf 1.3.2"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.3.3</td><td class="toc-title"><a href="#book-toc-paragraph-1-3-3">Verschuivingen en nieuw evenwicht</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-3-3" aria-label="Pagina voor paragraaf 1.3.3"></a></td></tr>
+<tr class="toc-paragraph"><td class="toc-nr">§1.3.4</td><td class="toc-title"><a href="#book-toc-paragraph-1-3-4">Gemengde opgaven</a></td><td class="toc-page"><a href="#book-toc-paragraph-1-3-4" aria-label="Pagina voor paragraaf 1.3.4"></a></td></tr>
 </tbody></table></div>
 
 <!-- BOOK-CONTENT-START -->
@@ -83,6 +83,7 @@ boek.</p>
 
 <div class="chapter-front">
 
+<span id="book-toc-chapter-1-1" class="book-toc-anchor"></span>
 <h1>Hoofdstuk 1 — Economisch denken en rekenen</h1>
 
 <h2>Inhoud</h2>
@@ -124,6 +125,7 @@ boek.</p>
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-1-1" class="book-toc-anchor"></span>
 # 1.1.1 Schaarste en economisch denken
 
 ## Waarom kun je niet alles hebben?
@@ -265,7 +267,7 @@ c) Een student heeft 4 uur vrije tijd en wil drie dingen doen: studeren (2 uur),
 
 ---
 
-### Verdiepende opgaven
+### Zelfstandige oefening
 
 **Opgave 3** *(meerdere alternatieven)*
 
@@ -313,6 +315,7 @@ b) Geef een voorbeeld van iets dat écht geen alternatieve kosten heeft. Is dat 
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-1-2" class="book-toc-anchor"></span>
 # 1.1.2 Percentages en indexcijfers
 
 ## Hoeveel duurder is het geworden?
@@ -498,6 +501,7 @@ Let op: het verschil is 5 indexpunten, maar de procentuele verandering is −4,5
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-1-3" class="book-toc-anchor"></span>
 # 1.1.3 Grafieken en tabellen
 
 ## Hoeveel ijsjes verkoop je bij welke prijs?
@@ -533,25 +537,30 @@ Kijk terug naar de ijsjestabel hierboven. In de linkerkolom staat de prijs in eu
 
 ### Van tabel naar grafiek
 
-Een grafiek maakt dat verband zichtbaar. Om een grafiek te tekenen, volg je een vaste procedure:
+Een grafiek maakt dat verband zichtbaar. Bij grafieken moet je eerst kiezen welke afspraak je volgt: de gewone wiskundige asregel of de economische marktdiagramconventie.
 
 > **Procedure: Grafiek tekenen van tabeldata**
 > 1. Lees de tabel: welke variabele is onafhankelijk, welke afhankelijk?
-> 2. Zet de onafhankelijke variabele op de x-as, de afhankelijke op de y-as (economie-conventie: prijs op y-as)
-> 3. Kies een geschikte schaalverdeling
-> 4. Zet de punten uit
-> 5. Verbind de punten (recht of vloeiend, afhankelijk van context)
+> 2. Bepaal of het om een gewone wiskundige grafiek gaat of om een economisch P-Q-diagram.
+> 3. Bij een economisch P-Q-diagram: zet prijs (P) op de y-as en hoeveelheid (Q) op de x-as.
+> 4. Kies een geschikte schaalverdeling.
+> 5. Zet de punten uit.
+> 6. Verbind de punten (recht of vloeiend, afhankelijk van context).
 
-Bij de ijsjestabel is de prijs de onafhankelijke variabele en het aantal verkochte ijsjes de afhankelijke variabele. In de economie geldt een belangrijke conventie:
+Bij de ijsjestabel is de prijs de onafhankelijke variabele: de prijs die je kiest beïnvloedt hoeveel ijsjes je verkoopt. In de wiskunde zet je de onafhankelijke variabele meestal op de horizontale as. Bij een formule zoals `y = ax + b` staat `x` daarom op de x-as en `y` op de y-as.
+
+Voor deze vraagrelatie kun je wiskundig denken aan een formule zoals `q = ap + b`: de hoeveelheid `q` hangt af van de prijs `p`. Een wiskundige zou dan `p` horizontaal zetten en `q` verticaal.
+
+In economische marktdiagrammen doen we het bewust anders. Daar zetten we de prijs `P` op de verticale as en de hoeveelheid `Q` op de horizontale as. Dat is handig omdat je later vraag en aanbod in hetzelfde P-Q-diagram vergelijkt en bij één prijs direct de gevraagde en aangeboden hoeveelheid kunt aflezen.
 
 > **Definitie: Assenconventie in de economie**
-> In economische grafieken staat de prijs (P) altijd op de **verticale as** (y-as) en de hoeveelheid (Q) op de **horizontale as** (x-as). Dit is anders dan in de wiskunde, waar de onafhankelijke variabele standaard op de x-as staat.
+> In economische P-Q-diagrammen staat de prijs (P) op de **verticale as** (y-as) en de hoeveelheid (Q) op de **horizontale as** (x-as). Dit is een vakafspraak. De afspraak kan afwijken van de wiskundige regel "onafhankelijke variabele op de x-as".
 
 We passen de procedure toe op de ijsjestabel:
 
-**Stap 1:** De prijs is de onafhankelijke variabele, het aantal ijsjes de afhankelijke.
+**Stap 1:** De prijs beïnvloedt de hoeveelheid verkochte ijsjes, dus wiskundig gezien is de prijs de onafhankelijke variabele.
 
-**Stap 2:** Volgens de economie-conventie zetten we de prijs op de y-as en de hoeveelheid op de x-as.
+**Stap 2:** Omdat dit een economisch P-Q-diagram is, volgen we de economische conventie: prijs op de y-as, hoeveelheid op de x-as.
 
 **Stap 3:** De prijs loopt van €1,00 tot €3,00 — we kiezen een schaal van €0,50 per lijn. De hoeveelheid loopt van 100 tot 500 — we kiezen een schaal van 100 per lijn.
 
@@ -562,11 +571,11 @@ We passen de procedure toe op de ijsjestabel:
 In figuur 1 zie je het negatieve verband: de lijn loopt van linksboven naar rechtsonder. Hoe lager de prijs, hoe meer ijsjes er verkocht worden.
 
 > **⚠️ Let op — veelgemaakte fout**
-> Veel leerlingen zetten de prijs op de horizontale as en de hoeveelheid op de verticale as. Dat is wiskundig niet fout, maar in de economie doen we het andersom. Figuur 2 laat het verschil zien.
+> Veel leerlingen zetten de prijs op de horizontale as en de hoeveelheid op de verticale as. Dat past bij de wiskundige gedachte `q = ap + b`, waarin `p` de onafhankelijke variabele is. Voor economische P-Q-diagrammen moet je juist de vakafspraak gebruiken: prijs verticaal, hoeveelheid horizontaal. Figuur 2 laat het verschil zien.
 
 ![Figuur 2: Links de economie-conventie (correct), rechts de wiskundeconventie (niet gebruiken)](_assets/1.1.3_fig_2.svg)
 
-Onthoud: in dit vak staat de prijs altijd op de y-as. Als je een grafiek tekent of afleest, controleer dan eerst welke variabele op welke as staat.
+Onthoud: bij economische P-Q-diagrammen staat de prijs op de y-as. Als je een grafiek tekent of afleest, controleer dan eerst of het om zo'n P-Q-diagram gaat en welke variabele op welke as staat.
 
 ---
 
@@ -716,7 +725,7 @@ Een marktkraam verkoopt koffie. De eigenaar heeft de volgende gegevens:
 
 ---
 
-### Verdiepende opgaven
+### Zelfstandige oefening
 
 **Opgave 3**
 
@@ -753,6 +762,7 @@ Twee leerlingen maken een grafiek van dezelfde gegevens. Leerling A begint de y-
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-1-4" class="book-toc-anchor"></span>
 # Gemengde opgaven §1.1.4 — Economisch denken en rekenen
 
 ---
@@ -839,10 +849,12 @@ De leerlingenraad kiest voor de smoothie-machine.
 
 **Denkertje** *(2p)* De rector van de school zegt: "De broodjesprijs is van 2021 naar 2025 met 30 indexpunten gestegen. Dat is een stijging van 30%." Beoordeel of de rector gelijk heeft. Laat je berekening zien en leg uit waarom indexpunten en procenten vaak worden verward.
 
+
 <div style="break-before: page;"></div>
 
 <div class="chapter-front">
 
+<span id="book-toc-chapter-1-2" class="book-toc-anchor"></span>
 <h1>Hoofdstuk 2 — Vraag</h1>
 
 <h2>Inhoud</h2>
@@ -884,6 +896,7 @@ De leerlingenraad kiest voor de smoothie-machine.
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-2-1" class="book-toc-anchor"></span>
 # 1.2.1 Individuele vraag
 
 ## Hoe beslis je hoeveel je koopt?
@@ -1211,6 +1224,7 @@ b) Als het inkomen van Max stijgt, verwacht je dan dat zijn betalingsbereidheid 
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-2-2" class="book-toc-anchor"></span>
 # 1.2.2 Vraagfactoren
 
 ## Boter zonder prijsverandering — toch koopt iedereen ineens meer
@@ -1543,6 +1557,7 @@ b) Een criticus stelt: "Maatregel A werkt alleen zolang de belasting er is. Maat
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-2-3" class="book-toc-anchor"></span>
 # 1.2.3 Van individuele naar collectieve vraag
 
 ## Hoeveel limonade verkoopt het schoolfeest?
@@ -1907,6 +1922,7 @@ c) Stel dat de gemeente óók een reclamecampagne start die het OV aantrekkelijk
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-2-4" class="book-toc-anchor"></span>
 # Gemengde opgaven §1.2.4 — Vraag
 
 ---
@@ -1981,6 +1997,7 @@ Geef voor elk van deze twee veranderingen apart aan of het een beweging langs of
 
 <div class="chapter-front">
 
+<span id="book-toc-chapter-1-3" class="book-toc-anchor"></span>
 <h1>Hoofdstuk 3 — Aanbod en marktevenwicht</h1>
 
 <h2>Inhoud</h2>
@@ -2018,6 +2035,7 @@ Geef voor elk van deze twee veranderingen apart aan of het een beweging langs of
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-3-1" class="book-toc-anchor"></span>
 # 1.3.1 Aanbod
 
 ## Zonnepanelen op elk dak — maar waarom worden ze duurder?
@@ -2360,6 +2378,7 @@ b) Een criticus stelt: "Maatregel A kost de overheid elk jaar geld. Maatregel B 
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-3-2" class="book-toc-anchor"></span>
 # 1.3.2 Marktevenwicht
 
 ## Twee lijnen, één kruispunt — en toch snapt bijna niemand het in één keer
@@ -2712,6 +2731,7 @@ d) Bedenk een maatregel waarmee de overheid het tekort kan verkleinen zonder de 
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-3-3" class="book-toc-anchor"></span>
 # 1.3.3 Verschuivingen en nieuw evenwicht
 
 ## De schriftenmarkt draait op volle toeren — tot er iets verandert
@@ -3184,6 +3204,7 @@ d) Wat gebeurt er met de evenwichtshoeveelheid als k groter wordt?
 
 <div style="break-before: page;"></div>
 
+<span id="book-toc-paragraph-1-3-4" class="book-toc-anchor"></span>
 # 1.3.4 Gemengde opgaven
 
 In deze paragraaf oefen je met vraag, aanbod, marktevenwicht en verschuivingen. Er komt geen nieuwe theorie bij. Gebruik steeds dezelfde volgorde:

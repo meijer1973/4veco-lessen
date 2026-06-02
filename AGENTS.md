@@ -114,6 +114,36 @@ For any non-trivial sprint, roadmap, gate, reference-system, production, or arch
 - if the plan is too thin or misses a requirement from the roadmap, stop and fix the plan before continuing
 - before moving past a review gate, verify the required artifacts exist and validators pass
 
+### Remote publication and repository maps
+
+Off-site reviewers use GitHub as their working surface. A local lesson-output
+change is not complete until the normal remote branch is current enough for
+reviewers to inspect the generated output, roadmap records, and cited
+evidence.
+
+Normal closure for non-trivial work in this repository includes:
+
+- run `git fetch --prune origin` before final commit/push and resolve any
+  behind/diverged state explicitly;
+- when platform and lesson repositories both changed, commit and push both
+  repositories or explicitly report why one side is intentionally local-only;
+- refresh GitHub-facing maps/indexes from the platform workflow whenever paths,
+  roadmaps, generated reports, agents, skills, review packets, or evidence
+  surfaces change;
+- after validation, commit and push to the normal remote branch unless the user
+  explicitly asks to keep work local;
+- do not leave a completed sprint, generated-output update, or human-review
+  artifact in a dirty local worktree; if a blocker prevents commit/push, report
+  the exact dirty status and blocker before ending;
+- report both the local commit hash and whether it has been pushed.
+
+Human-review packets and review records have an extra remote-publication rule:
+
+- before sending, running, or recording a human-review packet, push the packet
+  and every cited evidence artifact to the normal remote branch, refresh the
+  GitHub-facing maps/indexes through the platform workflow, and verify the
+  remote is current enough for an off-site reviewer to fetch the files.
+
 Human-review gates require actual review artifacts. Do not treat a casual "OK", "continue", or inferred approval as a completed human review when the plan requires an interview, decision record, or gate-closure file. 
 All other requirements for sprints are also  required for the Human review. So a checkable plan is made beforehand and that plan is tested afterwards. That will make sure that there is an actual log of the interview. 
 

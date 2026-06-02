@@ -204,9 +204,15 @@ practice routes, review records, and answer models.
 
 ### Oefen
 
-The student follows a route that fits the learning need. The practice layer may
-include guided practice, procedure support, reasoning game, old skill-tree math
-practice, graph/table practice, basis/midden/verrijking, or mixed practice.
+The student follows a route that fits the learning need. The standard
+student-facing exercise block after start exercises is `Zelfstandige oefening`,
+not `Verdieping`. The practice layer may include guided practice, procedure
+support, reasoning game, old skill-tree math practice, graph/table practice,
+differentiated support, optional stretch tasks, or mixed practice.
+
+`Verdieping` may describe optional enrichment outside the core post-start
+exercise sequence, but it must not become the default label for normal
+independent paragraph exercises.
 
 `Stappenplan` is procedure support. It must not silently replace the primary
 math skill-tree practice route where that route is scoped to the paragraph.
