@@ -56,6 +56,13 @@ consequences.
   these as reviewed student actions with schemas, feedback, focus/keyboard
   proof, and product-boundary checks, not as generic quiz variety or weak
   target-proof substitutes.
+- 2026-06-03: added context-first shared task source ingestion. Affected
+  surface: shared task-type shell, exam/textbook source reconstruction,
+  graph/table/source practice, exit-ticket design, and Scale Gate proof.
+  Approval route: SYNC-TASK-CONTEXT-INGEST-1 at human request. Consequence:
+  source context must be represented as first-class task context blocks before
+  task-family questions, with reconstructed tables/SVG/flow/formula blocks and
+  source traceability before route adoption.
 - 2026-06-01: added constrained construction task-family expansion to the
   shared task-type shell baseline. Affected surface: sentence builders,
   formula builders, cloze tile selection, source-value/source-chain builders,
@@ -88,6 +95,13 @@ separate target-equivalent exit ticket that proves the paragraph target
 exercise can be completed locally and non-summatively. A sprint may leave one
 of those surfaces missing only by naming the missing surface as a follow-up or
 blocker.
+
+At full maturity, shared tasks use a context-first structure when an exercise
+depends on a source: source/context block first, then one or more task-family
+questions derived from that context. Context blocks include text stimulus,
+source excerpts, semantic tables, reconstructed SVG graphs/figures/flowcharts,
+formulas, captions, source labels, alt text, and student-facing references
+such as Bron, Tabel, Figuur, Formule, and Schema.
 
 At full maturity, the strongest target exercises are official CvTE-style or
 CvTE-derived tasks. Official exam-target paragraphs must trace prompt, source

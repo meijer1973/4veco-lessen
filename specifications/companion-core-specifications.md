@@ -91,6 +91,13 @@ specification unless the missing work is assigned to a named follow-up sprint.
   Consequence: these families must be added through reviewed schemas, UI,
   feedback, focus/keyboard behavior, and product-boundary checks; they may not
   be used as generic weak substitutes for richer target-operation proof.
+- 2026-06-03: added context-first task context blocks to the shared
+  task-type shell. Affected surface: source/text/table/graph/flow/formula
+  contexts, task-shell renderer, checkpoint/practice/exit-ticket design, and
+  route-specific review proof. Approval route: SYNC-TASK-CONTEXT-INGEST-1 at
+  human request. Consequence: source-dependent tasks must show validated
+  context blocks before the task controls, cite them with contextRefs, and avoid
+  raw copied screenshot shortcuts unless explicitly waived.
 - 2026-06-01: added constrained construction task-family expansion to the
   shared task-type shell. Affected surface: word-bank/sentence builders,
   formula builders, cloze tile selection, source-value/source-chain builders,
@@ -118,6 +125,11 @@ specification unless the missing work is assigned to a named follow-up sprint.
 - Shared task-type UI belongs in the platform runtime/generator layer and must
   be reused across checkpoint, graph/table, and math/calculation surfaces when
   they ask the same student action.
+- Source-dependent shared tasks must use validated context blocks before task
+  controls: markdown/source text, semantic tables, reconstructed SVG graphs or
+  flowcharts, formula blocks, captions, source references, and alt text. Tasks
+  cite context via contextRefs, and unreferenced or hidden context is not
+  acceptable proof.
 - Student-facing copy may not imply diagnostics, mastery, grading, automatic
   sequencing, summative use, student-facing AI, PV projection, PV machine
   promotion, CP-6 closure, Year-1 closure, or broad scaling unless a later
