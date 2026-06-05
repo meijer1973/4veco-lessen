@@ -114,6 +114,29 @@
     font-size: 0.78rem; font-weight: 600;
     color: var(--accent);
   }
+  .resource-card-check {
+    border-left-width: 5px;
+  }
+  .resource-card-check-short {
+    border-left-color: var(--wiskundig);
+  }
+  .resource-card-check-exit {
+    border-left-color: var(--grafisch);
+  }
+  .resource-card-check-short .resource-card-icon {
+    color: var(--wiskundig);
+    background: var(--wiskundig-tint);
+  }
+  .resource-card-check-exit .resource-card-icon {
+    color: var(--grafisch);
+    background: var(--grafisch-tint);
+  }
+  .resource-card-check .check-card-kind {
+    margin-bottom: 0.25rem;
+  }
+  .resource-card-check .resource-card-purpose {
+    min-height: 3.45em;
+  }
   .resource-sub-links {
     display: flex; gap: 0.45rem; flex-wrap: wrap;
     margin-top: 0.3rem;
@@ -259,7 +282,7 @@
         <span class="nav-number">4</span>
         <span class="nav-text">
           <span class="nav-title">Check</span>
-          <span class="nav-badge">Kies eerst oefentips, rond daarna af</span>
+          <span class="nav-badge">Eerst oefenadvies, daarna eindcheck</span>
         </span>
       </a>
       <a class="nav-item domain-grafisch" href="#verdiep" data-section="verdiep" data-route-layer="deepen">
@@ -409,23 +432,27 @@
           <span class="section-num bg-wiskunde">4</span>
           <div class="section-title-group">
             <div class="section-title">Check</div>
-            <span class="section-badge badge-wiskunde">Kies eerst oefentips, rond daarna af</span>
+            <span class="section-badge badge-wiskunde">Eerst oefenadvies, daarna eindcheck</span>
           </div>
         </div>
 <div class="resource-grid">
-        <a class="resource-card " href="1.1.2%20Percentages%20en%20indexcijfers%20%E2%80%93%20korte-check.html">
+        <a class="resource-card resource-card-check resource-card-check-short" data-check-route="advisory" data-check-purpose="local-practice-advice" href="1.1.2%20Percentages%20en%20indexcijfers%20%E2%80%93%20korte-check.html">
           <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
           <div class="resource-card-body">
+            <span class="resource-aspect-label check-card-kind">advies</span>
             <h3>Korte check</h3>
-            <p>Kies wat je nog wilt oefenen</p>
+            <p class="resource-card-purpose">Krijg lokaal oefenadvies. Je ziet welke stap nu handig is; dit is geen eindcheck.</p>
+            <span class="resource-card-action">Krijg oefenadvies &rarr;</span>
           </div>
         </a>
 
-        <a class="resource-card " href="1.1.2%20Percentages%20en%20indexcijfers%20%E2%80%93%20exit-ticket.html">
+        <a class="resource-card resource-card-check resource-card-check-exit" data-check-route="exit-ticket" data-check-purpose="end-check" href="1.1.2%20Percentages%20en%20indexcijfers%20%E2%80%93%20exit-ticket.html">
           <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
           <div class="resource-card-body">
+            <span class="resource-aspect-label check-card-kind">eindcheck</span>
             <h3>Exit ticket</h3>
-            <p>Maak de volledige paragraaf-check</p>
+            <p class="resource-card-purpose">Maak de eindcheck met dezelfde soort denkstappen als de eindopgave.</p>
+            <span class="resource-card-action">Maak eindcheck &rarr;</span>
           </div>
         </a>
         </div>
