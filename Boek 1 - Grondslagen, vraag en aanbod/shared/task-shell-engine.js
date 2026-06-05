@@ -33,9 +33,44 @@
     table_value_selection: { label: 'Tabelwaarde kiezen', deterministic: true },
     graph_reading: { label: 'Grafiek aflezen', deterministic: true },
     point_placement: { label: 'Punt plaatsen', deterministic: true },
-    graph_construction_substitute: { label: 'Grafiekstappen', deterministic: false },
+    graph_construction_substitute: { label: 'Grafiek construeren', deterministic: true },
     structured_reasoning: { label: 'Gestructureerde redenering', deterministic: false }
   };
+
+  var CONTEXT_BLOCK_TYPES = {
+    markdown: true,
+    source_excerpt: true,
+    table: true,
+    svg_figure: true,
+    graph: true,
+    flowchart: true,
+    formula: true,
+    info_box: true
+  };
+
+  var CONTEXT_ID_RE = /^ctx-[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+  var CONTEXT_REQUIRED_FIELDS = {
+    markdown: ['id', 'type', 'title', 'bodyMarkdown', 'accessibilitySummary'],
+    source_excerpt: ['id', 'type', 'sourceLabel', 'caption', 'bodyMarkdown', 'sourceRefs', 'accessibilitySummary'],
+    table: ['id', 'type', 'sourceLabel', 'caption', 'columns', 'rows', 'altText', 'sourceMaterialId'],
+    svg_figure: ['id', 'type', 'sourceLabel', 'caption', 'svg', 'viewBox', 'altText', 'sourceMaterialId', 'reconstruction'],
+    graph: ['id', 'type', 'sourceLabel', 'caption', 'axes', 'series', 'altText', 'sourceMaterialId'],
+    flowchart: ['id', 'type', 'sourceLabel', 'caption', 'nodes', 'edges', 'altText', 'sourceMaterialId'],
+    formula: ['id', 'type', 'sourceLabel', 'caption', 'expression', 'variables', 'altText', 'sourceMaterialId'],
+    info_box: ['id', 'type', 'title', 'bodyMarkdown', 'accessibilitySummary']
+  };
+
+  var CONTEXT_CAPTION_PREFIX = {
+    source_excerpt: 'Bron',
+    table: 'Tabel',
+    svg_figure: 'Figuur',
+    graph: 'Figuur',
+    flowchart: 'Figuur',
+    formula: 'Formule'
+  };
+
+  var ANSWER_LEAK_RE = /\b(?:juiste\s+antwoord|antwoord\s+is|uitkomst\s+is|oplossing\s+is|hint\s*:|kies\s+[^.?!]*(?:als|want)\s+[^.?!]*(?:antwoord|uitkomst))\b/i;
 
   var BLOCKED_STUDENT_TERMS = [
     'mastery',
@@ -170,6 +205,13 @@
     return true;
   }
 
+  function requireStringArray(value, path, minLength) {
+    requireArray(value, path, minLength || 1);
+    value.forEach(function (item, idx) {
+      requireString(item, path + '[' + idx + ']');
+    });
+  }
+
   function tolerance(expected) {
     return isNumber(expected.tolerance) ? Math.max(0, expected.tolerance) : 0;
   }
@@ -219,6 +261,14 @@
       push(task.interaction.assertionText);
       push(task.interaction.reasonText);
       push(task.interaction.optionLabel);
+      push(task.interaction.workspaceTitle);
+      push(task.interaction.xAxisLabel);
+      push(task.interaction.yAxisLabel);
+      push(task.interaction.pointRowsLabel);
+      push(task.interaction.lineConfirmationLabel);
+      push(task.interaction.lineShapeLabel);
+      push(task.interaction.xInputLabel);
+      push(task.interaction.yInputLabel);
       if (task.interaction.visual) {
         push(task.interaction.visual.title);
         push(task.interaction.visual.description);
@@ -309,9 +359,45 @@
     return out;
   }
 
-  function findStudentTextViolations(task) {
+  function collectContextText(block) {
+    var out = [];
+    function push(value) {
+      if (value == null) return;
+      if (Array.isArray(value)) {
+        value.forEach(push);
+        return;
+      }
+      if (isObject(value)) {
+        Object.keys(value).forEach(function (key) {
+          if (key === 'id' || key === 'sourceMaterialId' || key === 'viewBox' || key === 'sourceRefs') return;
+          push(value[key]);
+        });
+        return;
+      }
+      var str = String(value).trim();
+      if (str) out.push(str);
+    }
+
+    push(block.title);
+    push(block.sourceLabel);
+    push(block.caption);
+    push(block.bodyMarkdown);
+    push(block.accessibilitySummary);
+    push(block.altText);
+    push(block.columns);
+    push(block.rows);
+    push(block.axes);
+    push(block.series);
+    push(block.nodes);
+    push(block.edges);
+    push(block.expression);
+    push(block.variables);
+    return out;
+  }
+
+  function findTextViolations(values) {
     var violations = [];
-    collectStudentText(task || {}).forEach(function (value) {
+    (values || []).forEach(function (value) {
       var lower = value.toLowerCase();
       BLOCKED_STUDENT_TERMS.forEach(function (term) {
         if (containsBlockedTerm(lower, term)) {
@@ -321,6 +407,163 @@
       if (INTERNAL_CODE_RE.test(value)) violations.push({ type: 'internal_code', text: value });
     });
     return violations;
+  }
+
+  function findStudentTextViolations(task) {
+    return findTextViolations(collectStudentText(task || {}));
+  }
+
+  function findContextTextViolations(block) {
+    return findTextViolations(collectContextText(block || {}));
+  }
+
+  function validateSafeSvg(svg, path) {
+    requireString(svg, path);
+    assert(/^\s*<svg\b/i.test(svg), path + ' must start with an svg element');
+    assert(!/<script\b/i.test(svg), path + ' must not include script tags');
+    assert(!/\son[a-z]+\s*=/i.test(svg), path + ' must not include inline event handlers');
+    assert(!/javascript\s*:/i.test(svg), path + ' must not include javascript URLs');
+  }
+
+  function validateCaptionPrefix(block, path) {
+    var prefix = CONTEXT_CAPTION_PREFIX[block.type];
+    if (!prefix) return;
+    requireString(block.caption, path + '.caption');
+    assert(block.caption.indexOf(prefix + ' ') === 0, path + '.caption must start with "' + prefix + ' "');
+  }
+
+  function validateRequiredContextFields(block, path) {
+    CONTEXT_REQUIRED_FIELDS[block.type].forEach(function (field) {
+      var value = block[field];
+      if (Array.isArray(value)) {
+        requireArray(value, path + '.' + field, 1);
+        return;
+      }
+      if (isObject(value)) {
+        assert(Object.keys(value).length > 0, path + '.' + field + ' must be a non-empty object');
+        return;
+      }
+      requireString(value, path + '.' + field);
+    });
+  }
+
+  function validateContextTable(block, path) {
+    requireStringArray(block.columns, path + '.columns', 1);
+    requireArray(block.rows, path + '.rows', 1);
+    block.rows.forEach(function (row, rowIndex) {
+      requireArray(row, path + '.rows[' + rowIndex + ']', block.columns.length);
+      assert(row.length === block.columns.length, path + '.rows[' + rowIndex + '] must match column count');
+      row.forEach(function (cell, cellIndex) {
+        assert(cell == null || typeof cell === 'string' || typeof cell === 'number' || typeof cell === 'boolean', path + '.rows[' + rowIndex + '][' + cellIndex + '] must be a primitive value');
+      });
+    });
+  }
+
+  function validateContextGraph(block, path) {
+    assert(isObject(block.axes), path + '.axes must be an object');
+    assert(isObject(block.axes.x), path + '.axes.x must be an object');
+    assert(isObject(block.axes.y), path + '.axes.y must be an object');
+    requireString(block.axes.x.label, path + '.axes.x.label');
+    requireString(block.axes.y.label, path + '.axes.y.label');
+    requireArray(block.series, path + '.series', 1);
+    block.series.forEach(function (series, seriesIndex) {
+      assert(isObject(series), path + '.series[' + seriesIndex + '] must be an object');
+      requireString(series.label, path + '.series[' + seriesIndex + '].label');
+      requireArray(series.points, path + '.series[' + seriesIndex + '].points', 1);
+      series.points.forEach(function (point, pointIndex) {
+        assert(isObject(point), path + '.series[' + seriesIndex + '].points[' + pointIndex + '] must be an object');
+        assert(point.x != null, path + '.series[' + seriesIndex + '].points[' + pointIndex + '].x is required');
+        assert(point.y != null, path + '.series[' + seriesIndex + '].points[' + pointIndex + '].y is required');
+      });
+    });
+  }
+
+  function validateContextFlowchart(block, path) {
+    requireArray(block.nodes, path + '.nodes', 1);
+    var nodeIds = {};
+    block.nodes.forEach(function (node, idx) {
+      assert(isObject(node), path + '.nodes[' + idx + '] must be an object');
+      requireString(node.id, path + '.nodes[' + idx + '].id');
+      requireString(node.label, path + '.nodes[' + idx + '].label');
+      assert(!nodeIds[node.id], path + '.nodes has duplicate node id: ' + node.id);
+      nodeIds[node.id] = true;
+    });
+    requireArray(block.edges, path + '.edges', 1);
+    block.edges.forEach(function (edge, idx) {
+      assert(isObject(edge), path + '.edges[' + idx + '] must be an object');
+      requireString(edge.from, path + '.edges[' + idx + '].from');
+      requireString(edge.to, path + '.edges[' + idx + '].to');
+      optionalString(edge.label, path + '.edges[' + idx + '].label');
+      assert(nodeIds[edge.from], path + '.edges[' + idx + '].from must match a node');
+      assert(nodeIds[edge.to], path + '.edges[' + idx + '].to must match a node');
+    });
+  }
+
+  function validateContextFormula(block, path) {
+    requireArray(block.variables, path + '.variables', 1);
+    block.variables.forEach(function (variable, idx) {
+      assert(isObject(variable), path + '.variables[' + idx + '] must be an object');
+      requireString(variable.symbol, path + '.variables[' + idx + '].symbol');
+      requireString(variable.meaning, path + '.variables[' + idx + '].meaning');
+    });
+  }
+
+  function validateSvgReconstruction(block, path) {
+    assert(isObject(block.reconstruction), path + '.reconstruction must be an object');
+    requireString(block.reconstruction.status, path + '.reconstruction.status');
+    requireString(block.reconstruction.sourceMaterialId, path + '.reconstruction.sourceMaterialId');
+    assert(block.reconstruction.sourceMaterialId === block.sourceMaterialId, path + '.reconstruction.sourceMaterialId must match sourceMaterialId');
+    assert(block.reconstruction.rawCopiedImage === false, path + '.reconstruction.rawCopiedImage must be false');
+    assert(block.rawCopiedImage !== true, path + '.rawCopiedImage must not be true');
+    assert(!block.rawImagePath, path + '.rawImagePath is not allowed for reconstructed figures');
+    validateSafeSvg(block.svg, path + '.svg');
+  }
+
+  function validateContextBlock(block, index) {
+    var path = 'contextBlocks[' + index + ']';
+    assert(isObject(block), path + ' must be an object');
+    requireString(block.id, path + '.id');
+    assert(CONTEXT_ID_RE.test(block.id), path + '.id must be a stable ctx-* id');
+    requireString(block.type, path + '.type');
+    assert(CONTEXT_BLOCK_TYPES[block.type], path + '.type is not supported');
+    validateRequiredContextFields(block, path);
+    validateCaptionPrefix(block, path);
+
+    if (block.type === 'source_excerpt') requireStringArray(block.sourceRefs, path + '.sourceRefs', 1);
+    if (block.type === 'table') validateContextTable(block, path);
+    if (block.type === 'svg_figure') validateSvgReconstruction(block, path);
+    if (block.type === 'graph') validateContextGraph(block, path);
+    if (block.type === 'flowchart') validateContextFlowchart(block, path);
+    if (block.type === 'formula') validateContextFormula(block, path);
+
+    var violations = findContextTextViolations(block);
+    assert(violations.length === 0, block.id + ' context text has blocked terms or internal codes');
+    var leaked = collectContextText(block).some(function (value) { return ANSWER_LEAK_RE.test(value); });
+    assert(!leaked, block.id + ' context text must not leak answer hints');
+    return true;
+  }
+
+  function validateContextBlocks(blocks) {
+    if (blocks === undefined) return {};
+    requireArray(blocks, 'contextBlocks', 1);
+    var ids = {};
+    blocks.forEach(function (block, index) {
+      validateContextBlock(block, index);
+      assert(!ids[block.id], 'duplicate context block id: ' + block.id);
+      ids[block.id] = block;
+    });
+    return ids;
+  }
+
+  function validateTaskContextRefs(task) {
+    if (task.contextRefs === undefined) return;
+    requireStringArray(task.contextRefs, task.id + '.contextRefs', 1);
+    var ids = {};
+    task.contextRefs.forEach(function (ref) {
+      assert(CONTEXT_ID_RE.test(ref), task.id + '.contextRefs must use stable ctx-* ids');
+      assert(!ids[ref], task.id + '.contextRefs contains duplicate ref: ' + ref);
+      ids[ref] = true;
+    });
   }
 
   function isSelfCheckFamily(family) {
@@ -779,6 +1022,84 @@
       assertionOptionIds: options.ids,
       assertionOptionLabels: options.labels
     };
+  }
+
+  function validateGraphConstructionInteraction(task, path) {
+    var interaction = task.interaction;
+    requireString(interaction.workspaceTitle, path + '.workspaceTitle');
+    requireString(interaction.xAxisLabel, path + '.xAxisLabel');
+    requireString(interaction.yAxisLabel, path + '.yAxisLabel');
+    requireString(interaction.pointRowsLabel, path + '.pointRowsLabel');
+    requireString(interaction.lineConfirmationLabel, path + '.lineConfirmationLabel');
+    optionalString(interaction.lineShapeLabel, path + '.lineShapeLabel');
+    optionalString(interaction.xInputLabel, path + '.xInputLabel');
+    optionalString(interaction.yInputLabel, path + '.yInputLabel');
+    optionalString(interaction.emptyGraphAltText, path + '.emptyGraphAltText');
+    assert(isObject(interaction.axes), path + '.axes must be an object');
+    assert(isObject(interaction.axes.x), path + '.axes.x must be an object');
+    assert(isObject(interaction.axes.y), path + '.axes.y must be an object');
+    requireString(interaction.axes.x.label, path + '.axes.x.label');
+    requireString(interaction.axes.y.label, path + '.axes.y.label');
+    assert(isNumber(interaction.axes.x.min), path + '.axes.x.min must be numeric');
+    assert(isNumber(interaction.axes.x.max), path + '.axes.x.max must be numeric');
+    assert(isNumber(interaction.axes.y.min), path + '.axes.y.min must be numeric');
+    assert(isNumber(interaction.axes.y.max), path + '.axes.y.max must be numeric');
+    assert(interaction.axes.x.max > interaction.axes.x.min, path + '.axes.x.max must exceed min');
+    assert(interaction.axes.y.max > interaction.axes.y.min, path + '.axes.y.max must exceed min');
+    if (interaction.axes.x.ticks !== undefined) validateAxisTicks(interaction.axes.x.ticks, interaction.axes.x, path + '.axes.x.ticks');
+    if (interaction.axes.y.ticks !== undefined) validateAxisTicks(interaction.axes.y.ticks, interaction.axes.y, path + '.axes.y.ticks');
+    assert(Number.isInteger(interaction.pointCount) && interaction.pointCount >= 2, path + '.pointCount must be an integer >= 2');
+    return {
+      pointCount: interaction.pointCount
+    };
+  }
+
+  function validateAxisTicks(ticks, axis, path) {
+    requireArray(ticks, path, 2);
+    ticks.forEach(function (tick, idx) {
+      assert(isNumber(tick), path + '[' + idx + '] must be numeric');
+      assert(tick >= axis.min && tick <= axis.max, path + '[' + idx + '] must stay within axis min/max');
+    });
+    if (axis.tickDecimals !== undefined) {
+      assert(Number.isInteger(axis.tickDecimals) && axis.tickDecimals >= 0, path.replace(/\.ticks$/, '.tickDecimals') + ' must be a non-negative integer');
+    }
+    if (axis.tickFormat !== undefined) {
+      assert(axis.tickFormat === 'decimal_comma' || axis.tickFormat === 'plain', path.replace(/\.ticks$/, '.tickFormat') + ' must be decimal_comma or plain');
+    }
+  }
+
+  function validateIntervalHalvingInteraction(task, path) {
+    var interaction = task.interaction;
+    requireString(interaction.intervalLabel, path + '.intervalLabel');
+    requireArray(interaction.intervalOptions, path + '.intervalOptions', 2);
+    interaction.intervalOptions.forEach(function (option, idx) {
+      assert(isObject(option), path + '.intervalOptions[' + idx + '] must be an object');
+      requireString(option.id, path + '.intervalOptions[' + idx + '].id');
+      requireString(option.label, path + '.intervalOptions[' + idx + '].label');
+      requireString(option.finalAnswer, path + '.intervalOptions[' + idx + '].finalAnswer');
+      requireString(option.oldQuantity, path + '.intervalOptions[' + idx + '].oldQuantity');
+      requireString(option.newQuantity, path + '.intervalOptions[' + idx + '].newQuantity');
+      requireString(option.work, path + '.intervalOptions[' + idx + '].work');
+      if (option.correct !== undefined) assert(typeof option.correct === 'boolean', path + '.intervalOptions[' + idx + '].correct must be boolean');
+    });
+    requireString(interaction.relationLabel, path + '.relationLabel');
+    requireArray(interaction.relationOptions, path + '.relationOptions', 2);
+    interaction.relationOptions.forEach(function (option, idx) {
+      assert(isObject(option), path + '.relationOptions[' + idx + '] must be an object');
+      requireString(option.id, path + '.relationOptions[' + idx + '].id');
+      requireString(option.label, path + '.relationOptions[' + idx + '].label');
+    });
+    if (interaction.conclusionOptions !== undefined) {
+      requireString(interaction.conclusionLabel, path + '.conclusionLabel');
+      requireArray(interaction.conclusionOptions, path + '.conclusionOptions', 2);
+      interaction.conclusionOptions.forEach(function (option, idx) {
+        assert(isObject(option), path + '.conclusionOptions[' + idx + '] must be an object');
+        requireString(option.id, path + '.conclusionOptions[' + idx + '].id');
+        requireString(option.label, path + '.conclusionOptions[' + idx + '].label');
+        requireString(option.finalAnswer, path + '.conclusionOptions[' + idx + '].finalAnswer');
+        if (option.correct !== undefined) assert(typeof option.correct === 'boolean', path + '.conclusionOptions[' + idx + '].correct must be boolean');
+      });
+    }
   }
 
   function sourceValueLabelMap(values) {
@@ -1249,6 +1570,7 @@
       }
       if (expected.criteria !== undefined) requireArray(expected.criteria, task.id + '.expected.criteria', 1);
       if (expected.requiredWorkText !== undefined) validateTextGroups(expected.requiredWorkText, task.id + '.expected.requiredWorkText');
+      if (expected.acceptedWorkPaths !== undefined) validateAcceptedWorkPaths(expected.acceptedWorkPaths, task.id + '.expected.acceptedWorkPaths');
       if (expected.unitNotation !== undefined) {
         validateUnitNotation(expected.unitNotation, task.id + '.expected.unitNotation');
         requireString(task.interaction.unitNotationLabel, task.id + '.interaction.unitNotationLabel');
@@ -1551,6 +1873,24 @@
       return;
     }
 
+    if (task.family === 'graph_construction_substitute') {
+      assert(expected.kind === 'graph_construction_substitute', task.id + '.expected.kind must be graph_construction_substitute');
+      assert(isObject(expected.axes), task.id + '.expected.axes must be an object');
+      requireStringArray(expected.axes.xAccepted, task.id + '.expected.axes.xAccepted', 1);
+      requireStringArray(expected.axes.yAccepted, task.id + '.expected.axes.yAccepted', 1);
+      requireArray(expected.points, task.id + '.expected.points', 2);
+      assert(expected.points.length === interactionInfo.pointCount, task.id + '.expected.points must match interaction.pointCount');
+      expected.points.forEach(function (point, idx) {
+        assert(isObject(point), task.id + '.expected.points[' + idx + '] must be an object');
+        assert(isNumber(point.x), task.id + '.expected.points[' + idx + '].x must be numeric');
+        assert(isNumber(point.y), task.id + '.expected.points[' + idx + '].y must be numeric');
+      });
+      if (expected.toleranceX !== undefined) assert(isNumber(expected.toleranceX), task.id + '.expected.toleranceX must be numeric');
+      if (expected.toleranceY !== undefined) assert(isNumber(expected.toleranceY), task.id + '.expected.toleranceY must be numeric');
+      assert(/^(decreasing|increasing|constant)$/.test(expected.lineShape), task.id + '.expected.lineShape must be decreasing, increasing, or constant');
+      return;
+    }
+
     if (isSelfCheckFamily(task.family)) {
       assert(expected.kind === 'self_check', task.id + '.expected.kind must be self_check');
       requireArray(expected.criteria, task.id + '.expected.criteria', 1);
@@ -1566,6 +1906,16 @@
       assert(isObject(group), path + '[' + idx + '] must be an object');
       requireString(group.label, path + '[' + idx + '].label');
       requireArray(group.any, path + '[' + idx + '].any', 1);
+    });
+  }
+
+  function validateAcceptedWorkPaths(paths, path) {
+    requireArray(paths, path, 1);
+    paths.forEach(function (workPath, idx) {
+      assert(isObject(workPath), path + '[' + idx + '] must be an object');
+      requireString(workPath.id, path + '[' + idx + '].id');
+      optionalString(workPath.label, path + '[' + idx + '].label');
+      validateTextGroups(workPath.requiredWorkText, path + '[' + idx + '].requiredWorkText');
     });
   }
 
@@ -1587,6 +1937,10 @@
       optionalString(task.interaction.finalAnswerPlaceholder, path + '.finalAnswerPlaceholder');
       optionalString(task.interaction.unitNotationLabel, path + '.unitNotationLabel');
       optionalString(task.interaction.unitNotationPlaceholder, path + '.unitNotationPlaceholder');
+      if (task.interaction.selectionMode !== undefined) {
+        assert(task.interaction.selectionMode === 'interval_halving_check', path + '.selectionMode must be interval_halving_check when present');
+        validateIntervalHalvingInteraction(task, path);
+      }
     } else if (
       task.family === 'numeric_input' ||
       task.family === 'final_answer_entry' ||
@@ -1594,12 +1948,10 @@
       task.family === 'graph_reading'
     ) {
       requireString(task.interaction.inputLabel, path + '.inputLabel');
-    } else if (
-      task.family === 'short_constructed_response' ||
-      task.family === 'graph_construction_substitute' ||
-      task.family === 'structured_reasoning'
-    ) {
+    } else if (task.family === 'short_constructed_response' || task.family === 'structured_reasoning') {
       requireString(task.interaction.inputLabel, path + '.inputLabel');
+    } else if (task.family === 'graph_construction_substitute') {
+      interactionInfo = validateGraphConstructionInteraction(task, path);
     } else if (task.family === 'structured_short_response') {
       validateStructuredFields(task.interaction.fields, path + '.fields');
       if (task.interaction.options !== undefined) interactionInfo.optionIds = validateOptions(task.interaction.options, path + '.options');
@@ -1638,6 +1990,7 @@
     requireString(task.skillLabel, task.id + '.skillLabel');
     requireString(task.prompt, task.id + '.prompt');
     optionalString(task.purpose, task.id + '.purpose');
+    validateTaskContextRefs(task);
     if (task.hints !== undefined) validateHints(task.hints, task.id + '.hints');
     var optionIds = validateInteraction(task);
     validateExpected(task, optionIds);
@@ -1653,12 +2006,31 @@
     assert(isObject(data), 'task shell data must be an object');
     assert(data.schema_version === 1, 'task shell data must use schema_version 1');
     requireString(data.title, 'title');
+    optionalString(data.surfaceKind, 'surfaceKind');
     requireArray(data.tasks, 'tasks', 1);
+    var contextBlockIds = validateContextBlocks(data.contextBlocks);
+    var hasContextBlocks = data.contextBlocks !== undefined;
+    var contextRefs = {};
     var ids = {};
     data.tasks.forEach(function (task) {
       validateTask(task);
       assert(!ids[task.id], 'duplicate task id: ' + task.id);
       ids[task.id] = true;
+      if (data.surfaceKind === 'exit_ticket') {
+        assert(!Array.isArray(task.hints) || task.hints.length === 0, task.id + ' exit_ticket tasks must not include hints');
+      }
+      if (task.contextRefs !== undefined) {
+        assert(hasContextBlocks, task.id + '.contextRefs require contextBlocks');
+        task.contextRefs.forEach(function (ref) {
+          assert(contextBlockIds[ref], task.id + '.contextRefs contains unknown block: ' + ref);
+          contextRefs[ref] = true;
+        });
+      } else if (hasContextBlocks) {
+        assert(false, task.id + '.contextRefs is required when contextBlocks are present');
+      }
+    });
+    Object.keys(contextBlockIds).forEach(function (id) {
+      assert(contextRefs[id], 'context block is not referenced by any task: ' + id);
     });
     return true;
   }
@@ -1686,6 +2058,35 @@
     return Math.abs(x - expected.x) <= tx && Math.abs(y - expected.y) <= ty;
   }
 
+  function graphConstructionMatches(response, expected) {
+    if (!response || typeof response !== 'object') return false;
+    var keys = Object.keys(response).sort();
+    if (keys.join('\u0001') !== ['axes', 'lineShape', 'points'].join('\u0001')) return false;
+    if (!isObject(response.axes)) return false;
+    if (!textMatches(response.axes.x, expected.axes.xAccepted)) return false;
+    if (!textMatches(response.axes.y, expected.axes.yAccepted)) return false;
+    if (normalizeText(response.lineShape) !== normalizeText(expected.lineShape)) return false;
+    if (!Array.isArray(response.points) || response.points.length !== expected.points.length) return false;
+    var tx = isNumber(expected.toleranceX) ? Math.max(0, expected.toleranceX) : tolerance(expected);
+    var ty = isNumber(expected.toleranceY) ? Math.max(0, expected.toleranceY) : tolerance(expected);
+    var remaining = expected.points.map(function (point) {
+      return { x: point.x, y: point.y, matched: false };
+    });
+    for (var i = 0; i < response.points.length; i += 1) {
+      var actual = response.points[i];
+      if (!isObject(actual)) return false;
+      var x = cleanNumber(actual.x);
+      var y = cleanNumber(actual.y);
+      if (!isNumber(x) || !isNumber(y)) return false;
+      var match = remaining.find(function (point) {
+        return !point.matched && Math.abs(x - point.x) <= tx && Math.abs(y - point.y) <= ty;
+      });
+      if (!match) return false;
+      match.matched = true;
+    }
+    return remaining.every(function (point) { return point.matched; });
+  }
+
   function finalAnswerMatches(value, expected) {
     if (!expected || !expected.kind) return false;
     if (expected.kind === 'number') return numberMatches(value, expected);
@@ -1706,6 +2107,12 @@
       return (group.any || []).some(function (accepted) {
         return normalized.indexOf(normalizeText(accepted)) !== -1;
       });
+    });
+  }
+
+  function acceptedWorkPathMatches(value, paths) {
+    return (paths || []).some(function (workPath) {
+      return textGroupsMatch(value, workPath.requiredWorkText || []);
     });
   }
 
@@ -2504,10 +2911,14 @@
     if (task.family === 'point_placement') {
       return pointMatches(response && response.point ? response.point : response, task.expected);
     }
+    if (task.family === 'graph_construction_substitute' && task.expected.kind === 'graph_construction_substitute') {
+      return graphConstructionMatches(response, task.expected);
+    }
     if (task.family === 'calculation_work_capture' && task.expected.kind === 'calculation') {
       if (!response || typeof response !== 'object') return false;
       if (task.expected.workRequired !== false && !hasValue(response.work)) return false;
-      if (task.expected.requiredWorkText && !textGroupsMatch(response.work, task.expected.requiredWorkText)) return false;
+      if (task.expected.acceptedWorkPaths && !acceptedWorkPathMatches(response.work, task.expected.acceptedWorkPaths)) return false;
+      if (!task.expected.acceptedWorkPaths && task.expected.requiredWorkText && !textGroupsMatch(response.work, task.expected.requiredWorkText)) return false;
       return finalAnswerMatches(response.finalAnswer, task.expected.finalAnswer) &&
         unitNotationMatches(response.unitNotation, task.expected.unitNotation);
     }
@@ -2650,7 +3061,22 @@
     if (task.family === 'point_placement') {
       return ['[data-task-id="' + task.id + '"][data-point-axis="x"]', '[data-task-id="' + task.id + '"][data-point-axis="y"]'];
     }
+    if (task.family === 'graph_construction_substitute') {
+      return [
+        '[data-task-id="' + task.id + '"][data-graph-axis="x"]',
+        '[data-task-id="' + task.id + '"][data-graph-axis="y"]',
+        '[data-task-id="' + task.id + '"][data-graph-point-index]',
+        '[data-task-id="' + task.id + '"][data-graph-line-confirmation]'
+      ];
+    }
     if (task.family === 'calculation_work_capture') {
+      if (task.interaction && task.interaction.selectionMode === 'interval_halving_check') {
+        return [
+          '[data-task-id="' + task.id + '"][data-interval-option-id]',
+          '[data-task-id="' + task.id + '"][data-relation-option-id]',
+          '[data-task-id="' + task.id + '"][data-conclusion-option-id]'
+        ];
+      }
       var plan = ['[data-task-id="' + task.id + '"][data-input-role="work"]', '[data-task-id="' + task.id + '"][data-input-role="final-answer"]'];
       if (task.interaction && task.interaction.unitNotationLabel) {
         plan.push('[data-task-id="' + task.id + '"][data-input-role="unit-notation"]');
@@ -2732,11 +3158,16 @@
     FAMILIES: clone(FAMILIES),
     BOUNDARY_FLAGS: clone(BOUNDARY_FLAGS),
     BLOCKED_STUDENT_TERMS: BLOCKED_STUDENT_TERMS.slice(),
+    CONTEXT_BLOCK_TYPES: clone(CONTEXT_BLOCK_TYPES),
     INTERNAL_CODE_RE: INTERNAL_CODE_RE,
     cleanNumber: cleanNumber,
     collectStudentText: collectStudentText,
+    collectContextText: collectContextText,
     findStudentTextViolations: findStudentTextViolations,
+    findContextTextViolations: findContextTextViolations,
     validateTask: validateTask,
+    validateContextBlock: validateContextBlock,
+    validateContextBlocks: validateContextBlocks,
     validateTaskSet: validateTaskSet,
     evaluateTask: evaluateTask,
     focusPlan: focusPlan

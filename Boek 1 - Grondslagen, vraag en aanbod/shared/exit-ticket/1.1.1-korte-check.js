@@ -1,7 +1,8 @@
-// AUTO-GENERATED FROM 4veco-platform/source-data/book-1/exit-ticket/1.1.1.json -- DO NOT EDIT HERE
+// AUTO-GENERATED FROM 4veco-platform/source-data/book-1/exit-ticket/1.1.1-korte-check.json -- DO NOT EDIT HERE
 (function (root) {
   root.EXIT_TICKET_DATA = {
     "schema_version": 1,
+    "surface": "advisory_short_check",
     "parNr": "1.1.1",
     "parName": "Schaarste en economisch denken",
     "title": "Korte check",

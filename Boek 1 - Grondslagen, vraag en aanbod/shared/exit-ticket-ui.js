@@ -78,7 +78,7 @@
     }).join('');
   }
 
-  function renderTaskShellTask(task, index) {
+  function renderTaskShellTask(task, index, contextIndex) {
     var TaskShellUI = resolveTaskShellUI();
     if (!TaskShellUI) {
       return '<article class="et-task et-task-shell" data-task="' + escapeHtml(task.id) + '">' +
@@ -86,7 +86,7 @@
       '</article>';
     }
     var taskMarkup = removeTaskShellFeedbackRegion(
-      TaskShellUI.renderTask(displayTaskShellForExitTicket(task.taskShell), index),
+      TaskShellUI.renderTask(displayTaskShellForExitTicket(task.taskShell), index, contextIndex),
       task.taskShell.id
     );
     return '<article class="et-task et-task-shell" data-task="' + escapeHtml(task.id) + '">' +
@@ -118,8 +118,8 @@
     return displayTask;
   }
 
-  function renderTask(task, index) {
-    if (task.type === 'task_shell') return renderTaskShellTask(task, index);
+  function renderTask(task, index, contextIndex) {
+    if (task.type === 'task_shell') return renderTaskShellTask(task, index, contextIndex);
     var options = task.options.map(function (option) {
       return '<button type="button" class="et-option" data-task-id="' + escapeHtml(task.id) + '" data-answer-id="' + escapeHtml(option.id) + '">' +
         '<span class="et-option-letter">' + escapeHtml(option.id.toUpperCase()) + '</span>' +
@@ -139,6 +139,15 @@
 
   function renderStaticHtml(data, view) {
     view = view || {};
+    var TaskShellUI = resolveTaskShellUI();
+    var contextHtml = '';
+    var contextIndex = null;
+    if (Array.isArray(data.contextBlocks) && data.contextBlocks.length && TaskShellUI) {
+      contextHtml = TaskShellUI.renderContextBlocks(data.contextBlocks);
+      contextIndex = TaskShellUI.buildContextIndex
+        ? TaskShellUI.buildContextIndex(data.contextBlocks)
+        : null;
+    }
     return '<section class="et-hero">' +
       '<div>' +
         '<p class="et-eyebrow">Afronden</p>' +
@@ -153,7 +162,10 @@
         '<div class="et-route-grid">' + renderRouteCards(data) + '</div>' +
       '</aside>' +
     '</section>' +
-    '<section class="et-tasks">' + data.tasks.map(renderTask).join('') + '</section>' +
+    contextHtml +
+    '<section class="et-tasks">' + data.tasks.map(function (task, index) {
+      return renderTask(task, index, contextIndex);
+    }).join('') + '</section>' +
     '<section class="et-completion" id="et-completion" hidden>' +
       '<h2>' + escapeHtml(data.completion && data.completion.title ? data.completion.title : 'Kies je volgende oefenstap') + '</h2>' +
       '<p>' + escapeHtml(data.completion && data.completion.text ? data.completion.text : '') + '</p>' +
@@ -166,7 +178,7 @@
     if (!completion) return;
     var progress = engine.getProgress();
     if (progress.targetEquivalentAttempt) {
-      completion.hidden = progress.proofCandidate !== true;
+      completion.hidden = progress.completionLanguageEligible !== true;
       return;
     }
     completion.hidden = progress.pending !== 0;
@@ -174,6 +186,44 @@
 
   function bindInteractions(app, engine) {
     app.addEventListener('click', function (event) {
+      var sharedTaskShellUI = resolveTaskShellUI();
+      if (sharedTaskShellUI && sharedTaskShellUI.handleMultiSelectClick && sharedTaskShellUI.handleMultiSelectClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleClozeTileClick && sharedTaskShellUI.handleClozeTileClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleSentenceBuilderClick && sharedTaskShellUI.handleSentenceBuilderClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleFormulaBuilderClick && sharedTaskShellUI.handleFormulaBuilderClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleStepOrderingClick && sharedTaskShellUI.handleStepOrderingClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleMatchingPairsClick && sharedTaskShellUI.handleMatchingPairsClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleTwoTierChoiceClick && sharedTaskShellUI.handleTwoTierChoiceClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleAssertionReasonClick && sharedTaskShellUI.handleAssertionReasonClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleSourceValueSelectionClick && sharedTaskShellUI.handleSourceValueSelectionClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleSourceChainBuilderClick && sharedTaskShellUI.handleSourceChainBuilderClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleLabelPlacementClick && sharedTaskShellUI.handleLabelPlacementClick(app, event)) {
+        return;
+      }
+      if (sharedTaskShellUI && sharedTaskShellUI.handleGraphConstructionClick && sharedTaskShellUI.handleGraphConstructionClick(app, event)) {
+        return;
+      }
+
       var taskShellChoice = event.target.closest ? event.target.closest('.ts-choice') : null;
       if (taskShellChoice && taskShellChoice.closest('.et-task-shell')) {
         var shellTask = taskShellChoice.closest('.ts-task');
@@ -248,18 +298,33 @@
     if (task.family === 'choice' || task.family === 'table_value_selection') {
       return selected ? selected.getAttribute('data-choice-id') : '';
     }
+    if (task.family === 'multi_select') {
+      var MultiTaskShellUI = resolveTaskShellUI();
+      return MultiTaskShellUI && MultiTaskShellUI.collectMultiSelectResponse
+        ? MultiTaskShellUI.collectMultiSelectResponse(wrapper, task)
+        : { values: [] };
+    }
     if (task.family === 'point_placement') {
       return {
         x: getValue(wrapper, '[data-task-id="' + cssEscape(task.id) + '"][data-point-axis="x"]'),
         y: getValue(wrapper, '[data-task-id="' + cssEscape(task.id) + '"][data-point-axis="y"]')
       };
     }
+    if (task.family === 'graph_construction_substitute') {
+      var GraphTaskShellUI = resolveTaskShellUI();
+      return GraphTaskShellUI && GraphTaskShellUI.collectGraphConstructionResponse
+        ? GraphTaskShellUI.collectGraphConstructionResponse(wrapper, task)
+        : { axes: { x: '', y: '' }, points: [], lineShape: '' };
+    }
     if (task.family === 'calculation_work_capture') {
-      return {
-        work: getValue(wrapper, '[data-task-id="' + cssEscape(task.id) + '"][data-input-role="work"]'),
-        finalAnswer: getValue(wrapper, '[data-task-id="' + cssEscape(task.id) + '"][data-input-role="final-answer"]'),
-        unitNotation: getValue(wrapper, '[data-task-id="' + cssEscape(task.id) + '"][data-input-role="unit-notation"]')
-      };
+      var CalculationTaskShellUI = resolveTaskShellUI();
+      return CalculationTaskShellUI && CalculationTaskShellUI.collectCalculationResponse
+        ? CalculationTaskShellUI.collectCalculationResponse(wrapper, task)
+        : {
+          work: getValue(wrapper, '[data-task-id="' + cssEscape(task.id) + '"][data-input-role="work"]'),
+          finalAnswer: getValue(wrapper, '[data-task-id="' + cssEscape(task.id) + '"][data-input-role="final-answer"]'),
+          unitNotation: getValue(wrapper, '[data-task-id="' + cssEscape(task.id) + '"][data-input-role="unit-notation"]')
+        };
     }
     if (task.family === 'structured_short_response') {
       var fields = {};
@@ -271,6 +336,72 @@
         fields: fields,
         choice: selected ? selected.getAttribute('data-choice-id') : ''
       };
+    }
+    if (task.family === 'cloze_text') {
+      var ClozeTextTaskShellUI = resolveTaskShellUI();
+      return ClozeTextTaskShellUI && ClozeTextTaskShellUI.collectClozeTextResponse
+        ? ClozeTextTaskShellUI.collectClozeTextResponse(wrapper, task)
+        : { blanks: {} };
+    }
+    if (task.family === 'cloze_tile_select') {
+      var TaskShellUI = resolveTaskShellUI();
+      return TaskShellUI && TaskShellUI.collectClozeTileResponse
+        ? TaskShellUI.collectClozeTileResponse(wrapper, task)
+        : { blanks: {} };
+    }
+    if (task.family === 'sentence_builder') {
+      var SentenceTaskShellUI = resolveTaskShellUI();
+      return SentenceTaskShellUI && SentenceTaskShellUI.collectSentenceBuilderResponse
+        ? SentenceTaskShellUI.collectSentenceBuilderResponse(wrapper, task)
+        : { tokens: [] };
+    }
+    if (task.family === 'formula_builder') {
+      var FormulaTaskShellUI = resolveTaskShellUI();
+      return FormulaTaskShellUI && FormulaTaskShellUI.collectFormulaBuilderResponse
+        ? FormulaTaskShellUI.collectFormulaBuilderResponse(wrapper, task)
+        : { tokens: [] };
+    }
+    if (task.family === 'step_ordering') {
+      var StepTaskShellUI = resolveTaskShellUI();
+      return StepTaskShellUI && StepTaskShellUI.collectStepOrderingResponse
+        ? StepTaskShellUI.collectStepOrderingResponse(wrapper, task)
+        : { order: [] };
+    }
+    if (task.family === 'matching_pairs') {
+      var MatchingTaskShellUI = resolveTaskShellUI();
+      return MatchingTaskShellUI && MatchingTaskShellUI.collectMatchingPairsResponse
+        ? MatchingTaskShellUI.collectMatchingPairsResponse(wrapper, task)
+        : { pairs: [] };
+    }
+    if (task.family === 'two_tier_choice') {
+      var TwoTierTaskShellUI = resolveTaskShellUI();
+      return TwoTierTaskShellUI && TwoTierTaskShellUI.collectTwoTierChoiceResponse
+        ? TwoTierTaskShellUI.collectTwoTierChoiceResponse(wrapper, task)
+        : { answer: '', reason: '' };
+    }
+    if (task.family === 'assertion_reason') {
+      var AssertionTaskShellUI = resolveTaskShellUI();
+      return AssertionTaskShellUI && AssertionTaskShellUI.collectAssertionReasonResponse
+        ? AssertionTaskShellUI.collectAssertionReasonResponse(wrapper, task)
+        : { value: '' };
+    }
+    if (task.family === 'source_value_selection') {
+      var SourceValueTaskShellUI = resolveTaskShellUI();
+      return SourceValueTaskShellUI && SourceValueTaskShellUI.collectSourceValueSelectionResponse
+        ? SourceValueTaskShellUI.collectSourceValueSelectionResponse(wrapper, task)
+        : { selections: [] };
+    }
+    if (task.family === 'source_chain_builder') {
+      var SourceChainTaskShellUI = resolveTaskShellUI();
+      return SourceChainTaskShellUI && SourceChainTaskShellUI.collectSourceChainBuilderResponse
+        ? SourceChainTaskShellUI.collectSourceChainBuilderResponse(wrapper, task)
+        : { chain: [] };
+    }
+    if (task.family === 'label_placement') {
+      var LabelPlacementTaskShellUI = resolveTaskShellUI();
+      return LabelPlacementTaskShellUI && LabelPlacementTaskShellUI.collectLabelPlacementResponse
+        ? LabelPlacementTaskShellUI.collectLabelPlacementResponse(wrapper, task)
+        : { placements: [] };
     }
     return getValue(wrapper, '[data-task-id="' + cssEscape(task.id) + '"][data-input-role="answer"]');
   }

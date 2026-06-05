@@ -456,18 +456,60 @@
     if (task.family === "choice" || task.family === "table_value_selection") {
       return selected ? selected.getAttribute("data-choice-id") : "";
     }
+    if (task.family === "multi_select" && window.TaskShellUI && window.TaskShellUI.collectMultiSelectResponse) {
+      return window.TaskShellUI.collectMultiSelectResponse(rootEl, task);
+    }
     if (task.family === "point_placement") {
       return {
         x: getValue('[data-task-id="' + escapeCss(task.id) + '"][data-point-axis="x"]'),
         y: getValue('[data-task-id="' + escapeCss(task.id) + '"][data-point-axis="y"]')
       };
     }
+    if (task.family === "graph_construction_substitute" && window.TaskShellUI && window.TaskShellUI.collectGraphConstructionResponse) {
+      return window.TaskShellUI.collectGraphConstructionResponse(rootEl, task);
+    }
     if (task.family === "calculation_work_capture") {
+      if (window.TaskShellUI && window.TaskShellUI.collectCalculationResponse) {
+        return window.TaskShellUI.collectCalculationResponse(rootEl, task);
+      }
       return {
         work: getValue('[data-task-id="' + escapeCss(task.id) + '"][data-input-role="work"]'),
         finalAnswer: getValue('[data-task-id="' + escapeCss(task.id) + '"][data-input-role="final-answer"]'),
         unitNotation: getValue('[data-task-id="' + escapeCss(task.id) + '"][data-input-role="unit-notation"]')
       };
+    }
+    if (task.family === "cloze_tile_select" && window.TaskShellUI && window.TaskShellUI.collectClozeTileResponse) {
+      return window.TaskShellUI.collectClozeTileResponse(rootEl, task);
+    }
+    if (task.family === "cloze_text" && window.TaskShellUI && window.TaskShellUI.collectClozeTextResponse) {
+      return window.TaskShellUI.collectClozeTextResponse(rootEl, task);
+    }
+    if (task.family === "sentence_builder" && window.TaskShellUI && window.TaskShellUI.collectSentenceBuilderResponse) {
+      return window.TaskShellUI.collectSentenceBuilderResponse(rootEl, task);
+    }
+    if (task.family === "formula_builder" && window.TaskShellUI && window.TaskShellUI.collectFormulaBuilderResponse) {
+      return window.TaskShellUI.collectFormulaBuilderResponse(rootEl, task);
+    }
+    if (task.family === "step_ordering" && window.TaskShellUI && window.TaskShellUI.collectStepOrderingResponse) {
+      return window.TaskShellUI.collectStepOrderingResponse(rootEl, task);
+    }
+    if (task.family === "matching_pairs" && window.TaskShellUI && window.TaskShellUI.collectMatchingPairsResponse) {
+      return window.TaskShellUI.collectMatchingPairsResponse(rootEl, task);
+    }
+    if (task.family === "two_tier_choice" && window.TaskShellUI && window.TaskShellUI.collectTwoTierChoiceResponse) {
+      return window.TaskShellUI.collectTwoTierChoiceResponse(rootEl, task);
+    }
+    if (task.family === "assertion_reason" && window.TaskShellUI && window.TaskShellUI.collectAssertionReasonResponse) {
+      return window.TaskShellUI.collectAssertionReasonResponse(rootEl, task);
+    }
+    if (task.family === "source_value_selection" && window.TaskShellUI && window.TaskShellUI.collectSourceValueSelectionResponse) {
+      return window.TaskShellUI.collectSourceValueSelectionResponse(rootEl, task);
+    }
+    if (task.family === "source_chain_builder" && window.TaskShellUI && window.TaskShellUI.collectSourceChainBuilderResponse) {
+      return window.TaskShellUI.collectSourceChainBuilderResponse(rootEl, task);
+    }
+    if (task.family === "label_placement" && window.TaskShellUI && window.TaskShellUI.collectLabelPlacementResponse) {
+      return window.TaskShellUI.collectLabelPlacementResponse(rootEl, task);
     }
     return getValue('[data-task-id="' + escapeCss(task.id) + '"][data-input-role="answer"]');
   }
@@ -488,6 +530,66 @@
       return;
     }
     var task = engine.getCurrentTaskShellTask();
+    rootEl.querySelectorAll(".ts-multi-select").forEach(function (multi) {
+      multi.addEventListener("click", function (event) {
+        window.TaskShellUI.handleMultiSelectClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-cloze").forEach(function (cloze) {
+      cloze.addEventListener("click", function (event) {
+        window.TaskShellUI.handleClozeTileClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-sentence").forEach(function (sentence) {
+      sentence.addEventListener("click", function (event) {
+        window.TaskShellUI.handleSentenceBuilderClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-formula").forEach(function (formula) {
+      formula.addEventListener("click", function (event) {
+        window.TaskShellUI.handleFormulaBuilderClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-step-ordering").forEach(function (ordering) {
+      ordering.addEventListener("click", function (event) {
+        window.TaskShellUI.handleStepOrderingClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-matching-pairs").forEach(function (matchingPairs) {
+      matchingPairs.addEventListener("click", function (event) {
+        window.TaskShellUI.handleMatchingPairsClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-two-tier-choice").forEach(function (twoTierChoice) {
+      twoTierChoice.addEventListener("click", function (event) {
+        window.TaskShellUI.handleTwoTierChoiceClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-assertion").forEach(function (assertionReason) {
+      assertionReason.addEventListener("click", function (event) {
+        window.TaskShellUI.handleAssertionReasonClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-source-values").forEach(function (sourceValues) {
+      sourceValues.addEventListener("click", function (event) {
+        window.TaskShellUI.handleSourceValueSelectionClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-source-chain").forEach(function (sourceChain) {
+      sourceChain.addEventListener("click", function (event) {
+        window.TaskShellUI.handleSourceChainBuilderClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-label-placement").forEach(function (labelPlacement) {
+      labelPlacement.addEventListener("click", function (event) {
+        window.TaskShellUI.handleLabelPlacementClick(rootEl, event);
+      });
+    });
+    rootEl.querySelectorAll(".ts-graph-construction").forEach(function (graphConstruction) {
+      graphConstruction.addEventListener("click", function (event) {
+        window.TaskShellUI.handleGraphConstructionClick(rootEl, event);
+      });
+    });
     rootEl.querySelectorAll(".ts-choice").forEach(function (button) {
       button.addEventListener("click", function () {
         var taskEl = button.closest(".ts-task");

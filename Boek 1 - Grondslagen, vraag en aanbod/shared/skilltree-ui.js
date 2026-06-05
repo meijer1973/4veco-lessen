@@ -465,6 +465,9 @@
         if (task.family === 'choice' || task.family === 'table_value_selection') {
             return selected ? selected.getAttribute('data-choice-id') : '';
         }
+        if (task.family === 'multi_select' && window.TaskShellUI && window.TaskShellUI.collectMultiSelectResponse) {
+            return window.TaskShellUI.collectMultiSelectResponse(root, task);
+        }
         if (task.family === 'point_placement') {
             return {
                 x: getTaskShellValue('[data-task-id="' + escapeCss(task.id) + '"][data-point-axis="x"]'),
@@ -472,11 +475,50 @@
             };
         }
         if (task.family === 'calculation_work_capture') {
+            if (window.TaskShellUI && window.TaskShellUI.collectCalculationResponse) {
+                return window.TaskShellUI.collectCalculationResponse(root, task);
+            }
             return {
                 work: getTaskShellValue('[data-task-id="' + escapeCss(task.id) + '"][data-input-role="work"]'),
                 finalAnswer: getTaskShellValue('[data-task-id="' + escapeCss(task.id) + '"][data-input-role="final-answer"]'),
                 unitNotation: getTaskShellValue('[data-task-id="' + escapeCss(task.id) + '"][data-input-role="unit-notation"]')
             };
+        }
+        if (task.family === 'cloze_tile_select' && window.TaskShellUI && window.TaskShellUI.collectClozeTileResponse) {
+            return window.TaskShellUI.collectClozeTileResponse(root, task);
+        }
+        if (task.family === 'cloze_text' && window.TaskShellUI && window.TaskShellUI.collectClozeTextResponse) {
+            return window.TaskShellUI.collectClozeTextResponse(root, task);
+        }
+        if (task.family === 'sentence_builder' && window.TaskShellUI && window.TaskShellUI.collectSentenceBuilderResponse) {
+            return window.TaskShellUI.collectSentenceBuilderResponse(root, task);
+        }
+        if (task.family === 'formula_builder' && window.TaskShellUI && window.TaskShellUI.collectFormulaBuilderResponse) {
+            return window.TaskShellUI.collectFormulaBuilderResponse(root, task);
+        }
+        if (task.family === 'step_ordering' && window.TaskShellUI && window.TaskShellUI.collectStepOrderingResponse) {
+            return window.TaskShellUI.collectStepOrderingResponse(root, task);
+        }
+        if (task.family === 'matching_pairs' && window.TaskShellUI && window.TaskShellUI.collectMatchingPairsResponse) {
+            return window.TaskShellUI.collectMatchingPairsResponse(root, task);
+        }
+        if (task.family === 'two_tier_choice' && window.TaskShellUI && window.TaskShellUI.collectTwoTierChoiceResponse) {
+            return window.TaskShellUI.collectTwoTierChoiceResponse(root, task);
+        }
+        if (task.family === 'assertion_reason' && window.TaskShellUI && window.TaskShellUI.collectAssertionReasonResponse) {
+            return window.TaskShellUI.collectAssertionReasonResponse(root, task);
+        }
+        if (task.family === 'source_value_selection' && window.TaskShellUI && window.TaskShellUI.collectSourceValueSelectionResponse) {
+            return window.TaskShellUI.collectSourceValueSelectionResponse(root, task);
+        }
+        if (task.family === 'source_chain_builder' && window.TaskShellUI && window.TaskShellUI.collectSourceChainBuilderResponse) {
+            return window.TaskShellUI.collectSourceChainBuilderResponse(root, task);
+        }
+        if (task.family === 'label_placement' && window.TaskShellUI && window.TaskShellUI.collectLabelPlacementResponse) {
+            return window.TaskShellUI.collectLabelPlacementResponse(root, task);
+        }
+        if (task.family === 'graph_construction_substitute' && window.TaskShellUI && window.TaskShellUI.collectGraphConstructionResponse) {
+            return window.TaskShellUI.collectGraphConstructionResponse(root, task);
         }
         return getTaskShellValue('[data-task-id="' + escapeCss(task.id) + '"][data-input-role="answer"]');
     }
@@ -907,6 +949,42 @@
                     if (er !== null && mode === 'error') { handleError(parseInt(er, 10)); return; }
                     var ob = t.getAttribute('data-order-block');
                     if (ob !== null && mode === 'order') { handleOrderBlock(parseInt(ob, 10), step); return; }
+                    if (window.TaskShellUI && window.TaskShellUI.handleMultiSelectClick && window.TaskShellUI.handleMultiSelectClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleClozeTileClick && window.TaskShellUI.handleClozeTileClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleSentenceBuilderClick && window.TaskShellUI.handleSentenceBuilderClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleFormulaBuilderClick && window.TaskShellUI.handleFormulaBuilderClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleStepOrderingClick && window.TaskShellUI.handleStepOrderingClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleMatchingPairsClick && window.TaskShellUI.handleMatchingPairsClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleTwoTierChoiceClick && window.TaskShellUI.handleTwoTierChoiceClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleAssertionReasonClick && window.TaskShellUI.handleAssertionReasonClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleSourceValueSelectionClick && window.TaskShellUI.handleSourceValueSelectionClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleSourceChainBuilderClick && window.TaskShellUI.handleSourceChainBuilderClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleLabelPlacementClick && window.TaskShellUI.handleLabelPlacementClick(els.exStepSlot, e)) {
+                        return;
+                    }
+                    if (window.TaskShellUI && window.TaskShellUI.handleGraphConstructionClick && window.TaskShellUI.handleGraphConstructionClick(els.exStepSlot, e)) {
+                        return;
+                    }
                     var choice = t.closest ? t.closest('.ts-choice') : null;
                     if (choice && (mode === 'task_shell' || step.taskShell)) {
                         var taskEl = choice.closest('.ts-task');
@@ -930,6 +1008,9 @@
             if (e.target.id === 'st-numeric-input' && (e.key === 'Enter' || e.keyCode === 13)) {
                 e.preventDefault();
                 handleCheckNumeric();
+                return;
+            }
+            if (e.target.closest && (e.target.closest('.ts-multi-select') || e.target.closest('.ts-cloze') || e.target.closest('.ts-sentence') || e.target.closest('.ts-formula') || e.target.closest('.ts-step-ordering') || e.target.closest('.ts-matching-pairs') || e.target.closest('.ts-two-tier-choice') || e.target.closest('.ts-assertion') || e.target.closest('.ts-source-values') || e.target.closest('.ts-source-chain') || e.target.closest('.ts-label-placement') || e.target.closest('.ts-graph-construction'))) {
                 return;
             }
             if (e.target.getAttribute && e.target.getAttribute('data-task-id') && e.target.tagName !== 'TEXTAREA' && (e.key === 'Enter' || e.keyCode === 13)) {

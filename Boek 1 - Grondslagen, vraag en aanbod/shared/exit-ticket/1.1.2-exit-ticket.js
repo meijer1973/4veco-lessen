@@ -1,4 +1,4 @@
-// AUTO-GENERATED FROM 4veco-platform/source-data/book-1/exit-ticket/1.1.2.json -- DO NOT EDIT HERE
+// AUTO-GENERATED FROM 4veco-platform/source-data/book-1/exit-ticket/1.1.2-exit-ticket.json -- DO NOT EDIT HERE
 (function (root) {
   root.EXIT_TICKET_DATA = {
     "schema_version": 1,
