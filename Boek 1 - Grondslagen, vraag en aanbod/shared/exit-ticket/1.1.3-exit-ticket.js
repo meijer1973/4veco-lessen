@@ -7,6 +7,12 @@
     "parName": "Grafieken en tabellen",
     "title": "Exit ticket",
     "intro": "Gebruik de bron, tabel en het grafiekwerkvlak. Teken eerst de P-Q-grafiek, lees daarna af en controleer de daling.",
+    "layout": {
+      "kind": "source_task_workspace",
+      "sourcePaneTitle": "Bronnen",
+      "taskPaneTitle": "Werkvragen",
+      "taskPaneIntro": "Teken de P-Q-grafiek, lees af en controleer de daling."
+    },
     "targetSkillIds": [
       "A38",
       "A61",
