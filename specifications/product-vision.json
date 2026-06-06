@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "vision_id": "4veco-product-vision",
+  "status": "canonical_strategic_product_vision",
+  "canonical_markdown": "specifications/product-vision.md",
+  "operational_end_state": "specifications/product-end-state.md",
+  "companion_spec": "specifications/companion-core-specifications.md",
+  "north_star": "Open, generated, review-gated economics learning system from current readiness to exam-capable performance.",
+  "strategic_pillars": [
+    {
+      "id": "mtu_tree_moat",
+      "label": "Micro Teaching Unit tree as semantic backbone",
+      "posture": "advantage"
+    },
+    {
+      "id": "exercise_first_exam_grounding",
+      "label": "Exercise-first and exam-grounded architecture",
+      "posture": "advantage"
+    },
+    {
+      "id": "agent_scalable_repository",
+      "label": "Agent-scalable repository design",
+      "posture": "advantage"
+    },
+    {
+      "id": "visual_dual_coding",
+      "label": "Visual and dual-coding instructional quality",
+      "posture": "advantage"
+    },
+    {
+      "id": "affordance_usability",
+      "label": "Student route affordance and usability",
+      "posture": "advantage_or_high_parity"
+    },
+    {
+      "id": "lean_diffusion",
+      "label": "Static-first, cloneable, low-legal-complexity diffusion",
+      "posture": "advantage"
+    },
+    {
+      "id": "competitive_parity",
+      "label": "At least as good as competitors outside advantage areas",
+      "posture": "parity_floor"
+    }
+  ],
+  "non_negotiable_constraints": [
+    "static_first",
+    "no_accounts_by_default",
+    "no_server_side_student_tracking_by_default",
+    "local_storage_only_for_local_state_where_allowed",
+    "no_unapproved_diagnostics",
+    "no_unapproved_mastery_claims",
+    "no_unapproved_adaptive_sequencing",
+    "no_unapproved_summative_use",
+    "no_unapproved_student_facing_ai",
+    "no_unapproved_pv_projection",
+    "no_unapproved_scale_claims"
+  ],
+  "future_sprint_checklist": [
+    "vision_pillar",
+    "advantage_or_parity",
+    "student_visible_improvement",
+    "agent_reliability_improvement",
+    "diffusion_complexity_impact",
+    "efficiency_impact",
+    "proof_required",
+    "named_followups_or_waivers"
+  ]
+}

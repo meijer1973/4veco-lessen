@@ -32,6 +32,8 @@ Useful entry points:
 
 - `RESEARCH_AGENT_MAP.md`
 - `AGENTS.md`
+- `specifications/product-vision.md`
+- `specifications/product-vision.json`
 - `specifications/product-end-state.md`
 - `specifications/companion-core-specifications.md`
 - `lessen-team-roadmap.md`
@@ -42,6 +44,8 @@ Useful entry points:
 
 Exam-target work:
 
+- Use `specifications/product-vision.md` for strategic direction, moat/parity
+  trade-offs, lean diffusion constraints, and agent-reliability decisions.
 - Use `specifications/product-end-state.md` as the canonical product north
   star: every paragraph route should move the student from current readiness to
   target-exercise readiness.

@@ -10,9 +10,11 @@ companion surfaces. It exists outside the active roadmap and outside sprint
 plans so that roadmap updates cannot quietly weaken the intended product.
 
 This file implements the companion-surface part of
-`specifications/product-end-state.md`. If a companion sprint touches route
-structure, practice games, exit tickets, readiness language, or Scale Gate
-evidence, it must preserve that product-end-state baseline.
+`specifications/product-end-state.md`. Companion work must also preserve the
+strategic direction and trade-off logic in `specifications/product-vision.md`.
+If a companion sprint touches route structure, practice games, exit tickets,
+readiness language, or Scale Gate evidence, it must preserve that
+product-end-state baseline.
 
 If the roadmap, a sprint plan, or a review packet conflicts with this file,
 the conflict must be named explicitly. The team may choose a smaller bounded
@@ -32,6 +34,11 @@ specification unless the missing work is assigned to a named follow-up sprint.
 
 ## Change Notes
 
+- 2026-06-06: linked companion work to the new canonical strategic product
+  vision. Affected surface: companion sprint trade-offs, strategic quality
+  claims, and agent planning. Approval route: VISION-1 at explicit human
+  request. Consequence: companion sprints must preserve both strategic vision
+  and operational product end-state authority.
 - 2026-05-26: linked this companion specification to the new canonical
   product-end-state specification. Affected surface: companion route,
   game-row, exit-ticket, and review semantics. Approval route:

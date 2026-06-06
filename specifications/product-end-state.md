@@ -16,8 +16,24 @@ smaller scope as the full product unless the missing work is assigned to a
 named follow-up sprint or explicitly waived by human decision with stated
 consequences.
 
+## Strategic Vision Relationship
+
+The canonical strategic product vision lives in
+`specifications/product-vision.md`. That file defines why 4veco exists, where
+it should build advantage, where competitive parity is required, and how
+agents should make trade-offs during longer work.
+
+This file remains the canonical operational product end-state: the
+student-facing route and completeness definition.
+
 ## Change Notes
 
+- 2026-06-06: added the strategic vision relationship after VISION-1 created
+  `specifications/product-vision.md` as the canonical strategic product
+  vision. Affected surface: specification authority and agent trade-off
+  routing. Approval route: VISION-1 at explicit human request. Consequence:
+  future work should use product vision for strategic trade-offs and this file
+  for operational student-route completeness.
 - 2026-05-29: added the shared operational UI requirement after the
   engine-operationalization roadmap report. Affected surface: shared skill-map
   route, task-type shell, practice games, exit-ticket/checkpoint interaction,

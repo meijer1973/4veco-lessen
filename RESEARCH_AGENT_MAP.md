@@ -86,6 +86,8 @@ Human-readable:
 - `index.html` (top-level landing — book list)
 - `AGENT_GITHUB_ENTRY.md` (one-page GitHub orientation for agents)
 - `AGENTS.md` (operating rules for any agent acting on this repo)
+- `specifications/product-vision.md` (canonical strategic product vision)
+- `specifications/product-vision.json` (machine-readable strategic product vision)
 - `specifications/product-end-state.md` (canonical product north star)
 - `specifications/companion-core-specifications.md` (stable companion specifications)
 - `lessen-team-roadmap.md` (sprint ledger, mission, current status, guardrails)
@@ -101,6 +103,7 @@ Machine-readable:
 ```json
 {
   "entry_points": [
+    "specifications/product-vision.json",
     "Boek 1 - Grondslagen, vraag en aanbod/deploy-config.json",
     "Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/1.1.1-quality-ref.yaml",
     "Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/1.1.2 Percentages en indexcijfers/1.1.2-quality-ref.yaml",
@@ -114,6 +117,8 @@ entry_points (full URLs):
 
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/index.html
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/AGENTS.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/product-vision.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/product-vision.json
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/product-end-state.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/companion-core-specifications.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
@@ -146,6 +151,8 @@ URL index (single fetch unlocks the rest of the surface, served from the platfor
 ```json
 {
   "repo_operating_rules": "AGENTS.md",
+  "product_vision_spec": "specifications/product-vision.md",
+  "product_vision_json": "specifications/product-vision.json",
   "product_end_state_spec": "specifications/product-end-state.md",
   "companion_core_spec": "specifications/companion-core-specifications.md",
   "team_roadmap": "lessen-team-roadmap.md",
@@ -170,6 +177,8 @@ index_anchors (full URLs):
 Concrete index-anchor files (templates with `<book-title>` / `N.M.K` placeholders are not fetchable until substituted; only the concrete anchors are listed here):
 
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/AGENTS.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/product-vision.md
+- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/product-vision.json
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/product-end-state.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/companion-core-specifications.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
@@ -213,6 +222,8 @@ Use these index anchors before free-form browsing. The plan files state intent, 
   ],
   "root_doc_paths": [
     "AGENTS.md",
+    "specifications/product-vision.md",
+    "specifications/product-vision.json",
     "specifications/product-end-state.md",
     "specifications/companion-core-specifications.md",
     "lessen-team-roadmap.md",
@@ -476,7 +487,8 @@ Agents MUST follow this sequence:
 
 1. Load this map.
 2. Load `AGENTS.md` (operating rules),
-   `specifications/product-end-state.md` (product north star),
+   `specifications/product-vision.md` (strategic product direction),
+   `specifications/product-end-state.md` (operational product north star),
    `specifications/companion-core-specifications.md` (companion baseline), and
    `lessen-team-roadmap.md` (sprint state).
    - Determine which sprint is active and which paragraphs are in scope for companion-output research.
