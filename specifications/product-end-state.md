@@ -72,6 +72,16 @@ consequences.
   future task-family work must prefer building answers from parts when that
   better matches the target operation, and must not present token/tile
   construction as a shallow recognition game.
+- 2026-06-06: clarified shared-task/check-surface integrity after renewed
+  human review found that accepted graph-task decisions were not preserved in a
+  retry packet. Affected surface: advisory short checks, target-equivalent
+  exit-ticket candidates, graph/table task-shell controls, selector
+  distractors, and human-review evidence. Approval route:
+  CHECKSURFACE-POLICY-REGRESSION-1 at explicit human/lead-review request.
+  Consequence: future check-surface proof must show independent surfaces, no
+  answer-giving scaffolds, plausible distractors, graph/table action fidelity,
+  regression-memory checks, and student-facing quality before a renewed human
+  gate.
 
 ## End-State Sentence
 
@@ -256,6 +266,14 @@ clickable or collapsed by default. Exit tickets must not expose learning hints,
 answer-revealing scaffolding, or teaching-mode feedback before the student
 attempts the task unless a later review explicitly approves purely
 interface-level help.
+
+Short check and exit-ticket pairs must preserve surface independence. The
+short check may sample a lighter local context and route the student to useful
+practice; the exit ticket must remain a separate target-equivalent candidate
+with its own context, answer form, feedback, and authority flags. Graph/table
+check surfaces must ask the student to perform graph/table actions rather than
+recognize a visible solution. Controls that contain only correct choices,
+intervals, conclusions, labels, or fragments are not valid checks.
 
 If the student completes the exit ticket correctly, the product may say that
 the student has demonstrated they can complete the paragraph target exercise or

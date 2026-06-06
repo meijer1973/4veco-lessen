@@ -319,6 +319,16 @@
       }
       updateCompletion(app, engine);
     });
+    app.addEventListener('change', function (event) {
+      var sharedTaskShellUI = resolveTaskShellUI();
+      if (
+        sharedTaskShellUI &&
+        sharedTaskShellUI.handleGraphConstructionChange &&
+        sharedTaskShellUI.handleGraphConstructionChange(app, event)
+      ) {
+        return;
+      }
+    });
   }
 
   function cssEscape(value) {

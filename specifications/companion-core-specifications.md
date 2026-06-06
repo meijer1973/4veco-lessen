@@ -106,6 +106,16 @@ specification unless the missing work is assigned to a named follow-up sprint.
   the constrained-construction task report. Consequence: these families must
   be reviewed as operation-chain construction tasks, not as decorative
   game-like quiz formats.
+- 2026-06-06: added shared-task/check-surface integrity policy after renewed
+  human review found that previously accepted graph-task decisions had been
+  lost in the check-surface retry packet. Affected surface: advisory short
+  checks, target-equivalent exit-ticket candidates, graph/table shared tasks,
+  selector controls, evidence checkers, and human-review packets. Approval
+  route: CHECKSURFACE-POLICY-REGRESSION-1 at explicit human/lead-review
+  request. Consequence: later check-surface work must prove independence,
+  no answer-giveaway scaffolding, distractor-bearing controls, graph/table
+  action fidelity, regression-memory checks, and excellence-level
+  student-facing quality before a renewed human gate.
 
 ## Global Product Rules
 
@@ -335,6 +345,49 @@ The shell should become the foundation for:
 - math/calculation operations such as formula substitution, work capture,
   final answer, percentage/index notation, and units;
 - reasoning tasks when structured short response and feedback are needed.
+
+## Shared Task And Check-Surface Integrity Policy
+
+Shared task decisions must survive across sprints. When a human review accepts
+a task-family affordance, source/task split, delayed-label rule, same-workspace
+graph rule, feedback rule, or authority boundary, later check-surface work must
+carry it forward or record an explicit reviewed waiver.
+
+Non-negotiable rules:
+
+- Independence: an advisory short check and an exit ticket for the same
+  paragraph must not be identical, near-identical, or a context-light copy of
+  the same task. The short check may sample and route; the exit ticket must
+  prove the reviewed target operation chain.
+- No answer-giveaway: a student-facing task may not show the answer,
+  procedure, graph convention, completed graph, source-chain solution, or
+  conclusion before the student action unless a later review explicitly
+  approves purely interface-level help. Graph axis labels, scales, and helper
+  text that reveal the intended construction must be delayed, neutral, or
+  student-selected when the axis decision is part of the task.
+- Interaction integrity: selectors, intervals, conclusion choices, banks,
+  labels, and construction controls must include plausible incorrect options
+  where the student action is to discriminate. A correct-only selector is not a
+  check.
+- Choice-only substitution: generic choice controls may not replace
+  calculation, graph/table, source-use, construction, or reasoning actions
+  unless the target operation itself is genuinely choice-like.
+- Split-surface non-identity: a short check may use a lighter local context,
+  but the exit ticket must remain a separate target-equivalent candidate with
+  its own proof standard, authority flags, and answer form.
+- Graph/table task shell: graph/table checks must use graph/table task-family
+  actions such as table selection, graph reading, point placement,
+  graph-construction substitute, source-chain use, or validated calculation
+  work. Screenshots or labels alone do not prove graph/table competence.
+- Regression memory: every renewed human-review packet for a repaired
+  check-surface gate must cite a checker that fails the prior reviewed
+  defects, including duplicate surfaces, procedure-giving exits, answer
+  leakage, correct-only controls, missing feedback or next action, and
+  authority overclaim.
+- Excellence: passing tests, generated pages, screenshots, and route labels are
+  necessary evidence, not the quality bar. A student-facing surface is not
+  ready for human product review unless the reviewer can inspect why the task
+  helps the student learn, decide, or prove the intended skill.
 
 ## Advisory Short-Check Specification
 
