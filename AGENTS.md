@@ -176,6 +176,61 @@ A completed mutating task must report:
 
 If both `4veco-platform` and `4veco-lessen` are changed, use coordinated branches in both repos and report both branch names and both commit SHAs.
 
+## Worktree safety for agents
+
+Branch safety is not enough when multiple agents share one filesystem folder.
+Switching branches changes the working tree for that folder and can silently move
+other agents onto the wrong branch.
+
+For every mutating task, agents must use a dedicated worktree directory.
+
+Required invariant:
+
+- one agent
+- one task branch
+- one dedicated worktree directory
+
+Do not perform mutating work in the shared anchor clone unless the repository
+owner explicitly says this is a single-agent local task.
+
+Default agent worktree root:
+
+- `C:\Projects\4veco-worktrees\<task-id>\4veco-platform`
+- `C:\Projects\4veco-worktrees\<task-id>\4veco-lessen`
+
+Before editing files, run the worktree preflight from the coordinated
+`4veco-platform` worktree:
+
+- `npm.cmd run check:agent-worktree-safety -- --claim --task <task-id> --agent <agent-id> --require-prefix codex/,agent/`
+
+For lesson-only verification from the platform worktree, pass the lesson path
+explicitly with `--worktree <lesson-worktree-path>`.
+
+Rules:
+
+1. Do not share a worktree directory with another active agent.
+2. Do not switch branches inside a worktree owned by another agent.
+3. Do not reuse an existing worktree unless its ownership lock is absent or explicitly released.
+4. Do not override a worktree lock without explicit repository-owner instruction.
+5. Do not use `git checkout -f`, `git switch -f`, `git worktree add --force`, or `git checkout --ignore-other-worktrees` unless explicitly authorized.
+6. If the current branch changes unexpectedly during work, stop immediately and report possible worktree contamination.
+7. If both `4veco-platform` and `4veco-lessen` are changed, use coordinated worktrees under the same task directory and report both paths, branches, and SHAs.
+8. The main clone should be treated as an anchor/admin clone, not as a normal multi-agent work surface.
+
+Do not hand-edit generated lesson output from a shared worktree. If platform and
+lesson output both change, the platform and lesson worktrees must be coordinated
+under the same task id.
+
+A completed mutating task must report:
+
+- worktree path
+- branch name
+- lock owner / agent id
+- local commit SHA
+- whether it was pushed
+- PR URL or reason no PR was opened
+- latest `platform-ci / validate-platform` status if available
+
 Human-review packets and review records have an extra remote-publication rule:
 
 - before sending, running, or recording a human-review packet, push the packet
