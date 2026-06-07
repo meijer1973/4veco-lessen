@@ -145,6 +145,37 @@ Normal closure for non-trivial work in this repository includes:
   the exact dirty status and blocker before ending;
 - report both the local commit hash and whether it has been pushed.
 
+## Branch safety for agents
+
+For every mutating task, agents must work on a dedicated task branch.
+Before editing files, run:
+- `git fetch --prune origin`
+- `git status --short --branch`
+- `git branch --show-current`
+
+Rules:
+1. Do not work directly on `main`.
+2. Do not commit directly to `main`.
+3. Do not push directly to `main`.
+4. Create or switch to a unique task branch before edits:
+   - `codex/<short-task-name>-<YYYYMMDD>`
+   - or `agent/<short-task-name>-<YYYYMMDD>`
+5. If already on `main`, create a branch before making changes.
+6. If the branch already exists, inspect it before reusing it.
+7. If the local branch is behind, ahead, or diverged from the remote unexpectedly, stop and report.
+8. If another agent is working on the same branch or same sprint surface, stop and report the collision risk.
+9. Merge to `main` only through PR or through the repository owner's explicit instruction.
+10. Human-review packets and gate evidence must cite a passing `platform-ci / validate-platform` run for the reviewed commit, or include an explicit CI waiver.
+
+A completed mutating task must report:
+- branch name
+- local commit SHA
+- whether it was pushed
+- PR URL or reason no PR was opened
+- latest `platform-ci / validate-platform` status if available
+
+If both `4veco-platform` and `4veco-lessen` are changed, use coordinated branches in both repos and report both branch names and both commit SHAs.
+
 Human-review packets and review records have an extra remote-publication rule:
 
 - before sending, running, or recording a human-review packet, push the packet
