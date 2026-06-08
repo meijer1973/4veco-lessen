@@ -201,10 +201,13 @@ Default agent worktree root:
 Before editing files, run the worktree preflight from the coordinated
 `4veco-platform` worktree:
 
-- `npm.cmd run check:agent-worktree-safety -- --claim --task <task-id> --agent <agent-id> --require-prefix codex/,agent/`
+- `npm.cmd run check:agent-worktree-safety -- --claim --task <task-id> --agent <agent-id> --require-prefix codex/,agent/ --require-clean`
 
 For lesson-only verification from the platform worktree, pass the lesson path
 explicitly with `--worktree <lesson-worktree-path>`.
+
+Claim mode requires a clean working tree by default. During ongoing work, use
+`--check` without `--require-clean` when dirty files are expected.
 
 Rules:
 
