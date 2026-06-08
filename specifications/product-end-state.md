@@ -28,6 +28,18 @@ student-facing route and completeness definition.
 
 ## Change Notes
 
+- 2026-06-08: promoted concrete 1.1.3 product-excellence exemplar rules into
+  the check-surface end state after exemplar review found that layout,
+  answer-leak, interaction-order, tolerance, and natural-answer parsing lessons
+  should not remain only in an exemplar folder. Affected surface: advisory
+  short checks, target-equivalent exit tickets, graph/table tasks, formula
+  construction tasks, calculation-work capture, parser utilities, and review
+  validators. Approval route: direct exemplar follow-up request after
+  CHECKSURFACE-113-EXEMPLAR-REVIEW-1. Consequence: future scaled
+  check-surface builds must preserve these rules or name an explicit reviewed
+  blocker/waiver; this does not authorize product-route adoption, completion
+  language, diagnostics, mastery/sequencing, PV, Scale Gate 1, or
+  student/product use.
 - 2026-06-06: added the strategic vision relationship after VISION-1 created
   `specifications/product-vision.md` as the canonical strategic product
   vision. Affected surface: specification authority and agent trade-off
@@ -282,6 +294,43 @@ clickable or collapsed by default. Exit tickets must not expose learning hints,
 answer-revealing scaffolding, or teaching-mode feedback before the student
 attempts the task unless a later review explicitly approves purely
 interface-level help.
+
+For multi-step check surfaces and exit tickets, the student-facing design must
+preserve these product-excellence rules:
+
+- Use a stable source-left / task-right workspace when a source, table, graph,
+  or excerpt is needed across multiple tasks. The source pane should contain
+  only the needed source material; the task pane should contain the active
+  student work.
+- Do not show a pre-attempt procedure card, worked example, static formula,
+  completed graph, or answer pattern when that knowledge is part of the
+  assessed operation. Formula knowledge should be checked through an action
+  such as `formula_builder`, not revealed as a static context block.
+- Match the interface order to the thinking order. For graph reading, students
+  choose the source interval before entering the read-off or interpolated
+  value. For percentage-claim checks, the preferred visible chain is interval,
+  old value, new value, formula structure, calculation, conclusion.
+- Placeholders may show answer type only. They must not include the correct
+  value, answer sign, or answer pattern for the current task.
+- Prefer active manipulation over recognition when the target operation is
+  constructive: point placement, label placement, interval selection, source
+  value selection, formula building, and structured calculation fields should
+  be used instead of ordinary choice-only substitutes.
+- Tolerance must match the assessed skill. Graph tasks that assess table-point
+  interpretation should use snapping or broad tolerance rather than pixel
+  precision. Straight-line table-to-graph tasks may require two distinct table
+  points instead of every table point when two points determine the line.
+- Numeric and percent answers should use shared parser utilities where the
+  answer model allows ordinary student notation, including comma decimals,
+  percent signs, Unicode minus signs, units, and reviewed decrease phrases such
+  as `-50%`, `-50 procent`, and `50% daling`.
+- Calculation-work validators must enforce the full reviewed answer chain.
+  If the student-facing model requires both interval endpoints and both
+  old/new values, the checker may not collapse those into broad `any` groups
+  that prove only one endpoint or one value.
+- Feedback appears after attempt, names the operation to practise next, and
+  avoids grade, diagnostic, mastery, summative, pass/fail, adaptive-routing,
+  PV, Scale Gate, or product-readiness language.
 
 Short check and exit-ticket pairs must preserve surface independence. The
 short check may sample a lighter local context and route the student to useful
