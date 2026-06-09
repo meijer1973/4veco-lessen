@@ -75,11 +75,11 @@
 
   <!-- Original V₁ (dashed) -->
   <line x1="430" y1="95" x2="670" y2="320" stroke="#1A5276" stroke-width="2" stroke-dasharray="6,4"/>
-  <text x="672" y="320" font-family="Arial" font-size="13" font-weight="bold" fill="#1A5276">V<tspan baseline-shift="sub" font-size="9">1</tspan></text>
+  <text x="672" y="320" font-family="Arial" font-size="13" font-weight="bold" fill="#1A5276">V₁</text>
 
   <!-- V₂ shifted right (parallel) -->
-  <line x1="509.3" y1="95" x2="670" y2="245.6" stroke="#27AE60" stroke-width="2.5"/>
-  <text x="672" y="245.6" font-family="Arial" font-size="13" font-weight="bold" fill="#27AE60">V<tspan baseline-shift="sub" font-size="9">2</tspan></text>
+  <line x1="475" y1="95" x2="670" y2="278" stroke="#27AE60" stroke-width="2.5"/>
+  <text x="672" y="278" font-family="Arial" font-size="13" font-weight="bold" fill="#27AE60">V₂</text>
 
   <!-- Point E on V₁ at P=8 -->
   <circle cx="520" cy="180" r="5" fill="#1A5276"/>
