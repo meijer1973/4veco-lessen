@@ -1,0 +1,38 @@
+# Quality Reference - 2.1.2 Opbrengsten, winst en break-even
+# Repository-integrated package for sprint B2-2.1.2-HARDEN.
+paragraph: "2.1.2"
+title: "Opbrengsten, winst en break-even"
+type: theory
+schema_version: 2
+status: integrated_repository_sprint_pass_with_flags
+partA:
+  content:
+    paragraaf_md: true
+    opgaven_md: true
+    antwoorden_md: true
+    paragraaf_pdf: true
+    opgaven_pdf: true
+    antwoorden_pdf: true
+    build_pdf_py: true
+  assets:
+    total_referenced: 2
+    total_present: 2
+    missing: []
+    svgpng_paired: true
+    naming_compliant: true
+  target_trace:
+    target_exercise_id: "2.1.2"
+    target_record_status_upstream: "migrated_from_v4_needs_v5_review"
+    operation_chain_covered: true
+    misconception_covered: true
+  review:
+    file: "2.1.2-review.md"
+    verdict: "PASS_WITH_FLAGS"
+    independent_review_required: false
+    repository_sprint: "B2-2.1.2-HARDEN"
+    lead_review_round1: "reports/sprints/B2-2.1.2-HARDEN-lead-review-round1.md"
+    lead_review_round2: "reports/sprints/B2-2.1.2-HARDEN-lead-review-round2.md"
+    round1_blockers_corrected: true
+    final_flags:
+      - "target_record_remains_migrated_from_v4_needs_v5_review"
+      - "chapter_pdf_size_warning_while_assets_pass"

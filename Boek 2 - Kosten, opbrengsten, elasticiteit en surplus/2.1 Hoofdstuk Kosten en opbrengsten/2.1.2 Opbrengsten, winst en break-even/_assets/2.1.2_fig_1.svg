@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+<title>Route van brongegevens naar winst en break-even</title>
+<desc>Schema: prijs en kostenfunctie leiden tot de formules voor totale opbrengst, winst, gemiddelde opbrengst en break-even.</desc>
+<style>
+  .title{font-family:Arial,DejaVu Sans,sans-serif;font-size:25px;font-weight:700;fill:#1A5276}
+  .sub{font-family:Arial,DejaVu Sans,sans-serif;font-size:19px;fill:#333}
+  .head{font-family:Arial,DejaVu Sans,sans-serif;font-size:21px;font-weight:700;fill:#1A5276}
+  .txt{font-family:Arial,DejaVu Sans,sans-serif;font-size:19px;fill:#111}
+  .form{font-family:Arial,DejaVu Sans,sans-serif;font-size:21px;font-weight:700;fill:#111}
+  .small{font-family:Arial,DejaVu Sans,sans-serif;font-size:17px;fill:#444}
+  .box{fill:#F8FAFC;stroke:#1A5276;stroke-width:2.5;rx:14;ry:14}
+  .inner{fill:#FFFFFF;stroke:#888;stroke-width:1.8;rx:10;ry:10}
+  .arrow{stroke:#1A5276;stroke-width:3.2;fill:none;marker-end:url(#arrowhead)}
+</style>
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#1A5276"/></marker></defs>
+<rect width="720" height="430" fill="white"/>
+<text x="35" y="40" class="title">Van bron naar winst en break-even</text>
+<text x="35" y="68" class="sub">Werk steeds met dezelfde hoeveelheid Q.</text>
+
+<rect x="35" y="105" width="205" height="245" class="box"/>
+<text x="55" y="138" class="head">1. Bron</text>
+<text x="55" y="178" class="txt">Prijs:</text>
+<text x="55" y="207" class="form">P = €1,50</text>
+<text x="55" y="251" class="txt">Kosten:</text>
+<text x="55" y="280" class="form">TK = 500 + 0,80Q</text>
+<text x="55" y="318" class="small">Q = aantal broden</text>
+
+<path d="M250 228 H285" class="arrow"/>
+
+<rect x="300" y="95" width="190" height="265" class="box"/>
+<text x="320" y="128" class="head">2. Formules</text>
+<rect x="320" y="153" width="150" height="45" class="inner"/>
+<text x="335" y="183" class="form">TO = 1,50Q</text>
+<rect x="320" y="213" width="150" height="45" class="inner"/>
+<text x="335" y="243" class="form">W = TO - TK</text>
+<rect x="320" y="273" width="150" height="45" class="inner"/>
+<text x="335" y="303" class="form">GO = TO / Q</text>
+<text x="322" y="344" class="small">Bij vaste prijs: GO = P</text>
+
+<path d="M500 228 H535" class="arrow"/>
+
+<rect x="550" y="105" width="135" height="245" class="box"/>
+<text x="570" y="138" class="head">3. Check</text>
+<text x="570" y="184" class="txt">winst:</text>
+<text x="570" y="212" class="form">TO &gt; TK</text>
+<text x="570" y="262" class="txt">verlies:</text>
+<text x="570" y="290" class="form">TO &lt; TK</text>
+<text x="570" y="336" class="form">TO = TK</text>
+<text x="570" y="365" class="small">break-even</text>
+</svg>

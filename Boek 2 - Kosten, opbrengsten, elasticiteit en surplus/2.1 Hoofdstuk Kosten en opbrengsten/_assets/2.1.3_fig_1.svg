@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs>
+    <style>
+      .title{font-family:Arial,DejaVu Sans,sans-serif;font-size:36px;font-weight:700;fill:#1A5276}
+      .sub{font-family:Arial,DejaVu Sans,sans-serif;font-size:25px;fill:#333}
+      .text{font-family:Arial,DejaVu Sans,sans-serif;font-size:25px;fill:#1a1a1a}
+      .small{font-family:Arial,DejaVu Sans,sans-serif;font-size:22px;fill:#333}
+      .code{font-family:Arial,DejaVu Sans,sans-serif;font-size:27px;font-weight:700;fill:#1a1a1a}
+      .head{fill:#EDF0F3;stroke:#8A8A8A;stroke-width:2}
+      .cell{fill:#FFFFFF;stroke:#8A8A8A;stroke-width:2}
+      .bluebox{fill:#EAF3FA;stroke:#1A5276;stroke-width:3;rx:18}
+      .greenbox{fill:#EEF7EE;stroke:#3B7A3B;stroke-width:3;rx:18}
+      .warnbox{fill:#FFF8E6;stroke:#B7791F;stroke-width:3;rx:18}
+      .arrow{stroke:#1A5276;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .arrowg{stroke:#3B7A3B;stroke-width:4;fill:none;marker-end:url(#arrowg)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#1A5276"/></marker>
+    <marker id="arrowg" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#3B7A3B"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1400" height="760" fill="#ffffff"/>
+  <text x="70" y="60" class="title">Figuur 1 - Marginale waarden lees je tussen twee rijen</text>
+  <text x="70" y="103" class="sub">Voorbeeld: TK = 200 + 3Q en TO = 8Q. De tabel springt van Q = 20 naar Q = 30.</text>
+
+  <!-- table -->
+  <g transform="translate(70,155)">
+    <rect x="0" y="0" width="640" height="70" class="head"/>
+    <rect x="0" y="70" width="640" height="82" class="cell"/>
+    <rect x="0" y="152" width="640" height="82" class="cell"/>
+    <line x1="130" y1="0" x2="130" y2="234" stroke="#8A8A8A" stroke-width="2"/>
+    <line x1="300" y1="0" x2="300" y2="234" stroke="#8A8A8A" stroke-width="2"/>
+    <line x1="470" y1="0" x2="470" y2="234" stroke="#8A8A8A" stroke-width="2"/>
+    <text x="65" y="44" text-anchor="middle" class="code">Q</text>
+    <text x="215" y="44" text-anchor="middle" class="code">TK</text>
+    <text x="385" y="44" text-anchor="middle" class="code">TO</text>
+    <text x="555" y="44" text-anchor="middle" class="code">winst</text>
+    <text x="65" y="122" text-anchor="middle" class="text">20</text>
+    <text x="215" y="122" text-anchor="middle" class="text">260</text>
+    <text x="385" y="122" text-anchor="middle" class="text">160</text>
+    <text x="555" y="122" text-anchor="middle" class="text">-100</text>
+    <text x="65" y="204" text-anchor="middle" class="text">30</text>
+    <text x="215" y="204" text-anchor="middle" class="text">290</text>
+    <text x="385" y="204" text-anchor="middle" class="text">240</text>
+    <text x="555" y="204" text-anchor="middle" class="text">-50</text>
+  </g>
+
+  <path d="M735 270 C785 270 785 270 835 270" class="arrow"/>
+
+  <g transform="translate(860,155)">
+    <rect x="0" y="0" width="460" height="250" class="bluebox"/>
+    <text x="30" y="50" class="code">Stapgrootte</text>
+    <text x="30" y="91" class="text">ΔQ = 30 - 20 = 10</text>
+    <text x="30" y="144" class="code">Kosten erbij</text>
+    <text x="30" y="185" class="text">ΔTK = 290 - 260 = 30</text>
+    <text x="30" y="226" class="text">MK = 30 / 10 = 3</text>
+  </g>
+
+  <g transform="translate(860,435)">
+    <rect x="0" y="0" width="460" height="210" class="greenbox"/>
+    <text x="30" y="50" class="code">Opbrengst erbij</text>
+    <text x="30" y="94" class="text">ΔTO = 240 - 160 = 80</text>
+    <text x="30" y="138" class="text">MO = 80 / 10 = 8</text>
+    <text x="30" y="180" class="small">Bij vaste prijs is MO gelijk aan P.</text>
+  </g>
+
+  <g transform="translate(70,440)">
+    <rect x="0" y="0" width="700" height="205" class="warnbox"/>
+    <text x="28" y="50" class="code">Belangrijke controle</text>
+    <text x="28" y="93" class="text">De ruwe stijging is niet automatisch MK.</text>
+    <text x="28" y="136" class="text">Als Q met 10 stijgt, deel je door 10.</text>
+    <text x="28" y="179" class="text">MK en MO gaan steeds over één extra product.</text>
+  </g>
+</svg>

@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.1.3 Marginale kosten en marginale opbrengsten"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; max-width: 100%; }
+h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; margin-bottom: 18pt; break-after: avoid; }
+h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; margin-bottom: 12pt; break-after: avoid; }
+h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; margin-bottom: 6pt; break-after: avoid; }
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+p { margin: 0 0 10pt 0; }
+table { border-collapse: collapse; width: 100%; max-width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
+th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 6pt; }
+th:first-child, td:first-child { width: 8%; max-width: 52pt; white-space: nowrap; text-align: right; padding-left: 4pt; padding-right: 4pt; }
+.wide-table { width: 100%; table-layout: fixed; break-inside: auto; page-break-inside: auto; font-size: 10.7pt; line-height: 1.18; }
+.wide-table th, .wide-table td { padding: 2pt 4pt; white-space: normal; }
+.wide-table th:first-child, .wide-table td:first-child { width: 18%; max-width: none; text-align: left; }
+.wide-table th:not(:first-child), .wide-table td:not(:first-child) { text-align: center; }
+.procedure-table { width: 100%; table-layout: fixed; break-inside: auto; page-break-inside: auto; font-size: 10.5pt; margin-top: 6pt; line-height: 1.22; }
+.procedure-table th:nth-child(1), .procedure-table td:nth-child(1) { width: 8%; max-width: 8%; text-align: center; }
+.procedure-table th:nth-child(2), .procedure-table td:nth-child(2) { width: 34%; text-align: left; white-space: normal; }
+.procedure-table th:nth-child(3), .procedure-table td:nth-child(3) { width: 58%; text-align: left; white-space: normal; }
+.procedure-table th, .procedure-table td { padding: 2pt 5pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; font-size: 10.5pt; line-height: 1.4; break-inside: avoid; }
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; white-space: nowrap; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="marginale-kosten-en-marginale-opbrengsten---opgaven">2.1.3
+Marginale kosten en marginale opbrengsten - opgaven</h1>
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+<p>Een bedrijf maakt sporttassen. De kostenfunctie is
+<code>TK = 300 + 2Q</code>. De verkoopprijs is €6 per tas, dus
+<code>TO = 6Q</code>. Bereken <code>TK</code>, <code>TO</code>, winst,
+<code>MK</code> en <code>MO</code> bij <code>Q = 0, 25, 50</code>.</p>
+<p><strong>Stap 1: Bereken de totalen.</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Q</th>
+<th style="text-align: right;">TK</th>
+<th style="text-align: right;">TO</th>
+<th style="text-align: right;">winst</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-300</td>
+</tr>
+<tr>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">350</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">-200</td>
+</tr>
+<tr>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">400</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">-100</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Stap 2: Bereken de marginale waarden tussen de
+rijen.</strong></p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Stap
+</th>
+<th>
+ΔQ
+</th>
+<th>
+ΔTK
+</th>
+<th>
+MK
+</th>
+<th>
+ΔTO
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0 naar 25
+</td>
+<td>
+25
+</td>
+<td>
+50
+</td>
+<td>
+50 / 25 = 2
+</td>
+<td>
+150
+</td>
+<td>
+150 / 25 = 6
+</td>
+</tr>
+<tr>
+<td>
+25 naar 50
+</td>
+<td>
+25
+</td>
+<td>
+50
+</td>
+<td>
+50 / 25 = 2
+</td>
+<td>
+150
+</td>
+<td>
+150 / 25 = 6
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Stap 3: Interpreteer.</strong></p>
+<p><code>MK = 2</code>: één extra sporttas kost €2 extra om te
+maken.</p>
+<p><code>MO = 6</code>: één extra verkochte sporttas levert €6 extra
+opbrengst op.</p>
+<p>De tabel springt met 25 tassen. Daarom mag je niet zeggen dat
+<code>MK = 50</code>. Die €50 is de extra kosten voor 25 tassen samen.
+Per tas is dat €2.</p>
+<hr />
+<h2 id="opgaven">Opgaven</h2>
+<h3 id="startoefeningen">Startoefeningen</h3>
+<p><strong>Opgave 1</strong> <em>(begrippen)</em></p>
+<p><strong>A.</strong> Leg in één zin uit wat <code>MK</code>
+betekent.</p>
+<p><strong>B.</strong> Leg in één zin uit wat <code>MO</code>
+betekent.</p>
+<p><strong>C.</strong> Waarom kun je <code>MK</code> meestal niet uit
+één rij van een tabel aflezen?</p>
+<p><strong>D.</strong> Een tabel springt van <code>Q = 10</code> naar
+<code>Q = 20</code>. <code>TK</code> stijgt van 140 naar 180. Bereken
+<code>MK</code>.</p>
+<hr />
+<p><strong>Opgave 2</strong> <em>(twee rijen gebruiken)</em></p>
+<p>Een onderneming heeft de volgende tabel.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Q</th>
+<th style="text-align: right;">TK</th>
+<th style="text-align: right;">TO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">260</td>
+<td style="text-align: right;">450</td>
+</tr>
+<tr>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">600</td>
+</tr>
+</tbody>
+</table>
+<p><strong>A.</strong> Bereken <code>ΔQ</code>.</p>
+<p><strong>B.</strong> Bereken <code>ΔTK</code> en <code>MK</code>.</p>
+<p><strong>C.</strong> Bereken <code>ΔTO</code> en <code>MO</code>.</p>
+<p><strong>D.</strong> Leg uit wat je uitkomst voor <code>MO</code>
+betekent.</p>
+<hr />
+<p><strong>Opgave 3</strong> <em>(lineaire kosten)</em></p>
+<p>Een bedrijf heeft <code>TK = 120 + 4Q</code>. De verkoopprijs is €9
+per product, dus <code>TO = 9Q</code>.</p>
+<p><strong>A.</strong> Vul de totalentabel in.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Q</th>
+<th style="text-align: right;">TK</th>
+<th style="text-align: right;">TO</th>
+<th style="text-align: right;">winst</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>B.</strong> Bereken <code>MK</code> en <code>MO</code> voor
+elke stap van 10 producten.</p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Stap
+</th>
+<th>
+ΔQ
+</th>
+<th>
+ΔTK
+</th>
+<th>
+MK
+</th>
+<th>
+ΔTO
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0 naar 10
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+10 naar 20
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+20 naar 30
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>C.</strong> Wat valt je op aan <code>MK</code>?</p>
+<p><strong>D.</strong> Waarom is <code>MO</code> gelijk aan €9?</p>
+<hr />
+<p><strong>Opgave 4</strong> <em>(veelgemaakte fout)</em></p>
+<p>Een leerling bekijkt deze twee rijen.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Q</th>
+<th style="text-align: right;">TK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">500</td>
+</tr>
+<tr>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">540</td>
+</tr>
+</tbody>
+</table>
+<p>De leerling zegt: “<code>MK = 40</code>, want de kosten stijgen met
+€40.”</p>
+<p><strong>A.</strong> Wat is de fout in deze redenering?</p>
+<p><strong>B.</strong> Bereken de juiste <code>MK</code>.</p>
+<p><strong>C.</strong> Leg in woorden uit wat de juiste <code>MK</code>
+betekent.</p>
+<h3 id="zelfstandige-oefening">Zelfstandige oefening</h3>
+<p><strong>Opgave 5</strong></p>
+<p>Een producent van telefoonhoesjes heeft
+<code>TK = 250 + 1,50Q</code>. De verkoopprijs is €5 per hoesje.</p>
+<p><strong>A.</strong> Schrijf de formule voor <code>TO</code>.</p>
+<p><strong>B.</strong> Vul de totalentabel in.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Q</th>
+<th style="text-align: right;">TK</th>
+<th style="text-align: right;">TO</th>
+<th style="text-align: right;">winst</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>C.</strong> Bereken <code>MK</code> en <code>MO</code> voor
+elke stap van 100 hoesjes.</p>
+<p><strong>D.</strong> Leg uit waarom <code>MK</code> constant is.</p>
+<p><strong>E.</strong> Leg uit waarom <code>MO</code> constant is.</p>
+<hr />
+<p><strong>Opgave 6</strong></p>
+<p>Een tweede producent heeft stijgende kosten. De kostenfunctie is
+<code>TK = 80 + 0,5Q²</code>. De verkoopprijs is €20 per product.</p>
+<p><strong>A.</strong> Schrijf de formule voor <code>TO</code>.</p>
+<p><strong>B.</strong> Vul de totalentabel in.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Q</th>
+<th style="text-align: right;">TK</th>
+<th style="text-align: right;">TO</th>
+<th style="text-align: right;">winst</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>C.</strong> Bereken <code>MK</code> en <code>MO</code> voor
+elke stap van 10 producten.</p>
+<p><strong>D.</strong> Wat gebeurt er met <code>MK</code>?</p>
+<p><strong>E.</strong> Wat gebeurt er met <code>MO</code>?</p>
+<h3 id="herhaling">Herhaling</h3>
+<p><strong>Opgave 7</strong> <em>(kosten, opbrengsten en marginale
+waarden samen)</em></p>
+<p>Een lunchbar verkoopt wraps. De vaste kosten zijn €180 per dag. De
+variabele kosten zijn €2 per wrap. De verkoopprijs is €6 per wrap.</p>
+<p><strong>A.</strong> Schrijf <code>TK</code> en <code>TO</code> als
+functie van <code>Q</code>.</p>
+<p><strong>B.</strong> Vul de totalentabel in.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Q</th>
+<th style="text-align: right;">TK</th>
+<th style="text-align: right;">TO</th>
+<th style="text-align: right;">winst</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>C.</strong> Bereken <code>MK</code> en <code>MO</code> voor
+elke stap.</p>
+<p><strong>D.</strong> Leg uit waarom <code>MK</code> gelijk is aan de
+variabele kosten per wrap.</p>
+<p><strong>E.</strong> Leg uit waarom <code>MO</code> gelijk is aan de
+verkoopprijs.</p>
+<h3 id="doeloefening">Doeloefening</h3>
+<p><strong>Opgave 8</strong> <em>(van tabel naar marginale kosten en
+opbrengsten)</em></p>
+<p><strong>Bron 1 - Onderneming Linea</strong></p>
+<p>Een onderneming heeft de kostenfunctie <code>TK = 200 + 3Q</code>. De
+onderneming verkoopt elk product voor €8. Daarom geldt
+<code>TO = 8Q</code>. Gebruik <code>Q</code> voor het aantal
+producten.</p>
+<p><strong>A.</strong> Vul de tabel in. Zet bij <code>Q = 0</code> een
+streepje bij <code>MK</code> en <code>MO</code>, omdat er nog geen
+vorige rij is.</p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+<th>
+MK
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>
+10
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+20
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+30
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+40
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+50
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>B.</strong> Wat valt je op aan <code>MK</code>? Is
+<code>MK</code> constant of verandert <code>MK</code>?</p>
+<p><strong>C.</strong> Wat valt je op aan <code>MO</code>? Waarom is dat
+logisch bij een vaste verkoopprijs?</p>
+<p><strong>Bron 2 - Onderneming Curva</strong></p>
+<p>Een tweede onderneming heeft de kostenfunctie
+<code>TK = 100 + Q²</code>. De onderneming verkoopt elk product voor
+€30. Daarom geldt <code>TO = 30Q</code>.</p>
+<p><strong>D.</strong> Vul de tabel in.</p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+<th>
+MK
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>
+5
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+10
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+15
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+20
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>E.</strong> Wat gebeurt er met <code>MK</code> bij
+onderneming Curva?</p>
+<p><strong>F.</strong> Leg in je eigen woorden uit wat <code>MK</code>
+vertelt en wat <code>MO</code> vertelt.</p>
+<p><strong>G.</strong> Gebruik de tabel van onderneming Curva. Bij welke
+stappen geldt <code>MO &gt; MK</code>? Bij welke stap geldt
+<code>MO &lt; MK</code>? Wat zou <code>MO = MK</code> betekenen voor de
+winst in één stap?</p>
+<h3 id="denkertje">Denkertje</h3>
+<p><strong>Opgave 9</strong></p>
+<p>Twee leerlingen vergelijken twee tabellen.</p>
+<ul>
+<li>In tabel 1 stijgt <code>Q</code> van 0 naar 10 en stijgt
+<code>TK</code> van 100 naar 150.</li>
+<li>In tabel 2 stijgt <code>Q</code> van 0 naar 50 en stijgt
+<code>TK</code> van 100 naar 250.</li>
+</ul>
+<p>Leerling A zegt: “Tabel 2 heeft hogere marginale kosten, want de
+kosten stijgen met €150 in plaats van €50.”</p>
+<p>Leerling B zegt: “Je kunt dit pas vergelijken als je de
+kostenstijging per extra product berekent.”</p>
+<p><strong>A.</strong> Bereken <code>MK</code> in tabel 1.</p>
+<p><strong>B.</strong> Bereken <code>MK</code> in tabel 2.</p>
+<p><strong>C.</strong> Welke leerling redeneert economisch correct? Leg
+uit.</p>
+<p><strong>D.</strong> Wat leert deze opgave over tabellen met
+verschillende stapgroottes?</p>
+</body>
+</html>
