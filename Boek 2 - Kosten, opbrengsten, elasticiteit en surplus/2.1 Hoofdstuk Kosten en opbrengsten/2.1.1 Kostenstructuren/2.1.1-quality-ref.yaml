@@ -1,0 +1,31 @@
+paragraph: "2.1.1"
+title: "Kostenstructuren"
+chapter: "2.1 Hoofdstuk Kosten en opbrengsten"
+reviewed_on: "2026-06-08"
+review_mode: "part-a"
+target_exercise_status: "migrated_from_v4_needs_v5_review"
+production_ready_with_flags: true
+content:
+  paragraaf_md: true
+  opgaven_md: true
+  antwoorden_md: true
+  paragraaf_pdf: true
+  opgaven_pdf: true
+  antwoorden_pdf: true
+  motivating_problem: true
+  worked_example: true
+  summary_box: true
+  help_note: true
+  staged_exercise_route: true
+  target_exercise: true
+assets:
+  total_referenced: 1
+  missing: []
+  svgpng_paired: true
+  naming_compliant: true
+review:
+  verdict: "PASS WITH FLAGS"
+  unresolved_blockers: 0
+  flags:
+    - "Migrated v4 target still needs v5 review."
+    - "Existing graph reused; future paragraph sprints should decide whether extra step visuals are needed."

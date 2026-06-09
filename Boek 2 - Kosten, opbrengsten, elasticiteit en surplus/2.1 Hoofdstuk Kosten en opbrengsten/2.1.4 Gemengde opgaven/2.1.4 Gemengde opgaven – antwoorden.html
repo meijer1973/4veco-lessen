@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.1.4 Gemengde opgaven"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+
+body {
+  font-family: Arial, 'DejaVu Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 100%;
+}
+
+p { margin: 0 0 10pt 0; }
+
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1.5px solid #1A5276;
+  padding-bottom: 5pt;
+  margin-top: 0;
+  margin-bottom: 18pt;
+  break-after: avoid;
+}
+
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #1A5276;
+  border-bottom: 1px solid #999;
+  padding-bottom: 4pt;
+  margin-top: 22pt;
+  margin-bottom: 12pt;
+  break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  break-after: avoid;
+}
+
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  break-inside: avoid;
+}
+
+th {
+  background: #EDF0F3;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 3pt 6pt;
+  text-align: left;
+  border: 1px solid #999;
+}
+
+td { border: 1px solid #999; padding: 2pt 6pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+
+.wide-table {
+  width: 100%;
+  table-layout: fixed;
+  break-inside: auto;
+  page-break-inside: auto;
+  font-size: 10pt;
+  line-height: 1.18;
+}
+
+.wide-table th, .wide-table td {
+  padding: 2pt 3pt;
+  white-space: normal;
+}
+
+.wide-table th:first-child, .wide-table td:first-child {
+  width: 16%;
+  text-align: left;
+}
+
+.wide-table th:not(:first-child), .wide-table td:not(:first-child) {
+  text-align: center;
+}
+
+blockquote {
+  background: #F4F7FA;
+  border-left: 3px solid #1A5276;
+  padding: 8pt 12pt;
+  margin: 12pt 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 14pt auto;
+  break-inside: avoid;
+}
+
+code {
+  background: #EDF2F7;
+  padding: 1pt 5pt;
+  border-radius: 3px;
+  font-family: Consolas, 'DejaVu Sans Mono', monospace;
+  font-size: 10pt;
+}
+
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="gemengde-opgaven-kosten-en-opbrengsten---antwoorden">2.1.4
+Gemengde opgaven: kosten en opbrengsten - antwoorden</h1>
+<h2 id="startopgave-1---broodplanken">Startopgave 1 - Broodplanken</h2>
+<p><strong>A.</strong></p>
+<p><code>TCK = 300</code></p>
+<p><code>TVK = 5Q</code></p>
+<p><code>TK = 300 + 5Q</code></p>
+<p><code>TO = 12Q</code></p>
+<p><strong>B.</strong></p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+40
+</td>
+<td>
+300 + 5 x 40 = 500
+</td>
+<td>
+12 x 40 = 480
+</td>
+<td>
+-20
+</td>
+</tr>
+<tr>
+<td>
+80
+</td>
+<td>
+300 + 5 x 80 = 700
+</td>
+<td>
+12 x 80 = 960
+</td>
+<td>
+260
+</td>
+</tr>
+</tbody>
+</table>
+<p>Bij 40 broodplanken is er €20 verlies. Bij 80 broodplanken is er €260
+winst.</p>
+<p><strong>C.</strong></p>
+<p>Bij <code>Q = 40</code>:</p>
+<p><code>GTK = 500 / 40 = 12,50</code></p>
+<p><code>GCK = 300 / 40 = 7,50</code></p>
+<p>Bij <code>Q = 80</code>:</p>
+<p><code>GTK = 700 / 80 = 8,75</code></p>
+<p><code>GCK = 300 / 80 = 3,75</code></p>
+<p><code>GCK</code> daalt, omdat dezelfde vaste kosten over meer
+broodplanken worden verdeeld.</p>
+<p><strong>D.</strong></p>
+<p>Break-even: <code>TO = TK</code>.</p>
+<p><code>12Q = 300 + 5Q</code></p>
+<p><code>7Q = 300</code></p>
+<p><code>Q = 42,86</code></p>
+<p>De leerling moet dus 43 broodplanken verkopen om geen verlies te
+maken, omdat alleen hele broodplanken verkocht kunnen worden.</p>
+<h2 id="startopgave-2---smoothies-uit-een-tabel">Startopgave 2 -
+Smoothies uit een tabel</h2>
+<p><strong>A.</strong></p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0
+</td>
+<td>
+200
+</td>
+<td>
+0
+</td>
+<td>
+-200
+</td>
+</tr>
+<tr>
+<td>
+50
+</td>
+<td>
+350
+</td>
+<td>
+300
+</td>
+<td>
+-50
+</td>
+</tr>
+<tr>
+<td>
+100
+</td>
+<td>
+550
+</td>
+<td>
+600
+</td>
+<td>
+50
+</td>
+</tr>
+<tr>
+<td>
+150
+</td>
+<td>
+800
+</td>
+<td>
+900
+</td>
+<td>
+100
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>B.</strong></p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Stap
+</th>
+<th>
+ΔQ
+</th>
+<th>
+ΔTK
+</th>
+<th>
+MK
+</th>
+<th>
+ΔTO
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0 naar 50
+</td>
+<td>
+50
+</td>
+<td>
+150
+</td>
+<td>
+3
+</td>
+<td>
+300
+</td>
+<td>
+6
+</td>
+</tr>
+<tr>
+<td>
+50 naar 100
+</td>
+<td>
+50
+</td>
+<td>
+200
+</td>
+<td>
+4
+</td>
+<td>
+300
+</td>
+<td>
+6
+</td>
+</tr>
+<tr>
+<td>
+100 naar 150
+</td>
+<td>
+50
+</td>
+<td>
+250
+</td>
+<td>
+5
+</td>
+<td>
+300
+</td>
+<td>
+6
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>C.</strong></p>
+<p>Bij de stap van <code>Q = 50</code> naar <code>Q = 100</code> stijgen
+de totale kosten met €200, maar <code>Q</code> stijgt met 50 smoothies.
+Daarom is <code>MK = 200 / 50 = 4</code>. De €200 is de totale
+kostenstijging van de hele stap, niet de marginale kosten per
+smoothie.</p>
+<p><strong>D.</strong></p>
+<p>De winst stijgt:</p>
+<ul>
+<li>van 0 naar 50: van €-200 naar €-50, dus +€150;</li>
+<li>van 50 naar 100: van €-50 naar €50, dus +€100;</li>
+<li>van 100 naar 150: van €50 naar €100, dus +€50.</li>
+</ul>
+<p>De winst stijgt het meest bij de stap van 0 naar 50 smoothies. Dat
+past bij <code>MO - MK</code>: eerst is <code>6 - 3 = 3</code> per
+smoothie, daarna <code>6 - 4 = 2</code>, daarna
+<code>6 - 5 = 1</code>.</p>
+<h2 id="zelfstandige-opgave-3---campuskoffie">Zelfstandige opgave 3 -
+CampusKoffie</h2>
+<p><strong>A.</strong></p>
+<p><code>TK = 1600 + 0,70Q</code></p>
+<p><code>TO = 2,50Q</code></p>
+<p><strong>B.</strong></p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+<th>
+GTK
+</th>
+<th>
+GCK
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+600
+</td>
+<td>
+1600 + 0,70 x 600 = 2020
+</td>
+<td>
+1500
+</td>
+<td>
+-520
+</td>
+<td>
+3,37
+</td>
+<td>
+2,67
+</td>
+</tr>
+<tr>
+<td>
+1000
+</td>
+<td>
+1600 + 0,70 x 1000 = 2300
+</td>
+<td>
+2500
+</td>
+<td>
+200
+</td>
+<td>
+2,30
+</td>
+<td>
+1,60
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>C.</strong></p>
+<p>Break-even: <code>TO = TK</code>.</p>
+<p><code>2,50Q = 1600 + 0,70Q</code></p>
+<p><code>1,80Q = 1600</code></p>
+<p><code>Q = 888,89</code></p>
+<p>CampusKoffie moet naar boven afronden naar 889 bekers. Bij 888 bekers
+is de opbrengst nog net te laag om alle kosten te dekken.</p>
+<p><strong>D.</strong></p>
+<p>Links van het break-evenpunt ligt <code>TO</code> onder
+<code>TK</code>, dus er is verlies. Rechts van het break-evenpunt ligt
+<code>TO</code> boven <code>TK</code>, dus er is winst. In het
+break-evenpunt zijn <code>TO</code> en <code>TK</code> precies gelijk en
+is de winst nul.</p>
+<p><strong>E.</strong></p>
+<p>De uitspraak is te kort door de bocht. Een lagere <code>GTK</code>
+helpt, maar winst per beker hangt ook af van de verkoopprijs. De
+relevante vergelijking is tussen opbrengst per beker en kosten per
+beker, of direct tussen <code>TO</code> en <code>TK</code>. Bij
+<code>Q = 1000</code> is er wel winst, want <code>TO = 2500</code> en
+<code>TK = 2300</code>. Maar de reden is niet alleen dat
+<code>GTK</code> daalt; de verkoopprijs ligt dan boven de gemiddelde
+totale kosten.</p>
+<h2 id="zelfstandige-opgave-4---festivalappels">Zelfstandige opgave 4 -
+FestivalAppels</h2>
+<p><strong>A.</strong></p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+400
+</td>
+<td>
+1500
+</td>
+<td>
+1600
+</td>
+<td>
+100
+</td>
+</tr>
+<tr>
+<td>
+500
+</td>
+<td>
+1800
+</td>
+<td>
+2000
+</td>
+<td>
+200
+</td>
+</tr>
+<tr>
+<td>
+600
+</td>
+<td>
+2150
+</td>
+<td>
+2400
+</td>
+<td>
+250
+</td>
+</tr>
+<tr>
+<td>
+700
+</td>
+<td>
+2550
+</td>
+<td>
+2800
+</td>
+<td>
+250
+</td>
+</tr>
+<tr>
+<td>
+800
+</td>
+<td>
+3000
+</td>
+<td>
+3200
+</td>
+<td>
+200
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>B.</strong></p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Stap
+</th>
+<th>
+ΔQ
+</th>
+<th>
+ΔTK
+</th>
+<th>
+MK
+</th>
+<th>
+ΔTO
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+400 naar 500
+</td>
+<td>
+100
+</td>
+<td>
+300
+</td>
+<td>
+3,00
+</td>
+<td>
+400
+</td>
+<td>
+4,00
+</td>
+</tr>
+<tr>
+<td>
+500 naar 600
+</td>
+<td>
+100
+</td>
+<td>
+350
+</td>
+<td>
+3,50
+</td>
+<td>
+400
+</td>
+<td>
+4,00
+</td>
+</tr>
+<tr>
+<td>
+600 naar 700
+</td>
+<td>
+100
+</td>
+<td>
+400
+</td>
+<td>
+4,00
+</td>
+<td>
+400
+</td>
+<td>
+4,00
+</td>
+</tr>
+<tr>
+<td>
+700 naar 800
+</td>
+<td>
+100
+</td>
+<td>
+450
+</td>
+<td>
+4,50
+</td>
+<td>
+400
+</td>
+<td>
+4,00
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>C.</strong></p>
+<p><code>MK</code> stijgt van €3,00 naar €4,50 per beker. Dat zie je
+doordat elke extra stap van 100 bekers een grotere stijging van
+<code>TK</code> geeft: eerst €300, daarna €350, daarna €400 en daarna
+€450.</p>
+<p><strong>D.</strong></p>
+<p>De uitspraak is niet juist. De totale winst blijft positief, maar de
+extra stappen worden minder aantrekkelijk. Van 600 naar 700 blijft de
+winst gelijk, omdat <code>MK = MO = 4</code>. Van 700 naar 800 daalt de
+winst, omdat <code>MK = 4,50</code> en <code>MO = 4,00</code>. Positieve
+totale winst betekent dus niet dat elke extra stap even goed is.</p>
+<h2 id="doeloefening---smoothbox">Doeloefening - SmoothBox</h2>
+<p><strong>A.</strong></p>
+<p>Bij normale productie:</p>
+<p><code>TCK = 1200</code></p>
+<p><code>TVK = 2Q</code></p>
+<p><code>TK = 1200 + 2Q</code></p>
+<p><code>TO = 5Q</code></p>
+<p><strong>B.</strong></p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TCK
+</th>
+<th>
+TVK
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+<th>
+GTK
+</th>
+<th>
+GCK
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+300
+</td>
+<td>
+1200
+</td>
+<td>
+600
+</td>
+<td>
+1800
+</td>
+<td>
+1500
+</td>
+<td>
+-300
+</td>
+<td>
+6,00
+</td>
+<td>
+4,00
+</td>
+</tr>
+<tr>
+<td>
+700
+</td>
+<td>
+1200
+</td>
+<td>
+1400
+</td>
+<td>
+2600
+</td>
+<td>
+3500
+</td>
+<td>
+900
+</td>
+<td>
+3,71
+</td>
+<td>
+1,71
+</td>
+</tr>
+</tbody>
+</table>
+<p><code>GCK</code> daalt van €4,00 naar ongeveer €1,71. De vaste kosten
+blijven €1.200, maar worden over meer lunchboxen verdeeld.</p>
+<p><strong>C.</strong></p>
+<p>Break-even bij normale productie:</p>
+<p><code>TO = TK</code></p>
+<p><code>5Q = 1200 + 2Q</code></p>
+<p><code>3Q = 1200</code></p>
+<p><code>Q = 400</code></p>
+<p>Bij 400 lunchboxen zijn totale opbrengsten en totale kosten gelijk.
+In de grafiek is dat het snijpunt van de <code>TO</code>-lijn en de
+<code>TK</code>-lijn. Links daarvan is er verlies; rechts daarvan is er
+winst.</p>
+<p><strong>D.</strong></p>
+<table class="wide-table">
+<thead>
+<tr>
+<th>
+Stap
+</th>
+<th>
+ΔQ
+</th>
+<th>
+ΔTK
+</th>
+<th>
+MK
+</th>
+<th>
+ΔTO
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+700 naar 800
+</td>
+<td>
+100
+</td>
+<td>
+300
+</td>
+<td>
+3,00
+</td>
+<td>
+500
+</td>
+<td>
+5,00
+</td>
+</tr>
+<tr>
+<td>
+800 naar 900
+</td>
+<td>
+100
+</td>
+<td>
+350
+</td>
+<td>
+3,50
+</td>
+<td>
+500
+</td>
+<td>
+5,00
+</td>
+</tr>
+<tr>
+<td>
+900 naar 1000
+</td>
+<td>
+100
+</td>
+<td>
+400
+</td>
+<td>
+4,00
+</td>
+<td>
+500
+</td>
+<td>
+5,00
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>E.</strong></p>
+<p>De uitspraak is niet juist. De prijs blijft €5, dus <code>MO</code>
+blijft €5 per lunchbox. Maar de marginale kosten stijgen van €3,00 naar
+€3,50 en daarna €4,00 per lunchbox. Meer verkopen blijft in deze tabel
+nog winstgevend, omdat <code>MO</code> groter is dan <code>MK</code>,
+maar het is niet elke keer even winstgevend. De extra winst per lunchbox
+daalt van €2,00 naar €1,50 en daarna €1,00.</p>
+<h2 id="denkertje---de-grote-bestelling">Denkertje - De grote
+bestelling</h2>
+<p><strong>A.</strong></p>
+<p>De extra opbrengst is:</p>
+<p><code>200 x 4,50 = 900</code></p>
+<p><strong>B.</strong></p>
+<p>De extra kosten per poster zijn:</p>
+<p><code>760 / 200 = 3,80</code></p>
+<p><strong>C.</strong></p>
+<p>De marginale opbrengst van de extra bestelling is €4,50 per poster.
+De marginale kosten zijn €3,80 per poster. De bestelling verhoogt de
+winst met <code>900 - 760 = 140</code>. Financieel gezien moet de
+drukkerij de bestelling dus accepteren, zolang er geen andere
+beperkingen of betere alternatieven zijn.</p>
+</body>
+</html>

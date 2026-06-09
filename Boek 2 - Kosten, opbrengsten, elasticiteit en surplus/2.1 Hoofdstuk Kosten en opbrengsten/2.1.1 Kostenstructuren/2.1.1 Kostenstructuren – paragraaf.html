@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <meta name="generator" content="pandoc" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+  <title>-</title>
+
+  <style>
+
+    /* Default styles provided by pandoc.
+
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+
+    */
+
+    html {
+
+      color: #1a1a1a;
+
+      background-color: #fdfdfd;
+
+    }
+
+    body {
+
+      margin: 0 auto;
+
+      max-width: 36em;
+
+      padding-left: 50px;
+
+      padding-right: 50px;
+
+      padding-top: 50px;
+
+      padding-bottom: 50px;
+
+      hyphens: auto;
+
+      overflow-wrap: break-word;
+
+      text-rendering: optimizeLegibility;
+
+      font-kerning: normal;
+
+    }
+
+    @media (max-width: 600px) {
+
+      body {
+
+        font-size: 0.9em;
+
+        padding: 12px;
+
+      }
+
+      h1 {
+
+        font-size: 1.8em;
+
+      }
+
+    }
+
+    @media print {
+
+      html {
+
+        background-color: white;
+
+      }
+
+      body {
+
+        background-color: transparent;
+
+        color: black;
+
+        font-size: 12pt;
+
+      }
+
+      p, h2, h3 {
+
+        orphans: 3;
+
+        widows: 3;
+
+      }
+
+      h2, h3, h4 {
+
+        page-break-after: avoid;
+
+      }
+
+    }
+
+    p {
+
+      margin: 1em 0;
+
+    }
+
+    a {
+
+      color: #1a1a1a;
+
+    }
+
+    a:visited {
+
+      color: #1a1a1a;
+
+    }
+
+    img {
+
+      max-width: 100%;
+
+    }
+
+    svg {
+
+      height: auto;
+
+      max-width: 100%;
+
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+
+      margin-top: 1.4em;
+
+    }
+
+    h5, h6 {
+
+      font-size: 1em;
+
+      font-style: italic;
+
+    }
+
+    h6 {
+
+      font-weight: normal;
+
+    }
+
+    ol, ul {
+
+      padding-left: 1.7em;
+
+      margin-top: 1em;
+
+    }
+
+    li > ol, li > ul {
+
+      margin-top: 0;
+
+    }
+
+    blockquote {
+
+      margin: 1em 0 1em 1.7em;
+
+      padding-left: 1em;
+
+      border-left: 2px solid #e6e6e6;
+
+      color: #606060;
+
+    }
+
+    code {
+
+      white-space: pre-wrap;
+
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+
+      font-size: 85%;
+
+      margin: 0;
+
+      hyphens: manual;
+
+    }
+
+    pre {
+
+      margin: 1em 0;
+
+      overflow: auto;
+
+    }
+
+    pre code {
+
+      padding: 0;
+
+      overflow: visible;
+
+      overflow-wrap: normal;
+
+    }
+
+    .sourceCode {
+
+     background-color: transparent;
+
+     overflow: visible;
+
+    }
+
+    hr {
+
+      border: none;
+
+      border-top: 1px solid #1a1a1a;
+
+      height: 1px;
+
+      margin: 1em 0;
+
+    }
+
+    table {
+
+      margin: 1em 0;
+
+      border-collapse: collapse;
+
+      width: 100%;
+
+      overflow-x: auto;
+
+      display: block;
+
+      font-variant-numeric: lining-nums tabular-nums;
+
+    }
+
+    table caption {
+
+      margin-bottom: 0.75em;
+
+    }
+
+    tbody {
+
+      margin-top: 0.5em;
+
+      border-top: 1px solid #1a1a1a;
+
+      border-bottom: 1px solid #1a1a1a;
+
+    }
+
+    th {
+
+      border-top: 1px solid #1a1a1a;
+
+      padding: 0.25em 0.5em 0.25em 0.5em;
+
+    }
+
+    td {
+
+      padding: 0.125em 0.5em 0.25em 0.5em;
+
+    }
+
+    header {
+
+      margin-bottom: 4em;
+
+      text-align: center;
+
+    }
+
+    #TOC li {
+
+      list-style: none;
+
+    }
+
+    #TOC ul {
+
+      padding-left: 1.3em;
+
+    }
+
+    #TOC > ul {
+
+      padding-left: 0;
+
+    }
+
+    #TOC a:not(:hover) {
+
+      text-decoration: none;
+
+    }
+
+    span.smallcaps{font-variant: small-caps;}
+
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+
+    div.column{flex: auto; overflow-x: auto;}
+
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+    /* The extra [class] is a hack that increases specificity enough to
+
+       override a similar rule in reveal.js */
+
+    ul.task-list[class]{list-style: none;}
+
+    ul.task-list li input[type="checkbox"] {
+
+      font-size: inherit;
+
+      width: 0.8em;
+
+      margin: 0 0.8em 0.2em -1.6em;
+
+      vertical-align: middle;
+
+    }
+
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+
+  </style>
+
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.1.1 Kostenstructuren"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }
+h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; }
+h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }
+h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }
+p { margin: 0 0 10pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
+th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 6pt; border: 1px solid #999; }
+tr:nth-child(even) td { background: #FAFBFC; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+
+<body>
+
+<h1 id="kostenstructuren">2.1.1 Kostenstructuren</h1>
+
+<h2 id="waarom-wordt-een-brood-goedkoper-als-je-er-meer-bakt">Waarom
+
+wordt een brood goedkoper als je er meer bakt?</h2>
+
+<p>Een bakker huurt een kleine bakkerij voor EUR 500 per maand. Die huur
+
+betaalt hij ook als hij bijna niets verkoopt. Voor elk brood heeft hij
+
+meel, gist, energie en een zakje nodig. Dat kost EUR 0,80 per brood.</p>
+
+<p>De bakker vraagt zich af: als ik twee keer zoveel broden bak, worden
+
+mijn kosten dan ook precies twee keer zo hoog?</p>
+
+<p>Het antwoord is nee. Een deel van de kosten blijft gelijk. Een ander
+
+deel groeit mee met het aantal broden. In deze paragraaf leer je die
+
+twee soorten kosten uit elkaar houden en berekenen wat de kosten per
+
+brood zijn.</p>
+
+<p>In deze paragraaf gebruik je <code>Q</code> voor de productieomvang:
+
+het aantal producten.</p>
+
+<hr />
+
+<h2 id="theorie">Theorie</h2>
+
+<h3 id="totale-constante-kosten">Totale constante kosten</h3>
+
+<p>Kosten die niet veranderen als <code>Q</code> verandert, heten
+
+<strong>constante kosten</strong>. Denk aan huur, verzekeringen of een
+
+vast abonnement.</p>
+
+<blockquote>
+
+<p><strong>Definitie: TCK</strong> <code>TCK</code> zijn de totale
+
+constante kosten. Deze kosten blijven gelijk als de productie
+
+verandert.</p>
+
+</blockquote>
+
+<p>Voor de bakkerij geldt:</p>
+
+<p><code>TCK = 500</code></p>
+
+<p>Ook als de bakker 0 broden bakt, betaalt hij nog steeds EUR 500
+
+huur.</p>
+
+<h3 id="totale-variabele-kosten">Totale variabele kosten</h3>
+
+<p>Kosten die wel veranderen als <code>Q</code> verandert, heten
+
+<strong>variabele kosten</strong>. Denk aan grondstoffen, verpakking en
+
+energie per product.</p>
+
+<blockquote>
+
+<p><strong>Definitie: TVK</strong> <code>TVK</code> zijn de totale
+
+variabele kosten. Deze kosten veranderen mee met <code>Q</code>.</p>
+
+</blockquote>
+
+<p>De bakker heeft EUR 0,80 variabele kosten per brood. Bij
+
+<code>Q</code> broden is:</p>
+
+<p><code>TVK = 0,80Q</code></p>
+
+<p>Bij 500 broden:</p>
+
+<p><code>TVK = 0,80 x 500 = 400</code></p>
+
+<p>Bij 1000 broden:</p>
+
+<p><code>TVK = 0,80 x 1000 = 800</code></p>
+
+<h3 id="totale-kosten">Totale kosten</h3>
+
+<p>De <strong>totale kosten</strong> zijn de constante kosten plus de
+
+variabele kosten.</p>
+
+<blockquote>
+
+<p><strong>Formulebox: totale kosten</strong></p>
+
+<p><code>TK = TCK + TVK</code></p>
+
+</blockquote>
+
+<p>Voor de bakkerij:</p>
+
+<p><code>TK = 500 + 0,80Q</code></p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th style="text-align: right;">Q</th>
+
+<th style="text-align: right;">TCK</th>
+
+<th style="text-align: right;">TVK</th>
+
+<th style="text-align: right;">TK</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align: right;">0</td>
+
+<td style="text-align: right;">500</td>
+
+<td style="text-align: right;">0</td>
+
+<td style="text-align: right;">500</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: right;">500</td>
+
+<td style="text-align: right;">500</td>
+
+<td style="text-align: right;">400</td>
+
+<td style="text-align: right;">900</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: right;">1000</td>
+
+<td style="text-align: right;">500</td>
+
+<td style="text-align: right;">800</td>
+
+<td style="text-align: right;">1300</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p>De totale kosten stijgen als de bakker meer broden maakt, maar ze
+
+starten niet bij nul. Dat komt door de constante kosten.</p>
+
+<figure>
+
+<img
+
+src="data:image/png;base64,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"
+
+alt="Figuur 1: Kostenstructuur van de bakkerij met TCK, TVK en TK" />
+
+<figcaption aria-hidden="true">Figuur 1: Kostenstructuur van de bakkerij
+
+met TCK, TVK en TK</figcaption>
+
+</figure>
+
+<h3 id="gemiddelde-kosten">Gemiddelde kosten</h3>
+
+<p>Een ondernemer wil vaak niet alleen weten wat alle producten samen
+
+kosten, maar ook wat een product gemiddeld kost. Daarvoor deel je door
+
+<code>Q</code>.</p>
+
+<blockquote>
+
+<p><strong>Formulebox: gemiddelde kosten</strong></p>
+
+<p><code>GTK = TK / Q</code></p>
+
+<p><code>GCK = TCK / Q</code></p>
+
+<p><code>GVK = TVK / Q</code></p>
+
+</blockquote>
+
+<p>Voor de bakkerij:</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th style="text-align: right;">Q</th>
+
+<th style="text-align: right;">TCK</th>
+
+<th style="text-align: right;">TVK</th>
+
+<th style="text-align: right;">TK</th>
+
+<th style="text-align: right;">GCK</th>
+
+<th style="text-align: right;">GVK</th>
+
+<th style="text-align: right;">GTK</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align: right;">500</td>
+
+<td style="text-align: right;">500</td>
+
+<td style="text-align: right;">400</td>
+
+<td style="text-align: right;">900</td>
+
+<td style="text-align: right;">1,00</td>
+
+<td style="text-align: right;">0,80</td>
+
+<td style="text-align: right;">1,80</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: right;">1000</td>
+
+<td style="text-align: right;">500</td>
+
+<td style="text-align: right;">800</td>
+
+<td style="text-align: right;">1300</td>
+
+<td style="text-align: right;">0,50</td>
+
+<td style="text-align: right;">0,80</td>
+
+<td style="text-align: right;">1,30</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p><code>GCK</code> daalt als <code>Q</code> stijgt. Dezelfde EUR 500
+
+huur wordt dan verdeeld over meer broden. <code>GVK</code> blijft in dit
+
+voorbeeld gelijk, omdat elk extra brood steeds EUR 0,80 kost. Daardoor
+
+daalt ook <code>GTK</code>.</p>
+
+<blockquote>
+
+<p><strong>Veelgemaakte vergissing</strong></p>
+
+<p><code>TCK</code> blijft gelijk als <code>Q</code> verandert.
+
+<code>GCK</code> blijft niet gelijk. Je deelt dezelfde constante kosten
+
+door een ander aantal producten.</p>
+
+</blockquote>
+
+<hr />
+
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+
+<p>Een foodtruck betaalt per dag EUR 300 voor standplaats en
+
+vergunningen. Per broodje zijn de ingredienten en verpakking EUR
+
+1,20.</p>
+
+<p><strong>Vraag:</strong> bereken <code>TCK</code>, <code>TVK</code>,
+
+<code>TK</code>, <code>GCK</code>, <code>GVK</code> en <code>GTK</code>
+
+bij 100 en 300 broodjes.</p>
+
+<p><strong>Stap 1: Schrijf de kostenformules op.</strong></p>
+
+<ul>
+
+<li><code>TCK = 300</code></li>
+
+<li><code>TVK = 1,20Q</code></li>
+
+<li><code>TK = 300 + 1,20Q</code></li>
+
+</ul>
+
+<p><strong>Stap 2: Bereken de totale kosten.</strong></p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th style="text-align: right;">Q</th>
+
+<th style="text-align: right;">TCK</th>
+
+<th style="text-align: right;">TVK</th>
+
+<th style="text-align: right;">TK</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align: right;">100</td>
+
+<td style="text-align: right;">300</td>
+
+<td style="text-align: right;">120</td>
+
+<td style="text-align: right;">420</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: right;">300</td>
+
+<td style="text-align: right;">300</td>
+
+<td style="text-align: right;">360</td>
+
+<td style="text-align: right;">660</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p><strong>Stap 3: Deel door Q voor gemiddelde kosten.</strong></p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th style="text-align: right;">Q</th>
+
+<th style="text-align: right;">GCK</th>
+
+<th style="text-align: right;">GVK</th>
+
+<th style="text-align: right;">GTK</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align: right;">100</td>
+
+<td style="text-align: right;">3,00</td>
+
+<td style="text-align: right;">1,20</td>
+
+<td style="text-align: right;">4,20</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: right;">300</td>
+
+<td style="text-align: right;">1,00</td>
+
+<td style="text-align: right;">1,20</td>
+
+<td style="text-align: right;">2,20</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p><strong>Stap 4: Trek de economische conclusie.</strong></p>
+
+<p>Bij meer broodjes daalt <code>GCK</code> van EUR 3,00 naar EUR 1,00.
+
+De vaste kosten worden uitgesmeerd over meer producten. <code>GVK</code>
+
+blijft EUR 1,20, omdat elk broodje dezelfde variabele kosten heeft.</p>
+
+<hr />
+
+<h2 id="samenvatting">Samenvatting</h2>
+
+<blockquote>
+
+<p><strong>Onthouden</strong></p>
+
+<ul>
+
+<li><code>TCK</code>: totale constante kosten. Blijven gelijk als
+
+<code>Q</code> verandert.</li>
+
+<li><code>TVK</code>: totale variabele kosten. Veranderen mee met
+
+<code>Q</code>.</li>
+
+<li><code>TK = TCK + TVK</code>.</li>
+
+<li><code>GTK = TK / Q</code>, <code>GCK = TCK / Q</code>,
+
+<code>GVK = TVK / Q</code>.</li>
+
+<li>Als <code>TCK</code> gelijk blijft, daalt <code>GCK</code> wanneer
+
+<code>Q</code> stijgt.</li>
+
+<li>Verwissel nooit totale kosten met gemiddelde kosten:
+
+<code>TCK</code> is niet hetzelfde als <code>GCK</code>.</li>
+
+</ul>
+
+</blockquote>
+
+<p>In de volgende paragraaf voeg je opbrengsten toe. Dan kun je bepalen
+
+of een onderneming winst of verlies maakt.</p>
+
+<h2 id="vastgelopen-op-een-opgave">Vastgelopen op een opgave?</h2>
+
+<p>Gebruik steeds dezelfde route:</p>
+
+<ol type="1">
+
+<li>Schrijf eerst <code>TCK</code> en <code>TVK</code> op.</li>
+
+<li>Bereken daarna <code>TK = TCK + TVK</code>.</li>
+
+<li>Deel pas daarna door <code>Q</code> voor <code>GTK</code>,
+
+<code>GCK</code> en <code>GVK</code>.</li>
+
+<li>Controleer je uitleg: zeg of het om totale kosten of gemiddelde
+
+kosten gaat.</li>
+
+</ol>
+
+<hr />
+
+<h2 id="opgaven">Opgaven</h2>
+
+<h3 id="startoefeningen">Startoefeningen</h3>
+
+<p><strong>Opgave 1</strong> <em>(lees de grafiek)</em></p>
+
+<p>Gebruik figuur 1 van de bakkerij.</p>
+
+<p><strong>A.</strong> Welke lijn laat <code>TCK</code> zien? Leg uit
+
+waaraan je dat ziet.</p>
+
+<p><strong>B.</strong> Lees uit de grafiek af: wat zijn <code>TVK</code>
+
+en <code>TK</code> bij <code>Q = 500</code>?</p>
+
+<p><strong>C.</strong> Lees uit de grafiek af: wat zijn <code>TVK</code>
+
+en <code>TK</code> bij <code>Q = 1000</code>?</p>
+
+<p><strong>D.</strong> De afstand tussen de <code>TK</code>-lijn en de
+
+<code>TVK</code>-lijn blijft overal even groot. Welk bedrag stelt die
+
+afstand voor?</p>
+
+<hr />
+
+<p><strong>Opgave 2</strong> <em>(herken constante en variabele
+
+kosten)</em></p>
+
+<p>Een kleine drukkerij maakt posters. De drukkerij betaalt per maand
+
+EUR 900 huur en EUR 150 voor een vast softwareabonnement. Papier en inkt
+
+kosten EUR 2 per poster.</p>
+
+<p><strong>A.</strong> Welke kosten zijn constante kosten?</p>
+
+<p><strong>B.</strong> Welke kosten zijn variabele kosten?</p>
+
+<p><strong>C.</strong> Schrijf de formules voor <code>TCK</code>,
+
+<code>TVK</code> en <code>TK</code>.</p>
+
+<p><strong>D.</strong> Bereken <code>TK</code> bij <code>Q = 200</code>
+
+posters.</p>
+
+<hr />
+
+<p><strong>Opgave 3</strong> <em>(tabel met begeleiding)</em></p>
+
+<p>Een bedrijf heeft <code>TCK = 600</code> en
+
+<code>TVK = 3Q</code>.</p>
+
+<p><strong>A.</strong> Vul eerst <code>TCK</code>, <code>TVK</code> en
+
+<code>TK</code> in.</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th style="text-align: right;">Q</th>
+
+<th style="text-align: right;">TCK</th>
+
+<th style="text-align: right;">TVK</th>
+
+<th style="text-align: right;">TK</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align: right;">100</td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: right;">300</td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: right;">600</td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p><strong>B.</strong> Bereken daarna <code>GCK</code>, <code>GVK</code>
+
+en <code>GTK</code>.</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th style="text-align: right;">Q</th>
+
+<th style="text-align: right;">GCK</th>
+
+<th style="text-align: right;">GVK</th>
+
+<th style="text-align: right;">GTK</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align: right;">100</td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: right;">300</td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+</tr>
+
+<tr>
+
+<td style="text-align: right;">600</td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+<td style="text-align: right;"></td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p><strong>C.</strong> Welke gemiddelde kosten blijven gelijk? Welke
+
+gemiddelde kosten dalen?</p>
+
+<h3 id="zelfstandige-oefening">Zelfstandige oefening</h3>
+
+<p><strong>Opgave 4</strong></p>
+
+<p>Een fietsenmaker huurt een werkplaats voor EUR 1200 per maand. Voor
+
+iedere fietsreparatie gebruikt hij gemiddeld EUR 18 aan onderdelen.</p>
+
+<p><strong>A.</strong> Schrijf de formules voor <code>TCK</code>,
+
+<code>TVK</code> en <code>TK</code>.</p>
+
+<p><strong>B.</strong> Bereken <code>TK</code> bij 40 reparaties en bij
+
+80 reparaties.</p>
+
+<p><strong>C.</strong> Bereken <code>GCK</code>, <code>GVK</code> en
+
+<code>GTK</code> bij 40 reparaties en bij 80 reparaties.</p>
+
+<p><strong>D.</strong> Leg uit waarom <code>GTK</code> daalt als het
+
+aantal reparaties stijgt.</p>
+
+<hr />
+
+<p><strong>Opgave 5</strong></p>
+
+<p>Een maker van sportshirts heeft <code>TCK = 1500</code> en
+
+<code>TVK = 6Q</code>.</p>
+
+<p><strong>A.</strong> Bereken <code>TK</code>, <code>GCK</code>,
+
+<code>GVK</code> en <code>GTK</code> bij <code>Q = 250</code>.</p>
+
+<p><strong>B.</strong> Bereken <code>TK</code>, <code>GCK</code>,
+
+<code>GVK</code> en <code>GTK</code> bij <code>Q = 500</code>.</p>
+
+<p><strong>C.</strong> De ondernemer zegt: “Bij 500 shirts zijn mijn
+
+totale kosten lager dan bij 250 shirts.” Leg uit waarom deze uitspraak
+
+fout is.</p>
+
+<p><strong>D.</strong> Welke kosten zijn wel lager bij 500 shirts dan
+
+bij 250 shirts?</p>
+
+<h3 id="herhaling">Herhaling</h3>
+
+<p><strong>Opgave 6</strong> <em>(procenten en kosten samen)</em></p>
+
+<p>Een bedrijf maakt eerst 400 producten en daarna 500 producten. De
+
+constante kosten zijn EUR 1000. De variabele kosten zijn EUR 4 per
+
+product.</p>
+
+<p><strong>A.</strong> Met hoeveel procent stijgt <code>Q</code>?</p>
+
+<p><strong>B.</strong> Bereken <code>GCK</code> bij 400 producten en bij
+
+500 producten.</p>
+
+<p><strong>C.</strong> Met hoeveel procent daalt <code>GCK</code>?</p>
+
+<p><strong>D.</strong> Leg uit waarom <code>TVK</code> stijgt, terwijl
+
+<code>GCK</code> daalt.</p>
+
+<h3 id="doeloefening">Doeloefening</h3>
+
+<p><strong>Opgave 7</strong></p>
+
+<p>Een bakkerij heeft per maand EUR 500 constante kosten. Elk brood kost
+
+EUR 0,80 aan meel, gist en energie. Gebruik <code>Q</code> voor het
+
+aantal broden per maand.</p>
+
+<p><strong>A.</strong> Schrijf de formules voor <code>TCK</code>,
+
+<code>TVK</code> en <code>TK</code>.</p>
+
+<p><strong>B.</strong> Bereken <code>TCK</code>, <code>TVK</code> en
+
+<code>TK</code> bij <code>Q = 500</code> en bij
+
+<code>Q = 1000</code>.</p>
+
+<p><strong>C.</strong> Bereken <code>GTK</code>, <code>GVK</code> en
+
+<code>GCK</code> bij <code>Q = 500</code> en bij
+
+<code>Q = 1000</code>.</p>
+
+<p><strong>D.</strong> Wat gebeurt er met <code>GTK</code> als
+
+<code>Q</code> stijgt van 500 naar 1000? Leg uit waarom dit logisch
+
+is.</p>
+
+<p><strong>E.</strong> Een leerling zegt: “<code>GCK</code> is altijd
+
+hetzelfde, want constante kosten veranderen niet.” Is dit juist? Leg
+
+uit.</p>
+
+<h3 id="denkertje">Denkertje</h3>
+
+<p><strong>Opgave 8</strong></p>
+
+<p>Een bedrijf heeft <code>TCK = 500</code>. Bij 100 producten zijn de
+
+variabele kosten EUR 4 per product. Bij 200 producten stijgen de
+
+variabele kosten naar EUR 7 per product, omdat er duur overwerk nodig
+
+is.</p>
+
+<p><strong>A.</strong> Bereken <code>GTK</code> bij 100 producten.</p>
+
+<p><strong>B.</strong> Bereken <code>GTK</code> bij 200 producten.</p>
+
+<p><strong>C.</strong> Daalt <code>GTK</code> hier als <code>Q</code>
+
+stijgt? Leg uit waarom dit voorbeeld anders is dan de bakkerij.</p>
+
+</body>
+
+</html>

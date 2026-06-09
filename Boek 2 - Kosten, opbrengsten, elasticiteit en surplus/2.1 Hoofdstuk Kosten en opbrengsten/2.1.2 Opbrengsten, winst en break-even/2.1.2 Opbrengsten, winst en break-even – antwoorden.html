@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.1.2 Opbrengsten, winst en break-even"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; max-width: 100%; }
+h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; margin-bottom: 18pt; break-after: avoid; }
+h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; margin-bottom: 12pt; break-after: avoid; }
+h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; margin-bottom: 6pt; break-after: avoid; }
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+p { margin: 0 0 10pt 0; }
+table { border-collapse: collapse; width: 100%; max-width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
+th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 6pt; }
+th:first-child, td:first-child { width: 8%; max-width: 42pt; white-space: nowrap; text-align: right; padding-left: 4pt; padding-right: 4pt; }
+.procedure-table { width: 100%; table-layout: fixed; break-inside: auto; page-break-inside: auto; font-size: 10.5pt; margin-top: 6pt; line-height: 1.22; }
+.procedure-table th:nth-child(1), .procedure-table td:nth-child(1) { width: 8%; max-width: 8%; text-align: center; }
+.procedure-table th:nth-child(2), .procedure-table td:nth-child(2) { width: 34%; text-align: left; white-space: normal; }
+.procedure-table th:nth-child(3), .procedure-table td:nth-child(3) { width: 58%; text-align: left; white-space: normal; }
+.procedure-table th, .procedure-table td { padding: 2pt 5pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; font-size: 10.5pt; line-height: 1.4; break-inside: avoid; }
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: #1A5276; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; white-space: nowrap; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="opbrengsten-winst-en-break-even---antwoorden">2.1.2 Opbrengsten,
+winst en break-even - antwoorden</h1>
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+<p>Zie de uitwerking in de opgaven. De kernroute is:</p>
+<ul>
+<li><code>TK = 180 + 1,20Q</code></li>
+<li><code>TO = 3,00Q</code></li>
+<li><code>winst = TO - TK</code></li>
+<li>break-even: <code>TO = TK</code></li>
+</ul>
+<hr />
+<h2 id="antwoorden-bij-de-opgaven">Antwoorden bij de opgaven</h2>
+<h3 id="opgave-1">Opgave 1</h3>
+<p><strong>A.</strong> De verkoopprijs is €1,50 per brood, dus:</p>
+<p><code>TO = 1,50Q</code></p>
+<p><strong>B.</strong></p>
+<p><code>winst = TO - TK</code></p>
+<p><code>winst = 1,50Q - (500 + 0,80Q)</code></p>
+<p><code>winst = 0,70Q - 500</code></p>
+<p><strong>C.</strong> Bij <code>Q = 500</code>:</p>
+<p><code>TO = 1,50 × 500 = 750</code></p>
+<p><code>TK = 500 + 0,80 × 500 = 900</code></p>
+<p><code>winst = 750 - 900 = -150</code></p>
+<p>De bakkerij maakt €150 verlies.</p>
+<p><strong>D.</strong></p>
+<p><code>GO = TO / Q = 750 / 500 = 1,50</code></p>
+<p>Dit is gelijk aan de verkoopprijs, omdat elk brood voor dezelfde
+prijs wordt verkocht.</p>
+<hr />
+<h3 id="opgave-2">Opgave 2</h3>
+<p><strong>A.</strong> De verkoopprijs is €5 per stuk:</p>
+<p><code>TO = 5Q</code></p>
+<p><strong>B.</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Q</th>
+<th style="text-align: right;">TO</th>
+<th style="text-align: right;">TK</th>
+<th style="text-align: right;">winst/verlies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">240</td>
+<td style="text-align: right;">-240</td>
+</tr>
+<tr>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">360</td>
+<td style="text-align: right;">-60</td>
+</tr>
+<tr>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;">480</td>
+<td style="text-align: right;">120</td>
+</tr>
+</tbody>
+</table>
+<p><strong>C.</strong> Bij <code>Q = 0</code> en <code>Q = 60</code> is
+er verlies. Bij <code>Q = 120</code> is er winst.</p>
+<p><strong>D.</strong></p>
+<p><code>GO = TO / Q = 600 / 120 = 5</code></p>
+<p>De gemiddelde opbrengst is €5 per product.</p>
+<hr />
+<h3 id="opgave-3">Opgave 3</h3>
+<p><strong>A.</strong></p>
+<p><code>TK = 300 + 1Q</code></p>
+<p><code>TO = 4Q</code></p>
+<p><strong>B.</strong> Break-even betekent <code>TO = TK</code>:</p>
+<p><code>4Q = 300 + Q</code></p>
+<p><strong>C.</strong></p>
+<p><code>4Q = 300 + Q</code></p>
+<p><code>3Q = 300</code></p>
+<p><code>Q = 100</code></p>
+<p><strong>D.</strong> De club draait break-even bij 100
+programmaboekjes: dan zijn de totale opbrengsten precies gelijk aan de
+totale kosten en is de winst nul.</p>
+<hr />
+<h3 id="opgave-4">Opgave 4</h3>
+<p><strong>A.</strong> De <code>TO</code>-lijn begint bij nul. Als er
+geen brood wordt verkocht, is er geen opbrengst.</p>
+<p><strong>B.</strong> De <code>TK</code>-lijn begint bij €500. Dat zijn
+de vaste kosten die de bakkerij ook heeft als <code>Q = 0</code>.</p>
+<p><strong>C.</strong> Het snijpunt betekent break-even:
+<code>TO = TK</code> en de winst is nul.</p>
+<p><strong>D.</strong> Bij <code>Q = 1000</code>:</p>
+<p><code>TO = 1,50 × 1000 = 1500</code></p>
+<p><code>TK = 500 + 0,80 × 1000 = 1300</code></p>
+<p><code>winst = 1500 - 1300 = 200</code></p>
+<p>De winst is €200. In de grafiek is dit de verticale afstand tussen
+<code>TO</code> en <code>TK</code> bij <code>Q = 1000</code>.</p>
+<hr />
+<h3 id="opgave-5">Opgave 5</h3>
+<p><strong>A.</strong></p>
+<p><code>TK = 900 + 2Q</code></p>
+<p><code>TO = 5Q</code></p>
+<p><strong>B.</strong> Bij <code>Q = 200</code>:</p>
+<p><code>TO = 5 × 200 = 1000</code></p>
+<p><code>TK = 900 + 2 × 200 = 1300</code></p>
+<p><code>winst = 1000 - 1300 = -300</code></p>
+<p>Er is €300 verlies.</p>
+<p>Bij <code>Q = 400</code>:</p>
+<p><code>TO = 5 × 400 = 2000</code></p>
+<p><code>TK = 900 + 2 × 400 = 1700</code></p>
+<p><code>winst = 2000 - 1700 = 300</code></p>
+<p>Er is €300 winst.</p>
+<p><strong>C.</strong></p>
+<p><code>GO = TO / Q = 2000 / 400 = 5</code></p>
+<p>De gemiddelde opbrengst is €5 per poster.</p>
+<p><strong>D.</strong></p>
+<p><code>TO = TK</code></p>
+<p><code>5Q = 900 + 2Q</code></p>
+<p><code>3Q = 900</code></p>
+<p><code>Q = 300</code></p>
+<p>Het break-evenpunt ligt bij 300 posters.</p>
+<p><strong>E.</strong> Bij <code>Q = 200</code> zijn de totale
+opbrengsten nog lager dan de totale kosten. Bij <code>Q = 400</code>
+zijn de totale opbrengsten hoger dan de totale kosten. De extra
+verkochte posters leveren genoeg op om de vaste kosten terug te
+verdienen.</p>
+<hr />
+<h3 id="opgave-6">Opgave 6</h3>
+<p><strong>A.</strong></p>
+<p><code>TK = 1200 + 18Q</code></p>
+<p><code>TO = 45Q</code></p>
+<p><strong>B.</strong> Bij 40 onderhoudsbeurten:</p>
+<p><code>TO = 45 × 40 = 1800</code></p>
+<p><code>TK = 1200 + 18 × 40 = 1920</code></p>
+<p><code>winst = 1800 - 1920 = -120</code></p>
+<p>Er is €120 verlies.</p>
+<p><strong>C.</strong> Bij 80 onderhoudsbeurten:</p>
+<p><code>TO = 45 × 80 = 3600</code></p>
+<p><code>TK = 1200 + 18 × 80 = 2640</code></p>
+<p><code>winst = 3600 - 2640 = 960</code></p>
+<p>Er is €960 winst.</p>
+<p><strong>D.</strong></p>
+<p><code>TO = TK</code></p>
+<p><code>45Q = 1200 + 18Q</code></p>
+<p><code>27Q = 1200</code></p>
+<p><code>Q = 44,44</code></p>
+<p>Je rondt naar boven af: vanaf 45 onderhoudsbeurten is er geen verlies
+meer. Bij 44 onderhoudsbeurten is de onderneming nog net onder
+break-even.</p>
+<hr />
+<h3 id="opgave-7">Opgave 7</h3>
+<p><strong>A.</strong></p>
+<p><code>TCK = 750</code></p>
+<p><code>TVK = 2,40Q</code></p>
+<p><code>TK = 750 + 2,40Q</code></p>
+<p><code>TO = 4,00Q</code></p>
+<p><strong>B.</strong> Bij <code>Q = 250</code>:</p>
+<p><code>TO = 4,00 × 250 = 1000</code></p>
+<p><code>TK = 750 + 2,40 × 250 = 1350</code></p>
+<p><code>winst = 1000 - 1350 = -350</code></p>
+<p>Er is €350 verlies.</p>
+<p>Bij <code>Q = 500</code>:</p>
+<p><code>TO = 4,00 × 500 = 2000</code></p>
+<p><code>TK = 750 + 2,40 × 500 = 1950</code></p>
+<p><code>winst = 2000 - 1950 = 50</code></p>
+<p>Er is €50 winst.</p>
+<p><strong>C.</strong></p>
+<p><code>GO = TO / Q = 2000 / 500 = 4,00</code></p>
+<p>De gemiddelde opbrengst is gelijk aan de verkoopprijs: €4,00 per
+wrap.</p>
+<p><strong>D.</strong></p>
+<p><code>TO = TK</code></p>
+<p><code>4,00Q = 750 + 2,40Q</code></p>
+<p><code>1,60Q = 750</code></p>
+<p><code>Q = 468,75</code></p>
+<p>Het break-evenpunt ligt bij 468,75 wraps. In hele wraps is 469 de
+eerste hoeveelheid waarbij er geen verlies meer is.</p>
+<p><strong>E.</strong> In een grafiek met <code>TK</code> en
+<code>TO</code> geef je de winst bij <code>Q = 500</code> aan als de
+verticale afstand tussen de <code>TO</code>-lijn en de
+<code>TK</code>-lijn bij <code>Q = 500</code>. Je arceert niet het hele
+gebied tussen de lijnen over meerdere hoeveelheden.</p>
+<hr />
+<h3 id="opgave-8">Opgave 8</h3>
+<p><strong>A.</strong> De verkoopprijs is €2,50 per broodje:</p>
+<p><code>TO = 2,50Q</code></p>
+<p><strong>B.</strong> De vaste kosten zijn €420 en de variabele kosten
+zijn €1,10 per broodje:</p>
+<p><code>TK = 420 + 1,10Q</code></p>
+<p><strong>C.</strong> Bij <code>Q = 200</code>:</p>
+<p><code>TO = 2,50 × 200 = 500</code></p>
+<p><code>TK = 420 + 1,10 × 200 = 640</code></p>
+<p><code>winst = 500 - 640 = -140</code></p>
+<p>Er is €140 verlies.</p>
+<p>Bij <code>Q = 400</code>:</p>
+<p><code>TO = 2,50 × 400 = 1000</code></p>
+<p><code>TK = 420 + 1,10 × 400 = 860</code></p>
+<p><code>winst = 1000 - 860 = 140</code></p>
+<p>Er is €140 winst.</p>
+<p><strong>D.</strong></p>
+<p><code>GO = TO / Q = 500 / 200 = 2,50</code></p>
+<p>Dit is gelijk aan de verkoopprijs, omdat elk broodje voor €2,50 wordt
+verkocht.</p>
+<p><strong>E.</strong></p>
+<p><code>TO = TK</code></p>
+<p><code>2,50Q = 420 + 1,10Q</code></p>
+<p><code>1,40Q = 420</code></p>
+<p><code>Q = 300</code></p>
+<p>Het break-evenpunt ligt precies bij 300 broodjes. Als de uitkomst
+geen heel getal was, zou je naar boven afronden omdat je pas boven of op
+break-even geen verlies meer maakt.</p>
+<p><strong>F.</strong> De <code>TO</code>-lijn begint bij nul en stijgt
+met €2,50 per broodje. De <code>TK</code>-lijn begint bij €420 en stijgt
+met €1,10 per broodje. Het break-evenpunt ligt bij <code>Q = 300</code>;
+daar snijden de lijnen elkaar.</p>
+<p>Een goede grafiek bevat deze onderdelen:</p>
+<ul>
+<li>horizontale as: <code>Q</code>;</li>
+<li>verticale as: euro’s;</li>
+<li><code>TO</code>-lijn door bijvoorbeeld <code>(0, 0)</code> en
+<code>(400, 1000)</code>;</li>
+<li><code>TK</code>-lijn door bijvoorbeeld <code>(0, 420)</code> en
+<code>(400, 860)</code>;</li>
+<li>break-evenpunt bij <code>Q = 300</code>.</li>
+</ul>
+<p>Bij break-even geldt:</p>
+<p><code>TO = 2,50 × 300 = 750</code></p>
+<p><code>TK = 420 + 1,10 × 300 = 750</code></p>
+<p>Het break-evenpunt is dus <code>(300, 750)</code>. Bij
+<code>Q = 400</code> ligt <code>TO</code> op <code>1000</code> en
+<code>TK</code> op <code>860</code>. De winst is
+<code>1000 - 860 = 140</code>. In de grafiek geef je die winst aan als
+de verticale afstand tussen de <code>TO</code>-lijn en de
+<code>TK</code>-lijn bij <code>Q = 400</code>.</p>
+<hr />
+<h3 id="opgave-9">Opgave 9</h3>
+<p><strong>A.</strong></p>
+<p><code>TO = 0,70Q</code></p>
+<p><strong>B.</strong></p>
+<p><code>winst = TO - TK</code></p>
+<p><code>winst = 0,70Q - (500 + 0,80Q)</code></p>
+<p><code>winst = -500 - 0,10Q</code></p>
+<p><strong>C.</strong> Er bestaat geen break-evenpunt bij positieve
+productie. Elk extra product levert €0,70 op, maar kost variabel al
+€0,80. De onderneming verliest dus €0,10 extra per verkocht product en
+heeft daarnaast nog €500 vaste kosten. Meer verkopen maakt het verlies
+groter in plaats van kleiner.</p>
+<p><strong>D.</strong> Veel verkopen is niet genoeg. De verkoopprijs
+moet hoog genoeg zijn ten opzichte van de variabele kosten, en de totale
+opbrengst moet uiteindelijk boven de totale kosten komen.</p>
+</body>
+</html>
