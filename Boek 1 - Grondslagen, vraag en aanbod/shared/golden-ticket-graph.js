@@ -54,6 +54,15 @@
     };
   }
 
+  function graphIdFor(data) {
+    var raw = data && data.layout && data.layout.graphId
+      ? data.layout.graphId
+      : data && data.parNr
+        ? 'golden-ticket-' + String(data.parNr).replace(/[^a-z0-9]/gi, '')
+        : 'golden-ticket-workbench';
+    return String(raw || 'golden-ticket-workbench');
+  }
+
   function buildGraphSpec(data) {
     var tasks = data && Array.isArray(data.tasks) ? data.tasks : [];
     var graphTask = tasks
@@ -69,7 +78,7 @@
       ? expected.acceptedTablePoints
       : expected.points || [];
     return {
-      graph_id: 'golden-ticket-113',
+      graph_id: graphIdFor(data),
       x_axis: axes.x || {},
       y_axis: axes.y || {},
       points: sourcePoints.map(normalizePoint),
@@ -214,6 +223,7 @@
     PLOT: PLOT,
     buildGraphSpec: buildGraphSpec,
     clampPlotPoint: clampPlotPoint,
+    graphIdFor: graphIdFor,
     nearestRenderedPointIndex: nearestRenderedPointIndex,
     nearestSourcePoint: nearestSourcePoint,
     renderSvgString: renderSvgString,
