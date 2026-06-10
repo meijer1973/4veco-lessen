@@ -3,7 +3,8 @@ title: "Kostenstructuren"
 chapter: "2.1 Hoofdstuk Kosten en opbrengsten"
 reviewed_on: "2026-06-08"
 review_mode: "part-a"
-target_exercise_status: "migrated_from_v4_needs_v5_review"
+target_exercise_status: "reviewed_final"
+target_status_promotion_sprint: "B2-2.1-TARGET-V5-PROMOTE"
 production_ready_with_flags: true
 content:
   paragraaf_md: true
@@ -27,5 +28,4 @@ review:
   verdict: "PASS WITH FLAGS"
   unresolved_blockers: 0
   flags:
-    - "Migrated v4 target still needs v5 review."
     - "Existing graph reused; future paragraph sprints should decide whether extra step visuals are needed."
