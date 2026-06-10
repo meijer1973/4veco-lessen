@@ -22,7 +22,8 @@ partA:
     naming_compliant: true
   target_trace:
     target_exercise_id: "2.1.2"
-    target_record_status_upstream: "migrated_from_v4_needs_v5_review"
+    target_record_status_upstream: "reviewed_final"
+    target_status_promotion_sprint: "B2-2.1-TARGET-V5-PROMOTE"
     operation_chain_covered: true
     misconception_covered: true
   review:
@@ -34,5 +35,4 @@ partA:
     lead_review_round2: "reports/sprints/B2-2.1.2-HARDEN-lead-review-round2.md"
     round1_blockers_corrected: true
     final_flags:
-      - "target_record_remains_migrated_from_v4_needs_v5_review"
       - "chapter_pdf_size_warning_while_assets_pass"

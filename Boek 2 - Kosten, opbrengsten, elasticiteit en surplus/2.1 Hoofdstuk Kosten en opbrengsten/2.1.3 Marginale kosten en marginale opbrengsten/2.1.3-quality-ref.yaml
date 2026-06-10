@@ -1,13 +1,14 @@
 id: 2.1.3
 title: Marginale kosten en marginale opbrengsten
 status: integrated_repository_sprint_pass_with_flags
-record_status_upstream: migrated_from_v4_needs_v5_review
+record_status_upstream: reviewed_final
 part_a_scope: true
 part_b_scope: false
 target_trace:
   registry: references/authored/course-target-exercises.json
   record_id: 2.1.3
   source_ref: references/owned/course-blueprint-v5.md §2.1.3
+  target_status_promotion_sprint: B2-2.1-TARGET-V5-PROMOTE
 quality_summary:
   target_exercise_aligned: true
   subquestions_uppercase: true
@@ -25,5 +26,4 @@ repository_sprint:
   rendered_outputs_regenerated: true
   chapter_assembly_regenerated: true
 required_follow_up:
-  - Consider target status promotion only in a later authorized target-review sprint.
   - Monitor Chapter 2.1 PDF-size warning during later chapter and book print assembly.
