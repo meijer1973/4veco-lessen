@@ -17,6 +17,26 @@
       "A39",
       "D31"
     ],
+    "targetEquivalent": {
+      "candidate": false,
+      "gateApproved": false,
+      "completionLanguageEligible": false
+    },
+    "layout": {
+      "kind": "source_task_workspace",
+      "framework": "golden_exercise_workbench",
+      "variant": "golden_advisory_short_check_v1",
+      "kicker": "Korte check - paragraaf 1.1.2",
+      "sourcePaneTitle": "Context",
+      "taskPaneTitle": "Korte check",
+      "sourceNote": "Gebruik deze korte gegevens bij de keuzes. De feedback wijst alleen naar een oefenstap."
+    },
+    "advisory": {
+      "intent": "Geef lokale oefenroute- en reparatiefeedback voor drie deelstappen van percentages en indexcijfers.",
+      "hintsAbsent": true,
+      "routeAdvice": true,
+      "targetEquivalentProof": false
+    },
     "metadataAlignment": {
       "status": "paragraph_skill_aligned_not_target_readiness",
       "paragraphSkillIds": [
@@ -60,12 +80,76 @@
         }
       ]
     },
+    "contextBlocks": [
+      {
+        "id": "ctx-112-short-prijs",
+        "type": "source_excerpt",
+        "sourceLabel": "Context 1",
+        "caption": "Context 1 - Prijsverandering",
+        "bodyMarkdown": "Een prijs stijgt van 80 naar 100.",
+        "sourceRefs": [
+          "source-data/book-1/exit-ticket/1.1.2-korte-check.json#oude-waarde-als-basis"
+        ],
+        "accessibilitySummary": "Korte context met oude waarde 80 en nieuwe waarde 100."
+      },
+      {
+        "id": "ctx-112-short-mand-index",
+        "type": "table",
+        "sourceLabel": "Tabel 1",
+        "caption": "Tabel 1 - Mand en index",
+        "sourceMaterialId": "short-check-112-mand-index",
+        "columns": [
+          "Moment",
+          "Waarde"
+        ],
+        "rows": [
+          [
+            "Eerst",
+            "150"
+          ],
+          [
+            "Later",
+            "162"
+          ],
+          [
+            "Indexcijfer",
+            "108"
+          ]
+        ],
+        "altText": "Tabel met waarde 150 eerst, 162 later en indexcijfer 108."
+      },
+      {
+        "id": "ctx-112-short-indexpunten",
+        "type": "table",
+        "sourceLabel": "Tabel 2",
+        "caption": "Tabel 2 - Indexpunten",
+        "sourceMaterialId": "short-check-112-indexpunten",
+        "columns": [
+          "Moment",
+          "Index"
+        ],
+        "rows": [
+          [
+            "Oude index",
+            "108"
+          ],
+          [
+            "Nieuwe index",
+            "112"
+          ]
+        ],
+        "altText": "Tabel met oude index 108 en nieuwe index 112."
+      }
+    ],
     "tasks": [
       {
         "id": "oude-waarde-als-basis",
         "type": "choice",
         "skillLabel": "Procentuele verandering",
         "prompt": "Een prijs stijgt van 80 naar 100. Welke basis gebruik je voor de procentuele verandering?",
+        "contextRefs": [
+          "ctx-112-short-prijs"
+        ],
         "options": [
           {
             "id": "a",
@@ -97,6 +181,9 @@
         "type": "choice",
         "skillLabel": "Indexcijfer berekenen",
         "prompt": "Een mand kost eerst EUR 150 en later EUR 162. Het indexcijfer is 108. Hoe noteer je dat netjes?",
+        "contextRefs": [
+          "ctx-112-short-mand-index"
+        ],
         "options": [
           {
             "id": "a",
@@ -128,6 +215,9 @@
         "type": "choice",
         "skillLabel": "Indexpunten uitleggen",
         "prompt": "Een index stijgt van 108 naar 112. Waarom is de uitspraak 'dat is 4 procent' niet precies?",
+        "contextRefs": [
+          "ctx-112-short-indexpunten"
+        ],
         "options": [
           {
             "id": "a",
