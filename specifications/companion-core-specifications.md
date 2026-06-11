@@ -509,16 +509,23 @@ Prohibited language unless a later explicit gate authorizes it:
 Paragraph landing pages should behave like a controlled learning route, not a
 peer-level artifact dump.
 
-Default route layers:
+The canonical paragraph landing route is defined in
+`specifications/paragraph-landing-layout-v2.md` and implemented from the
+approved light/dark visual fixtures in the platform repository.
+
+Default V2 route layers:
 
 - `Start`
+- `Skill-tree games`
 - `Leer`
 - `Oefen`
-- `Check`, only when reviewed generated checkpoint output exists
-- `Verdiep`
+- `Check`
+- `Open & verdiep`
 
-Consolidation or mixed-practice paragraphs may use a dedicated `Oefen gemengd`
-route instead of pretending to have missing theory/check layers.
+Missing route surfaces stay visible as disabled placeholders; they are not
+hidden and they are not replaced with fake links. A paragraph page that renders
+the route inside the old lesson shell or old resource-card visual system does
+not satisfy the landing-route specification.
 
 Secondary surfaces such as summaries, presentations, news/context, textbook
 links, downloads, and full skill maps must be findable without crowding the
