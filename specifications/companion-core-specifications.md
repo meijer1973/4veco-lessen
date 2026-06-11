@@ -34,6 +34,12 @@ specification unless the missing work is assigned to a named follow-up sprint.
 
 ## Change Notes
 
+- 2026-06-11: added `specifications/paragraph-landing-layout-v2.md` as the
+  canonical generated paragraph landing baseline after human direction in
+  LANDING-V2-PARAGRAPH-ROUTE-REPLACEMENT. Affected surface: companion route
+  entry, landing-page review evidence, and generated paragraph navigation.
+  Consequence: future companion route work must follow V2 and must not revive
+  or extend the old paragraph landing structure without human review.
 - 2026-06-06: linked companion work to the new canonical strategic product
   vision. Affected surface: companion sprint trade-offs, strategic quality
   claims, and agent planning. Approval route: VISION-1 at explicit human
@@ -509,20 +515,28 @@ Prohibited language unless a later explicit gate authorizes it:
 Paragraph landing pages should behave like a controlled learning route, not a
 peer-level artifact dump.
 
-Default route layers:
+The generated paragraph landing route now follows the canonical V2 contract in
+`specifications/paragraph-landing-layout-v2.md`. V2 replaces the previous
+generated paragraph landing model. Do not revive or extend the old paragraph
+landing structure without human review.
+
+Required V2 row layers:
 
 - `Start`
+- `Skill-tree games`
 - `Leer`
 - `Oefen`
-- `Check`, only when reviewed generated checkpoint output exists
-- `Verdiep`
+- `Check`
+- `Open & verdiep`
 
 Consolidation or mixed-practice paragraphs may use a dedicated `Oefen gemengd`
 route instead of pretending to have missing theory/check layers.
 
-Secondary surfaces such as summaries, presentations, news/context, textbook
-links, downloads, and full skill maps must be findable without crowding the
-first student decision.
+Future or missing surfaces must remain visible as explicit disabled
+placeholders, not disappear silently. Secondary surfaces such as summaries,
+presentations, news/context, textbook links, downloads, and full skill maps must
+be findable inside the V2 row contract without crowding the first student
+decision.
 
 ## Review Specification
 

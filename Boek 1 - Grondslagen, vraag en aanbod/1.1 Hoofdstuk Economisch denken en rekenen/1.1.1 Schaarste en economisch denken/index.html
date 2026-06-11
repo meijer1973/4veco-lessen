@@ -4,243 +4,482 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>(function(){try{var m=localStorage.getItem('quizMode')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
-<title>1.1.1 Schaarste en economisch denken – Lesmateriaal</title>
+<title>1.1.1 Schaarste en economisch denken - Lesmateriaal</title>
 <link rel="stylesheet" href="../../shared/voorkennis.css">
 <style>
-  .sidebar-jump {
-    display: block; padding: 0.55rem 1.1rem;
-    font-size: 0.72rem; color: var(--ink-soft);
+  body[data-layout="paragraph-landing-v2"] {
+    --content-max: 1180px;
+    --heading-letter: 0;
+    letter-spacing: 0;
+  }
+  body[data-layout="paragraph-landing-v2"] .content {
+    min-width: 0;
+  }
+  body[data-layout="paragraph-landing-v2"] .sidebar {
+    border-right: 1px solid var(--border);
+  }
+  .landing-v2-sidebar-header {
+    padding: 1rem 1rem 0.85rem;
     border-bottom: 1px solid var(--border);
   }
-  .sidebar-jump a { color: var(--accent); }
-  .sidebar-jump a:hover { text-decoration: underline; }
-
-  .resource-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 0.9rem;
-  }
-  .resource-card {
-    display: flex; gap: 0.85rem; align-items: flex-start;
-    background: var(--bg-lift);
-    border: 1px solid var(--border);
-    border-left: 4px solid var(--accent);
-    border-radius: 10px;
-    padding: 1rem 1.15rem;
-    color: inherit; text-decoration: none;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
-  .resource-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-  }
-  .resource-card-icon {
-    flex-shrink: 0; width: 38px; height: 38px; border-radius: 8px;
-    background: var(--accent-lt); color: var(--accent);
-    display: flex; align-items: center; justify-content: center;
-  }
-  .resource-card-icon svg {
-    width: 20px; height: 20px; fill: none; stroke: currentColor;
-    stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
-  }
-  .resource-card-body { flex: 1; min-width: 0; }
-  .resource-card-body h3 {
-    font-size: 0.98rem; font-weight: 600; color: var(--ink);
-    margin: 0 0 0.2rem;
-  }
-  .resource-card-body p {
-    font-size: 0.82rem; color: var(--ink-soft);
-    line-height: 1.45; margin: 0 0 0.45rem;
-  }
-  .learning-aspect-block,
-  .guided-practice-block {
-    display: grid;
-    gap: 0.85rem;
-  }
-  .guided-practice-block {
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--border);
-  }
-  .learning-aspect-copy {
-    max-width: 70ch;
-  }
-  .learning-aspect-copy h3 {
-    margin: 0.1rem 0 0.25rem;
-    font-size: 1rem;
-    color: var(--ink);
-  }
-  .learning-aspect-copy p {
+  .landing-v2-sidebar-header h2 {
     margin: 0;
-    color: var(--ink-soft);
-    font-size: 0.84rem;
-    line-height: 1.45;
+    font-size: 0.95rem;
+    line-height: 1.25;
+    color: var(--ink);
+    overflow-wrap: anywhere;
   }
-  .resource-aspect-label {
+  .landing-v2-sidebar-header p {
+    margin: 0.25rem 0 0;
+    color: var(--ink-soft);
+    font-size: 0.74rem;
+  }
+  .landing-v2-sidebar-jump {
+    display: grid;
+    gap: 0.25rem;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .landing-v2-sidebar-jump a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 0.74rem;
+    line-height: 1.3;
+  }
+  .landing-v2-sidebar-jump a:hover { color: var(--ink); }
+  .landing-v2-nav {
+    display: grid;
+    gap: 0.25rem;
+    padding: 0.7rem 0.65rem 1rem;
+  }
+  .landing-v2-nav-item {
+    display: grid;
+    grid-template-columns: 1.7rem minmax(0, 1fr);
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.5rem 0.55rem;
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+  }
+  .landing-v2-nav-item:hover,
+  .landing-v2-nav-item:focus-visible {
+    color: var(--ink);
+    background: var(--bg-lift);
+    border-color: var(--border);
+    outline: none;
+  }
+  .landing-v2-nav-num {
     display: inline-flex;
     align-items: center;
-    width: fit-content;
-    margin: 0 0 0.35rem;
-    font-family: var(--mono);
-    font-size: 0.67rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: var(--ink-soft);
-  }
-  .resource-card-aspect.aspect-economisch {
-    border-left-color: var(--economisch);
-  }
-  .resource-card-aspect.aspect-wiskunde {
-    border-left-color: var(--wiskundig);
-  }
-  .resource-card-aspect.aspect-grafisch {
-    border-left-color: var(--grafisch);
-  }
-  .resource-card-aspect.aspect-economisch .resource-card-icon {
-    color: var(--economisch);
-    background: var(--economisch-tint);
-  }
-  .resource-card-aspect.aspect-wiskunde .resource-card-icon {
-    color: var(--wiskundig);
-    background: var(--wiskundig-tint);
-  }
-  .resource-card-aspect.aspect-grafisch .resource-card-icon {
-    color: var(--grafisch);
-    background: var(--grafisch-tint);
-  }
-  .resource-card-action {
-    display: inline-block;
-    font-size: 0.78rem; font-weight: 600;
+    justify-content: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 8px;
     color: var(--accent);
-  }
-  .resource-card-check {
-    border-left-width: 5px;
-  }
-  .resource-card-check-short {
-    border-left-color: var(--wiskundig);
-  }
-  .resource-card-check-exit {
-    border-left-color: var(--grafisch);
-  }
-  .resource-card-check-short .resource-card-icon {
-    color: var(--wiskundig);
-    background: var(--wiskundig-tint);
-  }
-  .resource-card-check-exit .resource-card-icon {
-    color: var(--grafisch);
-    background: var(--grafisch-tint);
-  }
-  .resource-card-check .check-card-kind {
-    margin-bottom: 0.25rem;
-  }
-  .resource-card-check .resource-card-purpose {
-    min-height: 3.45em;
-  }
-  .resource-sub-links {
-    display: flex; gap: 0.45rem; flex-wrap: wrap;
-    margin-top: 0.3rem;
-  }
-  .resource-sub-link {
-    display: inline-block;
-    font-size: 0.74rem; font-weight: 500;
-    padding: 0.25rem 0.65rem;
-    border: 1px solid var(--border); border-radius: 5px;
-    color: var(--accent); background: var(--bg);
-    transition: background 0.12s, border-color 0.12s;
-  }
-  .resource-sub-link:hover {
     background: var(--accent-lt);
-    border-color: var(--accent);
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    font-weight: 700;
   }
-  .resource-card-pair { border-left-color: var(--accent); }
-  .resource-card-interactive { border-left-color: var(--accent); }
-  .resource-card-with-source { position: relative; border-left-color: var(--accent); }
-  .resource-card-with-source:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  .landing-v2-nav-title {
+    display: block;
+    color: inherit;
+    font-size: 0.78rem;
+    font-weight: 700;
+    overflow-wrap: anywhere;
   }
-  .resource-card-cover-link {
-    position: absolute; inset: 0;
-    z-index: 1;
+  .landing-v2-nav-meta {
+    display: block;
+    margin-top: 0.05rem;
+    font-size: 0.67rem;
+    color: var(--ink-muted);
+  }
+  .landing-v2-hero {
+    padding: 0;
+    background:
+      linear-gradient(135deg, color-mix(in oklab, var(--accent) 10%, transparent), transparent 42%),
+      var(--bg-lift);
+    border-bottom: 1px solid var(--border);
+  }
+  .landing-v2-hero::before {
+    background: var(--hero-grad);
+  }
+  .landing-v2-hero-inner {
+    max-width: var(--content-max);
+    padding: 1.15rem 2rem 1.3rem;
+  }
+  .landing-v2-topbar {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    flex-wrap: wrap;
+    min-height: 2rem;
+    padding-right: 7.5rem;
+    color: var(--ink-muted);
+    font-size: 0.76rem;
+  }
+  .landing-v2-topbar a {
+    color: var(--ink-soft);
     text-decoration: none;
-    border-radius: 10px;
   }
-  .resource-card-with-source > .resource-card-icon,
-  .resource-card-with-source > .resource-card-body { position: relative; z-index: 0; pointer-events: none; }
-  .resource-card-with-source .resource-sub-links { position: relative; z-index: 2; pointer-events: auto; }
-  .route-secondary-group {
+  .landing-v2-topbar a:hover { color: var(--ink); }
+  .landing-v2-topbar .back-link {
+    margin: 0;
+    font-size: 0.76rem;
+  }
+  .landing-v2-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
+    gap: 1.25rem;
+    align-items: stretch;
+    margin-top: 0.9rem;
+  }
+  .landing-v2-hero-copy {
+    min-width: 0;
+    display: grid;
+    align-content: center;
+  }
+  .landing-v2-hero-copy h1 {
+    margin-top: 0.85rem;
+    max-width: 13ch;
+  }
+  .landing-v2-hero-copy .hero-sub {
+    max-width: 62ch;
+  }
+  .landing-v2-path-panel {
+    display: grid;
+    align-content: start;
+    gap: 0.7rem;
+    min-width: 0;
+    padding: 1rem;
     border: 1px solid var(--border);
     border-radius: 8px;
-    background: var(--bg-lift);
-    margin-bottom: 0.75rem;
-    overflow: hidden;
+    background: color-mix(in oklab, var(--bg-card) 88%, var(--bg-lift));
+    box-shadow: var(--shadow-card);
   }
-  .route-secondary-group summary {
-    position: relative;
-    cursor: pointer;
-    display: grid;
-    gap: 0.18rem;
-    padding: 0.9rem 1rem;
-    list-style: none;
-  }
-  .route-secondary-group summary::-webkit-details-marker { display: none; }
-  .route-secondary-group summary::after {
-    content: "+";
-    position: absolute;
-    right: 1rem;
-    margin-top: 0.05rem;
-    color: var(--accent);
+  .landing-v2-path-kicker,
+  .landing-v2-tile-status {
+    font-family: var(--mono);
+    font-size: 0.68rem;
     font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: var(--accent);
   }
-  .route-secondary-group[open] summary::after { content: "-"; }
-  .route-secondary-title {
-    font-weight: 700;
+  .landing-v2-path-panel h2 {
+    margin: 0;
     color: var(--ink);
-    padding-right: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.2;
   }
-  .route-secondary-desc {
+  .landing-v2-path-panel p {
+    margin: 0;
     color: var(--ink-soft);
     font-size: 0.82rem;
+    line-height: 1.45;
+  }
+  .landing-v2-path-button {
+    justify-self: start;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border-radius: 8px;
+    padding: 0.48rem 0.75rem;
+    color: var(--bg);
+    background: var(--ink);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  html[data-theme="dark"] .landing-v2-path-button {
+    color: #07100b;
+    background: var(--accent);
+  }
+  .landing-v2-route-strip {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.45rem;
+    margin-top: 1.2rem;
+  }
+  .landing-v2-route-chip {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.45rem;
+    align-items: center;
+    min-width: 0;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--ink);
+    text-decoration: none;
+    box-shadow: var(--shadow-card);
+  }
+  .landing-v2-route-chip:hover,
+  .landing-v2-route-chip:focus-visible {
+    border-color: var(--accent);
+    outline: none;
+  }
+  .landing-v2-chip-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.65rem;
+    height: 1.65rem;
+    border-radius: 8px;
+    background: var(--accent-lt);
+    color: var(--accent);
+    font-family: var(--mono);
+    font-weight: 800;
+    font-size: 0.72rem;
+  }
+  .landing-v2-chip-title {
+    display: block;
+    min-width: 0;
+    color: var(--ink);
+    font-size: 0.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+  .landing-v2-chip-meta {
+    display: block;
+    margin-top: 0.05rem;
+    color: var(--ink-muted);
+    font-size: 0.66rem;
+    line-height: 1.15;
+  }
+  .landing-v2-main {
+    display: grid;
+    gap: 1rem;
+    width: min(var(--content-max), calc(100vw - var(--sidebar-w) - 56px));
+    max-width: var(--content-max);
+    margin: 0 auto;
+    padding: 1.1rem 2rem 2rem;
+  }
+  .landing-v2-row {
+    display: grid;
+    grid-template-columns: minmax(150px, 190px) minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    padding: 1rem 0;
+    border-top: 1px solid var(--border);
+    scroll-margin-top: 1rem;
+  }
+  .landing-v2-row:first-child { border-top: 0; }
+  .landing-v2-row-label {
+    position: sticky;
+    top: 1rem;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.65rem;
+    align-items: start;
+  }
+  .landing-v2-row-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 8px;
+    color: var(--accent);
+    background: var(--accent-lt);
+    border: 1px solid color-mix(in oklab, var(--accent) 35%, var(--border));
+    font-family: var(--mono);
+    font-weight: 800;
+    font-size: 0.8rem;
+  }
+  .landing-v2-row-label h2 {
+    margin: 0;
+    color: var(--ink);
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  .landing-v2-row-label p {
+    margin: 0.25rem 0 0;
+    color: var(--ink-soft);
+    font-size: 0.78rem;
     line-height: 1.35;
-    padding-right: 2rem;
   }
-  .route-secondary-grid {
-    padding: 0 1rem 1rem;
+  .landing-v2-tile-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.85rem;
+    min-width: 0;
   }
-
-  @media (max-width: 640px) {
-    .resource-grid { grid-template-columns: 1fr; }
-    .route-secondary-group summary { padding-right: 0.85rem; }
+  .landing-v2-tile {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.8rem;
+    min-width: 0;
+    min-height: 178px;
+    padding: 0.95rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    border-top: 4px solid var(--accent);
+    background: var(--bg-card);
+    box-shadow: var(--shadow-card);
   }
-
-  /* Document viewer (docx/pptx) */
-  .viewer-panel {
-    display: none; position: fixed; inset: 0;
-    background: var(--bg); z-index: 50; flex-direction: column;
+  .landing-v2-tile-available:hover {
+    box-shadow: var(--shadow-lift);
+    transform: translateY(-1px);
   }
-  .viewer-panel.active { display: flex; }
-  .viewer-bar {
-    display: flex; align-items: center; gap: 0.75rem;
-    padding: 0.55rem 1rem;
-    background: var(--ink); color: #fff;
-    font-size: 0.85rem;
+  .landing-v2-tile-in-preparation,
+  .landing-v2-tile-not-scoped {
+    background: color-mix(in oklab, var(--bg-card) 72%, var(--bg-lift));
+    border-style: dashed;
   }
-  .viewer-title { flex: 1; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .viewer-download {
-    color: #fff; background: var(--accent);
-    padding: 0.28rem 0.75rem; border-radius: 4px;
-    text-decoration: none; font-size: 0.8rem;
+  .landing-v2-tile-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.35rem;
+    height: 2.35rem;
+    border-radius: 8px;
+    color: var(--accent);
+    background: var(--accent-lt);
+    flex-shrink: 0;
   }
-  .viewer-close {
-    background: transparent; border: 1px solid rgba(255,255,255,0.3); color: #fff;
-    padding: 0.28rem 0.75rem; border-radius: 4px;
-    cursor: pointer; font-size: 0.8rem;
+  .landing-v2-tile-icon svg {
+    width: 1.15rem;
+    height: 1.15rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
-  .viewer-frame { flex: 1; border: none; width: 100%; background: #fff; }
-</style>
+  .landing-v2-tile-body {
+    display: grid;
+    align-content: start;
+    min-width: 0;
+  }
+  .landing-v2-tile-body h3 {
+    margin: 0.25rem 0 0.25rem;
+    color: var(--ink);
+    font-size: 0.96rem;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+  .landing-v2-tile-body p {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.8rem;
+    line-height: 1.42;
+  }
+  .landing-v2-tile-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.75rem;
+  }
+  .landing-v2-tile-primary,
+  .landing-v2-tile-secondary,
+  .landing-v2-placeholder {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2rem;
+    border-radius: 8px;
+    padding: 0.36rem 0.65rem;
+    font-size: 0.76rem;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: 1.2;
+  }
+  .landing-v2-tile-primary {
+    color: var(--bg);
+    background: var(--ink);
+    border: 1px solid var(--ink);
+  }
+  html[data-theme="dark"] .landing-v2-tile-primary {
+    color: #07100b;
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+  .landing-v2-tile-secondary {
+    color: var(--accent);
+    background: var(--bg-lift);
+    border: 1px solid var(--border);
+  }
+  .landing-v2-tile-primary:hover,
+  .landing-v2-tile-secondary:hover,
+  .landing-v2-tile-primary:focus-visible,
+  .landing-v2-tile-secondary:focus-visible {
+    outline: 2px solid color-mix(in oklab, var(--accent) 55%, transparent);
+    outline-offset: 2px;
+  }
+  .landing-v2-placeholder {
+    justify-self: start;
+    margin-top: 0.75rem;
+    color: var(--ink-muted);
+    background: var(--bg-lift);
+    border: 1px dashed var(--border-lift);
+  }
+  .accent-economisch { --accent: var(--economisch); --accent-lt: var(--economisch-tint); }
+  .accent-wiskunde { --accent: var(--wiskundig); --accent-lt: var(--wiskundig-tint); }
+  .accent-grafisch { --accent: var(--grafisch); --accent-lt: var(--grafisch-tint); }
+  html[data-theme="dark"] .landing-v2-path-panel,
+  html[data-theme="dark"] .landing-v2-route-chip,
+  html[data-theme="dark"] .landing-v2-tile {
+    box-shadow: var(--shadow-card);
+  }
+  @media (max-width: 1100px) {
+    .landing-v2-route-strip {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .landing-v2-tile-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 860px) {
+    .landing-v2-hero-inner {
+      padding: 1rem 1.1rem 1.2rem;
+    }
+    .landing-v2-topbar {
+      padding-right: 0;
+      padding-top: 2.2rem;
+    }
+    .landing-v2-hero-grid {
+      grid-template-columns: 1fr;
+    }
+    .landing-v2-hero-copy h1 {
+      max-width: 100%;
+      font-size: 1.8rem;
+    }
+    .landing-v2-route-strip {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .landing-v2-main {
+      width: 100%;
+      padding: 0.8rem 1.1rem 1.5rem;
+    }
+    .landing-v2-row {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    .landing-v2-row-label {
+      position: static;
+    }
+  }
+  @media (max-width: 620px) {
+    .landing-v2-route-strip,
+    .landing-v2-tile-grid {
+      grid-template-columns: 1fr;
+    }
+    .landing-v2-tile {
+      min-height: 0;
+    }
+    .landing-v2-chip-title,
+    .landing-v2-tile-body h3 {
+      word-break: normal;
+      overflow-wrap: anywhere;
+    }
+  }</style>
 </head>
-<body data-layout="paragraaf-v2" data-accent-domain="wiskunde">
+<body data-layout="paragraph-landing-v2" data-accent-domain="wiskunde">
 
 <button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu openen">
   <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -248,293 +487,360 @@
 <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
 <div class="page-layout">
-  <nav class="sidebar" id="sidebar">
-    <div class="sidebar-header">
+  <nav class="sidebar" id="sidebar" aria-label="Paragraafroute">
+    <div class="landing-v2-sidebar-header">
       <h2>1.1.1 Schaarste en economisch denken</h2>
-      <p>Lesmateriaal</p>
+      <p>Lesroute</p>
     </div>
-    <div class="sidebar-jump">
-      <a href="../index.html">&larr; Hoofdstuk 1 – Economisch denken en rekenen</a><br>
+    <div class="landing-v2-sidebar-jump">
+      <a href="../index.html">Hoofdstuk 1 – Economisch denken en rekenen</a>
       <a href="../../index.html">Boek 1: Grondslagen, vraag en aanbod</a>
     </div>
-      <a class="nav-item domain-wiskunde" href="#start" data-section="start" data-route-layer="start">
-        <span class="nav-number">1</span>
-        <span class="nav-text">
-          <span class="nav-title">Start</span>
-          <span class="nav-badge">Orienteer en haal voorkennis op</span>
+    <div class="landing-v2-nav">
+      <a class="landing-v2-nav-item accent-wiskunde" href="#start" data-section="start">
+        <span class="landing-v2-nav-num">1</span>
+        <span>
+          <span class="landing-v2-nav-title">Start</span>
+          <span class="landing-v2-nav-meta">2/2 beschikbaar</span>
         </span>
       </a>
-      <a class="nav-item domain-grafisch" href="#leer" data-section="leer" data-route-layer="learn">
-        <span class="nav-number">2</span>
-        <span class="nav-text">
-          <span class="nav-title">Leer</span>
-          <span class="nav-badge">Leer de kernstappen</span>
+      <a class="landing-v2-nav-item accent-economisch" href="#skill-tree-games" data-section="skill-tree-games">
+        <span class="landing-v2-nav-num">2</span>
+        <span>
+          <span class="landing-v2-nav-title">Skill-tree games</span>
+          <span class="landing-v2-nav-meta">1/3 beschikbaar</span>
         </span>
       </a>
-      <a class="nav-item domain-economisch" href="#oefen" data-section="oefen" data-route-layer="practice">
-        <span class="nav-number">3</span>
-        <span class="nav-text">
-          <span class="nav-title">Oefen</span>
-          <span class="nav-badge">Kies steun of een oefenroute</span>
+      <a class="landing-v2-nav-item accent-grafisch" href="#leer" data-section="leer">
+        <span class="landing-v2-nav-num">3</span>
+        <span>
+          <span class="landing-v2-nav-title">Leer</span>
+          <span class="landing-v2-nav-meta">3/3 beschikbaar</span>
         </span>
       </a>
-      <a class="nav-item domain-wiskunde" href="#check" data-section="check" data-route-layer="check">
-        <span class="nav-number">4</span>
-        <span class="nav-text">
-          <span class="nav-title">Check</span>
-          <span class="nav-badge">Eerst oefenadvies, daarna eindcheck</span>
+      <a class="landing-v2-nav-item accent-economisch" href="#oefen" data-section="oefen">
+        <span class="landing-v2-nav-num">4</span>
+        <span>
+          <span class="landing-v2-nav-title">Oefen</span>
+          <span class="landing-v2-nav-meta">2/3 beschikbaar</span>
         </span>
       </a>
-      <a class="nav-item domain-grafisch" href="#verdiep" data-section="verdiep" data-route-layer="deepen">
-        <span class="nav-number">5</span>
-        <span class="nav-text">
-          <span class="nav-title">Verdiep</span>
-          <span class="nav-badge">Extra context, bronnen en downloads</span>
+      <a class="landing-v2-nav-item accent-wiskunde" href="#check" data-section="check">
+        <span class="landing-v2-nav-num">5</span>
+        <span>
+          <span class="landing-v2-nav-title">Check</span>
+          <span class="landing-v2-nav-meta">2/2 beschikbaar</span>
         </span>
       </a>
+      <a class="landing-v2-nav-item accent-grafisch" href="#open-verdiep" data-section="open-verdiep">
+        <span class="landing-v2-nav-num">6</span>
+        <span>
+          <span class="landing-v2-nav-title">Open &amp; verdiep</span>
+          <span class="landing-v2-nav-meta">3/3 beschikbaar</span>
+        </span>
+      </a>
+    </div>
   </nav>
 
   <div class="content">
-    <header class="hero">
-      <div class="hero-inner">
-        <a class="back-link" href="../index.html"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg> Hoofdstuk 1 – Economisch denken en rekenen</a>
-        <span class="hero-badge">Paragraaf 1.1.1</span>
-        <h1>Schaarste en economisch denken</h1>
-        <p class="hero-sub">Hoofdstuk 1 – Economisch denken en rekenen</p>
+    <header class="hero landing-v2-hero">
+      <div class="hero-inner landing-v2-hero-inner">
+        <div class="landing-v2-topbar">
+          <a class="back-link" href="../index.html"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>Hoofdstuk 1 – Economisch denken en rekenen</a>
+          <span>Boek 1: Grondslagen, vraag en aanbod</span>
+        </div>
+        <div class="landing-v2-hero-grid">
+          <div class="landing-v2-hero-copy">
+            <span class="hero-badge">Paragraaf 1.1.1</span>
+            <h1>Schaarste en economisch denken</h1>
+            <p class="hero-sub">Start bij wat je al weet, kies de juiste oefenroute, en sluit af met checkmateriaal zodra dat klaarstaat.</p>
+          </div>
+          <aside class="landing-v2-path-panel" aria-label="Leerpad">
+            <span class="landing-v2-path-kicker">Leerpad</span>
+            <h2>Instapquiz voorkennis</h2>
+            <p>Check snel wat je al weet voordat je begint.</p>
+            <a class="landing-v2-path-button" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20instapquiz.html">Start quiz &rarr;</a>
+          </aside>
+        </div>
+        <nav class="landing-v2-route-strip" aria-label="Route stappen">
+        <a class="landing-v2-route-chip accent-wiskunde" href="#start" data-section="start">
+          <span class="landing-v2-chip-num">1</span>
+          <span>
+            <span class="landing-v2-chip-title">Start</span>
+            <span class="landing-v2-chip-meta">2/2 beschikbaar</span>
+          </span>
+        </a>
+        <a class="landing-v2-route-chip accent-economisch" href="#skill-tree-games" data-section="skill-tree-games">
+          <span class="landing-v2-chip-num">2</span>
+          <span>
+            <span class="landing-v2-chip-title">Skill-tree games</span>
+            <span class="landing-v2-chip-meta">1/3 beschikbaar</span>
+          </span>
+        </a>
+        <a class="landing-v2-route-chip accent-grafisch" href="#leer" data-section="leer">
+          <span class="landing-v2-chip-num">3</span>
+          <span>
+            <span class="landing-v2-chip-title">Leer</span>
+            <span class="landing-v2-chip-meta">3/3 beschikbaar</span>
+          </span>
+        </a>
+        <a class="landing-v2-route-chip accent-economisch" href="#oefen" data-section="oefen">
+          <span class="landing-v2-chip-num">4</span>
+          <span>
+            <span class="landing-v2-chip-title">Oefen</span>
+            <span class="landing-v2-chip-meta">2/3 beschikbaar</span>
+          </span>
+        </a>
+        <a class="landing-v2-route-chip accent-wiskunde" href="#check" data-section="check">
+          <span class="landing-v2-chip-num">5</span>
+          <span>
+            <span class="landing-v2-chip-title">Check</span>
+            <span class="landing-v2-chip-meta">2/2 beschikbaar</span>
+          </span>
+        </a>
+        <a class="landing-v2-route-chip accent-grafisch" href="#open-verdiep" data-section="open-verdiep">
+          <span class="landing-v2-chip-num">6</span>
+          <span>
+            <span class="landing-v2-chip-title">Open &amp; verdiep</span>
+            <span class="landing-v2-chip-meta">3/3 beschikbaar</span>
+          </span>
+        </a>
+        </nav>
       </div>
     </header>
 
-    <main>
-      <section class="section route-section" id="start" data-route-layer="start">
-        <div class="section-header border-wiskunde">
-          <span class="section-num bg-wiskunde">1</span>
-          <div class="section-title-group">
-            <div class="section-title">Start</div>
-            <span class="section-badge badge-wiskunde">Orienteer en haal voorkennis op</span>
+    <main class="landing-v2-main">
+
+      <section class="landing-v2-row" id="start" data-route-layer="start" data-row-ready="2" data-row-total="2">
+        <div class="landing-v2-row-label accent-wiskunde">
+          <span class="landing-v2-row-num">1</span>
+          <div>
+            <h2>Start</h2>
+            <p>Begin met voorkennis en context.</p>
           </div>
         </div>
-<div class="resource-grid">
-        <a class="resource-card " href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20instapquiz.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><circle cx="12" cy="17" r="0.5" fill="currentColor" stroke="none"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Instapquiz</h3>
-            <p>Check snel wat je al weet</p>
-          </div>
-        </a>
+        <div class="landing-v2-tile-grid">
 
-        <a class="resource-card " href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20uitleg%20voorkennis.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Voorkennis</h3>
-            <p>Herhaal wat je nodig hebt voor deze les</p>
+        <article class="landing-v2-tile landing-v2-tile-available accent-wiskunde" data-tile-id="instapquiz" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><circle cx="12" cy="17" r="0.5" fill="currentColor" stroke="none"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>Instapquiz voorkennis</h3>
+            <p>Check snel wat je al weet voordat je begint.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20instapquiz.html">Start quiz</a></div>
           </div>
-        </a>
+        </article>
+
+        <article class="landing-v2-tile landing-v2-tile-available accent-wiskunde" data-tile-id="nieuwsdetective" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>Nieuws-detective</h3>
+            <p>Verken de economische situatie achter een herkenbaar nieuwsvoorbeeld.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20nieuws-detective.html">Open detective</a></div>
+          </div>
+        </article>
         </div>
       </section>
 
-      <section class="section route-section" id="leer" data-route-layer="learn">
-        <div class="section-header border-grafisch">
-          <span class="section-num bg-grafisch">2</span>
-          <div class="section-title-group">
-            <div class="section-title">Leer</div>
-            <span class="section-badge badge-grafisch">Leer de kernstappen</span>
+      <section class="landing-v2-row" id="skill-tree-games" data-route-layer="skill-tree-games" data-row-ready="1" data-row-total="3">
+        <div class="landing-v2-row-label accent-economisch">
+          <span class="landing-v2-row-num">2</span>
+          <div>
+            <h2>Skill-tree games</h2>
+            <p>Train de drie vaardigheidsroutes.</p>
           </div>
         </div>
-<div class="resource-grid">
-        <a class="resource-card " href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20uitleg%20vaardigheden.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Uitleg vaardigheden</h3>
-            <p>Leer de kernstappen met voorbeelden</p>
-          </div>
-        </a>
-        </div>
-      </section>
+        <div class="landing-v2-tile-grid">
 
-      <section class="section route-section" id="oefen" data-route-layer="practice">
-        <div class="section-header border-economisch">
-          <span class="section-num bg-economisch">3</span>
-          <div class="section-title-group">
-            <div class="section-title">Oefen</div>
-            <span class="section-badge badge-economisch">Kies steun of een oefenroute</span>
-          </div>
-        </div>
-
-        <div class="learning-aspect-block">
-          <div class="learning-aspect-copy">
-            <span class="resource-aspect-label">Oefenroutes</span>
-            <h3>Kies wat je wilt trainen</h3>
-            <p>Kies een oefenroute voor redeneren.</p>
-          </div>
-          <div class="resource-grid learning-aspect-grid">
-        <a class="resource-card resource-card-interactive resource-card-aspect aspect-economisch" data-learning-aspect="reasoning" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20redeneer-spel.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44A2.5 2.5 0 0 1 2 17.5v-1A2.5 2.5 0 0 1 6.44 14H12" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44A2.5 2.5 0 0 0 22 17.5v-1a2.5 2.5 0 0 0-4.44-2.5H12" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label badge-economisch">Redeneren</span>
+        <article class="landing-v2-tile landing-v2-tile-available accent-economisch" data-tile-id="redeneren" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44A2.5 2.5 0 0 1 2 17.5v-1A2.5 2.5 0 0 1 6.44 14H12" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44A2.5 2.5 0 0 0 22 17.5v-1a2.5 2.5 0 0 0-4.44-2.5H12" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
             <h3>Redeneren</h3>
             <p>Leg oorzaken, gevolgen en keuzes stap voor stap uit.</p>
-            <span class="resource-card-action">Oefenen &rarr;</span>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20redeneer-spel.html">Oefen redeneren</a></div>
           </div>
-        </a>
-          </div>
-        </div>
+        </article>
 
-        <div class="guided-practice-block">
-          <div class="learning-aspect-copy">
-            <span class="resource-aspect-label">Eerst steun nodig?</span>
-            <h3>Stap voor stap oefenen</h3>
-            <p>Gebruik extra steun voordat je zelfstandig oefent.</p>
+        <article class="landing-v2-tile landing-v2-tile-in-preparation accent-economisch" data-tile-id="rekenen" data-tile-state="in-preparation">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 17l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 12l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">In voorbereiding</span>
+            <h3>Rekenen</h3>
+            <p>Train de berekeningen die je in deze paragraaf gebruikt.</p>
+            <div class="landing-v2-placeholder">In voorbereiding</div>
           </div>
-          <div class="resource-grid">
-        <a class="resource-card " href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20stappenplan.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22"/><polyline points="8 6 12 2 16 6"/><circle cx="12" cy="8" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="14" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="20" r="2" fill="currentColor" stroke="none"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Rekenstappen</h3>
-            <p>Gebruik extra steun om de procedure stap voor stap te oefenen</p>
-          </div>
-        </a>
+        </article>
 
-        <div class="resource-card resource-card-interactive">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label">Begeleid oefenen</span>
-            <h3>Begeleide inoefening</h3>
-            <p>Oefenen met denkstappen en hints</p>
-            <div class="resource-sub-links"><a class="resource-sub-link" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20begeleide%20inoefening.html">Interactief</a></div>
+        <article class="landing-v2-tile landing-v2-tile-in-preparation accent-economisch" data-tile-id="grafieken" data-tile-state="in-preparation">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="4" y1="19" x2="20" y2="19"/><line x1="4" y1="19" x2="4" y2="5"/><polyline points="6 15 10 11 13 13 18 7"/><circle cx="10" cy="11" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="7" r="1" fill="currentColor" stroke="none"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">In voorbereiding</span>
+            <h3>Grafieken</h3>
+            <p>Lees waarden uit grafieken en reken ermee door.</p>
+            <div class="landing-v2-placeholder">In voorbereiding</div>
           </div>
-        </div>
-          </div>
+        </article>
         </div>
       </section>
 
-      <section class="section route-section" id="check" data-route-layer="check">
-        <div class="section-header border-wiskunde">
-          <span class="section-num bg-wiskunde">4</span>
-          <div class="section-title-group">
-            <div class="section-title">Check</div>
-            <span class="section-badge badge-wiskunde">Eerst oefenadvies, daarna eindcheck</span>
+      <section class="landing-v2-row" id="leer" data-route-layer="leer" data-row-ready="3" data-row-total="3">
+        <div class="landing-v2-row-label accent-grafisch">
+          <span class="landing-v2-row-num">3</span>
+          <div>
+            <h2>Leer</h2>
+            <p>Pak de uitleg en het leerpad erbij.</p>
           </div>
         </div>
-<div class="resource-grid">
-        <a class="resource-card resource-card-check resource-card-check-short" data-check-route="advisory" data-check-purpose="local-practice-advice" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20korte-check.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label check-card-kind">advies</span>
+        <div class="landing-v2-tile-grid">
+
+        <article class="landing-v2-tile landing-v2-tile-available accent-grafisch" data-tile-id="uitleg-vaardigheden" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>Uitleg vaardigheden</h3>
+            <p>Leer de kernstappen met voorbeelden en dezelfde aanpak als in de oefeningen.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20uitleg%20vaardigheden.html">Open uitleg</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20uitleg%20voorkennis.html">Voorkennis</a></div>
+          </div>
+        </article>
+
+        <article class="landing-v2-tile landing-v2-tile-available accent-grafisch" data-tile-id="presentatie" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>PowerPoint-presentatie</h3>
+            <p>Gebruik de presentatie om de hoofdlijn en voorbeelden terug te zien.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20presentatie.html">Open presentatie</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20presentatie.pptx" download>PowerPoint</a></div>
+          </div>
+        </article>
+
+        <article class="landing-v2-tile landing-v2-tile-available accent-grafisch" data-tile-id="skill-engine" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22"/><polyline points="8 6 12 2 16 6"/><circle cx="12" cy="8" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="14" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="20" r="2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>Skill engine / leerpad</h3>
+            <p>Bekijk de lokale route en de relevante vaardigheden zonder interne codes.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20wiskundevaardigheden.html">Open leerpad</a></div>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <section class="landing-v2-row" id="oefen" data-route-layer="oefen" data-row-ready="2" data-row-total="3">
+        <div class="landing-v2-row-label accent-economisch">
+          <span class="landing-v2-row-num">4</span>
+          <div>
+            <h2>Oefen</h2>
+            <p>Oefen met steun, zelfstandig, of met lokaal advies.</p>
+          </div>
+        </div>
+        <div class="landing-v2-tile-grid">
+
+        <article class="landing-v2-tile landing-v2-tile-available accent-economisch" data-tile-id="begeleide-oefeningen" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>Begeleide oefeningen</h3>
+            <p>Werk stap voor stap met hints en denkstappen.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20begeleide%20inoefening.html">Open begeleiding</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20stappenplan.html">Stappenplan</a></div>
+          </div>
+        </article>
+
+        <article class="landing-v2-tile landing-v2-tile-available accent-economisch" data-tile-id="zelfstandige-oefeningen" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>Zelfstandige oefeningen</h3>
+            <p>Maak de opgaven zelfstandig en controleer daarna je aanpak.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20opgaven.html">Open opgaven</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20antwoorden.html">Antwoorden</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20opgaven.pdf" download>Opgaven PDF</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20antwoorden.pdf" download>Antwoorden PDF</a></div>
+          </div>
+        </article>
+
+        <article class="landing-v2-tile landing-v2-tile-in-preparation accent-economisch" data-tile-id="adaptieve-oefenroute" data-tile-state="in-preparation">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 17l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 12l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">In voorbereiding</span>
+            <h3>Adaptieve oefenroute</h3>
+            <p>Lokaal advies voor de voorgestelde volgende oefening komt hier.</p>
+            <div class="landing-v2-placeholder">In voorbereiding</div>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <section class="landing-v2-row" id="check" data-route-layer="check" data-row-ready="2" data-row-total="2">
+        <div class="landing-v2-row-label accent-wiskunde">
+          <span class="landing-v2-row-num">5</span>
+          <div>
+            <h2>Check</h2>
+            <p>Eerst lokaal advies, daarna de eindcheck.</p>
+          </div>
+        </div>
+        <div class="landing-v2-tile-grid">
+
+        <article class="landing-v2-tile landing-v2-tile-available accent-wiskunde" data-tile-id="korte-check" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
             <h3>Korte check</h3>
-            <p class="resource-card-purpose">Krijg lokaal oefenadvies. Je ziet welke stap nu handig is; dit is geen eindcheck.</p>
-            <span class="resource-card-action">Krijg oefenadvies &rarr;</span>
+            <p>Krijg lokaal oefenadvies. Dit is geen eindcheck en geen cijfer.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20korte-check.html">Open korte check</a></div>
           </div>
-        </a>
+        </article>
 
-        <a class="resource-card resource-card-check resource-card-check-exit" data-check-route="exit-ticket" data-check-purpose="end-check" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20exit-ticket.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label check-card-kind">eindcheck</span>
+        <article class="landing-v2-tile landing-v2-tile-available accent-wiskunde" data-tile-id="exit-ticket" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
             <h3>Exit ticket</h3>
-            <p class="resource-card-purpose">Maak de eindcheck met dezelfde soort denkstappen als de eindopgave.</p>
-            <span class="resource-card-action">Maak eindcheck &rarr;</span>
+            <p>Maak de eindcheck met dezelfde soort denkstappen als de paragraafopgave.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20exit-ticket.html">Open exit ticket</a></div>
           </div>
-        </a>
+        </article>
         </div>
       </section>
 
-      <section class="section route-section" id="verdiep" data-route-layer="deepen">
-        <div class="section-header border-grafisch">
-          <span class="section-num bg-grafisch">5</span>
-          <div class="section-title-group">
-            <div class="section-title">Verdiep</div>
-            <span class="section-badge badge-grafisch">Extra context, bronnen en downloads</span>
+      <section class="landing-v2-row" id="open-verdiep" data-route-layer="open-verdiep" data-row-ready="3" data-row-total="3">
+        <div class="landing-v2-row-label accent-grafisch">
+          <span class="landing-v2-row-num">6</span>
+          <div>
+            <h2>Open &amp; verdiep</h2>
+            <p>Open het lesboek, antwoorden en extra materiaal.</p>
           </div>
         </div>
+        <div class="landing-v2-tile-grid">
 
-        <details class="route-secondary-group" data-route-secondary="deepen">
-          <summary>
-            <span class="route-secondary-title">Verdiep je begrip</span>
-            <span class="route-secondary-desc">Samenvatting, context en extra uitleg</span>
-          </summary>
-          <div class="resource-grid route-secondary-grid">
-        <a class="resource-card " href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20samenvatting.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Samenvatting</h3>
-            <p>Overzicht van deze paragraaf</p>
+        <article class="landing-v2-tile landing-v2-tile-available accent-grafisch" data-tile-id="lesboek-openen" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>Lesboek openen</h3>
+            <p>Lees de volledige paragraaf in de webversie.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20paragraaf.html">Open lesboek</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20paragraaf.pdf" download>PDF</a></div>
           </div>
-        </a>
+        </article>
 
-        <a class="resource-card " href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20nieuws%20met%20visual.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2V9"/><line x1="10" y1="8" x2="18" y2="8"/><line x1="10" y1="12" x2="18" y2="12"/><line x1="10" y1="16" x2="14" y2="16"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Nieuws met visual</h3>
-            <p>Context en grafiek bij de stof</p>
+        <article class="landing-v2-tile landing-v2-tile-available accent-grafisch" data-tile-id="opgaven-antwoorden" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>Opgaven &amp; antwoorden</h3>
+            <p>Open de opgaven en de uitwerkingen bij deze paragraaf.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20opgaven.html">Open opgaven</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20antwoorden.html">Antwoorden</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20opgaven.pdf" download>Opgaven PDF</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20antwoorden.pdf" download>Antwoorden PDF</a></div>
           </div>
-        </a>
+        </article>
 
-        <a class="resource-card " href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20nieuws-detective.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Nieuws-detective</h3>
-            <p>Ontdek de economie achter het nieuws</p>
+        <article class="landing-v2-tile landing-v2-tile-available accent-grafisch" data-tile-id="aanvullend-materiaal" data-tile-state="available">
+          <div class="landing-v2-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2V9"/><line x1="10" y1="8" x2="18" y2="8"/><line x1="10" y1="12" x2="18" y2="12"/><line x1="10" y1="16" x2="14" y2="16"/></svg></div>
+          <div class="landing-v2-tile-body">
+            <span class="landing-v2-tile-status">Beschikbaar</span>
+            <h3>Aanvullend materiaal</h3>
+            <p>Gebruik samenvatting, context en video wanneer je extra steun wilt.</p>
+            <div class="landing-v2-tile-actions"><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20samenvatting.html">Samenvatting</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20nieuws%20met%20visual.html">Nieuws met visual</a><a class="landing-v2-tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20youtube-videos.html">YouTube</a></div>
           </div>
-        </a>
-
-        <a class="resource-card " href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20youtube-videos.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
-          <div class="resource-card-body">
-            <h3>YouTube-video's</h3>
-            <p>Video-uitleg bij de stof</p>
-          </div>
-        </a>
-
-        <a class="resource-card " href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20wiskundevaardigheden.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 17l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 12l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Brede vaardigheidskaart</h3>
-            <p>Extra overzicht; niet de start van deze oefenroute</p>
-          </div>
-        </a>
-          </div>
-        </details>
-
-        <details class="route-secondary-group" data-route-secondary="sources">
-          <summary>
-            <span class="route-secondary-title">Lesboek en downloads</span>
-            <span class="route-secondary-desc">Bronnen, presentatie en lesboek</span>
-          </summary>
-          <div class="resource-grid route-secondary-grid">
-        <div class="resource-card resource-card-with-source">
-          <a class="resource-card-cover-link" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20presentatie.html" aria-label="Presentatie (web)"></a>
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Presentatie</h3>
-            <p>De les-presentatie en PowerPoint</p>
-            <div class="resource-sub-links">
-              <a class="resource-sub-link" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20presentatie.pptx" download>&darr; Download als PowerPoint</a>
-            </div>
-          </div>
+        </article>
         </div>
-
-        <div class="resource-card resource-card-with-source">
-          <a class="resource-card-cover-link" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20paragraaf.html" aria-label="Lesboek – uitleg (web)"></a>
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Lesboek – uitleg</h3>
-            <p>De volledige paragraaf uit het lesboek</p>
-            <div class="resource-sub-links">
-              <a class="resource-sub-link" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20paragraaf.pdf" download>&darr; Download als PDF</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="resource-card resource-card-pair">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Lesboek – opgaven & antwoorden</h3>
-            <p>De opgaven en uitwerkingen uit het lesboek</p>
-            <div class="resource-sub-links"><a class="resource-sub-link" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20opgaven.html">Opgaven</a><a class="resource-sub-link" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20antwoorden.html">Antwoorden</a><a class="resource-sub-link" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20opgaven.pdf" download>&darr; Opgaven (PDF)</a><a class="resource-sub-link" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20antwoorden.pdf" download>&darr; Antwoorden (PDF)</a></div>
-          </div>
-        </div>
-          </div>
-        </details>
       </section>
     </main>
   </div>
@@ -543,7 +849,7 @@
 <div class="viewer-panel" id="viewerPanel">
   <div class="viewer-bar">
     <span class="viewer-title" id="viewerTitle"></span>
-    <a class="viewer-download" id="viewerDownload" href="#" download>Download</a>
+    <a class="viewer-download" id="viewerDownload" download>Download</a>
     <button class="viewer-close" onclick="closeViewer()">Sluiten &times;</button>
   </div>
   <iframe id="viewerFrame" class="viewer-frame" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>

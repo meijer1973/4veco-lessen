@@ -28,6 +28,12 @@ student-facing route and completeness definition.
 
 ## Change Notes
 
+- 2026-06-11: added `specifications/paragraph-landing-layout-v2.md` as the
+  canonical operational paragraph landing route contract after human direction
+  in LANDING-V2-PARAGRAPH-ROUTE-REPLACEMENT. Affected surface: generated
+  paragraph landing pages and product-proof review evidence. Consequence:
+  future paragraph landing work must follow V2 and must not revive or extend
+  the old paragraph landing structure without human review.
 - 2026-06-06: added the strategic vision relationship after VISION-1 created
   `specifications/product-vision.md` as the canonical strategic product
   vision. Affected surface: specification authority and agent trade-off
@@ -165,6 +171,12 @@ required by the official correction model.
 
 The student route must be visible as one operational interface, not as separate
 engines that only share data behind the scenes.
+
+The operational paragraph landing-page route is specified by
+`specifications/paragraph-landing-layout-v2.md`. That V2 contract is the
+canonical generated paragraph landing baseline: it replaces the old paragraph
+landing structure, requires the six-row route model, and requires visible
+placeholders for missing future surfaces instead of silent dead route items.
 
 At full maturity, companion interaction is organized around:
 
@@ -411,8 +423,8 @@ complete when all of the following are true:
 - task design records when text-only is acceptable, when dual coding is
   recommended, and when visual, graph/table, or flow-diagram interaction is
   required;
-- the landing page exposes a coherent route:
-  `Start -> Leer -> Oefen -> Check -> Verdiep`;
+- the landing page exposes the coherent V2 paragraph route specified in
+  `specifications/paragraph-landing-layout-v2.md`;
 - practice and checkpoint surfaces show the relevant skill route, current task
   purpose, useful feedback, and next action without internal codes;
 - graph/table, calculation, constructed-response, and checkpoint interactions
