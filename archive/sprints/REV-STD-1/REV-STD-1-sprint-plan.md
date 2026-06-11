@@ -1,7 +1,8 @@
 # REV-STD-1 Sprint Plan
 
 Date: 2026-05-26
-Status: PLANNED; REQUIRED BEFORE SCALE GATE 1; NOT STARTED
+Updated: 2026-06-10
+Status: CLOSED PASS WITH FLAGS / REVIEW-STANDARD HARDENING ONLY
 
 ## Sprint Name
 
@@ -33,6 +34,7 @@ roadmap must name the sprint that restores the full specified product.
 
 ## Read-First Evidence
 
+- `specifications/product-end-state.md`
 - `specifications/companion-core-specifications.md`
 - `lessen-team-roadmap.md`
 - `archive/sprints/L1.7C/L1.7C-human-review-packet.md`
@@ -50,14 +52,17 @@ roadmap must name the sprint that restores the full specified product.
 
 ## Required Work
 
-1. Define three flag levels:
+1. Define five finding classifications:
+   - `core_requirement_met`;
+   - `quality_improvement_available`;
    - `minor_carry_flag`;
    - `scale_blocker`;
    - `core_spec_failure`.
 2. Update review-packet templates or packet instructions so every review
    includes:
+   - `specifications/product-end-state.md`;
    - original sprint specification, including the relevant section of
-     `specifications/companion-core-specifications.md`;
+      `specifications/companion-core-specifications.md`;
    - non-negotiable requirements;
    - student-facing product role;
    - evidence inspected;
@@ -126,20 +131,20 @@ decision.
   in future review packets;
 - updated review-packet template/instructions, if such a platform-owned or
   lesson-owned template exists;
-- `archive/sprints/REV-STD-1/REV-STD-1-technical-qa-report.md`
-- `archive/sprints/REV-STD-1/REV-STD-1-human-review-packet.md`
-- review records and closure log if the sprint reaches review.
+- platform `reports/sprints/REV-STD-1-flag-disposition.md`
+- platform `reports/sprints/REV-STD-1-flag-disposition.json`
+- platform `build-scripts/sprints/check-rev-std1-flag-disposition.js`
 
 ## Acceptance Criteria
 
 - Future review packets separate core specification from optional improvement.
-- Future review packets cite `specifications/companion-core-specifications.md`
-  where relevant.
+- Future review packets cite `specifications/product-end-state.md` and
+  `specifications/companion-core-specifications.md` where relevant.
 - PASS WITH FLAGS cannot hide core failure.
 - Scale Gate 1 has an explicit inherited-flag table.
 - Review agents are instructed to compare output against the original
-  specification, not only the current MVP framing.
-- The standard explicitly distinguishes pilot scope from specification drift.
+  specification, not only the current narrowed framing.
+- The standard explicitly distinguishes bounded scope from specification drift.
 
 ## Stop Conditions
 

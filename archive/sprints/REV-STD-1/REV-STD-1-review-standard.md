@@ -1,116 +1,150 @@
-# REV-STD-1 Review Standard Draft
+# REV-STD-1 Review Standard
 
-Date: 2026-05-26
-Status: DRAFT; TO BE REVIEWED IN REV-STD-1
+Date: 2026-06-10
+Status: IMPLEMENTED; REQUIRED FOR FUTURE LEAD REVIEW AND REVIEW PACKETS
 
 ## Core Rule
 
-A controlled pilot may carry limitations, but it may not carry a broken version
-of the original specification. If a sprint ships a narrower product than the
-original assignment, the roadmap must name how the team will reach the actual
-product.
+A review may carry limitations, but it may not carry a broken version of the
+original specification as an ordinary flag. If a sprint ships narrower behavior
+than the original assignment, the roadmap must name the later sprint or gate
+that restores the specified product, or the human waiver must state the
+consequence.
 
-`Pilot` and `MVP` describe scope. They do not excuse missing non-negotiable
-requirements.
+`PASS WITH FLAGS` is allowed only when every non-negotiable requirement in the
+sprint's core objective is met and the remaining flags sit outside that core
+objective.
 
-The stable companion baseline is
-`specifications/companion-core-specifications.md`. Review packets must cite the
-relevant section of that file when reviewing companion game rows, skill maps,
-exit tickets, landing routes, or scale gates. If a roadmap or sprint plan
-conflicts with the stable specification, the conflict must be named explicitly.
+## Required Baselines
 
-## Flag Levels
+Every review packet that touches companion adoption, first-three product proof,
+review gates, or Scale Gate 1 must cite:
+
+- `specifications/product-end-state.md`;
+- the original sprint or gate specification;
+- the relevant stable companion specification section from
+  `specifications/companion-core-specifications.md`;
+- non-negotiable requirements;
+- student-facing product role;
+- implementation scope and deliberately unbuilt scope;
+- evidence inspected;
+- a core-requirement checklist.
+
+If the current roadmap framing conflicts with `product-end-state.md` or the
+original sprint/gate specification, the conflict is a review finding. It cannot
+be hidden by the current narrowed framing.
+
+## Finding Classifications
+
+`core_requirement_met`
+
+The required item is proven by cited evidence.
+
+`quality_improvement_available`
+
+The requirement is met, but a named improvement would raise quality. It blocks
+no current claim or authority unless the review explicitly says otherwise.
 
 `minor_carry_flag`
 
-An issue outside the sprint's core objective. It may remain after closure if it
-is named, low-risk, and assigned to a later route.
+The issue is outside the sprint's core objective. It may remain after closure
+only when named, owned, and routed to a later action.
 
 `scale_blocker`
 
-An issue that may allow controlled pilot closure but blocks scale reliance. It
-must be visible to the next gate and cannot be ignored by Scale Gate 1.
+The issue may allow the current bounded objective to close, but blocks a named
+later claim or authority such as product-route adoption, target-equivalent
+reliance, Scale Gate 1, product use, or broad scaling.
 
 `core_spec_failure`
 
-An issue that means the sprint did not meet its stated specification. It must
-return REVISE, FAIL, or PAUSE.
+The sprint did not meet a required part of its original specification. It must
+return REVISE, FAIL, or PAUSE. It cannot be carried in PASS WITH FLAGS.
+
+## Finding Fields
+
+Every finding or carried flag must state:
+
+- source;
+- classification;
+- what it blocks;
+- what it does not block;
+- proof required to close;
+- owner or next route.
 
 ## Verdict Rules
 
 PASS:
 
-All core requirements are met. Remaining issues are cosmetic or clearly outside
-scope.
+All core requirements are met. Remaining notes are either
+`core_requirement_met` evidence or `quality_improvement_available` items that
+block no claim.
 
 PASS WITH FLAGS:
 
 Allowed only when:
 
-- the product meets the sprint's core specification;
+- all non-negotiable requirements are met;
+- no `core_spec_failure` remains;
 - flags are explicitly named;
-- flags do not affect the student's primary route;
-- flags do not affect source-of-truth metadata;
-- flags do not affect target-exercise readiness;
-- flags do not affect scale authorization.
+- each flag states blocks / does-not-block / proof-to-close;
+- every carried flag is outside the sprint's core objective.
 
 REVISE:
 
-Required when:
-
-- the primary student route is wrong;
-- the product implements a weaker product than specified;
-- a core game/exit-ticket requirement is missing;
-- review depends on pilot/MVP language to excuse failure of the original
-  objective.
+Required when the primary student route is wrong, the product implements a
+weaker product than specified, a required game/check/exit-ticket behavior is
+missing, or review depends on narrowed scope language to excuse failure of the
+original objective.
 
 FAIL:
 
-Required when:
-
-- student-facing output is misleading;
-- product implies mastery, diagnosis, or grading without authorization;
-- generated output was hand-patched;
-- source-of-truth metadata is invalid and visible or used for claims.
+Required when student-facing output is misleading, product implies mastery,
+diagnosis, grading, or sequencing without authorization, generated output was
+hand-patched, or source-of-truth metadata is invalid and used for claims.
 
 PAUSE:
 
-Required when:
+Required when the platform cannot support the requested product safely, the
+team cannot determine the source of truth, or a fix requires a platform
+architecture decision before responsible continuation.
 
-- the platform cannot support the requested product safely;
-- the team cannot determine the source of truth;
-- a fix requires a platform architecture decision.
+## Lead-Review Output Requirement
 
-## Required Review Packet Fields
+Lead review must include a `Finding Classification` section with this table:
 
-Every future review packet should include:
+| Finding | Classification | Blocks | Does not block | Proof required to close |
+|---|---|---|---|---|
 
-- original sprint specification;
-- relevant stable specification section from
-  `specifications/companion-core-specifications.md`;
+For `PASS WITH FLAGS`, the result JSON must also include `lead_review.findings`
+and any `lead_review.flags`, using the same classification vocabulary.
+
+## Review Packet Requirement
+
+Review packets must include:
+
+- product-end-state baseline citation;
+- original sprint or gate specification;
 - non-negotiable requirements;
-- student-facing product role;
-- implementation scope and what was deliberately not built;
-- evidence inspected;
 - core-requirement checklist;
-- flag table with level, source sprint, consequence, and next action;
-- explicit distinction between pilot, controlled production, and scale-ready.
-
-## Lead Review Rules
-
-- PASS WITH FLAGS is forbidden if any non-negotiable requirement fails.
-- A flag carried across two consecutive sprints becomes a gate question.
-- A carried scale blocker cannot be ignored by the next scale gate.
-- Technical QA cannot substitute for teacher-learning-quality review.
-- If a sprint is reframed as an MVP/pilot during implementation, the review
-  must confirm whether the reframed product still meets the original
-  specification or name the follow-up sprint that will restore it.
+- evidence inspected;
+- finding classification instructions;
+- stop conditions for missing core evidence;
+- explicit product-boundary statement.
 
 ## Flag Budget
 
 - Default maximum: three carried flags per sprint.
 - More than three carried flags requires a PAUSE check or explicit lead-review
   explanation.
-- Any flag touching the primary student route, target-exercise readiness,
-  source-of-truth metadata, or scale authorization is at least a
-  `scale_blocker`.
+- Any flag touching the primary student route, target-equivalent reliance,
+  source-of-truth metadata, product-route adoption, or scale authorization is
+  at least a `scale_blocker`.
+
+## Scale Gate Rule
+
+Scale Gate 1 may not close while unresolved `core_spec_failure` findings remain
+unless a human waiver explicitly records the waived requirement and the
+consequence. Scale Gate 1 may inherit `scale_blocker` findings only when each
+one says exactly what claim remains blocked and what proof is required to close
+it.

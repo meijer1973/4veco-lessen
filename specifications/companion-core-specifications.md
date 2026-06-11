@@ -526,15 +526,28 @@ first student decision.
 
 ## Review Specification
 
-Review packets must compare output against the original specification, not only
-against the current roadmap framing.
+Review packets must compare output against `product-end-state.md`, the
+original sprint or gate specification, and the current roadmap framing in that
+order. A packet that affects companion adoption, review gates, or Scale Gate 1
+must include:
 
-Flag levels:
+- `specifications/product-end-state.md` as an acceptance baseline;
+- the original sprint or gate specification;
+- non-negotiable requirements;
+- a core-requirement checklist;
+- evidence inspected;
+- finding classifications with blocks, does-not-block, and proof-to-close
+  fields.
 
+Finding classifications:
+
+- `core_requirement_met`: the required item is proven by inspected evidence.
+- `quality_improvement_available`: improvement exists, but the core
+  requirement is met and no claim or authority is blocked.
 - `minor_carry_flag`: outside the sprint core objective; may remain after
-  closure.
-- `scale_blocker`: may allow bounded-scope closure but blocks scale
-  reliance.
+  closure when named and routed.
+- `scale_blocker`: may allow bounded closure but blocks named scale reliance,
+  product-route adoption, target-equivalent claims, or later gate authority.
 - `core_spec_failure`: must return REVISE, FAIL, or PAUSE.
 
 Verdicts:
@@ -552,6 +565,10 @@ Verdicts:
 Scale Gate 1 may not close while an unresolved `core_spec_failure` remains
 unless a human decision explicitly waives the specification with stated
 consequences.
+
+PASS WITH FLAGS must not carry missing non-negotiable requirements. Every
+carried flag must state exactly what it blocks, what it does not block, and the
+proof required to close it.
 
 ## Dual-Coding Task Policy
 
@@ -579,5 +596,6 @@ check, target-equivalent exit ticket, feedback, and next action.
 
 `GATE-PRODUCT-3P` must reject missing core product requirements rather than
 carrying them as ordinary flags. Engine architecture, route data, advisory
-short checks, and the reviewed local `1.1.2` completion copy do not by
-themselves prove broad scale readiness.
+short checks, the historical exact local `1.1.2` completion copy, and held
+Golden Workbench transfer candidates do not by themselves prove broad scale
+readiness.
