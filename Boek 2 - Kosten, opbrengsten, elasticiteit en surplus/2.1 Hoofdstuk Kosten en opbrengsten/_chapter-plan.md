@@ -24,5 +24,6 @@ aggregate assets with the paragraph sources.
 
 This is a local sprint production draft for `B2-2.1-A`. Sprint
 `B2-2.1-TARGET-V5-PROMOTE` promoted the 2.1.1 through 2.1.3 target records to
-`reviewed_final`; the 2.1.4 placeholder-backed target must remain visible in
-sprint result and lead-review evidence.
+`reviewed_final`. Sprint `MIXED-OPGAVEN-TARGET-STANDARD-1` replaces the 2.1.4
+placeholder target with a reviewed-final mixed transfer target while preserving
+the consolidation-only paragraph shape.

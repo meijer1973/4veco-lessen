@@ -1,13 +1,13 @@
 schema_version: 2
 paragraph_id: "2.1.4"
 title: "Gemengde opgaven: kosten en opbrengsten"
-status: "integrated_repository_sprint_pass_with_flags"
-upstream_record_status: "placeholder_needs_review"
+status: "reviewed_final_mixed_target"
+upstream_record_status: "reviewed_final"
 paragraph_kind: "gemengde_opgaven"
 introduces_new_theory: false
 part_a_scope: true
 part_b_scope: false
-source_registry_mutated: false
+source_registry_mutated: true
 repository_sprint:
   id: "B2-2.1.4-HARDEN"
   lead_review_required: true
@@ -16,6 +16,11 @@ repository_sprint:
   rendered_outputs_regenerated: true
   chapter_assembly_regenerated: true
   lead_review_final_verdict: "PASS WITH FLAGS"
+target_standard_sprint:
+  id: "MIXED-OPGAVEN-TARGET-STANDARD-1"
+  reusable_standard_created: true
+  explicit_target_acceptance: true
+  target_record_status: "reviewed_final"
 quality_summary:
   source_question_separation: true
   uppercase_subquestions: true
@@ -24,7 +29,8 @@ quality_summary:
   target_trace_present: true
   answer_models_include_units_and_interpretation: true
   source_first_mixed_exercises: true
+  non_placeholder_target_record: true
+  answer_skill_guidance_present: true
 required_follow_up:
-  - "Carry target placeholder status into a later authorized target-review/source-record workflow."
   - "Monitor Chapter 2.1 PDF-size warning during later print assembly."
-  - "Only consider target status promotion in a later authorized target-review sprint."
+  - "Apply the mixed-opgaven target standard to future mixed records before reviewed-final promotion."

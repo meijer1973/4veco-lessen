@@ -1,175 +1,347 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>-</title>
-  <style>
-    /* Default styles provided by pandoc.
-    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-    */
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      white-space: pre-wrap;
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid #1a1a1a;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <meta name="generator" content="pandoc" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+  <title>-</title>
+
+  <style>
+
+    /* Default styles provided by pandoc.
+
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+
+    */
+
+    html {
+
+      color: #1a1a1a;
+
+      background-color: #fdfdfd;
+
+    }
+
+    body {
+
+      margin: 0 auto;
+
+      max-width: 36em;
+
+      padding-left: 50px;
+
+      padding-right: 50px;
+
+      padding-top: 50px;
+
+      padding-bottom: 50px;
+
+      hyphens: auto;
+
+      overflow-wrap: break-word;
+
+      text-rendering: optimizeLegibility;
+
+      font-kerning: normal;
+
+    }
+
+    @media (max-width: 600px) {
+
+      body {
+
+        font-size: 0.9em;
+
+        padding: 12px;
+
+      }
+
+      h1 {
+
+        font-size: 1.8em;
+
+      }
+
+    }
+
+    @media print {
+
+      html {
+
+        background-color: white;
+
+      }
+
+      body {
+
+        background-color: transparent;
+
+        color: black;
+
+        font-size: 12pt;
+
+      }
+
+      p, h2, h3 {
+
+        orphans: 3;
+
+        widows: 3;
+
+      }
+
+      h2, h3, h4 {
+
+        page-break-after: avoid;
+
+      }
+
+    }
+
+    p {
+
+      margin: 1em 0;
+
+    }
+
+    a {
+
+      color: #1a1a1a;
+
+    }
+
+    a:visited {
+
+      color: #1a1a1a;
+
+    }
+
+    img {
+
+      max-width: 100%;
+
+    }
+
+    svg {
+
+      height: auto;
+
+      max-width: 100%;
+
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+
+      margin-top: 1.4em;
+
+    }
+
+    h5, h6 {
+
+      font-size: 1em;
+
+      font-style: italic;
+
+    }
+
+    h6 {
+
+      font-weight: normal;
+
+    }
+
+    ol, ul {
+
+      padding-left: 1.7em;
+
+      margin-top: 1em;
+
+    }
+
+    li > ol, li > ul {
+
+      margin-top: 0;
+
+    }
+
+    blockquote {
+
+      margin: 1em 0 1em 1.7em;
+
+      padding-left: 1em;
+
+      border-left: 2px solid #e6e6e6;
+
+      color: #606060;
+
+    }
+
+    code {
+
+      white-space: pre-wrap;
+
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+
+      font-size: 85%;
+
+      margin: 0;
+
+      hyphens: manual;
+
+    }
+
+    pre {
+
+      margin: 1em 0;
+
+      overflow: auto;
+
+    }
+
+    pre code {
+
+      padding: 0;
+
+      overflow: visible;
+
+      overflow-wrap: normal;
+
+    }
+
+    .sourceCode {
+
+     background-color: transparent;
+
+     overflow: visible;
+
+    }
+
+    hr {
+
+      border: none;
+
+      border-top: 1px solid #1a1a1a;
+
+      height: 1px;
+
+      margin: 1em 0;
+
+    }
+
+    table {
+
+      margin: 1em 0;
+
+      border-collapse: collapse;
+
+      width: 100%;
+
+      overflow-x: auto;
+
+      display: block;
+
+      font-variant-numeric: lining-nums tabular-nums;
+
+    }
+
+    table caption {
+
+      margin-bottom: 0.75em;
+
+    }
+
+    tbody {
+
+      margin-top: 0.5em;
+
+      border-top: 1px solid #1a1a1a;
+
+      border-bottom: 1px solid #1a1a1a;
+
+    }
+
+    th {
+
+      border-top: 1px solid #1a1a1a;
+
+      padding: 0.25em 0.5em 0.25em 0.5em;
+
+    }
+
+    td {
+
+      padding: 0.125em 0.5em 0.25em 0.5em;
+
+    }
+
+    header {
+
+      margin-bottom: 4em;
+
+      text-align: center;
+
+    }
+
+    #TOC li {
+
+      list-style: none;
+
+    }
+
+    #TOC ul {
+
+      padding-left: 1.3em;
+
+    }
+
+    #TOC > ul {
+
+      padding-left: 0;
+
+    }
+
+    #TOC a:not(:hover) {
+
+      text-decoration: none;
+
+    }
+
+    span.smallcaps{font-variant: small-caps;}
+
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+
+    div.column{flex: auto; overflow-x: auto;}
+
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+    /* The extra [class] is a hack that increases specificity enough to
+
+       override a similar rule in reveal.js */
+
+    ul.task-list[class]{list-style: none;}
+
+    ul.task-list li input[type="checkbox"] {
+
+      font-size: inherit;
+
+      width: 0.8em;
+
+      margin: 0 0.8em 0.2em -1.6em;
+
+      vertical-align: middle;
+
+    }
+
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+
+  </style>
+
 <style>
 @page {
   size: A4;
@@ -294,315 +466,656 @@ code {
 hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
 ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
 li { margin-bottom: 4pt; }
-</style></head>
-<body>
-<h1 id="gemengde-opgaven-kosten-en-opbrengsten---opgaven">2.1.4 Gemengde
-opgaven: kosten en opbrengsten - opgaven</h1>
-<p>Gebruik bij alle opgaven de geïntegreerde aanpak: bron lezen,
-formulefamilie kiezen, totalen berekenen, daarna gemiddelden of
-marginale waarden berekenen, en eindigen met een economische
-conclusie.</p>
-<h2 id="startopgave-1---broodplanken">Startopgave 1 - Broodplanken</h2>
-<p>Een leerling maakt houten broodplanken voor een markt. De vaste
-kosten voor gereedschap en kraamhuur zijn €300. Elke broodplank kost €5
-aan hout en olie. De verkoopprijs is €12 per broodplank.</p>
-<p><strong>A.</strong> Schrijf de formules voor <code>TCK</code>,
-<code>TVK</code>, <code>TK</code> en <code>TO</code>.</p>
-<p><strong>B.</strong> Bereken bij <code>Q = 40</code> en
-<code>Q = 80</code>: <code>TK</code>, <code>TO</code> en winst.</p>
-<p><strong>C.</strong> Bereken bij <code>Q = 40</code> en
-<code>Q = 80</code>: <code>GTK</code> en <code>GCK</code>. Leg uit
-waarom <code>GCK</code> verandert.</p>
-<p><strong>D.</strong> Bereken de break-evenafzet.</p>
-<h2 id="startopgave-2---smoothies-uit-een-tabel">Startopgave 2 -
-Smoothies uit een tabel</h2>
-<p>Een smoothiebar heeft de volgende tabel gemaakt.</p>
-<table class="wide-table">
-<thead>
-<tr>
-<th>
-Q
-</th>
-<th>
-TK
-</th>
-<th>
-TO
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-0
-</td>
-<td>
-200
-</td>
-<td>
-0
-</td>
-</tr>
-<tr>
-<td>
-50
-</td>
-<td>
-350
-</td>
-<td>
-300
-</td>
-</tr>
-<tr>
-<td>
-100
-</td>
-<td>
-550
-</td>
-<td>
-600
-</td>
-</tr>
-<tr>
-<td>
-150
-</td>
-<td>
-800
-</td>
-<td>
-900
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>A.</strong> Bereken de winst bij elke hoeveelheid.</p>
-<p><strong>B.</strong> Bereken <code>MK</code> en <code>MO</code> per
-smoothie voor elke stap.</p>
-<p><strong>C.</strong> Leg uit waarom je bij de stap van
-<code>Q = 50</code> naar <code>Q = 100</code> niet mag zeggen dat
-<code>MK = 200</code>.</p>
-<p><strong>D.</strong> Bij welke stap stijgt de winst het meest? Gebruik
-je berekening.</p>
-<h2 id="zelfstandige-opgave-3---campuskoffie">Zelfstandige opgave 3 -
-CampusKoffie</h2>
-<p>CampusKoffie verkoopt koffie op een open dag. De vaste kosten voor
-apparatuur, kraam en vergunning zijn €1.600. Per beker koffie zijn de
-variabele kosten €0,70. De verkoopprijs is €2,50 per beker.</p>
-<p><strong>A.</strong> Schrijf de formules voor <code>TK</code> en
-<code>TO</code>.</p>
-<p><strong>B.</strong> Bereken bij <code>Q = 600</code> en
-<code>Q = 1000</code>: <code>TK</code>, <code>TO</code>, winst,
-<code>GTK</code> en <code>GCK</code>.</p>
-<p><strong>C.</strong> Bereken de break-evenafzet. Rond naar boven af op
-hele bekers en leg uit waarom je naar boven afrondt.</p>
-<p><strong>D.</strong> Leg uit wat er in een
-<code>TK</code>/<code>TO</code>-grafiek gebeurt links en rechts van het
-break-evenpunt.</p>
-<p><strong>E.</strong> Een leerling zegt: “Bij <code>Q = 1000</code> is
-<code>GTK</code> lager dan bij <code>Q = 600</code>, dus de onderneming
-maakt automatisch meer winst per beker.” Leg uit waarom deze uitspraak
-te kort door de bocht is.</p>
-<h2 id="zelfstandige-opgave-4---festivalappels">Zelfstandige opgave 4 -
-FestivalAppels</h2>
-<p>FestivalAppels verkoopt bekers gesneden appel. Door drukte worden
-extra bekers steeds duurder om te maken. De totale kosten en totale
-opbrengsten staan in de tabel.</p>
-<table class="wide-table">
-<thead>
-<tr>
-<th>
-Q
-</th>
-<th>
-TK
-</th>
-<th>
-TO
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-400
-</td>
-<td>
-1500
-</td>
-<td>
-1600
-</td>
-</tr>
-<tr>
-<td>
-500
-</td>
-<td>
-1800
-</td>
-<td>
-2000
-</td>
-</tr>
-<tr>
-<td>
-600
-</td>
-<td>
-2150
-</td>
-<td>
-2400
-</td>
-</tr>
-<tr>
-<td>
-700
-</td>
-<td>
-2550
-</td>
-<td>
-2800
-</td>
-</tr>
-<tr>
-<td>
-800
-</td>
-<td>
-3000
-</td>
-<td>
-3200
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>A.</strong> Bereken de winst bij elke hoeveelheid.</p>
-<p><strong>B.</strong> Bereken <code>MK</code> en <code>MO</code> per
-beker voor elke stap.</p>
-<p><strong>C.</strong> Wat gebeurt er met <code>MK</code>? Leg uit op
-basis van de tabel.</p>
-<p><strong>D.</strong> Een leerling zegt: “Omdat de totale winst
-positief blijft, is elke extra stap even aantrekkelijk.” Is dat juist?
-Leg uit met <code>MK</code>, <code>MO</code> en winst.</p>
-<h2 id="doeloefening---smoothbox">Doeloefening - SmoothBox</h2>
-<p><strong>Bron 1 - Normale productie</strong></p>
-<p>SmoothBox verkoopt lunchboxen op een schoolfestival. De vaste kosten
-voor kraamhuur, vergunning en koeling zijn €1.200 per dag. Zolang
-SmoothBox maximaal 700 lunchboxen maakt, kost elke lunchbox €2,00 aan
-ingrediënten en verpakking. De verkoopprijs is €5,00 per lunchbox.</p>
-<p><strong>A.</strong> Schrijf met <code>Q</code> als aantal lunchboxen
-de formules voor <code>TCK</code>, <code>TVK</code>, <code>TK</code> en
-<code>TO</code> bij normale productie.</p>
-<p><strong>B.</strong> Bereken bij <code>Q = 300</code> en
-<code>Q = 700</code>: <code>TCK</code>, <code>TVK</code>,
-<code>TK</code>, <code>TO</code>, winst, <code>GTK</code> en
-<code>GCK</code>. Leg uit waarom <code>GCK</code> verandert.</p>
-<p><strong>C.</strong> Bereken de break-evenafzet bij normale productie.
-Leg in woorden uit wat dat punt in een
-<code>TK</code>/<code>TO</code>-grafiek betekent.</p>
-<p><strong>Bron 2 - Spoedproductie</strong></p>
-<p>Voor aantallen boven 700 moet SmoothBox extra personeel inhuren.
-Gebruik voor die extra aantallen de tabel hieronder.</p>
-<table class="wide-table">
-<thead>
-<tr>
-<th>
-Q
-</th>
-<th>
-TK
-</th>
-<th>
-TO
-</th>
-<th>
-winst
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-700
-</td>
-<td>
-2600
-</td>
-<td>
-3500
-</td>
-<td>
-900
-</td>
-</tr>
-<tr>
-<td>
-800
-</td>
-<td>
-2900
-</td>
-<td>
-4000
-</td>
-<td>
-1100
-</td>
-</tr>
-<tr>
-<td>
-900
-</td>
-<td>
-3250
-</td>
-<td>
-4500
-</td>
-<td>
-1250
-</td>
-</tr>
-<tr>
-<td>
-1000
-</td>
-<td>
-3650
-</td>
-<td>
-5000
-</td>
-<td>
-1350
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>D.</strong> Bereken voor elke stap in bron 2 <code>MK</code>
-en <code>MO</code> per lunchbox.</p>
-<p><strong>E.</strong> Een leerling zegt: “Na het break-evenpunt is meer
-verkopen altijd even winstgevend, want de prijs blijft €5.” Is dat
-juist? Leg uit met bron 2.</p>
-<h2 id="denkertje---de-grote-bestelling">Denkertje - De grote
-bestelling</h2>
-<p>Een drukkerij verkoopt normaal posters voor €8 per stuk. De vaste
-kosten zijn €900 en de variabele kosten zijn €3 per poster. Een
-vereniging wil 200 extra posters bestellen, maar betaalt daarvoor maar
-€4,50 per extra poster. Door avondwerk stijgen de extra kosten voor deze
-200 posters in totaal met €760.</p>
-<p><strong>A.</strong> Bereken de extra opbrengst van deze
-bestelling.</p>
-<p><strong>B.</strong> Bereken de extra kosten per poster voor deze
-bestelling.</p>
-<p><strong>C.</strong> Leg uit of de drukkerij deze extra bestelling
-financieel gezien moet accepteren. Gebruik marginale opbrengst en
-marginale kosten.</p>
-</body>
-</html>
+</style></head>
+
+<body>
+
+<h1 id="gemengde-opgaven-kosten-en-opbrengsten---opgaven">2.1.4 Gemengde
+
+opgaven: kosten en opbrengsten - opgaven</h1>
+
+<p>Gebruik bij alle opgaven de geïntegreerde aanpak: bron lezen,
+
+formulefamilie kiezen, totalen berekenen, daarna gemiddelden of
+
+marginale waarden berekenen, en eindigen met een economische
+
+conclusie.</p>
+
+<h2 id="hoe-pak-je-gemengde-opgaven-aan">Hoe pak je gemengde opgaven
+
+aan?</h2>
+
+<p>Gebruik bij berekeningen steeds dezelfde antwoordroute: formule
+
+opschrijven, gegevens invullen, uitkomst berekenen, eenheid noemen en
+
+afsluiten met een conclusie in woorden.</p>
+
+<p>Bij tabellen vergelijk je per stap wat verandert. Noem eerst de
+
+verandering in <code>Q</code>, <code>TK</code> of <code>TO</code>,
+
+bereken daarna de waarde per extra product, vergelijk de uitkomsten en
+
+trek dan een economische conclusie.</p>
+
+<p>Bij grafieken benoem je eerst het punt of de lijnen waar het om gaat.
+
+Lees de waarden af, vergelijk <code>TK</code> en <code>TO</code>, en leg
+
+uit wat dat betekent voor winst, verlies of break-even.</p>
+
+<p>Bij uitlegvragen begin je met je standpunt. Gebruik daarna een
+
+berekening, tabel of grafiek als bewijs en sluit af met de economische
+
+betekenis.</p>
+
+<h2 id="startopgave-1---broodplanken">Startopgave 1 - Broodplanken</h2>
+
+<p>Een leerling maakt houten broodplanken voor een markt. De vaste
+
+kosten voor gereedschap en kraamhuur zijn €300. Elke broodplank kost €5
+
+aan hout en olie. De verkoopprijs is €12 per broodplank.</p>
+
+<p><strong>A.</strong> Schrijf de formules voor <code>TCK</code>,
+
+<code>TVK</code>, <code>TK</code> en <code>TO</code>.</p>
+
+<p><strong>B.</strong> Bereken bij <code>Q = 40</code> en
+
+<code>Q = 80</code>: <code>TK</code>, <code>TO</code> en winst.</p>
+
+<p><strong>C.</strong> Bereken bij <code>Q = 40</code> en
+
+<code>Q = 80</code>: <code>GTK</code> en <code>GCK</code>. Leg uit
+
+waarom <code>GCK</code> verandert.</p>
+
+<p><strong>D.</strong> Bereken de break-evenafzet.</p>
+
+<h2 id="startopgave-2---smoothies-uit-een-tabel">Startopgave 2 -
+
+Smoothies uit een tabel</h2>
+
+<p>Een smoothiebar heeft de volgende tabel gemaakt.</p>
+
+<table class="wide-table">
+
+<thead>
+
+<tr>
+
+<th>
+
+Q
+
+</th>
+
+<th>
+
+TK
+
+</th>
+
+<th>
+
+TO
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+
+0
+
+</td>
+
+<td>
+
+200
+
+</td>
+
+<td>
+
+0
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+50
+
+</td>
+
+<td>
+
+350
+
+</td>
+
+<td>
+
+300
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+100
+
+</td>
+
+<td>
+
+550
+
+</td>
+
+<td>
+
+600
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+150
+
+</td>
+
+<td>
+
+800
+
+</td>
+
+<td>
+
+900
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p><strong>A.</strong> Bereken de winst bij elke hoeveelheid.</p>
+
+<p><strong>B.</strong> Bereken <code>MK</code> en <code>MO</code> per
+
+smoothie voor elke stap.</p>
+
+<p><strong>C.</strong> Leg uit waarom je bij de stap van
+
+<code>Q = 50</code> naar <code>Q = 100</code> niet mag zeggen dat
+
+<code>MK = 200</code>.</p>
+
+<p><strong>D.</strong> Bij welke stap stijgt de winst het meest? Gebruik
+
+je berekening.</p>
+
+<h2 id="zelfstandige-opgave-3---campuskoffie">Zelfstandige opgave 3 -
+
+CampusKoffie</h2>
+
+<p>CampusKoffie verkoopt koffie op een open dag. De vaste kosten voor
+
+apparatuur, kraam en vergunning zijn €1.600. Per beker koffie zijn de
+
+variabele kosten €0,70. De verkoopprijs is €2,50 per beker.</p>
+
+<p><strong>A.</strong> Schrijf de formules voor <code>TK</code> en
+
+<code>TO</code>.</p>
+
+<p><strong>B.</strong> Bereken bij <code>Q = 600</code> en
+
+<code>Q = 1000</code>: <code>TK</code>, <code>TO</code>, winst,
+
+<code>GTK</code> en <code>GCK</code>.</p>
+
+<p><strong>C.</strong> Bereken de break-evenafzet. Rond naar boven af op
+
+hele bekers en leg uit waarom je naar boven afrondt.</p>
+
+<p><strong>D.</strong> Leg uit wat er in een
+
+<code>TK</code>/<code>TO</code>-grafiek gebeurt links en rechts van het
+
+break-evenpunt.</p>
+
+<p><strong>E.</strong> Een leerling zegt: “Bij <code>Q = 1000</code> is
+
+<code>GTK</code> lager dan bij <code>Q = 600</code>, dus de onderneming
+
+maakt automatisch meer winst per beker.” Leg uit waarom deze uitspraak
+
+te kort door de bocht is.</p>
+
+<h2 id="zelfstandige-opgave-4---festivalappels">Zelfstandige opgave 4 -
+
+FestivalAppels</h2>
+
+<p>FestivalAppels verkoopt bekers gesneden appel. Door drukte worden
+
+extra bekers steeds duurder om te maken. De totale kosten en totale
+
+opbrengsten staan in de tabel.</p>
+
+<table class="wide-table">
+
+<thead>
+
+<tr>
+
+<th>
+
+Q
+
+</th>
+
+<th>
+
+TK
+
+</th>
+
+<th>
+
+TO
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+
+400
+
+</td>
+
+<td>
+
+1500
+
+</td>
+
+<td>
+
+1600
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+500
+
+</td>
+
+<td>
+
+1800
+
+</td>
+
+<td>
+
+2000
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+600
+
+</td>
+
+<td>
+
+2150
+
+</td>
+
+<td>
+
+2400
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+700
+
+</td>
+
+<td>
+
+2550
+
+</td>
+
+<td>
+
+2800
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+800
+
+</td>
+
+<td>
+
+3000
+
+</td>
+
+<td>
+
+3200
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p><strong>A.</strong> Bereken de winst bij elke hoeveelheid.</p>
+
+<p><strong>B.</strong> Bereken <code>MK</code> en <code>MO</code> per
+
+beker voor elke stap.</p>
+
+<p><strong>C.</strong> Wat gebeurt er met <code>MK</code>? Leg uit op
+
+basis van de tabel.</p>
+
+<p><strong>D.</strong> Een leerling zegt: “Omdat de totale winst
+
+positief blijft, is elke extra stap even aantrekkelijk.” Is dat juist?
+
+Leg uit met <code>MK</code>, <code>MO</code> en winst.</p>
+
+<h2 id="doeloefening---smoothbox">Doeloefening - SmoothBox</h2>
+
+<p><strong>Bron 1 - Normale productie</strong></p>
+
+<p>SmoothBox verkoopt lunchboxen op een schoolfestival. De vaste kosten
+
+voor kraamhuur, vergunning en koeling zijn €1.200 per dag. Zolang
+
+SmoothBox maximaal 700 lunchboxen maakt, kost elke lunchbox €2,00 aan
+
+ingrediënten en verpakking. De verkoopprijs is €5,00 per lunchbox.</p>
+
+<p><strong>A.</strong> Schrijf met <code>Q</code> als aantal lunchboxen
+
+de formules voor <code>TCK</code>, <code>TVK</code>, <code>TK</code> en
+
+<code>TO</code> bij normale productie.</p>
+
+<p><strong>B.</strong> Bereken bij <code>Q = 300</code> en
+
+<code>Q = 700</code>: <code>TCK</code>, <code>TVK</code>,
+
+<code>TK</code>, <code>TO</code>, winst, <code>GTK</code> en
+
+<code>GCK</code>. Leg uit waarom <code>GCK</code> verandert.</p>
+
+<p><strong>C.</strong> Bereken de break-evenafzet bij normale productie.
+
+Leg in woorden uit wat dat punt in een
+
+<code>TK</code>/<code>TO</code>-grafiek betekent.</p>
+
+<p><strong>Bron 2 - Spoedproductie</strong></p>
+
+<p>Voor aantallen boven 700 moet SmoothBox extra personeel inhuren.
+
+Gebruik voor die extra aantallen de tabel hieronder.</p>
+
+<table class="wide-table">
+
+<thead>
+
+<tr>
+
+<th>
+
+Q
+
+</th>
+
+<th>
+
+TK
+
+</th>
+
+<th>
+
+TO
+
+</th>
+
+<th>
+
+winst
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+
+700
+
+</td>
+
+<td>
+
+2600
+
+</td>
+
+<td>
+
+3500
+
+</td>
+
+<td>
+
+900
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+800
+
+</td>
+
+<td>
+
+2900
+
+</td>
+
+<td>
+
+4000
+
+</td>
+
+<td>
+
+1100
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+900
+
+</td>
+
+<td>
+
+3250
+
+</td>
+
+<td>
+
+4500
+
+</td>
+
+<td>
+
+1250
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+1000
+
+</td>
+
+<td>
+
+3650
+
+</td>
+
+<td>
+
+5000
+
+</td>
+
+<td>
+
+1350
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p><strong>D.</strong> Bereken voor elke stap in bron 2 <code>MK</code>
+
+en <code>MO</code> per lunchbox.</p>
+
+<p><strong>E.</strong> Een leerling zegt: “Na het break-evenpunt is meer
+
+verkopen altijd even winstgevend, want de prijs blijft €5.” Is dat
+
+juist? Leg uit met bron 2.</p>
+
+<h2 id="denkertje---de-grote-bestelling">Denkertje - De grote
+
+bestelling</h2>
+
+<p>Een drukkerij verkoopt normaal posters voor €8 per stuk. De vaste
+
+kosten zijn €900 en de variabele kosten zijn €3 per poster. Een
+
+vereniging wil 200 extra posters bestellen, maar betaalt daarvoor maar
+
+€4,50 per extra poster. Door avondwerk stijgen de extra kosten voor deze
+
+200 posters in totaal met €760.</p>
+
+<p><strong>A.</strong> Bereken de extra opbrengst van deze
+
+bestelling.</p>
+
+<p><strong>B.</strong> Bereken de extra kosten per poster voor deze
+
+bestelling.</p>
+
+<p><strong>C.</strong> Leg uit of de drukkerij deze extra bestelling
+
+financieel gezien moet accepteren. Gebruik marginale opbrengst en
+
+marginale kosten.</p>
+
+</body>
+
+</html>
