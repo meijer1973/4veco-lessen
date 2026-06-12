@@ -28,6 +28,13 @@ student-facing route and completeness definition.
 
 ## Change Notes
 
+- 2026-06-11: added the paragraph landing V2 visual baseline after the
+  Frankenstein repair verdict. Affected surface: paragraph landing route,
+  visual proof, generated route adoption, and human-review evidence. Approval
+  route: LANDING-V2-FRANKENSTEIN-REPAIR at explicit human request.
+  Consequence: paragraph landing work must use the approved visual fixtures
+  and `specifications/paragraph-landing-layout-v2.md`; prose-only row/tile
+  compliance is not enough for product-route adoption.
 - 2026-06-06: added the strategic vision relationship after VISION-1 created
   `specifications/product-vision.md` as the canonical strategic product
   vision. Affected surface: specification authority and agent trade-off
@@ -165,6 +172,12 @@ required by the official correction model.
 
 The student route must be visible as one operational interface, not as separate
 engines that only share data behind the scenes.
+
+For paragraph landing pages, the operational baseline is
+`specifications/paragraph-landing-layout-v2.md`. The approved light and dark
+visual fixtures are part of the acceptance baseline. A generated page that
+has the right rows but uses the old lesson shell, old paragraph card system, or
+old shared landing CSS is not product-complete.
 
 At full maturity, companion interaction is organized around:
 

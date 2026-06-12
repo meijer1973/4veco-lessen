@@ -1,594 +1,971 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl" data-theme="light">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script>(function(){try{var m=localStorage.getItem('quizMode')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
-<title>1.1.3 Grafieken en tabellen – Lesmateriaal</title>
-<link rel="stylesheet" href="../../shared/voorkennis.css">
-<style>
-  .sidebar-jump {
-    display: block; padding: 0.55rem 1.1rem;
-    font-size: 0.72rem; color: var(--ink-soft);
-    border-bottom: 1px solid var(--border);
-  }
-  .sidebar-jump a { color: var(--accent); }
-  .sidebar-jump a:hover { text-decoration: underline; }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>1.1.3 Grafieken en tabellen - Lesroute</title>
+  <script>(function(){try{var q=new URLSearchParams(location.search).get('theme');var m=(q==='dark'||q==='light')?q:(localStorage.getItem('quizMode')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'));document.documentElement.setAttribute('data-theme',m);}catch(e){}})();</script>
+  <style>
+    :root,
+    html[data-theme="light"] {
+      color-scheme: light;
+      --page: #f7f4ed;
+      --page-2: #eef7f4;
+      --paper: #fffdf8;
+      --paper-strong: #ffffff;
+      --ink: #1d2530;
+      --muted: #687484;
+      --muted-2: #8a95a3;
+      --line: #ddd8cc;
+      --line-soft: #ebe6da;
+      --accent: #1f6f78;
+      --accent-soft: #dff2f3;
+      --econ: #b86b28;
+      --econ-soft: #fff0df;
+      --math: #1d6f9f;
+      --math-soft: #e4f2fb;
+      --graph: #26845f;
+      --graph-soft: #e4f5eb;
+      --reason: #7457b8;
+      --reason-soft: #eee9fb;
+      --check: #126d5b;
+      --check-soft: #dff3ee;
+      --warn: #a85b00;
+      --shadow: 0 18px 45px rgba(31, 42, 55, 0.10);
+      --shadow-small: 0 10px 22px rgba(31, 42, 55, 0.08);
+      --radius-xl: 28px;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --sidebar: 292px;
+      --font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
 
-  .resource-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 0.9rem;
-  }
-  .resource-card {
-    display: flex; gap: 0.85rem; align-items: flex-start;
-    background: var(--bg-lift);
-    border: 1px solid var(--border);
-    border-left: 4px solid var(--accent);
-    border-radius: 10px;
-    padding: 1rem 1.15rem;
-    color: inherit; text-decoration: none;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
-  .resource-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-  }
-  .resource-card-icon {
-    flex-shrink: 0; width: 38px; height: 38px; border-radius: 8px;
-    background: var(--accent-lt); color: var(--accent);
-    display: flex; align-items: center; justify-content: center;
-  }
-  .resource-card-icon svg {
-    width: 20px; height: 20px; fill: none; stroke: currentColor;
-    stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
-  }
-  .resource-card-body { flex: 1; min-width: 0; }
-  .resource-card-body h3 {
-    font-size: 0.98rem; font-weight: 600; color: var(--ink);
-    margin: 0 0 0.2rem;
-  }
-  .resource-card-body p {
-    font-size: 0.82rem; color: var(--ink-soft);
-    line-height: 1.45; margin: 0 0 0.45rem;
-  }
-  .learning-aspect-block,
-  .guided-practice-block {
-    display: grid;
-    gap: 0.85rem;
-  }
-  .guided-practice-block {
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--border);
-  }
-  .learning-aspect-copy {
-    max-width: 70ch;
-  }
-  .learning-aspect-copy h3 {
-    margin: 0.1rem 0 0.25rem;
-    font-size: 1rem;
-    color: var(--ink);
-  }
-  .learning-aspect-copy p {
-    margin: 0;
-    color: var(--ink-soft);
-    font-size: 0.84rem;
-    line-height: 1.45;
-  }
-  .resource-aspect-label {
-    display: inline-flex;
-    align-items: center;
-    width: fit-content;
-    margin: 0 0 0.35rem;
-    font-family: var(--mono);
-    font-size: 0.67rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: var(--ink-soft);
-  }
-  .resource-card-aspect.aspect-economisch {
-    border-left-color: var(--economisch);
-  }
-  .resource-card-aspect.aspect-wiskunde {
-    border-left-color: var(--wiskundig);
-  }
-  .resource-card-aspect.aspect-grafisch {
-    border-left-color: var(--grafisch);
-  }
-  .resource-card-aspect.aspect-economisch .resource-card-icon {
-    color: var(--economisch);
-    background: var(--economisch-tint);
-  }
-  .resource-card-aspect.aspect-wiskunde .resource-card-icon {
-    color: var(--wiskundig);
-    background: var(--wiskundig-tint);
-  }
-  .resource-card-aspect.aspect-grafisch .resource-card-icon {
-    color: var(--grafisch);
-    background: var(--grafisch-tint);
-  }
-  .resource-card-action {
-    display: inline-block;
-    font-size: 0.78rem; font-weight: 600;
-    color: var(--accent);
-  }
-  .resource-card-check {
-    border-left-width: 5px;
-  }
-  .resource-card-check-short {
-    border-left-color: var(--wiskundig);
-  }
-  .resource-card-check-exit {
-    border-left-color: var(--grafisch);
-  }
-  .resource-card-check-short .resource-card-icon {
-    color: var(--wiskundig);
-    background: var(--wiskundig-tint);
-  }
-  .resource-card-check-exit .resource-card-icon {
-    color: var(--grafisch);
-    background: var(--grafisch-tint);
-  }
-  .resource-card-check .check-card-kind {
-    margin-bottom: 0.25rem;
-  }
-  .resource-card-check .resource-card-purpose {
-    min-height: 3.45em;
-  }
-  .resource-sub-links {
-    display: flex; gap: 0.45rem; flex-wrap: wrap;
-    margin-top: 0.3rem;
-  }
-  .resource-sub-link {
-    display: inline-block;
-    font-size: 0.74rem; font-weight: 500;
-    padding: 0.25rem 0.65rem;
-    border: 1px solid var(--border); border-radius: 5px;
-    color: var(--accent); background: var(--bg);
-    transition: background 0.12s, border-color 0.12s;
-  }
-  .resource-sub-link:hover {
-    background: var(--accent-lt);
-    border-color: var(--accent);
-  }
-  .resource-card-pair { border-left-color: var(--accent); }
-  .resource-card-interactive { border-left-color: var(--accent); }
-  .resource-card-with-source { position: relative; border-left-color: var(--accent); }
-  .resource-card-with-source:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-  }
-  .resource-card-cover-link {
-    position: absolute; inset: 0;
-    z-index: 1;
-    text-decoration: none;
-    border-radius: 10px;
-  }
-  .resource-card-with-source > .resource-card-icon,
-  .resource-card-with-source > .resource-card-body { position: relative; z-index: 0; pointer-events: none; }
-  .resource-card-with-source .resource-sub-links { position: relative; z-index: 2; pointer-events: auto; }
-  .route-secondary-group {
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    background: var(--bg-lift);
-    margin-bottom: 0.75rem;
-    overflow: hidden;
-  }
-  .route-secondary-group summary {
-    position: relative;
-    cursor: pointer;
-    display: grid;
-    gap: 0.18rem;
-    padding: 0.9rem 1rem;
-    list-style: none;
-  }
-  .route-secondary-group summary::-webkit-details-marker { display: none; }
-  .route-secondary-group summary::after {
-    content: "+";
-    position: absolute;
-    right: 1rem;
-    margin-top: 0.05rem;
-    color: var(--accent);
-    font-weight: 800;
-  }
-  .route-secondary-group[open] summary::after { content: "-"; }
-  .route-secondary-title {
-    font-weight: 700;
-    color: var(--ink);
-    padding-right: 2rem;
-  }
-  .route-secondary-desc {
-    color: var(--ink-soft);
-    font-size: 0.82rem;
-    line-height: 1.35;
-    padding-right: 2rem;
-  }
-  .route-secondary-grid {
-    padding: 0 1rem 1rem;
-  }
+    * { box-sizing: border-box; }
 
-  @media (max-width: 640px) {
-    .resource-grid { grid-template-columns: 1fr; }
-    .route-secondary-group summary { padding-right: 0.85rem; }
-  }
+    html { scroll-behavior: smooth; }
 
-  /* Document viewer (docx/pptx) */
-  .viewer-panel {
-    display: none; position: fixed; inset: 0;
-    background: var(--bg); z-index: 50; flex-direction: column;
-  }
-  .viewer-panel.active { display: flex; }
-  .viewer-bar {
-    display: flex; align-items: center; gap: 0.75rem;
-    padding: 0.55rem 1rem;
-    background: var(--ink); color: #fff;
-    font-size: 0.85rem;
-  }
-  .viewer-title { flex: 1; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .viewer-download {
-    color: #fff; background: var(--accent);
-    padding: 0.28rem 0.75rem; border-radius: 4px;
-    text-decoration: none; font-size: 0.8rem;
-  }
-  .viewer-close {
-    background: transparent; border: 1px solid rgba(255,255,255,0.3); color: #fff;
-    padding: 0.28rem 0.75rem; border-radius: 4px;
-    cursor: pointer; font-size: 0.8rem;
-  }
-  .viewer-frame { flex: 1; border: none; width: 100%; background: #fff; }
-</style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 8% 0%, rgba(31, 111, 120, 0.16), transparent 34rem),
+        radial-gradient(circle at 92% 6%, rgba(184, 107, 40, 0.15), transparent 28rem),
+        linear-gradient(140deg, var(--page), var(--page-2));
+      color: var(--ink);
+      font-family: var(--font);
+      line-height: 1.45;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .app-shell {
+      display: grid;
+      grid-template-columns: var(--sidebar) minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 0;
+      align-self: start;
+      height: 100vh;
+      padding: 22px 18px;
+      border-right: 1px solid rgba(29, 37, 48, 0.08);
+      background: rgba(255, 253, 248, 0.74);
+      backdrop-filter: blur(18px);
+      overflow: auto;
+    }
+
+    .brand {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 8px 8px 18px;
+      border-bottom: 1px solid var(--line-soft);
+      margin-bottom: 18px;
+    }
+
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      color: white;
+      font-weight: 900;
+      background: linear-gradient(135deg, #1f6f78, #2b9771);
+      box-shadow: 0 12px 24px rgba(31, 111, 120, 0.22);
+    }
+
+    .brand small {
+      display: block;
+      color: var(--muted);
+      font-size: 0.76rem;
+      margin-top: 2px;
+    }
+
+    .sidebar-section-title {
+      margin: 22px 8px 9px;
+      color: var(--muted-2);
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .side-link {
+      display: grid;
+      grid-template-columns: 32px 1fr;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-bottom: 5px;
+    }
+
+    .side-link.current,
+    .side-link:hover {
+      background: #ffffff;
+      color: var(--ink);
+      box-shadow: var(--shadow-small);
+    }
+
+    .side-number {
+      width: 32px;
+      height: 32px;
+      display: grid;
+      place-items: center;
+      border-radius: 10px;
+      background: #f2eee4;
+      color: var(--accent);
+      font-size: 0.72rem;
+      font-weight: 900;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .side-link.current .side-number { background: var(--accent); color: white; }
+
+    .content {
+      width: min(1180px, calc(100vw - var(--sidebar)));
+      margin: 0 auto;
+      padding: 36px 42px 56px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .breadcrumb {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .breadcrumb span:last-child { color: var(--ink); font-weight: 750; }
+
+    .theme-note {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.78);
+      border: 1px solid var(--line-soft);
+      color: var(--muted);
+      font-size: 0.82rem;
+      white-space: nowrap;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.72);
+      border-radius: var(--radius-xl);
+      background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(255, 253, 248, 0.84)),
+        radial-gradient(circle at 20% 20%, rgba(31, 111, 120, 0.20), transparent 24rem),
+        radial-gradient(circle at 88% 8%, rgba(184, 107, 40, 0.16), transparent 22rem);
+      box-shadow: var(--shadow);
+      padding: 32px;
+      margin-bottom: 22px;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -9% -46% auto;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(31, 111, 120, 0.14), transparent 68%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) 360px;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      width: fit-content;
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #145b64;
+      font-size: 0.76rem;
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 14px 0 10px;
+      max-width: 780px;
+      font-size: clamp(2.05rem, 4.6vw, 4.05rem);
+      line-height: 0.98;
+      letter-spacing: -0.06em;
+    }
+
+    .lead {
+      max-width: 70ch;
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.06rem;
+    }
+
+    .target-panel {
+      display: grid;
+      gap: 12px;
+      padding: 18px;
+      border-radius: 22px;
+      background: #ffffff;
+      border: 1px solid var(--line-soft);
+      box-shadow: var(--shadow-small);
+    }
+
+    .target-panel h2 {
+      margin: 0;
+      font-size: 0.92rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+    }
+
+    .target-panel p { margin: 0; color: var(--muted); font-size: 0.94rem; }
+
+    .mini-meter {
+      display: grid;
+      gap: 8px;
+      padding-top: 6px;
+    }
+
+    .meter-track {
+      height: 10px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: #ebe6da;
+    }
+
+    .meter-fill {
+      width: 22%;
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--accent), #2b9771);
+    }
+
+    .meter-copy {
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted-2);
+      font-size: 0.78rem;
+      font-weight: 650;
+    }
+
+    .route-strip {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 10px;
+      margin: 20px 0 26px;
+    }
+
+    .route-chip {
+      display: grid;
+      gap: 3px;
+      min-height: 68px;
+      padding: 12px 14px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid rgba(29, 37, 48, 0.08);
+      box-shadow: 0 8px 18px rgba(31, 42, 55, 0.04);
+    }
+
+    .route-chip b {
+      font-size: 0.9rem;
+    }
+
+    .route-chip span {
+      color: var(--muted);
+      font-size: 0.74rem;
+    }
+
+    .rows {
+      display: grid;
+      gap: 18px;
+    }
+
+    .learning-row {
+      display: grid;
+      grid-template-columns: 172px minmax(0, 1fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .row-label {
+      display: grid;
+      align-content: start;
+      gap: 9px;
+      min-height: 160px;
+      padding: 18px;
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.66);
+      border: 1px solid rgba(29, 37, 48, 0.08);
+    }
+
+    .row-label .step {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      color: white;
+      font-weight: 900;
+      background: var(--accent);
+      box-shadow: 0 10px 20px rgba(31, 111, 120, 0.16);
+    }
+
+    .row-label h2 {
+      margin: 4px 0 0;
+      font-size: 1.08rem;
+      letter-spacing: -0.02em;
+    }
+
+    .row-label p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    .tile-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .tile-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+    .tile {
+      position: relative;
+      overflow: hidden;
+      min-height: 160px;
+      display: grid;
+      align-content: space-between;
+      gap: 20px;
+      padding: 20px;
+      border-radius: 22px;
+      background: var(--paper-strong);
+      border: 1px solid var(--line-soft);
+      box-shadow: var(--shadow-small);
+      transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+    }
+
+    .tile:hover,
+    .tile:focus-visible {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 32px rgba(31, 42, 55, 0.12);
+      border-color: rgba(31, 111, 120, 0.28);
+      outline: none;
+    }
+
+    .tile::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 5px;
+      background: var(--tile-accent, var(--accent));
+    }
+
+    .tile::after {
+      content: "";
+      position: absolute;
+      right: -64px;
+      top: -64px;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: var(--tile-soft, var(--accent-soft));
+      opacity: 0.8;
+    }
+
+    .tile-header,
+    .tile-footer { position: relative; z-index: 1; }
+
+    .tile-header {
+      display: grid;
+      gap: 12px;
+    }
+
+    .icon-badge {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      background: var(--tile-soft, var(--accent-soft));
+      color: var(--tile-accent, var(--accent));
+      font-weight: 950;
+      font-size: 1.02rem;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.7);
+    }
+
+    .tile h3 {
+      margin: 0;
+      font-size: 1.08rem;
+      letter-spacing: -0.025em;
+    }
+
+    .tile p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.91rem;
+    }
+
+    .tile-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      color: var(--tile-accent, var(--accent));
+      font-weight: 800;
+      font-size: 0.86rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      width: fit-content;
+      padding: 6px 9px;
+      border-radius: 999px;
+      background: var(--tile-soft, var(--accent-soft));
+      color: var(--tile-accent, var(--accent));
+      font-size: 0.72rem;
+      font-weight: 850;
+    }
+
+    .start { --tile-accent: var(--accent); --tile-soft: var(--accent-soft); }
+    .reason { --tile-accent: var(--reason); --tile-soft: var(--reason-soft); }
+    .math { --tile-accent: var(--math); --tile-soft: var(--math-soft); }
+    .graph { --tile-accent: var(--graph); --tile-soft: var(--graph-soft); }
+    .econ { --tile-accent: var(--econ); --tile-soft: var(--econ-soft); }
+    .check { --tile-accent: var(--check); --tile-soft: var(--check-soft); }
+
+    .notice {
+      margin: 22px 0 0;
+      padding: 15px 17px;
+      border-radius: 18px;
+      border: 1px solid rgba(168, 91, 0, 0.20);
+      background: #fff6e8;
+      color: #69410f;
+      font-size: 0.88rem;
+    }
+
+    .footer-note {
+      margin-top: 28px;
+      padding: 18px 0 0;
+      border-top: 1px solid var(--line-soft);
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    @media (max-width: 1120px) {
+      .app-shell { grid-template-columns: 1fr; }
+      .sidebar { position: static; height: auto; display: none; }
+      .content { width: min(100%, 980px); padding: 24px 20px 42px; }
+      .hero-grid { grid-template-columns: 1fr; }
+      .route-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .learning-row { grid-template-columns: 1fr; }
+      .row-label { min-height: unset; grid-template-columns: auto 1fr; align-items: center; }
+      .row-label p { grid-column: 2; }
+    }
+
+    @media (max-width: 760px) {
+      .topbar { align-items: flex-start; flex-direction: column; }
+      .theme-note { white-space: normal; }
+      .hero { padding: 22px; border-radius: 22px; }
+      .route-strip,
+      .tile-grid,
+      .tile-grid.two { grid-template-columns: 1fr; }
+      .tile { min-height: 145px; }
+      .row-label { grid-template-columns: 1fr; }
+      .row-label p { grid-column: auto; }
+    }
+
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --page: #08121d;
+      --page-2: #0d1827;
+      --paper: #111d2b;
+      --paper-strong: #132131;
+      --ink: #edf3fb;
+      --muted: #a2b1c4;
+      --muted-2: #8192a8;
+      --line: #223346;
+      --line-soft: #1a2938;
+      --accent: #5ce4d3;
+      --accent-soft: rgba(92, 228, 211, 0.14);
+      --econ: #f1a34f;
+      --econ-soft: rgba(241, 163, 79, 0.14);
+      --math: #76b4ff;
+      --math-soft: rgba(118, 180, 255, 0.14);
+      --graph: #6fd29b;
+      --graph-soft: rgba(111, 210, 155, 0.14);
+      --reason: #ba98ff;
+      --reason-soft: rgba(186, 152, 255, 0.15);
+      --check: #43c8aa;
+      --check-soft: rgba(67, 200, 170, 0.14);
+      --warn: #ffbc66;
+      --shadow: 0 22px 50px rgba(0, 0, 0, 0.34);
+      --shadow-small: 0 12px 28px rgba(0, 0, 0, 0.26);
+      --radius-xl: 28px;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --sidebar: 292px;
+      --font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    html[data-theme="dark"] body {
+      background:
+        radial-gradient(circle at 8% 0%, rgba(92, 228, 211, 0.14), transparent 34rem),
+        radial-gradient(circle at 92% 6%, rgba(241, 163, 79, 0.10), transparent 28rem),
+        linear-gradient(140deg, var(--page), var(--page-2));
+    }
+    html[data-theme="dark"] .sidebar {
+      border-right: 1px solid rgba(237, 243, 251, 0.05);
+      background: rgba(9, 16, 25, 0.78);
+    }
+    html[data-theme="dark"] .brand strong { color: var(--ink); }
+    html[data-theme="dark"] .brand-mark {
+      color: #08121d;
+      background: linear-gradient(135deg, #5ce4d3, #6fd29b);
+      box-shadow: 0 12px 24px rgba(92, 228, 211, 0.18);
+    }
+    html[data-theme="dark"] .side-link.current,
+    html[data-theme="dark"] .side-link:hover {
+      background: rgba(19, 33, 49, 0.98);
+      color: var(--ink);
+      box-shadow: var(--shadow-small);
+    }
+    html[data-theme="dark"] .side-number { background: rgba(255, 255, 255, 0.06); }
+    html[data-theme="dark"] .side-link.current .side-number { color: #08121d; }
+    html[data-theme="dark"] .theme-note {
+      background: rgba(19, 33, 49, 0.9);
+      border-color: var(--line-soft);
+    }
+    html[data-theme="dark"] .hero {
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      background:
+        linear-gradient(135deg, rgba(19, 33, 49, 0.96), rgba(13, 24, 39, 0.92)),
+        radial-gradient(circle at 20% 20%, rgba(92, 228, 211, 0.10), transparent 24rem),
+        radial-gradient(circle at 88% 8%, rgba(241, 163, 79, 0.08), transparent 22rem);
+    }
+    html[data-theme="dark"] .hero::after {
+      background: radial-gradient(circle, rgba(92, 228, 211, 0.12), transparent 68%);
+    }
+    html[data-theme="dark"] .eyebrow {
+      color: #9cf3e7;
+      border: 1px solid rgba(92, 228, 211, 0.16);
+    }
+    html[data-theme="dark"] .target-panel { background: rgba(15, 27, 40, 0.96); }
+    html[data-theme="dark"] .meter-track { background: rgba(255, 255, 255, 0.06); }
+    html[data-theme="dark"] .meter-fill { background: linear-gradient(90deg, var(--accent), #6fd29b); }
+    html[data-theme="dark"] .route-chip {
+      background: rgba(19, 33, 49, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+    }
+    html[data-theme="dark"] .route-chip:hover { border-color: rgba(92, 228, 211, 0.2); }
+    html[data-theme="dark"] .row-label {
+      background: rgba(19, 33, 49, 0.76);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    html[data-theme="dark"] .row-label .step {
+      color: #08121d;
+      box-shadow: 0 10px 20px rgba(92, 228, 211, 0.16);
+    }
+    html[data-theme="dark"] .tile {
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    html[data-theme="dark"] .tile:hover,
+    html[data-theme="dark"] .tile:focus-visible {
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.28);
+      border-color: rgba(92, 228, 211, 0.22);
+    }
+    html[data-theme="dark"] .icon-badge { box-shadow: inset 0 0 0 1px rgba(255,255,255,.08); }
+    html[data-theme="dark"] .notice,
+    html[data-theme="dark"] .tile-disabled {
+      border: 1px solid rgba(255, 188, 102, 0.16);
+      background: rgba(255, 188, 102, 0.08);
+      color: #ffd391;
+    }
+    .theme-note {
+      border: 1px solid var(--line-soft);
+      cursor: pointer;
+      font: inherit;
+    }
+    .route-chip:hover { transform: translateY(-1px); border-color: rgba(31, 111, 120, 0.28); }
+    .tile-disabled {
+      border: 1px solid rgba(168, 91, 0, 0.20);
+      background: #fff6e8;
+      color: #69410f;
+      box-shadow: none;
+    }
+    .tile-disabled:hover,
+    .tile-disabled:focus-visible {
+      transform: none;
+      box-shadow: none;
+      border-color: rgba(168, 91, 0, 0.20);
+    }
+    .tile-primary,
+    .tile-secondary {
+      color: var(--tile-accent, var(--accent));
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .tile-secondary-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      position: relative;
+      z-index: 1;
+    }
+    .tile-secondary {
+      padding: 5px 8px;
+      border-radius: 999px;
+      background: var(--tile-soft, var(--accent-soft));
+      font-size: 0.75rem;
+    }
+    .tile-status {
+      color: var(--warn);
+      font-weight: 850;
+    }
+    @media (max-width: 760px) {
+      html,
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+      .app-shell,
+      .content {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+      }
+      .app-shell {
+        display: block;
+      }
+      .content {
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .hero,
+      .route-strip,
+      .rows,
+      .learning-row,
+      .tile-grid,
+      .row-label {
+        box-sizing: border-box;
+        width: calc(100vw - 40px);
+        max-width: calc(100vw - 40px);
+        min-width: 0;
+      }
+      .target-panel,
+      .tile {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+      }
+      h1 {
+        max-width: calc(100vw - 84px);
+        font-size: 1.75rem;
+        line-height: 1.08;
+      }
+      .lead,
+      .target-panel {
+        max-width: calc(100vw - 84px);
+      }
+      .target-panel {
+        overflow: hidden;
+      }
+      .hero-grid {
+        grid-template-columns: 1fr;
+        min-width: 0;
+      }
+      .meter-copy {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+      h1,
+      .lead,
+      .target-panel p,
+      .meter-copy,
+      .breadcrumb,
+      .route-chip,
+      .tile {
+        overflow-wrap: anywhere;
+      }
+    }
+  </style>
 </head>
-<body data-layout="paragraaf-v2" data-accent-domain="wiskunde">
-
-<button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu openen">
-  <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-</button>
-<div class="sidebar-overlay" id="sidebarOverlay"></div>
-
-<div class="page-layout">
-  <nav class="sidebar" id="sidebar">
-    <div class="sidebar-header">
-      <h2>1.1.3 Grafieken en tabellen</h2>
-      <p>Lesmateriaal</p>
-    </div>
-    <div class="sidebar-jump">
-      <a href="../index.html">&larr; Hoofdstuk 1 – Economisch denken en rekenen</a><br>
-      <a href="../../index.html">Boek 1: Grondslagen, vraag en aanbod</a>
-    </div>
-      <a class="nav-item domain-wiskunde" href="#start" data-section="start" data-route-layer="start">
-        <span class="nav-number">1</span>
-        <span class="nav-text">
-          <span class="nav-title">Start</span>
-          <span class="nav-badge">Orienteer en haal voorkennis op</span>
-        </span>
-      </a>
-      <a class="nav-item domain-grafisch" href="#leer" data-section="leer" data-route-layer="learn">
-        <span class="nav-number">2</span>
-        <span class="nav-text">
-          <span class="nav-title">Leer</span>
-          <span class="nav-badge">Leer de kernstappen</span>
-        </span>
-      </a>
-      <a class="nav-item domain-economisch" href="#oefen" data-section="oefen" data-route-layer="practice">
-        <span class="nav-number">3</span>
-        <span class="nav-text">
-          <span class="nav-title">Oefen</span>
-          <span class="nav-badge">Kies steun of een oefenroute</span>
-        </span>
-      </a>
-      <a class="nav-item domain-wiskunde" href="#check" data-section="check" data-route-layer="check">
-        <span class="nav-number">4</span>
-        <span class="nav-text">
-          <span class="nav-title">Check</span>
-          <span class="nav-badge">Eerst oefenadvies, daarna eindcheck</span>
-        </span>
-      </a>
-      <a class="nav-item domain-grafisch" href="#verdiep" data-section="verdiep" data-route-layer="deepen">
-        <span class="nav-number">5</span>
-        <span class="nav-text">
-          <span class="nav-title">Verdiep</span>
-          <span class="nav-badge">Extra context, bronnen en downloads</span>
-        </span>
-      </a>
-  </nav>
-
-  <div class="content">
-    <header class="hero">
-      <div class="hero-inner">
-        <a class="back-link" href="../index.html"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg> Hoofdstuk 1 – Economisch denken en rekenen</a>
-        <span class="hero-badge">Paragraaf 1.1.3</span>
-        <h1>Grafieken en tabellen</h1>
-        <p class="hero-sub">Hoofdstuk 1 – Economisch denken en rekenen</p>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Boeknavigatie">
+      <div class="brand">
+        <div class="brand-mark">4v</div>
+        <div><strong>Economie VWO 4</strong><small>Boek 1: Grondslagen, vraag en aanbod</small></div>
       </div>
-    </header>
+      <div class="sidebar-section-title">Hoofdstuk 1</div>
+      <a class="side-link" href="../1.1.1%20Schaarste%20en%20economisch%20denken/index.html"><span class="side-number">1.1.1</span><span>Schaarste en economisch denken</span></a>
+      <a class="side-link" href="../1.1.2%20Percentages%20en%20indexcijfers/index.html"><span class="side-number">1.1.2</span><span>Percentages en indexcijfers</span></a>
+      <a class="side-link current" href="index.html"><span class="side-number">1.1.3</span><span>Grafieken en tabellen</span></a>
+      <a class="side-link" href="../1.1.4%20Gemengde%20opgaven/index.html"><span class="side-number">1.1.4</span><span>Gemengde opgaven</span></a>
+      <div class="sidebar-section-title">Route</div>
+      <a class="side-link" href="#start" data-route-layer="start"><span class="side-number">1</span><span>Start</span></a>
+      <a class="side-link" href="#skills" data-route-layer="skill-tree-games"><span class="side-number">2</span><span>Skill-tree games</span></a>
+      <a class="side-link" href="#leer" data-route-layer="leer"><span class="side-number">3</span><span>Leer</span></a>
+      <a class="side-link" href="#oefen" data-route-layer="oefen"><span class="side-number">4</span><span>Oefen</span></a>
+      <a class="side-link" href="#check" data-route-layer="check"><span class="side-number">5</span><span>Check</span></a>
+      <a class="side-link" href="#open" data-route-layer="open-verdiep"><span class="side-number">6</span><span>Open &amp; verdiep</span></a>
+    </aside>
 
-    <main>
-      <section class="section route-section" id="start" data-route-layer="start">
-        <div class="section-header border-wiskunde">
-          <span class="section-num bg-wiskunde">1</span>
-          <div class="section-title-group">
-            <div class="section-title">Start</div>
-            <span class="section-badge badge-wiskunde">Orienteer en haal voorkennis op</span>
-          </div>
-        </div>
-<div class="resource-grid">
-        <a class="resource-card " href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20instapquiz.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><circle cx="12" cy="17" r="0.5" fill="currentColor" stroke="none"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Instapquiz</h3>
-            <p>Check snel wat je al weet</p>
-          </div>
-        </a>
+    <main class="content">
+      <div class="topbar">
+        <nav class="breadcrumb" aria-label="Kruimelpad">
+          <a href="../../index.html">Boek 1: Grondslagen, vraag en aanbod</a><span>&rsaquo;</span><a href="../index.html">Hoofdstuk 1</a><span>&rsaquo;</span><span>Paragraaf 1.1.3</span>
+        </nav>
+        <button class="theme-note" id="themeToggle" type="button">Licht thema &middot; duidelijke route</button>
+      </div>
 
-        <a class="resource-card " href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20uitleg%20voorkennis.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Voorkennis</h3>
-            <p>Herhaal wat je nodig hebt voor deze les</p>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">Paragraaf landing</div>
+            <h1 id="page-title">Grafieken en tabellen</h1>
+            <p class="lead">Een duidelijke route voor de hele paragraaf: eerst bepalen wat je nodig hebt, daarna trainen, leren, oefenen, controleren en tenslotte het lesboek of extra materiaal openen.</p>
           </div>
-        </a>
-        </div>
-      </section>
-
-      <section class="section route-section" id="leer" data-route-layer="learn">
-        <div class="section-header border-grafisch">
-          <span class="section-num bg-grafisch">2</span>
-          <div class="section-title-group">
-            <div class="section-title">Leer</div>
-            <span class="section-badge badge-grafisch">Leer de kernstappen</span>
-          </div>
-        </div>
-<div class="resource-grid">
-        <a class="resource-card " href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20uitleg%20vaardigheden.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Uitleg vaardigheden</h3>
-            <p>Leer de kernstappen met voorbeelden</p>
-          </div>
-        </a>
+          <aside class="target-panel" aria-label="Leerpadstatus">
+            <h2>Jouw leerpad</h2>
+            <p>Check snel welke begrippen en basishandelingen je al paraat hebt.</p>
+            <div><a class="tile-primary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20instapquiz.html">Maak quiz &rarr;</a></div>
+            <div class="mini-meter" aria-label="Voorbeeld voortgang">
+              <div class="meter-track"><div class="meter-fill"></div></div>
+              <div class="meter-copy"><span>Instapquiz voorkennis</span><span>richting exit ticket</span></div>
+            </div>
+          </aside>
         </div>
       </section>
 
-      <section class="section route-section" id="oefen" data-route-layer="practice">
-        <div class="section-header border-economisch">
-          <span class="section-num bg-economisch">3</span>
-          <div class="section-title-group">
-            <div class="section-title">Oefen</div>
-            <span class="section-badge badge-economisch">Kies steun of een oefenroute</span>
-          </div>
-        </div>
+      <div class="route-strip" aria-label="Routeoverzicht">
+        <a class="route-chip" href="#start" data-route-layer="start"><b>Start</b><span>voorkennis + nieuws</span></a>
+        <a class="route-chip" href="#skills" data-route-layer="skill-tree-games"><b>Skill-tree games</b><span>redeneren - rekenen - grafieken</span></a>
+        <a class="route-chip" href="#leer" data-route-layer="leer"><b>Leer</b><span>uitleg + presentatie + leerpad</span></a>
+        <a class="route-chip" href="#oefen" data-route-layer="oefen"><b>Oefen</b><span>begeleid - zelfstandig - lokaal advies</span></a>
+        <a class="route-chip" href="#check" data-route-layer="check"><b>Check</b><span>kort advies + exit ticket</span></a>
+        <a class="route-chip" href="#open" data-route-layer="open-verdiep"><b>Open &amp; verdiep</b><span>lesboek + extra</span></a>
+      </div>
 
-        <div class="learning-aspect-block">
-          <div class="learning-aspect-copy">
-            <span class="resource-aspect-label">Oefenroutes</span>
-            <h3>Kies wat je wilt trainen</h3>
-            <p>Kies een oefenroute voor redeneren, rekenen of grafieken lezen.</p>
-          </div>
-          <div class="resource-grid learning-aspect-grid">
-        <a class="resource-card resource-card-interactive resource-card-aspect aspect-economisch" data-learning-aspect="reasoning" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20redeneer-spel.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44A2.5 2.5 0 0 1 2 17.5v-1A2.5 2.5 0 0 1 6.44 14H12" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44A2.5 2.5 0 0 0 22 17.5v-1a2.5 2.5 0 0 0-4.44-2.5H12" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label badge-economisch">Redeneren</span>
-            <h3>Redeneren</h3>
-            <p>Leg oorzaken, gevolgen en keuzes stap voor stap uit.</p>
-            <span class="resource-card-action">Oefenen &rarr;</span>
-          </div>
-        </a>
-
-        <a class="resource-card resource-card-interactive resource-card-aspect aspect-wiskunde" data-learning-aspect="calculation" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20wiskundevaardigheden.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 17l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 12l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label badge-wiskunde">Rekenen</span>
-            <h3>Rekenen</h3>
-            <p>Train de berekeningen die je in deze paragraaf gebruikt.</p>
-            <span class="resource-card-action">Oefenen &rarr;</span>
-          </div>
-        </a>
-
-        <a class="resource-card resource-card-interactive resource-card-aspect aspect-grafisch" data-learning-aspect="graphical" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20grafiekenspel.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><line x1="4" y1="19" x2="20" y2="19"/><line x1="4" y1="19" x2="4" y2="5"/><polyline points="6 15 10 11 13 13 18 7"/><circle cx="10" cy="11" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="7" r="1" fill="currentColor" stroke="none"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label badge-grafisch">Grafieken</span>
-            <h3>Grafieken</h3>
-            <p>Lees waarden uit grafieken en reken ermee door.</p>
-            <span class="resource-card-action">Oefenen &rarr;</span>
-          </div>
-        </a>
-          </div>
-        </div>
-
-        <div class="guided-practice-block">
-          <div class="learning-aspect-copy">
-            <span class="resource-aspect-label">Eerst steun nodig?</span>
-            <h3>Stap voor stap oefenen</h3>
-            <p>Gebruik extra steun voordat je zelfstandig oefent.</p>
-          </div>
-          <div class="resource-grid">
-        <a class="resource-card " href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20stappenplan.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22"/><polyline points="8 6 12 2 16 6"/><circle cx="12" cy="8" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="14" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="20" r="2" fill="currentColor" stroke="none"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Rekenstappen</h3>
-            <p>Gebruik extra steun om de procedure stap voor stap te oefenen</p>
-          </div>
-        </a>
-
-        <div class="resource-card resource-card-interactive">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label">Begeleid oefenen</span>
-            <h3>Begeleide inoefening</h3>
-            <p>Oefenen met denkstappen en hints</p>
-            <div class="resource-sub-links"><a class="resource-sub-link" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20begeleide%20inoefening.html">Interactief</a></div>
-          </div>
-        </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section route-section" id="check" data-route-layer="check">
-        <div class="section-header border-wiskunde">
-          <span class="section-num bg-wiskunde">4</span>
-          <div class="section-title-group">
-            <div class="section-title">Check</div>
-            <span class="section-badge badge-wiskunde">Eerst oefenadvies, daarna eindcheck</span>
-          </div>
-        </div>
-<div class="resource-grid">
-        <a class="resource-card resource-card-check resource-card-check-short" data-check-route="advisory" data-check-purpose="local-practice-advice" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20korte-check.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label check-card-kind">advies</span>
-            <h3>Korte check</h3>
-            <p class="resource-card-purpose">Krijg lokaal oefenadvies. Je ziet welke stap nu handig is; dit is geen eindcheck.</p>
-            <span class="resource-card-action">Krijg oefenadvies &rarr;</span>
-          </div>
-        </a>
-
-        <a class="resource-card resource-card-check resource-card-check-exit" data-check-route="exit-ticket" data-check-purpose="end-check" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20exit-ticket.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
-          <div class="resource-card-body">
-            <span class="resource-aspect-label check-card-kind">eindcheck</span>
-            <h3>Exit ticket</h3>
-            <p class="resource-card-purpose">Maak de eindcheck met dezelfde soort denkstappen als de eindopgave.</p>
-            <span class="resource-card-action">Maak eindcheck &rarr;</span>
-          </div>
-        </a>
-        </div>
-      </section>
-
-      <section class="section route-section" id="verdiep" data-route-layer="deepen">
-        <div class="section-header border-grafisch">
-          <span class="section-num bg-grafisch">5</span>
-          <div class="section-title-group">
-            <div class="section-title">Verdiep</div>
-            <span class="section-badge badge-grafisch">Extra context, bronnen en downloads</span>
-          </div>
-        </div>
-
-        <details class="route-secondary-group" data-route-secondary="deepen">
-          <summary>
-            <span class="route-secondary-title">Verdiep je begrip</span>
-            <span class="route-secondary-desc">Samenvatting, context en extra uitleg</span>
-          </summary>
-          <div class="resource-grid route-secondary-grid">
-        <a class="resource-card " href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20samenvatting.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Samenvatting</h3>
-            <p>Overzicht van deze paragraaf</p>
-          </div>
-        </a>
-
-        <a class="resource-card " href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20nieuws%20met%20visual.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2V9"/><line x1="10" y1="8" x2="18" y2="8"/><line x1="10" y1="12" x2="18" y2="12"/><line x1="10" y1="16" x2="14" y2="16"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Nieuws met visual</h3>
-            <p>Context en grafiek bij de stof</p>
-          </div>
-        </a>
-
-        <a class="resource-card " href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20nieuws-detective.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Nieuws-detective</h3>
-            <p>Ontdek de economie achter het nieuws</p>
-          </div>
-        </a>
-
-        <a class="resource-card " href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20youtube-videos.html">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
-          <div class="resource-card-body">
-            <h3>YouTube-video's</h3>
-            <p>Video-uitleg bij de stof</p>
-          </div>
-        </a>
-          </div>
-        </details>
-
-        <details class="route-secondary-group" data-route-secondary="sources">
-          <summary>
-            <span class="route-secondary-title">Lesboek en downloads</span>
-            <span class="route-secondary-desc">Bronnen, presentatie en lesboek</span>
-          </summary>
-          <div class="resource-grid route-secondary-grid">
-        <div class="resource-card resource-card-with-source">
-          <a class="resource-card-cover-link" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20presentatie.html" aria-label="Presentatie (web)"></a>
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Presentatie</h3>
-            <p>De les-presentatie en PowerPoint</p>
-            <div class="resource-sub-links">
-              <a class="resource-sub-link" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20presentatie.pptx" download>&darr; Download als PowerPoint</a>
+      <section class="rows" aria-label="Paragraafroute">
+        <div class="learning-row" id="start" data-route-layer="start" data-row-ready="2" data-row-total="2">
+          <div class="row-label">
+            <div class="step">1</div>
+            <div>
+              <h2>Start</h2>
+              <p>Oriënteren, voorkennis ophalen en de paragraaf actueel maken.</p>
             </div>
           </div>
+          <div class="tile-grid two">
+            <a class="tile start" data-tile-id="instapquiz" data-tile-state="available" aria-label="Open de voorkennisquiz" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20instapquiz.html">
+              <div class="tile-header"><div class="icon-badge">Q</div><div><span class="pill">voorkennis</span><h3>Instapquiz voorkennis</h3><p>Check snel welke begrippen en basishandelingen je al paraat hebt.</p></div></div>
+              <div class="tile-footer"><span>Maak quiz</span><span>&rarr;</span></div>
+            </a>
+            <a class="tile econ" data-tile-id="nieuwsdetective" data-tile-state="available" aria-label="Open de nieuws-detective" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20nieuws-detective.html">
+              <div class="tile-header"><div class="icon-badge">N</div><div><span class="pill">context</span><h3>Nieuws-detective</h3><p>Ontdek waar de economie uit deze paragraaf zichtbaar wordt in een actuele bron.</p></div></div>
+              <div class="tile-footer"><span>Onderzoek bron</span><span>&rarr;</span></div>
+            </a>
+          </div>
         </div>
 
-        <div class="resource-card resource-card-with-source">
-          <a class="resource-card-cover-link" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20paragraaf.html" aria-label="Lesboek – uitleg (web)"></a>
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Lesboek – uitleg</h3>
-            <p>De volledige paragraaf uit het lesboek</p>
-            <div class="resource-sub-links">
-              <a class="resource-sub-link" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20paragraaf.pdf" download>&darr; Download als PDF</a>
+        <div class="learning-row" id="skills" data-route-layer="skill-tree-games" data-row-ready="3" data-row-total="3">
+          <div class="row-label">
+            <div class="step">2</div>
+            <div>
+              <h2>Skill-tree games</h2>
+              <p>Train de drie hoofdvaardigheden als korte, gerichte spelroutes.</p>
             </div>
           </div>
+          <div class="tile-grid">
+            <a class="tile reason" data-tile-id="redeneren" data-tile-state="available" aria-label="Open het redeneerspel" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20redeneer-spel.html">
+              <div class="tile-header"><div class="icon-badge">R</div><div><span class="pill">redeneren</span><h3>Redeneren</h3><p>Leg oorzaken, gevolgen en keuzes stap voor stap uit.</p></div></div>
+              <div class="tile-footer"><span>Speel route</span><span>&rarr;</span></div>
+            </a>
+            <a class="tile math" data-tile-id="rekenen" data-tile-state="available" aria-label="Open het rekenspel" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20wiskundevaardigheden.html">
+              <div class="tile-header"><div class="icon-badge">%</div><div><span class="pill">rekenen</span><h3>Rekenen</h3><p>Train de berekeningen die je in deze paragraaf gebruikt.</p></div></div>
+              <div class="tile-footer"><span>Train stappen</span><span>&rarr;</span></div>
+            </a>
+            <a class="tile graph" data-tile-id="grafieken" data-tile-state="available" aria-label="Open het grafiekenspel" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20grafiekenspel.html">
+              <div class="tile-header"><div class="icon-badge">G</div><div><span class="pill">grafieken</span><h3>Grafieken</h3><p>Lees waarden uit grafieken en reken ermee door.</p></div></div>
+              <div class="tile-footer"><span>Lees grafiek</span><span>&rarr;</span></div>
+            </a>
+          </div>
         </div>
 
-        <div class="resource-card resource-card-pair">
-          <div class="resource-card-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
-          <div class="resource-card-body">
-            <h3>Lesboek – opgaven & antwoorden</h3>
-            <p>De opgaven en uitwerkingen uit het lesboek</p>
-            <div class="resource-sub-links"><a class="resource-sub-link" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20opgaven.html">Opgaven</a><a class="resource-sub-link" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20antwoorden.html">Antwoorden</a><a class="resource-sub-link" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20opgaven.pdf" download>&darr; Opgaven (PDF)</a><a class="resource-sub-link" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20antwoorden.pdf" download>&darr; Antwoorden (PDF)</a></div>
+        <div class="learning-row" id="leer" data-route-layer="leer" data-row-ready="3" data-row-total="3">
+          <div class="row-label">
+            <div class="step">3</div>
+            <div>
+              <h2>Leer</h2>
+              <p>Gebruik uitleg en route-inzicht voordat je zelfstandig gaat oefenen.</p>
+            </div>
+          </div>
+          <div class="tile-grid">
+            <article class="tile graph" data-tile-id="uitleg-vaardigheden" data-tile-state="available" aria-label="Open uitleg vaardigheden">
+              <div class="tile-header"><div class="icon-badge">U</div><div><span class="pill">uitleg</span><h3>Uitleg vaardigheden</h3><p>De kernstappen van deze paragraaf met korte voorbeelden en vaste begrippen.</p></div></div>
+              <div class="tile-footer"><a class="tile-primary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20uitleg%20vaardigheden.html">Leer stappen</a><span>&rarr;</span></div>
+              <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20uitleg%20voorkennis.html">Voorkennis</a></div>
+            </article>
+            <article class="tile econ" data-tile-id="presentatie" data-tile-state="available" aria-label="Open de PowerPoint-presentatie">
+              <div class="tile-header"><div class="icon-badge">P</div><div><span class="pill">klassikaal</span><h3>PowerPoint-presentatie</h3><p>De lespresentatie met de visuele ankers, kernvragen en klassikale uitleg.</p></div></div>
+              <div class="tile-footer"><a class="tile-primary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20presentatie.html">Open presentatie</a><span>&rarr;</span></div>
+              <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20presentatie.pptx" download>PowerPoint</a></div>
+            </article>
+            <a class="tile start" data-tile-id="skill-engine" data-tile-state="available" aria-label="Open de skill engine" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20wiskundevaardigheden.html">
+              <div class="tile-header"><div class="icon-badge">L</div><div><span class="pill">leerpad</span><h3>Skill engine / leerpad</h3><p>Bekijk welke vaardigheden bij deze paragraaf horen en wat je volgende nuttige stap is.</p></div></div>
+              <div class="tile-footer"><span>Bekijk leerpad</span><span>&rarr;</span></div>
+            </a>
           </div>
         </div>
+
+        <div class="learning-row" id="oefen" data-route-layer="oefen" data-row-ready="2" data-row-total="3">
+          <div class="row-label">
+            <div class="step">4</div>
+            <div>
+              <h2>Oefen</h2>
+              <p>Van steun naar kernopgaven en daarna eventueel routeadvies.</p>
+            </div>
           </div>
-        </details>
+          <div class="tile-grid">
+            <article class="tile check" data-tile-id="begeleide-oefeningen" data-tile-state="available" aria-label="Open begeleide oefeningen">
+              <div class="tile-header"><div class="icon-badge">B</div><div><span class="pill">met steun</span><h3>Begeleide oefeningen</h3><p>Maak opgaven met hints, tussenstappen en voorbeeldstructuur.</p></div></div>
+              <div class="tile-footer"><a class="tile-primary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20begeleide%20inoefening.html">Start begeleid</a><span>&rarr;</span></div>
+              <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20stappenplan.html">Stappenplan</a></div>
+            </article>
+            <article class="tile econ" data-tile-id="zelfstandige-oefeningen" data-tile-state="available" aria-label="Open zelfstandige oefeningen">
+              <div class="tile-header"><div class="icon-badge">Z</div><div><span class="pill">kern</span><h3>Zelfstandige oefeningen</h3><p>De normale opgavenroute van de paragraaf: dit is de kern van het oefenen.</p></div></div>
+              <div class="tile-footer"><a class="tile-primary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20opgaven.html">Maak opgaven</a><span>&rarr;</span></div>
+              <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20antwoorden.html">Antwoorden</a><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20opgaven.pdf" download>Opgaven PDF</a><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20antwoorden.pdf" download>Antwoorden PDF</a></div>
+            </article>
+            <article class="tile math tile-disabled" data-tile-id="adaptieve-oefenroute" data-tile-state="in-preparation" aria-label="Open adaptieve oefeningen" aria-disabled="true">
+              <div class="tile-header"><div class="icon-badge">A</div><div><span class="pill">in voorbereiding</span><h3>Adaptieve oefenroute</h3><p>Een voorgestelde volgende oefening op basis van lokale voortgang komt hier zodra die route klaarstaat.</p></div></div>
+              <div class="tile-footer"><span class="tile-status">In voorbereiding</span><span>...</span></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="learning-row" id="check" data-route-layer="check" data-row-ready="2" data-row-total="2">
+          <div class="row-label">
+            <div class="step">5</div>
+            <div>
+              <h2>Check</h2>
+              <p>Eerst oefenadvies, daarna een aparte eindcontrole.</p>
+            </div>
+          </div>
+          <div class="tile-grid two">
+            <a class="tile check" data-tile-id="korte-check" data-tile-state="available" aria-label="Open korte check" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20korte-check.html">
+              <div class="tile-header"><div class="icon-badge">K</div><div><span class="pill">advies</span><h3>Korte check</h3><p>Een lichte lokale check die aangeeft welke route nu verstandig is.</p></div></div>
+              <div class="tile-footer"><span>Krijg oefenadvies</span><span>&rarr;</span></div>
+            </a>
+            <a class="tile reason" data-tile-id="exit-ticket" data-tile-state="available" aria-label="Open exit ticket" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20exit-ticket.html">
+              <div class="tile-header"><div class="icon-badge">E</div><div><span class="pill">eindcontrole</span><h3>Exit ticket</h3><p>Laat zien dat je de doelopgave op hetzelfde niveau en met dezelfde antwoordvorm aankunt.</p></div></div>
+              <div class="tile-footer"><span>Maak exit ticket</span><span>&rarr;</span></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="learning-row" id="open" data-route-layer="open-verdiep" data-row-ready="3" data-row-total="3">
+          <div class="row-label">
+            <div class="step">6</div>
+            <div>
+              <h2>Open &amp; verdiep</h2>
+              <p>Open het lesboek of aanvullend materiaal wanneer je het nodig hebt.</p>
+            </div>
+          </div>
+          <div class="tile-grid">
+            <article class="tile start" data-tile-id="lesboek-openen" data-tile-state="available" aria-label="Open het lesboek">
+              <div class="tile-header"><div class="icon-badge">L</div><div><span class="pill">tekstboek</span><h3>Lesboek openen</h3><p>De volledige paragraaf met uitleg, voorbeelden en visuals.</p></div></div>
+              <div class="tile-footer"><a class="tile-primary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20paragraaf.html">Open paragraaf</a><span>&rarr;</span></div>
+              <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20paragraaf.pdf" download>PDF</a></div>
+            </article>
+            <article class="tile graph" data-tile-id="opgaven-antwoorden" data-tile-state="available" aria-label="Open opgaven en antwoorden">
+              <div class="tile-header"><div class="icon-badge">O</div><div><span class="pill">controle</span><h3>Opgaven &amp; antwoorden</h3><p>Open de opgaven, controleer je aanpak en vergelijk met de uitwerkingen.</p></div></div>
+              <div class="tile-footer"><a class="tile-primary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20opgaven.html">Open bronnen</a><span>&rarr;</span></div>
+              <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20antwoorden.html">Antwoorden</a><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20opgaven.pdf" download>Opgaven PDF</a><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20antwoorden.pdf" download>Antwoorden PDF</a></div>
+            </article>
+            <article class="tile econ" data-tile-id="aanvullend-materiaal" data-tile-state="available" aria-label="Open extra materiaal">
+              <div class="tile-header"><div class="icon-badge">+</div><div><span class="pill">extra</span><h3>Aanvullend materiaal</h3><p>Samenvatting, extra context of video zonder de hoofdroute te verstoppen.</p></div></div>
+              <div class="tile-footer"><a class="tile-primary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20samenvatting.html">Bekijk extra</a><span>&rarr;</span></div>
+              <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20nieuws%20met%20visual.html">Nieuws met visual</a><a class="tile-secondary" href="1.1.3%20Grafieken%20en%20tabellen%20%E2%80%93%20youtube-videos.html">YouTube</a></div>
+            </article>
+          </div>
+        </div>
       </section>
+
+      <p class="footer-note">Economie VWO 4 &middot; open lesmateriaal &middot; voortgang blijft lokaal op dit apparaat.</p>
     </main>
   </div>
-</div>
-
-<div class="viewer-panel" id="viewerPanel">
-  <div class="viewer-bar">
-    <span class="viewer-title" id="viewerTitle"></span>
-    <a class="viewer-download" id="viewerDownload" href="#" download>Download</a>
-    <button class="viewer-close" onclick="closeViewer()">Sluiten &times;</button>
-  </div>
-  <iframe id="viewerFrame" class="viewer-frame" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
-</div>
-
-<script src="../../shared/voorkennis.js"></script>
 <script>
-function openViewer(href, title) {
-  var abs = new URL(href, window.location.href).href;
-  var viewerURL = "https://view.officeapps.live.com/op/embed.aspx?src=" + encodeURIComponent(abs);
-  document.getElementById("viewerTitle").textContent = title;
-  document.getElementById("viewerDownload").href = href;
-  document.getElementById("viewerFrame").src = viewerURL;
-  document.getElementById("viewerPanel").classList.add("active");
-}
-function closeViewer() {
-  document.getElementById("viewerPanel").classList.remove("active");
-  document.getElementById("viewerFrame").src = "about:blank";
-}
-if (window.innerWidth > 768) {
-  document.addEventListener("click", function(e) {
-    var link = e.target.closest("a[href]");
-    if (!link) return;
-    var href = link.getAttribute("href");
-    if (!href) return;
-    var lower = href.toLowerCase();
-    if (lower.endsWith(".docx") || lower.endsWith(".pptx")) {
-      e.preventDefault();
-      var name = decodeURIComponent(href.split("/").pop()).replace(/\.[^.]+$/, "");
-      openViewer(href, name);
-    }
+(function(){
+  var button = document.getElementById('themeToggle');
+  function applyTheme(mode) {
+    document.documentElement.setAttribute('data-theme', mode);
+    try { localStorage.setItem('quizMode', mode); } catch (e) {}
+    if (button) button.innerHTML = mode === 'dark' ? 'Donker thema &middot; zelfde route' : 'Licht thema &middot; duidelijke route';
+  }
+  applyTheme(document.documentElement.getAttribute('data-theme') || 'light');
+  if (button) button.addEventListener('click', function(){
+    applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
   });
-}
+})();
 </script>
 </body>
 </html>
