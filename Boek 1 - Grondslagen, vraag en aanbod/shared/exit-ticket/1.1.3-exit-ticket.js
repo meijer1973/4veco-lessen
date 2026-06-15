@@ -418,8 +418,8 @@
                   "category": "variable"
                 },
                 {
-                  "id": "oldQden",
-                  "label": "oude Q",
+                  "id": "oldQBase",
+                  "label": "oude Q als basis",
                   "kind": "answer",
                   "category": "denominator"
                 },
@@ -437,8 +437,8 @@
                   "distractorFor": "times100"
                 },
                 {
-                  "id": "oldQnum",
-                  "label": "oude Q",
+                  "id": "oldQBeforeChange",
+                  "label": "oude Q in teller",
                   "kind": "answer",
                   "category": "variable"
                 },
@@ -462,11 +462,11 @@
                   "category": "grouping"
                 },
                 {
-                  "id": "newQden",
-                  "label": "nieuwe Q",
+                  "id": "newQBase",
+                  "label": "nieuwe Q als basis",
                   "kind": "distractor",
                   "category": "denominator",
-                  "distractorFor": "oldQden"
+                  "distractorFor": "oldQBase"
                 },
                 {
                   "id": "divide",
@@ -599,10 +599,10 @@
                 "open",
                 "newQ",
                 "minus",
-                "oldQnum",
+                "oldQBeforeChange",
                 "close",
                 "divide",
-                "oldQden",
+                "oldQBase",
                 "times100"
               ],
               "acceptedSequences": [
@@ -610,10 +610,10 @@
                   "open",
                   "newQ",
                   "minus",
-                  "oldQnum",
+                  "oldQBeforeChange",
                   "close",
                   "divide",
-                  "oldQden",
+                  "oldQBase",
                   "times100"
                 ]
               ]
