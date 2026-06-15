@@ -425,7 +425,9 @@ complete when all of the following are true:
   recommended, and when visual, graph/table, or flow-diagram interaction is
   required;
 - the landing page exposes a coherent route:
-  `Start -> Leer -> Oefen -> Check -> Verdiep`;
+  `Start -> Leer -> Check -> Oefen -> Exit ticket`;
+- `Open & verdiep` and `Skill-tree games` remain visible supporting rows, not
+  lesson-route navigation steps;
 - practice and checkpoint surfaces show the relevant skill route, current task
   purpose, useful feedback, and next action without internal codes;
 - graph/table, calculation, constructed-response, and checkpoint interactions

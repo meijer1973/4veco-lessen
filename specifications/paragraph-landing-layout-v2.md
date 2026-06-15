@@ -37,7 +37,11 @@ PR #12, and the approved fixtures instead.
 
 - The V2 layout replaces the old paragraph landing structure.
 - The page uses one shared DOM structure for light and dark mode.
-- Every paragraph renders the same six-row route structure.
+- Every paragraph renders the same seven-row route structure.
+- Sidebar and top route navigation expose only the five lesson steps: Start,
+  Leer, Check, Oefen, and Exit ticket.
+- Open & verdiep and Skill-tree games remain visible content rows, but are not
+  route-navigation steps.
 - Missing future surfaces remain visible as explicit disabled placeholders.
 - Placeholder tiles must not contain fake links or silent no-op links.
 - Student-facing labels must not expose internal MTU, operation, or route codes.
@@ -90,29 +94,34 @@ landing visual system:
    - Instapquiz voorkennis
    - Nieuws-detective
 
-2. Skill-tree games
-   - Redeneren
-   - Rekenen
-   - Grafieken
-
-3. Leer
+2. Leer
    - Uitleg vaardigheden
    - PowerPoint-presentatie
    - Skill engine / leerpad
+
+3. Check
+   - Korte check
 
 4. Oefen
    - Begeleide oefeningen
    - Zelfstandige oefeningen
    - Adaptieve oefenroute
 
-5. Check
-   - Korte check
+5. Exit ticket
    - Exit ticket
 
 6. Open & verdiep
    - Lesboek openen
    - Opgaven & antwoorden
    - Aanvullend materiaal
+
+7. Skill-tree games
+   - Redeneren
+   - Rekenen
+   - Grafieken
+
+Only rows 1 through 5 appear in the sidebar route and top route strip. Rows 6
+and 7 remain on the page as supporting material/training rows.
 
 ## Tile Availability States
 
@@ -144,7 +153,7 @@ rare and must be justified in generator rules.
 - Rekenen: prefer scoped `files.oefenen.wiskundevaardigheden`.
 - Grafieken: prefer `files.oefenen.grafiekenspel`.
 
-These tiles stay in the second row. Do not bury them inside Oefen or Verdiep.
+These tiles stay in the bottom row. Do not bury them inside Oefen or Verdiep.
 
 ### Leer
 
@@ -170,6 +179,9 @@ internal codes or unsupported mastery claims.
 ### Check
 
 - Korte check: prefer `files.check.shortCheck`; otherwise `in-preparation`.
+
+### Exit Ticket
+
 - Exit ticket: prefer `files.check.exitTicket`; otherwise `in-preparation`.
 
 The short check and exit ticket are separate surfaces with different authority.
@@ -186,16 +198,20 @@ Do not use one current file to pretend both surfaces exist.
 
 ## Core-Requirement Checklist
 
-- [ ] Generated paragraph pages render the six V2 rows.
+- [ ] Generated paragraph pages render the seven V2 rows.
+- [ ] Route navigation contains only Start, Leer, Check, Oefen, and Exit
+      ticket.
 - [ ] Start row contains Instapquiz voorkennis and Nieuws-detective.
-- [ ] Skill-tree games row contains Redeneren, Rekenen, and Grafieken.
 - [ ] Leer row contains Uitleg vaardigheden, PowerPoint-presentatie, and Skill
       engine / leerpad.
+- [ ] Check row contains Korte check only.
 - [ ] Oefen row contains Begeleide oefeningen, Zelfstandige oefeningen, and
       Adaptieve oefenroute.
-- [ ] Check row contains Korte check and Exit ticket as separate tiles.
+- [ ] Exit ticket row contains Exit ticket only.
 - [ ] Open & verdiep row contains Lesboek openen, Opgaven & antwoorden, and
       Aanvullend materiaal.
+- [ ] Skill-tree games row contains Redeneren, Rekenen, and Grafieken at the
+      bottom of the route.
 - [ ] Missing future surfaces are explicit disabled placeholders.
 - [ ] No tile has a fake link or silent no-op.
 - [ ] Light and dark mode share one layout.

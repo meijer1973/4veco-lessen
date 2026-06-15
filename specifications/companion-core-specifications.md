@@ -513,14 +513,16 @@ The canonical paragraph landing route is defined in
 `specifications/paragraph-landing-layout-v2.md` and implemented from the
 approved light/dark visual fixtures in the platform repository.
 
-Default V2 route layers:
+Default V2 lesson-route navigation layers:
 
 - `Start`
-- `Skill-tree games`
 - `Leer`
-- `Oefen`
 - `Check`
-- `Open & verdiep`
+- `Oefen`
+- `Exit ticket`
+
+`Open & verdiep` and `Skill-tree games` remain visible page rows, but they are
+supporting surfaces rather than lesson-route navigation steps.
 
 Missing route surfaces stay visible as disabled placeholders; they are not
 hidden and they are not replaced with fake links. A paragraph page that renders

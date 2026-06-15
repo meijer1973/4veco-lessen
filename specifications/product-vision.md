@@ -30,7 +30,10 @@ or summative status.
 Students should experience 4veco as a usable, clear, motivating learning
 route, not as a loose pile of textbook pages and games. The default route is:
 
-`Start -> Leer -> Oefen -> Check -> Verdiep`
+`Start -> Leer -> Check -> Oefen -> Exit ticket`
+
+`Open & verdiep` and `Skill-tree games` still appear as supporting rows on the
+landing page, but they are not part of the main lesson-route navigation.
 
 ## 3. Product promise for teachers and adopters
 
