@@ -9,23 +9,25 @@
     "intro": "Controleer of je de grafiekroute kunt starten: lees de tabel, zet punten in het werkvlak en kies je volgende oefenstap.",
     "targetSkillIds": [
       "A38",
-      "A61",
-      "A63"
+      "A45",
+      "A46"
     ],
     "skillScopeIds": [
       "A38",
-      "A61",
-      "A63"
+      "A45",
+      "A46"
     ],
     "metadataAlignment": {
       "status": "paragraph_skill_aligned_not_target_readiness",
       "paragraphSkillIds": [
         "A38",
-        "A61",
-        "A63"
+        "A45",
+        "A46"
       ],
       "targetExerciseSkillIds": [
-        "A38"
+        "A38",
+        "A45",
+        "A46"
       ],
       "targetReadinessEvidence": false,
       "sourceRefs": {
@@ -35,7 +37,7 @@
       },
       "notes": [
         "This advisory check uses graph/table interaction for local route advice but does not claim target readiness.",
-        "The target registry currently lists A38 only for 1.1.3; graph-construction units remain a protected-reference follow-up."
+        "The reviewed-final target registry lists A38/A45/A46 for 1.1.3; this advisory check remains non-target-readiness evidence."
       ]
     },
     "skillMap": {
