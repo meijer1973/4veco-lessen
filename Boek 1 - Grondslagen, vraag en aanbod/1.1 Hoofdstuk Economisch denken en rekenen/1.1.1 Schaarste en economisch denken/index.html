@@ -299,7 +299,7 @@
 
     .route-strip {
       display: grid;
-      grid-template-columns: repeat(6, minmax(0, 1fr));
+      grid-template-columns: repeat(5, minmax(0, 1fr));
       gap: 10px;
       margin: 20px 0 26px;
     }
@@ -378,6 +378,7 @@
     }
 
     .tile-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .tile-grid.single { grid-template-columns: 1fr; }
 
     .tile {
       position: relative;
@@ -520,7 +521,8 @@
       .hero { padding: 22px; border-radius: 22px; }
       .route-strip,
       .tile-grid,
-      .tile-grid.two { grid-template-columns: 1fr; }
+      .tile-grid.two,
+      .tile-grid.single { grid-template-columns: 1fr; }
       .tile { min-height: 145px; }
       .row-label { grid-template-columns: 1fr; }
       .row-label p { grid-column: auto; }
@@ -762,11 +764,10 @@
       <a class="side-link" href="../1.1.4%20Gemengde%20opgaven/index.html"><span class="side-number">1.1.4</span><span>Gemengde opgaven</span></a>
       <div class="sidebar-section-title">Route</div>
       <a class="side-link" href="#start" data-route-layer="start"><span class="side-number">1</span><span>Start</span></a>
-      <a class="side-link" href="#skills" data-route-layer="skill-tree-games"><span class="side-number">2</span><span>Skill-tree games</span></a>
-      <a class="side-link" href="#leer" data-route-layer="leer"><span class="side-number">3</span><span>Leer</span></a>
+      <a class="side-link" href="#leer" data-route-layer="leer"><span class="side-number">2</span><span>Leer</span></a>
+      <a class="side-link" href="#check" data-route-layer="check"><span class="side-number">3</span><span>Check</span></a>
       <a class="side-link" href="#oefen" data-route-layer="oefen"><span class="side-number">4</span><span>Oefen</span></a>
-      <a class="side-link" href="#check" data-route-layer="check"><span class="side-number">5</span><span>Check</span></a>
-      <a class="side-link" href="#open" data-route-layer="open-verdiep"><span class="side-number">6</span><span>Open &amp; verdiep</span></a>
+      <a class="side-link" href="#exit-ticket" data-route-layer="exit-ticket"><span class="side-number">5</span><span>Exit ticket</span></a>
     </aside>
 
     <main class="content">
@@ -798,11 +799,10 @@
 
       <div class="route-strip" aria-label="Routeoverzicht">
         <a class="route-chip" href="#start" data-route-layer="start"><b>Start</b><span>voorkennis + nieuws</span></a>
-        <a class="route-chip" href="#skills" data-route-layer="skill-tree-games"><b>Skill-tree games</b><span>redeneren - rekenen - grafieken</span></a>
         <a class="route-chip" href="#leer" data-route-layer="leer"><b>Leer</b><span>uitleg + presentatie + leerpad</span></a>
+        <a class="route-chip" href="#check" data-route-layer="check"><b>Check</b><span>kort advies</span></a>
         <a class="route-chip" href="#oefen" data-route-layer="oefen"><b>Oefen</b><span>begeleid - zelfstandig - lokaal advies</span></a>
-        <a class="route-chip" href="#check" data-route-layer="check"><b>Check</b><span>kort advies + exit ticket</span></a>
-        <a class="route-chip" href="#open" data-route-layer="open-verdiep"><b>Open &amp; verdiep</b><span>lesboek + extra</span></a>
+        <a class="route-chip" href="#exit-ticket" data-route-layer="exit-ticket"><b>Exit ticket</b><span>eindcontrole</span></a>
       </div>
 
       <section class="rows" aria-label="Paragraafroute">
@@ -826,33 +826,9 @@
           </div>
         </div>
 
-        <div class="learning-row" id="skills" data-route-layer="skill-tree-games" data-row-ready="1" data-row-total="3">
-          <div class="row-label">
-            <div class="step">2</div>
-            <div>
-              <h2>Skill-tree games</h2>
-              <p>Train de drie hoofdvaardigheden als korte, gerichte spelroutes.</p>
-            </div>
-          </div>
-          <div class="tile-grid">
-            <a class="tile reason" data-tile-id="redeneren" data-tile-state="available" aria-label="Open het redeneerspel" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20redeneer-spel.html">
-              <div class="tile-header"><div class="icon-badge">R</div><div><span class="pill">redeneren</span><h3>Redeneren</h3><p>Leg oorzaken, gevolgen en keuzes stap voor stap uit.</p></div></div>
-              <div class="tile-footer"><span>Speel route</span><span>&rarr;</span></div>
-            </a>
-            <article class="tile math tile-disabled" data-tile-id="rekenen" data-tile-state="in-preparation" aria-label="Open het rekenspel" aria-disabled="true">
-              <div class="tile-header"><div class="icon-badge">%</div><div><span class="pill">in voorbereiding</span><h3>Rekenen</h3><p>Train de berekeningen die je in deze paragraaf gebruikt.</p></div></div>
-              <div class="tile-footer"><span class="tile-status">In voorbereiding</span><span>...</span></div>
-            </article>
-            <article class="tile graph tile-disabled" data-tile-id="grafieken" data-tile-state="in-preparation" aria-label="Open het grafiekenspel" aria-disabled="true">
-              <div class="tile-header"><div class="icon-badge">G</div><div><span class="pill">in voorbereiding</span><h3>Grafieken</h3><p>Lees waarden uit grafieken en reken ermee door.</p></div></div>
-              <div class="tile-footer"><span class="tile-status">In voorbereiding</span><span>...</span></div>
-            </article>
-          </div>
-        </div>
-
         <div class="learning-row" id="leer" data-route-layer="leer" data-row-ready="2" data-row-total="3">
           <div class="row-label">
-            <div class="step">3</div>
+            <div class="step">2</div>
             <div>
               <h2>Leer</h2>
               <p>Gebruik uitleg en route-inzicht voordat je zelfstandig gaat oefenen.</p>
@@ -861,8 +837,8 @@
           <div class="tile-grid">
             <article class="tile graph" data-tile-id="uitleg-vaardigheden" data-tile-state="available" aria-label="Open uitleg vaardigheden">
               <div class="tile-header"><div class="icon-badge">U</div><div><span class="pill">uitleg</span><h3>Uitleg vaardigheden</h3><p>De kernstappen van deze paragraaf met korte voorbeelden en vaste begrippen.</p></div></div>
-              <div class="tile-footer"><a class="tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20uitleg%20vaardigheden.html">Leer stappen</a><span>&rarr;</span></div>
-              <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20uitleg%20voorkennis.html">Voorkennis</a></div>
+              <div class="tile-footer"><a class="tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20uitleg%20vaardigheden.html">Open uitleg vaardigheden</a><span>&rarr;</span></div>
+              <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20uitleg%20vaardigheden.docx" download>Uitleg vaardigheden (Word)</a><a class="tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20uitleg%20voorkennis.html">Voorkennis</a></div>
             </article>
             <article class="tile econ" data-tile-id="presentatie" data-tile-state="available" aria-label="Open de PowerPoint-presentatie">
               <div class="tile-header"><div class="icon-badge">P</div><div><span class="pill">klassikaal</span><h3>PowerPoint-presentatie</h3><p>De lespresentatie met de visuele ankers, kernvragen en klassikale uitleg.</p></div></div>
@@ -873,6 +849,22 @@
               <div class="tile-header"><div class="icon-badge">L</div><div><span class="pill">in voorbereiding</span><h3>Skill engine / leerpad</h3><p>Bekijk welke vaardigheden bij deze paragraaf horen en wat je volgende nuttige stap is.</p></div></div>
               <div class="tile-footer"><span class="tile-status">In voorbereiding</span><span>...</span></div>
             </article>
+          </div>
+        </div>
+
+        <div class="learning-row" id="check" data-route-layer="check" data-row-ready="1" data-row-total="1">
+          <div class="row-label">
+            <div class="step">3</div>
+            <div>
+              <h2>Check</h2>
+              <p>Doe een korte lokale check voor oefenadvies voordat je verder oefent.</p>
+            </div>
+          </div>
+          <div class="tile-grid single">
+            <a class="tile check" data-tile-id="korte-check" data-tile-state="available" aria-label="Open korte check" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20korte-check.html">
+              <div class="tile-header"><div class="icon-badge">K</div><div><span class="pill">advies</span><h3>Korte check</h3><p>Een lichte lokale check die aangeeft welke route nu verstandig is.</p></div></div>
+              <div class="tile-footer"><span>Krijg oefenadvies</span><span>&rarr;</span></div>
+            </a>
           </div>
         </div>
 
@@ -902,19 +894,15 @@
           </div>
         </div>
 
-        <div class="learning-row" id="check" data-route-layer="check" data-row-ready="2" data-row-total="2">
+        <div class="learning-row" id="exit-ticket" data-route-layer="exit-ticket" data-row-ready="1" data-row-total="1">
           <div class="row-label">
             <div class="step">5</div>
             <div>
-              <h2>Check</h2>
-              <p>Eerst oefenadvies, daarna een aparte eindcontrole.</p>
+              <h2>Exit ticket</h2>
+              <p>Maak de aparte eindcontrole wanneer je klaar bent voor doelopgave-niveau.</p>
             </div>
           </div>
-          <div class="tile-grid two">
-            <a class="tile check" data-tile-id="korte-check" data-tile-state="available" aria-label="Open korte check" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20korte-check.html">
-              <div class="tile-header"><div class="icon-badge">K</div><div><span class="pill">advies</span><h3>Korte check</h3><p>Een lichte lokale check die aangeeft welke route nu verstandig is.</p></div></div>
-              <div class="tile-footer"><span>Krijg oefenadvies</span><span>&rarr;</span></div>
-            </a>
+          <div class="tile-grid single">
             <a class="tile reason" data-tile-id="exit-ticket" data-tile-state="available" aria-label="Open exit ticket" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20exit-ticket.html">
               <div class="tile-header"><div class="icon-badge">E</div><div><span class="pill">eindcontrole</span><h3>Exit ticket</h3><p>Laat zien dat je de doelopgave op hetzelfde niveau en met dezelfde antwoordvorm aankunt.</p></div></div>
               <div class="tile-footer"><span>Maak exit ticket</span><span>&rarr;</span></div>
@@ -945,6 +933,30 @@
               <div class="tile-header"><div class="icon-badge">+</div><div><span class="pill">extra</span><h3>Aanvullend materiaal</h3><p>Samenvatting, extra context of video zonder de hoofdroute te verstoppen.</p></div></div>
               <div class="tile-footer"><a class="tile-primary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20samenvatting.html">Bekijk extra</a><span>&rarr;</span></div>
               <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20nieuws%20met%20visual.html">Nieuws met visual</a><a class="tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20youtube-videos.html">YouTube</a><a class="tile-secondary" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20wiskundevaardigheden.html">Vaardigheidskaart</a></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="learning-row" id="skills" data-route-layer="skill-tree-games" data-row-ready="1" data-row-total="3">
+          <div class="row-label">
+            <div class="step">7</div>
+            <div>
+              <h2>Skill-tree games</h2>
+              <p>Train de drie hoofdvaardigheden als korte, gerichte spelroutes.</p>
+            </div>
+          </div>
+          <div class="tile-grid">
+            <a class="tile reason" data-tile-id="redeneren" data-tile-state="available" aria-label="Open het redeneerspel" href="1.1.1%20Schaarste%20en%20economisch%20denken%20%E2%80%93%20redeneer-spel.html">
+              <div class="tile-header"><div class="icon-badge">R</div><div><span class="pill">redeneren</span><h3>Redeneren</h3><p>Leg oorzaken, gevolgen en keuzes stap voor stap uit.</p></div></div>
+              <div class="tile-footer"><span>Speel route</span><span>&rarr;</span></div>
+            </a>
+            <article class="tile math tile-disabled" data-tile-id="rekenen" data-tile-state="in-preparation" aria-label="Open het rekenspel" aria-disabled="true">
+              <div class="tile-header"><div class="icon-badge">%</div><div><span class="pill">in voorbereiding</span><h3>Rekenen</h3><p>Train de berekeningen die je in deze paragraaf gebruikt.</p></div></div>
+              <div class="tile-footer"><span class="tile-status">In voorbereiding</span><span>...</span></div>
+            </article>
+            <article class="tile graph tile-disabled" data-tile-id="grafieken" data-tile-state="in-preparation" aria-label="Open het grafiekenspel" aria-disabled="true">
+              <div class="tile-header"><div class="icon-badge">G</div><div><span class="pill">in voorbereiding</span><h3>Grafieken</h3><p>Lees waarden uit grafieken en reken ermee door.</p></div></div>
+              <div class="tile-footer"><span class="tile-status">In voorbereiding</span><span>...</span></div>
             </article>
           </div>
         </div>
