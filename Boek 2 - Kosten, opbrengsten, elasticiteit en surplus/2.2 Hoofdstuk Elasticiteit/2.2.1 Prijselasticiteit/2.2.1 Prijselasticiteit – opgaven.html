@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "lesson221"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }
+h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; }
+h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }
+h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }
+p { margin: 0 0 10pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
+th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 6pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="prijselasticiteit---opgaven">2.2.1 Prijselasticiteit -
+opgaven</h1>
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+<p>Een pretpark verhoogt de prijs van een dagkaart van 30 euro naar 36
+euro. Het aantal verkochte kaartjes daalt van 2000 naar 1500 per
+dag.</p>
+<p><strong>Vraag:</strong> bereken de prijselasticiteit van de vraag en
+bepaal of de vraag elastisch of inelastisch is.</p>
+<p><strong>Stap 1: Bereken de procentuele prijsverandering.</strong></p>
+<p><code>%dP = (36 - 30) / 30 x 100% = 20%</code></p>
+<p><strong>Stap 2: Bereken de procentuele verandering van de gevraagde
+hoeveelheid.</strong></p>
+<p><code>%dQv = (1500 - 2000) / 2000 x 100% = -25%</code></p>
+<p><strong>Stap 3: Bereken de prijselasticiteit.</strong></p>
+<p><code>Ev = -25% / 20% = -1,25</code></p>
+<p><strong>Stap 4: Classificeer.</strong></p>
+<p><code>|Ev| = 1,25</code>, dus de vraag is elastisch.</p>
+<p><strong>Stap 5: Concludeer.</strong></p>
+<p>De vraag reageert sterk op de prijsverhoging. Dat past bij een
+pretparkbezoek: het is uitstelbaar en er zijn alternatieven.</p>
+<hr />
+<h2 id="opgaven">Opgaven</h2>
+<h3 id="startoefeningen">Startoefeningen</h3>
+<p><strong>Opgave 1</strong> <em>(procentuele veranderingen)</em></p>
+<p>Een snackbar verhoogt de prijs van een menu van 8 euro naar 10 euro.
+Het aantal verkochte menu’s daalt van 300 naar 240 per week.</p>
+<p><strong>A.</strong> Bereken de procentuele verandering van de
+prijs.</p>
+<p><strong>B.</strong> Bereken de procentuele verandering van de
+gevraagde hoeveelheid.</p>
+<p><strong>C.</strong> Waarom is het antwoord bij B negatief?</p>
+<hr />
+<p><strong>Opgave 2</strong> <em>(elasticiteit berekenen)</em></p>
+<p>Een kledingwinkel verhoogt de prijs van een jas van 80 euro naar 100
+euro. De verkoop daalt van 50 naar 35 jassen per week.</p>
+<p><strong>A.</strong> Bereken <code>%dP</code>.</p>
+<p><strong>B.</strong> Bereken <code>%dQv</code>.</p>
+<p><strong>C.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>D.</strong> Is de vraag naar deze jas elastisch of
+inelastisch? Leg uit.</p>
+<hr />
+<p><strong>Opgave 3</strong> <em>(inelastische vraag herkennen)</em></p>
+<p>Een apotheek verkoopt een middel tegen hooikoorts. De prijs stijgt
+van 12 euro naar 15 euro. De verkoop daalt van 1000 naar 950 doosjes per
+maand.</p>
+<p><strong>A.</strong> Bereken de procentuele prijsverandering.</p>
+<p><strong>B.</strong> Bereken de procentuele verandering van de
+gevraagde hoeveelheid.</p>
+<p><strong>C.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>D.</strong> Is de vraag elastisch of inelastisch? Leg uit
+waarom dit logisch is.</p>
+<h3 id="zelfstandige-oefeningen">Zelfstandige oefeningen</h3>
+<p><strong>Opgave 4</strong></p>
+<p>Een streamingdienst verhoogt de maandprijs van 10 euro naar 12 euro.
+Het aantal abonnees daalt van 50.000 naar 38.000.</p>
+<p><strong>A.</strong> Bereken <code>%dP</code>.</p>
+<p><strong>B.</strong> Bereken <code>%dQv</code>.</p>
+<p><strong>C.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>D.</strong> Is de vraag elastisch of inelastisch?</p>
+<p><strong>E.</strong> Geef een economische verklaring. Gebruik in je
+antwoord het begrip alternatief.</p>
+<hr />
+<p><strong>Opgave 5</strong></p>
+<p>Een supermarkt verlaagt de prijs van een pak koffie van 5 euro naar 4
+euro. Het aantal verkochte pakken stijgt van 2000 naar 2600 per
+week.</p>
+<p><strong>A.</strong> Bereken de procentuele verandering van de
+prijs.</p>
+<p><strong>B.</strong> Bereken de procentuele verandering van de
+gevraagde hoeveelheid.</p>
+<p><strong>C.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>D.</strong> Is de vraag elastisch of inelastisch?</p>
+<p><strong>E.</strong> Leg uit waarom <code>Ev</code> ook bij een
+prijsverlaging meestal negatief is.</p>
+<h3 id="herhaling">Herhaling</h3>
+<p><strong>Opgave 6</strong> <em>(percentages en elasticiteit
+samen)</em></p>
+<p>Een product had eerst een prijsindex van 100 en daarna een prijsindex
+van 125. De gevraagde hoeveelheid daalde van 800 naar 680.</p>
+<p><strong>A.</strong> Met hoeveel procent is de prijs gestegen?</p>
+<p><strong>B.</strong> Bereken de procentuele verandering van de
+gevraagde hoeveelheid.</p>
+<p><strong>C.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>D.</strong> Is de vraag elastisch of inelastisch?</p>
+<p><strong>E.</strong> Een leerling zegt: “De hoeveelheid daalt met 120,
+dus de elasticiteit is <code>-120 / 25 = -4,8</code>.” Leg uit wat fout
+gaat.</p>
+<h3 id="doeloefening">Doeloefening</h3>
+<p><strong>Opgave 7</strong> <em>(bioscoop en benzine)</em></p>
+<p><strong>Bron 1 - Bioscoop Lux</strong></p>
+<p>Bioscoop Lux verhoogt de prijs van een kaartje van 10 euro naar 12
+euro. Het aantal bezoekers daalt van 500 naar 420 per week.</p>
+<p><strong>A.</strong> Bereken de procentuele verandering van de
+prijs.</p>
+<p><strong>B.</strong> Bereken de procentuele verandering van de
+gevraagde hoeveelheid.</p>
+<p><strong>C.</strong> Bereken de prijselasticiteit van de vraag.</p>
+<p><strong>D.</strong> Is de vraag naar bioscoopkaartjes elastisch of
+inelastisch? Leg in gewone taal uit wat dit betekent.</p>
+<p><strong>Bron 2 - Tankstation RouteNoord</strong></p>
+<p>Een tankstation verhoogt de prijs van benzine van 1,80 euro naar 1,90
+euro per liter. De verkoop daalt van 10.000 naar 9.800 liter per
+week.</p>
+<p><strong>E.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>F.</strong> Is de vraag naar benzine elastisch of
+inelastisch?</p>
+<p><strong>G.</strong> Leg uit waarom de vraag naar benzine meestal
+minder elastisch is dan de vraag naar veel vrijetijdsproducten.</p>
+<h3 id="context-en-antwoordstructuur">Context en antwoordstructuur</h3>
+<p><strong>Opgave 8</strong> <em>(tabelopgave)</em></p>
+<p>Gebruik de tabel.</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th style="text-align: right;">Oude prijs</th>
+<th style="text-align: right;">Nieuwe prijs</th>
+<th style="text-align: right;">Oude Qv</th>
+<th style="text-align: right;">Nieuwe Qv</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td style="text-align: right;">20 euro</td>
+<td style="text-align: right;">22 euro</td>
+<td style="text-align: right;">400</td>
+<td style="text-align: right;">360</td>
+</tr>
+<tr>
+<td>B</td>
+<td style="text-align: right;">5 euro</td>
+<td style="text-align: right;">6 euro</td>
+<td style="text-align: right;">1200</td>
+<td style="text-align: right;">1188</td>
+</tr>
+</tbody>
+</table>
+<p><strong>A.</strong> Bereken <code>Ev</code> voor product A.</p>
+<p><strong>B.</strong> Bereken <code>Ev</code> voor product B.</p>
+<p><strong>C.</strong> Welk product heeft de meest elastische vraag?
+Gebruik <code>|Ev|</code> in je uitleg.</p>
+<p><strong>D.</strong> Schrijf bij product B een volledige conclusie in
+woorden.</p>
+<hr />
+<p><strong>Opgave 9</strong> <em>(antwoord beoordelen)</em></p>
+<p>Een leerling schrijft bij een opgave:</p>
+<blockquote>
+<p><code>Ev = -0,6</code>, dus de vraag is elastisch, want het getal is
+negatief.</p>
+</blockquote>
+<p><strong>A.</strong> Wat is goed aan dit antwoord?</p>
+<p><strong>B.</strong> Wat is fout aan dit antwoord?</p>
+<p><strong>C.</strong> Verbeter het antwoord. Gebruik het woord
+<code>|Ev|</code>.</p>
+</body>
+</html>
