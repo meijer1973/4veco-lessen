@@ -19,7 +19,7 @@
     ],
     "targetEquivalent": {
       "candidate": true,
-      "gateApproved": false,
+      "gateApproved": true,
       "completionLanguageEligible": false
     },
     "layout": {
@@ -31,7 +31,7 @@
       "sourceNote": "Gebruik deze gegevens als bron voor je berekeningen en uitleg."
     },
     "metadataAlignment": {
-      "status": "golden_workbench_transfer_candidate",
+      "status": "target_equivalent_aligned",
       "paragraphSkillIds": [
         "A38",
         "A39",
@@ -42,7 +42,7 @@
         "A39",
         "D31"
       ],
-      "targetReadinessEvidence": false,
+      "targetReadinessEvidence": true,
       "sourceRefs": {
         "operationChain": "reports/sprints/L1.7B-Q2-operation-chain.md",
         "answerModel": "reports/sprints/L1.7B-Q2-answer-model.md",
@@ -51,7 +51,8 @@
       },
       "notes": [
         "The task sequence covers percentage change, index conversion, percentage change between index values, and the required short notation explanation.",
-        "GATE-L1.7B-Q2 approved the earlier local legacy 1.1.2 copy; this Golden Workbench transfer holds target-equivalent readiness and completion language pending review."
+        "B1-GRAPH-EVIDENCE-112-CLOSURE-AND-IMPLEMENTATION-BUNDLE-1 internal REV-STD-1 lead review approves target-equivalent readiness for this Golden Workbench transfer only.",
+        "Completion language remains held; this does not authorize product-route adoption, diagnostics, mastery, PV, Scale Gate 1, broad product use, or student product use."
       ]
     },
     "skillMap": {
