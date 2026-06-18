@@ -5,7 +5,7 @@ chapter: "1.3 Aanbod en marktevenwicht"
 type: theory
 framework_version: "onderzoekskader 2021, bijgesteld 2025"
 standards_verified: "2026-05-19"
-target_exercise_status: "migrated_from_v4_needs_v5_review"
+target_exercise_status: "reviewed_final_source_registry_with_lesson_flags"
 cp6_quality_ready: false
 content:
   paragraaf_md: true
@@ -27,10 +27,15 @@ review:
   unresolved_blockers: 0
   verdict: "PASS WITH FLAGS"
   flags:
-    - "Target exercise is migrated from v4 and still needs v5 final review."
+    - "Source registry is reviewed_final; CP-6/Year 1 closure is not claimed here."
     - "Opgaven staan zowel in paragraaf.md als opgaven.md as current Part A pattern."
 l_cp6a:
   status: "aligned_with_active_v5_with_flags"
   migrated_from: "1.4.2 Verschuivingen"
   cp6_closed: false
   year1_closed: false
+l_inspect11d:
+  status: "quality_ref_review_reconciled"
+  source_registry_status: "reviewed_final"
+  remaining_flags:
+    - "Duplicated exercise pattern remains a Part A maintenance flag."
