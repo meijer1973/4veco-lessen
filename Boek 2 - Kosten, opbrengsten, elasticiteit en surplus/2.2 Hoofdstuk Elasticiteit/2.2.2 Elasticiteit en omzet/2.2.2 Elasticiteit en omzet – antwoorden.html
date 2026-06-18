@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.2.2 Elasticiteit en omzet"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }
+h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; }
+h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }
+h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }
+p { margin: 0 0 10pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
+th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 6pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="elasticiteit-en-omzet---antwoorden">2.2.2 Elasticiteit en omzet
+- antwoorden</h1>
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+<p><strong>Stap 1: oude omzet</strong></p>
+<p><code>TO oud = 12 x 40.000 = 480.000 euro</code></p>
+<p><strong>Stap 2: nieuwe omzet</strong></p>
+<p><code>TO nieuw = 10 x 52.000 = 520.000 euro</code></p>
+<p><strong>Stap 3: vergelijking</strong></p>
+<p>De omzet stijgt met 40.000 euro.</p>
+<p><strong>Stap 4: elasticiteit</strong></p>
+<p><code>%dP = (10 - 12) / 12 x 100% = -16,7%</code></p>
+<p><code>%dQv = (52.000 - 40.000) / 40.000 x 100% = 30%</code></p>
+<p><code>Ev = 30% / -16,7% = -1,8</code></p>
+<p><code>|Ev| = 1,8</code>, dus de vraag is elastisch.</p>
+<p><strong>Stap 5: conclusie</strong></p>
+<p>Dit past bij de omzetregel. Bij elastische vraag leidt een
+prijsverlaging tot hogere omzet, omdat de hoeveelheid relatief sterker
+stijgt dan de prijs daalt.</p>
+<hr />
+<h2 id="opgave-1">Opgave 1</h2>
+<p><strong>A.</strong></p>
+<p><code>TO oud = 8 x 200 = 1600 euro</code></p>
+<p><strong>B.</strong></p>
+<p><code>TO nieuw = 9 x 190 = 1710 euro</code></p>
+<p><strong>C.</strong> De omzet stijgt van 1600 euro naar 1710 euro. De
+stijging is 110 euro.</p>
+<hr />
+<h2 id="opgave-2">Opgave 2</h2>
+<p><strong>A.</strong></p>
+<p><code>%dP = (48 - 40) / 40 x 100% = 20%</code></p>
+<p><strong>B.</strong></p>
+<p><code>%dQv = (780 - 1000) / 1000 x 100% = -22%</code></p>
+<p><strong>C.</strong></p>
+<p><code>Ev = -22% / 20% = -1,1</code></p>
+<p><code>|Ev| = 1,1</code>, dus de vraag is elastisch.</p>
+<p><strong>D.</strong></p>
+<p><code>TO oud = 40 x 1000 = 40.000 euro</code></p>
+<p><code>TO nieuw = 48 x 780 = 37.440 euro</code></p>
+<p><strong>E.</strong> De omzet daalt. Dat past bij elastische vraag: de
+prijs stijgt met 20%, maar het aantal leden daalt met 22%. De
+hoeveelheid reageert relatief sterker dan de prijs.</p>
+<hr />
+<h2 id="opgave-3">Opgave 3</h2>
+<p><strong>A.</strong></p>
+<p><code>%dP = (12 - 10) / 10 x 100% = 20%</code></p>
+<p><code>%dQv = (1900 - 2000) / 2000 x 100% = -5%</code></p>
+<p><strong>B.</strong></p>
+<p><code>Ev = -5% / 20% = -0,25</code></p>
+<p><code>|Ev| = 0,25</code>, dus de vraag is inelastisch.</p>
+<p><strong>C.</strong></p>
+<p><code>TO oud = 10 x 2000 = 20.000 euro</code></p>
+<p><code>TO nieuw = 12 x 1900 = 22.800 euro</code></p>
+<p><strong>D.</strong> De omzet stijgt. Dat past bij inelastische vraag:
+de prijs stijgt, maar de hoeveelheid daalt relatief weinig.</p>
+<hr />
+<h2 id="opgave-4">Opgave 4</h2>
+<p><strong>A.</strong></p>
+<p><code>%dP = (40 - 50) / 50 x 100% = -20%</code></p>
+<p><strong>B.</strong></p>
+<p><code>%dQv = (1500 - 1000) / 1000 x 100% = 50%</code></p>
+<p><strong>C.</strong></p>
+<p><code>Ev = 50% / -20% = -2,5</code></p>
+<p><code>|Ev| = 2,5</code>, dus de vraag is elastisch.</p>
+<p><strong>D.</strong></p>
+<p><code>TO oud = 50 x 1000 = 50.000 euro</code></p>
+<p><code>TO nieuw = 40 x 1500 = 60.000 euro</code></p>
+<p><strong>E.</strong> Ja. Bij elastische vraag leidt een prijsverlaging
+tot hogere omzet. De prijs daalt met 20%, maar de hoeveelheid stijgt met
+50%.</p>
+<hr />
+<h2 id="opgave-5">Opgave 5</h2>
+<p><strong>A.</strong></p>
+<p><code>%dP = (4,50 - 5) / 5 x 100% = -10%</code></p>
+<p><code>%dQv = (2100 - 2000) / 2000 x 100% = 5%</code></p>
+<p><code>Ev = 5% / -10% = -0,5</code></p>
+<p><strong>B.</strong> <code>|Ev| = 0,5</code>, dus de vraag is
+inelastisch.</p>
+<p><strong>C.</strong></p>
+<p><code>TO oud = 5 x 2000 = 10.000 euro</code></p>
+<p><code>TO nieuw = 4,50 x 2100 = 9450 euro</code></p>
+<p><strong>D.</strong> De omzet daalt. Bij inelastische vraag stijgt de
+hoeveelheid minder sterk dan de prijs daalt. De extra verkochte pakken
+maken de lagere prijs per pak niet goed.</p>
+<hr />
+<h2 id="opgave-6">Opgave 6</h2>
+<h3 id="bron-1---bioscoop-lux">Bron 1 - Bioscoop Lux</h3>
+<p><strong>A.</strong></p>
+<p><code>TO oud = 10 x 500 = 5000 euro</code></p>
+<p><code>TO nieuw = 12 x 420 = 5040 euro</code></p>
+<p>De omzet stijgt met 40 euro.</p>
+<p><strong>B.</strong> <code>Ev = -0,8</code>, dus
+<code>|Ev| = 0,8</code>. De vraag is inelastisch.</p>
+<p><strong>C.</strong> De omzet stijgt omdat de prijs met 20% stijgt,
+terwijl het aantal bezoekers met 16% daalt. De hoeveelheid reageert
+minder sterk dan de prijs. Dat past bij inelastische vraag.</p>
+<p><strong>D.</strong> Voorzichtig omzetadvies: op basis van deze
+gegevens heeft de prijsverhoging de omzet iets verhoogd. De eigenaar kan
+dus niet zeggen dat prijsverhoging altijd slecht is. Toch moet hij
+voorzichtig zijn met verder verhogen, omdat <code>Ev</code> bij een
+andere prijs opnieuw kan veranderen. Dit is bovendien alleen een
+omzetadvies, geen winstadvies.</p>
+<h3 id="bron-2---tankstation-routenoord">Bron 2 - Tankstation
+RouteNoord</h3>
+<p><strong>E.</strong></p>
+<p><code>TO oud = 1,80 x 10.000 = 18.000 euro</code></p>
+<p><code>TO nieuw = 1,90 x 9.800 = 18.620 euro</code></p>
+<p>De omzet stijgt met 620 euro.</p>
+<p><strong>F.</strong> <code>Ev = -0,36</code>, dus
+<code>|Ev| = 0,36</code>. De vraag is inelastisch. De prijsverhoging
+helpt de omzet, omdat de hoeveelheid liters relatief weinig daalt.</p>
+<p><strong>G.</strong> Bij inelastische vraag leidt een prijsverhoging
+tot <strong>hogere</strong> omzet.</p>
+<hr />
+<h2 id="opgave-7">Opgave 7</h2>
+<h3 id="product-a">Product A</h3>
+<p><strong>A.</strong></p>
+<p><code>%dP = (22 - 20) / 20 x 100% = 10%</code></p>
+<p><code>%dQv = (340 - 400) / 400 x 100% = -15%</code></p>
+<p><code>Ev = -15% / 10% = -1,5</code></p>
+<p><code>|Ev| = 1,5</code>, dus de vraag is elastisch.</p>
+<p><strong>B.</strong></p>
+<p><code>TO oud = 20 x 400 = 8000 euro</code></p>
+<p><code>TO nieuw = 22 x 340 = 7480 euro</code></p>
+<p>De omzet daalt.</p>
+<h3 id="product-b">Product B</h3>
+<p><strong>C.</strong></p>
+<p><code>%dP = (6 - 5) / 5 x 100% = 20%</code></p>
+<p><code>%dQv = (1188 - 1200) / 1200 x 100% = -1%</code></p>
+<p><code>Ev = -1% / 20% = -0,05</code></p>
+<p><code>|Ev| = 0,05</code>, dus de vraag is inelastisch.</p>
+<p><strong>D.</strong></p>
+<p><code>TO oud = 5 x 1200 = 6000 euro</code></p>
+<p><code>TO nieuw = 6 x 1188 = 7128 euro</code></p>
+<p>De omzet stijgt.</p>
+<p><strong>E.</strong> Product A past bij elastische vraag:
+<code>|Ev| = 1,5</code> en de omzet daalt na de prijsverhoging. Product
+B past bij inelastische vraag: <code>|Ev| = 0,05</code> en de omzet
+stijgt na de prijsverhoging.</p>
+<hr />
+<h2 id="opgave-8">Opgave 8</h2>
+<p><strong>A.</strong> Het antwoord is fout of in elk geval onvolledig,
+omdat de hoeveelheid ook verandert. Als de hoeveelheid sterk daalt, kan
+de omzet juist dalen ondanks de hogere prijs.</p>
+<p><strong>B.</strong> Je moet
+<code>TO oud = oude prijs x oude hoeveelheid</code> en
+<code>TO nieuw = nieuwe prijs x nieuwe hoeveelheid</code> berekenen.</p>
+<p><strong>C.</strong> Verbeterd antwoord: als de prijs stijgt, hangt de
+omzet af van de reactie van de hoeveelheid. Stijgt de prijs maar daalt
+de hoeveelheid weinig, dan kan de omzet stijgen. Daalt de hoeveelheid
+sterk, dan kan de omzet dalen.</p>
+<hr />
+<h2 id="opgave-9">Opgave 9</h2>
+<p><strong>A.</strong></p>
+<p><code>%dP = (20 - 25) / 25 x 100% = -20%</code></p>
+<p><code>%dQv = (1100 - 800) / 800 x 100% = 37,5%</code></p>
+<p><code>Ev = 37,5% / -20% = -1,875</code></p>
+<p>Afgerond: <code>Ev = -1,88</code>. <code>|Ev| = 1,88</code>, dus de
+vraag is elastisch.</p>
+<p><strong>B.</strong></p>
+<p><code>TO oud = 25 x 800 = 20.000 euro</code></p>
+<p><code>TO nieuw = 20 x 1100 = 22.000 euro</code></p>
+<p>De omzet stijgt met 2000 euro.</p>
+<p><strong>C.</strong> Als het doel hogere omzet is, was de
+prijsverlaging verstandig in deze situatie. De vraag is elastisch, dus
+de extra bezoekers wegen zwaarder dan de lagere prijs per kaartje.</p>
+<p><strong>D.</strong> Je kunt nog geen winstadvies geven, omdat je
+niets weet over kosten. Omzet is <code>P x Q</code>; winst hangt ook af
+van kosten.</p>
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.2.2 Elasticiteit en omzet"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }
+h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; }
+h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }
+h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }
+p { margin: 0 0 10pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
+th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 6pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="elasticiteit-en-omzet---opgaven">2.2.2 Elasticiteit en omzet -
+opgaven</h1>
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+<p>Een streamingdienst verlaagt de maandprijs van 12 euro naar 10 euro.
+Het aantal abonnees stijgt van 40.000 naar 52.000.</p>
+<p><strong>Vraag:</strong> bereken wat er met de omzet gebeurt en leg
+uit of dit past bij elastische of inelastische vraag.</p>
+<p><strong>Stap 1: Bereken de oude omzet.</strong></p>
+<p><code>TO oud = 12 x 40.000 = 480.000 euro</code></p>
+<p><strong>Stap 2: Bereken de nieuwe omzet.</strong></p>
+<p><code>TO nieuw = 10 x 52.000 = 520.000 euro</code></p>
+<p><strong>Stap 3: Vergelijk.</strong></p>
+<p>De omzet stijgt met 40.000 euro.</p>
+<p><strong>Stap 4: Verbind met elasticiteit.</strong></p>
+<p><code>%dP = (10 - 12) / 12 x 100% = -16,7%</code></p>
+<p><code>%dQv = (52.000 - 40.000) / 40.000 x 100% = 30%</code></p>
+<p><code>Ev = 30% / -16,7% = -1,8</code></p>
+<p><code>|Ev| = 1,8</code>, dus de vraag is elastisch.</p>
+<p><strong>Stap 5: Concludeer.</strong></p>
+<p>Bij elastische vraag leidt een prijsverlaging tot hogere omzet. De
+hoeveelheid stijgt relatief sterker dan de prijs daalt.</p>
+<hr />
+<h2 id="opgaven">Opgaven</h2>
+<h3 id="startoefeningen">Startoefeningen</h3>
+<p><strong>Opgave 1</strong> <em>(omzet berekenen)</em></p>
+<p>Een lunchroom verhoogt de prijs van een broodje van 8 euro naar 9
+euro. Het aantal verkochte broodjes daalt van 200 naar 190 per dag.</p>
+<p><strong>A.</strong> Bereken de oude omzet.</p>
+<p><strong>B.</strong> Bereken de nieuwe omzet.</p>
+<p><strong>C.</strong> Is de omzet gestegen of gedaald?</p>
+<hr />
+<p><strong>Opgave 2</strong> <em>(prijs omhoog, elastische
+vraag)</em></p>
+<p>Een sportschool verhoogt de maandprijs van 40 euro naar 48 euro. Het
+aantal leden daalt van 1000 naar 780.</p>
+<p><strong>A.</strong> Bereken <code>%dP</code>.</p>
+<p><strong>B.</strong> Bereken <code>%dQv</code>.</p>
+<p><strong>C.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>D.</strong> Bereken de oude en nieuwe omzet.</p>
+<p><strong>E.</strong> Leg uit waarom de omzetverandering past bij
+elastische vraag.</p>
+<hr />
+<p><strong>Opgave 3</strong> <em>(prijs omhoog, inelastische
+vraag)</em></p>
+<p>Een apotheek verhoogt de prijs van een hooikoortsmiddel van 10 euro
+naar 12 euro. De verkoop daalt van 2000 naar 1900 doosjes per maand.</p>
+<p><strong>A.</strong> Bereken <code>%dP</code> en
+<code>%dQv</code>.</p>
+<p><strong>B.</strong> Bereken <code>Ev</code> en classificeer de
+vraag.</p>
+<p><strong>C.</strong> Bereken de oude en nieuwe omzet.</p>
+<p><strong>D.</strong> Leg uit waarom de omzet stijgt of daalt.</p>
+<h3 id="zelfstandige-oefeningen">Zelfstandige oefeningen</h3>
+<p><strong>Opgave 4</strong> <em>(prijs omlaag, elastische
+vraag)</em></p>
+<p>Een gamewinkel verlaagt de prijs van een spel van 50 euro naar 40
+euro. De verkoop stijgt van 1000 naar 1500 spellen.</p>
+<p><strong>A.</strong> Bereken de procentuele prijsverandering.</p>
+<p><strong>B.</strong> Bereken de procentuele verandering van de
+gevraagde hoeveelheid.</p>
+<p><strong>C.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>D.</strong> Bereken de oude en nieuwe omzet.</p>
+<p><strong>E.</strong> Past dit bij de omzetregel? Leg uit.</p>
+<hr />
+<p><strong>Opgave 5</strong> <em>(prijs omlaag, inelastische
+vraag)</em></p>
+<p>Een supermarkt verlaagt de prijs van koffie van 5 euro naar 4,50 euro
+per pak. De verkoop stijgt van 2000 naar 2100 pakken per week.</p>
+<p><strong>A.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>B.</strong> Is de vraag elastisch of inelastisch?</p>
+<p><strong>C.</strong> Bereken de oude en nieuwe omzet.</p>
+<p><strong>D.</strong> Leg uit waarom een prijsverlaging bij
+inelastische vraag de omzet kan verlagen.</p>
+<h3 id="doeloefening">Doeloefening</h3>
+<p><strong>Opgave 6</strong> <em>(bioscoop en tankstation)</em></p>
+<p><strong>Bron 1 - Bioscoop Lux</strong></p>
+<p>Bioscoop Lux verhoogt de prijs van een kaartje van 10 euro naar 12
+euro. Het aantal bezoekers daalt van 500 naar 420 per week.</p>
+<p><strong>A.</strong> Bereken de oude en nieuwe omzet.</p>
+<p><strong>B.</strong> In 2.2.1 vond je <code>Ev = -0,8</code>. Is de
+vraag elastisch of inelastisch?</p>
+<p><strong>C.</strong> Leg uit waarom de omzet stijgt of daalt. Gebruik
+<code>Ev</code> in je uitleg.</p>
+<p><strong>D.</strong> De eigenaar vraagt: “Moet ik de prijs verder
+verhogen?” Geef een voorzichtig omzetadvies op basis van deze
+gegevens.</p>
+<p><strong>Bron 2 - Tankstation RouteNoord</strong></p>
+<p>Een tankstation verhoogt de prijs van benzine van 1,80 euro naar 1,90
+euro per liter. De verkoop daalt van 10.000 naar 9.800 liter per
+week.</p>
+<p><strong>E.</strong> Bereken de oude en nieuwe omzet.</p>
+<p><strong>F.</strong> In 2.2.1 vond je ongeveer
+<code>Ev = -0,36</code>. Leg uit of de prijsverhoging de omzet
+helpt.</p>
+<p><strong>G.</strong> Vul aan: bij inelastische vraag leidt een
+prijsverhoging tot … omzet.</p>
+<h3 id="tabellen-en-advies">Tabellen en advies</h3>
+<p><strong>Opgave 7</strong> <em>(tabelopgave)</em></p>
+<p>Gebruik de tabel.</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th style="text-align: right;">Oude prijs</th>
+<th style="text-align: right;">Nieuwe prijs</th>
+<th style="text-align: right;">Oude Q</th>
+<th style="text-align: right;">Nieuwe Q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td style="text-align: right;">20 euro</td>
+<td style="text-align: right;">22 euro</td>
+<td style="text-align: right;">400</td>
+<td style="text-align: right;">340</td>
+</tr>
+<tr>
+<td>B</td>
+<td style="text-align: right;">5 euro</td>
+<td style="text-align: right;">6 euro</td>
+<td style="text-align: right;">1200</td>
+<td style="text-align: right;">1188</td>
+</tr>
+</tbody>
+</table>
+<p><strong>A.</strong> Bereken <code>Ev</code> voor product A.</p>
+<p><strong>B.</strong> Bereken de oude en nieuwe omzet voor product
+A.</p>
+<p><strong>C.</strong> Bereken <code>Ev</code> voor product B.</p>
+<p><strong>D.</strong> Bereken de oude en nieuwe omzet voor product
+B.</p>
+<p><strong>E.</strong> Welk product past bij elastische vraag? Gebruik
+omzet en <code>|Ev|</code> in je uitleg.</p>
+<hr />
+<p><strong>Opgave 8</strong> <em>(antwoord beoordelen)</em></p>
+<p>Een leerling schrijft:</p>
+<blockquote>
+<p>“De prijs stijgt, dus de omzet stijgt automatisch.”</p>
+</blockquote>
+<p><strong>A.</strong> Leg uit waarom dit antwoord onvolledig of fout
+is.</p>
+<p><strong>B.</strong> Welke twee berekeningen moet je maken om het
+antwoord te controleren?</p>
+<p><strong>C.</strong> Verbeter het antwoord met de woorden prijs,
+hoeveelheid en omzet.</p>
+<hr />
+<p><strong>Opgave 9</strong> <em>(advies structureren)</em></p>
+<p>Een theater verlaagt de prijs van een kaartje van 25 euro naar 20
+euro. Het aantal bezoekers stijgt van 800 naar 1100.</p>
+<p><strong>A.</strong> Bereken <code>Ev</code>.</p>
+<p><strong>B.</strong> Bereken de oude en nieuwe omzet.</p>
+<p><strong>C.</strong> Geef een omzetadvies: was de prijsverlaging
+verstandig als het doel hogere omzet is?</p>
+<p><strong>D.</strong> Waarom kun je op basis van deze gegevens nog geen
+winstadvies geven?</p>
+</body>
+</html>
