@@ -11,6 +11,7 @@ CHAPTER = "2.2 Elasticiteit"
 
 PARAGRAPHS = [
     ("2.2.1 Prijselasticiteit", "paragraaf", "antwoorden"),
+    ("2.2.2 Elasticiteit en omzet", "paragraaf", "antwoorden"),
 ]
 
 CSS = """<style>
@@ -145,6 +146,7 @@ FRONT = """<div class="chapter-front">
 | Paragraaf | Onderwerp |
 |---|---|
 | 2.2.1 | Prijselasticiteit |
+| 2.2.2 | Elasticiteit en omzet |
 
 ## Leerdoelen
 
@@ -153,11 +155,14 @@ Na deze paragraaf kun je:
 - procentuele prijsverandering en procentuele hoeveelheidsverandering berekenen;
 - prijselasticiteit van de vraag berekenen met `Ev = %dQv / %dP`;
 - signed `Ev` opschrijven en daarna met `|Ev|` bepalen of de vraag elastisch of inelastisch is;
-- uitleggen waarom consumenten sterk of zwak reageren op een prijsverandering.
+- uitleggen waarom consumenten sterk of zwak reageren op een prijsverandering;
+- `TO = P x Q` gebruiken om omzet voor en na een prijsverandering te berekenen;
+- uitleggen waarom elasticiteit bepaalt of omzet stijgt of daalt;
+- een voorzichtig omzetadvies geven zonder winst of kosten te gebruiken.
 
 ## Waarom elasticiteit belangrijk is
 
-Een prijsverandering lijkt eenvoudig: de prijs gaat omhoog of omlaag. Voor een onderneming is de echte vraag wat klanten daarna doen. Elasticiteit helpt je om die reactie te meten, te berekenen en in gewone taal uit te leggen.
+Een prijsverandering lijkt eenvoudig: de prijs gaat omhoog of omlaag. Voor een onderneming is de echte vraag wat klanten daarna doen. Elasticiteit helpt je om die reactie te meten, te berekenen en in gewone taal uit te leggen. Daarna kun je beoordelen wat er met de omzet gebeurt.
 
 </div>
 """
@@ -317,8 +322,9 @@ def build_pdf(md_path, pdf_path):
         flags=re.DOTALL,
     )
     html = html.replace("</head>", CSS + "</head>")
+    html = "\n".join(line.rstrip() for line in html.splitlines()) + "\n"
     html_path = str(pdf_path).replace(".pdf", ".html")
-    Path(html_path).write_text(html, encoding="utf-8")
+    Path(html_path).write_text(html, encoding="utf-8", newline="\n")
 
     import weasyprint
 
@@ -331,6 +337,5 @@ if __name__ == "__main__":
     for kind in ["hoofdstuk", "antwoorden"]:
         md_path = BASE / f"{CHAPTER} \u2013 {kind}.md"
         pdf_path = BASE / f"{CHAPTER} \u2013 {kind}.pdf"
-        md_path.write_text(assemble(kind), encoding="utf-8")
+        md_path.write_text(assemble(kind), encoding="utf-8", newline="\n")
         build_pdf(md_path, pdf_path)
-
