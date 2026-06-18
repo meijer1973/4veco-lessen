@@ -24,7 +24,7 @@ th {{ background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left
 td {{ border: 1px solid #999; padding: 2pt 6pt; }}
 tr:nth-child(even) td {{ background: #FAFBFC; }}
 img {{ max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }}
-blockquote {{ background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; }}
+blockquote {{ background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; break-inside: avoid; }}
 code {{ background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }}
 hr {{ border: none; border-top: 1px solid #BBB; margin: 18pt 0; }}
 ul, ol {{ margin: 0 0 10pt 0; padding-left: 20pt; }}

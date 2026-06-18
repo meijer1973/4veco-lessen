@@ -27,7 +27,7 @@ This keeps the paragraph within the readiness brief's preference for simple, rea
 
 ## Terminology
 
-- Use `TO` for totale omzet.
+- Use `TO` for totale opbrengst; explain once that totale opbrengst is also called omzet.
 - Use `TO = P x Q` in student-facing formulas.
 - Use signed `Ev` first, then `|Ev|` for elastic/inelastic classification.
 - Use "old value" as denominator for percentage changes.
