@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <rect width="1100" height="620" fill="#ffffff"/>
+  <g font-family="Arial, sans-serif">
+    <text x="45" y="78" font-size="48" font-weight="700" fill="#1A5276">Beslis met de absolute waarde van Ev</text>
+    <text x="47" y="126" font-size="36" font-weight="600" fill="#333333">Kijk of de grootte kleiner dan 1, gelijk aan 1, of groter dan 1 is.</text>
+
+    <rect x="70" y="185" width="350" height="140" rx="22" fill="#F4F7FA" stroke="#1A5276" stroke-width="5"/>
+    <text x="135" y="242" font-size="33" font-weight="700" fill="#1f1f1f">|Ev| &lt; 1</text>
+    <text x="135" y="288" font-size="33" font-weight="700" fill="#1f1f1f">inelastisch</text>
+
+    <rect x="680" y="185" width="350" height="140" rx="22" fill="#F4F7FA" stroke="#1A5276" stroke-width="5"/>
+    <text x="755" y="242" font-size="33" font-weight="700" fill="#1f1f1f">|Ev| &gt; 1</text>
+    <text x="755" y="288" font-size="33" font-weight="700" fill="#1f1f1f">elastisch</text>
+
+    <line x1="95" y1="370" x2="1005" y2="370" stroke="#1A5276" stroke-width="8"/>
+    <circle cx="550" cy="370" r="24" fill="#1A5276"/>
+    <text x="88" y="430" font-size="34" font-weight="700" fill="#1A5276">0</text>
+    <text x="540" y="430" font-size="34" font-weight="700" fill="#1A5276">1</text>
+    <text x="930" y="430" font-size="34" font-weight="700" fill="#1A5276">groter</text>
+
+    <rect x="365" y="455" width="370" height="105" rx="22" fill="#FFF4CF" stroke="#C8A100" stroke-width="5"/>
+    <text x="430" y="520" font-size="34" font-weight="700" fill="#1f1f1f">|Ev| = 1: unitair</text>
+
+    <text x="95" y="598" font-size="32" font-weight="700" fill="#1f1f1f">Voorbeeld: Ev = -0,8 -&gt; |Ev| = 0,8 -&gt; inelastisch.</text>
+  </g>
+</svg>
