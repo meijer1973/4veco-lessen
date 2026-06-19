@@ -1,19 +1,100 @@
-<!DOCTYPE html>
-<html lang="nl">
+<!doctype html>
+<html lang="nl" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grafieken en tabellen – Nieuws-detective</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>1.1.3 Grafieken en tabellen - Nieuws-detective</title>
     <link rel="stylesheet" href="../../shared/newsdetective.css">
 </head>
-<body>
-<a class="back-to-overview" href="index.html">&larr; Terug naar overzicht</a>
-<div class="nd-app" id="nd-app"></div>
+<body data-layout="news-detective-v2">
+  <div class="app-shell" id="nd-app">
+    <aside class="sidebar" aria-label="Paragraafnavigatie">
+      <div class="brand">
+        <div class="brand-mark">4V</div>
+        <div>
+          <strong>4veco</strong>
+          <small>Nieuws-detective</small>
+        </div>
+      </div>
+      <p class="sidebar-section-title">Paragraaf</p>
+      <a class="side-link" href="index.html"><span class="side-number">1.1.3</span><span>Grafieken en tabellen</span></a>
+      <p class="sidebar-section-title">Route</p>
+      <span class="side-link current" aria-current="page"><span class="side-number">Start</span><span>Nieuws-detective</span></span>
+    </aside>
 
-<script src="../../shared/theme.js"></script>
-<script src="../../shared/newsdetective/1.1.3.js"></script>
-<script src="../../shared/adaptive-seam.js"></script>
-<script src="../../shared/newsdetective-engine.js"></script>
-<script src="../../shared/newsdetective-ui.js"></script>
+    <main class="content">
+      <div class="topbar">
+        <nav class="breadcrumb" aria-label="Kruimelpad">
+          <span>Boek 1</span><span>&rsaquo;</span><span>Hoofdstuk 1</span><span>&rsaquo;</span><span>1.1.3</span><span>&rsaquo;</span><span>Nieuws-detective</span>
+        </nav>
+        <button class="theme-note" type="button" id="themeToggle" aria-label="Wissel tussen licht en donker thema">Licht / donker</button>
+      </div>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">Start &middot; actuele context</p>
+            <h1 id="page-title">Nieuws-detective</h1>
+            <p class="lead">Analyseer een economisch nieuwsbericht in vier korte ronden. Het artikel blijft tijdens het spel volledig leesbaar in een vaste dossierkolom.</p>
+          </div>
+          <aside class="target-panel" aria-label="Voortgang">
+            <h2>Onderzoeksroute</h2>
+            <p>Lees het dossier, beantwoord vier vragen, en gebruik het artikel steeds als bewijs.</p>
+            <div class="progress-rail" id="progressRail"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="screen-start" class="screen active">
+        <div class="intro-card">
+          <div class="start-card">
+            <p class="eyebrow">Onderzoek openen</p>
+            <h2 id="startTitle">Grafiek laat kleine daling groot lijken</h2>
+            <p>Je onderzoekt of je een nieuwsbericht economisch kunt lezen: welk concept speelt hier, welke gevolgen volgen logisch, welk model past, en welke analysefout zie je?</p>
+            <div class="mini-route" aria-label="Rondes">
+              <span>Concept</span><span>Gevolg</span><span>Model</span><span>Fout</span>
+            </div>
+            <div class="actions" style="justify-content:flex-start">
+              <button class="btn btn-primary" type="button" id="startBtn">Start het onderzoek &rarr;</button>
+            </div>
+          </div>
+          <div id="startArticle">
+            <article class="article-card" aria-label="Nieuwsartikel">
+              <div class="article-kicker">Economisch nieuws</div>
+              <div class="article-meta"><span><a href="https://example.com/oefenbron-grafieken" target="_blank" rel="noopener">Oefenbron</a></span><span>fictieve lessituatie</span></div>
+              <h2>Grafiek laat kleine daling groot lijken</h2>
+              <p class="article-body" data-article-body="full">Een winkelketen toont twee weken verkoopcijfers. Week 1 heeft 520 verkopen en week 2 heeft 500 verkopen. De grafiek begint op 490, waardoor de daling veel groter lijkt dan in een grafiek die bij nul begint.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="screen-game" class="screen">
+        <div class="game-layout">
+          <div class="article-dossier">
+            <div id="gameArticle">
+              <article class="article-card" aria-label="Nieuwsartikel blijft leesbaar">
+              <div class="article-kicker">Dossier - blijft leesbaar</div>
+              <div class="article-meta"><span><a href="https://example.com/oefenbron-grafieken" target="_blank" rel="noopener">Oefenbron</a></span><span>fictieve lessituatie</span></div>
+              <h3>Grafiek laat kleine daling groot lijken</h3>
+              <p class="article-body" data-article-body="full">Een winkelketen toont twee weken verkoopcijfers. Week 1 heeft 520 verkopen en week 2 heeft 500 verkopen. De grafiek begint op 490, waardoor de daling veel groter lijkt dan in een grafiek die bij nul begint.</p>
+            </article>
+            </div>
+            <p class="dossier-note">Geen tekstafkap: het artikel is volledig zichtbaar of scrollt in deze dossierkolom.</p>
+          </div>
+          <div class="round-card" id="roundCard"></div>
+        </div>
+      </section>
+
+      <section id="screen-result" class="screen">
+        <div class="result-card" id="resultCard"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="../../shared/newsdetective/1.1.3.js"></script>
+  <script src="../../shared/adaptive-seam.js"></script>
+  <script src="../../shared/newsdetective-engine.js"></script>
+  <script src="../../shared/newsdetective-ui.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-// AUTO-COPIED FROM 4veco-platform/engines/ — DO NOT EDIT HERE
+// AUTO-COPIED FROM 4veco-platform/engines/ - DO NOT EDIT HERE
 /**
  * NewsDetectiveEngine — Pure game logic for Nieuws-detective.
  * No DOM references. Works in both browser (<script>) and Node.js (require).
@@ -119,7 +119,7 @@
     };
 
     NewsDetectiveEngine.prototype.getDomainColors = function () {
-        return JSON.parse(JSON.stringify(this._data.domainColors));
+        return JSON.parse(JSON.stringify(this._data.domainColors || {}));
     };
 
     NewsDetectiveEngine.prototype.getLesLink = function () {
