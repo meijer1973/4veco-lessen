@@ -175,6 +175,45 @@ em { color: #444; }
 ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
 ol[type="a"] { list-style-type: lower-alpha; }
 li { margin-bottom: 4pt; }
+
+
+@media screen and (max-width: 700px) {
+  html { box-sizing: border-box; }
+  *, *::before, *::after { box-sizing: inherit; }
+  body {
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    overflow-wrap: anywhere;
+  }
+  .chapter-front h1,
+  h1 {
+    font-size: 20pt;
+    line-height: 1.15;
+  }
+  h2 {
+    font-size: 14pt;
+    line-height: 1.2;
+  }
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    font-size: 9.5pt;
+  }
+  pre,
+  code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+  figure img,
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
 </style>"""
 
 
@@ -190,6 +229,10 @@ def embed_images(md):
         print(f"  Warning: missing {full}")
         return match.group(0)
     return re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', replacer, md)
+
+
+def normalize_generated_text(text):
+    return "\n".join(line.rstrip() for line in text.splitlines()) + "\n"
 
 
 def wrap_exercises(html):
@@ -238,7 +281,7 @@ def build_pdf(md_path, output_path):
 
     # Save HTML first
     html_path = output_path.replace(".pdf", ".html")
-    Path(html_path).write_text(html, encoding="utf-8")
+    Path(html_path).write_text(normalize_generated_text(html), encoding="utf-8", newline="\n")
 
     # Try weasyprint, then headless Chrome as fallback
     try:

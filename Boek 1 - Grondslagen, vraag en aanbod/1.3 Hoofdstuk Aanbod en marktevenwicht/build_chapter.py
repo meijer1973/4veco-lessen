@@ -279,6 +279,45 @@ em { color: #444; }
 ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
 ol[type="a"] { list-style-type: lower-alpha; }
 li { margin-bottom: 4pt; }
+
+
+@media screen and (max-width: 700px) {
+  html { box-sizing: border-box; }
+  *, *::before, *::after { box-sizing: inherit; }
+  body {
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    overflow-wrap: anywhere;
+  }
+  .chapter-front h1,
+  h1 {
+    font-size: 20pt;
+    line-height: 1.15;
+  }
+  h2 {
+    font-size: 14pt;
+    line-height: 1.2;
+  }
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    font-size: 9.5pt;
+  }
+  pre,
+  code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+  figure img,
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
 </style>"""
 
 
@@ -294,6 +333,10 @@ def embed_images(md):
         print(f"  Warning: missing {full}")
         return match.group(0)
     return re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', replacer, md)
+
+
+def normalize_generated_text(text):
+    return "\n".join(line.rstrip() for line in text.splitlines()) + "\n"
 
 
 def wrap_exercises(html):
@@ -438,6 +481,7 @@ def md_to_pdf(md, output_stem):
         print(f"Pandoc error: {result.stderr.decode()}")
         sys.exit(1)
     html = result.stdout.decode("utf-8")
+    html = html.replace('<title>-</title>', f'<title>{output_stem}</title>')
 
     # Wrap exercises — only in content after the front page div
     front_marker = html.find('class="chapter-front"')
@@ -464,7 +508,7 @@ def md_to_pdf(md, output_stem):
 
     # Save HTML
     html_path = str(BASE / f"{output_stem}.html")
-    Path(html_path).write_text(html, encoding="utf-8")
+    Path(html_path).write_text(normalize_generated_text(html), encoding="utf-8", newline="\n")
     print(f"HTML created: {html_path}")
 
     # Save PDF
@@ -502,14 +546,14 @@ if __name__ == "__main__":
     print("=== Assembling chapter ===")
     chapter_md = assemble_chapter()
     chapter_md_path = BASE / "1.3 Aanbod en marktevenwicht \u2013 hoofdstuk.md"
-    chapter_md_path.write_text(chapter_md, encoding="utf-8")
+    chapter_md_path.write_text(normalize_generated_text(chapter_md), encoding="utf-8", newline="\n")
     print(f"Markdown saved: {chapter_md_path}")
 
     # 2. Assemble answer booklet markdown
     print("\n=== Assembling answer booklet ===")
     answers_md = assemble_answers()
     answers_md_path = BASE / "1.3 Aanbod en marktevenwicht \u2013 antwoorden.md"
-    answers_md_path.write_text(answers_md, encoding="utf-8")
+    answers_md_path.write_text(normalize_generated_text(answers_md), encoding="utf-8", newline="\n")
     print(f"Markdown saved: {answers_md_path}")
 
     # 3. Build PDFs
