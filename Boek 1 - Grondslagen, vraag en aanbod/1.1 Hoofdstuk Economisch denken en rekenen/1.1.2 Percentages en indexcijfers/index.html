@@ -640,6 +640,10 @@
       cursor: pointer;
       font: inherit;
     }
+    .content {
+      box-sizing: border-box;
+      max-width: min(1180px, calc(100vw - var(--sidebar)));
+    }
     .route-chip:hover { transform: translateY(-1px); border-color: rgba(31, 111, 120, 0.28); }
     .tile-disabled {
       border: 1px solid rgba(168, 91, 0, 0.20);
@@ -887,8 +891,8 @@
               <div class="tile-footer"><a class="tile-primary" href="1.1.2%20Percentages%20en%20indexcijfers%20%E2%80%93%20opgaven.html">Maak opgaven</a><span>&rarr;</span></div>
               <div class="tile-secondary-links"><a class="tile-secondary" href="1.1.2%20Percentages%20en%20indexcijfers%20%E2%80%93%20antwoorden.html">Antwoorden</a><a class="tile-secondary" href="1.1.2%20Percentages%20en%20indexcijfers%20%E2%80%93%20opgaven.pdf" download>Opgaven PDF</a><a class="tile-secondary" href="1.1.2%20Percentages%20en%20indexcijfers%20%E2%80%93%20antwoorden.pdf" download>Antwoorden PDF</a></div>
             </article>
-            <article class="tile math tile-disabled" data-tile-id="adaptieve-oefenroute" data-tile-state="in-preparation" aria-label="Open adaptieve oefeningen" aria-disabled="true">
-              <div class="tile-header"><div class="icon-badge">A</div><div><span class="pill">in voorbereiding</span><h3>Adaptieve oefenroute</h3><p>Een voorgestelde volgende oefening op basis van lokale voortgang komt hier zodra die route klaarstaat.</p></div></div>
+            <article class="tile math tile-disabled" data-tile-id="oefenadvies" data-tile-state="in-preparation" aria-label="Open oefenadvies" aria-disabled="true">
+              <div class="tile-header"><div class="icon-badge">A</div><div><span class="pill">in voorbereiding</span><h3>Oefenadvies</h3><p>Gebruik je korte check, feedback en oefenwerk om een passende volgende oefenstap te kiezen.</p></div></div>
               <div class="tile-footer"><span class="tile-status">In voorbereiding</span><span>...</span></div>
             </article>
           </div>
@@ -899,12 +903,12 @@
             <div class="step">5</div>
             <div>
               <h2>Exit ticket</h2>
-              <p>Maak de aparte eindcontrole wanneer je klaar bent voor doelopgave-niveau.</p>
+              <p>Maak de aparte eindcontrole wanneer je de paragraaf hebt geoefend.</p>
             </div>
           </div>
           <div class="tile-grid single">
             <a class="tile reason" data-tile-id="exit-ticket" data-tile-state="available" aria-label="Open exit ticket" href="1.1.2%20Percentages%20en%20indexcijfers%20%E2%80%93%20exit-ticket.html">
-              <div class="tile-header"><div class="icon-badge">E</div><div><span class="pill">eindcontrole</span><h3>Exit ticket</h3><p>Laat zien dat je de doelopgave op hetzelfde niveau en met dezelfde antwoordvorm aankunt.</p></div></div>
+              <div class="tile-header"><div class="icon-badge">E</div><div><span class="pill">eindcontrole</span><h3>Exit ticket</h3><p>Werk de eindcontrole uit en gebruik de feedback om je volgende oefenstap te kiezen.</p></div></div>
               <div class="tile-footer"><span>Maak exit ticket</span><span>&rarr;</span></div>
             </a>
           </div>
