@@ -15,6 +15,26 @@
       "B01",
       "B02"
     ],
+    "targetEquivalent": {
+      "candidate": false,
+      "gateApproved": false,
+      "completionLanguageEligible": false
+    },
+    "layout": {
+      "kind": "source_task_workspace",
+      "framework": "golden_exercise_workbench",
+      "variant": "golden_advisory_short_check_v1",
+      "kicker": "Korte check - paragraaf 1.1.1",
+      "sourcePaneTitle": "Context",
+      "taskPaneTitle": "Korte check",
+      "sourceNote": "Gebruik deze korte context bij de keuzes. De feedback wijst alleen naar een oefenstap."
+    },
+    "advisory": {
+      "intent": "Geef lokale oefenroute- en reparatiefeedback voor schaarste, beperkte middelen en alternatieve kosten.",
+      "hintsAbsent": true,
+      "routeAdvice": true,
+      "targetEquivalentProof": false
+    },
     "metadataAlignment": {
       "status": "paragraph_skill_aligned_not_target_readiness",
       "paragraphSkillIds": [
@@ -52,12 +72,61 @@
         }
       ]
     },
+    "contextBlocks": [
+      {
+        "id": "ctx-111-short-schaarste",
+        "type": "source_excerpt",
+        "sourceLabel": "Bron 1",
+        "caption": "Bron 1 - Schaarste",
+        "bodyMarkdown": "Schaarste ontstaat wanneer behoeften groter zijn dan de beschikbare middelen.",
+        "sourceRefs": [
+          "source-data/book-1/exit-ticket/1.1.1-korte-check.json#schaarste-kern"
+        ],
+        "accessibilitySummary": "Korte context met de kernbetekenis van schaarste."
+      },
+      {
+        "id": "ctx-111-short-grond",
+        "type": "source_excerpt",
+        "sourceLabel": "Bron 2",
+        "caption": "Bron 2 - Beperkte grond",
+        "bodyMarkdown": "Een gemeente heeft dezelfde grond nodig voor een park of voor nieuwe woningen.",
+        "sourceRefs": [
+          "source-data/book-1/exit-ticket/1.1.1-korte-check.json#middel-herkennen"
+        ],
+        "accessibilitySummary": "Korte context met een keuze tussen park en woningen op dezelfde grond."
+      },
+      {
+        "id": "ctx-111-short-alternatief",
+        "type": "source_excerpt",
+        "sourceLabel": "Bron 3",
+        "caption": "Bron 3 - Niet-gekozen alternatief",
+        "bodyMarkdown": "Lisa kiest een bioscoopkaartje van 12 euro en laat een pizza van 9 euro liggen.",
+        "sourceRefs": [
+          "source-data/book-1/exit-ticket/1.1.1-korte-check.json#alternatieve-kosten"
+        ],
+        "accessibilitySummary": "Korte context met een gekozen bioscoopkaartje en een niet-gekozen pizza."
+      },
+      {
+        "id": "ctx-111-short-gratis",
+        "type": "source_excerpt",
+        "sourceLabel": "Bron 4",
+        "caption": "Bron 4 - Gratis maar beperkt",
+        "bodyMarkdown": "Een gratis festivalkaartje kan nog steeds tijd, plekken of aandacht gebruiken.",
+        "sourceRefs": [
+          "source-data/book-1/exit-ticket/1.1.1-korte-check.json#gratis-is-niet-gratis"
+        ],
+        "accessibilitySummary": "Korte context over gratis keuzes die toch beperkte middelen gebruiken."
+      }
+    ],
     "tasks": [
       {
         "id": "schaarste-kern",
         "type": "choice",
         "skillLabel": "Schaarste herkennen",
         "prompt": "Wanneer is er sprake van schaarste?",
+        "contextRefs": [
+          "ctx-111-short-schaarste"
+        ],
         "options": [
           {
             "id": "a",
@@ -89,6 +158,9 @@
         "type": "choice",
         "skillLabel": "Schaarste herkennen",
         "prompt": "Een gemeente heeft grond voor of een park of nieuwe woningen. Welk middel is hier schaars?",
+        "contextRefs": [
+          "ctx-111-short-grond"
+        ],
         "options": [
           {
             "id": "a",
@@ -120,6 +192,9 @@
         "type": "choice",
         "skillLabel": "Alternatieve kosten kiezen",
         "prompt": "Lisa kiest een bioscoopkaartje van 12 euro en laat een pizza van 9 euro liggen. Wat zijn de alternatieve kosten?",
+        "contextRefs": [
+          "ctx-111-short-alternatief"
+        ],
         "options": [
           {
             "id": "a",
@@ -151,6 +226,9 @@
         "type": "choice",
         "skillLabel": "Economisch denken",
         "prompt": "Waarom kan een gratis festivalkaartje toch met schaarste te maken hebben?",
+        "contextRefs": [
+          "ctx-111-short-gratis"
+        ],
         "options": [
           {
             "id": "a",
