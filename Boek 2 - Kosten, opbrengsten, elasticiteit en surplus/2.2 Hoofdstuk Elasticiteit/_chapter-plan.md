@@ -2,9 +2,9 @@
 
 ## Scope
 
-This chapter slice contains `2.2.1 Prijselasticiteit` and `2.2.2 Elasticiteit en omzet`.
+This chapter slice contains `2.2.1 Prijselasticiteit`, `2.2.2 Elasticiteit en omzet`, `2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit`, and `2.2.4 Gemengde opgaven: elasticiteit`.
 
-Later paragraph folders for 2.2.3 and 2.2.4 are not accepted as proof and are not included in this chapter assembly.
+The mixed paragraph `2.2.4` is a consolidation section. It introduces no new theory and gives students a context-heavy practice route across the earlier elasticity skills.
 
 ## Student Route
 
@@ -24,10 +24,26 @@ The 2.2.2 route teaches students to:
 - use the omzet rule for price increases and price decreases;
 - give bounded pricing advice without profit or cost reasoning.
 
+The 2.2.3 route teaches students to:
+
+- calculate `Ei = %dQv / %dY`;
+- classify income elasticity by sign first;
+- treat negative `Ei` as an inferior good without applying the luxury/necessity split;
+- calculate `Ek = %dQv van product A / %dP van product B`;
+- classify substitutes and complements from the sign of `Ek`;
+- use a multi-variable demand function by changing one variable at a time and holding the rest constant.
+
+The 2.2.4 route teaches students to:
+
+- read longer mixed sources and select relevant data;
+- choose between `Ev`, `TO`, `Ei`, `Ek`, and demand-function reasoning;
+- structure calculation, table/source, question-function, and explanation answers;
+- combine elasticities, omzet, source interpretation, and bounded economic advice without introducing new theory.
+
 ## Assembly Rule
 
-The chapter `hoofdstuk` output embeds both the theory and the exercises for 2.2.1 and 2.2.2. The chapter `antwoorden` output embeds the 2.2.1 and 2.2.2 answer models.
+The chapter `hoofdstuk` output embeds both the theory and exercises for 2.2.1, 2.2.2, and 2.2.3, then embeds the 2.2.4 mixed-opgaven file. The chapter `antwoorden` output embeds the 2.2.1, 2.2.2, 2.2.3, and 2.2.4 answer models.
 
 ## Assets
 
-Chapter-level assets are copied from paragraph `_assets/` folders during `build_chapter.py`. In this slice, 2.2.1 contributes figure assets and 2.2.2 uses markdown tables without image figures.
+Chapter-level assets are copied from paragraph `_assets/` folders during `build_chapter.py`. In this slice, 2.2.1 contributes figure assets, while 2.2.2, 2.2.3, and 2.2.4 use markdown tables without image figures.

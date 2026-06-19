@@ -1,5 +1,5 @@
-paragraph: "2.2.1"
-title: "Prijselasticiteit"
+paragraph: "2.2.3"
+title: "Inkomenselasticiteit en kruiselingse elasticiteit"
 chapter: "2.2 Hoofdstuk Elasticiteit"
 reviewed_on: "2026-06-19"
 review_mode: "part-a"
@@ -20,8 +20,11 @@ content:
   help_note: true
   staged_exercise_route: true
   target_exercise: true
+  income_elasticity_sign_first: true
+  cross_elasticity_goods_named: true
+  demand_function_ceteris_paribus_route: true
 assets:
-  total_referenced: 2
+  total_referenced: 0
   missing: []
   svgpng_paired: true
   naming_compliant: true

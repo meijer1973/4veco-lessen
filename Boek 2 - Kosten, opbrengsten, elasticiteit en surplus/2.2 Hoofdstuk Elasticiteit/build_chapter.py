@@ -1,4 +1,5 @@
 import base64
+import os
 import re
 import shutil
 import subprocess
@@ -12,6 +13,8 @@ CHAPTER = "2.2 Elasticiteit"
 PARAGRAPHS = [
     ("2.2.1 Prijselasticiteit", "paragraaf", "antwoorden"),
     ("2.2.2 Elasticiteit en omzet", "paragraaf", "antwoorden"),
+    ("2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit", "paragraaf", "antwoorden"),
+    ("2.2.4 Gemengde opgaven elasticiteit", "opgaven", "antwoorden"),
 ]
 
 CSS = """<style>
@@ -147,10 +150,12 @@ FRONT = """<div class="chapter-front">
 |---|---|
 | 2.2.1 | Prijselasticiteit |
 | 2.2.2 | Elasticiteit en omzet |
+| 2.2.3 | Inkomenselasticiteit en kruiselingse elasticiteit |
+| 2.2.4 | Gemengde opgaven: elasticiteit |
 
 ## Leerdoelen
 
-Na deze paragraaf kun je:
+Na dit hoofdstuk kun je:
 
 - procentuele prijsverandering en procentuele hoeveelheidsverandering berekenen;
 - prijselasticiteit van de vraag berekenen met `Ev = %dQv / %dP`;
@@ -159,13 +164,38 @@ Na deze paragraaf kun je:
 - `TO = P x Q` gebruiken om omzet voor en na een prijsverandering te berekenen;
 - uitleggen waarom elasticiteit bepaalt of omzet stijgt of daalt;
 - een voorzichtig omzetadvies geven zonder winst of kosten te gebruiken.
+- inkomenselasticiteit berekenen en normale, inferieure, noodzakelijke en luxe goederen correct onderscheiden;
+- kruiselingse elasticiteit berekenen en substituten of complementen herkennen;
+- een vraagfunctie met meerdere variabelen gebruiken door een factor tegelijk te veranderen;
+- gemengde bronnen lezen, relevante gegevens kiezen en je antwoord structureren;
+- `Ev`, `TO`, `Ei`, `Ek` en vraagfuncties combineren in een voorzichtig economisch advies.
 
 ## Waarom elasticiteit belangrijk is
 
-Een prijsverandering lijkt eenvoudig: de prijs gaat omhoog of omlaag. Voor een onderneming is de echte vraag wat klanten daarna doen. Elasticiteit helpt je om die reactie te meten, te berekenen en in gewone taal uit te leggen. Daarna kun je beoordelen wat er met de omzet gebeurt.
+Een prijsverandering lijkt eenvoudig: de prijs gaat omhoog of omlaag. Voor een onderneming is de echte vraag wat klanten daarna doen. Elasticiteit helpt je om die reactie te meten, te berekenen en in gewone taal uit te leggen. Daarna kun je beoordelen wat er met de omzet gebeurt, en hoe inkomen of de prijs van andere producten de vraag mee kunnen bepalen. In de gemengde opgaven oefen je die vaardigheden samen in langere bronnen.
 
 </div>
 """
+
+
+def fs_path(path):
+    resolved = Path(path).resolve()
+    text = str(resolved)
+    if os.name != "nt" or text.startswith("\\\\?\\"):
+        return text
+    if text.startswith("\\\\"):
+        return "\\\\?\\UNC\\" + text.lstrip("\\")
+    return "\\\\?\\" + text
+
+
+def read_utf8(path):
+    with open(fs_path(path), "r", encoding="utf-8") as handle:
+        return handle.read()
+
+
+def write_utf8(path, text):
+    with open(fs_path(path), "w", encoding="utf-8", newline="\n") as handle:
+        handle.write(text)
 
 
 def find_markdown(folder_name, suffix):
@@ -202,7 +232,7 @@ def copy_assets():
     ASSET_DIR.mkdir(exist_ok=True)
     for folder_name, _, _ in PARAGRAPHS:
         source = BASE / folder_name / "_assets"
-        if not source.exists():
+        if not os.path.exists(fs_path(source)):
             continue
         for asset in source.iterdir():
             if asset.is_file() and asset.suffix.lower() in {".svg", ".png"}:
@@ -220,14 +250,14 @@ def assemble(kind):
         if kind == "hoofdstuk" and body_suffix == "paragraaf":
             para_path = find_markdown(folder_name, "paragraaf")
             opgaven_path = find_markdown(folder_name, "opgaven")
-            text = para_path.read_text(encoding="utf-8")
+            text = read_utf8(para_path)
             if not has_embedded_exercises(text):
-                exercises = exercise_block(opgaven_path.read_text(encoding="utf-8"))
+                exercises = exercise_block(read_utf8(opgaven_path))
                 text = f"{text}\n\n{exercises}"
         else:
             suffix = body_suffix if kind == "hoofdstuk" else answer_suffix
             md_path = find_markdown(folder_name, suffix)
-            text = md_path.read_text(encoding="utf-8")
+            text = read_utf8(md_path)
         parts.append('<div class="page-break"></div>')
         parts.append(text)
 
@@ -239,8 +269,9 @@ def embed_images(md):
         alt = match.group(1)
         ref = match.group(2).replace(".svg", ".png")
         full = ASSET_DIR / Path(ref).name
-        if full.exists():
-            b64 = base64.b64encode(full.read_bytes()).decode()
+        if os.path.exists(fs_path(full)):
+            with open(fs_path(full), "rb") as handle:
+                b64 = base64.b64encode(handle.read()).decode()
             return f"![{alt}](data:image/png;base64,{b64})"
         print(f"Warning: missing image {full}")
         return match.group(0)
@@ -289,7 +320,7 @@ def wrap_exercises(html):
 
 
 def build_pdf(md_path, pdf_path):
-    md = embed_images(Path(md_path).read_text(encoding="utf-8"))
+    md = embed_images(read_utf8(md_path))
     result = subprocess.run(
         ["pandoc", "--from=markdown", "--to=html5", "--standalone"],
         input=md.encode("utf-8"),
@@ -324,11 +355,11 @@ def build_pdf(md_path, pdf_path):
     html = html.replace("</head>", CSS + "</head>")
     html = "\n".join(line.rstrip() for line in html.splitlines()) + "\n"
     html_path = str(pdf_path).replace(".pdf", ".html")
-    Path(html_path).write_text(html, encoding="utf-8", newline="\n")
+    write_utf8(html_path, html)
 
     import weasyprint
 
-    weasyprint.HTML(string=html).write_pdf(pdf_path)
+    weasyprint.HTML(string=html).write_pdf(fs_path(pdf_path))
     print(f"PDF created: {pdf_path}")
 
 
@@ -337,5 +368,5 @@ if __name__ == "__main__":
     for kind in ["hoofdstuk", "antwoorden"]:
         md_path = BASE / f"{CHAPTER} \u2013 {kind}.md"
         pdf_path = BASE / f"{CHAPTER} \u2013 {kind}.pdf"
-        md_path.write_text(assemble(kind), encoding="utf-8", newline="\n")
+        write_utf8(md_path, assemble(kind))
         build_pdf(md_path, pdf_path)

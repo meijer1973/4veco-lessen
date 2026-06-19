@@ -1,27 +1,30 @@
-paragraph: "2.2.1"
-title: "Prijselasticiteit"
+paragraph: "2.2.4"
+title: "Gemengde opgaven: elasticiteit"
 chapter: "2.2 Hoofdstuk Elasticiteit"
 reviewed_on: "2026-06-19"
 review_mode: "part-a"
+paragraph_kind: "gemengde_opgaven"
+introduces_new_theory: false
 target_exercise_status: "reviewed_final"
 target_status_promotion_sprint: "B2-2.2-TARGET-V5-PROMOTE"
 production_ready_with_flags: false
 content:
-  paragraaf_md: true
   opgaven_md: true
   antwoorden_md: true
-  paragraaf_pdf: true
   opgaven_pdf: true
   antwoorden_pdf: true
-  motivating_problem: true
-  worked_example: true
   answer_structure_guidance: true
-  summary_box: true
-  help_note: true
-  staged_exercise_route: true
-  target_exercise: true
+  mixed_context_sources: true
+  source_selection_required: true
+  table_or_structured_source_interpretation_required: true
+  integrates_price_elasticity: true
+  integrates_revenue: true
+  integrates_income_elasticity: true
+  integrates_cross_elasticity: true
+  integrates_demand_function: true
+  bounded_economic_advice: true
 assets:
-  total_referenced: 2
+  total_referenced: 0
   missing: []
   svgpng_paired: true
   naming_compliant: true

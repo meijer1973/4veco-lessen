@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }
+h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; }
+h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }
+h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }
+p { margin: 0 0 10pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
+th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 6pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; break-inside: avoid; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="inkomenselasticiteit-en-kruiselingse-elasticiteit">2.2.3
+Inkomenselasticiteit en kruiselingse elasticiteit</h1>
+<h2
+id="waarom-verkoopt-het-ene-product-meer-als-inkomens-stijgen-terwijl-een-ander-product-juist-minder-verkoopt">Waarom
+verkoopt het ene product meer als inkomens stijgen, terwijl een ander
+product juist minder verkoopt?</h2>
+<p>In 2.2.1 keek je naar de reactie van consumenten op een
+prijsverandering van hetzelfde product. In 2.2.2 gebruikte je die
+reactie om de omzet te verklaren.</p>
+<p>Maar de vraag naar een product verandert niet alleen door de eigen
+prijs. Als inkomens stijgen, kopen consumenten vaak meer van sommige
+producten en minder van andere producten. En als koffie duurder wordt,
+kan dat invloed hebben op de vraag naar thee of koffiefilters.</p>
+<p>In deze paragraaf leer je twee nieuwe elasticiteiten:</p>
+<ul>
+<li><strong>inkomenselasticiteit</strong>: hoe reageert de vraag op een
+verandering van het inkomen?</li>
+<li><strong>kruiselingse elasticiteit</strong>: hoe reageert de vraag
+naar product A op een prijsverandering van product B?</li>
+</ul>
+<p>De rekenstructuur blijft hetzelfde: je deelt de procentuele
+verandering van de gevraagde hoeveelheid door de procentuele verandering
+van de oorzaak. De betekenis verandert.</p>
+<hr />
+<h2 id="doeloefening">Doeloefening</h2>
+<p>Deze opgave is het eindpunt van de paragraaf. Je hoeft hem nu nog
+niet volledig te kunnen maken. De theorie, het voorbeeld en de
+oefeningen hieronder leren precies de route naar deze opgave.</p>
+<p><strong>Bron 1 - Inkomen en vraag</strong></p>
+<p>Het gemiddelde huishoudinkomen stijgt met 5%. De vraag naar
+biologische maaltijdpakketten stijgt met 8%. De vraag naar
+budget-noedels daalt met 3%.</p>
+<p><strong>A.</strong> Bereken de inkomenselasticiteit <code>Ei</code>
+voor biologische maaltijdpakketten en voor budget-noedels. Classificeer
+beide producten. Let op: bij een inferieur goed gebruik je de
+luxe/noodzakelijk-indeling niet.</p>
+<p><strong>Bron 2 - Producten die met elkaar samenhangen</strong></p>
+<p>De prijs van koffie stijgt met 10%. De vraag naar thee stijgt met 4%.
+De vraag naar koffiefilters daalt met 6%.</p>
+<p><strong>B.</strong> Bereken de kruiselingse elasticiteit
+<code>Ek</code> voor thee ten opzichte van de koffieprijs en voor
+koffiefilters ten opzichte van de koffieprijs. Classificeer de
+relaties.</p>
+<p><strong>Bron 3 - Vraagfunctie voor product X</strong></p>
+<p>De vraag naar product X wordt gegeven door:</p>
+<p><code>Qx = 100 - 2Px + 0,5Py + 0,01Y</code></p>
+<p>Daarbij geldt eerst: <code>Px = 10</code>, <code>Py = 20</code> en
+<code>Y = 30000</code>.</p>
+<p><strong>C.</strong> Bereken de huidige vraag naar X. Daarna stijgt
+het inkomen naar <code>Y = 33000</code>, terwijl <code>Px</code> en
+<code>Py</code> gelijk blijven. Bereken de nieuwe vraag naar X en
+bereken <code>Ei</code>.</p>
+<p><strong>D.</strong> Gebruik opnieuw de beginsituatie. Nu stijgt
+<code>Py</code> van 20 naar 24, terwijl <code>Px</code> en
+<code>Y</code> gelijk blijven. Bereken de nieuwe vraag naar X en bereken
+<code>Ek</code>. Zijn X en Y substituten of complementen?</p>
+<p><strong>E.</strong> Gebruik de vraagfunctie uit bron 3. Door een
+recessie daalt het inkomen met 10%. Bereken de nieuwe vraag naar X.</p>
+<hr />
+<h2 id="theorie">Theorie</h2>
+<h3 id="drie-elasticiteiten-een-denkroute">1. Drie elasticiteiten, een
+denkroute</h3>
+<p>Bij een elasticiteit meet je hoe sterk de vraag reageert op een
+verandering. De algemene denkroute is:</p>
+<blockquote>
+<p><strong>Elasticiteit</strong></p>
+<p><code>elasticiteit = procentuele verandering van de vraag / procentuele verandering van de oorzaak</code></p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Elasticiteit</th>
+<th>Oorzaak die verandert</th>
+<th>Formule</th>
+<th>Betekenis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ev</code></td>
+<td>prijs van hetzelfde product</td>
+<td><code>%dQv / %dP</code></td>
+<td>Hoe reageert de vraag op de eigen prijs?</td>
+</tr>
+<tr>
+<td><code>Ei</code></td>
+<td>inkomen</td>
+<td><code>%dQv / %dY</code></td>
+<td>Hoe reageert de vraag op inkomen?</td>
+</tr>
+<tr>
+<td><code>Ek</code></td>
+<td>prijs van een ander product</td>
+<td><code>%dQv(A) / %dP(B)</code></td>
+<td>Hoe reageert de vraag naar A op prijs B?</td>
+</tr>
+</tbody>
+</table>
+<p>In deze paragraaf werk je vooral met <code>Ei</code> en
+<code>Ek</code>.</p>
+<hr />
+<h3 id="inkomenselasticiteit">2. Inkomenselasticiteit</h3>
+<p>De <strong>inkomenselasticiteit van de vraag</strong> geeft aan hoe
+sterk de gevraagde hoeveelheid reageert op een verandering van het
+inkomen.</p>
+<blockquote>
+<p><strong>Formulebox: inkomenselasticiteit</strong></p>
+<p><code>Ei = %dQv / %dY</code></p>
+<p><code>Ei</code> = inkomenselasticiteit <code>%dQv</code> =
+procentuele verandering van de gevraagde hoeveelheid <code>%dY</code> =
+procentuele verandering van het inkomen</p>
+</blockquote>
+<p>Stel: het inkomen stijgt met 5% en de vraag naar biologische
+maaltijdpakketten stijgt met 8%.</p>
+<p><code>Ei = 8% / 5% = 1,6</code></p>
+<p>De inkomenselasticiteit is positief. Dat betekent: als het inkomen
+stijgt, stijgt ook de vraag. Biologische maaltijdpakketten zijn dan een
+<strong>normaal goed</strong>.</p>
+<p>Omdat <code>Ei = 1,6</code> groter is dan 1, stijgt de vraag sterker
+dan het inkomen. Het product gedraagt zich als een <strong>luxe normaal
+goed</strong>.</p>
+<hr />
+<h3 id="normaal-inferieur-noodzakelijk-en-luxe">3. Normaal, inferieur,
+noodzakelijk en luxe</h3>
+<p>Bij inkomenselasticiteit is het teken de eerste beslissing.</p>
+<table>
+<thead>
+<tr>
+<th>Uitkomst</th>
+<th>Betekenis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ei &lt; 0</code></td>
+<td>inferieur goed</td>
+</tr>
+<tr>
+<td><code>0 &lt; Ei &lt; 1</code></td>
+<td>normaal noodzakelijk goed</td>
+</tr>
+<tr>
+<td><code>Ei &gt; 1</code></td>
+<td>normaal luxe goed</td>
+</tr>
+</tbody>
+</table>
+<p>Bij een <strong>inferieur goed</strong> daalt de vraag als het
+inkomen stijgt. Dan gebruik je dus niet de indeling luxe of
+noodzakelijk. Die indeling hoort alleen bij normale goederen met een
+positieve <code>Ei</code>.</p>
+<p>Voor budget-noedels uit de doeloefening geldt: het inkomen stijgt met
+5%, maar de vraag daalt met 3%.</p>
+<p><code>Ei = -3% / 5% = -0,6</code></p>
+<p>Budget-noedels zijn in dit voorbeeld een <strong>inferieur
+goed</strong>. Als consumenten meer inkomen krijgen, stappen ze deels
+over op duurdere of betere alternatieven.</p>
+<blockquote>
+<p><strong>Let op</strong></p>
+<p>Bij <code>Ei</code> gebruik je het teken. Je kijkt dus niet
+automatisch naar de absolute waarde. <code>Ei = 0,6</code> en
+<code>Ei = -0,6</code> betekenen iets heel anders.</p>
+</blockquote>
+<hr />
+<h3 id="kruiselingse-elasticiteit">4. Kruiselingse elasticiteit</h3>
+<p>De <strong>kruiselingse elasticiteit</strong> geeft aan hoe de vraag
+naar product A reageert op een prijsverandering van product B.</p>
+<blockquote>
+<p><strong>Formulebox: kruiselingse elasticiteit</strong></p>
+<p><code>Ek = %dQv van product A / %dP van product B</code></p>
+</blockquote>
+<p>Voorbeeld: de prijs van koffie stijgt met 10%. De vraag naar thee
+stijgt met 4%.</p>
+<p><code>Ek = 4% / 10% = 0,4</code></p>
+<p><code>Ek</code> is positief. Dat betekent: als koffie duurder wordt,
+stijgt de vraag naar thee. Thee en koffie zijn in dit voorbeeld
+<strong>substituten</strong>. Consumenten kunnen het ene product door
+het andere vervangen.</p>
+<p>Voor koffiefilters geldt: de prijs van koffie stijgt met 10%, en de
+vraag naar koffiefilters daalt met 6%.</p>
+<p><code>Ek = -6% / 10% = -0,6</code></p>
+<p><code>Ek</code> is negatief. Koffie en koffiefilters zijn
+<strong>complementen</strong>: producten die samen worden gebruikt.</p>
+<table>
+<thead>
+<tr>
+<th>Uitkomst</th>
+<th>Betekenis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ek &gt; 0</code></td>
+<td>substituten</td>
+</tr>
+<tr>
+<td><code>Ek &lt; 0</code></td>
+<td>complementen</td>
+</tr>
+<tr>
+<td><code>Ek</code> ongeveer 0</td>
+<td>zwakke of geen relatie</td>
+</tr>
+</tbody>
+</table>
+<p>Bij <code>Ek</code> moet je altijd precies zeggen welke vraag
+reageert op welke prijs.</p>
+<hr />
+<h3 id="vraagfuncties-met-meerdere-variabelen">5. Vraagfuncties met
+meerdere variabelen</h3>
+<p>Soms krijg je geen losse tabel, maar een vraagfunctie. Een
+vraagfunctie laat zien waardoor de vraag wordt bepaald.</p>
+<p>Voor product X:</p>
+<p><code>Qx = 100 - 2Px + 0,5Py + 0,01Y</code></p>
+<p>Hierbij betekent:</p>
+<ul>
+<li><code>Qx</code>: gevraagde hoeveelheid van product X;</li>
+<li><code>Px</code>: prijs van product X;</li>
+<li><code>Py</code>: prijs van product Y;</li>
+<li><code>Y</code>: inkomen.</li>
+</ul>
+<p>In de beginsituatie geldt:</p>
+<p><code>Px = 10</code>, <code>Py = 20</code>,
+<code>Y = 30000</code></p>
+<p>Vul deze waarden in:</p>
+<p><code>Qx = 100 - 2 x 10 + 0,5 x 20 + 0,01 x 30000</code></p>
+<p><code>Qx = 100 - 20 + 10 + 300 = 390</code></p>
+<p>De huidige vraag naar X is 390.</p>
+<p>Als je een elasticiteit met een vraagfunctie berekent, verander je
+steeds <strong>een variabele tegelijk</strong>. De andere variabelen
+blijven gelijk. Dat heet <strong>ceteris paribus</strong>.</p>
+<hr />
+<h3 id="elasticiteit-berekenen-met-een-vraagfunctie">6. Elasticiteit
+berekenen met een vraagfunctie</h3>
+<p>Gebruik bij een vraagfunctie deze vaste route:</p>
+<table>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Doe dit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Bepaal welke variabele verandert.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Houd de andere variabelen constant.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Bereken de oude <code>Qx</code>.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Verander een variabele.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Bereken de nieuwe <code>Qx</code>.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Bereken de procentuele verandering van <code>Qx</code> en van de
+oorzaak.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Bereken <code>Ei</code> of <code>Ek</code>.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Interpreteer teken en waarde.</td>
+</tr>
+</tbody>
+</table>
+<p>Stel: het inkomen stijgt van 30000 naar 33000. <code>Px</code> en
+<code>Py</code> blijven gelijk.</p>
+<p>Nieuwe vraag:</p>
+<p><code>Qx = 100 - 2 x 10 + 0,5 x 20 + 0,01 x 33000</code></p>
+<p><code>Qx = 100 - 20 + 10 + 330 = 420</code></p>
+<p>De vraag stijgt van 390 naar 420.</p>
+<p><code>%dQx = (420 - 390) / 390 x 100% = 7,7%</code></p>
+<p>Het inkomen stijgt van 30000 naar 33000:</p>
+<p><code>%dY = (33000 - 30000) / 30000 x 100% = 10%</code></p>
+<p>Dus:</p>
+<p><code>Ei = 7,7% / 10% = 0,77</code></p>
+<p>Product X is in dit voorbeeld een normaal noodzakelijk goed: de vraag
+stijgt als het inkomen stijgt, maar minder sterk dan het inkomen.</p>
+<hr />
+<h2 id="doelprocedure-van-bron-naar-ei-of-ek">Doelprocedure: van bron
+naar Ei of Ek</h2>
+<p>Gebruik deze procedure bij inkomenselasticiteit en kruiselingse
+elasticiteit.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Doe dit</th>
+<th>Controle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Bepaal welke vraag verandert.</td>
+<td>Gaat het om product A, product X of hetzelfde product?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bepaal welke oorzaak verandert.</td>
+<td>Inkomen? Prijs van een ander product? Eigen prijs?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Bereken de procentuele verandering van de vraag.</td>
+<td>Gebruik de oude vraag als basis.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Bereken de procentuele verandering van de oorzaak.</td>
+<td>Gebruik het oude inkomen of de oude prijs als basis.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Deel: elasticiteit = reactie / oorzaak.</td>
+<td>Bij <code>Ei</code> en <code>Ek</code> is het teken
+betekenisvol.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Classificeer en leg uit.</td>
+<td>Noem normaal/inferieur of substituut/complement.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+<p>Een winkel verkoopt havermelk. Het gemiddelde inkomen van klanten
+stijgt met 4%. Daardoor stijgt de vraag naar havermelk met 6%.</p>
+<p>Later stijgt de prijs van gewone melk met 8%. Daardoor stijgt de
+vraag naar havermelk met 3%.</p>
+<p><strong>Vraag:</strong> bereken <code>Ei</code> en <code>Ek</code>
+voor havermelk en interpreteer de uitkomsten.</p>
+<p><strong>Stap 1: Bereken de inkomenselasticiteit.</strong></p>
+<p><code>Ei = %dQv / %dY</code></p>
+<p><code>Ei = 6% / 4% = 1,5</code></p>
+<p><code>Ei</code> is positief, dus havermelk is in dit voorbeeld een
+normaal goed. Omdat <code>Ei &gt; 1</code>, stijgt de vraag sterker dan
+het inkomen. Havermelk gedraagt zich hier als een luxe normaal goed.</p>
+<p><strong>Stap 2: Bereken de kruiselingse elasticiteit.</strong></p>
+<p><code>Ek = %dQv havermelk / %dP gewone melk</code></p>
+<p><code>Ek = 3% / 8% = 0,375</code></p>
+<p><code>Ek</code> is positief, dus havermelk en gewone melk zijn
+substituten. Als gewone melk duurder wordt, stappen sommige consumenten
+over op havermelk.</p>
+<p><strong>Stap 3: Trek de economische conclusie.</strong></p>
+<p>De vraag naar havermelk stijgt bij hogere inkomens en stijgt ook als
+gewone melk duurder wordt. De winkel kan havermelk dus zien als een
+product dat profiteert van hogere inkomens en van prijsstijgingen bij
+een alternatief product.</p>
+<hr />
+<h2
+id="antwoordvaardigheid-zo-bouw-je-een-volledig-ei--of-ek-antwoord">Antwoordvaardigheid:
+zo bouw je een volledig Ei- of Ek-antwoord</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Onderdeel</th>
+<th>Wat moet erin?</th>
+<th>Voorbeeldzin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formule</td>
+<td>Schrijf de juiste elasticiteit op.</td>
+<td><code>Ei = %dQv / %dY</code>.</td>
+</tr>
+<tr>
+<td>Bronkeuze</td>
+<td>Noem welke vraag en welke oorzaak veranderen.</td>
+<td>De vraag naar havermelk reageert op inkomen.</td>
+</tr>
+<tr>
+<td>Berekening</td>
+<td>Deel de procentuele veranderingen.</td>
+<td><code>Ei = 6% / 4% = 1,5</code>.</td>
+</tr>
+<tr>
+<td>Classificatie</td>
+<td>Gebruik het teken en de grenswaarde.</td>
+<td><code>Ei &gt; 1</code>, dus luxe normaal goed.</td>
+</tr>
+<tr>
+<td>Betekenis</td>
+<td>Eindig in gewone taal.</td>
+<td>Bij hogere inkomens stijgt de vraag relatief sterk.</td>
+</tr>
+</tbody>
+</table>
+<p>Bij <code>Ek</code> schrijf je altijd: de vraag naar welk product
+reageert op de prijs van welk ander product.</p>
+<hr />
+<h2 id="veelgemaakte-fouten">Veelgemaakte fouten</h2>
+<blockquote>
+<p><strong>Fout 1: Ei en Ek verwarren</strong></p>
+<p>Bij <code>Ei</code> verandert het inkomen. Bij <code>Ek</code>
+verandert de prijs van een ander product.</p>
+</blockquote>
+<blockquote>
+<p><strong>Fout 2: het teken negeren</strong></p>
+<p>Bij <code>Ei</code> en <code>Ek</code> vertelt het teken juist de
+economische betekenis. <code>Ei = -0,6</code> betekent inferieur goed.
+<code>Ek = -0,6</code> betekent complementen.</p>
+</blockquote>
+<blockquote>
+<p><strong>Fout 3: de verkeerde vraag gebruiken</strong></p>
+<p>Bij <code>Ek</code> staat boven de streep de vraag naar product A,
+maar onder de streep de prijs van product B.</p>
+</blockquote>
+<blockquote>
+<p><strong>Fout 4: meerdere variabelen tegelijk veranderen</strong></p>
+<p>Bij een vraagfunctie verander je alleen de gevraagde variabele. De
+rest blijft gelijk, tenzij de opgave anders zegt.</p>
+</blockquote>
+<hr />
+<h2 id="samenvatting">Samenvatting</h2>
+<blockquote>
+<p><strong>Onthouden</strong></p>
+<ul>
+<li><code>Ei = %dQv / %dY</code>.</li>
+<li><code>Ei &lt; 0</code>: inferieur goed.</li>
+<li><code>0 &lt; Ei &lt; 1</code>: normaal noodzakelijk goed.</li>
+<li><code>Ei &gt; 1</code>: normaal luxe goed.</li>
+<li>De luxe/noodzakelijk-indeling gebruik je alleen bij normale
+goederen.</li>
+<li><code>Ek = %dQv van product A / %dP van product B</code>.</li>
+<li><code>Ek &gt; 0</code>: substituten.</li>
+<li><code>Ek &lt; 0</code>: complementen.</li>
+<li>Bij een vraagfunctie bereken je eerst oude en nieuwe <code>Q</code>,
+daarna pas de elasticiteit.</li>
+</ul>
+</blockquote>
+<p>In de volgende paragraaf oefen je elasticiteit in gemengde contexten.
+Dan moet je zelf kiezen welke elasticiteit past bij de bron.</p>
+<h2 id="vastgelopen-op-een-opgave">Vastgelopen op een opgave?</h2>
+<p>Gebruik deze herstelroute:</p>
+<ol type="1">
+<li>Vraag eerst: wat verandert er?
+<ul>
+<li>inkomen -&gt; <code>Ei</code>;</li>
+<li>prijs van een ander product -&gt; <code>Ek</code>;</li>
+<li>prijs van hetzelfde product -&gt; <code>Ev</code>.</li>
+</ul></li>
+<li>Schrijf de juiste formule op.</li>
+<li>Bereken de procentuele verandering van de vraag.</li>
+<li>Bereken de procentuele verandering van de oorzaak.</li>
+<li>Deel de procentuele veranderingen.</li>
+<li>Gebruik het teken om te classificeren.</li>
+<li>Sluit af met een economische conclusie in woorden.</li>
+</ol>
+</body>
+</html>
