@@ -3374,6 +3374,23 @@
                     "desc": "Bereken welk percentage van een kostenstijging in de prijs wordt doorberekend en houd dit gescheiden van de procentuele prijsverandering in A93."
             },
             {
+                    "id": "D47",
+                    "name": "Gelijktijdige vraag- en aanbodverschuiving analyseren",
+                    "layer": 4,
+                    "needs": [
+                            "A06",
+                            "A42",
+                            "D13",
+                            "D32",
+                            "D33"
+                    ],
+                    "aspects": [
+                            "verbaal",
+                            "grafisch"
+                    ],
+                    "desc": "Analyseer bij gelijktijdige verschuivingen van vraag en aanbod welke richting van het marktevenwicht bepaald is en welke zonder relatieve grootte ambigu blijft."
+            },
+            {
                     "id": "E01",
                     "name": "Intergenerationele ruil",
                     "layer": 2,

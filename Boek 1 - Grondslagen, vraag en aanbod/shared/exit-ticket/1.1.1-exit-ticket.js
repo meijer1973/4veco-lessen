@@ -22,6 +22,14 @@
       "gateApproved": true,
       "completionLanguageEligible": false
     },
+    "layout": {
+      "kind": "source_task_workspace",
+      "framework": "golden_exercise_workbench",
+      "kicker": "Exit ticket - paragraaf 1.1.1",
+      "sourcePaneTitle": "Bronnen",
+      "taskPaneTitle": "Werkvragen",
+      "sourceNote": "Gebruik deze gegevens als bron voor je berekeningen en uitleg."
+    },
     "metadataAlignment": {
       "status": "target_equivalent_aligned",
       "paragraphSkillIds": [
@@ -64,6 +72,58 @@
         }
       ]
     },
+    "contextBlocks": [
+      {
+        "id": "ctx-111-boer-grond",
+        "type": "table",
+        "sourceLabel": "Tabel 1",
+        "caption": "Tabel 1 - Boer met 10 hectare",
+        "sourceMaterialId": "exit-ticket-111-boer-grond",
+        "columns": [
+          "Keuze",
+          "Hectare",
+          "Winst per hectare"
+        ],
+        "rows": [
+          [
+            "Tarwe",
+            "10",
+            "EUR 500"
+          ],
+          [
+            "Mais",
+            "10",
+            "EUR 350"
+          ]
+        ],
+        "altText": "Tabel met de keuze tussen 10 hectare tarwe voor 500 euro winst per hectare en 10 hectare mais voor 350 euro winst per hectare."
+      },
+      {
+        "id": "ctx-111-buurvrouw-grond",
+        "type": "table",
+        "sourceLabel": "Tabel 2",
+        "caption": "Tabel 2 - Buurvrouw met gemengde keuze",
+        "sourceMaterialId": "exit-ticket-111-buurvrouw-grond",
+        "columns": [
+          "Gewas",
+          "Hectare",
+          "Winst per hectare"
+        ],
+        "rows": [
+          [
+            "Tarwe",
+            "6",
+            "EUR 500"
+          ],
+          [
+            "Mais",
+            "4",
+            "EUR 350"
+          ]
+        ],
+        "altText": "Tabel met 6 hectare tarwe voor 500 euro winst per hectare en 4 hectare mais voor 350 euro winst per hectare."
+      }
+    ],
     "tasks": [
       {
         "id": "tarwe-opbrengst",
@@ -74,6 +134,15 @@
           "skillLabel": "Winst berekenen",
           "purpose": "Bereken de winst van een keuze met hectares en winst per hectare.",
           "prompt": "Een boer gebruikt 10 hectare voor tarwe. Tarwe levert EUR 500 winst per hectare op. Bereken zijn totale winst uit tarwe.",
+          "contextRefs": [
+            "ctx-111-boer-grond"
+          ],
+          "operationChain": [
+            "source_values",
+            "multiplication",
+            "final_answer",
+            "unit_or_notation"
+          ],
           "interaction": {
             "workLabel": "Berekening",
             "finalAnswerLabel": "Totale winst",
@@ -155,6 +224,16 @@
           "skillLabel": "Alternatieve kosten berekenen",
           "purpose": "Bereken de waarde van het beste niet-gekozen alternatief.",
           "prompt": "Mais levert EUR 350 winst per hectare op. De boer kiest geen mais op de 10 hectare. Bereken de alternatieve kosten.",
+          "contextRefs": [
+            "ctx-111-boer-grond"
+          ],
+          "operationChain": [
+            "source_values",
+            "not_chosen_alternative",
+            "multiplication",
+            "final_answer",
+            "unit_or_notation"
+          ],
           "interaction": {
             "workLabel": "Berekening",
             "finalAnswerLabel": "Alternatieve kosten",
@@ -236,6 +315,16 @@
           "skillLabel": "Gemengde winst berekenen",
           "purpose": "Bereken de totale winst bij twee gewassen.",
           "prompt": "Een buurvrouw gebruikt 6 hectare voor tarwe en 4 hectare voor mais. Bereken haar totale winst.",
+          "contextRefs": [
+            "ctx-111-buurvrouw-grond"
+          ],
+          "operationChain": [
+            "source_values",
+            "separate_parts",
+            "addition",
+            "final_answer",
+            "unit_or_notation"
+          ],
           "interaction": {
             "workLabel": "Berekening",
             "finalAnswerLabel": "Totale winst buurvrouw",
@@ -334,6 +423,16 @@
           "skillLabel": "Keuze uitleggen met schaarste",
           "purpose": "Vergelijk winsten en leg uit waarom kiezen nodig is.",
           "prompt": "Heeft de buurvrouw een betere keuze gemaakt dan de boer? Vul de vergelijking aan.",
+          "contextRefs": [
+            "ctx-111-boer-grond",
+            "ctx-111-buurvrouw-grond"
+          ],
+          "operationChain": [
+            "source_values",
+            "comparison",
+            "scarcity_explanation",
+            "claim_judgment"
+          ],
           "interaction": {
             "fields": [
               {
@@ -433,7 +532,7 @@
       }
     ],
     "completion": {
-      "title": "Exit ticket afgerond",
+      "title": "Werk nagekeken",
       "text": "Je antwoorden zijn lokaal nagekeken. Gebruik de oefenroute als je een onderdeel wilt versterken."
     }
   };
