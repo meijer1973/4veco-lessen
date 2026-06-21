@@ -1,74 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
-<title>Break-even grafiek met TK en TO</title>
-<desc>Grafiek met productie Q op de horizontale as en euro's op de verticale as. TO = 1,50Q snijdt TK = 500 + 0,80Q bij Q ongeveer 714. Bij Q = 1000 is de verticale afstand tussen TO en TK gelijk aan 200 euro winst.</desc>
-<style>
-  .title{font-family:Arial,DejaVu Sans,sans-serif;font-size:24px;font-weight:700;fill:#1A5276}
-  .sub{font-family:Arial,DejaVu Sans,sans-serif;font-size:17px;fill:#333}
-  .axis{stroke:#222;stroke-width:2.5}
-  .grid{stroke:#D7DDE3;stroke-width:1.3}
-  .tick{stroke:#222;stroke-width:2}
-  .label{font-family:Arial,DejaVu Sans,sans-serif;font-size:17px;fill:#222}
-  .small{font-family:Arial,DejaVu Sans,sans-serif;font-size:16px;fill:#444}
-  .lineTO{stroke:#1A5276;stroke-width:4;fill:none}
-  .lineTK{stroke:#9A3412;stroke-width:4;fill:none}
-  .dash{stroke:#555;stroke-width:2;stroke-dasharray:7 6;fill:none}
-  .profit{fill:#DFF2E3;stroke:#267A3E;stroke-width:2}
-  .point{fill:#111}
-  .callout{fill:white;stroke:#777;stroke-width:1.8;rx:8;ry:8}
-</style>
-<rect width="720" height="480" fill="white"/>
-<text x="35" y="38" class="title">Break-even: TO en TK kruisen elkaar</text>
-<text x="35" y="64" class="sub">Winst bij één Q = verticale afstand tussen TO en TK.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="610" viewBox="0 0 760 610" role="img" aria-labelledby="title desc">
+  <title id="title">Break-even grafiek met TK en TO</title>
+  <desc id="desc">Grafiek waarin TO en TK elkaar kruisen; bij Q is 1000 is de verticale afstand winst.</desc>
+  <rect width="760" height="610" fill="white"/>
+  <g font-family="Arial, DejaVu Sans, sans-serif">
+    <text x="40" y="45" font-size="38" font-weight="700" fill="#1A5276">Break-even: TO en TK kruisen elkaar</text>
+    <text x="40" y="88" font-size="30" font-weight="700" fill="#333">Winst bij een Q = verticale afstand tussen TO en TK.</text>
 
-<!-- plot x 80..665, y 380..90 ; Q 0..1200, euro 0..1800 -->
-<line x1="80" y1="380" x2="665" y2="380" class="grid"/>
-<line x1="80" y1="299.4" x2="665" y2="299.4" class="grid"/>
-<line x1="80" y1="218.9" x2="665" y2="218.9" class="grid"/>
-<line x1="80" y1="138.3" x2="665" y2="138.3" class="grid"/>
-<line x1="80" y1="380" x2="80" y2="90" class="grid"/>
-<line x1="323.8" y1="380" x2="323.8" y2="90" class="grid"/>
-<line x1="567.5" y1="380" x2="567.5" y2="90" class="grid"/>
+    <line x1="95" y1="490" x2="690" y2="490" stroke="#222" stroke-width="3"/>
+    <line x1="95" y1="490" x2="95" y2="130" stroke="#222" stroke-width="3"/>
+    <g stroke="#D7DDE3" stroke-width="2">
+      <line x1="95" y1="390" x2="690" y2="390"/>
+      <line x1="95" y1="290" x2="690" y2="290"/>
+      <line x1="95" y1="190" x2="690" y2="190"/>
+      <line x1="342" y1="490" x2="342" y2="130"/>
+      <line x1="590" y1="490" x2="590" y2="130"/>
+    </g>
 
-<!-- profit gap at Q=1000: x=567.5, TO y=138.3, TK y=170.6 -->
-<rect x="554" y="138.3" width="27" height="32.3" class="profit"/>
-<line x1="567.5" y1="380" x2="567.5" y2="90" class="dash"/>
+    <path d="M95 490 L690 140" stroke="#1A5276" stroke-width="7" fill="none"/>
+    <path d="M95 390 L690 200" stroke="#9A3412" stroke-width="7" fill="none"/>
+    <line x1="445" y1="490" x2="445" y2="275" stroke="#555" stroke-width="3" stroke-dasharray="8 7"/>
+    <line x1="590" y1="490" x2="590" y2="205" stroke="#555" stroke-width="3" stroke-dasharray="8 7"/>
+    <rect x="574" y="205" width="32" height="47" fill="#DFF2E3" stroke="#267A3E" stroke-width="3"/>
 
-<!-- break-even Q=714.3 x=428.2 y=207.4 -->
-<line x1="428.2" y1="380" x2="428.2" y2="207.4" class="dash"/>
-<line x1="80" y1="207.4" x2="428.2" y2="207.4" class="dash"/>
+    <circle cx="445" cy="275" r="9" fill="#111"/>
+    <circle cx="590" cy="205" r="8" fill="#1A5276"/>
+    <circle cx="590" cy="252" r="8" fill="#9A3412"/>
 
-<line x1="80" y1="380" x2="680" y2="380" class="axis"/>
-<line x1="80" y1="380" x2="80" y2="78" class="axis"/>
+    <text x="470" y="165" font-size="30" font-weight="700" fill="#1A5276">TO = 1,50Q</text>
+    <text x="458" y="245" font-size="30" font-weight="700" fill="#9A3412">TK = 500 + 0,80Q</text>
 
-<path d="M80 380 L665 90" class="lineTO"/>
-<path d="M80 299.4 L665 143.3" class="lineTK"/>
+    <rect x="250" y="300" width="235" height="78" rx="14" fill="#ffffff" stroke="#777" stroke-width="3"/>
+    <text x="270" y="332" font-size="30" font-weight="700" fill="#222">break-even</text>
+    <text x="270" y="366" font-size="30" fill="#444">TO = TK, Q ca. 714</text>
 
-<circle cx="428.2" cy="207.4" r="5" class="point"/>
-<circle cx="567.5" cy="138.3" r="4.5" fill="#1A5276"/>
-<circle cx="567.5" cy="170.6" r="4.5" fill="#9A3412"/>
+    <rect x="480" y="92" width="235" height="78" rx="14" fill="#ffffff" stroke="#777" stroke-width="3"/>
+    <text x="500" y="124" font-size="30" font-weight="700" fill="#222">Q=1000: winst</text>
+    <text x="500" y="158" font-size="30" fill="#444">verticale afstand</text>
 
-<text x="590" y="115" class="label">TO = 1,50Q</text>
-<text x="555" y="210" class="label">TK = 500 + 0,80Q</text>
-<rect x="250" y="144" width="175" height="50" class="callout"/>
-<text x="262" y="166" class="label">break-even</text>
-<text x="262" y="187" class="small">TO = TK, Q ≈ 714</text>
-<rect x="438" y="105" width="170" height="50" class="callout"/>
-<text x="450" y="127" class="label">Q=1000: winst €200</text>
-<text x="450" y="148" class="small">verticale afstand</text>
-
-<line x1="80" y1="380" x2="80" y2="387" class="tick"/>
-<line x1="323.8" y1="380" x2="323.8" y2="387" class="tick"/>
-<line x1="567.5" y1="380" x2="567.5" y2="387" class="tick"/>
-<text x="62" y="412" class="label">Q=0</text>
-<text x="288" y="412" class="label">Q=500</text>
-<text x="520" y="412" class="label">Q=1000</text>
-<text x="568" y="450" class="label">aantal broden</text>
-
-<line x1="73" y1="299.4" x2="80" y2="299.4" class="tick"/>
-<line x1="73" y1="218.9" x2="80" y2="218.9" class="tick"/>
-<line x1="73" y1="138.3" x2="80" y2="138.3" class="tick"/>
-<text x="22" y="305" class="label">€500</text>
-<text x="13" y="225" class="label">€1000</text>
-<text x="13" y="144" class="label">€1500</text>
-<text x="55" y="84" class="label">euro</text>
+    <g font-size="30" fill="#222">
+      <text x="68" y="525">Q=0</text>
+      <text x="300" y="525">Q=500</text>
+      <text x="540" y="525">Q=1000</text>
+      <text x="522" y="580">aantal broden</text>
+      <text x="22" y="398">500</text>
+      <text x="8" y="298">1000</text>
+      <text x="8" y="198">1500</text>
+      <text x="50" y="130">euro</text>
+    </g>
+  </g>
 </svg>
