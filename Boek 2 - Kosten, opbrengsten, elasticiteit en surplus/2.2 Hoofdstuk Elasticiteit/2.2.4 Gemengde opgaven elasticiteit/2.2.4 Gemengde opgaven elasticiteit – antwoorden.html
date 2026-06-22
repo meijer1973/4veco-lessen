@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.2.4 Gemengde opgaven elasticiteit"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; max-width: 100%; }
+p { margin: 0 0 10pt 0; }
+h1 { font-size: 18pt; font-weight: bold; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; margin-bottom: 18pt; break-after: avoid; }
+h2 { font-size: 14pt; font-weight: bold; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; margin-bottom: 12pt; break-after: avoid; }
+h3 { font-size: 12pt; font-weight: bold; color: #1a1a1a; margin-top: 16pt; margin-bottom: 6pt; break-after: avoid; }
+h1 + p, h2 + p, h3 + p { break-before: avoid; }
+h1, h2, h3 { orphans: 3; widows: 3; }
+table { border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.2pt; break-inside: avoid; }
+th { background: #EDF0F3; color: #1a1a1a; font-weight: bold; padding: 3pt 5pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 5pt; vertical-align: top; }
+tr:nth-child(even) td { background: #FAFBFC; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; font-size: 10.5pt; line-height: 1.4; break-inside: avoid; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1 id="gemengde-opgaven-elasticiteit---antwoorden">2.2.4 Gemengde
+opgaven: elasticiteit - antwoorden</h1>
+<h2 id="startopgave-1---bioscoop-lux">Startopgave 1 - Bioscoop Lux</h2>
+<p><strong>A.</strong></p>
+<p><code>%dP = (12 - 10) / 10 x 100% = 20%</code></p>
+<p>De prijs stijgt met 20%.</p>
+<p><strong>B.</strong></p>
+<p><code>%dQv = (420 - 500) / 500 x 100% = -16%</code></p>
+<p>De gevraagde hoeveelheid daalt met 16%.</p>
+<p><strong>C.</strong></p>
+<p><code>Ev = %dQv / %dP = -16% / 20% = -0,8</code></p>
+<p><strong>D.</strong></p>
+<p><code>|Ev| = 0,8</code>. Omdat <code>0,8 &lt; 1</code>, is de vraag
+inelastisch. Bezoekers reageren procentueel minder sterk dan de prijs
+stijgt.</p>
+<p><strong>E.</strong></p>
+<p>Voor de prijsverhoging:</p>
+<p><code>TO = 10 x 500 = 5000 euro</code></p>
+<p>Na de prijsverhoging:</p>
+<p><code>TO = 12 x 420 = 5040 euro</code></p>
+<p><strong>F.</strong></p>
+<p>De omzet stijgt omdat de vraag inelastisch is. De prijs stijgt
+procentueel sterker dan de hoeveelheid daalt.</p>
+<hr />
+<h2 id="startopgave-2---lunchproducten">Startopgave 2 -
+Lunchproducten</h2>
+<p><strong>A.</strong></p>
+<p><code>Ei = %dQv / %dY = 8% / 5% = 1,6</code></p>
+<p><strong>B.</strong></p>
+<p>De luxe salade is een normaal goed, want <code>Ei</code> is positief.
+Het is ook een luxe goed, want <code>Ei &gt; 1</code>.</p>
+<p><strong>C.</strong></p>
+<p><code>Ei = -3% / 5% = -0,6</code></p>
+<p><strong>D.</strong></p>
+<p>Budgetnoedels zijn een inferieur goed, want <code>Ei</code> is
+negatief. De vraag daalt als het inkomen stijgt. De indeling luxe of
+noodzakelijk gebruik je alleen bij normale goederen.</p>
+<hr />
+<h2 id="startopgave-3---koffie-thee-en-filters">Startopgave 3 - Koffie,
+thee en filters</h2>
+<p><strong>A.</strong></p>
+<p><code>Ek = %dQv thee / %dP koffie = 4% / 10% = 0,4</code></p>
+<p><strong>B.</strong></p>
+<p>Koffie en thee zijn substituten. <code>Ek</code> is positief: als
+koffie duurder wordt, stijgt de vraag naar thee.</p>
+<p><strong>C.</strong></p>
+<p><code>Ek = %dQv filters / %dP koffie = -6% / 10% = -0,6</code></p>
+<p><strong>D.</strong></p>
+<p>Koffie en koffiefilters zijn complementen. <code>Ek</code> is
+negatief: als koffie duurder wordt, daalt de vraag naar filters.</p>
+<hr />
+<h2 id="opgave-4---sportschool-fit-go">Opgave 4 - SportSchool Fit &amp;
+Go</h2>
+<p><strong>A.</strong></p>
+<p><code>%dP = (30 - 25) / 25 x 100% = 20%</code></p>
+<p><strong>B.</strong></p>
+<p><code>%dQv = (1020 - 1200) / 1200 x 100% = -15%</code></p>
+<p><strong>C.</strong></p>
+<p><code>Ev = -15% / 20% = -0,75</code></p>
+<p><code>|Ev| = 0,75</code>, dus de vraag is inelastisch.</p>
+<p><strong>D.</strong></p>
+<p>Voor de prijsverhoging:</p>
+<p><code>TO = 25 x 1200 = 30.000 euro</code></p>
+<p>Na de prijsverhoging:</p>
+<p><code>TO = 30 x 1020 = 30.600 euro</code></p>
+<p>De omzet stijgt met 600 euro.</p>
+<p><strong>E.</strong></p>
+<p>De uitspraak is te kort door de bocht. De omzet stijgt bij deze
+prijsverhoging omdat de vraag inelastisch is, maar dat betekent niet dat
+elke verdere prijsverhoging goed is. Bij hogere prijzen kunnen leden
+sterker afhaken. Bovendien zegt omzet niets over kosten, winst en
+klanttevredenheid.</p>
+<hr />
+<h2 id="opgave-5---koffiebar-campus">Opgave 5 - Koffiebar Campus</h2>
+<p>De vraagfunctie is:</p>
+<p><code>Q = 5000 - 200P + 0,03Y + 150Pc</code></p>
+<p><strong>A.</strong> Beginsituatie: <code>P = 8</code>,
+<code>Y = 40.000</code>, <code>Pc = 6</code>.</p>
+<p><code>Q = 5000 - 200 x 8 + 0,03 x 40.000 + 150 x 6</code></p>
+<p><code>Q = 5000 - 1600 + 1200 + 900 = 5500</code></p>
+<p>De gevraagde hoeveelheid is 5500 ijskoffies.</p>
+<p><strong>B.</strong> Nieuwe prijs: <code>P = 9</code>.</p>
+<p><code>Q = 5000 - 200 x 9 + 0,03 x 40.000 + 150 x 6</code></p>
+<p><code>Q = 5000 - 1800 + 1200 + 900 = 5300</code></p>
+<p><strong>C.</strong></p>
+<p><code>%dP = (9 - 8) / 8 x 100% = 12,5%</code></p>
+<p><code>%dQv = (5300 - 5500) / 5500 x 100% = -3,6%</code></p>
+<p><code>Ev = -3,6% / 12,5% = -0,29</code></p>
+<p>De vraag is inelastisch.</p>
+<p><strong>D.</strong> Nieuw inkomen: <code>Y = 42.000</code>.</p>
+<p><code>Q = 5000 - 200 x 8 + 0,03 x 42.000 + 150 x 6</code></p>
+<p><code>Q = 5000 - 1600 + 1260 + 900 = 5560</code></p>
+<p><strong>E.</strong></p>
+<p><code>%dY = (42.000 - 40.000) / 40.000 x 100% = 5%</code></p>
+<p><code>%dQv = (5560 - 5500) / 5500 x 100% = 1,1%</code></p>
+<p><code>Ei = 1,1% / 5% = 0,22</code></p>
+<p>Ijskoffie is volgens deze gegevens een normaal noodzakelijk goed,
+want <code>Ei</code> is positief en kleiner dan 1.</p>
+<p><strong>F.</strong> Nieuwe prijs concurrent: <code>Pc = 7</code>.</p>
+<p><code>Q = 5000 - 200 x 8 + 0,03 x 40.000 + 150 x 7</code></p>
+<p><code>Q = 5000 - 1600 + 1200 + 1050 = 5650</code></p>
+<p><strong>G.</strong></p>
+<p><code>%dPc = (7 - 6) / 6 x 100% = 16,7%</code></p>
+<p><code>%dQv = (5650 - 5500) / 5500 x 100% = 2,7%</code></p>
+<p><code>Ek = 2,7% / 16,7% = 0,16</code></p>
+<p>Ijskoffie en frisdrank zijn substituten, want <code>Ek</code> is
+positief. Als frisdrank duurder wordt, stijgt de vraag naar
+ijskoffie.</p>
+<hr />
+<h2 id="doeloefening---streamplus">Doeloefening - StreamPlus</h2>
+<h3 id="bron-1---prijs-abonnees-en-extra-informatie">Bron 1 - Prijs,
+abonnees en extra informatie</h3>
+<p><strong>A.</strong></p>
+<p>Voor <code>Ev</code> gebruik je de maandprijs en het aantal
+standaardabonnees. De app-score en wachttijd zijn niet nodig voor de
+elasticiteitsberekening, al kunnen ze wel relevant zijn voor een breder
+advies.</p>
+<p><strong>B.</strong></p>
+<p><code>%dP = (12 - 10) / 10 x 100% = 20%</code></p>
+<p><code>%dQv = (43.000 - 50.000) / 50.000 x 100% = -14%</code></p>
+<p><code>Ev = -14% / 20% = -0,7</code></p>
+<p><strong>C.</strong></p>
+<p><code>|Ev| = 0,7</code>, dus de vraag is inelastisch. De hoeveelheid
+abonnees daalt procentueel minder sterk dan de prijs stijgt.</p>
+<p><strong>D.</strong></p>
+<p>Voor de prijsverhoging:</p>
+<p><code>TO = 10 x 50.000 = 500.000 euro</code></p>
+<p>Na de prijsverhoging:</p>
+<p><code>TO = 12 x 43.000 = 516.000 euro</code></p>
+<p>De omzet stijgt met 16.000 euro. Dat past bij een inelastische vraag:
+de prijsstijging is procentueel groter dan de daling van het aantal
+abonnees.</p>
+<h3 id="bron-2---inkomen-en-abonnementstypen">Bron 2 - Inkomen en
+abonnementstypen</h3>
+<p><strong>E.</strong> Premium:</p>
+<p><code>%dQv = (13.800 - 12.000) / 12.000 x 100% = 15%</code></p>
+<p><code>Ei = 15% / 8% = 1,875</code></p>
+<p>Premium is een normaal luxe goed, want <code>Ei</code> is positief en
+groter dan 1.</p>
+<p><strong>F.</strong> Budget:</p>
+<p><code>%dQv = (19.200 - 20.000) / 20.000 x 100% = -4%</code></p>
+<p><code>Ei = -4% / 8% = -0,5</code></p>
+<p>Budget is een inferieur goed, want <code>Ei</code> is negatief. De
+luxe/noodzakelijk-indeling gebruik je hier niet.</p>
+<h3 id="bron-3---concurrentie-als-gestructureerde-bron">Bron 3 -
+Concurrentie als gestructureerde bron</h3>
+<p><strong>G.</strong></p>
+<p><code>%dP concurrent = (9 - 8) / 8 x 100% = 12,5%</code></p>
+<p><code>%dQv StreamPlus = (45.150 - 43.000) / 43.000 x 100% = 5%</code></p>
+<p><code>Ek = 5% / 12,5% = 0,4</code></p>
+<p><strong>H.</strong></p>
+<p>StreamPlus en de concurrent zijn substituten. De prijs van de
+concurrent stijgt en de vraag naar StreamPlus stijgt ook. Dat past bij
+een positieve kruiselingse elasticiteit.</p>
+<h3 id="bron-4---vraagfunctie">Bron 4 - Vraagfunctie</h3>
+<p>De vraagfunctie is:</p>
+<p><code>Q = 12.000 - 400P + 0,1Y + 300Pc</code></p>
+<p><strong>I.</strong> Beginsituatie: <code>P = 12</code>,
+<code>Y = 40.000</code>, <code>Pc = 10</code>.</p>
+<p><code>Q = 12.000 - 400 x 12 + 0,1 x 40.000 + 300 x 10</code></p>
+<p><code>Q = 12.000 - 4.800 + 4.000 + 3.000 = 14.200</code></p>
+<p><strong>J.</strong> Inkomen stijgt naar <code>Y = 42.000</code>.</p>
+<p><code>Q = 12.000 - 4.800 + 4.200 + 3.000 = 14.400</code></p>
+<p><code>%dY = (42.000 - 40.000) / 40.000 x 100% = 5%</code></p>
+<p><code>%dQv = (14.400 - 14.200) / 14.200 x 100% = 1,4%</code></p>
+<p><code>Ei = 1,4% / 5% = 0,28</code></p>
+<p>Volgens de vraagfunctie is het standaardabonnement een normaal
+noodzakelijk goed.</p>
+<p><strong>K.</strong> Concurrentieprijs stijgt naar
+<code>Pc = 11</code>.</p>
+<p><code>Q = 12.000 - 4.800 + 4.000 + 3.300 = 14.500</code></p>
+<p><code>%dPc = (11 - 10) / 10 x 100% = 10%</code></p>
+<p><code>%dQv = (14.500 - 14.200) / 14.200 x 100% = 2,1%</code></p>
+<p><code>Ek = 2,1% / 10% = 0,21</code></p>
+<p>De diensten zijn substituten volgens de vraagfunctie.</p>
+<p><strong>L.</strong></p>
+<p>StreamPlus moet niet automatisch doorgaan met prijsverhogingen. Bron
+1 laat zien dat deze prijsverhoging de omzet verhoogde, omdat de vraag
+inelastisch was. Bron 3 en bron 4 laten zien dat de vraag ook afhangt
+van concurrentie. De lagere app-score en langere wachttijd uit bron 1
+zijn geen elasticiteitsberekening, maar ze waarschuwen dat
+klanttevredenheid kan meespelen. Uit deze bronnen weten we niet wat de
+kosten, winst of langetermijnbinding zijn. Een voorzichtig advies is
+daarom: kleine prijsstappen testen, concurrentie en opzeggingen volgen,
+en omzet niet verwarren met winst.</p>
+<hr />
+<h2 id="denkertje---prijsverlaging-en-omzet">Denkertje - Prijsverlaging
+en omzet</h2>
+<p><strong>A.</strong></p>
+<p><code>%dQv = Ev x %dP = -0,4 x -10% = 4%</code></p>
+<p>De gevraagde hoeveelheid stijgt met 4%.</p>
+<p><strong>B.</strong></p>
+<p>De omzet daalt waarschijnlijk. De prijs daalt met 10%, maar de
+hoeveelheid stijgt maar met 4%. Bij inelastische vraag helpt een
+prijsverlaging de omzet meestal niet.</p>
+<p><strong>C.</strong></p>
+<p><code>%dQv = -1,8 x -10% = 18%</code></p>
+<p>De gevraagde hoeveelheid stijgt met 18%.</p>
+<p><strong>D.</strong></p>
+<p>Nu is de vraag elastisch. De hoeveelheid stijgt procentueel sterker
+dan de prijs daalt. Daardoor kan de omzet stijgen.</p>
+</body>
+</html>

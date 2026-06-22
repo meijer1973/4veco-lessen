@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }
+h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; }
+h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }
+h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }
+p { margin: 0 0 10pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
+th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 6pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; break-inside: avoid; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1
+id="inkomenselasticiteit-en-kruiselingse-elasticiteit---opgaven">2.2.3
+Inkomenselasticiteit en kruiselingse elasticiteit - opgaven</h1>
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+<p>Een winkel verkoopt havermelk. Het gemiddelde inkomen van klanten
+stijgt met 4%. Daardoor stijgt de vraag naar havermelk met 6%.</p>
+<p>Later stijgt de prijs van gewone melk met 8%. Daardoor stijgt de
+vraag naar havermelk met 3%.</p>
+<p><strong>Vraag:</strong> bereken <code>Ei</code> en <code>Ek</code>
+voor havermelk en interpreteer de uitkomsten.</p>
+<p><strong>Stap 1: Bereken <code>Ei</code>.</strong></p>
+<p><code>Ei = %dQv / %dY = 6% / 4% = 1,5</code></p>
+<p>Havermelk is een normaal goed. Omdat <code>Ei &gt; 1</code>, gedraagt
+havermelk zich in dit voorbeeld als een luxe normaal goed.</p>
+<p><strong>Stap 2: Bereken <code>Ek</code>.</strong></p>
+<p><code>Ek = %dQv havermelk / %dP gewone melk = 3% / 8% = 0,375</code></p>
+<p><code>Ek</code> is positief, dus havermelk en gewone melk zijn
+substituten.</p>
+<p><strong>Stap 3: Conclusie.</strong></p>
+<p>De vraag naar havermelk stijgt bij hogere inkomens en stijgt ook als
+gewone melk duurder wordt.</p>
+<hr />
+<h2 id="opgaven">Opgaven</h2>
+<h3 id="startoefeningen">Startoefeningen</h3>
+<p><strong>Opgave 1</strong> <em>(inkomenselasticiteit
+herkennen)</em></p>
+<p>Het gemiddelde inkomen stijgt met 10%.</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th style="text-align: right;">Verandering van de gevraagde
+hoeveelheid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product A</td>
+<td style="text-align: right;">+4%</td>
+</tr>
+<tr>
+<td>Product B</td>
+<td style="text-align: right;">+18%</td>
+</tr>
+<tr>
+<td>Product C</td>
+<td style="text-align: right;">-6%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>A.</strong> Bereken <code>Ei</code> voor product A.</p>
+<p><strong>B.</strong> Bereken <code>Ei</code> voor product B.</p>
+<p><strong>C.</strong> Bereken <code>Ei</code> voor product C.</p>
+<p><strong>D.</strong> Classificeer elk product. Geef bij normale
+goederen ook aan of het noodzakelijk of luxe is.</p>
+<hr />
+<p><strong>Opgave 2</strong> <em>(kruiselingse elasticiteit
+herkennen)</em></p>
+<p>De prijs van product B stijgt met 20%. De vraag naar product A
+verandert.</p>
+<table>
+<thead>
+<tr>
+<th>Situatie</th>
+<th style="text-align: right;">Verandering van de vraag naar A</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align: right;">+8%</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: right;">-12%</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: right;">+1%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>A.</strong> Bereken <code>Ek</code> in situatie 1.</p>
+<p><strong>B.</strong> Bereken <code>Ek</code> in situatie 2.</p>
+<p><strong>C.</strong> Bereken <code>Ek</code> in situatie 3.</p>
+<p><strong>D.</strong> Classificeer de relatie tussen A en B in elke
+situatie: substituten, complementen of zwakke relatie.</p>
+<hr />
+<p><strong>Opgave 3</strong> <em>(vraagfunctie met begeleiding)</em></p>
+<p>De vraag naar product X is:</p>
+<p><code>Qx = 80 - 3Px + 2Pz + 0,02Y</code></p>
+<p>In de beginsituatie geldt: <code>Px = 10</code>, <code>Pz = 15</code>
+en <code>Y = 2000</code>.</p>
+<p><strong>A.</strong> Bereken de huidige vraag naar X.</p>
+<p><strong>B.</strong> Het inkomen stijgt naar <code>Y = 2200</code>.
+<code>Px</code> en <code>Pz</code> blijven gelijk. Bereken de nieuwe
+vraag naar X.</p>
+<p><strong>C.</strong> Bereken de procentuele verandering van
+<code>Qx</code> en van <code>Y</code>.</p>
+<p><strong>D.</strong> Bereken <code>Ei</code>.</p>
+<p><strong>E.</strong> Is X een normaal of inferieur goed? Leg uit.</p>
+<h3 id="zelfstandige-oefeningen">Zelfstandige oefeningen</h3>
+<p><strong>Opgave 4</strong></p>
+<p>Het inkomen van gezinnen stijgt met 6%. De vraag naar elektrische
+fietsen stijgt met 12%. De vraag naar goedkope tweedehandsfietsen daalt
+met 4%.</p>
+<p><strong>A.</strong> Bereken <code>Ei</code> voor elektrische
+fietsen.</p>
+<p><strong>B.</strong> Classificeer elektrische fietsen.</p>
+<p><strong>C.</strong> Bereken <code>Ei</code> voor goedkope
+tweedehandsfietsen.</p>
+<p><strong>D.</strong> Leg uit waarom goedkope tweedehandsfietsen in dit
+voorbeeld een inferieur goed kunnen zijn.</p>
+<hr />
+<p><strong>Opgave 5</strong></p>
+<p>De prijs van bioscoopkaartjes stijgt met 15%. Daardoor stijgt de
+vraag naar streamingabonnementen met 6% en daalt de vraag naar popcorn
+in de bioscoop met 9%.</p>
+<p><strong>A.</strong> Bereken <code>Ek</code> voor
+streamingabonnementen ten opzichte van de prijs van
+bioscoopkaartjes.</p>
+<p><strong>B.</strong> Zijn streamingabonnementen en bioscoopkaartjes
+substituten of complementen? Leg uit.</p>
+<p><strong>C.</strong> Bereken <code>Ek</code> voor popcorn ten opzichte
+van de prijs van bioscoopkaartjes.</p>
+<p><strong>D.</strong> Zijn popcorn en bioscoopkaartjes substituten of
+complementen? Leg uit.</p>
+<hr />
+<p><strong>Opgave 6</strong> <em>(vraagfunctie zelfstandig)</em></p>
+<p>De vraag naar product X is:</p>
+<p><code>Qx = 120 - 4Px + 1,5Py + 0,01Y</code></p>
+<p>In de beginsituatie geldt: <code>Px = 15</code>, <code>Py = 20</code>
+en <code>Y = 6000</code>.</p>
+<p><strong>A.</strong> Bereken de huidige vraag naar X.</p>
+<p><strong>B.</strong> <code>Py</code> stijgt van 20 naar 24.
+<code>Px</code> en <code>Y</code> blijven gelijk. Bereken de nieuwe
+vraag naar X.</p>
+<p><strong>C.</strong> Bereken de procentuele verandering van
+<code>Qx</code> en van <code>Py</code>.</p>
+<p><strong>D.</strong> Bereken <code>Ek</code>.</p>
+<p><strong>E.</strong> Zijn X en Y substituten of complementen? Leg
+uit.</p>
+<h3 id="herhaling">Herhaling</h3>
+<p><strong>Opgave 7</strong> <em>(welke elasticiteit past?)</em></p>
+<p>Geef bij elke situatie aan of je <code>Ev</code>, <code>Ei</code> of
+<code>Ek</code> gebruikt. Leg kort uit.</p>
+<p><strong>A.</strong> De prijs van treinreizen stijgt en de vraag naar
+busreizen stijgt.</p>
+<p><strong>B.</strong> Het inkomen stijgt en de vraag naar
+restaurantbezoeken stijgt sterker dan het inkomen.</p>
+<p><strong>C.</strong> De prijs van een streamingdienst stijgt en het
+aantal abonnees daalt.</p>
+<p><strong>D.</strong> De prijs van printers daalt en de vraag naar
+cartridges stijgt.</p>
+<p><strong>E.</strong> Het inkomen stijgt en de vraag naar
+budget-noedels daalt.</p>
+<h3 id="doeloefening">Doeloefening</h3>
+<p><strong>Opgave 8</strong> <em>(inkomen, kruiselingse elasticiteit en
+vraagfunctie)</em></p>
+<p><strong>Bron 1 - Inkomen en vraag</strong></p>
+<p>Het gemiddelde huishoudinkomen stijgt met 5%. De vraag naar
+biologische maaltijdpakketten stijgt met 8%. De vraag naar
+budget-noedels daalt met 3%.</p>
+<p><strong>A.</strong> Bereken de inkomenselasticiteit <code>Ei</code>
+voor biologische maaltijdpakketten en voor budget-noedels. Classificeer
+beide producten. Let op: bij een inferieur goed gebruik je de
+luxe/noodzakelijk-indeling niet.</p>
+<p><strong>Bron 2 - Producten die met elkaar samenhangen</strong></p>
+<p>De prijs van koffie stijgt met 10%. De vraag naar thee stijgt met 4%.
+De vraag naar koffiefilters daalt met 6%.</p>
+<p><strong>B.</strong> Bereken de kruiselingse elasticiteit
+<code>Ek</code> voor thee ten opzichte van de koffieprijs en voor
+koffiefilters ten opzichte van de koffieprijs. Classificeer de
+relaties.</p>
+<p><strong>Bron 3 - Vraagfunctie voor product X</strong></p>
+<p>De vraag naar product X wordt gegeven door:</p>
+<p><code>Qx = 100 - 2Px + 0,5Py + 0,01Y</code></p>
+<p>Daarbij geldt eerst: <code>Px = 10</code>, <code>Py = 20</code> en
+<code>Y = 30000</code>.</p>
+<p><strong>C.</strong> Bereken de huidige vraag naar X. Daarna stijgt
+het inkomen naar <code>Y = 33000</code>, terwijl <code>Px</code> en
+<code>Py</code> gelijk blijven. Bereken de nieuwe vraag naar X en
+bereken <code>Ei</code>.</p>
+<p><strong>D.</strong> Gebruik opnieuw de beginsituatie. Nu stijgt
+<code>Py</code> van 20 naar 24, terwijl <code>Px</code> en
+<code>Y</code> gelijk blijven. Bereken de nieuwe vraag naar X en bereken
+<code>Ek</code>. Zijn X en Y substituten of complementen?</p>
+<p><strong>E.</strong> Gebruik de vraagfunctie uit bron 3. Door een
+recessie daalt het inkomen met 10%. Bereken de nieuwe vraag naar X.</p>
+<h3 id="denkertje">Denkertje</h3>
+<p><strong>Opgave 9</strong></p>
+<p>Een bedrijf verkoopt goedkope diepvriesmaaltijden. In een periode
+waarin inkomens stijgen met 8%, daalt de vraag naar deze maaltijden met
+5%. Tegelijk stijgt de prijs van verse maaltijdboxen met 12%, waardoor
+de vraag naar diepvriesmaaltijden met 3% stijgt.</p>
+<p><strong>A.</strong> Bereken <code>Ei</code> voor
+diepvriesmaaltijden.</p>
+<p><strong>B.</strong> Bereken <code>Ek</code> van diepvriesmaaltijden
+ten opzichte van de prijs van verse maaltijdboxen.</p>
+<p><strong>C.</strong> Leg uit hoe hetzelfde product tegelijk inferieur
+kan zijn en een substituut voor een ander product.</p>
+</body>
+</html>

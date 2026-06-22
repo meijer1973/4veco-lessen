@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<style>
+@page {
+  size: A4;
+  margin: 2cm 2.2cm 2.2cm 3.2cm;
+  @bottom-left { content: "2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+}
+body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }
+h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; }
+h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }
+h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }
+p { margin: 0 0 10pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
+th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
+td { border: 1px solid #999; padding: 2pt 6pt; }
+tr:nth-child(even) td { background: #FAFBFC; }
+img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
+blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; break-inside: avoid; }
+code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }
+hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
+ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
+li { margin-bottom: 4pt; }
+</style></head>
+<body>
+<h1
+id="inkomenselasticiteit-en-kruiselingse-elasticiteit---antwoorden">2.2.3
+Inkomenselasticiteit en kruiselingse elasticiteit - antwoorden</h1>
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+<p><strong>Stap 1: Ei</strong></p>
+<p><code>Ei = %dQv / %dY = 6% / 4% = 1,5</code></p>
+<p>Havermelk is een normaal goed, want <code>Ei &gt; 0</code>. Omdat
+<code>Ei &gt; 1</code>, is het in dit voorbeeld een luxe normaal
+goed.</p>
+<p><strong>Stap 2: Ek</strong></p>
+<p><code>Ek = %dQv havermelk / %dP gewone melk = 3% / 8% = 0,375</code></p>
+<p><code>Ek</code> is positief, dus havermelk en gewone melk zijn
+substituten.</p>
+<p><strong>Conclusie:</strong> de vraag naar havermelk stijgt bij hogere
+inkomens en stijgt ook wanneer gewone melk duurder wordt.</p>
+<hr />
+<h2 id="opgave-1">Opgave 1</h2>
+<p><strong>A.</strong> Product A:</p>
+<p><code>Ei = 4% / 10% = 0,4</code></p>
+<p><strong>B.</strong> Product B:</p>
+<p><code>Ei = 18% / 10% = 1,8</code></p>
+<p><strong>C.</strong> Product C:</p>
+<p><code>Ei = -6% / 10% = -0,6</code></p>
+<p><strong>D.</strong> Classificatie:</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th style="text-align: right;">Ei</th>
+<th>Classificatie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td style="text-align: right;">0,4</td>
+<td>normaal noodzakelijk goed</td>
+</tr>
+<tr>
+<td>B</td>
+<td style="text-align: right;">1,8</td>
+<td>normaal luxe goed</td>
+</tr>
+<tr>
+<td>C</td>
+<td style="text-align: right;">-0,6</td>
+<td>inferieur goed</td>
+</tr>
+</tbody>
+</table>
+<p>Bij product C gebruik je de luxe/noodzakelijk-indeling niet, omdat
+<code>Ei</code> negatief is.</p>
+<hr />
+<h2 id="opgave-2">Opgave 2</h2>
+<p><strong>A.</strong> Situatie 1:</p>
+<p><code>Ek = 8% / 20% = 0,4</code></p>
+<p><strong>B.</strong> Situatie 2:</p>
+<p><code>Ek = -12% / 20% = -0,6</code></p>
+<p><strong>C.</strong> Situatie 3:</p>
+<p><code>Ek = 1% / 20% = 0,05</code></p>
+<p><strong>D.</strong> Classificatie:</p>
+<table>
+<thead>
+<tr>
+<th>Situatie</th>
+<th style="text-align: right;">Ek</th>
+<th>Relatie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align: right;">0,4</td>
+<td>substituten</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: right;">-0,6</td>
+<td>complementen</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: right;">0,05</td>
+<td>zwakke relatie; bijna onafhankelijk</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="opgave-3">Opgave 3</h2>
+<p>Vraagfunctie:</p>
+<p><code>Qx = 80 - 3Px + 2Pz + 0,02Y</code></p>
+<p>Beginsituatie: <code>Px = 10</code>, <code>Pz = 15</code>,
+<code>Y = 2000</code>.</p>
+<p><strong>A.</strong> Huidige vraag:</p>
+<p><code>Qx = 80 - 3 x 10 + 2 x 15 + 0,02 x 2000</code></p>
+<p><code>Qx = 80 - 30 + 30 + 40 = 120</code></p>
+<p><strong>B.</strong> Nieuw inkomen <code>Y = 2200</code>:</p>
+<p><code>Qx = 80 - 30 + 30 + 0,02 x 2200</code></p>
+<p><code>Qx = 80 - 30 + 30 + 44 = 124</code></p>
+<p><strong>C.</strong> Procentuele veranderingen:</p>
+<p><code>%dQx = (124 - 120) / 120 x 100% = 3,3%</code></p>
+<p><code>%dY = (2200 - 2000) / 2000 x 100% = 10%</code></p>
+<p><strong>D.</strong></p>
+<p><code>Ei = 3,3% / 10% = 0,33</code></p>
+<p><strong>E.</strong> X is een normaal noodzakelijk goed.
+<code>Ei</code> is positief, maar kleiner dan 1.</p>
+<hr />
+<h2 id="opgave-4">Opgave 4</h2>
+<p><strong>A.</strong> Elektrische fietsen:</p>
+<p><code>Ei = 12% / 6% = 2</code></p>
+<p><strong>B.</strong> Elektrische fietsen zijn een normaal luxe goed:
+<code>Ei</code> is positief en groter dan 1.</p>
+<p><strong>C.</strong> Goedkope tweedehandsfietsen:</p>
+<p><code>Ei = -4% / 6% = -0,67</code></p>
+<p><strong>D.</strong> Goedkope tweedehandsfietsen zijn in dit voorbeeld
+inferieur. Als gezinnen meer inkomen krijgen, kiezen ze vaker voor
+nieuwe of duurdere fietsen.</p>
+<hr />
+<h2 id="opgave-5">Opgave 5</h2>
+<p><strong>A.</strong> Streamingabonnementen:</p>
+<p><code>Ek = 6% / 15% = 0,4</code></p>
+<p><strong>B.</strong> Streamingabonnementen en bioscoopkaartjes zijn
+substituten. Als bioscoopkaartjes duurder worden, stijgt de vraag naar
+streamingabonnementen.</p>
+<p><strong>C.</strong> Popcorn:</p>
+<p><code>Ek = -9% / 15% = -0,6</code></p>
+<p><strong>D.</strong> Popcorn en bioscoopkaartjes zijn complementen.
+Als bioscoopkaartjes duurder worden, gaan minder mensen naar de bioscoop
+en wordt ook minder popcorn in de bioscoop gevraagd.</p>
+<hr />
+<h2 id="opgave-6">Opgave 6</h2>
+<p>Vraagfunctie:</p>
+<p><code>Qx = 120 - 4Px + 1,5Py + 0,01Y</code></p>
+<p>Beginsituatie: <code>Px = 15</code>, <code>Py = 20</code>,
+<code>Y = 6000</code>.</p>
+<p><strong>A.</strong> Huidige vraag:</p>
+<p><code>Qx = 120 - 4 x 15 + 1,5 x 20 + 0,01 x 6000</code></p>
+<p><code>Qx = 120 - 60 + 30 + 60 = 150</code></p>
+<p><strong>B.</strong> Nieuw <code>Py = 24</code>:</p>
+<p><code>Qx = 120 - 60 + 1,5 x 24 + 60</code></p>
+<p><code>Qx = 120 - 60 + 36 + 60 = 156</code></p>
+<p><strong>C.</strong> Procentuele veranderingen:</p>
+<p><code>%dQx = (156 - 150) / 150 x 100% = 4%</code></p>
+<p><code>%dPy = (24 - 20) / 20 x 100% = 20%</code></p>
+<p><strong>D.</strong></p>
+<p><code>Ek = 4% / 20% = 0,2</code></p>
+<p><strong>E.</strong> X en Y zijn substituten. <code>Ek</code> is
+positief: als de prijs van Y stijgt, stijgt de vraag naar X.</p>
+<hr />
+<h2 id="opgave-7">Opgave 7</h2>
+<p><strong>A.</strong> <code>Ek</code>. De prijs van treinreizen
+verandert en de vraag naar busreizen reageert. Het gaat om twee
+verschillende producten.</p>
+<p><strong>B.</strong> <code>Ei</code>. Het inkomen verandert en de
+vraag naar restaurantbezoeken reageert.</p>
+<p><strong>C.</strong> <code>Ev</code>. De eigen prijs van de
+streamingdienst verandert en de vraag naar diezelfde dienst
+reageert.</p>
+<p><strong>D.</strong> <code>Ek</code>. De prijs van printers verandert
+en de vraag naar cartridges reageert. Printers en cartridges zijn
+verschillende producten.</p>
+<p><strong>E.</strong> <code>Ei</code>. Het inkomen verandert en de
+vraag naar budget-noedels reageert.</p>
+<hr />
+<h2 id="opgave-8">Opgave 8</h2>
+<h3 id="bron-1">Bron 1</h3>
+<p><strong>A.</strong> Biologische maaltijdpakketten:</p>
+<p><code>Ei = 8% / 5% = 1,6</code></p>
+<p>Dit is een normaal luxe goed: <code>Ei &gt; 0</code> en
+<code>Ei &gt; 1</code>.</p>
+<p>Budget-noedels:</p>
+<p><code>Ei = -3% / 5% = -0,6</code></p>
+<p>Dit is een inferieur goed: <code>Ei &lt; 0</code>. De
+luxe/noodzakelijk-indeling is hier niet van toepassing.</p>
+<h3 id="bron-2">Bron 2</h3>
+<p><strong>B.</strong> Thee ten opzichte van koffieprijs:</p>
+<p><code>Ek = 4% / 10% = 0,4</code></p>
+<p>Thee en koffie zijn substituten, want <code>Ek &gt; 0</code>.</p>
+<p>Koffiefilters ten opzichte van koffieprijs:</p>
+<p><code>Ek = -6% / 10% = -0,6</code></p>
+<p>Koffie en koffiefilters zijn complementen, want
+<code>Ek &lt; 0</code>.</p>
+<h3 id="bron-3">Bron 3</h3>
+<p><strong>C.</strong> Huidige vraag:</p>
+<p><code>Qx = 100 - 2 x 10 + 0,5 x 20 + 0,01 x 30000</code></p>
+<p><code>Qx = 100 - 20 + 10 + 300 = 390</code></p>
+<p>Nieuw inkomen <code>Y = 33000</code>:</p>
+<p><code>Qx = 100 - 20 + 10 + 330 = 420</code></p>
+<p><code>%dQx = (420 - 390) / 390 x 100% = 7,7%</code></p>
+<p><code>%dY = (33000 - 30000) / 30000 x 100% = 10%</code></p>
+<p><code>Ei = 7,7% / 10% = 0,77</code></p>
+<p>X is een normaal noodzakelijk goed.</p>
+<p><strong>D.</strong> Nieuw <code>Py = 24</code>:</p>
+<p><code>Qx = 100 - 20 + 0,5 x 24 + 300</code></p>
+<p><code>Qx = 100 - 20 + 12 + 300 = 392</code></p>
+<p><code>%dQx = (392 - 390) / 390 x 100% = 0,5%</code></p>
+<p><code>%dPy = (24 - 20) / 20 x 100% = 20%</code></p>
+<p><code>Ek = 0,5% / 20% = 0,03</code></p>
+<p>X en Y zijn zwakke substituten. <code>Ek</code> is positief, maar
+zeer klein.</p>
+<p><strong>E.</strong> Een inkomensdaling van 10% betekent:</p>
+<p><code>Y = 30000 x 0,90 = 27000</code></p>
+<p><code>Qx = 100 - 20 + 10 + 0,01 x 27000</code></p>
+<p><code>Qx = 100 - 20 + 10 + 270 = 360</code></p>
+<p>De nieuwe vraag naar X is 360.</p>
+<hr />
+<h2 id="opgave-9">Opgave 9</h2>
+<p><strong>A.</strong></p>
+<p><code>Ei = -5% / 8% = -0,625</code></p>
+<p>Diepvriesmaaltijden zijn in dit voorbeeld een inferieur goed.</p>
+<p><strong>B.</strong></p>
+<p><code>Ek = 3% / 12% = 0,25</code></p>
+<p>Diepvriesmaaltijden en verse maaltijdboxen zijn substituten.</p>
+<p><strong>C.</strong> Dat kan tegelijk. Bij hogere inkomens kopen
+consumenten minder goedkope diepvriesmaaltijden, omdat ze naar betere
+alternatieven overstappen. Maar als verse maaltijdboxen duurder worden,
+kiezen sommige consumenten juist weer voor diepvriesmaaltijden als
+goedkoper alternatief.</p>
+</body>
+</html>

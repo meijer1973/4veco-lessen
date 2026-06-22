@@ -1,39 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
-  <rect width="1100" height="650" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="900" viewBox="0 0 760 900" role="img" aria-labelledby="title desc">
+  <title id="title">Van brongegevens naar betekenis</title>
+  <desc id="desc">Routekaart: lees de bron, bereken Ev, en sluit af met een economische betekeniszin.</desc>
+  <rect width="760" height="900" fill="#ffffff"/>
   <defs>
-    <marker id="arrow" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto">
-      <polygon points="0 0, 14 5, 0 10" fill="#1A5276"/>
+    <marker id="arrow" markerWidth="18" markerHeight="14" refX="16" refY="7" orient="auto">
+      <polygon points="0 0, 18 7, 0 14" fill="#1A5276"/>
     </marker>
   </defs>
   <g font-family="Arial, sans-serif">
-    <text x="45" y="78" font-size="48" font-weight="700" fill="#1A5276">Van brongegevens naar betekenis</text>
-    <text x="47" y="126" font-size="36" font-weight="600" fill="#333333">Lees de bron, bereken Ev, eindig met een zin over gedrag.</text>
+    <text x="45" y="70" font-size="40" font-weight="700" fill="#1A5276">Van brongegevens naar betekenis</text>
+    <text x="47" y="116" font-size="32" font-weight="700" fill="#333333">Lees de bron, bereken Ev.</text>
+    <text x="47" y="154" font-size="32" font-weight="700" fill="#333333">Eindig met een zin over gedrag.</text>
 
-    <rect x="45" y="180" width="285" height="280" rx="22" fill="#F4F7FA" stroke="#1A5276" stroke-width="4"/>
-    <text x="75" y="240" font-size="35" font-weight="700" fill="#1A5276">1. Bron</text>
-    <text x="75" y="300" font-size="32" fill="#1a1a1a">Prijs: 10 -&gt; 12</text>
-    <text x="75" y="348" font-size="32" fill="#1a1a1a">Qv: 500 -&gt; 420</text>
-    <text x="75" y="396" font-size="32" fill="#1a1a1a">Oude waarde is basis</text>
+    <rect x="55" y="200" width="650" height="155" rx="22" fill="#F4F7FA" stroke="#1A5276" stroke-width="5"/>
+    <text x="85" y="252" font-size="34" font-weight="700" fill="#1A5276">1. Bron</text>
+    <text x="85" y="302" font-size="32" fill="#1a1a1a">Prijs: 10 -> 12</text>
+    <text x="375" y="302" font-size="32" fill="#1a1a1a">Qv: 500 -> 420</text>
+    <text x="85" y="342" font-size="32" fill="#1a1a1a">Oude waarde is de basis.</text>
 
-    <path d="M345 320 L390 320" stroke="#1A5276" stroke-width="8" marker-end="url(#arrow)"/>
+    <path d="M380 374 L380 414" stroke="#1A5276" stroke-width="8" marker-end="url(#arrow)"/>
 
-    <rect x="410" y="180" width="325" height="280" rx="22" fill="#EDF2F7" stroke="#1A5276" stroke-width="4"/>
-    <text x="440" y="240" font-size="35" font-weight="700" fill="#1A5276">2. Bereken</text>
-    <text x="440" y="300" font-size="32" fill="#1a1a1a">%dP = +20%</text>
-    <text x="440" y="348" font-size="32" fill="#1a1a1a">%dQv = -16%</text>
-    <text x="440" y="396" font-size="32" fill="#1a1a1a">Ev = -16 / 20 = -0,8</text>
+    <rect x="55" y="430" width="650" height="165" rx="22" fill="#EDF2F7" stroke="#1A5276" stroke-width="5"/>
+    <text x="85" y="482" font-size="34" font-weight="700" fill="#1A5276">2. Bereken</text>
+    <text x="85" y="532" font-size="32" fill="#1a1a1a">%dP = +20%</text>
+    <text x="375" y="532" font-size="32" fill="#1a1a1a">%dQv = -16%</text>
+    <text x="85" y="577" font-size="32" fill="#1a1a1a">Ev = -16 / 20 = -0,8</text>
 
-    <path d="M750 320 L795 320" stroke="#1A5276" stroke-width="8" marker-end="url(#arrow)"/>
+    <path d="M380 615 L380 655" stroke="#1A5276" stroke-width="8" marker-end="url(#arrow)"/>
 
-    <rect x="815" y="180" width="240" height="280" rx="22" fill="#F4F7FA" stroke="#1A5276" stroke-width="4"/>
-    <text x="845" y="240" font-size="32" font-weight="700" fill="#1A5276">3. Betekenis</text>
-    <text x="845" y="300" font-size="32" fill="#1a1a1a">|Ev| = 0,8</text>
-    <text x="845" y="348" font-size="32" fill="#1a1a1a">Inelastisch</text>
-    <text x="845" y="396" font-size="32" fill="#1a1a1a">Q reageert</text>
-    <text x="845" y="438" font-size="32" fill="#1a1a1a">zwakker</text>
+    <rect x="55" y="670" width="650" height="120" rx="22" fill="#F4F7FA" stroke="#1A5276" stroke-width="5"/>
+    <text x="85" y="720" font-size="34" font-weight="700" fill="#1A5276">3. Betekenis</text>
+    <text x="330" y="720" font-size="32" fill="#1a1a1a">|Ev| = 0,8: inelastisch</text>
+    <text x="85" y="765" font-size="32" fill="#1a1a1a">Q reageert zwakker dan de prijs.</text>
 
-    <text x="55" y="560" font-size="32" font-weight="700" fill="#1f1f1f">Controlezin:</text>
-    <text x="280" y="560" font-size="32" fill="#1f1f1f">prijs stijgt, hoeveelheid daalt, reactie is kleiner</text>
-    <text x="280" y="604" font-size="32" fill="#1f1f1f">dan de prijsverandering.</text>
+    <rect x="55" y="820" width="650" height="55" rx="18" fill="#FFF7D8" stroke="#C8A100" stroke-width="4"/>
+    <text x="85" y="857" font-size="30" font-weight="700" fill="#1f1f1f">Controlezin:</text>
+    <text x="265" y="857" font-size="30" fill="#1f1f1f">prijs stijgt, hoeveelheid daalt.</text>
   </g>
 </svg>
