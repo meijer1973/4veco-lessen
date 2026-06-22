@@ -1,175 +1,347 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>-</title>
-  <style>
-    /* Default styles provided by pandoc.
-    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-    */
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      white-space: pre-wrap;
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid #1a1a1a;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <meta name="generator" content="pandoc" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+  <title>-</title>
+
+  <style>
+
+    /* Default styles provided by pandoc.
+
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+
+    */
+
+    html {
+
+      color: #1a1a1a;
+
+      background-color: #fdfdfd;
+
+    }
+
+    body {
+
+      margin: 0 auto;
+
+      max-width: 36em;
+
+      padding-left: 50px;
+
+      padding-right: 50px;
+
+      padding-top: 50px;
+
+      padding-bottom: 50px;
+
+      hyphens: auto;
+
+      overflow-wrap: break-word;
+
+      text-rendering: optimizeLegibility;
+
+      font-kerning: normal;
+
+    }
+
+    @media (max-width: 600px) {
+
+      body {
+
+        font-size: 0.9em;
+
+        padding: 12px;
+
+      }
+
+      h1 {
+
+        font-size: 1.8em;
+
+      }
+
+    }
+
+    @media print {
+
+      html {
+
+        background-color: white;
+
+      }
+
+      body {
+
+        background-color: transparent;
+
+        color: black;
+
+        font-size: 12pt;
+
+      }
+
+      p, h2, h3 {
+
+        orphans: 3;
+
+        widows: 3;
+
+      }
+
+      h2, h3, h4 {
+
+        page-break-after: avoid;
+
+      }
+
+    }
+
+    p {
+
+      margin: 1em 0;
+
+    }
+
+    a {
+
+      color: #1a1a1a;
+
+    }
+
+    a:visited {
+
+      color: #1a1a1a;
+
+    }
+
+    img {
+
+      max-width: 100%;
+
+    }
+
+    svg {
+
+      height: auto;
+
+      max-width: 100%;
+
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+
+      margin-top: 1.4em;
+
+    }
+
+    h5, h6 {
+
+      font-size: 1em;
+
+      font-style: italic;
+
+    }
+
+    h6 {
+
+      font-weight: normal;
+
+    }
+
+    ol, ul {
+
+      padding-left: 1.7em;
+
+      margin-top: 1em;
+
+    }
+
+    li > ol, li > ul {
+
+      margin-top: 0;
+
+    }
+
+    blockquote {
+
+      margin: 1em 0 1em 1.7em;
+
+      padding-left: 1em;
+
+      border-left: 2px solid #e6e6e6;
+
+      color: #606060;
+
+    }
+
+    code {
+
+      white-space: pre-wrap;
+
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+
+      font-size: 85%;
+
+      margin: 0;
+
+      hyphens: manual;
+
+    }
+
+    pre {
+
+      margin: 1em 0;
+
+      overflow: auto;
+
+    }
+
+    pre code {
+
+      padding: 0;
+
+      overflow: visible;
+
+      overflow-wrap: normal;
+
+    }
+
+    .sourceCode {
+
+     background-color: transparent;
+
+     overflow: visible;
+
+    }
+
+    hr {
+
+      border: none;
+
+      border-top: 1px solid #1a1a1a;
+
+      height: 1px;
+
+      margin: 1em 0;
+
+    }
+
+    table {
+
+      margin: 1em 0;
+
+      border-collapse: collapse;
+
+      width: 100%;
+
+      overflow-x: auto;
+
+      display: block;
+
+      font-variant-numeric: lining-nums tabular-nums;
+
+    }
+
+    table caption {
+
+      margin-bottom: 0.75em;
+
+    }
+
+    tbody {
+
+      margin-top: 0.5em;
+
+      border-top: 1px solid #1a1a1a;
+
+      border-bottom: 1px solid #1a1a1a;
+
+    }
+
+    th {
+
+      border-top: 1px solid #1a1a1a;
+
+      padding: 0.25em 0.5em 0.25em 0.5em;
+
+    }
+
+    td {
+
+      padding: 0.125em 0.5em 0.25em 0.5em;
+
+    }
+
+    header {
+
+      margin-bottom: 4em;
+
+      text-align: center;
+
+    }
+
+    #TOC li {
+
+      list-style: none;
+
+    }
+
+    #TOC ul {
+
+      padding-left: 1.3em;
+
+    }
+
+    #TOC > ul {
+
+      padding-left: 0;
+
+    }
+
+    #TOC a:not(:hover) {
+
+      text-decoration: none;
+
+    }
+
+    span.smallcaps{font-variant: small-caps;}
+
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+
+    div.column{flex: auto; overflow-x: auto;}
+
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+    /* The extra [class] is a hack that increases specificity enough to
+
+       override a similar rule in reveal.js */
+
+    ul.task-list[class]{list-style: none;}
+
+    ul.task-list li input[type="checkbox"] {
+
+      font-size: inherit;
+
+      width: 0.8em;
+
+      margin: 0 0.8em 0.2em -1.6em;
+
+      vertical-align: middle;
+
+    }
+
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+
+  </style>
+
 <style>
 @page {
   size: A4;
@@ -192,156 +364,308 @@ code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: C
 hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
 ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
 li { margin-bottom: 4pt; }
-</style></head>
-<body>
-<h1 id="prijselasticiteit---antwoorden">2.2.1 Prijselasticiteit -
-antwoorden</h1>
-<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
-<p><strong>Stap 1: prijsverandering</strong></p>
-<p><code>%dP = (36 - 30) / 30 x 100% = 20%</code></p>
-<p>De prijs stijgt met 20%.</p>
-<p><strong>Stap 2: hoeveelheidsverandering</strong></p>
-<p><code>%dQv = (1500 - 2000) / 2000 x 100% = -25%</code></p>
-<p>De gevraagde hoeveelheid daalt met 25%.</p>
-<p><strong>Stap 3: prijselasticiteit</strong></p>
-<p><code>Ev = %dQv / %dP = -25% / 20% = -1,25</code></p>
-<p><strong>Stap 4: classificatie</strong></p>
-<p><code>|Ev| = 1,25</code>, dus de vraag is elastisch.</p>
-<p><strong>Stap 5: conclusie</strong></p>
-<p>De vraag naar pretparkkaartjes reageert sterk op de prijsverhoging.
-Dat past bij een pretparkbezoek, omdat dit geen noodzakelijk product is
-en consumenten het bezoek kunnen uitstellen of een alternatief kunnen
-kiezen.</p>
-<hr />
-<h2 id="opgave-1">Opgave 1</h2>
-<p><strong>A.</strong></p>
-<p><code>%dP = (10 - 8) / 8 x 100% = 25%</code></p>
-<p>De prijs stijgt met 25%.</p>
-<p><strong>B.</strong></p>
-<p><code>%dQv = (240 - 300) / 300 x 100% = -20%</code></p>
-<p>De gevraagde hoeveelheid daalt met 20%.</p>
-<p><strong>C.</strong> Het antwoord is negatief omdat het aantal
-verkochte menu’s daalt. De nieuwe hoeveelheid is lager dan de oude
-hoeveelheid.</p>
-<hr />
-<h2 id="opgave-2">Opgave 2</h2>
-<p><strong>A.</strong></p>
-<p><code>%dP = (100 - 80) / 80 x 100% = 25%</code></p>
-<p><strong>B.</strong></p>
-<p><code>%dQv = (35 - 50) / 50 x 100% = -30%</code></p>
-<p><strong>C.</strong></p>
-<p><code>Ev = -30% / 25% = -1,2</code></p>
-<p><strong>D.</strong> <code>|Ev| = 1,2</code>. Omdat
-<code>1,2 &gt; 1</code>, is de vraag elastisch. De verkoop reageert
-relatief sterk op de prijsstijging.</p>
-<hr />
-<h2 id="opgave-3">Opgave 3</h2>
-<p><strong>A.</strong></p>
-<p><code>%dP = (15 - 12) / 12 x 100% = 25%</code></p>
-<p><strong>B.</strong></p>
-<p><code>%dQv = (950 - 1000) / 1000 x 100% = -5%</code></p>
-<p><strong>C.</strong></p>
-<p><code>Ev = -5% / 25% = -0,2</code></p>
-<p><strong>D.</strong> <code>|Ev| = 0,2</code>. De vraag is inelastisch.
-Dat is logisch, omdat een middel tegen hooikoorts voor veel klanten
-noodzakelijk is en zij niet makkelijk kunnen stoppen met kopen.</p>
-<hr />
-<h2 id="opgave-4">Opgave 4</h2>
-<p><strong>A.</strong></p>
-<p><code>%dP = (12 - 10) / 10 x 100% = 20%</code></p>
-<p><strong>B.</strong></p>
-<p><code>%dQv = (38.000 - 50.000) / 50.000 x 100% = -24%</code></p>
-<p><strong>C.</strong></p>
-<p><code>Ev = -24% / 20% = -1,2</code></p>
-<p><strong>D.</strong> <code>|Ev| = 1,2</code>, dus de vraag is
-elastisch.</p>
-<p><strong>E.</strong> Een streamingdienst heeft veel alternatieven:
-andere streamingdiensten, gratis video, minder kijken of tijdelijk
-opzeggen. Daardoor kunnen consumenten relatief makkelijk reageren op een
-prijsstijging.</p>
-<hr />
-<h2 id="opgave-5">Opgave 5</h2>
-<p><strong>A.</strong></p>
-<p><code>%dP = (4 - 5) / 5 x 100% = -20%</code></p>
-<p>De prijs daalt met 20%.</p>
-<p><strong>B.</strong></p>
-<p><code>%dQv = (2600 - 2000) / 2000 x 100% = 30%</code></p>
-<p>De gevraagde hoeveelheid stijgt met 30%.</p>
-<p><strong>C.</strong></p>
-<p><code>Ev = 30% / -20% = -1,5</code></p>
-<p><strong>D.</strong> <code>|Ev| = 1,5</code>, dus de vraag is
-elastisch.</p>
-<p><strong>E.</strong> <code>Ev</code> is meestal negatief omdat prijs
-en gevraagde hoeveelheid tegengesteld bewegen. Hier daalt de prijs en
-stijgt de gevraagde hoeveelheid. Positief gedeeld door negatief geeft
-een negatieve elasticiteit.</p>
-<hr />
-<h2 id="opgave-6">Opgave 6</h2>
-<p><strong>A.</strong> De prijsindex stijgt van 100 naar 125.</p>
-<p><code>%dP = (125 - 100) / 100 x 100% = 25%</code></p>
-<p><strong>B.</strong></p>
-<p><code>%dQv = (680 - 800) / 800 x 100% = -15%</code></p>
-<p><strong>C.</strong></p>
-<p><code>Ev = -15% / 25% = -0,6</code></p>
-<p><strong>D.</strong> <code>|Ev| = 0,6</code>, dus de vraag is
-inelastisch.</p>
-<p><strong>E.</strong> De leerling gebruikt de absolute daling van 120
-producten in plaats van de procentuele verandering van de hoeveelheid.
-Bij elasticiteit moet je procenten met procenten vergelijken:
-<code>-15% / 25% = -0,6</code>.</p>
-<hr />
-<h2 id="opgave-7">Opgave 7</h2>
-<h3 id="bron-1---bioscoop-lux">Bron 1 - Bioscoop Lux</h3>
-<p><strong>A.</strong></p>
-<p><code>%dP = (12 - 10) / 10 x 100% = 20%</code></p>
-<p><strong>B.</strong></p>
-<p><code>%dQv = (420 - 500) / 500 x 100% = -16%</code></p>
-<p><strong>C.</strong></p>
-<p><code>Ev = -16% / 20% = -0,8</code></p>
-<p><strong>D.</strong> <code>|Ev| = 0,8</code>, dus de vraag naar
-bioscoopkaartjes is inelastisch. In gewone taal: de bezoekers reageren
-wel op de prijsstijging, maar minder sterk dan de prijs verandert.</p>
-<h3 id="bron-2---tankstation-routenoord">Bron 2 - Tankstation
-RouteNoord</h3>
-<p><strong>E.</strong></p>
-<p><code>%dP = (1,90 - 1,80) / 1,80 x 100% = 5,6%</code></p>
-<p><code>%dQv = (9.800 - 10.000) / 10.000 x 100% = -2,0%</code></p>
-<p><code>Ev = -2,0% / 5,6% = -0,36</code></p>
-<p>Afgerond is <code>Ev = -0,4</code>.</p>
-<p><strong>F.</strong> <code>|Ev| = 0,4</code>, dus de vraag naar
-benzine is inelastisch.</p>
-<p><strong>G.</strong> Dat is logisch omdat veel mensen benzine nodig
-hebben om naar werk, school of afspraken te gaan. Op korte termijn zijn
-er vaak weinig goede alternatieven. Daarom daalt de gevraagde
-hoeveelheid minder sterk dan de prijs stijgt.</p>
-<hr />
-<h2 id="opgave-8">Opgave 8</h2>
-<h3 id="product-a">Product A</h3>
-<p><code>%dP = (22 - 20) / 20 x 100% = 10%</code></p>
-<p><code>%dQv = (360 - 400) / 400 x 100% = -10%</code></p>
-<p><code>Ev = -10% / 10% = -1</code></p>
-<h3 id="product-b">Product B</h3>
-<p><code>%dP = (6 - 5) / 5 x 100% = 20%</code></p>
-<p><code>%dQv = (1188 - 1200) / 1200 x 100% = -1%</code></p>
-<p><code>Ev = -1% / 20% = -0,05</code></p>
-<p><strong>C.</strong> Product A heeft de meest elastische vraag, want
-<code>|Ev| = 1</code> en bij product B is <code>|Ev| = 0,05</code>.
-Product A reageert dus veel sterker op de prijsverandering dan product
-B.</p>
-<p><strong>D.</strong> Product B heeft een inelastische vraag. De prijs
-stijgt met 20%, maar de gevraagde hoeveelheid daalt maar met 1%. In
-gewone taal: consumenten blijven het product bijna evenveel kopen,
-ondanks de hogere prijs.</p>
-<hr />
-<h2 id="opgave-9">Opgave 9</h2>
-<p><strong>A.</strong> Het antwoord gebruikt een signed elasticiteit:
-<code>Ev = -0,6</code>. Dat is goed, want <code>Ev</code> is bij gewone
-vraag meestal negatief.</p>
-<p><strong>B.</strong> De classificatie is fout. Je kijkt niet naar het
-minteken, maar naar de absolute waarde.</p>
-<p><strong>C.</strong> Verbeterd antwoord: <code>Ev = -0,6</code>, dus
-<code>|Ev| = 0,6</code>. Omdat <code>0,6 &lt; 1</code>, is de vraag
-inelastisch. De gevraagde hoeveelheid reageert minder sterk dan de
-prijs.</p>
-</body>
-</html>
+</style></head>
+
+<body>
+
+<h1 id="prijselasticiteit---antwoorden">2.2.1 Prijselasticiteit -
+
+antwoorden</h1>
+
+<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
+
+<p><strong>Stap 1: prijsverandering</strong></p>
+
+<p><code>%dP = (36 - 30) / 30 x 100% = 20%</code></p>
+
+<p>De prijs stijgt met 20%.</p>
+
+<p><strong>Stap 2: hoeveelheidsverandering</strong></p>
+
+<p><code>%dQv = (1500 - 2000) / 2000 x 100% = -25%</code></p>
+
+<p>De gevraagde hoeveelheid daalt met 25%.</p>
+
+<p><strong>Stap 3: prijselasticiteit</strong></p>
+
+<p><code>Ev = %dQv / %dP = -25% / 20% = -1,25</code></p>
+
+<p><strong>Stap 4: classificatie</strong></p>
+
+<p><code>|Ev| = 1,25</code>, dus de vraag is elastisch.</p>
+
+<p><strong>Stap 5: conclusie</strong></p>
+
+<p>De vraag naar pretparkkaartjes reageert sterk op de prijsverhoging.
+
+Dat past bij een pretparkbezoek, omdat dit geen noodzakelijk product is
+
+en consumenten het bezoek kunnen uitstellen of een alternatief kunnen
+
+kiezen.</p>
+
+<hr />
+
+<h2 id="opgave-1">Opgave 1</h2>
+
+<p><strong>A.</strong></p>
+
+<p><code>%dP = (10 - 8) / 8 x 100% = 25%</code></p>
+
+<p>De prijs stijgt met 25%.</p>
+
+<p><strong>B.</strong></p>
+
+<p><code>%dQv = (240 - 300) / 300 x 100% = -20%</code></p>
+
+<p>De gevraagde hoeveelheid daalt met 20%.</p>
+
+<p><strong>C.</strong> Het antwoord is negatief omdat het aantal
+
+verkochte menu’s daalt. De nieuwe hoeveelheid is lager dan de oude
+
+hoeveelheid.</p>
+
+<hr />
+
+<h2 id="opgave-2">Opgave 2</h2>
+
+<p><strong>A.</strong></p>
+
+<p><code>%dP = (100 - 80) / 80 x 100% = 25%</code></p>
+
+<p><strong>B.</strong></p>
+
+<p><code>%dQv = (35 - 50) / 50 x 100% = -30%</code></p>
+
+<p><strong>C.</strong></p>
+
+<p><code>Ev = -30% / 25% = -1,2</code></p>
+
+<p><strong>D.</strong> <code>|Ev| = 1,2</code>. Omdat
+
+<code>1,2 &gt; 1</code>, is de vraag elastisch. De verkoop reageert
+
+relatief sterk op de prijsstijging.</p>
+
+<hr />
+
+<h2 id="opgave-3">Opgave 3</h2>
+
+<p><strong>A.</strong></p>
+
+<p><code>%dP = (15 - 12) / 12 x 100% = 25%</code></p>
+
+<p><strong>B.</strong></p>
+
+<p><code>%dQv = (950 - 1000) / 1000 x 100% = -5%</code></p>
+
+<p><strong>C.</strong></p>
+
+<p><code>Ev = -5% / 25% = -0,2</code></p>
+
+<p><strong>D.</strong> <code>|Ev| = 0,2</code>. De vraag is inelastisch.
+
+Dat is logisch, omdat een middel tegen hooikoorts voor veel klanten
+
+noodzakelijk is en zij niet makkelijk kunnen stoppen met kopen.</p>
+
+<hr />
+
+<h2 id="opgave-4">Opgave 4</h2>
+
+<p><strong>A.</strong></p>
+
+<p><code>%dP = (12 - 10) / 10 x 100% = 20%</code></p>
+
+<p><strong>B.</strong></p>
+
+<p><code>%dQv = (38.000 - 50.000) / 50.000 x 100% = -24%</code></p>
+
+<p><strong>C.</strong></p>
+
+<p><code>Ev = -24% / 20% = -1,2</code></p>
+
+<p><strong>D.</strong> <code>|Ev| = 1,2</code>, dus de vraag is
+
+elastisch.</p>
+
+<p><strong>E.</strong> Een streamingdienst heeft veel alternatieven:
+
+andere streamingdiensten, gratis video, minder kijken of tijdelijk
+
+opzeggen. Daardoor kunnen consumenten relatief makkelijk reageren op een
+
+prijsstijging.</p>
+
+<hr />
+
+<h2 id="opgave-5">Opgave 5</h2>
+
+<p><strong>A.</strong></p>
+
+<p><code>%dP = (4 - 5) / 5 x 100% = -20%</code></p>
+
+<p>De prijs daalt met 20%.</p>
+
+<p><strong>B.</strong></p>
+
+<p><code>%dQv = (2600 - 2000) / 2000 x 100% = 30%</code></p>
+
+<p>De gevraagde hoeveelheid stijgt met 30%.</p>
+
+<p><strong>C.</strong></p>
+
+<p><code>Ev = 30% / -20% = -1,5</code></p>
+
+<p><strong>D.</strong> <code>|Ev| = 1,5</code>, dus de vraag is
+
+elastisch.</p>
+
+<p><strong>E.</strong> <code>Ev</code> is meestal negatief omdat prijs
+
+en gevraagde hoeveelheid tegengesteld bewegen. Hier daalt de prijs en
+
+stijgt de gevraagde hoeveelheid. Positief gedeeld door negatief geeft
+
+een negatieve elasticiteit.</p>
+
+<hr />
+
+<h2 id="opgave-6">Opgave 6</h2>
+
+<p><strong>A.</strong> De prijsindex stijgt van 100 naar 125.</p>
+
+<p><code>%dP = (125 - 100) / 100 x 100% = 25%</code></p>
+
+<p><strong>B.</strong></p>
+
+<p><code>%dQv = (680 - 800) / 800 x 100% = -15%</code></p>
+
+<p><strong>C.</strong></p>
+
+<p><code>Ev = -15% / 25% = -0,6</code></p>
+
+<p><strong>D.</strong> <code>|Ev| = 0,6</code>, dus de vraag is
+
+inelastisch.</p>
+
+<p><strong>E.</strong> De leerling gebruikt de absolute daling van 120
+
+producten in plaats van de procentuele verandering van de hoeveelheid.
+
+Bij elasticiteit moet je procenten met procenten vergelijken:
+
+<code>-15% / 25% = -0,6</code>.</p>
+
+<hr />
+
+<h2 id="opgave-7">Opgave 7</h2>
+
+<h3 id="bron-1---bioscoop-lux">Bron 1 - Bioscoop Lux</h3>
+
+<p><strong>A.</strong></p>
+
+<p><code>%dP = (12 - 10) / 10 x 100% = 20%</code></p>
+
+<p><strong>B.</strong></p>
+
+<p><code>%dQv = (420 - 500) / 500 x 100% = -16%</code></p>
+
+<p><strong>C.</strong></p>
+
+<p><code>Ev = -16% / 20% = -0,8</code></p>
+
+<p><strong>D.</strong> <code>|Ev| = 0,8</code>, dus de vraag naar
+
+bioscoopkaartjes is inelastisch. In gewone taal: de bezoekers reageren
+
+wel op de prijsstijging, maar minder sterk dan de prijs verandert.</p>
+
+<h3 id="bron-2---tankstation-routenoord">Bron 2 - Tankstation
+
+RouteNoord</h3>
+
+<p><strong>E.</strong></p>
+
+<p><code>%dP = (1,90 - 1,80) / 1,80 x 100% = 5,6%</code></p>
+
+<p><code>%dQv = (9.800 - 10.000) / 10.000 x 100% = -2,0%</code></p>
+
+<p><code>Ev = -2,0% / 5,6% = -0,36</code></p>
+
+<p>Afgerond is <code>Ev = -0,4</code>.</p>
+
+<p><strong>F.</strong> <code>|Ev| = 0,4</code>, dus de vraag naar
+
+benzine is inelastisch.</p>
+
+<p><strong>G.</strong> Dat is logisch omdat veel mensen benzine nodig
+
+hebben om naar werk, school of afspraken te gaan. Op korte termijn zijn
+
+er vaak weinig goede alternatieven. Daarom daalt de gevraagde
+
+hoeveelheid minder sterk dan de prijs stijgt.</p>
+
+<hr />
+
+<h2 id="opgave-8">Opgave 8</h2>
+
+<h3 id="product-a">Product A</h3>
+
+<p><code>%dP = (22 - 20) / 20 x 100% = 10%</code></p>
+
+<p><code>%dQv = (360 - 400) / 400 x 100% = -10%</code></p>
+
+<p><code>Ev = -10% / 10% = -1</code></p>
+
+<h3 id="product-b">Product B</h3>
+
+<p><code>%dP = (6 - 5) / 5 x 100% = 20%</code></p>
+
+<p><code>%dQv = (1188 - 1200) / 1200 x 100% = -1%</code></p>
+
+<p><code>Ev = -1% / 20% = -0,05</code></p>
+
+<p><strong>C.</strong> Product A heeft de meest elastische vraag, want
+
+<code>|Ev| = 1</code> en bij product B is <code>|Ev| = 0,05</code>.
+
+Product A reageert dus veel sterker op de prijsverandering dan product
+
+B.</p>
+
+<p><strong>D.</strong> Product B heeft een inelastische vraag. De prijs
+
+stijgt met 20%, maar de gevraagde hoeveelheid daalt maar met 1%. In
+
+gewone taal: consumenten blijven het product bijna evenveel kopen,
+
+ondanks de hogere prijs.</p>
+
+<hr />
+
+<h2 id="opgave-9">Opgave 9</h2>
+
+<p><strong>A.</strong> Het antwoord gebruikt een signed elasticiteit:
+
+<code>Ev = -0,6</code>. Dat is goed, want <code>Ev</code> is bij gewone
+
+vraag meestal negatief.</p>
+
+<p><strong>B.</strong> De classificatie is fout. Je kijkt niet naar het
+
+minteken, maar naar de absolute waarde.</p>
+
+<p><strong>C.</strong> Verbeterd antwoord: <code>Ev = -0,6</code>, dus
+
+<code>|Ev| = 0,6</code>. Omdat <code>0,6 &lt; 1</code>, is de vraag
+
+inelastisch. De gevraagde hoeveelheid reageert minder sterk dan de
+
+prijs.</p>
+
+</body>
+
+</html>
