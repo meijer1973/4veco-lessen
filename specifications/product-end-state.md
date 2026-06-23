@@ -28,6 +28,15 @@ student-facing route and completeness definition.
 
 ## Change Notes
 
+- 2026-06-20: adopted the reasoning-game golden family as the product-standard
+  route for future `redeneer-spel` work. Affected surface: reasoning practice,
+  shared task-type shell, companion route authoring, rendered interaction-state
+  proof, and human gate review. Approval route:
+  `GOAL-REASONING-GOLDEN-FAMILY-1` platform adoption package. Consequence:
+  future reasoning games must copy product grammar but re-derive reasoning
+  grammar from the paragraph target; the adoption package does not authorize
+  student rollout, diagnostics, mastery, summative use, Scale Gate claims, or
+  broad replacement before `GATE-REASONING-GOLDEN-FAMILY-1`.
 - 2026-06-11: added the paragraph landing V2 visual baseline after the
   Frankenstein repair verdict. Affected surface: paragraph landing route,
   visual proof, generated route adoption, and human-review evidence. Approval
@@ -207,8 +216,9 @@ constructed response, table-value selection, graph reading, point placement or
 graph-construction substitute, structured reasoning, step ordering, step/chain
 interactions where needed, cloze text, multi-select, matching pairs,
 two-tier choice, assertion-reason, cloze tile selection, sentence builders,
-formula builders, source-value and source-chain builders, and label-placement
-interactions, plus neutral feedback/retry/self-check states.
+formula builders, source-value and source-chain builders, functional answer
+builders, graph evidence selectors, and label-placement interactions, plus
+neutral feedback/retry/self-check states.
 
 Structured choice and constrained construction families are not quiz variety.
 A new choice-like or construction family is appropriate only when the current
@@ -226,7 +236,8 @@ The task shell is not an exit-ticket-only feature. It is the common interaction
 foundation for graph/table practice, math/calculation practice,
 target-equivalent exit tickets, and checkpoint-only local checks. Reasoning
 practice may use the same shell where constructed response, structured
-reasoning, feedback, or self-check behavior overlaps.
+reasoning, functional answer construction, source-chain ordering, graph
+evidence selection, feedback, or self-check behavior overlaps.
 
 Advisory short checks are also part of the end-state route. They are light,
 local checks that help a student decide what to do next: practise a named
@@ -275,6 +286,10 @@ student to understand which skill they are practising, why the current game or
 task fits the paragraph target, and what next action is useful. A shared
 task-type UI should be reused when graph/table, calculation, constructed
 response, or checkpoint tasks ask students to perform the same kind of action.
+Reasoning games must additionally prove that they copy product grammar while
+re-deriving the paragraph-specific reasoning grammar; a previous game mechanic
+is not enough evidence that the new paragraph has the same reasoning route.
+Durable rule: copy product grammar; re-derive reasoning grammar.
 
 ### Check
 
@@ -432,6 +447,10 @@ complete when all of the following are true:
   purpose, useful feedback, and next action without internal codes;
 - graph/table, calculation, constructed-response, and checkpoint interactions
   use the shared task-type shell where the same action is being asked;
+- reasoning-game review records show the paragraph-specific reasoning target,
+  central misconception, selected golden exemplar pattern, negative fixtures,
+  rendered interaction states, and final human gate outcome before
+  product-route adoption;
 - review gates pass for economics correctness, learning quality, student
   affordance, visual quality, source-output parity, and product-boundary
   claims.

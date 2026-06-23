@@ -34,6 +34,15 @@ specification unless the missing work is assigned to a named follow-up sprint.
 
 ## Change Notes
 
+- 2026-06-20: adopted the reasoning-game golden family standard as the
+  specification route for new or substantially repaired `redeneer-spel` work.
+  Affected surface: reasoning practice, shared task-type shell, companion
+  authoring skills, rendered review proof, and human gate packets. Approval
+  route: `GOAL-REASONING-GOLDEN-FAMILY-1` platform adoption package.
+  Consequence: agents must copy product grammar but re-derive reasoning grammar
+  for each paragraph, use the dedicated platform `econ-reasoning-game` skill,
+  and wait for `GATE-REASONING-GOLDEN-FAMILY-1` before claiming product-route
+  adoption or broad rollout.
 - 2026-06-06: linked companion work to the new canonical strategic product
   vision. Affected surface: companion sprint trade-offs, strategic quality
   claims, and agent planning. Approval route: VISION-1 at explicit human
@@ -147,6 +156,10 @@ specification unless the missing work is assigned to a named follow-up sprint.
   flowcharts, formula blocks, captions, source references, and alt text. Tasks
   cite context via contextRefs, and unreferenced or hidden context is not
   acceptable proof.
+- New or substantially repaired `redeneer-spel` work must use the platform
+  reasoning-game golden family and dedicated authoring skill. The durable rule
+  is: copy product grammar; re-derive reasoning grammar. A prior game mechanic
+  is not authority to reuse the same reasoning route for a new paragraph.
 - Student-facing copy may not imply diagnostics, mastery, grading, automatic
   sequencing, summative use, student-facing AI, PV projection, PV machine
   promotion, CP-6 closure, Year-1 closure, or broad scaling unless a later
@@ -294,6 +307,8 @@ Required task families:
 - step ordering;
 - source-value selection;
 - source-chain builder;
+- functional answer builder;
+- graph evidence selector;
 - label placement;
 - cause-effect chain;
 - claim-reason-evidence;
@@ -339,6 +354,12 @@ Required behavior:
 - source-value and label-placement tasks require visual, keyboard/focus,
   mobile, and dark-mode proof because their correctness depends on how source
   or graph structure is rendered.
+- reasoning-game functional answer builders must expose answer functions and an
+  assembled preview instead of reducing structured reasoning to a generic
+  textarea;
+- graph evidence selectors must require direct interaction with observed graph
+  or table evidence, use accessible targets, and avoid replacing reasoning with
+  graph construction when the target is claim scope or evidence status.
 
 The shell may be implemented incrementally, but each accepted task family must
 be strong enough for its own student-facing use. A task family that exists only
@@ -351,7 +372,9 @@ The shell should become the foundation for:
   interpolation, and point placement;
 - math/calculation operations such as formula substitution, work capture,
   final answer, percentage/index notation, and units;
-- reasoning tasks when structured short response and feedback are needed.
+- reasoning tasks when structured short response, functional answer
+  construction, graph evidence selection, source-chain ordering, or feedback is
+  needed.
 
 ## Shared Task And Check-Surface Integrity Policy
 
