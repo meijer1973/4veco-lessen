@@ -47,6 +47,12 @@
     .inline-graph .guide{stroke:var(--letop-ink);stroke-width:2;stroke-dasharray:6 5}
     .inline-graph .point{fill:var(--economisch);stroke:var(--bg-card);stroke-width:2}
     .inline-graph text{fill:var(--ink-soft);font:700 13px system-ui,sans-serif}
+    .inline-graph .tick-label{font-size:10px}
+    .inline-graph .axis-title,.inline-graph .axis-short-label{fill:var(--ink);font-weight:900}
+    .inline-graph .axis-title{font-size:11px}
+    .inline-graph .line-label{fill:var(--accent);font-weight:900}
+    .inline-graph .point-label,.inline-graph .guide-label{fill:var(--ink);font-size:11px}
+    .inline-graph .guide-point{fill:var(--letop-ink)}
     .axis-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
     .axis-panel{border:1px solid var(--border);border-radius:8px;padding:10px;background:var(--bg)}
     .axis-bars{height:150px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:end;border-left:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:10px 10px 0;margin-top:8px}
@@ -105,20 +111,17 @@
           <div class="dual-card"><figure class="visual-object" data-visual-id="vaardigheden_pq_graph">
     <h3>Tabelpunten als P-Q-grafiek</h3>
     <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Tabelpunten als P-Q-grafiek met prijs op de verticale as en hoeveelheid op de horizontale as">
+      <line class="grid" x1="68" y1="220" x2="386" y2="220"></line><text class="tick-label" x="60" y="224" text-anchor="end">€1,00</text><line class="grid" x1="68" y1="174" x2="386" y2="174"></line><text class="tick-label" x="60" y="178" text-anchor="end">€1,50</text><line class="grid" x1="68" y1="128" x2="386" y2="128"></line><text class="tick-label" x="60" y="132" text-anchor="end">€2,00</text><line class="grid" x1="68" y1="82" x2="386" y2="82"></line><text class="tick-label" x="60" y="86" text-anchor="end">€2,50</text><line class="grid" x1="68" y1="36" x2="386" y2="36"></line><text class="tick-label" x="60" y="40" text-anchor="end">€3,00</text>
+      <line class="grid" x1="68" y1="36" x2="68" y2="220"></line><text class="tick-label" x="68" y="240" text-anchor="middle">100</text><line class="grid" x1="147.5" y1="36" x2="147.5" y2="220"></line><text class="tick-label" x="147.5" y="240" text-anchor="middle">200</text><line class="grid" x1="227" y1="36" x2="227" y2="220"></line><text class="tick-label" x="227" y="240" text-anchor="middle">300</text><line class="grid" x1="306.5" y1="36" x2="306.5" y2="220"></line><text class="tick-label" x="306.5" y="240" text-anchor="middle">400</text><line class="grid" x1="386" y1="36" x2="386" y2="220"></line><text class="tick-label" x="386" y="240" text-anchor="middle">500</text>
       <line class="axis" x1="68" y1="220" x2="386" y2="220"></line>
       <line class="axis" x1="68" y1="220" x2="68" y2="36"></line>
-      <line class="grid" x1="68" y1="164" x2="386" y2="164"></line>
-      <line class="grid" x1="68" y1="108" x2="386" y2="108"></line>
-      <text x="360" y="248">Q</text>
-      <text x="18" y="50">P</text>
-      <text x="40" y="64">EUR 1</text>
-      <text x="40" y="134">EUR 2</text>
-      <text x="40" y="204">EUR 3</text>
-      <text x="108" y="246">500</text>
-      <text x="228" y="246">300</text>
-      <text x="348" y="246">100</text>
-      <polyline class="curve" points="112,60 172,95 232,130 292,165 352,200"></polyline>
-      <circle class="point" cx="112" cy="60" r="5"></circle><circle class="point" cx="172" cy="95" r="5"></circle><circle class="point" cx="232" cy="130" r="5"></circle><text x="240" y="122">(300;2,00)</text><circle class="point" cx="292" cy="165" r="5"></circle><circle class="point" cx="352" cy="200" r="5"></circle>
+      <text class="axis-short-label" x="368" y="258">Q</text>
+      <text class="axis-short-label" x="34" y="48">P</text>
+      <text class="axis-title" x="227" y="264" text-anchor="middle">Hoeveelheid ijsjes (Q)</text>
+      <text class="axis-title" x="16" y="128" text-anchor="middle" transform="rotate(-90 16 128)">Prijs per ijsje (P)</text>
+      <polyline class="curve" points="68,36 147.5,82 227,128 306.5,174 386,220"></polyline>
+      <circle class="point" cx="68" cy="36" r="5" data-q="100" data-p="3"></circle><circle class="point" cx="147.5" cy="82" r="5" data-q="200" data-p="2.5"></circle><circle class="point" cx="227" cy="128" r="5" data-q="300" data-p="2"></circle><text class="point-label" x="235" y="120">(300; 2,00)</text><circle class="point" cx="306.5" cy="174" r="5" data-q="400" data-p="1.5"></circle><circle class="point" cx="386" cy="220" r="5" data-q="500" data-p="1"></circle>
+      <text class="line-label" x="255" y="146">Vraaglijn ijsjes</text>
     </svg>
     <p>Prijs staat verticaal; hoeveelheid staat horizontaal.</p>
   </figure><div><ol class="step-list">
@@ -133,21 +136,18 @@
           <div class="dual-card"><figure class="visual-object" data-visual-id="vaardigheden_interpolation_graph">
     <h3>Interpoleren bij EUR 1,75</h3>
     <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Interpoleren bij EUR 1,75 met prijs op de verticale as en hoeveelheid op de horizontale as">
+      <line class="grid" x1="68" y1="220" x2="386" y2="220"></line><text class="tick-label" x="60" y="224" text-anchor="end">€1,00</text><line class="grid" x1="68" y1="174" x2="386" y2="174"></line><text class="tick-label" x="60" y="178" text-anchor="end">€1,50</text><line class="grid" x1="68" y1="128" x2="386" y2="128"></line><text class="tick-label" x="60" y="132" text-anchor="end">€2,00</text><line class="grid" x1="68" y1="82" x2="386" y2="82"></line><text class="tick-label" x="60" y="86" text-anchor="end">€2,50</text><line class="grid" x1="68" y1="36" x2="386" y2="36"></line><text class="tick-label" x="60" y="40" text-anchor="end">€3,00</text>
+      <line class="grid" x1="68" y1="36" x2="68" y2="220"></line><text class="tick-label" x="68" y="240" text-anchor="middle">100</text><line class="grid" x1="147.5" y1="36" x2="147.5" y2="220"></line><text class="tick-label" x="147.5" y="240" text-anchor="middle">200</text><line class="grid" x1="227" y1="36" x2="227" y2="220"></line><text class="tick-label" x="227" y="240" text-anchor="middle">300</text><line class="grid" x1="306.5" y1="36" x2="306.5" y2="220"></line><text class="tick-label" x="306.5" y="240" text-anchor="middle">400</text><line class="grid" x1="386" y1="36" x2="386" y2="220"></line><text class="tick-label" x="386" y="240" text-anchor="middle">500</text>
       <line class="axis" x1="68" y1="220" x2="386" y2="220"></line>
       <line class="axis" x1="68" y1="220" x2="68" y2="36"></line>
-      <line class="grid" x1="68" y1="164" x2="386" y2="164"></line>
-      <line class="grid" x1="68" y1="108" x2="386" y2="108"></line>
-      <text x="360" y="248">Q</text>
-      <text x="18" y="50">P</text>
-      <text x="40" y="64">EUR 1</text>
-      <text x="40" y="134">EUR 2</text>
-      <text x="40" y="204">EUR 3</text>
-      <text x="108" y="246">500</text>
-      <text x="228" y="246">300</text>
-      <text x="348" y="246">100</text>
-      <polyline class="curve" points="112,60 172,95 232,130 292,165 352,200"></polyline>
-      <circle class="point" cx="112" cy="60" r="5"></circle><circle class="point" cx="172" cy="95" r="5"></circle><circle class="point" cx="232" cy="130" r="5"></circle><text x="240" y="122">(300;2,00)</text><circle class="point" cx="292" cy="165" r="5"></circle><circle class="point" cx="352" cy="200" r="5"></circle>
-      <line class="guide" x1="68" y1="112" x2="262" y2="112"></line><line class="guide" x1="262" y1="112" x2="262" y2="220"></line><circle class="point" cx="262" cy="112" r="6"></circle><text x="78" y="104">EUR 1,75</text><text x="270" y="214">ongeveer 350</text>
+      <text class="axis-short-label" x="368" y="258">Q</text>
+      <text class="axis-short-label" x="34" y="48">P</text>
+      <text class="axis-title" x="227" y="264" text-anchor="middle">Hoeveelheid ijsjes (Q)</text>
+      <text class="axis-title" x="16" y="128" text-anchor="middle" transform="rotate(-90 16 128)">Prijs per ijsje (P)</text>
+      <polyline class="curve" points="68,36 147.5,82 227,128 306.5,174 386,220"></polyline>
+      <circle class="point" cx="68" cy="36" r="5" data-q="100" data-p="3"></circle><circle class="point" cx="147.5" cy="82" r="5" data-q="200" data-p="2.5"></circle><circle class="point" cx="227" cy="128" r="5" data-q="300" data-p="2"></circle><text class="point-label" x="235" y="120">(300; 2,00)</text><circle class="point" cx="306.5" cy="174" r="5" data-q="400" data-p="1.5"></circle><circle class="point" cx="386" cy="220" r="5" data-q="500" data-p="1"></circle>
+      <text class="line-label" x="255" y="146">Vraaglijn ijsjes</text>
+      <line class="guide" x1="68" y1="151" x2="266.75" y2="151"></line><line class="guide" x1="266.75" y1="151" x2="266.75" y2="220"></line><circle class="point guide-point" cx="266.75" cy="151" r="6"></circle><text class="guide-label" x="78" y="143">€1,75</text><text class="guide-label" x="274.75" y="210">ongeveer 350</text>
     </svg>
     <p>Gebruik hulplijnen: van prijs naar grafiek, daarna naar hoeveelheid.</p>
   </figure><div><ol class="step-list">

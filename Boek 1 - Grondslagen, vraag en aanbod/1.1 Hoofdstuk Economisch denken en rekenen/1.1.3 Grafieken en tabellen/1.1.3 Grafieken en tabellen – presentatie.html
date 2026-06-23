@@ -22,7 +22,8 @@
 <a class="pv2-nav-link" href="#assen" data-pv2-link="4"><span>04</span>Assen</a>
 <a class="pv2-nav-link" href="#interpoleren" data-pv2-link="5"><span>05</span>Aflezen</a>
 <a class="pv2-nav-link" href="#kritisch" data-pv2-link="6"><span>06</span>Kritisch</a>
-<a class="pv2-nav-link" href="#terughalen" data-pv2-link="7"><span>07</span>Check</a></nav>
+<a class="pv2-nav-link" href="#terughalen" data-pv2-link="7"><span>07</span>Check</a>
+<a class="pv2-nav-link" href="#samenvatten" data-pv2-link="8"><span>08</span>Samenvatting</a></nav>
     </aside>
     <main class="pv2-main">
       <header class="pv2-topbar">
@@ -36,7 +37,7 @@
       <section id="pv2-stage" class="pv2-stage" aria-label="Presentatie">
         <article class="pv2-slide pv2-slide-routeContract pv2-role-route_contract" id="route" data-pv2-slide="1" data-route-role="route_contract" aria-labelledby="route-title" >
           <div class="pv2-slide-canvas">
-            <div class="pv2-slide-count">1 / 7</div>
+            <div class="pv2-slide-count">1 / 8</div>
             <div class="pv2-slide-head">
             <p class="pv2-eyebrow">1.1.3 – lesroute</p>
             <h2 id="route-title" tabindex="-1">Van tabel naar oordeel</h2>
@@ -46,6 +47,10 @@
           <div class="pv2-route-contract" role="list" aria-label="Lesroute">
             <section class="pv2-route-card" role="listitem"><span>1</span><h3>Bron</h3><p>Lees tabelkop, rij, kolom en eenheid.</p></section><section class="pv2-route-card" role="listitem"><span>2</span><h3>Grafiek</h3><p>Zet P verticaal en Q horizontaal.</p></section><section class="pv2-route-card" role="listitem"><span>3</span><h3>Oordeel</h3><p>Controleer schaal, vergelijking en claim.</p></section>
           </div>
+          <section class="pv2-success-criteria" aria-label="Succescriteria">
+            <h3>Aan het einde kun je...</h3>
+            <ul><li>Je kiest tabelwaarden met label en eenheid.</li><li>Je leest een P-Q-grafiek met P verticaal en Q horizontaal.</li><li>Je controleert of schaal en vergelijking de grafiekclaim ondersteunen.</li></ul>
+          </section>
             <div class="pv2-sr-speaker-text" data-pv2-speaker-text>De lesroute voorkomt dat leerlingen meteen naar losse getallen springen.
 
 Elke grafiekclaim begint bij de bron: welke waarden worden eigenlijk vergeleken?
@@ -56,7 +61,7 @@ Daarna gebruiken we de ijskraam als concrete bron.</div>
         </article>
         <article class="pv2-slide pv2-slide-choiceTensionCover pv2-role-source_table_anchor" id="ijskraam" data-pv2-slide="2" data-route-role="source_table_anchor" aria-labelledby="ijskraam-title" hidden>
           <div class="pv2-slide-canvas">
-            <div class="pv2-slide-count">2 / 7</div>
+            <div class="pv2-slide-count">2 / 8</div>
             <div class="pv2-cover-grid pv2-cover-grid-visual">
               <div class="pv2-cover-copy">
                 <p class="pv2-eyebrow">1.1.3 – ijskraam</p>
@@ -77,13 +82,17 @@ Daarna gebruiken we de ijskraam als concrete bron.</div>
       <p>Bronwaarden krijgen pas betekenis met label en eenheid.</p>
     </figure><figure class="pv2-visual-panel" data-visual-id="slide_pq_graph">
       <figcaption>P-Q-grafiek</figcaption>
-      <svg class="pv2-inline-graph" viewBox="0 0 420 250" role="img" aria-label="P-Q-grafiek met prijs verticaal en hoeveelheid horizontaal">
-        <line x1="58" y1="206" x2="374" y2="206"></line>
-        <line x1="58" y1="206" x2="58" y2="34"></line>
-        <text x="342" y="232">Q</text>
-        <text x="22" y="48">P</text>
-        <polyline points="330,62 275,94 220,126 165,158 110,190"></polyline>
-        <circle cx="330" cy="62" r="4"></circle><text x="336" y="56"></text><circle cx="275" cy="94" r="4"></circle><text x="281" y="88"></text><circle cx="220" cy="126" r="4"></circle><text x="226" y="120">(300; 2,00)</text><circle cx="165" cy="158" r="4"></circle><text x="171" y="152"></text><circle cx="110" cy="190" r="4"></circle><text x="116" y="184"></text>
+      <svg class="pv2-inline-graph" viewBox="0 0 420 250" role="img" aria-label="P-Q-grafiek met prijs op de verticale as en hoeveelheid op de horizontale as" data-x-axis-label="Hoeveelheid ijsjes (Q)" data-y-axis-label="Prijs per ijsje (P)">
+        <line class="grid" x1="58" y1="206" x2="374" y2="206"></line><line class="tick" x1="53" y1="206" x2="58" y2="206"></line><text class="tick-label tick-label-y" x="50" y="210" text-anchor="end">€1,00</text><line class="grid" x1="58" y1="163" x2="374" y2="163"></line><line class="tick" x1="53" y1="163" x2="58" y2="163"></line><text class="tick-label tick-label-y" x="50" y="167" text-anchor="end">€1,50</text><line class="grid" x1="58" y1="120" x2="374" y2="120"></line><line class="tick" x1="53" y1="120" x2="58" y2="120"></line><text class="tick-label tick-label-y" x="50" y="124" text-anchor="end">€2,00</text><line class="grid" x1="58" y1="77" x2="374" y2="77"></line><line class="tick" x1="53" y1="77" x2="58" y2="77"></line><text class="tick-label tick-label-y" x="50" y="81" text-anchor="end">€2,50</text><line class="grid" x1="58" y1="34" x2="374" y2="34"></line><line class="tick" x1="53" y1="34" x2="58" y2="34"></line><text class="tick-label tick-label-y" x="50" y="38" text-anchor="end">€3,00</text>
+        <line class="grid" x1="58" y1="34" x2="58" y2="206"></line><line class="tick" x1="58" y1="206" x2="58" y2="211"></line><text class="tick-label tick-label-x" x="58" y="226" text-anchor="middle">100</text><line class="grid" x1="137" y1="34" x2="137" y2="206"></line><line class="tick" x1="137" y1="206" x2="137" y2="211"></line><text class="tick-label tick-label-x" x="137" y="226" text-anchor="middle">200</text><line class="grid" x1="216" y1="34" x2="216" y2="206"></line><line class="tick" x1="216" y1="206" x2="216" y2="211"></line><text class="tick-label tick-label-x" x="216" y="226" text-anchor="middle">300</text><line class="grid" x1="295" y1="34" x2="295" y2="206"></line><line class="tick" x1="295" y1="206" x2="295" y2="211"></line><text class="tick-label tick-label-x" x="295" y="226" text-anchor="middle">400</text><line class="grid" x1="374" y1="34" x2="374" y2="206"></line><line class="tick" x1="374" y1="206" x2="374" y2="211"></line><text class="tick-label tick-label-x" x="374" y="226" text-anchor="middle">500</text>
+        <line class="axis" x1="58" y1="206" x2="374" y2="206"></line>
+        <line class="axis" x1="58" y1="206" x2="58" y2="34"></line>
+        <text class="axis-short-label" x="364" y="242">Q</text>
+        <text class="axis-short-label" x="22" y="46">P</text>
+        <text class="axis-title axis-title-x" x="216" y="244" text-anchor="middle">Hoeveelheid ijsjes (Q)</text>
+        <text class="axis-title axis-title-y" x="16" y="120" text-anchor="middle" transform="rotate(-90 16 120)">Prijs per ijsje (P)</text>
+        <polyline class="curve" data-line-label="Vraaglijn ijsjes" points="58,34 137,77 216,120 295,163 374,206"></polyline>
+        <circle class="point" cx="58" cy="34" r="4" data-q="100" data-p="3"></circle><text class="point-label" x="64" y="28"></text><circle class="point" cx="137" cy="77" r="4" data-q="200" data-p="2.5"></circle><text class="point-label" x="143" y="71"></text><circle class="point" cx="216" cy="120" r="4" data-q="300" data-p="2"></circle><text class="point-label" x="222" y="114">(300; 2,00)</text><circle class="point" cx="295" cy="163" r="4" data-q="400" data-p="1.5"></circle><text class="point-label" x="301" y="157"></text><circle class="point" cx="374" cy="206" r="4" data-q="500" data-p="1"></circle><text class="point-label" x="380" y="200"></text><text class="line-label" x="244" y="138">Vraaglijn ijsjes</text>
       </svg>
       <p>Prijs staat verticaal; hoeveelheid staat horizontaal.</p>
     </figure>
@@ -92,15 +101,13 @@ Daarna gebruiken we de ijskraam als concrete bron.</div>
             </div>
             <div class="pv2-sr-speaker-text" data-pv2-speaker-text>De tabel bevat al informatie, maar het verband wordt sneller zichtbaar in de grafiek.
 
-Laat leerlingen eerst de kolommen benoemen voordat ze de lijn interpreteren.
-
 Nu kiezen we precies welke tabelwaarden nodig zijn.</div>
           </div>
-          <details class="pv2-notes"><summary>Studentgerichte uitleg</summary><div class="pv2-speaker-script"><section><h3>Studentuitleg</h3><p>De tabel bevat al informatie, maar het verband wordt sneller zichtbaar in de grafiek.</p><p>Laat leerlingen eerst de kolommen benoemen voordat ze de lijn interpreteren.</p></section><section><h3>Overgang</h3><p>Nu kiezen we precies welke tabelwaarden nodig zijn.</p></section></div></details>
+          <details class="pv2-notes"><summary>Studentgerichte uitleg</summary><div class="pv2-speaker-script"><section><h3>Studentuitleg</h3><p>De tabel bevat al informatie, maar het verband wordt sneller zichtbaar in de grafiek.</p></section><section><h3>Overgang</h3><p>Nu kiezen we precies welke tabelwaarden nodig zijn.</p></section></div></details>
         </article>
         <article class="pv2-slide pv2-slide-procedureRoute pv2-role-table_value_selection" id="tabelwaarden" data-pv2-slide="3" data-route-role="table_value_selection" aria-labelledby="tabelwaarden-title" hidden>
           <div class="pv2-slide-canvas">
-            <div class="pv2-slide-count">3 / 7</div>
+            <div class="pv2-slide-count">3 / 8</div>
             <div class="pv2-slide-head pv2-slide-head-compact">
             <p class="pv2-eyebrow">1.1.3 – Tabelwaarden</p>
             <h2 id="tabelwaarden-title" tabindex="-1">Kies de juiste bronwaarde</h2>
@@ -149,7 +156,7 @@ Met de bronwaarden helder kunnen we de grafiekopzet controleren.</div>
         </article>
         <article class="pv2-slide pv2-slide-procedureRoute pv2-role-axis_convention" id="assen" data-pv2-slide="4" data-route-role="axis_convention" aria-labelledby="assen-title" hidden>
           <div class="pv2-slide-canvas">
-            <div class="pv2-slide-count">4 / 7</div>
+            <div class="pv2-slide-count">4 / 8</div>
             <div class="pv2-slide-head pv2-slide-head-compact">
             <p class="pv2-eyebrow">1.1.3 – Assen</p>
             <h2 id="assen-title" tabindex="-1">Gebruik de economie-assen</h2>
@@ -159,13 +166,17 @@ Met de bronwaarden helder kunnen we de grafiekopzet controleren.</div>
           <div class="pv2-route-with-visual">
             <figure class="pv2-visual-panel" data-visual-id="slide_pq_graph">
       <figcaption>P-Q-grafiek</figcaption>
-      <svg class="pv2-inline-graph" viewBox="0 0 420 250" role="img" aria-label="P-Q-grafiek met prijs verticaal en hoeveelheid horizontaal">
-        <line x1="58" y1="206" x2="374" y2="206"></line>
-        <line x1="58" y1="206" x2="58" y2="34"></line>
-        <text x="342" y="232">Q</text>
-        <text x="22" y="48">P</text>
-        <polyline points="330,62 275,94 220,126 165,158 110,190"></polyline>
-        <circle cx="330" cy="62" r="4"></circle><text x="336" y="56"></text><circle cx="275" cy="94" r="4"></circle><text x="281" y="88"></text><circle cx="220" cy="126" r="4"></circle><text x="226" y="120">(300; 2,00)</text><circle cx="165" cy="158" r="4"></circle><text x="171" y="152"></text><circle cx="110" cy="190" r="4"></circle><text x="116" y="184"></text>
+      <svg class="pv2-inline-graph" viewBox="0 0 420 250" role="img" aria-label="P-Q-grafiek met prijs op de verticale as en hoeveelheid op de horizontale as" data-x-axis-label="Hoeveelheid ijsjes (Q)" data-y-axis-label="Prijs per ijsje (P)">
+        <line class="grid" x1="58" y1="206" x2="374" y2="206"></line><line class="tick" x1="53" y1="206" x2="58" y2="206"></line><text class="tick-label tick-label-y" x="50" y="210" text-anchor="end">€1,00</text><line class="grid" x1="58" y1="163" x2="374" y2="163"></line><line class="tick" x1="53" y1="163" x2="58" y2="163"></line><text class="tick-label tick-label-y" x="50" y="167" text-anchor="end">€1,50</text><line class="grid" x1="58" y1="120" x2="374" y2="120"></line><line class="tick" x1="53" y1="120" x2="58" y2="120"></line><text class="tick-label tick-label-y" x="50" y="124" text-anchor="end">€2,00</text><line class="grid" x1="58" y1="77" x2="374" y2="77"></line><line class="tick" x1="53" y1="77" x2="58" y2="77"></line><text class="tick-label tick-label-y" x="50" y="81" text-anchor="end">€2,50</text><line class="grid" x1="58" y1="34" x2="374" y2="34"></line><line class="tick" x1="53" y1="34" x2="58" y2="34"></line><text class="tick-label tick-label-y" x="50" y="38" text-anchor="end">€3,00</text>
+        <line class="grid" x1="58" y1="34" x2="58" y2="206"></line><line class="tick" x1="58" y1="206" x2="58" y2="211"></line><text class="tick-label tick-label-x" x="58" y="226" text-anchor="middle">100</text><line class="grid" x1="137" y1="34" x2="137" y2="206"></line><line class="tick" x1="137" y1="206" x2="137" y2="211"></line><text class="tick-label tick-label-x" x="137" y="226" text-anchor="middle">200</text><line class="grid" x1="216" y1="34" x2="216" y2="206"></line><line class="tick" x1="216" y1="206" x2="216" y2="211"></line><text class="tick-label tick-label-x" x="216" y="226" text-anchor="middle">300</text><line class="grid" x1="295" y1="34" x2="295" y2="206"></line><line class="tick" x1="295" y1="206" x2="295" y2="211"></line><text class="tick-label tick-label-x" x="295" y="226" text-anchor="middle">400</text><line class="grid" x1="374" y1="34" x2="374" y2="206"></line><line class="tick" x1="374" y1="206" x2="374" y2="211"></line><text class="tick-label tick-label-x" x="374" y="226" text-anchor="middle">500</text>
+        <line class="axis" x1="58" y1="206" x2="374" y2="206"></line>
+        <line class="axis" x1="58" y1="206" x2="58" y2="34"></line>
+        <text class="axis-short-label" x="364" y="242">Q</text>
+        <text class="axis-short-label" x="22" y="46">P</text>
+        <text class="axis-title axis-title-x" x="216" y="244" text-anchor="middle">Hoeveelheid ijsjes (Q)</text>
+        <text class="axis-title axis-title-y" x="16" y="120" text-anchor="middle" transform="rotate(-90 16 120)">Prijs per ijsje (P)</text>
+        <polyline class="curve" data-line-label="Vraaglijn ijsjes" points="58,34 137,77 216,120 295,163 374,206"></polyline>
+        <circle class="point" cx="58" cy="34" r="4" data-q="100" data-p="3"></circle><text class="point-label" x="64" y="28"></text><circle class="point" cx="137" cy="77" r="4" data-q="200" data-p="2.5"></circle><text class="point-label" x="143" y="71"></text><circle class="point" cx="216" cy="120" r="4" data-q="300" data-p="2"></circle><text class="point-label" x="222" y="114">(300; 2,00)</text><circle class="point" cx="295" cy="163" r="4" data-q="400" data-p="1.5"></circle><text class="point-label" x="301" y="157"></text><circle class="point" cx="374" cy="206" r="4" data-q="500" data-p="1"></circle><text class="point-label" x="380" y="200"></text><text class="line-label" x="244" y="138">Vraaglijn ijsjes</text>
       </svg>
       <p>Prijs staat verticaal; hoeveelheid staat horizontaal.</p>
     </figure>
@@ -200,7 +211,7 @@ Daarna lezen we een tussenwaarde af.</div>
         </article>
         <article class="pv2-slide pv2-slide-procedureRoute pv2-role-graph_reading_interpolation" id="interpoleren" data-pv2-slide="5" data-route-role="graph_reading_interpolation" aria-labelledby="interpoleren-title" hidden>
           <div class="pv2-slide-canvas">
-            <div class="pv2-slide-count">5 / 7</div>
+            <div class="pv2-slide-count">5 / 8</div>
             <div class="pv2-slide-head pv2-slide-head-compact">
             <p class="pv2-eyebrow">1.1.3 – Aflezen</p>
             <h2 id="interpoleren-title" tabindex="-1">Lees tussen twee punten</h2>
@@ -210,14 +221,18 @@ Daarna lezen we een tussenwaarde af.</div>
           <div class="pv2-route-with-visual">
             <figure class="pv2-visual-panel" data-visual-id="slide_interpolation_graph">
       <figcaption>Interpoleren bij €1,75</figcaption>
-      <svg class="pv2-inline-graph" viewBox="0 0 420 250" role="img" aria-label="P-Q-grafiek met prijs verticaal en hoeveelheid horizontaal">
-        <line x1="58" y1="206" x2="374" y2="206"></line>
-        <line x1="58" y1="206" x2="58" y2="34"></line>
-        <text x="342" y="232">Q</text>
-        <text x="22" y="48">P</text>
-        <polyline points="330,62 275,94 220,126 165,158 110,190"></polyline>
-        <circle cx="330" cy="62" r="4"></circle><text x="336" y="56"></text><circle cx="275" cy="94" r="4"></circle><text x="281" y="88"></text><circle cx="220" cy="126" r="4"></circle><text x="226" y="120">(300; 2,00)</text><circle cx="165" cy="158" r="4"></circle><text x="171" y="152"></text><circle cx="110" cy="190" r="4"></circle><text x="116" y="184"></text>
-        <line class="guide" x1="248" y1="112" x2="248" y2="206"></line><line class="guide" x1="58" y1="112" x2="248" y2="112"></line><text x="256" y="198">Q ongeveer 350</text><text x="66" y="104">€1,75</text>
+      <svg class="pv2-inline-graph" viewBox="0 0 420 250" role="img" aria-label="Interpoleren bij €1,75 met prijs op de verticale as en hoeveelheid op de horizontale as" data-x-axis-label="Hoeveelheid ijsjes (Q)" data-y-axis-label="Prijs per ijsje (P)">
+        <line class="grid" x1="58" y1="206" x2="374" y2="206"></line><line class="tick" x1="53" y1="206" x2="58" y2="206"></line><text class="tick-label tick-label-y" x="50" y="210" text-anchor="end">€1,00</text><line class="grid" x1="58" y1="163" x2="374" y2="163"></line><line class="tick" x1="53" y1="163" x2="58" y2="163"></line><text class="tick-label tick-label-y" x="50" y="167" text-anchor="end">€1,50</text><line class="grid" x1="58" y1="120" x2="374" y2="120"></line><line class="tick" x1="53" y1="120" x2="58" y2="120"></line><text class="tick-label tick-label-y" x="50" y="124" text-anchor="end">€2,00</text><line class="grid" x1="58" y1="77" x2="374" y2="77"></line><line class="tick" x1="53" y1="77" x2="58" y2="77"></line><text class="tick-label tick-label-y" x="50" y="81" text-anchor="end">€2,50</text><line class="grid" x1="58" y1="34" x2="374" y2="34"></line><line class="tick" x1="53" y1="34" x2="58" y2="34"></line><text class="tick-label tick-label-y" x="50" y="38" text-anchor="end">€3,00</text>
+        <line class="grid" x1="58" y1="34" x2="58" y2="206"></line><line class="tick" x1="58" y1="206" x2="58" y2="211"></line><text class="tick-label tick-label-x" x="58" y="226" text-anchor="middle">100</text><line class="grid" x1="137" y1="34" x2="137" y2="206"></line><line class="tick" x1="137" y1="206" x2="137" y2="211"></line><text class="tick-label tick-label-x" x="137" y="226" text-anchor="middle">200</text><line class="grid" x1="216" y1="34" x2="216" y2="206"></line><line class="tick" x1="216" y1="206" x2="216" y2="211"></line><text class="tick-label tick-label-x" x="216" y="226" text-anchor="middle">300</text><line class="grid" x1="295" y1="34" x2="295" y2="206"></line><line class="tick" x1="295" y1="206" x2="295" y2="211"></line><text class="tick-label tick-label-x" x="295" y="226" text-anchor="middle">400</text><line class="grid" x1="374" y1="34" x2="374" y2="206"></line><line class="tick" x1="374" y1="206" x2="374" y2="211"></line><text class="tick-label tick-label-x" x="374" y="226" text-anchor="middle">500</text>
+        <line class="axis" x1="58" y1="206" x2="374" y2="206"></line>
+        <line class="axis" x1="58" y1="206" x2="58" y2="34"></line>
+        <text class="axis-short-label" x="364" y="242">Q</text>
+        <text class="axis-short-label" x="22" y="46">P</text>
+        <text class="axis-title axis-title-x" x="216" y="244" text-anchor="middle">Hoeveelheid ijsjes (Q)</text>
+        <text class="axis-title axis-title-y" x="16" y="120" text-anchor="middle" transform="rotate(-90 16 120)">Prijs per ijsje (P)</text>
+        <polyline class="curve" data-line-label="Vraaglijn ijsjes" points="58,34 137,77 216,120 295,163 374,206"></polyline>
+        <circle class="point" cx="58" cy="34" r="4" data-q="100" data-p="3"></circle><text class="point-label" x="64" y="28"></text><circle class="point" cx="137" cy="77" r="4" data-q="200" data-p="2.5"></circle><text class="point-label" x="143" y="71"></text><circle class="point" cx="216" cy="120" r="4" data-q="300" data-p="2"></circle><text class="point-label" x="222" y="114">(300; 2,00)</text><circle class="point" cx="295" cy="163" r="4" data-q="400" data-p="1.5"></circle><text class="point-label" x="301" y="157"></text><circle class="point" cx="374" cy="206" r="4" data-q="500" data-p="1"></circle><text class="point-label" x="380" y="200"></text><text class="line-label" x="244" y="138">Vraaglijn ijsjes</text>
+        <line class="guide" x1="255.5" y1="141.5" x2="255.5" y2="206"></line><line class="guide" x1="58" y1="141.5" x2="255.5" y2="141.5"></line><circle class="guide-point" cx="255.5" cy="141.5" r="4"></circle><text class="guide-label" x="263.5" y="196">Q ongeveer 350</text><text class="guide-label" x="66" y="133.5">€1,75</text>
       </svg>
       <p>Hulplijnen maken de schatting controleerbaar.</p>
     </figure>
@@ -250,7 +265,7 @@ Tot slot kijken we kritisch naar de schaal van een grafiek.</div>
         </article>
         <article class="pv2-slide pv2-slide-procedureRoute pv2-role-graph_claim_check" id="kritisch" data-pv2-slide="6" data-route-role="graph_claim_check" aria-labelledby="kritisch-title" hidden>
           <div class="pv2-slide-canvas">
-            <div class="pv2-slide-count">6 / 7</div>
+            <div class="pv2-slide-count">6 / 8</div>
             <div class="pv2-slide-head pv2-slide-head-compact">
             <p class="pv2-eyebrow">1.1.3 – Kritisch</p>
             <h2 id="kritisch-title" tabindex="-1">Controleer de schaal</h2>
@@ -296,7 +311,7 @@ We sluiten af door de kernvragen terug te halen.</div>
         </article>
         <article class="pv2-slide pv2-slide-retrievalCheck pv2-role-retrieval_check" id="terughalen" data-pv2-slide="7" data-route-role="retrieval_check" aria-labelledby="terughalen-title" hidden>
           <div class="pv2-slide-canvas">
-            <div class="pv2-slide-count">7 / 7</div>
+            <div class="pv2-slide-count">7 / 8</div>
             <div class="pv2-slide-head pv2-slide-head-compact">
             <p class="pv2-eyebrow">1.1.3 – terughalen</p>
             <h2 id="terughalen-title" tabindex="-1">Controleer je grafiekroute</h2>
@@ -316,20 +331,42 @@ We sluiten af door de kernvragen terug te halen.</div>
               <summary><span>03</span>Waarom schrijf je bij interpoleren vaak ongeveer?</summary>
               <p class="pv2-hint">Je leest tussen bekende punten.</p>
               <p class="pv2-answer">Omdat je een beredeneerde schatting maakt tussen bronpunten.</p>
+            </details><details class="pv2-check-card" role="listitem">
+              <summary><span>04</span>Waarom kan een ingezoomde as een daling misleidend groot laten lijken?</summary>
+              <p class="pv2-hint">Vergelijk dezelfde waarden met een andere asstart.</p>
+              <p class="pv2-answer">Omdat dezelfde data visueel steiler of groter lijken wanneer de as niet bij nul begint.</p>
             </details>
           </div>
             <div class="pv2-sr-speaker-text" data-pv2-speaker-text>Deze check is bedoeld als snelle terughaalronde, niet als bewijs dat alles onder de knie is.
 
-Laat leerlingen eerst stil antwoorden en daarna per kaart controleren.
-
 Gebruik dezelfde route in de oefenpagina en het grafiekenspel.</div>
           </div>
-          <details class="pv2-notes"><summary>Studentgerichte uitleg</summary><div class="pv2-speaker-script"><section><h3>Studentuitleg</h3><p>Deze check is bedoeld als snelle terughaalronde, niet als bewijs dat alles onder de knie is.</p><p>Laat leerlingen eerst stil antwoorden en daarna per kaart controleren.</p></section><section><h3>Overgang</h3><p>Gebruik dezelfde route in de oefenpagina en het grafiekenspel.</p></section></div></details>
+          <details class="pv2-notes"><summary>Studentgerichte uitleg</summary><div class="pv2-speaker-script"><section><h3>Studentuitleg</h3><p>Deze check is bedoeld als snelle terughaalronde, niet als bewijs dat alles onder de knie is.</p></section><section><h3>Overgang</h3><p>Gebruik dezelfde route in de oefenpagina en het grafiekenspel.</p></section></div></details>
+        </article>
+        <article class="pv2-slide pv2-slide-summaryBridge pv2-role-summary_bridge" id="samenvatten" data-pv2-slide="8" data-route-role="summary_bridge" aria-labelledby="samenvatten-title" hidden>
+          <div class="pv2-slide-canvas">
+            <div class="pv2-slide-count">8 / 8</div>
+            <div class="pv2-slide-head pv2-slide-head-compact">
+            <p class="pv2-eyebrow">1.1.3 – samenvatting</p>
+            <h2 id="samenvatten-title" tabindex="-1">Samenvatting en volgende stap</h2>
+            <p class="pv2-assertion">De grafiekroute werkt bij elke tabel: bron lezen, grafiek controleren, claim beoordelen.</p>
+            <p class="pv2-slide-action">Neem deze drie checks mee naar de oefenpagina en het grafiekenspel.</p>
+          </div>
+          <ol class="pv2-summary-list" aria-label="Kernzinnen">
+            <li>Bron: een tabelwaarde is pas bruikbaar met label en eenheid.</li><li>Grafiek: in deze economiegrafiek staat P verticaal en Q horizontaal.</li><li>Aflezen: een tussenwaarde zoals €1,75 is een schatting tussen bekende punten.</li><li>Oordeel: schaal en asstart bepalen hoe groot een verschil lijkt.</li>
+          </ol>
+            <div class="pv2-sr-speaker-text" data-pv2-speaker-text>Deze samenvatting verbindt de presentatie met de oefenpagina en het spel zonder nieuw begrip te introduceren.
+
+De kern is dat leerlingen steeds dezelfde controlevolgorde gebruiken.
+
+Daarna oefen je zelfstandig met dezelfde route.</div>
+          </div>
+          <details class="pv2-notes"><summary>Studentgerichte uitleg</summary><div class="pv2-speaker-script"><section><h3>Studentuitleg</h3><p>Deze samenvatting verbindt de presentatie met de oefenpagina en het spel zonder nieuw begrip te introduceren.</p><p>De kern is dat leerlingen steeds dezelfde controlevolgorde gebruiken.</p></section><section><h3>Overgang</h3><p>Daarna oefen je zelfstandig met dezelfde route.</p></section></div></details>
         </article>
       </section>
       <footer class="pv2-controls" aria-label="Dia-navigatie">
         <button type="button" data-pv2-prev>Vorige</button>
-        <span><strong data-pv2-current>1</strong> / 7</span>
+        <span><strong data-pv2-current>1</strong> / 8</span>
         <button type="button" data-pv2-next>Volgende</button>
       </footer>
     </main>

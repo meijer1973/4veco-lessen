@@ -47,6 +47,12 @@
     .inline-graph .guide{stroke:var(--letop-ink);stroke-width:2;stroke-dasharray:6 5}
     .inline-graph .point{fill:var(--economisch);stroke:var(--bg-card);stroke-width:2}
     .inline-graph text{fill:var(--ink-soft);font:700 13px system-ui,sans-serif}
+    .inline-graph .tick-label{font-size:10px}
+    .inline-graph .axis-title,.inline-graph .axis-short-label{fill:var(--ink);font-weight:900}
+    .inline-graph .axis-title{font-size:11px}
+    .inline-graph .line-label{fill:var(--accent);font-weight:900}
+    .inline-graph .point-label,.inline-graph .guide-label{fill:var(--ink);font-size:11px}
+    .inline-graph .guide-point{fill:var(--letop-ink)}
     .axis-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
     .axis-panel{border:1px solid var(--border);border-radius:8px;padding:10px;background:var(--bg)}
     .axis-bars{height:150px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:end;border-left:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:10px 10px 0;margin-top:8px}
@@ -116,12 +122,13 @@
     <svg class="inline-graph" viewBox="0 0 430 270" role="img" aria-label="Lege P-Q assen om punten uit een tabel te tekenen">
       <line class="axis" x1="68" y1="220" x2="386" y2="220"></line>
       <line class="axis" x1="68" y1="220" x2="68" y2="36"></line>
-      <line class="grid" x1="68" y1="164" x2="386" y2="164"></line>
-      <line class="grid" x1="68" y1="108" x2="386" y2="108"></line>
-      <text x="360" y="248">Q</text>
-      <text x="18" y="50">P</text>
-      <circle class="point" cx="118" cy="188" r="5"></circle><text x="126" y="180">(40;3,00)</text>
-      <circle class="point" cx="352" cy="76" r="5"></circle><text x="250" y="68">(200;1,00)</text>
+      <line class="grid" x1="68" y1="128" x2="386" y2="128"></line>
+      <text class="axis-short-label" x="368" y="258">Q</text>
+      <text class="axis-short-label" x="34" y="48">P</text>
+      <text class="axis-title" x="227" y="264" text-anchor="middle">Hoeveelheid (Q)</text>
+      <text class="axis-title" x="16" y="128" text-anchor="middle" transform="rotate(-90 16 128)">Prijs (P)</text>
+      <circle class="point" cx="68" cy="36" r="5"></circle><text class="point-label" x="76" y="52">(40; 3,00)</text>
+      <circle class="point" cx="386" cy="220" r="5"></circle><text class="point-label" x="294" y="212">(200; 1,00)</text>
     </svg>
     <p>Zet punten uit als (Q; P), dus hoeveelheid eerst en prijs daarna.</p>
   </figure></div></div>
