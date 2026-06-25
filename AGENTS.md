@@ -81,7 +81,7 @@ sprint.
 - Use `specifications/product-vision.md` as the stable strategic product direction before roadmap, sprint, review, or Scale Gate work.
 - Use `specifications/product-end-state.md` as the stable operational product north star before roadmap, sprint, review, or Scale Gate work.
 - Use `specifications/companion-core-specifications.md` as the stable companion-surface specification.
-- Use `../CLAUDE.md` "Working agreement — how Claude operates in this repo" for the seven non-negotiable operating rules (read-first, sanity-check-plans, be-honest-about-mistakes, quality-over-patchwork). Applies to every task.
+- Start from this `AGENTS.md` file. It is the canonical operating agreement for every agent in this repo: read first, sanity-check plans, be honest about mistakes, prefer quality over patchwork, and apply these rules to every task.
 - Use [BUILD-PARAGRAPH.md](C:\Projects\4veco\4veco-platform\BUILD-PARAGRAPH.md) as the end-to-end guide for building a complete paragraph.
 - Use [BUILD-CHAPTER.md](C:\Projects\4veco\4veco-platform\BUILD-CHAPTER.md) as the end-to-end guide for assembling paragraphs into a chapter.
 - Use `AGENTS.md` for repo overview, architecture, deploy rules, and quality standards.

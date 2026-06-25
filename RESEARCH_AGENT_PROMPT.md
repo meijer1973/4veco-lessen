@@ -41,7 +41,7 @@ If a raw URL returns 404, do not immediately conclude that the file is absent. V
 
 ### Note on agents that cannot construct URLs
 
-Some research environments (notably planning Claude in claude.ai) only fetch URLs that have appeared as literal `https://...` strings in context — they cannot concatenate a base URL with a relative path. For those agents, this map includes parallel `<section_name> (full URLs):` blocks listing concrete paths as complete raw-GitHub URLs. Template entries with `<book-title>` / `N.M.K` placeholders are not directly fetchable and are not enumerated; substitute them per-task using the encoding rules above (`%20` for spaces, `%2C` for commas, `%E2%80%93` for en-dashes). There is also a single-fetch entry point in the platform repo linking every key surface across both repositories:
+Some research environments only fetch URLs that have appeared as literal `https://...` strings in context — they cannot concatenate a base URL with a relative path. For those agents, this map includes parallel `<section_name> (full URLs):` blocks listing concrete paths as complete raw-GitHub URLs. Template entries with `<book-title>` / `N.M.K` placeholders are not directly fetchable and are not enumerated; substitute them per-task using the encoding rules above (`%20` for spaces, `%2C` for commas, `%E2%80%93` for en-dashes). There is also a single-fetch entry point in the platform repo linking every key surface across both repositories:
 
 ```text
 https://raw.githubusercontent.com/meijer1973/4veco-platform/main/reports/url-index.md
@@ -207,7 +207,7 @@ The principle here is **markdown-first**: the paragraph markdown (`– paragraaf
 
 Note on mutation workflows: any change to engine files, generated artifacts, machine-managed configs, or reference-quality YAMLs goes through `4veco-platform` (see `4veco-platform/AGENTS.md`, `BUILD-PARAGRAPH.md`, `BUILD-CHAPTER.md`, `build-scripts/README.md`). If the requested change has no platform workflow yet, report that as a workflow gap instead of hand-editing here.
 
-Do not read `.claude/` (gitignored, local agent settings only).
+Do not read local tool settings directories; use repository files named in `AGENTS.md` and this map instead.
 
 ## Research Question
 

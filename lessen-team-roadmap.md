@@ -1569,7 +1569,7 @@ Likely items (final list comes from F-plan):
   connects to the rest of the platform" sections).
 - F5. Adjust agents/README.md and the `econ-companion-artifacts`
   skill cross-references if the F-plan changes them.
-- F6. Update CLAUDE.md (project-level) and AGENTS.md "Quality control"
+- F6. Update project-level AGENTS.md "Quality control"
   sections to reflect the cleaner pipeline.
 
 **F-verify (sub-agent).**

@@ -692,7 +692,7 @@ Agents MUST NOT:
 - Treat the assembled `– hoofdstuk.html`, `– boek.html`, or any companion HTML as primary evidence when the underlying paragraph markdown disagrees.
 - Mint new paragraphs, rename paragraph folders, or alter `deploy-config.json` from research.
 - Use the course blueprint or roadmap as evidence that an artifact exists — those are intent and plan, not proof of build.
-- Read `.claude/` (gitignored, local agent settings only).
+- Read local tool settings directories; use repository files named in `AGENTS.md` and this map instead.
 - Crawl `_assets/`, `svg/`, or shared engine binaries when the plan, paragraph markdown, or quality-ref YAML answers the question.
 - Present unsupported didactic, exam-alignment, or quality conclusions as fact.
 
