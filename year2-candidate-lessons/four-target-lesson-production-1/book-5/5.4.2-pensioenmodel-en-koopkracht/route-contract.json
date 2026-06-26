@@ -1,0 +1,28 @@
+{
+  "record_id": "Y2-B5-PENSION-TIME-STOCK-FLOW-TARGET-1",
+  "target_owner_candidate_id": "Y2-B5-P13",
+  "paragraph_code": "5.4.2",
+  "lesson_goal": "Gebruik het officiele pensioenmodel om ruilen over de tijd, voorraad/grootheid, indexatie, verhoudingen en koopkracht uit te leggen.",
+  "source_refs": [
+    "references/external/exams/vw-1022-a-25-2-o.pdf#page=4-5",
+    "references/data/year2-target-foundation/canonical-source-assets.json#figuur-1-pensioenmodel-2024-2044",
+    "references/data/year2-target-foundation/canonical-source-assets.json#pensioenmodel-assumptions-a-f"
+  ],
+  "prerequisites": [
+    "Pensioenstelsel",
+    "indexatie",
+    "voorraad en stroomgrootheid",
+    "ruilen over de tijd"
+  ],
+  "required_surfaces": [
+    "route",
+    "advisory_short_check",
+    "target_equivalent_exit_ticket_candidate"
+  ],
+  "target_equivalent_exit_ticket_requirements": [
+    "Classificeer opgebouwd pensioensparen als voorraad of stroom en onderbouw met de bron.",
+    "Leg in twee schakels uit waarom welvaartsindexatie hogere pensioenuitgaven kan geven.",
+    "Leg uit waarom premie als deel van pensioenvermogen kan dalen terwijl premie als bbp-deel constant blijft."
+  ],
+  "authority_boundary": "generated_candidate_lesson_output_for_review_only_no_product_route_adoption_no_student_product_use"
+}
