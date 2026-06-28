@@ -1,0 +1,29 @@
+{
+  "record_id": "Y2-B7-CREDIT-INSURANCE-INFORMATION-TARGET-1",
+  "target_owner_candidate_id": "Y2-B7-P13",
+  "paragraph_code": "7.4.1",
+  "lesson_goal": "Gebruik de kredietverzekeringsbron om informatieproblemen, prikkels, verwachte schade en premieopslag te verklaren.",
+  "source_refs": [
+    "references/external/exams/vw-1022-a-23-1-o.pdf#page=6-7",
+    "references/data/year2-target-foundation/canonical-source-assets.json#figuur-1-kredietverzekering-en-voorwaarden",
+    "references/data/year2-target-foundation/canonical-source-assets.json#tabel-1-financiele-gegevens-digibate"
+  ],
+  "prerequisites": [
+    "verwachte waarde",
+    "moreel risico",
+    "averechtse selectie",
+    "principaal-agent",
+    "verzekeringspremie"
+  ],
+  "required_surfaces": [
+    "route",
+    "advisory_short_check",
+    "target_equivalent_exit_ticket_candidate"
+  ],
+  "target_equivalent_exit_ticket_requirements": [
+    "Noem principaal en agent en leg uit hoe incassokosten de prikkel veranderen.",
+    "Bereken de totale premie vanuit EUR 80,000 verwachte schade en 20% opslag.",
+    "Leg een voorwaarde uit die moreel risico of averechtse selectie vermindert."
+  ],
+  "authority_boundary": "generated_candidate_lesson_output_for_review_only_no_product_route_adoption_no_student_product_use"
+}

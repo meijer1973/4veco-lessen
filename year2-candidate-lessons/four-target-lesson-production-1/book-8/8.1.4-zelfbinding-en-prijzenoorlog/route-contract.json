@@ -1,0 +1,30 @@
+{
+  "record_id": "Y2-B8-Q15-Q16-STRATEGIC-TARGET-1",
+  "target_owner_candidate_id": "Y2-B8-P04",
+  "paragraph_code": "8.1.4",
+  "lesson_goal": "Gebruik de Guarda/Orso Bianco-bron om dominante strategie, prisoners dilemma, zelfbinding en prijsprikkels uit te leggen.",
+  "source_refs": [
+    "references/external/exams/vw-1022-a-25-1-o.pdf#page=7",
+    "references/data/year2-target-foundation/canonical-source-assets.json#ijssalon-guarda-orso-bianco-context",
+    "references/data/year2-target-foundation/canonical-source-assets.json#lowest-price-guarantee-self-binding-source",
+    "references/data/year2-target-foundation/canonical-source-assets.json#derived-payoff-representation"
+  ],
+  "prerequisites": [
+    "strategische interactie",
+    "dominante strategie",
+    "prisoners dilemma",
+    "zelfbinding",
+    "prijsgarantie"
+  ],
+  "required_surfaces": [
+    "route",
+    "advisory_short_check",
+    "target_equivalent_exit_ticket_candidate"
+  ],
+  "target_equivalent_exit_ticket_requirements": [
+    "Leg uit waarom prijs verlagen voor elk bedrijf afzonderlijk aantrekkelijk kan zijn.",
+    "Leg uit waarom de uitkomst een prisoners dilemma kan zijn.",
+    "Leg in twee schakels uit hoe een laagsteprijsgarantie de prikkel van Orso Bianco verandert."
+  ],
+  "authority_boundary": "generated_candidate_lesson_output_for_review_only_no_product_route_adoption_no_student_product_use"
+}

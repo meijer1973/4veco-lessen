@@ -10,7 +10,7 @@ as the place where production logic lives.
 Build, generate, validate, and refactor lesson materials through the companion
 repository:
 
-`C:\Projects\4veco\4veco-platform`
+`../4veco-platform`
 
 Use the platform repo's build scripts, validators, skills, references, and
 workflow docs. In particular, read and follow:
@@ -81,9 +81,9 @@ sprint.
 - Use `specifications/product-vision.md` as the stable strategic product direction before roadmap, sprint, review, or Scale Gate work.
 - Use `specifications/product-end-state.md` as the stable operational product north star before roadmap, sprint, review, or Scale Gate work.
 - Use `specifications/companion-core-specifications.md` as the stable companion-surface specification.
-- Use `../CLAUDE.md` "Working agreement — how Claude operates in this repo" for the seven non-negotiable operating rules (read-first, sanity-check-plans, be-honest-about-mistakes, quality-over-patchwork). Applies to every task.
-- Use [BUILD-PARAGRAPH.md](C:\Projects\4veco\4veco-platform\BUILD-PARAGRAPH.md) as the end-to-end guide for building a complete paragraph.
-- Use [BUILD-CHAPTER.md](C:\Projects\4veco\4veco-platform\BUILD-CHAPTER.md) as the end-to-end guide for assembling paragraphs into a chapter.
+- Use `../4veco-platform/AGENTS.md` as the canonical cross-repo agent entrypoint for operating rules, planning discipline, branch/worktree safety, review workflow, and integration policy.
+- Use [BUILD-PARAGRAPH.md](../4veco-platform/BUILD-PARAGRAPH.md) as the end-to-end guide for building a complete paragraph.
+- Use [BUILD-CHAPTER.md](../4veco-platform/BUILD-CHAPTER.md) as the end-to-end guide for assembling paragraphs into a chapter.
 - Use `AGENTS.md` for repo overview, architecture, deploy rules, and quality standards.
 - Use `build-scripts/README.md` from the platform repo for the distinction between platform generators, converters, reference implementations, and utilities.
 
