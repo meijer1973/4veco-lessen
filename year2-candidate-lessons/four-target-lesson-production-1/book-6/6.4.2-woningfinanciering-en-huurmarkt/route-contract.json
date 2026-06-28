@@ -1,0 +1,29 @@
+{
+  "record_id": "Y2-B6-HOUSING-FINANCE-RENT-MARKET-TARGET-1",
+  "target_owner_candidate_id": "Y2-B6-P12",
+  "paragraph_code": "6.4.2",
+  "lesson_goal": "Gebruik de VastWonen/Reder-bronnen om wachtlijst, omzetmaximale productie, hypotheekrisico en huurmarktgegevens te verklaren.",
+  "source_refs": [
+    "references/external/exams/vw-1022-a-23-2-o.pdf#page=12-13",
+    "references/data/year2-target-foundation/canonical-source-assets.json#tabel-1-vastwonen-financial-data",
+    "references/data/year2-target-foundation/canonical-source-assets.json#tabel-2-particuliere-huurwoningen-reder"
+  ],
+  "prerequisites": [
+    "vraagfunctie",
+    "totale opbrengst",
+    "marginale opbrengst",
+    "inkomenselasticiteit",
+    "hypotheekrente"
+  ],
+  "required_surfaces": [
+    "route",
+    "advisory_short_check",
+    "target_equivalent_exit_ticket_candidate"
+  ],
+  "target_equivalent_exit_ticket_requirements": [
+    "Bereken de wachtlijst bij EUR 850 en noem de eenheid.",
+    "Bereken de totale opbrengst bij Q = 8,600 en P = EUR 1,075.",
+    "Leg met Bron 2 uit waarom de huur kan stijgen."
+  ],
+  "authority_boundary": "generated_candidate_lesson_output_for_review_only_no_product_route_adoption_no_student_product_use"
+}

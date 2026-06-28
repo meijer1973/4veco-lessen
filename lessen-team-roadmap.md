@@ -692,7 +692,7 @@ node scripts\validate-paragraph.js --mode complete "<paragraph-folder>"
 
 - Every layout or user-interface improvement must be integrated in the platform, not patched into one generated lesson file.
 - Every visual or image-integration improvement must also be integrated in the platform. Do not hand-paste one-off images into generated lesson files.
-- Reusable UI work belongs in `C:\Projects\4veco\4veco-platform`: templates, shared CSS/JS, converters, generators, validators, or build scripts.
+- Reusable UI work belongs in `../4veco-platform`: templates, shared CSS/JS, converters, generators, validators, or build scripts.
 - Reusable visual work belongs there too: SVG builders, surface-variant renderers, converter support for light/dark web images, and rules for PowerPoint/game/doc variants.
 - Generated output in `4veco-lessen` may show the result, but it should not become the source of truth for UI changes.
 
@@ -1569,7 +1569,7 @@ Likely items (final list comes from F-plan):
   connects to the rest of the platform" sections).
 - F5. Adjust agents/README.md and the `econ-companion-artifacts`
   skill cross-references if the F-plan changes them.
-- F6. Update CLAUDE.md (project-level) and AGENTS.md "Quality control"
+- F6. Update AGENTS.md "Quality control"
   sections to reflect the cleaner pipeline.
 
 **F-verify (sub-agent).**
