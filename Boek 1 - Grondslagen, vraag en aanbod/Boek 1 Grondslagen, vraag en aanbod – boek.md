@@ -83,7 +83,7 @@ boek.</p>
 
 <div class="chapter-front">
 
-<span id="book-toc-chapter-1-1" class="book-toc-anchor"></span>
+<div id="book-toc-chapter-1-1" class="book-toc-anchor"></div>
 <h1>Hoofdstuk 1 — Economisch denken en rekenen</h1>
 
 <h2>Inhoud</h2>
@@ -125,7 +125,7 @@ boek.</p>
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-1-1" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-1-1" class="book-toc-anchor"></div>
 # 1.1.1 Schaarste en economisch denken
 
 ## Waarom kun je niet alles hebben?
@@ -315,7 +315,7 @@ b) Geef een voorbeeld van iets dat écht geen alternatieve kosten heeft. Is dat 
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-1-2" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-1-2" class="book-toc-anchor"></div>
 # 1.1.2 Percentages en indexcijfers
 
 ## Hoeveel duurder is het geworden?
@@ -501,7 +501,7 @@ Let op: het verschil is 5 indexpunten, maar de procentuele verandering is −4,5
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-1-3" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-1-3" class="book-toc-anchor"></div>
 # 1.1.3 Grafieken en tabellen
 
 ## Hoeveel ijsjes verkoop je bij welke prijs?
@@ -762,7 +762,7 @@ Twee leerlingen maken een grafiek van dezelfde gegevens. Leerling A begint de y-
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-1-4" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-1-4" class="book-toc-anchor"></div>
 # Gemengde opgaven §1.1.4 — Economisch denken en rekenen
 
 ---
@@ -854,7 +854,7 @@ De leerlingenraad kiest voor de smoothie-machine.
 
 <div class="chapter-front">
 
-<span id="book-toc-chapter-1-2" class="book-toc-anchor"></span>
+<div id="book-toc-chapter-1-2" class="book-toc-anchor"></div>
 <h1>Hoofdstuk 2 — Vraag</h1>
 
 <h2>Inhoud</h2>
@@ -896,7 +896,7 @@ De leerlingenraad kiest voor de smoothie-machine.
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-2-1" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-2-1" class="book-toc-anchor"></div>
 # 1.2.1 Individuele vraag
 
 ## Hoe beslis je hoeveel je koopt?
@@ -1224,7 +1224,7 @@ b) Als het inkomen van Max stijgt, verwacht je dan dat zijn betalingsbereidheid 
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-2-2" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-2-2" class="book-toc-anchor"></div>
 # 1.2.2 Vraagfactoren
 
 ## Boter zonder prijsverandering — toch koopt iedereen ineens meer
@@ -1557,7 +1557,7 @@ b) Een criticus stelt: "Maatregel A werkt alleen zolang de belasting er is. Maat
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-2-3" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-2-3" class="book-toc-anchor"></div>
 # 1.2.3 Van individuele naar collectieve vraag
 
 ## Hoeveel limonade verkoopt het schoolfeest?
@@ -1922,7 +1922,7 @@ c) Stel dat de gemeente óók een reclamecampagne start die het OV aantrekkelijk
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-2-4" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-2-4" class="book-toc-anchor"></div>
 # Gemengde opgaven §1.2.4 — Vraag
 
 ---
@@ -1997,7 +1997,7 @@ Geef voor elk van deze twee veranderingen apart aan of het een beweging langs of
 
 <div class="chapter-front">
 
-<span id="book-toc-chapter-1-3" class="book-toc-anchor"></span>
+<div id="book-toc-chapter-1-3" class="book-toc-anchor"></div>
 <h1>Hoofdstuk 3 — Aanbod en marktevenwicht</h1>
 
 <h2>Inhoud</h2>
@@ -2035,7 +2035,7 @@ Geef voor elk van deze twee veranderingen apart aan of het een beweging langs of
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-3-1" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-3-1" class="book-toc-anchor"></div>
 # 1.3.1 Aanbod
 
 ## Zonnepanelen op elk dak — maar waarom worden ze duurder?
@@ -2378,7 +2378,7 @@ b) Een criticus stelt: "Maatregel A kost de overheid elk jaar geld. Maatregel B 
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-3-2" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-3-2" class="book-toc-anchor"></div>
 # 1.3.2 Marktevenwicht
 
 ## Twee lijnen, één kruispunt — en toch snapt bijna niemand het in één keer
@@ -2731,7 +2731,7 @@ d) Bedenk een maatregel waarmee de overheid het tekort kan verkleinen zonder de 
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-3-3" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-3-3" class="book-toc-anchor"></div>
 # 1.3.3 Verschuivingen en nieuw evenwicht
 
 ## De schriftenmarkt draait op volle toeren — tot er iets verandert
@@ -3204,7 +3204,7 @@ d) Wat gebeurt er met de evenwichtshoeveelheid als k groter wordt?
 
 <div style="break-before: page;"></div>
 
-<span id="book-toc-paragraph-1-3-4" class="book-toc-anchor"></span>
+<div id="book-toc-paragraph-1-3-4" class="book-toc-anchor"></div>
 # 1.3.4 Gemengde opgaven
 
 In deze paragraaf oefen je met vraag, aanbod, marktevenwicht en verschuivingen. Er komt geen nieuwe theorie bij. Gebruik steeds dezelfde volgorde:
@@ -3258,22 +3258,23 @@ Door een nieuwe techniek kunnen producenten zonnepanelen goedkoper maken. Bij el
 
 **e.** Leg uit waarom consumenten door deze verandering waarschijnlijk meer zonnepanelen kopen, ook al is hun voorkeur niet veranderd.
 
-## Opgave 4: Vraag en aanbod verschuiven tegelijk
+## Opgave 4: Eigen prijs of vraagfactor
 
-Op de markt voor elektrische fietsen gebeuren twee dingen tegelijk:
+Op de markt voor elektrische fietsen bekijk je twee aparte situaties. De aanbodlijn blijft in beide situaties gelijk.
 
-- Consumenten krijgen meer interesse in elektrische fietsen.
-- De accu's worden duurder voor producenten.
+Situatie A: de prijs van elektrische fietsen daalt.
 
-**a.** Leg uit welke verandering de vraaglijn verschuift.
+Situatie B: elektrische fietsen worden populairder door een campagne over duurzaam reizen.
 
-**b.** Leg uit welke verandering de aanbodlijn verschuift.
+**a.** Leg uit of situatie A een beweging langs de vraaglijn of een verschuiving van de vraaglijn is.
 
-**c.** Teken de richting van beide verschuivingen in een grafiek.
+**b.** Leg uit of situatie B een beweging langs de vraaglijn of een verschuiving van de vraaglijn is.
 
-**d.** Is het effect op de evenwichtshoeveelheid zeker of onzeker? Leg uit.
+**c.** Teken voor situatie B de oude vraaglijn, de nieuwe vraaglijn en dezelfde aanbodlijn.
 
-**e.** Is het effect op de evenwichtsprijs zeker of onzeker? Leg uit.
+**d.** Geef aan wat er in situatie B waarschijnlijk gebeurt met de evenwichtsprijs en de evenwichtshoeveelheid.
+
+**e.** Leg in twee zinnen uit wat het verschil is tussen een verandering van de eigen prijs en een verandering van een vraagfactor.
 
 ## Opgave 5: Doeloefening
 
@@ -3295,6 +3296,7 @@ Daarna stijgen de kosten voor bakkers. De nieuwe aanbodvergelijking wordt:
 **d.** Vergelijk oud en nieuw: wat gebeurt er met de prijs en wat gebeurt er met de hoeveelheid?
 
 **e.** Controleer of je antwoord logisch is: passen een hogere kostprijs, een hogere marktprijs en een lagere verkochte hoeveelheid bij elkaar?
+
 
 <!-- BOOK-CONTENT-END -->
 
