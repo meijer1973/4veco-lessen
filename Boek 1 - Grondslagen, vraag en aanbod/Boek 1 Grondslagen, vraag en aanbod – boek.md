@@ -1,4 +1,6 @@
 <div class="book-cover">
+<img class="book-cover-image" src="_assets/book-1-cover.png" alt="" aria-hidden="true">
+<div class="book-cover-shade" aria-hidden="true"></div>
 <div class="book-cover-inner">
 <h1 class="book-title">Grondslagen, vraag en aanbod</h1>
 <p class="book-edition">1e editie · 2026</p>
