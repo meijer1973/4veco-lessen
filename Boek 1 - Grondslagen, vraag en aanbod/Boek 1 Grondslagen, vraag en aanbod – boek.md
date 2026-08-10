@@ -500,6 +500,77 @@ Let op: het verschil is 5 indexpunten, maar de procentuele verandering is −4,5
 > **Vastgelopen op een opgave?**
 > Op de website vind je bij elke opgave een uitlegvideo en extra voorbeelden. Kijk eerst naar het uitgewerkt voorbeeld hierboven en probeer de procedure stap voor stap te volgen.
 
+## Opgaven
+
+### Startoefeningen
+
+**Opgave 1**
+
+De prijs van een fiets stijgt van €800 naar €920.
+
+**(a)** Bereken de procentuele prijsstijging.
+
+**(b)** Stel dat de prijs daarna daalt van €920 naar €800. Bereken de procentuele prijsdaling. Leg uit waarom dit percentage anders is dan je antwoord bij (a).
+
+
+**Opgave 2**
+
+In 2023 kost een standaard boodschappenmandje €150. In 2024 kost hetzelfde mandje €156. In 2025 kost het €162. Het basisjaar is 2023 (index = 100).
+
+**(a)** Bereken het indexcijfer voor 2024.
+
+**(b)** Bereken het indexcijfer voor 2025.
+
+**(c)** Bereken de procentuele prijsstijging van 2024 naar 2025 met behulp van de indexcijfers.
+
+---
+
+### Zelfstandige oefening
+
+**Opgave 3**
+
+Een werknemer verdient in 2022 een bruto maandloon van €3.000. In 2024 is zijn loon gestegen naar €3.240.
+
+**(a)** Bereken de procentuele loonstijging van 2022 naar 2024.
+
+**(b)** Het prijsindexcijfer (basisjaar 2022 = 100) is in 2024 gelijk aan 112. Bereken hoeveel het loon in 2024 had moeten zijn om dezelfde koopkracht te behouden als in 2022.
+
+**(c)** Beoordeel: is de koopkracht van de werknemer gestegen of gedaald? Licht je antwoord toe met een berekening.
+
+
+**Opgave 4**
+
+Het CBS publiceert de volgende indexcijfers voor de consumentenprijzen (basisjaar 2020 = 100):
+
+| Jaar | Indexcijfer |
+|------|-------------|
+| 2023 | 108 |
+| 2024 | 112 |
+| 2025 | 115 |
+| 2026 | 112 |
+
+**(a)** Bereken de procentuele prijsstijging van 2023 naar 2024.
+
+**(b)** Een leerling beweert: "Het indexcijfer ging van 108 naar 112, dus de inflatie is 4%." Leg uit waarom dit niet klopt en bereken het juiste inflatiepercentage.
+
+**(c)** Bereken de procentuele prijsverandering van 2025 naar 2026. Geef aan wat dit economisch betekent.
+
+**(d)** Een politicus zegt: "De prijzen in 2026 zijn weer op het niveau van 2024." Klopt deze uitspraak? Leg uit.
+
+---
+
+### Denkertje
+
+**Opgave 5**
+
+Een winkelier verhoogt zijn prijzen met 20%. Na een week merkt hij dat de verkoop tegenvalt en geeft hij 20% korting op de nieuwe prijs.
+
+**(a)** Een klant zegt: "Eerst 20% erbij, dan 20% eraf — dan ben je weer terug bij af." Laat met een rekenvoorbeeld zien of de klant gelijk heeft. Gebruik een startprijs van €100.
+
+**(b)** Leg uit waarom het percentage korting lager moet zijn dan het percentage van de oorspronkelijke verhoging om weer op de oude prijs uit te komen.
+
+**(c)** Bereken welk kortingspercentage (op de verhoogde prijs) nodig is om precies terug te keren naar de oorspronkelijke prijs van €100.
+
 
 <div style="break-before: page;"></div>
 
@@ -850,7 +921,6 @@ De leerlingenraad kiest voor de smoothie-machine.
 **14** *(2p)* Bereken de procentuele prijsstijging van broodjes van schooljaar 2022/23 naar schooljaar 2024/25.
 
 **Denkertje** *(2p)* De rector van de school zegt: "De broodjesprijs is van 2021 naar 2025 met 30 indexpunten gestegen. Dat is een stijging van 30%." Beoordeel of de rector gelijk heeft. Laat je berekening zien en leg uit waarom indexpunten en procenten vaak worden verward.
-
 
 <div style="break-before: page;"></div>
 
@@ -3324,6 +3394,11 @@ Daarna stijgen de kosten voor bakkers. De nieuwe aanbodvergelijking wordt:
 <dd>De prijs waarbij de gevraagde en de aangeboden hoeveelheid op een markt aan elkaar gelijk zijn. Bij deze prijs heerst marktevenwicht.</dd>
 <dt>individuele vraaglijn</dt>
 <dd>Grafiek die voor één consument laat zien hoeveel hij van een product vraagt bij elke prijs. De lijn daalt omdat de consument bij een hogere prijs minder koopt.</dd>
+<dt>inflatie <span class="term-abbrev">(CPI)</span></dt>
+<dd>Algemene stijging van het prijspeil, meestal gemeten via de consumentenprijsindex. Bij inflatie kun je met hetzelfde bedrag geld minder kopen — de koopkracht daalt.</dd>
+<dd class="term-formula"><code>inflatie = %ΔCPI</code></dd>
+<dt>koopkracht</dt>
+<dd>De hoeveelheid goederen en diensten die je met je inkomen kunt kopen. Stijgt als lonen sneller groeien dan prijzen; daalt bij hogere inflatie of lagere nominale inkomens.</dd>
 <dt>marktevenwicht</dt>
 <dd>Situatie op een markt waarin de gevraagde hoeveelheid gelijk is aan de aangeboden hoeveelheid, zodat er geen tekort of overschot ontstaat.</dd>
 <dt>schaarste</dt>
