@@ -15,10 +15,10 @@ repository:
 Use the platform repo's build scripts, validators, skills, references, and
 workflow docs. In particular, read and follow:
 
-- `4veco-platform/AGENTS.md`
-- `4veco-platform/BUILD-PARAGRAPH.md`
-- `4veco-platform/BUILD-CHAPTER.md`
-- `4veco-platform/build-scripts/README.md`
+- `../4veco-platform/AGENTS.md`
+- `../4veco-platform/BUILD-PARAGRAPH.md`
+- `../4veco-platform/BUILD-CHAPTER.md`
+- `../4veco-platform/build-scripts/README.md`
 
 ## Do Not
 
