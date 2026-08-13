@@ -46,8 +46,8 @@ diffusion and agent-scalable repository design shape decisions.
 Use `specifications/product-end-state.md` as the canonical north star for the
 student-facing operational route. The end state is a generated, review-gated
 learning route for every paragraph: the student moves from current readiness
-to target-exercise readiness through `Start -> Leer -> Oefen -> Check ->
-Verdiep`.
+to target-exercise readiness through
+`Start -> Leer -> Check -> Oefen -> Exit ticket`.
 
 Roadmap entries, sprint plans, review packets, and closure records may choose
 a smaller controlled scope, but they must not present that smaller scope as the
