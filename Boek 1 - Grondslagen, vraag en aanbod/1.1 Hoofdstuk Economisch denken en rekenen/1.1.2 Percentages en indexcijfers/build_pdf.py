@@ -138,12 +138,13 @@ img {
 p + figure, p + p > img { break-before: avoid; }
 
 /* === EXERCISES === */
-/* Allow exercises to break across pages to avoid whitespace,
-   but keep the "Opgave X" title with at least 2 lines of content. */
+/* Keep an exercise together whenever it fits on one page. */
 .exercise {
   margin-bottom: 14pt;
   orphans: 2;
   widows: 2;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .exercise > p:first-child {
@@ -162,6 +163,8 @@ code {
   border-radius: 3px;
   font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
   font-size: 10pt;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 hr {
@@ -192,17 +195,60 @@ def embed_images(md):
     return re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', replacer, md)
 
 
+def write_text_lf(path, text):
+    """Write deterministic LF text without trailing line whitespace."""
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    normalized = "\n".join(line.rstrip() for line in normalized.split("\n"))
+    with Path(path).open("w", encoding="utf-8", newline="\n") as handle:
+        handle.write(normalized)
+
+
 def wrap_exercises(html):
-    """Wrap each Opgave block in a div for page-break control."""
-    html = re.sub(
-        r'<p><strong>(Opgave \d+)',
-        r'</div><div class="exercise"><p><strong>\1',
-        html
+    """Wrap exercise blocks without emitting stray or cross-section divs."""
+    token_re = re.compile(
+        r'(<p><strong>Opgave\s+\d+\b|<div class="page-break"></div>|'
+        r'<h[123]\b|</body>)',
+        re.IGNORECASE,
     )
-    html = html.replace('</div><div class="exercise">',
-                        '<div class="exercise">', 1)
-    html = re.sub(r'(<h[23])', r'</div>\1', html)
-    return html
+    pieces, last, open_exercise = [], 0, False
+    for match in token_re.finditer(html):
+        token = match.group(0)
+        pieces.append(html[last:match.start()])
+        if token.lower().startswith('<p><strong>opgave'):
+            if open_exercise:
+                pieces.append('</div>')
+            pieces.extend(('<div class="exercise">', token))
+            open_exercise = True
+        else:
+            if open_exercise:
+                pieces.append('</div>')
+                open_exercise = False
+            pieces.append(token)
+        last = match.end()
+    pieces.append(html[last:])
+    if open_exercise:
+        pieces.append('</div>')
+    wrapped = ''.join(pieces)
+    return re.sub(
+        r'(<h3\b[^>]*>[^<]*</h3>\s*)<div class="exercise">',
+        r'<div class="exercise">\1',
+        wrapped,
+        flags=re.IGNORECASE,
+    )
+
+
+def strip_pandoc_stylesheets(html):
+    """Remove Pandoc-owned head styles without relying on version comments."""
+    style_re = re.compile(r'<style\b[^>]*>.*?</style>', re.IGNORECASE | re.DOTALL)
+    head_re = re.compile(r'(<head\b[^>]*>)(.*?)(</head>)', re.IGNORECASE | re.DOTALL)
+
+    def strip_head(match):
+        return match.group(1) + style_re.sub('', match.group(2)) + match.group(3)
+
+    cleaned, count = head_re.subn(strip_head, html, count=1)
+    if count != 1:
+        raise ValueError('Pandoc HTML is missing a <head> element')
+    return cleaned
 
 
 def build_pdf(md_path, output_path):
@@ -230,11 +276,8 @@ def build_pdf(md_path, output_path):
         sys.exit(1)
     html = result.stdout
 
-    # Strip Pandoc default stylesheet
-    html = re.sub(
-        r'<style>\s*/\*.*?\*/.*?</style>',
-        '', html, flags=re.DOTALL, count=1
-    )
+    # Strip Pandoc styles before injecting the publisher stylesheet.
+    html = strip_pandoc_stylesheets(html)
 
     # Wrap exercises
     html = wrap_exercises(html)
@@ -244,7 +287,7 @@ def build_pdf(md_path, output_path):
 
     # Save HTML first
     html_path = output_path.replace(".pdf", ".html")
-    Path(html_path).write_text(html, encoding="utf-8")
+    write_text_lf(html_path, html)
 
     # Try weasyprint, then headless Chrome as fallback
     try:

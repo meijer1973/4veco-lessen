@@ -95,7 +95,7 @@
 
   <!-- Dashed reference line from basis (100) -->
   <line x1="80" y1="267" x2="680" y2="267" stroke="#E67E22" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="685" y="263" text-anchor="start" font-size="10" fill="#E67E22">basis = 100</text>
+  <text x="675" y="263" text-anchor="end" font-size="10" fill="#E67E22">basis = 100</text>
 
   <!-- Arrow showing +25% from 2021 to 2023 -->
   <line x1="420" y1="267" x2="420" y2="158" stroke="#E67E22" stroke-width="1.5"/>
