@@ -306,6 +306,8 @@ p + figure, p + p > img { break-before: avoid; }
   margin-bottom: 14pt;
   orphans: 2;
   widows: 2;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .exercise > p:first-child {
@@ -324,6 +326,8 @@ code {
   border-radius: 3px;
   font-family: 'Consolas', 'DejaVu Sans Mono', monospace;
   font-size: 10pt;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 hr {
@@ -353,17 +357,60 @@ def embed_images(md):
     return re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', replacer, md)
 
 
+def write_text_lf(path, text):
+    """Write deterministic LF text without trailing line whitespace."""
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    normalized = "\n".join(line.rstrip() for line in normalized.split("\n"))
+    with Path(path).open("w", encoding="utf-8", newline="\n") as handle:
+        handle.write(normalized)
+
+
 def wrap_exercises(html):
-    """Wrap each Opgave block in a div for page-break control."""
-    html = re.sub(
-        r'<p><strong>(Opgave \d+)',
-        r'</div><div class="exercise"><p><strong>\1',
-        html
+    """Wrap exercise blocks without emitting stray or cross-section divs."""
+    token_re = re.compile(
+        r'(<p><strong>Opgave\s+\d+\b|<div class="page-break"></div>|'
+        r'<h[123]\b|</body>)',
+        re.IGNORECASE,
     )
-    html = html.replace('</div><div class="exercise">',
-                        '<div class="exercise">', 1)
-    html = re.sub(r'(<h[23])', r'</div>\1', html)
-    return html
+    pieces, last, open_exercise = [], 0, False
+    for match in token_re.finditer(html):
+        token = match.group(0)
+        pieces.append(html[last:match.start()])
+        if token.lower().startswith('<p><strong>opgave'):
+            if open_exercise:
+                pieces.append('</div>')
+            pieces.extend(('<div class="exercise">', token))
+            open_exercise = True
+        else:
+            if open_exercise:
+                pieces.append('</div>')
+                open_exercise = False
+            pieces.append(token)
+        last = match.end()
+    pieces.append(html[last:])
+    if open_exercise:
+        pieces.append('</div>')
+    wrapped = ''.join(pieces)
+    return re.sub(
+        r'(<h3\b[^>]*>[^<]*</h3>\s*)<div class="exercise">',
+        r'<div class="exercise">\1',
+        wrapped,
+        flags=re.IGNORECASE,
+    )
+
+
+def strip_pandoc_stylesheets(html):
+    """Remove Pandoc-owned head styles without relying on version comments."""
+    style_re = re.compile(r'<style\b[^>]*>.*?</style>', re.IGNORECASE | re.DOTALL)
+    head_re = re.compile(r'(<head\b[^>]*>)(.*?)(</head>)', re.IGNORECASE | re.DOTALL)
+
+    def strip_head(match):
+        return match.group(1) + style_re.sub('', match.group(2)) + match.group(3)
+
+    cleaned, count = head_re.subn(strip_head, html, count=1)
+    if count != 1:
+        raise ValueError('Pandoc HTML is missing a <head> element')
+    return cleaned
 
 
 def rebalance_table_columns(html):
@@ -512,13 +559,13 @@ def md_to_pdf(md, output_stem):
     # Rebalance table column widths based on content
     html = rebalance_table_columns(html)
 
-    # Strip Pandoc default stylesheet, then inject our own
-    html = re.sub(r'<style>\s*/\* Default styles provided by pandoc.*?</style>', '', html, flags=re.DOTALL)
+    # Strip Pandoc styles, then inject our own publisher stylesheet.
+    html = strip_pandoc_stylesheets(html)
     html = html.replace("</head>", CSS + "</head>")
 
     # Save HTML
     html_path = str(BASE / f"{output_stem}.html")
-    Path(html_path).write_text(html, encoding="utf-8")
+    write_text_lf(html_path, html)
     print(f"HTML created: {html_path}")
 
     # Save PDF
@@ -558,14 +605,14 @@ if __name__ == "__main__":
     print("=== Assembling chapter ===")
     chapter_md = assemble_chapter()
     chapter_md_path = BASE / "1.1 Economisch denken en rekenen \u2013 hoofdstuk.md"
-    chapter_md_path.write_text(chapter_md, encoding="utf-8")
+    write_text_lf(chapter_md_path, chapter_md)
     print(f"Markdown saved: {chapter_md_path}")
 
     # 2. Assemble answer booklet markdown
     print("\n=== Assembling answer booklet ===")
     answers_md = assemble_answers()
     answers_md_path = BASE / "1.1 Economisch denken en rekenen \u2013 antwoorden.md"
-    answers_md_path.write_text(answers_md, encoding="utf-8")
+    write_text_lf(answers_md_path, answers_md)
     print(f"Markdown saved: {answers_md_path}")
 
     # 3. Build PDFs

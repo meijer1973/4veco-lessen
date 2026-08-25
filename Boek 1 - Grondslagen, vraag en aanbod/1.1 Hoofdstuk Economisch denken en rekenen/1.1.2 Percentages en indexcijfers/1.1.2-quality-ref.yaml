@@ -1,5 +1,5 @@
 # Quality Reference - 1.1.2 Percentages en indexcijfers
-# Refreshed: 2026-05-18 (L1.5G-E closed PASS WITH FLAGS)
+# Refreshed: 2026-08-25 after independent Part A source/render review
 
 paragraph: "1.1.2"
 title: "Percentages en indexcijfers"
@@ -7,26 +7,60 @@ type: theory
 schema_version: 2
 
 partA:
+  review_file: "1.1.2-review.md"
+  review_verdict: "PASS WITH FLAGS"
+  last_reviewed: "2026-08-25"
+  unresolved_fails: 0
   content:
     paragraaf_md: true
     opgaven_md: true
     antwoorden_md: true
+    paragraaf_html: true
+    opgaven_html: true
+    antwoorden_html: true
     paragraaf_pdf: true
     opgaven_pdf: true
     antwoorden_pdf: true
     build_pdf_py: true
+  exercise_embedding:
+    exercise_numbers: [1, 2, 3, 4, 5]
+    paragraaf_md_complete: true
+    paragraaf_html_complete: true
+    paragraaf_pdf_complete: true
+    opgaven_md_tail_exact: true
+    opgaven_html_complete: true
+    opgaven_pdf_complete: true
   assets:
     total_referenced: 4
     total_present: 4
     missing: []
     svgpng_paired: true
     naming_compliant: true
-  review:
-    file: "1.1.2-review.md"
-    unresolved_fails: 0
-    verdict: "PASS WITH FLAGS"
-    last_reviewed: "2026-05-13"
+    orphaned: []
+  rendered_evidence:
+    paragraph_pdf_pages: 9
+    paragraph_exercise_pages: "Opgave 1: 7; Opgaven 2-4: 8; Opgave 5: 9"
+    extracted_exercise_pdf_pages: 4
+    extracted_exercise_pages: "Opgave 1: 2; Opgaven 2-4: 3; Opgave 5: 4"
+    answer_pdf_pages: 4
+    chapter_pdf: "Opgave 5 complete on page 19 of 32"
+    book_pdf: "Opgave 5 complete on page 23 of 136"
+    clipped_or_overlapping_content: false
+    broken_glyphs: false
+  mathematical_review:
+    formulas_correct: true
+    answers_recomputed: true
+    question_answer_parity: true
     rounding_policy: "Percentages to 1 decimal unless instructed otherwise; exact value shown when needed for checks."
+  didactic_review:
+    status: "pass_with_flags"
+    strengths: ["problem-first context", "multiple representations", "worked example", "misconception confrontation", "Bloom progression", "optional Denkertje"]
+    flags: ["learning goals and prerequisite link are not explicit in the Part A student source", "start exercises do not implement the full visual-fading and hint sequence", "no explicit interleaving block", "no explicit retrieval checkpoint or learner self-assessment"]
+  standards_freshness:
+    checked: "2026-08-25"
+    framework: "Onderzoekskader 2021 voor voortgezet onderwijs, versie 2026, in force from 2026-08-01"
+    source: "https://www.onderwijsinspectie.nl/onderwerpen/onderzoekskader-2021-wat-is-er-veranderd/bijstelling-2026"
+    scope_note: "Narrow material-quality mapping only; no broad compliance claim."
 
 companion:
   review_file: "1.1.2-companion-visual-review.md"
