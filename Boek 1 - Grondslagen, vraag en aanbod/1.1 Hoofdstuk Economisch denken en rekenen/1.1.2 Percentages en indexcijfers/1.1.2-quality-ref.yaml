@@ -38,6 +38,14 @@ partA:
     naming_compliant: true
     orphaned: []
   rendered_evidence:
+    proof_manifest: "../4veco-platform/reports/rendered-proof/BOOK1-TEXTBOOK-RENEWAL-20260825/manifest.json"
+    proof_standard: "references/authored/textbook-rendered-page-acceptance-standard.md"
+    full_page_pngs: 177
+    pages_inspected: "all paragraph, Chapter 1.1, and Book 1 pages at normal reading scale"
+    contact_sheets: 6
+    visible_student_defects: 0
+    figure_legibility_passed: true
+    table_overflow_passed: true
     paragraph_pdf_pages: 9
     paragraph_exercise_pages: "Opgave 1: 7; Opgaven 2-4: 8; Opgave 5: 9"
     extracted_exercise_pdf_pages: 4
