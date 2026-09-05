@@ -99,3 +99,15 @@ partA:
     companion_acceptance: "not supplied"
     current_inspectie_mapping: "omitted under approved scope; no current compliance claim"
     remote_ci_and_merge_authority: "not supplied"
+  production_ready_with_flags: true
+  root_acceptance:
+    date: "2026-09-05"
+    actor: "codex-root"
+    decision: "ACCEPTED WITH FLAGS for internal Part A R13 paragraph production"
+    report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-222-root-acceptance-r13.md"
+    adopted_platform_evidence: "27b9aee4a3dc61f3e0d53ab68c73bb564805deba"
+    adopted_lesson_specialist: "7f65869b17a1b24fc47a68064fc60fcd72050422"
+    original_specialist_quality_sha256: "c7c42721dc7c352b65aaaa43be08641edc6723e63cc511820cf880403a558e5e"
+    handoff: "2.2.2-textbook-handoff.md"
+    prerequisite_lineage: "Current221 R8 accepted; historical212 TO/profit bridge unchanged by R6 metadata and pending bonus-criteria correction. Final predecessor package succession remains root-owned."
+    limits: "No Part B commissioning, chapter/book acceptance, observed timing/attainment, final CI or future PR merge authority."
