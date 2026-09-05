@@ -1,31 +1,100 @@
 paragraph: "2.2.1"
 title: "Prijselasticiteit"
 chapter: "2.2 Hoofdstuk Elasticiteit"
-reviewed_on: "2026-06-19"
-review_mode: "part-a"
-target_exercise_status: "reviewed_final"
-target_status_promotion_sprint: "B2-2.2-TARGET-V5-PROMOTE"
-production_ready_with_flags: false
-content:
-  paragraaf_md: true
-  opgaven_md: true
-  antwoorden_md: true
-  paragraaf_pdf: true
-  opgaven_pdf: true
-  antwoorden_pdf: true
-  motivating_problem: true
-  worked_example: true
-  answer_structure_guidance: true
-  summary_box: true
-  help_note: true
-  staged_exercise_route: true
-  target_exercise: true
-assets:
-  total_referenced: 2
-  missing: []
-  svgpng_paired: true
-  naming_compliant: true
-review:
-  verdict: "PASS"
+schema_version: 2
+partA:
+  review_file: "2.2.1-review.md"
+  review_verdict: "PASS WITH FLAGS"
+  reviewed_on: "2026-09-05"
+  generated: "2026-09-05"
+  review_mode: "part-a"
+  profile: "student-web"
+  paragraph_reviewer: "paragraph_221_review"
+  paragraph_review_record_commit: "406e0b0af719d4b1720f19e0fb63c2516881955f"
+  specialist_reviewer: "released_pin_analysis"
+  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-221-specialist-review.md"
+  specialist_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-221-QC-evidence.json"
   unresolved_blockers: 0
-  flags: []
+  production_ready_with_flags: false
+  handoff_status: "Root integration, handoff and combined gates pending; not asserted by specialist QC"
+  target_exercise_status: "candidate_review_ready"
+  target_authority: "Exact owner-approved frozen package and durable governed integration; source label unchanged"
+  target_record_sha256: "61b54bde03d60be241092479cfcea8820e8187220f8f454dc9fef5045c8ea288"
+  paragraph_plan_lf_sha256: "29096bdedced016376a5ddf8a22c973ec5d61e8ce4822f390c2b746becca3345"
+  chapter_plan_lf_sha256: "3a9db97518b1948eb0967d94653a10c693a0ca001e20b41503b864fd4cc7c2f7"
+  content:
+    paragraaf_md: true
+    opgaven_md: true
+    antwoorden_md: true
+    paragraaf_html: true
+    opgaven_html: true
+    antwoorden_html: true
+    paragraaf_pdf: true
+    opgaven_pdf: true
+    antwoorden_pdf: true
+    build_pdf_py: true
+    motivating_problem: true
+    worked_example: true
+    answer_structure_guidance: true
+    summary_box: true
+    printed_help_note: true
+    staged_exercise_route: true
+    target_exercise: true
+  assets:
+    total_referenced: 3
+    files: 6
+    missing: []
+    svgpng_paired: true
+    naming_compliant: true
+    orphaned: []
+    alt_text_present: true
+  rendered_proof:
+    original_manifests: "PENDING, immutable and unchanged"
+    specialist_inspection: "PASS, all 20 current R6 pages individually inspected"
+    pages: [10, 6, 4]
+    minimum_text_pt_including_footer: 12
+    minimum_placed_figure_text_pt: 12.221
+    paragraaf_pdf_sha256: "aafd07e6bb88dcb8833569f2c4d01809d6fcdc0f879d0c7a39c810dfabdbc440"
+    opgaven_pdf_sha256: "e9def67106ce56f06ff5247bb3d56fe17dcd4297e65ab95ba6942453759761ee"
+    antwoorden_pdf_sha256: "d4a7c139d49276e80c23f4eda1cfab7841d063b204d7a9bb70cd225a796e5b5d"
+  leerdoelen:
+    - goal: "Signed old-base price and quantity percentages"
+      syllabus: ["A2.4", "D1.5"]
+      bloom: "apply"
+      evidence: "Theory, Bowlplein step 2, Start 1a-b, guided 3-4, independent 5a, target 6a"
+    - goal: "Calculate Ev including sign"
+      syllabus: ["D1.5"]
+      bloom: "apply"
+      evidence: "Theory, Bowlplein step 3, guided 3b/4, independent 5a, target 6a"
+    - goal: "Classify with absolute Ev"
+      syllabus: ["D1.6"]
+      bloom: "understand/analyze"
+      evidence: "Theory warning/figure, Bowlplein step 4, Start 2, guided 3c/4, independent 5b-c, target 6b-c"
+    - goal: "Bounded contextual sensitivity explanation"
+      syllabus: ["D1.5", "D1.6"]
+      bloom: "analyze/explain"
+      evidence: "Theory mechanism/proof distinction, Bowlplein step 5, guided 4c-d, independent 5c-d, target 6c-d"
+  mapping_limit: "No A2.5 percentage-point coverage, no stale D06 D1.3 mapping inherited, no full syllabus claim"
+  verantwoording:
+    curriculum: "Four exact approved goals and all target operations taught and independently practised."
+    didactiek: "Concrete contrasts, five-step model, misconception warning and linked figures support understanding."
+    differentiatie: "Optional same-goal support fades from steps/formulas/partial answers to one cue; independent task unscaffolded."
+    samenhang: "Explicit Book 1 percentage/demand retrieval; formal Ev new; next-paragraph revenue link only."
+    formatief: "Start errors invite printed repair and fresh teacher checking, without diagnosis or attainment labels."
+    toetsing: "Nine-point frozen target has full calculation, classification, comparison and bounded-reason scoring."
+    veiligheid: "Neutral help/skip wording and error-as-practice framing avoid fixed ability labels."
+    kwaliteitscyclus: "Record actual timing and unfinished/error patterns; revise support/pacing on evidence, not inferred mastery."
+  timing:
+    whole_core_minutes: 48.5
+    equation: "3 + 10 + 7 + 3 + 5.5 + 11 + 9"
+    guided_minutes_outside_core: 10
+    bonus_minutes_outside_core: 8
+    closing_minutes_outside_core: 5
+    observed: false
+  inspectie_mapping:
+    status: "omitted_optional"
+    reason: "Official August 2026 revision postdates protected April reference verification; no compliance claim."
+  flags:
+    - "Classroom pacing and attainment unobserved; optional guided route makes 58.5 minutes and requires continuation/homework."
+    - "Optional Inspectie mapping omitted; protected reference refresh is a separate root-governed follow-up."
+  legacy_record_superseded: "Flat June 2026 Part A record referred to earlier target/content; no companion block existed or was altered."
