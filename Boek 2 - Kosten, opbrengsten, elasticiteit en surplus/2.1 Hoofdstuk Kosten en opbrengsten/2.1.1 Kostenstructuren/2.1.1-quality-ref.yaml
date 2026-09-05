@@ -2,27 +2,43 @@ schema_version: 2
 partA:
   paragraph: "2.1.1"
   title: "Kostenstructuren"
-  generated: "2026-09-05"
-  reviewed_on: "2026-09-05"
+  generated: "2026-09-06"
+  reviewed_on: "2026-09-06"
+  revision: "R5-current-specialist-QC"
   review_file: "2.1.1-review.md"
   review_verdict: "PASS WITH FLAGS"
-  review_sha256: "92b4a9462caf8316274fb58f8beef5c850147c44e6bf80b9a28fad442d9dbe96"
-  paragraph_reviewer: "correction_plan_review"
-  paragraph_review_record_commit: "938426e9857eff6a7ef54f47c784fd5d70bd44dc"
-  specialist_reviewer: "elasticity_planning"
-  specialist_verdict: "PASS WITH FLAGS"
+  review_sha256: "a75755c7c2e6cdffb2defcbb5403814cf854d87bfae9a8172dd768aadb5b8023"
+  paragraph_reviewer: "paragraph_221_r8_independent_review"
+  paragraph_review_record_commit: "3ccd6f68c848d1ab33e5c33fcac754ffbd7c0d99"
+  specialist_reviewer: "paragraph_211_r5_specialist_qc"
+  specialist_verdict: "PASS"
   specialist_report_repository: "4veco-platform"
-  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-211-specialist-review.md"
+  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-211-R5-QC-report.md"
+  specialist_report_sha256: "9163d65e963907870d0b0a2e7d8427ad90425f68b8afd854ca691c614ff6c355"
   hard_fails_open: 0
+  root_validation: "PENDING"
+  root_acceptance: "PENDING"
+  handoff_renewal: "PENDING"
+  handoff_status: "Historical unchanged snapshot, not current R5 acceptance"
+  unchanged_handoff_sha256: "724a080619f2f072151edf20980071b3bef18cd60d1904c78f4aa906be8917c8"
+  historical_quality_ref:
+    repository: "4veco-lessen"
+    commit: "3ccd6f68c848d1ab33e5c33fcac754ffbd7c0d99"
+    raw_sha256: "0dddb6e9d8f3a8da0e0f31e67dafabf53b99feb6ad86ce72039480dd7e12ea18"
+    snapshot_repository: "4veco-platform"
+    snapshot_path: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-211-R5-QC-evidence/historical-QC-snapshot.yaml"
+    successor_reason: "Current R5 review/output binding after fresh distinct specialist QC; old approval not rewritten"
   reviewed_payload:
-    platform_commit: "16c3b1c53b73a563084297190ba58d7bf1bed679"
-    lesson_commit: "c37dfba8c68cbe86b3b12534e020fda6e2481ac5"
+    platform_commit: "c84b5ccb03f6bc73e34d8c376368954cf363ca81"
+    lesson_commit: "3ccd6f68c848d1ab33e5c33fcac754ffbd7c0d99"
     paragraph_plan_canonical_lf_sha256: "f46c7aa444ba6fef1f6f885b34bd52963fccac3cdc7b13b898eb6665219c4cd0"
     chapter_plan_canonical_lf_sha256: "ef3f872f5caa2de1359639983d8e4907a34cfcbc80a0309826cff07201e49116"
     frozen_target_record_sha256: "143f1053c98766b77d9d9ce573a5c8e976980f900387159312c3238288d71710"
     target_goals: 4
     target_subquestions: 5
     target_points: 17
+    native_output_count: 21
+    full_and_print_only_byte_identical: true
   assets:
     total_referenced: 6
     svg_count: 6
@@ -34,63 +50,114 @@ partA:
   rendered_evidence:
     repository: "4veco-platform"
     proof_root: "reports/rendered-proof/BOOK2-TEXTBOOK-PRODUCTION-1"
+    native_manifests_status: "PENDING; unchanged generation fields, separate attributed QC evidence"
+    specialist_observations: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-211-R5-QC-report.md"
+    diagnostic_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-211-R5-QC-evidence/independent-probes.json"
+    diagnostic_evidence_sha256: "5d8ea2bb601af72002653b9b4c2e33591482fd78abe4e00b41c6a24c67cbc7a6"
     all_pages_individually_inspected: true
     normal_reading_scale: true
     pages_inspected: 31
+    figures_inspected: 6
+    fresh_grays_inspected: 6
     minimum_pdf_text_pt: 12
-    embedded_diagram_text_pt_lower_bound: 13.07
+    embedded_diagram_text_pt_lower_bound: 13.070866
     documents:
       - artifact: "paragraaf"
-        md_sha256: "51394535fcf09aadfa13d9d9a61c0578ae94413b91e7c1cf293e44588e2c510f"
-        html_sha256: "ec141d8afaa532f36499f0e71a65aa2cb5753a6e89bd289fe9e9d7a94d776061"
+        md_sha256: "de7abc910f6ec940eb329abd003085921f32409956ec1e0450bcc4a5454eb6b5"
+        html_sha256: "10721f1ad745b8e1358ba354c5ded64a74367f5081eaf1c676ecb88dbe10e44b"
         pdf_sha256: "9837e3a85f3129a5309a36b17fd1030702ba92fc7ef464af609cb878e4d2f8b0"
-        proof_directory: "211-paragraaf-9837e3a85f31-r3"
-        manifest_sha256: "fd64c510e1b13f377e8c99d3429832cf8f360c4419294a7f25ab7b293d92c921"
-        inspection_file: "211-paragraaf-9837e3a85f31-r3/inspection.json"
+        proof_directory: "211-paragraaf-9837e3a85f31-r6"
+        manifest_sha256: "5cdece1af089347e0518a13fe231391cf8559feb2e756883e8c4e48c85098d58"
         page_count: 15
       - artifact: "opgaven"
-        md_sha256: "4e6bf501e8ce7374d704999ba090ccbfd17c49c75bd9a3bb03be11d29675a5df"
-        html_sha256: "4ae0b5824604aad3b3129f13c3e092651315164c0fa9f3f5dd4d2fb8eab40a87"
+        md_sha256: "bacccc1c9b063c4c786f2749d31993d94eb671fdc5bf0a899fb123d89bc0558b"
+        html_sha256: "9e27b80089dee95fa4ac61a3f07baaf95ff3650518943a730db122befec2a6f8"
         pdf_sha256: "97329415bacc150675a327ad31455b25b8e9e1b03012ef6b65dab10ab1f02953"
-        proof_directory: "211-opgaven-97329415bacc-r3"
-        manifest_sha256: "8e5b0590eb82502c5486e4ec1a81c8bce8310d51f2fdd12a51d9f47fef5e0823"
-        inspection_file: "211-opgaven-97329415bacc-r3/inspection.json"
+        proof_directory: "211-opgaven-97329415bacc-r6"
+        manifest_sha256: "9e48ecf77df32c143d076a842e7c5f2c4b98a211084bfb190e166c89dfcb9a3e"
         page_count: 9
       - artifact: "antwoorden"
-        md_sha256: "57cc1ef3b5c5ae6d912291f9746a7f535906bb85207678bab8fc63dadf82ebfb"
-        html_sha256: "d4d3db3265820003a45e71955b9f3f2188a6036860fdcdc8fbbc49b944bfd0ca"
-        pdf_sha256: "ffdf0905a980b6c89b64207e90873d79edbf192c86c2280f3394caa25693998a"
-        proof_directory: "211-antwoorden-ffdf0905a980-r3"
-        manifest_sha256: "a5ca4ef02f99129fb10b4c6dcbb3ee5242b76b658a3b69d62a38d4bfb32f3afb"
-        inspection_file: "211-antwoorden-ffdf0905a980-r3/inspection.json"
+        md_sha256: "f7572e3d4f2fc5bc092562eb06e76ebb0480fbbc8aa1ea01d3752a7251cbbdc9"
+        html_sha256: "b2e86d7bae4d1bdbb7cd47a55cd6e83254398618f0954fe3ce09cdb75927c916"
+        pdf_sha256: "498b9a863eef9c0feefd50e8a50e72aa41c626caaca79f0b98261b8b3104e5ce"
+        proof_directory: "211-antwoorden-498b9a863eef-r6"
+        manifest_sha256: "b3f5875531eaa777ad297e95091cee6292053b54c5c943066a85514d0f795b05"
         page_count: 7
   specialist_rubrics:
-    teacher_learning_quality: "PASS, 14/14; design judgment, not observed attainment"
-    student_experience: "PASS, 12/12; paper route only"
-    economics_and_mathematics: "PASS; every numerical chain and target answer independently recalculated"
-    dutch: "PASS; corrected badge wording verified in final answer PDF"
-    visual_qa: "PASS, 9/10; non-blocking contrast enhancement retained"
+    teacher_learning_quality:
+      verdict: "PASS"
+      scores: {alignment: 2, prior_knowledge: 2, sequence: 2, formative: 2, differentiation: 2, dual_coding: 2, transfer_retention: 2}
+      total: 14
+      maximum: 14
+      limitation: "Learning design judgment, not observed attainment"
+    student_experience:
+      verdict: "PASS"
+      scores: {orientation: 2, affordance: 2, cognitive_load: 2, motivation: 2, confusion_control: 2, visual_text_linking: 2}
+      total: 12
+      maximum: 12
+      limitation: "Static paper route, not interactive companion usability"
+    visual_qa:
+      verdict: "PASS"
+      scores: {clarity: 2, contrast_legibility: 2, hierarchy: 2, actionability: 2, accessibility: 2}
+      total: 10
+      maximum: 10
+      limitation: "Applicable essential-meaning criteria met; redundant orange enhancement is not blanket WCAG conformance"
+    economics_and_mathematics: "PASS; all contexts recomputed, model bounds and target17 points preserved"
+    dutch: "PASS; terminology, units, decimal commas and complete answer explanations inspected"
+    book2_paper_contract: "PASS across all12 separately evidenced criteria in specialist report"
+  curriculum_alignment:
+    source: "Frozen registry2.1.1; curriculum metadata, not an official exam-item provenance claim"
+    exam_codes: ["D1.16", "D1.17", "A2.10"]
+    goals:
+      - goal_number: 1
+        focus: "Behavior-based classification within period/capacity"
+        bloom: "Understand and apply"
+        evidence: "Theory definitions; worked classification; guided3/5; independent6a; target7a"
+      - goal_number: 2
+        focus: "Construct TCK/TVK/TK from component context"
+        bloom: "Apply"
+        evidence: "Theory functions; worked step2; guided3/4; independent6b; target7b"
+      - goal_number: 3
+        focus: "Calculate and interpret averages with units"
+        bloom: "Apply and understand"
+        evidence: "Theory formulas/dimension map; worked3/4; guided3/4; independent6c/d; target7c/d"
+      - goal_number: 4
+        focus: "Explain total/average changes under model assumptions"
+        bloom: "Analyze"
+        evidence: "Theory causal comparison; worked5; guided4/5; independent6e; target7e; bonus8"
   timing:
     core_minutes_estimated: 54
     lesson_limit_minutes: 55
     supported_route_minutes_estimated: 66
+    all_printed_work_minutes_estimated: 78
     classroom_observed: false
-    equation: "2 motivation + 12 instruction + 8 worked example + 2 recap/transitions + 6 Start + 12 independent + 12 target = 54"
-    outside_core: "Optional guided practice adds 12 minutes; bonus and closing review require later/continuation or homework time."
+    equation: "2 motivation +12 instruction +8 example +2 recap/transitions +6 Start +12 independent +12 target =54"
+    outside_core: "Guided12, bonus8, closing4; support route requires continuation time"
   flags:
     - id: "TIMING-OBSERVATION"
+      classification: "minor_carry_flag"
       blocking: false
-      detail: "The 54-minute core is a plausible, tight design estimate, not a classroom measurement or an all-students completion guarantee."
-      follow_up: "Observe the first classroom use and preserve additional time for learners using guided practice."
+      detail: "Written reasons make54-minute core plausible but tight; no classroom observation or all-learners guarantee"
+      blocks: "Measured-timing or universal single-lesson completion/attainment claims"
+      does_not_block: "Current scoped content and specialist QC"
+      follow_up: "Teacher observes first classroom use and reserves support/continuation time"
+      proof_to_close: "Actual classroom timing observations including written explanations and support-route use"
     - id: "ORANGE-STROKE-CONTRAST"
+      classification: "quality_improvement_available"
       blocking: false
-      detail: "Orange #E67E22 on #F7FAFC measures 2.717664:1; all current instructional relations also have equivalent visible dark text, formulas, values and tables."
-      follow_up: "Consider a contrast-safe dark outline; reassess before any later target depends on essential curve reading. No blanket accessibility claim."
+      detail: "Orange #E67E22 on #F7FAFC is2.717664:1; limited redundant strokes, all meaning independently available in dark labels/values/tables/formulas/prose and fresh grays"
+      blocks: "Untested inheritance for essential curve-reading tasks or blanket contrast claims"
+      does_not_block: "This static211 route where no otherwise-unavailable meaning depends on an orange stroke"
+      follow_up: "Consider contrast-safe dark outlines while preserving reviewed role conventions"
+      proof_to_close: "Fresh placed contrast/grayscale proof of any authorized enhancement"
   freshness:
-    inspectie_checked_on: "2026-09-05"
+    inspectie_checked_on: "2026-09-06"
     optional_inspectie_mapping: "omitted"
-    reason: "The protected reference was verified 2026-04-12 against the 2025 framework; official 2026 changes now exist. No stale mapping or protected-reference edit was made."
+    reason: "Official2026 framework update exists; accepted sprint omits optional current mapping and leaves protected-reference refresh separate"
+    evidence_url: "https://www.onderwijsinspectie.nl/actueel/nieuws/2026/07/03/onderzoekskaders-2026-vastgesteld"
   scope_limits:
-    - "Fresh Part A record only; no inherited June acceptance or fabricated companion block."
-    - "No measured student attainment, whole-book acceptance, responsive HTML UI or blanket WCAG claim."
-    - "Publisher-print paragraph validation does not accept a chapter or book assembly."
+    - "Only partA current quality successor; canonical review/hand off/plans/targets/downstream pins unchanged"
+    - "Root validation, acceptance and successor handoff remain pending"
+    - "No PartB, chapter/book acceptance, PR, merge or current fullCI claim"
+    - "No measured learning, screen-reader user study, responsive UI or blanket WCAG/PDF-UA claim"
+    - "Historical opgaven.zip unchanged and excluded because native211 has no ZIP contract"
