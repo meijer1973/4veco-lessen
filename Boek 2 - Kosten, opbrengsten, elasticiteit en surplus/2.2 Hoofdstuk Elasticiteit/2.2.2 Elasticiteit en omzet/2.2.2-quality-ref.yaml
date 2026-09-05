@@ -32,3 +32,70 @@ review:
   verdict: "PASS"
   unresolved_blockers: 0
   flags: []
+
+# Legacy top-level fields above remain historical; current R13 QC is lane-owned.
+schema_version: 2
+partA:
+  reviewed_on: "2026-09-05"
+  review_file: "2.2.2-review.md"
+  review_verdict: "PASS WITH FLAGS"
+  review_sha256: "9122a962d5108565a631d6cd51b1945ab0ddb1ef78c2b979cca15ac59010f01a"
+  specialist_actor: "paragraph_221_r8_independent_review"
+  specialist_role: "independent non-author specialist QC"
+  specialist_task: "BOOK2-TEXTBOOK-PRODUCTION-1-222-R13-QC"
+  specialist_verdict: "PASS WITH FLAGS"
+  hard_fails_open: 0
+  required_corrections: []
+  reviewed_platform_commit: "0436a9fe8d8da3bd385add8ecd195d2c05ed2f10"
+  reviewed_lesson_commit: "8cad0b8e99371f33692793f533782654776f6b68"
+  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-222-R13-QC-report.md"
+  specialist_report_sha256: "3360264597075311ce9081b1dcb0c852e28bcff243cc2207a0112998e4b72687"
+  evidence:
+    exact_probes: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-222-R13-QC-evidence/exact-probes.json"
+    exact_probes_sha256: "05f3f111f6e5095dc1e3ca4499cfe956b38395e9ed8cb3e933f11967213ab316"
+    personal_inspection: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-222-R13-QC-evidence/personal-inspection.md"
+    personal_inspection_sha256: "f489c4de9a7b6e0cd15fdaab7c7a608a95ed112e5fab8c9e056bc187768874aa"
+    complete_route_check: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-222-R13-QC-evidence/complete-route-check.json"
+    complete_route_check_sha256: "e128a9c5c4921533141b830da050cc4d42b2a30583fc42ad5bdd18832283784e"
+  target_record_sha256: "8ce56143aef61b0e67aae5b179f6e5f3fe547192bc776a42c43101cb5a70fa2e"
+  target_points: 11
+  paragraph_plan_sha256_lf: "6418491d45c43afdbd272c581bab12f8436ca1a84241663ba300e31b790825a8"
+  chapter_plan_sha256_lf: "3a9db97518b1948eb0967d94653a10c693a0ca001e20b41503b864fd4cc7c2f7"
+  assets:
+    total_referenced: 4
+    missing: []
+    svgpng_paired: true
+    naming_compliant: true
+    native_png_raw_and_pixel_parity: "PASS; zero tolerance"
+    short_alternatives_and_svg_titles: "PASS; noun-first functional phrases <=120 characters"
+    adjacent_long_descriptions: "PASS; complete relationships, units and conditions in accessible prose"
+  print_evidence:
+    paragraaf_pdf_sha256: "36feb7873637d0e71af50d4930a789e3a8ada6ec77cc377b09e2af179c3ae98c"
+    opgaven_pdf_sha256: "0a251a4973b1b9b0c4abca30310a3e0bda888558e079fd4895319fc496614555"
+    antwoorden_pdf_sha256: "61cbde67e81565150128187573a766fffc9bc1d01f3bd24cbe3dacb9ddeb52b2"
+    pages_personally_inspected: 21
+    page_counts: [10, 6, 5]
+    figures_personally_inspected: 4
+    fresh_grayscale_pages_personally_inspected: 4
+    minimum_body_table_footer_pt: 12.0
+    minimum_placed_figure_label_pt: 14.378
+    generation_manifests: "unchanged PENDING; specialist observations recorded separately"
+    nine_documents_eight_assets_exact_rebuild: true
+  specialist_scores:
+    teacher_learning_quality: "PASS 14/14"
+    student_experience: "PASS 12/12"
+    visual_qa: "PASS 10/10"
+    accessibility: "PASS within bounded paper/HTML evidence; no PDF-UA claim"
+    mathematics_economics_dutch: "PASS"
+    bonus_model_then_assessment_criteria: "PASS; four bullets"
+  flags:
+    - id: "222-R13-TIMING-UNOBSERVED"
+      blocking: false
+      detail: "Core51.5, support-inclusive66.5 and all-work79.5 minutes are unobserved estimates; classroom timing and attainment require observation."
+  acceptance_boundaries:
+    root_production_acceptance: "not supplied by specialist QC"
+    root_handoff: "absent; not created by this review"
+    prerequisite_successor_linkage: "root-owned; historical pins unchanged"
+    companion_acceptance: "not supplied"
+    current_inspectie_mapping: "omitted under approved scope; no current compliance claim"
+    remote_ci_and_merge_authority: "not supplied"
