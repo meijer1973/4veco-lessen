@@ -1,2216 +1,983 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html lang="nl" xml:lang="nl" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-  <meta charset="utf-8" />
-
-  <meta name="generator" content="pandoc" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-
-  <title>-</title>
-
-  <style>
-
-    /* Default styles provided by pandoc.
-
-    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-
-    */
-
-    html {
-
-      color: #1a1a1a;
-
-      background-color: #fdfdfd;
-
-    }
-
-    body {
-
-      margin: 0 auto;
-
-      max-width: 36em;
-
-      padding-left: 50px;
-
-      padding-right: 50px;
-
-      padding-top: 50px;
-
-      padding-bottom: 50px;
-
-      hyphens: auto;
-
-      overflow-wrap: break-word;
-
-      text-rendering: optimizeLegibility;
-
-      font-kerning: normal;
-
-    }
-
-    @media (max-width: 600px) {
-
-      body {
-
-        font-size: 0.9em;
-
-        padding: 12px;
-
-      }
-
-      h1 {
-
-        font-size: 1.8em;
-
-      }
-
-    }
-
-    @media print {
-
-      html {
-
-        background-color: white;
-
-      }
-
-      body {
-
-        background-color: transparent;
-
-        color: black;
-
-        font-size: 12pt;
-
-      }
-
-      p, h2, h3 {
-
-        orphans: 3;
-
-        widows: 3;
-
-      }
-
-      h2, h3, h4 {
-
-        page-break-after: avoid;
-
-      }
-
-    }
-
-    p {
-
-      margin: 1em 0;
-
-    }
-
-    a {
-
-      color: #1a1a1a;
-
-    }
-
-    a:visited {
-
-      color: #1a1a1a;
-
-    }
-
-    img {
-
-      max-width: 100%;
-
-    }
-
-    svg {
-
-      height: auto;
-
-      max-width: 100%;
-
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-
-      margin-top: 1.4em;
-
-    }
-
-    h5, h6 {
-
-      font-size: 1em;
-
-      font-style: italic;
-
-    }
-
-    h6 {
-
-      font-weight: normal;
-
-    }
-
-    ol, ul {
-
-      padding-left: 1.7em;
-
-      margin-top: 1em;
-
-    }
-
-    li > ol, li > ul {
-
-      margin-top: 0;
-
-    }
-
-    blockquote {
-
-      margin: 1em 0 1em 1.7em;
-
-      padding-left: 1em;
-
-      border-left: 2px solid #e6e6e6;
-
-      color: #606060;
-
-    }
-
-    code {
-
-      white-space: pre-wrap;
-
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-
-      font-size: 85%;
-
-      margin: 0;
-
-      hyphens: manual;
-
-    }
-
-    pre {
-
-      margin: 1em 0;
-
-      overflow: auto;
-
-    }
-
-    pre code {
-
-      padding: 0;
-
-      overflow: visible;
-
-      overflow-wrap: normal;
-
-    }
-
-    .sourceCode {
-
-     background-color: transparent;
-
-     overflow: visible;
-
-    }
-
-    hr {
-
-      border: none;
-
-      border-top: 1px solid #1a1a1a;
-
-      height: 1px;
-
-      margin: 1em 0;
-
-    }
-
-    table {
-
-      margin: 1em 0;
-
-      border-collapse: collapse;
-
-      width: 100%;
-
-      overflow-x: auto;
-
-      display: block;
-
-      font-variant-numeric: lining-nums tabular-nums;
-
-    }
-
-    table caption {
-
-      margin-bottom: 0.75em;
-
-    }
-
-    tbody {
-
-      margin-top: 0.5em;
-
-      border-top: 1px solid #1a1a1a;
-
-      border-bottom: 1px solid #1a1a1a;
-
-    }
-
-    th {
-
-      border-top: 1px solid #1a1a1a;
-
-      padding: 0.25em 0.5em 0.25em 0.5em;
-
-    }
-
-    td {
-
-      padding: 0.125em 0.5em 0.25em 0.5em;
-
-    }
-
-    header {
-
-      margin-bottom: 4em;
-
-      text-align: center;
-
-    }
-
-    #TOC li {
-
-      list-style: none;
-
-    }
-
-    #TOC ul {
-
-      padding-left: 1.3em;
-
-    }
-
-    #TOC > ul {
-
-      padding-left: 0;
-
-    }
-
-    #TOC a:not(:hover) {
-
-      text-decoration: none;
-
-    }
-
-    span.smallcaps{font-variant: small-caps;}
-
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-
-    div.column{flex: auto; overflow-x: auto;}
-
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-
-    /* The extra [class] is a hack that increases specificity enough to
-
-       override a similar rule in reveal.js */
-
-    ul.task-list[class]{list-style: none;}
-
-    ul.task-list li input[type="checkbox"] {
-
-      font-size: inherit;
-
-      width: 0.8em;
-
-      margin: 0 0.8em 0.2em -1.6em;
-
-      vertical-align: middle;
-
-    }
-
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-
-  </style>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>2.1.3 Marginale kosten en marginale opbrengsten –
+antwoorden</title>
 
 <style>
 @page {
-  size: A4;
-  margin: 2cm 2.2cm 2.2cm 3.2cm;
-  @bottom-left { content: "b2213tmp"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
-  @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
+  size: A4; margin: 20mm 20mm 21mm 24mm;
+  @bottom-left { content: string(document-title); font: 12pt Arial, sans-serif; color: #555; }
+  @bottom-right { content: counter(page) " / " counter(pages); font: 12pt Arial, sans-serif; color: #555; }
 }
-body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; max-width: 100%; }
-h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; margin-bottom: 18pt; break-after: avoid; }
-h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; margin-bottom: 12pt; break-after: avoid; }
-h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; margin-bottom: 6pt; break-after: avoid; }
-h1 + p, h2 + p, h3 + p { break-before: avoid; }
-h1, h2, h3 { orphans: 3; widows: 3; }
-p { margin: 0 0 10pt 0; }
-table { border-collapse: collapse; width: 100%; max-width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
-th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
-td { border: 1px solid #999; padding: 2pt 6pt; }
-th:first-child, td:first-child { width: 8%; max-width: 52pt; white-space: nowrap; text-align: right; padding-left: 4pt; padding-right: 4pt; }
-.wide-table { width: 100%; table-layout: fixed; break-inside: auto; page-break-inside: auto; font-size: 10.7pt; line-height: 1.18; }
-.wide-table th, .wide-table td { padding: 2pt 4pt; white-space: normal; }
-.wide-table th:first-child, .wide-table td:first-child { width: 18%; max-width: none; text-align: left; }
-.wide-table th:not(:first-child), .wide-table td:not(:first-child) { text-align: center; }
-.procedure-table { width: 100%; table-layout: fixed; break-inside: auto; page-break-inside: auto; font-size: 10.5pt; margin-top: 6pt; line-height: 1.22; }
-.procedure-table th:nth-child(1), .procedure-table td:nth-child(1) { width: 8%; max-width: 8%; text-align: center; }
-.procedure-table th:nth-child(2), .procedure-table td:nth-child(2) { width: 34%; text-align: left; white-space: normal; }
-.procedure-table th:nth-child(3), .procedure-table td:nth-child(3) { width: 58%; text-align: left; white-space: normal; }
-.procedure-table th, .procedure-table td { padding: 2pt 5pt; }
-tr:nth-child(even) td { background: #FAFBFC; }
-img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
-blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; font-size: 10.5pt; line-height: 1.4; break-inside: avoid; }
-blockquote p { margin: 0 0 6pt 0; }
-blockquote p:last-child { margin-bottom: 0; }
-blockquote strong:first-child { color: #1A5276; }
-code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; white-space: nowrap; }
-hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
-ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
-li { margin-bottom: 4pt; }
+* { box-sizing: border-box; }
+html { color: #182b3a; background: white; }
+body { font-family: Arial, "DejaVu Sans", sans-serif; font-size: 12pt; line-height: 1.38; margin: 0; }
+h1 { string-set: document-title content(); font-size: 21pt; line-height: 1.15; color: #1A5276; margin: 0 0 6mm; }
+h2 { font-size: 16pt; line-height: 1.2; color: #1A5276; border-bottom: 0.5pt solid #a9bdca; padding-bottom: 2mm; margin: 7mm 0 3mm; }
+h3 { font-size: 13pt; color: #1A5276; margin: 4mm 0 2mm; }
+h4,h5,h6,small { font-size: 12pt; }
+h1,h2,h3,h4 { break-after: avoid; }
+p { margin: 0 0 2.5mm; orphans: 3; widows: 3; }
+li { margin-bottom: 1mm; }
+ul,ol { margin: 2mm 0 3mm; padding-left: 7mm; }
+strong { font-weight: 700; }
+blockquote,.recap,.summary { border-left: 3pt solid #1A5276; background: #eef4f7; margin: 3mm 0; padding: 3mm 4mm; }
+.callout-short { break-inside: avoid; }
+table { width: 100%; border-collapse: collapse; font-size: 12pt; margin: 3mm 0; }
+th,td { border: 0.5pt solid #94a5ad; padding: 2mm; vertical-align: top; overflow-wrap: anywhere; }
+th { background: #eaf1f5; font-weight: 700; text-align: left; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+figure { margin: 3mm 0 4mm; break-inside: avoid; }
+img { max-width: 100%; height: auto; display: block; margin: 2mm auto; }
+figcaption { font-size: 12pt; color: #304958; margin-top: 1mm; }
+code { font-size: 12pt; font-family: "DejaVu Sans Mono", monospace; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+math { font-size: 1em; }
+.exercise { margin-bottom: 4mm; }
+.exercise > p:first-child { break-after: avoid; }
+.exercise-short { break-inside: avoid; }
+.exercise p { margin-bottom: 2mm; }
+.page-break { break-before: page; height: 0; }
+.chapter-front { break-after: page; font-size: 12pt; }
+.chapter-front table,.chapter-front p,.chapter-front li { font-size: 12pt; }
+@media screen {
+  body { max-width: 180mm; margin: 24px auto; padding: 18px; }
+  img { object-fit: contain; }
+}
 </style></head>
-
 <body>
-
-<h1 id="marginale-kosten-en-marginale-opbrengsten---antwoorden">2.1.3
-
-Marginale kosten en marginale opbrengsten - antwoorden</h1>
-
+<h1 id="marginale-kosten-en-marginale-opbrengsten-antwoorden">2.1.3
+Marginale kosten en marginale opbrengsten — antwoorden</h1>
+<p>Vergelijk ook je aanpak en eenheden met het antwoord. MK en MO
+betekenen in deze paragraaf telkens een gemiddelde verandering per extra
+product <strong>binnen het genoemde tabelinterval</strong>. Een minteken
+bij totale winst betekent verlies. Alle dagmodellen gelden voor dezelfde
+dag en uitsluitend voor de gegeven hoeveelheden.</p>
 <h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
-
-<p>Zie de uitwerking in de opgaven. De kernroute is:</p>
-
-<ul>
-
-<li>bereken eerst <code>TK</code>, <code>TO</code> en winst per
-
-rij;</li>
-
-<li>vergelijk daarna twee opeenvolgende rijen;</li>
-
-<li>bereken <code>ΔQ</code>, <code>ΔTK</code> en <code>ΔTO</code>;</li>
-
-<li>gebruik <code>MK = ΔTK / ΔQ</code> en
-
-<code>MO = ΔTO / ΔQ</code>.</li>
-
-</ul>
-
-<hr />
-
-<h2 id="antwoorden-bij-de-opgaven">Antwoorden bij de opgaven</h2>
-
-<h3 id="opgave-1">Opgave 1</h3>
-
-<p><strong>A.</strong> <code>MK</code> betekent: de extra kosten van één
-
-extra product.</p>
-
-<p><strong>B.</strong> <code>MO</code> betekent: de extra opbrengst van
-
-één extra verkocht product.</p>
-
-<p><strong>C.</strong> Je hebt twee rijen nodig, omdat <code>MK</code>
-
-een verandering is. Je vergelijkt de nieuwe totale kosten met de oude
-
-totale kosten.</p>
-
-<p><strong>D.</strong></p>
-
-<p><code>ΔQ = 20 - 10 = 10</code></p>
-
-<p><code>ΔTK = 180 - 140 = 40</code></p>
-
-<p><code>MK = ΔTK / ΔQ = 40 / 10 = 4</code></p>
-
-<p>De marginale kosten zijn €4 per product.</p>
-
-<hr />
-
-<h3 id="opgave-2">Opgave 2</h3>
-
-<p><strong>A.</strong></p>
-
-<p><code>ΔQ = 40 - 30 = 10</code></p>
-
-<p><strong>B.</strong></p>
-
-<p><code>ΔTK = 300 - 260 = 40</code></p>
-
-<p><code>MK = 40 / 10 = 4</code></p>
-
-<p>De marginale kosten zijn €4 per product.</p>
-
-<p><strong>C.</strong></p>
-
-<p><code>ΔTO = 600 - 450 = 150</code></p>
-
-<p><code>MO = 150 / 10 = 15</code></p>
-
-<p>De marginale opbrengst is €15 per product.</p>
-
-<p><strong>D.</strong> <code>MO = 15</code> betekent dat één extra
-
-verkocht product €15 extra opbrengst oplevert.</p>
-
-<hr />
-
-<h3 id="opgave-3">Opgave 3</h3>
-
-<p><strong>A.</strong></p>
-
-<table>
-
+<p>De volledige uitwerking van Lus en Bout staat bij het voorbeeld in
+het opgavenboekje en in de paragraaf. Belangrijke controle: winst wordt
+binnen één rij berekend; MK en MO tussen twee rijen. Bij Q = 0 bestaat
+geen voorafgaand interval en blijven de streepjes staan.</p>
+<h2 id="startopgaven">Startopgaven</h2>
+<div class="exercise exercise-short"><p><strong>Opgave 1</strong></p>
+<p>a) Bij Q = 4: TK = 18 + 2 × 4 = <strong>€ 26 per evenement</strong>.
+TO = 5 × 4 = <strong>€ 20 per evenement</strong>.</p>
+<p>b) GTK = 26/4 = <strong>€ 6,50 per beker</strong>. TK is een totaal
+eurobedrag per evenement; GTK deelt dat bedrag door alle vier bekers en
+is euro per beker.</p>
+<p>c) Winst = TO − TK = 20 − 26 = <strong>−€ 6 per evenement</strong>: €
+6 verlies.</p>
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<p>a) Noor berekent alleen ΔTK. Over 2–4 komen er 4 − 2 = 2 flessen bij.
+MK = (20 − 12)/(4 − 2) = 8/2 = <strong>€ 4 per extra fles binnen
+2–4</strong>. Noteer 4 bij <strong>Q = 4</strong>, het rechter
+eindpunt.</p>
+<p>b) Over 2–4: Δwinst/ΔQ = (12 − 8)/2 = <strong>€ 2 per extra
+fles</strong>. Hier is ΔTO = 24 − 12 = 12 en ΔTK = 20 − 12 = 8. Controle
+via winst: (4 − 0)/(4 − 2) = 4/2 = <strong>2</strong>. Het totale
+winstbedrag bij Q = 4 is € 4 per dag, niet € 2.</p>
+<p>c) Iedere extra verkochte fles levert de vaste prijs van € 6 op, dus
+MO = <strong>€ 6 per extra fles</strong> in beide intervallen. MK bij
+0–2 = (12 − 8)/(2 − 0) = <strong>2</strong>; bij 2–4 is MK
+<strong>4</strong>. De winsttoename per extra fles daalt van MO − MK = 6
+− 2 = <strong>4</strong> naar 6 − 4 = <strong>2</strong>. De extra
+opbrengst per fles blijft gelijk, maar de gemiddelde extra kosten per
+fles zijn hoger in het tweede interval.</p>
+</div><h2 id="begeleide-inoefening">Begeleide inoefening</h2>
+<div class="exercise"><p><strong>Opgave 3</strong></p>
+<p>a) Bij Q = 3: winst = 15 − 15 = <strong>€ 0 per dag</strong>. Bij Q =
+6: winst = 30 − 21 = <strong>€ 9 per dag</strong>.</p>
+<p>b) Over 3–6: MK = (21 − 15)/(6 − 3) = 6/3 = <strong>€ 2 per extra
+patch</strong>. MO = (30 − 15)/(6 − 3) = 15/3 = <strong>€ 5 per extra
+patch</strong>. Beide waarden horen bij <strong>Q = 6</strong>.</p>
+<table style="break-inside:avoid">
+<colgroup>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+</colgroup>
 <thead>
-
 <tr>
-
-<th style="text-align: right;">Q</th>
-
-<th style="text-align: right;">TK</th>
-
-<th style="text-align: right;">TO</th>
-
-<th style="text-align: right;">winst</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align: right;">0</td>
-
-<td style="text-align: right;">120</td>
-
-<td style="text-align: right;">0</td>
-
-<td style="text-align: right;">-120</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">10</td>
-
-<td style="text-align: right;">160</td>
-
-<td style="text-align: right;">90</td>
-
-<td style="text-align: right;">-70</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">20</td>
-
-<td style="text-align: right;">200</td>
-
-<td style="text-align: right;">180</td>
-
-<td style="text-align: right;">-20</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">30</td>
-
-<td style="text-align: right;">240</td>
-
-<td style="text-align: right;">270</td>
-
-<td style="text-align: right;">30</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p><strong>B.</strong></p>
-
-<table class="wide-table">
-
-<thead>
-
-<tr>
-
 <th>
-
-Stap
-
-</th>
-
-<th>
-
-ΔQ
-
-</th>
-
-<th>
-
-ΔTK
-
-</th>
-
-<th>
-
-MK
-
-</th>
-
-<th>
-
-ΔTO
-
-</th>
-
-<th>
-
-MO
-
-</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>
-
-0 naar 10
-
-</td>
-
-<td>
-
-10
-
-</td>
-
-<td>
-
-40
-
-</td>
-
-<td>
-
-4
-
-</td>
-
-<td>
-
-90
-
-</td>
-
-<td>
-
-9
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-10 naar 20
-
-</td>
-
-<td>
-
-10
-
-</td>
-
-<td>
-
-40
-
-</td>
-
-<td>
-
-4
-
-</td>
-
-<td>
-
-90
-
-</td>
-
-<td>
-
-9
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-20 naar 30
-
-</td>
-
-<td>
-
-10
-
-</td>
-
-<td>
-
-40
-
-</td>
-
-<td>
-
-4
-
-</td>
-
-<td>
-
-90
-
-</td>
-
-<td>
-
-9
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p><strong>C.</strong> <code>MK</code> is constant: elke extra product
-
-kost €4 extra.</p>
-
-<p><strong>D.</strong> <code>MO</code> is gelijk aan €9, omdat elk
-
-product voor €9 wordt verkocht. Bij één extra verkocht product komt er
-
-dus €9 extra opbrengst bij.</p>
-
-<hr />
-
-<h3 id="opgave-4">Opgave 4</h3>
-
-<p><strong>A.</strong> De leerling gebruikt de totale kostenstijging van
-
-20 producten samen. <code>MK</code> gaat over de kosten per extra
-
-product, dus je moet delen door <code>ΔQ</code>.</p>
-
-<p><strong>B.</strong></p>
-
-<p><code>ΔQ = 20 - 0 = 20</code></p>
-
-<p><code>ΔTK = 540 - 500 = 40</code></p>
-
-<p><code>MK = 40 / 20 = 2</code></p>
-
-<p><strong>C.</strong> De juiste <code>MK</code> is €2 per product. Eén
-
-extra product kost gemiddeld in deze stap €2 extra om te maken.</p>
-
-<hr />
-
-<h3 id="opgave-5">Opgave 5</h3>
-
-<p><strong>A.</strong> De verkoopprijs is €5 per hoesje:</p>
-
-<p><code>TO = 5Q</code></p>
-
-<p><strong>B.</strong></p>
-
-<table>
-
-<thead>
-
-<tr>
-
-<th style="text-align: right;">Q</th>
-
-<th style="text-align: right;">TK</th>
-
-<th style="text-align: right;">TO</th>
-
-<th style="text-align: right;">winst</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align: right;">0</td>
-
-<td style="text-align: right;">250</td>
-
-<td style="text-align: right;">0</td>
-
-<td style="text-align: right;">-250</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">100</td>
-
-<td style="text-align: right;">400</td>
-
-<td style="text-align: right;">500</td>
-
-<td style="text-align: right;">100</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">200</td>
-
-<td style="text-align: right;">550</td>
-
-<td style="text-align: right;">1000</td>
-
-<td style="text-align: right;">450</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">300</td>
-
-<td style="text-align: right;">700</td>
-
-<td style="text-align: right;">1500</td>
-
-<td style="text-align: right;">800</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p><strong>C.</strong></p>
-
-<table class="wide-table">
-
-<thead>
-
-<tr>
-
-<th>
-
-Stap
-
-</th>
-
-<th>
-
-ΔQ
-
-</th>
-
-<th>
-
-ΔTK
-
-</th>
-
-<th>
-
-MK
-
-</th>
-
-<th>
-
-ΔTO
-
-</th>
-
-<th>
-
-MO
-
-</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>
-
-0 naar 100
-
-</td>
-
-<td>
-
-100
-
-</td>
-
-<td>
-
-150
-
-</td>
-
-<td>
-
-1,50
-
-</td>
-
-<td>
-
-500
-
-</td>
-
-<td>
-
-5
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-100 naar 200
-
-</td>
-
-<td>
-
-100
-
-</td>
-
-<td>
-
-150
-
-</td>
-
-<td>
-
-1,50
-
-</td>
-
-<td>
-
-500
-
-</td>
-
-<td>
-
-5
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-200 naar 300
-
-</td>
-
-<td>
-
-100
-
-</td>
-
-<td>
-
-150
-
-</td>
-
-<td>
-
-1,50
-
-</td>
-
-<td>
-
-500
-
-</td>
-
-<td>
-
-5
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p><strong>D.</strong> <code>MK</code> is constant omdat de
-
-kostenfunctie lineair is: bij elk extra hoesje komt er €1,50 aan
-
-variabele kosten bij.</p>
-
-<p><strong>E.</strong> <code>MO</code> is constant omdat de verkoopprijs
-
-vast is: elk extra verkocht hoesje levert €5 extra opbrengst op.</p>
-
-<hr />
-
-<h3 id="opgave-6">Opgave 6</h3>
-
-<p><strong>A.</strong> De verkoopprijs is €20 per product:</p>
-
-<p><code>TO = 20Q</code></p>
-
-<p><strong>B.</strong></p>
-
-<table>
-
-<thead>
-
-<tr>
-
-<th style="text-align: right;">Q</th>
-
-<th style="text-align: right;">TK</th>
-
-<th style="text-align: right;">TO</th>
-
-<th style="text-align: right;">winst</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align: right;">0</td>
-
-<td style="text-align: right;">80</td>
-
-<td style="text-align: right;">0</td>
-
-<td style="text-align: right;">-80</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">10</td>
-
-<td style="text-align: right;">130</td>
-
-<td style="text-align: right;">200</td>
-
-<td style="text-align: right;">70</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">20</td>
-
-<td style="text-align: right;">280</td>
-
-<td style="text-align: right;">400</td>
-
-<td style="text-align: right;">120</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">30</td>
-
-<td style="text-align: right;">530</td>
-
-<td style="text-align: right;">600</td>
-
-<td style="text-align: right;">70</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p><strong>C.</strong></p>
-
-<table class="wide-table">
-
-<thead>
-
-<tr>
-
-<th>
-
-Stap
-
-</th>
-
-<th>
-
-ΔQ
-
-</th>
-
-<th>
-
-ΔTK
-
-</th>
-
-<th>
-
-MK
-
-</th>
-
-<th>
-
-ΔTO
-
-</th>
-
-<th>
-
-MO
-
-</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>
-
-0 naar 10
-
-</td>
-
-<td>
-
-10
-
-</td>
-
-<td>
-
-50
-
-</td>
-
-<td>
-
-5
-
-</td>
-
-<td>
-
-200
-
-</td>
-
-<td>
-
-20
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-10 naar 20
-
-</td>
-
-<td>
-
-10
-
-</td>
-
-<td>
-
-150
-
-</td>
-
-<td>
-
-15
-
-</td>
-
-<td>
-
-200
-
-</td>
-
-<td>
-
-20
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-20 naar 30
-
-</td>
-
-<td>
-
-10
-
-</td>
-
-<td>
-
-250
-
-</td>
-
-<td>
-
-25
-
-</td>
-
-<td>
-
-200
-
-</td>
-
-<td>
-
-20
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p><strong>D.</strong> <code>MK</code> stijgt: van €5 naar €15 naar €25
-
-per product. De extra producten worden dus steeds duurder om te
-
-maken.</p>
-
-<p><strong>E.</strong> <code>MO</code> blijft €20, omdat elk product
-
-voor dezelfde prijs wordt verkocht.</p>
-
-<hr />
-
-<h3 id="opgave-7">Opgave 7</h3>
-
-<p><strong>A.</strong></p>
-
-<p><code>TK = 180 + 2Q</code></p>
-
-<p><code>TO = 6Q</code></p>
-
-<p><strong>B.</strong></p>
-
-<table>
-
-<thead>
-
-<tr>
-
-<th style="text-align: right;">Q</th>
-
-<th style="text-align: right;">TK</th>
-
-<th style="text-align: right;">TO</th>
-
-<th style="text-align: right;">winst</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align: right;">0</td>
-
-<td style="text-align: right;">180</td>
-
-<td style="text-align: right;">0</td>
-
-<td style="text-align: right;">-180</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">50</td>
-
-<td style="text-align: right;">280</td>
-
-<td style="text-align: right;">300</td>
-
-<td style="text-align: right;">20</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">100</td>
-
-<td style="text-align: right;">380</td>
-
-<td style="text-align: right;">600</td>
-
-<td style="text-align: right;">220</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">150</td>
-
-<td style="text-align: right;">480</td>
-
-<td style="text-align: right;">900</td>
-
-<td style="text-align: right;">420</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p><strong>C.</strong></p>
-
-<table class="wide-table">
-
-<thead>
-
-<tr>
-
-<th>
-
-Stap
-
-</th>
-
-<th>
-
-ΔQ
-
-</th>
-
-<th>
-
-ΔTK
-
-</th>
-
-<th>
-
-MK
-
-</th>
-
-<th>
-
-ΔTO
-
-</th>
-
-<th>
-
-MO
-
-</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>
-
-0 naar 50
-
-</td>
-
-<td>
-
-50
-
-</td>
-
-<td>
-
-100
-
-</td>
-
-<td>
-
-2
-
-</td>
-
-<td>
-
-300
-
-</td>
-
-<td>
-
-6
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-50 naar 100
-
-</td>
-
-<td>
-
-50
-
-</td>
-
-<td>
-
-100
-
-</td>
-
-<td>
-
-2
-
-</td>
-
-<td>
-
-300
-
-</td>
-
-<td>
-
-6
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-100 naar 150
-
-</td>
-
-<td>
-
-50
-
-</td>
-
-<td>
-
-100
-
-</td>
-
-<td>
-
-2
-
-</td>
-
-<td>
-
-300
-
-</td>
-
-<td>
-
-6
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p><strong>D.</strong> <code>MK</code> is gelijk aan de variabele kosten
-
-per wrap, omdat de kostenfunctie lineair is. Elke extra wrap veroorzaakt
-
-€2 extra variabele kosten.</p>
-
-<p><strong>E.</strong> <code>MO</code> is gelijk aan de verkoopprijs,
-
-omdat elke extra verkochte wrap €6 extra opbrengst oplevert.</p>
-
-<hr />
-
-<h3 id="opgave-8">Opgave 8</h3>
-
-<p><strong>A.</strong> Voor onderneming Linea:</p>
-
-<table class="wide-table">
-
-<thead>
-
-<tr>
-
-<th>
-
 Q
-
 </th>
-
 <th>
-
 TK
-
 </th>
-
 <th>
-
 TO
-
 </th>
-
 <th>
-
 winst
-
 </th>
-
 <th>
-
 MK
-
 </th>
-
 <th>
-
 MO
-
 </th>
-
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td>
-
 0
-
 </td>
-
 <td>
-
-200
-
+9
 </td>
-
 <td>
-
 0
-
 </td>
-
 <td>
-
--200
-
+−9
 </td>
-
 <td>
-
--
-
+—
 </td>
-
 <td>
-
--
-
+—
 </td>
-
 </tr>
-
 <tr>
-
 <td>
-
-10
-
-</td>
-
-<td>
-
-230
-
-</td>
-
-<td>
-
-80
-
-</td>
-
-<td>
-
--150
-
-</td>
-
-<td>
-
 3
-
 </td>
-
 <td>
-
-8
-
+15
 </td>
-
+<td>
+15
+</td>
+<td>
+0
+</td>
+<td>
+2
+</td>
+<td>
+5
+</td>
 </tr>
-
 <tr>
-
 <td>
-
-20
-
+6
 </td>
-
 <td>
-
-260
-
+21
 </td>
-
 <td>
-
-160
-
-</td>
-
-<td>
-
--100
-
-</td>
-
-<td>
-
-3
-
-</td>
-
-<td>
-
-8
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
 30
-
 </td>
-
 <td>
-
-290
-
+9
 </td>
-
 <td>
-
-240
-
+2
 </td>
-
 <td>
-
--50
-
+5
 </td>
-
-<td>
-
-3
-
-</td>
-
-<td>
-
-8
-
-</td>
-
 </tr>
-
-<tr>
-
-<td>
-
-40
-
-</td>
-
-<td>
-
-320
-
-</td>
-
-<td>
-
-320
-
-</td>
-
-<td>
-
-0
-
-</td>
-
-<td>
-
-3
-
-</td>
-
-<td>
-
-8
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-50
-
-</td>
-
-<td>
-
-350
-
-</td>
-
-<td>
-
-400
-
-</td>
-
-<td>
-
-50
-
-</td>
-
-<td>
-
-3
-
-</td>
-
-<td>
-
-8
-
-</td>
-
-</tr>
-
 </tbody>
-
 </table>
-
-<p>Voorbeeldberekening van <code>Q = 20</code> naar
-
-<code>Q = 30</code>:</p>
-
-<p><code>ΔQ = 10</code></p>
-
-<p><code>ΔTK = 290 - 260 = 30</code>, dus
-
-<code>MK = 30 / 10 = 3</code></p>
-
-<p><code>ΔTO = 240 - 160 = 80</code>, dus
-
-<code>MO = 80 / 10 = 8</code></p>
-
-<p><strong>B.</strong> <code>MK</code> is constant. Het blijft steeds €3
-
-per product, omdat <code>TK = 200 + 3Q</code> lineair is.</p>
-
-<p><strong>C.</strong> <code>MO</code> is constant en gelijk aan €8. Dat
-
-is logisch omdat elk product voor de vaste prijs van €8 wordt
-
-verkocht.</p>
-
-<p><strong>D.</strong> Voor onderneming Curva:</p>
-
-<table class="wide-table">
-
+<p>TK, TO en winst: euro per dag. MK en MO: euro per extra patch binnen
+het interval dat eindigt bij de rij.</p>
+<p>c) MO is constant omdat iedere extra verkochte patch dezelfde prijs
+van <strong>€ 5</strong> oplevert. MK = 2 bij Q = 6 betekent dat binnen
+<strong>3–6</strong> de extra totale kosten gemiddeld <strong>€ 2 per
+extra patch</strong> zijn. MO = 5 betekent dat binnen hetzelfde interval
+de extra totale opbrengsten gemiddeld <strong>€ 5 per extra
+patch</strong> zijn. Dit zegt niet hoeveel alleen de zesde patch extra
+kost.</p>
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<p>a) Winst bij Q = 2: 16 − 14 = <strong>€ 2 per dag</strong>. Bij Q =
+6: 48 − 38 = <strong>€ 10 per dag</strong>. Over 2–6 is ΔQ = 4, niet 2.
+MK = (38 − 14)/(6 − 2) = 24/4 = <strong>€ 6 per extra
+onderzetter</strong>. MO = (48 − 16)/(6 − 2) = 32/4 = <strong>€ 8 per
+extra onderzetter</strong>. Noteer die bij Q = 6.</p>
+<table style="break-inside:avoid">
+<colgroup>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+</colgroup>
 <thead>
-
 <tr>
-
 <th>
-
 Q
-
 </th>
-
 <th>
-
 TK
-
 </th>
-
 <th>
-
 TO
-
 </th>
-
 <th>
-
 winst
-
 </th>
-
 <th>
-
 MK
-
 </th>
-
 <th>
-
 MO
-
 </th>
-
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td>
-
 0
-
 </td>
-
 <td>
-
-100
-
-</td>
-
-<td>
-
-0
-
-</td>
-
-<td>
-
--100
-
-</td>
-
-<td>
-
--
-
-</td>
-
-<td>
-
--
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-5
-
-</td>
-
-<td>
-
-125
-
-</td>
-
-<td>
-
-150
-
-</td>
-
-<td>
-
-25
-
-</td>
-
-<td>
-
-5
-
-</td>
-
-<td>
-
-30
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
 10
-
 </td>
-
 <td>
-
-200
-
+0
 </td>
-
 <td>
-
-300
-
+−10
 </td>
-
 <td>
-
-100
-
+—
 </td>
-
 <td>
-
-15
-
+—
 </td>
-
-<td>
-
-30
-
-</td>
-
 </tr>
-
 <tr>
-
 <td>
-
-15
-
+2
 </td>
-
 <td>
-
-325
-
+14
 </td>
-
 <td>
-
-450
-
+16
 </td>
-
 <td>
-
-125
-
+2
 </td>
-
 <td>
-
-25
-
+2
 </td>
-
 <td>
-
-30
-
+8
 </td>
-
 </tr>
-
 <tr>
-
 <td>
-
-20
-
+6
 </td>
-
 <td>
-
-500
-
+38
 </td>
-
 <td>
-
-600
-
+48
 </td>
-
 <td>
-
-100
-
+10
 </td>
-
 <td>
-
-35
-
+6
 </td>
-
 <td>
-
-30
-
+8
 </td>
-
 </tr>
-
 </tbody>
-
 </table>
+<p>TK, TO en winst: euro per dag. MK en MO: euro per extra onderzetter
+over het interval dat eindigt bij de rij.</p>
+<p>b) Bij de patches is MK constant <strong>2</strong>; bij onderzetters
+stijgt MK van <strong>2</strong> over 0–2 naar <strong>6</strong> over
+2–6. Binnen 2–6 zijn de extra totale kosten gemiddeld € 6 per extra
+onderzetter, de extra totale opbrengsten gemiddeld € 8 per extra
+onderzetter. Het verschil in intervalbreedte is in beide berekeningen
+verwerkt door te delen door ΔQ.</p>
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<p>a) Basis: MK = (22 − 14)/(6 − 2) = <strong>2</strong>. Alleen A: MK =
+(32 − 24)/(6 − 2) = <strong>2</strong>, telkens euro per extra organizer
+binnen 2–6. De extra vaste kosten vallen bij aftrekken weg: (22 + 10) −
+(14 + 10) blijft 8.</p>
+<p>b) Basis: MO = (36 − 12)/4 = <strong>6</strong>. Alleen B: MO = (42 −
+14)/4 = <strong>7</strong>, telkens euro per extra organizer. Door de
+prijsverhoging levert ieder extra verkocht product € 1 meer op.</p>
+<p>c) Beide: MK = (32 − 24)/4 = <strong>€ 2 per extra organizer</strong>
+en MO = (42 − 14)/4 = <strong>€ 7 per extra organizer</strong> binnen
+2–6. Totale winst bij Q = 6 = 42 − 32 = <strong>€ 10 per
+dag</strong>.</p>
+<p>d) De uitspraak klopt niet. Hogere <strong>niveaus</strong> van TK
+zijn niet automatisch een grotere <strong>toename</strong> in TK over
+hetzelfde interval. A verhoogt TK aan beide uiteinden evenveel: MK
+blijft 2. B verhoogt de opbrengst per extra product: MO stijgt van 6
+naar 7. Dus alleen MO stijgt hier; niet beide marginale waarden.</p>
+</div><h2 id="zelfstandige-oefening">Zelfstandige oefening</h2>
+<div class="exercise"><p><strong>Opgave 6</strong></p>
+<p>a) Draad: bij Q = 0/4/8/12 is winst respectievelijk 0 − 20 =
+<strong>−20</strong>; 20 − 24 = <strong>−4</strong>; 40 − 28 =
+<strong>12</strong>; 60 − 32 = <strong>28</strong>, in euro per dag.</p>
+<p>b) Eerste interval 0–4: MK = (24 − 20)/(4 − 0) = 4/4 =
+<strong>1</strong>. MO = (20 − 0)/(4 − 0) = 20/4 = <strong>5</strong>.
+Iedere volgende tabelstap heeft ΔTK = 4, ΔTO = 20 en ΔQ = 4. MK = 1 en
+MO = 5 komen dus bij Q = <strong>4, 8 en 12</strong>, in euro per extra
+notitieboekje binnen elk interval.</p>
+<div style="break-inside: avoid">
+<p><strong>Draad — ingevuld</strong></p>
+<table style="break-inside:avoid">
+<colgroup>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+</colgroup>
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+<th>
+MK
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0
+</td>
+<td>
+20
+</td>
+<td>
+0
+</td>
+<td>
+−20
+</td>
+<td>
+—
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+4
+</td>
+<td>
+24
+</td>
+<td>
+20
+</td>
+<td>
+−4
+</td>
+<td>
+1
+</td>
+<td>
+5
+</td>
+</tr>
+<tr>
+<td>
+8
+</td>
+<td>
+28
+</td>
+<td>
+40
+</td>
+<td>
+12
+</td>
+<td>
+1
+</td>
+<td>
+5
+</td>
+</tr>
+<tr>
+<td>
+12
+</td>
+<td>
+32
+</td>
+<td>
+60
+</td>
+<td>
+28
+</td>
+<td>
+1
+</td>
+<td>
+5
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>c) Draad verkoopt ieder extra notitieboekje voor dezelfde vaste prijs
+van <strong>€ 5</strong>. Daarom neemt TO per extra verkocht product met
+€ 5 toe en is MO constant.</p>
+<p>d) Kaft: MK over 0–4 = (28 − 12)/(4 − 0) = <strong>4</strong>; over
+4–8 = (76 − 28)/(8 − 4) = <strong>12</strong>; over 8–12 = (156 −
+76)/(12 − 8) = <strong>20</strong>. De eerste MO = (96 − 0)/(4 − 0) =
+<strong>24</strong>. De vaste prijs van € 24 geeft in elk interval
+dezelfde MO; ook de volgende twee stappen geven ΔTO/ΔQ = 96/4 = 24.
+Noteer MK = 4/12/20 bij Q = 4/8/12 en MO = 24 bij alle drie die
+eindpunten.</p>
+<div style="break-inside: avoid">
+<p><strong>Kaft — ingevuld</strong></p>
+<table style="break-inside:avoid">
+<colgroup>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+</colgroup>
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+<th>
+MK
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0
+</td>
+<td>
+12
+</td>
+<td>
+0
+</td>
+<td>
+−12
+</td>
+<td>
+—
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+4
+</td>
+<td>
+28
+</td>
+<td>
+96
+</td>
+<td>
+68
+</td>
+<td>
+4
+</td>
+<td>
+24
+</td>
+</tr>
+<tr>
+<td>
+8
+</td>
+<td>
+76
+</td>
+<td>
+192
+</td>
+<td>
+116
+</td>
+<td>
+12
+</td>
+<td>
+24
+</td>
+</tr>
+<tr>
+<td>
+12
+</td>
+<td>
+156
+</td>
+<td>
+288
+</td>
+<td>
+132
+</td>
+<td>
+20
+</td>
+<td>
+24
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In beide tabellen zijn TK, TO en winst euro per dag; MK en MO zijn
+euro per extra notitieboekje over het interval dat eindigt bij de
+rij.</p>
+<p>e) Draad heeft constante MK = <strong>1</strong>; Kaft heeft
+stijgende MK = <strong>4, 12, 20</strong> over de gegeven intervallen.
+MK is de gemiddelde extra totale kosten per extra product binnen een
+interval. MO is de gemiddelde extra totale opbrengsten per extra product
+binnen dat interval. Een intervalwaarde is niet noodzakelijk de
+verandering door één afzonderlijk product. Deze vergelijking geeft geen
+advies over afzetkeuze.</p>
+</div><h2 id="doeloefening">Doeloefening</h2>
+<div class="exercise"><p><strong>Opgave 7 — 15 punten</strong></p>
+<p>a) <strong>4 punten.</strong> Linea bij Q=0/10/20/30:
+winst=−€200/−€150/−€100/−€50.</p>
+<p>Werkwijze per rij: 0 − 200 = −200; 80 − 230 = −150; 160 − 260 = −100;
+240 − 290 = −50. Een punt per juist winstbedrag; alle vier zijn
+verliesbedragen.</p>
+<p>b) <strong>3 punten.</strong> Eerste interval: MK=(230−200)/(10−0)=€3
+per product en MO=(80−0)/(10−0)=€8 per product. Zet MK=€3 en MO=€8 bij
+de rechter eindpunten Q=10, Q=20 en Q=30.</p>
+<p>Een punt voor de MK-berekening met teller en noemer, een voor de
+MO-berekening met teller en noemer, een voor beide waarden op alle drie
+juiste rechter eindpunten. De streepjes op Q = 0 blijven staan: er is
+geen voorafgaand tabelinterval.</p>
+<div style="break-inside: avoid">
+<p><strong>Linea — ingevuld</strong></p>
+<table style="break-inside:avoid">
+<colgroup>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+</colgroup>
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+<th>
+MK
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0
+</td>
+<td>
+€200
+</td>
+<td>
+€0
+</td>
+<td>
+−€200
+</td>
+<td>
+—
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+10
+</td>
+<td>
+€230
+</td>
+<td>
+€80
+</td>
+<td>
+−€150
+</td>
+<td>
+€3
+</td>
+<td>
+€8
+</td>
+</tr>
+<tr>
+<td>
+20
+</td>
+<td>
+€260
+</td>
+<td>
+€160
+</td>
+<td>
+−€100
+</td>
+<td>
+€3
+</td>
+<td>
+€8
+</td>
+</tr>
+<tr>
+<td>
+30
+</td>
+<td>
+€290
+</td>
+<td>
+€240
+</td>
+<td>
+−€50
+</td>
+<td>
+€3
+</td>
+<td>
+€8
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>TK, TO en winst zijn totale eurobedragen. MK en MO zijn euro per
+extra product binnen het interval dat eindigt bij de rij.</p>
+<p>c) <strong>2 punten.</strong> Linea heeft constant MK=€3 en MO=€8 per
+product. Bij een vaste prijs levert ieder extra verkocht product
+dezelfde extra opbrengst op.</p>
+<p>Een punt voor de vaste prijs van <strong>€ 8</strong>; een punt voor
+de verklaring dat daardoor ieder extra verkocht product dezelfde extra
+opbrengst van € 8 toevoegt en MO constant is.</p>
+<p>d) <strong>4 punten.</strong> Curva: MK=(125−100)/(5−0)=€5 bij Q=5,
+MK=€15 bij Q=10 en MK=€25 bij Q=15. MO=(150−0)/(5−0)=€30 en staat als
+constante intervalwaarde bij Q=5, Q=10 en Q=15.</p>
+<p>Volledige MK-berekeningen: bij 0–5 is (125 − 100)/(5 − 0) = 25/5 =
+<strong>5</strong>; bij 5–10 is (200 − 125)/(10 − 5) = 75/5 =
+<strong>15</strong>; bij 10–15 is (325 − 200)/(15 − 10) = 125/5 =
+<strong>25</strong>, telkens euro per extra product. MO bij 0–5 is (150
+− 0)/(5 − 0) = 150/5 = <strong>30</strong>; de vaste prijs van € 30
+geeft dezelfde MO in de volgende intervallen. Een punt per juiste
+MK-berekening met plaatsing; een punt voor de eerste MO-berekening en MO
+= 30 bij alle drie rechter eindpunten.</p>
+<div style="break-inside: avoid">
+<p><strong>Curva — ingevuld</strong></p>
+<table style="break-inside:avoid">
+<colgroup>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+<col style="width:16.6667%"/>
+</colgroup>
+<thead>
+<tr>
+<th>
+Q
+</th>
+<th>
+TK
+</th>
+<th>
+TO
+</th>
+<th>
+winst
+</th>
+<th>
+MK
+</th>
+<th>
+MO
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0
+</td>
+<td>
+€100
+</td>
+<td>
+€0
+</td>
+<td>
+−€100
+</td>
+<td>
+—
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<td>
+5
+</td>
+<td>
+€125
+</td>
+<td>
+€150
+</td>
+<td>
+€25
+</td>
+<td>
+€5
+</td>
+<td>
+€30
+</td>
+</tr>
+<tr>
+<td>
+10
+</td>
+<td>
+€200
+</td>
+<td>
+€300
+</td>
+<td>
+€100
+</td>
+<td>
+€15
+</td>
+<td>
+€30
+</td>
+</tr>
+<tr>
+<td>
+15
+</td>
+<td>
+€325
+</td>
+<td>
+€450
+</td>
+<td>
+€125
+</td>
+<td>
+€25
+</td>
+<td>
+€30
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>TK, TO en winst zijn totale eurobedragen. MK en MO zijn euro per
+extra product over het interval dat eindigt bij de rij. De winstkolom
+van Curva was al gegeven.</p>
+<p>e) <strong>2 punten.</strong> Linea heeft constant MK; Curva heeft
+stijgend MK. MK is de gemiddelde extra totale kosten per extra product
+binnen het interval; MO is de gemiddelde extra totale opbrengst per
+extra product binnen het interval.</p>
+<p>Een punt voor constant MK = 3 bij Linea tegenover stijgend MK = 5,
+15, 25 bij Curva. Een punt voor <strong>beide</strong> begrensde
+betekenissen met “per extra product binnen het interval”. MK = 25 bij Q
+= 15 beschrijft bijvoorbeeld 10–15, niet alleen het vijftiende product.
+Trek geen conclusie over de winstmaximaliserende afzet.</p>
+<table style="break-inside:avoid">
+<colgroup>
+<col style="width:17%"/>
+<col style="width:17%"/>
+<col style="width:66%"/>
+</colgroup>
+<thead>
+<tr>
+<th>
+Onderdeel
+</th>
+<th>
+Maximum
+</th>
+<th>
+Verdeling
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+a
+</td>
+<td>
+4
+</td>
+<td>
+Vier winstbedragen: elk 1
+</td>
+</tr>
+<tr>
+<td>
+b
+</td>
+<td>
+3
+</td>
+<td>
+MK 1, MO 1, plaatsing 1
+</td>
+</tr>
+<tr>
+<td>
+c
+</td>
+<td>
+2
+</td>
+<td>
+Vaste prijs 1, constante extra opbrengst 1
+</td>
+</tr>
+<tr>
+<td>
+d
+</td>
+<td>
+4
+</td>
+<td>
+Drie MK-berekeningen en plaatsingen: elk 1; MO met plaatsing 1
+</td>
+</tr>
+<tr>
+<td>
+e
+</td>
+<td>
+2
+</td>
+<td>
+Patroonvergelijking 1, beide intervalbetekenissen 1
+</td>
+</tr>
+</tbody>
+</table>
+<p>Totaal: <strong>15 punten</strong>. Een uitleg mag anders
+geformuleerd zijn als berekening, interval, eenheid en economische
+betekenis hetzelfde blijven.</p>
+</div><h2 id="denkertje-bonusopgave">Denkertje / Bonusopgave</h2>
+<div class="exercise"><p><strong>Opgave 8 — optioneel</strong></p>
+<p>a) Onjuist. Bij K: MK over 0–4 = (32 − 20)/(4 − 0) = 12/4 =
+<strong>3</strong>. Over 4–12: MK = (56 − 32)/(12 − 4) = 24/8 =
+<strong>3</strong>, in euro per extra verpakking. Het tweede totale
+kostenverschil is groter, maar er komen ook twee keer zoveel producten
+bij. MK blijft gelijk.</p>
+<p>b) Bij L: MK over 0–4 = (40 − 20)/4 = <strong>5</strong>; over 4–12 =
+(56 − 40)/8 = <strong>2</strong>, in euro per extra verpakking. L heeft
+dalende interval-MK, K constante interval-MK. Hetzelfde totale
+eindbedrag € 56 zegt niet dat de verhoudingen over de tussenliggende
+stappen gelijk zijn.</p>
+<p>c) Nee. De tabel geeft alleen de totale verandering van Q = 4 naar Q
+= 12. Je mist de afzonderlijke totale kosten bij <strong>Q = 5</strong>
+(of de kostenverandering van 4 naar 5). Een gemiddelde over acht extra
+producten bepaalt niet de extra kosten van alleen het vijfde
+product.</p>
+</div><h2 id="herhaling-herhaling-en-interleaving">Herhaling / Herhaling en
+interleaving</h2>
+<div class="exercise exercise-short"><p><strong>Opgave 9</strong></p>
+<p>a) Q = 3: TK = 15 + 2 × 3 = <strong>€ 21 per dag</strong>; TO = 7 × 3
+= <strong>€ 21 per dag</strong>; winst = 21 − 21 = <strong>€ 0 per
+dag</strong>. GTK = 21/3 = <strong>€ 7 per reparatie</strong>.</p>
+<p>b) Q = 6: TK = 15 + 2 × 6 = <strong>€ 27 per dag</strong>; TO = 7 × 6
+= <strong>€ 42 per dag</strong>; winst = 42 − 27 = <strong>€ 15 per
+dag</strong>. GTK = 27/6 = <strong>€ 4,50 per reparatie</strong>. GTK is
+een totaal kostenbedrag gedeeld door het aantal reparaties; winst is een
+totaal verschil tussen opbrengsten en kosten voor die dag.</p>
 
-<p>Voorbeeldberekening van <code>Q = 10</code> naar
 
-<code>Q = 15</code>:</p>
 
-<p><code>ΔQ = 5</code></p>
 
-<p><code>ΔTK = 325 - 200 = 125</code>, dus
-
-<code>MK = 125 / 5 = 25</code></p>
-
-<p><code>ΔTO = 450 - 300 = 150</code>, dus
-
-<code>MO = 150 / 5 = 30</code></p>
-
-<p><strong>E.</strong> <code>MK</code> stijgt: €5, €15, €25, €35. De
-
-extra producten worden steeds duurder om te maken.</p>
-
-<p><strong>F.</strong> <code>MK</code> vertelt hoeveel de totale kosten
-
-toenemen per extra product. <code>MO</code> vertelt hoeveel de totale
-
-opbrengst toeneemt per extra verkocht product.</p>
-
-<p><strong>G.</strong> Bij onderneming Curva is
-
-<code>MO = 30</code>.</p>
-
-<ul>
-
-<li>Van 0 naar 5 geldt <code>MO &gt; MK</code>, want
-
-<code>30 &gt; 5</code>.</li>
-
-<li>Van 5 naar 10 geldt <code>MO &gt; MK</code>, want
-
-<code>30 &gt; 15</code>.</li>
-
-<li>Van 10 naar 15 geldt <code>MO &gt; MK</code>, want
-
-<code>30 &gt; 25</code>.</li>
-
-<li>Van 15 naar 20 geldt <code>MO &lt; MK</code>, want
-
-<code>30 &lt; 35</code>.</li>
-
-</ul>
-
-<p>Als <code>MO = MK</code>, verandert de winst in die stap niet. De
-
-extra opbrengst is dan precies even groot als de extra kosten.</p>
-
-<hr />
-
-<h3 id="opgave-9">Opgave 9</h3>
-
-<p><strong>A.</strong> Tabel 1:</p>
-
-<p><code>ΔQ = 10 - 0 = 10</code></p>
-
-<p><code>ΔTK = 150 - 100 = 50</code></p>
-
-<p><code>MK = 50 / 10 = 5</code></p>
-
-<p><strong>B.</strong> Tabel 2:</p>
-
-<p><code>ΔQ = 50 - 0 = 50</code></p>
-
-<p><code>ΔTK = 250 - 100 = 150</code></p>
-
-<p><code>MK = 150 / 50 = 3</code></p>
-
-<p><strong>C.</strong> Leerling B redeneert economisch correct. Je moet
-
-de kostenstijging per extra product berekenen. De totale stijging van
-
-€150 in tabel 2 is groter, maar die stijging hoort bij 50 producten
-
-samen.</p>
-
-<p><strong>D.</strong> Tabellen met verschillende stapgroottes kun je
-
-alleen eerlijk vergelijken als je door <code>ΔQ</code> deelt. Anders
-
-vergelijk je een totale verandering met een marginale verandering.</p>
-
-</body>
-
+</div></body>
 </html>
