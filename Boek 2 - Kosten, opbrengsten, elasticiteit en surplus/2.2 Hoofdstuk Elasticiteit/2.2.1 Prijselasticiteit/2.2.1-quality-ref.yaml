@@ -23,8 +23,18 @@ partA:
   historical_r6_quality_ref_sha256: "b6f1b389d11c20665577414c17e5ae49962083812d9d1bf474d16231db749508"
   historical_r6_quality_ref_commit: "144938f325d875b5ca055f5bb0951c450af59842"
   unresolved_blockers: 0
-  production_ready_with_flags: false
-  handoff_status: "Root integration, handoff and combined gates pending; not asserted by specialist QC"
+  production_ready_with_flags: true
+  handoff_status: "Root internal Part A R8 acceptance and successor handoff complete; combined book/lead/final CI remain pending"
+  root_acceptance:
+    integrator: "codex-root"
+    date: "2026-09-05"
+    scope: "Internal current paragraph acceptance with flags, not Part B commissioning or final book/student-release/merge authorization"
+    specialist_record_commit: "ad4e0520630e43fd1a8814130f14cff258c7c14f"
+    specialist_record_before_root_acceptance_sha256: "51a3840ef7c7d68986798608c79266f158b5f7a3a2ad7aa463e329ba8946db98"
+    integrated_lesson_specialist_commit: "b38b8cf8d68cd86537831dc3ee27e4a1e203f7db"
+    integrated_platform_specialist_commit: "8fdebb0d258cdaa1fd11f392265dd1038681a98c"
+    evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-221-root-acceptance-r8.md"
+    handoff_file: "2.2.1-textbook-handoff.md"
   target_exercise_status: "candidate_review_ready"
   target_authority: "Exact owner-approved frozen package and durable governed integration; source label unchanged"
   target_record_sha256: "61b54bde03d60be241092479cfcea8820e8187220f8f454dc9fef5045c8ea288"
