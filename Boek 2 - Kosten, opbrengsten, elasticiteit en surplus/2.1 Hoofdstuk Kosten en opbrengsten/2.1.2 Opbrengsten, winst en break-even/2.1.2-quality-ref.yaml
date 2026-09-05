@@ -6,33 +6,128 @@ type: theory
 schema_version: 2
 status: integrated_repository_sprint_pass_with_flags
 partA:
-  content:
-    paragraaf_md: true
-    opgaven_md: true
-    antwoorden_md: true
-    paragraaf_pdf: true
-    opgaven_pdf: true
-    antwoorden_pdf: true
-    build_pdf_py: true
+  paragraph: "2.1.2"
+  title: "Opbrengsten, winst en break-even"
+  generated: "2026-09-05"
+  reviewed_on: "2026-09-05"
+  review_file: "2.1.2-review.md"
+  review_verdict: "PASS WITH FLAGS"
+  review_sha256: "74ad2ed9c44d9aa05b6d6a680d5d273f2cad4b62e4bead5db303c006514238cd"
+  paragraph_reviewer: "correction_plan_review"
+  paragraph_review_record_commit: "406e0b0af719d4b1720f19e0fb63c2516881955f"
+  paragraph_review_record: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-paragraph-review-r5.md"
+  specialist_reviewer: "paragraph_212_qc"
+  specialist_verdict: "PASS WITH FLAGS"
+  specialist_report_repository: "4veco-platform"
+  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-specialist-review-r5.md"
+  specialist_verification: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-QC-verification.json"
+  hard_fails_open: 0
+  reviewed_payload:
+    platform_commit: "16eca0301ae66071830606b95ae0b7866395068f"
+    lesson_commit: "afc2ed53e6ae5f85bbeaa3c61172fc419b59e08f"
+    qc_platform_base: "3bf29a96cbdbcb1f51570b3ec39ff61d115c680c"
+    qc_lesson_base: "7867b72a7829ef96cbd1aa451e89aebcec79da0b"
+    paragraph_plan_canonical_lf_sha256: "5e1d318dd1b841467ca297d67956304d1861e3eb68d1df56cc4d32f6434d34a4"
+    chapter_plan_canonical_lf_sha256: "ef3f872f5caa2de1359639983d8e4907a34cfcbc80a0309826cff07201e49116"
+    frozen_target_record_sha256: "19b466dd6f7b541a3bb701d4de80ce13fe9ea58356313e24b23b21698093e1f9"
+    target_record_status: "candidate_review_ready"
+    target_authority: "separate integrated frozen-package grant; no status promotion"
+    target_goals: 4
+    target_subquestions: 4
+    target_points: 11
   assets:
-    total_referenced: 2
-    total_present: 2
+    total_referenced: 11
+    svg_count: 11
+    png_count: 11
+    bases: ["2.1.2_fig_1","2.1.2_fig_2","2.1.2_fig_3","2.1.2_fig_4","2.1.2_we_1","2.1.2_ex_1","2.1.2_ex_2","2.1.2_ex_3","2.1.2_ex_4","2.1.2_ex_5","2.1.2_ex_6"]
     missing: []
     svgpng_paired: true
     naming_compliant: true
-  target_trace:
-    target_exercise_id: "2.1.2"
-    target_record_status_upstream: "reviewed_final"
-    target_status_promotion_sprint: "B2-2.1-TARGET-V5-PROMOTE"
-    operation_chain_covered: true
-    misconception_covered: true
-  review:
-    file: "2.1.2-review.md"
-    verdict: "PASS_WITH_FLAGS"
-    independent_review_required: false
-    repository_sprint: "B2-2.1.2-HARDEN"
-    lead_review_round1: "reports/sprints/B2-2.1.2-HARDEN-lead-review-round1.md"
-    lead_review_round2: "reports/sprints/B2-2.1.2-HARDEN-lead-review-round2.md"
-    round1_blockers_corrected: true
-    final_flags:
-      - "chapter_pdf_size_warning_while_assets_pass"
+    fresh_svg_png_raw_byte_parity: true
+  rendered_evidence:
+    repository: "4veco-platform"
+    proof_root: "reports/rendered-proof/BOOK2-TEXTBOOK-PRODUCTION-1"
+    all_pages_individually_inspected: true
+    normal_reading_scale: true
+    pages_inspected: 27
+    minimum_pdf_text_pt: 12
+    embedded_diagram_text_pt_lower_bound: 12.548
+    visible_student_defects: 0
+    fresh_poppler_page_hash_parity: true
+    grayscale_probes_personally_inspected: 2
+    documents:
+      - artifact: "paragraaf"
+        md_sha256: "f53521ed8812a4c8b8c33c1d66b34e0afe8425c1dffb1723f37771372b2baa09"
+        html_sha256: "be9a3618444b65cc3aa5c2a33b94a81c5cbe864da7e7ea8fea63d746a60ef006"
+        pdf_sha256: "e94d42f66ab9966a3a024cfef061c2084fcc1e2a6ef9e61e50c699c9155ce7a2"
+        zip_sha256: "9e08b74bfb676bd92f07c56ebbb7767d8c380b49a1754b981fd8b45a0def492a"
+        zip_member_count: 19
+        same_edition_exact_inventory_and_raw_parity: true
+        proof_directory: "212-paragraaf-e94d42f66ab9-r5"
+        manifest_sha256: "db1a80500e15785ca605ff672704d3c66a22a0d15a256fff95a8582afd0f0ac5"
+        inspection_file: "212-paragraaf-e94d42f66ab9-r5/inspection.json"
+        page_count: 14
+      - artifact: "opgaven"
+        md_sha256: "f96c6393ec72488d925d432dec256db714396f210107f5e5abd8f235bfccb938"
+        html_sha256: "69e45f51c2c5690235e1d68f54dadf76818e190b9e10a96afbcfb50c2f71eb85"
+        pdf_sha256: "94ebe5d35207f6c605ca294a9e5bdccfa8c1a10e6717955e21abb3606a60406a"
+        zip_sha256: "d8e3e6714a09e50f6e702b2956f41ec37dfd73cb8b0044e8f90495738f5c1c20"
+        zip_member_count: 11
+        same_edition_exact_inventory_and_raw_parity: true
+        proof_directory: "212-opgaven-94ebe5d35207-r5"
+        manifest_sha256: "701acab4c0210e2744a32dd5ee3a08388942d20ec97314208a121674843fbc9f"
+        inspection_file: "212-opgaven-94ebe5d35207-r5/inspection.json"
+        page_count: 7
+      - artifact: "antwoorden"
+        md_sha256: "d7dbebf97de900b7ecc4520e63c822201d39ce796c5c7e3aab83b4dcc9e900ee"
+        html_sha256: "767bf8ee21be2b67676e0a80558d7bbe373cc7cab8c8ac0c96a0056f7228f221"
+        pdf_sha256: "07a75d7b5b69344d38d5da9e5f2e0a3b964d86cc64c383b37809f8263fb33192"
+        zip_sha256: "810166af6f45837381a4b8333bbff08d279773ccc4419b839c6a25b8e05d69d1"
+        zip_member_count: 9
+        same_edition_exact_inventory_and_raw_parity: true
+        proof_directory: "212-antwoorden-07a75d7b5b69-r5"
+        manifest_sha256: "a6c832c6ad3416fa6bd84599ed402c3efbd806556af543fe50163bd12d1b75c2"
+        inspection_file: "212-antwoorden-07a75d7b5b69-r5/inspection.json"
+        page_count: 6
+  specialist_rubrics:
+    teacher_learning_quality: "PASS, 14/14; design judgment, not observed attainment"
+    student_experience: "PASS, 12/12; paired paper route only"
+    economics_and_mathematics: "PASS; every numerical chain and target answer independently recalculated"
+    dutch: "PASS; source and final-page language inspected"
+    visual_qa: "PASS, 10/10; bounded print rubric, no blanket accessibility claim"
+  timing:
+    core_minutes_estimated: 54
+    lesson_limit_minutes: 55
+    supported_route_minutes_estimated: 67
+    all_printed_items_minutes_estimated: 77
+    classroom_observed: false
+    equation: "2 motivation + 14 instruction/retrieval + 8 worked example + 2 recap + 6 Start + 10 independent + 12 target = 54"
+    outside_core: "Optional guided practice adds 13 minutes; bonus 6 and cumulative closing 4 require later/continuation or homework time."
+  flags:
+    - id: "212-R5-TIME"
+      blocking: false
+      detail: "Unobserved 54-minute complete core has only one-minute margin; both full graph tasks must be counted."
+      blocks: "Claims of observed completion or attained goals."
+      does_not_block: "Exact R5 design/print QC and normal root handoff decision."
+      proof_required_to_close: "Observed component times, student work and support needs; preserve extended support time without deleting required teaching or target parts."
+    - id: "212-R5-RECAP"
+      blocking: false
+      detail: "Recap does not repeat given model/range and increasing-profit limitation; body and answers correctly bound operations."
+      blocks: "Claim that recap explicitly repeats every model qualification."
+      does_not_block: "Correct-body exact R5 package."
+      proof_required_to_close: "If enhanced, authorized source change, regeneration and renewed exact-output review."
+    - id: "212-QC-INSPECTIE-FRESHNESS"
+      blocking: false
+      detail: "Optional current inspection-framework mapping omitted because the protected reference predates official 2026 changes."
+      blocks: "Current-2026 inspection-standard compliance claim."
+      does_not_block: "Evidence-based paragraph pedagogy and print QC."
+      proof_required_to_close: "Separately authorized protected-reference refresh and new mapping against verified 2026 framework."
+  freshness:
+    inspectie_checked_on: "2026-09-05"
+    optional_inspectie_mapping: "omitted"
+    reason: "Protected reference last verified 2026-04-12 against 2025; official 2026 framework now exists. No protected-reference edit."
+  scope_limits:
+    - "Fresh Part A record only; historical unrelated top-level fields above are preserved, not current acceptance."
+    - "No companion block existed; none invented. No source/output/asset/plan/target/shared-script mutation."
+    - "No measured attainment, whole-book/chapter acceptance, responsive UI, blanket accessibility, PR readiness or merge authorization."
+    - "Root owns integration, combined indexes, downstream handoff and final exact-head CI."
