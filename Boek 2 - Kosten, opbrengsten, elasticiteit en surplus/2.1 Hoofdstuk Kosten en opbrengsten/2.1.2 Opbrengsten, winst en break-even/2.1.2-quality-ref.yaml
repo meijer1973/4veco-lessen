@@ -22,10 +22,33 @@ partA:
   specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-QC-CURRENT-result.md"
   specialist_verification: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-QC-CURRENT-evidence/final-integrity.json"
   hard_fails_open: 0
-  root_validation: "PENDING"
-  root_acceptance: "PENDING"
-  handoff_renewal: "PENDING"
+  root_validation:
+    status: "PASS"
+    actor: "codex-root"
+    date: "2026-09-06"
+    verification_commit: "14a62363855a4be3559288f1d962ac242c77c30d"
+    repository: "4veco-platform"
+    report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-root-qc-result.md"
+    integrity: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-root-qc-evidence/final-integrity.json"
+    integrity_sha256: "5d38a8227b5b5c0ef2cc61ae4ce91f6335eef2b1cda67d2d1f15cbc332e21ade"
+    actual_checks: "25 tests; full r24, thin r25, direct print r26; native checker; both Part A profiles; paragraph_production and specialist_review currentness; durable authority; active bundle."
+    custody: "34 native files, 81 fresh raw/RGB page comparisons, 270 imported evidence files, 771 historical files, 1902 lesson files unchanged before acceptance."
+    personal_views: 0
+  root_acceptance:
+    status: "ACCEPTED WITH FLAGS"
+    actor: "codex-root"
+    date: "2026-09-06"
+    scope: "Internal exact current Part A paragraph; independent paragraph and specialist judgments preserved."
+    required_corrections: []
+    flags_retained: ["212-R5-TIME", "212-R5-RECAP", "212-QC-INSPECTIE-FRESHNESS"]
+    limits: "No observed attainment, Part B commission, chapter/book acceptance, full CI, PR readiness or future merge authorization."
+  handoff_renewal:
+    status: "RENEWED"
+    file: "2.1.2-textbook-handoff.md"
+    sections: 9
+    companion: "NOT_COMMISSIONED"
   production_ready: false
+  production_ready_with_flags: true
   reviewed_payload:
     platform_commit: "f257056d0a455c660ccb598cb4da734b36eefd80"
     lesson_commit: "219a977e495abe43c17949e7d8996aab4176faa0"
@@ -42,7 +65,12 @@ partA:
     target_points_by_part: [2, 2, 3, 4]
   current_succession:
     technical_complete_byte_verification: "PASS"
-    root_lineage_flag_closure: "PENDING"
+    root_lineage_flag_closure:
+      status: "CLOSED"
+      actor: "codex-root"
+      date: "2026-09-06"
+      verification_commit: "14a62363855a4be3559288f1d962ac242c77c30d"
+      reason: "Exact whole-generator accepted211 succession, consumed authority, all native outputs and independent current reviews verified; no content/hash drift waiver."
     accepted_211_review_sha256: "a75755c7c2e6cdffb2defcbb5403814cf854d87bfae9a8172dd768aadb5b8023"
     accepted_211_qc_sha256: "c85c44a53d46af87ad61500b83b0fd721fac43c97ffd1be3d512308158a4b9f5"
     accepted_211_lesson_commit: "5e14325d70b6cc6aee643d9b57395c92b0904ffb"
