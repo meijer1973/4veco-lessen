@@ -96,9 +96,31 @@ partA:
     protected_reference_update: "Separate follow-up; 2026 framework update found, reference unchanged."
   unresolved_blockers: 0
   flags: ["F224-TIME53.5/63.5/71.5-UNOBSERVED", "F224-ROOT-PENDING", "F224-AGGREGATE", "F224-INSPECTIE-REF"]
-  root_validation: "PENDING"
-  root_acceptance: "PENDING"
-  handoff: "PENDING_NOT_CREATED"
+  root_validation:
+    status: "PASS"
+    actor: "codex-root"
+    verification_commit: "8a92dcd7884faa3cf8114f5125b60bb22876c1f2"
+    evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-224-QC-ROOT-preaccept-integrity.json"
+    evidence_raw_sha256: "741eaff926232465341e731c7f979d0c7aba4b9fa0bb3361ca270505c6ae86ba"
+    root_native_routes: "fullr14/thinr15/guarded-directr16"
+    native_files: 15
+    raw_RGB_page_comparisons: 60
+    root_personal_views: 0
+    specialist_personal_views_attributed: 48
+    real_release_whole_source_namespace_negatives: 141
+  root_acceptance:
+    status: "ACCEPTED WITH FLAGS"
+    actor: "codex-root"
+    scope: "Current internal Part A paragraph only; not final student, chapter/book, companion or merge release."
+    required_corrections: []
+    closed_specialist_flags: ["F224-ROOT-PENDING"]
+    retained_flags: ["F224-TIME53.5/63.5/71.5-UNOBSERVED", "F224-AGGREGATE", "F224-INSPECTIE-REF"]
+    historical_specialist_metadata: "Preserved unchanged above; the former root-pending phase flag is closed by this exact root decision."
+  handoff:
+    status: "CREATED"
+    file: "2.2.4-textbook-handoff.md"
+    companion: "NOT_COMMISSIONED"
   production_ready: false
+  production_ready_with_flags: true
   hosted_full_CI_claim: false
   companion_scope: "NOT_COMMISSIONED; no prior companion block existed and none is added. Part A review only."
