@@ -8,126 +8,151 @@ status: integrated_repository_sprint_pass_with_flags
 partA:
   paragraph: "2.1.2"
   title: "Opbrengsten, winst en break-even"
-  generated: "2026-09-05"
-  reviewed_on: "2026-09-05"
+  generated: "2026-09-06"
+  reviewed_on: "2026-09-06"
   review_file: "2.1.2-review.md"
   review_verdict: "PASS WITH FLAGS"
-  review_sha256: "74ad2ed9c44d9aa05b6d6a680d5d273f2cad4b62e4bead5db303c006514238cd"
-  paragraph_reviewer: "correction_plan_review"
-  paragraph_review_record_commit: "406e0b0af719d4b1720f19e0fb63c2516881955f"
-  paragraph_review_record: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-paragraph-review-r5.md"
-  specialist_reviewer: "paragraph_212_qc"
+  review_sha256: "79429b9f1750710baae46751a5792e4a02e7c177888a01f5ca3a15c4039a78f7"
+  paragraph_reviewer: "paragraph_212_r7_independent_review; actual delegated actor paragraph_213_r7_independent_review"
+  specialist_reviewer: "paragraph_214_builder"
+  specialist_role: "independent212specialistQC"
+  specialist_task: "BOOK2-TEXTBOOK-PRODUCTION-1-212-QC"
   specialist_verdict: "PASS WITH FLAGS"
   specialist_report_repository: "4veco-platform"
-  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-specialist-review-r5.md"
-  specialist_verification: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-QC-verification.json"
+  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-QC-CURRENT-result.md"
+  specialist_verification: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-QC-CURRENT-evidence/final-integrity.json"
   hard_fails_open: 0
+  root_validation: "PENDING"
+  root_acceptance: "PENDING"
+  handoff_renewal: "PENDING"
+  production_ready: false
   reviewed_payload:
-    platform_commit: "16eca0301ae66071830606b95ae0b7866395068f"
-    lesson_commit: "afc2ed53e6ae5f85bbeaa3c61172fc419b59e08f"
-    qc_platform_base: "3bf29a96cbdbcb1f51570b3ec39ff61d115c680c"
-    qc_lesson_base: "7867b72a7829ef96cbd1aa451e89aebcec79da0b"
+    platform_commit: "f257056d0a455c660ccb598cb4da734b36eefd80"
+    lesson_commit: "219a977e495abe43c17949e7d8996aab4176faa0"
+    operational_qc_plan_commit: "a3f8a9712adea7ddd2f479efe4ebb0d3a1a583ee"
+    generator_sha256: "59fd442ed1d9e6edb2277df3746fecc3bfc08451f3bbb037f5c3cd4ef3b14270"
     paragraph_plan_canonical_lf_sha256: "5e1d318dd1b841467ca297d67956304d1861e3eb68d1df56cc4d32f6434d34a4"
     chapter_plan_canonical_lf_sha256: "ef3f872f5caa2de1359639983d8e4907a34cfcbc80a0309826cff07201e49116"
     frozen_target_record_sha256: "19b466dd6f7b541a3bb701d4de80ce13fe9ea58356313e24b23b21698093e1f9"
     target_record_status: "candidate_review_ready"
-    target_authority: "separate integrated frozen-package grant; no status promotion"
+    target_authority: "Separate integrated frozen-package grant; no status promotion or changed approvals."
     target_goals: 4
     target_subquestions: 4
     target_points: 11
+    target_points_by_part: [2, 2, 3, 4]
+  current_succession:
+    technical_complete_byte_verification: "PASS"
+    root_lineage_flag_closure: "PENDING"
+    accepted_211_review_sha256: "a75755c7c2e6cdffb2defcbb5403814cf854d87bfae9a8172dd768aadb5b8023"
+    accepted_211_qc_sha256: "c85c44a53d46af87ad61500b83b0fd721fac43c97ffd1be3d512308158a4b9f5"
+    accepted_211_lesson_commit: "5e14325d70b6cc6aee643d9b57395c92b0904ffb"
+    source_bound_imported_paths: 311
+    historical_proof_files: 171
+    tests_passed: 25
+    prior_qc_sha256: "e168e3c2b8698d12b699fbf60e7691fbbc8a15d61bd46a7988704d3c896c805c"
+    unchanged_stale_handoff_sha256: "de2b8ed7dcc7a3c5c6eaac400892d2d37ac5212ccb3b9972fb004115a88c1fe2"
   assets:
     total_referenced: 11
     svg_count: 11
     png_count: 11
-    bases: ["2.1.2_fig_1","2.1.2_fig_2","2.1.2_fig_3","2.1.2_fig_4","2.1.2_we_1","2.1.2_ex_1","2.1.2_ex_2","2.1.2_ex_3","2.1.2_ex_4","2.1.2_ex_5","2.1.2_ex_6"]
+    bases: ["2.1.2_fig_1", "2.1.2_fig_2", "2.1.2_fig_3", "2.1.2_fig_4", "2.1.2_we_1", "2.1.2_ex_1", "2.1.2_ex_2", "2.1.2_ex_3", "2.1.2_ex_4", "2.1.2_ex_5", "2.1.2_ex_6"]
     missing: []
     svgpng_paired: true
     naming_compliant: true
-    fresh_svg_png_raw_byte_parity: true
+    fresh_svg_png_raw_byte_and_pixel_parity: true
+    all_actual_html_alts_and_full_captions_checked: true
+  reproducibility:
+    native_artifacts: 34
+    paragraph_folder_files: 40
+    runtime: "Python 3.14.3, original inherited PATH; actual loaded DLL hashes and complete argv recorded."
+    full: "r20 PASS after root-authorized controlled native recovery from exact failed r19 state"
+    thin: "r21 PASS"
+    direct_print: "r22 PASS"
+    additional_full_rebuild: "r23 PASS, followed by inspection-only native checker"
+    failed_r19: "Preserved FAIL: original dispatch MSYS-FIRST selected a different backend; 20 rendered artifact changes. No manual restore or source/guard change."
+    original_native_raw_parity: true
+    original_27_page_raw_and_decoded_pixel_parity: true
+    original_11_figure_raw_and_decoded_pixel_parity: true
+    zip_members_safe_unique_current_crc_checked: true
+    native_pending_manifests_unchanged: 15
+    native_pending_pages_inspected_lists: "All empty; personal inspection is separately recorded."
   rendered_evidence:
     repository: "4veco-platform"
-    proof_root: "reports/rendered-proof/BOOK2-TEXTBOOK-PRODUCTION-1"
+    proof_root: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-QC-CURRENT-evidence/proofs"
+    personal_inspection_file: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-212-QC-CURRENT-evidence/personal-inspection.json"
+    personal_inspection_sha256: "df9979e3d8ef99981a0490b756cf1c0290b9cb7c1972cb7fa4d0f825b6f06247"
     all_pages_individually_inspected: true
     normal_reading_scale: true
-    pages_inspected: 27
+    full_color_pages_inspected: 27
+    full_grayscale_pages_inspected: 27
+    native_color_figures_inspected: 11
+    native_grayscale_figures_inspected: 11
+    actual_personal_views: 76
     minimum_pdf_text_pt: 12
-    embedded_diagram_text_pt_lower_bound: 12.548
+    embedded_diagram_text_pt_lower_bound: 12.548030598958333
+    all_native_label_actual_ink_within_canvas: true
     visible_student_defects: 0
-    fresh_poppler_page_hash_parity: true
-    grayscale_probes_personally_inspected: 2
+    figure_display_limit: "Whole uncropped native images viewed; UI resize is recorded, no pixel-1:1 display claim. Final full-page placement separately inspected."
     documents:
       - artifact: "paragraaf"
-        md_sha256: "f53521ed8812a4c8b8c33c1d66b34e0afe8425c1dffb1723f37771372b2baa09"
-        html_sha256: "be9a3618444b65cc3aa5c2a33b94a81c5cbe864da7e7ea8fea63d746a60ef006"
         pdf_sha256: "e94d42f66ab9966a3a024cfef061c2084fcc1e2a6ef9e61e50c699c9155ce7a2"
-        zip_sha256: "9e08b74bfb676bd92f07c56ebbb7767d8c380b49a1754b981fd8b45a0def492a"
-        zip_member_count: 19
-        same_edition_exact_inventory_and_raw_parity: true
-        proof_directory: "212-paragraaf-e94d42f66ab9-r5"
-        manifest_sha256: "db1a80500e15785ca605ff672704d3c66a22a0d15a256fff95a8582afd0f0ac5"
-        inspection_file: "212-paragraaf-e94d42f66ab9-r5/inspection.json"
+        html_sha256: "85eff0548ce75161a2935e2bb3d0bb470f30ec10e95996c670605574d89454b5"
         page_count: 14
+        zip_member_count: 19
+        proof_directory: "212-paragraaf-e94d42f66ab9-r20"
       - artifact: "opgaven"
-        md_sha256: "f96c6393ec72488d925d432dec256db714396f210107f5e5abd8f235bfccb938"
-        html_sha256: "69e45f51c2c5690235e1d68f54dadf76818e190b9e10a96afbcfb50c2f71eb85"
         pdf_sha256: "94ebe5d35207f6c605ca294a9e5bdccfa8c1a10e6717955e21abb3606a60406a"
-        zip_sha256: "d8e3e6714a09e50f6e702b2956f41ec37dfd73cb8b0044e8f90495738f5c1c20"
-        zip_member_count: 11
-        same_edition_exact_inventory_and_raw_parity: true
-        proof_directory: "212-opgaven-94ebe5d35207-r5"
-        manifest_sha256: "701acab4c0210e2744a32dd5ee3a08388942d20ec97314208a121674843fbc9f"
-        inspection_file: "212-opgaven-94ebe5d35207-r5/inspection.json"
+        html_sha256: "87c55209dd450e989476f2f9779feb88de9fac9bbc77a0805112a444ffb65a06"
         page_count: 7
+        zip_member_count: 11
+        proof_directory: "212-opgaven-94ebe5d35207-r20"
       - artifact: "antwoorden"
-        md_sha256: "d7dbebf97de900b7ecc4520e63c822201d39ce796c5c7e3aab83b4dcc9e900ee"
-        html_sha256: "767bf8ee21be2b67676e0a80558d7bbe373cc7cab8c8ac0c96a0056f7228f221"
-        pdf_sha256: "07a75d7b5b69344d38d5da9e5f2e0a3b964d86cc64c383b37809f8263fb33192"
-        zip_sha256: "810166af6f45837381a4b8333bbff08d279773ccc4419b839c6a25b8e05d69d1"
-        zip_member_count: 9
-        same_edition_exact_inventory_and_raw_parity: true
-        proof_directory: "212-antwoorden-07a75d7b5b69-r5"
-        manifest_sha256: "a6c832c6ad3416fa6bd84599ed402c3efbd806556af543fe50163bd12d1b75c2"
-        inspection_file: "212-antwoorden-07a75d7b5b69-r5/inspection.json"
+        pdf_sha256: "d55f1da66723cd6f932cbf0793ce79d8d4188d2d907244fd40cc6f6fbad5ac90"
+        html_sha256: "be02782985485caca268df98af897104d78feec9737032cd14803c978a318a82"
         page_count: 6
+        zip_member_count: 9
+        proof_directory: "212-antwoorden-d55f1da66723-r20"
   specialist_rubrics:
-    teacher_learning_quality: "PASS, 14/14; design judgment, not observed attainment"
-    student_experience: "PASS, 12/12; paired paper route only"
-    economics_and_mathematics: "PASS; every numerical chain and target answer independently recalculated"
-    dutch: "PASS; source and final-page language inspected"
-    visual_qa: "PASS, 10/10; bounded print rubric, no blanket accessibility claim"
+    teacher_learning_quality: "14/14: seven 0-2 dimensions, bounded design judgment, not observed attainment."
+    student_experience: "12/12: six 0-2 dimensions, native paper route only."
+    economics_and_mathematics: "PASS: all numerical chains independently derived; exact four-part 11-point target and two-question bonus with three explicit criteria."
+    dutch: "PASS: full pupil source and final pages read; no blocking language/encoding defect."
+    visual_qa: "10/10: five 0-2 dimensions within print scope; no blanket accessibility claim."
+    rendered_page_checks: "Eleven literal standard bullets plus supplemental minimum-type check, all 27 color and gray pages."
   timing:
     core_minutes_estimated: 54
     lesson_limit_minutes: 55
     supported_route_minutes_estimated: 67
     all_printed_items_minutes_estimated: 77
     classroom_observed: false
+    observation_status: "UNOBSERVED"
     equation: "2 motivation + 14 instruction/retrieval + 8 worked example + 2 recap + 6 Start + 10 independent + 12 target = 54"
-    outside_core: "Optional guided practice adds 13 minutes; bonus 6 and cumulative closing 4 require later/continuation or homework time."
+    outside_core: "Optional guided practice adds 13 minutes; bonus 6 and closing retrieval 4 require continuation/later or homework time."
   flags:
     - id: "212-R5-TIME"
       blocking: false
-      detail: "Unobserved 54-minute complete core has only one-minute margin; both full graph tasks must be counted."
+      detail: "Unobserved complete 54-minute core includes both full graph tasks and has only one minute margin."
       blocks: "Claims of observed completion or attained goals."
-      does_not_block: "Exact R5 design/print QC and normal root handoff decision."
-      proof_required_to_close: "Observed component times, student work and support needs; preserve extended support time without deleting required teaching or target parts."
+      does_not_block: "Exact current design/print QC and normal root acceptance decision."
+      proof_required_to_close: "Observe component times, student work and support needs; preserve extended support instead of deleting required teaching or target operations."
     - id: "212-R5-RECAP"
       blocking: false
-      detail: "Recap does not repeat given model/range and increasing-profit limitation; body and answers correctly bound operations."
-      blocks: "Claim that recap explicitly repeats every model qualification."
-      does_not_block: "Correct-body exact R5 package."
-      proof_required_to_close: "If enhanced, authorized source change, regeneration and renewed exact-output review."
+      detail: "Recap does not repeat every model/range/increasing-profit qualification; body and answers correctly bound the operations."
+      blocks: "Claim that recap itself explicitly repeats every qualification."
+      does_not_block: "Correct-body exact current package."
+      proof_required_to_close: "If enhanced, authorized source change, native regeneration and renewed exact-output review."
     - id: "212-QC-INSPECTIE-FRESHNESS"
       blocking: false
       detail: "Optional current inspection-framework mapping omitted because the protected reference predates official 2026 changes."
-      blocks: "Current-2026 inspection-standard compliance claim."
-      does_not_block: "Evidence-based paragraph pedagogy and print QC."
-      proof_required_to_close: "Separately authorized protected-reference refresh and new mapping against verified 2026 framework."
+      blocks: "Current-2026 Inspectie compliance claim."
+      does_not_block: "Evidence-based paragraph pedagogy and native print QC."
+      proof_required_to_close: "Separately authorized protected-reference refresh and new mapping against verified framework."
   freshness:
-    inspectie_checked_on: "2026-09-05"
+    inspectie_checked_on: "2026-09-06"
     optional_inspectie_mapping: "omitted"
-    reason: "Protected reference last verified 2026-04-12 against 2025; official 2026 framework now exists. No protected-reference edit."
+    reason: "Protected reference last verified 2026-04-12; official framework announced 2026-07-03, effective 2026-08-01. No protected edit."
   scope_limits:
-    - "Fresh Part A record only; historical unrelated top-level fields above are preserved, not current acceptance."
-    - "No companion block existed; none invented. No source/output/asset/plan/target/shared-script mutation."
-    - "No measured attainment, whole-book/chapter acceptance, responsive UI, blanket accessibility, PR readiness or merge authorization."
-    - "Root owns integration, combined indexes, downstream handoff and final exact-head CI."
+    - "Only this Part A block is current renewed QC. Legacy unrelated header/status preserved, not current acceptance."
+    - "No companion block existed; none invented. No final source/output/asset/plan/target/review/handoff change."
+    - "No measured attainment, whole-book/chapter acceptance, responsive UI, PDF/UA, screen-reader certification, full CI, PR readiness or merge authorization."
+    - "Root alone owns adoption, root validation/acceptance and canonical nine-section handoff renewal."
