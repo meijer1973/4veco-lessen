@@ -80,9 +80,28 @@ partA:
     all_material_minutes: "76-80"
     observation_status: "UNOBSERVED"
     core_equation: "2+9+7+2+4+3+8+7+10=52"
-  root_validation: "PENDING"
-  root_acceptance: "PENDING"
-  handoff_renewal: "PENDING"
+  root_validation:
+    status: "PASS"
+    actor: "codex-root"
+    date: "2026-09-06"
+    verification_commit: "ea154615122f13710eb821b479d06259ab52e8d3"
+    report_file: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-231-root-qc-result.md"
+    fresh_native_routes: "r20 full, r21 full reproduction, r22 thin, direct native print; all42 packet files and33 raw/RGB pages unchanged"
+    tests: "15 actual source tests PASS"
+    paragraph_profiles: "part-a student-web and publisher-print PASS; complete raw stdout/stderr in v2 records"
+    authority: "Approved specialist_review currentness, durable twelve-target guard and active sprint bundle PASS"
+    original_evidence: "209 imported paths and96 attributed specialist views bound; no new root personal-view claim"
+  root_acceptance:
+    status: "ACCEPTED WITH FLAGS"
+    actor: "codex-root"
+    date: "2026-09-06"
+    reviewed_lesson_candidate: "a907539349d9b7e97e8678b9099b45faa089edb7"
+    specialist_quality_ref_before_root_raw_sha256: "fa445ffe766131eb883fd54357952e3d8f21c4b14ad426aaf673567433df6bbf"
+    required_corrections: []
+    scope: "Internal Part A paragraph only; unchanged target, source, independent review and specialist judgments"
+    carried_flags: "UNOBSERVED52/64/76-80 timing; no AT/PDF-UA/current Inspectie/dependency-security certification; Part B and chapter/book/fullCI remain separate"
+    decision_boundary: "Earlier specialist PENDING statements describe its original gate; this later explicit root decision does not rewrite that history or authorize a PR merge"
+  handoff_renewal: "CREATED: 2.3.1-textbook-handoff.md; source boundary only, Part B not commissioned"
   production_ready: false
-  production_ready_with_flags: false
+  production_ready_with_flags: true
   boundary: "This independent paragraph QC recommendation does not authorize integration, PR merge, chapter/book/Part B acceptance, current full CI, measured classroom outcomes or handoff renewal. Root owns the next gate. No target changes."
