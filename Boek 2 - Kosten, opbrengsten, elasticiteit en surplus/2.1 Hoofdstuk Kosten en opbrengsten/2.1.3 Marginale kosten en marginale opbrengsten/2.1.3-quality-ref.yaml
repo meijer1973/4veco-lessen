@@ -83,7 +83,29 @@ partA:
     optional_inspectie_mapping: "OMITTED; protected 2026 reference refresh remains separately scoped"
     full_hosted_ci: "NOT CLAIMED"
     future_chapter_book_size: "Requires actual later assembly and rendered review, not this paragraph QC"
-  root_validation: "PENDING"
-  root_acceptance: "PENDING"
-  handoff_renewal: "PENDING"
+  root_validation:
+    status: "PASS"
+    actor: "codex-root"
+    verification_commit: "a2724b42c71962ae62acfc12411eea9fd21380b0"
+    evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-213-QC-ROOT-preaccept-integrity.json"
+    evidence_raw_sha256: "95570be7bb0a213a4603e2e4fca7bc50b6b5eea2cdb59ae87eb4a3bdfd928bc4"
+    actual_test_methods: 23
+    actual_native_routes: ["full-r37", "thin-r38", "print-r39"]
+    native_files_unchanged: 24
+    raw_and_RGB_page_comparisons: 90
+    root_personal_views: 0
+    current_specialist_views_attributed: 72
+  root_acceptance:
+    status: "ACCEPTED WITH FLAGS"
+    actor: "codex-root"
+    date: "2026-09-06"
+    evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-213-QC-ROOT-acceptance.md"
+    required_corrections: []
+    scope: "Current internal Part A paragraph; not whole-book/student release, observed classroom attainment, companion commissioning or future PR integration"
+    accepted_prerequisite_succession: "CLOSED: exact five-pin211/212 succession independently reviewed and all three root routes reproduced"
+  handoff_renewal:
+    status: "RENEWED"
+    file: "2.1.3-textbook-handoff.md"
+    companion: "NOT_COMMISSIONED"
   production_ready: false
+  production_ready_with_flags: true
