@@ -1,0 +1,88 @@
+schema_version: 2
+partA:
+  review_file: "2.3.1-review.md"
+  review_verdict: "PASS WITH FLAGS"
+  review_raw_sha256: "8f86129b14ef508e16f41d918299da7af2422655ff14fc9ba91b68a9b66e8943"
+  review_canonical_lf_sha256: "8f86129b14ef508e16f41d918299da7af2422655ff14fc9ba91b68a9b66e8943"
+  approved_plan_file: "2.3.1-textbook-plan.md"
+  approved_plan_canonical_lf_sha256: "60d6a743681e1361478395a591b7c82e44acf8c4587a93c4cc842b036cf017b1"
+  specialist_qc:
+    reviewer: "paragraph_231_specialist_qc"
+    role: "Distinct independent specialist QC; not source author, canonical paragraph reviewer or root integrator"
+    date: "2026-09-06"
+    verdict: "PASS WITH FLAGS"
+    platform_baseline: "35e0bebb75cc3987c43dd8f480e1b444bd877f4a"
+    lessons_baseline: "219a977e495abe43c17949e7d8996aab4176faa0"
+    report_repository: "meijer1973/4veco-platform"
+    report_file: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-231-QC-report.md"
+    teacher_learning_quality_score: "14/14; seven applicable design categories, not observed attainment"
+    student_experience_score: "12/12; six applicable paper-design categories"
+    visual_accessibility_score: "10/10; five categories within static Part A scope"
+    paper_contract_criteria: "All12 assessed separately; timing remains UNOBSERVED"
+    hard_fails_open: 0
+  assets:
+    missing: []
+    svgpng_paired: true
+    naming_compliant: true
+    pairs: 15
+    actual_placed_occurrences: 19
+    native_png_dimensions: "2400x1800"
+    source_svg_text: "Arial30pt regular;1200x900 viewBox"
+    actual_print_placement: "166x124.5mm; effective figure text15.685pt"
+    essential_contrast_minimum: 4.979844381678061
+    color_independent_meaning: "Direct labels, solid/dashed boundaries and CS hatching; all pages and figures inspected in grayscale"
+  rendered_page_proof:
+    required: true
+    pdf_rendered_to_png: true
+    pages_inspected: "all33 fresh r17 pages:14 paragraph,9 exercises,10 answers; color and grayscale"
+    personally_inspected_images: 96
+    native_figures_inspected: "all15 independently in color and grayscale, plus all19 placed occurrences"
+    inspected_at_normal_reading_scale: true
+    visible_student_defects: 0
+    figure_legibility_passed: true
+    table_overflow_passed: true
+    minimum_pdf_text_pt: 12
+    inspection_file: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-231-QC-personal-inspection-r17.json"
+    inspection_raw_sha256: "0617dd369111e6174bfd50854dbef3dd781f6e9b99cb5e2d45a6971a1f460339"
+    proof_root: "reports/rendered-proof/BOOK2-TEXTBOOK-PRODUCTION-1"
+    generation_manifests: "r17/r18/r19 and all inherited generation proofs stay immutable PENDING; independent inspection is recorded separately"
+    paragraaf_pdf_sha256: "088102a97130cc69907b7142c81056b6f9672cbfd09a828c4ceba5ea4d82cd5e"
+    opgaven_pdf_sha256: "4a7e87e641d558117d158f573aaf3bcd78395b2249ac73bfcb8a7491b6be3341"
+    antwoorden_pdf_sha256: "d1297dee5b1834e99d66919c29477a19f5169fa62c302354db433ae44d8d5f7b"
+  reproducibility:
+    native_runtime: "C:/Python314/python.exe3.14.3; inherited Windows PATH"
+    native_full_revision: "r17"
+    full_reproduction_revision: "r18"
+    thin_reproduction_revision: "r19"
+    native_direct_print_only: "PASS;42 raw files identical"
+    native_packet_files: 42
+    zip_member_counts: [19, 11, 17]
+    zip_integrity: "Exact unique safe members; CRC/size/raw member bytes and whole ZIP identity"
+    page_parity: "33 raw and decoded RGB pixel comparisons identical across root r14 and fresh r17/r18/r19"
+    native_source_tests: "15 actual tests passed"
+    real_authority_negative_probes: 16
+    native_manifest_r17_raw_sha256: "ddb1a19810e263ab8af5e5457d8906b91332da5b6e3fcb66e7f5747ed41f862f"
+    native_manifest_r18_raw_sha256: "da1ae39fb83f81f2ec89210e5471bbce213bba1fb7100eeb6087e72711923d9e"
+    native_manifest_r19_raw_sha256: "eb0f92382f07ded6ba0f7574cde525e5750f272fe138ac1f32cb1328a62e8cde"
+    reproduction_file: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-231-QC-native-reproduction.json"
+    reproduction_raw_sha256: "83594208af496279dbb421f7c86cf8efe16532f25bdb04435925a4bd518aa1b1"
+    independent_probes_file: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-231-QC-probes-result.json"
+    independent_probes_raw_sha256: "ef025a1c7b8ae627debd7426c2a7438e41fceefc7441e6c4dd1f7e48dd25f8ed"
+  applicability:
+    interaction_keyboard_hover_tap: "N/A: static paper/print HTML, no interactive controls"
+    ocr: "N/A: born-digital text"
+    screen_reader_execution: "Not performed; semantic lang/headings/alts/captions checked; no AT or PDF/UA certification"
+    companion_mobile_pptx: "Out of scope; no Part B acceptance"
+    inspectie_mapping: "Optional deferred; no current formal compliance claim"
+  timing:
+    core_minutes: 52
+    core_plus_support_minutes: 64
+    all_material_minutes: "76-80"
+    observation_status: "UNOBSERVED"
+    core_equation: "2+9+7+2+4+3+8+7+10=52"
+  root_validation: "PENDING"
+  root_acceptance: "PENDING"
+  handoff_renewal: "PENDING"
+  production_ready: false
+  production_ready_with_flags: false
+  boundary: "This independent paragraph QC recommendation does not authorize integration, PR merge, chapter/book/Part B acceptance, current full CI, measured classroom outcomes or handoff renewal. Root owns the next gate. No target changes."
