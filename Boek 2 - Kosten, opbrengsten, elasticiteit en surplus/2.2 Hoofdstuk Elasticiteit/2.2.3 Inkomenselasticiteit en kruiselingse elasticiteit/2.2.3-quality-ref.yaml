@@ -29,10 +29,40 @@ partA:
   legacy_record_superseded: "Flat June Part A record; no companion block existed or was altered."
   unresolved_blockers: 0
   production_ready: false
-  production_ready_with_flags: false
-  root_validation: "PENDING"
-  root_acceptance: "PENDING"
-  handoff_status: "ABSENT; renewal PENDING separate root validation and acceptance"
+  production_ready_with_flags: true
+  root_validation:
+    status: "PASS"
+    actor: "codex-root"
+    date: "2026-09-06"
+    verification_commit: "12c0d668c084789b73146f05db13aa7aaf337c63"
+    report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-root-qc-result.md"
+    integrity_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-root-qc-final-integrity.json"
+    integrity_sha256: "99542fe8aff50812b2aa023cf179612ad6422ea3f4a82d66b7b449bc5f53d35f"
+    native_tests: 22
+    native_revisions: ["r28", "r29", "r30"]
+    native_files: 20
+    raw_and_decoded_page_comparisons: 96
+    attributed_distinct_personal_views: 144
+    root_personal_views: 0
+    current_profiles_and_authority: "PASS; both Part A profiles, paragraph/specialist currentness, durable authority and active bundle"
+  root_acceptance:
+    status: "ACCEPTED WITH FLAGS"
+    actor: "codex-root"
+    date: "2026-09-06"
+    scope: "Current internal Part A paragraph only; not full book, hosted CI, observed learning or PR merge"
+    required_corrections: []
+    lineage_flag_closure:
+      id: "F223-LINEAGE"
+      status: "CLOSED"
+      verification_commit: "12c0d668c084789b73146f05db13aa7aaf337c63"
+      basis: "Four accepted221 inputs, exact whole-generator succession, distinct paragraph and current specialist QC, root native parity and actual gates"
+    flags_retained: ["F223-TIME", "Optional Inspectie mapping omitted", "Final aggregate/current CI and observation gates remain"]
+    historical_specialist_flags: "Preserved verbatim below; F223-LINEAGE is closed only by this later explicit root decision"
+  handoff_status:
+    status: "RENEWED"
+    file: "2.2.3-textbook-handoff.md"
+    companion: "NOT_COMMISSIONED"
+    downstream: "Current accepted source for already reviewed224 plan; separate normal production release and reviews still required"
   reviewer_independence: "Original specialist author, not 223 pupil/ALT author or paragraph/S1/ALT/noun reviewer; attributed mechanical verifier, fresh own mathematics and 72 personal views."
   target_exercise_status: "candidate_review_ready"
   target_authority: "Exact frozen governed integration, no target-registry change in this QC"
