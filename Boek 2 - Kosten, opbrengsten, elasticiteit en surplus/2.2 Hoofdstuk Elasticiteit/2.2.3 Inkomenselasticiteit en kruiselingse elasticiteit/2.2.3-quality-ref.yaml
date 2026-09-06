@@ -8,27 +8,32 @@ partA:
   reviewed_on: "2026-09-06"
   review_mode: "part-a"
   profiles: ["student-web", "publisher-print"]
-  paragraph_review_sha256: "793c8460e7d20e8a2e40d7e8912c969c94a091e67fa25566c812264c8769539e"
+  paragraph_review_sha256: "56883966bb05a60b395e6d53d9228d4e801072818c00b8634dd2c60a1de3121f"
   specialist_reviewer: "paragraph_214_builder"
-  specialist_role: "independent223specialistQC"
-  specialist_task: "BOOK2-TEXTBOOK-PRODUCTION-1-223-QC"
-  specialist_verdict: "REVISE"
-  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-report.md"
-  specialist_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-personal-inspection.json"
-  specialist_evidence_sha256: "e16a4d04aa7e454acd21112bfeb20a78546c89387ef17a78b9f33ac8b6d418f8"
-  mathematics_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-independent-mathematics.json"
-  mathematics_evidence_sha256: "3313dd3b0ce743392ef6df208ed87114949c404a16831632c4dde3395c8e821f"
-  reviewed_platform_commit: "21c9600f55a19d4f65f3832f4b98098351331f4d"
-  reviewed_lessons_commit: "219a977e495abe43c17949e7d8996aab4176faa0"
+  specialist_role: "independent223specialistQCRenewal"
+  specialist_task: "BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-RENEWAL"
+  specialist_verdict: "PASS WITH FLAGS"
+  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-RENEWAL-report.md"
+  specialist_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-RENEWAL-personal-inspection.json"
+  specialist_evidence_sha256: "f986311af79081ddbb3edf68032958a0d4fd03af4f2470d89ea43bd58cf1b0b5"
+  mathematics_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-RENEWAL-independent-mathematics.json"
+  mathematics_evidence_sha256: "3419a88c5e4241cc3ef8e4fb0947f895ade2dbf4fdf2f367a8c7eefccd66cd9a"
+  reviewed_platform_commit: "b3773c9b2a085ff83e82d7e71384ef10337d7c9c"
+  reviewed_lessons_commit: "a52206c0cc9e2578b57e285909c77134bb47657e"
+  review_only_successor_lessons_commit: "6ba3bbdff3de31261b63d71ee992b33b07bce50d"
+  review_successor_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-RENEWAL-review-successor.json"
+  review_successor_evidence_sha256: "619716132df859bf376694f5f9a87059ce2d9d3d9c3982ec606bfac3324040ba"
+  original_specialist_revise_sha256: "6d93128f5cdcd363fc4a7e5a6e5d462162f130a18f4f01fd4656be22ef9e2586"
+  original_specialist_snapshot: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-RENEWAL-original-QC-snapshot.json"
   legacy_quality_ref_sha256: "72b046c30f128448baf0b8794a538951e9c2105be1b62afee5be9cda3e4b1a77"
   legacy_record_superseded: "Flat June Part A record; no companion block existed or was altered."
-  unresolved_blockers: 1
+  unresolved_blockers: 0
   production_ready: false
   production_ready_with_flags: false
   root_validation: "PENDING"
   root_acceptance: "PENDING"
-  handoff_status: "ABSENT; renewal PENDING root action after correction and current QC"
-  reviewer_independence: "This actor did not author 223 or its paragraph/S1 delta reviews; reused root mechanical verifier is attributed, own mathematics and personal views are separate."
+  handoff_status: "ABSENT; renewal PENDING separate root validation and acceptance"
+  reviewer_independence: "Original specialist author, not 223 pupil/ALT author or paragraph/S1/ALT/noun reviewer; attributed mechanical verifier, fresh own mathematics and 72 personal views."
   target_exercise_status: "candidate_review_ready"
   target_authority: "Exact frozen governed integration, no target-registry change in this QC"
   target_record_sha256: "9a3a29bcedc16739b74b66b2bb8e136b37e86c7f5cfee3ee35ea37c4bdeed1c5"
@@ -42,7 +47,7 @@ partA:
     svgpng_paired: true
     naming_compliant: true
     alt_text_present: true
-    functional_short_alt_verdict: "REVISE B223-ALT-01"
+    functional_short_alt_verdict: "PASS; B223-ALT-01 closed with functional109/118-character alternatives at all three actual HTML occurrences, complete visible captions preserved"
   content:
     paragraaf_md: true
     opgaven_md: true
@@ -64,14 +69,14 @@ partA:
   rendered_proof:
     original_and_new_manifests: "PENDING, immutable, pages_inspected empty; personal inspection separately bound"
     specialist_printed_inspection: "PASS: all 32 fresh full-color and grayscale pages, all four full native PNG figures and grays personally inspected"
-    html_accessibility: "REVISE: three actual img-alt occurrences require functional descriptions"
+    html_accessibility: "PASS: all three corrected actual alternatives and unhidden full captions personally checked; no PDF/UA certification"
     pages: [15, 10, 7]
     page_views: 64
     figure_views: 8
-    full_revision: "r14"
-    thin_revision: "r15"
-    print_revision: "r16"
-    additional_logged_print_revision: "r18; own r17 preflight collision consumed and preserved"
+    full_revision: "r25"
+    thin_revision: "r26"
+    print_revision: "r27; fully file-backed complete argv"
+    prior_failures: "Original r5 EISDIR and original QC r17 preflight collision preserved; no new native failure in renewal"
     minimum_text_pt_including_footer: 12
     minimum_placed_figure_label_pt: 14.117
     native_figure_width_mm: 166
@@ -79,31 +84,31 @@ partA:
     opgaven_pdf_sha256: "50cf2bbeaa198c45d1832cf6112b0f50ccb0dfc3d171f110b2a09f2bb1f62f80"
     antwoorden_pdf_sha256: "30cd682358c5eeb8cb6af53cf72e3ebcfc8feaf14856e3f671a850fe45de2e10"
   native_checks:
-    targeted_tests_passed: 14
+    targeted_tests_passed: 22
     raw_native_files: 20
     whole_paragraph_files_before_qc_edit: 25
     zip_members: [11, 5, 3]
     all32_raw_and_decoded_pixel_parity: true
     all4_native_figure_pixel_parity: true
     actual_native_checker_additional_rebuild: "PASS"
-    part_a_profiles: "PASS structural only; specialist remains REVISE"
+    part_a_profiles: "PASS structural; independent specialist PASS WITH FLAGS, root acceptance separate"
     approved_currentness: "PASS"
     durable_target_authority: "PASS"
     active_sprint_bundle: "PASS"
-    prior_288_imported_files: "Source-bound and unchanged"
+    prior_1115_imported_evidence_files: "Source-bound and unchanged; 23 distinct review-noun import files separately exact"
   specialist_scores:
     teacher_learning: "14/14 learning-design PASS; timing unobserved, no attainment claim"
-    student_experience: "11/12 REVISE; graphical alternative-text linking needs correction"
-    visual_quality: "9/10 REVISE; accessibility needs correction"
+    student_experience: "12/12 PASS; actual functional alternatives and printed graphical links checked"
+    visual_quality: "10/10 PASS; no color-only meaning, actual ink bounds and full-page views"
     part_a_contract: "All 12 evaluated; 55-minute desk feasibility carries observation flag"
     rendered_page: "11 canonical checks plus grayscale extension pass on printed surfaces"
-  blockers:
+  blockers: []
+  closed_blockers:
     - id: "B223-ALT-01"
-      evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-blocking-finding.json"
-      evidence_sha256: "e6609c89286ca15b2c3d5fa321af681847031bfa48605d2f8b35e45be699594a"
-      issue: "Actual HTML alternatives for figure 2 and both occurrences of figure 4 are imperative captions, not concise noun-first functional descriptions."
-      blocks: "Current specialist approval, student readiness, root acceptance and handoff renewal"
-      required_fix: "Distinct author explicit source alternatives, preserve full visible captions and all printed content/geometry; native regeneration, independent delta verification and specialist recheck"
+      original_finding_sha256: "e6609c89286ca15b2c3d5fa321af681847031bfa48605d2f8b35e45be699594a"
+      current_metadata_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-RENEWAL-metadata.json"
+      current_metadata_evidence_sha256: "7d66e573bf0322dee45dac2537b8cceb95ee34d05c9a41d00c717f33e2a572b8"
+      closure: "Distinct source author and independent ALT review, then current specialist actual source/HTML semantics, exact native reproduction and 72 fresh views; full captions unchanged"
   timing:
     whole_core_minutes: 54
     equation: "2 + 11 + 8 + 2 + 6 + 14 + 11"
