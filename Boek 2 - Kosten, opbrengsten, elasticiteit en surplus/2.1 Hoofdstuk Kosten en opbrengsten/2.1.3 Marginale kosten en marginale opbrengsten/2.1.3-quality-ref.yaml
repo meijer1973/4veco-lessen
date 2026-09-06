@@ -1,29 +1,89 @@
-id: 2.1.3
-title: Marginale kosten en marginale opbrengsten
-status: integrated_repository_sprint_pass_with_flags
-record_status_upstream: reviewed_final
-part_a_scope: true
-part_b_scope: false
-target_trace:
-  registry: references/authored/course-target-exercises.json
-  record_id: 2.1.3
-  source_ref: references/owned/course-blueprint-v5.md §2.1.3
-  target_status_promotion_sprint: B2-2.1-TARGET-V5-PROMOTE
-quality_summary:
-  target_exercise_aligned: true
-  subquestions_uppercase: true
-  markdown_first_source: true
-  visuals_present: true
-  pdfs_rendered_and_inspected: true
-  no_calculus_scope_creep: true
-  no_profit_maximisation_scope_creep: true
-  equality_case_explained_without_profit_maximisation_rule: true
-repository_sprint:
-  id: B2-2.1.3-HARDEN
-  lead_review_required: true
-  lead_review_final_verdict: PASS WITH FLAGS
-  imported_into_canonical_folder: true
-  rendered_outputs_regenerated: true
-  chapter_assembly_regenerated: true
-required_follow_up:
-  - Monitor Chapter 2.1 PDF-size warning during later chapter and book print assembly.
+schema_version: 2
+partA:
+  id: "2.1.3"
+  title: "Marginale kosten en marginale opbrengsten"
+  review_file: "2.1.3-review.md"
+  review_verdict: "PASS WITH FLAGS"
+  review_sha256_lf: "5064642034fac9763202d2424b87cef2f7cc909aaf3a6031b90d247ee44409c3"
+  specialist_review:
+    actor: "paragraph_231_specialist_qc"
+    task: "BOOK2-TEXTBOOK-PRODUCTION-1-213-QC-CURRENT"
+    generated: "2026-09-06"
+    verdict: "PASS WITH FLAGS"
+    report_repository: "4veco-platform"
+    report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-213-QC-CURRENT-report.md"
+    report_raw_sha256: "04d82281e1159c331122d722a12ee2ef7b793f85a53a47b0567997aedcc8d9d1"
+    personal_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-213-QC-CURRENT-personal.md"
+    personal_report_raw_sha256: "92993a41ec629b11c53028ff674d48cc7dd69d5a2cd581903faf929ffdb0e903"
+    binding: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-213-QC-CURRENT-evidence/supplement.json"
+    binding_raw_sha256: "74b17bb33515db4a9bf892703832d16ce83c8a88915616d5f448ff455eec5231"
+    teacher_score: "14/14"
+    student_score: "12/12"
+    visual_score: "10/10"
+    accessibility: "PASS for scoped static Part A; no PDF/UA or screen-reader-user certification"
+    distinct_from_source_author_and_paragraph_reviewer: true
+  subject:
+    generator_raw_sha256: "87ce47b88520abbde45c18114816dae7630e31453c48e0c505c87b7e9b031ce4"
+    plan_sha256_lf: "4cf29ff1e70953f6d1f8399a65d63ad37031e6a129804ad555442bfb98624234"
+    chapter_plan_sha256_lf: "ef3f872f5caa2de1359639983d8e4907a34cfcbc80a0309826cff07201e49116"
+    frozen_target_sha256: "df4b7d7b0326445b386ae570b43eb50fc9fc431707e3992e44394323f959c3ef"
+    goals: 4
+    target_points: [4, 3, 2, 4, 2]
+    target_total_points: 15
+    actual_accepted_input_files: 7
+    controlled_s1_review_import: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-213-QC-CURRENT-import-mapping.json"
+  assets:
+    missing: []
+    svgpng_paired: true
+    naming_compliant: true
+    pairs: 6
+    actual_html_image_occurrences: 8
+    exact_reraster_bytes_and_pixels: true
+    short_alternatives: "All eight actual occurrences noun-first, functional, <=120 characters; full captions retained"
+  rendered_page_proof:
+    required: true
+    pdf_rendered_to_png: true
+    proof_repository: "4veco-platform"
+    proof_root: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-213-QC-CURRENT-evidence/proofs"
+    routes: ["full-r34", "thin-r35", "print-r36"]
+    personally_inspected_route: "full-r34"
+    pages: {paragraaf: 14, opgaven: 9, antwoorden: 7}
+    color_pages_personally_inspected: 30
+    grayscale_pages_personally_inspected: 30
+    native_color_figures_personally_inspected: 6
+    native_grayscale_figures_personally_inspected: 6
+    visible_student_defects: 0
+    figure_legibility_passed: true
+    table_overflow_passed: true
+    minimum_body_table_footer_pt: 12
+    minimum_placed_figure_pt: 15.685038248697916
+    exact_native_files: 24
+    zip_member_counts: [15, 7, 3]
+    all_routes_raw_and_rgb_page_parity: true
+    pending_generation_manifests_preserved: true
+    pdf_sha256:
+      paragraaf: "534177c8280eddd4785dce1491856c33c96cd698ae558b5136bdb206a79c7024"
+      opgaven: "d12487671bd2f2cfe329f59bc9c48cfec5f03b871626c5c4016e88c2646d5f05"
+      antwoorden: "d96f21c3abed471f3a12dd318cb1485043fe557e4a4d4b54034407763ae87787"
+  timing:
+    core_minutes: 54
+    core_with_guided_support_minutes: 66
+    all_items_minutes: 78
+    observation_status: "UNOBSERVED"
+    flag: "One-minute core margin; observe actual completion and support use before timing/attainment claims"
+  supersession:
+    authorized_legacy_to_v2_migration: true
+    legacy_raw_sha256: "c96a4af45cfbf6c43ceda27ecf6dd231c75667ece58b378b9080975fe4be717f"
+    legacy_evidence_repository: "4veco-platform"
+    legacy_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-213-QC-CURRENT-evidence/legacy-quality-ref-original.yaml"
+    note: "Historical integrated/reviewed-final claims are not current acceptance; original record, failures and paragraph reviews remain immutable"
+  scope_boundaries:
+    formal_output_choice: "H-213-OPC2 OPEN and EXCLUDED"
+    companion: "NOT COMMISSIONED; no companion block or acceptance fabricated"
+    optional_inspectie_mapping: "OMITTED; protected 2026 reference refresh remains separately scoped"
+    full_hosted_ci: "NOT CLAIMED"
+    future_chapter_book_size: "Requires actual later assembly and rendered review, not this paragraph QC"
+  root_validation: "PENDING"
+  root_acceptance: "PENDING"
+  handoff_renewal: "PENDING"
+  production_ready: false
