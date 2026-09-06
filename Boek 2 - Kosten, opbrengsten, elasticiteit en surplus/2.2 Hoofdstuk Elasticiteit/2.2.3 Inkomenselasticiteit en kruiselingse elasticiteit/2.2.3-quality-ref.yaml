@@ -1,34 +1,120 @@
 paragraph: "2.2.3"
 title: "Inkomenselasticiteit en kruiselingse elasticiteit"
 chapter: "2.2 Hoofdstuk Elasticiteit"
-reviewed_on: "2026-06-19"
-review_mode: "part-a"
-target_exercise_status: "reviewed_final"
-target_status_promotion_sprint: "B2-2.2-TARGET-V5-PROMOTE"
-production_ready_with_flags: false
-content:
-  paragraaf_md: true
-  opgaven_md: true
-  antwoorden_md: true
-  paragraaf_pdf: true
-  opgaven_pdf: true
-  antwoorden_pdf: true
-  motivating_problem: true
-  worked_example: true
-  answer_structure_guidance: true
-  summary_box: true
-  help_note: true
-  staged_exercise_route: true
-  target_exercise: true
-  income_elasticity_sign_first: true
-  cross_elasticity_goods_named: true
-  demand_function_ceteris_paribus_route: true
-assets:
-  total_referenced: 0
-  missing: []
-  svgpng_paired: true
-  naming_compliant: true
-review:
-  verdict: "PASS"
-  unresolved_blockers: 0
-  flags: []
+schema_version: 2
+partA:
+  review_file: "2.2.3-review.md"
+  review_verdict: "PASS WITH FLAGS"
+  reviewed_on: "2026-09-06"
+  review_mode: "part-a"
+  profiles: ["student-web", "publisher-print"]
+  paragraph_review_sha256: "793c8460e7d20e8a2e40d7e8912c969c94a091e67fa25566c812264c8769539e"
+  specialist_reviewer: "paragraph_214_builder"
+  specialist_role: "independent223specialistQC"
+  specialist_task: "BOOK2-TEXTBOOK-PRODUCTION-1-223-QC"
+  specialist_verdict: "REVISE"
+  specialist_report: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-report.md"
+  specialist_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-personal-inspection.json"
+  specialist_evidence_sha256: "e16a4d04aa7e454acd21112bfeb20a78546c89387ef17a78b9f33ac8b6d418f8"
+  mathematics_evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-independent-mathematics.json"
+  mathematics_evidence_sha256: "3313dd3b0ce743392ef6df208ed87114949c404a16831632c4dde3395c8e821f"
+  reviewed_platform_commit: "21c9600f55a19d4f65f3832f4b98098351331f4d"
+  reviewed_lessons_commit: "219a977e495abe43c17949e7d8996aab4176faa0"
+  legacy_quality_ref_sha256: "72b046c30f128448baf0b8794a538951e9c2105be1b62afee5be9cda3e4b1a77"
+  legacy_record_superseded: "Flat June Part A record; no companion block existed or was altered."
+  unresolved_blockers: 1
+  production_ready: false
+  production_ready_with_flags: false
+  root_validation: "PENDING"
+  root_acceptance: "PENDING"
+  handoff_status: "ABSENT; renewal PENDING root action after correction and current QC"
+  reviewer_independence: "This actor did not author 223 or its paragraph/S1 delta reviews; reused root mechanical verifier is attributed, own mathematics and personal views are separate."
+  target_exercise_status: "candidate_review_ready"
+  target_authority: "Exact frozen governed integration, no target-registry change in this QC"
+  target_record_sha256: "9a3a29bcedc16739b74b66b2bb8e136b37e86c7f5cfee3ee35ea37c4bdeed1c5"
+  paragraph_plan_lf_sha256: "dd2f91d0035829986076b7d5e96b43fa9c45f3d3698da1d159a955634fa01497"
+  chapter_plan_lf_sha256: "3a9db97518b1948eb0967d94653a10c693a0ca001e20b41503b864fd4cc7c2f7"
+  assets:
+    total_referenced: 4
+    files: 8
+    missing: []
+    orphaned: []
+    svgpng_paired: true
+    naming_compliant: true
+    alt_text_present: true
+    functional_short_alt_verdict: "REVISE B223-ALT-01"
+  content:
+    paragraaf_md: true
+    opgaven_md: true
+    antwoorden_md: true
+    paragraaf_html: true
+    opgaven_html: true
+    antwoorden_html: true
+    paragraaf_pdf: true
+    opgaven_pdf: true
+    antwoorden_pdf: true
+    build_pdf_py: true
+    motivating_problem: true
+    worked_example: true
+    summary_box: true
+    printed_help_note: true
+    staged_exercise_route: true
+    exact_16_point_target: true
+    bonus_model_and_four_criteria: true
+  rendered_proof:
+    original_and_new_manifests: "PENDING, immutable, pages_inspected empty; personal inspection separately bound"
+    specialist_printed_inspection: "PASS: all 32 fresh full-color and grayscale pages, all four full native PNG figures and grays personally inspected"
+    html_accessibility: "REVISE: three actual img-alt occurrences require functional descriptions"
+    pages: [15, 10, 7]
+    page_views: 64
+    figure_views: 8
+    full_revision: "r14"
+    thin_revision: "r15"
+    print_revision: "r16"
+    additional_logged_print_revision: "r18; own r17 preflight collision consumed and preserved"
+    minimum_text_pt_including_footer: 12
+    minimum_placed_figure_label_pt: 14.117
+    native_figure_width_mm: 166
+    paragraaf_pdf_sha256: "ca27f8bd6cbb3b596e5621280d76631c5561134e9e53c3556725c313fdf8aecb"
+    opgaven_pdf_sha256: "50cf2bbeaa198c45d1832cf6112b0f50ccb0dfc3d171f110b2a09f2bb1f62f80"
+    antwoorden_pdf_sha256: "30cd682358c5eeb8cb6af53cf72e3ebcfc8feaf14856e3f671a850fe45de2e10"
+  native_checks:
+    targeted_tests_passed: 14
+    raw_native_files: 20
+    whole_paragraph_files_before_qc_edit: 25
+    zip_members: [11, 5, 3]
+    all32_raw_and_decoded_pixel_parity: true
+    all4_native_figure_pixel_parity: true
+    actual_native_checker_additional_rebuild: "PASS"
+    part_a_profiles: "PASS structural only; specialist remains REVISE"
+    approved_currentness: "PASS"
+    durable_target_authority: "PASS"
+    active_sprint_bundle: "PASS"
+    prior_288_imported_files: "Source-bound and unchanged"
+  specialist_scores:
+    teacher_learning: "14/14 learning-design PASS; timing unobserved, no attainment claim"
+    student_experience: "11/12 REVISE; graphical alternative-text linking needs correction"
+    visual_quality: "9/10 REVISE; accessibility needs correction"
+    part_a_contract: "All 12 evaluated; 55-minute desk feasibility carries observation flag"
+    rendered_page: "11 canonical checks plus grayscale extension pass on printed surfaces"
+  blockers:
+    - id: "B223-ALT-01"
+      evidence: "reports/sprints/BOOK2-TEXTBOOK-PRODUCTION-1-223-QC-blocking-finding.json"
+      evidence_sha256: "e6609c89286ca15b2c3d5fa321af681847031bfa48605d2f8b35e45be699594a"
+      issue: "Actual HTML alternatives for figure 2 and both occurrences of figure 4 are imperative captions, not concise noun-first functional descriptions."
+      blocks: "Current specialist approval, student readiness, root acceptance and handoff renewal"
+      required_fix: "Distinct author explicit source alternatives, preserve full visible captions and all printed content/geometry; native regeneration, independent delta verification and specialist recheck"
+  timing:
+    whole_core_minutes: 54
+    equation: "2 + 11 + 8 + 2 + 6 + 14 + 11"
+    guided_minutes_outside_core: 15
+    bonus_minutes_outside_core: 8
+    closing_minutes_outside_core: 4
+    core_plus_guided_minutes: 69
+    all_work_minutes: 81
+    observed: false
+  flags:
+    - "F223-TIME: 54/69/81 are UNOBSERVED desk estimates; optional work requires continuation/homework; no attainment inferred."
+    - "F223-LINEAGE: current four accepted 221 pins and technical succession verified; root decides flag closure after valid QC."
+    - "Optional Inspectie mapping omitted; protected April verification predates official 2026 update; refresh is separate."
+    - "No current full-suite/hosted CI, PDF/UA, Inspectie, classroom attainment, whole-book completion or PR/merge claim."
