@@ -1,264 +1,78 @@
-# 4veco-lessen Instructions
-
-you are a senior developer
-
-This repository is the student-facing lesson-material target. Do not treat it
-as the place where production logic lives.
-
-## Build Rule
-
-Build, generate, validate, and refactor lesson materials through the companion
-repository:
-
-`../4veco-platform`
-
-Use the platform repo's build scripts, validators, skills, references, and
-workflow docs. In particular, read and follow:
-
-- `../4veco-platform/AGENTS.md`
-- `../4veco-platform/BUILD-PARAGRAPH.md`
-- `../4veco-platform/BUILD-CHAPTER.md`
-- `../4veco-platform/build-scripts/README.md`
-
-## Do Not
-
-- Do not invent new local build scripts in this repo when the platform has or
-  should have the workflow.
-- Do not hand-build generated outputs here as a one-off workaround.
-- Do not edit machine-owned reference data from here.
-
-## Allowed Here
-
-Direct edits in this repo should be limited to lesson content or generated
-artifacts when the platform workflow explicitly calls for writing them here.
-If the task changes how materials are produced, make that change in
-`4veco-platform` first.
-
-## Product Vision
-
-Use `specifications/product-vision.md` as the canonical strategic direction
-and trade-off baseline for the product. It defines why the product exists,
-where 4veco should build advantage, where parity is required, and how lean
-diffusion and agent-scalable repository design shape decisions.
-
-## Product End-State
-
-Use `specifications/product-end-state.md` as the canonical north star for the
-student-facing operational route. The end state is a generated, review-gated
-learning route for every paragraph: the student moves from current readiness
-to target-exercise readiness through
-`Start -> Leer -> Check -> Oefen -> Exit ticket`.
-
-Roadmap entries, sprint plans, review packets, and closure records may choose
-a smaller controlled scope, but they must not present that smaller scope as the
-full product unless the missing work is assigned to a named follow-up sprint or
-explicitly waived by human decision with stated consequences.
-
-## Exam-Target Paragraph End-State
-
-The lesson side is being prepared for paragraphs whose target exercise is an
-official CvTE economics exam question.
-
-An exam-target paragraph must build backward from the official question,
-source annexes, figures/tables/graphs, official correction model, point
-allocation, and answer-construction requirements. The paragraph plan must make
-every official answer-model step traceable to one of:
-
-- taught explicitly in Part A;
-- practised in textbook opgaven;
-- scaffolded in begeleide inoefening;
-- repeated in a companion/game surface;
-- assumed as prior knowledge with MTU evidence;
-- deliberately out of scope, with reason.
-
-Do not build or patch this directly in generated lesson output. Use the
-platform exam-ingestion overlay, MTU mapping, paragraph-plan contract, and
-build workflow once the reference team has authorized the relevant EX/L-EX
-sprint.
-
-## Read first
-
-- Use `specifications/product-vision.md` as the stable strategic product direction before roadmap, sprint, review, or Scale Gate work.
-- Use `specifications/product-end-state.md` as the stable operational product north star before roadmap, sprint, review, or Scale Gate work.
-- Use `specifications/companion-core-specifications.md` as the stable companion-surface specification.
-- Use `../4veco-platform/AGENTS.md` as the canonical cross-repo agent entrypoint for operating rules, planning discipline, branch/worktree safety, review workflow, and integration policy.
-- Use [BUILD-PARAGRAPH.md](../4veco-platform/BUILD-PARAGRAPH.md) as the end-to-end guide for building a complete paragraph.
-- Use [BUILD-CHAPTER.md](../4veco-platform/BUILD-CHAPTER.md) as the end-to-end guide for assembling paragraphs into a chapter.
-- Use `AGENTS.md` for repo overview, architecture, deploy rules, and quality standards.
-- Use `build-scripts/README.md` from the platform repo for the distinction between platform generators, converters, reference implementations, and utilities.
-
-## Senior developer operating discipline
-
-Agents in this repository must behave like senior developers, not ticket closers.
-
-## Quality-Driven Execution
-
-Agents must optimize for specification fulfilment, not ticket closure.
-
-A completed task must satisfy the stated specification within the authorized
-scope. Passing tests, producing files, or avoiding forbidden claims is not
-sufficient when the student-facing route, learning design, rendered output, or
-review evidence remains weak.
-
-For every non-trivial task, the plan must state:
-
-1. the quality floor;
-2. the specification requirements being fulfilled;
-3. the evidence needed to prove fulfilment;
-4. the review gate that will judge student-facing quality;
-5. any higher-quality improvements that can be included without scope drift;
-6. any omitted requirements as named follow-up work or explicit blockers.
-
-If the plan cannot explain how the work will meet the specification, the plan
-is not ready.
-
-For any non-trivial sprint, roadmap, gate, reference-system, production, or architecture task:
-
-- read the relevant roadmap, sprint plan, source files, validators, and prior reports before acting
-- write or update a sprint plan before implementation
-- make the plan operational, not merely formal: it must expand the roadmap description into concrete procedure, decision points, outputs, acceptance tests, and stop conditions
-- log the plan in the expected sprint files before executing
-- follow the plan as written
-- if the plan is too thin or misses a requirement from the roadmap, stop and fix the plan before continuing
-- before moving past a review gate, verify the required artifacts exist and validators pass
-
-### Remote publication and repository maps
-
-Off-site reviewers use GitHub as their working surface. A local lesson-output
-change is not complete until the normal remote branch is current enough for
-reviewers to inspect the generated output, roadmap records, and cited
-evidence.
-
-Normal closure for non-trivial work in this repository includes:
-
-- run `git fetch --prune origin` before final commit/push and resolve any
-  behind/diverged state explicitly;
-- when platform and lesson repositories both changed, commit and push both
-  repositories or explicitly report why one side is intentionally local-only;
-- refresh GitHub-facing maps/indexes from the platform workflow whenever paths,
-  roadmaps, generated reports, agents, skills, review packets, or evidence
-  surfaces change;
-- after validation, commit and push to the normal remote branch unless the user
-  explicitly asks to keep work local;
-- do not leave a completed sprint, generated-output update, or human-review
-  artifact in a dirty local worktree; if a blocker prevents commit/push, report
-  the exact dirty status and blocker before ending;
-- report both the local commit hash and whether it has been pushed.
-
-## Branch safety for agents
-
-For every mutating task, agents must work on a dedicated task branch.
-Before editing files, run:
-- `git fetch --prune origin`
-- `git status --short --branch`
-- `git branch --show-current`
-
-Rules:
-1. Do not work directly on `main`.
-2. Do not commit directly to `main`.
-3. Do not push directly to `main`.
-4. Create or switch to a unique task branch before edits:
-   - `codex/<short-task-name>-<YYYYMMDD>`
-   - or `agent/<short-task-name>-<YYYYMMDD>`
-5. If already on `main`, create a branch before making changes.
-6. If the branch already exists, inspect it before reusing it.
-7. If the local branch is behind, ahead, or diverged from the remote unexpectedly, stop and report.
-8. If another agent is working on the same branch or same sprint surface, stop and report the collision risk.
-9. Merge to `main` only through PR or through the repository owner's explicit instruction.
-10. Human-review packets and gate evidence must cite a passing `platform-ci / validate-platform` run for the reviewed commit, or include an explicit CI waiver.
-
-A completed mutating task must report:
-- branch name
-- local commit SHA
-- whether it was pushed
-- PR URL or reason no PR was opened
-- latest `platform-ci / validate-platform` status if available
-
-If both `4veco-platform` and `4veco-lessen` are changed, use coordinated branches in both repos and report both branch names and both commit SHAs.
-
-## Worktree safety for agents
-
-Branch safety is not enough when multiple agents share one filesystem folder.
-Switching branches changes the working tree for that folder and can silently move
-other agents onto the wrong branch.
-
-For every mutating task, agents must use a dedicated worktree directory.
-
-Required invariant:
-
-- one agent
-- one task branch
-- one dedicated worktree directory
-
-Do not perform mutating work in the shared anchor clone unless the repository
-owner explicitly says this is a single-agent local task.
-
-Default agent worktree root:
-
-- `C:\Projects\4veco-worktrees\<task-id>\4veco-platform`
-- `C:\Projects\4veco-worktrees\<task-id>\4veco-lessen`
-
-Before editing files, run the worktree preflight from the coordinated
-`4veco-platform` worktree:
-
-- `npm.cmd run check:agent-worktree-safety -- --claim --task <task-id> --agent <agent-id> --require-prefix codex/,agent/ --require-clean`
-
-For lesson-only verification from the platform worktree, pass the lesson path
-explicitly with `--worktree <lesson-worktree-path>`.
-
-Claim mode requires a clean working tree by default. During ongoing work, use
-`--check` without `--require-clean` when dirty files are expected.
-
-Rules:
-
-1. Do not share a worktree directory with another active agent.
-2. Do not switch branches inside a worktree owned by another agent.
-3. Do not reuse an existing worktree unless its ownership lock is absent or explicitly released.
-4. Do not override a worktree lock without explicit repository-owner instruction.
-5. Do not use `git checkout -f`, `git switch -f`, `git worktree add --force`, or `git checkout --ignore-other-worktrees` unless explicitly authorized.
-6. If the current branch changes unexpectedly during work, stop immediately and report possible worktree contamination.
-7. If both `4veco-platform` and `4veco-lessen` are changed, use coordinated worktrees under the same task directory and report both paths, branches, and SHAs.
-8. The main clone should be treated as an anchor/admin clone, not as a normal multi-agent work surface.
-
-Do not hand-edit generated lesson output from a shared worktree. If platform and
-lesson output both change, the platform and lesson worktrees must be coordinated
-under the same task id.
-
-A completed mutating task must report:
-
-- worktree path
-- branch name
-- lock owner / agent id
-- local commit SHA
-- whether it was pushed
-- PR URL or reason no PR was opened
-- latest `platform-ci / validate-platform` status if available
-
-Human-review packets and review records have an extra remote-publication rule:
-
-- before sending, running, or recording a human-review packet, push the packet
-  and every cited evidence artifact to the normal remote branch, refresh the
-  GitHub-facing maps/indexes through the platform workflow, and verify the
-  remote is current enough for an off-site reviewer to fetch the files.
-
-Human-review gates require actual review artifacts. Do not treat a casual "OK", "continue", or inferred approval as a completed human review when the plan requires an interview, decision record, or gate-closure file. 
-All other requirements for sprints are also  required for the Human review. So a checkable plan is made beforehand and that plan is tested afterwards. That will make sure that there is an actual log of the interview. 
-
-
-### Sprint agent structure
-
-For roadmap sprints, use a separated-agent workflow:
-
-- a planning/review subagent checks the sprint outline, baseline needs, required logs, stop conditions, and missing roadmap instructions before execution. The Planning agent checks whether the plan has a clear statement about the generated output including which files should be generated .
-- the main agent executes the sprint and owns final integration
-- specialist subagents may be used for bounded pedagogy, evidence, data-integrity, or code-review questions
-- a verification subagent should review the finished artifacts or test plan. Do a thorough check on all required files are present including the basic plan  and other required logs, but also the other required files that were mentioned as output in the plan.
-- a structural lead-review cycle is required before closing non-trivial roadmap
-  sprints: lead-review assignment, round-1 review, correction log, and round-2
-  recheck. Do not set `lead_review_required: false` unless the sprint records
-  an explicit exemption with reason, reviewer/approver, and date.
-- human-review gates must receive lead review before the human interview starts.
-  Human gate artifacts do not replace the pre-gate lead-review check for future
-  gates.
-
-The main agent remains accountable. Subagents advise, test, or produce bounded artifacts; they do not replace the roadmap, validators, human gates, or final integration judgement.
+# 4veco Lessons — Agent Entry
+
+This repository contains lesson content and student-facing materials for VWO 4
+economics. The companion repository, `../4veco-platform`, owns production logic,
+engines, generators, validators, shared skills, and integration tooling.
+
+## Shared operating rules
+
+Read [the platform operating guide](https://github.com/meijer1973/4veco-platform/blob/main/AGENTS.md) first
+(local: `../4veco-platform/AGENTS.md`). It is
+canonical for planning and quality requirements, task-dependent reading,
+branch/worktree safety and ownership, protected references, review evidence,
+publication, PR readiness, integration, and completion reporting. Those rules
+apply to work in this repository; this entry does not maintain a second copy.
+Use its direct review-packet-comment protocol for human review.
+
+## Read next — select the activity
+
+Read only the workflow relevant to the current activity, including that
+workflow's applicable requirements. If the task expands, load the additional
+route before starting the new activity.
+
+For local work, use the same repository-relative paths in the adjacent
+`../4veco-platform/` checkout. Clickable cross-repository links open GitHub `main`.
+
+| Activity | Starting point |
+|---|---|
+| Read-only investigation or routine maintenance | Affected lesson files and the corresponding platform source/validators. Use local repository search; research maps are lookup references. |
+| Textbook paragraph / Part A | Platform [lane vocabulary](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/paragraph-lane-vocabulary.md) and [textbook runbook](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/textbook-paragraph-lane.md). |
+| Companion paragraph / Part B | Platform [lane vocabulary](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/paragraph-lane-vocabulary.md), [companion runbook](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/web-companion-paragraph-lane.md), and [companion specifications](specifications/companion-core-specifications.md). |
+| Chapter or book assembly | Platform [BUILD-CHAPTER.md](https://github.com/meijer1973/4veco-platform/blob/main/BUILD-CHAPTER.md) and the chapter plan. |
+| Complete paragraph or cross-lane verification | Platform [BUILD-PARAGRAPH.md](https://github.com/meijer1973/4veco-platform/blob/main/BUILD-PARAGRAPH.md), the full reference used when that scope is required. |
+| Roadmap, sprint, review, or Scale Gate | Relevant roadmap/original requirements, [product vision](specifications/product-vision.md), and [product end state](specifications/product-end-state.md); use the shared operating guide's gates. |
+| Production logic, generation, or build ownership | Platform [build-scripts/README.md](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/README.md) and the applicable lane/skill. |
+| PR readiness or paired integration | Platform [readiness policy](https://github.com/meijer1973/4veco-platform/blob/main/docs/review/pr-readiness-routing-policy.md) and [integration policy](https://github.com/meijer1973/4veco-platform/blob/main/docs/review/pr-integration-lane-policy.md), including their bundle requirements. |
+
+Paragraph assignments start with their lane runbook. The full paragraph manual
+and chapter guide are references for their respective activities, not mandatory
+reading for every lesson-repository task.
+
+## Lesson content and generated output
+
+- Build, generate, validate, and refactor lesson materials through platform
+  tooling. Do not invent lesson-local build scripts when the platform has or
+  should own the workflow.
+- If the task changes how materials are produced, change platform source first.
+  Do not hand-build or hand-edit generated outputs as a one-off workaround.
+- Direct edits here are limited to lesson content or generated artifacts when
+  the platform workflow explicitly calls for writing them here. Follow each
+  artifact's source/generator ownership and the applicable lane boundaries.
+- Do not edit machine-owned reference data from this repository. Use the
+  platform's authorized reference workflow and its protected-source rules.
+- Keep the paired platform and lesson worktrees together under the task folder;
+  run the shared worktree preflight from the platform worktree with the lesson
+  path supplied through `--worktree`.
+
+## Product and exam-target requirements
+
+Before roadmap, paragraph-build, companion, exit-ticket, exam-ingestion, or
+Scale Gate work, use [product vision](specifications/product-vision.md) for
+strategic direction and [product end state](specifications/product-end-state.md)
+for the operational north star. Companion work also follows
+[companion specifications](specifications/companion-core-specifications.md).
+
+The intended companion route is
+`Start -> Leer -> Check -> Oefen -> Exit ticket`, with an advisory short check
+and a separate target-equivalent exit ticket. A smaller deliverable is not the
+full product: name missing requirements as follow-up work or record an explicit
+human waiver with consequences.
+
+For official-exam targets, build backward from the CvTE question, source
+annexes/figures, correction model, points, and answer-construction requirements.
+Use the platform exam-ingestion overlay, MTU mapping, paragraph-plan contract,
+and build workflow after the reference team authorizes the relevant EX/L-EX
+sprint. Do not patch this authority into generated lesson output. The plan
+must trace every official answer-model step to explicit teaching, textbook
+practice, scaffolding, companion practice, prior knowledge with MTU evidence,
+or a justified exclusion, as required by the shared operating guide.
