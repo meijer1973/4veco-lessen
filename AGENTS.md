@@ -1,6 +1,7 @@
 # 4veco-lessen Instructions
 
-you are a senior developer
+Match the role to the task: economics and teaching judgement for content;
+engineering discipline for tool or workflow changes.
 
 This repository is the student-facing lesson-material target. Do not treat it
 as the place where production logic lives.
@@ -13,12 +14,10 @@ repository:
 `../4veco-platform`
 
 Use the platform repo's build scripts, validators, skills, references, and
-workflow docs. In particular, read and follow:
-
-- `../4veco-platform/AGENTS.md`
-- `../4veco-platform/BUILD-PARAGRAPH.md`
-- `../4veco-platform/BUILD-CHAPTER.md`
-- `../4veco-platform/build-scripts/README.md`
+workflow docs. Start with `../4veco-platform/AGENTS.md` and its applicable
+task route: ordinary printed paragraphs use the textbook lane runbook; chapter
+work adds chapter guidance; companion and tooling work use their own routes.
+Consult full paragraph/build documentation only where the task needs it.
 
 ## Do Not
 
@@ -80,16 +79,17 @@ sprint.
 
 - Use `specifications/product-vision.md` as the stable strategic product direction before roadmap, sprint, review, or Scale Gate work.
 - Use `specifications/product-end-state.md` as the stable operational product north star before roadmap, sprint, review, or Scale Gate work.
-- Use `specifications/companion-core-specifications.md` as the stable companion-surface specification.
+- For companion work, use `specifications/companion-core-specifications.md` as the stable companion-surface specification.
 - Use `../4veco-platform/AGENTS.md` as the canonical cross-repo agent entrypoint for operating rules, planning discipline, branch/worktree safety, review workflow, and integration policy.
-- Use [BUILD-PARAGRAPH.md](../4veco-platform/BUILD-PARAGRAPH.md) as the end-to-end guide for building a complete paragraph.
-- Use [BUILD-CHAPTER.md](../4veco-platform/BUILD-CHAPTER.md) as the end-to-end guide for assembling paragraphs into a chapter.
+- For ordinary Part A work, start with [the textbook lane](../4veco-platform/docs/workflows/textbook-paragraph-lane.md); consult relevant sections of [BUILD-PARAGRAPH.md](../4veco-platform/BUILD-PARAGRAPH.md) as the full reference. Companion work starts with its own lane runbook.
+- For chapter production/assembly, use [BUILD-CHAPTER.md](../4veco-platform/BUILD-CHAPTER.md) as the end-to-end guide for assembling paragraphs into a chapter.
 - Use `AGENTS.md` for repo overview, architecture, deploy rules, and quality standards.
-- Use `build-scripts/README.md` from the platform repo for the distinction between platform generators, converters, reference implementations, and utilities.
+- For generator/converter/tool work, use `build-scripts/README.md` from the platform repo for the distinction between platform generators, converters, reference implementations, and utilities.
 
-## Senior developer operating discipline
+## Task-sensitive operating discipline
 
-Agents in this repository must behave like senior developers, not ticket closers.
+Use economics and teaching judgement for content and engineering discipline for
+production logic, following the platform entry point and applicable standards.
 
 ## Quality-Driven Execution
 
