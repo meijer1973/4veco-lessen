@@ -6,7 +6,8 @@ engines, generators, validators, shared skills, and integration tooling.
 
 ## Shared operating rules
 
-Read [the platform operating guide](../4veco-platform/AGENTS.md) first. It is
+Read [the platform operating guide](https://github.com/meijer1973/4veco-platform/blob/main/AGENTS.md) first
+(local: `../4veco-platform/AGENTS.md`). It is
 canonical for planning and quality requirements, task-dependent reading,
 branch/worktree safety and ownership, protected references, review evidence,
 publication, PR readiness, integration, and completion reporting. Those rules
@@ -19,16 +20,19 @@ Read only the workflow relevant to the current activity, including that
 workflow's applicable requirements. If the task expands, load the additional
 route before starting the new activity.
 
+For local work, use the same repository-relative paths in the adjacent
+`../4veco-platform/` checkout. Clickable cross-repository links open GitHub `main`.
+
 | Activity | Starting point |
 |---|---|
 | Read-only investigation or routine maintenance | Affected lesson files and the corresponding platform source/validators. Use local repository search; research maps are lookup references. |
-| Textbook paragraph / Part A | Platform [lane vocabulary](../4veco-platform/docs/workflows/paragraph-lane-vocabulary.md) and [textbook runbook](../4veco-platform/docs/workflows/textbook-paragraph-lane.md). |
-| Companion paragraph / Part B | Platform [lane vocabulary](../4veco-platform/docs/workflows/paragraph-lane-vocabulary.md), [companion runbook](../4veco-platform/docs/workflows/web-companion-paragraph-lane.md), and [companion specifications](specifications/companion-core-specifications.md). |
-| Chapter or book assembly | Platform [BUILD-CHAPTER.md](../4veco-platform/BUILD-CHAPTER.md) and the chapter plan. |
-| Complete paragraph or cross-lane verification | Platform [BUILD-PARAGRAPH.md](../4veco-platform/BUILD-PARAGRAPH.md), the full reference used when that scope is required. |
+| Textbook paragraph / Part A | Platform [lane vocabulary](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/paragraph-lane-vocabulary.md) and [textbook runbook](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/textbook-paragraph-lane.md). |
+| Companion paragraph / Part B | Platform [lane vocabulary](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/paragraph-lane-vocabulary.md), [companion runbook](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/web-companion-paragraph-lane.md), and [companion specifications](specifications/companion-core-specifications.md). |
+| Chapter or book assembly | Platform [BUILD-CHAPTER.md](https://github.com/meijer1973/4veco-platform/blob/main/BUILD-CHAPTER.md) and the chapter plan. |
+| Complete paragraph or cross-lane verification | Platform [BUILD-PARAGRAPH.md](https://github.com/meijer1973/4veco-platform/blob/main/BUILD-PARAGRAPH.md), the full reference used when that scope is required. |
 | Roadmap, sprint, review, or Scale Gate | Relevant roadmap/original requirements, [product vision](specifications/product-vision.md), and [product end state](specifications/product-end-state.md); use the shared operating guide's gates. |
-| Production logic, generation, or build ownership | Platform [build-scripts/README.md](../4veco-platform/build-scripts/README.md) and the applicable lane/skill. |
-| PR readiness or paired integration | Platform [readiness policy](../4veco-platform/docs/review/pr-readiness-routing-policy.md) and [integration policy](../4veco-platform/docs/review/pr-integration-lane-policy.md), including their bundle requirements. |
+| Production logic, generation, or build ownership | Platform [build-scripts/README.md](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/README.md) and the applicable lane/skill. |
+| PR readiness or paired integration | Platform [readiness policy](https://github.com/meijer1973/4veco-platform/blob/main/docs/review/pr-readiness-routing-policy.md) and [integration policy](https://github.com/meijer1973/4veco-platform/blob/main/docs/review/pr-integration-lane-policy.md), including their bundle requirements. |
 
 Paragraph assignments start with their lane runbook. The full paragraph manual
 and chapter guide are references for their respective activities, not mandatory
