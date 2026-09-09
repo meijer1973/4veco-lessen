@@ -15,21 +15,28 @@ CSS = f"""<style>
   @bottom-left {{ content: "{FOOTER}"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }}
   @bottom-center {{ content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }}
 }}
-body {{ font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }}
+body {{ margin: 0; padding: 0; max-width: none; font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }}
 h1 {{ font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; }}
-h2 {{ font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }}
-h3 {{ font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }}
+h2 {{ break-after: avoid; font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }}
+h3 {{ break-after: avoid; font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }}
 p {{ margin: 0 0 10pt 0; }}
 table {{ border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }}
 th {{ background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }}
 td {{ border: 1px solid #999; padding: 2pt 6pt; border: 1px solid #999; }}
 tr:nth-child(even) td {{ background: #FAFBFC; }}
 img {{ max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }}
-blockquote {{ background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; }}
+blockquote {{ break-inside: avoid; background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; }}
 code {{ background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }}
 hr {{ border: none; border-top: 1px solid #BBB; margin: 18pt 0; }}
 ul, ol {{ margin: 0 0 10pt 0; padding-left: 20pt; }}
 li {{ margin-bottom: 4pt; }}
+.exercise {{ break-inside: avoid; margin-bottom: 12pt; }}
+.exercise p {{ margin-bottom: 4pt; }}
+p {{ orphans: 3; widows: 3; }}
+figure {{ break-before: avoid; break-inside: avoid; margin: 6pt 0; }}
+figcaption {{ font-size: 9pt; }}
+ol[type="a"] {{ list-style-type: lower-alpha; }}
+ol[type="A"] {{ list-style-type: upper-alpha; }}
 </style>"""
 
 
@@ -58,7 +65,12 @@ def build_pdf(md_path, output_path):
     if result.returncode != 0:
         print(result.stderr.decode("utf-8", errors="replace"))
         sys.exit(result.returncode)
-    html = result.stdout.decode("utf-8").replace("</head>", CSS + "</head>")
+    html = result.stdout.decode("utf-8")
+    html = re.sub(r"<style\b[^>]*>.*?</style>", "", html, flags=re.I | re.S)
+    # Keep each exercise together, including its source and table.
+    html = re.sub(r"(<p><strong>Opgave\s+\d+\b)", r'<div class="exercise">\1', html)
+    html = re.sub(r'(<div class="exercise">.*?)(?=<div class="exercise">|<h[12]\b|</body>)', r"\1</div>", html, flags=re.S)
+    html = html.replace("</head>", CSS + "</head>")
     html_path = output_path.replace(".pdf", ".html")
     Path(html_path).write_text(html, encoding="utf-8")
     import weasyprint

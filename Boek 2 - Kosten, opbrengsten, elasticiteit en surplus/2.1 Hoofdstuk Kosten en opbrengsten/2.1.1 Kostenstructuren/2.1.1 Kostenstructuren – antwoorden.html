@@ -1,347 +1,11 @@
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-
-  <meta charset="utf-8" />
-
-  <meta name="generator" content="pandoc" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-
-  <title>-</title>
-
-  <style>
-
-    /* Default styles provided by pandoc.
-
-    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-
-    */
-
-    html {
-
-      color: #1a1a1a;
-
-      background-color: #fdfdfd;
-
-    }
-
-    body {
-
-      margin: 0 auto;
-
-      max-width: 36em;
-
-      padding-left: 50px;
-
-      padding-right: 50px;
-
-      padding-top: 50px;
-
-      padding-bottom: 50px;
-
-      hyphens: auto;
-
-      overflow-wrap: break-word;
-
-      text-rendering: optimizeLegibility;
-
-      font-kerning: normal;
-
-    }
-
-    @media (max-width: 600px) {
-
-      body {
-
-        font-size: 0.9em;
-
-        padding: 12px;
-
-      }
-
-      h1 {
-
-        font-size: 1.8em;
-
-      }
-
-    }
-
-    @media print {
-
-      html {
-
-        background-color: white;
-
-      }
-
-      body {
-
-        background-color: transparent;
-
-        color: black;
-
-        font-size: 12pt;
-
-      }
-
-      p, h2, h3 {
-
-        orphans: 3;
-
-        widows: 3;
-
-      }
-
-      h2, h3, h4 {
-
-        page-break-after: avoid;
-
-      }
-
-    }
-
-    p {
-
-      margin: 1em 0;
-
-    }
-
-    a {
-
-      color: #1a1a1a;
-
-    }
-
-    a:visited {
-
-      color: #1a1a1a;
-
-    }
-
-    img {
-
-      max-width: 100%;
-
-    }
-
-    svg {
-
-      height: auto;
-
-      max-width: 100%;
-
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-
-      margin-top: 1.4em;
-
-    }
-
-    h5, h6 {
-
-      font-size: 1em;
-
-      font-style: italic;
-
-    }
-
-    h6 {
-
-      font-weight: normal;
-
-    }
-
-    ol, ul {
-
-      padding-left: 1.7em;
-
-      margin-top: 1em;
-
-    }
-
-    li > ol, li > ul {
-
-      margin-top: 0;
-
-    }
-
-    blockquote {
-
-      margin: 1em 0 1em 1.7em;
-
-      padding-left: 1em;
-
-      border-left: 2px solid #e6e6e6;
-
-      color: #606060;
-
-    }
-
-    code {
-
-      white-space: pre-wrap;
-
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-
-      font-size: 85%;
-
-      margin: 0;
-
-      hyphens: manual;
-
-    }
-
-    pre {
-
-      margin: 1em 0;
-
-      overflow: auto;
-
-    }
-
-    pre code {
-
-      padding: 0;
-
-      overflow: visible;
-
-      overflow-wrap: normal;
-
-    }
-
-    .sourceCode {
-
-     background-color: transparent;
-
-     overflow: visible;
-
-    }
-
-    hr {
-
-      border: none;
-
-      border-top: 1px solid #1a1a1a;
-
-      height: 1px;
-
-      margin: 1em 0;
-
-    }
-
-    table {
-
-      margin: 1em 0;
-
-      border-collapse: collapse;
-
-      width: 100%;
-
-      overflow-x: auto;
-
-      display: block;
-
-      font-variant-numeric: lining-nums tabular-nums;
-
-    }
-
-    table caption {
-
-      margin-bottom: 0.75em;
-
-    }
-
-    tbody {
-
-      margin-top: 0.5em;
-
-      border-top: 1px solid #1a1a1a;
-
-      border-bottom: 1px solid #1a1a1a;
-
-    }
-
-    th {
-
-      border-top: 1px solid #1a1a1a;
-
-      padding: 0.25em 0.5em 0.25em 0.5em;
-
-    }
-
-    td {
-
-      padding: 0.125em 0.5em 0.25em 0.5em;
-
-    }
-
-    header {
-
-      margin-bottom: 4em;
-
-      text-align: center;
-
-    }
-
-    #TOC li {
-
-      list-style: none;
-
-    }
-
-    #TOC ul {
-
-      padding-left: 1.3em;
-
-    }
-
-    #TOC > ul {
-
-      padding-left: 0;
-
-    }
-
-    #TOC a:not(:hover) {
-
-      text-decoration: none;
-
-    }
-
-    span.smallcaps{font-variant: small-caps;}
-
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-
-    div.column{flex: auto; overflow-x: auto;}
-
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-
-    /* The extra [class] is a hack that increases specificity enough to
-
-       override a similar rule in reveal.js */
-
-    ul.task-list[class]{list-style: none;}
-
-    ul.task-list li input[type="checkbox"] {
-
-      font-size: inherit;
-
-      width: 0.8em;
-
-      margin: 0 0.8em 0.2em -1.6em;
-
-      vertical-align: middle;
-
-    }
-
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-
-  </style>
-
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  
 <style>
 @page {
   size: A4;
@@ -349,639 +13,161 @@
   @bottom-left { content: "2.1.1 Kostenstructuren"; font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
   @bottom-center { content: counter(page) " / " counter(pages); font-family: Arial, sans-serif; font-size: 9pt; color: #555; }
 }
-body { font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }
+body { margin: 0; padding: 0; max-width: none; font-family: Arial, 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.45; color: #1a1a1a; }
 h1 { font-size: 18pt; color: #1A5276; border-bottom: 1.5px solid #1A5276; padding-bottom: 5pt; margin-top: 0; }
-h2 { font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }
-h3 { font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }
+h2 { break-after: avoid; font-size: 14pt; color: #1A5276; border-bottom: 1px solid #999; padding-bottom: 4pt; margin-top: 22pt; }
+h3 { break-after: avoid; font-size: 12pt; color: #1a1a1a; margin-top: 16pt; }
 p { margin: 0 0 10pt 0; }
 table { border-collapse: collapse; width: 100%; margin: 12pt 0; font-size: 10.5pt; break-inside: avoid; }
 th { background: #EDF0F3; font-weight: bold; padding: 3pt 6pt; text-align: left; border: 1px solid #999; }
 td { border: 1px solid #999; padding: 2pt 6pt; border: 1px solid #999; }
 tr:nth-child(even) td { background: #FAFBFC; }
 img { max-width: 100%; width: 100%; display: block; margin: 14pt auto; break-inside: avoid; }
-blockquote { background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; }
+blockquote { break-inside: avoid; background: #F4F7FA; border-left: 3px solid #1A5276; padding: 8pt 12pt; margin: 12pt 0; }
 code { background: #EDF2F7; padding: 1pt 5pt; border-radius: 3px; font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 10pt; }
 hr { border: none; border-top: 1px solid #BBB; margin: 18pt 0; }
 ul, ol { margin: 0 0 10pt 0; padding-left: 20pt; }
 li { margin-bottom: 4pt; }
-</style></head>
-
-<body>
-
-<h1 id="antwoorden-2.1.1---kostenstructuren">Antwoorden 2.1.1 -
-
-Kostenstructuren</h1>
-
-<h2 id="uitgewerkt-voorbeeld">Uitgewerkt voorbeeld</h2>
-
-<p>De foodtruck heeft:</p>
-
-<ul>
-
-<li><code>TCK = 300</code></li>
-
-<li><code>TVK = 1,20Q</code></li>
-
-<li><code>TK = 300 + 1,20Q</code></li>
-
-</ul>
-
-<table>
-
-<thead>
-
-<tr>
-
-<th style="text-align: right;">Q</th>
-
-<th style="text-align: right;">TCK</th>
-
-<th style="text-align: right;">TVK</th>
-
-<th style="text-align: right;">TK</th>
-
-<th style="text-align: right;">GCK</th>
-
-<th style="text-align: right;">GVK</th>
-
-<th style="text-align: right;">GTK</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align: right;">100</td>
-
-<td style="text-align: right;">300</td>
-
-<td style="text-align: right;">120</td>
-
-<td style="text-align: right;">420</td>
-
-<td style="text-align: right;">3,00</td>
-
-<td style="text-align: right;">1,20</td>
-
-<td style="text-align: right;">4,20</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">300</td>
-
-<td style="text-align: right;">300</td>
-
-<td style="text-align: right;">360</td>
-
-<td style="text-align: right;">660</td>
-
-<td style="text-align: right;">1,00</td>
-
-<td style="text-align: right;">1,20</td>
-
-<td style="text-align: right;">2,20</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p>Uitleg: <code>GCK</code> daalt, omdat dezelfde EUR 300 over meer
-
-broodjes wordt verdeeld. <code>GVK</code> blijft gelijk, omdat elk
-
-broodje steeds EUR 1,20 variabele kosten heeft.</p>
-
-<hr />
-
-<h2 id="opgave-1">Opgave 1</h2>
-
-<p><strong>A.</strong> De rode horizontale lijn is <code>TCK</code>.
-
-Deze lijn blijft op dezelfde hoogte als <code>Q</code> verandert.</p>
-
-<p><strong>B.</strong> Bij <code>Q = 500</code>:</p>
-
-<ul>
-
-<li><code>TVK = 400</code></li>
-
-<li><code>TK = 900</code></li>
-
-</ul>
-
-<p><strong>C.</strong> Bij <code>Q = 1000</code>:</p>
-
-<ul>
-
-<li><code>TVK = 800</code></li>
-
-<li><code>TK = 1300</code></li>
-
-</ul>
-
-<p><strong>D.</strong> De afstand is EUR 500. Dat is <code>TCK</code>.
-
-In de formule zie je hetzelfde: <code>TK = TCK + TVK</code>, dus
-
-<code>TK - TVK = TCK</code>.</p>
-
-<p>Punten: 1 punt per goed grafiekgegeven en 1 punt voor de uitleg bij
-
-d.</p>
-
-<hr />
-
-<h2 id="opgave-2">Opgave 2</h2>
-
-<p><strong>A.</strong> Constante kosten:</p>
-
-<ul>
-
-<li>huur: EUR 900</li>
-
-<li>vast softwareabonnement: EUR 150</li>
-
-</ul>
-
-<p><strong>B.</strong> Variabele kosten:</p>
-
-<ul>
-
-<li>papier en inkt: EUR 2 per poster</li>
-
-</ul>
-
-<p><strong>C.</strong> Formules:</p>
-
-<ul>
-
-<li><code>TCK = 900 + 150 = 1050</code></li>
-
-<li><code>TVK = 2Q</code></li>
-
-<li><code>TK = 1050 + 2Q</code></li>
-
-</ul>
-
-<p><strong>D.</strong> Bij <code>Q = 200</code>:</p>
-
-<p><code>TK = 1050 + 2 x 200 = 1050 + 400 = 1450</code></p>
-
-<p>De totale kosten zijn EUR 1450.</p>
-
-<hr />
-
-<h2 id="opgave-3">Opgave 3</h2>
-
-<p><strong>A.</strong> Totale kosten:</p>
-
-<table>
-
-<thead>
-
-<tr>
-
-<th style="text-align: right;">Q</th>
-
-<th style="text-align: right;">TCK</th>
-
-<th style="text-align: right;">TVK</th>
-
-<th style="text-align: right;">TK</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align: right;">100</td>
-
-<td style="text-align: right;">600</td>
-
-<td style="text-align: right;">300</td>
-
-<td style="text-align: right;">900</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">300</td>
-
-<td style="text-align: right;">600</td>
-
-<td style="text-align: right;">900</td>
-
-<td style="text-align: right;">1500</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">600</td>
-
-<td style="text-align: right;">600</td>
-
-<td style="text-align: right;">1800</td>
-
-<td style="text-align: right;">2400</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p>Berekening:</p>
-
-<ul>
-
-<li><code>TVK = 3Q</code></li>
-
-<li><code>TK = TCK + TVK</code></li>
-
-</ul>
-
-<p><strong>B.</strong> Gemiddelde kosten:</p>
-
-<table>
-
-<thead>
-
-<tr>
-
-<th style="text-align: right;">Q</th>
-
-<th style="text-align: right;">GCK</th>
-
-<th style="text-align: right;">GVK</th>
-
-<th style="text-align: right;">GTK</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align: right;">100</td>
-
-<td style="text-align: right;">6,00</td>
-
-<td style="text-align: right;">3,00</td>
-
-<td style="text-align: right;">9,00</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">300</td>
-
-<td style="text-align: right;">2,00</td>
-
-<td style="text-align: right;">3,00</td>
-
-<td style="text-align: right;">5,00</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">600</td>
-
-<td style="text-align: right;">1,00</td>
-
-<td style="text-align: right;">3,00</td>
-
-<td style="text-align: right;">4,00</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p>Berekening:</p>
-
-<ul>
-
-<li><code>GCK = TCK / Q</code></li>
-
-<li><code>GVK = TVK / Q</code></li>
-
-<li><code>GTK = TK / Q</code></li>
-
-</ul>
-
-<p><strong>C.</strong> <code>GVK</code> blijft gelijk op EUR 3,00.
-
-<code>GCK</code> daalt. <code>GTK</code> daalt ook, omdat
-
-<code>GTK = GCK + GVK</code> en <code>GCK</code> daalt.</p>
-
-<hr />
-
-<h2 id="opgave-4">Opgave 4</h2>
-
-<p><strong>A.</strong> Formules:</p>
-
-<ul>
-
-<li><code>TCK = 1200</code></li>
-
-<li><code>TVK = 18Q</code></li>
-
-<li><code>TK = 1200 + 18Q</code></li>
-
-</ul>
-
-<p><strong>B.</strong> Totale kosten:</p>
-
-<p>Bij 40 reparaties:</p>
-
-<p><code>TK = 1200 + 18 x 40 = 1200 + 720 = 1920</code></p>
-
-<p>Bij 80 reparaties:</p>
-
-<p><code>TK = 1200 + 18 x 80 = 1200 + 1440 = 2640</code></p>
-
-<p><strong>C.</strong> Gemiddelde kosten:</p>
-
-<table>
-
-<thead>
-
-<tr>
-
-<th style="text-align: right;">Q</th>
-
-<th style="text-align: right;">GCK</th>
-
-<th style="text-align: right;">GVK</th>
-
-<th style="text-align: right;">GTK</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align: right;">40</td>
-
-<td style="text-align: right;">30,00</td>
-
-<td style="text-align: right;">18,00</td>
-
-<td style="text-align: right;">48,00</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align: right;">80</td>
-
-<td style="text-align: right;">15,00</td>
-
-<td style="text-align: right;">18,00</td>
-
-<td style="text-align: right;">33,00</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<p><strong>D.</strong> <code>GTK</code> daalt omdat <code>GCK</code>
-
-daalt. De vaste werkplaatskosten van EUR 1200 worden over meer
-
-reparaties verdeeld. <code>GVK</code> blijft EUR 18 per reparatie.</p>
-
-<hr />
-
-<h2 id="opgave-5">Opgave 5</h2>
-
-<p><strong>A.</strong> Bij <code>Q = 250</code>:</p>
-
-<ul>
-
-<li><code>TCK = 1500</code></li>
-
-<li><code>TVK = 6 x 250 = 1500</code></li>
-
-<li><code>TK = 1500 + 1500 = 3000</code></li>
-
-<li><code>GCK = 1500 / 250 = 6,00</code></li>
-
-<li><code>GVK = 1500 / 250 = 6,00</code></li>
-
-<li><code>GTK = 3000 / 250 = 12,00</code></li>
-
-</ul>
-
-<p><strong>B.</strong> Bij <code>Q = 500</code>:</p>
-
-<ul>
-
-<li><code>TCK = 1500</code></li>
-
-<li><code>TVK = 6 x 500 = 3000</code></li>
-
-<li><code>TK = 1500 + 3000 = 4500</code></li>
-
-<li><code>GCK = 1500 / 500 = 3,00</code></li>
-
-<li><code>GVK = 3000 / 500 = 6,00</code></li>
-
-<li><code>GTK = 4500 / 500 = 9,00</code></li>
-
-</ul>
-
-<p><strong>C.</strong> De uitspraak is fout. De totale kosten zijn bij
-
-500 shirts EUR 4500 en bij 250 shirts EUR 3000. De totale kosten zijn
-
-dus hoger bij meer productie.</p>
-
-<p><strong>D.</strong> De gemiddelde constante kosten zijn lager:
-
-<code>GCK</code> daalt van EUR 6,00 naar EUR 3,00. Daardoor daalt ook
-
-<code>GTK</code> van EUR 12,00 naar EUR 9,00.</p>
-
-<hr />
-
-<h2 id="opgave-6">Opgave 6</h2>
-
-<p><strong>A.</strong> <code>Q</code> stijgt van 400 naar 500. De
-
-stijging is 100 producten.</p>
-
-<p><code>100 / 400 x 100 = 25%</code></p>
-
-<p><code>Q</code> stijgt met 25%.</p>
-
-<p><strong>B.</strong> <code>GCK</code>:</p>
-
-<ul>
-
-<li>bij 400 producten: <code>1000 / 400 = 2,50</code></li>
-
-<li>bij 500 producten: <code>1000 / 500 = 2,00</code></li>
-
-</ul>
-
-<p><strong>C.</strong> <code>GCK</code> daalt van EUR 2,50 naar EUR
-
-2,00. De daling is EUR 0,50.</p>
-
-<p><code>0,50 / 2,50 x 100 = 20%</code></p>
-
-<p><code>GCK</code> daalt met 20%.</p>
-
-<p><strong>D.</strong> <code>TVK</code> stijgt omdat er meer producten
-
-worden gemaakt en elk product EUR 4 variabele kosten heeft.
-
-<code>GCK</code> daalt omdat dezelfde constante kosten van EUR 1000 over
-
-meer producten worden verdeeld.</p>
-
-<hr />
-
-<h2 id="opgave-7">Opgave 7</h2>
-
-<p><strong>A.</strong> Formules:</p>
-
-<ul>
-
-<li><code>TCK = 500</code></li>
-
-<li><code>TVK = 0,80Q</code></li>
-
-<li><code>TK = 500 + 0,80Q</code></li>
-
-</ul>
-
-<p><strong>B.</strong> Totale kosten:</p>
-
-<p>Bij <code>Q = 500</code>:</p>
-
-<ul>
-
-<li><code>TCK = 500</code></li>
-
-<li><code>TVK = 0,80 x 500 = 400</code></li>
-
-<li><code>TK = 500 + 400 = 900</code></li>
-
-</ul>
-
-<p>Bij <code>Q = 1000</code>:</p>
-
-<ul>
-
-<li><code>TCK = 500</code></li>
-
-<li><code>TVK = 0,80 x 1000 = 800</code></li>
-
-<li><code>TK = 500 + 800 = 1300</code></li>
-
-</ul>
-
-<p><strong>C.</strong> Gemiddelde kosten:</p>
-
-<p>Bij <code>Q = 500</code>:</p>
-
-<ul>
-
-<li><code>GTK = 900 / 500 = 1,80</code></li>
-
-<li><code>GVK = 400 / 500 = 0,80</code></li>
-
-<li><code>GCK = 500 / 500 = 1,00</code></li>
-
-</ul>
-
-<p>Bij <code>Q = 1000</code>:</p>
-
-<ul>
-
-<li><code>GTK = 1300 / 1000 = 1,30</code></li>
-
-<li><code>GVK = 800 / 1000 = 0,80</code></li>
-
-<li><code>GCK = 500 / 1000 = 0,50</code></li>
-
-</ul>
-
-<p><strong>D.</strong> <code>GTK</code> daalt van EUR 1,80 naar EUR
-
-1,30. Dit is logisch omdat <code>GCK</code> daalt: de constante kosten
-
-worden over meer broden verdeeld.</p>
-
-<p><strong>E.</strong> De uitspraak is niet juist. <code>TCK</code>
-
-blijft hetzelfde, maar <code>GCK = TCK / Q</code>. Als <code>Q</code>
-
-verandert, verandert <code>GCK</code> dus ook.</p>
-
-<hr />
-
-<h2 id="opgave-8">Opgave 8</h2>
-
-<p><strong>A.</strong> Bij 100 producten:</p>
-
-<ul>
-
-<li><code>TVK = 4 x 100 = 400</code></li>
-
-<li><code>TK = 500 + 400 = 900</code></li>
-
-<li><code>GTK = 900 / 100 = 9,00</code></li>
-
-</ul>
-
-<p><strong>B.</strong> Bij 200 producten:</p>
-
-<ul>
-
-<li><code>TVK = 7 x 200 = 1400</code></li>
-
-<li><code>TK = 500 + 1400 = 1900</code></li>
-
-<li><code>GTK = 1900 / 200 = 9,50</code></li>
-
-</ul>
-
-<p><strong>C.</strong> <code>GTK</code> daalt hier niet.
-
-<code>GTK</code> stijgt van EUR 9,00 naar EUR 9,50. Het verschil met de
-
-bakkerij is dat de variabele kosten per product stijgen. De daling van
-
-<code>GCK</code> wordt daardoor meer dan tenietgedaan door de stijging
-
-van <code>GVK</code>.</p>
-
-</body>
-
-</html>
+.exercise { break-inside: avoid; margin-bottom: 12pt; }
+.exercise p { margin-bottom: 4pt; }
+p { orphans: 3; widows: 3; }
+figure { break-before: avoid; break-inside: avoid; margin: 6pt 0; }
+figcaption { font-size: 9pt; }
+ol[type="a"] { list-style-type: lower-alpha; }
+ol[type="A"] { list-style-type: upper-alpha; }
+</style></head>
+<body>
+<h1 id="antwoorden-2.1.1-kostenstructuren">Antwoorden §2.1.1 —
+Kostenstructuren</h1>
+<p><strong>Afrondingsregel:</strong> rond geldbedragen per product af op
+twee decimalen. Bewaar tijdens het rekenen de ongeronde uitkomst. De
+gegeven voorbeelden leveren exacte bedragen op.</p>
+<div class="exercise"><p><strong>Opgave 1</strong></p>
+<ol type="a">
+<li><p>Aantal per leerling = totaal / leerlingen = 240 / 30 = 8 potloden
+per leerling. <em>Waarom:</em> je verdeelt hetzelfde totaal over 30
+gelijke delen.</p></li>
+<li><p>B = 20 + 3n = 20 + 3 × 10 = 50 euro. <em>Waarom:</em> je vervangt
+alleen n door het gegeven aantal pakketten.</p></li>
+</ol>
+</div><div class="exercise"><p><strong>Opgave 2</strong></p>
+<ol type="a">
+<li><p>Ruimte is constant: € 300 per maand blijft gelijk binnen de
+gegeven capaciteit. Materiaal is variabel: elke extra reparatie voegt €
+5 toe aan het totale maandbedrag. <em>Waarom:</em> het gedrag bij meer Q
+bepaalt de categorie.</p></li>
+<li><p>TCK = 300; TVK = 5Q; TK = TCK + TVK = 300 + 5Q, in euro per
+maand, voor 40 ≤ Q ≤ 80. <em>Waarom:</em> alleen materiaal
+vermenigvuldig je met Q.</p></li>
+<li><p>GTK = TK / Q = (300 + 5 × 60) / 60 = 600 / 60 = € 10,00 per
+reparatie. <em>Waarom:</em> je verdeelt alle maandkosten over de 60
+reparaties.</p></li>
+<li><p>Nee. GVK = TVK / Q = 5Q / Q = € 5,00 per reparatie.
+<em>Waarom:</em> het gegeven materiaalbedrag per reparatie verandert
+niet; alleen GCK daalt bij meer Q.</p></li>
+</ol>
+</div><div class="exercise"><p><strong>Opgave 3</strong></p>
+<ol type="a">
+<li><p>Abonnement: constant, blijft € 20 per maand. Was: variabel,
+totaal stijgt € 0,75 per extra kaars. Lont: variabel, totaal stijgt €
+0,25 per extra kaars. <em>Waarom:</em> dit zijn reacties van totale
+kosten op meer Q binnen dezelfde maand en capaciteit.</p></li>
+<li><p>TCK = 80 + 20 = 100; TVK = (0,75 + 0,25)Q = Q; TK = 100 + Q, euro
+per maand, voor 100 ≤ Q ≤ 200. <em>Waarom:</em> vaste maandbedragen tel
+je bij elkaar; bedragen per kaars vermenigvuldig je met Q.</p></li>
+<li><p>Bij 100: GCK = 100/100 = € 1,00; GVK = (1×100)/100 = € 1,00; GTK
+= (100+1×100)/100 = € 2,00 per kaars. Bij 200: GCK = 100/200 = € 0,50;
+GVK = (1×200)/200 = € 1,00; GTK = (100+1×200)/200 = € 1,50 per kaars.
+<em>Waarom:</em> elke gemiddelde waarde deelt het overeenkomstige totaal
+door dezelfde productie.</p></li>
+<li><p>Bij 100 zijn TCK = € 100, TVK = 1×100 = € 100 en TK = 100+100 = €
+200 per maand. Bij 200 zijn dat € 100, € 200 en € 300 per maand. TCK
+blijft gelijk, TVK verdubbelt en TK stijgt zonder te verdubbelen. GCK
+halveert door spreiding van dezelfde € 100 over tweemaal zoveel kaarsen;
+GVK blijft € 1 per kaars door de aanname; GTK daalt van € 2 naar € 1,50
+per kaars en halveert dus niet. <em>Waarom:</em> alleen het constante
+deel per kaars halveert, binnen één maand, 100–200 kaarsen en dezelfde
+capaciteit.</p></li>
+</ol>
+<p>Extra controle: meer was verhoogt TVK, het totale variabele
+maandbedrag. Spreiding van huur verlaagt het gemiddelde huurbedrag per
+kaars. De totale huur blijft € 80 per maand. De leerling verwart totaal
+met gemiddeld.</p>
+</div><div class="exercise"><p><strong>Opgave 4</strong></p>
+<ol type="a">
+<li><p>Huur en keukenabonnement zijn constant: hun totale bedragen
+blijven respectievelijk € 480 en € 120 per maand. Ingrediënten en
+verpakking zijn variabel: de totale bedragen stijgen respectievelijk € 2
+en € 1 per extra lunchbox. <em>Waarom:</em> de maand en capaciteit
+blijven gelijk.</p></li>
+<li><p>TCK = 480 + 120 = 600; TVK = (2+1)Q = 3Q; TK = 600+3Q, in euro
+per maand voor 200 ≤ Q ≤ 400. <em>Waarom:</em> TK telt beide soorten
+op.</p></li>
+<li><p>Bij 200: GCK = 600/200 = € 3,00; GVK = (3×200)/200 = € 3,00; GTK
+= (600+3×200)/200 = € 6,00 per lunchbox. Bij 400: GCK = 600/400 = €
+1,50; GVK = (3×400)/400 = € 3,00; GTK = (600+3×400)/400 = € 4,50 per
+lunchbox. <em>Waarom:</em> deel elk totaal door het bijbehorende aantal
+lunchboxen.</p></li>
+<li><p>Bij 200: TCK = € 600, TVK = 3×200 = € 600, TK = 600+600 = € 1.200
+per maand. Bij 400: TCK = € 600, TVK = 3×400 = € 1.200, TK = 600+1.200 =
+€ 1.800 per maand. TCK blijft gelijk, TVK verdubbelt, TK niet. GCK
+halveert doordat dezelfde € 600 over tweemaal zoveel lunchboxen wordt
+verdeeld. GVK blijft € 3 doordat de variabele kosten per lunchbox gelijk
+blijven. GTK daalt van € 6 naar € 4,50; alleen GCK halveert.
+<em>Waarom:</em> een gelijkblijvend variabel deel voorkomt halvering van
+GTK. Dit geldt binnen de genoemde maand, 200–400 lunchboxen en dezelfde
+capaciteit.</p></li>
+</ol>
+</div><div class="exercise"><p><strong>Opgave 5</strong></p>
+<ol type="a">
+<li><p>Huur/verzekering en aansluiting/abonnement zijn constant: hun
+totale maandbedrag verandert niet met Q. Meel/verpakking en ovenverbruik
+zijn variabel: hun totale bedrag neemt per brood toe.</p></li>
+<li><p>TCK = 500; TVK = 0,80Q; TK = 500 + 0,80Q (bedragen in euro per
+maand).</p></li>
+<li><p>Bij Q=500: GCK=500/500=€1,00 per brood; GVK=0,80×500/500=€0,80
+per brood; GTK=500/500+0,80=€1,80 per brood.</p></li>
+<li><p>Bij Q=1.000: GCK=€0,50 per brood; GVK=€0,80 per brood; GTK=€1,30
+per brood.</p></li>
+<li><p>Bij Q=500 zijn TCK=€500, TVK=€400 en TK=€900 per maand; bij
+Q=1.000 zijn TCK=€500, TVK=€800 en TK=€1.300 per maand. TCK blijft
+gelijk, TVK verdubbelt en TK stijgt maar verdubbelt niet. GCK halveert
+van €1,00 naar €0,50 per brood doordat dezelfde TCK over tweemaal zoveel
+broden worden verdeeld. GVK blijft €0,80 doordat de variabele kosten per
+brood gelijk blijven. GTK daalt van €1,80 naar €1,30 en halveert niet,
+omdat alleen GCK halveert. Dit geldt binnen de genoemde maand, Q-grenzen
+en gelijkblijvende productiecapaciteit.</p></li>
+</ol>
+<p><em>Waarom bij a–b:</em> gedrag bij meer Q bepaalt de categorie; tel
+de constante bedragen op en vermenigvuldig alleen de variabele bedragen
+per brood met Q.</p>
+<p><em>Waarom bij c–d:</em> deel ieder maandtotaal door het aantal
+broden in diezelfde maand. Bij 1.000 broden: GCK = 500/1.000 = € 0,50;
+GVK = (0,80×1.000)/1.000 = € 0,80; GTK = (500+0,80×1.000)/1.000 = € 1,30
+per brood.</p>
+<p><em>Waarom bij e:</em> meer productie verdeelt hetzelfde constante
+bedrag over meer producten. De gegeven € 0,80 per brood blijft bestaan,
+zodat de totale gemiddelde kosten niet kunnen halveren bij deze
+verdubbeling.</p>
+</div><div class="exercise"><p><strong>Opgave 6 — Modelantwoord en beoordelingscriteria</strong></p>
+<p>De uitspraak klopt niet. Bij contract A blijft het totale bedrag €
+200 per maand, ook bij 100 potten. Bij contract B is het totale bedrag
+dan 1×100 = € 100 per maand, tegenover € 200 bij 200 potten. A is
+constant en B variabel. De betere regel is: classificeer op basis van de
+reactie op een verandering van Q binnen dezelfde periode en capaciteit;
+één gelijk bedrag bewijst niets over die reactie.</p>
+<p>Een goed antwoord:</p>
+<ul>
+<li>gebruikt beide hoeveelheden als bewijs;</li>
+<li>onderscheidt gelijkheid op één moment van gedrag bij meer
+productie;</li>
+<li>noemt periode en capaciteit als modelgrens.</li>
+</ul>
+</div><div class="exercise"><p><strong>Opgave 7</strong></p>
+<p>W = 15 + 2v. Bij v = 20: W = 15+2×20 = 55 polsbandjes. Bij v = 35: W
+= 15+2×35 = 85 polsbandjes. Het verschil is 85−55 = 30 polsbandjes.
+<em>Waarom:</em> 15 extra bezoekers voegen volgens de formule 2×15 = 30
+polsbandjes toe; de reserve 15 blijft gelijk. Kun je dit niet maken?
+Herhaal dan §1.1.3.</p>
+</div></body>
+</html>
