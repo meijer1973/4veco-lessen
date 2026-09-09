@@ -1,31 +1,76 @@
-paragraph: "2.1.1"
-title: "Kostenstructuren"
-chapter: "2.1 Hoofdstuk Kosten en opbrengsten"
-reviewed_on: "2026-06-08"
-review_mode: "part-a"
-target_exercise_status: "reviewed_final"
-target_status_promotion_sprint: "B2-2.1-TARGET-V5-PROMOTE"
-production_ready_with_flags: true
-content:
-  paragraaf_md: true
-  opgaven_md: true
-  antwoorden_md: true
-  paragraaf_pdf: true
-  opgaven_pdf: true
-  antwoorden_pdf: true
-  motivating_problem: true
-  worked_example: true
-  summary_box: true
-  help_note: true
-  staged_exercise_route: true
-  target_exercise: true
-assets:
-  total_referenced: 1
-  missing: []
-  svgpng_paired: true
-  naming_compliant: true
-review:
-  verdict: "PASS WITH FLAGS"
-  unresolved_blockers: 0
-  flags:
-    - "Existing graph reused; future paragraph sprints should decide whether extra step visuals are needed."
+schema_version: 2
+partA:
+  paragraph: 2.1.1
+  generated: '2026-09-09'
+  review_file: 2.1.1-review.md
+  review_verdict: PASS
+  review_identity: independent_content_review (not an author)
+  assets:
+    missing: []
+    svgpng_paired: true
+    naming_compliant: true
+    total_referenced: 1
+  reference_version:
+    path: references/external/inspectie-standaarden.md
+    sha256: 623f05ed173cd55814f133f30181131b477cd94ea54125c8fb1c1f29bb2858ed
+    framework: onderzoekskader 2021 voortgezet onderwijs, bijgesteld 2025
+    last_verified: '2026-04-12'
+    external_refresh_performed: false
+  target:
+    id: 2.1.1
+    record_status: candidate_review_ready
+    approved_integrated_record_sha256: 143f1053c98766b77d9d9ce573a5c8e976980f900387159312c3238288d71710
+  inventory:
+    paragraaf: true
+    opgaven: true
+    antwoorden: true
+  goal_mapping:
+  - goal: classify costs; construct totals
+    exam_codes:
+    - D1.16
+    - A2.10
+    bloom:
+    - understand
+    - apply
+  - goal: calculate averages; explain bounded changes
+    exam_codes:
+    - D1.17
+    - A2.10
+    bloom:
+    - apply
+    - analyse
+  component_mapping:
+    theory_and_worked_example:
+      standards:
+      - OP1
+      - OP3
+      principles:
+      - explicit goals
+      - worked example
+      - dual coding
+    start_and_guided:
+      standards:
+      - OP0
+      - OP2
+      - OP3
+      - SK1
+      principles:
+      - retrieval
+      - formative check
+      - neutral support
+      - fading
+    independent_target_bonus:
+      standards:
+      - OP1
+      - OP3
+      principles:
+      - target alignment
+      - transfer
+      - bounded model critique
+  closure_status: BLOCKED
+  open_closure_blockers:
+  - lane-scope checker rejects required 2.1.1-textbook-plan.md as unknown
+  - Exact final platform CI pending
+  verantwoording: Design and artifact evidence only; no classroom learning-effect,
+    inspector compliance, companion completion, deployment or student-use claim. Timings
+    are estimates. See independent review
