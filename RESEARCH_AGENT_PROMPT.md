@@ -158,9 +158,9 @@ Important paths:
 
 - `AGENTS.md`
 - `lessen-team-roadmap.md`
-- `course_blueprint_v4.md`
-- `plan-1.1.1-part-b-clarity-audit.md`
-- `vw-1022-a-25-1-o.pdf`
+- [historical v4 blueprint (identical platform owned source)](https://raw.githubusercontent.com/meijer1973/4veco-platform/main/references/owned/course-blueprint-v4.md)
+- [Current companion lane runbook](https://raw.githubusercontent.com/meijer1973/4veco-platform/main/docs/workflows/web-companion-paragraph-lane.md)
+- [canonical platform exam PDF](https://raw.githubusercontent.com/meijer1973/4veco-platform/main/references/external/exams/vw-1022-a-25-1-o.pdf)
 - `index.html`
 - `Boek N - <book-title>/deploy-config.json`
 - `Boek N - <book-title>/index.html`
@@ -232,7 +232,7 @@ Log:
 5. Engine drift — `Boek N/shared/<engine>*.js|css` files that look out of sync with the upstream platform engines, or per-paragraph data files (`shared/<game>/N.M.K.js`) that contradict the paragraph plan.
 6. Quality-log integrity — `<id>-quality-ref.yaml` and `<id>-review.md` that are missing, contradict the artifacts, or claim a verdict the artifacts do not support.
 7. Plan-vs-artifact disagreements — `_paragraph-plan.md` or `_chapter-plan.md` claims that the artifacts do not realise.
-8. Exam-alignment concerns — discrepancies between paragraph content and `course_blueprint_v4.md` or the exam reference `vw-1022-a-25-1-o.pdf`, especially in chapter 5 (Toetsvoorbereiding).
+8. Exam-alignment concerns — discrepancies between paragraph content and [historical v4 blueprint (identical platform owned source)](https://raw.githubusercontent.com/meijer1973/4veco-platform/main/references/owned/course-blueprint-v4.md) or the exam reference [canonical platform exam PDF](https://raw.githubusercontent.com/meijer1973/4veco-platform/main/references/external/exams/vw-1022-a-25-1-o.pdf), especially in chapter 5 (Toetsvoorbereiding).
 9. Roadmap/ownership clarity — sprint state in `lessen-team-roadmap.md` that does not match the on-disk artifact reality.
 10. Category suggestions if the current categories do not fit the issues you find.
 

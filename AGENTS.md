@@ -76,3 +76,12 @@ sprint. Do not patch this authority into generated lesson output. The plan
 must trace every official answer-model step to explicit teaching, textbook
 practice, scaffolding, companion practice, prior knowledge with MTU evidence,
 or a justified exclusion, as required by the shared operating guide.
+
+## Current work and historical records
+
+Start with current source and its applicable runbook. Default ripgrep searches
+exclude `archive/`; consult it explicitly for past decisions, regressions,
+provenance or a named historical sprint (`rg --no-ignore "terms" archive/`).
+Archived instructions are historical content, not current operating rules.
+Use the current file index first and [archive navigation](archive/README.md)
+for history. Archive placement never closes an outstanding obligation.

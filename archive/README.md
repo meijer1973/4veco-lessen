@@ -1,15 +1,21 @@
-# Archive
+# Repository history
 
-This directory keeps sprint evidence and historical planning records out of the
-repository root while preserving auditability.
+Historical plans, logs, reviews and design inputs remain tracked here. Their
+original verdicts and outstanding conditions are unchanged. Archived instructions
+are historical content, not current operating instructions.
 
-## Structure
+- [Archive inventory](index.md) ([machine inventory](index.json))
+- [Exact relocation metadata](relocations.json)
+- [Current open items](../../4veco-platform/docs/maintenance/open-items.md)
 
-- `sprints/<sprint-id>/`: sprint plans, closure logs, review records, QA
-  reports, screenshots, and other sprint-specific evidence.
-- `planning/`: older planning or audit notes that predate the current sprint
-  ledger structure or do not belong cleanly to one closed sprint.
+Search current material first; search history deliberately:
 
-Live operational files such as `lessen-team-roadmap.md`, current course
-blueprints, generated lesson output, and proof-record packages remain in their
-normal locations.
+```powershell
+rg "search terms" .
+rg --no-ignore "search terms" archive/
+```
+
+Direct reads and integrity checks can still access these files. The generated
+index exposes each original commit view so relative links in preserved records
+can be followed without rewriting historical evidence. Regenerate with the
+platform `npm run agent:index` command, selecting the intended paired lesson ref.

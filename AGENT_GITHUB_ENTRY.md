@@ -7,7 +7,7 @@ The authoring and build platform lives in the companion repo `4veco-platform`. F
 Path reliability:
 
 - Use exact paths from `RESEARCH_AGENT_MAP.md` or this file when possible.
-- Use `4veco-platform/reports/github-agent-index-platform.md` and `4veco-platform/reports/github-agent-index-lessen.md` for existence checks.
+- Use `4veco-platform/reports/github-agent-current-platform.md` and `4veco-platform/reports/github-agent-current-lessen.md` for existence checks.
 - Use GitHub search mainly for discovery, not proof; confirm search hits through exact paths or the generated inventory.
 
 | Question type | Inspect first |
@@ -40,7 +40,7 @@ Useful entry points:
 - `lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md`
 - `course_blueprint_v5.md`
 - `index.html`
-- `4veco-platform/reports/github-agent-index-lessen.md` after running `npm run agent:index` in `4veco-platform`
+- `4veco-platform/reports/github-agent-current-lessen.md` after running `npm run agent:index` in `4veco-platform`
 
 Exam-target work:
 
@@ -52,3 +52,8 @@ Exam-target work:
 - Use `course_blueprint_v5.md` as the active lesson-side curriculum-source baseline.
 - Use `4veco-platform/references/SOURCE_OF_TRUTH.md`, `4veco-platform/references/data/exercises/README.md`, and `4veco-platform/BUILD-PARAGRAPH.md` for the official exam-question ingestion and exam-target paragraph contracts.
 - Do not treat an official exam prompt as enough for a paragraph build unless source annexes and the official correction model are represented or explicitly marked as gaps by the platform-side evidence.
+
+Current navigation uses the current file indexes. For historical or provenance
+questions, use [archive navigation](archive/README.md); complete machine
+inventories remain in the platform reports as `github-agent-index-platform`
+and `github-agent-index-lessen` (`.json` / `.md`).
