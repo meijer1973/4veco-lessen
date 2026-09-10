@@ -74,7 +74,7 @@ Access rules:
 - Directories are path namespaces, not fetch targets.
 - Fetch files only by declared path, declared namespace search, or declared path template.
 - Use exact paths from this file or `AGENT_GITHUB_ENTRY.md` when possible; these curated files are more reliable than GitHub search results.
-- Use `reports/github-agent-index-platform.md` and `reports/github-agent-index-lessen.md` from `4veco-platform` for file-existence checks.
+- Use `reports/github-agent-current-platform.md` and `reports/github-agent-current-lessen.md` from `4veco-platform` for file-existence checks.
 - Use GitHub search mainly for discovery, not proof. Confirm discoveries by fetching exact paths or checking the generated inventory.
 - Some artifacts are large binaries (PDF up to ~5 MB, PPTX, DOCX, HTML up to ~7 MB for assembled-book HTML). Range-requests or connector access may be required.
 - If raw URL access fails, retry through authenticated GitHub connector access before concluding the file is unavailable.
@@ -92,7 +92,7 @@ Human-readable:
 - `specifications/companion-core-specifications.md` (stable companion specifications)
 - `lessen-team-roadmap.md` (sprint ledger, mission, current status, guardrails)
 - `course_blueprint_v5.md` (active four-book / four-test-week curriculum-source baseline)
-- `plan-1.1.1-part-b-clarity-audit.md` (active plan document at root)
+- [Companion lane runbook](https://raw.githubusercontent.com/meijer1973/4veco-platform/main/docs/workflows/web-companion-paragraph-lane.md) (current companion production workflow)
 - `Boek 1 - Grondslagen, vraag en aanbod/index.html` (book-level landing)
 - `Boek 1 - Grondslagen, vraag en aanbod/Boek 1 Grondslagen, vraag en aanbod – boek.md`
 - `Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/_chapter-plan.md`
@@ -123,7 +123,7 @@ entry_points (full URLs):
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/specifications/companion-core-specifications.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v5.md
-- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/plan-1.1.1-part-b-clarity-audit.md
+- https://raw.githubusercontent.com/meijer1973/4veco-platform/main/docs/workflows/web-companion-paragraph-lane.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/index.html
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/Boek%201%20Grondslagen%2C%20vraag%20en%20aanbod%20%E2%80%93%20boek.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/1.1%20Hoofdstuk%20Economisch%20denken%20en%20rekenen/_chapter-plan.md
@@ -158,8 +158,8 @@ URL index (single fetch unlocks the rest of the surface, served from the platfor
   "team_roadmap": "lessen-team-roadmap.md",
   "closed_lesson_ticket_cp6a_chapter13_alignment": "lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md",
   "course_blueprint": "course_blueprint_v5.md",
-  "active_root_plan": "plan-1.1.1-part-b-clarity-audit.md",
-  "exam_reference_pdf": "vw-1022-a-25-1-o.pdf",
+  "companion_lane_runbook": "https://raw.githubusercontent.com/meijer1973/4veco-platform/main/docs/workflows/web-companion-paragraph-lane.md",
+  "exam_reference_pdf": "https://raw.githubusercontent.com/meijer1973/4veco-platform/main/references/external/exams/vw-1022-a-25-1-o.pdf",
   "top_landing": "index.html",
   "book_deploy_config_template": "Boek N - <book-title>/deploy-config.json",
   "book_landing_template": "Boek N - <book-title>/index.html",
@@ -184,8 +184,8 @@ Concrete index-anchor files (templates with `<book-title>` / `N.M.K` placeholder
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v5.md
-- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/plan-1.1.1-part-b-clarity-audit.md
-- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/vw-1022-a-25-1-o.pdf
+- https://raw.githubusercontent.com/meijer1973/4veco-platform/main/docs/workflows/web-companion-paragraph-lane.md
+- https://raw.githubusercontent.com/meijer1973/4veco-platform/main/references/external/exams/vw-1022-a-25-1-o.pdf
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/index.html
 
 Use these index anchors before free-form browsing. The plan files state intent, the quality-ref YAML records last-known machine-checkable state, and the review markdown records the human-pass verdict.
@@ -228,8 +228,6 @@ Use these index anchors before free-form browsing. The plan files state intent, 
     "specifications/companion-core-specifications.md",
     "lessen-team-roadmap.md",
     "course_blueprint_v5.md",
-    "plan-1.1.1-part-b-clarity-audit.md",
-    "vw-1022-a-25-1-o.pdf",
     "index.html",
     ".gitignore",
     ".nojekyll"
@@ -346,8 +344,8 @@ root_doc_paths (full URLs):
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/AGENTS.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/lessen-team-roadmap.md
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/course_blueprint_v5.md
-- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/plan-1.1.1-part-b-clarity-audit.md
-- https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/vw-1022-a-25-1-o.pdf
+- https://raw.githubusercontent.com/meijer1973/4veco-platform/main/docs/workflows/web-companion-paragraph-lane.md
+- https://raw.githubusercontent.com/meijer1973/4veco-platform/main/references/external/exams/vw-1022-a-25-1-o.pdf
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/index.html
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/.gitignore
 - https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/.nojekyll
@@ -408,8 +406,8 @@ If a constructed path fails, apply `Failure Handling`.
 ```json
 {
   "root_planning_and_reference": {
-    "epistemic_role": "operating rules, course blueprint, sprint state, and one external exam reference",
-    "contains": "AGENTS.md, lessen-team-roadmap.md, course_blueprint_v5.md, plan-*.md, vw-*.pdf, top-level index.html",
+    "epistemic_role": "operating rules, course blueprint, sprint state, and navigation to the platform exam reference",
+    "contains": "AGENTS.md, lessen-team-roadmap.md, course_blueprint_v5.md, top-level index.html; the exam_reference_pdf locator points to the platform repository",
     "preferred_use": "understand mission, current sprint, blueprint scope, and external alignment",
     "edit_policy": "AGENTS.md and roadmap edited only as planning updates; course_blueprint_v5.md and the exam PDF are read-only references; index.html is hand-maintained"
   },
@@ -570,8 +568,7 @@ Rules:
   ],
   "current_sprint_status": [
     "lessen-team-roadmap.md",
-    "AGENTS.md",
-    "plan-1.1.1-part-b-clarity-audit.md"
+    "AGENTS.md"
   ],
   "book_inventory": [
     "Boek N - <book-title>/deploy-config.json",
@@ -640,7 +637,7 @@ Rules:
     "Boek N - <book-title>/N.M Hoofdstuk <chapter-title>/N.M.K <paragraph-title>/N.M.K-review.md"
   ],
   "exam_alignment": [
-    "vw-1022-a-25-1-o.pdf",
+    "https://raw.githubusercontent.com/meijer1973/4veco-platform/main/references/external/exams/vw-1022-a-25-1-o.pdf",
     "course_blueprint_v5.md",
     "Boek 1 - Grondslagen, vraag en aanbod/1.5 Hoofdstuk Toetsvoorbereiding"
   ],
@@ -742,7 +739,7 @@ Suggested categories:
 - engine drift (`shared/` file out of sync with `4veco-platform/engines/`)
 - quality-log integrity (yaml or review.md missing or contradicting markdown)
 - roadmap/ownership clarity
-- exam alignment (against `vw-1022-a-25-1-o.pdf` and `course_blueprint_v5.md`)
+- exam alignment (against [the canonical platform exam PDF](https://raw.githubusercontent.com/meijer1973/4veco-platform/main/references/external/exams/vw-1022-a-25-1-o.pdf) and `course_blueprint_v5.md`)
 
 ## Output Constraints
 
@@ -753,3 +750,10 @@ Suggested categories:
 - Distinguish published-paragraph status from companion controlled-scope status; the bar for "complete" differs between the two.
 - Keep internal technical categories (engine drift, quality-log integrity, build staleness) inside developer-facing reports, not in any output meant for students.
 - Do not produce student-facing lesson text from this map. This file is for research navigation, not lesson production. Lesson production lives in `4veco-platform`.
+
+Historical context: the retired [April 1.1.1 Part B clarity audit](https://github.com/meijer1973/4veco-lessen/blob/57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a/archive/planning/plan-1.1.1-part-b-clarity-audit.md) is preserved in Git history; use the companion lane runbook above for current work.
+
+Current navigation uses the current file indexes. For historical or provenance
+questions, use [archive navigation](archive/README.md); complete machine
+inventories remain in the platform reports as `github-agent-index-platform`
+and `github-agent-index-lessen` (`.json` / `.md`).

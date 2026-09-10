@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "repository": "4veco-lessen",
+  "prepared_on": "2026-09-10",
+  "note": "Location metadata only; original authority, verdicts and outstanding conditions are unchanged.",
+  "entries": [
+    {
+      "original_path": "Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/_archive/presentation-legacy-20260629/1.1.1-presentatie-lead-review-v1.md",
+      "archived_path": "archive/lesson-prototypes/1.1.1/presentation-legacy-20260629/1.1.1-presentatie-lead-review-v1.md",
+      "original_blob": "f35a3a7767ca96c3f04ef0e1ed7bf4b3791541a2",
+      "final_blob": "f35a3a7767ca96c3f04ef0e1ed7bf4b3791541a2",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "topic": "M08",
+      "batch": "M08",
+      "current_consumers": [],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/_archive/presentation-legacy-20260629/1.1.1-presentatie-web-lead-review-v1.md",
+      "archived_path": "archive/lesson-prototypes/1.1.1/presentation-legacy-20260629/1.1.1-presentatie-web-lead-review-v1.md",
+      "original_blob": "a1c6d8c6aa6aae211feb610ae934fe7882775c13",
+      "final_blob": "a1c6d8c6aa6aae211feb610ae934fe7882775c13",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "topic": "M08",
+      "batch": "M08",
+      "current_consumers": [],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/_archive/presentation-legacy-20260629/README.md",
+      "archived_path": "archive/lesson-prototypes/1.1.1/presentation-legacy-20260629/README.md",
+      "original_blob": "c63f5034c32b5f52d14208176d2c2bdf1711e045",
+      "final_blob": "c3227aa66f831889136dbf2ebcbc311eed1c0b46",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "topic": "M08",
+      "batch": "M08",
+      "current_consumers": [],
+      "live_follow_up": null,
+      "navigation_edit": "Retained review links, recorded-commit prototype links, and corrected active presentation links after relocation; verdicts unchanged."
+    },
+    {
+      "original_path": "knowledge/handoff-presentation-method-to-lessons-team.md",
+      "archived_path": "archive/planning/handoff-presentation-method-to-lessons-team.md",
+      "original_blob": "c604f12d1174752b9eb23a1a8c9736773bb92676",
+      "final_blob": "c604f12d1174752b9eb23a1a8c9736773bb92676",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "topic": "M09",
+      "batch": "M09",
+      "current_consumers": [],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "kind": "snapshot",
+      "original_path": "lessen-team-roadmap.md",
+      "archived_path": "archive/roadmaps/snapshots/lessons-team-20260910.md",
+      "original_blob": "5068bdf54ff3287c60108344a1c25d38971eba78",
+      "final_blob": "5068bdf54ff3287c60108344a1c25d38971eba78",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "topic": "roadmap-baseline",
+      "current_consumers": [
+        "lessen-team-roadmap.md"
+      ],
+      "live_follow_up": "lessen-team-roadmap.md"
+    }
+  ]
+}

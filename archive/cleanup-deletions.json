@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "repository": "4veco-lessen",
+  "entries": [
+    {
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/_archive/presentation-legacy-20260629/prototype-v2.html",
+      "original_blob": "99869267b1a07e4834b32621120647bd7832493b",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "retained_copy": null
+    },
+    {
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/1.1 Hoofdstuk Economisch denken en rekenen/1.1.1 Schaarste en economisch denken/_archive/presentation-legacy-20260629/prototype-v2.pptx",
+      "original_blob": "5960d652835e9aa8ef96f45d4b6a946db34e1a3d",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "retained_copy": null
+    },
+    {
+      "path": "_team-b-reference/1.1.1/uitleg vaardigheden team b.html",
+      "original_blob": "d251bc7a7e235140fc7167c4cd1123d79f5cfe95",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "retained_copy": null
+    },
+    {
+      "path": "_team-b-reference/1.1.1/uitleg voorkennis team b.html",
+      "original_blob": "abcd26441053cca1c1892895a6f48ab960cd93a4",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "retained_copy": null
+    },
+    {
+      "path": "course_blueprint_v4.md",
+      "original_blob": "506d44c27c53cb983271a5ac4a56631766f21ba4",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "retained_copy": {
+        "repository": "4veco-platform",
+        "path": "references/owned/course-blueprint-v4.md"
+      }
+    },
+    {
+      "path": "vw-1022-a-25-1-o.pdf",
+      "original_blob": "91d5ab400741c7e6962d2f5a78abd967c8884db6",
+      "source_commit": "57b31a1f4a3d2aa0da3945abbc5a7a0ee5d05e6a",
+      "retained_copy": {
+        "repository": "4veco-platform",
+        "path": "references/external/exams/vw-1022-a-25-1-o.pdf"
+      }
+    }
+  ]
+}

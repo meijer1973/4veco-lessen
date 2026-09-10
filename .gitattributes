@@ -22,3 +22,6 @@
 *.woff2 binary
 *.ttf   binary
 *.eot   binary
+
+# Archived records preserve the original Git blob bytes.
+archive/** -text
