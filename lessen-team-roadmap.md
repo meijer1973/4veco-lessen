@@ -799,10 +799,14 @@ Current state:
 Completed execution: [full baseline](archive/roadmaps/snapshots/lessons-team-20260910.md#sprint-l12-second-companion-technical-probe). Original ledger status
 and the following recorded conditions are retained; this is not new closure.
 
+Evidence:
+
 - `1.1.2 Percentages en indexcijfers` has been used as the second technical probe.
 - The platform roadmap records it as passing complete-mode validation.
 - This proves technical repeatability, not final companion quality.
 - The generated 1.1.2 test materials have been cleared and must not be used as lesson content.
+
+Exit criteria:
 
 - two Book 1 companion paragraphs pass complete-mode validation during technical probing. Observed for `1.1.1` and `1.1.2`; 1.1.2 now awaits didactic rebuild.
 - repeated setup steps are saved or documented in the platform workflow.
@@ -815,11 +819,15 @@ and the following recorded conditions are retained; this is not new closure.
 
 Completed: yes.
 
+Scope:
+
 - `uitleg voorkennis.html`
 - `uitleg vaardigheden.html`
 - `begeleide inoefening.html`
 - paragraph `index.html`
 - game shell pages only where navigation or framing is visibly weak
+
+Current evidence:
 
 - `1.1.1` default `uitleg voorkennis.html` now uses the shared platform layout instead of only the rollback/test filename.
 - `1.1.1` `begeleide inoefening.html` now uses the shared platform theme layer.
@@ -831,6 +839,8 @@ Completed: yes.
 
 Completed execution: [full baseline](archive/roadmaps/snapshots/lessons-team-20260910.md#sprint-l13b-companion-svgs-and-lightdark-visual-variants). Original ledger status
 and the following recorded conditions are retained; this is not new closure.
+
+Current evidence:
 
 - `SURFACES` and `THEMES` are now a single platform-owned module (`4veco-platform/build-scripts/lib/lib-visual-surfaces.js`). Both the figure/worked-example/exercise builder (`b1-111-visual-variants.js`) and the news builder (`b1-111-nieuws.js`) import from it.
 - The news visual `1.1.1_news_woningtekort` is now produced through the shared variant system: `doc`, `web_light`, `web_dark` surface variants plus a canonical base file, with the Word document embedding the `_doc` PNG instead of a raw base screenshot.
@@ -2340,9 +2350,13 @@ and the following recorded conditions are retained; this is not new closure.
 
 Completed: yes, 2026-05-23.
 
+Purpose:
+
 Decide what the lesson side has actually proven and what remains too weak for
 broad scaling. L1.7A is a readiness, modality, and flag-triage gate, not a
 production scaling sprint.
+
+Work:
 
 - Review the regenerated `1.1.1` plus the L1.4 and L1.6 paragraphs after
   layout/UI and visual-integration improvements.
@@ -2364,11 +2378,15 @@ production scaling sprint.
   semantic anchors, surface variants, game mapping, answer-model alignment,
   and generator-block controls.
 
+Target-exercise note:
+
 L1.7A may log visible target-exercise red flags found during readiness review,
 but it does not perform the full target-exercise distribution audit. The full
 audit is deferred to L2.4-TEA, after MTU quality and review instrumentation are
 strong enough to support reliable judgement. L1.7A is a readiness and flag
 triage sprint, not a hidden curriculum redesign sprint.
+
+Exit criteria:
 
 - a readiness matrix exists and covers each major pipeline area
 - each current L1.6/L1.5Q flag is classified as fix-now, carry-forward, or
@@ -2378,6 +2396,8 @@ triage sprint, not a hidden curriculum redesign sprint.
 - broad companion production is either explicitly rejected for now or given a
   narrow, evidence-bounded condition set
 - PV-G4 blocked-use boundaries remain explicit
+
+Closure state:
 
 L1.7A closed PASS WITH FLAGS. Current validators are green, but broad companion
 scaling is rejected. L1.7B-C has since paused implementation after recording
@@ -2395,10 +2415,14 @@ Completed: 2026-05-23. Status: closed contract-only / MVP paused.
 Position: after L1.7A. This row records the completed contract and stop
 decision from the original L1.7B work. It does not authorize implementation.
 
+Purpose:
+
 Define the complete paragraph companion set and decide whether an exit-ticket
 game is the missing completion surface. The exit ticket remains a
 non-summative retrieval/checkpoint activity, not a grade, mastery decision,
 sequencing input, or adaptive diagnostic.
+
+Completed work:
 
 - Inspected the existing untracked exit-ticket prototype at
   `../4veco-platform/knowledge/exit-ticket-game-1.1.1.zip`.
@@ -2416,6 +2440,8 @@ untracked, uses mastery/score/pass/evidence/adaptive-focus language, and must
 consume shared skill-map compact checkpoint mode before any student-facing use.
 Human review and screenshot QA were not run because no MVP was generated.
 
+Records:
+
 - `archive/sprints/L1.7B/L1.7B-sprint-plan.md`
 - `archive/sprints/L1.7B/L1.7B-prototype-inventory.md`
 - `archive/sprints/L1.7B/L1.7B-companion-completion-contract.md`
@@ -2427,6 +2453,8 @@ Human review and screenshot QA were not run because no MVP was generated.
 
 Completed execution: [full baseline](archive/roadmaps/snapshots/lessons-team-20260910.md#sprint-l17b-r-boundary-safe-exit-ticket-mvp-resume). Original ledger status
 and the following recorded conditions are retained; this is not new closure.
+
+Work:
 
 - Import or rewrite the prototype as source-controlled platform code.
 - Remove mastery/pass/score/evidence/adaptive-focus language.
@@ -2453,6 +2481,8 @@ Out of scope:
 - summative use
 - PV projection or PV machine promotion
 - broad companion scaling
+
+Exit criteria:
 
 - source-controlled implementation exists or a renewed stop decision is
   recorded
@@ -2481,6 +2511,8 @@ product boundary. It did not satisfy the fuller exit-ticket
 target-exercise-readiness specification. Metadata alignment has since closed
 under L1.7B-MAP; the remaining readiness gap is assigned to L1.7B-P23,
 L1.7B-Q2, and GATE-L1.7B-Q2.
+
+Records:
 
 - `archive/sprints/L1.7B-R/L1.7B-R-sprint-plan.md`
 - `archive/sprints/L1.7B-R/L1.7B-R-baseline-audit.md`
@@ -2546,6 +2578,8 @@ and the following recorded conditions are retained; this is not new closure.
 Position: specification-hardening sprint after stable companion specification
 creation and before the remaining pre-scale exit-ticket/review-standard
 sequence.
+
+Closure rule:
 
 Future work that touches paragraph completeness, exit tickets, game-row
 architecture, official exam ingestion, Scale Gate 1, or review standards must
@@ -2636,6 +2670,8 @@ and the following recorded conditions are retained; this is not new closure.
 
 Completed: 2026-05-26. Status: CLOSED PASS WITH FLAGS.
 
+History finding:
+
 - GAME-UX-1 implemented shared skill-map support and did not remove the old
   skill-tree math game.
 - L1.7C reviewed `Stappenplan/Rekenen` as the current procedure-practice role
@@ -2643,6 +2679,8 @@ Completed: 2026-05-26. Status: CLOSED PASS WITH FLAGS.
 - L1.7D then made `stappenplan` the primary `Rekenen` route when present and
   demoted `wiskundevaardigheden` to `Verdiep`.
 - That route displacement is now a pre-scale defect.
+
+Closure status on 2026-05-26:
 
 - The platform landing generator now uses scoped `wiskundevaardigheden.html`
   as primary `Rekenen` when the paragraph declares concrete skill-tree skills.
@@ -2669,6 +2707,8 @@ Completed: 2026-05-26. Status: CLOSED PASS WITH FLAGS.
   practice-progress, restored math is not target-exercise-readiness evidence,
   keyboard/focus-order evidence should strengthen before scale, and scoped
   generated skilltree comments need cleanup.
+
+Work:
 
 - Review the audit in `archive/sprints/L1.7C-MATH/L1.7C-MATH-history-audit.md`.
 - Use the platform handoff draft in
@@ -2711,6 +2751,8 @@ Out of scope:
 - student-facing AI
 - PV projection or PV machine promotion
 - broad companion scaling
+
+Exit criteria:
 
 - `Rekenen` primary route points to scoped `wiskundevaardigheden.html` where
   available
@@ -2818,9 +2860,13 @@ Closure result:
 Completed execution: [full baseline](archive/roadmaps/snapshots/lessons-team-20260910.md#sprint-spec-et-1-exit-ticket-target-equivalent-specification-correction). Original ledger status
 and the following recorded conditions are retained; this is not new closure.
 
+Purpose:
+
 Correct the stable product and companion specifications so the exit ticket is
 the paragraph target-equivalent proof task, not merely a readiness-to-try
 check.
+
+Closure result:
 
 - `specifications/product-end-state.md` now defines the exit ticket as a
   same-level task over the same target-exercise operation and answer-form
@@ -3355,6 +3401,8 @@ and the following recorded conditions are retained; this is not new closure.
 
 Completed: 2026-05-23.
 
+Architecture:
+
 - Shared support engine: skill-map engine for progression display, aspect
   filtering, recommendations, prerequisites, locked/open/completed states,
   stars/progress, compact route display, dependency route display, and full
@@ -3365,11 +3413,15 @@ Completed: 2026-05-23.
 - Landing pages may use the shared engine only to expose scoped routes, not a
   full unfiltered catalog by default.
 
+Modes:
+
 - `compact`: one recommended skill plus a small set of available skills; locked
   skills hidden or collapsed.
 - `route`: recommended path for the active aspect/game, with prerequisites
   shown only as route context.
 - `full`: complete skill map for advanced, teacher-facing, or debug view only.
+
+Aspect filters:
 
 - `reasoning`: reasoning, verbal, causal, and procedure-selection skills.
 - `calculation`: calculation, formula, unit, and answer-field skills.
@@ -3387,6 +3439,8 @@ Out of scope:
 - student-facing AI
 - PV projection or PV machine promotion
 - broad game-row or paragraph production
+
+Outcome:
 
 - Current skill-tree audit completed. The platform already has paragraph,
   chapter, and all-skill/module views, local stars, next-skill logic, and
@@ -3410,12 +3464,16 @@ Out of scope:
 Completed execution: [full baseline](archive/roadmaps/snapshots/lessons-team-20260910.md#sprint-l17c-three-aspect-game-quality-upgrade). Original ledger status
 and the following recorded conditions are retained; this is not new closure.
 
+Purpose:
+
 Upgrade the second-row skill-practice games: `Redeneren`, `Rekenen`, and
 `Grafieken`. L1.5G-D proved the routing layer exists; L1.7C must decide whether
 the games themselves are good enough to repeat across many paragraphs. The
 three games remain separate practice engines and must consume the shared
 skill-map contract from L1.7C-0 rather than inventing three separate skill-tree
 UIs.
+
+Technical state:
 
 - Book 1 was regenerated through the platform workflow.
 - `Redeneren`, `Rekenen/Stappenplan`, and `Grafieken` now load the shared
@@ -3435,6 +3493,8 @@ UIs.
   available route tiles, and route-panel screenshots are recorded.
 - Focused human recheck accepted the targeted fix and closed L1.7C as PASS WITH
   FLAGS.
+
+Work:
 
 - Produce a reusable game-row quality rubric that includes skill-map clarity.
 - Use the L1.7C-0 shared skill-map contract as the baseline for every game-row
@@ -3459,6 +3519,15 @@ UIs.
 
 Out of scope:
 
+- adaptive diagnostics
+- mastery/sequencing
+- student-facing AI
+- summative use
+- PV projection or PV machine promotion
+- broad paragraph production
+
+Closure result:
+
 - game-row rubric exists and is reusable
 - each of the three games has a disposition: PASS WITH FLAGS for controlled
   pilot use
@@ -3475,6 +3544,8 @@ and the following recorded conditions are retained; this is not new closure.
 
 Position: closed PASS WITH FLAGS after L1.7C; before L2.0, L1.7B-R,
 GATE-L1.7B, and Scale Gate 1.
+
+Work:
 
 - Define primary, secondary, collapsed, advanced, teacher-facing, and
   download-only surfaces.
@@ -3503,6 +3574,8 @@ Out of scope:
 Completed execution: [full baseline](archive/roadmaps/snapshots/lessons-team-20260910.md#sprint-l20-book-1-flag-burn-down-and-house-style-cleanup). Original ledger status
 and the following recorded conditions are retained; this is not new closure.
 
+Closed state:
+
 - `archive/sprints/L2.0/` now contains the sprint plan, baseline audit,
   house-style baseline, flag disposition, quality-ref status standard,
   validation log, technical QA report, human-review packet, student-experience
@@ -3516,6 +3589,8 @@ and the following recorded conditions are retained; this is not new closure.
 - Carried flags remain for `1.1.4` legacy `FLAG`, graph-drawing consolidation,
   profit-formula framing, numeric calculation-engine work, graph/reasoning
   variants, exit-ticket implementation, and Scale Gate 1 QA sampling.
+
+Work:
 
 - Keep the L-CP6E `1.1.3` Part A figure-numbering fix as current evidence and
   decide the remaining duplicated worked-example policy.
@@ -3539,6 +3614,13 @@ and the following recorded conditions are retained; this is not new closure.
 - Define screenshot/QA expectations for future paragraph builds.
 
 Out of scope:
+
+- new companion/game features
+- adaptive behavior
+- target-exercise distribution audit
+- broad paragraph production
+
+Exit criteria:
 
 - each easy visible Book 1 flag has a decision or fix
 - house-style baseline exists and references the actual built paragraphs
