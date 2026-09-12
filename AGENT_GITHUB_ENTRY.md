@@ -1,59 +1,22 @@
-# GitHub Agent Entry - 4veco Lessen
+# GitHub access — 4veco Lessons
 
-This repo is the generated, student-facing lesson-material corpus for 4veco. It contains published book, chapter, paragraph, companion, asset, and shared-runtime output.
+Start with [AGENTS.md](AGENTS.md), then the assignment's relevant files.
+Use the [lesson map](RESEARCH_AGENT_MAP.md) to find unfamiliar locations.
+The platform map is useful when tracing build logic; neither map requires
+reading product specifications or the roadmap before an unrelated lookup.
 
-The authoring and build platform lives in the companion repo `4veco-platform`. For cross-repo work, start by reading both `RESEARCH_AGENT_MAP.md` files.
-
-Path reliability:
-
-- Use exact paths from `RESEARCH_AGENT_MAP.md` or this file when possible.
-- Use `4veco-platform/reports/github-agent-current-platform.md` and `4veco-platform/reports/github-agent-current-lessen.md` for existence checks.
-- Use GitHub search mainly for discovery, not proof; confirm search hits through exact paths or the generated inventory.
-
-| Question type | Inspect first |
-|---|---|
-| Does a generated lesson artifact currently exist for students? | `4veco-lessen` |
-| Which book/chapter/paragraph files are published now? | `4veco-lessen` |
-| Is a PDF, HTML page, DOCX, PPTX, image, or companion page present? | `4veco-lessen` |
-| How is a lesson, game, visual, validator, or reference generated? | `4veco-platform` |
-| Which engine/source/template should be changed? | `4veco-platform` |
-| Why did a generated artifact look or behave this way? | `4veco-lessen`, then `4veco-platform` |
-| Is a copied `shared/` engine file authoritative? | `4veco-platform` |
-
-Common mistakes:
-
-- Searching only `4veco-lessen` and concluding the build logic is absent.
-- Searching only `4veco-platform` and concluding a lesson artifact does not exist.
-- Hand-editing copied `shared/` engine files here instead of changing platform-managed sources.
-- Treating generated files here as proof that the platform has no newer source, validator, or roadmap requirement.
-- Building a Book 1-specific status system instead of using repository maps and the generated file inventory from `4veco-platform`.
-
-Useful entry points:
-
-- `RESEARCH_AGENT_MAP.md`
-- `AGENTS.md`
-- `specifications/product-vision.md`
-- `specifications/product-vision.json`
-- `specifications/product-end-state.md`
-- `specifications/companion-core-specifications.md`
-- `lessen-team-roadmap.md`
-- `lesson-ticket-L-CP6A-book1-chapter13-v5-alignment.md`
-- `course_blueprint_v5.md`
-- `index.html`
-- `4veco-platform/reports/github-agent-current-lessen.md` after running `npm run agent:index` in `4veco-platform`
-
-Exam-target work:
-
-- Use `specifications/product-vision.md` for strategic direction, moat/parity
-  trade-offs, lean diffusion constraints, and agent-reliability decisions.
-- Use `specifications/product-end-state.md` as the canonical product north
-  star: every paragraph route should move the student from current readiness to
-  target-exercise readiness.
-- Use `course_blueprint_v5.md` as the active lesson-side curriculum-source baseline.
-- Use `4veco-platform/references/SOURCE_OF_TRUTH.md`, `4veco-platform/references/data/exercises/README.md`, and `4veco-platform/BUILD-PARAGRAPH.md` for the official exam-question ingestion and exam-target paragraph contracts.
-- Do not treat an official exam prompt as enough for a paragraph build unless source annexes and the official correction model are represented or explicitly marked as gaps by the platform-side evidence.
-
-Current navigation uses the current file indexes. For historical or provenance
-questions, use [archive navigation](archive/README.md); complete machine
-inventories remain in the platform reports as `github-agent-index-platform`
-and `github-agent-index-lessen` (`.json` / `.md`).
+- Repository: [4veco-lessen](https://github.com/meijer1973/4veco-lessen).
+- Raw file prefix: `https://raw.githubusercontent.com/meijer1973/4veco-lessen/main/`.
+  Use the reviewed branch or full commit SHA for a PR investigation.
+- Rendered site: [student landing](https://meijer1973.github.io/4veco-lessen/index.html).
+  Site pages show deployed output, which may differ from a PR. Use explicit
+  HTML filenames and encode spaces, commas and the U+2013 en dash.
+- Exact paths: [current lesson inventory](https://github.com/meijer1973/4veco-platform/blob/main/reports/github-agent-current-lessen.md).
+  For tools needing literal URLs, use the
+  [URL index](https://raw.githubusercontent.com/meijer1973/4veco-platform/main/reports/url-index.md).
+- Prefer local search or authenticated GitHub file/tree access when available.
+  Before declaring a file absent, verify its repository, ref, filename and
+  encoding. A failed unauthenticated fetch or raw directory URL is not evidence
+  that the file is missing; state access limits.
+- Raw files are source bytes; rendered HTML/PDF is product evidence. Plans,
+  inventory snapshots and roadmaps are not substitutes for the actual artifact.
