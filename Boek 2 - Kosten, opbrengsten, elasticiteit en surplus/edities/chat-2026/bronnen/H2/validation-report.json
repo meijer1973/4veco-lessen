@@ -1,0 +1,1997 @@
+{
+  "scope": "Local structural, arithmetic, target-wording and PDF preflight checks; not an independent pedagogical review or official repository gate.",
+  "student_pages": 36,
+  "answer_pages": 18,
+  "teacher_pages": 6,
+  "exercises": 38,
+  "figures": 13,
+  "passed": 397,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "2.2.1 unique exercises",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    },
+    {
+      "check": "2.2.1 complete answers",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    },
+    {
+      "check": "2.2.1 canonical seven headings",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "check": "2.2.1 summary position",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 optional guided route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 short route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 unique exercises",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    },
+    {
+      "check": "2.2.2 complete answers",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    },
+    {
+      "check": "2.2.2 canonical seven headings",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "check": "2.2.2 summary position",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 optional guided route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 short route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 unique exercises",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "check": "2.2.3 complete answers",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "check": "2.2.3 canonical seven headings",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "check": "2.2.3 summary position",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 optional guided route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 short route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 unique exercises",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7]"
+    },
+    {
+      "check": "2.2.4 complete answers",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7]"
+    },
+    {
+      "check": "38 numbered exercises",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no device dependency",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no legacy production-range term",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 registry context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 target question a verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 target question b verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 target question c verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 target question d verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 target question order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 target point total",
+      "passed": true,
+      "detail": "9 == 9"
+    },
+    {
+      "check": "2.2.2 registry context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 target question a verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 target question b verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 target question c verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 target question d verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 target question e verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 target question f verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 target question order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 target point total",
+      "passed": true,
+      "detail": "11 == 11"
+    },
+    {
+      "check": "2.2.3 registry context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 target question a verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 target question b verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 target question c verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 target question d verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 target question e verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 target question order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 target point total",
+      "passed": true,
+      "detail": "16 == 16"
+    },
+    {
+      "check": "2.2.4 registry context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 target question 1 verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 target question 2 verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 target question 3 verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 target question 4 verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 target question 5 verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 target question 6 verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 target question order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 target point total",
+      "passed": true,
+      "detail": "14 == 14"
+    },
+    {
+      "check": "RolVast %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "RolVast %Q",
+      "passed": true,
+      "detail": "-5 == -5"
+    },
+    {
+      "check": "RolVast Ev",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "RolVast TO old",
+      "passed": true,
+      "detail": "2000 == 2000"
+    },
+    {
+      "check": "RolVast TO new",
+      "passed": true,
+      "detail": "2090 == 2090"
+    },
+    {
+      "check": "SpringVrij %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "SpringVrij %Q",
+      "passed": true,
+      "detail": "-20 == -20"
+    },
+    {
+      "check": "SpringVrij Ev",
+      "passed": true,
+      "detail": "-2 == -2"
+    },
+    {
+      "check": "SpringVrij TO old",
+      "passed": true,
+      "detail": "2000 == 2000"
+    },
+    {
+      "check": "SpringVrij TO new",
+      "passed": true,
+      "detail": "1760 == 1760"
+    },
+    {
+      "check": "KlimStudio %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "KlimStudio %Q",
+      "passed": true,
+      "detail": "-5 == -5"
+    },
+    {
+      "check": "KlimStudio Ev",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "KlimStudio TO old",
+      "passed": true,
+      "detail": "8000 == 8000"
+    },
+    {
+      "check": "KlimStudio TO new",
+      "passed": true,
+      "detail": "8360 == 8360"
+    },
+    {
+      "check": "Museum retrieval %P",
+      "passed": true,
+      "detail": "25 == 25"
+    },
+    {
+      "check": "Museum retrieval %Q",
+      "passed": true,
+      "detail": "-10 == -10"
+    },
+    {
+      "check": "Museum retrieval Ev",
+      "passed": true,
+      "detail": "-2/5 == -0.4"
+    },
+    {
+      "check": "Museum retrieval TO old",
+      "passed": true,
+      "detail": "960 == 960"
+    },
+    {
+      "check": "Museum retrieval TO new",
+      "passed": true,
+      "detail": "1080 == 1080"
+    },
+    {
+      "check": "EscapeLab %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "EscapeLab %Q",
+      "passed": true,
+      "detail": "-20 == -20"
+    },
+    {
+      "check": "EscapeLab Ev",
+      "passed": true,
+      "detail": "-2 == -2"
+    },
+    {
+      "check": "EscapeLab TO old",
+      "passed": true,
+      "detail": "20000 == 20000"
+    },
+    {
+      "check": "EscapeLab TO new",
+      "passed": true,
+      "detail": "17600 == 17600"
+    },
+    {
+      "check": "BroodBus %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "BroodBus %Q",
+      "passed": true,
+      "detail": "-5 == -5"
+    },
+    {
+      "check": "BroodBus Ev",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "BroodBus TO old",
+      "passed": true,
+      "detail": "400 == 400"
+    },
+    {
+      "check": "BroodBus TO new",
+      "passed": true,
+      "detail": "418 == 418"
+    },
+    {
+      "check": "StripRuil %P",
+      "passed": true,
+      "detail": "-10 == -10"
+    },
+    {
+      "check": "StripRuil %Q",
+      "passed": true,
+      "detail": "20 == 20"
+    },
+    {
+      "check": "StripRuil Ev",
+      "passed": true,
+      "detail": "-2 == -2"
+    },
+    {
+      "check": "StripRuil TO old",
+      "passed": true,
+      "detail": "1000 == 1000"
+    },
+    {
+      "check": "StripRuil TO new",
+      "passed": true,
+      "detail": "1080 == 1080"
+    },
+    {
+      "check": "StickerHub %P",
+      "passed": true,
+      "detail": "20 == 20"
+    },
+    {
+      "check": "StickerHub %Q",
+      "passed": true,
+      "detail": "-30 == -30"
+    },
+    {
+      "check": "StickerHub Ev",
+      "passed": true,
+      "detail": "-3/2 == -1.5"
+    },
+    {
+      "check": "StickerHub TO old",
+      "passed": true,
+      "detail": "2000 == 2000"
+    },
+    {
+      "check": "StickerHub TO new",
+      "passed": true,
+      "detail": "1680 == 1680"
+    },
+    {
+      "check": "RetroGames %P",
+      "passed": true,
+      "detail": "-10 == -10"
+    },
+    {
+      "check": "RetroGames %Q",
+      "passed": true,
+      "detail": "20 == 20"
+    },
+    {
+      "check": "RetroGames Ev",
+      "passed": true,
+      "detail": "-2 == -2"
+    },
+    {
+      "check": "RetroGames TO old",
+      "passed": true,
+      "detail": "2400 == 2400"
+    },
+    {
+      "check": "RetroGames TO new",
+      "passed": true,
+      "detail": "2592 == 2592"
+    },
+    {
+      "check": "Nova %P",
+      "passed": true,
+      "detail": "20 == 20"
+    },
+    {
+      "check": "Nova %Q",
+      "passed": true,
+      "detail": "-16 == -16"
+    },
+    {
+      "check": "Nova Ev",
+      "passed": true,
+      "detail": "-4/5 == -0.8"
+    },
+    {
+      "check": "Nova TO old",
+      "passed": true,
+      "detail": "5000 == 5000"
+    },
+    {
+      "check": "Nova TO new",
+      "passed": true,
+      "detail": "5040 == 5040"
+    },
+    {
+      "check": "Pencils %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "Pencils %Q",
+      "passed": true,
+      "detail": "-10 == -10"
+    },
+    {
+      "check": "Pencils Ev",
+      "passed": true,
+      "detail": "-1 == -1"
+    },
+    {
+      "check": "Pencils TO old",
+      "passed": true,
+      "detail": "2000 == 2000"
+    },
+    {
+      "check": "Pencils TO new",
+      "passed": true,
+      "detail": "1980 == 1980"
+    },
+    {
+      "check": "MuseumBos/PuzzelClub %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "MuseumBos/PuzzelClub %Q",
+      "passed": true,
+      "detail": "-5 == -5"
+    },
+    {
+      "check": "MuseumBos/PuzzelClub Ev",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "MuseumBos/PuzzelClub TO old",
+      "passed": true,
+      "detail": "1000 == 1000"
+    },
+    {
+      "check": "MuseumBos/PuzzelClub TO new",
+      "passed": true,
+      "detail": "1045 == 1045"
+    },
+    {
+      "check": "Finite counterexample %P",
+      "passed": true,
+      "detail": "20 == 20"
+    },
+    {
+      "check": "Finite counterexample %Q",
+      "passed": true,
+      "detail": "-18 == -18"
+    },
+    {
+      "check": "Finite counterexample Ev",
+      "passed": true,
+      "detail": "-9/10 == -0.9"
+    },
+    {
+      "check": "Finite counterexample TO old",
+      "passed": true,
+      "detail": "1000 == 1000"
+    },
+    {
+      "check": "Finite counterexample TO new",
+      "passed": true,
+      "detail": "984 == 984"
+    },
+    {
+      "check": "FotoWorkshop %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "FotoWorkshop %Q",
+      "passed": true,
+      "detail": "-20 == -20"
+    },
+    {
+      "check": "FotoWorkshop Ev",
+      "passed": true,
+      "detail": "-2 == -2"
+    },
+    {
+      "check": "FotoWorkshop TO old",
+      "passed": true,
+      "detail": "1000 == 1000"
+    },
+    {
+      "check": "FotoWorkshop TO new",
+      "passed": true,
+      "detail": "880 == 880"
+    },
+    {
+      "check": "LeesLounge %P",
+      "passed": true,
+      "detail": "20 == 20"
+    },
+    {
+      "check": "LeesLounge %Q",
+      "passed": true,
+      "detail": "-5 == -5"
+    },
+    {
+      "check": "LeesLounge Ev",
+      "passed": true,
+      "detail": "-1/4 == -0.25"
+    },
+    {
+      "check": "LeesLounge TO old",
+      "passed": true,
+      "detail": "1000 == 1000"
+    },
+    {
+      "check": "LeesLounge TO new",
+      "passed": true,
+      "detail": "1140 == 1140"
+    },
+    {
+      "check": "SneakerSwap %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "SneakerSwap %Q",
+      "passed": true,
+      "detail": "-20 == -20"
+    },
+    {
+      "check": "SneakerSwap Ev",
+      "passed": true,
+      "detail": "-2 == -2"
+    },
+    {
+      "check": "SneakerSwap TO old",
+      "passed": true,
+      "detail": "5000 == 5000"
+    },
+    {
+      "check": "SneakerSwap TO new",
+      "passed": true,
+      "detail": "4400 == 4400"
+    },
+    {
+      "check": "BordspelBar %P",
+      "passed": true,
+      "detail": "25 == 25"
+    },
+    {
+      "check": "BordspelBar %Q",
+      "passed": true,
+      "detail": "-10 == -10"
+    },
+    {
+      "check": "BordspelBar Ev",
+      "passed": true,
+      "detail": "-2/5 == -0.4"
+    },
+    {
+      "check": "BordspelBar TO old",
+      "passed": true,
+      "detail": "4000 == 4000"
+    },
+    {
+      "check": "BordspelBar TO new",
+      "passed": true,
+      "detail": "4500 == 4500"
+    },
+    {
+      "check": "KaraokeKade %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "KaraokeKade %Q",
+      "passed": true,
+      "detail": "-20 == -20"
+    },
+    {
+      "check": "KaraokeKade Ev",
+      "passed": true,
+      "detail": "-2 == -2"
+    },
+    {
+      "check": "KaraokeKade TO old",
+      "passed": true,
+      "detail": "4000 == 4000"
+    },
+    {
+      "check": "KaraokeKade TO new",
+      "passed": true,
+      "detail": "3520 == 3520"
+    },
+    {
+      "check": "PlantenPop %P",
+      "passed": true,
+      "detail": "-5 == -5"
+    },
+    {
+      "check": "PlantenPop %Q",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "PlantenPop Ev",
+      "passed": true,
+      "detail": "-2 == -2"
+    },
+    {
+      "check": "PlantenPop TO old",
+      "passed": true,
+      "detail": "2000 == 2000"
+    },
+    {
+      "check": "PlantenPop TO new",
+      "passed": true,
+      "detail": "2090 == 2090"
+    },
+    {
+      "check": "StreamNow %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "StreamNow %Q",
+      "passed": true,
+      "detail": "-20 == -20"
+    },
+    {
+      "check": "StreamNow Ev",
+      "passed": true,
+      "detail": "-2 == -2"
+    },
+    {
+      "check": "StreamNow TO old",
+      "passed": true,
+      "detail": "20000 == 20000"
+    },
+    {
+      "check": "StreamNow TO new",
+      "passed": true,
+      "detail": "17600 == 17600"
+    },
+    {
+      "check": "Course bonus %P",
+      "passed": true,
+      "detail": "25 == 25"
+    },
+    {
+      "check": "Course bonus %Q",
+      "passed": true,
+      "detail": "-20 == -20"
+    },
+    {
+      "check": "Course bonus Ev",
+      "passed": true,
+      "detail": "-4/5 == -0.8"
+    },
+    {
+      "check": "Course bonus TO old",
+      "passed": true,
+      "detail": "4000 == 4000"
+    },
+    {
+      "check": "Course bonus TO new",
+      "passed": true,
+      "detail": "4000 == 4000"
+    },
+    {
+      "check": "Magazine %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "Magazine %Q",
+      "passed": true,
+      "detail": "-5 == -5"
+    },
+    {
+      "check": "Magazine Ev",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "Magazine TO old",
+      "passed": true,
+      "detail": "2400 == 2400"
+    },
+    {
+      "check": "Magazine TO new",
+      "passed": true,
+      "detail": "2508 == 2508"
+    },
+    {
+      "check": "Notebook %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "Notebook %Q",
+      "passed": true,
+      "detail": "-10 == -10"
+    },
+    {
+      "check": "Notebook Ev",
+      "passed": true,
+      "detail": "-1 == -1"
+    },
+    {
+      "check": "Notebook TO old",
+      "passed": true,
+      "detail": "2000 == 2000"
+    },
+    {
+      "check": "Notebook TO new",
+      "passed": true,
+      "detail": "1980 == 1980"
+    },
+    {
+      "check": "LunchCampus %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "LunchCampus %Q",
+      "passed": true,
+      "detail": "-5 == -5"
+    },
+    {
+      "check": "LunchCampus Ev",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "LunchCampus TO old",
+      "passed": true,
+      "detail": "4000 == 4000"
+    },
+    {
+      "check": "LunchCampus TO new",
+      "passed": true,
+      "detail": "4180 == 4180"
+    },
+    {
+      "check": "WorkshopApp %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "WorkshopApp %Q",
+      "passed": true,
+      "detail": "-15 == -15"
+    },
+    {
+      "check": "WorkshopApp Ev",
+      "passed": true,
+      "detail": "-3/2 == -1.5"
+    },
+    {
+      "check": "WorkshopApp TO old",
+      "passed": true,
+      "detail": "4000 == 4000"
+    },
+    {
+      "check": "WorkshopApp TO new",
+      "passed": true,
+      "detail": "3740 == 3740"
+    },
+    {
+      "check": "SkillBox %P",
+      "passed": true,
+      "detail": "25/2 == 12.5"
+    },
+    {
+      "check": "SkillBox %Q",
+      "passed": true,
+      "detail": "-8 == -8"
+    },
+    {
+      "check": "SkillBox Ev",
+      "passed": true,
+      "detail": "-16/25 == -0.64"
+    },
+    {
+      "check": "SkillBox TO old",
+      "passed": true,
+      "detail": "4000 == 4000"
+    },
+    {
+      "check": "SkillBox TO new",
+      "passed": true,
+      "detail": "4140 == 4140"
+    },
+    {
+      "check": "StreamPlus %P",
+      "passed": true,
+      "detail": "20 == 20"
+    },
+    {
+      "check": "StreamPlus %Q",
+      "passed": true,
+      "detail": "-14 == -14"
+    },
+    {
+      "check": "StreamPlus Ev",
+      "passed": true,
+      "detail": "-7/10 == -0.7"
+    },
+    {
+      "check": "StreamPlus TO old",
+      "passed": true,
+      "detail": "500000 == 500000"
+    },
+    {
+      "check": "StreamPlus TO new",
+      "passed": true,
+      "detail": "516000 == 516000"
+    },
+    {
+      "check": "StudioScene %P",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "StudioScene %Q",
+      "passed": true,
+      "detail": "-10 == -10"
+    },
+    {
+      "check": "StudioScene Ev",
+      "passed": true,
+      "detail": "-1 == -1"
+    },
+    {
+      "check": "StudioScene TO old",
+      "passed": true,
+      "detail": "6000 == 6000"
+    },
+    {
+      "check": "StudioScene TO new",
+      "passed": true,
+      "detail": "5940 == 5940"
+    },
+    {
+      "check": "PuzzelClub percent revenue",
+      "passed": true,
+      "detail": "9/2 == 4.5"
+    },
+    {
+      "check": "FotoWorkshop percent revenue",
+      "passed": true,
+      "detail": "-12 == -12"
+    },
+    {
+      "check": "Kraam percent revenue",
+      "passed": true,
+      "detail": "25/2 == 12.5"
+    },
+    {
+      "check": "LeesLounge percent revenue",
+      "passed": true,
+      "detail": "14 == 14"
+    },
+    {
+      "check": "SneakerSwap percent revenue",
+      "passed": true,
+      "detail": "-12 == -12"
+    },
+    {
+      "check": "BordspelBar percent revenue",
+      "passed": true,
+      "detail": "25/2 == 12.5"
+    },
+    {
+      "check": "KaraokeKade percent revenue",
+      "passed": true,
+      "detail": "-12 == -12"
+    },
+    {
+      "check": "Nova percent revenue",
+      "passed": true,
+      "detail": "4/5 == 0.8"
+    },
+    {
+      "check": "StreamNow percent revenue",
+      "passed": true,
+      "detail": "-12 == -12"
+    },
+    {
+      "check": "Large counterexample percent revenue",
+      "passed": true,
+      "detail": "-8/5 == -1.6"
+    },
+    {
+      "check": "Unitary finite example percent revenue",
+      "passed": true,
+      "detail": "-1 == -1"
+    },
+    {
+      "check": "Ei theory normal",
+      "passed": true,
+      "detail": "1/2 == 0.5"
+    },
+    {
+      "check": "Ei theory inferior",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "Ei theory luxury",
+      "passed": true,
+      "detail": "2 == 2"
+    },
+    {
+      "check": "Train vs bus",
+      "passed": true,
+      "detail": "3/5 == 0.6"
+    },
+    {
+      "check": "Ink vs printer",
+      "passed": true,
+      "detail": "-2/5 == -0.4"
+    },
+    {
+      "check": "WE scooter luxury",
+      "passed": true,
+      "detail": "2 == 2"
+    },
+    {
+      "check": "WE scooter inferior",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "WE bicycle vs train",
+      "passed": true,
+      "detail": "1/2 == 0.5"
+    },
+    {
+      "check": "WE reservations vs train",
+      "passed": true,
+      "detail": "-4/5 == -0.8"
+    },
+    {
+      "check": "Merksnacks",
+      "passed": true,
+      "detail": "1/2 == 0.5"
+    },
+    {
+      "check": "Budgetsoep",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "Hobbysets",
+      "passed": true,
+      "detail": "2 == 2"
+    },
+    {
+      "check": "Wheels/skateboard",
+      "passed": true,
+      "detail": "-3/2 == -1.5"
+    },
+    {
+      "check": "Fruitbar soda",
+      "passed": true,
+      "detail": "2/5 == 0.4"
+    },
+    {
+      "check": "Fruitbar cup",
+      "passed": true,
+      "detail": "-3/10 == -0.3"
+    },
+    {
+      "check": "Headphones",
+      "passed": true,
+      "detail": "2 == 2"
+    },
+    {
+      "check": "Earphones",
+      "passed": true,
+      "detail": "2/5 == 0.4"
+    },
+    {
+      "check": "Players",
+      "passed": true,
+      "detail": "-1 == -1"
+    },
+    {
+      "check": "Portable/consoles",
+      "passed": true,
+      "detail": "1/2 == 0.5"
+    },
+    {
+      "check": "Controllers/consoles",
+      "passed": true,
+      "detail": "-3/2 == -1.5"
+    },
+    {
+      "check": "Target meal boxes",
+      "passed": true,
+      "detail": "8/5 == 1.6"
+    },
+    {
+      "check": "Target noodles",
+      "passed": true,
+      "detail": "-3/5 == -0.6"
+    },
+    {
+      "check": "Target tea",
+      "passed": true,
+      "detail": "2/5 == 0.4"
+    },
+    {
+      "check": "Target filters",
+      "passed": true,
+      "detail": "-3/5 == -0.6"
+    },
+    {
+      "check": "Consumer group A",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "Consumer group B",
+      "passed": true,
+      "detail": "3/2 == 1.5"
+    },
+    {
+      "check": "Drawing luxury",
+      "passed": true,
+      "detail": "3/2 == 1.5"
+    },
+    {
+      "check": "Sketchbooks",
+      "passed": true,
+      "detail": "1/2 == 0.5"
+    },
+    {
+      "check": "Paper leftovers",
+      "passed": true,
+      "detail": "-1/4 == -0.25"
+    },
+    {
+      "check": "Memory cards",
+      "passed": true,
+      "detail": "-3/5 == -0.6"
+    },
+    {
+      "check": "SkillBox cross",
+      "passed": true,
+      "detail": "3/10 == 0.3"
+    },
+    {
+      "check": "Premium StreamPlus",
+      "passed": true,
+      "detail": "15/8 == 1.875"
+    },
+    {
+      "check": "Budget StreamPlus",
+      "passed": true,
+      "detail": "-1/2 == -0.5"
+    },
+    {
+      "check": "StreamPlus cross",
+      "passed": true,
+      "detail": "2/5 == 0.4"
+    },
+    {
+      "check": "Scene income",
+      "passed": true,
+      "detail": "1/2 == 0.5"
+    },
+    {
+      "check": "Scene cross",
+      "passed": true,
+      "detail": "-2/5 == -0.4"
+    },
+    {
+      "check": "DeelFiets scenario 0",
+      "passed": true,
+      "detail": "380 == 380"
+    },
+    {
+      "check": "DeelFiets scenario 1",
+      "passed": true,
+      "detail": "400 == 400"
+    },
+    {
+      "check": "DeelFiets income scenario holds prices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "DeelFiets scenario 2",
+      "passed": true,
+      "detail": "390 == 390"
+    },
+    {
+      "check": "DeelFiets resets Y and holds own P",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "DeelFiets income elasticity",
+      "passed": true,
+      "detail": "10/19 == 0.5263157894736842"
+    },
+    {
+      "check": "StudioPas scenario 0",
+      "passed": true,
+      "detail": "400 == 400"
+    },
+    {
+      "check": "StudioPas scenario 1",
+      "passed": true,
+      "detail": "420 == 420"
+    },
+    {
+      "check": "StudioPas income scenario holds prices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "StudioPas scenario 2",
+      "passed": true,
+      "detail": "404 == 404"
+    },
+    {
+      "check": "StudioPas resets Y and holds own P",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "StudioPas income elasticity",
+      "passed": true,
+      "detail": "1/2 == 0.5"
+    },
+    {
+      "check": "ZwemPas scenario 0",
+      "passed": true,
+      "detail": "400 == 400"
+    },
+    {
+      "check": "ZwemPas scenario 1",
+      "passed": true,
+      "detail": "420 == 420"
+    },
+    {
+      "check": "ZwemPas income scenario holds prices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ZwemPas scenario 2",
+      "passed": true,
+      "detail": "406 == 406"
+    },
+    {
+      "check": "ZwemPas resets Y and holds own P",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ZwemPas income elasticity",
+      "passed": true,
+      "detail": "1/2 == 0.5"
+    },
+    {
+      "check": "CreatiefPas scenario 0",
+      "passed": true,
+      "detail": "300 == 300"
+    },
+    {
+      "check": "CreatiefPas scenario 1",
+      "passed": true,
+      "detail": "319 == 319"
+    },
+    {
+      "check": "CreatiefPas income scenario holds prices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CreatiefPas scenario 2",
+      "passed": true,
+      "detail": "302 == 302"
+    },
+    {
+      "check": "CreatiefPas resets Y and holds own P",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CreatiefPas income elasticity",
+      "passed": true,
+      "detail": "19/30 == 0.6333333333333333"
+    },
+    {
+      "check": "Target fitness scenario 0",
+      "passed": true,
+      "detail": "390 == 390"
+    },
+    {
+      "check": "Target fitness scenario 1",
+      "passed": true,
+      "detail": "420 == 420"
+    },
+    {
+      "check": "Target fitness income scenario holds prices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Target fitness scenario 2",
+      "passed": true,
+      "detail": "392 == 392"
+    },
+    {
+      "check": "Target fitness resets Y and holds own P",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Target fitness income elasticity",
+      "passed": true,
+      "detail": "10/13 == 0.7692307692307693"
+    },
+    {
+      "check": "Hobby model scenario 0",
+      "passed": true,
+      "detail": "1100 == 1100"
+    },
+    {
+      "check": "Hobby model scenario 1",
+      "passed": true,
+      "detail": "1140 == 1140"
+    },
+    {
+      "check": "Hobby model income scenario holds prices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Target StreamPlus region scenario 0",
+      "passed": true,
+      "detail": "14200 == 14200"
+    },
+    {
+      "check": "Target StreamPlus region scenario 1",
+      "passed": true,
+      "detail": "14400 == 14400"
+    },
+    {
+      "check": "Target StreamPlus region income scenario holds prices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Scene region scenario 0",
+      "passed": true,
+      "detail": "800 == 800"
+    },
+    {
+      "check": "Scene region scenario 1",
+      "passed": true,
+      "detail": "840 == 840"
+    },
+    {
+      "check": "Scene region income scenario holds prices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cost total",
+      "passed": true,
+      "detail": "500 == 500"
+    },
+    {
+      "check": "cost average",
+      "passed": true,
+      "detail": "5.0 == 5"
+    },
+    {
+      "check": "revenue",
+      "passed": true,
+      "detail": "800 == 800"
+    },
+    {
+      "check": "profit",
+      "passed": true,
+      "detail": "300 == 300"
+    },
+    {
+      "check": "profit first",
+      "passed": true,
+      "detail": "1800 == 1800"
+    },
+    {
+      "check": "profit second",
+      "passed": true,
+      "detail": "1500 == 1500"
+    },
+    {
+      "check": "club growth",
+      "passed": true,
+      "detail": "10 == 10"
+    },
+    {
+      "check": "club decrease",
+      "passed": true,
+      "detail": "-100/11 == -9.090909090909092"
+    },
+    {
+      "check": "_assets/2.2.1_fig_1.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.1_fig_1.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.1_fig_1.png print resolution",
+      "passed": true,
+      "detail": "(1800, 750)"
+    },
+    {
+      "check": "_assets/2.2.1_fig_2.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.1_fig_2.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.1_fig_2.png print resolution",
+      "passed": true,
+      "detail": "(1800, 592)"
+    },
+    {
+      "check": "_assets/2.2.1_fig_3.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.1_fig_3.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.1_fig_3.png print resolution",
+      "passed": true,
+      "detail": "(1800, 500)"
+    },
+    {
+      "check": "_assets/2.2.2_fig_1.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.2_fig_1.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.2_fig_1.png print resolution",
+      "passed": true,
+      "detail": "(1800, 750)"
+    },
+    {
+      "check": "_assets/2.2.2_fig_2.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.2_fig_2.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.2_fig_2.png print resolution",
+      "passed": true,
+      "detail": "(1800, 578)"
+    },
+    {
+      "check": "_assets/2.2.2_we_1.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.2_we_1.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.2_we_1.png print resolution",
+      "passed": true,
+      "detail": "(1800, 465)"
+    },
+    {
+      "check": "_assets/2.2.3_fig_1.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_1.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_1.png print resolution",
+      "passed": true,
+      "detail": "(1800, 565)"
+    },
+    {
+      "check": "_assets/2.2.3_fig_2.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_2.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_2.png print resolution",
+      "passed": true,
+      "detail": "(1800, 705)"
+    },
+    {
+      "check": "_assets/2.2.3_fig_3.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_3.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_3.png print resolution",
+      "passed": true,
+      "detail": "(1800, 670)"
+    },
+    {
+      "check": "_assets/2.2.3_fig_4.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_4.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_4.png print resolution",
+      "passed": true,
+      "detail": "(1800, 660)"
+    },
+    {
+      "check": "_assets/2.2.3_fig_5.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_5.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.3_fig_5.png print resolution",
+      "passed": true,
+      "detail": "(1800, 665)"
+    },
+    {
+      "check": "_assets/2.2.4_fig_1.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.4_fig_1.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.4_fig_1.png print resolution",
+      "passed": true,
+      "detail": "(1800, 590)"
+    },
+    {
+      "check": "_assets/2.2.4_fig_2.png exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.4_fig_2.png SVG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "_assets/2.2.4_fig_2.png print resolution",
+      "passed": true,
+      "detail": "(1800, 630)"
+    },
+    {
+      "check": "13 referenced teaching figures",
+      "passed": true,
+      "detail": "13"
+    },
+    {
+      "check": "no unreferenced SVG assets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3_fig_5 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3_fig_5 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.3_fig_4 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3_fig_4 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.1_fig_1 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1_fig_1 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.3_fig_2 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3_fig_2 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.4_fig_1 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4_fig_1 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.2_fig_2 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2_fig_2 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.1_fig_3 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1_fig_3 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.2_fig_1 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2_fig_1 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.1_fig_2 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1_fig_2 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.4_fig_2 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4_fig_2 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.3_fig_1 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3_fig_1 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.3_fig_3 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3_fig_3 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "2.2.2_we_1 SVG accessible title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2_we_1 text within SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "rectangle 0 area",
+      "passed": true,
+      "detail": "1000.0 == 1000"
+    },
+    {
+      "check": "rectangle 1 area",
+      "passed": true,
+      "detail": "1044.9999999999998 == 1045"
+    },
+    {
+      "check": "income visual 0",
+      "passed": true,
+      "detail": "-0.5 == -0.5"
+    },
+    {
+      "check": "income visual 1",
+      "passed": true,
+      "detail": "0.5 == 0.5"
+    },
+    {
+      "check": "income visual 2",
+      "passed": true,
+      "detail": "2.0 == 2"
+    },
+    {
+      "check": "visual scenario 0",
+      "passed": true,
+      "detail": "380.0 == 380"
+    },
+    {
+      "check": "visual scenario 1",
+      "passed": true,
+      "detail": "400.0 == 400"
+    },
+    {
+      "check": "visual scenario 2",
+      "passed": true,
+      "detail": "390.0 == 390"
+    },
+    {
+      "check": "student <=40 pages",
+      "passed": true,
+      "detail": "36"
+    },
+    {
+      "check": "student exactly36 designed pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no designed-page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "facing target source page32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "facing target question page33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher six pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "student printable text bounds and glyphs",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student no empty pages",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student A4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "answers printable text bounds and glyphs",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "answers no empty pages",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "answers A4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher printable text bounds and glyphs",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "teacher no empty pages",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "teacher A4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mixed-target answer labels 1 through 6",
+      "passed": true,
+      "detail": "['1', '2', '3', '4', '5', '6']"
+    },
+    {
+      "check": "no font files distributed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 export exercise count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 opgaven PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 antwoorden PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.1 paragraaf PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 export exercise count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 opgaven PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 antwoorden PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.2 paragraaf PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 export exercise count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 opgaven PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 antwoorden PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.3 paragraaf PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 export exercise count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 opgaven PDF nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.2.4 antwoorden PDF nonempty",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

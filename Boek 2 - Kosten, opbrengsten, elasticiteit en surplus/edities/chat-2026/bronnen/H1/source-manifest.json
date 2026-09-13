@@ -1,0 +1,86 @@
+{
+  "edition": "Nieuwe lokale printeditie 1.0",
+  "retrieved_on": "2026-09-06",
+  "platform_main_sha": "96416b6b5bd57094576e9aba0a42d682584ec479",
+  "platform_main_date": "2026-09-05T11:25:38Z",
+  "access": "GitHub connector; direct raw downloads failed in environment",
+  "old_chapter_used": false,
+  "remote_mutations": false,
+  "sources": [
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": null,
+      "url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "references/authored/book-outlines/book-2-outline.md",
+      "blob_sha": null,
+      "url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/references/authored/book-outlines/book-2-outline.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "references/authored/course-target-exercises.json",
+      "blob_sha": "5680842328576b63e2858ce8e354030a3a458410",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/references/authored/course-target-exercises.json"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-exercise-builder.md",
+      "blob_sha": "5504c8e8a325864978c76867b15b857c118df19d",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/econ-exercise-builder.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-textbook-paragraph.md",
+      "blob_sha": "b48ff1f0d02748e6e4d1f98d6d892ac786562c3b",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/econ-textbook-paragraph.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-didactiek.md",
+      "blob_sha": "5a38065e42754e0490e541002ba4465bf3dbeda8",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/econ-didactiek.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/economic-graph.md",
+      "blob_sha": "938d5e61c46de0d60b8bdeaf0aced2572715c2d0",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/economic-graph.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-pdf-builder.md",
+      "blob_sha": "81c7a8700c934d9eff3292dbb881372064c46562",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/econ-pdf-builder.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "BUILD-CHAPTER.md",
+      "blob_sha": "b1bc48cf9667aa5a7611df7b20cdcac2c093d7ac",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/BUILD-CHAPTER.md"
+    },
+    {
+      "repository": "meijer1973/4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "ref": "main"
+    },
+    {
+      "repository": "meijer1973/4veco-lessen",
+      "path": "specifications/product-vision.md",
+      "blob_sha": "6602845b00a8408d619a0e2e1fbe0cd06dc1f234",
+      "ref": "main"
+    }
+  ],
+  "target_records": [
+    "2.1.1",
+    "2.1.2",
+    "2.1.3",
+    "2.1.4"
+  ],
+  "adaptation_disclosure": "See Docenten_en_bouwverantwoording.md; targets are not verbatim frozen records. SmoothBox changes to two days, one capacity, changing Friday validity. Owner approval required before governed target adoption.",
+  "independent_review": false,
+  "repository_validators_run": false,
+  "classroom_timing_validated": false
+}

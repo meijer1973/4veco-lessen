@@ -1,0 +1,1 @@
+Dit is een afgeleide export. Bewerk voor een herbouw de Markdown in ../../manuscript/ en het centrale antwoordenbestand, niet deze kopie. De PDF behoudt de paginanummers uit het hoofdstuk of antwoordenboek. De officiële repositoryreview is niet in deze lokale export opgenomen.

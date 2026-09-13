@@ -1,0 +1,1211 @@
+{
+  "status": "LOCAL_CHECKS_PASSED",
+  "scope": "artifact technical checks and independently recomputed numerical model checks; not repository governance, independent specialist review or classroom validation",
+  "checks": [
+    {
+      "check": "Printed explanation plus every exercise <= 40 pages",
+      "passed": true,
+      "details": {
+        "pages": 34,
+        "answers_excluded": 20
+      }
+    },
+    {
+      "check": "One physical page per designed page; no overflow leaves",
+      "passed": true,
+      "details": [
+        {
+          "pdf_page": 1,
+          "designed_pages": [
+            "1"
+          ]
+        },
+        {
+          "pdf_page": 2,
+          "designed_pages": [
+            "2"
+          ]
+        },
+        {
+          "pdf_page": 3,
+          "designed_pages": [
+            "3"
+          ]
+        },
+        {
+          "pdf_page": 4,
+          "designed_pages": [
+            "4"
+          ]
+        },
+        {
+          "pdf_page": 5,
+          "designed_pages": [
+            "5"
+          ]
+        },
+        {
+          "pdf_page": 6,
+          "designed_pages": [
+            "6"
+          ]
+        },
+        {
+          "pdf_page": 7,
+          "designed_pages": [
+            "7"
+          ]
+        },
+        {
+          "pdf_page": 8,
+          "designed_pages": [
+            "8"
+          ]
+        },
+        {
+          "pdf_page": 9,
+          "designed_pages": [
+            "9"
+          ]
+        },
+        {
+          "pdf_page": 10,
+          "designed_pages": [
+            "10"
+          ]
+        },
+        {
+          "pdf_page": 11,
+          "designed_pages": [
+            "11"
+          ]
+        },
+        {
+          "pdf_page": 12,
+          "designed_pages": [
+            "12"
+          ]
+        },
+        {
+          "pdf_page": 13,
+          "designed_pages": [
+            "13"
+          ]
+        },
+        {
+          "pdf_page": 14,
+          "designed_pages": [
+            "14"
+          ]
+        },
+        {
+          "pdf_page": 15,
+          "designed_pages": [
+            "15"
+          ]
+        },
+        {
+          "pdf_page": 16,
+          "designed_pages": [
+            "16"
+          ]
+        },
+        {
+          "pdf_page": 17,
+          "designed_pages": [
+            "17"
+          ]
+        },
+        {
+          "pdf_page": 18,
+          "designed_pages": [
+            "18"
+          ]
+        },
+        {
+          "pdf_page": 19,
+          "designed_pages": [
+            "19"
+          ]
+        },
+        {
+          "pdf_page": 20,
+          "designed_pages": [
+            "20"
+          ]
+        },
+        {
+          "pdf_page": 21,
+          "designed_pages": [
+            "21"
+          ]
+        },
+        {
+          "pdf_page": 22,
+          "designed_pages": [
+            "22"
+          ]
+        },
+        {
+          "pdf_page": 23,
+          "designed_pages": [
+            "23"
+          ]
+        },
+        {
+          "pdf_page": 24,
+          "designed_pages": [
+            "24"
+          ]
+        },
+        {
+          "pdf_page": 25,
+          "designed_pages": [
+            "25"
+          ]
+        },
+        {
+          "pdf_page": 26,
+          "designed_pages": [
+            "26"
+          ]
+        },
+        {
+          "pdf_page": 27,
+          "designed_pages": [
+            "27"
+          ]
+        },
+        {
+          "pdf_page": 28,
+          "designed_pages": [
+            "28"
+          ]
+        },
+        {
+          "pdf_page": 29,
+          "designed_pages": [
+            "29"
+          ]
+        },
+        {
+          "pdf_page": 30,
+          "designed_pages": [
+            "30"
+          ]
+        },
+        {
+          "pdf_page": 31,
+          "designed_pages": [
+            "31"
+          ]
+        },
+        {
+          "pdf_page": 32,
+          "designed_pages": [
+            "32"
+          ]
+        },
+        {
+          "pdf_page": 33,
+          "designed_pages": [
+            "33"
+          ]
+        },
+        {
+          "pdf_page": 34,
+          "designed_pages": [
+            "34"
+          ]
+        }
+      ]
+    },
+    {
+      "check": "2.1.1 sequential exercise numbers",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "check": "2.1.1 all exercises answered exactly once",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "check": "2.1.1 seven exact headings in canonical order",
+      "passed": true,
+      "details": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling / Herhaling en interleaving"
+      ]
+    },
+    {
+      "check": "2.1.1 compact summary after worked example before Startopgaven",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2.1.2 sequential exercise numbers",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "check": "2.1.2 all exercises answered exactly once",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "check": "2.1.2 seven exact headings in canonical order",
+      "passed": true,
+      "details": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling / Herhaling en interleaving"
+      ]
+    },
+    {
+      "check": "2.1.2 compact summary after worked example before Startopgaven",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2.1.3 sequential exercise numbers",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "check": "2.1.3 all exercises answered exactly once",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "check": "2.1.3 seven exact headings in canonical order",
+      "passed": true,
+      "details": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling / Herhaling en interleaving"
+      ]
+    },
+    {
+      "check": "2.1.3 compact summary after worked example before Startopgaven",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2.1.4 sequential exercise numbers",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "check": "2.1.4 all exercises answered exactly once",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "check": "Every figure reference exists",
+      "passed": true,
+      "details": [
+        "_assets/2.1.1_fig_1.png",
+        "_assets/2.1.1_fig_2.png",
+        "_assets/2.1.1_fig_3.png",
+        "_assets/2.1.2_ex_1.png",
+        "_assets/2.1.2_ex_2.png",
+        "_assets/2.1.2_ex_3.png",
+        "_assets/2.1.2_ex_4.png",
+        "_assets/2.1.2_ex_5.png",
+        "_assets/2.1.2_fig_1.png",
+        "_assets/2.1.2_fig_2.png",
+        "_assets/2.1.3_fig_1.png",
+        "_assets/2.1.3_fig_2.png",
+        "_assets/2.1.4_ex_1.png",
+        "_assets/2.1.4_ex_2.png",
+        "_assets/2.1.4_ex_3.png",
+        "_assets/2.1.4_ex_4.png",
+        "_assets/2.1.4_fig_1.png"
+      ]
+    },
+    {
+      "check": "Every instructional figure has explicit alternate text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Every SVG has a matching PNG",
+      "passed": true,
+      "details": {
+        "svg": 17,
+        "png": 17
+      }
+    },
+    {
+      "check": "No unused instructional root figures",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Drawn curve geometry matches recorded numerical data",
+      "passed": true,
+      "details": {
+        "curves": 28,
+        "errors": []
+      }
+    },
+    {
+      "check": "All graph samples match independently evaluated economics functions",
+      "passed": true,
+      "details": {
+        "samples": 4194,
+        "errors": []
+      }
+    },
+    {
+      "check": "Fles & Co TK at Q=200",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Fles & Co average identity at Q=200",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Fles & Co TK at Q=400",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Fles & Co average identity at Q=400",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "PlakLab TK at Q=150",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "PlakLab average identity at Q=150",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "PlakLab TK at Q=300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "PlakLab average identity at Q=300",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "TasDruk TK at Q=200",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "TasDruk average identity at Q=200",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "TasDruk TK at Q=400",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "TasDruk average identity at Q=400",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SleutelStudio TK at Q=100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SleutelStudio average identity at Q=100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SleutelStudio TK at Q=200",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SleutelStudio average identity at Q=200",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "FietsGlans TK at Q=200",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "FietsGlans average identity at Q=200",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "FietsGlans TK at Q=400",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "FietsGlans average identity at Q=400",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "De Korenaar TK at Q=500",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "De Korenaar average identity at Q=500",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "De Korenaar TK at Q=1000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "De Korenaar average identity at Q=1000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Boekenbinder TK at Q=100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Boekenbinder average identity at Q=100",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ShirtSprint TK at Q=150",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ShirtSprint average identity at Q=150",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SmoothBox vrijdag TK at Q=700",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SmoothBox vrijdag average identity at Q=700",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Hoofduitleg interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          3.0,
+          3.0
+        ],
+        "MO": [
+          8.0,
+          8.0
+        ],
+        "profit": [
+          -100,
+          -50,
+          50
+        ]
+      }
+    },
+    {
+      "check": "Linoprint interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "MO": [
+          6.0,
+          6.0,
+          6.0
+        ],
+        "profit": [
+          -120,
+          -100,
+          -80,
+          -60
+        ]
+      }
+    },
+    {
+      "check": "Atelier Boog interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          2.0,
+          6.0,
+          10.0
+        ],
+        "MO": [
+          12.0,
+          12.0,
+          12.0
+        ],
+        "profit": [
+          -40,
+          -20,
+          -8,
+          -4
+        ]
+      }
+    },
+    {
+      "check": "HoesHandig interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          3.0,
+          3.0,
+          3.0
+        ],
+        "MO": [
+          8.0,
+          8.0,
+          8.0
+        ],
+        "profit": [
+          -100,
+          -50,
+          0,
+          50
+        ]
+      }
+    },
+    {
+      "check": "PotAtelier interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          2.0,
+          6.0,
+          10.0
+        ],
+        "MO": [
+          20.0,
+          20.0,
+          20.0
+        ],
+        "profit": [
+          -50,
+          -14,
+          14,
+          34
+        ]
+      }
+    },
+    {
+      "check": "SportLint interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          4.0,
+          4.0
+        ],
+        "MO": [
+          9.0,
+          9.0
+        ],
+        "profit": [
+          -80,
+          -30,
+          70
+        ]
+      }
+    },
+    {
+      "check": "StikSnel interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "MO": [
+          7.0,
+          7.0,
+          7.0
+        ],
+        "profit": [
+          -90,
+          -65,
+          -40,
+          -15
+        ]
+      }
+    },
+    {
+      "check": "Keramiek Nova interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          3.0,
+          9.0,
+          15.0
+        ],
+        "MO": [
+          24.0,
+          24.0,
+          24.0
+        ],
+        "profit": [
+          -60,
+          3,
+          48,
+          75
+        ]
+      }
+    },
+    {
+      "check": "Linea interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          3.0,
+          3.0,
+          3.0
+        ],
+        "MO": [
+          8.0,
+          8.0,
+          8.0
+        ],
+        "profit": [
+          -200,
+          -150,
+          -100,
+          -50
+        ]
+      }
+    },
+    {
+      "check": "Curva interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          5.0,
+          15.0,
+          25.0
+        ],
+        "MO": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "profit": [
+          -100,
+          25,
+          100,
+          125
+        ]
+      }
+    },
+    {
+      "check": "SkateService interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          6.0,
+          9.0
+        ],
+        "MO": [
+          40.0,
+          40.0
+        ],
+        "profit": [
+          140,
+          480,
+          790
+        ]
+      }
+    },
+    {
+      "check": "SmoothBox zaterdag interval MK and MO",
+      "passed": true,
+      "details": {
+        "MK": [
+          3.0,
+          3.5,
+          4.0
+        ],
+        "MO": [
+          5.0,
+          5.0,
+          5.0
+        ],
+        "profit": [
+          900,
+          1100,
+          1250,
+          1350
+        ]
+      }
+    },
+    {
+      "check": "WafelWagen continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "250/3",
+        "first_whole": 84
+      }
+    },
+    {
+      "check": "SokkenShop continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "60",
+        "first_whole": 60
+      }
+    },
+    {
+      "check": "KaartKunst continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "40",
+        "first_whole": 40
+      }
+    },
+    {
+      "check": "TheeTuin continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "60",
+        "first_whole": 60
+      }
+    },
+    {
+      "check": "PetPret continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "125/3",
+        "first_whole": 42
+      }
+    },
+    {
+      "check": "De Korenaar continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "5000/7",
+        "first_whole": 715
+      }
+    },
+    {
+      "check": "Theater continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "250/3",
+        "first_whole": 84
+      }
+    },
+    {
+      "check": "Puzzelverkoper continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "50",
+        "first_whole": 50
+      }
+    },
+    {
+      "check": "ShirtSprint continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "100",
+        "first_whole": 100
+      }
+    },
+    {
+      "check": "SmoothBox continuous and whole-unit break-even",
+      "passed": true,
+      "details": {
+        "continuous_Q": "400",
+        "first_whole": 400
+      }
+    },
+    {
+      "check": "SmoothBox incremental profits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Unsold muffins do not generate revenue",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No internal production-lane or production-range jargon in student PDF",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chapter no out-of-page text",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "chapter no nearly empty continuation pages",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "chapter no replacement glyphs or unrendered bold Markdown",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "answers no out-of-page text",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "answers no nearly empty continuation pages",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "answers no replacement glyphs or unrendered bold Markdown",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "teacher no out-of-page text",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "teacher no nearly empty continuation pages",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "teacher no replacement glyphs or unrendered bold Markdown",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Target source and questions are a facing-page spread",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Canonical manuscripts, not Python drafting files, drive chapter build",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 88,
+  "failed": 0,
+  "counts": {
+    "student_pages": 34,
+    "answer_pages": 20,
+    "teacher_pages": 5,
+    "numbered_exercises": 38,
+    "worked_examples": 3,
+    "svg_png_pairs": 17
+  },
+  "cost_calculation_records": [
+    {
+      "name": "Fles & Co",
+      "rows": [
+        {
+          "Q": 200,
+          "TCK": 300,
+          "TVK": 400,
+          "TK": 700,
+          "GCK": 1.5,
+          "GVK": 2,
+          "GTK": 3.5
+        },
+        {
+          "Q": 400,
+          "TCK": 300,
+          "TVK": 800,
+          "TK": 1100,
+          "GCK": 0.75,
+          "GVK": 2,
+          "GTK": 2.75
+        }
+      ]
+    },
+    {
+      "name": "PlakLab",
+      "rows": [
+        {
+          "Q": 150,
+          "TCK": 300,
+          "TVK": 150,
+          "TK": 450,
+          "GCK": 2.0,
+          "GVK": 1,
+          "GTK": 3.0
+        },
+        {
+          "Q": 300,
+          "TCK": 300,
+          "TVK": 300,
+          "TK": 600,
+          "GCK": 1.0,
+          "GVK": 1,
+          "GTK": 2.0
+        }
+      ]
+    },
+    {
+      "name": "TasDruk",
+      "rows": [
+        {
+          "Q": 200,
+          "TCK": 120,
+          "TVK": 100.0,
+          "TK": 220.0,
+          "GCK": 0.6,
+          "GVK": 0.5,
+          "GTK": 1.1
+        },
+        {
+          "Q": 400,
+          "TCK": 120,
+          "TVK": 200.0,
+          "TK": 320.0,
+          "GCK": 0.3,
+          "GVK": 0.5,
+          "GTK": 0.8
+        }
+      ]
+    },
+    {
+      "name": "SleutelStudio",
+      "rows": [
+        {
+          "Q": 100,
+          "TCK": 120,
+          "TVK": 150.0,
+          "TK": 270.0,
+          "GCK": 1.2,
+          "GVK": 1.5,
+          "GTK": 2.7
+        },
+        {
+          "Q": 200,
+          "TCK": 120,
+          "TVK": 300.0,
+          "TK": 420.0,
+          "GCK": 0.6,
+          "GVK": 1.5,
+          "GTK": 2.1
+        }
+      ]
+    },
+    {
+      "name": "FietsGlans",
+      "rows": [
+        {
+          "Q": 200,
+          "TCK": 300,
+          "TVK": 200,
+          "TK": 500,
+          "GCK": 1.5,
+          "GVK": 1,
+          "GTK": 2.5
+        },
+        {
+          "Q": 400,
+          "TCK": 300,
+          "TVK": 400,
+          "TK": 700,
+          "GCK": 0.75,
+          "GVK": 1,
+          "GTK": 1.75
+        }
+      ]
+    },
+    {
+      "name": "De Korenaar",
+      "rows": [
+        {
+          "Q": 500,
+          "TCK": 500,
+          "TVK": 400.0,
+          "TK": 900.0,
+          "GCK": 1.0,
+          "GVK": 0.8,
+          "GTK": 1.8
+        },
+        {
+          "Q": 1000,
+          "TCK": 500,
+          "TVK": 800.0,
+          "TK": 1300.0,
+          "GCK": 0.5,
+          "GVK": 0.8,
+          "GTK": 1.3
+        }
+      ]
+    },
+    {
+      "name": "Boekenbinder",
+      "rows": [
+        {
+          "Q": 100,
+          "TCK": 400,
+          "TVK": 600,
+          "TK": 1000,
+          "GCK": 4.0,
+          "GVK": 6,
+          "GTK": 10.0
+        }
+      ]
+    },
+    {
+      "name": "ShirtSprint",
+      "rows": [
+        {
+          "Q": 150,
+          "TCK": 600,
+          "TVK": 750,
+          "TK": 1350,
+          "GCK": 4.0,
+          "GVK": 5,
+          "GTK": 9.0
+        }
+      ]
+    },
+    {
+      "name": "SmoothBox vrijdag",
+      "rows": [
+        {
+          "Q": 700,
+          "TCK": 1200,
+          "TVK": 1400,
+          "TK": 2600,
+          "GCK": 1.7142857142857142,
+          "GVK": 2,
+          "GTK": 3.7142857142857144
+        }
+      ]
+    }
+  ],
+  "pdf_sha256": {
+    "output/Boek_2_H1_Docenteninformatie.pdf": "c961feb9a429f63068929d9e2a446c57ac8e2a5bb3514cc7c921f73a755955db",
+    "output/Boek_2_H1_Antwoorden.pdf": "3db549b43e8653dfb62b584f1204ef3c5725924d2756263f940ca0382b0d2b26",
+    "output/Boek_2_H1_Kosten_en_opbrengsten.pdf": "9e4c164131185f02ac0b6ced0efd3508d44ab89e6179b81cebd4e4520c3ccfc3"
+  }
+}

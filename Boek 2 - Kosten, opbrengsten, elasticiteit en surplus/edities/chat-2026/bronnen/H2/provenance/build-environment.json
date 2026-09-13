@@ -1,0 +1,19 @@
+{
+  "packages": {
+    "weasyprint": "68.0",
+    "markdown-it-py": "4.2.0",
+    "beautifulsoup4": "4.14.3",
+    "CairoSVG": "2.8.2",
+    "Pillow": "12.3.0",
+    "PyMuPDF": "1.26.7"
+  },
+  "font_families_used": [
+    "Lato",
+    "DejaVu Sans",
+    "DejaVu Sans Mono"
+  ],
+  "font_files_distributed": false,
+  "page_size": "A4",
+  "student_body_pt": 11.8,
+  "student_line_height": 1.37
+}

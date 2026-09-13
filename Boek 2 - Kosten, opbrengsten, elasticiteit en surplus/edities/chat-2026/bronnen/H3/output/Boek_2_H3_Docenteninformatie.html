@@ -1,0 +1,411 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Docenteninformatie · Surplus en welvaart</title><style>
+@page {size:A4; margin:17mm 18mm 17mm 19mm;
+ @top-left {content:"4veco  /  Boek 2";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @top-right {content:"2.3  Surplus en welvaart";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @bottom-left {content:"Economie · 4 vwo";font-family:Lato,sans-serif;font-size:8pt;color:#536777;}
+ @bottom-right {content:counter(page);font-family:Lato,sans-serif;font-size:9pt;color:#183247;}
+}
+@page:first {@top-left{content:none;}@top-right{content:none;}}
+* {box-sizing:border-box;}
+html{font-family:Lato,"DejaVu Sans",sans-serif;font-size:11.4pt;line-height:1.34;color:#183247;}
+body{margin:0;}
+p{margin:0 0 5pt;orphans:3;widows:3;}
+.page{break-before:page;}
+.page:first-child{break-before:auto;}
+.page-title{font-size:18pt;line-height:1.13;font-weight:800;border-bottom:1.5pt solid #17688f;padding:0 0 8pt;margin:0 0 12pt;}
+h1{font-size:25pt;line-height:1.13;margin:5pt 0 12pt;font-weight:800;break-after:avoid;}
+h2{font-size:17pt;line-height:1.15;color:#17688f;margin:10pt 0 8pt;break-after:avoid;}
+h3{font-size:12.5pt;line-height:1.22;margin:11pt 0 7pt;break-after:avoid;}
+h2:first-child,h3:first-child{margin-top:0;}
+a{color:inherit;text-decoration:none;}
+.kicker{letter-spacing:1pt;color:#17688f;font-size:9pt;font-weight:800;margin:0 0 12pt;}
+.box,.definition,.formula,.source,.route{padding:7pt 10pt;margin:8pt 0 9pt;break-inside:avoid;background:#f2f6f8;border-left:3pt solid #17688f;}
+.box p:last-child,.definition p:last-child,.formula p:last-child,.source p:last-child{margin-bottom:0;}
+.definition{background:#f4f7f8;padding:7pt 10pt;margin:7pt 0 9pt;}
+.formula{font-family:"DejaVu Sans Mono",monospace;font-size:11.3pt;line-height:1.6;background:#eef5f6;border-left-color:#227064;}
+.goals{font-size:10.7pt;line-height:1.38;}
+.summary{font-size:10.5pt;line-height:1.5;}
+.warning{border-left-color:#ad601b;background:#fbf5ed;}
+.source{border-left-color:#536777;font-size:10.6pt;}
+.route{font-size:10.2pt;line-height:1.3;}
+.calculation{font-family:"DejaVu Sans Mono",monospace;line-height:1.55;margin:8pt 0 10pt;padding:8pt 13pt;background:#f3f6f7;break-inside:avoid;}
+.exercise{break-inside:avoid;border:0.6pt solid #d5dfe5;border-radius:3pt;padding:7pt 10pt;margin:0 0 8pt;background:white;}
+.exercise>p:first-child{margin-top:0;}
+.exercise>p:last-child{margin-bottom:0;}
+.exercise>p{margin-bottom:5pt;}
+.exercise>b:first-child{display:block;margin-bottom:7pt;font-size:12pt;}
+.target{border-top:3pt solid #17688f;}
+table{border-collapse:collapse;width:100%;margin:7pt 0 9pt;font-size:10.1pt;line-height:1.27;table-layout:auto;break-inside:avoid;}
+th{background:#edf2f5;font-weight:700;vertical-align:bottom;text-align:left;border-bottom:1pt solid #9dabb7;}
+td,th{padding:4.4pt 5pt;border-bottom:0.55pt solid #dce4e9;}
+td{vertical-align:top;} tr:nth-child(even) td{background:#f8fafb;}
+figure{margin:10pt 0 11pt;break-inside:avoid;}
+figure img{display:block;width:100%;height:auto;}
+figcaption{font-size:9.3pt;line-height:1.3;color:#536777;margin:5pt 0 0;}
+.small{font-size:9.4pt;line-height:1.33;}
+.muted{color:#536777;}
+.cover-title{font-size:38pt;line-height:1.05;letter-spacing:-0.6pt;font-weight:900;margin:14pt 0 14pt;}
+.lead{font-size:14.5pt;line-height:1.3;margin:0 0 13pt;color:#17688f;}
+.contents{margin:12pt 0 12pt;}
+.contents a{display:block;border-top:0.6pt solid #cbd7df;padding:6pt 0;}
+.toc-page{float:right;font-style:normal;margin-left:8pt;color:#17688f;}
+.contents b{display:block;font-size:12pt;}
+.contents span{display:block;color:#536777;font-size:10.5pt;margin-top:2pt;}
+.answer h2{margin-top:16pt;}
+.answer p{margin-bottom:7pt;}
+.answer .why{font-size:10.6pt;color:#455c6d;}
+.answer .exercise{break-inside:auto;}
+.answer .answer-block{break-inside:avoid;margin-bottom:10pt;}
+.teacher{font-size:10.7pt;}
+.pair{display:flex;gap:12pt}.pair>div{flex:1}
+.target-source{padding:9pt 11pt;background:#f5f8f9;border-left:3pt solid #536777;margin:9pt 0}
+.step{font-weight:700;color:#17688f}
+.fraction{white-space:nowrap}
+.tight p{margin-bottom:4pt}
+.target-unit{font-size:9.7pt;color:#536777}
+.answerlines{height:44mm;background:repeating-linear-gradient(to bottom,white 0,white 8mm,#e4eaee 8mm,#e4eaee 8.15mm);margin:12pt 0;} .source-table{font-size:9.5pt} .no-break{break-inside:avoid} @media print{a{color:inherit}}
+.teacher table{font-size:9.1pt;}
+
+@page { @top-left {content:"4veco / Docenteninformatie";} }
+.teacher{font-size:10.6pt;line-height:1.35;}
+.teacher table{font-size:9.3pt;line-height:1.27;}
+.teacher h3{font-size:12.5pt;}
+</style></head><body><section class="page teacher" data-designed-page="1"><div class="kicker">4VECO · BOEK 2 · HOOFDSTUK 2.3 · DOCENTENINFORMATIE</div>
+<h1>Surplus en welvaart</h1>
+<div class="lead">Een nieuwe, zelfstandige drukeditie voor 4 vwo</div>
+<p>Het leerlinghoofdstuk telt <strong>38 pagina’s</strong>, inclusief opening, uitleg, opgaven en overzicht. De antwoorden staan in een afzonderlijk boek. De tekst, voorbeelden, oefencontexten en figuren zijn nieuw geschreven. De bestaande hoofdstuktekst uit de repository is niet als basis gebruikt.</p>
+<p>De inhoudelijke route en de vier doeloefeningen komen uit de actuele doelopgavenregistratie. De contexten en alle <strong>22 deelvragen</strong> van die doeloefeningen zijn behouden. De overige 34 opgaven bouwen ernaartoe of verzorgen herhaling en extra uitdaging.</p>
+<table>
+<thead>
+<tr>
+<th>Onderdeel</th>
+<th>Leerlingpagina’s</th>
+<th style="text-align:right">Opgaven</th>
+<th>Doeloefening</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.3.1 Consumentensurplus</td>
+<td>2–9</td>
+<td style="text-align:right">1–11</td>
+<td>8, pagina 9</td>
+</tr>
+<tr>
+<td>2.3.2 Producentensurplus en totaal surplus</td>
+<td>10–19</td>
+<td style="text-align:right">1–11</td>
+<td>8, pagina 18–19</td>
+</tr>
+<tr>
+<td>2.3.3 Pareto-efficiëntie en welvaartsverlies</td>
+<td>20–30</td>
+<td style="text-align:right">1–9</td>
+<td>6, pagina 29–30</td>
+</tr>
+<tr>
+<td>2.3.4 Gemengde opgaven</td>
+<td>31–36</td>
+<td style="text-align:right">1–7</td>
+<td>3, pagina 34–35</td>
+</tr>
+<tr>
+<td>Overzicht en begrippen</td>
+<td>37–38</td>
+<td style="text-align:right">—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<div class="box"><b>Papier is voldoende</b><br/>Leerlingen werken in een schrift. Geleverde grafieken worden op papier gemarkeerd; wanneer een volledige grafiek wordt gevraagd, tekenen leerlingen die zelf. De leerlingroute verwijst niet naar een website of digitaal hulpmiddel.</div>
+<p><strong>Korte route:</strong> startopgaven → zelfstandige oefening → doeloefening. De begeleide inoefening is een steunroute naar hetzelfde doel. Het denkertje is geen verplichte extra rekenronde. De afsluitende herhaling kan huiswerk zijn.</p>
+<p><strong>Printen:</strong> A4, werkelijke grootte, dubbelzijdig, omslaan over de lange zijde. De bronnen en vragen van de gemengde doeloefening staan op de tegenoverliggende pagina’s 34–35. De bronbestanden en bouwscripts zijn meegeleverd; de repositories zijn niet gewijzigd.</p>
+<div class="box warning"><b>Wat deze levering wel en niet bewijst</b><br/>Dit is een afgewerkt, lokaal gecontroleerd materiaalpakket. Het is geen registratie van leerlingbeheersing, geen onafhankelijke externe beoordeling en geen formele vrijgave via de review- en integratieprocedure van de repositories.</div></section>
+<section class="page teacher" data-designed-page="2"><div class="page-title">Achterwaarts ontwerpen: 2.3.1 en 2.3.2</div><h3>2.3.1 · Van betalingsbereidheid naar CS</h3>
+<p>De uitleg begint bij het voordeel van één koper, gaat via een klein aantal losse kopers naar een doorlopende vraaglijn en werkt vervolgens de grafische rekenroute uit. De tabel met losse kopers is geen alternatief algoritme voor de driehoeksberekening.</p>
+<table>
+<thead>
+<tr>
+<th>Doelhandeling</th>
+<th>Voorgedaan</th>
+<th>Steun en zelfstandig oefenen</th>
+<th>Doelvraag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q bij een gegeven prijs bepalen</td>
+<td>Uitleg en escaperoomvoorbeeld</td>
+<td>3a, 4a; 6a en 7a</td>
+<td>8a</td>
+</tr>
+<tr>
+<td>Assen, snijpunten, V en P tekenen</td>
+<td>Uitleg en voorbeeld</td>
+<td>3 lezen → 4 deels gegeven → 6b zelf</td>
+<td>8b</td>
+</tr>
+<tr>
+<td>CS-gebied kiezen en berekenen</td>
+<td>Voorbeeld: 40 × 10 / 2</td>
+<td>3b–c, 4c, 5; 6c–d en 7</td>
+<td>8c–d</td>
+</tr>
+<tr>
+<td>Het gezamenlijke kopersvoordeel uitleggen</td>
+<td>Voorbeeld en definities</td>
+<td>2, 4d, 6e, 7b–c</td>
+<td>8e</td>
+</tr>
+</tbody>
+</table>
+<p>De startopgave haalt functie-invulling, snijpunten en driehoeksoppervlakte op. De korte begripscheck onderscheidt voordeel van betaling. <strong>Grafiekproductie is hier daadwerkelijk een doelhandeling</strong>: de steun wordt afgebouwd voordat de leerling de doeloefening tekent.</p>
+<h3>2.3.2 · Van één transactie naar marktvoordeel</h3>
+<p>De eerste figuur verdeelt betalingsbereidheid in kosten, PS en CS. Daarna krijgt de aanbodlijn haar betekenis als MK-lijn binnen het opgegeven marktmodel. Het postervoorbeeld legt evenwicht, gebieden en marginale vergelijking naast elkaar.</p>
+<table>
+<thead>
+<tr>
+<th>Doelhandeling</th>
+<th>Voorgedaan</th>
+<th>Steun en zelfstandig oefenen</th>
+<th>Doelvraag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Evenwicht berekenen en markeren</td>
+<td>Notitieboekenvoorbeeld</td>
+<td>3, 4; 6a</td>
+<td>8a–b</td>
+</tr>
+<tr>
+<td>CS, PS en TS berekenen</td>
+<td>Hetzelfde voorbeeld</td>
+<td>3, 4; 6b</td>
+<td>8c</td>
+</tr>
+<tr>
+<td>Betalingsbereidheid met MK vergelijken</td>
+<td>Theorie en voorbeeld</td>
+<td>3c, 4c; 6c</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Maximaal TS onderscheiden van eerlijkheid</td>
+<td>Uitleg en voorbeeld</td>
+<td>6d en 7b</td>
+<td>8e</td>
+</tr>
+</tbody>
+</table>
+<p>Hier zijn de lijnen in de doelen al gegeven. De oefeningen vragen daarom geen extra, onnodige volledige grafiekproductie. Opgave 5 is de gecombineerde-veranderingencheck: betalingsbereidheid stijgt en MK daalt; leerlingen scheiden eerst de twee effecten.</p>
+<div class="box"><b>Vaste kern van het antwoord</b><br/>Hoeveelheid bepalen → juiste gebied kiezen → basis en hoogte benoemen → invullen en berekenen → eenheid en economische betekenis. Het antwoordenboek volgt dezelfde route als de voorbeelden.</div></section>
+<section class="page teacher" data-designed-page="3"><div class="page-title">Achterwaarts ontwerpen: 2.3.3 en gemengd</div><h3>2.3.3 · Een beperking maakt de gebieden anders</h3>
+<p>Een hogere transactieprijs en een boekingsgrens worden als gegevens aangeboden, niet als nieuwe beleidstheorie. Eerst worden Qd, Qs en het werkelijk verhandelde aantal uit elkaar gehaald. Daarna volgen rechthoeken en driehoeken, het gemiste TS en een afzonderlijke toets op een haalbare Paretoverbetering.</p>
+<table>
+<thead>
+<tr>
+<th>Doelhandeling</th>
+<th>Voorgedaan</th>
+<th>Steun en zelfstandig oefenen</th>
+<th>Doelvraag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pareto-efficiëntie definiëren</td>
+<td>Theorie en workshopvoorbeeld</td>
+<td>Start 2; zelfstandig 5e</td>
+<td>6a</td>
+</tr>
+<tr>
+<td>Qd, Qs, transacties en toewijzing bepalen</td>
+<td>Posters en workshop</td>
+<td>3a, 4a; 5b</td>
+<td>6b</td>
+</tr>
+<tr>
+<td>Afgekapt CS en PS berekenen</td>
+<td>Uitgewerkte rechthoeken/driehoeken</td>
+<td>3b, 4b; 5c</td>
+<td>6c</td>
+</tr>
+<tr>
+<td>TS, verlies en verliesdriehoek bepalen</td>
+<td>Theorie en voorbeeld</td>
+<td>3b, 4b; 5d</td>
+<td>6d</td>
+</tr>
+<tr>
+<td>Een haalbare extra transactie toetsen</td>
+<td>De 13e poster en 9e workshopplaats</td>
+<td>4c; 5e</td>
+<td>6e</td>
+</tr>
+<tr>
+<td>Efficiëntie en verdeling onderscheiden</td>
+<td>Theorie en voorbeeld</td>
+<td>4d; 5f</td>
+<td>6f</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Niet overslaan:</strong> wie de producten krijgt, bepaalt welke gebieden meetellen. Het standaardgebied is alleen juist dankzij de gegeven toewijzing aan de hoogste betalingsbereidheid en laagste MK. Een prijs alleen bepaalt niet het werkelijk verhandelde aantal.</p>
+<h3>2.3.4 · Kiezen en combineren, zonder nieuwe theorie</h3>
+<p>Opgave 1 haalt evenwicht en de marginale vergelijking op. Opgave 2 doorloopt de hele keten met planten. Opgave 3 toetst dezelfde keten met huurfietsen. Opgave 4 maakt de rol van de toewijzingsregel zichtbaar. Opgaven 5–7 halen eerder geleerde omzet-, kosten- en surpluskennis op.</p>
+<table>
+<thead>
+<tr>
+<th>Doelvragen bij huurfietsen</th>
+<th>Voorbereiding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1–2: bronnen, evenwicht, CS/PS/TS</td>
+<td>§2.3.1–2.3.2; gemengd 1 en 2a–b</td>
+</tr>
+<tr>
+<td>3–4: werkelijk aantal, afgekapt surplus en verlies</td>
+<td>§2.3.3; gemengd 2b–d</td>
+</tr>
+<tr>
+<td>5–6: claim, haalbare verbetering, eerlijkheid</td>
+<td>§2.3.3; gemengd 2e–f</td>
+</tr>
+</tbody>
+</table>
+<h3>Voorkennis bewust behandelen</h3>
+<p><strong>Ophalen nodig:</strong> functies, snijpunten, driehoeksoppervlakte, evenwicht, betalingsbereidheid en marginale kosten. <strong>Alleen eerdere kennismaking:</strong> het informele consumentensurplus uit boek 1; dat vervangt de formele uitleg niet. <strong>Nieuwe formele leerstof:</strong> de gebieden en welvaartsredeneringen van dit hoofdstuk. Bij onzekerheid over voorkennis wordt eerst de steunroute gebruikt; een plaats in de leerlijn bewijst geen beheersing.</p>
+</section>
+<section class="page teacher" data-designed-page="4"><div class="page-title">Lesplanning en ondersteuning</div><h3>Vier compacte routes, met zichtbare aannames</h3>
+<p>De onderstaande minuten zijn <strong>ontwerpschattingen</strong>, geen gemeten klasresultaten. De korte routes veronderstellen vlotte functie- en oppervlakterekening. De volledige gedrukte uitleg is ook naslag; zij hoeft niet woordelijk te worden voorgelezen.</p>
+<table>
+<thead>
+<tr>
+<th>Activiteit</th>
+<th style="text-align:right">2.3.1</th>
+<th style="text-align:right">2.3.2</th>
+<th style="text-align:right">2.3.3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Motiveren</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Gerichte instructie</td>
+<td style="text-align:right">9</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">9</td>
+</tr>
+<tr>
+<td>Uitgewerkt voorbeeld</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">6</td>
+</tr>
+<tr>
+<td>Samenvatting en overgangen</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Startopgaven</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">5</td>
+</tr>
+<tr>
+<td>Zelfstandige oefening</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">14</td>
+<td style="text-align:right">15</td>
+</tr>
+<tr>
+<td>Doeloefening</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">16</td>
+</tr>
+<tr>
+<td><strong>Totaal</strong></td>
+<td style="text-align:right"><strong>55</strong></td>
+<td style="text-align:right"><strong>55</strong></td>
+<td style="text-align:right"><strong>55</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Concrete selectie:</strong> bij §2.3.1 zijn de startopgaven 1–2, de zelfstandige opgaven 6–7 en de doeloefening 8. Bij §2.3.2 zijn dit 1–2, 6–7 en 8. Bij §2.3.3 zijn dit 1–2, 5 en 6. De doelduur van §2.3.3 is verdeeld over a–f als 1 + 3 + 4 + 4 + 3 + 1 minuut.</p>
+<p>Voor de gemengde les: <strong>8 minuten ophalen + 20 minuten opgave 2 + 22 minuten doeloefening 3 + 5 minuten bespreking = 55 minuten</strong>. Het ophalen gebruikt opgave 1; de overige opgaven zijn extra verwerking of huiswerk.</p>
+<div class="box warning"><b>Plan voor §2.3.3 bij voorkeur twee lessen</b><br/>De overgang naar afgeknotte gebieden én de zorgvuldige Pareto-redenering vraagt veel. De route van 55 minuten is krap en alleen passend bij zekere voorkennis. Verdeel bij twijfel over twee lessen in plaats van doelhandelingen weg te laten of snelheid als begrip te behandelen.</div>
+<p><strong>Les A van §2.3.3:</strong> motiveer, haal CS/PS/TS op en werk de boekingsgrens, werkelijke transacties en gebieden uit. Gebruik het voorbeeld en begeleide opgaven 3–4 om verschillen tussen driehoeken en rechthoeken te laten benoemen.</p>
+<p><strong>Les B van §2.3.3:</strong> haal basis en hoogte kort op, behandel de haalbare Paretoverbetering, laat opgave 5 zelfstandig maken en sluit af met de doeloefening. Bespreek waarom het opheffen van een verlies niet automatisch iedereen beter af maakt.</p>
+<h3>De steunroute kost ook tijd</h3>
+<p>Begeleide inoefening is geen verplichte toevoeging boven op een volle les. Gebruik haar in extra werktijd, als gerichte vervanging van nog niet zinvolle zelfstandige oefentijd, of in een tweede les. Leerlingen houden hetzelfde einddoel. Bonusopgaven en afsluitende herhaling vallen buiten de compacte kernroute.</p>
+</section>
+<section class="page teacher" data-designed-page="5"><div class="page-title">Economische precisie en veelgemaakte fouten</div><h3>Zes inhoudelijke keuzes</h3>
+<p><strong>1 · Van personen naar een oppervlak.</strong> Een individueel voordeel is betalingsbereidheid minus betaling. Enkele losse kopers leveren een som op. Doorlopende rechte lijnen leveren oppervlakken op. De twee manieren zijn naast elkaar uitgelegd, niet stilzwijgend verwisseld.</p>
+<p><strong>2 · Zonder aanbodfunctie geen berekend evenwicht.</strong> In §2.3.1 is de prijs gegeven. Q is de bij die prijs gevraagde en verkochte hoeveelheid. Pas in §2.3.2 worden vraag en aanbod gelijkgesteld.</p>
+<p><strong>3 · Aanbod als MK is een modelafspraak.</strong> De figuren en bronnen gebruiken een competitief marktmodel met de aangegeven marginale betekenis van de aanbodlijn. Er worden geen algemene conclusies over alle marktstructuren afgeleid. Effecten op buitenstaanders zijn niet in de surplusrekening opgenomen.</p>
+<p><strong>4 · PS is geen winst.</strong> De gebiedsberekening boven de MK-lijn geeft opbrengst minus variabele kosten in dit model. Constante kosten zijn daarmee niet verdwenen. De kostenherhaling in de gemengde opgaven laat het verschil nogmaals berekenen.</p>
+<p><strong>5 · De werkelijke hoeveelheid en toewijzing komen vóór de oppervlakte.</strong> Bij een boekingsgrens rekenen leerlingen met het aantal dat werkelijk wordt verhandeld. Een afgekapt gebied is niet zomaar een driehoek. Eerst worden de hoogten aan de rechterrand bepaald; daarna worden rechthoek en driehoek opgeteld.</p>
+<p><strong>6 · TS, Pareto en eerlijkheid zijn niet inwisselbaar.</strong> Een groter TS kan samengaan met nadeel voor een groep. Voor een Paretoverbetering moet een haalbare verandering worden genoemd die niemand schaadt. In de doelcontexten wordt expliciet vastgelegd dat verruiming kosteloos kan en bestaande transacties en prijzen ongewijzigd blijven. Efficiëntie geeft geen norm voor een eerlijke verdeling.</p>
+<div class="box"><b>Let op bij de 41e en 31e transactie</b><br/>De gegeven betalingsbereidheid en MK tonen dat die mogelijke transactie wederzijds voordelig is. De rekenvoorbeelden bewijzen daarmee een haalbare verbetering. Zij beweren niet dat het puntverschil exact gelijk is aan een integraal over een heel productie-interval.</div>
+<h3>Wat bewust niet is toegevoegd</h3>
+<p>Geen belasting- of subsidiemechaniek, minimum- of maximumprijsbeleid, winstmaximalisatieregel, afgeleiden of formele welvaartstheorema’s. Het hoofdstuk bereidt latere interventieanalyse voor, maar het rekenwerk blijft bij de huidige doelhandelingen.</p>
+<h3>Kijken naar het antwoordproces</h3>
+<p>Een verkeerd eindgetal kan ontstaan door een verkeerde hoeveelheid, een verkeerd gebied of een rekenfout. Vraag daarom eerst: <strong>“Welk gebied hoort bij de transacties die echt doorgaan?”</strong> Laat daarna pas basis en hoogte aanwijzen. Bij Pareto: <strong>“Wie gaat vooruit, wie gaat achteruit, en kan de verandering werkelijk worden uitgevoerd?”</strong></p>
+</section>
+<section class="page teacher" data-designed-page="6"><div class="page-title">Bronnen, controle en overdracht</div><h3>Gebruikte repositorybronnen</h3>
+<p>Geraadpleegd op <strong>6 september 2026</strong> via de GitHub-verbinding. Beide repositorykaarten waren toegankelijk. Rechtstreekse raw-download was in deze werkomgeving niet beschikbaar; dat was geen bewijs van ontbrekende repositorybestanden.</p>
+<table>
+<thead>
+<tr>
+<th>Bron in 4veco-platform, tenzij anders vermeld</th>
+<th>Gebruik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RESEARCH_AGENT_MAP.md; dezelfde kaart in 4veco-lessen</td>
+<td>Navigatie en scheiding bron/bouw/lesmateriaal</td>
+</tr>
+<tr>
+<td>references/authored/course-target-exercises.json</td>
+<td>Doelcontexten, 22 deelvragen, antwoordverwachtingen</td>
+</tr>
+<tr>
+<td>references/authored/book-outlines/book-2-outline.md</td>
+<td>Plaats, voorkennis, scope en misvattingen</td>
+</tr>
+<tr>
+<td>skills/econ-exercise-builder.md</td>
+<td>Achterwaarts ontwerp en zeven oefensecties</td>
+</tr>
+<tr>
+<td>skills/econ-textbook-paragraph.md; skills/econ-didactiek.md</td>
+<td>Probleemgerichte uitleg, steun en dual coding</td>
+</tr>
+<tr>
+<td>skills/economic-graph.md; skills/econ-pdf-builder.md</td>
+<td>Grafische precisie en drukuitvoer</td>
+</tr>
+<tr>
+<td>references/authored/economic_mathematical_precision_reference.md</td>
+<td>Grootheden, eenheden, modelgrenzen</td>
+</tr>
+</tbody>
+</table>
+<p>De doelregistratie is gelezen met blob-ID <strong>5680842328576b63e2858ce8e354030a3a458410</strong>. Exacte bestandsverwijzingen en de controletranscriptie staan in <code>provenance/</code> van het bronpakket. De doelrecords dragen nog het label <code>candidate_review_ready</code>; de outline bevat ook historische gereedheidsteksten. Deze levering vervangt geen formele statusbeslissing van de repository.</p>
+<h3>Lokale controles</h3>
+<p>De bijgeleverde controle toetst onder meer de pagina- en opgavenaantallen, de aanwezigheid van alle antwoorden, de zeven oefensecties, de behouden doelvragen, beeldverwijzingen, SVG/PNG-paren, assen en berekende gebieden. Numerieke scenario’s worden opnieuw uit hun functies doorgerekend en vergeleken met vooraf vastgelegde verwachte uitkomsten.</p>
+<p>De pagina’s zijn bovendien gerenderd en visueel nagekeken. De figuren gebruiken numeriek bepaalde snijpunten en gebieden. Smalle verliesdriehoeken krijgen een label met een aanwijslijn; labels mogen het gebied niet verhullen.</p>
+<div class="box warning"><b>Grenzen van de controle</b><br/>Lokale berekeningen en visuele inspectie zijn geen onafhankelijke specialistreview. De volledige platform-CI en integratiegates zijn niet voor dit losse pakket uitgevoerd. Lesduur en leerlingbegrip zijn niet in een klas onderzocht. Laat vóór repository-integratie de gebruikelijke inhoudelijke en technische review plaatsvinden.</div>
+<h3>Reproduceren</h3>
+<p>Installeer de afhankelijkheden uit <code>requirements.txt</code> en voer <code>python build_all.py</code> uit. De leerlinguitgave wordt gebouwd uit <code>manuscript/</code>; de antwoorden hebben een afzonderlijk Markdown-bestand. SVG’s, PNG’s, zelfstandige paragraafuitvoer en het laatste validatierapport zijn opgenomen. Lettertypebestanden worden niet meegestuurd.</p>
+</section></body></html>

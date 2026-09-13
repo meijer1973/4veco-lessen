@@ -1,0 +1,134 @@
+{
+  "source": "https://github.com/meijer1973/4veco-platform/blob/main/references/authored/course-target-exercises.json",
+  "source_blob_sha": "5680842328576b63e2858ce8e354030a3a458410",
+  "retrieved_on": "2026-09-06",
+  "method": "Manual transcription from authenticated GitHub reads; not a full registry snapshot. Current record_status is candidate_review_ready.",
+  "targets": {
+    "2.3.1": {
+      "opgave": 8,
+      "context": "Voor concertkaartjes geldt de vraagfunctie P=50−0,5Q. P is de prijs in euro per kaartje en Q het aantal gevraagde kaartjes. De gegeven marktprijs is €20. Er zijn voldoende kaartjes beschikbaar; alle bij deze prijs gevraagde kaartjes worden verkocht aan de vragers met de hoogste betalingsbereidheid. Er is in deze opgave geen aanbodfunctie.",
+      "questions": [
+        "Bereken de gevraagde hoeveelheid bij P=€20. Noem dit niet de evenwichtshoeveelheid.",
+        "Teken de vraaglijn en de horizontale prijslijn in één assenstelsel. Benoem de horizontale as als Q (kaartjes) en de verticale as als P (€ per kaartje). Noteer de snijpunten van de vraaglijn en het snijpunt met de prijslijn.",
+        "Arceer en benoem in je grafiek het consumentensurplus.",
+        "Bereken het consumentensurplus als oppervlakte van een driehoek en noteer de eenheid.",
+        "Leg uit wat het berekende consumentensurplus voor de kopers als groep betekent."
+      ],
+      "expected": {
+        "Q": 60,
+        "CS": 900
+      },
+      "figure_requirement": "Student draws demand and price; no supplied target graph."
+    },
+    "2.3.2": {
+      "opgave": 8,
+      "context": "Voor concertkaartjes geldt vraag P=50−0,5Q en aanbod P=5+0,25Q. P is in euro per kaartje en Q in kaartjes. Binnen dit marktmodel stelt de inverse aanbodlijn voor 0≤Q≤100 de marginale kosten van iedere opeenvolgende eenheid voor, ook als die eenheid in het evenwicht niet wordt verkocht.",
+      "questions": [
+        "Bereken de evenwichtsprijs en -hoeveelheid.",
+        "Markeer het evenwicht in de basisgrafiek en arceer en benoem CS en PS. Teken de lijnen niet opnieuw.",
+        "Bereken CS, PS en TS met basis, hoogte en eenheid.",
+        "Vergelijk met de tabel bij Q=50 en Q=70 de betalingsbereidheid met de marginale kosten en geef per hoeveelheid aan of één extra transactie TS verhoogt of verlaagt.",
+        "Leg uit waarom TS in dit model maximaal is bij Q=60 en waarom dit geen oordeel over een eerlijke verdeling oplevert."
+      ],
+      "source_table": [
+        [
+          "Q",
+          "betalingsbereidheid",
+          "MK"
+        ],
+        [
+          50,
+          25,
+          17.5
+        ],
+        [
+          70,
+          15,
+          22.5
+        ]
+      ],
+      "expected": {
+        "Qe": 60,
+        "Pe": 20,
+        "CS": 900,
+        "PS": 450,
+        "TS": 1350
+      },
+      "figure_requirement": "Supplied demand and supply, 0–100 Q and 0–50 P; E, CS, PS not yet marked."
+    },
+    "2.3.3": {
+      "opgave": 6,
+      "context": "Gebruik opnieuw vraag P=50−0,5Q en aanbod P=5+0,25Q. Het vrije evenwicht is Q=60 en P=€20, met CS=€900, PS=€450 en TS=€1.350. Een kosteloos verruimbare reserveringsregel zet de prijs op €25 en beperkt boekingen tot 40 kaartjes, hoewel het platform technisch minstens 60 transacties kan verwerken. De 40 kaartjes gaan naar de vragers met de hoogste betalingsbereidheid en worden geleverd door de aanbieders met de laagste marginale kosten. Daardoor vinden precies 40 transacties plaats. Bij verruiming blijven de prijs en alle bestaande transacties ongewijzigd.",
+      "questions": [
+        "Omschrijf Pareto-efficiëntie binnen dit marktmodel: wanneer kan geen haalbare extra transactie of herverdeling iemand beter maken zonder iemand anders slechter te maken?",
+        "Bereken bij P=€25 de gevraagde hoeveelheid (Qd) en aangeboden hoeveelheid (Qs). Leg met de reserveringsregel uit waarom het werkelijke aantal transacties 40 is en welke vragers en aanbieders handelen.",
+        "Bereken bij 40 transacties en P=€25 het CS en PS. Splits elk oppervlak zo nodig in een rechthoek en een driehoek; gebruik de allocatieregel.",
+        "Bereken TS en het welvaartsverlies ten opzichte van het vrije evenwicht. Arceer het welvaartsverlies tussen Q=40 en Q=60 in de basisgrafiek en benoem basis en hoogte.",
+        "Pas je definitie uit vraag a toe op de 41e transactie. Leg met betalingsbereidheid, marginale kosten en de kosteloze verruiming uit waarom 40 transacties niet Pareto-efficiënt zijn.",
+        "Leg uit waarom een hoger TS of Pareto-efficiëntie niet automatisch betekent dat de verdeling eerlijk is."
+      ],
+      "expected": {
+        "Qd": 50,
+        "Qs": 80,
+        "Q": 40,
+        "CS": 600,
+        "PS": 600,
+        "TS": 1200,
+        "loss": 150,
+        "WTP41": 29.5,
+        "MC41": 15.25
+      },
+      "figure_requirement": "Demand, supply, E (60,20), P25 and cap40 supplied; no loss shading."
+    },
+    "2.3.4": {
+      "opgave": 3,
+      "context": "Op een eiland worden huurfietsen verhandeld. Gebruik vraag P=80−Q en aanbod P=20+0,5Q. Zonder beperking ontstaat een marktevenwicht. In het hoogseizoen zet een kosteloos verruimbare boekingsregel de transactieprijs op €45 en het aantal boekingen op maximaal 30, hoewel het platform technisch minstens 40 transacties kan verwerken. De 30 fietsen gaan naar de huurders met de hoogste betalingsbereidheid en worden aangeboden door de verhuurders met de laagste marginale kosten. Bij verruiming blijven de prijs en bestaande transacties ongewijzigd. Een bron vermeldt ook dat de meeste fietsen blauw zijn; dat gegeven is economisch niet relevant.",
+      "questions": [
+        "Selecteer de gegevens die nodig zijn om het vrije evenwicht te berekenen, noem het irrelevante gegeven en bereken Pe en Qe.",
+        "Bereken bij het vrije evenwicht CS, PS en TS.",
+        "Bereken bij 30 transacties en P=€45 met de gegeven allocatieregel CS, PS en TS. Gebruik de hulpcijfers en alleen rechthoeken en driehoeken.",
+        "Bereken het welvaartsverlies en arceer dit in de basisgrafiek. Benoem basis en hoogte; teken de vraag- en aanbodlijn niet opnieuw.",
+        "Een verhuurder zegt: ‘PS is bij de beperking hoger, dus de uitkomst is Pareto-efficiënt.’ Beoordeel deze uitspraak met beide TS-waarden en de gegeven betalingsbereidheid en marginale kosten van de 31e transactie.",
+        "Leg uit waarom de efficiëntievergelijking niet bepaalt welke uitkomst eerlijker is."
+      ],
+      "source_table": [
+        [
+          "toestand",
+          "Qd",
+          "Qs",
+          "betalingsbereidheid",
+          "MK"
+        ],
+        [
+          "P45,Q30",
+          35,
+          50,
+          50,
+          35
+        ],
+        [
+          "31e transactie",
+          null,
+          null,
+          49,
+          35.5
+        ]
+      ],
+      "expected": {
+        "Qe": 40,
+        "Pe": 40,
+        "CS_free": 800,
+        "PS_free": 400,
+        "TS_free": 1200,
+        "Qd": 35,
+        "Qs": 50,
+        "Q": 30,
+        "CS": 600,
+        "PS": 525,
+        "TS": 1125,
+        "loss": 75
+      },
+      "figure_requirement": "Supplied demand/supply 0–80 on both axes; no E, P45, Q30 or area markings."
+    }
+  }
+}

@@ -25,3 +25,6 @@
 
 # Archived records preserve the original Git blob bytes.
 archive/** -text
+
+# Delivered Book 2 edition: preserve original bytes, including searchable text.
+"Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/**" -text

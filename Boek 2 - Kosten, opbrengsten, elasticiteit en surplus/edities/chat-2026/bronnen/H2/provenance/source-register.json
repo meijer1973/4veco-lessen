@@ -1,0 +1,88 @@
+{
+  "retrieved_on": "2026-09-06",
+  "mode": "Connected GitHub reads of the relevant sections; raw HTTP downloads unavailable in this runtime.",
+  "platform_main_commit": "96416b6b5bd57094576e9aba0a42d682584ec479",
+  "source_excerpts_in_package": "provenance/target_questions.json",
+  "authorship": "All teaching prose, worked examples, supporting exercises and figures newly authored; target questions and contexts retained from registry. Prior chapter 2 student output not used as authoring basis.",
+  "status": "standalone_print_edition_local_checks_only",
+  "not_claimed": [
+    "Independent teacher review",
+    "Representative classroom timing",
+    "Official repository validator run",
+    "Repository merge or authority mutation"
+  ],
+  "sources": [
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "git_blob_sha": "91778371a11cbe9839a4822c3989e90e7317850a",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "references/authored/book-outlines/book-2-outline.md",
+      "git_blob_sha": "abb135f812456ff4f4dad58dfa1724a3695fb0a4",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/references/authored/book-outlines/book-2-outline.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "references/authored/book-outlines/book-2-outline.meta.json",
+      "git_blob_sha": "0be893d79fdf232e598ea7b65e060f0b6f7dbe25",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/references/authored/book-outlines/book-2-outline.meta.json"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "references/authored/course-target-exercises.json",
+      "git_blob_sha": "5680842328576b63e2858ce8e354030a3a458410",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/references/authored/course-target-exercises.json"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-exercise-builder.md",
+      "git_blob_sha": "5504c8e8a325864978c76867b15b857c118df19d",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/econ-exercise-builder.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-textbook-paragraph.md",
+      "git_blob_sha": "b48ff1f0d02748e6e4d1f98d6d892ac786562c3b",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/econ-textbook-paragraph.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-didactiek.md",
+      "git_blob_sha": "5a38065e42754e0490e541002ba4465bf3dbeda8",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/econ-didactiek.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/economic-graph.md",
+      "git_blob_sha": "938d5e61c46de0d60b8bdeaf0aced2572715c2d0",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/economic-graph.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-pdf-builder.md",
+      "git_blob_sha": "81c7a8700c934d9eff3292dbb881372064c46562",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/skills/econ-pdf-builder.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "references/authored/economic_mathematical_precision_reference.md",
+      "git_blob_sha": "b735b7f91bace804b5cd9f88269e7451e3e7e4f6",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/references/authored/economic_mathematical_precision_reference.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "BUILD-CHAPTER.md",
+      "git_blob_sha": "b1bc48cf9667aa5a7611df7b20cdcac2c093d7ac",
+      "pinned_url": "https://github.com/meijer1973/4veco-platform/blob/96416b6b5bd57094576e9aba0a42d682584ec479/BUILD-CHAPTER.md"
+    },
+    {
+      "repository": "meijer1973/4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "git_blob_sha": "d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5",
+      "read_url": "https://github.com/meijer1973/4veco-lessen/blob/main/RESEARCH_AGENT_MAP.md"
+    }
+  ]
+}

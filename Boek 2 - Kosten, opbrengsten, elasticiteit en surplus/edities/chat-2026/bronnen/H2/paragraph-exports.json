@@ -1,0 +1,46 @@
+{
+  "2.2.1": {
+    "chapter_pages": [
+      2,
+      9
+    ],
+    "answer_pages": [
+      2,
+      5
+    ],
+    "exercise_count": 10
+  },
+  "2.2.2": {
+    "chapter_pages": [
+      10,
+      17
+    ],
+    "answer_pages": [
+      6,
+      9
+    ],
+    "exercise_count": 10
+  },
+  "2.2.3": {
+    "chapter_pages": [
+      18,
+      29
+    ],
+    "answer_pages": [
+      10,
+      14
+    ],
+    "exercise_count": 11
+  },
+  "2.2.4": {
+    "chapter_pages": [
+      30,
+      35
+    ],
+    "answer_pages": [
+      15,
+      18
+    ],
+    "exercise_count": 7
+  }
+}
