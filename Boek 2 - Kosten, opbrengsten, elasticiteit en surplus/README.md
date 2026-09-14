@@ -11,8 +11,8 @@ De **standaard geleverde printuitgave** is de [chatuitgave 2026](edities/chat-20
 
 De bewerkbare leerlingbronnen staan in `edities/chat-2026/bronnen/H*/manuscript/`, in de volgorde van de bijbehorende `chapter-order.json`. Antwoordmodellen en docentenbronnen staan in de hoofdstukhoofdmappen; `paragrafen/` bevat afgeleide exports. De bronpakketten behouden hun relatieve assetpaden en bestaande bouwscripts.
 
-Status van `BOOK2-CHAT-IMPORT-1`: **writing/assembly complete; repository import prepared/in PR**. Dit is nog geen opname op `main`. De import kent geen nieuwe formele inhoudsreview, targetgoedkeuring of companion/productstatus toe. Zie het [integratieverslag](IMPORT_REPORT.md) voor controles en publicatie.
+Status van `BOOK2-CHAT-IMPORT-1`: **writing/assembly complete; import and archive cleanup in PR**. Dit is nog geen opname op `main`. De import kent geen nieuwe formele inhoudsreview, targetgoedkeuring of companion/productstatus toe. Zie het [integratieverslag](IMPORT_REPORT.md) voor controles en publicatie.
 
 ## Oudere repositoryproductie
 
-De bestaande mappen [2.1 Hoofdstuk Kosten en opbrengsten](2.1%20Hoofdstuk%20Kosten%20en%20opbrengsten/) en [2.2 Hoofdstuk Elasticiteit](2.2%20Hoofdstuk%20Elasticiteit/) bevatten de oudere repositoryproductie en haar eigen historische bewijsstukken. Ze blijven behouden en zijn niet de standaard geleverde printuitgave hierboven. Hun reviewstatus geldt niet als een nieuwe review van de chatuitgave.
+De oudere hoofdstukken 2.1 en 2.2 en hun historische bewijsstukken staan ongewijzigd in het [archief van de eerdere repositoryproductie](../archive/book-2-pre-chat-2026/README.md). De chatuitgave hierboven is de standaard geleverde printuitgave. Oude reviews gelden niet als review van de chatuitgave.
