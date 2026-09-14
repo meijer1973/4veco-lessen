@@ -1,0 +1,12 @@
+{
+  "outline_priority": "uploaded_v2",
+  "sha256": {
+    "book-3-outline-v2(1).md": "4e558b63d8eb954de935ad366170f6373f533eae14f90633a89be0036c973217",
+    "book-4-outline-v2(1).md": "3bfb4350bb1f990a8ea559272263e8ef35e1b72bd0cbc86b59c9aa6ad4fc0899"
+  },
+  "platform_main": "96416b6b5bd57094576e9aba0a42d682584ec479",
+  "guideline_blobs": {
+    "econ-exercise-builder.md": "5504c8e8a325864978c76867b15b857c118df19d",
+    "economic-graph.md": "938d5e61c46de0d60b8bdeaf0aced2572715c2d0"
+  }
+}

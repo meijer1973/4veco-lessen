@@ -1,0 +1,551 @@
+[
+  {
+    "number": 1,
+    "title": "Evenwicht terughalen",
+    "context": "Voor sleutelhangers geldt vraag P = 12 − 0,10Q en aanbod P = 4 + 0,10Q. Q is stuks per dag; P is euro per stuk.",
+    "questions": [
+      "Bereken de evenwichtshoeveelheid en de evenwichtsprijs.",
+      "Bereken met de aanbodfunctie welk bedrag bij Q = 30 hoort."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 2,
+    "title": "Wie draagt af?",
+    "context": "Na een belasting betaalt een koper € 9. De verkoper houdt na afdracht € 6 over.",
+    "questions": [
+      "Hoe groot is de belasting per product?",
+      "Kun je zonder de oude prijs berekenen wie de grootste last draagt? Licht je antwoord toe."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 3,
+    "title": "Lees de geldstroom",
+    "context": "Gebruik de volledig uitgewerkte fruitbekermarkt in figuur 2 op pagina 3.",
+    "questions": [
+      "Lees Q₀, P₀, Qt, Pc en Pp af. Welke twee prijzen horen bij dezelfde hoeveelheid?",
+      "Leg uit waarom je Pp niet afleest op A + t.",
+      "Een leerling telt € 4 op bij de oude prijs van € 8 en krijgt Pc = € 12. Wijs met de berekende hoeveelheid aan waarom die aanpak hier niet klopt."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 4,
+    "title": "Posters",
+    "context": "Vraag Pc = 16 − 0,10Q; aanbod Pp = 4 + 0,10Q. Q is posters per week. De verkoper draagt € 4 per verkochte poster af.",
+    "questions": [
+      "Vul eerst in: Pc = Pp + … = … + 0,10Q.",
+      "Los 16 − 0,10Q = … + 0,10Q op. Bereken daarna Pc en Pp.",
+      "Teken in de basisgrafiek A + t. Markeer bij de nieuwe hoeveelheid beide prijzen en verbind ze met een verticale lijn.",
+      "Controleer de wig en leg in één zin uit waarom er minder posters worden verkocht."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 5,
+    "title": "Mokken",
+    "context": "Op de markt voor mokken geldt Pc = 18 − 0,20Q en Pp = 6 + 0,10Q. Q is mokken per dag. Verkopers dragen € 3 per verkochte mok af.",
+    "questions": [
+      "Bereken het vrije evenwicht.",
+      "Stel het aanbod in kopersprijzen na de belasting op. Bereken Qt, Pc en Pp.",
+      "Teken A + t in de basisgrafiek. Markeer de nieuwe hoeveelheid, beide prijzen en de belastingwig.",
+      "Leg uit waarom de verkopersontvangst lager kan zijn terwijl de kopersprijs hoger is."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 6,
+    "title": "Twee bedragen veranderen",
+    "context": "Een marktonderzoek meldt na een belasting: de prijs voor kopers stijgt van € 7 naar € 9. De ontvangst van verkopers daalt van € 7 naar € 6.",
+    "questions": [
+      "Bereken afzonderlijk de prijsverandering voor kopers en voor verkopers. Bereken daarna de belasting per product.",
+      "Beoordeel: “De belasting is € 2, want dat is wat de koper extra betaalt.”"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 7,
+    "title": "Bedrukte tassen",
+    "context": "Verschillende aanbieders verkopen dezelfde soort bedrukte tas. Vraag: Pc = 20 − 0,20Q. Aanbod: Pp = 2 + 0,10Q. Q is tassen per dag; prijzen zijn euro per tas. De overheid heft € 3 per verkochte tas. De verkopers dragen de belasting af. De andere marktomstandigheden blijven gelijk.",
+    "questions": [
+      "Bereken de vrije evenwichtsprijs en -hoeveelheid.",
+      "Stel na invoering van de belasting het aanbod in kopersprijzen op. Bereken de nieuwe hoeveelheid.",
+      "Bereken de prijs die kopers betalen en het bedrag dat verkopers na afdracht ontvangen.",
+      "Teken de nieuwe aanbodlijn in de basisgrafiek. Markeer de nieuwe hoeveelheid, beide prijzen en de belastingwig.",
+      "Een verkoper zegt: “Wij dragen alles af; dus wij dragen ook de hele economische last.” Beoordeel met de oude en nieuwe prijzen."
+    ],
+    "kind": "target"
+  },
+  {
+    "number": 8,
+    "title": "De koper draagt af",
+    "context": "Op een markt geldt Pc = 16 − 0,10Q en Pp = 4 + 0,10Q. De belasting is € 4 per verkocht product. Tot nu toe droeg de verkoper die af. Een nieuw voorstel laat de koper € 4 rechtstreeks aan de overheid betalen, boven op het bedrag voor de verkoper. Het product, de belasting per transactie en het gedrag van kopers en verkopers blijven verder gelijk.",
+    "questions": [
+      "Voorspel of de nieuwe hoeveelheid, Pc en Pp veranderen. Onderbouw zonder alleen te zeggen wie het geld overmaakt.",
+      "Teken een geldstroomschema met koper, verkoper en overheid. Laat zien dat dezelfde wig blijft bestaan."
+    ],
+    "kind": "bonus"
+  },
+  {
+    "number": 9,
+    "title": "Prijs en gevraagde hoeveelheid",
+    "context": "Een prijs stijgt van € 10 naar € 12. De gevraagde hoeveelheid daalt van 200 naar 180 producten per week. Gebruik de oude waarden als basis.",
+    "questions": [
+      "Bereken de procentuele prijsverandering en de procentuele hoeveelheidsverandering.",
+      "Bereken Ev en bepaal of de vraag prijsinelastisch of prijselastisch is."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 10,
+    "title": "Surplus terughalen",
+    "context": "Een markt heeft Q₀ = 40 en P₀ = € 10. De vraaglijn snijdt de prijsas bij € 18; de aanbodlijn bij € 6. Beide lijnen zijn recht.",
+    "questions": [
+      "Bereken CS en PS met basis, hoogte en eenheid."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 11,
+    "title": "Geld of gemiste handel?",
+    "context": "Een belasting levert de overheid € 120 op. De welvaartsmaat daalt van € 500 naar € 470.",
+    "questions": [
+      "Hoe groot is het welvaartsverlies? Leg uit waarom dit niet € 120 is."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 12,
+    "title": "Lees het belastingplaatje",
+    "context": "Gebruik de volledig ingekleurde fruitbekermarkt in figuur 1 op pagina 11.",
+    "questions": [
+      "Wijs CS, PS, O en W aan. Welke prijs vormt de ondergrens van CS? Welke prijs vormt de bovengrens van PS?",
+      "Bereken eerst alleen de oppervlakte O. Gebruik daarna Q₀ − Qt als basis van W.",
+      "Leg uit waarom de hele oppervlakte tussen Pc en Pp niet hetzelfde is als W."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 13,
+    "title": "Kaartensets",
+    "context": "Voor kaartensets is het vrije evenwicht Q₀ = 60 en P₀ = € 10. Een belasting van € 4 geeft Qt = 40, Pc = € 12 en Pp = € 8. De rechte vraaglijn begint op de prijsas bij € 16 en de rechte aanbodlijn bij € 4. Q is sets per dag.",
+    "questions": [
+      "Vul eerst de tabel hieronder volledig in. Noteer eenheden en laat voor CS en PS telkens basis en hoogte zien.",
+      "Bereken O en W. Controleer W met de driehoek.",
+      "Beoordeel: “Omdat kopers en verkopers elk € 2 per set dragen, ontvangt de overheid maar € 2 per set.”"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 14,
+    "title": "Stickerpakketten",
+    "context": "Vraag Pc = 16 − 0,10Q; aanbod Pp = 4 + 0,10Q. Zonder belasting: Q₀ = 60 en P₀ = € 10. Verkopers dragen € 4 per verkocht pakket af. Na invoering: Qt = 40, Pc = € 12 en Pp = € 8. Q is pakketten per week.",
+    "questions": [
+      "Bereken de last per pakket voor kopers en verkopers en het afwentelingspercentage.",
+      "Bereken CS en PS voor en na de belasting, O en W.",
+      "Markeer in de basisgrafiek Pc, Pp en Qt. Arceer O en W verschillend en benoem beide gebieden."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 15,
+    "title": "Niet even prijsgevoelig",
+    "context": "Twee markten hebben dezelfde beginprijs en beginhoeveelheid, hetzelfde aanbod en dezelfde belasting. In markt X kunnen kopers makkelijk een ander product kiezen; in markt Y veel minder.",
+    "questions": [
+      "In welke markt verwacht je een groter aandeel van de belasting bij de koper? Leg uit via de mogelijkheid om op de prijs te reageren.",
+      "Waarom is “de verkoper draagt af” geen bewijs voor jouw antwoord?"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 16,
+    "title": "Bedrukte tassen: wie betaalt?",
+    "context": "Dit is de markt uit §3.1.1, met alle gegevens opnieuw gegeven. Vraag Pc = 20 − 0,20Q; aanbod Pp = 2 + 0,10Q. Q is tassen per dag. Eerst: Q₀ = 60 en P₀ = € 8. Met t = € 3: Qt = 50, Pc = € 10 en Pp = € 7. De belasting heeft geen effecten voor buitenstaanders en geen uitvoeringskosten.",
+    "questions": [
+      "Bereken de last per tas voor beide kanten en het afwentelingspercentage.",
+      "Bereken de belastingopbrengst per dag.",
+      "Bereken CS en PS zonder en met belasting. Bereken daarna de welvaartsmaat met overheid en het welvaartsverlies.",
+      "Markeer Qt, Pc en Pp in de basisgrafiek. Arceer de belastingopbrengst en het welvaartsverlies verschillend. Noteer basis en hoogte van W.",
+      "Een koper zegt: “Als de vraag nog minder prijsgevoelig was, zouden wij minder belasting dragen.” Beoordeel, bij gelijk aanbod en dezelfde belasting."
+    ],
+    "kind": "target"
+  },
+  {
+    "number": 17,
+    "title": "Kan de schaal de belastingdruk veranderen?",
+    "context": "De twee grafieken hieronder tonen precies dezelfde vraagfunctie: P = 14 − 0,10Q. Q is producten per week; P is euro per product. Alleen de schaal van de verticale as verschilt. Het aanbod en de belasting blijven buiten deze twee afbeeldingen.",
+    "questions": [
+      "Een leerling noemt de vraag in de linker grafiek minder prijsgevoelig omdat de lijn daar steiler lijkt. Bereken in beide grafieken Q bij P = € 8 en bij P = € 9. Beoordeel de uitspraak.",
+      "Kun je uit alleen deze twee vraaggrafieken afleiden welk aandeel van een belasting kopers dragen? Leg uit welke aanvullende informatie je nodig hebt. Leg ook uit waarom het aanpassen van de asschaal op zichzelf geen andere economische uitkomst veroorzaakt."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 18,
+    "title": "Een bedrag per product",
+    "context": "Een producent verkoopt 100 producten voor € 9 per stuk. TK = 300 + 4Q, met kosten in euro per dag en Q in producten per dag.",
+    "questions": [
+      "Bereken TO, TK en de winst per dag.",
+      "Leg uit waarom een ontvangst van € 9 per product geen winst van € 9 per product is."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 19,
+    "title": "De wig terughalen",
+    "context": "Bij een belasting van € 3 betaalt de koper € 11. Bij een andere markt met € 3 subsidie betaalt de koper ook € 11.",
+    "questions": [
+      "Bereken in beide gevallen Pp. Geef aan wanneer je € 3 aftrekt en wanneer je € 3 optelt."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 20,
+    "title": "Voor alle verkochte plaatsen",
+    "context": "Een subsidie van € 2 vergroot de verkoop van 50 naar 60 plaatsen per week.",
+    "questions": [
+      "Bereken de uitgaven als iedere verkochte plaats recht op subsidie geeft. Waarom gebruik je niet alleen de 10 extra plaatsen?"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 21,
+    "title": "Lees de subsidie-uitkomst",
+    "context": "Gebruik de workshopgrafiek op pagina 20. De vraag- en aanbodlijn zijn niet van betekenis veranderd.",
+    "questions": [
+      "Lees bij Q = 80 beide prijzen af. Welke partij ontvangt samen € 14?",
+      "Leg uit waarom de aanbodlijn in kopersprijzen naar beneden schuift en niet de vraaglijn.",
+      "Bereken het voordeel per plaats voor de koper én voor de aanbieder, vergeleken met € 12."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 22,
+    "title": "Muzieklesplaatsen",
+    "context": "Vraag Pc = 22 − 0,10Q; aanbod Pp = 10 + 0,10Q. Zonder subsidie: Q₀ = 60 en P₀ = € 16. De aanbieder krijgt € 4 per verkochte lesplaats. Q is lesplaatsen per week.",
+    "questions": [
+      "Vul eerst in: Pc = Pp − … = … + 0,10Q. Bereken vervolgens de nieuwe hoeveelheid en beide prijzen.",
+      "Teken A − s in de basisgrafiek en markeer Pc, Pp en Qsub.",
+      "Bereken U. Bereken daarna CS en PS met de nieuwe hoeveelheid; vergelijk CS + PS − U met de oude € 360."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": "22A",
+    "title": "Eerst de drie rekeningen",
+    "context": "Op een oefenmarkt voor keramieklesplaatsen krijgt de aanbieder € 4 subsidie per verkochte plaats. Er zijn geen baten voor buitenstaanders en geen uitvoeringskosten. De nieuwe hoeveelheid en prijzen zijn al berekend; oefen hier alleen de surplus- en begrotingsrekening. Q is plaatsen per week; prijzen zijn euro per plaats.",
+    "questions": [
+      "Vul eerst de tabel onder de bron volledig in. Gebruik voor iedere surplusdriehoek de juiste basis en hoogte. De rij zonder subsidie is als voorbeeld ingevuld.",
+      "Bereken hoeveel CS en PS ieder toenemen. Vergelijk hun gezamenlijke toename met de subsidie-uitgaven.",
+      "Bereken het welvaartsverlies op twee manieren: met de oude en nieuwe welvaartsmaat en met de driehoek van extra transacties.",
+      "Een leerling schrijft: “U = 4 × (70 − 60) = € 40.” Leg uit welke gesubsidieerde verkopen in deze berekening ontbreken."
+    ],
+    "kind": "guided"
+  },
+  {
+    "number": 23,
+    "title": "Sportplaatsen",
+    "context": "Vraag Pc = 24 − 0,20Q; aanbod Pp = 6 + 0,10Q. Eerst zijn Q₀ = 60 en P₀ = € 12. Aanbieders krijgen € 3 per verkochte sportplaats. Q is plaatsen per week. De oude welvaartsmaat is € 540 per week.",
+    "questions": [
+      "Bereken de nieuwe hoeveelheid, Pc en Pp. Teken A − s en markeer de drie uitkomsten.",
+      "Bereken de subsidie-uitgaven, CS en PS.",
+      "Bereken CS + PS − U en het welvaartsverlies. Noem de veronderstelling over baten voor anderen."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 24,
+    "title": "Meer voordeel, toch een rekening",
+    "context": "Na een subsidie betalen kopers per product € 2 minder en ontvangen verkopers per product € 1 meer dan voorheen.",
+    "questions": [
+      "Hoe hoog is de subsidie per product?",
+      "Beoordeel: “Iedereen profiteert, want kopers én verkopers zijn beter af.” Noem welke partij en welk bedrag per transactie in deze uitspraak ontbreken."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 25,
+    "title": "Cursusplaatsen",
+    "context": "Vraag Pc = 26 − 0,20Q; aanbod Pp = 8 + 0,10Q. Q is cursusplaatsen per week. Eerst: Q₀ = 60, P₀ = € 14, CS = € 360 en PS = € 180 per week. Aanbieders ontvangen € 3 subsidie per werkelijk verkochte plaats. Er zijn geen baten voor buitenstaanders en geen uitvoeringskosten.",
+    "questions": [
+      "Stel het aanbod in kopersprijzen mét subsidie op. Bereken Qsub, Pc en Pp.",
+      "Bereken de overheidsuitgaven per week.",
+      "Bereken het voordeel per plaats voor kopers en aanbieders. Leg uit waarom uitbetaling aan aanbieders niet betekent dat zij het hele voordeel krijgen.",
+      "Bereken CS en PS na subsidie. Bepaal CS + PS − U en het welvaartsverlies ten opzichte van de oude situatie.",
+      "Markeer Qsub, Pc en Pp in de basisgrafiek. Arceer de rechthoek van de overheidsuitgaven. Beoordeel: “De subsidie verhoogt in dit model automatisch de welvaart.”"
+    ],
+    "kind": "target"
+  },
+  {
+    "number": 26,
+    "title": "Per verkoop of een vast bedrag?",
+    "context": "Regeling A geeft aanbieders € 3 per verkochte cursusplaats. In de markt van opgave 25 ontstaan dan 70 verkopen. Regeling B vervangt A door samen € 210 vaste steun aan de bestaande aanbieders, ongeacht hoeveel zij verkopen. Volgens de bron veranderen bij B de vraag, de marginale kosten en de marktdeelname niet; het vrije evenwicht blijft dus 60 plaatsen voor € 14.",
+    "questions": [
+      "Vergelijk de uitgaven onder A en B. Welke regeling verandert in deze bron de prikkel om extra plaatsen aan te bieden?",
+      "Leg uit waarom je bij B niet automatisch A met € 3 omlaag mag verschuiven. Gebruik het verschil tussen een vast bedrag en een bedrag per verkoop."
+    ],
+    "kind": "bonus"
+  },
+  {
+    "number": 27,
+    "title": "Totaal en per eenheid",
+    "context": "Een zaal heeft € 600 constante kosten per week. De zaal verhuurt eerst 100 en later 150 stoelen per week, binnen dezelfde productiecapaciteit.",
+    "questions": [
+      "Bereken de gemiddelde constante kosten bij beide aantallen.",
+      "Leg uit waarom de totale constante kosten niet dalen als de gemiddelde constante kosten dalen."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 28,
+    "title": "Hoeveelheid bij een prijs",
+    "context": "Vraag P = 18 − 0,20Q; aanbod P = 6 + 0,10Q. Q is producten per dag.",
+    "questions": [
+      "Bereken het vrije evenwicht.",
+      "Bereken bij P = € 8 afzonderlijk Qv en Qa."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 29,
+    "title": "Mag de oude prijs nog?",
+    "context": "De vrije marktprijs is € 12. Er komt een maximumprijs van € 15.",
+    "questions": [
+      "Verandert de marktprijs in ons model? Leg uit waarom wel of niet."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 30,
+    "title": "Bekijk eerst het tekort",
+    "context": "Gebruik de volledig gemarkeerde puzzelmarkt op pagina 28.",
+    "questions": [
+      "Lees Qv en Qa bij de maximumprijs af. Benoem welk aantal werkelijk wordt verkocht.",
+      "Wijs het tekort aan als een horizontaal verschil tussen hoeveelheden. Waarom is het geen verticale afstand tussen prijzen?",
+      "Beoordeel: “Alle 80 geïnteresseerde kopers betalen nu minder en zijn dus beter af.”"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 31,
+    "title": "Schilderpakketten",
+    "context": "Vraag P = 16 − 0,10Q; aanbod P = 4 + 0,10Q. Q is pakketten per week. Het vrije evenwicht is Q₀ = 60, P₀ = € 10. De maximumprijs wordt € 8. Er is geen extra aanvoer; alle aangeboden pakketten worden verkocht.",
+    "questions": [
+      "Leg uit waarom het maximum bindt.",
+      "Vul eerst in: 8 = 16 − 0,10Qv → Qv = …; 8 = 4 + 0,10Qa → Qa = … . Noteer vervolgens verkopen en tekort.",
+      "Teken Pmax en markeer Qv, Qa en het tekort in de basisgrafiek.",
+      "Welke uitkomst blijft gelden als het maximum niet € 8 maar € 12 wordt?"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 32,
+    "title": "Bordspellen",
+    "context": "Vraag P = 20 − 0,20Q; aanbod P = 2 + 0,10Q. Q is spellen per week. De overheid zet de maximumprijs op € 6. Er zijn geen voorraden of andere aanvoer; alle aangeboden spellen worden verkocht.",
+    "questions": [
+      "Bereken het vrije evenwicht en bepaal of de maximumprijs bindt.",
+      "Bereken Qv, Qa, de verkopen en het tekort.",
+      "Teken Pmax in de basisgrafiek. Markeer de hoeveelheden en het tekort.",
+      "Leg uit waarom je zonder toewijzingsregel niet weet welke geïnteresseerde kopers een spel krijgen."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 33,
+    "title": "De markt verandert",
+    "context": "Eerst is de vrije evenwichtsprijs € 8 en geldt een maximum van € 10. Later neemt de vraag toe: zonder prijsregel zou het nieuwe evenwicht € 12 zijn. Tegelijk verlaagt de overheid het maximum tot € 9.",
+    "questions": [
+      "Bepaal eerst alleen het effect van het lagere maximum bij de oude markt. Bindt € 9 dan?",
+      "Bepaal daarna of € 9 bij de nieuwe markt bindt. Beoordeel: “Of een maximum bindt, hangt alleen van het bedrag in de regeling af.”"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 34,
+    "title": "Tenten voor een weekend",
+    "context": "Verschillende bedrijven verhuren dezelfde soort tent. Vraag P = 18 − 0,10Q; aanbod P = 6 + 0,10Q. P is de huur in euro per tent voor één weekend; Q is tenten per weekend. Er komt een maximumprijs van € 10. Er is geen extra aanvoer. Alle aangeboden tenten worden verhuurd, aan de vragers met de hoogste betalingsbereidheid.",
+    "questions": [
+      "Bereken de vrije evenwichtsprijs en -hoeveelheid. Leg uit of de maximumprijs bindt.",
+      "Bereken de gevraagde en aangeboden hoeveelheid, het werkelijke aantal verhuurde tenten en het tekort.",
+      "Teken de maximumprijs in de basisgrafiek. Markeer Qv, Qa en het werkelijke aantal verhuringen. Geef het tekort aan.",
+      "Een huurder zegt: “De lagere huur is goed voor iedereen die voor € 10 een tent wil huren.” Beoordeel met de uitkomsten en de toewijzingsregel.",
+      "Stel dat de maximumprijs € 14 is in plaats van € 10. Geef dan de werkelijke huur en het aantal verhuringen. Licht toe."
+    ],
+    "kind": "target"
+  },
+  {
+    "number": 35,
+    "title": "Wie krijgt de twee producten?",
+    "context": "Vier kopers willen elk één product kopen. Er zijn twee producten beschikbaar. De maximumprijs én werkelijke verkoopprijs is € 6. In situatie A kopen Noor en Bo. In situatie B krijgen via loting Sam en Imre een product. De onderstaande tabel geeft alle betalingsbereidheden.",
+    "questions": [
+      "Bereken het gezamenlijke consumentensurplus in situatie A en in situatie B.",
+      "Leg uit waarom prijs en aantal verkopen alleen niet genoeg zijn om CS te bepalen.",
+      "Betekent het grootste berekende CS automatisch dat die toewijzing het eerlijkst is? Licht toe."
+    ],
+    "kind": "bonus"
+  },
+  {
+    "number": 36,
+    "title": "Een markt zonder beperking",
+    "context": "Vraag P = 30 − 0,50Q; aanbod P = 6 + 0,25Q. Q is kaartjes; P is euro per kaartje.",
+    "questions": [
+      "Bereken de vrije evenwichtsprijs en -hoeveelheid.",
+      "Bereken CS en PS in het vrije evenwicht."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 37,
+    "title": "Vraag en aanbod terughalen",
+    "context": "Qv = 100 − 5P en Qa = 5P − 20. Q is kratten per week; P is euro per krat.",
+    "questions": [
+      "Bereken het vrije evenwicht en bepaal bij P = € 14 het aanbodoverschot."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 38,
+    "title": "Een toegestane prijs",
+    "context": "De vrije marktprijs is € 12. De minimumprijs wordt € 9.",
+    "questions": [
+      "Welke marktprijs blijft gelden? Leg uit waarom."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 39,
+    "title": "Het overschot afnemen",
+    "context": "Gebruik de appelgrafiek op pagina 35. De overheid garandeert daar volledige opkoop van het aanbodoverschot.",
+    "questions": [
+      "Lees het aantal particuliere aankopen, de aangeboden hoeveelheid en het aantal overheidsaankopen af.",
+      "Bereken de oppervlakte U. Waarom is de basis niet de totale hoeveelheid 80?",
+      "Welke hoeveelheid blijft zeker niet automatisch verkocht als de opkoopgarantie vervalt?"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 40,
+    "title": "Perenkratten",
+    "context": "Vraag P = 18 − 0,10Q; aanbod P = 6 + 0,10Q. Het vrije evenwicht is Q₀ = 60, P₀ = € 12. De minimumprijs is € 14. De overheid koopt elk aangeboden krat dat particulieren niet afnemen, tegen € 14. Q is kratten per week.",
+    "questions": [
+      "Vul eerst in: 14 = 18 − 0,10Qv → …; 14 = 6 + 0,10Qa → … . Bepaal het aanbodoverschot.",
+      "Teken Pmin en markeer Qv en Qa. Arceer de uitgavenrechthoek en bereken U.",
+      "Vervang de hele regeling door alleen een quotum van 40. Alle 40 kratten worden verkocht en er is geen opkoop. Bepaal prijs, particuliere verkopen en U."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": "40A",
+    "title": "Eerst alleen een quotum",
+    "context": "Verschillende aanbieders verkopen paprikakratten. Vraag: P = 26 − 0,20Q. Aanbod: P = 8 + 0,10Q. P is euro per krat; Q is kratten per week. Het vrije evenwicht is Q₀ = 60 en P₀ = € 14. Er komt uitsluitend een productiequotum van 40 kratten. De rechten zijn gratis verdeeld. Alle 40 toegestane kratten worden geproduceerd en verkocht; er is geen overheidsopkoop.",
+    "questions": [
+      "Vergelijk het quotum met Q₀. Waarom bindt de maatregel? Welke hoeveelheid wordt werkelijk verkocht?",
+      "Vul in: P = 26 − 0,20 × … = … . Teken de quotumgrens in de basisgrafiek en markeer de verkoopprijs op de vraaglijn. Bereken ook het bedrag op A bij Q = 40. Waarom is dat niet de verkoopprijs?",
+      "Nu vervangt een quotum van 80 kratten de grens van 40. De rest blijft gelijk. Bepaal de werkelijke hoeveelheid, de marktprijs en de overheidsuitgaven. Beoordeel: “Een quotum van 80 betekent dat er 80 worden geproduceerd.”"
+    ],
+    "kind": "guided"
+  },
+  {
+    "number": 41,
+    "title": "Pruimenkratten",
+    "context": "Vraag P = 22 − 0,10Q; aanbod P = 10 + 0,10Q. Q is kratten per week. De minimumprijs is € 18. De overheid koopt het volledige aanbodoverschot tegen deze prijs.",
+    "questions": [
+      "Bereken het vrije evenwicht. Bereken bij de minimumprijs Qv, Qa en het aanbodoverschot.",
+      "Bereken de totale verkoop door telers, de overheidsaankopen en U. Teken de uitgavenrechthoek in de basisgrafiek.",
+      "Vervang de minimumprijs én opkoop door alleen een bindend quotum van 40. Alle 40 kratten worden verkocht. Bereken de marktprijs en vergelijk de productie met de opkoopregeling."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 42,
+    "title": "Geen opkoop afgesproken",
+    "context": "Een bron noemt een minimumprijs waarbij Qv = 30 en Qa = 70. Een tweede bron noemt gratis verdeelde productiequota. Geen van beide bronnen noemt betalingen door of aan de overheid.",
+    "questions": [
+      "Hoeveel producten worden in de eerste bron zonder opkoop of andere afnemers verkocht? Hoe groot is het aanbodoverschot?",
+      "Waarom mag je bij geen van beide bronnen automatisch een bedrag aan overheidsuitgaven of inkomsten berekenen?"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 43,
+    "title": "Paddenstoelen in kratten",
+    "context": "Vraag P = 20 − 0,10Q; aanbod P = 8 + 0,10Q. Q is kratten per week; P is euro per krat. Regeling A voert een minimumprijs van € 16 in. De overheid koopt elk aangeboden krat dat particulieren niet kopen, tegen € 16. De telers leveren samen de aangeboden hoeveelheid.",
+    "questions": [
+      "Bereken het vrije evenwicht en leg uit of de minimumprijs bindt.",
+      "Bereken bij € 16 de particuliere vraag, het aanbod, het aanbodoverschot en de totale verkoop door telers.",
+      "Bereken de overheidsaankopen en de overheidsuitgaven per week. Markeer in de grafiek Pmin, Qv, Qa en de uitgavenrechthoek.",
+      "Regeling B vervangt A volledig: een productiequotum van 40 kratten. Alle 40 worden verkocht; de rechten zijn gratis verdeeld en de overheid koopt niets. Bereken de marktprijs, totale productie en overheidsuitgaven.",
+      "Een teler zegt: “Omdat beide regelingen dezelfde prijs geven, zijn ze economisch hetzelfde.” Beoordeel met twee berekende verschillen."
+    ],
+    "kind": "target"
+  },
+  {
+    "number": 44,
+    "title": "Is de hele rekening verlies?",
+    "context": "Bij opgave 43 koopt de overheid 40 kratten voor € 16 per krat. Een bestuurder zegt: “Dat kost € 640; dus het welvaartsverlies is precies € 640.” Er staat niets over het gebruik van de kratten, de waarde daarvan voor ontvangers of eventuele opslagkosten.",
+    "questions": [
+      "Leg uit waarom een overheidsuitgave niet zonder verdere informatie hetzelfde is als welvaartsverlies.",
+      "Noem twee soorten informatie die je nodig hebt voor een zorgvuldig welvaartsoordeel over deze aankopen. Je hoeft geen nieuwe welvaartsformule te gebruiken."
+    ],
+    "kind": "bonus"
+  },
+  {
+    "number": 45,
+    "title": "Een prijsreactie meten",
+    "context": "De prijs van een product stijgt van € 8 naar € 10. De gevraagde hoeveelheid daalt van 80 naar 70 per week. Andere vraagfactoren blijven gelijk.",
+    "questions": [
+      "Bereken Ev met de oude waarden als basis. Classificeer de vraag.",
+      "Bereken de omzet vóór en na de prijsstijging. Leg uit waarom een omzetstijging geen bewijs van een hogere winst is."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 46,
+    "title": "Vier korte berichten",
+    "context": "Lees elk bericht afzonderlijk. De vrije marktuitkomst is telkens gegeven of verandert niet door iets anders.",
+    "questions": [
+      "Aanbieders maken per verkocht product € 2 over aan de overheid. Welke maatregel is dit? Welke prijs is dan hoger: Pc of Pp?",
+      "Aanbieders krijgen € 3 voor elke werkelijk verkochte plaats. Welke maatregel is dit? Over welke hoeveelheid bereken je U?",
+      "De vrije prijs is € 9, maar verkopen boven € 7 worden verboden. Benoem de maatregel, geef de bindingscontrole en noem welke hoeveelheden je moet berekenen.",
+      "Producenten mogen samen niet meer dan 50 producten maken; de vrije hoeveelheid zou 70 zijn. Noem de maatregel en waar je de prijs van de 50 verkochte producten afleest."
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": 47,
+    "title": "De ontbrekende aankoopbelofte",
+    "context": "Een minimumprijs van € 12 ligt boven de vrije evenwichtsprijs van € 9. Bij € 12 zijn Qv = 30 en Qa = 70. Er is geen overheidsopkoop, geen voorraadverkoop en geen andere afnemer.",
+    "questions": [
+      "Bepaal de werkelijke verkoop, het aanbodoverschot en de overheidsuitgaven.",
+      "Een voorstel voegt volledige opkoop van het overschot tegen € 12 toe. Bereken de extra overheidsaankopen en U.",
+      "Waarom veranderen de antwoorden terwijl de minimumprijs zelf gelijk blijft?"
+    ],
+    "kind": "practice"
+  },
+  {
+    "number": "47A",
+    "title": "Drie berekeningen die overtuigend lijken",
+    "context": "Lees de drie berichten hieronder als afzonderlijke markten. Alle bedragen hebben betrekking op één week. Er zijn geen kosten of baten voor buitenstaanders en geen uitvoeringskosten. Noem bij ieder antwoord de juiste grootheid, berekening en reden.",
+    "questions": [
+      "Bericht A. Aanbieders maken € 3 per verkocht product over aan de overheid. De verkoop daalt van 60 naar 45. Een leerling berekent overheidsontvangsten als 3 × (60 − 45) = € 45. Verbeter de berekening en benoem de hoeveelheid waarover de belasting wordt ontvangen.",
+      "Bericht B. Aanbieders krijgen € 2 voor elk verkocht product. De verkoop stijgt van 60 naar 70. CS neemt met € 65 toe en PS ook met € 65. Een leerling noemt de toename van € 130 een welvaartswinst. Bereken de overheidsuitgaven en de verandering van de welvaartsmaat. Beoordeel de conclusie.",
+      "Bericht C. Bij een bindende minimumprijs van € 12 zijn Qv = 30 en Qa = 70. Er zijn geen andere kopers, voorraden of overheidsaankopen. Een leerling schrijft: “Er worden 70 verkocht; de overheid betaalt 12 × 40 = € 480.” Verbeter beide uitkomsten. Welke extra afspraak zou de berekende € 480 wél rechtvaardigen?"
+    ],
+    "kind": "mixed"
+  },
+  {
+    "number": 48,
+    "title": "Twee plannen voor festivalbandjes",
+    "context": "Bronnen 1–3 op pagina 46; vraag Pc = 24 − 0,20Q en aanbod Pp = 6 + 0,10Q; plan A t=3; plan B Pmax=10.",
+    "questions": [
+      "Benoem de maatregelen van plan A en B. Bereken met bron 1 het vrije evenwicht.",
+      "Bereken voor plan A het nieuwe aanbod in kopersprijzen, de verkochte hoeveelheid, Pc en Pp. Noteer de economische last per bandje voor kopers en verkopers.",
+      "Bereken bij plan A de overheidsontvangsten, CS, PS en het welvaartsverlies. Gebruik de oorspronkelijke vraag- en aanbodlijn voor de surplusgebieden.",
+      "Markeer in de basisgrafiek de twee prijzen en de nieuwe hoeveelheid van plan A. Arceer de overheidsontvangsten en het welvaartsverlies verschillend. Benoem beide gebieden.",
+      "Bereken voor plan B Qv, Qa, werkelijke verkopen en tekort. Controleer eerst of de prijsregel bindt.",
+      "Beoordeel beide delen van de beleidsclaim uit bron 3. Gebruik minstens één berekening per deel. Geef daarna één verschil tussen de plannen dat voor kopers van belang is; trek geen niet-berekende algemene welvaartsconclusie over plan B."
+    ],
+    "kind": "target"
+  }
+]

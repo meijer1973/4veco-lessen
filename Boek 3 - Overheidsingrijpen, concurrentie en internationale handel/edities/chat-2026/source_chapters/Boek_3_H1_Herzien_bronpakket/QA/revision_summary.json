@@ -1,0 +1,23 @@
+{
+  "student_pages_old": 40,
+  "student_pages_new": 48,
+  "added_pages": 8,
+  "exercise_count": 51,
+  "subquestion_count": 141,
+  "added_exercises": [
+    "22A",
+    "40A",
+    "47A"
+  ],
+  "rewritten_exercise": 17,
+  "unchanged_target_ids": [
+    7,
+    16,
+    25,
+    34,
+    43,
+    48
+  ],
+  "teacher_designed_pages": 10,
+  "review_designed_pages": 2
+}

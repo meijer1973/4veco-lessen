@@ -1,0 +1,179 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Docenteninformatie · Arbeidsmarkt</title><style>
+@page {size:A4; margin:17mm 18mm 17mm 19mm;
+ @top-left {content:"4veco  /  Boek 4";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @top-right {content:"4.3  Arbeidsmarkt";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @bottom-left {content:"Economie · 4 vwo";font-family:Lato,sans-serif;font-size:8pt;color:#536777;}
+ @bottom-right {content:counter(page);font-family:Lato,sans-serif;font-size:9pt;color:#183247;}
+}
+@page:first {@top-left{content:none;}@top-right{content:none;}}
+* {box-sizing:border-box;}
+html{font-family:Lato,"DejaVu Sans",sans-serif;font-size:11.3pt;line-height:1.37;color:#183247;}
+body{margin:0;}
+p{margin:0 0 6pt;orphans:3;widows:3;}
+.page{break-before:page;}
+.page:first-child{break-before:auto;}
+.page-title{font-size:18pt;line-height:1.13;font-weight:800;border-bottom:1.5pt solid #17688f;padding:0 0 8pt;margin:0 0 12pt;}
+h1{font-size:25pt;line-height:1.13;margin:5pt 0 12pt;font-weight:800;break-after:avoid;}
+h2{font-size:17pt;line-height:1.15;color:#17688f;margin:10pt 0 8pt;break-after:avoid;}
+h3{font-size:12.5pt;line-height:1.22;margin:11pt 0 7pt;break-after:avoid;}
+h2:first-child,h3:first-child{margin-top:0;}
+a{color:inherit;text-decoration:none;}
+.kicker{letter-spacing:1pt;color:#17688f;font-size:9pt;font-weight:800;margin:0 0 12pt;}
+.box,.definition,.formula,.source,.route{padding:7pt 10pt;margin:8pt 0 9pt;break-inside:avoid;background:#f2f6f8;border-left:3pt solid #17688f;}
+.box p:last-child,.definition p:last-child,.formula p:last-child,.source p:last-child{margin-bottom:0;}
+.definition{background:#f4f7f8;padding:7pt 10pt;margin:7pt 0 9pt;}
+.formula{font-family:"DejaVu Sans Mono",monospace;font-size:11.3pt;line-height:1.6;background:#eef5f6;border-left-color:#227064;}
+.goals{font-size:10.7pt;line-height:1.38;}
+.summary{font-size:10.5pt;line-height:1.5;}
+.warning{border-left-color:#ad601b;background:#fbf5ed;}
+.source{border-left-color:#536777;font-size:10.6pt;}
+.route{font-size:10.2pt;line-height:1.3;}
+.calculation{font-family:"DejaVu Sans Mono",monospace;line-height:1.55;margin:8pt 0 10pt;padding:8pt 13pt;background:#f3f6f7;break-inside:avoid;}
+.exercise{break-inside:avoid;border:0.6pt solid #d5dfe5;border-radius:3pt;padding:8pt 10pt;margin:0 0 10pt;background:white;}
+.exercise>p:first-child{margin-top:0;}
+.exercise>p:last-child{margin-bottom:0;}
+.exercise>p{margin-bottom:6pt;}
+.exercise>b:first-child{display:block;margin-bottom:7pt;font-size:12pt;}
+.target{border-top:3pt solid #17688f;}
+table{border-collapse:collapse;width:100%;margin:7pt 0 9pt;font-size:10.1pt;line-height:1.27;table-layout:auto;break-inside:avoid;}
+th{background:#edf2f5;font-weight:700;vertical-align:bottom;text-align:left;border-bottom:1pt solid #9dabb7;}
+td,th{padding:4.4pt 5pt;border-bottom:0.55pt solid #dce4e9;}
+td{vertical-align:top;} tr:nth-child(even) td{background:#f8fafb;}
+figure{margin:10pt 0 11pt;break-inside:avoid;}
+figure img{display:block;width:100%;height:auto;}
+figcaption{font-size:9.3pt;line-height:1.3;color:#536777;margin:5pt 0 0;}
+.small{font-size:9.4pt;line-height:1.33;}
+.muted{color:#536777;}
+.cover-title{font-size:38pt;line-height:1.05;letter-spacing:-0.6pt;font-weight:900;margin:14pt 0 14pt;}
+.lead{font-size:14.5pt;line-height:1.3;margin:0 0 13pt;color:#17688f;}
+.contents{margin:12pt 0 12pt;}
+.contents a{display:block;border-top:0.6pt solid #cbd7df;padding:6pt 0;}
+.contents b{display:block;font-size:12pt;}
+.contents span{display:block;color:#536777;font-size:10.5pt;margin-top:2pt;}
+.answer h2{margin-top:16pt;}
+.answer p{margin-bottom:7pt;}
+.answer .why{font-size:10.6pt;color:#455c6d;}
+.answer .exercise{break-inside:auto;}
+.answer .answer-block{break-inside:avoid;margin-bottom:10pt;}
+.teacher{font-size:10.7pt;}
+.pair{display:flex;gap:12pt}.pair>div{flex:1}
+.target-source{padding:9pt 11pt;background:#f5f8f9;border-left:3pt solid #536777;margin:9pt 0}
+.step{font-weight:700;color:#17688f}
+.fraction{white-space:nowrap}
+.tight p{margin-bottom:4pt}
+.target-unit{font-size:9.7pt;color:#536777}
+@media print{a{color:inherit}}
+.teacher table{font-size:9.1pt;}
+
+.contents a{font-size:10.1pt;line-height:1.25;padding:5.5pt 0;}
+.contents a b{font-size:11.2pt;}
+.contents b span{float:right;font-size:11pt;display:inline;}
+.exercise{padding:7pt 9pt;margin-bottom:9pt;}
+.exercise>p{margin-bottom:5pt;}
+.exercise p:first-child b{font-size:11.6pt;}
+.formula{font-size:10.8pt;line-height:1.5;}
+.cover-title{font-size:34pt;}
+.side-note{font-size:9.5pt;color:#536777;}
+.answer .answer-block{break-inside:avoid;}
+.answer .calc{font-family:DejaVu Sans Mono,monospace;font-size:10pt;line-height:1.5;}
+
+.continuation{font-size:16pt;color:#17688f;font-weight:700;margin:0 0 10pt;}
+.writing-lines{height:78mm;background:repeating-linear-gradient(to bottom, transparent 0,transparent 25px,#dfe6eb 26px,transparent 27px);margin-top:9mm;}
+
+.target .muted {font-size:9.5pt;} .page-title {font-size:17.5pt;} .compact figure {margin:8pt 0;} .small-figure {width:100%;} .panel-caption {font-size:10pt;}
+
+.glossary-columns{columns:2;column-gap:22pt;font-size:10.5pt;line-height:1.3;} .glossary-columns p{break-inside:avoid;margin:0 0 8pt;} .glossary-columns b{color:#17688f;}
+.answer h1{font-size:21pt;line-height:1.2;}
+.answer h3{font-size:12pt;margin:12pt 0 5pt;break-after:avoid;}
+.answer-stage{font-size:12.5pt;font-weight:700;color:#17688f;border-bottom:0.5pt solid #ccd9e0;margin:14pt 0 6pt;padding-bottom:4pt;break-after:avoid;}
+.answer-item{break-inside:avoid;}
+.assessment-note{font-size:9.5pt;color:#536777;break-inside:avoid;}
+
+.student .col2{columns:2;column-gap:18pt;} .student .col2 p{break-inside:avoid;}
+.school-note {font-size:9pt;line-height:1.35;color:#536777;}
+html{font-size:10.7pt;}</style></head><body><section class="page teacher" data-designed-page="1"><div class="kicker">BOEK 4 · HOOFDSTUK 3</div>
+<h1>Docenteninformatie<br/>Arbeidsmarkt</h1>
+<p>De leerlingeditie bevat vijf theorie-/toepassingsparagrafen en één gemengde paragraaf. Het hoofdstuk telt 50 pagina’s inclusief opener en afsluiting. Antwoorden staan apart. De aangeleverde v2-outline bepaalt de volgorde en begrenzing; de oudere repository-indeling is niet als inhoudelijke basis gebruikt.</p>
+<h3>Wat is nieuw en wat wordt opnieuw gebruikt?</h3>
+<p>Nieuw zijn de arbeidsmarktrollen, arbeidsproductiviteit, participatie, werkloosheidsbegrippen en institutionele betekenis van een cao. Bekende verhoudingen, percentages, evenwicht en minimumprijzen worden in deze context opnieuw gebruikt. De vertaling naar andere actoren en eenheden wordt expliciet uitgelegd, niet als vanzelfsprekende voorkennis behandeld.</p>
+<table><thead><tr><th>Paragraaf</th><th>Leerlingpagina’s</th><th>Kern</th></tr></thead><tbody><tr><td>4.3.1</td><td>2–11</td><td>Productie → arbeidsinzet → loonkosten per product; beweging/verschuiving.</td></tr><tr><td>4.3.2</td><td>12–19</td><td>Groepen → participatie; compact evenwicht in apart sectormodel.</td></tr><tr><td>4.3.3</td><td>20–28</td><td>Werkloosheid, vacatures, oorzaken; nieuw evenwicht en vast loon.</td></tr><tr><td>4.3.4</td><td>29–36</td><td>Loonvloer → betaald werk → loonsom → verschillende groepen.</td></tr><tr><td>4.3.5</td><td>37–43</td><td>Cao en beleid; kostenvergelijking met voorwaarden.</td></tr><tr><td>4.3.6</td><td>44–48</td><td>Zelfstandig selecteren en combineren.</td></tr><tr><td>Overzicht</td><td>49–50</td><td>Formules, eenheden en begrippen.</td></tr></tbody></table>
+<h3>De zes nieuwe doeloefeningen</h3>
+<p>De outlines bevatten doelbeschrijvingen, geen kant-en-klare leerlingopgaven. Daarom zijn de zes doeloefeningen nieuw geschreven vanuit die beschrijvingen. Ze zijn geen overgenomen CvTE-opgaven en hebben geen verkregen officiële examengoedkeuring. De punten zijn een bruikbare docentindicatie, geen geijkte toetsnorm.</p>
+<p>De oude losse evenwichtsparagraaf is niet teruggezet. Evenwicht wordt zelfstandig berekend in 15/16, opnieuw gebruikt na een verschuiving in 24/25, toegepast bij loonvloeren en geïntegreerd in 48/49. Er is geen zevende verplichte inhaalparagraaf toegevoegd.</p>
+</section>
+<section class="page teacher" data-designed-page="2"><h1>Lesplanning: zes kernroutes</h1>
+<p>De onderstaande minuten zijn ontwerpinschattingen, geen gemeten leerlingtijden. Ze tellen uitleg en voorbeeld mee. Alle kernopgaven zijn concreet genoemd. Een leerling hoeft niet alle gedrukte onderdelen in één les af te werken.</p>
+<table><thead><tr><th>§</th><th>Motivatie</th><th>Uitleg</th><th>Voorbeeld</th><th>Overgang</th><th>Start</th><th>Zelfstandig</th><th>Doel</th><th>Totaal</th></tr></thead><tbody><tr><td>4.3.1</td><td>2</td><td>10</td><td>7</td><td>2</td><td>6</td><td>14</td><td>12</td><td>53</td></tr><tr><td>4.3.2</td><td>2</td><td>11</td><td>7</td><td>2</td><td>6</td><td>12</td><td>12</td><td>52</td></tr><tr><td>4.3.3</td><td>2</td><td>12</td><td>8</td><td>2</td><td>6</td><td>12</td><td>13</td><td>55</td></tr><tr><td>4.3.4</td><td>2</td><td>12</td><td>7</td><td>2</td><td>6</td><td>12</td><td>12</td><td>53</td></tr><tr><td>4.3.5</td><td>2</td><td>11</td><td>7</td><td>2</td><td>6</td><td>11</td><td>12</td><td>51</td></tr></tbody></table>
+<table><thead><tr><th>§</th><th>Startopgaven</th><th>Zelfstandige oefening</th><th>Doeloefening</th><th>Optionele ondersteuning</th></tr></thead><tbody><tr><td>4.3.1</td><td>1–2</td><td>5–6</td><td>7</td><td>3–4</td></tr><tr><td>4.3.2</td><td>10–11</td><td>14–15</td><td>16</td><td>12–13</td></tr><tr><td>4.3.3</td><td>19–20</td><td>23–24</td><td>25</td><td>21–22</td></tr><tr><td>4.3.4</td><td>28–29</td><td>32–33</td><td>34</td><td>30–31</td></tr><tr><td>4.3.5</td><td>37–38</td><td>41–42</td><td>43</td><td>39–40</td></tr></tbody></table>
+<h3>Gemengde les §4.3.6</h3>
+<p>Een complete route: 7 minuten kort ophalen en opdrachtoriëntatie + 20 minuten voor 46–48 + 22 minuten voor 49 + 6 minuten nabespreken = <strong>55 minuten</strong>. Opgave 50 is bonus, buiten deze route. Opgave 49 bevat zes deelvragen, maar meerdere korte rekenstappen; reserveer de aangegeven tijd daadwerkelijk.</p>
+<h3>Ondersteuning zonder een tweede einddoel</h3>
+<p>Begeleide inoefening is een omweg van circa 8–15 minuten naar dezelfde doelopgave. Gebruik deze bij een zichtbare blokkade. Tel haar niet bovenop een volle kernles en noem dat toch 55 minuten. Laat eerst met begeleiding oefenen en verdeel zo nodig de resterende zelfstandige oefening of doelopgave over een volgend werkmoment.</p>
+<p>Een eerste klasgebruik kan daarom uitlopen tot ongeveer 6–8 lessen. Dat is extra tijd binnen bestaande paragrafen, geen verborgen zevende theorieparagraaf. Vooral de noemerwisseling in §4.3.2–3 en de groepentelling bij §4.3.4 verdienen zo nodig meer tijd.</p>
+<p>De voorafgaande rekenopgave uit Startopgaven mag als lesopening worden gegeven. De gedrukte volgorde blijft theorie → uitgewerkt voorbeeld → start → ondersteuning → zelfstandig → doel → bonus → herhaling.</p>
+</section>
+<section class="page teacher" data-designed-page="3"><h1>Van doel naar voorbereiding</h1>
+<p>In de tabellen staat per vereiste handeling waar deze wordt onderwezen en zelfstandig geoefend. Een voltooide opgave bewijst nog geen duurzame beheersing; de tabel controleert de aangeboden leerkansen.</p>
+<h3>§4.3.1 · Productiviteit en arbeidsvraag</h3>
+<table><thead><tr><th>Handeling in doelopgave 7</th><th>Expliciete uitleg / voorbeeld</th><th>Ondersteuning en start</th><th>Zelfstandig</th></tr></thead><tbody><tr><td>Productiviteit en benodigde uren</td><td>p. 3–4; voorbeeld stap 1–2, p. 6</td><td>1; tabel 4a</td><td>5a–b</td></tr><tr><td>Loonkosten per product</td><td>p. 4; voorbeeld stap 3</td><td>4a–b</td><td>5b</td></tr><tr><td>Productiviteit ≠ automatisch minder uren</td><td>drie scenario’s, p. 4; voorbeeld stap 2</td><td>4a</td><td>5b; 6c</td></tr><tr><td>Beweging langs versus verschuiving van vraag</td><td>actorbrug p. 2; twee oorzaken p. 5; voorbeeld stap 4</td><td>2; gemarkeerde figuur bij 3</td><td>6a–d</td></tr></tbody></table>
+<p>Opgave 6 combineert een loonverandering met extra orders. De leerling moet beide afzonderlijk behandelen en een verleidelijke fout afwijzen. Bij de orderverandering is de omvang niet gegeven: geen ongefundeerd numeriek netto-effect laten verzinnen. Fte is een eenhedenbrug; er wordt geen hele arbeidsvolume-statistiekles van gemaakt.</p>
+<h3>§4.3.2 · Participatie en compact evenwicht</h3>
+<table><thead><tr><th>Handeling in doelopgave 16</th><th>Expliciete uitleg / voorbeeld</th><th>Ondersteuning en start</th><th>Zelfstandig</th></tr></thead><tbody><tr><td>Beroepsbevolking en juiste noemer</td><td>bevolkingsschema p. 12; percentages p. 13; voorbeeld stap 1–2</td><td>10–11; 12</td><td>14</td></tr><tr><td>Evenwichtsloon en hoeveelheid</td><td>vertalingstabel + vergelijking p. 14; voorbeeld stap 3</td><td>13</td><td>15</td></tr><tr><td>Markeren in gegeven grafiek</td><td>volledig gemarkeerde theorie- en voorbeeldgrafiek</td><td>voorbeeld lezen; vergelijking bij 13</td><td>15 met basisgrafiek</td></tr><tr><td>Werkgevers/huishoudens; data versus model</td><td>p. 12–15; apart benoemde regio en sector</td><td>11; 13b</td><td>14 en 15 gescheiden bronnen</td></tr></tbody></table>
+<p>De zelfstandige grafiek staat bij opgave 15, de targetgrafiek bij 16. Studenten hoeven geen nieuwe grafiekfamilie uit het niets te construeren. Het aanbod is in het model een functie van het loon; het getelde arbeidsaanbod in een statistiek is geen aanbodcurve.</p>
+</section>
+<section class="page teacher" data-designed-page="4"><h1>Werkloosheid en loonvloeren</h1>
+<h3>§4.3.3 · Een cijfer is niet automatisch een modeluitkomst</h3>
+<table><thead><tr><th>Handeling in doelopgave 25</th><th>Uitleg / voorbeeld</th><th>Ondersteuning en start</th><th>Zelfstandig</th></tr></thead><tbody><tr><td>Werkloosheid / beroepsbevolking</td><td>p. 20; voorbeeld stap 1</td><td>19–20a; 21</td><td>23</td></tr><tr><td>Vacatures niet aftrekken</td><td>overlappende balken p. 20; voorbeeld stap 1</td><td>21a–b</td><td>in doel 25a zelfstandig</td></tr><tr><td>Oorzaak benoemen</td><td>p. 21; voorbeeld stap 2</td><td>20b frictie; 22 conjunctuur</td><td>23 structuur</td></tr><tr><td>Nieuw evenwicht bij verschoven vraag</td><td>p. 22; voorbeeld stap 3</td><td>22b</td><td>24a</td></tr><tr><td>Vast loon en aanbodoverschot</td><td>p. 23; voorbeeld stap 4</td><td>22 (richting)</td><td>24b</td></tr><tr><td>Grafiek markeren en model begrenzen</td><td>twee gecontroleerde grafieken p. 22–23</td><td>gegeven lijnen behouden</td><td>24 en doel 25</td></tr></tbody></table>
+<p>De drie oorzaken krijgen elk oefening, maar de doelbron onderzoekt specifiek een conjuncturele verandering. Dat ene doelantwoord pretendeert niet alle oorzaken gelijktijdig te toetsen. De regionale telling en het sector-model blijven expliciet gescheiden.</p>
+<h3>§4.3.4 · Het bekende minimumprijsmodel opnieuw noodzakelijk</h3>
+<table><thead><tr><th>Handeling in doelopgave 34</th><th>Uitleg / voorbeeld</th><th>Ondersteuning en start</th><th>Zelfstandig</th></tr></thead><tbody><tr><td>Evenwicht en bindendheid</td><td>p. 29–30; voorbeeld stap 1</td><td>28; 31a</td><td>32–33</td></tr><tr><td>Vraag, aanbod en werkelijk betaald werk</td><td>p. 30; voorbeeld stap 2</td><td>gemarkeerde figuur bij 30; 31</td><td>32</td></tr><tr><td>Loonsom met juiste urenfactor</td><td>p. 31; voorbeeld stap 3</td><td>29; 31b</td><td>32</td></tr><tr><td>Twee groepen in het aanbodoverschot</td><td>p. 30; voorbeeld stap 4</td><td>30a–b</td><td>doel 34d</td></tr><tr><td>Model versus algemene beleidsclaim</td><td>p. 31; expliciete bronvoorwaarden</td><td>30b; 31</td><td>32 tegenover 33 en doel 34</td></tr></tbody></table>
+<p>De loonsom daalt in het voorbeeld en stijgt in opgave 32. Dat contrast voorkomt een aangeleerde vaste regel. Het overschot is een aantal personen; het wordt niet als een surplusoppervlakte voorgesteld. Bij een minimum precies op het vrije evenwichtsloon verandert de vrije uitkomst evenmin.</p>
+</section>
+<section class="page teacher" data-designed-page="5"><h1>Beleid en geïntegreerde toepassing</h1>
+<h3>§4.3.5 · Rekenen ondersteunt een oordeel</h3>
+<table><thead><tr><th>Handeling in doelopgave 43</th><th>Uitleg / voorbeeld</th><th>Ondersteuning en start</th><th>Zelfstandig</th></tr></thead><tbody><tr><td>Cao-partijen en arbeidsvoorwaarden</td><td>p. 37; voorbeeld stap 1</td><td>38</td><td>43a</td></tr><tr><td>Kosten per product en procentuele verandering</td><td>p. 38; voorbeeld stap 2</td><td>37; 39</td><td>41 (indexroute)</td></tr><tr><td>Extra scholingskosten en criterium</td><td>p. 38; voorbeeld stap 3–4</td><td>40</td><td>43c</td></tr><tr><td>Werkgelegenheidsclaim met voorwaarden</td><td>p. 38–39; voorbeeld slot</td><td>40b</td><td>42; toepassing in 43d</td></tr></tbody></table>
+<p>De twee kostengrootheden zijn steeds op dezelfde producteenheid gebaseerd. In 40 kost scholing meer dan zij op arbeid bespaart; in het voorbeeld en doelgeval voldoet het plan onder voorwaarden wel. De bron bepaalt het criterium. Voor een ander criterium is een ander argument nodig.</p>
+<h3>§4.3.6 · Wat wordt zelfstandig teruggehaald?</h3>
+<table><thead><tr><th>Gemengde handeling</th><th>Bewijsplaats</th><th>Voorbereiding eerder in het hoofdstuk</th></tr></thead><tbody><tr><td>Eenheden en tellen</td><td>46a–b</td><td>4.3.1–2 en 4.3.3</td></tr><tr><td>Productiviteit en kosten versus winst</td><td>47</td><td>4.3.1; 4.3.5; winst uit Boek 2</td></tr><tr><td>Evenwicht plus loonvloer</td><td>48</td><td>4.3.2 en 4.3.4</td></tr><tr><td>Participatie en werkloosheid</td><td>49a</td><td>4.3.2–3</td></tr><tr><td>Zelfstandig oud én nieuw evenwicht</td><td>49b–c</td><td>4.3.2–3</td></tr><tr><td>Oorzaak van verschuiving versus loonreactie</td><td>49d</td><td>4.3.1 en 4.3.3</td></tr><tr><td>Kostenvergelijking en begrensde banengarantie</td><td>49e–f</td><td>4.3.1 en 4.3.5</td></tr></tbody></table>
+<p>De hoofdcase forceert niet ieder arbeidsmarktonderwerp in één grote eindopgave. Minimumloon wordt in de nabije gemengde oefening 48 teruggehaald. De bronopbouw in 49 maakt de regio/sectorgrens zichtbaar en behoudt daarmee het onafhankelijke evenwichtsbewijs uit de outline.</p>
+<p>Bonus 50 vraagt twee mogelijke verklaringen voor hetzelfde krantenbericht. Het is modelkritiek, geen extra reeks berekeningen. Ook plausibele alternatieven zijn goed als zij intern kloppen en niet meer zekerheid claimen dan het bericht geeft.</p>
+</section>
+<section class="page teacher" data-designed-page="6"><h1>Punten om tijdens de les te bewaken</h1>
+<h3>Actoren, werk en grootheden</h3>
+<p>“Een baan aanbieden” is alledaags taalgebruik. Op de arbeidsmarkt is de werkgever de vrager van arbeid. Laat leerlingen hun object noemen: arbeid of banen. Vermijd het verwarrende “de werknemer vraagt dus arbeid”.</p>
+<p>Productiviteit per uur en per persoon zijn niet zonder meer vergelijkbaar. De standaardvoltijdweek van 40 uur geldt alleen waar de opgave dat zegt. Andere sectoren kunnen een andere voltijdmaat hebben. Bij loonsommen is de urenfactor expliciet; bij bevolkingspercentages tellen personen, geen fte.</p>
+<h3>Definitie van werkloosheid</h3>
+<p>De bevolkingsbronnen gebruiken de CBS-indeling met werkenden, werklozen en niet-beroepsbevolking. Werkloos vereist geen betaald werk, recent zoeken én directe beschikbaarheid. Een scholier met betaald werk telt als werkzaam. Iemand die niet zoekt of niet beschikbaar is telt niet vanzelf als werkloos.</p>
+<p>In de gebruikte regio-opgaven betekent vraag = werkgelegenheid + vacatures, onder de expliciete één-baan-per-persoonaanname. Dan is aanbod − vraag = werklozen − vacatures. De niet-vervulde plaatsen mogen niet uit het aantal werklozen worden weggerekend.</p>
+<h3>Welk model geldt?</h3>
+<p>De loonmodellen zijn concurrentiemodellen met vergelijkbare arbeid. Bij vrije loonaanpassing en perfecte aansluiting kan het model zonder aanbodoverschot eindigen, terwijl de werkgelegenheid lager is. Dat is niet hetzelfde als “er kan in de echte economie geen werkloosheid zijn”.</p>
+<p>Bij de loonvloer worden gevraagde banen vervuld; niet-geplaatste aanbieders willen werken, zoeken en zijn beschikbaar. Pas onder die voorwaarden is het modeloverschot als modelwerkloosheid te lezen. Er wordt geen universeel empirisch minimumlooneffect gepresenteerd. Monopsonie en marginale-opbrengstproductoptimalisatie zijn geen leerdoelen van deze paragraaf.</p>
+<h3>Productiviteit en beleid</h3>
+<p>De nieuwe machine in een voorbeeld krijgt geen universeel werkgelegenheidseffect. Er kunnen minder uren per product nodig zijn en tegelijk meer totale uren door extra productie. Lagere loonkosten per product bewijzen geen hogere winst als opbrengsten, kapitaalkosten of andere kosten ontbreken.</p>
+<p>Bij de cao wordt niets beweerd over actuele algemeenverbindendverklaring, ontslagrecht, contractduur of specifieke wettelijke bedragen. Flexwerk en zzp zijn beschrijvingen van arbeidsrelaties, geen automatisch gunstige of ongunstige uitkomsten.</p>
+</section>
+<section class="page teacher" data-designed-page="7"><h1>Bronverantwoording</h1>
+<h3>Aangeleverde ontwerpspecificaties</h3>
+<p><strong>Book 4 outline proposal v2</strong>, 6 september 2026, bestand book-4-outline-v2(6).md. Bepaalt de zes paragraaftitels, doelbeschrijvingen, actor-/eenhedenbrug, verdeling van evenwicht, en grenzen aan minimumloon- en beleidsanalyse. Kopie aanwezig in sources/book-4-outline-v2.md.</p>
+<p><strong>Book 3 outline proposal v2</strong>, dezelfde versie en datum, bestand book-3-outline-v2(6).md. Bepaalt de terugblik op minimumprijzen en kwalitatieve concurrentiepositie. De formele productiviteitsberekening wordt pas hier onderwezen. Kopie aanwezig in sources/book-3-outline-v2.md.</p>
+<h3>Live repositoryrichtlijnen gelezen op 8 september 2026</h3>
+<p>Beide RESEARCH_AGENT_MAP.md-bestanden zijn via de GitHub-connector gelezen. Voor dit hoofdstuk gebruikt: skills/econ-exercise-builder.md (blob 5504c8e8a325864978c76867b15b857c118df19d), skills/econ-textbook-paragraph.md, skills/econ-didactiek.md en skills/economic-graph.md in meijer1973/4veco-platform.</p>
+<p>Die documenten leveren ontwerp- en vormgevingsregels, niet de fictieve arbeidsmarktcijfers. De aangeleverde nieuwe outline vervangt voor deze productie de oudere repositoryvolgorde. De live repositories zijn niet gewijzigd; er wordt geen formele repositorygoedkeuring of volledige syllabusdekking geclaimd.</p>
+<h3>Externe begripscontrole, geen externe casusdata</h3>
+<p><strong>CBS — Arbeidsdeelname; kerncijfers</strong> (85264NED): definities van werkzame/werkloze beroepsbevolking, niet-beroepsbevolking, bruto-/netto-participatie en werkloosheidspercentage. Geraadpleegd 8 september 2026. De gebruikte kernbegrippen zijn in eigen bewoordingen verwerkt; er zijn geen actuele Nederlandse aantallen uit de tabel overgenomen.</p>
+<p><strong>CBS — Arbeidsproductiviteit</strong> en <strong>Arbeidsvolume</strong>: de keuze van gewerkte uren als arbeidsinzet en het omrekenen van deeltijd naar voltijdequivalenten. Ons model gebruikt aantallen gelijksoortige producten, niet de macro-economische toegevoegde-waardemaatstaf van het CBS.</p>
+<p><strong>Rijksoverheid — Wat is een cao?</strong>: institutionele beschrijving van collectieve arbeidsvoorwaarden en partijen. Geraadpleegd 8 september 2026. Er worden geen actuele cao-afspraken of juridische uitzonderingen als casusfeiten gebruikt.</p>
+<p>De volledige URL’s en herkomstgegevens staan in sources/source-register.json. Alle ondernemingen, regio’s, loonbedragen en beleidsplannen in de leerlingopgaven zijn afzonderlijk ontworpen lesmodellen.</p>
+</section>
+<section class="page teacher" data-designed-page="8"><h1>Kwaliteitscontrole en bestanden</h1>
+<h3>Controleerbare kernuitkomsten</h3>
+<table><thead><tr><th>Doeloefening</th><th>Rekencontrole</th></tr></thead><tbody><tr><td>7 · FrameWerk</td><td>Oude productiviteit 4 frames/uur; nieuwe inzet 600 uur; kosten € 6 → € 4,80 per frame.</td></tr><tr><td>16 · Waterstad</td><td>Bruto 70%; netto 60%; apart sector-evenwicht € 14 en 100 personen.</td></tr><tr><td>25 · Rivierenregio</td><td>Werkloosheid 10%; nieuw sectorevenwicht € 13 en 66; overschot 36 bij vast loon € 16.</td></tr><tr><td>34 · Sorteercentra</td><td>Evenwicht € 12 en 100; minimum € 14 geeft 80 werkenden en 120 aanbieders; loonsom € 30.000 → € 28.000.</td></tr><tr><td>43 · Cao</td><td>Loonkosten € 6 → € 5,72727… per deel; met scholing € 5,92727…; daling loonkosten 4,55%.</td></tr><tr><td>49 · Havenregio</td><td>Bruto 70%; werkloosheid 10%; evenwicht € 14/100 → € 16/120; kosten € 3 → € 2,863636… per product.</td></tr></tbody></table>
+<h3>Welke controles zijn uitgevoerd?</h3>
+<p>Het bronpakket bevat een uitvoerbaar script dat rekenuitkomsten opnieuw berekent, alle vragen aan antwoorden koppelt, bronbestanden controleert en de SVG-lijnen vergelijkt met de functies. Daarnaast controleert het de 50-paginagrens, PDF-tekst, paginaverwijzingen, grafiekbestanden en onverwachte afbrekingen in de geplande leerlingpagina’s. Het actuele resultaat staat in QA/validation_report.json.</p>
+<p>De pagina’s zijn als afbeeldingen beoordeeld. De controle is lokaal, geen GitHub-CI-uitspraak en geen onafhankelijke toets door een tweede docent. De hoofdstukken bevatten ontworpen oefenroutes; leerwinst en lesduur zijn niet in een klas gemeten.</p>
+<h3>Print en digitale navigatie</h3>
+<p>A4, werkelijke grootte, dubbelzijdig over de lange zijde. De bronnen en vragen van de gemengde doeloefening staan op tegenoverliggende pagina’s <strong>46–47</strong>. De inhoudsopgave is klikbaar; bookmarks geven toegang tot de zes paragrafen. De antwoordmodellen blijven een apart bestand.</p>
+<h3>Aanpassen en opnieuw bouwen</h3>
+<p>Bewerk de Markdown-manuscripten voor tekstwijzigingen en gebruik build.py voor PDF-export. De author_43*.py-bestanden kunnen de oorspronkelijke manuscripten opnieuw genereren; dat overschrijft latere handmatige tekstwijzigingen. Figuren worden reproduceerbaar gemaakt met make_assets.py. Fontbestanden zijn niet meegeleverd; gebruik lokaal Lato en DejaVu Sans of pas de CSS bewust aan.</p>
+<p>Na een wijziging opnieuw renderen en controleren: een goed rekenantwoord is geen bewijs dat een label in de grafiek goed geplaatst is. In de bronmap staat ook de complete vraag-antwoordregistratie voor verdere productie.</p>
+</section></body></html>

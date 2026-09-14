@@ -1,0 +1,50 @@
+{
+  "access": "GitHub connector, 8 September 2026",
+  "fetch_failures": [],
+  "files": [
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "91778371a11cbe9839a4822c3989e90e7317850a",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repository": "meijer1973/4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5",
+      "url": "https://github.com/meijer1973/4veco-lessen/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-book-builder.md",
+      "blob_sha": "5e35395cf5ad68b988af7adebc99db42e8c4756f",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-book-builder.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-chapter-assembler.md",
+      "blob_sha": "7dc6aff0862d5b95979070c9dc0781a1df2ae9e2",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-chapter-assembler.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-pdf-builder.md",
+      "blob_sha": "81c7a8700c934d9eff3292dbb881372064c46562",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-pdf-builder.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "references/authored/economie-terminologie.md",
+      "blob_sha": "907ee2e9ccdaa0ebff7c9d5167ffe4fa952d82de",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/references/authored/economie-terminologie.md"
+    }
+  ],
+  "priority": "Previously delivered chapter content and latest selected cover. The more recent user-provided outlines supersede older repository outlines. No existing chapter teaching content is rebuilt.",
+  "adaptations": [
+    "Preserve PDF pages instead of reflowing Markdown so that facing-page tasks and layouts remain unchanged.",
+    "Retain guided practice inside the supplied print chapters; an older chapter-assembler exclusion does not override supplied content.",
+    "Separate paper answer booklet retained; no device or website dependency introduced.",
+    "No unsupported publisher, license, school or contact information inserted.",
+    "Glossary definitions are extracted from chapter glossaries, not replaced by terminology-reference paraphrases."
+  ]
+}

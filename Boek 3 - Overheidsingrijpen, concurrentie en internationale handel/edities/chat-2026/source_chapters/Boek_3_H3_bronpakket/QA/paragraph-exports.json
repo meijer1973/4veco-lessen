@@ -1,0 +1,66 @@
+[
+  {
+    "paragraph": "3.3.1",
+    "student_chapter_pages": [
+      2,
+      10
+    ],
+    "exercise_pages": [
+      5,
+      10
+    ],
+    "answer_book_pages": [
+      1,
+      4
+    ],
+    "folder": "paragrafen/3.3.1 Waarom landen handelen"
+  },
+  {
+    "paragraph": "3.3.2",
+    "student_chapter_pages": [
+      11,
+      20
+    ],
+    "exercise_pages": [
+      15,
+      20
+    ],
+    "answer_book_pages": [
+      5,
+      8
+    ],
+    "folder": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart"
+  },
+  {
+    "paragraph": "3.3.3",
+    "student_chapter_pages": [
+      21,
+      30
+    ],
+    "exercise_pages": [
+      25,
+      30
+    ],
+    "answer_book_pages": [
+      9,
+      13
+    ],
+    "folder": "paragrafen/3.3.3 Protectionisme"
+  },
+  {
+    "paragraph": "3.3.4",
+    "student_chapter_pages": [
+      31,
+      37
+    ],
+    "exercise_pages": [
+      31,
+      37
+    ],
+    "answer_book_pages": [
+      14,
+      17
+    ],
+    "folder": "paragrafen/3.3.4 Gemengde opgaven internationale handel"
+  }
+]

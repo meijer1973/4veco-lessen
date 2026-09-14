@@ -1,0 +1,404 @@
+{
+  "book": {
+    "nr": 3,
+    "title": "Overheidsingrijpen, volkomen concurrentie en internationale handel",
+    "edition": "Herziene samengestelde editie 2026",
+    "year": 2026,
+    "audience": "4 vwo",
+    "series": "4veco"
+  },
+  "chapters": [
+    {
+      "id": "3.1",
+      "nr": 1,
+      "title": "Overheidsingrijpen",
+      "student": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+      "answers": "inputs/Boek_3_H1_Antwoorden.pdf",
+      "teacher": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+      "pages": 48,
+      "paragraphs": [
+        {
+          "title": "3.1.1 · Belastingen: wig en nieuw evenwicht",
+          "local_page": 2,
+          "section": "3.1.1",
+          "first_exercise": 1,
+          "last_exercise": 9,
+          "answer_local_page": 2
+        },
+        {
+          "title": "3.1.2 · Belastingdruk en welvaartsverlies",
+          "local_page": 10,
+          "section": "3.1.2",
+          "first_exercise": 10,
+          "last_exercise": 18,
+          "answer_local_page": 7
+        },
+        {
+          "title": "3.1.3 · Subsidies",
+          "local_page": 19,
+          "section": "3.1.3",
+          "first_exercise": 19,
+          "last_exercise": 27,
+          "answer_local_page": 11
+        },
+        {
+          "title": "3.1.4 · Maximumprijs",
+          "local_page": 28,
+          "section": "3.1.4",
+          "first_exercise": 28,
+          "last_exercise": 36,
+          "answer_local_page": 17
+        },
+        {
+          "title": "3.1.5 · Minimumprijs en quota",
+          "local_page": 35,
+          "section": "3.1.5",
+          "first_exercise": 37,
+          "last_exercise": 45,
+          "answer_local_page": 22
+        },
+        {
+          "title": "3.1.6 · Gemengde opgaven",
+          "local_page": 44,
+          "section": "3.1.6",
+          "first_exercise": 46,
+          "last_exercise": 48,
+          "answer_local_page": 28
+        }
+      ],
+      "intro_entries": [
+        {
+          "title": "3.1.1 · Belastingen: wig en nieuw evenwicht",
+          "local_page": 2,
+          "section": "3.1.1"
+        },
+        {
+          "title": "3.1.2 · Belastingdruk en welvaartsverlies",
+          "local_page": 10,
+          "section": "3.1.2"
+        },
+        {
+          "title": "3.1.3 · Subsidies",
+          "local_page": 19,
+          "section": "3.1.3"
+        },
+        {
+          "title": "3.1.4 · Maximumprijs",
+          "local_page": 28,
+          "section": "3.1.4"
+        },
+        {
+          "title": "3.1.5 · Minimumprijs en quota",
+          "local_page": 35,
+          "section": "3.1.5"
+        },
+        {
+          "title": "3.1.6 · Gemengde opgaven",
+          "local_page": 44,
+          "section": "3.1.6"
+        },
+        {
+          "title": "Hoofdstukoverzicht",
+          "local_page": 48,
+          "section": null
+        }
+      ],
+      "answer_exercises": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 4,
+        "7": 5,
+        "8": 6,
+        "9": 6,
+        "10": 7,
+        "11": 7,
+        "12": 7,
+        "13": 7,
+        "14": 8,
+        "15": 8,
+        "16": 9,
+        "17": 10,
+        "18": 10,
+        "19": 11,
+        "20": 11,
+        "21": 11,
+        "22": 12,
+        "22A": 13,
+        "23": 14,
+        "24": 14,
+        "25": 15,
+        "26": 16,
+        "27": 16,
+        "28": 17,
+        "29": 17,
+        "30": 17,
+        "31": 18,
+        "32": 19,
+        "33": 19,
+        "34": 20,
+        "35": 21,
+        "36": 21,
+        "37": 22,
+        "38": 22,
+        "39": 22,
+        "40": 23,
+        "40A": 24,
+        "41": 25,
+        "42": 25,
+        "43": 26,
+        "44": 27,
+        "45": 27,
+        "46": 28,
+        "47": 28,
+        "47A": 29,
+        "48": 30
+      },
+      "source_folder": "Boek_3_H1_Herzien_bronpakket",
+      "student_page_limit": 50
+    },
+    {
+      "id": "3.2",
+      "nr": 2,
+      "title": "Volkomen concurrentie",
+      "student": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+      "answers": "inputs/Boek_3_H2_Antwoorden.pdf",
+      "teacher": "inputs/Boek_3_H2_Docenteninformatie.pdf",
+      "pages": 38,
+      "paragraphs": [
+        {
+          "title": "3.2.1 · Volkomen concurrentie: kenmerken",
+          "local_page": 2,
+          "section": "3.2.1",
+          "first_exercise": 1,
+          "last_exercise": 10,
+          "answer_local_page": 1
+        },
+        {
+          "title": "3.2.2 · Winstmaximalisatie",
+          "local_page": 10,
+          "section": "3.2.2",
+          "first_exercise": 11,
+          "last_exercise": 21,
+          "answer_local_page": 6
+        },
+        {
+          "title": "3.2.3 · Langetermijnevenwicht",
+          "local_page": 22,
+          "section": "3.2.3",
+          "first_exercise": 22,
+          "last_exercise": 31,
+          "answer_local_page": 14
+        },
+        {
+          "title": "3.2.4 · Gemengde opgaven",
+          "local_page": 31,
+          "section": "3.2.4",
+          "first_exercise": 32,
+          "last_exercise": 38,
+          "answer_local_page": 19
+        }
+      ],
+      "intro_entries": [
+        {
+          "title": "3.2.1 · Volkomen concurrentie: kenmerken",
+          "local_page": 2,
+          "section": "3.2.1"
+        },
+        {
+          "title": "3.2.2 · Winstmaximalisatie",
+          "local_page": 10,
+          "section": "3.2.2"
+        },
+        {
+          "title": "3.2.3 · Langetermijnevenwicht",
+          "local_page": 22,
+          "section": "3.2.3"
+        },
+        {
+          "title": "3.2.4 · Gemengde opgaven",
+          "local_page": 31,
+          "section": "3.2.4"
+        },
+        {
+          "title": "Overzicht en begrippen",
+          "local_page": 37,
+          "section": null
+        }
+      ],
+      "answer_exercises": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 9,
+        "17": 10,
+        "18": 11,
+        "19": 12,
+        "20": 13,
+        "21": 13,
+        "22": 14,
+        "23": 14,
+        "24": 14,
+        "25": 15,
+        "26": 16,
+        "27": 16,
+        "28": 17,
+        "29": 18,
+        "30": 18,
+        "31": 18,
+        "32": 19,
+        "33": 19,
+        "34": 20,
+        "35": 20,
+        "36": 21,
+        "37": 23,
+        "38": 23
+      },
+      "source_folder": "Boek_3_H2_bronpakket"
+    },
+    {
+      "id": "3.3",
+      "nr": 3,
+      "title": "Internationale handel",
+      "student": "inputs/Boek_3_H3_Internationale_handel.pdf",
+      "answers": "inputs/Boek_3_H3_Antwoorden.pdf",
+      "teacher": "inputs/Boek_3_H3_Docenteninformatie.pdf",
+      "pages": 38,
+      "paragraphs": [
+        {
+          "title": "3.3.1 · Waarom landen handelen",
+          "local_page": 2,
+          "section": "3.3.1",
+          "first_exercise": 1,
+          "last_exercise": 10,
+          "answer_local_page": 1
+        },
+        {
+          "title": "3.3.2 · Wereldmarktprijs, import, export en welvaart",
+          "local_page": 11,
+          "section": "3.3.2",
+          "first_exercise": 11,
+          "last_exercise": 20,
+          "answer_local_page": 5
+        },
+        {
+          "title": "3.3.3 · Protectionisme: invoerheffingen en importquota",
+          "local_page": 21,
+          "section": "3.3.3",
+          "first_exercise": 21,
+          "last_exercise": 30,
+          "answer_local_page": 9
+        },
+        {
+          "title": "3.3.4 · Gemengde opgaven: internationale handel",
+          "local_page": 31,
+          "section": "3.3.4",
+          "first_exercise": 31,
+          "last_exercise": 38,
+          "answer_local_page": 14
+        }
+      ],
+      "intro_entries": [
+        {
+          "title": "3.3.1 · Waarom landen handelen",
+          "local_page": 2,
+          "section": "3.3.1"
+        },
+        {
+          "title": "3.3.2 · Wereldmarktprijs, import, export en welvaart",
+          "local_page": 11,
+          "section": "3.3.2"
+        },
+        {
+          "title": "3.3.3 · Protectionisme: invoerheffingen en importquota",
+          "local_page": 21,
+          "section": "3.3.3"
+        },
+        {
+          "title": "3.3.4 · Gemengde opgaven: internationale handel",
+          "local_page": 31,
+          "section": "3.3.4"
+        },
+        {
+          "title": "Hoofdstukoverzicht en begrippen",
+          "local_page": 38,
+          "section": null
+        }
+      ],
+      "answer_exercises": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 3,
+        "8": 4,
+        "9": 4,
+        "10": 4,
+        "11": 5,
+        "12": 5,
+        "13": 5,
+        "14": 6,
+        "15": 6,
+        "16": 7,
+        "17": 7,
+        "18": 8,
+        "19": 8,
+        "20": 8,
+        "21": 9,
+        "22": 9,
+        "23": 9,
+        "24": 10,
+        "25": 11,
+        "26": 11,
+        "27": 12,
+        "28": 13,
+        "29": 13,
+        "30": 13,
+        "31": 14,
+        "32": 14,
+        "33": 14,
+        "34": 15,
+        "35": 16,
+        "36": 17,
+        "37": 17,
+        "38": 17
+      },
+      "source_folder": "Boek_3_H3_bronpakket"
+    }
+  ],
+  "front_pages": 4,
+  "cover": "_assets/omslag.png",
+  "chapter_source": "Previously delivered chapter PDFs from this conversation, not live repository lesson content",
+  "assembly_date": "2026-09-07",
+  "repository_guidance": [
+    {
+      "path": "skills/econ-book-builder.md",
+      "blob_sha": "5e35395cf5ad68b988af7adebc99db42e8c4756f"
+    },
+    {
+      "path": "skills/econ-chapter-assembler.md",
+      "blob_sha": "7dc6aff0862d5b95979070c9dc0781a1df2ae9e2"
+    },
+    {
+      "path": "skills/econ-pdf-builder.md",
+      "blob_sha": "81c7a8700c934d9eff3292dbb881372064c46562"
+    }
+  ],
+  "revision": "Chapter 3.1 reviewed and expanded from 40 to 48 pages; other chapter content unchanged."
+}

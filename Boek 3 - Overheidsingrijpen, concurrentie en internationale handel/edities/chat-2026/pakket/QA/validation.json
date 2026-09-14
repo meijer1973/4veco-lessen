@@ -1,0 +1,3655 @@
+{
+  "checks": 729,
+  "passed": 729,
+  "failed": 0,
+  "source_pages_render_compared": 219,
+  "comparison": "All source pages rendered at 90 dpi; No raster differences above 3/255 allowed outside recorded input/output edit boxes plus 1.8-point antialias margin. The three-level tolerance accounts for decimal/color rounding during PDF redaction, with unedited word text and positions separately checked to 0.025 pt. Semantic content review is outside this assembly test.",
+  "unexpected_differences": [],
+  "items": [
+    {
+      "check": "unchanged_input:inputs/Boek_3_H1_Antwoorden.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_3_H1_Docenteninformatie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_3_H2_Antwoorden.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_3_H2_Docenteninformatie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_3_H3_Antwoorden.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_3_H3_Docenteninformatie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_3_H3_Internationale_handel.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/book-3-outline-v2.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/book-4-outline-v2.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:_assets/omslag.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:page_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:all_source_pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:chapters_within_authorized_limits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:chapter_recto_starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:only_planned_blanks",
+      "pass": true,
+      "detail": "[136]"
+    },
+    {
+      "check": "student:page_dimensions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:all_internal_links_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:bookmarks_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:1",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:5",
+      "pass": true,
+      "detail": "255 / 255 untouched words"
+    },
+    {
+      "check": "student:page_number:5",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:2",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:6",
+      "pass": true,
+      "detail": "248 / 248 untouched words"
+    },
+    {
+      "check": "student:page_number:6",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:7",
+      "pass": true,
+      "detail": "273 / 273 untouched words"
+    },
+    {
+      "check": "student:page_number:7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:8",
+      "pass": true,
+      "detail": "282 / 282 untouched words"
+    },
+    {
+      "check": "student:page_number:8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:9",
+      "pass": true,
+      "detail": "309 / 309 untouched words"
+    },
+    {
+      "check": "student:page_number:9",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:10",
+      "pass": true,
+      "detail": "235 / 235 untouched words"
+    },
+    {
+      "check": "student:page_number:10",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "student:updated_reference:10:Gebruik de volledig uitgewerkt",
+      "pass": true,
+      "detail": "Gebruik de volledig uitgewerkte fruitbekermarkt in figuur 2 op pagina 7."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:11",
+      "pass": true,
+      "detail": "209 / 209 untouched words"
+    },
+    {
+      "check": "student:page_number:11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:12",
+      "pass": true,
+      "detail": "203 / 203 untouched words"
+    },
+    {
+      "check": "student:page_number:12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:13",
+      "pass": true,
+      "detail": "293 / 293 untouched words"
+    },
+    {
+      "check": "student:page_number:13",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:14",
+      "pass": true,
+      "detail": "279 / 279 untouched words"
+    },
+    {
+      "check": "student:page_number:14",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:15",
+      "pass": true,
+      "detail": "194 / 194 untouched words"
+    },
+    {
+      "check": "student:page_number:15",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:16",
+      "pass": true,
+      "detail": "311 / 311 untouched words"
+    },
+    {
+      "check": "student:page_number:16",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:17",
+      "pass": true,
+      "detail": "319 / 319 untouched words"
+    },
+    {
+      "check": "student:page_number:17",
+      "pass": true,
+      "detail": "17"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:18",
+      "pass": true,
+      "detail": "372 / 372 untouched words"
+    },
+    {
+      "check": "student:page_number:18",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:19",
+      "pass": true,
+      "detail": "254 / 254 untouched words"
+    },
+    {
+      "check": "student:page_number:19",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "student:updated_reference:19:Gebruik de volledig ingekleurd",
+      "pass": true,
+      "detail": "Gebruik de volledig ingekleurde fruitbekermarkt in figuur 1 op pagina 15."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:20",
+      "pass": true,
+      "detail": "221 / 221 untouched words"
+    },
+    {
+      "check": "student:page_number:20",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:21",
+      "pass": true,
+      "detail": "201 / 201 untouched words"
+    },
+    {
+      "check": "student:page_number:21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:22",
+      "pass": true,
+      "detail": "303 / 303 untouched words"
+    },
+    {
+      "check": "student:page_number:22",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:23",
+      "pass": true,
+      "detail": "250 / 250 untouched words"
+    },
+    {
+      "check": "student:page_number:23",
+      "pass": true,
+      "detail": "23"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:24",
+      "pass": true,
+      "detail": "284 / 284 untouched words"
+    },
+    {
+      "check": "student:page_number:24",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:25",
+      "pass": true,
+      "detail": "279 / 279 untouched words"
+    },
+    {
+      "check": "student:page_number:25",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:26",
+      "pass": true,
+      "detail": "364 / 364 untouched words"
+    },
+    {
+      "check": "student:page_number:26",
+      "pass": true,
+      "detail": "26"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:27",
+      "pass": true,
+      "detail": "237 / 237 untouched words"
+    },
+    {
+      "check": "student:page_number:27",
+      "pass": true,
+      "detail": "27"
+    },
+    {
+      "check": "student:updated_reference:27:Gebruik de workshopgrafiek op ",
+      "pass": true,
+      "detail": "Gebruik de workshopgrafiek op pagina 24. De vraag‐ en aanbodlijn zijn niet van betekenis"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:28",
+      "pass": true,
+      "detail": "328 / 328 untouched words"
+    },
+    {
+      "check": "student:page_number:28",
+      "pass": true,
+      "detail": "28"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:29",
+      "pass": true,
+      "detail": "199 / 199 untouched words"
+    },
+    {
+      "check": "student:page_number:29",
+      "pass": true,
+      "detail": "29"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:30",
+      "pass": true,
+      "detail": "204 / 204 untouched words"
+    },
+    {
+      "check": "student:page_number:30",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:31",
+      "pass": true,
+      "detail": "258 / 258 untouched words"
+    },
+    {
+      "check": "student:page_number:31",
+      "pass": true,
+      "detail": "31"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:28",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:32",
+      "pass": true,
+      "detail": "257 / 257 untouched words"
+    },
+    {
+      "check": "student:page_number:32",
+      "pass": true,
+      "detail": "32"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:29",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:33",
+      "pass": true,
+      "detail": "322 / 322 untouched words"
+    },
+    {
+      "check": "student:page_number:33",
+      "pass": true,
+      "detail": "33"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:30",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:34",
+      "pass": true,
+      "detail": "342 / 342 untouched words"
+    },
+    {
+      "check": "student:page_number:34",
+      "pass": true,
+      "detail": "34"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:31",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:35",
+      "pass": true,
+      "detail": "233 / 233 untouched words"
+    },
+    {
+      "check": "student:page_number:35",
+      "pass": true,
+      "detail": "35"
+    },
+    {
+      "check": "student:updated_reference:35:Gebruik de volledig gemarkeerd",
+      "pass": true,
+      "detail": "Gebruik de volledig gemarkeerde puzzelmarkt op pagina 32."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:32",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:36",
+      "pass": true,
+      "detail": "222 / 222 untouched words"
+    },
+    {
+      "check": "student:page_number:36",
+      "pass": true,
+      "detail": "36"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:33",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:37",
+      "pass": true,
+      "detail": "210 / 210 untouched words"
+    },
+    {
+      "check": "student:page_number:37",
+      "pass": true,
+      "detail": "37"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:34",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:38",
+      "pass": true,
+      "detail": "242 / 242 untouched words"
+    },
+    {
+      "check": "student:page_number:38",
+      "pass": true,
+      "detail": "38"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:35",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:39",
+      "pass": true,
+      "detail": "239 / 239 untouched words"
+    },
+    {
+      "check": "student:page_number:39",
+      "pass": true,
+      "detail": "39"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:36",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:40",
+      "pass": true,
+      "detail": "248 / 248 untouched words"
+    },
+    {
+      "check": "student:page_number:40",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:37",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:41",
+      "pass": true,
+      "detail": "291 / 291 untouched words"
+    },
+    {
+      "check": "student:page_number:41",
+      "pass": true,
+      "detail": "41"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:38",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:42",
+      "pass": true,
+      "detail": "330 / 330 untouched words"
+    },
+    {
+      "check": "student:page_number:42",
+      "pass": true,
+      "detail": "42"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:39",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:43",
+      "pass": true,
+      "detail": "241 / 241 untouched words"
+    },
+    {
+      "check": "student:page_number:43",
+      "pass": true,
+      "detail": "43"
+    },
+    {
+      "check": "student:updated_reference:43:Gebruik de appelgrafiek op pag",
+      "pass": true,
+      "detail": "Gebruik de appelgrafiek op pagina 39. De overheid garandeert daar volledige opkoop van het"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:40",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:44",
+      "pass": true,
+      "detail": "278 / 278 untouched words"
+    },
+    {
+      "check": "student:page_number:44",
+      "pass": true,
+      "detail": "44"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:41",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:45",
+      "pass": true,
+      "detail": "220 / 220 untouched words"
+    },
+    {
+      "check": "student:page_number:45",
+      "pass": true,
+      "detail": "45"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:42",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:46",
+      "pass": true,
+      "detail": "210 / 210 untouched words"
+    },
+    {
+      "check": "student:page_number:46",
+      "pass": true,
+      "detail": "46"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:43",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:47",
+      "pass": true,
+      "detail": "280 / 280 untouched words"
+    },
+    {
+      "check": "student:page_number:47",
+      "pass": true,
+      "detail": "47"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:44",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:48",
+      "pass": true,
+      "detail": "307 / 307 untouched words"
+    },
+    {
+      "check": "student:page_number:48",
+      "pass": true,
+      "detail": "48"
+    },
+    {
+      "check": "student:updated_reference:48:Werk de twee plannen afzonderl",
+      "pass": true,
+      "detail": "p\ng\nWerk de twee plannen afzonderlijk uit. De bronnen staan op pagina 50 en de vragen op pagina 51. Opgave 47A is"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:45",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:49",
+      "pass": true,
+      "detail": "321 / 321 untouched words"
+    },
+    {
+      "check": "student:page_number:49",
+      "pass": true,
+      "detail": "49"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:46",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:50",
+      "pass": true,
+      "detail": "255 / 255 untouched words"
+    },
+    {
+      "check": "student:page_number:50",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:47",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:51",
+      "pass": true,
+      "detail": "248 / 248 untouched words"
+    },
+    {
+      "check": "student:page_number:51",
+      "pass": true,
+      "detail": "51"
+    },
+    {
+      "check": "student:updated_reference:51:Gebruik de bronnen en de grafi",
+      "pass": true,
+      "detail": "Gebruik de bronnen en de grafiek op pagina 50. Noteer berekening, eenheid en conclusie."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H1_Overheidsingrijpen.pdf:48",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:52",
+      "pass": true,
+      "detail": "333 / 333 untouched words"
+    },
+    {
+      "check": "student:page_number:52",
+      "pass": true,
+      "detail": "52"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:1",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:53",
+      "pass": true,
+      "detail": "188 / 188 untouched words"
+    },
+    {
+      "check": "student:page_number:53",
+      "pass": true,
+      "detail": "53"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:2",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:54",
+      "pass": true,
+      "detail": "194 / 194 untouched words"
+    },
+    {
+      "check": "student:page_number:54",
+      "pass": true,
+      "detail": "54"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:55",
+      "pass": true,
+      "detail": "252 / 252 untouched words"
+    },
+    {
+      "check": "student:page_number:55",
+      "pass": true,
+      "detail": "55"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:56",
+      "pass": true,
+      "detail": "261 / 261 untouched words"
+    },
+    {
+      "check": "student:page_number:56",
+      "pass": true,
+      "detail": "56"
+    },
+    {
+      "check": "student:updated_reference:56:Aardappelteler Noor. Gebruik f",
+      "pass": true,
+      "detail": "Aardappelteler Noor. Gebruik figuur 2 op pagina 55. Alle telers leveren dezelfde kwaliteit; kopers"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:57",
+      "pass": true,
+      "detail": "212 / 212 untouched words"
+    },
+    {
+      "check": "student:page_number:57",
+      "pass": true,
+      "detail": "57"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:58",
+      "pass": true,
+      "detail": "211 / 211 untouched words"
+    },
+    {
+      "check": "student:page_number:58",
+      "pass": true,
+      "detail": "58"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:59",
+      "pass": true,
+      "detail": "203 / 203 untouched words"
+    },
+    {
+      "check": "student:page_number:59",
+      "pass": true,
+      "detail": "59"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:60",
+      "pass": true,
+      "detail": "211 / 211 untouched words"
+    },
+    {
+      "check": "student:page_number:60",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:61",
+      "pass": true,
+      "detail": "206 / 206 untouched words"
+    },
+    {
+      "check": "student:page_number:61",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:62",
+      "pass": true,
+      "detail": "212 / 212 untouched words"
+    },
+    {
+      "check": "student:page_number:62",
+      "pass": true,
+      "detail": "62"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:63",
+      "pass": true,
+      "detail": "268 / 268 untouched words"
+    },
+    {
+      "check": "student:page_number:63",
+      "pass": true,
+      "detail": "63"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:64",
+      "pass": true,
+      "detail": "232 / 232 untouched words"
+    },
+    {
+      "check": "student:page_number:64",
+      "pass": true,
+      "detail": "64"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:65",
+      "pass": true,
+      "detail": "263 / 263 untouched words"
+    },
+    {
+      "check": "student:page_number:65",
+      "pass": true,
+      "detail": "65"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:66",
+      "pass": true,
+      "detail": "281 / 281 untouched words"
+    },
+    {
+      "check": "student:page_number:66",
+      "pass": true,
+      "detail": "66"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:67",
+      "pass": true,
+      "detail": "288 / 288 untouched words"
+    },
+    {
+      "check": "student:page_number:67",
+      "pass": true,
+      "detail": "67"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:68",
+      "pass": true,
+      "detail": "250 / 250 untouched words"
+    },
+    {
+      "check": "student:page_number:68",
+      "pass": true,
+      "detail": "68"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:69",
+      "pass": true,
+      "detail": "242 / 242 untouched words"
+    },
+    {
+      "check": "student:page_number:69",
+      "pass": true,
+      "detail": "69"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:70",
+      "pass": true,
+      "detail": "181 / 181 untouched words"
+    },
+    {
+      "check": "student:page_number:70",
+      "pass": true,
+      "detail": "70"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:71",
+      "pass": true,
+      "detail": "259 / 259 untouched words"
+    },
+    {
+      "check": "student:page_number:71",
+      "pass": true,
+      "detail": "71"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:72",
+      "pass": true,
+      "detail": "200 / 200 untouched words"
+    },
+    {
+      "check": "student:page_number:72",
+      "pass": true,
+      "detail": "72"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:73",
+      "pass": true,
+      "detail": "195 / 195 untouched words"
+    },
+    {
+      "check": "student:page_number:73",
+      "pass": true,
+      "detail": "73"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:74",
+      "pass": true,
+      "detail": "235 / 235 untouched words"
+    },
+    {
+      "check": "student:page_number:74",
+      "pass": true,
+      "detail": "74"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:75",
+      "pass": true,
+      "detail": "297 / 297 untouched words"
+    },
+    {
+      "check": "student:page_number:75",
+      "pass": true,
+      "detail": "75"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:76",
+      "pass": true,
+      "detail": "279 / 279 untouched words"
+    },
+    {
+      "check": "student:page_number:76",
+      "pass": true,
+      "detail": "76"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:77",
+      "pass": true,
+      "detail": "285 / 285 untouched words"
+    },
+    {
+      "check": "student:page_number:77",
+      "pass": true,
+      "detail": "77"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:78",
+      "pass": true,
+      "detail": "209 / 209 untouched words"
+    },
+    {
+      "check": "student:page_number:78",
+      "pass": true,
+      "detail": "78"
+    },
+    {
+      "check": "student:updated_reference:78:Bekijk figuur 2 op pagina 23. ",
+      "pass": true,
+      "detail": "Bekijk figuur 2 op pagina 75. Vraag en kosten van één onderneming blijven gelijk."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:79",
+      "pass": true,
+      "detail": "228 / 228 untouched words"
+    },
+    {
+      "check": "student:page_number:79",
+      "pass": true,
+      "detail": "79"
+    },
+    {
+      "check": "student:updated_reference:79:Gebruik de markt op pagina 24,",
+      "pass": true,
+      "detail": "Gebruik de markt op pagina 76, nu zonder de nieuwe lijnen. Alle bedrijven hebben TK = 0,10q²"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:28",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:80",
+      "pass": true,
+      "detail": "249 / 249 untouched words"
+    },
+    {
+      "check": "student:page_number:80",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:29",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:81",
+      "pass": true,
+      "detail": "238 / 238 untouched words"
+    },
+    {
+      "check": "student:page_number:81",
+      "pass": true,
+      "detail": "81"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:30",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:82",
+      "pass": true,
+      "detail": "214 / 214 untouched words"
+    },
+    {
+      "check": "student:page_number:82",
+      "pass": true,
+      "detail": "82"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:31",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:83",
+      "pass": true,
+      "detail": "210 / 210 untouched words"
+    },
+    {
+      "check": "student:page_number:83",
+      "pass": true,
+      "detail": "83"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:32",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:84",
+      "pass": true,
+      "detail": "222 / 222 untouched words"
+    },
+    {
+      "check": "student:page_number:84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:33",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:85",
+      "pass": true,
+      "detail": "210 / 210 untouched words"
+    },
+    {
+      "check": "student:page_number:85",
+      "pass": true,
+      "detail": "85"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:34",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:86",
+      "pass": true,
+      "detail": "273 / 273 untouched words"
+    },
+    {
+      "check": "student:page_number:86",
+      "pass": true,
+      "detail": "86"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:35",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:87",
+      "pass": true,
+      "detail": "211 / 211 untouched words"
+    },
+    {
+      "check": "student:page_number:87",
+      "pass": true,
+      "detail": "87"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:36",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:88",
+      "pass": true,
+      "detail": "212 / 212 untouched words"
+    },
+    {
+      "check": "student:page_number:88",
+      "pass": true,
+      "detail": "88"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:37",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:89",
+      "pass": true,
+      "detail": "246 / 246 untouched words"
+    },
+    {
+      "check": "student:page_number:89",
+      "pass": true,
+      "detail": "89"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H2_Volkomen_concurrentie.pdf:38",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:90",
+      "pass": true,
+      "detail": "258 / 258 untouched words"
+    },
+    {
+      "check": "student:page_number:90",
+      "pass": true,
+      "detail": "90"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:1",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:91",
+      "pass": true,
+      "detail": "182 / 182 untouched words"
+    },
+    {
+      "check": "student:page_number:91",
+      "pass": true,
+      "detail": "91"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:2",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:92",
+      "pass": true,
+      "detail": "235 / 235 untouched words"
+    },
+    {
+      "check": "student:page_number:92",
+      "pass": true,
+      "detail": "92"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:93",
+      "pass": true,
+      "detail": "253 / 253 untouched words"
+    },
+    {
+      "check": "student:page_number:93",
+      "pass": true,
+      "detail": "93"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:94",
+      "pass": true,
+      "detail": "262 / 262 untouched words"
+    },
+    {
+      "check": "student:page_number:94",
+      "pass": true,
+      "detail": "94"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:95",
+      "pass": true,
+      "detail": "263 / 263 untouched words"
+    },
+    {
+      "check": "student:page_number:95",
+      "pass": true,
+      "detail": "95"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:96",
+      "pass": true,
+      "detail": "218 / 218 untouched words"
+    },
+    {
+      "check": "student:page_number:96",
+      "pass": true,
+      "detail": "96"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:97",
+      "pass": true,
+      "detail": "257 / 257 untouched words"
+    },
+    {
+      "check": "student:page_number:97",
+      "pass": true,
+      "detail": "97"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:98",
+      "pass": true,
+      "detail": "219 / 219 untouched words"
+    },
+    {
+      "check": "student:page_number:98",
+      "pass": true,
+      "detail": "98"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:99",
+      "pass": true,
+      "detail": "251 / 251 untouched words"
+    },
+    {
+      "check": "student:page_number:99",
+      "pass": true,
+      "detail": "99"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:100",
+      "pass": true,
+      "detail": "204 / 204 untouched words"
+    },
+    {
+      "check": "student:page_number:100",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:101",
+      "pass": true,
+      "detail": "258 / 258 untouched words"
+    },
+    {
+      "check": "student:page_number:101",
+      "pass": true,
+      "detail": "101"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:102",
+      "pass": true,
+      "detail": "234 / 234 untouched words"
+    },
+    {
+      "check": "student:page_number:102",
+      "pass": true,
+      "detail": "102"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:103",
+      "pass": true,
+      "detail": "200 / 200 untouched words"
+    },
+    {
+      "check": "student:page_number:103",
+      "pass": true,
+      "detail": "103"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:104",
+      "pass": true,
+      "detail": "283 / 283 untouched words"
+    },
+    {
+      "check": "student:page_number:104",
+      "pass": true,
+      "detail": "104"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:105",
+      "pass": true,
+      "detail": "263 / 263 untouched words"
+    },
+    {
+      "check": "student:page_number:105",
+      "pass": true,
+      "detail": "105"
+    },
+    {
+      "check": "student:updated_reference:105:Elva is een klein prijsnemend ",
+      "pass": true,
+      "detail": "Elva is een klein prijsnemend land met concurrerende aanbieders. Het model op pagina 101 geldt."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:106",
+      "pass": true,
+      "detail": "189 / 189 untouched words"
+    },
+    {
+      "check": "student:page_number:106",
+      "pass": true,
+      "detail": "106"
+    },
+    {
+      "check": "student:updated_reference:106:Gebruik de volledig ingevulde ",
+      "pass": true,
+      "detail": "Gebruik de volledig ingevulde importgrafiek van tassen in figuur 2 op pagina 102."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:107",
+      "pass": true,
+      "detail": "185 / 185 untouched words"
+    },
+    {
+      "check": "student:page_number:107",
+      "pass": true,
+      "detail": "107"
+    },
+    {
+      "check": "student:updated_reference:107:Ista is klein en prijsnemend. ",
+      "pass": true,
+      "detail": "i\nIsta is klein en prijsnemend. Het model op pagina 101 geldt. De prijs zonder handel is € 15 per paar."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:108",
+      "pass": true,
+      "detail": "189 / 189 untouched words"
+    },
+    {
+      "check": "student:page_number:108",
+      "pass": true,
+      "detail": "108"
+    },
+    {
+      "check": "student:updated_reference:108:Kora is klein en prijsnemend. ",
+      "pass": true,
+      "detail": "t\nKora is klein en prijsnemend. Het model op pagina 101 geldt. Zonder handel is de prijs € 20 per box."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:109",
+      "pass": true,
+      "detail": "216 / 216 untouched words"
+    },
+    {
+      "check": "student:page_number:109",
+      "pass": true,
+      "detail": "109"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:110",
+      "pass": true,
+      "detail": "228 / 228 untouched words"
+    },
+    {
+      "check": "student:page_number:110",
+      "pass": true,
+      "detail": "110"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:111",
+      "pass": true,
+      "detail": "281 / 281 untouched words"
+    },
+    {
+      "check": "student:page_number:111",
+      "pass": true,
+      "detail": "111"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:112",
+      "pass": true,
+      "detail": "295 / 295 untouched words"
+    },
+    {
+      "check": "student:page_number:112",
+      "pass": true,
+      "detail": "112"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:113",
+      "pass": true,
+      "detail": "273 / 273 untouched words"
+    },
+    {
+      "check": "student:page_number:113",
+      "pass": true,
+      "detail": "113"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:114",
+      "pass": true,
+      "detail": "257 / 257 untouched words"
+    },
+    {
+      "check": "student:page_number:114",
+      "pass": true,
+      "detail": "114"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:115",
+      "pass": true,
+      "detail": "267 / 267 untouched words"
+    },
+    {
+      "check": "student:page_number:115",
+      "pass": true,
+      "detail": "115"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:116",
+      "pass": true,
+      "detail": "196 / 196 untouched words"
+    },
+    {
+      "check": "student:page_number:116",
+      "pass": true,
+      "detail": "116"
+    },
+    {
+      "check": "student:updated_reference:116:Gebruik figuur 3 op pagina 23.",
+      "pass": true,
+      "detail": "Gebruik figuur 3 op pagina 113."
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:117",
+      "pass": true,
+      "detail": "253 / 253 untouched words"
+    },
+    {
+      "check": "student:page_number:117",
+      "pass": true,
+      "detail": "117"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:28",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:118",
+      "pass": true,
+      "detail": "236 / 236 untouched words"
+    },
+    {
+      "check": "student:page_number:118",
+      "pass": true,
+      "detail": "118"
+    },
+    {
+      "check": "student:updated_reference:118:Luma is klein en prijsnemend; ",
+      "pass": true,
+      "detail": "fi\nLuma is klein en prijsnemend; de aannames van pagina 101 gelden, behalve vrije invoer. De"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:29",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:119",
+      "pass": true,
+      "detail": "234 / 234 untouched words"
+    },
+    {
+      "check": "student:page_number:119",
+      "pass": true,
+      "detail": "119"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:30",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:120",
+      "pass": true,
+      "detail": "236 / 236 untouched words"
+    },
+    {
+      "check": "student:page_number:120",
+      "pass": true,
+      "detail": "120"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:31",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:121",
+      "pass": true,
+      "detail": "243 / 243 untouched words"
+    },
+    {
+      "check": "student:page_number:121",
+      "pass": true,
+      "detail": "121"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:32",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:122",
+      "pass": true,
+      "detail": "235 / 235 untouched words"
+    },
+    {
+      "check": "student:page_number:122",
+      "pass": true,
+      "detail": "122"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:33",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:123",
+      "pass": true,
+      "detail": "226 / 226 untouched words"
+    },
+    {
+      "check": "student:page_number:123",
+      "pass": true,
+      "detail": "123"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:34",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:124",
+      "pass": true,
+      "detail": "250 / 250 untouched words"
+    },
+    {
+      "check": "student:page_number:124",
+      "pass": true,
+      "detail": "124"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:35",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:125",
+      "pass": true,
+      "detail": "231 / 231 untouched words"
+    },
+    {
+      "check": "student:page_number:125",
+      "pass": true,
+      "detail": "125"
+    },
+    {
+      "check": "student:updated_reference:125:Gebruik de drie bronnen, de ta",
+      "pass": true,
+      "detail": "Gebruik de drie bronnen, de tabel en figuur 3 op pagina 124. Noteer bij berekeningen de"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:36",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:126",
+      "pass": true,
+      "detail": "236 / 236 untouched words"
+    },
+    {
+      "check": "student:page_number:126",
+      "pass": true,
+      "detail": "126"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:37",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:127",
+      "pass": true,
+      "detail": "264 / 264 untouched words"
+    },
+    {
+      "check": "student:page_number:127",
+      "pass": true,
+      "detail": "127"
+    },
+    {
+      "check": "student:render_conservation:inputs/Boek_3_H3_Internationale_handel.pdf:38",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:128",
+      "pass": true,
+      "detail": "216 / 216 untouched words"
+    },
+    {
+      "check": "student:page_number:128",
+      "pass": true,
+      "detail": "128"
+    },
+    {
+      "check": "student:cover_image_embedded",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:documented_typo_removed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:spread_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:spread_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:spread_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.1.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.1.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.1.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.1.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.1.5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.1.6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.2.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.2.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.2.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.2.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.3.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.3.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.3.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:full_contents:3.3.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:page_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:all_source_pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:chapters_within_authorized_limits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:chapter_recto_starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:only_planned_blanks",
+      "pass": true,
+      "detail": "[34, 58, 76]"
+    },
+    {
+      "check": "answers:page_dimensions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:all_internal_links_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:bookmarks_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:1",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:3",
+      "pass": true,
+      "detail": "269 / 269 untouched words"
+    },
+    {
+      "check": "answers:page_number:3",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:2",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:4",
+      "pass": true,
+      "detail": "325 / 325 untouched words"
+    },
+    {
+      "check": "answers:page_number:4",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:5",
+      "pass": true,
+      "detail": "211 / 211 untouched words"
+    },
+    {
+      "check": "answers:page_number:5",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:6",
+      "pass": true,
+      "detail": "327 / 327 untouched words"
+    },
+    {
+      "check": "answers:page_number:6",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:7",
+      "pass": true,
+      "detail": "269 / 269 untouched words"
+    },
+    {
+      "check": "answers:page_number:7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:8",
+      "pass": true,
+      "detail": "212 / 212 untouched words"
+    },
+    {
+      "check": "answers:page_number:8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:9",
+      "pass": true,
+      "detail": "399 / 399 untouched words"
+    },
+    {
+      "check": "answers:page_number:9",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:10",
+      "pass": true,
+      "detail": "287 / 287 untouched words"
+    },
+    {
+      "check": "answers:page_number:10",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:11",
+      "pass": true,
+      "detail": "303 / 303 untouched words"
+    },
+    {
+      "check": "answers:page_number:11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:12",
+      "pass": true,
+      "detail": "284 / 284 untouched words"
+    },
+    {
+      "check": "answers:page_number:12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:13",
+      "pass": true,
+      "detail": "217 / 217 untouched words"
+    },
+    {
+      "check": "answers:page_number:13",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:14",
+      "pass": true,
+      "detail": "220 / 220 untouched words"
+    },
+    {
+      "check": "answers:page_number:14",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:15",
+      "pass": true,
+      "detail": "293 / 293 untouched words"
+    },
+    {
+      "check": "answers:page_number:15",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:16",
+      "pass": true,
+      "detail": "297 / 297 untouched words"
+    },
+    {
+      "check": "answers:page_number:16",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:17",
+      "pass": true,
+      "detail": "279 / 279 untouched words"
+    },
+    {
+      "check": "answers:page_number:17",
+      "pass": true,
+      "detail": "17"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:18",
+      "pass": true,
+      "detail": "211 / 211 untouched words"
+    },
+    {
+      "check": "answers:page_number:18",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:19",
+      "pass": true,
+      "detail": "230 / 230 untouched words"
+    },
+    {
+      "check": "answers:page_number:19",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:20",
+      "pass": true,
+      "detail": "189 / 189 untouched words"
+    },
+    {
+      "check": "answers:page_number:20",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:21",
+      "pass": true,
+      "detail": "268 / 268 untouched words"
+    },
+    {
+      "check": "answers:page_number:21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:22",
+      "pass": true,
+      "detail": "252 / 252 untouched words"
+    },
+    {
+      "check": "answers:page_number:22",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:23",
+      "pass": true,
+      "detail": "226 / 226 untouched words"
+    },
+    {
+      "check": "answers:page_number:23",
+      "pass": true,
+      "detail": "23"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:24",
+      "pass": true,
+      "detail": "221 / 221 untouched words"
+    },
+    {
+      "check": "answers:page_number:24",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:25",
+      "pass": true,
+      "detail": "199 / 199 untouched words"
+    },
+    {
+      "check": "answers:page_number:25",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:26",
+      "pass": true,
+      "detail": "256 / 256 untouched words"
+    },
+    {
+      "check": "answers:page_number:26",
+      "pass": true,
+      "detail": "26"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:27",
+      "pass": true,
+      "detail": "256 / 256 untouched words"
+    },
+    {
+      "check": "answers:page_number:27",
+      "pass": true,
+      "detail": "27"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:28",
+      "pass": true,
+      "detail": "283 / 283 untouched words"
+    },
+    {
+      "check": "answers:page_number:28",
+      "pass": true,
+      "detail": "28"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:29",
+      "pass": true,
+      "detail": "282 / 282 untouched words"
+    },
+    {
+      "check": "answers:page_number:29",
+      "pass": true,
+      "detail": "29"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:28",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:30",
+      "pass": true,
+      "detail": "195 / 195 untouched words"
+    },
+    {
+      "check": "answers:page_number:30",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:29",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:31",
+      "pass": true,
+      "detail": "199 / 199 untouched words"
+    },
+    {
+      "check": "answers:page_number:31",
+      "pass": true,
+      "detail": "31"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:30",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:32",
+      "pass": true,
+      "detail": "324 / 324 untouched words"
+    },
+    {
+      "check": "answers:page_number:32",
+      "pass": true,
+      "detail": "32"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H1_Antwoorden.pdf:31",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:33",
+      "pass": true,
+      "detail": "250 / 250 untouched words"
+    },
+    {
+      "check": "answers:page_number:33",
+      "pass": true,
+      "detail": "33"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:1",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:35",
+      "pass": true,
+      "detail": "224 / 224 untouched words"
+    },
+    {
+      "check": "answers:page_number:35",
+      "pass": true,
+      "detail": "35"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:2",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:36",
+      "pass": true,
+      "detail": "374 / 374 untouched words"
+    },
+    {
+      "check": "answers:page_number:36",
+      "pass": true,
+      "detail": "36"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:37",
+      "pass": true,
+      "detail": "313 / 313 untouched words"
+    },
+    {
+      "check": "answers:page_number:37",
+      "pass": true,
+      "detail": "37"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:38",
+      "pass": true,
+      "detail": "294 / 294 untouched words"
+    },
+    {
+      "check": "answers:page_number:38",
+      "pass": true,
+      "detail": "38"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:39",
+      "pass": true,
+      "detail": "281 / 281 untouched words"
+    },
+    {
+      "check": "answers:page_number:39",
+      "pass": true,
+      "detail": "39"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:40",
+      "pass": true,
+      "detail": "243 / 243 untouched words"
+    },
+    {
+      "check": "answers:page_number:40",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:41",
+      "pass": true,
+      "detail": "348 / 348 untouched words"
+    },
+    {
+      "check": "answers:page_number:41",
+      "pass": true,
+      "detail": "41"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:42",
+      "pass": true,
+      "detail": "187 / 187 untouched words"
+    },
+    {
+      "check": "answers:page_number:42",
+      "pass": true,
+      "detail": "42"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:43",
+      "pass": true,
+      "detail": "271 / 271 untouched words"
+    },
+    {
+      "check": "answers:page_number:43",
+      "pass": true,
+      "detail": "43"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:44",
+      "pass": true,
+      "detail": "235 / 235 untouched words"
+    },
+    {
+      "check": "answers:page_number:44",
+      "pass": true,
+      "detail": "44"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:45",
+      "pass": true,
+      "detail": "260 / 260 untouched words"
+    },
+    {
+      "check": "answers:page_number:45",
+      "pass": true,
+      "detail": "45"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:46",
+      "pass": true,
+      "detail": "266 / 266 untouched words"
+    },
+    {
+      "check": "answers:page_number:46",
+      "pass": true,
+      "detail": "46"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:47",
+      "pass": true,
+      "detail": "210 / 210 untouched words"
+    },
+    {
+      "check": "answers:page_number:47",
+      "pass": true,
+      "detail": "47"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:48",
+      "pass": true,
+      "detail": "287 / 287 untouched words"
+    },
+    {
+      "check": "answers:page_number:48",
+      "pass": true,
+      "detail": "48"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:49",
+      "pass": true,
+      "detail": "251 / 251 untouched words"
+    },
+    {
+      "check": "answers:page_number:49",
+      "pass": true,
+      "detail": "49"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:50",
+      "pass": true,
+      "detail": "316 / 316 untouched words"
+    },
+    {
+      "check": "answers:page_number:50",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:51",
+      "pass": true,
+      "detail": "330 / 330 untouched words"
+    },
+    {
+      "check": "answers:page_number:51",
+      "pass": true,
+      "detail": "51"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:52",
+      "pass": true,
+      "detail": "287 / 287 untouched words"
+    },
+    {
+      "check": "answers:page_number:52",
+      "pass": true,
+      "detail": "52"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:53",
+      "pass": true,
+      "detail": "322 / 322 untouched words"
+    },
+    {
+      "check": "answers:page_number:53",
+      "pass": true,
+      "detail": "53"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:54",
+      "pass": true,
+      "detail": "254 / 254 untouched words"
+    },
+    {
+      "check": "answers:page_number:54",
+      "pass": true,
+      "detail": "54"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:55",
+      "pass": true,
+      "detail": "353 / 353 untouched words"
+    },
+    {
+      "check": "answers:page_number:55",
+      "pass": true,
+      "detail": "55"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:56",
+      "pass": true,
+      "detail": "278 / 278 untouched words"
+    },
+    {
+      "check": "answers:page_number:56",
+      "pass": true,
+      "detail": "56"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H2_Antwoorden.pdf:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:57",
+      "pass": true,
+      "detail": "238 / 238 untouched words"
+    },
+    {
+      "check": "answers:page_number:57",
+      "pass": true,
+      "detail": "57"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:1",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:59",
+      "pass": true,
+      "detail": "282 / 282 untouched words"
+    },
+    {
+      "check": "answers:page_number:59",
+      "pass": true,
+      "detail": "59"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:2",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:60",
+      "pass": true,
+      "detail": "293 / 293 untouched words"
+    },
+    {
+      "check": "answers:page_number:60",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:61",
+      "pass": true,
+      "detail": "279 / 279 untouched words"
+    },
+    {
+      "check": "answers:page_number:61",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:62",
+      "pass": true,
+      "detail": "288 / 288 untouched words"
+    },
+    {
+      "check": "answers:page_number:62",
+      "pass": true,
+      "detail": "62"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:63",
+      "pass": true,
+      "detail": "239 / 239 untouched words"
+    },
+    {
+      "check": "answers:page_number:63",
+      "pass": true,
+      "detail": "63"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:64",
+      "pass": true,
+      "detail": "276 / 276 untouched words"
+    },
+    {
+      "check": "answers:page_number:64",
+      "pass": true,
+      "detail": "64"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:65",
+      "pass": true,
+      "detail": "337 / 337 untouched words"
+    },
+    {
+      "check": "answers:page_number:65",
+      "pass": true,
+      "detail": "65"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:66",
+      "pass": true,
+      "detail": "271 / 271 untouched words"
+    },
+    {
+      "check": "answers:page_number:66",
+      "pass": true,
+      "detail": "66"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:67",
+      "pass": true,
+      "detail": "264 / 264 untouched words"
+    },
+    {
+      "check": "answers:page_number:67",
+      "pass": true,
+      "detail": "67"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:68",
+      "pass": true,
+      "detail": "244 / 244 untouched words"
+    },
+    {
+      "check": "answers:page_number:68",
+      "pass": true,
+      "detail": "68"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:69",
+      "pass": true,
+      "detail": "318 / 318 untouched words"
+    },
+    {
+      "check": "answers:page_number:69",
+      "pass": true,
+      "detail": "69"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:70",
+      "pass": true,
+      "detail": "292 / 292 untouched words"
+    },
+    {
+      "check": "answers:page_number:70",
+      "pass": true,
+      "detail": "70"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:71",
+      "pass": true,
+      "detail": "264 / 264 untouched words"
+    },
+    {
+      "check": "answers:page_number:71",
+      "pass": true,
+      "detail": "71"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:72",
+      "pass": true,
+      "detail": "252 / 252 untouched words"
+    },
+    {
+      "check": "answers:page_number:72",
+      "pass": true,
+      "detail": "72"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:73",
+      "pass": true,
+      "detail": "216 / 216 untouched words"
+    },
+    {
+      "check": "answers:page_number:73",
+      "pass": true,
+      "detail": "73"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:74",
+      "pass": true,
+      "detail": "325 / 325 untouched words"
+    },
+    {
+      "check": "answers:page_number:74",
+      "pass": true,
+      "detail": "74"
+    },
+    {
+      "check": "answers:render_conservation:inputs/Boek_3_H3_Antwoorden.pdf:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:75",
+      "pass": true,
+      "detail": "335 / 335 untouched words"
+    },
+    {
+      "check": "answers:page_number:75",
+      "pass": true,
+      "detail": "75"
+    },
+    {
+      "check": "teacher:page_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:all_source_pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:chapters_within_authorized_limits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:chapter_recto_starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:only_planned_blanks",
+      "pass": true,
+      "detail": "[20, 28]"
+    },
+    {
+      "check": "teacher:page_dimensions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:all_internal_links_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:bookmarks_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:1",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:3",
+      "pass": true,
+      "detail": "333 / 333 untouched words"
+    },
+    {
+      "check": "teacher:page_number:3",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:2",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:4",
+      "pass": true,
+      "detail": "273 / 273 untouched words"
+    },
+    {
+      "check": "teacher:page_number:4",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:5",
+      "pass": true,
+      "detail": "272 / 272 untouched words"
+    },
+    {
+      "check": "teacher:page_number:5",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:6",
+      "pass": true,
+      "detail": "318 / 318 untouched words"
+    },
+    {
+      "check": "teacher:page_number:6",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:7",
+      "pass": true,
+      "detail": "337 / 337 untouched words"
+    },
+    {
+      "check": "teacher:page_number:7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:8",
+      "pass": true,
+      "detail": "314 / 314 untouched words"
+    },
+    {
+      "check": "teacher:page_number:8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:9",
+      "pass": true,
+      "detail": "293 / 293 untouched words"
+    },
+    {
+      "check": "teacher:page_number:9",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:10",
+      "pass": true,
+      "detail": "255 / 255 untouched words"
+    },
+    {
+      "check": "teacher:page_number:10",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:11",
+      "pass": true,
+      "detail": "326 / 326 untouched words"
+    },
+    {
+      "check": "teacher:page_number:11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H1_Docenteninformatie.pdf:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:12",
+      "pass": true,
+      "detail": "340 / 340 untouched words"
+    },
+    {
+      "check": "teacher:page_number:12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H2_Docenteninformatie.pdf:1",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:13",
+      "pass": true,
+      "detail": "257 / 257 untouched words"
+    },
+    {
+      "check": "teacher:page_number:13",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H2_Docenteninformatie.pdf:2",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:14",
+      "pass": true,
+      "detail": "295 / 295 untouched words"
+    },
+    {
+      "check": "teacher:page_number:14",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H2_Docenteninformatie.pdf:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:15",
+      "pass": true,
+      "detail": "285 / 285 untouched words"
+    },
+    {
+      "check": "teacher:page_number:15",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H2_Docenteninformatie.pdf:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:16",
+      "pass": true,
+      "detail": "316 / 316 untouched words"
+    },
+    {
+      "check": "teacher:page_number:16",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H2_Docenteninformatie.pdf:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:17",
+      "pass": true,
+      "detail": "372 / 372 untouched words"
+    },
+    {
+      "check": "teacher:page_number:17",
+      "pass": true,
+      "detail": "17"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H2_Docenteninformatie.pdf:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:18",
+      "pass": true,
+      "detail": "308 / 308 untouched words"
+    },
+    {
+      "check": "teacher:page_number:18",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H2_Docenteninformatie.pdf:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:19",
+      "pass": true,
+      "detail": "312 / 312 untouched words"
+    },
+    {
+      "check": "teacher:page_number:19",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H3_Docenteninformatie.pdf:1",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:21",
+      "pass": true,
+      "detail": "239 / 239 untouched words"
+    },
+    {
+      "check": "teacher:page_number:21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H3_Docenteninformatie.pdf:2",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:22",
+      "pass": true,
+      "detail": "261 / 261 untouched words"
+    },
+    {
+      "check": "teacher:page_number:22",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H3_Docenteninformatie.pdf:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:23",
+      "pass": true,
+      "detail": "278 / 278 untouched words"
+    },
+    {
+      "check": "teacher:page_number:23",
+      "pass": true,
+      "detail": "23"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H3_Docenteninformatie.pdf:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:24",
+      "pass": true,
+      "detail": "291 / 291 untouched words"
+    },
+    {
+      "check": "teacher:page_number:24",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H3_Docenteninformatie.pdf:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:25",
+      "pass": true,
+      "detail": "291 / 291 untouched words"
+    },
+    {
+      "check": "teacher:page_number:25",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H3_Docenteninformatie.pdf:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:26",
+      "pass": true,
+      "detail": "310 / 310 untouched words"
+    },
+    {
+      "check": "teacher:page_number:26",
+      "pass": true,
+      "detail": "26"
+    },
+    {
+      "check": "teacher:render_conservation:inputs/Boek_3_H3_Docenteninformatie.pdf:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:27",
+      "pass": true,
+      "detail": "299 / 299 untouched words"
+    },
+    {
+      "check": "teacher:page_number:27",
+      "pass": true,
+      "detail": "27"
+    }
+  ]
+}

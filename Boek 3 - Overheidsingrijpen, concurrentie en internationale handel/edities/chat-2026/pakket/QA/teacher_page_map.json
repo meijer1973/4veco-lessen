@@ -1,0 +1,602 @@
+[
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 1,
+    "book_page": 3,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "3",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 2,
+    "book_page": 4,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "4",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 3,
+    "book_page": 5,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "5",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 4,
+    "book_page": 6,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "6",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 5,
+    "book_page": 7,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "7",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 6,
+    "book_page": 8,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "8",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 7,
+    "book_page": 9,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "9",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 8,
+    "book_page": 10,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "10",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 9,
+    "book_page": 11,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "11",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Docenteninformatie.pdf",
+    "local_page": 10,
+    "book_page": 12,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "12",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Docenteninformatie.pdf",
+    "local_page": 1,
+    "book_page": 13,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "13",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Docenteninformatie.pdf",
+    "local_page": 2,
+    "book_page": 14,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "14",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Docenteninformatie.pdf",
+    "local_page": 3,
+    "book_page": 15,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "15",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Docenteninformatie.pdf",
+    "local_page": 4,
+    "book_page": 16,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "16",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Docenteninformatie.pdf",
+    "local_page": 5,
+    "book_page": 17,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "17",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Docenteninformatie.pdf",
+    "local_page": 6,
+    "book_page": 18,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "18",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Docenteninformatie.pdf",
+    "local_page": 7,
+    "book_page": 19,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "19",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Docenteninformatie.pdf",
+    "local_page": 1,
+    "book_page": 21,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "21",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Docenteninformatie.pdf",
+    "local_page": 2,
+    "book_page": 22,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "22",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Docenteninformatie.pdf",
+    "local_page": 3,
+    "book_page": 23,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "23",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Docenteninformatie.pdf",
+    "local_page": 4,
+    "book_page": 24,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "24",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Docenteninformatie.pdf",
+    "local_page": 5,
+    "book_page": 25,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "25",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Docenteninformatie.pdf",
+    "local_page": 6,
+    "book_page": 26,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "26",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Docenteninformatie.pdf",
+    "local_page": 7,
+    "book_page": 27,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "27",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "artifacts": [
+    {
+      "file": "output/Boek_3_H2_Volkomen_concurrentie.pdf",
+      "pages": 38,
+      "sha256": "2464be9d4f0723a6761ba0c74b48e3c7c6f3a311605f887c4ce4f4df2938e365",
+      "bytes": 470802
+    },
+    {
+      "file": "output/Boek_3_H2_Antwoorden.pdf",
+      "pages": 23,
+      "sha256": "22121d95d9b39677dbfbef1599c66daef1ce056e9b81fcfd9eb4768701bef342",
+      "bytes": 319408
+    },
+    {
+      "file": "output/Boek_3_H2_Docenteninformatie.pdf",
+      "pages": 7,
+      "sha256": "56a963c9174c2d700205c4a7e3a18c56a97d025ebb11a82e3d7f8545461ce25e",
+      "bytes": 51126
+    }
+  ],
+  "student_page_limit": 40,
+  "scope": "standalone local chapter, no repository mutations",
+  "source_priority": "user-supplied Book 3/4 v2 outlines"
+}

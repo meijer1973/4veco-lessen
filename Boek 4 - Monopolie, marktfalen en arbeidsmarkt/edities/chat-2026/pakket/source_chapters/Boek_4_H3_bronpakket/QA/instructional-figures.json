@@ -1,0 +1,146 @@
+[
+  {
+    "number": 1,
+    "file": "actor_bridge",
+    "caption": "Op de goederenmarkt kopen huishoudens producten. Op de arbeidsmarkt leveren zij arbeid en ontvangen zij loon.",
+    "section": "4.3.1"
+  },
+  {
+    "number": 2,
+    "file": "units",
+    "caption": "Fte is een rekeneenheid voor de omvang van werk, niet het aantal verschillende mensen.",
+    "section": "4.3.1"
+  },
+  {
+    "number": 3,
+    "file": "productivity_paths",
+    "caption": "Vergelijk zowel de productie als de productiviteit. Eén van beide veranderingen bekijken is niet genoeg.",
+    "section": "4.3.1"
+  },
+  {
+    "number": 4,
+    "file": "demand_move",
+    "caption": "Van A naar B: het loon stijgt van € 16 naar € 20. Langs dezelfde vraaglijn daalt de hoeveelheid van 80 naar 60 arbeidsuren per week.",
+    "section": "4.3.1"
+  },
+  {
+    "number": 5,
+    "file": "demand_shift",
+    "caption": "Lees eerst de volledig gemarkeerde verandering: bij € 16 per uur gaat de gevraagde hoeveelheid van A naar C.",
+    "section": "4.3.1"
+  },
+  {
+    "number": 6,
+    "file": "demand_base",
+    "caption": "Gebruik de bestaande schaal voor vraag a. Voor de orderverandering hoef je geen nieuwe numerieke lijn te verzinnen.",
+    "section": "4.3.1"
+  },
+  {
+    "number": 7,
+    "file": "population",
+    "caption": "Een fictieve bevolking van 1.000 personen: 700 behoren tot de beroepsbevolking. De 100 werklozen zitten al in die 700.",
+    "section": "4.3.2"
+  },
+  {
+    "number": 8,
+    "file": "eq_intro",
+    "caption": "Het snijpunt E geeft het evenwichtsloon en de werkgelegenheid. Loon staat verticaal; de hoeveelheid arbeid staat horizontaal.",
+    "section": "4.3.2"
+  },
+  {
+    "number": 9,
+    "file": "eq_we",
+    "caption": "Gebruik het loon uit het snijpunt. De horizontale hoeveelheid blijft een aantal personen, niet een geldbedrag.",
+    "section": "4.3.2"
+  },
+  {
+    "number": 10,
+    "file": "eq_base",
+    "caption": "Basisgrafiek bij opgave 15. Voeg E en de bijbehorende hulplijnen toe.",
+    "section": "4.3.2"
+  },
+  {
+    "number": 11,
+    "file": "eq_target",
+    "caption": "Basisgrafiek bij opgave 16. Benoem het berekende evenwicht met loon en hoeveelheid.",
+    "section": "4.3.2"
+  },
+  {
+    "number": 12,
+    "file": "vacancy_overlap",
+    "caption": "Een fictieve bron telt één baan per werkende en één persoon per vacature. De 900 werkenden komen in beide tellingen voor.",
+    "section": "4.3.3"
+  },
+  {
+    "number": 13,
+    "file": "unemployment_causes",
+    "caption": "De bron moet de oorzaak ondersteunen. “Lang werkloos” of “weinig vacatures” is op zichzelf nog geen volledige verklaring.",
+    "section": "4.3.3"
+  },
+  {
+    "number": 14,
+    "file": "shift_flex",
+    "caption": "E₀ is het oude evenwicht: € 12 en 80 personen. Na de daling van de arbeidsvraag ligt E₁ bij € 10 en 60 personen.",
+    "section": "4.3.3"
+  },
+  {
+    "number": 15,
+    "file": "shift_fixed",
+    "caption": "Bij het vastgehouden loon ligt de nieuwe vraag bij 40 en het aanbod bij 80 personen. Het horizontale verschil is 40 personen.",
+    "section": "4.3.3"
+  },
+  {
+    "number": 16,
+    "file": "shift_target",
+    "caption": "De oude en nieuwe vraaglijn en de aanbodlijn zijn gegeven. Voeg alleen E₀ en E₁ toe.",
+    "section": "4.3.3"
+  },
+  {
+    "number": 17,
+    "file": "floor_nonbinding",
+    "caption": "Een loonvloer onder het evenwicht raakt de feitelijke loonvorming in dit model niet.",
+    "section": "4.3.4"
+  },
+  {
+    "number": 18,
+    "file": "floor_binding",
+    "caption": "Het minimumloon verandert het loon op de bestaande lijnen. Het aanbodoverschot is een horizontale afstand, geen oppervlakte.",
+    "section": "4.3.4"
+  },
+  {
+    "number": 19,
+    "file": "floor_bill",
+    "caption": "De rechthoek w × L gebruikt het aantal werkenden. Omdat L hier personen is, vermenigvuldig je nog met 20 uur per persoon per week.",
+    "section": "4.3.4"
+  },
+  {
+    "number": 20,
+    "file": "floor_we",
+    "caption": "Bij het voorbeeld worden 70 personen gevraagd en bieden 90 personen arbeid aan. Gebruik de gemarkeerde uitkomst.",
+    "section": "4.3.4"
+  },
+  {
+    "number": 21,
+    "file": "floor_target",
+    "caption": "De vraag- en aanbodlijn zijn gegeven. Vul de loonvloer, vraag en aanbod aan; teken de lijnen niet opnieuw.",
+    "section": "4.3.4"
+  },
+  {
+    "number": 22,
+    "file": "bargaining",
+    "caption": "De cao kan loon, werktijden, verlof en scholing combineren. Het is geen afspraak van iedere werknemer afzonderlijk.",
+    "section": "4.3.5"
+  },
+  {
+    "number": 23,
+    "file": "cao_costs",
+    "caption": "Een stijging van de uurkosten kan samengaan met een daling van de loonkosten per product.",
+    "section": "4.3.5"
+  },
+  {
+    "number": 24,
+    "file": "mixed_base",
+    "caption": "Markeer in deze basisgrafiek het oude en nieuwe evenwicht. De verschuiving van de vraaglijn is al gegeven.",
+    "section": "4.3.6"
+  }
+]

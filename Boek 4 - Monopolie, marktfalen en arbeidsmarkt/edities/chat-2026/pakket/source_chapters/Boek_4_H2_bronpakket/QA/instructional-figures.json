@@ -1,0 +1,194 @@
+[
+  {
+    "number": 1,
+    "file": "chapter_route",
+    "caption": "Eerst marktgedrag, daarna de volledige welvaartsrekening, ten slotte een onderbouwd beleidsadvies.",
+    "section": "front"
+  },
+  {
+    "number": 2,
+    "file": "421_choice",
+    "caption": "Punt M ligt op de vraaglijn. Het snijpunt van MO en MK bepaalt alleen de hoeveelheid.",
+    "section": "4.2.1"
+  },
+  {
+    "number": 3,
+    "file": "421_transfer",
+    "caption": "De rechthoek is een overdracht. Alleen de driehoek tussen Q = 20 en Q = 30 is verloren surplus.",
+    "section": "4.2.1"
+  },
+  {
+    "number": 4,
+    "file": "421_we",
+    "caption": "Bij Studiohuur is de driehoek van het verlies los te zien van de rechthoek van de overdracht.",
+    "section": "4.2.1"
+  },
+  {
+    "number": 5,
+    "file": "421_guided",
+    "caption": "A wordt door andere marktdeelnemers ontvangen; B niet. Beide bedragen zijn euro per dag.",
+    "section": "4.2.1"
+  },
+  {
+    "number": 6,
+    "file": "421_target",
+    "caption": "Gegeven lijnen voor de VR-studio. Voeg alleen de gevraagde markeringen en arceringen toe.",
+    "section": "4.2.1"
+  },
+  {
+    "number": 7,
+    "file": "422_conditions",
+    "caption": "De aanbieder moet de groepen werkelijk kunnen scheiden. Alleen een andere prijslijst is niet genoeg.",
+    "section": "4.2.2"
+  },
+  {
+    "number": 8,
+    "file": "422_groups",
+    "caption": "De twee panelen gebruiken dezelfde schaal. Lees de prijs van iedere groep af op haar eigen vraaglijn, niet op MO.",
+    "section": "4.2.2"
+  },
+  {
+    "number": 9,
+    "file": "422_guided",
+    "caption": "Gebruik de gemarkeerde hoeveelheden. Ga daarna naar de vraaglijn voor de prijs.",
+    "section": "4.2.2"
+  },
+  {
+    "number": 10,
+    "file": "422_target",
+    "caption": "De twee groepen zijn gescheiden. Vul de benodigde hoeveelheden en prijzen aan.",
+    "section": "4.2.2"
+  },
+  {
+    "number": 11,
+    "file": "423_we",
+    "caption": "Hetzelfde rekenpad als bij monopolie, maar nu voor één zaak tussen veel aanbieders van verschillende producten.",
+    "section": "4.2.3"
+  },
+  {
+    "number": 12,
+    "file": "423_guided",
+    "caption": "De route is gegeven. Het aantal aanbieders verandert de algebra niet, maar wel de betekenis en voorwaarden van de vraaglijn.",
+    "section": "4.2.3"
+  },
+  {
+    "number": 13,
+    "file": "424_actors",
+    "caption": "De betaling loopt tussen koper en verkoper. De hinder treft omwonenden buiten die transactie.",
+    "section": "4.2.4"
+  },
+  {
+    "number": 14,
+    "file": "424_social",
+    "caption": "Begin met vraag en private kosten. De maatschappelijke-kostenlijn ligt bij dezelfde Q precies € 10 hoger.",
+    "section": "4.2.4"
+  },
+  {
+    "number": 15,
+    "file": "424_loss",
+    "caption": "Het verloren surplus ligt tussen vraag en maatschappelijke kosten, van de efficiënte naar de ongereguleerde hoeveelheid.",
+    "section": "4.2.4"
+  },
+  {
+    "number": 16,
+    "file": "424_tax",
+    "caption": "In deze case valt aanbod in kopersprijzen samen met maatschappelijke kosten, omdat t precies € 10 is. De producent blijft op de oorspronkelijke A aflezen.",
+    "section": "4.2.4"
+  },
+  {
+    "number": 17,
+    "file": "424_we",
+    "caption": "De heffing verlaagt het aantal wasbeurten van 20 naar 16. Het verschil tussen beide prijzen is de heffing, niet het verschil tussen beide hoeveelheden.",
+    "section": "4.2.4"
+  },
+  {
+    "number": 18,
+    "file": "424_guided",
+    "caption": "De verticale afstand geeft schade per levering. Totale schade vereist ook het aantal leveringen.",
+    "section": "4.2.4"
+  },
+  {
+    "number": 19,
+    "file": "424_independent",
+    "caption": "Gebruik de bron en de gegeven lijnen. Voeg zelf de hoeveelheden, prijzen en het gevraagde gebied toe.",
+    "section": "4.2.4"
+  },
+  {
+    "number": 20,
+    "file": "424_target",
+    "caption": "De private en maatschappelijke kosten zijn gegeven. Voeg de uitkomsten en het gevraagde verliesgebied toe.",
+    "section": "4.2.4"
+  },
+  {
+    "number": 21,
+    "file": "425_actors",
+    "caption": "De koper krijgt privévoordeel. Het extra voordeel voor buren staat daar los van en wordt niet door hun betaling vergoed.",
+    "section": "4.2.5"
+  },
+  {
+    "number": 22,
+    "file": "425_social",
+    "caption": "De hogere lijn toont maatschappelijke baten. Zij is niet ineens de prijs die de koper zelf wil betalen.",
+    "section": "4.2.5"
+  },
+  {
+    "number": 23,
+    "file": "425_subsidy",
+    "caption": "Vraag en aanbod in kopersprijzen bepalen Q en Pc. Lees bij dezelfde Q op het oorspronkelijke aanbod Pp af.",
+    "section": "4.2.5"
+  },
+  {
+    "number": 24,
+    "file": "425_we",
+    "caption": "Dezelfde subsidieprocedure als voorheen. Nieuw is het afzonderlijke voordeel voor mensen buiten de markt.",
+    "section": "4.2.5"
+  },
+  {
+    "number": 25,
+    "file": "425_we_loss",
+    "caption": "De driehoek markeert gemiste gezamenlijke voordelen van cursusplaatsen die zonder subsidie niet worden gebruikt.",
+    "section": "4.2.5"
+  },
+  {
+    "number": 26,
+    "file": "425_guided",
+    "caption": "De verticale afstand is extern voordeel per eenheid; de hele hogere lijn is geen extra betaling.",
+    "section": "4.2.5"
+  },
+  {
+    "number": 27,
+    "file": "425_independent",
+    "caption": "De private vraag, maatschappelijke baten en aanbodlijn zijn gegeven; de uitkomsten en het verliesgebied nog niet.",
+    "section": "4.2.5"
+  },
+  {
+    "number": 28,
+    "file": "425_target",
+    "caption": "De private vraag, maatschappelijke baten en oorspronkelijke aanbodlijn zijn gegeven. De subsidie is geen nieuwe externe baat.",
+    "section": "4.2.5"
+  },
+  {
+    "number": 29,
+    "file": "426_route",
+    "caption": "Deze vier stappen helpen een beleidsadvies op te bouwen. De maatregel moet op de oorzaak aangrijpen.",
+    "section": "4.2.6"
+  },
+  {
+    "number": 30,
+    "file": "425_mixed",
+    "caption": "Gebruik de al bekende private vraag, maatschappelijke baten en kosten om de hoeveelheden te controleren.",
+    "section": "4.2.7"
+  },
+  {
+    "number": 31,
+    "file": "427_A",
+    "caption": "Bron A: vraag, MO en MK voor dezelfde markt. De monopolie-uitkomst is nog niet gemarkeerd.",
+    "section": "4.2.7"
+  },
+  {
+    "number": 32,
+    "file": "427_B",
+    "caption": "Bron B: private en maatschappelijke kosten. Het gaat hier om een andere markt en een andere periode dan in bron A.",
+    "section": "4.2.7"
+  }
+]

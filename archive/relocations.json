@@ -2080,6 +2080,20 @@
       ],
       "live_follow_up": null,
       "navigation_edit": null
+    },
+    {
+      "kind": "snapshot",
+      "original_path": "course_blueprint_v5.md",
+      "archived_path": "archive/blueprints/book34-pre-chat-2026/course_blueprint_v5.md",
+      "original_blob": "c5adbaf31feabba38998a0c878a02c9a609a02f2",
+      "final_blob": "c5adbaf31feabba38998a0c878a02c9a609a02f2",
+      "source_commit": "e1712a214a6e2e11dd36758f033ea35f0264f584",
+      "topic": "book34-structural-baseline",
+      "batch": "BOOK34-CHAT-IMPORT-OUTLINES-1",
+      "current_consumers": [
+        "course_blueprint_v5.md"
+      ],
+      "live_follow_up": "course_blueprint_v5.md"
     }
   ]
 }

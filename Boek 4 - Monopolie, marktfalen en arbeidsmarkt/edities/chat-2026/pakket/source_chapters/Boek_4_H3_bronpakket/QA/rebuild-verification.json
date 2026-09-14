@@ -1,0 +1,170 @@
+{
+  "status": "PASS",
+  "method": "All manuscripts and assets regenerated from authoring scripts in a separate source copy; no output PDFs or paragraph cuts copied as inputs. Compared page count, extracted text per page, rendered pixels per page (MuPDF at 72 dpi), and SVG bytes.",
+  "outputs": [
+    {
+      "file": "Boek_4_H3_Antwoorden.pdf",
+      "pages": 18,
+      "same_page_count": true,
+      "same_text_per_page": true,
+      "identical_rendered_pixels_per_page": true
+    },
+    {
+      "file": "Boek_4_H3_Arbeidsmarkt.pdf",
+      "pages": 50,
+      "same_page_count": true,
+      "same_text_per_page": true,
+      "identical_rendered_pixels_per_page": true
+    },
+    {
+      "file": "Boek_4_H3_Docenteninformatie.pdf",
+      "pages": 8,
+      "same_page_count": true,
+      "same_text_per_page": true,
+      "identical_rendered_pixels_per_page": true
+    }
+  ],
+  "svg_assets": [
+    {
+      "file": "actor_bridge.svg",
+      "identical": true
+    },
+    {
+      "file": "bargaining.svg",
+      "identical": true
+    },
+    {
+      "file": "cao_costs.svg",
+      "identical": true
+    },
+    {
+      "file": "demand_base.svg",
+      "identical": true
+    },
+    {
+      "file": "demand_move.svg",
+      "identical": true
+    },
+    {
+      "file": "demand_shift.svg",
+      "identical": true
+    },
+    {
+      "file": "eq_base.svg",
+      "identical": true
+    },
+    {
+      "file": "eq_ind_answer.svg",
+      "identical": true
+    },
+    {
+      "file": "eq_intro.svg",
+      "identical": true
+    },
+    {
+      "file": "eq_target.svg",
+      "identical": true
+    },
+    {
+      "file": "eq_target_answer.svg",
+      "identical": true
+    },
+    {
+      "file": "eq_we.svg",
+      "identical": true
+    },
+    {
+      "file": "floor_bill.svg",
+      "identical": true
+    },
+    {
+      "file": "floor_binding.svg",
+      "identical": true
+    },
+    {
+      "file": "floor_guide.svg",
+      "identical": true
+    },
+    {
+      "file": "floor_guide_answer.svg",
+      "identical": true
+    },
+    {
+      "file": "floor_nonbinding.svg",
+      "identical": true
+    },
+    {
+      "file": "floor_target.svg",
+      "identical": true
+    },
+    {
+      "file": "floor_target_answer.svg",
+      "identical": true
+    },
+    {
+      "file": "floor_we.svg",
+      "identical": true
+    },
+    {
+      "file": "mixed_answer.svg",
+      "identical": true
+    },
+    {
+      "file": "mixed_base.svg",
+      "identical": true
+    },
+    {
+      "file": "population.svg",
+      "identical": true
+    },
+    {
+      "file": "population_we.svg",
+      "identical": true
+    },
+    {
+      "file": "productivity_paths.svg",
+      "identical": true
+    },
+    {
+      "file": "shift_fixed.svg",
+      "identical": true
+    },
+    {
+      "file": "shift_flex.svg",
+      "identical": true
+    },
+    {
+      "file": "shift_ind.svg",
+      "identical": true
+    },
+    {
+      "file": "shift_ind_answer.svg",
+      "identical": true
+    },
+    {
+      "file": "shift_target.svg",
+      "identical": true
+    },
+    {
+      "file": "shift_target_answer.svg",
+      "identical": true
+    },
+    {
+      "file": "shift_we.svg",
+      "identical": true
+    },
+    {
+      "file": "unemployment_causes.svg",
+      "identical": true
+    },
+    {
+      "file": "units.svg",
+      "identical": true
+    },
+    {
+      "file": "vacancy_overlap.svg",
+      "identical": true
+    }
+  ],
+  "python": "3.13.5"
+}

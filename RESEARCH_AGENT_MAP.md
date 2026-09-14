@@ -49,3 +49,9 @@ Plans describe intent; generated files show the last build; a review attests
 only its named scope and committed/snapshotted inputs. Existence alone does not
 prove review or completeness. A missing optional companion is not automatically
 a defect in a textbook-only assignment.
+## Selected Books 3 and 4
+
+- Book 3: [complete PDFs, chapters and all editable sources](Boek%203%20-%20Overheidsingrijpen%2C%20concurrentie%20en%20internationale%20handel/README.md); [current outline adoption](https://github.com/meijer1973/4veco-platform/blob/codex/import-books34-outlines-20260914/references/authored/book-outlines/book-3-outline.meta.json).
+- Book 4: [complete PDFs, chapters and all editable sources](Boek%204%20-%20Monopolie%2C%20marktfalen%20en%20arbeidsmarkt/README.md); [current outline adoption](https://github.com/meijer1973/4veco-platform/blob/codex/import-books34-outlines-20260914/references/authored/book-outlines/book-4-outline.meta.json).
+
+Current lookup: platform `node build-scripts/references/books34-selected-structure.js 3.3.1`. Validation: `node build-scripts/maintenance/check-books34-chat-import.js --require-paired --require-tracked`. Numeric IDs require revision `book34-chat-v2-20260914`; archive IDs do not transfer target approval. Integration is prepared/in PR.

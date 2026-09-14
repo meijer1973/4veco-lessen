@@ -1,0 +1,84 @@
+{
+  "status": "authored_for_user_v2_outline_not_integrated_in_repository",
+  "exercises": [
+    {
+      "number": 7,
+      "title": "Bedrukte tassen",
+      "context": "Verschillende aanbieders verkopen dezelfde soort bedrukte tas. Vraag: Pc = 20 − 0,20Q. Aanbod: Pp = 2 + 0,10Q. Q is tassen per dag; prijzen zijn euro per tas. De overheid heft € 3 per verkochte tas. De verkopers dragen de belasting af. De andere marktomstandigheden blijven gelijk.",
+      "questions": [
+        "Bereken de vrije evenwichtsprijs en -hoeveelheid.",
+        "Stel na invoering van de belasting het aanbod in kopersprijzen op. Bereken de nieuwe hoeveelheid.",
+        "Bereken de prijs die kopers betalen en het bedrag dat verkopers na afdracht ontvangen.",
+        "Teken de nieuwe aanbodlijn in de basisgrafiek. Markeer de nieuwe hoeveelheid, beide prijzen en de belastingwig.",
+        "Een verkoper zegt: “Wij dragen alles af; dus wij dragen ook de hele economische last.” Beoordeel met de oude en nieuwe prijzen."
+      ],
+      "kind": "target"
+    },
+    {
+      "number": 16,
+      "title": "Bedrukte tassen: wie betaalt?",
+      "context": "Dit is de markt uit §3.1.1, met alle gegevens opnieuw gegeven. Vraag Pc = 20 − 0,20Q; aanbod Pp = 2 + 0,10Q. Q is tassen per dag. Eerst: Q₀ = 60 en P₀ = € 8. Met t = € 3: Qt = 50, Pc = € 10 en Pp = € 7. De belasting heeft geen effecten voor buitenstaanders en geen uitvoeringskosten.",
+      "questions": [
+        "Bereken de last per tas voor beide kanten en het afwentelingspercentage.",
+        "Bereken de belastingopbrengst per dag.",
+        "Bereken CS en PS zonder en met belasting. Bereken daarna de welvaartsmaat met overheid en het welvaartsverlies.",
+        "Markeer Qt, Pc en Pp in de basisgrafiek. Arceer de belastingopbrengst en het welvaartsverlies verschillend. Noteer basis en hoogte van W.",
+        "Een koper zegt: “Als de vraag nog minder prijsgevoelig was, zouden wij minder belasting dragen.” Beoordeel, bij gelijk aanbod en dezelfde belasting."
+      ],
+      "kind": "target"
+    },
+    {
+      "number": 25,
+      "title": "Cursusplaatsen",
+      "context": "Vraag Pc = 26 − 0,20Q; aanbod Pp = 8 + 0,10Q. Q is cursusplaatsen per week. Eerst: Q₀ = 60, P₀ = € 14, CS = € 360 en PS = € 180 per week. Aanbieders ontvangen € 3 subsidie per werkelijk verkochte plaats. Er zijn geen baten voor buitenstaanders en geen uitvoeringskosten.",
+      "questions": [
+        "Stel het aanbod in kopersprijzen mét subsidie op. Bereken Qsub, Pc en Pp.",
+        "Bereken de overheidsuitgaven per week.",
+        "Bereken het voordeel per plaats voor kopers en aanbieders. Leg uit waarom uitbetaling aan aanbieders niet betekent dat zij het hele voordeel krijgen.",
+        "Bereken CS en PS na subsidie. Bepaal CS + PS − U en het welvaartsverlies ten opzichte van de oude situatie.",
+        "Markeer Qsub, Pc en Pp in de basisgrafiek. Arceer de rechthoek van de overheidsuitgaven. Beoordeel: “De subsidie verhoogt in dit model automatisch de welvaart.”"
+      ],
+      "kind": "target"
+    },
+    {
+      "number": 34,
+      "title": "Tenten voor een weekend",
+      "context": "Verschillende bedrijven verhuren dezelfde soort tent. Vraag P = 18 − 0,10Q; aanbod P = 6 + 0,10Q. P is de huur in euro per tent voor één weekend; Q is tenten per weekend. Er komt een maximumprijs van € 10. Er is geen extra aanvoer. Alle aangeboden tenten worden verhuurd, aan de vragers met de hoogste betalingsbereidheid.",
+      "questions": [
+        "Bereken de vrije evenwichtsprijs en -hoeveelheid. Leg uit of de maximumprijs bindt.",
+        "Bereken de gevraagde en aangeboden hoeveelheid, het werkelijke aantal verhuurde tenten en het tekort.",
+        "Teken de maximumprijs in de basisgrafiek. Markeer Qv, Qa en het werkelijke aantal verhuringen. Geef het tekort aan.",
+        "Een huurder zegt: “De lagere huur is goed voor iedereen die voor € 10 een tent wil huren.” Beoordeel met de uitkomsten en de toewijzingsregel.",
+        "Stel dat de maximumprijs € 14 is in plaats van € 10. Geef dan de werkelijke huur en het aantal verhuringen. Licht toe."
+      ],
+      "kind": "target"
+    },
+    {
+      "number": 43,
+      "title": "Paddenstoelen in kratten",
+      "context": "Vraag P = 20 − 0,10Q; aanbod P = 8 + 0,10Q. Q is kratten per week; P is euro per krat. Regeling A voert een minimumprijs van € 16 in. De overheid koopt elk aangeboden krat dat particulieren niet kopen, tegen € 16. De telers leveren samen de aangeboden hoeveelheid.",
+      "questions": [
+        "Bereken het vrije evenwicht en leg uit of de minimumprijs bindt.",
+        "Bereken bij € 16 de particuliere vraag, het aanbod, het aanbodoverschot en de totale verkoop door telers.",
+        "Bereken de overheidsaankopen en de overheidsuitgaven per week. Markeer in de grafiek Pmin, Qv, Qa en de uitgavenrechthoek.",
+        "Regeling B vervangt A volledig: een productiequotum van 40 kratten. Alle 40 worden verkocht; de rechten zijn gratis verdeeld en de overheid koopt niets. Bereken de marktprijs, totale productie en overheidsuitgaven.",
+        "Een teler zegt: “Omdat beide regelingen dezelfde prijs geven, zijn ze economisch hetzelfde.” Beoordeel met twee berekende verschillen."
+      ],
+      "kind": "target"
+    },
+    {
+      "number": 48,
+      "title": "Twee plannen voor festivalbandjes",
+      "context": "Bronnen 1–3 op pagina 38; vraag Pc = 24 − 0,20Q en aanbod Pp = 6 + 0,10Q; plan A t=3; plan B Pmax=10.",
+      "questions": [
+        "Benoem de maatregelen van plan A en B. Bereken met bron 1 het vrije evenwicht.",
+        "Bereken voor plan A het nieuwe aanbod in kopersprijzen, de verkochte hoeveelheid, Pc en Pp. Noteer de economische last per bandje voor kopers en verkopers.",
+        "Bereken bij plan A de overheidsontvangsten, CS, PS en het welvaartsverlies. Gebruik de oorspronkelijke vraag- en aanbodlijn voor de surplusgebieden.",
+        "Markeer in de basisgrafiek de twee prijzen en de nieuwe hoeveelheid van plan A. Arceer de overheidsontvangsten en het welvaartsverlies verschillend. Benoem beide gebieden.",
+        "Bereken voor plan B Qv, Qa, werkelijke verkopen en tekort. Controleer eerst of de prijsregel bindt.",
+        "Beoordeel beide delen van de beleidsclaim uit bron 3. Gebruik minstens één berekening per deel. Geef daarna één verschil tussen de plannen dat voor kopers van belang is; trek geen niet-berekende algemene welvaartsconclusie over plan B."
+      ],
+      "kind": "target"
+    }
+  ]
+}

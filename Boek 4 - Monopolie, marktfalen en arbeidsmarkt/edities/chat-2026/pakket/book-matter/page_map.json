@@ -1,0 +1,100 @@
+{
+  "front": [
+    {
+      "local_page": 1,
+      "book_page": 1,
+      "title": ""
+    },
+    {
+      "local_page": 2,
+      "book_page": 2,
+      "title": "Colofon"
+    },
+    {
+      "local_page": 3,
+      "book_page": 3,
+      "title": "Voorwoord"
+    },
+    {
+      "local_page": 4,
+      "book_page": 4,
+      "title": "Inhoud"
+    }
+  ],
+  "back": [
+    {
+      "local_page": 1,
+      "book_page": 153,
+      "title": "Begrippenlijst"
+    },
+    {
+      "local_page": 2,
+      "book_page": 154,
+      "title": "Begrippenlijst · vervolg"
+    },
+    {
+      "local_page": 3,
+      "book_page": 155,
+      "title": "Begrippenlijst · vervolg"
+    },
+    {
+      "local_page": 4,
+      "book_page": 156,
+      "title": "Begrippenlijst · vervolg"
+    },
+    {
+      "local_page": 5,
+      "book_page": 157,
+      "title": "Begrippenlijst · vervolg"
+    },
+    {
+      "local_page": 6,
+      "book_page": 158,
+      "title": "Monopolie: hoeveelheid, prijs en winst"
+    },
+    {
+      "local_page": 7,
+      "book_page": 159,
+      "title": "Surplus en prijsdiscriminatie"
+    },
+    {
+      "local_page": 8,
+      "book_page": 160,
+      "title": "Externe effecten en beleid"
+    },
+    {
+      "local_page": 9,
+      "book_page": 161,
+      "title": "Arbeid, productiviteit en deelname"
+    },
+    {
+      "local_page": 10,
+      "book_page": 162,
+      "title": "Loon, werkgelegenheid en cao"
+    }
+  ],
+  "answers": [
+    {
+      "local_page": 1,
+      "book_page": 1,
+      "title": "Antwoorden"
+    },
+    {
+      "local_page": 2,
+      "book_page": 2,
+      "title": "Inhoud"
+    }
+  ],
+  "teacher": [
+    {
+      "local_page": 1,
+      "book_page": 1,
+      "title": "Docenteninformatie"
+    },
+    {
+      "local_page": 2,
+      "book_page": 2,
+      "title": "Leeswijzer bij de bundeling"
+    }
+  ]
+}

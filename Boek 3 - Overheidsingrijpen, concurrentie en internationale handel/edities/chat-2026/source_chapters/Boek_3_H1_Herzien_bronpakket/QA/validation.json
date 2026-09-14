@@ -1,0 +1,7154 @@
+{
+  "scope": "local reproducible checks; not repository CI, classroom testing or independent specialist review",
+  "student_pages": 48,
+  "answer_pages": 31,
+  "teacher_pages": 10,
+  "review_pages": 2,
+  "exercises": 51,
+  "subquestions": 141,
+  "targets": 6,
+  "figure_pairs": 47,
+  "checks": [
+    {
+      "check": "51 uniquely numbered exercises with three explicit additions",
+      "pass": true
+    },
+    {
+      "check": "141 subquestions",
+      "pass": true
+    },
+    {
+      "check": "answer keys match exercises",
+      "pass": true
+    },
+    {
+      "check": "exercise 1: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 1a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 1b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 1: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 1: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 2: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 2a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 2b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 2: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 2: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 3: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 3a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 3b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 3c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 3: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 3: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 4: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 4a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 4b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 4c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 4d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 4: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 4: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 5: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 5a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 5b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 5c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 5d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 5: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 5: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 6: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 6a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 6b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 6: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 6: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 7: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 7a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 7b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 7c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 7d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 7e: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 7: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 7: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 8: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 8a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 8b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 8: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 8: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 9: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 9a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 9b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 9: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 9: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 10: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 10a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 10: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 10: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 11: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 11a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 11: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 11: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 12: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 12a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 12b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 12c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 12: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 12: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 13: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 13a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 13b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 13c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 13: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 13: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 14: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 14a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 14b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 14c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 14: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 14: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 15: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 15a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 15b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 15: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 15: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 16: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 16a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 16b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 16c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 16d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 16e: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 16: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 16: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 17: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 17a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 17b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 17: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 17: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 18: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 18a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 18b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 18: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 18: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 19: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 19a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 19: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 19: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 20: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 20a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 20: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 20: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 21: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 21a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 21b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 21c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 21: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 21: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 22: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 22a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 22b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 22c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 22: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 22: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 22A: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 22Aa: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 22Ab: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 22Ac: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 22Ad: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 22A: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 22A: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 23: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 23a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 23b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 23c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 23: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 23: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 24: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 24a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 24b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 24: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 24: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 25: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 25a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 25b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 25c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 25d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 25e: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 25: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 25: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 26: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 26a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 26b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 26: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 26: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 27: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 27a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 27b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 27: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 27: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 28: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 28a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 28b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 28: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 28: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 29: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 29a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 29: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 29: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 30: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 30a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 30b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 30c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 30: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 30: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 31: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 31a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 31b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 31c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 31d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 31: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 31: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 32: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 32a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 32b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 32c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 32d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 32: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 32: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 33: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 33a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 33b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 33: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 33: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 34: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 34a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 34b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 34c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 34d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 34e: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 34: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 34: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 35: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 35a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 35b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 35c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 35: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 35: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 36: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 36a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 36b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 36: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 36: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 37: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 37a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 37: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 37: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 38: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 38a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 38: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 38: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 39: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 39a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 39b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 39c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 39: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 39: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 40: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 40a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 40b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 40c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 40: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 40: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 40A: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 40Aa: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 40Ab: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 40Ac: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 40A: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 40A: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 41: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 41a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 41b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 41c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 41: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 41: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 42: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 42a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 42b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 42: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 42: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 43: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 43a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 43b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 43c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 43d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 43e: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 43: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 43: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 44: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 44a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 44b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 44: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 44: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 45: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 45a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 45b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 45: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 45: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 46: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 46a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 46b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 46c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 46d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 46: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 46: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 47: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 47a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 47b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 47c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 47: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 47: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 47A: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 47Aa: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 47Ab: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 47Ac: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 47A: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 47A: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 48: answer count",
+      "pass": true
+    },
+    {
+      "check": "exercise 48a: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 48b: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 48c: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 48d: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 48e: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 48f: solution and reason",
+      "pass": true
+    },
+    {
+      "check": "exercise 48: printed in student",
+      "pass": true
+    },
+    {
+      "check": "exercise 48: printed in answers",
+      "pass": true
+    },
+    {
+      "check": "six authored targets",
+      "pass": true
+    },
+    {
+      "check": "31 target subquestions",
+      "pass": true
+    },
+    {
+      "check": "not falsely marked as integrated",
+      "pass": true
+    },
+    {
+      "check": "target 7: exact exercise record apart from page navigation",
+      "pass": true
+    },
+    {
+      "check": "target 16: exact exercise record apart from page navigation",
+      "pass": true
+    },
+    {
+      "check": "target 25: exact exercise record apart from page navigation",
+      "pass": true
+    },
+    {
+      "check": "target 34: exact exercise record apart from page navigation",
+      "pass": true
+    },
+    {
+      "check": "target 43: exact exercise record apart from page navigation",
+      "pass": true
+    },
+    {
+      "check": "target 48: exact exercise record apart from page navigation",
+      "pass": true
+    },
+    {
+      "check": "3.1.1: seven printed sections",
+      "pass": true,
+      "detail": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling / Herhaling en interleaving"
+      ]
+    },
+    {
+      "check": "3.1.1: non-heading summary between worked example and start",
+      "pass": true
+    },
+    {
+      "check": "3.1.1: optional guided route",
+      "pass": true
+    },
+    {
+      "check": "3.1.1: paper short route",
+      "pass": true
+    },
+    {
+      "check": "3.1.2: seven printed sections",
+      "pass": true,
+      "detail": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling / Herhaling en interleaving"
+      ]
+    },
+    {
+      "check": "3.1.2: non-heading summary between worked example and start",
+      "pass": true
+    },
+    {
+      "check": "3.1.2: optional guided route",
+      "pass": true
+    },
+    {
+      "check": "3.1.2: paper short route",
+      "pass": true
+    },
+    {
+      "check": "3.1.3: seven printed sections",
+      "pass": true,
+      "detail": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling / Herhaling en interleaving"
+      ]
+    },
+    {
+      "check": "3.1.3: non-heading summary between worked example and start",
+      "pass": true
+    },
+    {
+      "check": "3.1.3: optional guided route",
+      "pass": true
+    },
+    {
+      "check": "3.1.3: paper short route",
+      "pass": true
+    },
+    {
+      "check": "3.1.4: seven printed sections",
+      "pass": true,
+      "detail": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling / Herhaling en interleaving"
+      ]
+    },
+    {
+      "check": "3.1.4: non-heading summary between worked example and start",
+      "pass": true
+    },
+    {
+      "check": "3.1.4: optional guided route",
+      "pass": true
+    },
+    {
+      "check": "3.1.4: paper short route",
+      "pass": true
+    },
+    {
+      "check": "3.1.5: seven printed sections",
+      "pass": true,
+      "detail": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling / Herhaling en interleaving"
+      ]
+    },
+    {
+      "check": "3.1.5: non-heading summary between worked example and start",
+      "pass": true
+    },
+    {
+      "check": "3.1.5: optional guided route",
+      "pass": true
+    },
+    {
+      "check": "3.1.5: paper short route",
+      "pass": true
+    },
+    {
+      "check": "consolidation adds no worked-example theory",
+      "pass": true
+    },
+    {
+      "check": "correct canonical capacity word",
+      "pass": true
+    },
+    {
+      "check": "no compulsory digital support",
+      "pass": true
+    },
+    {
+      "check": "47 SVG/PNG pairs",
+      "pass": true
+    },
+    {
+      "check": "figure records cover SVG files",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.1_ans_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.1_ans_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.1_ans_3.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.1_ex_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.1_ex_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.1_fig_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.1_fig_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.1_target.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.2_ans_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.2_ans_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.2_ex_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.2_fig_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.2_fig_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.2_rev_ledger.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.2_rev_scales.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.2_target.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.3_ans_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.3_ans_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.3_ans_3.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.3_ex_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.3_ex_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.3_fig_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.3_fig_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.3_fig_3.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.3_target.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.4_ans_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.4_ans_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.4_ans_3.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.4_ex_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.4_ex_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.4_fig_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.4_target.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_ans_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_ans_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_ans_3.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_ans_4.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_ex_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_ex_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_fig_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_fig_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_rev_nopurchase.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_rev_quota_answer.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_rev_quota_base.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.5_target.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.6_ans_1.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.6_ans_2.svg",
+      "pass": true
+    },
+    {
+      "check": "asset exists: _assets/3.1.6_target.svg",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_2: buyer/seller sum equals tax",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: curve 2 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: curve 2 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: curve 2 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_fig_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_1: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ex_2: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_target: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: curve 2 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: curve 2 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: curve 2 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: curve 2 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: curve 2 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: curve 2 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: curve 2 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: curve 2 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: curve 2 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.1_ans_3: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: area CS actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: area CS independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: area PS actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: area PS independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: area O actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: area O independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: area W actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_fig_1: area W independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ex_1: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_target: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: area CS actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: area CS independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: area PS actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: area PS independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: area O actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: area O independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: area W actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_1: area W independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: area CS actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: area CS independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: area PS actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: area PS independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: area O actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: area O independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: area W actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_ans_2: area W independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: curve 2 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: curve 2 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: curve 2 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: area U actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_2: area U independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: area U actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: area U independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: area W actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_fig_3: area W independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_1: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ex_2: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_target: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: curve 2 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: curve 2 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: curve 2 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: area U actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_1: area U independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: curve 2 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: curve 2 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: curve 2 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: area U actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_2: area U independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: area U actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: area U independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: area W actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.3_ans_3: area W independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_fig_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_1: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ex_2: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_target: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.4_ans_3: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: area U actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_1: area U independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: bounded quota price",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_fig_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_1: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ex_2: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_target: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: area U actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_1: area U independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: area U actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_2: area U independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: area U actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_3: area U independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: bounded quota price",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_ans_4: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_target: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: new equilibrium and prices",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: wedge identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: welfare identity",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: area CS actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: area CS independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: area PS actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: area PS independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: area O actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: area O independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: area W actual SVG vertices",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_1: area W independently calculated",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.6_ans_2: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: six labelled amount blocks",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 0 value/area match",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 0 SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 1 value/area match",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 1 SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 2 value/area match",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 2 SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 3 value/area match",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 3 SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 4 value/area match",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 4 SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 5 value/area match",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: block 5 SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_ledger: welfare ledger uses one common scale",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_scales: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_scales: both identical demand functions drawn",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_scales: panel 0 actual endpoints obey same equation",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_scales: panel 0 horizontal coverage",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_scales: panel 1 actual endpoints obey same equation",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_scales: panel 1 horizontal coverage",
+      "pass": true
+    },
+    {
+      "check": "3.1.2_rev_scales: only vertical scale differs",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: amount of private transactions",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: binding status",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: point 2 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: point 2 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_nopurchase: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_base: exercise retains no solution areas",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: nonempty raster",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: original equilibrium",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: bounded quota price",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: labelled axes and original curves",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: curve 0 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: curve 0 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: curve 0 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: curve 1 endpoints obey function",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: curve 1 in viewport",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: curve 1 actual SVG line matches",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: all recorded dots rendered",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: point 0 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: point 0 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: point 1 on designated curve",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: point 1 actual SVG position",
+      "pass": true
+    },
+    {
+      "check": "3.1.5_rev_quota_answer: shaded areas complete",
+      "pass": true
+    },
+    {
+      "check": "rounding regression 49.99999999999999",
+      "pass": true
+    },
+    {
+      "check": "rounding regression 59.99999999999999",
+      "pass": true
+    },
+    {
+      "check": "rounding regression 69.99999999999999",
+      "pass": true
+    },
+    {
+      "check": "rounding regression 12.000000000000002",
+      "pass": true
+    },
+    {
+      "check": "rounding regression 1.5",
+      "pass": true
+    },
+    {
+      "check": "target tax graph labels 50, not 49",
+      "pass": true
+    },
+    {
+      "check": "tax fruit: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "tax fruit: p0",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "tax fruit: q",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "tax fruit: pc",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "tax fruit: pp",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "tax fruit: cs0",
+      "pass": true,
+      "detail": "180"
+    },
+    {
+      "check": "tax fruit: ps0",
+      "pass": true,
+      "detail": "180"
+    },
+    {
+      "check": "tax fruit: cs",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "tax fruit: ps",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "tax fruit: budget",
+      "pass": true,
+      "detail": "160"
+    },
+    {
+      "check": "tax fruit: net",
+      "pass": true,
+      "detail": "320"
+    },
+    {
+      "check": "tax fruit: w",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "posters/cards/stickers: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "posters/cards/stickers: p0",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "posters/cards/stickers: q",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "posters/cards/stickers: pc",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "posters/cards/stickers: pp",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "posters/cards/stickers: cs",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "posters/cards/stickers: ps",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "posters/cards/stickers: budget",
+      "pass": true,
+      "detail": "160"
+    },
+    {
+      "check": "posters/cards/stickers: w",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "mugs: q0",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "mugs: p0",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "mugs: q",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "mugs: pc",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "mugs: pp",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "mugs: buyer",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "mugs: seller",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "target bags 7/16: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "target bags 7/16: p0",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "target bags 7/16: q",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "target bags 7/16: pc",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "target bags 7/16: pp",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "target bags 7/16: cs0",
+      "pass": true,
+      "detail": "360"
+    },
+    {
+      "check": "target bags 7/16: ps0",
+      "pass": true,
+      "detail": "180"
+    },
+    {
+      "check": "target bags 7/16: cs",
+      "pass": true,
+      "detail": "250"
+    },
+    {
+      "check": "target bags 7/16: ps",
+      "pass": true,
+      "detail": "125"
+    },
+    {
+      "check": "target bags 7/16: budget",
+      "pass": true,
+      "detail": "150"
+    },
+    {
+      "check": "target bags 7/16: net",
+      "pass": true,
+      "detail": "525"
+    },
+    {
+      "check": "target bags 7/16: w",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "target bags 7/16: buyer",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "target bags 7/16: seller",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "controlled market A: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "controlled market A: p0",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "controlled market A: q",
+      "pass": true,
+      "detail": "45"
+    },
+    {
+      "check": "controlled market A: pc",
+      "pass": true,
+      "detail": "19/2"
+    },
+    {
+      "check": "controlled market A: pp",
+      "pass": true,
+      "detail": "13/2"
+    },
+    {
+      "check": "controlled market A: buyer",
+      "pass": true,
+      "detail": "3/2"
+    },
+    {
+      "check": "controlled market A: seller",
+      "pass": true,
+      "detail": "3/2"
+    },
+    {
+      "check": "controlled market B: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "controlled market B: p0",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "controlled market B: q",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "controlled market B: pc",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "controlled market B: pp",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "controlled market B: buyer",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "controlled market B: seller",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "new guided ceramics 22A: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "new guided ceramics 22A: p0",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "new guided ceramics 22A: q",
+      "pass": true,
+      "detail": "70"
+    },
+    {
+      "check": "new guided ceramics 22A: pc",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "new guided ceramics 22A: pp",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "new guided ceramics 22A: cs0",
+      "pass": true,
+      "detail": "360"
+    },
+    {
+      "check": "new guided ceramics 22A: ps0",
+      "pass": true,
+      "detail": "360"
+    },
+    {
+      "check": "new guided ceramics 22A: cs",
+      "pass": true,
+      "detail": "490"
+    },
+    {
+      "check": "new guided ceramics 22A: ps",
+      "pass": true,
+      "detail": "490"
+    },
+    {
+      "check": "new guided ceramics 22A: budget",
+      "pass": true,
+      "detail": "-280"
+    },
+    {
+      "check": "new guided ceramics 22A: net",
+      "pass": true,
+      "detail": "700"
+    },
+    {
+      "check": "new guided ceramics 22A: w",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "new mixed subsidy 47A: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "new mixed subsidy 47A: p0",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "new mixed subsidy 47A: q",
+      "pass": true,
+      "detail": "70"
+    },
+    {
+      "check": "new mixed subsidy 47A: pc",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "new mixed subsidy 47A: pp",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "new mixed subsidy 47A: cs0",
+      "pass": true,
+      "detail": "180"
+    },
+    {
+      "check": "new mixed subsidy 47A: ps0",
+      "pass": true,
+      "detail": "180"
+    },
+    {
+      "check": "new mixed subsidy 47A: cs",
+      "pass": true,
+      "detail": "245"
+    },
+    {
+      "check": "new mixed subsidy 47A: ps",
+      "pass": true,
+      "detail": "245"
+    },
+    {
+      "check": "new mixed subsidy 47A: budget",
+      "pass": true,
+      "detail": "-140"
+    },
+    {
+      "check": "new mixed subsidy 47A: net",
+      "pass": true,
+      "detail": "350"
+    },
+    {
+      "check": "new mixed subsidy 47A: w",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "new quota market 40A: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "new quota market 40A: p0",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "workshop subsidy: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "workshop subsidy: p0",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "workshop subsidy: q",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "workshop subsidy: pc",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "workshop subsidy: pp",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "workshop subsidy: cs",
+      "pass": true,
+      "detail": "320"
+    },
+    {
+      "check": "workshop subsidy: ps",
+      "pass": true,
+      "detail": "320"
+    },
+    {
+      "check": "workshop subsidy: budget",
+      "pass": true,
+      "detail": "-320"
+    },
+    {
+      "check": "workshop subsidy: net",
+      "pass": true,
+      "detail": "320"
+    },
+    {
+      "check": "workshop subsidy: w",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "music subsidy: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "music subsidy: p0",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "music subsidy: q",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "music subsidy: pc",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "music subsidy: pp",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "music subsidy: cs",
+      "pass": true,
+      "detail": "320"
+    },
+    {
+      "check": "music subsidy: ps",
+      "pass": true,
+      "detail": "320"
+    },
+    {
+      "check": "music subsidy: budget",
+      "pass": true,
+      "detail": "-320"
+    },
+    {
+      "check": "music subsidy: net",
+      "pass": true,
+      "detail": "320"
+    },
+    {
+      "check": "music subsidy: w",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "sport subsidy: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "sport subsidy: p0",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "sport subsidy: q",
+      "pass": true,
+      "detail": "70"
+    },
+    {
+      "check": "sport subsidy: pc",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "sport subsidy: pp",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "sport subsidy: cs",
+      "pass": true,
+      "detail": "490"
+    },
+    {
+      "check": "sport subsidy: ps",
+      "pass": true,
+      "detail": "245"
+    },
+    {
+      "check": "sport subsidy: budget",
+      "pass": true,
+      "detail": "-210"
+    },
+    {
+      "check": "sport subsidy: net",
+      "pass": true,
+      "detail": "525"
+    },
+    {
+      "check": "sport subsidy: w",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "target courses 25: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "target courses 25: p0",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "target courses 25: q",
+      "pass": true,
+      "detail": "70"
+    },
+    {
+      "check": "target courses 25: pc",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "target courses 25: pp",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "target courses 25: cs",
+      "pass": true,
+      "detail": "490"
+    },
+    {
+      "check": "target courses 25: ps",
+      "pass": true,
+      "detail": "245"
+    },
+    {
+      "check": "target courses 25: budget",
+      "pass": true,
+      "detail": "-210"
+    },
+    {
+      "check": "target courses 25: net",
+      "pass": true,
+      "detail": "525"
+    },
+    {
+      "check": "target courses 25: w",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "target mixed 48: q0",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "target mixed 48: p0",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "target mixed 48: q",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "target mixed 48: pc",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "target mixed 48: pp",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "target mixed 48: cs",
+      "pass": true,
+      "detail": "250"
+    },
+    {
+      "check": "target mixed 48: ps",
+      "pass": true,
+      "detail": "125"
+    },
+    {
+      "check": "target mixed 48: budget",
+      "pass": true,
+      "detail": "150"
+    },
+    {
+      "check": "target mixed 48: net",
+      "pass": true,
+      "detail": "525"
+    },
+    {
+      "check": "target mixed 48: w",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "retrieval surplus 36: q0",
+      "pass": true,
+      "detail": "32"
+    },
+    {
+      "check": "retrieval surplus 36: p0",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "retrieval surplus 36: cs0",
+      "pass": true,
+      "detail": "256"
+    },
+    {
+      "check": "retrieval surplus 36: ps0",
+      "pass": true,
+      "detail": "128"
+    },
+    {
+      "check": "puzzles: quantities and gap",
+      "pass": true
+    },
+    {
+      "check": "painting: quantities and gap",
+      "pass": true
+    },
+    {
+      "check": "boardgames: quantities and gap",
+      "pass": true
+    },
+    {
+      "check": "target tent 34: quantities and gap",
+      "pass": true
+    },
+    {
+      "check": "mixed ceiling 48: quantities and gap",
+      "pass": true
+    },
+    {
+      "check": "apples floor: quantities and gap",
+      "pass": true
+    },
+    {
+      "check": "apples floor: quota40 price matches stated floor",
+      "pass": true
+    },
+    {
+      "check": "apples floor: public purchase costs",
+      "pass": true
+    },
+    {
+      "check": "pears floor: quantities and gap",
+      "pass": true
+    },
+    {
+      "check": "pears floor: quota40 price matches stated floor",
+      "pass": true
+    },
+    {
+      "check": "pears floor: public purchase costs",
+      "pass": true
+    },
+    {
+      "check": "plums floor: quantities and gap",
+      "pass": true
+    },
+    {
+      "check": "plums floor: quota40 price matches stated floor",
+      "pass": true
+    },
+    {
+      "check": "plums floor: public purchase costs",
+      "pass": true
+    },
+    {
+      "check": "target mushrooms 43: quantities and gap",
+      "pass": true
+    },
+    {
+      "check": "target mushrooms 43: quota40 price matches stated floor",
+      "pass": true
+    },
+    {
+      "check": "target mushrooms 43: public purchase costs",
+      "pass": true
+    },
+    {
+      "check": "new mixed 47A tax revenue",
+      "pass": true,
+      "detail": "135"
+    },
+    {
+      "check": "new mixed 47A private gains",
+      "pass": true,
+      "detail": "130"
+    },
+    {
+      "check": "new mixed 47A welfare effect",
+      "pass": true,
+      "detail": "-10"
+    },
+    {
+      "check": "new quota 40A price",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "new quota 40A supply reading",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "new quota 40A nonbinding quantity",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "new guided22A gains",
+      "pass": true,
+      "detail": "260"
+    },
+    {
+      "check": "new guided22A expenditure on prior sales",
+      "pass": true,
+      "detail": "240"
+    },
+    {
+      "check": "new guided22A triangle loss",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "retrieval 1 quantity",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "retrieval 1 substitution",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "retrieval 10 CS",
+      "pass": true,
+      "detail": "160"
+    },
+    {
+      "check": "retrieval 10 PS",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "retrieval 18 profit",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "check": "bonus 35 allocation A",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "bonus 35 allocation B",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "review 9 Ev",
+      "pass": true,
+      "detail": "-1/2"
+    },
+    {
+      "check": "review 45 Ev",
+      "pass": true,
+      "detail": "-1/2"
+    },
+    {
+      "check": "review 45 revenue rise",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "mixed 47 purchase",
+      "pass": true,
+      "detail": "480"
+    },
+    {
+      "check": "subsidy start20 budget",
+      "pass": true,
+      "detail": "120"
+    },
+    {
+      "check": "cost review27 old",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "cost review27 new",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "answer 7: expected value 60 tassen",
+      "pass": true
+    },
+    {
+      "check": "answer 7: expected value 50 tassen",
+      "pass": true
+    },
+    {
+      "check": "answer 7: expected value € 10",
+      "pass": true
+    },
+    {
+      "check": "answer 7: expected value € 7",
+      "pass": true
+    },
+    {
+      "check": "answer 16: expected value € 250",
+      "pass": true
+    },
+    {
+      "check": "answer 16: expected value € 125",
+      "pass": true
+    },
+    {
+      "check": "answer 16: expected value € 150",
+      "pass": true
+    },
+    {
+      "check": "answer 16: expected value € 525",
+      "pass": true
+    },
+    {
+      "check": "answer 16: expected value € 15",
+      "pass": true
+    },
+    {
+      "check": "answer 25: expected value 70",
+      "pass": true
+    },
+    {
+      "check": "answer 25: expected value € 12",
+      "pass": true
+    },
+    {
+      "check": "answer 25: expected value € 15",
+      "pass": true
+    },
+    {
+      "check": "answer 25: expected value € 210",
+      "pass": true
+    },
+    {
+      "check": "answer 25: expected value € 490",
+      "pass": true
+    },
+    {
+      "check": "answer 25: expected value € 245",
+      "pass": true
+    },
+    {
+      "check": "answer 25: expected value € 525",
+      "pass": true
+    },
+    {
+      "check": "answer 34: expected value 60 tenten",
+      "pass": true
+    },
+    {
+      "check": "answer 34: expected value 80",
+      "pass": true
+    },
+    {
+      "check": "answer 34: expected value 40",
+      "pass": true
+    },
+    {
+      "check": "answer 34: expected value € 12",
+      "pass": true
+    },
+    {
+      "check": "answer 43: expected value 60 kratten",
+      "pass": true
+    },
+    {
+      "check": "answer 43: expected value € 14",
+      "pass": true
+    },
+    {
+      "check": "answer 43: expected value 80 kratten",
+      "pass": true
+    },
+    {
+      "check": "answer 43: expected value € 640",
+      "pass": true
+    },
+    {
+      "check": "answer 43: expected value 40 kratten",
+      "pass": true
+    },
+    {
+      "check": "answer 43: expected value € 16",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value 60 bandjes",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value € 12",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value 50",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value € 14",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value € 11",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value € 150",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value € 15",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value 70",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value 40",
+      "pass": true
+    },
+    {
+      "check": "answer 48: expected value 30 bandjes",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen: page count",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen: no overflow/reflow pages",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p1: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p1: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p1: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p2: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p2: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p2: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p3: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p3: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p3: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p4: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p4: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p4: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p5: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p5: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p5: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p6: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p6: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p6: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p7: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p7: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p7: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p8: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p8: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p8: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p9: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p9: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p9: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p10: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p10: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p10: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p11: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p11: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p11: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p12: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p12: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p12: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p13: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p13: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p13: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p14: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p14: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p14: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p15: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p15: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p15: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p16: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p16: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p16: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p17: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p17: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p17: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p18: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p18: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p18: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p19: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p19: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p19: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p20: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p20: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p20: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p21: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p21: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p21: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p22: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p22: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p22: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p23: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p23: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p23: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p24: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p24: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p24: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p25: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p25: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p25: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p26: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p26: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p26: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p27: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p27: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p27: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p28: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p28: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p28: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p29: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p29: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p29: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p30: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p30: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p30: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p31: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p31: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p31: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p32: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p32: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p32: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p33: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p33: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p33: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p34: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p34: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p34: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p35: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p35: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p35: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p36: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p36: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p36: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p37: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p37: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p37: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p38: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p38: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p38: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p39: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p39: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p39: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p40: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p40: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p40: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p41: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p41: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p41: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p42: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p42: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p42: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p43: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p43: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p43: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p44: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p44: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p44: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p45: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p45: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p45: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p46: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p46: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p46: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p47: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p47: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p47: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p48: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p48: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen p48: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Overheidsingrijpen: PDF bookmarks",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden: page count",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden: no overflow/reflow pages",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p1: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p1: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p1: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p2: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p2: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p2: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p3: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p3: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p3: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p4: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p4: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p4: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p5: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p5: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p5: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p6: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p6: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p6: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p7: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p7: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p7: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p8: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p8: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p8: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p9: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p9: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p9: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p10: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p10: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p10: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p11: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p11: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p11: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p12: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p12: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p12: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p13: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p13: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p13: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p14: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p14: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p14: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p15: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p15: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p15: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p16: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p16: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p16: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p17: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p17: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p17: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p18: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p18: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p18: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p19: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p19: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p19: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p20: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p20: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p20: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p21: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p21: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p21: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p22: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p22: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p22: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p23: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p23: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p23: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p24: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p24: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p24: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p25: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p25: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p25: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p26: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p26: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p26: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p27: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p27: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p27: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p28: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p28: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p28: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p29: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p29: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p29: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p30: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p30: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p30: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p31: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p31: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden p31: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Antwoorden: PDF bookmarks",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie: page count",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie: no overflow/reflow pages",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p1: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p1: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p1: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p2: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p2: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p2: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p3: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p3: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p3: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p4: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p4: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p4: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p5: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p5: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p5: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p6: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p6: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p6: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p7: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p7: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p7: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p8: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p8: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p8: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p9: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p9: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p9: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p10: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p10: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie p10: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Docenteninformatie: PDF bookmarks",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Beoordeling_en_wijzigingen: page count",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Beoordeling_en_wijzigingen: no overflow/reflow pages",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Beoordeling_en_wijzigingen p1: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Beoordeling_en_wijzigingen p1: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Beoordeling_en_wijzigingen p1: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Beoordeling_en_wijzigingen p2: searchable, nonblank",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Beoordeling_en_wijzigingen p2: no missing Unicode",
+      "pass": true
+    },
+    {
+      "check": "Boek_3_H1_Beoordeling_en_wijzigingen p2: text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_3_H1_Beoordeling_en_wijzigingen: PDF bookmarks",
+      "pass": true
+    },
+    {
+      "check": "TOC section starts p2",
+      "pass": true
+    },
+    {
+      "check": "TOC section starts p10",
+      "pass": true
+    },
+    {
+      "check": "TOC section starts p19",
+      "pass": true
+    },
+    {
+      "check": "TOC section starts p28",
+      "pass": true
+    },
+    {
+      "check": "TOC section starts p35",
+      "pass": true
+    },
+    {
+      "check": "TOC section starts p44",
+      "pass": true
+    },
+    {
+      "check": "mixed target sources face questions",
+      "pass": true
+    },
+    {
+      "check": "chapter ceiling includes overview",
+      "pass": true
+    },
+    {
+      "check": "six target records byte-equivalent to baseline semantic JSON",
+      "pass": true
+    },
+    {
+      "check": "baseline target 7 answers preserved",
+      "pass": true
+    },
+    {
+      "check": "baseline target 16 answers preserved",
+      "pass": true
+    },
+    {
+      "check": "baseline target 25 answers preserved",
+      "pass": true
+    },
+    {
+      "check": "baseline target 34 answers preserved",
+      "pass": true
+    },
+    {
+      "check": "baseline target 43 answers preserved",
+      "pass": true
+    },
+    {
+      "check": "baseline target 48 answers preserved",
+      "pass": true
+    },
+    {
+      "check": "source typo Qsubub removed",
+      "pass": true
+    },
+    {
+      "check": "student type size not reduced",
+      "pass": true
+    },
+    {
+      "check": "controlled incidence is core theory before target",
+      "pass": true
+    },
+    {
+      "check": "subsidy loss image is core theory before target",
+      "pass": true
+    },
+    {
+      "check": "added targeted guidance remains optional",
+      "pass": true
+    },
+    {
+      "check": "original 40 page topics retained in original order",
+      "pass": true
+    },
+    {
+      "check": "added teaching page 4 within budget",
+      "pass": true
+    },
+    {
+      "check": "added teaching page 12 within budget",
+      "pass": true
+    },
+    {
+      "check": "added teaching page 13 within budget",
+      "pass": true
+    },
+    {
+      "check": "added teaching page 21 within budget",
+      "pass": true
+    },
+    {
+      "check": "added teaching page 24 within budget",
+      "pass": true
+    },
+    {
+      "check": "added teaching page 36 within budget",
+      "pass": true
+    },
+    {
+      "check": "added teaching page 40 within budget",
+      "pass": true
+    },
+    {
+      "check": "added teaching page 45 within budget",
+      "pass": true
+    },
+    {
+      "check": "answer introduction describes revised chapter",
+      "pass": true
+    },
+    {
+      "check": "answer section 3.1.1 starts page 2",
+      "pass": true
+    },
+    {
+      "check": "answer section 3.1.2 starts page 7",
+      "pass": true
+    },
+    {
+      "check": "answer section 3.1.3 starts page 11",
+      "pass": true
+    },
+    {
+      "check": "answer section 3.1.4 starts page 17",
+      "pass": true
+    },
+    {
+      "check": "answer section 3.1.5 starts page 22",
+      "pass": true
+    },
+    {
+      "check": "answer section 3.1.6 starts page 28",
+      "pass": true
+    },
+    {
+      "check": "uploaded outline preserved: book-3-outline-v2(1).md",
+      "pass": true
+    },
+    {
+      "check": "uploaded outline preserved: book-4-outline-v2(1).md",
+      "pass": true
+    },
+    {
+      "check": "no font binaries shared",
+      "pass": true
+    }
+  ],
+  "passed": 1711,
+  "failed": 0
+}

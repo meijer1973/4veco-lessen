@@ -1,0 +1,530 @@
+[
+  {
+    "file": "00 Inleiding.md",
+    "sha256": "286c26a3218ec29cb708a7b231c33d2173e40fee1e5890ce099dbfb26e9b762a"
+  },
+  {
+    "file": "05 Overzicht.md",
+    "sha256": "44dbde42c9ac7ab443b60876960bbb3e447ab9b32af15fcb9cbe9d6dcc207167"
+  },
+  {
+    "file": "4.1 Monopolie – hoofdstuk.md",
+    "sha256": "3fbedd279c98b25a715cbabd8310f0ad5457517fb80a47d7dca39cb4e5ff2ff2"
+  },
+  {
+    "file": "4.1.1 manuscript.md",
+    "sha256": "070d5ffa88c1144885b5de62111283f01870005562df34d3ba93ab2f53524bc5"
+  },
+  {
+    "file": "4.1.2 manuscript.md",
+    "sha256": "5183744848fbdac8c53c5a9d5a10c7b6995add42d3bb1387d412adba8586e523"
+  },
+  {
+    "file": "4.1.3 manuscript.md",
+    "sha256": "af060f649a0448b804665ef621239d5926253c4631216d7b8e5df5e28da9b984"
+  },
+  {
+    "file": "4.1.4 manuscript.md",
+    "sha256": "d8a93ab8d8aa106a88b64e9cc9529918aef87689a010d32409c225a77a7c9146"
+  },
+  {
+    "file": "Antwoorden.md",
+    "sha256": "45ffa3830674220cd3a53e3ecf49810bba57a27897fd7b3805f3b09e04223a7b"
+  },
+  {
+    "file": "Docenteninformatie.md",
+    "sha256": "6941825597800b2b9e3d4d666ffaf5272cbeac91c1725aa9e118751b323c1730"
+  },
+  {
+    "file": "QA/Boek_4_H1_Antwoorden_page_map.json",
+    "sha256": "12e5dfa13b593177248fe74ecf64e0db4febfd349fa79bf5732f23d11316380c"
+  },
+  {
+    "file": "QA/Boek_4_H1_Docenteninformatie_page_map.json",
+    "sha256": "402baf28c9ddb80f84819e8c067c18f11b3e30a806150e825d862cb1f2f6ae2c"
+  },
+  {
+    "file": "QA/Boek_4_H1_Monopolie_page_map.json",
+    "sha256": "72dced2ced1bd3a59ffbdb21de0378a322771b93161ff6c77f20dfccae58973a"
+  },
+  {
+    "file": "QA/answer-figures.json",
+    "sha256": "e4dbc421472907893e44645127e48b98a55be124593080ebe47f86306e272599"
+  },
+  {
+    "file": "QA/answers.json",
+    "sha256": "89431303861b7721d2433e1e5770bf5b950298b35edd185fcfb74a15ad98177f"
+  },
+  {
+    "file": "QA/build-environment.json",
+    "sha256": "e313eaeaca5b0f1bc55742ec6645a710c46e1a5c1ca746c46368975e0e06aa61"
+  },
+  {
+    "file": "QA/direct-http-access-log.json",
+    "sha256": "3087744df7252bb7e1a10adb06a2318b0b0cc22d64c2a815a8565b61d4739d29"
+  },
+  {
+    "file": "QA/exercises.json",
+    "sha256": "0bc32eb83a5108cbff4ab20ad681fd74146a4c2cb8effc95739a0c73372b4c75"
+  },
+  {
+    "file": "QA/figure_geometry.json",
+    "sha256": "f99c3c78ee3c5cf8b913703ef41c87c9c9e9a8dd6625f029419eb31c3d89acd9"
+  },
+  {
+    "file": "QA/instructional-figures.json",
+    "sha256": "8a1305333857b5290e5ef8edd883d2824365941fd610c97b73770ef088d1919a"
+  },
+  {
+    "file": "QA/numerical-checks.json",
+    "sha256": "30acdf0ad19504a2975421ab452bcf54eb3beec96da58d44040e6baa24c7a0cf"
+  },
+  {
+    "file": "QA/ontwerp.md",
+    "sha256": "e39ba86dc2cd7d9597fc89ff52668ff36aff7efc5df9a4f9918e61569b3580ba"
+  },
+  {
+    "file": "QA/paragraph_exports.json",
+    "sha256": "8a07c6b1adf846a6e4ff571fd7cdbb6459e9b2192ae56d63d147a5cfc57fa68f"
+  },
+  {
+    "file": "QA/release-manifest.json",
+    "sha256": "6b24aa68242cc5d2f0563d4e14a38093095e4388b7f0fdf79e6594814e6c3155"
+  },
+  {
+    "file": "QA/source-register.json",
+    "sha256": "022808d01e98ca1b33d237415ca32a46d665c3fee1d50c4c448138f1f169d6ec"
+  },
+  {
+    "file": "QA/validation.json",
+    "sha256": "ac989ee57c2525e93209732956ec428eb66312a65d76f7920b2cf31449d09649"
+  },
+  {
+    "file": "QA/visual-review.md",
+    "sha256": "601ae95909041a35f141a1264b74c2bd4c34b0e9f23d12e5c026f69389a97991"
+  },
+  {
+    "file": "README.md",
+    "sha256": "37ba2aa5800ef567d9ab4163f398311a282aeda065036a2f0e9a4971b734d024"
+  },
+  {
+    "file": "_assets/4.1.1_ans_8.png",
+    "sha256": "7f24e8c1d8309dcde0df9f58cb705a1974f85731faa5d870621290388e821365"
+  },
+  {
+    "file": "_assets/4.1.1_ans_8.svg",
+    "sha256": "2762c20c6fd799ed30f660f7d06ed9e7e46d62ee6ca9d03c6283e78252f3778d"
+  },
+  {
+    "file": "_assets/4.1.1_ex_3.png",
+    "sha256": "4a3957c6fce6d023507a98e270058039240b3f68926038de0f1dbf07841610a4"
+  },
+  {
+    "file": "_assets/4.1.1_ex_3.svg",
+    "sha256": "1d35698ed02a2b8a69c870e20fb862e5a82e3c2a6f25152e6b870f6186818086"
+  },
+  {
+    "file": "_assets/4.1.1_fig_1.png",
+    "sha256": "e659368c225bb08bbdd0c6eb63d4153f07e7aec6f32f597f8f18b6ceb1b21c1c"
+  },
+  {
+    "file": "_assets/4.1.1_fig_1.svg",
+    "sha256": "f0020c3c93f18f1d8fc2e898e48a59c8987e05843d97c38f95f641863a3d9b62"
+  },
+  {
+    "file": "_assets/4.1.1_fig_2.png",
+    "sha256": "21520371851638b070bf6ae3d1d963dcf2414b3c1d82e305e9df0f7cf8736862"
+  },
+  {
+    "file": "_assets/4.1.1_fig_2.svg",
+    "sha256": "b337dc4086468ec9ecabebc8f7c4d22da47a611c355655cafa945da1c777a4b9"
+  },
+  {
+    "file": "_assets/4.1.1_target.png",
+    "sha256": "e562f273a79e942834ef719132b31014d368ace481aa4bfcb0193f1cc64f71a7"
+  },
+  {
+    "file": "_assets/4.1.1_target.svg",
+    "sha256": "9f4ac93ff25324d26f504f0b62232c1dfdb24f4310df0a4715faf81655250101"
+  },
+  {
+    "file": "_assets/4.1.2_ans_18.png",
+    "sha256": "fb3e3be827518e667eb70be7bef775dd88b858218a3b1156049c5038a24f10fd"
+  },
+  {
+    "file": "_assets/4.1.2_ans_18.svg",
+    "sha256": "d6c579a8d2842666f432d5d381ec7fcb4678463eeb2fe978b4aa4eda2871856f"
+  },
+  {
+    "file": "_assets/4.1.2_ex_13.png",
+    "sha256": "984df1156404e9a08f6b594aa76a33e395984b6803677441fb14a9c792239739"
+  },
+  {
+    "file": "_assets/4.1.2_ex_13.svg",
+    "sha256": "4da6f8b9b03e5e2ae42a16467a394f1099bf90498124e02c035a1df5b535f25f"
+  },
+  {
+    "file": "_assets/4.1.2_ex_17.png",
+    "sha256": "e9d9260104f573bcb283722366af6570ffa8210e3237cdba4596c2ffd4a2871e"
+  },
+  {
+    "file": "_assets/4.1.2_ex_17.svg",
+    "sha256": "758fd91be4e64215600227de04e2b4c56fe0c0963f483106adb36aadc7894ac3"
+  },
+  {
+    "file": "_assets/4.1.2_fig_1.png",
+    "sha256": "25eb553ad74da51ca688fca33f1a07686ffa49719a0dc37cf47bb4e3f8d09517"
+  },
+  {
+    "file": "_assets/4.1.2_fig_1.svg",
+    "sha256": "817ebf2019abcbd669893305f1c61936df5b18d687980082ef45254152f4f621"
+  },
+  {
+    "file": "_assets/4.1.2_fig_2.png",
+    "sha256": "ee19ecb850154dc5e0fd90ef5c0fb5233d0e3851cc9e037c87b83a600cf40ecd"
+  },
+  {
+    "file": "_assets/4.1.2_fig_2.svg",
+    "sha256": "d1f0cd54a7f2d78c609469609bc4a234c0401a4ebe355c2c34aa54d68682ce95"
+  },
+  {
+    "file": "_assets/4.1.2_fig_3.png",
+    "sha256": "c46b215aa6b07eb147908f0e555fc39fd6d02ee0d91cc5b4584137a68a349ecf"
+  },
+  {
+    "file": "_assets/4.1.2_fig_3.svg",
+    "sha256": "85dbd2422eb5970d154b8cb880085a194b31d8ae6306ce2dcd023bead58350d9"
+  },
+  {
+    "file": "_assets/4.1.2_fig_4.png",
+    "sha256": "30ccd848b5b431d9c22ded54da4f70534a0e13297ef71b72fe124684e25f7d3f"
+  },
+  {
+    "file": "_assets/4.1.2_fig_4.svg",
+    "sha256": "b5a140c2739fc64852e371333591e566b376c9c90b19f3f5ed63454a29145ced"
+  },
+  {
+    "file": "_assets/4.1.2_we.png",
+    "sha256": "14c9218d3e003c9736d915d01f247acfea8fd8758a9db44e69ccbec4535a867c"
+  },
+  {
+    "file": "_assets/4.1.2_we.svg",
+    "sha256": "76ea27d7f1c37e7a513f25e5233e8114ec20e40c9c11102a4925ce1523d12ade"
+  },
+  {
+    "file": "_assets/4.1.3_ans_24.png",
+    "sha256": "bbaa974b64c6fcb7ca2e6c37acc88bd5bf8ee299addd7056408ae0d143520c81"
+  },
+  {
+    "file": "_assets/4.1.3_ans_24.svg",
+    "sha256": "fc1182607ed53efa3c416510d9e3f9a3a1c7c014b902b81c8e4d44108829c4de"
+  },
+  {
+    "file": "_assets/4.1.3_ans_26.png",
+    "sha256": "63a97a2646c17b6420d88282bf719a49902f725154d6693f41e2210a0e150a6b"
+  },
+  {
+    "file": "_assets/4.1.3_ans_26.svg",
+    "sha256": "f4ebb0849ee811221b3fde70c0ebd8e3e7c54ff3fca44d65c13390625c7ea6dc"
+  },
+  {
+    "file": "_assets/4.1.3_ans_27.png",
+    "sha256": "c4944f48ab95956595796181ca7b1a2b9807be7c3b6a63e4d3b6e1e37fd942a4"
+  },
+  {
+    "file": "_assets/4.1.3_ans_27.svg",
+    "sha256": "440c51c9c8183123986acb7b6dd862f37599b167ea32180413ae64d347a884e0"
+  },
+  {
+    "file": "_assets/4.1.3_ans_28.png",
+    "sha256": "51203e90bf44d49cf6c1e739e7a6a9a962e27889041ca088c3ff85b26d347fef"
+  },
+  {
+    "file": "_assets/4.1.3_ans_28.svg",
+    "sha256": "1b6b9b382d9424eef7601210754252f84bfd1af008690e46176f2814074601f2"
+  },
+  {
+    "file": "_assets/4.1.3_ans_28_profit.png",
+    "sha256": "72dad992a990cb4acc8bcb9e329277e9f8be7af7f8dc1308c44151120b0cc7d1"
+  },
+  {
+    "file": "_assets/4.1.3_ans_28_profit.svg",
+    "sha256": "a8cd5971e8b7f19d41658b99a6a91283dd1c9344cc78542d195900818ae84eb3"
+  },
+  {
+    "file": "_assets/4.1.3_ex_23.png",
+    "sha256": "eaaea2c9e231d3df7d71f513c42eb32a84b1aa27d2f96ad0eb9713d841c333ab"
+  },
+  {
+    "file": "_assets/4.1.3_ex_23.svg",
+    "sha256": "d6eb629da4228e3190e0cc08d31cbf910a13fecf934d9fa94749d90d47a391e6"
+  },
+  {
+    "file": "_assets/4.1.3_ex_24.png",
+    "sha256": "11c7fc25b35f1a9643a5c2f615ec9c9dab4b630a75a8730ba9eb2298667e1a88"
+  },
+  {
+    "file": "_assets/4.1.3_ex_24.svg",
+    "sha256": "fb37c98cc6fa0c289ad5ab23e8e1c8bd2d22e026b3fadf0d60440b86545bbeac"
+  },
+  {
+    "file": "_assets/4.1.3_ex_26.png",
+    "sha256": "5dbf7640bf72771028c35f90c674568b2c5ec95e0f27723acd96e227d2832583"
+  },
+  {
+    "file": "_assets/4.1.3_ex_26.svg",
+    "sha256": "a5275b25b3a1a8e3d1cf0ae8c562a1e9eea21b926b2e91d8eda6f354d7215c7e"
+  },
+  {
+    "file": "_assets/4.1.3_fig_1.png",
+    "sha256": "fd3cc8abed98873efb5d441f2f0fbbf135d9bec203fb248632f829d74921dbc3"
+  },
+  {
+    "file": "_assets/4.1.3_fig_1.svg",
+    "sha256": "f32489f291794a5eeb6ba9921ca5a9e692588daa50744a152b2d35d71ff11058"
+  },
+  {
+    "file": "_assets/4.1.3_fig_2.png",
+    "sha256": "d7951571c6f283c096a23b0545cfef8b0245472c124aeb254faccad12ef410ae"
+  },
+  {
+    "file": "_assets/4.1.3_fig_2.svg",
+    "sha256": "438679acfa6550a754fd5c87cd15b2e3c1ef0ab99db34c1e37485e52cb2f0fd0"
+  },
+  {
+    "file": "_assets/4.1.3_fig_3.png",
+    "sha256": "4bf2d1c4c55931233ce399b3cae112187e459bf3de0b8fe2c61632ad1926836c"
+  },
+  {
+    "file": "_assets/4.1.3_fig_3.svg",
+    "sha256": "00b2478728565d01465b4f059917e8b1833891039e656617fa4d32d76639070f"
+  },
+  {
+    "file": "_assets/4.1.3_fig_4.png",
+    "sha256": "92e861e7d78f8407737d127f7efba828aed2ac272880be9e3faa80e34097a695"
+  },
+  {
+    "file": "_assets/4.1.3_fig_4.svg",
+    "sha256": "c564a15191729346400dea23c6fd9a67572a1f21cda01f016b8efc66358cb7aa"
+  },
+  {
+    "file": "_assets/4.1.3_target.png",
+    "sha256": "b217bb6ee0bacb1c2467e9fc97a3e41257703cea86a7fc7688b169a3e86b69f2"
+  },
+  {
+    "file": "_assets/4.1.3_target.svg",
+    "sha256": "b0d8828145077ad624af6d76c98f18604b173f268a3ee84bcca51cefa9641d53"
+  },
+  {
+    "file": "_assets/4.1.3_we.png",
+    "sha256": "cc8c46b52f22e7d303608128080182f9e29295ca5ce61af3b5337bc4456c3f53"
+  },
+  {
+    "file": "_assets/4.1.3_we.svg",
+    "sha256": "2acd605f57ecb128228aa7fee43aeaa0a57a374af1b95655476d2a5919598a89"
+  },
+  {
+    "file": "_assets/4.1.4_ans_35.png",
+    "sha256": "b79f690625fdfed883118864ef3ae79cc9c8b5f46bdb9106031d4c029bfe779d"
+  },
+  {
+    "file": "_assets/4.1.4_ans_35.svg",
+    "sha256": "e6119815188c045175ab9b287901b49d2b2f09f29719b19aa4ba7ac2c634a524"
+  },
+  {
+    "file": "_assets/4.1.4_target.png",
+    "sha256": "da7e2e611e7ae57d3ceb104716da3bd659219ea8dc9db24a66cca0ce354d35a3"
+  },
+  {
+    "file": "_assets/4.1.4_target.svg",
+    "sha256": "a35a985f73da21de7d88e698422674565b09f3e0b1d4c87dce6761d4e5264ed9"
+  },
+  {
+    "file": "_assets/4.1_opener.png",
+    "sha256": "80ada129d76712ec2913b0a6deb5f6df339ed89c3752e77aaca07c7ad73ac31d"
+  },
+  {
+    "file": "_assets/4.1_opener.svg",
+    "sha256": "f9960a2b2f898d298b5774f14ccbb8c16c68dcdedd5df9082a31e0b21d160e9f"
+  },
+  {
+    "file": "_assets/4.1_overview.png",
+    "sha256": "e41df1997c8f96eb9dc59f8b6a043174505fca745d69eae3ae6bf477d13003e7"
+  },
+  {
+    "file": "_assets/4.1_overview.svg",
+    "sha256": "b566a886cb01ca95ba98ccd731f36826ec8bb76183bca7df155a1bf637a5415a"
+  },
+  {
+    "file": "author_answers.py",
+    "sha256": "582e4456cb8bbfaf18c3e1061ef71b3c8ff3a60c2d5d8b3b07ed9234d5457a82"
+  },
+  {
+    "file": "author_chapter.py",
+    "sha256": "24fac6f756fe05bff6e1090803832b89ab0b51939de6b16d83dd74576ee31863"
+  },
+  {
+    "file": "author_teacher.py",
+    "sha256": "bb353d758bee4b77e0c4c72324389c6c31d31ebb118b1db3b664b0e6357cf8eb"
+  },
+  {
+    "file": "bronnen/book-3-outline-v2.md",
+    "sha256": "4e558b63d8eb954de935ad366170f6373f533eae14f90633a89be0036c973217"
+  },
+  {
+    "file": "bronnen/book-4-outline-v2.md",
+    "sha256": "3bfb4350bb1f990a8ea559272263e8ef35e1b72bd0cbc86b59c9aa6ad4fc0899"
+  },
+  {
+    "file": "build.py",
+    "sha256": "0389e56e36796fca98386f7d4aaf0a1c4c312da57199b7bb5332cba7c5920118"
+  },
+  {
+    "file": "build_all.py",
+    "sha256": "a2e3601b6f299ca60341b953fa2b036c80d192bd5e544a48b8b6c11556294303"
+  },
+  {
+    "file": "chapter-order.json",
+    "sha256": "fe322f4ba6d663c2f71b57291491563ab2f2160e151d7f2ca2c56492307b0f07"
+  },
+  {
+    "file": "export_paragraphs.py",
+    "sha256": "73fc2742401df340fbbeb7fdaff644404f78ce14c076bf64092960de4b1d678f"
+  },
+  {
+    "file": "make_assets.py",
+    "sha256": "cf44de6ac4bb3dd3c533fb0e98f67190f61ecb4e169f7ab66928d18aa101685b"
+  },
+  {
+    "file": "output/Boek_4_H1_Antwoorden.html",
+    "sha256": "d599d4163c4309c821e04f2b3e5f8a2a44f1386e793761099f54d56093432df2"
+  },
+  {
+    "file": "output/Boek_4_H1_Antwoorden.pdf",
+    "sha256": "1055ad70fa2c10f41318391ef7dd52bba6d301df9ca3285568541584d7d7df19"
+  },
+  {
+    "file": "output/Boek_4_H1_Docenteninformatie.html",
+    "sha256": "6bdfe4a0aefcff7c449940ad49dde63bce389cea35a8b8ac24f2cb2cbdf3ca48"
+  },
+  {
+    "file": "output/Boek_4_H1_Docenteninformatie.pdf",
+    "sha256": "f0602a59002e6697e90e9f630a0b035ffc8aa7411d3ccc455eeb0355a44216e3"
+  },
+  {
+    "file": "output/Boek_4_H1_Monopolie.html",
+    "sha256": "946f1594807801cb02559ea68712dd82f58799a42be7ef0e06b259005236268f"
+  },
+  {
+    "file": "output/Boek_4_H1_Monopolie.pdf",
+    "sha256": "a20c9cc345e6b105780c6550bf2e74644818fc0f2decf4a79b27fc0c042c76c3"
+  },
+  {
+    "file": "paragrafen/4.1.1 Monopolie kenmerken/4.1.1 Monopolie kenmerken – antwoorden.md",
+    "sha256": "ad05bc1de79ca6b26ffa5746444602a48713e66a8576c0f29157fe4bdb2d34cf"
+  },
+  {
+    "file": "paragrafen/4.1.1 Monopolie kenmerken/4.1.1 Monopolie kenmerken – antwoorden.pdf",
+    "sha256": "d5f3f47d34fbe32847fbc2ddd0a3887b38eeade0452fb24fd05091ab195ce6bd"
+  },
+  {
+    "file": "paragrafen/4.1.1 Monopolie kenmerken/4.1.1 Monopolie kenmerken – opgaven.md",
+    "sha256": "82170abe5320eb748eb7daa669d3af214d656c8fafb5a28f76dc7b411e9dc2bd"
+  },
+  {
+    "file": "paragrafen/4.1.1 Monopolie kenmerken/4.1.1 Monopolie kenmerken – opgaven.pdf",
+    "sha256": "c7a59efebdaa1be68dafa47a12b146dff26df69d90cc697532a69aa02e4c3c6a"
+  },
+  {
+    "file": "paragrafen/4.1.1 Monopolie kenmerken/4.1.1 Monopolie kenmerken – paragraaf.md",
+    "sha256": "0921e20000c05256048acd738203256e952e1e9880e6a4d34d61af21179755f2"
+  },
+  {
+    "file": "paragrafen/4.1.1 Monopolie kenmerken/4.1.1 Monopolie kenmerken – paragraaf.pdf",
+    "sha256": "4896ed4635d448472ff6280e03065f8bddee613c53ffd59c3621d2cead379601"
+  },
+  {
+    "file": "paragrafen/4.1.2 Marginale opbrengst bij monopolie/4.1.2 Marginale opbrengst bij monopolie – antwoorden.md",
+    "sha256": "f159e38d64e8ca3e55f6e197304dfd85869e080522dfaa0eb2182fa1ed944597"
+  },
+  {
+    "file": "paragrafen/4.1.2 Marginale opbrengst bij monopolie/4.1.2 Marginale opbrengst bij monopolie – antwoorden.pdf",
+    "sha256": "8390d81a9d905965e79eac7a99913d148aae607153d100d698203f34891c8e83"
+  },
+  {
+    "file": "paragrafen/4.1.2 Marginale opbrengst bij monopolie/4.1.2 Marginale opbrengst bij monopolie – opgaven.md",
+    "sha256": "156b94ac47f26938a454a518ec8c25de9120f63e0a4e54f949773bb6659a4bbc"
+  },
+  {
+    "file": "paragrafen/4.1.2 Marginale opbrengst bij monopolie/4.1.2 Marginale opbrengst bij monopolie – opgaven.pdf",
+    "sha256": "5e1430be02ccd2e7a03072a2296bd1e0f33a0b08626dbd1132742ea75f3734ee"
+  },
+  {
+    "file": "paragrafen/4.1.2 Marginale opbrengst bij monopolie/4.1.2 Marginale opbrengst bij monopolie – paragraaf.md",
+    "sha256": "2b8c3f3e3c1ca2c524d09c3bd17a38ec111bbea4943af807c8f1e46fab120fa9"
+  },
+  {
+    "file": "paragrafen/4.1.2 Marginale opbrengst bij monopolie/4.1.2 Marginale opbrengst bij monopolie – paragraaf.pdf",
+    "sha256": "08c953eb239213abcca41891a4c3364f7ae80a8f1bdbabed9291347bf84b00dc"
+  },
+  {
+    "file": "paragrafen/4.1.3 Winstmaximalisatie bij monopolie/4.1.3 Winstmaximalisatie bij monopolie – antwoorden.md",
+    "sha256": "27fc17a401c969fa5181846ddbb91d81431472029388daba314231c796de4890"
+  },
+  {
+    "file": "paragrafen/4.1.3 Winstmaximalisatie bij monopolie/4.1.3 Winstmaximalisatie bij monopolie – antwoorden.pdf",
+    "sha256": "dc4b4813d237bf4ace035c0a57ae62d97952060e6bc378023b3c13a8d3e64d8c"
+  },
+  {
+    "file": "paragrafen/4.1.3 Winstmaximalisatie bij monopolie/4.1.3 Winstmaximalisatie bij monopolie – opgaven.md",
+    "sha256": "ccea3718fe6efd5d5db78b021192b06623d92ab953379258285ac8836b28a9cb"
+  },
+  {
+    "file": "paragrafen/4.1.3 Winstmaximalisatie bij monopolie/4.1.3 Winstmaximalisatie bij monopolie – opgaven.pdf",
+    "sha256": "909bcfdb5862c094332597c20363a22f3a2861f9fa1280b05f7b6aa3464b8df3"
+  },
+  {
+    "file": "paragrafen/4.1.3 Winstmaximalisatie bij monopolie/4.1.3 Winstmaximalisatie bij monopolie – paragraaf.md",
+    "sha256": "355ec7ef42d9355ef3b3fbb7ef0e1cafe44bc7d32d478257e606768b817cf6e9"
+  },
+  {
+    "file": "paragrafen/4.1.3 Winstmaximalisatie bij monopolie/4.1.3 Winstmaximalisatie bij monopolie – paragraaf.pdf",
+    "sha256": "85b5540701101a21dbaed25794d5395a797e98c74950d17d64f0584beb9f70ee"
+  },
+  {
+    "file": "paragrafen/4.1.4 Gemengde opgaven monopolie/4.1.4 Gemengde opgaven monopolie – antwoorden.md",
+    "sha256": "5a74c237d87ecc1439207386d1785db327023c3ae367432a1ae0b35c66558161"
+  },
+  {
+    "file": "paragrafen/4.1.4 Gemengde opgaven monopolie/4.1.4 Gemengde opgaven monopolie – antwoorden.pdf",
+    "sha256": "509da820716dcb3b046f57efac9b5c4e982d9664ed0c3b6f96018137fa35dfa2"
+  },
+  {
+    "file": "paragrafen/4.1.4 Gemengde opgaven monopolie/4.1.4 Gemengde opgaven monopolie – opgaven.md",
+    "sha256": "f33ba5f9ba4730adb3b536ff9f22e53b4c41f3ab220da9b259a83b4de4371a55"
+  },
+  {
+    "file": "paragrafen/4.1.4 Gemengde opgaven monopolie/4.1.4 Gemengde opgaven monopolie – opgaven.pdf",
+    "sha256": "66cd184b1c2366dcca86f52cc66f8d3c091952bf5a2bf3ce6617445b3aadfa7b"
+  },
+  {
+    "file": "paragrafen/4.1.4 Gemengde opgaven monopolie/4.1.4 Gemengde opgaven monopolie – paragraaf.md",
+    "sha256": "f33ba5f9ba4730adb3b536ff9f22e53b4c41f3ab220da9b259a83b4de4371a55"
+  },
+  {
+    "file": "paragrafen/4.1.4 Gemengde opgaven monopolie/4.1.4 Gemengde opgaven monopolie – paragraaf.pdf",
+    "sha256": "cdfc2166ea00911595927ee6fa12a3dca7e40848b54c50188152944b4aaf85c3"
+  },
+  {
+    "file": "print.css",
+    "sha256": "ef536abb18c7ccde396438a1832f1f5ff525c8cedaf74d0d34f95262611ddc2f"
+  },
+  {
+    "file": "requirements.txt",
+    "sha256": "49d18bdf31b5c01b2991d1d5bdd9b35038408e19fbb0522978f9c462dab09861"
+  },
+  {
+    "file": "validate.py",
+    "sha256": "f0db394670e0fe6ea0e8fb15511ed41cab69756bcda181e10dfd7adb21b39c7b"
+  }
+]

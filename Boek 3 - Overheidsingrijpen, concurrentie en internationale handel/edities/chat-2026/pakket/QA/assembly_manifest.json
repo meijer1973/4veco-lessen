@@ -1,0 +1,78 @@
+{
+  "outputs": [
+    {
+      "file": "Boek_3_Compleet.pdf",
+      "pages": 136,
+      "source_pages": 124,
+      "chapter_starts": [
+        5,
+        53,
+        91
+      ],
+      "intentional_blank_pages": [
+        136
+      ],
+      "internal_links": 123,
+      "bookmarks": 29,
+      "recorded_edits": 172
+    },
+    {
+      "file": "Boek_3_Compleet_Antwoorden.pdf",
+      "pages": 76,
+      "source_pages": 71,
+      "chapter_starts": [
+        3,
+        35,
+        59
+      ],
+      "intentional_blank_pages": [
+        34,
+        58,
+        76
+      ],
+      "internal_links": 17,
+      "bookmarks": 132,
+      "recorded_edits": 77
+    },
+    {
+      "file": "Boek_3_Compleet_Docenteninformatie.pdf",
+      "pages": 28,
+      "source_pages": 24,
+      "chapter_starts": [
+        3,
+        13,
+        21
+      ],
+      "intentional_blank_pages": [
+        20,
+        28
+      ],
+      "internal_links": 3,
+      "bookmarks": 14,
+      "recorded_edits": 24
+    }
+  ],
+  "glossary_entries": 35,
+  "glossary_pages": 3,
+  "formula_pages": 4,
+  "book_chapter_pages": 124,
+  "instructional_paragraphs": 14,
+  "exercise_total": 127,
+  "formula_start": 132,
+  "source_spreads_in_book": [
+    [
+      50,
+      51
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      124,
+      125
+    ]
+  ],
+  "book_guidance": "skills/econ-book-builder.md: cover, colophon, preface, full contents, chapters, glossary, formula overview; answers kept separate",
+  "guidance_adaptations": "PDF-preserving stitch rather than reflow; supplied cover overrides template; separate answer PDFs remain paper-first; no unsupported license, school, publisher or contact asserted."
+}

@@ -1,0 +1,640 @@
+{
+  "1": {
+    "items": [
+      [
+        "TO = P × q = 4 × 80 = <b>€ 320 per dag</b>. GO = TO / q = 320 / 80 = <b>€ 4 per kg</b>.",
+        "TO telt alle verkochte kg; GO is de opbrengst van gemiddeld één kg."
+      ],
+      [
+        "TO nieuw = 4 × 100 = € 400 per dag. ΔTO = 400 − 320 = <b>€ 80 per dag</b>. MO = 80 / (100 − 80) = <b>€ 4 per kg</b>.",
+        "De extra opbrengst wordt verdeeld over 20 extra kg, niet over de totale productie."
+      ]
+    ],
+    "criteria": ""
+  },
+  "2": {
+    "items": [
+      [
+        "De markt heeft een dalende vraaglijn. Alleen de opbrengstlijn van <b>één kleine onderneming</b> is bij een gegeven marktprijs horizontaal.",
+        "Een verandering van de hele marktprijs is iets anders dan een kleine afzetverandering van één teler."
+      ],
+      [
+        "Bijvoorbeeld: veel kleine aanbieders én een homogeen product. Ook doorzichtige prijzen ondersteunen de redenering: kopers kunnen dezelfde kwaliteit elders kopen.",
+        "Eén aanbieder kan niet zelfstandig een hogere prijs afdwingen."
+      ]
+    ],
+    "criteria": ""
+  },
+  "3": {
+    "items": [
+      [
+        "Links: Q = <b>4.000 kg per dag</b> en P = <b>€ 2 per kg</b>. Je neemt alleen P = 2 over naar rechts.",
+        "q is de productie van één teler, niet de som van de productie van alle telers."
+      ],
+      [
+        "ΔTO = € 240 − € 200 = € 40. MO = 40 / (120 − 100) = <b>€ 2 per kg</b>.",
+        "€ 40 is de extra totale opbrengst; MO is die extra opbrengst per extra kg."
+      ],
+      [
+        "Als één kleine teler meer produceert, verandert alleen zijn bijdrage aan de totale productie. Alle andere bedrijven verdubbelen hun productie niet automatisch.",
+        "Q is de som van de productie van alle ondernemingen."
+      ]
+    ],
+    "criteria": ""
+  },
+  "4": {
+    "items": [
+      [
+        "Afgelezen: P = <b>€ 5 per kg</b> en Q = <b>3.000 kg per dag</b>.",
+        "De horizontale schaal is × 1.000 kg; het snijpunt ligt halverwege 2 en 4."
+      ],
+      [
+        "Teken rechts een horizontale lijn op P = 5, tot q = 120. Label <b>P = GO = MO</b>. Zie de oplossing hieronder.",
+        "Elke verkochte kg levert binnen de capaciteit dezelfde prijs op."
+      ],
+      [
+        "TO bij q = 80: 5 × 80 = <b>€ 400 per dag</b>. Bij q = 100: TO = € 500. ΔTO = € 100; MO = 100 / 20 = <b>€ 5 per kg</b>.",
+        "De prijs blijft gelijk wanneer één kleine onderneming 20 kg meer verkoopt."
+      ],
+      [
+        "Bij q = 80 wordt TO = 4,80 × 80 = € 384 in plaats van € 400. De kosten bij dezelfde q blijven gelijk. De winst is <b>€ 16 lager per dag</b>.",
+        "De producent kon de 80 kg al voor € 5 verkopen; de prijsverlaging geeft hier geen voordeel."
+      ]
+    ],
+    "criteria": ""
+  },
+  "5": {
+    "items": [
+      [
+        "Marktevenwicht: P = <b>€ 4 per kg</b>, Q = <b>4.000 kg per dag</b>. Rechts komt de horizontale lijn P = GO = MO = 4.",
+        "De evenwichtsprijs wordt overgenomen, de totale hoeveelheid niet."
+      ],
+      [
+        "TO = 4 × 90 = <b>€ 360 per dag</b>. GO = 360 / 90 = <b>€ 4 per kg</b>. Nieuw TO = 4 × 110 = € 440. MO = (440 − 360) / (110 − 90) = <b>€ 4 per kg</b>.",
+        "Bij een vaste prijs zijn gemiddelde en marginale opbrengst gelijk aan die prijs."
+      ],
+      [
+        "Bij € 4,50 wijken kopers uit naar dezelfde potgrond van andere aanbieders voor € 4. De kleine aanbieder verliest in het model zijn afzet.",
+        "Veel aanbieders, gelijke kwaliteit en bekende prijzen voorkomen een eigen hogere prijs."
+      ]
+    ],
+    "criteria": ""
+  },
+  "6": {
+    "items": [
+      [
+        "Het product is voor deze klanten niet langer <b>homogeen</b>: zij zien het merk als anders en willen er extra voor betalen.",
+        "De bron geeft een verschil in ervaren waarde, niet alleen een andere verpakking."
+      ],
+      [
+        "Het bedrijf kan voor een groep klanten mogelijk een eigen prijs vragen. De aanname dat iedere afwijking boven de marktprijs alle afzet wegneemt, gaat dan niet zomaar op.",
+        "De horizontale lijn volgt uit de prijsnemersaannames; die zijn hier niet volledig aanwezig. Een nieuw marktmodel hoef je nog niet te tekenen."
+      ]
+    ],
+    "criteria": ""
+  },
+  "7": {
+    "items": [
+      [
+        "P = <b>€ 3 per kg</b> en Q = <b>4.000 kg per dag</b>. Bijvoorbeeld: veel kleine telers, gelijke kwaliteit of bekende prijzen ondersteunt prijsnemerschap.",
+        "Het snijpunt hoort bij de hele markt. De kenmerken maken een eigen hogere prijs voor Mila onaantrekkelijk."
+      ],
+      [
+        "Teken rechts een horizontale lijn op 3, over de getekende q-schaal tot 160. Zet <b>P = GO = MO</b> erbij.",
+        "De lijn geeft opbrengst per kg, niet totale opbrengst."
+      ],
+      [
+        "TO = 3 × 120 = <b>€ 360 per dag</b>. GO = 360 / 120 = <b>€ 3 per kg</b>. Nieuw TO = 3 × 140 = 420. MO = (420 − 360) / (140 − 120) = <b>€ 3 per kg</b>.",
+        "De extra € 60 ontstaat door 20 extra kg; iedere kg geeft € 3 opbrengst."
+      ],
+      [
+        "Voor € 3,20 kopen klanten elders dezelfde wortelen voor € 3. Mila kan als kleine aanbieder de marktprijs niet verhogen.",
+        "Kopers kennen de prijzen en kunnen uitwijken naar andere telers."
+      ],
+      [
+        "4.000 kg is Q van alle telers samen. Mila heeft een eigen q en capaciteit van 160 kg per dag. Haar grafiek mag dus niet op q = 4.000 eindigen.",
+        "Twee hoeveelheidsassen beschrijven verschillende economische objecten."
+      ]
+    ],
+    "criteria": ""
+  },
+  "8": {
+    "items": [
+      [
+        "Onjuist. De horizontale lijn is een model voor een kleine aanbieder, binnen zijn productiecapaciteit. Een machine, grond of tijd begrenst zijn afzet.",
+        "De modeluitspraak geldt niet voor een onbeperkte vergroting van hetzelfde bedrijf."
+      ],
+      [
+        "Een grote aanbieder kan de totale markthoeveelheid merkbaar veranderen. Dan moet je opnieuw onderzoeken of hij de prijs als gegeven kan nemen.",
+        "De aanname van een verwaarloosbaar klein marktaandeel kan verdwijnen."
+      ]
+    ],
+    "criteria": "Het antwoord noemt zowel capaciteit als marktaandeel, onderscheidt q van Q en claimt niet dat een horizontale lijn letterlijk oneindige verkoop bewijst."
+  },
+  "9": {
+    "items": [
+      [
+        "18 − 0,20Q = 6 + 0,10Q → 12 = 0,30Q → <b>Q = 40 producten per week</b>. P = 6 + 0,10 × 40 = <b>€ 10 per product</b>.",
+        "In evenwicht hoort bij dezelfde hoeveelheid dezelfde kopers- en verkopersprijs."
+      ],
+      [
+        "Het aanbod verschuift <b>naar rechts</b>. Bij ongewijzigde vraag daalt de evenwichtsprijs.",
+        "Bij iedere prijs zijn er meer producten beschikbaar. Herhaal §1.3.3 als dit lastig is."
+      ]
+    ],
+    "criteria": ""
+  },
+  "10": {
+    "items": [
+      [
+        "TK = 150 + 3 × 50 = <b>€ 300 per week</b>. GTK = 300 / 50 = <b>€ 6 per kg</b>.",
+        "GTK verdeelt de totale kosten over de productie."
+      ],
+      [
+        "Bij q = 100: TK = 150 + 300 = € 450; GTK = 450 / 100 = <b>€ 4,50 per kg</b>. Dezelfde € 150 constante kosten worden over meer kg verdeeld.",
+        "Totale kosten stijgen, maar de constante kosten per kg dalen. Herhaal §2.1.1 voor totaal versus gemiddeld."
+      ]
+    ],
+    "criteria": ""
+  },
+  "11": {
+    "items": [
+      [
+        "TO = 9 × 40 = <b>€ 360 per week</b>. GTK = 280 / 40 = <b>€ 7 per kg</b>. Winst = 360 − 280 = <b>€ 80 per week</b>.",
+        "Opbrengst en kosten moeten bij dezelfde q horen."
+      ],
+      [
+        "MK over 40–50 = (350 − 280) / (50 − 40) = <b>€ 7 per kg</b>. MO = <b>€ 9 per kg</b>, dus MO is € 2 hoger dan de gemiddelde MK over deze stap.",
+        "De uitbreiding geeft over 10 kg € 20 extra winst."
+      ]
+    ],
+    "criteria": ""
+  },
+  "12": {
+    "items": [
+      [
+        "Rond q = 60 is MO − MK = 12 − 10 = <b>€ 2 per kg</b>: een kleine uitbreiding is gunstig. Rond q = 100 is het verschil −€ 2 per kg: uitbreiding is ongunstig.",
+        "Vergelijk de extra opbrengst en de extra kosten, niet de totale winst."
+      ],
+      [
+        "Bij stijgende MK verandert het verschil MO − MK van positief naar negatief. Het snijpunt ligt tussen de twee genoemde hoeveelheden.",
+        "Vóór dat punt stijgt de winst; erna daalt zij, mits het punt haalbaar is."
+      ]
+    ],
+    "criteria": ""
+  },
+  "13": {
+    "items": [
+      [
+        "0,05q² → 0,10q; 3q → 3; 60 → 0. Dus <b>MK = 0,10q + 3</b>.",
+        "De constante € 60 verandert niet bij een kleine productietoename."
+      ],
+      [
+        "9 = 0,10q + 3 → 6 = 0,10q → <b>q = 60 kg per week</b>.",
+        "Bij een prijsnemer is MO gelijk aan P = 9."
+      ],
+      [
+        "60 ≤ 80, dus de q is haalbaar. Bij q &lt; 60 is MK &lt; 9; bij q &gt; 60 is MK &gt; 9.",
+        "MK stijgt door MO heen: de winst gaat van stijgen naar dalen. Bij q = 0 is het resultaat −€ 60; bij q = 60 is de winst € 120."
+      ]
+    ],
+    "criteria": ""
+  },
+  "14": {
+    "items": [
+      [
+        "MK = <b>0,10q + 4</b>. 12 = 0,10q + 4 → q = <b>80 kg per week</b>. 80 past binnen de capaciteit van 120. MK is onder 80 lager dan MO en boven 80 hoger.",
+        "De stijgende MK-lijn bevestigt het maximum."
+      ],
+      [
+        "TO = 12 × 80 = <b>€ 960</b>. TK = 0,05 × 80² + 4 × 80 + 180 = 320 + 320 + 180 = <b>€ 820</b>. Winst = 960 − 820 = <b>€ 140 per week</b>.",
+        "Ook de constante kosten blijven onderdeel van TK."
+      ],
+      [
+        "GTK = 820 / 80 = <b>€ 10,25 per kg</b>. De rechthoek loopt van q = 0 tot 80 en van 10,25 tot 12. Breedte = 80 kg/week, hoogte = € 1,75/kg. Oppervlakte = <b>€ 140/week</b>.",
+        "De GTK wordt bij q = 80 afgelezen; het minimum van GTK is niet de gevraagde hoogte."
+      ]
+    ],
+    "criteria": ""
+  },
+  "15": {
+    "items": [
+      [
+        "Met alleen de prijsstijging: 14 = 0,10q + 4 → <b>q = 100 kg per week</b>.",
+        "Een hogere MO maakt extra productie langer gunstig."
+      ],
+      [
+        "MK blijft <b>0,10q + 4</b>. Bij dezelfde q daalt de winst met 260 − 180 = <b>€ 80 per week</b>.",
+        "Constante kosten veranderen het totale winstbedrag, niet de marginale kosten."
+      ],
+      [
+        "Beide veranderingen samen: <b>q = 100 kg per week</b>. Dat past binnen 120. De nieuwe constante kosten veranderen de vergelijking 14 = 0,10q + 4 niet.",
+        "De prijsverandering verschuift MO; de vaste-kostenverandering niet."
+      ],
+      [
+        "De leerling verwart totale kosten met marginale kosten. Alleen de constante kosten nemen hier toe; de variabele kosten en MK blijven gelijk.",
+        "Een hoger totaal kostenniveau betekent niet automatisch dat elke extra kg duurder wordt."
+      ]
+    ],
+    "criteria": ""
+  },
+  "16": {
+    "items": [
+      [
+        "MK = <b>0,04q + 4</b>. 12 = 0,04q + 4 → q = <b>200 kg per week</b>. Bij q = 150 is MK = 10; bij q = 250 is MK = 14. Dus MO &gt; MK vóór 200 en MO &lt; MK erna. 200 ≤ 250.",
+        "Het marginale verloop en de capaciteit ondersteunen dezelfde keuze."
+      ],
+      [
+        "TO = 12 × 200 = <b>€ 2.400</b>. TK = 0,02 × 200² + 4 × 200 + 100 = 800 + 800 + 100 = <b>€ 1.700</b>. Winst = <b>€ 700 per week</b>. GTK = 1.700 / 200 = <b>€ 8,50 per kg</b>.",
+        "Totalen en gemiddelde worden bij q = 200 berekend."
+      ],
+      [
+        "Rechthoek: breedte <b>200 kg/week</b>, hoogte <b>€ 3,50/kg</b> (12 − 8,50). De oppervlakte is <b>€ 700/week</b>. Zie de grafiek.",
+        "Bedrag per kg maal kg per week geeft het totale weekbedrag."
+      ],
+      [
+        "Het snijpunt geeft q = 200 en een marginale opbrengst/kost van € 12 per kg. Voor totale winst heb je daarnaast de totale kosten of GTK nodig.",
+        "MO = MK zegt iets over de beste hoeveelheid, niet rechtstreeks over de grootte van de winst."
+      ]
+    ],
+    "criteria": ""
+  },
+  "17": {
+    "items": [
+      [
+        "MK = 0,20q + 2. 18 = 0,20q + 2 → <b>q = 80 kg per week</b>. Dit is groter dan de capaciteit van 60.",
+        "Een wiskundig snijpunt kan buiten de haalbare productie liggen."
+      ],
+      [
+        "Kies <b>q = 60 kg per week</b>. Daar is MK = 0,20 × 60 + 2 = <b>€ 14 per kg</b>, lager dan MO = 18. Tot de capaciteit blijft extra productie gunstig.",
+        "Binnen het haalbare gebied stijgt de winst nog steeds."
+      ],
+      [
+        "TO = 18 × 60 = € 1.080. TK = 0,10 × 60² + 2 × 60 + 40 = 360 + 120 + 40 = € 520. Winst = <b>€ 560 per week</b>. Bij q = 0: 0 − 40 = <b>−€ 40 per week</b>.",
+        "De capaciteit benutten is hier gunstiger dan niet produceren."
+      ],
+      [
+        "Onjuist. Het maximum ligt hier op de capaciteitsgrens. Binnen de toegestane hoeveelheden bestaat geen betere keuze.",
+        "Een maximum kan op een grens liggen; MO = MK is niet altijd noodzakelijk voor een grensmaximum."
+      ]
+    ],
+    "criteria": ""
+  },
+  "18": {
+    "items": [
+      [
+        "0,04q² → 0,08q; 4q → 4; 400 → 0. Dus <b>MK = 0,08q + 4</b>.",
+        "De afgeleide beschrijft de kostenstijging per extra kg in het doorlopende model."
+      ],
+      [
+        "MO = 16. 16 = 0,08q + 4 → 12 = 0,08q → <b>q = 150 kg per week</b>. Bij q = 125 is MK = 14; bij 175 is MK = 18. MK stijgt van onder naar boven MO. 150 ≤ 200.",
+        "De winst stijgt vóór 150 en daalt erna; de kandidaat is haalbaar."
+      ],
+      [
+        "TO = 16 × 150 = <b>€ 2.400</b>. TK = 0,04 × 150² + 4 × 150 + 400 = 900 + 600 + 400 = <b>€ 1.900</b>. Winst = <b>€ 500 per week</b>.",
+        "Trek alle kosten af van de opbrengst, inclusief de € 400 constante kosten."
+      ],
+      [
+        "GTK = 1.900 / 150 = <b>€ 12,666… per kg</b>, afgerond € 12,67. Breedte = 150 kg/week; hoogte = 16 − 12,666… = € 3,333…/kg. Winstoppervlakte = <b>€ 500/week</b>.",
+        "Rond GTK niet af vóór de oppervlakteberekening. Gebruik anders rechtstreeks TO − TK."
+      ],
+      [
+        "Bij q = 0: TO = 0, TK = 400 en winst = <b>−€ 400 per week</b>. € 500 is hoger dan −€ 400.",
+        "De constante kosten zijn deze week ook bij niet produceren onvermijdbaar."
+      ],
+      [
+        "Kies <b>q = 120 kg per week</b>. Het snijpunt bij 150 is onhaalbaar. Bij 120 is MK = 0,08 × 120 + 4 = € 13,60 per kg, nog steeds lager dan MO = 16.",
+        "De winst stijgt tot de nieuwe grens; daarom wordt de capaciteit benut."
+      ]
+    ],
+    "criteria": ""
+  },
+  "19": {
+    "items": [
+      [
+        "Beide hebben MK = 0,20q + 2. Bij P = 8 ligt het snijpunt op q = 30 kg/week, binnen de capaciteit van 50. Beide kiezen in dit model <b>dezelfde q</b>.",
+        "De hogere constante kosten van B veranderen MK niet."
+      ],
+      [
+        "TO is voor beide 8 × 30 = € 240. TK van A = 90 + 60 + 40 = € 190: winst <b>€ 50/week</b>. TK van B = 90 + 60 + 160 = € 310: winst <b>−€ 70/week</b>. Bij q = 0 verliest B € 160, dus q = 30 blijft deze week beter.",
+        "Dezelfde marginale keuze kan samengaan met een ander totaal resultaat. Het oordeel gaat niet automatisch over blijven op langere termijn."
+      ]
+    ],
+    "criteria": "Het antwoord gebruikt gelijke MK, vergelijkt dezelfde q en laat verschillende winstbedragen zien. Het maakt van een kortetermijnverlies geen ongefundeerd onmiddellijk stopadvies."
+  },
+  "20": {
+    "items": [
+      [
+        "%ΔP = (10 − 8) / 8 × 100% = <b>25%</b>. Ev = −10% / 25% = <b>−0,4</b>.",
+        "De oude prijs is de basis; de hoeveelheid daalt, dus het teken is negatief."
+      ],
+      [
+        "|Ev| = 0,4 &lt; 1, dus de vraag is <b>prijsinelastisch</b>.",
+        "De hoeveelheid reageert procentueel minder sterk dan de prijs. Herhaal §2.2.1 als teken en classificatie door elkaar lopen."
+      ]
+    ],
+    "criteria": ""
+  },
+  "21": {
+    "items": [
+      [
+        "t = Pc − Pp = 11 − 8 = <b>€ 3 per product</b>. Belastingopbrengst = 3 × 200 = <b>€ 600 per week</b>.",
+        "De overheid ontvangt de belasting over de werkelijk verhandelde producten."
+      ],
+      [
+        "De belastingopbrengst gaat naar de overheid: het is een overdracht. Welvaartsverlies betreft verloren voordelen van transacties die door de belasting niet meer plaatsvinden, onder het eerder gebruikte model zonder externe effecten.",
+        "Een budgetbedrag is niet automatisch verloren surplus. Zie §3.1.2."
+      ]
+    ],
+    "criteria": ""
+  },
+  "22": {
+    "items": [
+      [
+        "MK = 0,20q + 2. 8 = 0,20q + 2 → <b>q = 30 kg per week</b>. Dit past binnen 50; MK stijgt door MO heen.",
+        "De productie volgt uit de marginale vergelijking."
+      ],
+      [
+        "TO = 8 × 30 = <b>€ 240</b>. TK = 0,10 × 30² + 2 × 30 + 40 = <b>€ 190</b>. Winst = <b>€ 50/week</b>. GTK = 190 / 30 = <b>€ 6,333…/kg</b>.",
+        "Een prijs boven GTK geeft bij deze productie positieve economische winst."
+      ]
+    ],
+    "criteria": ""
+  },
+  "23": {
+    "items": [
+      [
+        "Economische winst = 1.000 − 1.000 = <b>€ 0 per week</b>.",
+        "Ook de normale beloning telt mee bij de totale kosten."
+      ],
+      [
+        "De ondernemer ontvangt al <b>€ 180 normale vergoeding per week</b>. Er blijft alleen geen extra economische winst over.",
+        "Nul economische winst is niet hetzelfde als nul beloning of nul omzet."
+      ]
+    ],
+    "criteria": ""
+  },
+  "24": {
+    "items": [
+      [
+        "Overwinst → meer bedrijven → marktaanbod naar <b>rechts</b> → P <b>daalt</b> → winst per bedrijf <b>daalt</b>.",
+        "Het marktaanbod verandert doordat het aantal aanbieders toeneemt."
+      ],
+      [
+        "Markt Q: <b>6.000 → 9.000 kg/week</b>. Eén bedrijf q: <b>60 → 40 kg/week</b>. De lagere prijs geeft een kleinere beste productie per bedrijf, maar er zijn meer bedrijven.",
+        "Meer bedrijven kunnen samen meer leveren, terwijl elk bedrijf afzonderlijk minder levert."
+      ],
+      [
+        "TO = 6 × 40 = <b>€ 240</b>. TK = 0,05 × 40² + 2 × 40 + 80 = 80 + 80 + 80 = <b>€ 240</b>. Winst = <b>€ 0/week</b>.",
+        "Bij het minimum GTK dekt de prijs precies alle kosten."
+      ]
+    ],
+    "criteria": ""
+  },
+  "25": {
+    "items": [
+      [
+        "Een deel van de bedrijven zal <b>uittreden</b>.",
+        "Aanhoudend economisch verlies maakt actief blijven onaantrekkelijk."
+      ],
+      [
+        "Teken A₁ links van A, bijvoorbeeld zoals in de oplossing. Het nieuwe snijpunt ligt bij <b>P = 6 en Q = 1.000 kg/week</b>.",
+        "Minder aanbieders verlagen bij elke prijs de totale aangeboden hoeveelheid."
+      ],
+      [
+        "Rechts: P = GO = MO = <b>€ 6 per kg</b>. De gekozen q is <b>20 kg/week</b>. TO = 6 × 20 = 120. TK = 0,10 × 20² + 2 × 20 + 40 = 120. Winst = 0.",
+        "De hogere prijs herstelt de kostendekking bij het overblijvende bedrijf."
+      ],
+      [
+        "De bron laat de kostenfunctie van actieve bedrijven gelijk. Alleen het aantal bedrijven verandert.",
+        "Uittreding verschuift het totale marktaanbod, niet automatisch de GTK-lijn van één bedrijf."
+      ]
+    ],
+    "criteria": ""
+  },
+  "26": {
+    "items": [
+      [
+        "MK = 0,20q + 2. Bij MO = 8 is q = <b>30 kg/week</b>. TO = 240; TK = 90 + 60 + 40 = 190; winst = <b>€ 50/week</b>.",
+        "P ligt boven GTK bij deze q."
+      ],
+      [
+        "Overwinst → toetreding → A naar rechts → lagere P. De aanpassing eindigt onder de gegeven aannames bij P = <b>€ 6 per kg</b>. Teken de lijnen zoals hieronder.",
+        "Toetreding stopt als dezelfde productiemethode geen extra economische winst meer oplevert."
+      ],
+      [
+        "Langetermijn-q = <b>20 kg/week</b>. TO = 6 × 20 = <b>€ 120/week</b>. TK = 40 + 40 + 40 = € 120/week. Winst = <b>€ 0/week</b>.",
+        "De normale beloning zit al in de kosten en wordt nog betaald."
+      ]
+    ],
+    "criteria": ""
+  },
+  "27": {
+    "items": [
+      [
+        "TO = 5 × 30 = € 150. TK = 0,05 × 30² + 2 × 30 + 80 = 45 + 60 + 80 = € 185. Winst = <b>−€ 35/week</b>. Verwacht bij aanhoudende omstandigheden <b>uittreding</b>.",
+        "Er is een economisch verlies bij de beste gegeven productie."
+      ],
+      [
+        "Marktaanbod naar links; prijs omhoog. Bijvoorbeeld: de marktvraag blijft gelijk, uittreding is vrij of de kosten van actieve bedrijven veranderen niet.",
+        "Zonder deze aannames kan de prijs ook door een andere oorzaak veranderen."
+      ]
+    ],
+    "criteria": ""
+  },
+  "28": {
+    "items": [
+      [
+        "Afgelezen beginprijs: <b>€ 10 per kg</b>. MK = 0,04q + 4. 10 = 0,04q + 4 → q = <b>150 kg/week</b>, haalbaar binnen 250. TO = 10 × 150 = € 1.500. TK = 0,02 × 150² + 4 × 150 + 200 = 450 + 600 + 200 = € 1.250. Economische winst = <b>€ 250/week</b>.",
+        "De prijs ligt boven GTK bij de gekozen q."
+      ],
+      [
+        "Die overwinst trekt aanbieders aan. Bij elke prijs neemt het marktaanbod toe. Bij gelijkblijvende vraag daalt daardoor de marktprijs.",
+        "Nieuwe bedrijven kunnen dezelfde kostentechniek gebruiken."
+      ],
+      [
+        "Teken A₁ rechts van A en laat die V snijden bij P = 8. Rechts komt P = GO = MO = 8. MK en GTK blijven staan.",
+        "Het aantal aanbieders en de prijs veranderen; de kostenfuncties zijn volgens de bron ongewijzigd."
+      ],
+      [
+        "P = <b>€ 8 per kg</b> en q = <b>100 kg/week</b>. TO = 8 × 100 = <b>€ 800/week</b>. TK = 0,02 × 100² + 4 × 100 + 200 = 200 + 400 + 200 = <b>€ 800/week</b>. Winst = <b>€ 0/week</b>.",
+        "Bij minimum GTK is de prijs precies voldoende voor alle economische kosten."
+      ],
+      [
+        "De omzet is nog <b>€ 800/week</b>, niet nul. In TK zit nog <b>€ 120 normale ondernemersbeloning/week</b>. Alleen de extra economische winst is verdwenen.",
+        "Nul economische winst is een verschil tussen twee gelijke positieve totaalbedragen."
+      ]
+    ],
+    "criteria": ""
+  },
+  "29": {
+    "items": [
+      [
+        "De aanname dat bestaande en nieuwe bedrijven dezelfde kosten hebben, is ongeldig.",
+        "De bron noemt verschillende minimum-GTK-niveaus."
+      ],
+      [
+        "Nul economische winst vraagt P = GTK bij de gekozen q. Met verschillende minima kan éénzelfde prijs voor het ene bedrijf precies kostendekkend zijn en voor het andere niet. De bron is onvoldoende voor een volledig nieuw evenwicht.",
+        "Het bekende nulwinstresultaat mag niet zonder zijn kostenvoorwaarden worden toegepast."
+      ]
+    ],
+    "criteria": "Een goed antwoord noemt de doorbroken kostenaanname, verbindt nulwinst aan kostendekking en berekent geen ongefundeerd nieuw evenwicht."
+  },
+  "30": {
+    "items": [
+      [
+        "Breedte: <b>200 kg per week</b>. Hoogte: 12 − 9 = <b>€ 3 per kg</b>. Winst = 200 × 3 = <b>€ 600 per week</b>.",
+        "De twee eenheden vermenigvuldigen tot euro per week."
+      ],
+      [
+        "Niet zonder meer. Je trekt via GTK alle totale kosten van de opbrengst af; dat geeft <b>winst</b>. Producentensurplus trekt in het bekende model de variabele kosten af, niet ook de constante kosten.",
+        "Zonder gegevens over constante kosten mag je beide bedragen niet gelijkstellen. Zie §2.3.2."
+      ]
+    ],
+    "criteria": ""
+  },
+  "31": {
+    "items": [
+      [
+        "Bij P = 10: 10 = 14 − 0,10Qv → <b>Qv = 40</b>. 10 = 2 + 0,10Qa → <b>Qa = 80</b>. Aanbodoverschot = 80 − 40 = <b>40 producten per week</b>.",
+        "Gevraagde en aangeboden hoeveelheid kunnen bij een opgelegde prijs verschillen."
+      ],
+      [
+        "Er worden <b>40 producten per week</b> verkocht. Kopers willen niet meer kopen en de overheid koopt de overige producten niet op.",
+        "Aanbieden is niet hetzelfde als daadwerkelijk verkopen. Herhaal §3.1.5."
+      ]
+    ],
+    "criteria": ""
+  },
+  "32": {
+    "items": [
+      [
+        "12.000 − 1.000P = 2.000P → 12.000 = 3.000P → <b>P = € 4 per kg</b>. Q = 2.000 × 4 = <b>8.000 kg per week</b>.",
+        "Bij de evenwichtsprijs is Qv = Qa."
+      ],
+      [
+        "TO = 4 × 100 = <b>€ 400 per week</b>. GO = MO = <b>€ 4 per kg</b>. Q omvat alle molens, q alleen deze molen.",
+        "De prijs wordt gedeeld door het marktmodel, niet de hoeveelheid van één bedrijf."
+      ],
+      [
+        "Kopers kunnen bij andere molens dezelfde kwaliteit voor € 4 krijgen. De eigen prijs van € 4,50 verliest daardoor afzet.",
+        "Het bedrijf is een kleine prijsnemer; de bron ondersteunt geen marktmacht."
+      ]
+    ],
+    "criteria": ""
+  },
+  "33": {
+    "items": [
+      [
+        "MK = 0,10q + 4. 14 = 0,10q + 4 → <b>q = 100 kg/week</b>. Dit past binnen 140. Bij q = 80 is MK = 12 &lt; MO; bij q = 120 is MK = 16 &gt; MO.",
+        "De winst stijgt vóór de gekozen q en daalt erna."
+      ],
+      [
+        "TO = 14 × 100 = <b>€ 1.400</b>. TK = 0,05 × 100² + 4 × 100 + 200 = 500 + 400 + 200 = <b>€ 1.100</b>. Winst = <b>€ 300/week</b>. GTK = 1.100 / 100 = <b>€ 11/kg</b>.",
+        "Alle bedragen horen bij q = 100."
+      ],
+      [
+        "Van q = 0 tot 100 en van € 11 tot € 14 per kg. Breedte = 100 kg/week; hoogte = € 3/kg; oppervlakte = € 300/week.",
+        "Gebruik GTK bij de winstmaximale q, niet een minimum bij een andere q."
+      ],
+      [
+        "De laagste gemiddelde kosten zijn niet hetzelfde als de hoogste totale winst. Zolang MO &gt; MK levert extra productie nog extra winst, ook als GTK alweer stijgt.",
+        "De marginale vergelijking bepaalt de beste hoeveelheid; GTK helpt het winstbedrag berekenen."
+      ]
+    ],
+    "criteria": ""
+  },
+  "34": {
+    "items": [
+      [
+        "20 = 0,20q + 4 → q = <b>80 kg/week</b>, maar dit is niet haalbaar. Kies <b>q = 60 kg/week</b>.",
+        "Het theoretische snijpunt ligt boven de capaciteit."
+      ],
+      [
+        "Bij q = 60 is MK = 0,20 × 60 + 4 = € 16/kg, lager dan MO = 20. MK is ook voor alle lagere q onder MO.",
+        "De winst stijgt binnen de hele toegestane productie; de bovengrens is daarom het maximum."
+      ],
+      [
+        "Je hebt de <b>totale kosten bij q = 60</b> nodig, bijvoorbeeld via een volledige TK-functie of de constante kosten naast de gegeven marginale relatie.",
+        "MK vertelt niet hoeveel constante kosten er zijn. Zonder dat gegeven is totale winst niet vastgelegd."
+      ]
+    ],
+    "criteria": ""
+  },
+  "35": {
+    "items": [
+      [
+        "Overwinst → toetreding → meer aanbod bij elke prijs → lagere prijs → minder overwinst. Onder de gegeven aannames eindigt dit bij <b>P = € 8 per kg</b>.",
+        "Het minimum GTK is voor bestaande en nieuwe bedrijven gelijk."
+      ],
+      [
+        "<b>P = GO = MO = MK = minimum GTK = € 8 per kg.</b>",
+        "Bij dit punt is de productie marginaal optimaal én volledig kostendekkend."
+      ],
+      [
+        "Onjuist als beschrijving van het evenwicht. Zodra overwinst is verdwenen, stopt de prikkel tot verdere toetreding. Het model eindigt met nul, niet met blijvend negatieve economische winst.",
+        "Voortdurende verliesgevende toetreding past niet bij de gegeven langetermijnaanpassing."
+      ]
+    ],
+    "criteria": ""
+  },
+  "36": {
+    "items": [
+      [
+        "30.000 − 2.500P = 2.500P − 10.000 → 40.000 = 5.000P → <b>P₀ = € 8/kg</b>. Q₀ = 2.500 × 8 − 10.000 = <b>10.000 kg/week</b>. Bij q = 100: TO = 8 × 100 = € 800; TK = 0,02 × 100² + 4 × 100 + 200 = € 800. Winst = <b>€ 0/week</b>.",
+        "De beginsituatie is voor de onderneming economisch kostendekkend."
+      ],
+      [
+        "50.000 − 2.500P = 2.500P − 10.000 → 60.000 = 5.000P → <b>P₁ = € 12/kg</b>. Q₁ = 2.500 × 12 − 10.000 = <b>20.000 kg/week</b>. E₁ ligt op (20.000; 12).",
+        "Direct na de vraagstijging geldt nog hetzelfde aanbod: er is nog geen toetreding."
+      ],
+      [
+        "MK = <b>0,04q + 4</b>. 12 = 0,04q + 4 → <b>q = 200 kg/week</b>. 200 ≤ 250. Bij q = 150 is MK = 10; bij q = 250 is MK = 14.",
+        "De winst stijgt vóór 200 en daalt erna; de gekozen q is haalbaar."
+      ],
+      [
+        "TO = 12 × 200 = € 2.400. TK = 0,02 × 200² + 4 × 200 + 200 = 800 + 800 + 200 = € 1.800. Winst = <b>€ 600/week</b>. GTK = 1.800 / 200 = <b>€ 9/kg</b>. Rechthoek: breedte 200, hoogte 12 − 9 = 3.",
+        "De opbrengstlijn in de ondernemingsgrafiek ligt op P = 12; de winst is een oppervlak, geen snijpunt."
+      ],
+      [
+        "Overwinst trekt bedrijven aan → marktaanbod naar rechts → prijs daalt. Door gelijke, onveranderde kosten eindigt P bij minimum GTK: <b>€ 8/kg</b>. Markt Q = 50.000 − 2.500 × 8 = <b>30.000 kg/week</b>. Eén bedrijf: 8 = 0,04q + 4 → <b>q = 100 kg/week</b>. TO = TK = € 800 en winst = 0.",
+        "De toegenomen vraag wordt op lange termijn door méér bedrijven bediend."
+      ],
+      [
+        "Onjuist. Voor één oorspronkelijk bedrijf is q achtereenvolgens <b>100 → 200 → 100 kg/week</b>. Voor de markt is Q <b>10.000 → 20.000 → 30.000 kg/week</b>.",
+        "Een grotere totale markt vereist niet dat elk bedrijf blijvend meer produceert. Na toetreding daalt de prijs weer tot het oorspronkelijke kostenniveau."
+      ]
+    ],
+    "criteria": ""
+  },
+  "37": {
+    "items": [
+      [
+        "De eerdere eindprijs <b>€ 8 per kg</b> en de daarbij berekende q en Q kun je niet zonder meer handhaven. De kosten en het minimum GTK zijn nu veranderd.",
+        "Het oude eindpunt berustte op gelijkblijvende inputprijzen en kosten."
+      ],
+      [
+        "Je kunt nog uitleggen dat winst toetreding aantrekt en dat toetreding het marktaanbod beïnvloedt. Voor de precieze uiteindelijke prijs en hoeveelheden zijn de nieuwe kosten en het verdere aanbod nodig.",
+        "De richting van één mechanisme geeft nog geen volledig nieuw evenwicht."
+      ]
+    ],
+    "criteria": "Een goed antwoord noemt de veranderde kostenaanname, maakt richting en exact bedrag van elkaar los en verzint geen nieuwe eindprijs."
+  },
+  "38": {
+    "items": [
+      [
+        "GTK = 1.000 / 100 = <b>€ 10/kg</b>. Winst = 1.200 − 1.000 = <b>€ 200/week</b>.",
+        "Het gemiddelde en de totale winst horen bij q = 100."
+      ],
+      [
+        "Δq = 10. MO = 120 / 10 = <b>€ 12/kg</b>. MK = 150 / 10 = <b>€ 15/kg</b>. Δwinst = 120 − 150 = <b>−€ 30/week</b>.",
+        "De extra productie kost meer dan zij oplevert."
+      ],
+      [
+        "Positieve totale winst zegt dat de eerdere opbrengsten samen groter zijn dan de kosten. Of de volgende uitbreiding gunstig is, hangt af van extra opbrengst en extra kosten.",
+        "Totaal en marginaal beantwoorden verschillende vragen."
+      ]
+    ],
+    "criteria": ""
+  }
+}

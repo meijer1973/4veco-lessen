@@ -1,0 +1,3864 @@
+[
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 1,
+    "book_page": 5,
+    "edits": [
+      {
+        "rect": [
+          537.79255859375,
+          244.4882861328125,
+          544.3322583007813,
+          257.44771850585937
+        ],
+        "reason": "chapter_contents_page",
+        "old": "2",
+        "new": "6",
+        "right_aligned": true,
+        "output_rect": [
+          537.7925415039062,
+          244.3682861328125,
+          544.332275390625,
+          257.5677185058594
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          282.71332275390625,
+          544.3326245117188,
+          295.672724609375
+        ],
+        "reason": "chapter_contents_page",
+        "old": "10",
+        "new": "14",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          282.59332275390625,
+          544.3326416015625,
+          295.792724609375
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          320.93829833984375,
+          544.3326245117188,
+          333.8977001953125
+        ],
+        "reason": "chapter_contents_page",
+        "old": "19",
+        "new": "23",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          320.81829833984375,
+          544.3326416015625,
+          334.0177001953125
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          359.1633044433594,
+          544.3326245117188,
+          372.1227062988281
+        ],
+        "reason": "chapter_contents_page",
+        "old": "28",
+        "new": "32",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          359.0433044433594,
+          544.3326416015625,
+          372.2427062988281
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          397.388310546875,
+          544.3326245117188,
+          410.34771240234375
+        ],
+        "reason": "chapter_contents_page",
+        "old": "35",
+        "new": "39",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          397.268310546875,
+          544.3326416015625,
+          410.46771240234375
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          435.6132861328125,
+          544.3326245117188,
+          448.57268798828125
+        ],
+        "reason": "chapter_contents_page",
+        "old": "44",
+        "new": "48",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          435.4932861328125,
+          544.3326416015625,
+          448.69268798828125
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          473.83829223632813,
+          544.3326245117188,
+          486.79769409179687
+        ],
+        "reason": "chapter_contents_page",
+        "old": "48",
+        "new": "52",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          473.7182922363281,
+          544.3326416015625,
+          486.9176940917969
+        ]
+      },
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "5",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 2,
+    "book_page": 6,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "6",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 3,
+    "book_page": 7,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "7",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 4,
+    "book_page": 8,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "8",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 5,
+    "book_page": 9,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "9",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 6,
+    "book_page": 10,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          123.81349670410157,
+          418.06959350585936,
+          137.13326538085937
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik de volledig uitgewerkte fruitbekermarkt in figuur 2 op pagina 3.",
+        "new": "Gebruik de volledig uitgewerkte fruitbekermarkt in figuur 2 op pagina 7.",
+        "horizontal_scale": 0.9958103257941906
+      },
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "10",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 7,
+    "book_page": 11,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "11",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 8,
+    "book_page": 12,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "12",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 9,
+    "book_page": 13,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "13",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 10,
+    "book_page": 14,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "14",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 11,
+    "book_page": 15,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "15",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 12,
+    "book_page": 16,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "16",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 13,
+    "book_page": 17,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "17",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 14,
+    "book_page": 18,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "18",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 15,
+    "book_page": 19,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          123.81349670410157,
+          422.8833447265625,
+          137.13326538085937
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik de volledig ingekleurde fruitbekermarkt in figuur 1 op pagina 11.",
+        "new": "Gebruik de volledig ingekleurde fruitbekermarkt in figuur 1 op pagina 15.",
+        "horizontal_scale": 0.9956948185932749
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "19",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 16,
+    "book_page": 20,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "20",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 17,
+    "book_page": 21,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "21",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 18,
+    "book_page": 22,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "22",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 19,
+    "book_page": 23,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "23",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 20,
+    "book_page": 24,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "24",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 21,
+    "book_page": 25,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "25",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 22,
+    "book_page": 26,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "26",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 23,
+    "book_page": 27,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          123.81349670410157,
+          505.5527783203125,
+          137.13326538085937
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik de workshopgrafiek op pagina 20. De vraag- en aanbodlijn zijn niet van betekenis",
+        "new": "Gebruik de workshopgrafiek op pagina 24. De vraag- en aanbodlijn zijn niet van betekenis",
+        "horizontal_scale": 0.9955842834506494
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "27",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 24,
+    "book_page": 28,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "28",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 25,
+    "book_page": 29,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "29",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 26,
+    "book_page": 30,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "30",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 27,
+    "book_page": 31,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "31",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 28,
+    "book_page": 32,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "32",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 29,
+    "book_page": 33,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "33",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 30,
+    "book_page": 34,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "34",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 31,
+    "book_page": 35,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          123.81349670410157,
+          358.96037109375,
+          137.13326538085937
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik de volledig gemarkeerde puzzelmarkt op pagina 28.",
+        "new": "Gebruik de volledig gemarkeerde puzzelmarkt op pagina 32.",
+        "horizontal_scale": 0.9959429682561713
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "35",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 32,
+    "book_page": 36,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "32",
+        "new": "36",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 33,
+    "book_page": 37,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "33",
+        "new": "37",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 34,
+    "book_page": 38,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "34",
+        "new": "38",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 35,
+    "book_page": 39,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "35",
+        "new": "39",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 36,
+    "book_page": 40,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "36",
+        "new": "40",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 37,
+    "book_page": 41,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "37",
+        "new": "41",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 38,
+    "book_page": 42,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "38",
+        "new": "42",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 39,
+    "book_page": 43,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          123.81349670410157,
+          522.298994140625,
+          137.13326538085937
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik de appelgrafiek op pagina 35. De overheid garandeert daar volledige opkoop van het",
+        "new": "Gebruik de appelgrafiek op pagina 39. De overheid garandeert daar volledige opkoop van het",
+        "horizontal_scale": 0.9948783574694294
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "39",
+        "new": "43",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 40,
+    "book_page": 44,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "40",
+        "new": "44",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 41,
+    "book_page": 45,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "41",
+        "new": "45",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 42,
+    "book_page": 46,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "42",
+        "new": "46",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 43,
+    "book_page": 47,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "43",
+        "new": "47",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 44,
+    "book_page": 48,
+    "edits": [
+      {
+        "rect": [
+          66.77826873779297,
+          618.1418505859375,
+          533.0514965820313,
+          629.1817578125
+        ],
+        "reason": "inline_page_reference",
+        "old": "Werk de twee plannen afzonderlijk uit. De bronnen staan op pagina 46 en de vragen op pagina 47. Opgave 47A is",
+        "new": "Werk de twee plannen afzonderlijk uit. De bronnen staan op pagina 50 en de vragen op pagina 51. Opgave 47A is",
+        "horizontal_scale": 0.9956934694837667
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "44",
+        "new": "48",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 45,
+    "book_page": 49,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "45",
+        "new": "49",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 46,
+    "book_page": 50,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "46",
+        "new": "50",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 47,
+    "book_page": 51,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          122.00148498535157,
+          505.78993041992186,
+          135.32125366210937
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik de bronnen en de grafiek op pagina 46. Noteer berekening, eenheid en conclusie.",
+        "new": "Gebruik de bronnen en de grafiek op pagina 50. Noteer berekening, eenheid en conclusie.",
+        "horizontal_scale": 0.9959029890879347
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "47",
+        "new": "51",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Overheidsingrijpen.pdf",
+    "local_page": 48,
+    "book_page": 52,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "48",
+        "new": "52",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 1,
+    "book_page": 53,
+    "edits": [
+      {
+        "rect": [
+          537.79255859375,
+          289.66931640625,
+          544.3322583007813,
+          302.62871826171875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "2",
+        "new": "54",
+        "right_aligned": true,
+        "output_rect": [
+          531.4927978515625,
+          289.54931640625,
+          544.332275390625,
+          302.74871826171875
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          330.39432250976563,
+          544.3326245117188,
+          343.35372436523437
+        ],
+        "reason": "chapter_contents_page",
+        "old": "10",
+        "new": "62",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          330.2743225097656,
+          544.3326416015625,
+          343.4737243652344
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          371.11929809570313,
+          544.3326245117188,
+          384.07869995117187
+        ],
+        "reason": "chapter_contents_page",
+        "old": "22",
+        "new": "74",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          370.9992980957031,
+          544.3326416015625,
+          384.1986999511719
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          411.84430419921875,
+          544.3326245117188,
+          424.8037060546875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "31",
+        "new": "83",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          411.72430419921875,
+          544.3326416015625,
+          424.9237060546875
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          452.5693103027344,
+          544.3326245117188,
+          465.5287121582031
+        ],
+        "reason": "chapter_contents_page",
+        "old": "37",
+        "new": "89",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          452.4493103027344,
+          544.3326416015625,
+          465.6487121582031
+        ]
+      },
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "53",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 2,
+    "book_page": 54,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "54",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 3,
+    "book_page": 55,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "55",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 4,
+    "book_page": 56,
+    "edits": [
+      {
+        "rect": [
+          53.77826873779297,
+          76.81949340820313,
+          525.836591796875,
+          90.13926208496093
+        ],
+        "reason": "inline_page_reference",
+        "old": "Aardappelteler Noor. Gebruik figuur 2 op pagina 3. Alle telers leveren dezelfde kwaliteit; kopers",
+        "new": "Aardappelteler Noor. Gebruik figuur 2 op pagina 55. Alle telers leveren dezelfde kwaliteit; kopers",
+        "horizontal_scale": 0.9796991407743982
+      },
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "56",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 5,
+    "book_page": 57,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "57",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 6,
+    "book_page": 58,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "58",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 7,
+    "book_page": 59,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "59",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 8,
+    "book_page": 60,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "60",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 9,
+    "book_page": 61,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "61",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 10,
+    "book_page": 62,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "62",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 11,
+    "book_page": 63,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "63",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 12,
+    "book_page": 64,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "64",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 13,
+    "book_page": 65,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "65",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 14,
+    "book_page": 66,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "66",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 15,
+    "book_page": 67,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "67",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 16,
+    "book_page": 68,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "68",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 17,
+    "book_page": 69,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "69",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 18,
+    "book_page": 70,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "70",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 19,
+    "book_page": 71,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "71",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 20,
+    "book_page": 72,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "72",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 21,
+    "book_page": 73,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "73",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 22,
+    "book_page": 74,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "74",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 23,
+    "book_page": 75,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "75",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 24,
+    "book_page": 76,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "76",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 25,
+    "book_page": 77,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "77",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 26,
+    "book_page": 78,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          420.43451416015625,
+          462.4552746582031,
+          433.754267578125
+        ],
+        "reason": "inline_page_reference",
+        "old": "Bekijk figuur 2 op pagina 23. Vraag en kosten van één onderneming blijven gelijk.",
+        "new": "Bekijk figuur 2 op pagina 75. Vraag en kosten van één onderneming blijven gelijk.",
+        "horizontal_scale": 0.9935551069118675
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "78",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 27,
+    "book_page": 79,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          151.5214892578125,
+          529.8810864257813,
+          164.8412579345703
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik de markt op pagina 24, nu zonder de nieuwe lijnen. Alle bedrijven hebben TK = 0,10q²",
+        "new": "Gebruik de markt op pagina 76, nu zonder de nieuwe lijnen. Alle bedrijven hebben TK = 0,10q²",
+        "horizontal_scale": 0.997064351627779
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "79",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 28,
+    "book_page": 80,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "80",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 29,
+    "book_page": 81,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "81",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 30,
+    "book_page": 82,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "82",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 31,
+    "book_page": 83,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "83",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 32,
+    "book_page": 84,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "32",
+        "new": "84",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 33,
+    "book_page": 85,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "33",
+        "new": "85",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 34,
+    "book_page": 86,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "34",
+        "new": "86",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 35,
+    "book_page": 87,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "35",
+        "new": "87",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 36,
+    "book_page": 88,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "36",
+        "new": "88",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 37,
+    "book_page": 89,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "37",
+        "new": "89",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Volkomen_concurrentie.pdf",
+    "local_page": 38,
+    "book_page": 90,
+    "edits": [
+      {
+        "rect": [
+          533.31404296875,
+          120.48997222900391,
+          539.3316479492188,
+          132.3692120361328
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "2",
+        "new": "54",
+        "right_aligned": true,
+        "output_rect": [
+          527.536376953125,
+          120.3699722290039,
+          539.3316650390625,
+          132.4892120361328
+        ]
+      },
+      {
+        "rect": [
+          533.31404296875,
+          155.49396240234375,
+          539.3316479492188,
+          167.37320983886718
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "2",
+        "new": "54",
+        "right_aligned": true,
+        "output_rect": [
+          527.536376953125,
+          155.37396240234375,
+          539.3316650390625,
+          167.4932098388672
+        ]
+      },
+      {
+        "rect": [
+          533.31404296875,
+          177.67096435546875,
+          539.3316479492188,
+          189.55021179199218
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "3",
+        "new": "55",
+        "right_aligned": true,
+        "output_rect": [
+          527.536376953125,
+          177.55096435546875,
+          539.3316650390625,
+          189.6702117919922
+        ]
+      },
+      {
+        "rect": [
+          533.31404296875,
+          199.84796630859375,
+          539.3316479492188,
+          211.72721374511718
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "4",
+        "new": "56",
+        "right_aligned": true,
+        "output_rect": [
+          527.536376953125,
+          199.72796630859375,
+          539.3316650390625,
+          211.8472137451172
+        ]
+      },
+      {
+        "rect": [
+          533.31404296875,
+          222.02496826171875,
+          539.3316479492188,
+          233.90421569824218
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "4",
+        "new": "56",
+        "right_aligned": true,
+        "output_rect": [
+          527.536376953125,
+          221.90496826171875,
+          539.3316650390625,
+          234.0242156982422
+        ]
+      },
+      {
+        "rect": [
+          533.31404296875,
+          244.20197021484375,
+          539.3316479492188,
+          256.0812023925781
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "4",
+        "new": "56",
+        "right_aligned": true,
+        "output_rect": [
+          527.536376953125,
+          244.08197021484375,
+          539.3316650390625,
+          256.2012023925781
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          266.37897216796875,
+          539.3314038085938,
+          278.2582043457031
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "11",
+        "new": "63",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          266.25897216796875,
+          539.3314208984375,
+          278.3782043457031
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          301.38296997070313,
+          539.3314038085938,
+          313.2622021484375
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "12",
+        "new": "64",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          301.2629699707031,
+          539.3314208984375,
+          313.3822021484375
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          323.55997192382813,
+          539.3314038085938,
+          335.4392041015625
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "13",
+        "new": "65",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          323.4399719238281,
+          539.3314208984375,
+          335.5592041015625
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          358.5639697265625,
+          539.3314038085938,
+          370.44320190429687
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "13",
+        "new": "65",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          358.4439697265625,
+          539.3314208984375,
+          370.5632019042969
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          393.5679675292969,
+          539.3314038085938,
+          405.44719970703125
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "14",
+        "new": "66",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          393.4479675292969,
+          539.3314208984375,
+          405.56719970703125
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          415.7449694824219,
+          539.3314038085938,
+          427.62420166015625
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "22",
+        "new": "74",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          415.6249694824219,
+          539.3314208984375,
+          427.74420166015625
+        ]
+      },
+      {
+        "rect": [
+          509.88240234375,
+          437.9219714355469,
+          539.3305493164063,
+          449.80120361328125
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "22–24",
+        "new": "74–76",
+        "right_aligned": true,
+        "output_rect": [
+          509.8824157714844,
+          437.8019714355469,
+          539.33056640625,
+          449.92120361328125
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          460.0989733886719,
+          539.3314038085938,
+          471.97820556640625
+        ],
+        "reason": "chapter_glossary_reference",
+        "old": "25",
+        "new": "77",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          459.9789733886719,
+          539.3314208984375,
+          472.09820556640625
+        ]
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "38",
+        "new": "90",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 1,
+    "book_page": 91,
+    "edits": [
+      {
+        "rect": [
+          537.79255859375,
+          394.007939453125,
+          544.3322583007813,
+          406.96734130859375
+        ],
+        "reason": "chapter_contents_page",
+        "old": "2",
+        "new": "92",
+        "right_aligned": true,
+        "output_rect": [
+          531.4927978515625,
+          393.887939453125,
+          544.332275390625,
+          407.08734130859375
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          434.7329150390625,
+          544.3326245117188,
+          447.69231689453125
+        ],
+        "reason": "chapter_contents_page",
+        "old": "11",
+        "new": "101",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          434.6129150390625,
+          544.3326416015625,
+          447.81231689453125
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          475.45795166015625,
+          544.3326245117188,
+          488.417353515625
+        ],
+        "reason": "chapter_contents_page",
+        "old": "21",
+        "new": "111",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          475.33795166015625,
+          544.3326416015625,
+          488.537353515625
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          516.1829272460938,
+          544.3326245117188,
+          529.1423291015625
+        ],
+        "reason": "chapter_contents_page",
+        "old": "31",
+        "new": "121",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          516.0629272460938,
+          544.3326416015625,
+          529.2623291015625
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          556.9079028320313,
+          544.3326245117188,
+          569.8673046875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "38",
+        "new": "128",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          556.7879028320312,
+          544.3326416015625,
+          569.9873046875
+        ]
+      },
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "91",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 2,
+    "book_page": 92,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "92",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 3,
+    "book_page": 93,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "93",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 4,
+    "book_page": 94,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "94",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 5,
+    "book_page": 95,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "95",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 6,
+    "book_page": 96,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "96",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 7,
+    "book_page": 97,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "97",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 8,
+    "book_page": 98,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "98",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 9,
+    "book_page": 99,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "99",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 10,
+    "book_page": 100,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "100",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 11,
+    "book_page": 101,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "101",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 12,
+    "book_page": 102,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "102",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 13,
+    "book_page": 103,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "103",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 14,
+    "book_page": 104,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "104",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 15,
+    "book_page": 105,
+    "edits": [
+      {
+        "rect": [
+          66.77826873779297,
+          98.28209411621094,
+          512.2913647460938,
+          110.76162231445312
+        ],
+        "reason": "inline_page_reference",
+        "old": "Elva is een klein prijsnemend land met concurrerende aanbieders. Het model op pagina 11 geldt.",
+        "new": "Elva is een klein prijsnemend land met concurrerende aanbieders. Het model op pagina 101 geldt.",
+        "horizontal_scale": 0.9841194298436077
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "105",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 16,
+    "book_page": 106,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          435.9155322265625,
+          456.6470166015625,
+          449.23528564453125
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik de volledig ingevulde importgrafiek van tassen in figuur 2 op pagina 12.",
+        "new": "Gebruik de volledig ingevulde importgrafiek van tassen in figuur 2 op pagina 102.",
+        "horizontal_scale": 0.9789649008193626
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "106",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 17,
+    "book_page": 107,
+    "edits": [
+      {
+        "rect": [
+          66.77826873779297,
+          144.49210083007813,
+          520.8345166015625,
+          156.9716290283203
+        ],
+        "reason": "inline_page_reference",
+        "old": "Ista is klein en prijsnemend. Het model op pagina 11 geldt. De prijs zonder handel is € 15 per paar.",
+        "new": "Ista is klein en prijsnemend. Het model op pagina 101 geldt. De prijs zonder handel is € 15 per paar.",
+        "horizontal_scale": 0.9834299566340734
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "107",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 18,
+    "book_page": 108,
+    "edits": [
+      {
+        "rect": [
+          66.77826873779297,
+          98.28209411621094,
+          522.5092602539063,
+          110.76162231445312
+        ],
+        "reason": "inline_page_reference",
+        "old": "Kora is klein en prijsnemend. Het model op pagina 11 geldt. Zonder handel is de prijs € 20 per box.",
+        "new": "Kora is klein en prijsnemend. Het model op pagina 101 geldt. Zonder handel is de prijs € 20 per box.",
+        "horizontal_scale": 0.9830399899960234
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "108",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 19,
+    "book_page": 109,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "109",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 20,
+    "book_page": 110,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "110",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 21,
+    "book_page": 111,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "111",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 22,
+    "book_page": 112,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "112",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 23,
+    "book_page": 113,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "113",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 24,
+    "book_page": 114,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "114",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 25,
+    "book_page": 115,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "115",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 26,
+    "book_page": 116,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          451.3964892578125,
+          213.69006164550783,
+          464.71624267578125
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik figuur 3 op pagina 23.",
+        "new": "Gebruik figuur 3 op pagina 113.",
+        "horizontal_scale": 0.9550435976796662
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "116",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 27,
+    "book_page": 117,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "117",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 28,
+    "book_page": 118,
+    "edits": [
+      {
+        "rect": [
+          66.77826873779297,
+          98.28209411621094,
+          481.67967041015623,
+          110.76162231445312
+        ],
+        "reason": "inline_page_reference",
+        "old": "Luma is klein en prijsnemend; de aannames van pagina 11 gelden, behalve vrije invoer. De",
+        "new": "Luma is klein en prijsnemend; de aannames van pagina 101 gelden, behalve vrije invoer. De",
+        "horizontal_scale": 0.9810325442141478
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "118",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 29,
+    "book_page": 119,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "119",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 30,
+    "book_page": 120,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "120",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 31,
+    "book_page": 121,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "121",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 32,
+    "book_page": 122,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "32",
+        "new": "122",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 33,
+    "book_page": 123,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "33",
+        "new": "123",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 34,
+    "book_page": 124,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "34",
+        "new": "124",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 35,
+    "book_page": 125,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          153.92149841308594,
+          492.87443359375,
+          167.24126708984375
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik de drie bronnen, de tabel en figuur 3 op pagina 34. Noteer bij berekeningen de",
+        "new": "Gebruik de drie bronnen, de tabel en figuur 3 op pagina 124. Noteer bij berekeningen de",
+        "horizontal_scale": 0.9807187948472289
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "35",
+        "new": "125",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 36,
+    "book_page": 126,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "36",
+        "new": "126",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 37,
+    "book_page": 127,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "37",
+        "new": "127",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Internationale_handel.pdf",
+    "local_page": 38,
+    "book_page": 128,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "38",
+        "new": "128",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  }
+]

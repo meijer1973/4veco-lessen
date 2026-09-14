@@ -1,0 +1,137 @@
+[
+  {
+    "name": "start1",
+    "q_candidate": 40.0,
+    "q_chosen": 40.0,
+    "price": 10.0,
+    "revenue": 400.0,
+    "cost": 280.0,
+    "profit": 120.0
+  },
+  {
+    "name": "core413",
+    "q_candidate": 60.0,
+    "q_chosen": 60.0,
+    "price": 18.0,
+    "revenue": 1080.0,
+    "cost": 560.0,
+    "profit": 520.0
+  },
+  {
+    "name": "capacity50",
+    "q_candidate": 60.0,
+    "q_chosen": 50.0,
+    "price": 20.0,
+    "revenue": 1000.0,
+    "cost": 500.0,
+    "profit": 500.0
+  },
+  {
+    "name": "loss",
+    "q_candidate": 60.0,
+    "q_chosen": 60.0,
+    "price": 18.0,
+    "revenue": 1080.0,
+    "cost": 1260.0,
+    "profit": -180.0
+  },
+  {
+    "name": "Mira",
+    "q_candidate": 30.0,
+    "q_chosen": 30.0,
+    "price": 18.0,
+    "revenue": 540.0,
+    "cost": 350.0,
+    "profit": 190.0
+  },
+  {
+    "name": "review20",
+    "q_candidate": 40.0,
+    "q_chosen": 40.0,
+    "price": 12.0,
+    "revenue": 480.0,
+    "cost": 420.0,
+    "profit": 60.0
+  },
+  {
+    "name": "Wavo24",
+    "q_candidate": 50.0,
+    "q_chosen": 50.0,
+    "price": 18.0,
+    "revenue": 900.0,
+    "cost": 500.0,
+    "profit": 400.0
+  },
+  {
+    "name": "Wavo25both",
+    "q_candidate": 60.0,
+    "q_chosen": 60.0,
+    "price": 20.0,
+    "revenue": 1200.0,
+    "cost": 660.0,
+    "profit": 540.0
+  },
+  {
+    "name": "Helder26",
+    "q_candidate": 60.0,
+    "q_chosen": 60.0,
+    "price": 28.0,
+    "revenue": 1680.0,
+    "cost": 700.0,
+    "profit": 980.0
+  },
+  {
+    "name": "capacity27",
+    "q_candidate": 50.0,
+    "q_chosen": 40.0,
+    "price": 14.0,
+    "revenue": 560.0,
+    "cost": 130.0,
+    "profit": 430.0
+  },
+  {
+    "name": "Nova28",
+    "q_candidate": 40.0,
+    "q_chosen": 40.0,
+    "price": 30.0,
+    "revenue": 1200.0,
+    "cost": 800.0,
+    "profit": 400.0
+  },
+  {
+    "name": "KleurFix35",
+    "q_candidate": 40.0,
+    "q_chosen": 40.0,
+    "price": 24.0,
+    "revenue": 960.0,
+    "cost": 600.0,
+    "profit": 360.0
+  },
+  {
+    "name": "competitor35",
+    "q_candidate": 50.0,
+    "q_chosen": 50.0,
+    "price": 18.0,
+    "revenue": 900.0,
+    "cost": 770.0,
+    "profit": 130.0
+  },
+  {
+    "name": "capacity37old",
+    "q_candidate": 80.0,
+    "q_chosen": 60.0,
+    "price": 14.0,
+    "revenue": 840.0,
+    "cost": 340.0,
+    "profit": 500.0
+  },
+  {
+    "name": "capacity37new",
+    "q_candidate": 80.0,
+    "q_chosen": 80.0,
+    "price": 12.0,
+    "revenue": 960.0,
+    "cost": 420.0,
+    "profit": 540.0
+  }
+]

@@ -1,0 +1,668 @@
+{
+  "1": [
+    {
+      "solution": "12 − 0,10Q = 4 + 0,10Q → 8 = 0,20Q → Q₀ = <b>40 sleutelhangers per dag</b>. P₀ = 12 − 0,10 × 40 = <b>€ 8 per stuk</b>.",
+      "why": "Zonder maatregel ontvangen beide kanten dezelfde prijs; de gewenste hoeveelheden zijn gelijk."
+    },
+    {
+      "solution": "P = 4 + 0,10 × 30 = <b>€ 7 per stuk</b>.",
+      "why": "Je vult het aantal in de aanbodfunctie in. Dit is nog geen nieuw evenwicht."
+    }
+  ],
+  "2": [
+    {
+      "solution": "t = Pc − Pp = 9 − 6 = <b>€ 3 per product</b>.",
+      "why": "De belasting is het verschil tussen wat de koper betaalt en wat de verkoper na afdracht overhoudt."
+    },
+    {
+      "solution": "Nee. Voor de last van kopers heb je Pc − P₀ nodig; voor verkopers P₀ − Pp. <b>P₀ ontbreekt.</b>",
+      "why": "De wig geeft de totale belasting, niet de verdeling ten opzichte van de oude prijs."
+    }
+  ],
+  "3": [
+    {
+      "solution": "Q₀ = 60 en Qt = 40 fruitbekers per dag; P₀ = € 8, Pc = € 10 en Pp = € 6 per beker. <b>Pc en Pp horen beide bij Qt = 40.</b>",
+      "why": "Elke verkochte beker heeft een betaald en een na belasting overgehouden bedrag."
+    },
+    {
+      "solution": "A + t geeft de benodigde <b>kopersprijs inclusief belasting</b>. Pp lees je op de oorspronkelijke A af: € 6.",
+      "why": "Op A + t zit de af te dragen € 4 er al bij."
+    },
+    {
+      "solution": "€ 12 gebruiken als Pc geeft Qv = (14 − 12)/0,10 = 20, terwijl bij Pp = 12 − 4 = € 8 het aanbod Qa = (8 − 2)/0,10 = 60 is. Dat is geen evenwicht. De juiste Pc is € 10 bij Q = 40.",
+      "why": "De prijs past zich aan via vraag én aanbod; je telt niet zonder meer de belasting op bij P₀."
+    }
+  ],
+  "4": [
+    {
+      "solution": "Pc = Pp + <b>4</b> = <b>8</b> + 0,10Q.",
+      "why": "Verkopers moeten boven op hun gewenste ontvangst de belasting kunnen afdragen."
+    },
+    {
+      "solution": "16 − 0,10Q = 8 + 0,10Q → 8 = 0,20Q → Qt = <b>40 posters per week</b>. Pc = 16 − 0,10 × 40 = <b>€ 12</b>; Pp = 4 + 0,10 × 40 = <b>€ 8 per poster</b>.",
+      "why": "Gebruik de twee oorspronkelijke functies bij dezelfde nieuwe Q."
+    },
+    {
+      "solution": "A + t begint bij € 8 en loopt evenwijdig aan A. Markeer Q = 40, Pc = € 12 en Pp = € 8; zie de oplossingsgrafiek.",
+      "why": "De verticale afstand is de belasting per poster."
+    },
+    {
+      "solution": "Controle: 12 − 8 = <b>€ 4</b>. De hogere kopersprijs en lagere verkopersontvangst maken dat minder posters worden gevraagd en aangeboden.",
+      "why": "Een nieuw snijpunt vervangt het vrije evenwicht."
+    }
+  ],
+  "5": [
+    {
+      "solution": "18 − 0,20Q = 6 + 0,10Q → 12 = 0,30Q → Q₀ = <b>40 mokken per dag</b>. P₀ = 18 − 0,20 × 40 = <b>€ 10 per mok</b>.",
+      "why": "Het vrije evenwicht gebruikt dezelfde prijs voor kopers en verkopers."
+    },
+    {
+      "solution": "Nieuw aanbod: Pc = 9 + 0,10Q. 18 − 0,20Q = 9 + 0,10Q → Qt = <b>30 mokken per dag</b>. Pc = 18 − 0,20 × 30 = <b>€ 12</b>; Pp = 6 + 0,10 × 30 = <b>€ 9 per mok</b>.",
+      "why": "Pc − Pp = 12 − 9 = € 3; de belasting past precies tussen beide prijzen."
+    },
+    {
+      "solution": "A + t start bij € 9. Markeer de twee punten (30; 12) en (30; 9) en de verticale wig. De grafiek hieronder toont de uitwerking.",
+      "why": "De belasting verschuift A in kopersprijzen, niet de betalingsbereidheid."
+    },
+    {
+      "solution": "Van de € 12 betaling gaat € 3 naar de overheid; de verkoper houdt € 9 over. Eerst betaalde en ontving men € 10.",
+      "why": "Een grotere betaling hoeft geen grotere netto-ontvangst voor verkopers te zijn."
+    }
+  ],
+  "6": [
+    {
+      "solution": "Koper: 9 − 7 = <b>€ 2 meer</b>. Verkoper: 7 − 6 = <b>€ 1 minder</b>. t = 9 − 6 = <b>€ 3 per product</b>.",
+      "why": "Beide veranderingen tellen samen op tot de belastingwig."
+    },
+    {
+      "solution": "Onjuist. De koper draagt € 2, maar de verkoper draagt nog € 1. De belasting is € 3 per product.",
+      "why": "Last voor één groep en totale belasting zijn verschillende grootheden."
+    }
+  ],
+  "7": [
+    {
+      "solution": "20 − 0,20Q = 2 + 0,10Q → 18 = 0,30Q → Q₀ = <b>60 tassen per dag</b>. P₀ = 20 − 0,20 × 60 = <b>€ 8 per tas</b>.",
+      "why": "Zonder belasting zijn vraag en aanbod gelijk bij één prijs."
+    },
+    {
+      "solution": "Pc = Pp + 3 = <b>5 + 0,10Q</b>. 20 − 0,20Q = 5 + 0,10Q → 15 = 0,30Q → Qt = <b>50 tassen per dag</b>.",
+      "why": "De € 3 wordt aan de aanbodfunctie in kopersprijzen toegevoegd."
+    },
+    {
+      "solution": "Pc = 20 − 0,20 × 50 = <b>€ 10</b>. Pp = 2 + 0,10 × 50 = <b>€ 7 per tas</b>. Controle: 10 − 7 = € 3.",
+      "why": "De prijzen horen bij dezelfde 50 verkochte tassen."
+    },
+    {
+      "solution": "Teken A + t met prijsas-snijding € 5. Markeer (50; 10) op V en (50; 7) op A; verbind de punten verticaal.",
+      "why": "Op A + t lees je niet af wat na afdracht voor de verkoper overblijft."
+    },
+    {
+      "solution": "Onjuist. De koper betaalt 10 − 8 = <b>€ 2 meer</b>; de verkoper houdt 8 − 7 = <b>€ 1 minder</b> over. De verkoper draagt € 3 af, maar draagt economisch € 1 per tas.",
+      "why": "Afdragen is een betalingshandeling; dragen vergelijkt met de oude prijs."
+    }
+  ],
+  "8": [
+    {
+      "solution": "De uitkomst verandert onder de gegeven voorwaarden niet. Pc − Pp blijft € 4. 16 − 0,10Q = 4 + 0,10Q + 4 → Q = <b>40 producten</b>; Pc = <b>€ 12</b>; Pp = <b>€ 8 per product</b>.",
+      "why": "Kopers reageren op hun totale betaling; verkopers op hun ontvangst. De belastingwig is gelijk gebleven."
+    },
+    {
+      "solution": "Geldstroom: <b>koper → verkoper: € 8</b>; <b>koper → overheid: € 4</b>. De koper betaalt samen € 12. Verkopers ontvangen € 8.",
+      "why": "Hetzelfde totale belastingbedrag kan langs een andere betalingsroute lopen."
+    }
+  ],
+  "9": [
+    {
+      "solution": "%ΔP = (12 − 10)/10 × 100% = <b>+20%</b>. %ΔQv = (180 − 200)/200 × 100% = <b>−10%</b>.",
+      "why": "De oude waarden zijn de basis; een daling krijgt een minteken."
+    },
+    {
+      "solution": "Ev = −10% / +20% = <b>−0,5</b>. |Ev| = 0,5 &lt; 1: <b>prijsinelastisch</b>.",
+      "why": "De hoeveelheid verandert procentueel minder sterk dan de prijs."
+    }
+  ],
+  "10": [
+    {
+      "solution": "CS = ½ × 40 × (18 − 10) = <b>€ 160</b>. PS = ½ × 40 × (10 − 6) = <b>€ 80</b>. Basis: 40 producten; hoogten: € 8 en € 4 per product.",
+      "why": "Het product van aantal en euro per product geeft euro, niet euro per product."
+    }
+  ],
+  "11": [
+    {
+      "solution": "W = 500 − 470 = <b>€ 30</b>. De € 120 is een overheidsontvangst, geen volledig verdwenen voordeel.",
+      "why": "Een geldstroom is niet hetzelfde als het verlies aan gezamenlijke voordelen van handel."
+    }
+  ],
+  "12": [
+    {
+      "solution": "CS ligt boven Pc = € 10 en onder V; PS onder Pp = € 6 en boven A. O is de rechthoek tussen € 6 en € 10 tot Q = 40; W ligt tussen Q = 40 en Q = 60.",
+      "why": "Elke oppervlakte heeft een eigen economische betekenis."
+    },
+    {
+      "solution": "O = 40 × 4 = <b>€ 160 per dag</b>. W = ½ × (60 − 40) × 4 = <b>€ 40 per dag</b>.",
+      "why": "O gebruikt verkochte eenheden; W gebruikt de gemiste eenheden."
+    },
+    {
+      "solution": "Tussen Pc en Pp zit boven de verkochte hoeveelheid de belastingopbrengst. Alleen de driehoek van weggevallen voordelige transacties is W.",
+      "why": "De overheid ontvangt geld over handel die nog wel plaatsvindt."
+    }
+  ],
+  "13": [
+    {
+      "solution": "<table><tr><th>Grootheid (€ per dag)</th><th>Zonder</th><th>Met</th></tr><tr><td>CS</td><td>½ × 60 × (16 − 10) = 180</td><td>½ × 40 × (16 − 12) = 80</td></tr><tr><td>PS</td><td>½ × 60 × (10 − 4) = 180</td><td>½ × 40 × (8 − 4) = 80</td></tr><tr><td>O</td><td>0</td><td>4 × 40 = 160</td></tr><tr><td>CS + PS + O</td><td>360</td><td>320</td></tr></table>",
+      "why": "De verkochte hoeveelheid is de basis van de driehoeken; de relevante prijs bepaalt de hoogte."
+    },
+    {
+      "solution": "O = <b>€ 160 per dag</b>. W = 360 − 320 = <b>€ 40 per dag</b>. Controle: ½ × (60 − 40) × 4 = € 40.",
+      "why": "Het verlies aan CS en PS is € 200, maar daarvan ontvangt de overheid € 160."
+    },
+    {
+      "solution": "Onjuist. € 2 koperslast + € 2 verkoperslast = <b>€ 4 belasting per set</b>. De overheid ontvangt de hele € 4 bij iedere verkoop.",
+      "why": "De verdeling van de last verandert niet het bedrag dat wordt afgedragen."
+    }
+  ],
+  "14": [
+    {
+      "solution": "Koperslast = 12 − 10 = <b>€ 2</b>; verkoperslast = 10 − 8 = <b>€ 2 per pakket</b>. Afwenteling = 2/4 × 100% = <b>50%</b>.",
+      "why": "Beide lasten worden met de oude prijs vergeleken."
+    },
+    {
+      "solution": "Oud: CS = ½ × 60 × 6 = € 180 en PS = ½ × 60 × 6 = € 180. Nieuw: CS = ½ × 40 × 4 = € 80 en PS = ½ × 40 × 4 = € 80. O = 4 × 40 = € 160. W = 360 − (80 + 80 + 160) = <b>€ 40 per week</b>.",
+      "why": "De belastingopbrengst blijft onderdeel van de welvaartsmaat."
+    },
+    {
+      "solution": "Markeer Qt = 40, Pc = € 12 en Pp = € 8. O is een rechthoek met breedte 40 en hoogte € 4. W heeft basis 20 en hoogte € 4.",
+      "why": "Je arceert de budgetoverdracht en de gemiste transacties verschillend."
+    }
+  ],
+  "15": [
+    {
+      "solution": "In <b>markt Y</b>. Kopers kunnen daar minder makkelijk op een hogere prijs reageren. Bij gelijk aanbod kan een groter deel via de prijs bij hen terechtkomen.",
+      "why": "De minder prijsgevoelige kant draagt relatief meer last."
+    },
+    {
+      "solution": "De afdrachtregel is in beide markten dezelfde en zegt niet hoe prijzen veranderen.",
+      "why": "Economische belastingdruk volgt uit de aanpassing van beide kanten van de markt."
+    }
+  ],
+  "16": [
+    {
+      "solution": "Koper: 10 − 8 = <b>€ 2 per tas</b>. Verkoper: 8 − 7 = <b>€ 1 per tas</b>. Afwenteling = 2/3 × 100% = <b>66,67%</b>.",
+      "why": "Samen dragen beide kanten € 3 per verkochte tas."
+    },
+    {
+      "solution": "O = t × Qt = 3 × 50 = <b>€ 150 per dag</b>.",
+      "why": "De belasting wordt over de 50 daadwerkelijke verkopen geheven."
+    },
+    {
+      "solution": "Oud: CS = ½ × 60 × (20 − 8) = € 360; PS = ½ × 60 × (8 − 2) = € 180. Nieuw: CS = ½ × 50 × (20 − 10) = € 250; PS = ½ × 50 × (7 − 2) = € 125.<br>Nieuwe maat = 250 + 125 + 150 = <b>€ 525</b>. W = (360 + 180) − 525 = <b>€ 15 per dag</b>.",
+      "why": "Verlies aan privaat surplus is deels een overdracht naar de overheid."
+    },
+    {
+      "solution": "Zie de grafiek. O ligt tussen € 7 en € 10 tot Q = 50. W ligt tussen Q = 50 en Q = 60: basis 10 tassen, hoogte € 3 per tas. ½ × 10 × 3 = € 15.",
+      "why": "De basis van W is niet Qt maar de afname van de hoeveelheid."
+    },
+    {
+      "solution": "Onjuist. Bij gelijk aanbod en dezelfde belasting leidt minder prijsgevoelige vraag juist tot een groter aandeel voor kopers.",
+      "why": "Wie minder makkelijk kan afzien van aankoop, kan de last minder makkelijk ontwijken."
+    }
+  ],
+  "17": [
+    {
+      "solution": "In beide grafieken is Qv bij € 8: (14 − 8) / 0,10 = <b>60 producten per week</b>. Bij € 9: (14 − 9) / 0,10 = <b>50 producten per week</b>. De prijsstijging is steeds 12,5%; de gevraagde hoeveelheid daalt steeds met 16,67%. De vraag is dus niet in één grafiek minder prijsgevoelig.",
+      "why": "De formule en economische getallen zijn gelijk. Alleen de hoeveelheid papier per euro op de verticale as verandert."
+    },
+    {
+      "solution": "Nee. Voor de lastverdeling moet je de reactie van de vraag <b>ten opzichte van het aanbod</b> kennen. Om bedragen uit te rekenen heb je ook de belasting en de oorspronkelijke marktuitkomst nodig. Een andere asschaal verandert de vraagfunctie, het aanbod of de belasting niet.",
+      "why": "Een visueel steilere lijn door een andere schaal is geen verandering in gedrag. In de gecontroleerde vergelijking in de uitleg waren uitgangswaarden, aanbod en belasting wel gelijk gehouden."
+    }
+  ],
+  "18": [
+    {
+      "solution": "TO = 9 × 100 = <b>€ 900 per dag</b>. TK = 300 + 4 × 100 = <b>€ 700 per dag</b>. Winst = 900 − 700 = <b>€ 200 per dag</b>.",
+      "why": "Van de opbrengst moeten nog de totale kosten af."
+    },
+    {
+      "solution": "€ 9 is de ontvangst per verkocht product, niet wat er na alle kosten overblijft. Hier zijn de gemiddelde totale kosten 700/100 = € 7; de gemiddelde winst is € 2.",
+      "why": "Opbrengst en winst zijn niet uitwisselbaar."
+    }
+  ],
+  "19": [
+    {
+      "solution": "Belasting: Pp = Pc − t = 11 − 3 = <b>€ 8</b>. Subsidie: Pp = Pc + s = 11 + 3 = <b>€ 14 per product</b>.",
+      "why": "Belasting wordt afgedragen uit de betaling; subsidie komt erbovenop."
+    }
+  ],
+  "20": [
+    {
+      "solution": "U = s × Qsub = 2 × 60 = <b>€ 120 per week</b>. Niet 2 × 10 = € 20.",
+      "why": "Volgens de regeling krijgt elke verkochte plaats subsidie, ook een plaats die zonder subsidie zou zijn verkocht."
+    }
+  ],
+  "21": [
+    {
+      "solution": "Pc = <b>€ 10</b> en Pp = <b>€ 14 per plaats</b>. De aanbieder ontvangt € 10 van de koper plus € 4 van de gemeente.",
+      "why": "Pp is de totale ontvangst vóór productiekosten."
+    },
+    {
+      "solution": "Voor dezelfde gewenste totale ontvangst van de aanbieder hoeft de koper € 4 minder te betalen. Daarom verschuift A in kopersprijzen omlaag.",
+      "why": "Er is geen verandering in wat kopers voor het product willen betalen."
+    },
+    {
+      "solution": "Koper: 12 − 10 = <b>€ 2 voordeel</b>. Aanbieder: 14 − 12 = <b>€ 2 voordeel per plaats</b>.",
+      "why": "De subsidie wordt uitbetaald aan aanbieders, maar beide kanten profiteren via de prijzen."
+    }
+  ],
+  "22": [
+    {
+      "solution": "Pc = Pp − <b>4</b> = <b>6</b> + 0,10Q. 22 − 0,10Q = 6 + 0,10Q → Qsub = <b>80 lesplaatsen per week</b>. Pc = 22 − 0,10 × 80 = <b>€ 14</b>; Pp = 10 + 0,10 × 80 = <b>€ 18 per plaats</b>.",
+      "why": "Pp − Pc = 4; het aanbod in kopersprijzen is verlaagd."
+    },
+    {
+      "solution": "A − s begint bij € 6. Markeer Q = 80 met de punten (80; 14) en (80; 18); zie de grafiek.",
+      "why": "De lagere lijn hoort bij de kopersprijs, de oorspronkelijke A bij de totale ontvangst."
+    },
+    {
+      "solution": "U = 4 × 80 = € 320. CS = ½ × 80 × (22 − 14) = € 320. PS = ½ × 80 × (18 − 10) = € 320. Netto: 320 + 320 − 320 = <b>€ 320 per week</b>. Daling ten opzichte van € 360: <b>€ 40</b>.",
+      "why": "De subsidie-uitgaven moeten worden afgetrokken."
+    }
+  ],
+  "23": [
+    {
+      "solution": "Nieuw aanbod: Pc = 3 + 0,10Q. 24 − 0,20Q = 3 + 0,10Q → Qsub = <b>70 plaatsen per week</b>. Pc = 24 − 0,20 × 70 = <b>€ 10</b>. Pp = 6 + 0,10 × 70 = <b>€ 13</b>. Markeer deze punten in de grafiek.",
+      "why": "De wig van € 3 vergroot de hoeveelheid ten opzichte van 60."
+    },
+    {
+      "solution": "U = 3 × 70 = <b>€ 210</b>. CS = ½ × 70 × (24 − 10) = <b>€ 490</b>. PS = ½ × 70 × (13 − 6) = <b>€ 245 per week</b>.",
+      "why": "De nieuwe verkochte hoeveelheid is de basis; beide kanten gebruiken hun eigen prijs."
+    },
+    {
+      "solution": "CS + PS − U = 490 + 245 − 210 = <b>€ 525 per week</b>. W = 540 − 525 = <b>€ 15 per week</b>. Er zijn geen baten voor buitenstaanders meegeteld.",
+      "why": "Zonder zulke baten kosten de extra transacties voorbij het vrije evenwicht meer dan hun betalingsbereidheid."
+    }
+  ],
+  "24": [
+    {
+      "solution": "s = <b>€ 2 + € 1 = € 3 per product</b>.",
+      "why": "De daling van Pc en de stijging van Pp tellen samen op tot de subsidie."
+    },
+    {
+      "solution": "De overheid ontbreekt: zij betaalt <b>€ 3 per verkochte eenheid</b>. Je kunt daarom niet uit alleen de voordelen voor kopers en verkopers concluderen dat iedereen profiteert.",
+      "why": "Het subsidievoordeel wordt met publieke middelen betaald."
+    }
+  ],
+  "25": [
+    {
+      "solution": "Pc = Pp − 3 = <b>5 + 0,10Q</b>. 26 − 0,20Q = 5 + 0,10Q → 21 = 0,30Q → Qsub = <b>70 plaatsen per week</b>. Pc = 26 − 0,20 × 70 = <b>€ 12</b>; Pp = 8 + 0,10 × 70 = <b>€ 15 per plaats</b>.",
+      "why": "Controle: 15 − 12 = € 3."
+    },
+    {
+      "solution": "U = 3 × 70 = <b>€ 210 per week</b>.",
+      "why": "De subsidie geldt voor alle verkochte cursusplaatsen."
+    },
+    {
+      "solution": "Kopersvoordeel: 14 − 12 = <b>€ 2</b>. Aanbiedersvoordeel: 15 − 14 = <b>€ 1 per plaats</b>.",
+      "why": "Via de lagere kopersprijs ontvangen ook kopers een deel van het voordeel."
+    },
+    {
+      "solution": "CS = ½ × 70 × (26 − 12) = <b>€ 490</b>. PS = ½ × 70 × (15 − 8) = <b>€ 245</b>. Netto = 490 + 245 − 210 = <b>€ 525</b>. W = 540 − 525 = <b>€ 15 per week</b>.",
+      "why": "CS en PS groeien samen met € 195, maar de overheid betaalt € 210."
+    },
+    {
+      "solution": "Markeer Q = 70, Pc = € 12 en Pp = € 15. De uitgavenrechthoek heeft breedte 70 en hoogte € 3. De claim is onjuist: de welvaartsmaat daalt hier € 15.",
+      "why": "De oefening veronderstelt geen baten voor buitenstaanders die dit verlies zouden compenseren."
+    }
+  ],
+  "26": [
+    {
+      "solution": "A: U = 3 × 70 = <b>€ 210</b>. B: gegeven vaste steun = <b>€ 210</b>. Alleen A geeft bij een extra verkoop opnieuw € 3. Bij B blijven volgens de bron de marginale voorwaarden en het vrije evenwicht gelijk.",
+      "why": "Gelijke totale uitgaven betekenen niet gelijke prikkels per extra product."
+    },
+    {
+      "solution": "Onder B volgt geen extra vergoeding uit een extra verkochte plaats. Je kunt daarom het aanbod in kopersprijzen niet met € 3 verlagen.",
+      "why": "Een vast totaalbedrag is geen subsidie per verkochte eenheid; de bron sluit veranderingen in marginale kosten en deelname bovendien expliciet uit."
+    }
+  ],
+  "27": [
+    {
+      "solution": "GCK bij Q = 100: 600/100 = <b>€ 6 per stoel</b>. Bij Q = 150: 600/150 = <b>€ 4 per stoel</b>.",
+      "why": "Dezelfde vaste kosten worden over meer verhuurde stoelen verdeeld."
+    },
+    {
+      "solution": "TCK blijft € 600 per week. Alleen het bedrag per verhuurde stoel daalt.",
+      "why": "De productiecapaciteit en het totale vaste kostenbedrag veranderen niet."
+    }
+  ],
+  "28": [
+    {
+      "solution": "18 − 0,20Q = 6 + 0,10Q → Q₀ = <b>40 producten per dag</b>. P₀ = 18 − 0,20 × 40 = <b>€ 10 per product</b>.",
+      "why": "In het vrije evenwicht zijn gewenste aankopen en verkopen gelijk."
+    },
+    {
+      "solution": "Vraag: 8 = 18 − 0,20Qv → Qv = <b>50</b>. Aanbod: 8 = 6 + 0,10Qa → Qa = <b>20 producten per dag</b>.",
+      "why": "Bij een gegeven prijs hoeven vraag en aanbod niet gelijk te zijn."
+    }
+  ],
+  "29": [
+    {
+      "solution": "Nee. P = <b>€ 12</b> blijft toegestaan, want € 12 ligt onder het maximum van € 15.",
+      "why": "Een maximumprijs is een bovengrens, geen verplicht te vragen prijs."
+    }
+  ],
+  "30": [
+    {
+      "solution": "Qv = <b>80</b>; Qa = <b>40 puzzels per week</b>. Werkelijk verkocht: <b>40</b>.",
+      "why": "Er is geen extra aanvoer en alle aangeboden puzzels worden verkocht."
+    },
+    {
+      "solution": "Het tekort loopt horizontaal van Q = 40 tot Q = 80 en is 40 puzzels. Het is geen bedrag per puzzel.",
+      "why": "Een tekort meet een verschil tussen aantallen, niet tussen prijzen."
+    },
+    {
+      "solution": "Onjuist. Er worden 40 puzzels verkocht; 40 van de 80 vragers krijgen geen product.",
+      "why": "Een lagere toegestane prijs helpt niet iedere geïnteresseerde koper als het product ontbreekt."
+    }
+  ],
+  "31": [
+    {
+      "solution": "Pmax = € 8 ligt onder P₀ = € 10: <b>bindend</b>.",
+      "why": "De vrije evenwichtsprijs is niet toegestaan."
+    },
+    {
+      "solution": "8 = 16 − 0,10Qv → Qv = <b>80</b>. 8 = 4 + 0,10Qa → Qa = <b>40</b>. Verkoop = <b>40 pakketten per week</b>; tekort = 80 − 40 = <b>40 pakketten per week</b>.",
+      "why": "Alle aangeboden pakketten worden verkocht, maar niet alle gewenste aankopen kunnen doorgaan."
+    },
+    {
+      "solution": "Teken Pmax = € 8. De snijpunten zijn (40; 8) op A en (80; 8) op V. Markeer het horizontale tekort.",
+      "why": "Beide hoeveelheden horen bij één en dezelfde verkoopprijs."
+    },
+    {
+      "solution": "Bij een maximum van € 12 blijft <b>P = € 10 en Q = 60</b>.",
+      "why": "Het vrije evenwicht ligt onder de bovengrens en blijft dus toegestaan."
+    }
+  ],
+  "32": [
+    {
+      "solution": "20 − 0,20Q = 2 + 0,10Q → Q₀ = <b>60</b>. P₀ = 20 − 0,20 × 60 = <b>€ 8</b>. Het maximum € 6 bindt.",
+      "why": "€ 6 is lager dan de vrije evenwichtsprijs."
+    },
+    {
+      "solution": "6 = 20 − 0,20Qv → Qv = <b>70</b>. 6 = 2 + 0,10Qa → Qa = <b>40</b>. Verkoop = <b>40 spellen per week</b>; tekort = <b>30 spellen per week</b>.",
+      "why": "Zonder extra aanvoer kunnen niet alle 70 vragers kopen."
+    },
+    {
+      "solution": "Markeer Pmax = € 6, Qa = 40 als verkoop, Qv = 70 als gewenste aankoop en het tekort van 30.",
+      "why": "De aangeboden hoeveelheid bepaalt hier de werkelijke verkopen."
+    },
+    {
+      "solution": "Je weet dat 40 spellen worden verkocht, maar niet <b>aan welke 40 vragers</b>. Daarvoor is een toewijzingsregel nodig.",
+      "why": "Een loting of andere selectie kan andere kopers een product geven."
+    }
+  ],
+  "33": [
+    {
+      "solution": "Alleen de lagere grens bij de oude markt: € 9 &gt; € 8, dus <b>niet bindend</b>.",
+      "why": "De oude vrije prijs blijft toegestaan."
+    },
+    {
+      "solution": "Bij de nieuwe markt: € 9 &lt; € 12, dus <b>wel bindend</b>. De uitspraak is onjuist: je moet de grens met het toepasselijke vrije evenwicht vergelijken.",
+      "why": "Niet alleen de regeling, maar ook de marktomstandigheden bepalen of zij effect heeft."
+    }
+  ],
+  "34": [
+    {
+      "solution": "18 − 0,10Q = 6 + 0,10Q → 12 = 0,20Q → Q₀ = <b>60 tenten per weekend</b>. P₀ = 18 − 0,10 × 60 = <b>€ 12 per tent</b>. Pmax = € 10 bindt.",
+      "why": "De vrije huur van € 12 wordt verboden."
+    },
+    {
+      "solution": "10 = 18 − 0,10Qv → Qv = <b>80</b>. 10 = 6 + 0,10Qa → Qa = <b>40</b>. Werkelijk verhuurd: <b>40 tenten</b>. Tekort: 80 − 40 = <b>40 tenten per weekend</b>.",
+      "why": "Er is geen extra aanvoer; alle 40 aangeboden tenten worden verhuurd."
+    },
+    {
+      "solution": "Markeer de horizontale lijn Pmax = € 10, Qa = 40 en Qv = 80. Label 40 als werkelijke verhuringen en 40–80 als tekort.",
+      "why": "Vraag, aanbod en werkelijk verhuurde aantallen hebben verschillende betekenissen."
+    },
+    {
+      "solution": "Onjuist. Van de 80 vragers krijgen alleen de 40 hoogste betalingsbereidheden een tent. De overige 40 vragers die € 10 willen betalen, krijgen er geen.",
+      "why": "Een lagere huur maakt toegang niet voor iedereen mogelijk."
+    },
+    {
+      "solution": "Bij Pmax = € 14 blijft de werkelijke huur <b>€ 12</b> en worden <b>60 tenten per weekend</b> verhuurd.",
+      "why": "Het maximum is hoger dan de vrije huur en bindt niet."
+    }
+  ],
+  "35": [
+    {
+      "solution": "A: (12 − 6) + (10 − 6) = <b>€ 10 CS</b>. B: (8 − 6) + (7 − 6) = <b>€ 3 CS</b>. Niet-kopers leveren in deze berekening geen CS.",
+      "why": "Alleen bij een daadwerkelijke aankoop tel je betalingsbereidheid minus prijs mee."
+    },
+    {
+      "solution": "In beide situaties zijn prijs (€ 6) en aantal (2) gelijk, maar kopen andere mensen met andere betalingsbereidheden.",
+      "why": "De toewijzing bepaalt welke individuele voordelen worden opgeteld."
+    },
+    {
+      "solution": "Nee. A heeft in deze berekening meer CS, maar “eerlijk” vraagt een afzonderlijk criterium, bijvoorbeeld gelijke kansen.",
+      "why": "Een efficiëntiemaat is niet hetzelfde als een verdelingsnorm."
+    }
+  ],
+  "36": [
+    {
+      "solution": "30 − 0,50Q = 6 + 0,25Q → 24 = 0,75Q → Q₀ = <b>32 kaartjes</b>. P₀ = 30 − 0,50 × 32 = <b>€ 14 per kaartje</b>.",
+      "why": "Er is geen prijsregel en de oorspronkelijke lijnen bepalen het evenwicht."
+    },
+    {
+      "solution": "CS = ½ × 32 × (30 − 14) = <b>€ 256</b>. PS = ½ × 32 × (14 − 6) = <b>€ 128</b>.",
+      "why": "De oppervlakten meten de voordelen bij de 32 verhandelde kaartjes."
+    }
+  ],
+  "37": [
+    {
+      "solution": "100 − 5P = 5P − 20 → 120 = 10P → P₀ = <b>€ 12</b>. Q₀ = 100 − 5 × 12 = <b>40 kratten per week</b>. Bij P = € 14: Qv = 100 − 70 = 30; Qa = 70 − 20 = 50. Aanbodoverschot = 50 − 30 = <b>20 kratten per week</b>.",
+      "why": "Het overschot is aangeboden hoeveelheid minus particuliere vraag."
+    }
+  ],
+  "38": [
+    {
+      "solution": "<b>€ 12</b>. Deze prijs is hoger dan de ondergrens van € 9 en blijft toegestaan.",
+      "why": "Een minimumprijs verplicht de markt niet om naar die ondergrens te dalen."
+    }
+  ],
+  "39": [
+    {
+      "solution": "Particulieren kopen <b>40 kratten</b>. Er worden <b>80 kratten</b> aangeboden. De overheid koopt het verschil: <b>40 kratten per week</b>.",
+      "why": "De bron garandeert volledige opkoop van het overschot."
+    },
+    {
+      "solution": "U = 10 × (80 − 40) = <b>€ 400 per week</b>. De overheid koopt niet de 40 kratten die particulieren al afnemen.",
+      "why": "Het budget wordt over de publieke aankopen berekend, niet over alle productie."
+    },
+    {
+      "solution": "De <b>40 kratten aanbodoverschot</b> zijn dan niet automatisch verkocht; er blijven alleen 40 particuliere aankopen.",
+      "why": "Een minimumprijs zonder opkoopgarantie creëert geen extra afnemer."
+    }
+  ],
+  "40": [
+    {
+      "solution": "14 = 18 − 0,10Qv → Qv = <b>40</b>. 14 = 6 + 0,10Qa → Qa = <b>80</b>. Overschot = 80 − 40 = <b>40 kratten per week</b>.",
+      "why": "Kopers reageren op de hogere prijs door minder te vragen; verkopers door meer aan te bieden."
+    },
+    {
+      "solution": "Teken Pmin = € 14; de snijpunten geven Qv = 40 en Qa = 80. U = 14 × 40 = <b>€ 560 per week</b>. De rechthoek loopt van Q = 40 tot 80 en van P = 0 tot 14.",
+      "why": "Alleen de overheid koopt dit aanbodoverschot."
+    },
+    {
+      "solution": "Bij alleen quotum 40: P = 18 − 0,10 × 40 = <b>€ 14</b>; particulieren kopen <b>40 kratten</b>; U = <b>€ 0</b>.",
+      "why": "Het quotum vervangt de hele prijs- en opkoopregeling; de overheid koopt niet langer mee."
+    }
+  ],
+  "41": [
+    {
+      "solution": "22 − 0,10Q = 10 + 0,10Q → Q₀ = <b>60</b>, P₀ = <b>€ 16</b>. Bij Pmin = € 18: Qv = (22 − 18)/0,10 = <b>40</b>; Qa = (18 − 10)/0,10 = <b>80</b>; aanbodoverschot = <b>40 kratten per week</b>.",
+      "why": "De minimumprijs ligt boven het vrije evenwicht."
+    },
+    {
+      "solution": "Telers verkopen samen <b>80 kratten</b>: 40 aan particulieren en 40 aan de overheid. U = 18 × 40 = <b>€ 720 per week</b>. Zie de rechthoek in de grafiek.",
+      "why": "De garantie maakt alle aangeboden productie verkoopbaar."
+    },
+    {
+      "solution": "Quotum 40: P = 22 − 0,10 × 40 = <b>€ 18</b>. Productie is <b>40 in plaats van 80 kratten per week</b>.",
+      "why": "Eenzelfde prijs kan samengaan met een andere hoeveelheid productie en andere publieke uitgaven."
+    }
+  ],
+  "42": [
+    {
+      "solution": "Zonder opkoop of andere afnemers wordt <b>30</b> verkocht. Aanbodoverschot = 70 − 30 = <b>40 producten</b>.",
+      "why": "Aangeboden producten zijn niet automatisch verkochte producten."
+    },
+    {
+      "solution": "Een minimumprijs noemt nog geen overheidsaankopen. Gratis quota leveren geen veilingopbrengst op. Je mag dus geen positieve budgetbetaling uit deze gegevens verzinnen.",
+      "why": "Voor een budgetberekening is een expliciete betaling, aankoop of ontvangstenregel nodig."
+    }
+  ],
+  "43": [
+    {
+      "solution": "20 − 0,10Q = 8 + 0,10Q → 12 = 0,20Q → Q₀ = <b>60 kratten per week</b>. P₀ = 20 − 0,10 × 60 = <b>€ 14</b>. De minimumprijs van € 16 bindt.",
+      "why": "De vrije prijs is lager dan de nieuwe ondergrens."
+    },
+    {
+      "solution": "16 = 20 − 0,10Qv → Qv = <b>40</b>. 16 = 8 + 0,10Qa → Qa = <b>80</b>. Overschot = <b>40 kratten</b>. Dankzij opkoop verkopen telers samen <b>80 kratten per week</b>.",
+      "why": "De overheid neemt de 40 kratten af die particulieren niet kopen."
+    },
+    {
+      "solution": "Overheidsaankopen = 80 − 40 = <b>40 kratten</b>. U = 16 × 40 = <b>€ 640 per week</b>. De rechthoek is 40 kratten breed en € 16 per krat hoog.",
+      "why": "Je gebruikt het overheidsgedeelte van de afzet, niet de hele productie."
+    },
+    {
+      "solution": "Quotum 40 bindt, want het ligt onder 60. P = 20 − 0,10 × 40 = <b>€ 16 per krat</b>. Productie = <b>40 kratten</b>; U = <b>€ 0 per week</b>.",
+      "why": "Regeling B vervangt A; gratis rechten en geen opkoop geven hier geen budgetbetaling."
+    },
+    {
+      "solution": "Onjuist. De prijs is wel in beide gevallen € 16, maar de productie is <b>80 tegenover 40 kratten</b> en U is <b>€ 640 tegenover € 0</b>.",
+      "why": "Een overeenkomst in prijs bewijst niet dat de mechanismen en gevolgen gelijk zijn."
+    }
+  ],
+  "44": [
+    {
+      "solution": "De € 640 is een betaling voor goederen. Dat is niet automatisch € 640 aan verloren welvaart. Voor een oordeel zijn ook de reële kosten en de waarde van het gebruik van de goederen van belang; die zijn hier niet voldoende gegeven.",
+      "why": "Een budgetbedrag alleen meet geen nettoverlies aan gezamenlijke voordelen."
+    },
+    {
+      "solution": "Bijvoorbeeld: <b>wat gebeurt er met de kratten en welke waarde heeft dat gebruik?</b> En: <b>welke opslag-, vervoer- of vernietigingskosten ontstaan?</b> Andere relevante, duidelijk uitgelegde informatie is ook goed.",
+      "why": "De bron geeft de betaling, niet de volledige maatschappelijke baten en kosten."
+    }
+  ],
+  "45": [
+    {
+      "solution": "%ΔP = (10 − 8)/8 × 100% = <b>+25%</b>. %ΔQv = (70 − 80)/80 × 100% = <b>−12,5%</b>. Ev = −12,5%/25% = <b>−0,5</b>: prijsinelastisch.",
+      "why": "Gebruik het minteken voor de richting en |Ev| voor de sterkte."
+    },
+    {
+      "solution": "TO oud = 8 × 80 = <b>€ 640 per week</b>. TO nieuw = 10 × 70 = <b>€ 700 per week</b>. De omzet stijgt € 60, maar kostengegevens ontbreken voor een winstvergelijking.",
+      "why": "Winst hangt van TO én TK af."
+    }
+  ],
+  "46": [
+    {
+      "solution": "<b>Belasting per verkocht product</b>. Pc is hoger dan Pp.",
+      "why": "Een deel van de kopersbetaling gaat naar de overheid."
+    },
+    {
+      "solution": "<b>Subsidie per verkochte plaats</b>. Bereken U over alle daadwerkelijk verkochte, subsidiabele plaatsen.",
+      "why": "Een vergoeding per verkoop is niet beperkt tot de extra verkoop."
+    },
+    {
+      "solution": "<b>Maximumprijs</b>. € 7 &lt; € 9, dus bindend. Bereken Qv, Qa, verkopen en tekort bij € 7.",
+      "why": "De prijsregel verplaatst geen oorspronkelijke vraag- of aanbodlijn."
+    },
+    {
+      "solution": "<b>Bindend productiequotum</b>. De 50 toegestane producten worden geprijsd via de vraaglijn V.",
+      "why": "De hoeveelheid is begrensd, niet rechtstreeks de prijs."
+    }
+  ],
+  "47": [
+    {
+      "solution": "Verkoop = <b>30</b>; aanbodoverschot = 70 − 30 = <b>40 producten</b>; U = <b>€ 0</b>.",
+      "why": "Zonder andere afnemer blijven alleen de particuliere aankopen over."
+    },
+    {
+      "solution": "De overheid koopt <b>40 producten</b>. U = 12 × 40 = <b>€ 480</b>.",
+      "why": "De nieuwe aankoopgarantie maakt het aanbodoverschot afzetbaar."
+    },
+    {
+      "solution": "De prijsregel is hetzelfde, maar nu is er een extra afnemer met een expliciete betalingsbelofte.",
+      "why": "Het gevolg van een minimumprijs hangt ook van de aankoopregel af."
+    }
+  ],
+  "48": [
+    {
+      "solution": "A is een belasting per product; B een maximumprijs. Vrij evenwicht: 24 − 0,20Q = 6 + 0,10Q → 18 = 0,30Q → Q₀ = <b>60 bandjes per dag</b>. P₀ = 24 − 0,20 × 60 = <b>€ 12 per bandje</b>.",
+      "why": "Eerst identificeer je het mechanisme; daarna kies je de rekenroute."
+    },
+    {
+      "solution": "Bij A: Pc = 9 + 0,10Q. 24 − 0,20Q = 9 + 0,10Q → Qt = <b>50</b>. Pc = 24 − 0,20 × 50 = <b>€ 14</b>; Pp = 6 + 0,10 × 50 = <b>€ 11</b>. Koperslast = 14 − 12 = <b>€ 2</b>; verkoperslast = 12 − 11 = <b>€ 1 per bandje</b>.",
+      "why": "Pc − Pp is precies de belasting van € 3."
+    },
+    {
+      "solution": "O = 3 × 50 = <b>€ 150 per dag</b>. CS = ½ × 50 × (24 − 14) = <b>€ 250</b>. PS = ½ × 50 × (11 − 6) = <b>€ 125</b>. Nieuwe welvaartsmaat = 250 + 125 + 150 = <b>€ 525</b>. Oud = 360 + 180 = € 540. W = 540 − 525 = <b>€ 15 per dag</b>.",
+      "why": "Overheidsontvangsten tellen mee in de maat; ze zijn geen verdwenen geld."
+    },
+    {
+      "solution": "Qt = 50; Pc = € 14; Pp = € 11. O is de rechthoek van Q = 0 tot 50 tussen P = 11 en 14. W ligt tussen Q = 50 en Q = 60: ½ × 10 × 3 = € 15.",
+      "why": "O gebruikt de overblijvende verkopen; W de gemiste voordelige transacties."
+    },
+    {
+      "solution": "Bij B bindt € 10, want het ligt onder € 12. 10 = 24 − 0,20Qv → Qv = <b>70</b>. 10 = 6 + 0,10Qa → Qa = <b>40</b>. Verkopen = <b>40</b>; tekort = 70 − 40 = <b>30 bandjes per dag</b>.",
+      "why": "Geen extra aanvoer betekent dat niet alle vragers kunnen kopen."
+    },
+    {
+      "solution": "Beide delen zijn onjuist. Bij B willen 70 mensen een bandje, maar er worden 40 verkocht: 30 vragers krijgen er geen. Bij A ontvangt de overheid € 150, terwijl W € 15 is.<br>Een onderbouwd verschil: kopers die onder B kunnen kopen betalen € 10 in plaats van € 14 onder A, maar er worden ook 40 in plaats van 50 bandjes verkocht. Er volgt hier geen volledige welvaartsrangschikking van beide plannen.",
+      "why": "Een conclusie benoemt zowel prijs als toegang en onderscheidt een overdracht van een verlies."
+    }
+  ],
+  "22A": [
+    {
+      "solution": "CS = ½ × Qsub × (30 − Pc) = ½ × 70 × (30 − 16) = <b>€ 490</b>. PS = ½ × Qsub × (Pp − 6) = ½ × 70 × (20 − 6) = <b>€ 490</b>. U = s × Qsub = 4 × 70 = <b>€ 280</b>. CS + PS − U = 490 + 490 − 280 = <b>€ 700 per week</b>.",
+      "why": "Beide driehoeken hebben als basis de 70 werkelijk verkochte plaatsen. CS gebruikt Pc, PS de totale ontvangst Pp. De overheid betaalt voor alle 70 plaatsen."
+    },
+    {
+      "solution": "CS stijgt met 490 − 360 = <b>€ 130</b>; PS ook met <b>€ 130</b>. Samen is dat € 260. De overheid betaalt € 280, dus <b>€ 20 meer</b> dan de gezamenlijke surpluswinst.",
+      "why": "De stijging van het particuliere surplus moet worden vergeleken met het bedrag dat daarvoor wordt betaald."
+    },
+    {
+      "solution": "Via de welvaartsmaat: W = 720 − 700 = <b>€ 20 per week</b>. Via de driehoek: basis = 70 − 60 = 10 plaatsen per week; hoogte = s = € 4 per plaats. W = ½ × 10 × 4 = <b>€ 20 per week</b>.",
+      "why": "Bij deze rechte vraag- en aanbodlijnen vormt het nadeel van de extra transacties een driehoek. Beide routes beschrijven hetzelfde verlies."
+    },
+    {
+      "solution": "De leerling telt de <b>60 plaatsen die ook zonder subsidie zouden zijn verkocht</b> niet mee. Ook die komen in aanmerking: 60 × 4 = € 240. Samen met 10 × 4 = € 40 is U = <b>€ 280 per week</b>.",
+      "why": "De bron noemt subsidie per verkochte plaats, niet alleen voor de extra verkopen."
+    }
+  ],
+  "40A": [
+    {
+      "solution": "Het quotum van 40 ligt onder Q₀ = 60. Het bindt. Volgens de bron worden alle toegestane kratten verkocht: <b>40 kratten per week</b>.",
+      "why": "Het maximum sluit de vrije evenwichtshoeveelheid uit; de bron legt de werkelijke productie en verkoop vast."
+    },
+    {
+      "solution": "P = 26 − 0,20 × <b>40</b> = <b>€ 18 per krat</b>. Teken Q = 40 verticaal en markeer (40; 18) op V. Op A staat 8 + 0,10 × 40 = <b>€ 12 per krat</b>. Dat is het marginale-kostenbedrag bij deze hoeveelheid, niet de prijs waartegen kopers de 40 kratten afnemen.",
+      "why": "De vraaglijn geeft de prijs bij de beperkt beschikbare verkochte hoeveelheid. Het quotum verhindert uitbreiding tot het vrije evenwicht."
+    },
+    {
+      "solution": "80 is meer dan Q₀ = 60; de nieuwe grens bindt niet. Dus <b>Q = 60 kratten per week</b> en <b>P = € 14 per krat</b>. Overheidsuitgaven: <b>€ 0</b>. De uitspraak is onjuist: 80 is toegestaan als maximum, maar productie van 80 is niet verplicht.",
+      "why": "Een niet-bindend quotum laat het vrije evenwicht toe. De gratis rechten en afwezigheid van opkoop leveren geen overheidsbetaling op."
+    }
+  ],
+  "47A": [
+    {
+      "solution": "O = t × Qt = 3 × 45 = <b>€ 135 per week</b>. Gebruik de 45 verkochte producten, niet de 15 verdwenen verkopen.",
+      "why": "Over een product dat niet meer wordt verkocht, ontvangt de overheid deze belasting niet."
+    },
+    {
+      "solution": "U = s × Qsub = 2 × 70 = <b>€ 140 per week</b>. Verandering welvaartsmaat = toename CS + toename PS − U = 65 + 65 − 140 = <b>−€ 10 per week</b>. Er is dus € 10 welvaartsverlies, geen € 130 welvaartswinst.",
+      "why": "De overheidsuitgaven ontbreken in de redenering van de leerling. In deze bron zijn geen extra baten voor buitenstaanders die dat veranderen."
+    },
+    {
+      "solution": "Zonder extra kopers worden <b>30 producten per week</b> verkocht. Het aanbodoverschot is 70 − 30 = <b>40 producten</b>, maar U = <b>€ 0</b>. Bij een expliciete garantie dat de overheid alle 40 overtollige aangeboden producten tegen € 12 koopt, zou U = 12 × 40 = <b>€ 480 per week</b> gelden.",
+      "why": "Een minimumprijs op zichzelf is geen aankoopgarantie. Gewenst aanbod is niet automatisch gerealiseerde afzet."
+    }
+  ]
+}

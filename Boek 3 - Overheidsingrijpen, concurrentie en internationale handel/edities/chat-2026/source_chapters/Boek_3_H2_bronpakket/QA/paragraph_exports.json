@@ -1,0 +1,66 @@
+[
+  {
+    "paragraph": "3.2.1",
+    "student_pages": [
+      2,
+      9
+    ],
+    "exercise_pages": [
+      4,
+      9
+    ],
+    "answer_pages": [
+      1,
+      5
+    ],
+    "page_numbering": "original chapter pages retained"
+  },
+  {
+    "paragraph": "3.2.2",
+    "student_pages": [
+      10,
+      21
+    ],
+    "exercise_pages": [
+      15,
+      21
+    ],
+    "answer_pages": [
+      6,
+      13
+    ],
+    "page_numbering": "original chapter pages retained"
+  },
+  {
+    "paragraph": "3.2.3",
+    "student_pages": [
+      22,
+      30
+    ],
+    "exercise_pages": [
+      25,
+      30
+    ],
+    "answer_pages": [
+      14,
+      18
+    ],
+    "page_numbering": "original chapter pages retained"
+  },
+  {
+    "paragraph": "3.2.4",
+    "student_pages": [
+      31,
+      36
+    ],
+    "exercise_pages": [
+      31,
+      36
+    ],
+    "answer_pages": [
+      19,
+      23
+    ],
+    "page_numbering": "original chapter pages retained"
+  }
+]

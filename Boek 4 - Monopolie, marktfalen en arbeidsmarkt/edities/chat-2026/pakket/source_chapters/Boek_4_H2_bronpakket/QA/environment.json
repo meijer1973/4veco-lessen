@@ -1,0 +1,8 @@
+{
+  "weasyprint": "68.0",
+  "markdown-it-py": "4.2.0",
+  "beautifulsoup4": "4.14.3",
+  "CairoSVG": "2.8.2",
+  "PyMuPDF": "1.26.7",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]"
+}

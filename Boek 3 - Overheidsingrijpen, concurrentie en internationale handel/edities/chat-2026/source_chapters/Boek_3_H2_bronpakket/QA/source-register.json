@@ -1,0 +1,52 @@
+{
+  "basis": "User-supplied revised outlines control sequence and scope; repository controls authoring guidance only.",
+  "access": "GitHub connector, read-only",
+  "sources": [
+    {
+      "type": "user outline",
+      "path": "bronnen/book-3-outline-v2.md",
+      "sha256": "4e558b63d8eb954de935ad366170f6373f533eae14f90633a89be0036c973217"
+    },
+    {
+      "type": "user outline",
+      "path": "bronnen/book-4-outline-v2.md",
+      "sha256": "3bfb4350bb1f990a8ea559272263e8ef35e1b72bd0cbc86b59c9aa6ad4fc0899"
+    },
+    {
+      "type": "repository guidance",
+      "repository": "meijer1973/4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "91778371a11cbe9839a4822c3989e90e7317850a",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "type": "repository guidance",
+      "repository": "meijer1973/4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5",
+      "url": "https://github.com/meijer1973/4veco-lessen/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "type": "repository guidance",
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-exercise-builder.md",
+      "blob_sha": "5504c8e8a325864978c76867b15b857c118df19d",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md"
+    },
+    {
+      "type": "repository guidance",
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-textbook-paragraph.md",
+      "blob_sha": "b48ff1f0d02748e6e4d1f98d6d892ac786562c3b",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-textbook-paragraph.md"
+    },
+    {
+      "type": "repository guidance",
+      "repository": "meijer1973/4veco-platform",
+      "path": "references/authored/economic_mathematical_precision_reference.md",
+      "blob_sha": "b735b7f91bace804b5cd9f88269e7451e3e7e4f6",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/references/authored/economic_mathematical_precision_reference.md"
+    }
+  ],
+  "authored_extensions": "Examples, 38 exercises and four target exercises authored specifically from attached design briefs. Hypothetical numerical models; not empirical observations or existing registry targets."
+}

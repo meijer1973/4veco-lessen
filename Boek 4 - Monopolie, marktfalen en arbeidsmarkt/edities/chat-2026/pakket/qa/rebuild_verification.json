@@ -1,0 +1,23 @@
+{
+  "method": "Built independently from packaged inputs and source code in a separate root; compared all output texts and page renders. Packaged validation also passed all 959 checks.",
+  "outputs": [
+    {
+      "file": "Boek_4_Compleet.pdf",
+      "pages": 162,
+      "text_equal": true,
+      "all_page_renders_equal_54dpi": true
+    },
+    {
+      "file": "Boek_4_Compleet_Antwoorden.pdf",
+      "pages": 64,
+      "text_equal": true,
+      "all_page_renders_equal_54dpi": true
+    },
+    {
+      "file": "Boek_4_Compleet_Docenteninformatie.pdf",
+      "pages": 28,
+      "text_equal": true,
+      "all_page_renders_equal_54dpi": true
+    }
+  ]
+}

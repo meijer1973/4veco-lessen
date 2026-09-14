@@ -1,0 +1,581 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Docenteninformatie · Overheidsingrijpen</title><style>
+@page {size:A4; margin:17mm 18mm 17mm 19mm;
+ @top-left {content:"4veco  /  Boek 3";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @top-right {content:"3.1  Overheidsingrijpen";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @bottom-left {content:"Economie · 4 vwo";font-family:Lato,sans-serif;font-size:8pt;color:#536777;}
+ @bottom-right {content:counter(page);font-family:Lato,sans-serif;font-size:9pt;color:#183247;}
+}
+@page:first {@top-left{content:none;}@top-right{content:none;}}
+* {box-sizing:border-box;}
+html{font-family:Lato,"DejaVu Sans",sans-serif;font-size:11.3pt;line-height:1.37;color:#183247;}
+body{margin:0;}
+p{margin:0 0 6pt;orphans:3;widows:3;}
+.page{break-before:page;}
+.page:first-child{break-before:auto;}
+.page-title{font-size:18pt;line-height:1.13;font-weight:800;border-bottom:1.5pt solid #17688f;padding:0 0 8pt;margin:0 0 12pt;}
+h1{font-size:25pt;line-height:1.13;margin:5pt 0 12pt;font-weight:800;break-after:avoid;}
+h2{font-size:17pt;line-height:1.15;color:#17688f;margin:10pt 0 8pt;break-after:avoid;}
+h3{font-size:12.5pt;line-height:1.22;margin:11pt 0 7pt;break-after:avoid;}
+h2:first-child,h3:first-child{margin-top:0;}
+a{color:inherit;text-decoration:none;}
+.kicker{letter-spacing:1pt;color:#17688f;font-size:9pt;font-weight:800;margin:0 0 12pt;}
+.box,.definition,.formula,.source,.route{padding:7pt 10pt;margin:8pt 0 9pt;break-inside:avoid;background:#f2f6f8;border-left:3pt solid #17688f;}
+.box p:last-child,.definition p:last-child,.formula p:last-child,.source p:last-child{margin-bottom:0;}
+.definition{background:#f4f7f8;padding:7pt 10pt;margin:7pt 0 9pt;}
+.formula{font-family:"DejaVu Sans Mono",monospace;font-size:11.3pt;line-height:1.6;background:#eef5f6;border-left-color:#227064;}
+.goals{font-size:10.7pt;line-height:1.38;}
+.summary{font-size:10.5pt;line-height:1.5;}
+.warning{border-left-color:#ad601b;background:#fbf5ed;}
+.source{border-left-color:#536777;font-size:10.6pt;}
+.route{font-size:10.2pt;line-height:1.3;}
+.calculation{font-family:"DejaVu Sans Mono",monospace;line-height:1.55;margin:8pt 0 10pt;padding:8pt 13pt;background:#f3f6f7;break-inside:avoid;}
+.exercise{break-inside:avoid;border:0.6pt solid #d5dfe5;border-radius:3pt;padding:8pt 10pt;margin:0 0 10pt;background:white;}
+.exercise>p:first-child{margin-top:0;}
+.exercise>p:last-child{margin-bottom:0;}
+.exercise>p{margin-bottom:6pt;}
+.exercise>b:first-child{display:block;margin-bottom:7pt;font-size:12pt;}
+.target{border-top:3pt solid #17688f;}
+table{border-collapse:collapse;width:100%;margin:7pt 0 9pt;font-size:10.1pt;line-height:1.27;table-layout:auto;break-inside:avoid;}
+th{background:#edf2f5;font-weight:700;vertical-align:bottom;text-align:left;border-bottom:1pt solid #9dabb7;}
+td,th{padding:4.4pt 5pt;border-bottom:0.55pt solid #dce4e9;}
+td{vertical-align:top;} tr:nth-child(even) td{background:#f8fafb;}
+figure{margin:10pt 0 11pt;break-inside:avoid;}
+figure img{display:block;width:100%;height:auto;}
+figcaption{font-size:9.3pt;line-height:1.3;color:#536777;margin:5pt 0 0;}
+.small{font-size:9.4pt;line-height:1.33;}
+.muted{color:#536777;}
+.cover-title{font-size:38pt;line-height:1.05;letter-spacing:-0.6pt;font-weight:900;margin:14pt 0 14pt;}
+.lead{font-size:14.5pt;line-height:1.3;margin:0 0 13pt;color:#17688f;}
+.contents{margin:12pt 0 12pt;}
+.contents a{display:block;border-top:0.6pt solid #cbd7df;padding:6pt 0;}
+.contents b{display:block;font-size:12pt;}
+.contents span{display:block;color:#536777;font-size:10.5pt;margin-top:2pt;}
+.answer h2{margin-top:16pt;}
+.answer p{margin-bottom:7pt;}
+.answer .why{font-size:10.6pt;color:#455c6d;}
+.answer .exercise{break-inside:auto;}
+.answer .answer-block{break-inside:avoid;margin-bottom:10pt;}
+.teacher{font-size:10.7pt;}
+.pair{display:flex;gap:12pt}.pair>div{flex:1}
+.target-source{padding:9pt 11pt;background:#f5f8f9;border-left:3pt solid #536777;margin:9pt 0}
+.step{font-weight:700;color:#17688f}
+.fraction{white-space:nowrap}
+.tight p{margin-bottom:4pt}
+.target-unit{font-size:9.7pt;color:#536777}
+@media print{a{color:inherit}}
+.teacher table{font-size:9.1pt;}
+
+.contents a{font-size:10.1pt;line-height:1.25;padding:5.5pt 0;}
+.contents a b{font-size:11.2pt;}
+.contents b span{float:right;font-size:11pt;display:inline;}
+.exercise{padding:7pt 9pt;margin-bottom:9pt;}
+.exercise>p{margin-bottom:5pt;}
+.exercise p:first-child b{font-size:11.6pt;}
+.formula{font-size:10.8pt;line-height:1.5;}
+.cover-title{font-size:34pt;}
+.side-note{font-size:9.5pt;color:#536777;}
+.answer .answer-block{break-inside:avoid;}
+.answer .calc{font-family:DejaVu Sans Mono,monospace;font-size:10pt;line-height:1.5;}
+html{font-size:10.7pt;}</style></head><body><section class="page teacher" data-designed-page="1"><div class="kicker">4VECO · BOEK 3 · HOOFDSTUK 3.1</div>
+<h1>Docenteninformatie<br/>Overheidsingrijpen</h1>
+<p><strong>Doelgroep:</strong> 4 vwo. <strong>Leerlingdeel:</strong> 48 pagina’s inclusief opening, uitleg, voorbeelden, alle opgaven en overzicht. <strong>Structuur:</strong> vijf theorieparagrafen en één consolidatieparagraaf. <strong>Opgaven:</strong> 51, met 141 deelvragen; zes nieuwe doeloefeningen. De vijf volledig uitgewerkte voorbeelden zijn geen genummerde opgaven.</p>
+<h3>Welke bronnen sturen deze editie?</h3>
+<p>De door de gebruiker aangeleverde <strong>Book 3 outline proposal v2</strong> bepaalt de inhoud, volgorde, grenzen en doelopgavebriefs. De <strong>Book 4 outline proposal v2</strong> bepaalt de latere toepassingen die hier juist niet worden vooruitgelopen. De gebruiker heeft deze bijlagen voor deze bouwopdracht boven de oudere repositoryoutline geplaatst.</p>
+<p>De huidige repositoryrichtlijn <strong>econ-exercise-builder.md</strong> bepaalt de zeven zichtbare oefenkoppen, het terugwaartse ontwerp, de papieren kernroute, het afbouwen van ondersteuning en de antwoordmodellen. De grafiekstandaard bepaalt onder meer assen, eenheden, schaal en overeenstemming van grafiek en getal.</p>
+<div class="box"><b>Nieuwe targets, geen stilzwijgende registry-overname</b><br/>De bijlagen bevatten doelopgavebriefs, geen afgewerkte opgaven. De zes doeloefeningen in deze editie zijn daarom nieuw ontworpen uit die briefs. Zij zijn niet gepresenteerd als reeds officieel goedgekeurde registry-targets of als CvTE-opgaven. Er is niets naar GitHub geschreven.</div>
+<h3>Wat blijft op papier compleet?</h3>
+<p>Alle uitleg, voorbeelden, startwerk, begeleide ondersteuning, zelfstandige oefening en targets staan in het hoofdstuk. Voor grafiekvragen zijn de oorspronkelijke marktcurven meegeleverd. Het noodzakelijke nieuwe tekenen betreft een beleidslijn, prijs/hoeveelheidsmarkeringen of een oppervlakte, niet steeds een nieuw assenstelsel.</p>
+<h3>Wat is niet automatisch verplicht?</h3>
+<p>De korte route is Startopgaven → Zelfstandige oefening → Doeloefening. Begeleide inoefening is een alternatieve ondersteuningsstap naar hetzelfde doel. Bonus is geen vereiste voor de basisroute. Herhaling is geschikt als huiswerk of gespreid startwerk.</p>
+<div class="small muted">Alle beleidsbronnen en getallen zijn fictief. Het hoofdstuk geeft geen actuele juridische tarieven, geen empirische effectschatting en geen volledige beleidsbeoordeling buiten de genoemde modelvoorwaarden.</div>
+<div class="box small"><b>Wat deze herziening verandert</b><br/>Acht extra leerlingpagina’s versterken de uitleg vóór de targets. Opgaven 22A en 40A bieden extra steun; 47A biedt extra gemengde oefening. Bonus 17 is herschreven. Alle bestaande opgavenummers en de zes targets blijven behouden. Achterin deze handleiding staat de beoordeling van de oorspronkelijke 40-pagina-editie.</div></section>
+<section class="page teacher" data-designed-page="2"><h1>Meer uitleg, geen verplichte extra stapel</h1>
+<p>De extra pagina’s vervangen geen leerdoel en voegen geen nieuw beleidsonderwerp toe. Ze maken bestaande stappen kleiner. Dat maakt een rekenzware paragraaf niet vanzelf een les van 55 minuten. Reserveer bij eerste inzet <strong>ongeveer negen lessen</strong>, met ruimte voor één of twee extra feedback-/ondersteuningslessen.</p>
+<p>De routes hieronder zijn <strong>ontwerpschattingen</strong>, geen gemeten leerlingtijden. Het startwerk mag vóór de uitleg worden gemaakt. De gedrukte volgorde blijft hetzelfde.</p>
+<table>
+<thead>
+<tr>
+<th>Les</th>
+<th>Concrete route</th>
+<th style="text-align:right">Minuten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.1.1</td>
+<td>Start 1–2: 6; motivatie: 3; uitleg inclusief dezelfde-Q-tabel: 12; voorbeeld: 8; zelfstandig 5–6: 10; doel 7: 13; terugblik: 3</td>
+<td style="text-align:right">55</td>
+</tr>
+<tr>
+<td>3.1.2 A</td>
+<td>Start 10–11: 6; motivatie: 2; uitleg gebieden en rekeningen: 14; voorbeeld: 8; begeleid 12–13: 18; terugblik: 7</td>
+<td style="text-align:right">55</td>
+</tr>
+<tr>
+<td>3.1.2 B</td>
+<td>Ophalen: 3; gecontroleerde prijsgevoeligheidsvergelijking: 10; zelfstandig 14–15: 15; doel 16: 18; feedback: 9</td>
+<td style="text-align:right">55</td>
+</tr>
+<tr>
+<td>3.1.3 A</td>
+<td>Start 19–20: 5; motivatie: 2; uitleg omgekeerde wig en welvaart: 12; voorbeeld: 8; begeleid 21–22: 20; terugblik: 8</td>
+<td style="text-align:right">55</td>
+</tr>
+<tr>
+<td>3.1.3 B</td>
+<td>Ophalen: 4; 22A of gerichte feedback op 22: 14; zelfstandig 23–24: 14; doel 25: 17; terugblik: 6</td>
+<td style="text-align:right">55</td>
+</tr>
+</tbody>
+</table>
+<h3>Niet alles is cumulatief verplicht</h3>
+<p>Begeleide inoefening is een ondersteuningsroute naar dezelfde target. Een leerling die 22c niet kan structureren, kan eerst <strong>22A</strong> maken. Wie de rekening al beheerst, gebruikt die tijd voor eigen fouten of een uitlegvergelijking. Bonus en herhaling komen niet stilzwijgend boven op de 55 minuten.</p>
+<h3>Waar de extra uitleg essentieel is</h3>
+<p>De gecontroleerde vergelijking op leerlingpagina <strong>13</strong> hoort vóór het zelfstandige werk en de doelvraag over prijsgevoeligheid. De subsidiefiguur op leerlingpagina <strong>21</strong> hoort vóór de welvaartsrekening. Deze twee kernonderdelen staan niet meer alleen bij bonuswerk.</p>
+</section>
+<section class="page teacher" data-designed-page="3"><h1>Grenzen, quota en modelkeuze</h1>
+<table>
+<thead>
+<tr>
+<th>Les</th>
+<th>Concrete route</th>
+<th style="text-align:right">Minuten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.1.4</td>
+<td>Motivatie: 3; uitleg: 8; voorbeeld: 6; overgangen: 2; start 28–29: 6; zelfstandig 32–33: 15; doel 34: 15</td>
+<td style="text-align:right">55</td>
+</tr>
+<tr>
+<td>3.1.5 A</td>
+<td>Start 37–38: 5; motivatie: 2; uitleg prijsgrens en opkoop: 12; voorbeeld stappen 1–3: 7; begeleid 39 en 40a–b: 18; vergelijking en feedback: 11</td>
+<td style="text-align:right">55</td>
+</tr>
+<tr>
+<td>3.1.5 B</td>
+<td>Uitleg quotum en voorbeeld stap 4: 10; 40A of feedback op 40c: 10; zelfstandig 41–42: 14; doel 43: 16; terugblik: 5</td>
+<td style="text-align:right">55</td>
+</tr>
+<tr>
+<td>3.1.6</td>
+<td>Opening: 2; methodebespreking: 5; overgang: 1; opgave 46: 8; opgave 47: 8; doel 48: 25; terugblik: 6</td>
+<td style="text-align:right">55</td>
+</tr>
+</tbody>
+</table>
+<h3>Een echte tussenstap bij quota</h3>
+<p>De leerling kan <strong>40A vóór 40c</strong> gebruiken. Eerst wordt uitsluitend een quotum bekeken: binding → werkelijk verkochte hoeveelheid → prijs op V → controle van de overheidsregel. Daarna volgt de vergelijking met minimumprijs en opkoop. Dezelfde methode staat later in zelfstandige opgave 41 en doelopgave 43.</p>
+<h3>Extra gemengde oefening 47A</h3>
+<p>Gebruik 47A als huiswerk vóór de consolidatieles of als gerichte herhaling na fouten met O, U en werkelijke verkoop. Reserveer circa <strong>10–15 minuten</strong>. De oefening is niet verplicht boven op de bestaande 55-minutenroute. Bij veel verwarring kan zij opgave 46 of 47 tijdens de les vervangen; laat de overgeslagen oefening dan desgewenst later terugkomen.</p>
+<h3>Wat bewust niet is uitgebreid</h3>
+<p>De maximumprijsparagraaf heeft al binding, niet-binding, het onderscheid Qv/Qa/verkopen en een expliciete toewijzingsvoorwaarde. De target vraagt terecht geen nieuwe, volledige welvaartsrekening onder rantsoenering. Daar zijn geen extra pagina’s nodig.</p>
+<p>De zes doeloefeningen zijn behouden. De toegevoegde steun maakt hun bewerkingen toegankelijker; ze verhoogt de eindnorm niet en maakt het bonuswerk niet verplicht.</p>
+</section>
+<section class="page teacher" data-designed-page="4"><h1>Afstemming van doel en oefenroute</h1>
+<p>De pagina’s verwijzen naar het leerlingdeel. Elke target vraagt alleen bewerkingen die zijn voorgedaan of relevant worden opgehaald. De kolom “zelfstandig” is de voorbereiding zonder geleide oplossingsstappen.</p>
+<table>
+<thead>
+<tr>
+<th>§ / doelbewerking</th>
+<th>Uitleg en voorbeeld</th>
+<th>Start / begeleid</th>
+<th>Zelfstandig</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.1.1 Vrij evenwicht</td>
+<td>p. 3–5; vergelijking en invulling</td>
+<td>1a; 4b gebruikt dezelfde vergelijkingstechniek</td>
+<td>5a</td>
+<td>7a</td>
+</tr>
+<tr>
+<td>Aanbod in Pc, Qt, Pc, Pp</td>
+<td>p. 2–5; geldstroom en nieuwe vergelijking</td>
+<td>2; 3; 4a–b</td>
+<td>5b; 6a</td>
+<td>7b–c</td>
+</tr>
+<tr>
+<td>Nieuwe lijn en wig markeren</td>
+<td>p. 3; voorgedane figuur</td>
+<td>3; 4c</td>
+<td>5c</td>
+<td>7d</td>
+</tr>
+<tr>
+<td>Afdragen versus dragen</td>
+<td>p. 2 en 4</td>
+<td>2b; 3c</td>
+<td>5d; 6b</td>
+<td>7e</td>
+</tr>
+<tr>
+<td>3.1.2 Last / afwenteling</td>
+<td>p. 10 en 11</td>
+<td>12; 13c</td>
+<td>14a</td>
+<td>16a</td>
+</tr>
+<tr>
+<td>O en surplusvergelijking</td>
+<td>p. 11–14; volledige gebieden en tabel</td>
+<td>10; 11; 12–13</td>
+<td>14b–c</td>
+<td>16b–d</td>
+</tr>
+<tr>
+<td>Relatieve prijsgevoeligheid</td>
+<td>p. 13; gecontroleerde vergelijking vóór voorbeeld en target</td>
+<td>procenten / Ev uit Boek 2; bonus 17 toetst nu de asschaal</td>
+<td>15</td>
+<td>16e</td>
+</tr>
+<tr>
+<td>3.1.3 Omgekeerde wig en prijzen</td>
+<td>p. 19–22; oorspronkelijke en verlaagde A</td>
+<td>19; 21–22</td>
+<td>23a</td>
+<td>25a</td>
+</tr>
+<tr>
+<td>Budget en verdeling voordeel</td>
+<td>p. 20–22; U over alle verkopen</td>
+<td>20; 21c; 22c; 22A</td>
+<td>23b; 24</td>
+<td>25b–c</td>
+</tr>
+<tr>
+<td>Welvaartsmaat met U</td>
+<td>p. 20–22; CS + PS − U</td>
+<td>22c; 22A</td>
+<td>23c; 24b</td>
+<td>25d–e</td>
+</tr>
+</tbody>
+</table>
+<h3>Waarom de tassenmarkt terugkeert</h3>
+<p>Opgave 16 gebruikt bewust de markt van opgave 7. Dat is een doorlopende toepassing, geen onbedoelde contextkopie: 3.1.1 ontwerpt het nieuwe evenwicht; 3.1.2 gebruikt de uitkomst om belastingdruk en welvaart te onderzoeken. Alle benodigde gegevens staan bij opgave 16 opnieuw vermeld, zodat een eerdere rekenfout niet doorwerkt.</p>
+<h3>Grafieken ondersteunen de bewerking</h3>
+<p>Blauw = vraag / consumentensurplus; groen = oorspronkelijk aanbod / producentensurplus; paars = beleidslijn of overheidsbudget; warm accent = wig of welvaartsverlies. Letters en teksten dragen de betekenis ook zonder kleur. O, U en W zijn niet onderling verwisselbaar. De subsidiefiguur op p. 20 toont de budgetrechthoek al vóór zelfstandig werk en target.</p>
+</section>
+<section class="page teacher" data-designed-page="5"><h1>Afstemming van prijs- en hoeveelheidsgrenzen</h1>
+<table>
+<thead>
+<tr>
+<th>§ / doelbewerking</th>
+<th>Uitleg en voorbeeld</th>
+<th>Start / begeleid</th>
+<th>Zelfstandig</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.1.4 Binding beoordelen</td>
+<td>p. 28–30; bindend en niet-bindend</td>
+<td>28; 29; 31a,d</td>
+<td>32a; 33</td>
+<td>34a,e</td>
+</tr>
+<tr>
+<td>Qv, Qa, verkopen, tekort</td>
+<td>p. 28–30; één prijs, meerdere aantallen</td>
+<td>28b; 30; 31b</td>
+<td>32b</td>
+<td>34b</td>
+</tr>
+<tr>
+<td>Grafiekmarkering</td>
+<td>p. 28; volledig voorgedaan</td>
+<td>30b; 31c</td>
+<td>32c</td>
+<td>34c</td>
+</tr>
+<tr>
+<td>Toegang en toewijzing</td>
+<td>p. 29–30</td>
+<td>30c</td>
+<td>32d</td>
+<td>34d</td>
+</tr>
+<tr>
+<td>3.1.5 Minimumprijs en overschot</td>
+<td>p. 35–38; eigen bindingstoets</td>
+<td>37; 38; 39; 40a</td>
+<td>41a; 42a</td>
+<td>43a–b</td>
+</tr>
+<tr>
+<td>Publieke aankopen en U</td>
+<td>p. 35–38; rechthoek en aankoopregel</td>
+<td>39; 40b</td>
+<td>41b; 42b</td>
+<td>43c</td>
+</tr>
+<tr>
+<td>Quotum als alternatief</td>
+<td>p. 37–38; aparte figuur, geen stapeling</td>
+<td>40c; 40A</td>
+<td>41c; 42b</td>
+<td>43d–e</td>
+</tr>
+<tr>
+<td>3.1.6 Modelselectie</td>
+<td>geen nieuwe theorie</td>
+<td>46; 47</td>
+<td>dezelfde opgaven vereisen eigen selectie</td>
+<td>48a–b,e</td>
+</tr>
+<tr>
+<td>Prijs, budget en welvaart verbinden</td>
+<td>technieken 3.1.1–3.1.4</td>
+<td>eerdere onafhankelijke opgaven</td>
+<td>46–47</td>
+<td>48c–d</td>
+</tr>
+<tr>
+<td>Bronclaim begrenzen</td>
+<td>terugkerend in alle theorieparagrafen</td>
+<td>uitspraken in 6, 15, 24, 33 en 42</td>
+<td>bronselectie p. 44</td>
+<td>48f</td>
+</tr>
+</tbody>
+</table>
+<h3>Bewust begrensde belasting van de leerling</h3>
+<p>De maximumprijs-target vraagt geen volledige surplusboekhouding. De nieuwe kern is binding, feitelijke verkoop en toegang. De toewijzingsvoorwaarde wordt wel expliciet behandeld; bonus 35 gebruikt reeds bekende individuele surplusberekening om het belang ervan zichtbaar te maken.</p>
+<p>Bij minimumprijs en quota worden twee regelingen <strong>na elkaar</strong>, niet tegelijk doorgerekend. De extra quota-vergelijking blijft beperkt tot binding, hoeveelheid, prijs en begroting. Er wordt geen model van verhandelbare rechten, quotumrente of veiling geïntroduceerd.</p>
+<p>Opgave 48 combineert een belastingcase met een maximumprijscontrast. Er is één verplichte grafiekbewerking. De leerling hoeft niet alle vijf instrumenten in één enorme opgave af te handelen. De rekenroute van plan B vraagt daarom geen tweede grafiek en geen onvoorbereide volledige welvaartsrangschikking.</p>
+<h3>Inkomende kennis is niet automatisch beheerst</h3>
+<p>Vraag, aanbod en evenwicht uit Boek 1 en percentages, surplus en de betekenis van marginale kosten uit Boek 2 zijn <strong>eerder onderwezen, ophalen nodig</strong>. Onzekere grafiek- of rekenvaardigheid krijgt de begeleide route of extra lestijd. De belastingwig, subsidieprikkel en de mechaniek van de prijs-/productiegrenzen zijn nieuw formeel leren, geen stilzwijgend veronderstelde voorkennis.</p>
+</section>
+<section class="page teacher" data-designed-page="6"><h1>Didactische en economische precisie</h1>
+<table>
+<thead>
+<tr>
+<th>Veelgemaakte fout</th>
+<th>Herstelvraag of correctie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pp is winst per product.</td>
+<td>Welke productiekosten moeten nog van de ontvangst af?</td>
+</tr>
+<tr>
+<td>Pc = P₀ + belasting.</td>
+<td>Voldoen vraag en aanbod dan bij dezelfde nieuwe hoeveelheid?</td>
+</tr>
+<tr>
+<td>Wie afdraagt, draagt alles.</td>
+<td>Vergelijk Pc en Pp afzonderlijk met P₀.</td>
+</tr>
+<tr>
+<td>Belastingopbrengst is W.</td>
+<td>Teken de budgetrechthoek en de gemiste transacties apart.</td>
+</tr>
+<tr>
+<td>Subsidie over alleen extra verkoop.</td>
+<td>Welke verkopen zijn volgens de bron subsidiabel?</td>
+</tr>
+<tr>
+<td>CS + PS stijgt, dus welvaart stijgt.</td>
+<td>Wie betaalt de subsidie? Trek U af.</td>
+</tr>
+<tr>
+<td>Een maximum/minimum wordt altijd de marktprijs.</td>
+<td>Is het vrije evenwicht nog toegestaan?</td>
+</tr>
+<tr>
+<td>Qa betekent altijd feitelijke productie/verkoop.</td>
+<td>Welke aankoop- en voorraadregel staat in de bron?</td>
+</tr>
+<tr>
+<td>Een quotum is een minimumprijs.</td>
+<td>Wat wordt direct begrensd: hoeveelheid of prijs?</td>
+</tr>
+<tr>
+<td>De hele opkooprekening is verlies.</td>
+<td>Wat weten we over gebruikswaarde en reële bijkomende kosten?</td>
+</tr>
+</tbody>
+</table>
+<h3>Specifieke modelvoorwaarden</h3>
+<p>De markten zijn lineaire, competitieve oefenmodellen zonder gelijktijdige veranderingen in andere factoren. De oorspronkelijke aanbodlijn krijgt waar nodig de marginale-kosteninterpretatie uit Boek 2. Alle gebruikte belastingen en subsidies laten een positieve verhandelde hoeveelheid toe; er wordt geen algemene formule voor elke denkbare grenssituatie geclaimd.</p>
+<p>Bij maximumprijzen is geen extra aanvoer, tenzij vermeld. De targets geven de toewijzing expliciet. Er wordt niet beweerd dat de hoogste betalingsbereidheid gelijkstaat aan de grootste behoefte of de eerlijkste verdeling.</p>
+<p>Bij volledige publieke opkoop is het aanbodoverschot daadwerkelijk afzetbaar. Zonder opkoop worden de niet-gekochte aangeboden hoeveelheden niet stilzwijgend als gerealiseerde productie behandeld. De waarde van publiek aangeschafte goederen is niet gegeven; daarom volgt geen ongevraagde numerieke welvaartsrekening voor opkoop.</p>
+<h3>Taal en formulering</h3>
+<p>De teksten gebruiken korte Nederlandse zinnen en de terminologie uit de bijlagen. Tabellen met lege vakken bevatten eerst een invulopdracht. In grafieken staan variabele, eenheid en schaal. Qsub is gekozen in plaats van Qs om verwarring met de Engelse notatie voor aanbod te voorkomen. De leerling gebruikt Qa voor aanbod.</p>
+</section>
+<section class="page teacher" data-designed-page="7"><h1>Doorwerking naar de rest van Boek 3 en 4</h1>
+<table>
+<thead>
+<tr>
+<th>Nu onderwezen methode</th>
+<th>Later gebruik volgens de bijlagen</th>
+<th>Nieuwe betekenis die dan nog moet worden geleerd</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Belastingwig en O</td>
+<td>3.3.3 invoerheffing</td>
+<td>Belasting alleen over ingevoerde eenheden, niet alle binnenlandse verkopen.</td>
+</tr>
+<tr>
+<td>Quotum en feitelijke transacties</td>
+<td>3.3.3 importquotum</td>
+<td>Verschil tussen een productiegrens en een grens aan import.</td>
+</tr>
+<tr>
+<td>Marktmodel en prijs</td>
+<td>3.2 volkomen concurrentie</td>
+<td>Marktprijs verbinden aan het individuele bedrijf; formele outputkeuze.</td>
+</tr>
+<tr>
+<td>Belasting en surplus</td>
+<td>4.2.4 negatieve externe effecten</td>
+<td>Schade aan buitenstaanders verandert de relevante welvaartsmaat.</td>
+</tr>
+<tr>
+<td>Subsidie en U</td>
+<td>4.2.5 positieve externe effecten</td>
+<td>Baten voor buitenstaanders kunnen de welvaartsconclusie veranderen.</td>
+</tr>
+<tr>
+<td>Minimumprijs</td>
+<td>4.3.4 minimumloon</td>
+<td>Prijs wordt loon; werknemers bieden arbeid aan; arbeidseenheid en modelgrenzen.</td>
+</tr>
+</tbody>
+</table>
+<h3>Niet alvast meenemen</h3>
+<p>Dit hoofdstuk gebruikt geen monopolie, MO = MK-optimalisatie, afgeleiden, arbeidsproductiviteit, loonevenwicht of internationale-handelsberekeningen. De handels- en arbeidsmarktcontexten zijn geen vereiste voorkennis. Reactiefuncties, strategische spellen en actuele wettelijke tarieven worden evenmin ingevoerd.</p>
+<h3>Eerst een eenvoudig model, later een andere aanname</h3>
+<p>De negatieve welvaartsuitkomst van belasting of subsidie in de voorbeeldmarkt is geen universeel politiek oordeel. Er zijn hier geen kosten of baten voor buitenstaanders. In Boek 4 worden belasting en subsidie juist opnieuw toegepast wanneer die veronderstelling verandert. De nieuwe externe-effectbetekenis moet dan expliciet worden uitgelegd; alleen de techniek mag als herhaling terugkomen.</p>
+<h3>Formatieve terugblik</h3>
+<p>Vraag leerlingen na de target kort: welke prijs gebruikte je, welke transacties telde je en welke bronvoorwaarde bepaalde je antwoord? Noteer foutsoorten in plaats van alleen het eindcijfer. Vergelijk een verkeerd bedrag bij een correct model niet met een perfect uitgerekend verkeerd model.</p>
+<p>De drie hoofdfouten die over paragrafen heen terugkomen zijn: verkeerde economische grootheid, verkeerde daadwerkelijk verhandelde hoeveelheid en een te sterke conclusie. De antwoordmodellen bevatten daarom bij iedere deelvraag een toelichting op het waarom.</p>
+</section>
+<section class="page teacher" data-designed-page="8"><h1>Bronnen, uitvoering en controlegrenzen</h1>
+<p><strong>Inhoudelijke basis:</strong> de twee geüploade outlines v2, gedateerd 6 september 2026. Hun hoofdstuk- en paragraafstructuur is aangehouden. De oorspronkelijke bestanden zijn ongewijzigd opgenomen in de map <code>bronnen</code> van het bronpakket.</p>
+<p><strong>Geraadpleegde repositoryrichtlijnen:</strong></p>
+<ul>
+<li><code>4veco-platform/RESEARCH_AGENT_MAP.md</code> en <code>4veco-lessen/RESEARCH_AGENT_MAP.md</code>: navigatie en bron-/outputgrens.</li>
+<li><code>4veco-platform/skills/econ-exercise-builder.md</code>: terugwaarts ontwerp, zeven oefenkoppen, tijd en antwoordmodellen.</li>
+<li><code>4veco-platform/skills/economic-graph.md</code>: assen, eenheden, plotgeometrie, leesbaarheid en afbouw van ondersteuning.</li>
+</ul>
+<p>De platformreferentie bij deze controle was <code>96416b6b5bd57094576e9aba0a42d682584ec479</code>. De maps waren via de GitHub-connector bereikbaar. De huidige oudere Book 3 registry-targets zijn niet gebruikt als inhoudelijke vervanging voor de bijlagen.</p>
+<h3>Wat de lokale controle wel doet</h3>
+<p><code>validate.py</code> controleert de herziene editie van 48 leerlingpagina’s en het maximum van 50, de pagina-indeling, opgave-/deelvraagdekking in de antwoorden, de zes targets, de vijf reeksen oefenkoppen, de benodigde assets, formule-uitkomsten en de uit functies berekende grafiekpunten en -oppervlakten. De resultaten staan in <code>QA/validation.json</code> en <code>QA/LOCAL_REVIEW.md</code>.</p>
+<p>De leerling-, antwoord- en docent-PDF worden gerenderd om te controleren op afbreking, onleesbare overlap, ontbrekende figuren en tekst buiten de pagina. De bronbestanden en bouwscripts worden samen geleverd; de hoofdstukken uit Boek 2 zijn niet gewijzigd.</p>
+<h3>Wat deze controle niet bewijst</h3>
+<p>Er heeft geen onafhankelijke specialistbeoordeling, klasproef of nieuwe audit van het examenprogramma plaatsgevonden. Het bronpakket claimt geen uitgevoerde repository-CI, formele targetintegratie of goedgekeurde uitrol. De afgewerkte documenten zijn afzonderlijke leveringen voor de gebruiker. Voor integratie moeten de nieuwe targets en hun afstemming via de normale platformroute worden beoordeeld.</p>
+<h3>Bestandsidentiteit van de bijlagen</h3>
+<div class="small">Book 3 SHA-256:<br/>4e558b63d8eb954de935ad366170f6373f533eae14f90633a89be0036c973217<br/><br/>Book 4 SHA-256:<br/>3bfb4350bb1f990a8ea559272263e8ef35e1b72bd0cbc86b59c9aa6ad4fc0899</div></section>
+<section class="page teacher" data-designed-page="9"><div class="kicker">REDACTIONELE HERBEOORDELING · UITGANGSPUNT: 40 PAGINA’S</div>
+<h1>Was het hoofdstuk te compact?</h1>
+<p><strong>Ja, op enkele belangrijke overgangen. Niet doordat hele leerdoelen ontbreken of het lettertype te klein is.</strong> De oorspronkelijke editie bevat alle zes paragrafen en de gevraagde targetbewerkingen. De meeste pagina’s hebben voldoende witruimte. De zwakte zit vooral in het tempo van uitleg naar een samengestelde opgave.</p>
+<p>Dit oordeel is gebaseerd op vergelijking van de <strong>werkelijk geleverde tekst, figuren, opgaven en antwoorden</strong> met de aangeleverde outline. Het is een didactische beoordeling, geen meting van leerlingenresultaten. Uit de bestanden blijkt niet welke afzonderlijke passage destijds letterlijk wegens paginagebrek is geschrapt.</p>
+<table>
+<thead>
+<tr>
+<th>Onderdeel</th>
+<th>Concrete waarneming in de oude editie</th>
+<th>Gevolg voor deze herziening</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Belastingwig</td>
+<td>p. 3–4: formule, verschoven lijn en oplossing volgen snel op elkaar.</td>
+<td>Extra tussenstap: vergelijk bij dezelfde Q de twee prijzen en leid A + t uit de ontvangst af.</td>
+</tr>
+<tr>
+<td>Last en welvaart</td>
+<td>p. 10–11: budgetrechthoek, verloren handel, meerdere rekeningen en prijsgevoeligheid worden kort achter elkaar uitgelegd.</td>
+<td>Scheid de rekening van de gedragsverklaring; voeg een bedragenbeeld en transactievoorbeeld toe.</td>
+</tr>
+<tr>
+<td>Relatieve prijsgevoeligheid</td>
+<td>De gecontroleerde cijfervergelijking staat pas op p. 15 bij bonus 17, ná doelopgave 16e.</td>
+<td>Breng die vergelijking vóór het zelfstandige werk en de target. Bonus 17 wordt een echte schaalcritiek.</td>
+</tr>
+<tr>
+<td>Subsidiewelvaart</td>
+<td>p. 17–18: U, CS/PS en verlies moeten snel gecombineerd worden. De verliesfiguur staat pas op p. 22 bij bonus.</td>
+<td>Verplaats de figuur vóór het voorbeeld, leg de overheidsrekening apart uit en bied extra invulsteun.</td>
+</tr>
+<tr>
+<td>Minimumprijs en quota</td>
+<td>p. 30–34: minimumprijs, volledige opkoop en quotum staan dicht op elkaar; de eerste begeleide opgave combineert ze al.</td>
+<td>Toon zonder/met opkoop afzonderlijk en laat de quotumroute eerst los oefenen.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Maximumprijs behouden.</strong> Op p. 23–29 zijn de kernverschillen al behoorlijk uitgewerkt. Extra volledige surplusberekeningen zouden de scope vergroten in plaats van een aantoonbare leemte oplossen.</p>
+<div class="small">Paginanummers in deze beoordeling zijn die van het oorspronkelijke losse hoofdstuk. In het oorspronkelijke complete Boek 3 tel je er 4 bij op.</div></section>
+<section class="page teacher" data-designed-page="10"><h1>Acht pagina’s met een gerichte functie</h1>
+<table>
+<thead>
+<tr>
+<th>Nieuwe pagina</th>
+<th>Functie</th>
+<th>Concrete winst in de oefenroute</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td>Eén hoeveelheid, twee prijzen</td>
+<td>De belastingvergelijking krijgt een economische verklaring; niet alleen een algebraïsche handeling.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Verplaatst en verloren voordeel</td>
+<td>Onderscheid verlies van CS/PS, overheidsontvangsten en W. Ook last per product versus totaal surplusverlies wordt uitgelegd.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Gecontroleerde prijsgevoeligheid</td>
+<td>De vergelijking uit het oude bonuswerk staat nu in de kernuitleg, met dezelfde uitgangssituatie en numerieke reactie.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Subsidie: drie rekeningen en extra transacties</td>
+<td>Het grotere CS/PS wordt verbonden met U en de verliesdriehoek vóór de leerling moet rekenen.</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Extra begeleide oefening 22A</td>
+<td>Een deels voorgedane tabel oefent prijskeuze, oppervlakte, begroting en controle van de uitkomst.</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Minimumprijs zonder/met opkoop</td>
+<td>Gewenst aanbod, particuliere verkopen, publieke aankopen en budget worden los van elkaar zichtbaar.</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Extra begeleide oefening 40A</td>
+<td>Een bindend en niet-bindend quotum, inclusief de prijslezing op V, vóór de zelfstandige vergelijking.</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Extra gemengde oefening 47A</td>
+<td>Corrigeer een verkeerde belastingbasis, vergeten subsidie-uitgaven en onterechte overheidsopkoop.</td>
+</tr>
+</tbody>
+</table>
+<h3>Omvang, herkenbaarheid en navolgbaarheid</h3>
+<p><strong>40 → 48 leerlingpagina’s: +8, binnen de toegestane +10.</strong> De zes paragrafen en zes doeloefeningen blijven bestaan. De oorspronkelijke nummering blijft herkenbaar: alleen 22A, 40A en 47A komen erbij. Het totaal wordt <strong>51 opgaven met 141 deelvragen</strong>. Bonus 17 is inhoudelijk herschreven; de overige wijzigingen in bestaande opgaven zijn paginaverwijzingen.</p>
+<p>Er komen geen extra beleidsmodellen, actuele belastingregels, externe-effectberekeningen of onvoorbereide quota-opbrengsten bij. De typfout Qsubub in de oude losse overzichtspagina is hersteld naar Qsub, zoals al in het complete boek was gebeurd.</p>
+<h3>Navigatie en controle</h3>
+<p>De paragrafen beginnen op <strong>2, 10, 19, 28, 35 en 44</strong>; het hoofdstukoverzicht staat op <strong>48</strong>. De bronnen en vragen van doelopgave 48 blijven tegenover elkaar staan: <strong>46–47</strong>. Alle paginaverwijzingen, antwoorden en bronindexen zijn aangepast.</p>
+<p>De lokale controle rekent de marktgevallen en nieuwe bedragen na, vergelijkt de targetteksten en -antwoorden met de oude versie, controleert de grafiekgeometrie en controleert de PDF-pagina’s. Zij vervangt geen onafhankelijke vakreview of klasproef. Extra gedrukte steun is niet automatisch extra verplicht werk in dezelfde les.</p>
+</section></body></html>

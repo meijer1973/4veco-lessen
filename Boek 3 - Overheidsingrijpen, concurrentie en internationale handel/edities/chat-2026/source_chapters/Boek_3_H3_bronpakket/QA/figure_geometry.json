@@ -1,0 +1,5520 @@
+[
+  {
+    "file": "3.3_overzicht",
+    "width": 900,
+    "height": 164,
+    "panels": [],
+    "texts": [
+      {
+        "x": 450,
+        "y": 28,
+        "text": "Handel bekijken vanuit drie vragen",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 77,
+        "text": "Waarom handelen?",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 101,
+        "text": "relatieve voordelen",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 77,
+        "text": "Wat verandert?",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 101,
+        "text": "prijs en hoeveelheden",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 77,
+        "text": "Wie merkt dat?",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 101,
+        "text": "kopers en producenten",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.1_fig_1",
+    "width": 900,
+    "height": 220,
+    "panels": [],
+    "texts": [
+      {
+        "x": 145,
+        "y": 85,
+        "text": "LAND A",
+        "size": 22,
+        "anchor": "middle"
+      },
+      {
+        "x": 755,
+        "y": 85,
+        "text": "LAND B",
+        "size": 22,
+        "anchor": "middle"
+      },
+      {
+        "x": 145,
+        "y": 118,
+        "text": "Verkoper",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 145,
+        "y": 148,
+        "text": "exporteert fietsen",
+        "size": 18,
+        "anchor": "middle"
+      },
+      {
+        "x": 755,
+        "y": 118,
+        "text": "Koper",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 755,
+        "y": 148,
+        "text": "importeert fietsen",
+        "size": 18,
+        "anchor": "middle"
+      },
+      {
+        "x": 450,
+        "y": 96,
+        "text": "dezelfde levering fietsen",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 450,
+        "y": 210,
+        "text": "landsgrens",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.1_fig_2",
+    "width": 900,
+    "height": 244,
+    "panels": [],
+    "texts": [
+      {
+        "x": 450,
+        "y": 29,
+        "text": "Linde maakt beide producten met minder middelen",
+        "size": 22,
+        "anchor": "middle"
+      },
+      {
+        "x": 230,
+        "y": 85,
+        "text": "MACHINES",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 230,
+        "y": 121,
+        "text": "Grote absolute voorsprong",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 230,
+        "y": 152,
+        "text": "Comparatief voordeel: Linde",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 670,
+        "y": 85,
+        "text": "TASSEN",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 670,
+        "y": 121,
+        "text": "Kleine absolute voorsprong",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 670,
+        "y": 152,
+        "text": "Comparatief voordeel: Maris",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 450,
+        "y": 216,
+        "text": "Maris geeft voor een extra tas minder machineproductie op.",
+        "size": 20,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.1_fig_3",
+    "width": 900,
+    "height": 200,
+    "panels": [],
+    "texts": [
+      {
+        "x": 450,
+        "y": 28,
+        "text": "Waarom handel iets kan opleveren",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 77,
+        "text": "Minder opofferen",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 101,
+        "text": "relatief voordeel",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 77,
+        "text": "Meer specialiseren",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 101,
+        "text": "passende activiteiten",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 77,
+        "text": "Ruilen",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 101,
+        "text": "mogelijk voordeel",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 450,
+        "y": 181,
+        "text": "Beide partijen moeten de ruil aantrekkelijk vinden.",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.1_fig_4",
+    "width": 900,
+    "height": 164,
+    "panels": [],
+    "texts": [
+      {
+        "x": 450,
+        "y": 28,
+        "text": "Van bron naar onderbouwd antwoord",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 77,
+        "text": "Bronfeit",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 101,
+        "text": "wat staat er?",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 77,
+        "text": "Verband",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 101,
+        "text": "waardoor volgt dat?",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 77,
+        "text": "Conclusie",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 101,
+        "text": "hoe ver mag je gaan?",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.2_fig_1",
+    "width": 900,
+    "height": 226,
+    "panels": [],
+    "texts": [
+      {
+        "x": 226,
+        "y": 76,
+        "text": "Binnenlandse producenten",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 226,
+        "y": 105,
+        "text": "leveren Qa",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 674,
+        "y": 76,
+        "text": "Binnenlandse kopers",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 674,
+        "y": 105,
+        "text": "gebruiken Qv",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 450,
+        "y": 163,
+        "text": "Qv groter dan Qa? Het verschil wordt ingevoerd.",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 450,
+        "y": 199,
+        "text": "Qa groter dan Qv? Het verschil wordt uitgevoerd.",
+        "size": 20,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.2_fig_2",
+    "width": 900,
+    "height": 410,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          220
+        ],
+        "xmax": 120,
+        "ymax": 60,
+        "curves": [
+          {
+            "name": "V",
+            "a": 60,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                60.0
+              ],
+              [
+                120.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                120.0,
+                60.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 40.0,
+            "p": 20,
+            "label": "Qa = 40"
+          },
+          {
+            "q": 80.0,
+            "p": 20,
+            "label": "Qv = 80"
+          }
+        ],
+        "areas": [],
+        "prices": [
+          {
+            "p": 20,
+            "label": "Pw = 20"
+          }
+        ],
+        "gaps": [
+          {
+            "from": 40.0,
+            "to": 80.0,
+            "value": 40.0,
+            "label": "import = 40"
+          }
+        ],
+        "model": {
+          "D": [
+            60,
+            -0.5
+          ],
+          "S": [
+            0,
+            0.5
+          ],
+          "pw": 20,
+          "tariff": null,
+          "actual_price": 20,
+          "qa": 40.0,
+          "qv": 80.0,
+          "qe": 60.0,
+          "pe": 30.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Lage wereldprijs: import",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per tas)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 318,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 187.83333333333331,
+        "y": 318,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 303.66666666666663,
+        "y": 318,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 318,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 535.3333333333333,
+        "y": 318,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 651.1666666666666,
+        "y": 318,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 318,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 300.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 263.33333333333337,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 226.66666666666669,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 190.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 153.33333333333334,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 116.66666666666666,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 395,
+        "text": "Q (tassen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 268.6,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1,
+        "y": 113.39999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 214.66666666666669,
+        "text": "Pw = 20",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 294.66666666666663,
+        "y": 209.66666666666669,
+        "text": "Qa = 40",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 544.3333333333333,
+        "y": 209.66666666666669,
+        "text": "Qv = 80",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 419.49999999999994,
+        "y": 369,
+        "text": "import = 40",
+        "size": 18,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.2_fig_3",
+    "width": 900,
+    "height": 410,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          220
+        ],
+        "xmax": 120,
+        "ymax": 60,
+        "curves": [
+          {
+            "name": "V",
+            "a": 60,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                60.0
+              ],
+              [
+                120.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                120.0,
+                60.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 80.0,
+            "p": 40,
+            "label": "Qa = 80"
+          },
+          {
+            "q": 40.0,
+            "p": 40,
+            "label": "Qv = 40"
+          }
+        ],
+        "areas": [],
+        "prices": [
+          {
+            "p": 40,
+            "label": "Pw = 40"
+          }
+        ],
+        "gaps": [
+          {
+            "from": 40.0,
+            "to": 80.0,
+            "value": 40.0,
+            "label": "export = 40"
+          }
+        ],
+        "model": {
+          "D": [
+            60,
+            -0.5
+          ],
+          "S": [
+            0,
+            0.5
+          ],
+          "pw": 40,
+          "tariff": null,
+          "actual_price": 40,
+          "qa": 80.0,
+          "qv": 40.0,
+          "qe": 60.0,
+          "pe": 30.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Hoge wereldprijs: export",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per tas)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 318,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 187.83333333333331,
+        "y": 318,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 303.66666666666663,
+        "y": 318,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 318,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 535.3333333333333,
+        "y": 318,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 651.1666666666666,
+        "y": 318,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 318,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 300.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 263.33333333333337,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 226.66666666666669,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 190.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 153.33333333333334,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 116.66666666666666,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 395,
+        "text": "Q (tassen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 268.6,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1,
+        "y": 113.39999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 141.33333333333334,
+        "text": "Pw = 40",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 526.3333333333333,
+        "y": 136.33333333333334,
+        "text": "Qa = 80",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 312.66666666666663,
+        "y": 136.33333333333334,
+        "text": "Qv = 40",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 419.49999999999994,
+        "y": 369,
+        "text": "export = 40",
+        "size": 18,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.2_fig_4",
+    "width": 900,
+    "height": 377,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          61,
+          76,
+          302,
+          206
+        ],
+        "xmax": 120,
+        "ymax": 60,
+        "curves": [
+          {
+            "name": "V",
+            "a": 60,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                60.0
+              ],
+              [
+                120.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                120.0,
+                60.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60,
+            "p": 30,
+            "label": ""
+          },
+          {
+            "q": 60,
+            "p": 30,
+            "label": ""
+          }
+        ],
+        "areas": [
+          {
+            "label": "CS",
+            "points": [
+              [
+                0,
+                30
+              ],
+              [
+                60,
+                30
+              ],
+              [
+                0,
+                60
+              ]
+            ],
+            "value": 900.0
+          },
+          {
+            "label": "PS",
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                60,
+                30
+              ],
+              [
+                0,
+                30
+              ]
+            ],
+            "value": 900.0
+          }
+        ],
+        "prices": [
+          {
+            "p": 30,
+            "label": "P = 30"
+          }
+        ],
+        "gaps": []
+      },
+      {
+        "id": "p1",
+        "box": [
+          517,
+          76,
+          302,
+          206
+        ],
+        "xmax": 120,
+        "ymax": 60,
+        "curves": [
+          {
+            "name": "V",
+            "a": 60,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                60.0
+              ],
+              [
+                120.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                120.0,
+                60.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 80,
+            "p": 20,
+            "label": ""
+          },
+          {
+            "q": 40,
+            "p": 20,
+            "label": ""
+          }
+        ],
+        "areas": [
+          {
+            "label": "CS",
+            "points": [
+              [
+                0,
+                20
+              ],
+              [
+                80,
+                20
+              ],
+              [
+                0,
+                60
+              ]
+            ],
+            "value": 1600.0
+          },
+          {
+            "label": "PS",
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                40,
+                20
+              ],
+              [
+                0,
+                20
+              ]
+            ],
+            "value": 400.0
+          }
+        ],
+        "prices": [
+          {
+            "p": 20,
+            "label": "P = 20"
+          }
+        ],
+        "gaps": []
+      }
+    ],
+    "texts": [
+      {
+        "x": 212.0,
+        "y": 26,
+        "text": "Zonder handel",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 54,
+        "text": "P (€ per tas)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 61.0,
+        "y": 305,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 161.66666666666669,
+        "y": 305,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 212.0,
+        "y": 305,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 262.33333333333337,
+        "y": 305,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 363.0,
+        "y": 305,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 50,
+        "y": 287.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 50,
+        "y": 218.33333333333334,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 50,
+        "y": 184.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 50,
+        "y": 149.66666666666669,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 50,
+        "y": 81.0,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 212.0,
+        "y": 362,
+        "text": "Q (tassen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 111.33333333333334,
+        "y": 150.66666666666669,
+        "text": "CS",
+        "size": 18,
+        "anchor": "middle"
+      },
+      {
+        "x": 111.33333333333334,
+        "y": 219.33333333333334,
+        "text": "PS",
+        "size": 18,
+        "anchor": "middle"
+      },
+      {
+        "x": 302.56000000000006,
+        "y": 258.68,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 302.56000000000006,
+        "y": 111.32,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 374,
+        "y": 182.0,
+        "text": "P = 30",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 212,
+        "y": 336,
+        "text": "CS bij Qv; PS bij Qa",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 668.0,
+        "y": 26,
+        "text": "Met import",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 517,
+        "y": 54,
+        "text": "P (€ per tas)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 517.0,
+        "y": 305,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 617.6666666666666,
+        "y": 305,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 668.0,
+        "y": 305,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 718.3333333333334,
+        "y": 305,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 819.0,
+        "y": 305,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 506,
+        "y": 287.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 506,
+        "y": 218.33333333333334,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 506,
+        "y": 184.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 506,
+        "y": 149.66666666666669,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 506,
+        "y": 81.0,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 668.0,
+        "y": 362,
+        "text": "Q (tassen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 584.1111111111111,
+        "y": 173.55555555555554,
+        "text": "CS",
+        "size": 18,
+        "anchor": "middle"
+      },
+      {
+        "x": 550.5555555555555,
+        "y": 242.22222222222223,
+        "text": "PS",
+        "size": 18,
+        "anchor": "middle"
+      },
+      {
+        "x": 758.5600000000001,
+        "y": 258.68,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 758.5600000000001,
+        "y": 111.32,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 830,
+        "y": 216.33333333333334,
+        "text": "P = 20",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 668,
+        "y": 336,
+        "text": "CS bij Qv; PS bij Qa",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.2_we_1",
+    "width": 900,
+    "height": 380,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          190
+        ],
+        "xmax": 140,
+        "ymax": 70,
+        "curves": [
+          {
+            "name": "V",
+            "a": 70,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                70.0
+              ],
+              [
+                140.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 10,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                10.0
+              ],
+              [
+                120.0,
+                70.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 40.0,
+            "p": 30,
+            "label": "Qa = 40"
+          },
+          {
+            "q": 80.0,
+            "p": 30,
+            "label": "Qv = 80"
+          }
+        ],
+        "areas": [],
+        "prices": [
+          {
+            "p": 30,
+            "label": "Pw = 30"
+          }
+        ],
+        "gaps": [
+          {
+            "from": 40.0,
+            "to": 80.0,
+            "value": 40.0,
+            "label": "import = 40"
+          }
+        ],
+        "model": {
+          "D": [
+            70,
+            -0.5
+          ],
+          "S": [
+            10,
+            0.5
+          ],
+          "pw": 30,
+          "tariff": null,
+          "actual_price": 30,
+          "qa": 40.0,
+          "qv": 80.0,
+          "qe": 60.0,
+          "pe": 40.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Sporthelmen in Elva",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per helm)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 288,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 171.28571428571428,
+        "y": 288,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 270.57142857142856,
+        "y": 288,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 369.85714285714283,
+        "y": 288,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 469.14285714285717,
+        "y": 288,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 568.4285714285714,
+        "y": 288,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 667.7142857142857,
+        "y": 288,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 288,
+        "text": "140",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 270.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 242.85714285714286,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 215.71428571428572,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 188.57142857142856,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 161.42857142857144,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 134.28571428571428,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 107.14285714285715,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "70",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 365,
+        "text": "Q (helmen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 245.20000000000002,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 542.6571428571428,
+        "y": 100.82857142857142,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 176.57142857142856,
+        "text": "Pw = 30",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 261.57142857142856,
+        "y": 171.57142857142856,
+        "text": "Qa = 40",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 478.14285714285717,
+        "y": 171.57142857142856,
+        "text": "Qv = 80",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 369.8571428571429,
+        "y": 339,
+        "text": "import = 40",
+        "size": 18,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.2_ex_1",
+    "width": 900,
+    "height": 410,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          220
+        ],
+        "xmax": 120,
+        "ymax": 30,
+        "curves": [
+          {
+            "name": "V",
+            "a": 30,
+            "b": -0.25,
+            "points": [
+              [
+                0,
+                30.0
+              ],
+              [
+                120.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.25,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                120.0,
+                30.0
+              ]
+            ]
+          }
+        ],
+        "points": [],
+        "areas": [],
+        "prices": [
+          {
+            "p": 10,
+            "label": "Pw = 10"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            30,
+            -0.25
+          ],
+          "S": [
+            0,
+            0.25
+          ],
+          "pw": 10,
+          "tariff": null,
+          "actual_price": 10,
+          "qa": 40.0,
+          "qv": 80.0,
+          "qe": 60.0,
+          "pe": 15.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Handschoenen in Ista",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per paar)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 318,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 187.83333333333331,
+        "y": 318,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 303.66666666666663,
+        "y": 318,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 318,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 535.3333333333333,
+        "y": 318,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 651.1666666666666,
+        "y": 318,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 318,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 300.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 263.33333333333337,
+        "text": "5",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 226.66666666666669,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 190.0,
+        "text": "15",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 153.33333333333334,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 116.66666666666666,
+        "text": "25",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 395,
+        "text": "Q (paren per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 268.6,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1,
+        "y": 113.39999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 214.66666666666669,
+        "text": "Pw = 10",
+        "size": 16,
+        "anchor": "start"
+      }
+    ]
+  },
+  {
+    "file": "3.3.2_target",
+    "width": 900,
+    "height": 375,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          185
+        ],
+        "xmax": 160,
+        "ymax": 80,
+        "curves": [
+          {
+            "name": "V",
+            "a": 80,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                80.0
+              ],
+              [
+                160.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                160.0,
+                80.0
+              ]
+            ]
+          }
+        ],
+        "points": [],
+        "areas": [],
+        "prices": [
+          {
+            "p": 30,
+            "label": "Pw = 30"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            80,
+            -0.5
+          ],
+          "S": [
+            0,
+            0.5
+          ],
+          "pw": 30,
+          "tariff": null,
+          "actual_price": 30,
+          "qa": 60.0,
+          "qv": 100.0,
+          "qe": 80.0,
+          "pe": 40.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Kampeermatten in Noro",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per mat)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 283,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 158.875,
+        "y": 283,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 245.75,
+        "y": 283,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 332.625,
+        "y": 283,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 283,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 506.375,
+        "y": 283,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 593.25,
+        "y": 283,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 680.125,
+        "y": 283,
+        "text": "140",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 283,
+        "text": "160",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 265.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 241.875,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 218.75,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 195.625,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 172.5,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 149.375,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 126.25,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 103.125,
+        "text": "70",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "80",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 360,
+        "text": "Q (matten per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 241.3,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 105.69999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 183.625,
+        "text": "Pw = 30",
+        "size": 16,
+        "anchor": "start"
+      }
+    ]
+  },
+  {
+    "file": "3.3.3_fig_1",
+    "width": 900,
+    "height": 164,
+    "panels": [],
+    "texts": [
+      {
+        "x": 450,
+        "y": 28,
+        "text": "Beoordeel doel en effecten apart",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 77,
+        "text": "Doel",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 101,
+        "text": "wat wil de overheid?",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 77,
+        "text": "Instrument",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 101,
+        "text": "hoe verandert handel?",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 77,
+        "text": "Gevolgen",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 101,
+        "text": "voor welke groepen?",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.3_fig_2",
+    "width": 900,
+    "height": 410,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          220
+        ],
+        "xmax": 120,
+        "ymax": 60,
+        "curves": [
+          {
+            "name": "V",
+            "a": 60,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                60.0
+              ],
+              [
+                120.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                120.0,
+                60.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 50.0,
+            "p": 25,
+            "label": "Qa = 50"
+          },
+          {
+            "q": 70.0,
+            "p": 25,
+            "label": "Qv = 70"
+          }
+        ],
+        "areas": [],
+        "prices": [
+          {
+            "p": 20,
+            "label": "Pw = 20"
+          },
+          {
+            "p": 25,
+            "label": "Pw + t = 25"
+          }
+        ],
+        "gaps": [
+          {
+            "from": 50.0,
+            "to": 70.0,
+            "value": 20.0,
+            "label": "import = 20"
+          }
+        ],
+        "model": {
+          "D": [
+            60,
+            -0.5
+          ],
+          "S": [
+            0,
+            0.5
+          ],
+          "pw": 20,
+          "tariff": 5,
+          "actual_price": 25,
+          "qa": 50.0,
+          "qv": 70.0,
+          "qe": 60.0,
+          "pe": 30.0,
+          "trade": 20.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Drinkflessen: een invoerheffing van € 5",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per fles)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 318,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 129.91666666666666,
+        "y": 318,
+        "text": "10",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 187.83333333333331,
+        "y": 318,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 245.75,
+        "y": 318,
+        "text": "30",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 303.66666666666663,
+        "y": 318,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 361.5833333333333,
+        "y": 318,
+        "text": "50",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 318,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 477.4166666666667,
+        "y": 318,
+        "text": "70",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 535.3333333333333,
+        "y": 318,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 593.25,
+        "y": 318,
+        "text": "90",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 651.1666666666666,
+        "y": 318,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 709.0833333333334,
+        "y": 318,
+        "text": "110",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 318,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 300.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 263.33333333333337,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 226.66666666666669,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 190.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 153.33333333333334,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 116.66666666666666,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 395,
+        "text": "Q (flessen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 268.6,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1,
+        "y": 113.39999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 234.66666666666669,
+        "text": "Pw = 20",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 195.33333333333331,
+        "text": "Pw + t = 25",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 352.5833333333333,
+        "y": 191.33333333333331,
+        "text": "Qa = 50",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 486.4166666666667,
+        "y": 191.33333333333331,
+        "text": "Qv = 70",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 419.5,
+        "y": 369,
+        "text": "import = 20",
+        "size": 18,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.3_fig_3",
+    "width": 900,
+    "height": 410,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          220
+        ],
+        "xmax": 120,
+        "ymax": 60,
+        "curves": [
+          {
+            "name": "V",
+            "a": 60,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                60.0
+              ],
+              [
+                120.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                120.0,
+                60.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 50.0,
+            "p": 25,
+            "label": "Qa = 50"
+          },
+          {
+            "q": 70.0,
+            "p": 25,
+            "label": "Qv = 70"
+          }
+        ],
+        "areas": [
+          {
+            "label": "overheidsopbrengst",
+            "points": [
+              [
+                50.0,
+                20
+              ],
+              [
+                70.0,
+                20
+              ],
+              [
+                70.0,
+                25
+              ],
+              [
+                50.0,
+                25
+              ]
+            ],
+            "value": 100.0
+          }
+        ],
+        "prices": [
+          {
+            "p": 20,
+            "label": "Pw = 20"
+          },
+          {
+            "p": 25,
+            "label": "Pw + t = 25"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            60,
+            -0.5
+          ],
+          "S": [
+            0,
+            0.5
+          ],
+          "pw": 20,
+          "tariff": 5,
+          "actual_price": 25,
+          "qa": 50.0,
+          "qv": 70.0,
+          "qe": 60.0,
+          "pe": 30.0,
+          "trade": 20.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "De juiste opbrengstrechthoek",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per fles)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 318,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 129.91666666666666,
+        "y": 318,
+        "text": "10",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 187.83333333333331,
+        "y": 318,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 245.75,
+        "y": 318,
+        "text": "30",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 303.66666666666663,
+        "y": 318,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 361.5833333333333,
+        "y": 318,
+        "text": "50",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 318,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 477.4166666666667,
+        "y": 318,
+        "text": "70",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 535.3333333333333,
+        "y": 318,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 593.25,
+        "y": 318,
+        "text": "90",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 651.1666666666666,
+        "y": 318,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 709.0833333333334,
+        "y": 318,
+        "text": "110",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 318,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 300.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 263.33333333333337,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 226.66666666666669,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 190.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 153.33333333333334,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 116.66666666666666,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 395,
+        "text": "Q (flessen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 268.6,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1,
+        "y": 113.39999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 234.66666666666669,
+        "text": "Pw = 20",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 195.33333333333331,
+        "text": "Pw + t = 25",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 352.5833333333333,
+        "y": 191.33333333333331,
+        "text": "Qa = 50",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 486.4166666666667,
+        "y": 191.33333333333331,
+        "text": "Qv = 70",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 450,
+        "y": 362,
+        "text": "Breedte: import na de heffing · hoogte: heffing per product",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.3_fig_4",
+    "width": 900,
+    "height": 355,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          165
+        ],
+        "xmax": 120,
+        "ymax": 60,
+        "curves": [
+          {
+            "name": "V",
+            "a": 60,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                60.0
+              ],
+              [
+                120.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                120.0,
+                60.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60.0,
+            "p": 30.0,
+            "label": "E"
+          }
+        ],
+        "areas": [],
+        "prices": [
+          {
+            "p": 20,
+            "label": "Pw = 20"
+          },
+          {
+            "p": 35,
+            "label": "Pw + t = 35"
+          },
+          {
+            "p": 30.0,
+            "label": "P = 30"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            60,
+            -0.5
+          ],
+          "S": [
+            0,
+            0.5
+          ],
+          "pw": 20,
+          "tariff": 15,
+          "actual_price": 30.0,
+          "qa": 60.0,
+          "qv": 60.0,
+          "qe": 60.0,
+          "pe": 30.0,
+          "trade": 0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "De heffing maakt import te duur",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per fles)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 263,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 187.83333333333331,
+        "y": 263,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 303.66666666666663,
+        "y": 263,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 263,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 535.3333333333333,
+        "y": 263,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 651.1666666666666,
+        "y": 263,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 263,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 245.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 217.5,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 190.0,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 162.5,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 135.0,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 107.5,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 340,
+        "text": "Q (flessen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 225.70000000000002,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1,
+        "y": 101.3,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 198.0,
+        "text": "Pw = 20",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 135.75,
+        "text": "Pw + t = 35",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 153.5,
+        "text": "P = 30",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 419.5,
+        "y": 142.5,
+        "text": "E",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 450,
+        "y": 307,
+        "text": "Geen import: binnenlandse productie = binnenlands verbruik",
+        "size": 18,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.3_ex_1",
+    "width": 900,
+    "height": 350,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          160
+        ],
+        "xmax": 130,
+        "ymax": 26,
+        "curves": [
+          {
+            "name": "V",
+            "a": 26,
+            "b": -0.2,
+            "points": [
+              [
+                0,
+                26.0
+              ],
+              [
+                130.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 6,
+            "b": 0.2,
+            "points": [
+              [
+                0,
+                6.0
+              ],
+              [
+                100.0,
+                26.0
+              ]
+            ]
+          }
+        ],
+        "points": [],
+        "areas": [],
+        "prices": [
+          {
+            "p": 10,
+            "label": "Pw = 10"
+          },
+          {
+            "p": 12,
+            "label": "Pw + t = 12"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            26,
+            -0.2
+          ],
+          "S": [
+            6,
+            0.2
+          ],
+          "pw": 10,
+          "tariff": 2,
+          "actual_price": 12,
+          "qa": 30.0,
+          "qv": 70.0,
+          "qe": 50.0,
+          "pe": 16.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Paraplu’s in Luma",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per paraplu)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 258,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 125.46153846153845,
+        "y": 258,
+        "text": "10",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 178.9230769230769,
+        "y": 258,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 232.3846153846154,
+        "y": 258,
+        "text": "30",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 285.8461538461538,
+        "y": 258,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 339.3076923076923,
+        "y": 258,
+        "text": "50",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 392.7692307692308,
+        "y": 258,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 446.2307692307692,
+        "y": 258,
+        "text": "70",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 499.6923076923077,
+        "y": 258,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 553.1538461538462,
+        "y": 258,
+        "text": "90",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 606.6153846153846,
+        "y": 258,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 660.0769230769231,
+        "y": 258,
+        "text": "110",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 713.5384615384615,
+        "y": 258,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 258,
+        "text": "130",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 240.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 209.23076923076923,
+        "text": "5",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 178.46153846153845,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 147.6923076923077,
+        "text": "15",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 116.92307692307692,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 86.15384615384615,
+        "text": "25",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 335,
+        "text": "Q (paraplu’s per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 221.8,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 495.0,
+        "y": 92.07692307692307,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 186.46153846153845,
+        "text": "Pw = 10",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 153.15384615384613,
+        "text": "Pw + t = 12",
+        "size": 16,
+        "anchor": "start"
+      }
+    ]
+  },
+  {
+    "file": "3.3.3_target",
+    "width": 900,
+    "height": 380,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          190
+        ],
+        "xmax": 160,
+        "ymax": 80,
+        "curves": [
+          {
+            "name": "V",
+            "a": 80,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                80.0
+              ],
+              [
+                160.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                160.0,
+                80.0
+              ]
+            ]
+          }
+        ],
+        "points": [],
+        "areas": [],
+        "prices": [
+          {
+            "p": 20,
+            "label": "Pw = 20"
+          },
+          {
+            "p": 30,
+            "label": "Pw + t = 30"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            80,
+            -0.5
+          ],
+          "S": [
+            0,
+            0.5
+          ],
+          "pw": 20,
+          "tariff": 10,
+          "actual_price": 30,
+          "qa": 60.0,
+          "qv": 100.0,
+          "qe": 80.0,
+          "pe": 40.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Schoolrugzakken in Daro",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per rugzak)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 288,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 158.875,
+        "y": 288,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 245.75,
+        "y": 288,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 332.625,
+        "y": 288,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 288,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 506.375,
+        "y": 288,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 593.25,
+        "y": 288,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 680.125,
+        "y": 288,
+        "text": "140",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 288,
+        "text": "160",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 270.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 246.25,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 222.5,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 198.75,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 175.0,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 151.25,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 127.5,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 103.75,
+        "text": "70",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "80",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 365,
+        "text": "Q (rugzakken per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 245.20000000000002,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 106.8,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 230.5,
+        "text": "Pw = 20",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 185.75,
+        "text": "Pw + t = 30",
+        "size": 16,
+        "anchor": "start"
+      }
+    ]
+  },
+  {
+    "file": "3.3.4_fig_1",
+    "width": 900,
+    "height": 164,
+    "panels": [],
+    "texts": [
+      {
+        "x": 450,
+        "y": 28,
+        "text": "De bekende werkwijze combineren",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 77,
+        "text": "Bron",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 101,
+        "text": "selecteer het gegeven",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 77,
+        "text": "Methode",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 101,
+        "text": "reken of verklaar",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 77,
+        "text": "Oordeel",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 101,
+        "text": "benoem de grens",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.4_fig_2",
+    "width": 900,
+    "height": 235,
+    "panels": [],
+    "texts": [
+      {
+        "x": 157.5,
+        "y": 72,
+        "text": "Kopers",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 157.5,
+        "y": 108,
+        "text": "hogere prijs",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 157.5,
+        "y": 135,
+        "text": "minder verbruik",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 452.5,
+        "y": 72,
+        "text": "Producenten",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 452.5,
+        "y": 108,
+        "text": "hogere prijs",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 452.5,
+        "y": 135,
+        "text": "meer productie",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 747.5,
+        "y": 72,
+        "text": "Overheid",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 747.5,
+        "y": 108,
+        "text": "ontvangsten over",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 747.5,
+        "y": 135,
+        "text": "resterende import",
+        "size": 20,
+        "anchor": "middle"
+      },
+      {
+        "x": 450,
+        "y": 211,
+        "text": "Een voordeel voor één groep bewijst geen voordeel voor iedereen.",
+        "size": 19,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.4_target",
+    "width": 900,
+    "height": 390,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          200
+        ],
+        "xmax": 160,
+        "ymax": 40,
+        "curves": [
+          {
+            "name": "V",
+            "a": 40,
+            "b": -0.25,
+            "points": [
+              [
+                0,
+                40.0
+              ],
+              [
+                160.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.25,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                160.0,
+                40.0
+              ]
+            ]
+          }
+        ],
+        "points": [],
+        "areas": [],
+        "prices": [
+          {
+            "p": 10,
+            "label": "Pw = 10"
+          },
+          {
+            "p": 15,
+            "label": "Pw + t = 15"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            40,
+            -0.25
+          ],
+          "S": [
+            0,
+            0.25
+          ],
+          "pw": 10,
+          "tariff": 5,
+          "actual_price": 15,
+          "qa": 60.0,
+          "qv": 100.0,
+          "qe": 80.0,
+          "pe": 20.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Regenjassen in Nerin",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per jas)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 298,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 158.875,
+        "y": 298,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 245.75,
+        "y": 298,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 332.625,
+        "y": 298,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 298,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 506.375,
+        "y": 298,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 593.25,
+        "y": 298,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 680.125,
+        "y": 298,
+        "text": "140",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 298,
+        "text": "160",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 280.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 255.0,
+        "text": "5",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 230.0,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 205.0,
+        "text": "15",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 180.0,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 155.0,
+        "text": "25",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 130.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 105.0,
+        "text": "35",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 375,
+        "text": "Q (jassen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 253.0,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 109.0,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 238.0,
+        "text": "Pw = 10",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 192.0,
+        "text": "Pw + t = 15",
+        "size": 16,
+        "anchor": "start"
+      }
+    ]
+  },
+  {
+    "file": "3.3_slot",
+    "width": 900,
+    "height": 164,
+    "panels": [],
+    "texts": [
+      {
+        "x": 450,
+        "y": 28,
+        "text": "De kern van internationale handel",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 77,
+        "text": "Specialisatie",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 162.0,
+        "y": 101,
+        "text": "relatief minder opgeven",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 77,
+        "text": "Wereldprijs",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 450.0,
+        "y": 101,
+        "text": "productie ≠ verbruik",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 77,
+        "text": "Bescherming",
+        "size": 19,
+        "anchor": "middle"
+      },
+      {
+        "x": 738.0,
+        "y": 101,
+        "text": "doel ≠ ieders voordeel",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.2_ans_14",
+    "width": 900,
+    "height": 350,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          160
+        ],
+        "xmax": 120,
+        "ymax": 30,
+        "curves": [
+          {
+            "name": "V",
+            "a": 30,
+            "b": -0.25,
+            "points": [
+              [
+                0,
+                30.0
+              ],
+              [
+                120.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.25,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                120.0,
+                30.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 40.0,
+            "p": 10,
+            "label": "Qa = 40"
+          },
+          {
+            "q": 80.0,
+            "p": 10,
+            "label": "Qv = 80"
+          }
+        ],
+        "areas": [],
+        "prices": [
+          {
+            "p": 10,
+            "label": "Pw = 10"
+          }
+        ],
+        "gaps": [
+          {
+            "from": 40.0,
+            "to": 80.0,
+            "value": 40.0,
+            "label": "import = 40"
+          }
+        ],
+        "model": {
+          "D": [
+            30,
+            -0.25
+          ],
+          "S": [
+            0,
+            0.25
+          ],
+          "pw": 10,
+          "tariff": null,
+          "actual_price": 10,
+          "qa": 40.0,
+          "qv": 80.0,
+          "qe": 60.0,
+          "pe": 15.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Opgave 14: 40 paren import",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per paar)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 258,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 187.83333333333331,
+        "y": 258,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 303.66666666666663,
+        "y": 258,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 258,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 535.3333333333333,
+        "y": 258,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 651.1666666666666,
+        "y": 258,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 258,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 240.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 213.33333333333334,
+        "text": "5",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 186.66666666666669,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 160.0,
+        "text": "15",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 133.33333333333334,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 106.66666666666666,
+        "text": "25",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 335,
+        "text": "Q (paren per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 221.8,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1,
+        "y": 100.19999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 174.66666666666669,
+        "text": "Pw = 10",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 294.66666666666663,
+        "y": 169.66666666666669,
+        "text": "Qa = 40",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 544.3333333333333,
+        "y": 169.66666666666669,
+        "text": "Qv = 80",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 419.49999999999994,
+        "y": 309,
+        "text": "import = 40",
+        "size": 18,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.2_ans_17",
+    "width": 900,
+    "height": 350,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          160
+        ],
+        "xmax": 160,
+        "ymax": 80,
+        "curves": [
+          {
+            "name": "V",
+            "a": 80,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                80.0
+              ],
+              [
+                160.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                160.0,
+                80.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60.0,
+            "p": 30,
+            "label": "Qa = 60"
+          },
+          {
+            "q": 100.0,
+            "p": 30,
+            "label": "Qv = 100"
+          }
+        ],
+        "areas": [],
+        "prices": [
+          {
+            "p": 30,
+            "label": "Pw = 30"
+          }
+        ],
+        "gaps": [
+          {
+            "from": 60.0,
+            "to": 100.0,
+            "value": 40.0,
+            "label": "import = 40"
+          }
+        ],
+        "model": {
+          "D": [
+            80,
+            -0.5
+          ],
+          "S": [
+            0,
+            0.5
+          ],
+          "pw": 30,
+          "tariff": null,
+          "actual_price": 30,
+          "qa": 60.0,
+          "qv": 100.0,
+          "qe": 80.0,
+          "pe": 40.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Opgave 17: productie 60, verbruik 100",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per mat)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 258,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 158.875,
+        "y": 258,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 245.75,
+        "y": 258,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 332.625,
+        "y": 258,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 258,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 506.375,
+        "y": 258,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 593.25,
+        "y": 258,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 680.125,
+        "y": 258,
+        "text": "140",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 258,
+        "text": "160",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 240.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 220.0,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 200.0,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 180.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 160.0,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 140.0,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 120.0,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 100.0,
+        "text": "70",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "80",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 335,
+        "text": "Q (matten per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 221.8,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 100.19999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 168.0,
+        "text": "Pw = 30",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 323.625,
+        "y": 163.0,
+        "text": "Qa = 60",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 515.375,
+        "y": 163.0,
+        "text": "Qv = 100",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 419.5,
+        "y": 309,
+        "text": "import = 40",
+        "size": 18,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.3_ans_25",
+    "width": 900,
+    "height": 350,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          160
+        ],
+        "xmax": 130,
+        "ymax": 26,
+        "curves": [
+          {
+            "name": "V",
+            "a": 26,
+            "b": -0.2,
+            "points": [
+              [
+                0,
+                26.0
+              ],
+              [
+                130.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 6,
+            "b": 0.2,
+            "points": [
+              [
+                0,
+                6.0
+              ],
+              [
+                100.0,
+                26.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 30.0,
+            "p": 12,
+            "label": "Qa = 30"
+          },
+          {
+            "q": 70.0,
+            "p": 12,
+            "label": "Qv = 70"
+          }
+        ],
+        "areas": [
+          {
+            "label": "overheidsopbrengst",
+            "points": [
+              [
+                30.0,
+                10
+              ],
+              [
+                70.0,
+                10
+              ],
+              [
+                70.0,
+                12
+              ],
+              [
+                30.0,
+                12
+              ]
+            ],
+            "value": 80.0
+          }
+        ],
+        "prices": [
+          {
+            "p": 10,
+            "label": "Pw = 10"
+          },
+          {
+            "p": 12,
+            "label": "Pw + t = 12"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            26,
+            -0.2
+          ],
+          "S": [
+            6,
+            0.2
+          ],
+          "pw": 10,
+          "tariff": 2,
+          "actual_price": 12,
+          "qa": 30.0,
+          "qv": 70.0,
+          "qe": 50.0,
+          "pe": 16.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Opgave 25: 40 × € 2 = € 80",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per paraplu)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 258,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 125.46153846153845,
+        "y": 258,
+        "text": "10",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 178.9230769230769,
+        "y": 258,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 232.3846153846154,
+        "y": 258,
+        "text": "30",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 285.8461538461538,
+        "y": 258,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 339.3076923076923,
+        "y": 258,
+        "text": "50",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 392.7692307692308,
+        "y": 258,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 446.2307692307692,
+        "y": 258,
+        "text": "70",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 499.6923076923077,
+        "y": 258,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 553.1538461538462,
+        "y": 258,
+        "text": "90",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 606.6153846153846,
+        "y": 258,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 660.0769230769231,
+        "y": 258,
+        "text": "110",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 713.5384615384615,
+        "y": 258,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 258,
+        "text": "130",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 240.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 209.23076923076923,
+        "text": "5",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 178.46153846153845,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 147.6923076923077,
+        "text": "15",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 116.92307692307692,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 86.15384615384615,
+        "text": "25",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 335,
+        "text": "Q (paraplu’s per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1,
+        "y": 221.8,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 495.0,
+        "y": 92.07692307692307,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 186.46153846153845,
+        "text": "Pw = 10",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 153.15384615384613,
+        "text": "Pw + t = 12",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 223.3846153846154,
+        "y": 149.15384615384613,
+        "text": "Qa = 30",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 455.2307692307692,
+        "y": 149.15384615384613,
+        "text": "Qv = 70",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 450,
+        "y": 302,
+        "text": "Breedte: import na de heffing · hoogte: heffing per product",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.3_ans_27",
+    "width": 900,
+    "height": 350,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          160
+        ],
+        "xmax": 160,
+        "ymax": 80,
+        "curves": [
+          {
+            "name": "V",
+            "a": 80,
+            "b": -0.5,
+            "points": [
+              [
+                0,
+                80.0
+              ],
+              [
+                160.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.5,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                160.0,
+                80.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60.0,
+            "p": 30,
+            "label": "Qa = 60"
+          },
+          {
+            "q": 100.0,
+            "p": 30,
+            "label": "Qv = 100"
+          }
+        ],
+        "areas": [
+          {
+            "label": "overheidsopbrengst",
+            "points": [
+              [
+                60.0,
+                20
+              ],
+              [
+                100.0,
+                20
+              ],
+              [
+                100.0,
+                30
+              ],
+              [
+                60.0,
+                30
+              ]
+            ],
+            "value": 400.0
+          }
+        ],
+        "prices": [
+          {
+            "p": 20,
+            "label": "Pw = 20"
+          },
+          {
+            "p": 30,
+            "label": "Pw + t = 30"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            80,
+            -0.5
+          ],
+          "S": [
+            0,
+            0.5
+          ],
+          "pw": 20,
+          "tariff": 10,
+          "actual_price": 30,
+          "qa": 60.0,
+          "qv": 100.0,
+          "qe": 80.0,
+          "pe": 40.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Opgave 27: 40 × € 10 = € 400",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per rugzak)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 258,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 158.875,
+        "y": 258,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 245.75,
+        "y": 258,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 332.625,
+        "y": 258,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 258,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 506.375,
+        "y": 258,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 593.25,
+        "y": 258,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 680.125,
+        "y": 258,
+        "text": "140",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 258,
+        "text": "160",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 240.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 220.0,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 200.0,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 180.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 160.0,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 140.0,
+        "text": "50",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 120.0,
+        "text": "60",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 100.0,
+        "text": "70",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "80",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 335,
+        "text": "Q (rugzakken per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 221.8,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 100.19999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 208.0,
+        "text": "Pw = 20",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 167.0,
+        "text": "Pw + t = 30",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 323.625,
+        "y": 163.0,
+        "text": "Qa = 60",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 515.375,
+        "y": 163.0,
+        "text": "Qv = 100",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 450,
+        "y": 302,
+        "text": "Breedte: import na de heffing · hoogte: heffing per product",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "file": "3.3.4_ans_35",
+    "width": 900,
+    "height": 350,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          72,
+          75,
+          695,
+          160
+        ],
+        "xmax": 160,
+        "ymax": 40,
+        "curves": [
+          {
+            "name": "V",
+            "a": 40,
+            "b": -0.25,
+            "points": [
+              [
+                0,
+                40.0
+              ],
+              [
+                160.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "name": "A",
+            "a": 0,
+            "b": 0.25,
+            "points": [
+              [
+                0,
+                0.0
+              ],
+              [
+                160.0,
+                40.0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60.0,
+            "p": 15,
+            "label": "Qa = 60"
+          },
+          {
+            "q": 100.0,
+            "p": 15,
+            "label": "Qv = 100"
+          }
+        ],
+        "areas": [
+          {
+            "label": "overheidsopbrengst",
+            "points": [
+              [
+                60.0,
+                10
+              ],
+              [
+                100.0,
+                10
+              ],
+              [
+                100.0,
+                15
+              ],
+              [
+                60.0,
+                15
+              ]
+            ],
+            "value": 200.0
+          }
+        ],
+        "prices": [
+          {
+            "p": 10,
+            "label": "Pw = 10"
+          },
+          {
+            "p": 15,
+            "label": "Pw + t = 15"
+          }
+        ],
+        "gaps": [],
+        "model": {
+          "D": [
+            40,
+            -0.25
+          ],
+          "S": [
+            0,
+            0.25
+          ],
+          "pw": 10,
+          "tariff": 5,
+          "actual_price": 15,
+          "qa": 60.0,
+          "qv": 100.0,
+          "qe": 80.0,
+          "pe": 20.0,
+          "trade": 40.0
+        }
+      }
+    ],
+    "texts": [
+      {
+        "x": 419.5,
+        "y": 26,
+        "text": "Opgave 35: 40 × € 5 = € 200",
+        "size": 21,
+        "anchor": "middle"
+      },
+      {
+        "x": 72,
+        "y": 54,
+        "text": "P (€ per jas)",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 72.0,
+        "y": 258,
+        "text": "0",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 158.875,
+        "y": 258,
+        "text": "20",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 245.75,
+        "y": 258,
+        "text": "40",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 332.625,
+        "y": 258,
+        "text": "60",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 419.5,
+        "y": 258,
+        "text": "80",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 506.375,
+        "y": 258,
+        "text": "100",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 593.25,
+        "y": 258,
+        "text": "120",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 680.125,
+        "y": 258,
+        "text": "140",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 767.0,
+        "y": 258,
+        "text": "160",
+        "size": 16,
+        "anchor": "middle"
+      },
+      {
+        "x": 61,
+        "y": 240.0,
+        "text": "0",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 220.0,
+        "text": "5",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 200.0,
+        "text": "10",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 180.0,
+        "text": "15",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 160.0,
+        "text": "20",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 140.0,
+        "text": "25",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 120.0,
+        "text": "30",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 100.0,
+        "text": "35",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 61,
+        "y": 80.0,
+        "text": "40",
+        "size": 16,
+        "anchor": "end"
+      },
+      {
+        "x": 419.5,
+        "y": 335,
+        "text": "Q (jassen per week)",
+        "size": 17,
+        "anchor": "middle"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 221.8,
+        "text": "V",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 620.1000000000001,
+        "y": 100.19999999999999,
+        "text": "A",
+        "size": 19,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 208.0,
+        "text": "Pw = 10",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 778,
+        "y": 167.0,
+        "text": "Pw + t = 15",
+        "size": 16,
+        "anchor": "start"
+      },
+      {
+        "x": 323.625,
+        "y": 163.0,
+        "text": "Qa = 60",
+        "size": 17,
+        "anchor": "end"
+      },
+      {
+        "x": 515.375,
+        "y": 163.0,
+        "text": "Qv = 100",
+        "size": 17,
+        "anchor": "start"
+      },
+      {
+        "x": 450,
+        "y": 302,
+        "text": "Breedte: import na de heffing · hoogte: heffing per product",
+        "size": 17,
+        "anchor": "middle"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4805 @@
+{
+  "checks": 959,
+  "passed": 959,
+  "failed": 0,
+  "source_pages_compared": 234,
+  "comparison": "Every source page rendered at 90 dpi; differences >3/255 outside recorded navigation rectangles with a 1.8pt antialias margin are rejected. Unedited words and coordinates checked separately to 0.025pt. This is an assembly test, not a new content or exam audit.",
+  "unexpected_differences": [],
+  "items": [
+    {
+      "check": "unchanged_input:inputs/book-4-outline-v2.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_4_H1_Monopolie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_4_H1_Docenteninformatie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_4_H2_Docenteninformatie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/cover.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_4_H3_Antwoorden.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_4_H2_Antwoorden.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_4_H3_Docenteninformatie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/book-3-outline-v2.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:inputs/Boek_4_H1_Antwoorden.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:page_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:all_source_pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:chapter_recto_starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:only_planned_blanks",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:A4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:links_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:bookmarks_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:render_preservation:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:5",
+      "pass": true,
+      "detail": "218 / 218"
+    },
+    {
+      "check": "student:footer:5",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "student:navigation_text:5:2",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "student:navigation_text:5:10",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "student:navigation_text:5:21",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "student:navigation_text:5:32",
+      "pass": true,
+      "detail": "36"
+    },
+    {
+      "check": "student:navigation_text:5:37",
+      "pass": true,
+      "detail": "41"
+    },
+    {
+      "check": "student:render_preservation:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:6",
+      "pass": true,
+      "detail": "253 / 253"
+    },
+    {
+      "check": "student:footer:6",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "student:render_preservation:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:7",
+      "pass": true,
+      "detail": "299 / 299"
+    },
+    {
+      "check": "student:footer:7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "student:render_preservation:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:8",
+      "pass": true,
+      "detail": "271 / 271"
+    },
+    {
+      "check": "student:footer:8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "student:render_preservation:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:9",
+      "pass": true,
+      "detail": "284 / 284"
+    },
+    {
+      "check": "student:footer:9",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "student:render_preservation:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:10",
+      "pass": true,
+      "detail": "211 / 211"
+    },
+    {
+      "check": "student:footer:10",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "student:render_preservation:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:11",
+      "pass": true,
+      "detail": "292 / 292"
+    },
+    {
+      "check": "student:footer:11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "student:render_preservation:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:12",
+      "pass": true,
+      "detail": "245 / 245"
+    },
+    {
+      "check": "student:footer:12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "student:render_preservation:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:13",
+      "pass": true,
+      "detail": "256 / 256"
+    },
+    {
+      "check": "student:footer:13",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "student:render_preservation:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:14",
+      "pass": true,
+      "detail": "265 / 265"
+    },
+    {
+      "check": "student:footer:14",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "student:render_preservation:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:15",
+      "pass": true,
+      "detail": "261 / 261"
+    },
+    {
+      "check": "student:footer:15",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "student:render_preservation:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:16",
+      "pass": true,
+      "detail": "260 / 260"
+    },
+    {
+      "check": "student:footer:16",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "student:render_preservation:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:17",
+      "pass": true,
+      "detail": "276 / 276"
+    },
+    {
+      "check": "student:footer:17",
+      "pass": true,
+      "detail": "17"
+    },
+    {
+      "check": "student:render_preservation:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:18",
+      "pass": true,
+      "detail": "304 / 304"
+    },
+    {
+      "check": "student:footer:18",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "student:render_preservation:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:19",
+      "pass": true,
+      "detail": "282 / 282"
+    },
+    {
+      "check": "student:footer:19",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "student:render_preservation:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:20",
+      "pass": true,
+      "detail": "203 / 203"
+    },
+    {
+      "check": "student:footer:20",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "student:render_preservation:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:21",
+      "pass": true,
+      "detail": "232 / 232"
+    },
+    {
+      "check": "student:footer:21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "check": "student:render_preservation:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:22",
+      "pass": true,
+      "detail": "224 / 224"
+    },
+    {
+      "check": "student:footer:22",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "student:render_preservation:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:23",
+      "pass": true,
+      "detail": "268 / 268"
+    },
+    {
+      "check": "student:footer:23",
+      "pass": true,
+      "detail": "23"
+    },
+    {
+      "check": "student:render_preservation:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:24",
+      "pass": true,
+      "detail": "265 / 265"
+    },
+    {
+      "check": "student:footer:24",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "student:render_preservation:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:25",
+      "pass": true,
+      "detail": "296 / 296"
+    },
+    {
+      "check": "student:footer:25",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "student:render_preservation:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:26",
+      "pass": true,
+      "detail": "262 / 262"
+    },
+    {
+      "check": "student:footer:26",
+      "pass": true,
+      "detail": "26"
+    },
+    {
+      "check": "student:render_preservation:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:27",
+      "pass": true,
+      "detail": "280 / 280"
+    },
+    {
+      "check": "student:footer:27",
+      "pass": true,
+      "detail": "27"
+    },
+    {
+      "check": "student:render_preservation:28",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:28",
+      "pass": true,
+      "detail": "290 / 290"
+    },
+    {
+      "check": "student:footer:28",
+      "pass": true,
+      "detail": "28"
+    },
+    {
+      "check": "student:render_preservation:29",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:29",
+      "pass": true,
+      "detail": "279 / 279"
+    },
+    {
+      "check": "student:footer:29",
+      "pass": true,
+      "detail": "29"
+    },
+    {
+      "check": "student:render_preservation:30",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:30",
+      "pass": true,
+      "detail": "329 / 329"
+    },
+    {
+      "check": "student:footer:30",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "student:render_preservation:31",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:31",
+      "pass": true,
+      "detail": "266 / 266"
+    },
+    {
+      "check": "student:footer:31",
+      "pass": true,
+      "detail": "31"
+    },
+    {
+      "check": "student:render_preservation:32",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:32",
+      "pass": true,
+      "detail": "264 / 264"
+    },
+    {
+      "check": "student:footer:32",
+      "pass": true,
+      "detail": "32"
+    },
+    {
+      "check": "student:render_preservation:33",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:33",
+      "pass": true,
+      "detail": "228 / 228"
+    },
+    {
+      "check": "student:footer:33",
+      "pass": true,
+      "detail": "33"
+    },
+    {
+      "check": "student:render_preservation:34",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:34",
+      "pass": true,
+      "detail": "241 / 241"
+    },
+    {
+      "check": "student:footer:34",
+      "pass": true,
+      "detail": "34"
+    },
+    {
+      "check": "student:render_preservation:35",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:35",
+      "pass": true,
+      "detail": "286 / 286"
+    },
+    {
+      "check": "student:footer:35",
+      "pass": true,
+      "detail": "35"
+    },
+    {
+      "check": "student:render_preservation:36",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:36",
+      "pass": true,
+      "detail": "289 / 289"
+    },
+    {
+      "check": "student:footer:36",
+      "pass": true,
+      "detail": "36"
+    },
+    {
+      "check": "student:render_preservation:37",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:37",
+      "pass": true,
+      "detail": "254 / 254"
+    },
+    {
+      "check": "student:footer:37",
+      "pass": true,
+      "detail": "37"
+    },
+    {
+      "check": "student:render_preservation:38",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:38",
+      "pass": true,
+      "detail": "265 / 265"
+    },
+    {
+      "check": "student:footer:38",
+      "pass": true,
+      "detail": "38"
+    },
+    {
+      "check": "student:render_preservation:39",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:39",
+      "pass": true,
+      "detail": "196 / 196"
+    },
+    {
+      "check": "student:footer:39",
+      "pass": true,
+      "detail": "39"
+    },
+    {
+      "check": "student:navigation_text:39:Gebruik bronnen A, B en ",
+      "pass": true,
+      "detail": "Gebruik bronnen A, B en C en figuur 21 op pagina 38."
+    },
+    {
+      "check": "student:render_preservation:40",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:40",
+      "pass": true,
+      "detail": "273 / 273"
+    },
+    {
+      "check": "student:footer:40",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "student:render_preservation:41",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:41",
+      "pass": true,
+      "detail": "282 / 282"
+    },
+    {
+      "check": "student:footer:41",
+      "pass": true,
+      "detail": "41"
+    },
+    {
+      "check": "student:render_preservation:42",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:42",
+      "pass": true,
+      "detail": "269 / 269"
+    },
+    {
+      "check": "student:footer:42",
+      "pass": true,
+      "detail": "42"
+    },
+    {
+      "check": "student:render_preservation:43",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:43",
+      "pass": true,
+      "detail": "166 / 166"
+    },
+    {
+      "check": "student:footer:43",
+      "pass": true,
+      "detail": "43"
+    },
+    {
+      "check": "student:navigation_text:43:3",
+      "pass": true,
+      "detail": "45"
+    },
+    {
+      "check": "student:navigation_text:43:11",
+      "pass": true,
+      "detail": "53"
+    },
+    {
+      "check": "student:navigation_text:43:19",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "check": "student:navigation_text:43:25",
+      "pass": true,
+      "detail": "67"
+    },
+    {
+      "check": "student:navigation_text:43:36",
+      "pass": true,
+      "detail": "78"
+    },
+    {
+      "check": "student:navigation_text:43:47",
+      "pass": true,
+      "detail": "89"
+    },
+    {
+      "check": "student:navigation_text:43:53",
+      "pass": true,
+      "detail": "95"
+    },
+    {
+      "check": "student:navigation_text:43:Hoofdstukoverzicht: pagi",
+      "pass": true,
+      "detail": "Hoofdstukoverzicht: pagina 101. Begrippenlijst: pagina 102."
+    },
+    {
+      "check": "student:render_preservation:44",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:44",
+      "pass": true,
+      "detail": "309 / 309"
+    },
+    {
+      "check": "student:footer:44",
+      "pass": true,
+      "detail": "44"
+    },
+    {
+      "check": "student:render_preservation:45",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:45",
+      "pass": true,
+      "detail": "294 / 294"
+    },
+    {
+      "check": "student:footer:45",
+      "pass": true,
+      "detail": "45"
+    },
+    {
+      "check": "student:render_preservation:46",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:46",
+      "pass": true,
+      "detail": "245 / 245"
+    },
+    {
+      "check": "student:footer:46",
+      "pass": true,
+      "detail": "46"
+    },
+    {
+      "check": "student:render_preservation:47",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:47",
+      "pass": true,
+      "detail": "309 / 309"
+    },
+    {
+      "check": "student:footer:47",
+      "pass": true,
+      "detail": "47"
+    },
+    {
+      "check": "student:render_preservation:48",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:48",
+      "pass": true,
+      "detail": "388 / 388"
+    },
+    {
+      "check": "student:footer:48",
+      "pass": true,
+      "detail": "48"
+    },
+    {
+      "check": "student:render_preservation:49",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:49",
+      "pass": true,
+      "detail": "262 / 262"
+    },
+    {
+      "check": "student:footer:49",
+      "pass": true,
+      "detail": "49"
+    },
+    {
+      "check": "student:render_preservation:50",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:50",
+      "pass": true,
+      "detail": "265 / 265"
+    },
+    {
+      "check": "student:footer:50",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "student:render_preservation:51",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:51",
+      "pass": true,
+      "detail": "234 / 234"
+    },
+    {
+      "check": "student:footer:51",
+      "pass": true,
+      "detail": "51"
+    },
+    {
+      "check": "student:render_preservation:52",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:52",
+      "pass": true,
+      "detail": "183 / 183"
+    },
+    {
+      "check": "student:footer:52",
+      "pass": true,
+      "detail": "52"
+    },
+    {
+      "check": "student:render_preservation:53",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:53",
+      "pass": true,
+      "detail": "234 / 234"
+    },
+    {
+      "check": "student:footer:53",
+      "pass": true,
+      "detail": "53"
+    },
+    {
+      "check": "student:render_preservation:54",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:54",
+      "pass": true,
+      "detail": "289 / 289"
+    },
+    {
+      "check": "student:footer:54",
+      "pass": true,
+      "detail": "54"
+    },
+    {
+      "check": "student:render_preservation:55",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:55",
+      "pass": true,
+      "detail": "358 / 358"
+    },
+    {
+      "check": "student:footer:55",
+      "pass": true,
+      "detail": "55"
+    },
+    {
+      "check": "student:render_preservation:56",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:56",
+      "pass": true,
+      "detail": "302 / 302"
+    },
+    {
+      "check": "student:footer:56",
+      "pass": true,
+      "detail": "56"
+    },
+    {
+      "check": "student:render_preservation:57",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:57",
+      "pass": true,
+      "detail": "225 / 225"
+    },
+    {
+      "check": "student:footer:57",
+      "pass": true,
+      "detail": "57"
+    },
+    {
+      "check": "student:render_preservation:58",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:58",
+      "pass": true,
+      "detail": "229 / 229"
+    },
+    {
+      "check": "student:footer:58",
+      "pass": true,
+      "detail": "58"
+    },
+    {
+      "check": "student:render_preservation:59",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:59",
+      "pass": true,
+      "detail": "312 / 312"
+    },
+    {
+      "check": "student:footer:59",
+      "pass": true,
+      "detail": "59"
+    },
+    {
+      "check": "student:render_preservation:60",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:60",
+      "pass": true,
+      "detail": "162 / 162"
+    },
+    {
+      "check": "student:footer:60",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "student:render_preservation:61",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:61",
+      "pass": true,
+      "detail": "260 / 260"
+    },
+    {
+      "check": "student:footer:61",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "check": "student:render_preservation:62",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:62",
+      "pass": true,
+      "detail": "332 / 332"
+    },
+    {
+      "check": "student:footer:62",
+      "pass": true,
+      "detail": "62"
+    },
+    {
+      "check": "student:render_preservation:63",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:63",
+      "pass": true,
+      "detail": "243 / 243"
+    },
+    {
+      "check": "student:footer:63",
+      "pass": true,
+      "detail": "63"
+    },
+    {
+      "check": "student:render_preservation:64",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:64",
+      "pass": true,
+      "detail": "231 / 231"
+    },
+    {
+      "check": "student:footer:64",
+      "pass": true,
+      "detail": "64"
+    },
+    {
+      "check": "student:render_preservation:65",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:65",
+      "pass": true,
+      "detail": "329 / 329"
+    },
+    {
+      "check": "student:footer:65",
+      "pass": true,
+      "detail": "65"
+    },
+    {
+      "check": "student:render_preservation:66",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:66",
+      "pass": true,
+      "detail": "169 / 169"
+    },
+    {
+      "check": "student:footer:66",
+      "pass": true,
+      "detail": "66"
+    },
+    {
+      "check": "student:render_preservation:67",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:67",
+      "pass": true,
+      "detail": "274 / 274"
+    },
+    {
+      "check": "student:footer:67",
+      "pass": true,
+      "detail": "67"
+    },
+    {
+      "check": "student:render_preservation:68",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:68",
+      "pass": true,
+      "detail": "262 / 262"
+    },
+    {
+      "check": "student:footer:68",
+      "pass": true,
+      "detail": "68"
+    },
+    {
+      "check": "student:render_preservation:69",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:69",
+      "pass": true,
+      "detail": "268 / 268"
+    },
+    {
+      "check": "student:footer:69",
+      "pass": true,
+      "detail": "69"
+    },
+    {
+      "check": "student:render_preservation:70",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:70",
+      "pass": true,
+      "detail": "303 / 303"
+    },
+    {
+      "check": "student:footer:70",
+      "pass": true,
+      "detail": "70"
+    },
+    {
+      "check": "student:render_preservation:71",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:71",
+      "pass": true,
+      "detail": "273 / 273"
+    },
+    {
+      "check": "student:footer:71",
+      "pass": true,
+      "detail": "71"
+    },
+    {
+      "check": "student:render_preservation:72",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:72",
+      "pass": true,
+      "detail": "312 / 312"
+    },
+    {
+      "check": "student:footer:72",
+      "pass": true,
+      "detail": "72"
+    },
+    {
+      "check": "student:render_preservation:73",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:73",
+      "pass": true,
+      "detail": "263 / 263"
+    },
+    {
+      "check": "student:footer:73",
+      "pass": true,
+      "detail": "73"
+    },
+    {
+      "check": "student:render_preservation:74",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:74",
+      "pass": true,
+      "detail": "197 / 197"
+    },
+    {
+      "check": "student:footer:74",
+      "pass": true,
+      "detail": "74"
+    },
+    {
+      "check": "student:render_preservation:75",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:75",
+      "pass": true,
+      "detail": "154 / 154"
+    },
+    {
+      "check": "student:footer:75",
+      "pass": true,
+      "detail": "75"
+    },
+    {
+      "check": "student:render_preservation:76",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:76",
+      "pass": true,
+      "detail": "224 / 224"
+    },
+    {
+      "check": "student:footer:76",
+      "pass": true,
+      "detail": "76"
+    },
+    {
+      "check": "student:render_preservation:77",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:77",
+      "pass": true,
+      "detail": "142 / 142"
+    },
+    {
+      "check": "student:footer:77",
+      "pass": true,
+      "detail": "77"
+    },
+    {
+      "check": "student:render_preservation:78",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:78",
+      "pass": true,
+      "detail": "269 / 269"
+    },
+    {
+      "check": "student:footer:78",
+      "pass": true,
+      "detail": "78"
+    },
+    {
+      "check": "student:render_preservation:79",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:79",
+      "pass": true,
+      "detail": "253 / 253"
+    },
+    {
+      "check": "student:footer:79",
+      "pass": true,
+      "detail": "79"
+    },
+    {
+      "check": "student:render_preservation:80",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:80",
+      "pass": true,
+      "detail": "275 / 275"
+    },
+    {
+      "check": "student:footer:80",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "student:render_preservation:81",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:81",
+      "pass": true,
+      "detail": "290 / 290"
+    },
+    {
+      "check": "student:footer:81",
+      "pass": true,
+      "detail": "81"
+    },
+    {
+      "check": "student:render_preservation:82",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:82",
+      "pass": true,
+      "detail": "287 / 287"
+    },
+    {
+      "check": "student:footer:82",
+      "pass": true,
+      "detail": "82"
+    },
+    {
+      "check": "student:render_preservation:83",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:83",
+      "pass": true,
+      "detail": "274 / 274"
+    },
+    {
+      "check": "student:footer:83",
+      "pass": true,
+      "detail": "83"
+    },
+    {
+      "check": "student:render_preservation:84",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:84",
+      "pass": true,
+      "detail": "275 / 275"
+    },
+    {
+      "check": "student:footer:84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "check": "student:render_preservation:85",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:85",
+      "pass": true,
+      "detail": "203 / 203"
+    },
+    {
+      "check": "student:footer:85",
+      "pass": true,
+      "detail": "85"
+    },
+    {
+      "check": "student:render_preservation:86",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:86",
+      "pass": true,
+      "detail": "159 / 159"
+    },
+    {
+      "check": "student:footer:86",
+      "pass": true,
+      "detail": "86"
+    },
+    {
+      "check": "student:render_preservation:87",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:87",
+      "pass": true,
+      "detail": "226 / 226"
+    },
+    {
+      "check": "student:footer:87",
+      "pass": true,
+      "detail": "87"
+    },
+    {
+      "check": "student:render_preservation:88",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:88",
+      "pass": true,
+      "detail": "176 / 176"
+    },
+    {
+      "check": "student:footer:88",
+      "pass": true,
+      "detail": "88"
+    },
+    {
+      "check": "student:render_preservation:89",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:89",
+      "pass": true,
+      "detail": "295 / 295"
+    },
+    {
+      "check": "student:footer:89",
+      "pass": true,
+      "detail": "89"
+    },
+    {
+      "check": "student:render_preservation:90",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:90",
+      "pass": true,
+      "detail": "330 / 330"
+    },
+    {
+      "check": "student:footer:90",
+      "pass": true,
+      "detail": "90"
+    },
+    {
+      "check": "student:render_preservation:91",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:91",
+      "pass": true,
+      "detail": "246 / 246"
+    },
+    {
+      "check": "student:footer:91",
+      "pass": true,
+      "detail": "91"
+    },
+    {
+      "check": "student:render_preservation:92",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:92",
+      "pass": true,
+      "detail": "260 / 260"
+    },
+    {
+      "check": "student:footer:92",
+      "pass": true,
+      "detail": "92"
+    },
+    {
+      "check": "student:render_preservation:93",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:93",
+      "pass": true,
+      "detail": "257 / 257"
+    },
+    {
+      "check": "student:footer:93",
+      "pass": true,
+      "detail": "93"
+    },
+    {
+      "check": "student:render_preservation:94",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:94",
+      "pass": true,
+      "detail": "171 / 171"
+    },
+    {
+      "check": "student:footer:94",
+      "pass": true,
+      "detail": "94"
+    },
+    {
+      "check": "student:render_preservation:95",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:95",
+      "pass": true,
+      "detail": "254 / 254"
+    },
+    {
+      "check": "student:footer:95",
+      "pass": true,
+      "detail": "95"
+    },
+    {
+      "check": "student:render_preservation:96",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:96",
+      "pass": true,
+      "detail": "216 / 216"
+    },
+    {
+      "check": "student:footer:96",
+      "pass": true,
+      "detail": "96"
+    },
+    {
+      "check": "student:render_preservation:97",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:97",
+      "pass": true,
+      "detail": "245 / 245"
+    },
+    {
+      "check": "student:footer:97",
+      "pass": true,
+      "detail": "97"
+    },
+    {
+      "check": "student:render_preservation:98",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:98",
+      "pass": true,
+      "detail": "282 / 282"
+    },
+    {
+      "check": "student:footer:98",
+      "pass": true,
+      "detail": "98"
+    },
+    {
+      "check": "student:render_preservation:99",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:99",
+      "pass": true,
+      "detail": "235 / 235"
+    },
+    {
+      "check": "student:footer:99",
+      "pass": true,
+      "detail": "99"
+    },
+    {
+      "check": "student:render_preservation:100",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:100",
+      "pass": true,
+      "detail": "190 / 190"
+    },
+    {
+      "check": "student:footer:100",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "student:render_preservation:101",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:101",
+      "pass": true,
+      "detail": "291 / 291"
+    },
+    {
+      "check": "student:footer:101",
+      "pass": true,
+      "detail": "101"
+    },
+    {
+      "check": "student:render_preservation:102",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:102",
+      "pass": true,
+      "detail": "330 / 330"
+    },
+    {
+      "check": "student:footer:102",
+      "pass": true,
+      "detail": "102"
+    },
+    {
+      "check": "student:render_preservation:103",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:103",
+      "pass": true,
+      "detail": "199 / 199"
+    },
+    {
+      "check": "student:footer:103",
+      "pass": true,
+      "detail": "103"
+    },
+    {
+      "check": "student:navigation_text:103:2",
+      "pass": true,
+      "detail": "104"
+    },
+    {
+      "check": "student:navigation_text:103:12",
+      "pass": true,
+      "detail": "114"
+    },
+    {
+      "check": "student:navigation_text:103:20",
+      "pass": true,
+      "detail": "122"
+    },
+    {
+      "check": "student:navigation_text:103:29",
+      "pass": true,
+      "detail": "131"
+    },
+    {
+      "check": "student:navigation_text:103:37",
+      "pass": true,
+      "detail": "139"
+    },
+    {
+      "check": "student:navigation_text:103:44",
+      "pass": true,
+      "detail": "146"
+    },
+    {
+      "check": "student:navigation_text:103:49",
+      "pass": true,
+      "detail": "151"
+    },
+    {
+      "check": "student:render_preservation:104",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:104",
+      "pass": true,
+      "detail": "227 / 227"
+    },
+    {
+      "check": "student:footer:104",
+      "pass": true,
+      "detail": "104"
+    },
+    {
+      "check": "student:render_preservation:105",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:105",
+      "pass": true,
+      "detail": "262 / 262"
+    },
+    {
+      "check": "student:footer:105",
+      "pass": true,
+      "detail": "105"
+    },
+    {
+      "check": "student:render_preservation:106",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:106",
+      "pass": true,
+      "detail": "272 / 272"
+    },
+    {
+      "check": "student:footer:106",
+      "pass": true,
+      "detail": "106"
+    },
+    {
+      "check": "student:render_preservation:107",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:107",
+      "pass": true,
+      "detail": "210 / 210"
+    },
+    {
+      "check": "student:footer:107",
+      "pass": true,
+      "detail": "107"
+    },
+    {
+      "check": "student:render_preservation:108",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:108",
+      "pass": true,
+      "detail": "284 / 284"
+    },
+    {
+      "check": "student:footer:108",
+      "pass": true,
+      "detail": "108"
+    },
+    {
+      "check": "student:render_preservation:109",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:109",
+      "pass": true,
+      "detail": "208 / 208"
+    },
+    {
+      "check": "student:footer:109",
+      "pass": true,
+      "detail": "109"
+    },
+    {
+      "check": "student:render_preservation:110",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:110",
+      "pass": true,
+      "detail": "183 / 183"
+    },
+    {
+      "check": "student:footer:110",
+      "pass": true,
+      "detail": "110"
+    },
+    {
+      "check": "student:render_preservation:111",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:111",
+      "pass": true,
+      "detail": "196 / 196"
+    },
+    {
+      "check": "student:footer:111",
+      "pass": true,
+      "detail": "111"
+    },
+    {
+      "check": "student:render_preservation:112",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:112",
+      "pass": true,
+      "detail": "151 / 151"
+    },
+    {
+      "check": "student:footer:112",
+      "pass": true,
+      "detail": "112"
+    },
+    {
+      "check": "student:render_preservation:113",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:113",
+      "pass": true,
+      "detail": "150 / 150"
+    },
+    {
+      "check": "student:footer:113",
+      "pass": true,
+      "detail": "113"
+    },
+    {
+      "check": "student:render_preservation:114",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:114",
+      "pass": true,
+      "detail": "262 / 262"
+    },
+    {
+      "check": "student:footer:114",
+      "pass": true,
+      "detail": "114"
+    },
+    {
+      "check": "student:render_preservation:115",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:115",
+      "pass": true,
+      "detail": "264 / 264"
+    },
+    {
+      "check": "student:footer:115",
+      "pass": true,
+      "detail": "115"
+    },
+    {
+      "check": "student:render_preservation:116",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:116",
+      "pass": true,
+      "detail": "256 / 256"
+    },
+    {
+      "check": "student:footer:116",
+      "pass": true,
+      "detail": "116"
+    },
+    {
+      "check": "student:render_preservation:117",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:117",
+      "pass": true,
+      "detail": "301 / 301"
+    },
+    {
+      "check": "student:footer:117",
+      "pass": true,
+      "detail": "117"
+    },
+    {
+      "check": "student:render_preservation:118",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:118",
+      "pass": true,
+      "detail": "257 / 257"
+    },
+    {
+      "check": "student:footer:118",
+      "pass": true,
+      "detail": "118"
+    },
+    {
+      "check": "student:render_preservation:119",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:119",
+      "pass": true,
+      "detail": "170 / 170"
+    },
+    {
+      "check": "student:footer:119",
+      "pass": true,
+      "detail": "119"
+    },
+    {
+      "check": "student:render_preservation:120",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:120",
+      "pass": true,
+      "detail": "185 / 185"
+    },
+    {
+      "check": "student:footer:120",
+      "pass": true,
+      "detail": "120"
+    },
+    {
+      "check": "student:render_preservation:121",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:121",
+      "pass": true,
+      "detail": "148 / 148"
+    },
+    {
+      "check": "student:footer:121",
+      "pass": true,
+      "detail": "121"
+    },
+    {
+      "check": "student:render_preservation:122",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:122",
+      "pass": true,
+      "detail": "263 / 263"
+    },
+    {
+      "check": "student:footer:122",
+      "pass": true,
+      "detail": "122"
+    },
+    {
+      "check": "student:render_preservation:123",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:123",
+      "pass": true,
+      "detail": "289 / 289"
+    },
+    {
+      "check": "student:footer:123",
+      "pass": true,
+      "detail": "123"
+    },
+    {
+      "check": "student:render_preservation:124",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:124",
+      "pass": true,
+      "detail": "284 / 284"
+    },
+    {
+      "check": "student:footer:124",
+      "pass": true,
+      "detail": "124"
+    },
+    {
+      "check": "student:render_preservation:125",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:125",
+      "pass": true,
+      "detail": "287 / 287"
+    },
+    {
+      "check": "student:footer:125",
+      "pass": true,
+      "detail": "125"
+    },
+    {
+      "check": "student:render_preservation:126",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:126",
+      "pass": true,
+      "detail": "274 / 274"
+    },
+    {
+      "check": "student:footer:126",
+      "pass": true,
+      "detail": "126"
+    },
+    {
+      "check": "student:render_preservation:127",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:127",
+      "pass": true,
+      "detail": "190 / 190"
+    },
+    {
+      "check": "student:footer:127",
+      "pass": true,
+      "detail": "127"
+    },
+    {
+      "check": "student:render_preservation:128",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:128",
+      "pass": true,
+      "detail": "232 / 232"
+    },
+    {
+      "check": "student:footer:128",
+      "pass": true,
+      "detail": "128"
+    },
+    {
+      "check": "student:render_preservation:129",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:129",
+      "pass": true,
+      "detail": "206 / 206"
+    },
+    {
+      "check": "student:footer:129",
+      "pass": true,
+      "detail": "129"
+    },
+    {
+      "check": "student:render_preservation:130",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:130",
+      "pass": true,
+      "detail": "138 / 138"
+    },
+    {
+      "check": "student:footer:130",
+      "pass": true,
+      "detail": "130"
+    },
+    {
+      "check": "student:render_preservation:131",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:131",
+      "pass": true,
+      "detail": "260 / 260"
+    },
+    {
+      "check": "student:footer:131",
+      "pass": true,
+      "detail": "131"
+    },
+    {
+      "check": "student:render_preservation:132",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:132",
+      "pass": true,
+      "detail": "298 / 298"
+    },
+    {
+      "check": "student:footer:132",
+      "pass": true,
+      "detail": "132"
+    },
+    {
+      "check": "student:render_preservation:133",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:133",
+      "pass": true,
+      "detail": "295 / 295"
+    },
+    {
+      "check": "student:footer:133",
+      "pass": true,
+      "detail": "133"
+    },
+    {
+      "check": "student:render_preservation:134",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:134",
+      "pass": true,
+      "detail": "312 / 312"
+    },
+    {
+      "check": "student:footer:134",
+      "pass": true,
+      "detail": "134"
+    },
+    {
+      "check": "student:render_preservation:135",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:135",
+      "pass": true,
+      "detail": "230 / 230"
+    },
+    {
+      "check": "student:footer:135",
+      "pass": true,
+      "detail": "135"
+    },
+    {
+      "check": "student:render_preservation:136",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:136",
+      "pass": true,
+      "detail": "234 / 234"
+    },
+    {
+      "check": "student:footer:136",
+      "pass": true,
+      "detail": "136"
+    },
+    {
+      "check": "student:render_preservation:137",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:137",
+      "pass": true,
+      "detail": "199 / 199"
+    },
+    {
+      "check": "student:footer:137",
+      "pass": true,
+      "detail": "137"
+    },
+    {
+      "check": "student:render_preservation:138",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:138",
+      "pass": true,
+      "detail": "144 / 144"
+    },
+    {
+      "check": "student:footer:138",
+      "pass": true,
+      "detail": "138"
+    },
+    {
+      "check": "student:render_preservation:139",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:139",
+      "pass": true,
+      "detail": "255 / 255"
+    },
+    {
+      "check": "student:footer:139",
+      "pass": true,
+      "detail": "139"
+    },
+    {
+      "check": "student:render_preservation:140",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:140",
+      "pass": true,
+      "detail": "286 / 286"
+    },
+    {
+      "check": "student:footer:140",
+      "pass": true,
+      "detail": "140"
+    },
+    {
+      "check": "student:render_preservation:141",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:141",
+      "pass": true,
+      "detail": "315 / 315"
+    },
+    {
+      "check": "student:footer:141",
+      "pass": true,
+      "detail": "141"
+    },
+    {
+      "check": "student:render_preservation:142",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:142",
+      "pass": true,
+      "detail": "161 / 161"
+    },
+    {
+      "check": "student:footer:142",
+      "pass": true,
+      "detail": "142"
+    },
+    {
+      "check": "student:render_preservation:143",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:143",
+      "pass": true,
+      "detail": "219 / 219"
+    },
+    {
+      "check": "student:footer:143",
+      "pass": true,
+      "detail": "143"
+    },
+    {
+      "check": "student:render_preservation:144",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:144",
+      "pass": true,
+      "detail": "175 / 175"
+    },
+    {
+      "check": "student:footer:144",
+      "pass": true,
+      "detail": "144"
+    },
+    {
+      "check": "student:render_preservation:145",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:145",
+      "pass": true,
+      "detail": "143 / 143"
+    },
+    {
+      "check": "student:footer:145",
+      "pass": true,
+      "detail": "145"
+    },
+    {
+      "check": "student:render_preservation:146",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:146",
+      "pass": true,
+      "detail": "187 / 187"
+    },
+    {
+      "check": "student:footer:146",
+      "pass": true,
+      "detail": "146"
+    },
+    {
+      "check": "student:render_preservation:147",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:147",
+      "pass": true,
+      "detail": "189 / 189"
+    },
+    {
+      "check": "student:footer:147",
+      "pass": true,
+      "detail": "147"
+    },
+    {
+      "check": "student:render_preservation:148",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:148",
+      "pass": true,
+      "detail": "247 / 247"
+    },
+    {
+      "check": "student:footer:148",
+      "pass": true,
+      "detail": "148"
+    },
+    {
+      "check": "student:render_preservation:149",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:149",
+      "pass": true,
+      "detail": "173 / 173"
+    },
+    {
+      "check": "student:footer:149",
+      "pass": true,
+      "detail": "149"
+    },
+    {
+      "check": "student:render_preservation:150",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:150",
+      "pass": true,
+      "detail": "180 / 180"
+    },
+    {
+      "check": "student:footer:150",
+      "pass": true,
+      "detail": "150"
+    },
+    {
+      "check": "student:render_preservation:151",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:151",
+      "pass": true,
+      "detail": "277 / 277"
+    },
+    {
+      "check": "student:footer:151",
+      "pass": true,
+      "detail": "151"
+    },
+    {
+      "check": "student:render_preservation:152",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:152",
+      "pass": true,
+      "detail": "310 / 310"
+    },
+    {
+      "check": "student:footer:152",
+      "pass": true,
+      "detail": "152"
+    },
+    {
+      "check": "student:original_chapter_limits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:exact_cover_pixels",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.1.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.1.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.1.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.1.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.1.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.1.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.1.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.1.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.2.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.2.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.2.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.2.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.2.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.2.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.2.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.2.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.2.5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.2.5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.2.6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.2.6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.2.7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.2.7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.3.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.3.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.3.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.3.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.3.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.3.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.3.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.3.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.3.5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.3.5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:4.3.6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:4.3.6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:mixed_target_spread:4.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:mixed_target_spread:4.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:mixed_target_spread:4.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:glossary_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:all_glossary_definitions_preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:new_page_bounds:2",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:3",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:4",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:153",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:154",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:155",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:156",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:157",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:158",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:159",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:160",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:161",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:162",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "answers:page_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:all_source_pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:chapter_recto_starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:only_planned_blanks",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "answers:A4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:links_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:bookmarks_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:render_preservation:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:3",
+      "pass": true,
+      "detail": "325 / 325"
+    },
+    {
+      "check": "answers:footer:3",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "answers:render_preservation:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:4",
+      "pass": true,
+      "detail": "336 / 336"
+    },
+    {
+      "check": "answers:footer:4",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "answers:render_preservation:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:5",
+      "pass": true,
+      "detail": "232 / 232"
+    },
+    {
+      "check": "answers:footer:5",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "answers:render_preservation:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:6",
+      "pass": true,
+      "detail": "236 / 236"
+    },
+    {
+      "check": "answers:footer:6",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "answers:render_preservation:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:7",
+      "pass": true,
+      "detail": "281 / 281"
+    },
+    {
+      "check": "answers:footer:7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "answers:render_preservation:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:8",
+      "pass": true,
+      "detail": "369 / 369"
+    },
+    {
+      "check": "answers:footer:8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "answers:render_preservation:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:9",
+      "pass": true,
+      "detail": "272 / 272"
+    },
+    {
+      "check": "answers:footer:9",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "answers:render_preservation:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:10",
+      "pass": true,
+      "detail": "227 / 227"
+    },
+    {
+      "check": "answers:footer:10",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "answers:render_preservation:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:11",
+      "pass": true,
+      "detail": "265 / 265"
+    },
+    {
+      "check": "answers:footer:11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "answers:render_preservation:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:12",
+      "pass": true,
+      "detail": "248 / 248"
+    },
+    {
+      "check": "answers:footer:12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "answers:render_preservation:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:13",
+      "pass": true,
+      "detail": "291 / 291"
+    },
+    {
+      "check": "answers:footer:13",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "answers:render_preservation:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:14",
+      "pass": true,
+      "detail": "288 / 288"
+    },
+    {
+      "check": "answers:footer:14",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "answers:render_preservation:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:15",
+      "pass": true,
+      "detail": "241 / 241"
+    },
+    {
+      "check": "answers:footer:15",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "answers:render_preservation:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:16",
+      "pass": true,
+      "detail": "322 / 322"
+    },
+    {
+      "check": "answers:footer:16",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "answers:render_preservation:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:17",
+      "pass": true,
+      "detail": "257 / 257"
+    },
+    {
+      "check": "answers:footer:17",
+      "pass": true,
+      "detail": "17"
+    },
+    {
+      "check": "answers:render_preservation:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:18",
+      "pass": true,
+      "detail": "281 / 281"
+    },
+    {
+      "check": "answers:footer:18",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "answers:render_preservation:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:19",
+      "pass": true,
+      "detail": "294 / 294"
+    },
+    {
+      "check": "answers:footer:19",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "answers:render_preservation:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:20",
+      "pass": true,
+      "detail": "283 / 283"
+    },
+    {
+      "check": "answers:footer:20",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "answers:render_preservation:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:21",
+      "pass": true,
+      "detail": "282 / 282"
+    },
+    {
+      "check": "answers:footer:21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "check": "answers:render_preservation:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:22",
+      "pass": true,
+      "detail": "301 / 301"
+    },
+    {
+      "check": "answers:footer:22",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "answers:render_preservation:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:23",
+      "pass": true,
+      "detail": "225 / 225"
+    },
+    {
+      "check": "answers:footer:23",
+      "pass": true,
+      "detail": "23"
+    },
+    {
+      "check": "answers:render_preservation:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:24",
+      "pass": true,
+      "detail": "462 / 462"
+    },
+    {
+      "check": "answers:footer:24",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "answers:render_preservation:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:25",
+      "pass": true,
+      "detail": "352 / 352"
+    },
+    {
+      "check": "answers:footer:25",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "answers:render_preservation:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:26",
+      "pass": true,
+      "detail": "207 / 207"
+    },
+    {
+      "check": "answers:footer:26",
+      "pass": true,
+      "detail": "26"
+    },
+    {
+      "check": "answers:render_preservation:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:27",
+      "pass": true,
+      "detail": "495 / 495"
+    },
+    {
+      "check": "answers:footer:27",
+      "pass": true,
+      "detail": "27"
+    },
+    {
+      "check": "answers:render_preservation:28",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:28",
+      "pass": true,
+      "detail": "343 / 343"
+    },
+    {
+      "check": "answers:footer:28",
+      "pass": true,
+      "detail": "28"
+    },
+    {
+      "check": "answers:render_preservation:29",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:29",
+      "pass": true,
+      "detail": "208 / 208"
+    },
+    {
+      "check": "answers:footer:29",
+      "pass": true,
+      "detail": "29"
+    },
+    {
+      "check": "answers:render_preservation:30",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:30",
+      "pass": true,
+      "detail": "311 / 311"
+    },
+    {
+      "check": "answers:footer:30",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "answers:render_preservation:31",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:31",
+      "pass": true,
+      "detail": "366 / 366"
+    },
+    {
+      "check": "answers:footer:31",
+      "pass": true,
+      "detail": "31"
+    },
+    {
+      "check": "answers:render_preservation:32",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:32",
+      "pass": true,
+      "detail": "189 / 189"
+    },
+    {
+      "check": "answers:footer:32",
+      "pass": true,
+      "detail": "32"
+    },
+    {
+      "check": "answers:render_preservation:33",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:33",
+      "pass": true,
+      "detail": "290 / 290"
+    },
+    {
+      "check": "answers:footer:33",
+      "pass": true,
+      "detail": "33"
+    },
+    {
+      "check": "answers:render_preservation:34",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:34",
+      "pass": true,
+      "detail": "373 / 373"
+    },
+    {
+      "check": "answers:footer:34",
+      "pass": true,
+      "detail": "34"
+    },
+    {
+      "check": "answers:render_preservation:35",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:35",
+      "pass": true,
+      "detail": "320 / 320"
+    },
+    {
+      "check": "answers:footer:35",
+      "pass": true,
+      "detail": "35"
+    },
+    {
+      "check": "answers:render_preservation:36",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:36",
+      "pass": true,
+      "detail": "226 / 226"
+    },
+    {
+      "check": "answers:footer:36",
+      "pass": true,
+      "detail": "36"
+    },
+    {
+      "check": "answers:render_preservation:37",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:37",
+      "pass": true,
+      "detail": "290 / 290"
+    },
+    {
+      "check": "answers:footer:37",
+      "pass": true,
+      "detail": "37"
+    },
+    {
+      "check": "answers:render_preservation:38",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:38",
+      "pass": true,
+      "detail": "405 / 405"
+    },
+    {
+      "check": "answers:footer:38",
+      "pass": true,
+      "detail": "38"
+    },
+    {
+      "check": "answers:render_preservation:39",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:39",
+      "pass": true,
+      "detail": "335 / 335"
+    },
+    {
+      "check": "answers:footer:39",
+      "pass": true,
+      "detail": "39"
+    },
+    {
+      "check": "answers:render_preservation:40",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:40",
+      "pass": true,
+      "detail": "216 / 216"
+    },
+    {
+      "check": "answers:footer:40",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "answers:render_preservation:41",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:41",
+      "pass": true,
+      "detail": "321 / 321"
+    },
+    {
+      "check": "answers:footer:41",
+      "pass": true,
+      "detail": "41"
+    },
+    {
+      "check": "answers:render_preservation:42",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:42",
+      "pass": true,
+      "detail": "458 / 458"
+    },
+    {
+      "check": "answers:footer:42",
+      "pass": true,
+      "detail": "42"
+    },
+    {
+      "check": "answers:render_preservation:43",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:43",
+      "pass": true,
+      "detail": "294 / 294"
+    },
+    {
+      "check": "answers:footer:43",
+      "pass": true,
+      "detail": "43"
+    },
+    {
+      "check": "answers:render_preservation:44",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:44",
+      "pass": true,
+      "detail": "219 / 219"
+    },
+    {
+      "check": "answers:footer:44",
+      "pass": true,
+      "detail": "44"
+    },
+    {
+      "check": "answers:render_preservation:45",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:45",
+      "pass": true,
+      "detail": "381 / 381"
+    },
+    {
+      "check": "answers:footer:45",
+      "pass": true,
+      "detail": "45"
+    },
+    {
+      "check": "answers:render_preservation:46",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:46",
+      "pass": true,
+      "detail": "290 / 290"
+    },
+    {
+      "check": "answers:footer:46",
+      "pass": true,
+      "detail": "46"
+    },
+    {
+      "check": "answers:render_preservation:47",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:47",
+      "pass": true,
+      "detail": "189 / 189"
+    },
+    {
+      "check": "answers:footer:47",
+      "pass": true,
+      "detail": "47"
+    },
+    {
+      "check": "answers:render_preservation:48",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:48",
+      "pass": true,
+      "detail": "318 / 318"
+    },
+    {
+      "check": "answers:footer:48",
+      "pass": true,
+      "detail": "48"
+    },
+    {
+      "check": "answers:render_preservation:49",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:49",
+      "pass": true,
+      "detail": "316 / 316"
+    },
+    {
+      "check": "answers:footer:49",
+      "pass": true,
+      "detail": "49"
+    },
+    {
+      "check": "answers:render_preservation:50",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:50",
+      "pass": true,
+      "detail": "177 / 177"
+    },
+    {
+      "check": "answers:footer:50",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "answers:render_preservation:51",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:51",
+      "pass": true,
+      "detail": "349 / 349"
+    },
+    {
+      "check": "answers:footer:51",
+      "pass": true,
+      "detail": "51"
+    },
+    {
+      "check": "answers:render_preservation:52",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:52",
+      "pass": true,
+      "detail": "184 / 184"
+    },
+    {
+      "check": "answers:footer:52",
+      "pass": true,
+      "detail": "52"
+    },
+    {
+      "check": "answers:render_preservation:53",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:53",
+      "pass": true,
+      "detail": "180 / 180"
+    },
+    {
+      "check": "answers:footer:53",
+      "pass": true,
+      "detail": "53"
+    },
+    {
+      "check": "answers:render_preservation:54",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:54",
+      "pass": true,
+      "detail": "312 / 312"
+    },
+    {
+      "check": "answers:footer:54",
+      "pass": true,
+      "detail": "54"
+    },
+    {
+      "check": "answers:render_preservation:55",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:55",
+      "pass": true,
+      "detail": "297 / 297"
+    },
+    {
+      "check": "answers:footer:55",
+      "pass": true,
+      "detail": "55"
+    },
+    {
+      "check": "answers:render_preservation:56",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:56",
+      "pass": true,
+      "detail": "197 / 197"
+    },
+    {
+      "check": "answers:footer:56",
+      "pass": true,
+      "detail": "56"
+    },
+    {
+      "check": "answers:render_preservation:57",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:57",
+      "pass": true,
+      "detail": "273 / 273"
+    },
+    {
+      "check": "answers:footer:57",
+      "pass": true,
+      "detail": "57"
+    },
+    {
+      "check": "answers:render_preservation:58",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:58",
+      "pass": true,
+      "detail": "338 / 338"
+    },
+    {
+      "check": "answers:footer:58",
+      "pass": true,
+      "detail": "58"
+    },
+    {
+      "check": "answers:render_preservation:59",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:59",
+      "pass": true,
+      "detail": "135 / 135"
+    },
+    {
+      "check": "answers:footer:59",
+      "pass": true,
+      "detail": "59"
+    },
+    {
+      "check": "answers:render_preservation:60",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:60",
+      "pass": true,
+      "detail": "326 / 326"
+    },
+    {
+      "check": "answers:footer:60",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "answers:render_preservation:61",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:61",
+      "pass": true,
+      "detail": "308 / 308"
+    },
+    {
+      "check": "answers:footer:61",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "check": "answers:render_preservation:62",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:62",
+      "pass": true,
+      "detail": "295 / 295"
+    },
+    {
+      "check": "answers:footer:62",
+      "pass": true,
+      "detail": "62"
+    },
+    {
+      "check": "answers:render_preservation:63",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:63",
+      "pass": true,
+      "detail": "325 / 325"
+    },
+    {
+      "check": "answers:footer:63",
+      "pass": true,
+      "detail": "63"
+    },
+    {
+      "check": "answers:render_preservation:64",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:64",
+      "pass": true,
+      "detail": "103 / 103"
+    },
+    {
+      "check": "answers:footer:64",
+      "pass": true,
+      "detail": "64"
+    },
+    {
+      "check": "answers:148_exercise_bookmarks",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.1:38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:39",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:41",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:42",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:43",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:44",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:45",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:46",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:47",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:49",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:50",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:51",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:52",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:53",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:54",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:55",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:56",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:57",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:58",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:59",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.2:60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:39",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:41",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:42",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:43",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:44",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:45",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:46",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:47",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:49",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:4.3:50",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:page_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:all_source_pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:chapter_recto_starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:only_planned_blanks",
+      "pass": true,
+      "detail": "[10, 20]"
+    },
+    {
+      "check": "teacher:A4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:links_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:bookmarks_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:render_preservation:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:3",
+      "pass": true,
+      "detail": "294 / 294"
+    },
+    {
+      "check": "teacher:footer:3",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "teacher:render_preservation:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:4",
+      "pass": true,
+      "detail": "303 / 303"
+    },
+    {
+      "check": "teacher:footer:4",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "teacher:render_preservation:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:5",
+      "pass": true,
+      "detail": "336 / 336"
+    },
+    {
+      "check": "teacher:footer:5",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "teacher:render_preservation:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:6",
+      "pass": true,
+      "detail": "338 / 338"
+    },
+    {
+      "check": "teacher:footer:6",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "teacher:render_preservation:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:7",
+      "pass": true,
+      "detail": "405 / 405"
+    },
+    {
+      "check": "teacher:footer:7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "teacher:render_preservation:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:8",
+      "pass": true,
+      "detail": "387 / 387"
+    },
+    {
+      "check": "teacher:footer:8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "teacher:render_preservation:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:9",
+      "pass": true,
+      "detail": "297 / 297"
+    },
+    {
+      "check": "teacher:footer:9",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "teacher:render_preservation:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:11",
+      "pass": true,
+      "detail": "285 / 285"
+    },
+    {
+      "check": "teacher:footer:11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "teacher:render_preservation:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:12",
+      "pass": true,
+      "detail": "397 / 397"
+    },
+    {
+      "check": "teacher:footer:12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "teacher:render_preservation:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:13",
+      "pass": true,
+      "detail": "345 / 345"
+    },
+    {
+      "check": "teacher:footer:13",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "teacher:render_preservation:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:14",
+      "pass": true,
+      "detail": "310 / 310"
+    },
+    {
+      "check": "teacher:footer:14",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "teacher:render_preservation:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:15",
+      "pass": true,
+      "detail": "349 / 349"
+    },
+    {
+      "check": "teacher:footer:15",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "teacher:render_preservation:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:16",
+      "pass": true,
+      "detail": "317 / 317"
+    },
+    {
+      "check": "teacher:footer:16",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "teacher:render_preservation:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:17",
+      "pass": true,
+      "detail": "426 / 426"
+    },
+    {
+      "check": "teacher:footer:17",
+      "pass": true,
+      "detail": "17"
+    },
+    {
+      "check": "teacher:render_preservation:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:18",
+      "pass": true,
+      "detail": "399 / 399"
+    },
+    {
+      "check": "teacher:footer:18",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "teacher:render_preservation:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:19",
+      "pass": true,
+      "detail": "333 / 333"
+    },
+    {
+      "check": "teacher:footer:19",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "teacher:render_preservation:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:21",
+      "pass": true,
+      "detail": "236 / 236"
+    },
+    {
+      "check": "teacher:footer:21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "check": "teacher:render_preservation:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:22",
+      "pass": true,
+      "detail": "302 / 302"
+    },
+    {
+      "check": "teacher:footer:22",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "teacher:render_preservation:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:23",
+      "pass": true,
+      "detail": "288 / 288"
+    },
+    {
+      "check": "teacher:footer:23",
+      "pass": true,
+      "detail": "23"
+    },
+    {
+      "check": "teacher:render_preservation:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:24",
+      "pass": true,
+      "detail": "277 / 277"
+    },
+    {
+      "check": "teacher:footer:24",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "teacher:render_preservation:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:25",
+      "pass": true,
+      "detail": "263 / 263"
+    },
+    {
+      "check": "teacher:footer:25",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "teacher:render_preservation:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:26",
+      "pass": true,
+      "detail": "330 / 330"
+    },
+    {
+      "check": "teacher:footer:26",
+      "pass": true,
+      "detail": "26"
+    },
+    {
+      "check": "teacher:render_preservation:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:27",
+      "pass": true,
+      "detail": "256 / 256"
+    },
+    {
+      "check": "teacher:footer:27",
+      "pass": true,
+      "detail": "27"
+    },
+    {
+      "check": "teacher:render_preservation:28",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:28",
+      "pass": true,
+      "detail": "337 / 337"
+    },
+    {
+      "check": "teacher:footer:28",
+      "pass": true,
+      "detail": "28"
+    }
+  ]
+}

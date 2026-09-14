@@ -1,0 +1,2633 @@
+{
+  "scope": "Local artifact checks, not independent specialist/CI/classroom validation",
+  "checks": 525,
+  "passed": 525,
+  "failed": [],
+  "results": [
+    {
+      "check": "38 distinct exercises",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Question IDs are unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Every question is printed once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Every answer is printed once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 1: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 2: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 3: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 4: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 5: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 6: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 7: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 8: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 9: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 10: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 11: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 12: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 13: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 14: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 15: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 16: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 17: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 18: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 19: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 20: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 21: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 22: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 23: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 24: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 25: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 26: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 27: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 28: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 29: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 30: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 31: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 32: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 33: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 34: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 35: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 36: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 37: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Opgave 38: full answer + why",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1: canonical seven exercise headings",
+      "pass": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "check": "3.2.1: optional guided route language",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2: canonical seven exercise headings",
+      "pass": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "check": "3.2.2: optional guided route language",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3: canonical seven exercise headings",
+      "pass": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "check": "3.2.3: optional guided route language",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Target operations 5+6+5+6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No unrequested monopoly teaching section",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No coined production-area vocabulary",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.1_ex_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.1_ex_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.1_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.1_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.1_target.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.2_ex_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.2_ex_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.2_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.2_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.2_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.2_fig_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.2_target.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.2_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.3_ex_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.3_ex_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.3_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.3_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.3_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.3_target.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.3_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.4_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2 Volkomen concurrentie – hoofdstuk.md: asset 3.2.4_target.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.1_ans_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.1_ans_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.1_ans_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.2_ans_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.2_ans_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.2_ans_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.3_ans_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.3_ans_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.3_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.4_ans_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden.md: asset 3.2.4_ans_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Assembly matches canonical page manuscripts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "22 student figures actually referenced",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "11 solution figures actually referenced",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "No orphan SVG figures",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1: printed figure numbering",
+      "pass": true,
+      "detail": "[1, 2, 3, 4, 5]"
+    },
+    {
+      "check": "3.2.2: printed figure numbering",
+      "pass": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8]"
+    },
+    {
+      "check": "3.2.3: printed figure numbering",
+      "pass": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7]"
+    },
+    {
+      "check": "3.2.4: printed figure numbering",
+      "pass": true,
+      "detail": "[1]"
+    },
+    {
+      "check": "Model theory322: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model theory322: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model theory322: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model theory322: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model theory322: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model worked322: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model worked322: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model worked322: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model worked322: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model worked322: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 13: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 13: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 13: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 13: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 13: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 14: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 14: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 14: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 14: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 14: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15price: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15price: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15price: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15price: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15price: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15fixed: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15fixed: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15fixed: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15fixed: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15fixed: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15both: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15both: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15both: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15both: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 15both: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 16: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 16: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 16: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 16: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 16: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 17: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 17: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 17: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 17: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 17: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18cap: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18cap: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18cap: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18cap: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 18cap: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19A: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19A: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19A: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19A: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19A: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19B: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19B: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19B: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19B: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 19B: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 22: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 22: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 22: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 22: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 22: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 24final: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 24final: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 24final: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 24final: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 24final: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25initial: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25initial: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25initial: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25initial: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25initial: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25final: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25final: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25final: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25final: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 25final: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26initial: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26initial: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26initial: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26initial: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26initial: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26final: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26final: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26final: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26final: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 26final: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 27: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 27: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 27: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 27: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 27: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28initial: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28initial: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28initial: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28initial: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28initial: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28final: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28final: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28final: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28final: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 28final: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 33: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 33: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 33: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 33: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 33: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36initial: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36initial: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36initial: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36initial: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36initial: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36short: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36short: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36short: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36short: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36short: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36long: derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36long: feasible optimum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36long: TO TK profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36long: global comparison incl 0/cap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Model 36long: rectangle = profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Arithmetic 1 TO",
+      "pass": true,
+      "detail": "320 expected 320"
+    },
+    {
+      "check": "Arithmetic 1 GO",
+      "pass": true,
+      "detail": "4.0 expected 4"
+    },
+    {
+      "check": "Arithmetic 1 MO",
+      "pass": true,
+      "detail": "4.0 expected 4"
+    },
+    {
+      "check": "Arithmetic 4 TO",
+      "pass": true,
+      "detail": "400 expected 400"
+    },
+    {
+      "check": "Arithmetic 4 price cut",
+      "pass": true,
+      "detail": "16.0 expected 16"
+    },
+    {
+      "check": "Arithmetic 5 TO",
+      "pass": true,
+      "detail": "360 expected 360"
+    },
+    {
+      "check": "Arithmetic 5 MO",
+      "pass": true,
+      "detail": "4.0 expected 4"
+    },
+    {
+      "check": "Arithmetic 7 TO",
+      "pass": true,
+      "detail": "360 expected 360"
+    },
+    {
+      "check": "Arithmetic 7 MO",
+      "pass": true,
+      "detail": "3.0 expected 3"
+    },
+    {
+      "check": "Arithmetic 9 Q",
+      "pass": true,
+      "detail": "39.99999999999999 expected 40"
+    },
+    {
+      "check": "Arithmetic 9 P",
+      "pass": true,
+      "detail": "10.0 expected 10"
+    },
+    {
+      "check": "Arithmetic 10 cost50",
+      "pass": true,
+      "detail": "300 expected 300"
+    },
+    {
+      "check": "Arithmetic 10 avg50",
+      "pass": true,
+      "detail": "6.0 expected 6"
+    },
+    {
+      "check": "Arithmetic 10 avg100",
+      "pass": true,
+      "detail": "4.5 expected 4.5"
+    },
+    {
+      "check": "Arithmetic 11 TO",
+      "pass": true,
+      "detail": "360 expected 360"
+    },
+    {
+      "check": "Arithmetic 11 avg",
+      "pass": true,
+      "detail": "7.0 expected 7"
+    },
+    {
+      "check": "Arithmetic 11 profit",
+      "pass": true,
+      "detail": "80 expected 80"
+    },
+    {
+      "check": "Arithmetic 11 intervalMK",
+      "pass": true,
+      "detail": "7.0 expected 7"
+    },
+    {
+      "check": "Arithmetic 13 source MK at60",
+      "pass": true,
+      "detail": "9.0 expected 9"
+    },
+    {
+      "check": "Arithmetic 15 fixed difference",
+      "pass": true,
+      "detail": "80 expected 80"
+    },
+    {
+      "check": "Arithmetic 17 cap MK",
+      "pass": true,
+      "detail": "14.0 expected 14"
+    },
+    {
+      "check": "Arithmetic 18 leftMK",
+      "pass": true,
+      "detail": "14.0 expected 14"
+    },
+    {
+      "check": "Arithmetic 18 rightMK",
+      "pass": true,
+      "detail": "18.0 expected 18"
+    },
+    {
+      "check": "Arithmetic 18 cap MK",
+      "pass": true,
+      "detail": "13.6 expected 13.6"
+    },
+    {
+      "check": "Arithmetic 20 percentage",
+      "pass": true,
+      "detail": "25.0 expected 25"
+    },
+    {
+      "check": "Arithmetic 20 Ev",
+      "pass": true,
+      "detail": "-0.4 expected -0.4"
+    },
+    {
+      "check": "Arithmetic 21 wedge",
+      "pass": true,
+      "detail": "3 expected 3"
+    },
+    {
+      "check": "Arithmetic 21 revenue",
+      "pass": true,
+      "detail": "600 expected 600"
+    },
+    {
+      "check": "Arithmetic 23 profit",
+      "pass": true,
+      "detail": "0 expected 0"
+    },
+    {
+      "check": "Arithmetic 30 rectangle",
+      "pass": true,
+      "detail": "600 expected 600"
+    },
+    {
+      "check": "Arithmetic 31 Qv",
+      "pass": true,
+      "detail": "40.0 expected 40"
+    },
+    {
+      "check": "Arithmetic 31 Qa",
+      "pass": true,
+      "detail": "80.0 expected 80"
+    },
+    {
+      "check": "Arithmetic 31 excess",
+      "pass": true,
+      "detail": "40 expected 40"
+    },
+    {
+      "check": "Arithmetic 32 P",
+      "pass": true,
+      "detail": "4.0 expected 4"
+    },
+    {
+      "check": "Arithmetic 32 Q",
+      "pass": true,
+      "detail": "8000 expected 8000"
+    },
+    {
+      "check": "Arithmetic 32 TO",
+      "pass": true,
+      "detail": "400 expected 400"
+    },
+    {
+      "check": "Arithmetic 34 candidate",
+      "pass": true,
+      "detail": "80.0 expected 80"
+    },
+    {
+      "check": "Arithmetic 34 cap MK",
+      "pass": true,
+      "detail": "16.0 expected 16"
+    },
+    {
+      "check": "Arithmetic 36 initialP",
+      "pass": true,
+      "detail": "8.0 expected 8"
+    },
+    {
+      "check": "Arithmetic 36 initialQ",
+      "pass": true,
+      "detail": "10000 expected 10000"
+    },
+    {
+      "check": "Arithmetic 36 newP",
+      "pass": true,
+      "detail": "12.0 expected 12"
+    },
+    {
+      "check": "Arithmetic 36 newQ",
+      "pass": true,
+      "detail": "20000 expected 20000"
+    },
+    {
+      "check": "Arithmetic 36 longQ",
+      "pass": true,
+      "detail": "30000 expected 30000"
+    },
+    {
+      "check": "Arithmetic 38 avg",
+      "pass": true,
+      "detail": "10.0 expected 10"
+    },
+    {
+      "check": "Arithmetic 38 win",
+      "pass": true,
+      "detail": "200 expected 200"
+    },
+    {
+      "check": "Arithmetic 38 MO",
+      "pass": true,
+      "detail": "12.0 expected 12"
+    },
+    {
+      "check": "Arithmetic 38 MK",
+      "pass": true,
+      "detail": "15.0 expected 15"
+    },
+    {
+      "check": "Arithmetic 38 delta",
+      "pass": true,
+      "detail": "-30 expected -30"
+    },
+    {
+      "check": "Arithmetic theory intervalMK",
+      "pass": true,
+      "detail": "7.0 expected 7"
+    },
+    {
+      "check": "Arithmetic theory pointMK",
+      "pass": true,
+      "detail": "8.0 expected 8"
+    },
+    {
+      "check": "Arithmetic theory exactKG",
+      "pass": true,
+      "detail": "8.050000000000011 expected 8.05"
+    },
+    {
+      "check": "Market potatoes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market rice",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market soil",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market carrots",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market entryold",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market entrynew",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market exitold",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market exitnew",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market riceflourold",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market riceflournew",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market coffeeold",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market coffeenew",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market mixedinitial",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market mixedshort",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Market mixedlong",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Aggregation entryold",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Aggregation entrynew",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Aggregation exitold",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Aggregation exitnew",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Aggregation coffeeold",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Aggregation coffeenew",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Aggregation mixedinitial",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Aggregation mixedshort",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Aggregation mixedlong",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_fig_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "check": "3.2.1_fig_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_fig_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.1_fig_2 point (4000.0,2.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_fig_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 1.4432899e-15"
+    },
+    {
+      "check": "3.2.1_fig_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_fig_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.1_ex_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 1.7763568e-15"
+    },
+    {
+      "check": "3.2.1_ex_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_ex_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.1_ex_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 2.8865799e-15"
+    },
+    {
+      "check": "3.2.1_ex_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_ex_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.1_target: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 8.6206897e-07"
+    },
+    {
+      "check": "3.2.1_target: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_target: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.1_ans_1 point (3000.0,5.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_ans_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 1.7763568e-15"
+    },
+    {
+      "check": "3.2.1_ans_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_ans_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.1_ans_2 point (4000.0,4.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_ans_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 2.8865799e-15"
+    },
+    {
+      "check": "3.2.1_ans_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_ans_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.1_ans_3 point (4000.0,3.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_ans_3: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 8.6206897e-07"
+    },
+    {
+      "check": "3.2.1_ans_3: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.1_ans_3: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_fig_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "check": "3.2.2_fig_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_fig_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_fig_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "check": "3.2.2_fig_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_fig_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_fig_3 point (60.0,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_fig_3 point (60.0,6.333333333333333)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_fig_3: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00017980906"
+    },
+    {
+      "check": "3.2.2_fig_3: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_fig_3: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_fig_4 actual rectangle area",
+      "pass": true,
+      "detail": "100.00008510638298 / 100.00000000000001"
+    },
+    {
+      "check": "3.2.2_fig_4 point (60.0,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_fig_4 point (60.0,6.333333333333333)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_fig_4: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00017980906"
+    },
+    {
+      "check": "3.2.2_fig_4: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_fig_4: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_we_1 actual rectangle area",
+      "pass": true,
+      "detail": "120.0 / 120.0"
+    },
+    {
+      "check": "3.2.2_we_1 point (40.0,10)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_we_1 point (40.0,7.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_we_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00017697219"
+    },
+    {
+      "check": "3.2.2_we_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_we_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_ex_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00033805743"
+    },
+    {
+      "check": "3.2.2_ex_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ex_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_ex_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 8.8596012e-05"
+    },
+    {
+      "check": "3.2.2_ex_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ex_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_target: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00044506949"
+    },
+    {
+      "check": "3.2.2_target: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_target: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_ans_1 actual rectangle area",
+      "pass": true,
+      "detail": "140.00000943396225 / 140.0"
+    },
+    {
+      "check": "3.2.2_ans_1 point (80.0,12)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ans_1 point (80.0,10.25)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ans_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00033805743"
+    },
+    {
+      "check": "3.2.2_ans_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ans_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_ans_2 actual rectangle area",
+      "pass": true,
+      "detail": "700.0 / 700.0"
+    },
+    {
+      "check": "3.2.2_ans_2 point (200.0,12)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ans_2 point (200.0,8.5)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ans_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 8.8596012e-05"
+    },
+    {
+      "check": "3.2.2_ans_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ans_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.2_ans_3 actual rectangle area",
+      "pass": true,
+      "detail": "500.0004255319149 / 500.0000000000001"
+    },
+    {
+      "check": "3.2.2_ans_3 point (150.0,16)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ans_3 point (150.0,12.666666666666666)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ans_3: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00044506949"
+    },
+    {
+      "check": "3.2.2_ans_3: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.2_ans_3: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.3_fig_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "check": "3.2.3_fig_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.3_fig_2 point (6000.0,8.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_2 point (9000.0,6.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_2 point (40.0,6)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_2 point (60.0,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.0004719177"
+    },
+    {
+      "check": "3.2.3_fig_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.3_fig_3 point (1500.0,5.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_3 point (1000.0,6.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_3 point (20.0,6)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_3 point (15.0,5)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_3: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00047277977"
+    },
+    {
+      "check": "3.2.3_fig_3: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_fig_3: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.3_we_1 point (20.0,6)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_we_1 point (20.0,6.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_we_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00017980906"
+    },
+    {
+      "check": "3.2.3_we_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_we_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.3_ex_1 point (1500.0,5.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ex_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00047277977"
+    },
+    {
+      "check": "3.2.3_ex_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ex_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.3_ex_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00047622804"
+    },
+    {
+      "check": "3.2.3_ex_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ex_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.3_target: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00047277977"
+    },
+    {
+      "check": "3.2.3_target: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_target: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.3_ans_1 point (3000.0,8.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_1 point (4000.0,6.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_1 point (20.0,6)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_1 point (30.0,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00047622804"
+    },
+    {
+      "check": "3.2.3_ans_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.3_ans_2 point (15000.0,10.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_2 point (19999.999999999996,8.0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_2 point (100.0,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_2 point (150.0,10)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00047277977"
+    },
+    {
+      "check": "3.2.3_ans_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.3_ans_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.4_target: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00046933149"
+    },
+    {
+      "check": "3.2.4_target: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_target: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.4_ans_1 point (10000,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_1 point (20000,12)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_1 actual rectangle area",
+      "pass": true,
+      "detail": "600.0 / 600"
+    },
+    {
+      "check": "3.2.4_ans_1 point (200,12)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_1 point (200,9)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00046933149"
+    },
+    {
+      "check": "3.2.4_ans_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.4_ans_2 point (10000,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_2 point (20000,12)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_2 point (30000,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_2 point (100,8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_2: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0.00046933149"
+    },
+    {
+      "check": "3.2.4_ans_2: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_ans_2: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "3.2.4_fig_1: actual curve coordinates",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "check": "3.2.4_fig_1: all curves explicitly labelled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3.2.4_fig_1: text within viewport",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie: page count",
+      "pass": true,
+      "detail": 38
+    },
+    {
+      "check": "Student ceiling 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie: no page splitting or drift",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p1: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p2: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p3: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p4: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p5: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p6: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p7: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p8: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p9: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p10: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p11: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p12: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p13: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p14: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p15: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p16: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p17: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p18: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p19: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p20: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p21: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p22: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p23: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p24: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p25: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p26: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p27: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p28: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p29: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p30: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p31: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p32: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p33: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p34: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p35: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p36: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p37: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie p38: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie: searchable nonblank pages",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Boek_3_H2_Volkomen_concurrentie: text fits page",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden: page count",
+      "pass": true,
+      "detail": 23
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden: no page splitting or drift",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p1: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p2: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p3: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p4: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p5: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p6: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p7: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p8: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p9: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p10: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p11: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p12: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p13: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p14: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p15: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p16: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p17: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p18: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p19: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p20: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p21: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p22: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden p23: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden: searchable nonblank pages",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Boek_3_H2_Antwoorden: text fits page",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie: page count",
+      "pass": true,
+      "detail": 7
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie: no page splitting or drift",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie p1: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie p2: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie p3: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie p4: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie p5: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie p6: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie p7: no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie: searchable nonblank pages",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Boek_3_H2_Docenteninformatie: text fits page",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Outline unchanged book-3-outline-v2.md",
+      "pass": true,
+      "detail": "Exact uploaded copy or source-only rebuild"
+    },
+    {
+      "check": "Outline unchanged book-4-outline-v2.md",
+      "pass": true,
+      "detail": "Exact uploaded copy or source-only rebuild"
+    }
+  ]
+}
