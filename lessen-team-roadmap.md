@@ -2,11 +2,11 @@
 
 Full baseline and completed execution history: [archive/roadmaps/snapshots/lessons-team-20260910.md](archive/roadmaps/snapshots/lessons-team-20260910.md). Current direction, ledger decisions and carried conditions remain in this live file.
 
-## Current Book 2 status — 2026-09-13
+## Current Book 2 status — 2026-09-14
 
-**Book 2 writing and assembly are complete.** The owner selected the externally authored chat edition covering Chapters 2.1–2.3 and all twelve paragraphs. The supplied student book, separate answers, teacher guides and editable chapter sources are the import baseline. The current task is to place that edition in the repository unchanged except for substantial defects actually found, make it discoverable, and check technical integrity. Do not commission fresh Book 2 chapter writing or a new full content-review cycle for this import. Repository integration status is recorded separately from content completion. Existing target-approval and companion/product obligations are not automatically closed by the import.
+**Book 2 writing and assembly are complete.** The owner selected the externally authored chat edition covering Chapters 2.1–2.3 and all twelve paragraphs. The supplied student book, separate answers, teacher guides and editable chapter sources are the import baseline. The unchanged edition and superseded-chapter archive are integrated on main with technical preservation and navigation checks complete. Do not commission fresh Book 2 chapter writing or a new full content-review cycle for this import. Repository integration status is recorded separately from content completion. Existing target-approval and companion/product obligations are not automatically closed by the import.
 
-`BOOK2-CHAT-IMPORT-1`: **writing/assembly complete; import and archive cleanup in PR**. [Default delivered print edition](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/README.md). Issues #223/#229 and all separate target, companion and product obligations remain separate; no formal review is marked PASS by this import.
+`BOOK2-CHAT-IMPORT-1`: **writing/assembly complete; import and archive cleanup integrated on main**. Owner-authorized integration on 2026-09-14: [platform PR #246](https://github.com/meijer1973/4veco-platform/pull/246), merge `9da770b410a76b9257cf946861676da4d104a09c`; [lessons PR #50](https://github.com/meijer1973/4veco-lessen/pull/50), merge `a8b25eb8f475b7aabe053f58b494997ac8bf8f97`. [Default delivered print edition](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/README.md). Issues #223/#229 and all separate target, companion and product obligations remain separate; no formal review is marked PASS by this import.
 
 ## Sprint Ledger
 
@@ -77,7 +77,7 @@ Core standard:
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
-| BOOK2-CHAT-IMPORT-1 | Import completed Book 2 chat edition | no — import in PR | **Writing/assembly complete; import and archive cleanup in PR.** Supplied PDFs and editable sources preserved; superseded chapters 2.1/2.2 moved byte-for-byte to [archive](archive/book-2-pre-chat-2026/README.md). Technical integrity and discoverability only. [Edition](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/README.md). |
+| BOOK2-CHAT-IMPORT-1 | Import completed Book 2 chat edition | yes | **Writing/assembly complete; import and archive cleanup integrated on main.** Supplied PDFs and editable sources preserved; superseded chapters 2.1/2.2 moved byte-for-byte to [archive](archive/book-2-pre-chat-2026/README.md). Technical integrity and discoverability only. [Edition](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/README.md). Owner-authorized integration on 2026-09-14: [platform PR #246](https://github.com/meijer1973/4veco-platform/pull/246), merge `9da770b410a76b9257cf946861676da4d104a09c`; [lessons PR #50](https://github.com/meijer1973/4veco-lessen/pull/50), merge `a8b25eb8f475b7aabe053f58b494997ac8bf8f97`. |
 | VISION-1 | Strategic Product Vision Canonicalization | **2026-06-06** | **CLOSED PASS WITH FLAGS / SPECIFICATION-GOVERNANCE / NO GENERATED OUTPUT.** Added a canonical strategic product vision and machine-readable companion above the operational product end-state, linked it from key platform and lesson entry points, and added a lightweight platform checker. No generated lesson output, product-use authority, diagnostics, mastery/sequencing, adaptive routing, summative use, student-facing AI, PV, Scale Gate, or broad scaling is authorized. |
 | BOOK1-FIX-1 | Book 1 TOC, Exercise Label, And Figure-Text Concordance Fix | 2026-06-02 | **CLOSED PASS WITH FLAGS.** Added Book 1 TOC page-number structure, standardized the post-start exercise label as `Zelfstandige oefening`, repaired the `1.1.3` Figure 2/Figure 3 aggregate-asset mismatch, strengthened chapter/book figure concordance checks, improved the `1.1.3` math-versus-economics graph-axis explanation, and updated review/testing guidance so rendered figure-caption mismatch blocks closure. Generated Book 1 output was refreshed through platform workflow only. No protected reference mutation, target-exercise promotion, diagnostics, adaptive routing, mastery/sequencing, student-facing AI, summative use, PV, Scale Gate 1, or product-wide use is authorized. |
 | SYNC-PRODUCT-1 | Product Proof Roadmap Alignment | **2026-06-01** | **CLOSED ROADMAP/SPECIFICATION ALIGNMENT / NO GENERATED OUTPUT.** Platform aligned both roadmaps and stable specs around the Product Proof Track before Scale Gate 1: short check plus target-equivalent exit ticket, shared task UI, visible/actionable skill map, route affordance, dual-coding task decisions, and three-paragraph product proof. No implementation, generated lesson output, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or product-wide use was authorized. |
@@ -586,7 +586,7 @@ Own the material side of delivery:
 
 - Book 1 release polish
 - Book 1 foundation hardening and flag burn-down
-- Book 2 writing/assembly is complete; finish the supplied-edition import under BOOK2-CHAT-IMPORT-1. Separate foundation/target obligations retain their own gates.
+- Book 2 writing/assembly is complete; the supplied-edition import under BOOK2-CHAT-IMPORT-1 is integrated on main. Separate foundation/target obligations retain their own gates.
 - companion bounded-scope work, treated as controlled next-step production until quality and usability are good enough to scale
 - exam-target paragraph contracts, once the platform reference layer provides official exam prompt, source-annex, correction-model, MTU, and answer-operation evidence
 
@@ -4030,7 +4030,7 @@ Outputs:
   SCALE-PROOF-3P, and GATE-PRODUCT-3P; or
   does not conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
-- Complete the Book 2 edition import under BOOK2-CHAT-IMPORT-1. Any later target-alignment or course-structure work remains separately scoped.
+- The Book 2 edition import under BOOK2-CHAT-IMPORT-1 is integrated on main. Any later target-alignment or course-structure work remains separately scoped.
 
 ### Next 2-4 Weeks
 
@@ -4105,7 +4105,7 @@ Outputs:
 ### Months 1-3
 
 - Book 1 becomes controlled-production-ready.
-- Book 2 writing/assembly is complete; track repository integration separately under BOOK2-CHAT-IMPORT-1.
+- Book 2 writing/assembly is complete; repository integration under BOOK2-CHAT-IMPORT-1 is complete.
 - Companion production decisions are based on validated, usable, regenerated companion materials with proper visual integration, not only file-count validation.
 
 ## What The Lessen Team Does Not Own

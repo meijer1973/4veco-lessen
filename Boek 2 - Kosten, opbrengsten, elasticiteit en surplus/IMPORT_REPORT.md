@@ -1,6 +1,6 @@
 # BOOK2-CHAT-IMPORT-1 — technical import record
 
-Date: 2026-09-14 (initial import 2026-09-13). Status: **writing/assembly complete; import and archive cleanup in PR**. This is an initial import of the owner-selected external edition, not reproduction of an edition previously committed here. No new formal content review, target approval, classroom validation or companion/product closure is claimed. Issues #223/#229 and remaining holds are unchanged.
+Date: 2026-09-14 (initial import 2026-09-13). Status: **writing/assembly complete; import and archive cleanup integrated on main**. This is an initial import of the owner-selected external edition, not reproduction of an edition previously committed here. No new formal content review, target approval, classroom validation or companion/product closure is claimed. Issues #223/#229 and remaining holds are unchanged.
 
 ## Delivery and placement
 
@@ -35,7 +35,7 @@ The platform roadmap-version check passes. Generated navigation/dashboard invent
 
 The owner's technical review/continuation request authorizes this explicit operation: unchanged external-edition import plus two hash-preserving archive moves. This is not ordinary paragraph authoring or a third content lane. The maintenance guide does not automatically exempt new student-facing material; the historical-reproduction route did not cover this first import. The owner's finite import/archive decision supplies the applicable scope here, with required repository CI and independent technical review retained.
 
-The explicit replacement scope verification is platform [`build-scripts/maintenance/check-book2-chat-import.js`](https://github.com/meijer1973/4veco-platform/blob/codex/import-book2-chat-20260913/build-scripts/maintenance/check-book2-chat-import.js). It reads both declared final commits, requires clean matching checkouts, compares the full PR diffs to enumerated paths, checks the imported and archived Git trees, requires exact per-file relocation records, retains the reviewed `.gitattributes` blob and checks current navigation links. Its tests reject modified/missing delivery files, non-preserving archive moves, unrelated files, altered relocation evidence, recreated active trees and changed preservation attributes. It does not suppress or modify ordinary paragraph validation, claim full paragraph/content validation, or grant merge authority.
+The explicit replacement scope verification is platform [`build-scripts/maintenance/check-book2-chat-import.js`](https://github.com/meijer1973/4veco-platform/blob/55adb21ffe438d48b745bd6e316c1e5a6f099752/build-scripts/maintenance/check-book2-chat-import.js). It reads both declared final commits, requires clean matching checkouts, compares the full PR diffs to enumerated paths, checks the imported and archived Git trees, requires exact per-file relocation records, retains the reviewed `.gitattributes` blob and checks current navigation links. Its tests reject modified/missing delivery files, non-preserving archive moves, unrelated files, altered relocation evidence, recreated active trees and changed preservation attributes. It does not suppress or modify ordinary paragraph validation, claim full paragraph/content validation, or grant merge authority.
 
 The finite boundary is:
 
@@ -62,4 +62,8 @@ Paired worktrees: `C:/wt/book integration/4veco-lessen` and `C:/wt/book integrat
 
 Platform [textbook roadmap](https://github.com/meijer1973/4veco-platform/blob/main/docs/roadmaps/textbook/textbook-production-roadmap.md), its sprint ledger/version index, and the [lesson roadmap](../lessen-team-roadmap.md) distinguish completed writing/assembly from repository integration. Fresh H2/H3 production and book assembly are superseded. Platform [PR #231](https://github.com/meijer1973/4veco-platform/pull/231) is confirmed merged on 2026-09-05 at `96416b6b5bd57094576e9aba0a42d682584ec479`; its activation is not repeated.
 
-Next action: review the linked PRs and their CI. Record **integrated on main** only after an explicitly authorized merge, with the actual commit/link. This task does not authorize automatic merge or branch-protection bypass.
+## Authorized integration — 2026-09-14
+
+Owner-authorized integration on 2026-09-14: [platform PR #246](https://github.com/meijer1973/4veco-platform/pull/246), merge `9da770b410a76b9257cf946861676da4d104a09c`; [lessons PR #50](https://github.com/meijer1973/4veco-lessen/pull/50), merge `a8b25eb8f475b7aabe053f58b494997ac8bf8f97`.
+
+Both PRs merged from the reviewed heads using normal merge commits with expected-head checks and no admin bypass. All three preserved tree IDs above are unchanged on lesson main. The final local pair passed 119 suites / 1,991 tests (6 suites / 8 tests skipped); required pre-merge platform CI [34819009574](https://github.com/meijer1973/4veco-platform/actions/runs/34819009574) passed. Earlier check descriptions and the original scope failure remain historical evidence. Current import/archive integration is complete; any future content, target or companion work requires its own scope.
