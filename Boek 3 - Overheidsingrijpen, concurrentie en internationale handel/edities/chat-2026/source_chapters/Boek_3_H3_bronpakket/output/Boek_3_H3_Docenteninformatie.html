@@ -1,0 +1,513 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Docenteninformatie · Internationale handel</title><style>
+@page {size:A4; margin:17mm 18mm 17mm 19mm;
+ @top-left {content:"4veco  /  Boek 3";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @top-right {content:"3.3  Internationale handel";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @bottom-left {content:"Economie · 4 vwo";font-family:Lato,sans-serif;font-size:8pt;color:#536777;}
+ @bottom-right {content:counter(page);font-family:Lato,sans-serif;font-size:9pt;color:#183247;}
+}
+@page:first {@top-left{content:none;}@top-right{content:none;}}
+* {box-sizing:border-box;}
+html{font-family:Lato,"DejaVu Sans",sans-serif;font-size:11.3pt;line-height:1.37;color:#183247;}
+body{margin:0;}
+p{margin:0 0 6pt;orphans:3;widows:3;}
+.page{break-before:page;}
+.page:first-child{break-before:auto;}
+.page-title{font-size:18pt;line-height:1.13;font-weight:800;border-bottom:1.5pt solid #17688f;padding:0 0 8pt;margin:0 0 12pt;}
+h1{font-size:25pt;line-height:1.13;margin:5pt 0 12pt;font-weight:800;break-after:avoid;}
+h2{font-size:17pt;line-height:1.15;color:#17688f;margin:10pt 0 8pt;break-after:avoid;}
+h3{font-size:12.5pt;line-height:1.22;margin:11pt 0 7pt;break-after:avoid;}
+h2:first-child,h3:first-child{margin-top:0;}
+a{color:inherit;text-decoration:none;}
+.kicker{letter-spacing:1pt;color:#17688f;font-size:9pt;font-weight:800;margin:0 0 12pt;}
+.box,.definition,.formula,.source,.route{padding:7pt 10pt;margin:8pt 0 9pt;break-inside:avoid;background:#f2f6f8;border-left:3pt solid #17688f;}
+.box p:last-child,.definition p:last-child,.formula p:last-child,.source p:last-child{margin-bottom:0;}
+.definition{background:#f4f7f8;padding:7pt 10pt;margin:7pt 0 9pt;}
+.formula{font-family:"DejaVu Sans Mono",monospace;font-size:11.3pt;line-height:1.6;background:#eef5f6;border-left-color:#227064;}
+.goals{font-size:10.7pt;line-height:1.38;}
+.summary{font-size:10.5pt;line-height:1.5;}
+.warning{border-left-color:#ad601b;background:#fbf5ed;}
+.source{border-left-color:#536777;font-size:10.6pt;}
+.route{font-size:10.2pt;line-height:1.3;}
+.calculation{font-family:"DejaVu Sans Mono",monospace;line-height:1.55;margin:8pt 0 10pt;padding:8pt 13pt;background:#f3f6f7;break-inside:avoid;}
+.exercise{break-inside:avoid;border:0.6pt solid #d5dfe5;border-radius:3pt;padding:8pt 10pt;margin:0 0 10pt;background:white;}
+.exercise>p:first-child{margin-top:0;}
+.exercise>p:last-child{margin-bottom:0;}
+.exercise>p{margin-bottom:6pt;}
+.exercise>b:first-child{display:block;margin-bottom:7pt;font-size:12pt;}
+.target{border-top:3pt solid #17688f;}
+table{border-collapse:collapse;width:100%;margin:7pt 0 9pt;font-size:10.1pt;line-height:1.27;table-layout:auto;break-inside:avoid;}
+th{background:#edf2f5;font-weight:700;vertical-align:bottom;text-align:left;border-bottom:1pt solid #9dabb7;}
+td,th{padding:4.4pt 5pt;border-bottom:0.55pt solid #dce4e9;}
+td{vertical-align:top;} tr:nth-child(even) td{background:#f8fafb;}
+figure{margin:10pt 0 11pt;break-inside:avoid;}
+figure img{display:block;width:100%;height:auto;}
+figcaption{font-size:9.3pt;line-height:1.3;color:#536777;margin:5pt 0 0;}
+.small{font-size:9.4pt;line-height:1.33;}
+.muted{color:#536777;}
+.cover-title{font-size:38pt;line-height:1.05;letter-spacing:-0.6pt;font-weight:900;margin:14pt 0 14pt;}
+.lead{font-size:14.5pt;line-height:1.3;margin:0 0 13pt;color:#17688f;}
+.contents{margin:12pt 0 12pt;}
+.contents a{display:block;border-top:0.6pt solid #cbd7df;padding:6pt 0;}
+.contents b{display:block;font-size:12pt;}
+.contents span{display:block;color:#536777;font-size:10.5pt;margin-top:2pt;}
+.answer h2{margin-top:16pt;}
+.answer p{margin-bottom:7pt;}
+.answer .why{font-size:10.6pt;color:#455c6d;}
+.answer .exercise{break-inside:auto;}
+.answer .answer-block{break-inside:avoid;margin-bottom:10pt;}
+.teacher{font-size:10.7pt;}
+.pair{display:flex;gap:12pt}.pair>div{flex:1}
+.target-source{padding:9pt 11pt;background:#f5f8f9;border-left:3pt solid #536777;margin:9pt 0}
+.step{font-weight:700;color:#17688f}
+.fraction{white-space:nowrap}
+.tight p{margin-bottom:4pt}
+.target-unit{font-size:9.7pt;color:#536777}
+@media print{a{color:inherit}}
+.teacher table{font-size:9.1pt;}
+
+.contents a{font-size:10.1pt;line-height:1.25;padding:5.5pt 0;}
+.contents a b{font-size:11.2pt;}
+.contents b span{float:right;font-size:11pt;display:inline;}
+.exercise{padding:7pt 9pt;margin-bottom:9pt;}
+.exercise>p{margin-bottom:5pt;}
+.exercise p:first-child b{font-size:11.6pt;}
+.formula{font-size:10.8pt;line-height:1.5;}
+.cover-title{font-size:34pt;}
+.side-note{font-size:9.5pt;color:#536777;}
+.answer .answer-block{break-inside:avoid;}
+.answer .calc{font-family:DejaVu Sans Mono,monospace;font-size:10pt;line-height:1.5;}
+
+.continuation{font-size:16pt;color:#17688f;font-weight:700;margin:0 0 10pt;}
+.writing-lines{height:78mm;background:repeating-linear-gradient(to bottom, transparent 0,transparent 25px,#dfe6eb 26px,transparent 27px);margin-top:9mm;}
+
+.label{font-weight:700;color:#17688f}.mini{font-size:10.4pt}.source p{margin-bottom:5pt}.source-title{font-size:10pt;font-weight:800;color:#536777;letter-spacing:.3pt;} .plain{border:0;padding:0;}
+html{font-size:10.7pt;}</style></head><body><section class="page teacher" data-designed-page="1"><div class="kicker">BOEK 3 · HOOFDSTUK 3 · DOCENTENINFORMATIE</div>
+<h1>Internationale handel</h1>
+<p>Deze printuitgave volgt de door de gebruiker aangeleverde <strong>Book 3 outline proposal v2</strong> van 6 september 2026. Die inhoudelijke opdracht gaat vóór de oudere hoofdstukindeling in de repository. De Book 4-outline bewaakt wat later wordt geleerd.</p>
+<p>De vier doeloefeningen zijn <strong>nieuw geschreven uit de doelopgavebriefs</strong>. Ze zijn geen overgenomen, geregistreerde of officieel gevalideerde examenopgaven. Deze oplevering wijzigt geen repository, doelopgavenregister of vastgesteld examenprogramma.</p>
+<h3>De beoogde leerbeweging</h3>
+<p>Na het rekenintensieve concurrentiehoofdstuk ligt de nadruk hier op uitleg en brongebruik. Rekenen ondersteunt de redenering, maar wordt niet opnieuw het hoofddoel. Alle cases, landen, beleidsbronnen en cijfers zijn expliciet fictief lesmateriaal.</p>
+<table>
+<thead>
+<tr>
+<th>Onderdeel</th>
+<th style="text-align:right">Leerlingpagina’s</th>
+<th style="text-align:right">Doeloefening</th>
+<th>Hoofdhandeling</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.3.1 Specialisatie en concurrentiepositie</td>
+<td style="text-align:right">2–10</td>
+<td style="text-align:right">7</td>
+<td>Relatief voordeel en bronclaim uitleggen</td>
+</tr>
+<tr>
+<td>3.3.2 Wereldmarktprijs en welvaart</td>
+<td style="text-align:right">11–20</td>
+<td style="text-align:right">17</td>
+<td>Productie, verbruik en handelsstroom verbinden</td>
+</tr>
+<tr>
+<td>3.3.3 Protectionisme</td>
+<td style="text-align:right">21–30</td>
+<td style="text-align:right">27</td>
+<td>Import en heffingsopbrengst, daarna gevolgen</td>
+</tr>
+<tr>
+<td>3.3.4 Gemengde opgaven</td>
+<td style="text-align:right">31–37</td>
+<td style="text-align:right">35</td>
+<td>Bronnen selecteren en conclusies begrenzen</td>
+</tr>
+<tr>
+<td>Hoofdstukoverzicht</td>
+<td style="text-align:right">38</td>
+<td style="text-align:right">—</td>
+<td>Bekende begrippen samenbrengen</td>
+</tr>
+</tbody>
+</table>
+<h3>Bewuste grenzen</h3>
+<p>Geen berekende comparatieve-kostenverhoudingen, productiecapaciteitstabellen voor specialisatie, ruilvoetberekeningen of ruilverhoudingsgrenzen. Ook bonusopgaven brengen deze technieken niet alsnog binnen.</p>
+<p>Geen formele arbeidsproductiviteit, loonkosten per product, arbeidsmarktvergelijkingen, wisselkoersbepaling, betalingsbalans, reactiecurven of speltheorie. Monopolie begint in Boek 4. De tariefparagraaf vraagt niet om vier surplusberekeningen en twee verliesdriehoeken.</p>
+<div class="box"><b>Praktische omvang</b><br/>Leerlinghoofdstuk: 38 pagina’s. Antwoorden: 17 pagina’s. De antwoorden zijn apart gehouden. De leerlingtekst gebruikt dezelfde rustige drukstijl als de voorgaande hoofdstukken; de benodigde grafieken zijn op papier beschikbaar.</div>
+</section>
+<section class="page teacher" data-designed-page="2"><h2>Van doel naar zelfstandige handeling</h2>
+<h3>§3.3.1 — niet alleen de naam kennen</h3>
+<table>
+<thead>
+<tr>
+<th>Doel / handeling</th>
+<th>Voorgedaan</th>
+<th>Start en steun</th>
+<th>Zelfstandig</th>
+<th>Doel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Import en export vanuit twee landen benoemen</td>
+<td>Figuur 1; voorbeeld stap 3</td>
+<td>2a; 3</td>
+<td>5c</td>
+<td>7c</td>
+</tr>
+<tr>
+<td>Absoluut en comparatief onderscheiden</td>
+<td>Figuur 2; voorbeeld stappen 1–2</td>
+<td>1; 2b; 3a–c</td>
+<td>5a–b</td>
+<td>7a–b</td>
+</tr>
+<tr>
+<td>Specialisatie en mogelijk wederzijds voordeel</td>
+<td>Figuur 3; voorbeeld stap 3</td>
+<td>3c</td>
+<td>5b–d</td>
+<td>7c–d</td>
+</tr>
+<tr>
+<td>Concurrentiepositie onderbouwen</td>
+<td>Theorie; voorbeeld stap 4</td>
+<td>4a–c</td>
+<td>6a</td>
+<td>7d</td>
+</tr>
+<tr>
+<td>Een algemene winstclaim begrenzen</td>
+<td>Voorbeeld stap 4</td>
+<td>4d</td>
+<td>6b</td>
+<td>7e</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Voorkennis:</strong> de betekenis van alternatieve kosten is eerder geleerd, maar wordt in opgave 1 teruggehaald. De internationale toepassing en comparatief voordeel zijn nieuw. Geen leerling hoeft onbekende arbeidsmarktkennis aan de bron toe te voegen.</p>
+<p><strong>Visuele steun:</strong> eerst een ingevulde kwalitatieve vergelijking, daarna bronmarkering en een antwoordzin. Opgaven 5–7 vragen een eigen redenering. Een kale “Aster is beter”-uitspraak toont het comparatieve begrip niet.</p>
+<h3>§3.3.2 — van twee hoeveelheden naar één stroom</h3>
+<table>
+<thead>
+<tr>
+<th>Doel / handeling</th>
+<th>Voorgedaan</th>
+<th>Start en steun</th>
+<th>Zelfstandig</th>
+<th>Doel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prijsgegeven herkennen en aannames noemen</td>
+<td>Model p. 11</td>
+<td>11–13</td>
+<td>15; 16c</td>
+<td>17e</td>
+</tr>
+<tr>
+<td>Qa en Qv bij dezelfde prijs bepalen</td>
+<td>Figuren 2–3; voorbeeld 2</td>
+<td>11; 13; 14a</td>
+<td>15a</td>
+<td>17a</td>
+</tr>
+<tr>
+<td>Import of export met eenheid bepalen</td>
+<td>Voorbeeld 3</td>
+<td>12; 14b</td>
+<td>15a; 16a</td>
+<td>17a</td>
+</tr>
+<tr>
+<td>Kopers- en producenteneffect uitleggen</td>
+<td>Figuur 4; voorbeeld 4</td>
+<td>13c; 14c</td>
+<td>15b–c; 16b</td>
+<td>17b–d</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Voorkennis:</strong> invullen, aflezen en aftrekken zijn bekend. De betekenis van productie, verbruik en grensoverschrijdende stroom is nieuw en wordt expliciet vertaald. CS en PS worden opgehaald, niet opnieuw als puur rekenrecept behandeld.</p>
+</section>
+<section class="page teacher" data-designed-page="3"><h2>Van een instrument naar een oordeel</h2>
+<h3>§3.3.3 — alleen de import belasten</h3>
+<table>
+<thead>
+<tr>
+<th>Doel / handeling</th>
+<th>Voorgedaan</th>
+<th>Start en steun</th>
+<th>Zelfstandig</th>
+<th>Doel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tarief op import onderscheiden van algemene belasting</td>
+<td>P. 22; voorbeeld 1</td>
+<td>21–22</td>
+<td>25a</td>
+<td>27a</td>
+</tr>
+<tr>
+<td>Import na heffing en opbrengst berekenen</td>
+<td>Voorbeeld 2–3</td>
+<td>23</td>
+<td>25a</td>
+<td>27a</td>
+</tr>
+<tr>
+<td>Breedte / hoogte markeren in gegeven grafiek</td>
+<td>Figuur 3; voorbeeld 3</td>
+<td>23a–b</td>
+<td>25b</td>
+<td>27b</td>
+</tr>
+<tr>
+<td>Productiedoel en groepsgevolgen verbinden</td>
+<td>Voorbeeld 4</td>
+<td>24</td>
+<td>25c</td>
+<td>27c–d</td>
+</tr>
+<tr>
+<td>Gratis quotumvergunningen onderscheiden van ontvangsten</td>
+<td>P. 24; voorbeeld 5</td>
+<td>Begripsuitleg in de theorie</td>
+<td>25d</td>
+<td>27e</td>
+</tr>
+<tr>
+<td>Stoppen met Pwereld + tarief wanneer import verdwijnt</td>
+<td>Figuur 4</td>
+<td>Brongegeven en modelcontrast</td>
+<td>26</td>
+<td>In vervolgcases toepasbaar</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fading:</strong> de gegeven opbrengstrechthoek is eerst volledig zichtbaar. Daarna kiest de leerling zelf de relevante prijzen en hoeveelheid; opgave 25 vereist een eigen arcering in een gegeven markt. De doeloefening vraagt geen volledige nieuwe grafiekconstructie.</p>
+<p><strong>Twee gelijktijdige veranderingen:</strong> opgave 24 scheidt wereldprijs en heffing en combineert ze daarna. De bron garandeert positieve import in alle vier situaties. Zo blijft de vergelijking geldig zonder nieuwe grensberekening.</p>
+<h3>§3.3.4 — bewijs uit meerdere bronnen</h3>
+<p>De gemengde paragraaf introduceert geen nieuwe theorie. Opgave 31 vraagt begripselectie; 32 de omgekeerde handelsrichting; 33 een kwalitatieve verklaring; 34 een kleine tariefketen met een afgewogen conclusie.</p>
+<table>
+<thead>
+<tr>
+<th>Doeloefening 35</th>
+<th>Voorbereiding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a — comparatief ondanks absoluut nadeel</td>
+<td>§§3.3.1; 33a</td>
+</tr>
+<tr>
+<td>b en d — import, ontvangsten en rechthoek</td>
+<td>§§3.3.2–3.3.3; 25; 34a</td>
+</tr>
+<tr>
+<td>c — prijs en productie / verbruik per groep</td>
+<td>15–17; 25c; 34b–c</td>
+</tr>
+<tr>
+<td>e — quotum en inkomsten</td>
+<td>25d; 27e</td>
+</tr>
+<tr>
+<td>f — een doelclaim begrenzen</td>
+<td>6b; 7e; 27d; 34d</td>
+</tr>
+</tbody>
+</table>
+<p>De berekening in 35b is één korte keten. Er is geen verborgen specialisatieberekening, formele banenberekening of volledige welvaartsboekhouding.</p>
+</section>
+<section class="page teacher" data-designed-page="4"><h2>Werkbare routes van 55 minuten</h2>
+<p>De minuten hieronder zijn <strong>ontwerpinschattingen</strong>, niet gemeten leerlingtijden. Reserveer voor een eerste uitvoering ongeveer <strong>4–6 lessen</strong>. Geef meer ruimte als het verklaren van alternatieve kosten of het lezen van de grafieken nog traag gaat.</p>
+<table>
+<thead>
+<tr>
+<th>Lesonderdeel</th>
+<th style="text-align:right">3.3.1</th>
+<th style="text-align:right">3.3.2</th>
+<th style="text-align:right">3.3.3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Motiverende vraag</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Korte instructie met de figuren</td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>Uitgewerkt voorbeeld</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">7</td>
+</tr>
+<tr>
+<td>Samenvatting en overgangen</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Startopgaven</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">6</td>
+</tr>
+<tr>
+<td>Zelfstandige oefening</td>
+<td style="text-align:right">14</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">14</td>
+</tr>
+<tr>
+<td>Doeloefening</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">12</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td><strong>Totaal</strong></td>
+<td style="text-align:right"><strong>55</strong></td>
+<td style="text-align:right"><strong>55</strong></td>
+<td style="text-align:right"><strong>55</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Concreet:</strong> start 1–2, zelfstandig 5–6, doel 7; start 11–12, zelfstandig 15–16, doel 17; start 21–22, zelfstandig 25–26, doel 27. Het bronlezen en formuleren bij doel 7 rechtvaardigen hier 13 in plaats van maximaal 12 geschatte minuten.</p>
+<p><strong>Gemengde les:</strong> 2 minuten doel en aanpak + 8 minuten opgaven 31–32 + 14 minuten één keuze uit 33 of 34 + 20 minuten doeloefening 35 + 9 minuten bespreking = <strong>53 minuten</strong>. De andere oefencase kan apart of als huiswerk.</p>
+<h3>De steunroute is geen extra verplichte route</h3>
+<p>Begeleide inoefening is beschikbaar voor wie vastloopt. Voeg de volledige steunroute niet boven op deze 55 minuten toe. Laat leerlingen een deel van het zelfstandige werk later afmaken of verdeel instructie en doelwerk over twee lessen. De einddoelen blijven gelijk.</p>
+<p>De docent kan het voorkennisdeel van de Startopgaven aan het begin van de les geven. De gedrukte volgorde blijft theorie → voorbeeld → startwerk. Bonus en afsluitende herhaling zijn niet allemaal verplicht in dezelfde les.</p>
+<h3>Waar opletten tijdens de les?</h3>
+<p>Bij “Aster is beter” vragen: beter in benodigde middelen of in opgegeven andere productie? Bij een importgetal: laat Qa en Qv aanwijzen. Bij ontvangsten: laat de belaste eenheden noemen vóór de vermenigvuldiging.</p>
+</section>
+<section class="page teacher" data-designed-page="5"><h2>Controles die het begrip beschermen</h2>
+<table>
+<thead>
+<tr>
+<th>Verleidelijke fout</th>
+<th>Gerichte correctie in het materiaal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Absoluut sterker betekent alles zelf maken</td>
+<td>Dezelfde sterke producent in beide activiteiten; alternatieve kosten in woorden vergelijken.</td>
+</tr>
+<tr>
+<td>Lage prijs bewijst comparatief voordeel</td>
+<td>Benodigde broninformatie expliciet vragen in 2b, 4d en 8.</td>
+</tr>
+<tr>
+<td>Een land is één belanghebbende</td>
+<td>Kopers en binnenlandse producenten steeds apart benoemen.</td>
+</tr>
+<tr>
+<td>Verbruik = binnenlandse productie</td>
+<td>Qa, Qv en het handelsverschil afzonderlijk labelen.</td>
+</tr>
+<tr>
+<td>Lagere prijs verschuift de aanbodlijn</td>
+<td>De lijnen blijven staan; de hoeveelheden veranderen langs de lijnen.</td>
+</tr>
+<tr>
+<td>CS en PS lopen bij handel tot dezelfde Q</td>
+<td>Figuur 4 van §3.3.2 begrenst CS bij Qv en PS bij Qa.</td>
+</tr>
+<tr>
+<td>Alle verkoop is de belastinggrondslag</td>
+<td>De opbrengstrechthoek loopt uitsluitend tussen Qa en Qv na de heffing.</td>
+</tr>
+<tr>
+<td>Wie afdraagt, draagt noodzakelijk de last</td>
+<td>Importeurs dragen af; de modelgevolgen worden apart via prijzen uitgelegd.</td>
+</tr>
+<tr>
+<td>Elke heffing geeft Pwereld + tarief</td>
+<td>De niet-importerende grenssituatie staat in theorie en opgave 26.</td>
+</tr>
+<tr>
+<td>Elk quotum levert dezelfde opbrengst</td>
+<td>Gratis vergunningen zonder heffing versus afzonderlijke betalingen onderscheiden.</td>
+</tr>
+<tr>
+<td>Beschermde productie bewijst landelijke banengroei</td>
+<td>Opgave 28 vraagt de ontbrekende informatie, zonder arbeidsmarktformules.</td>
+</tr>
+</tbody>
+</table>
+<h3>De welvaartsgrens</h3>
+<p>De standaardvergelijking gebruikt een klein prijsnemend land, concurrentie, gelijkwaardige producten, voldoende buitenlandse handel en geen effecten op derden. De wereldprijs is gegeven. Vervoerskosten en wisselkoersveranderingen worden niet tegelijk toegevoegd.</p>
+<p>Zonder heffing is het binnenlandse surplus CS + PS. Bij de heffing moet de overheidsopbrengst in de binnenlandse surplusvergelijking meetellen. In het getoonde kleine-landmodel blijft per saldo een verlies ten opzichte van vrije handel over. Er wordt geen verplicht nieuw oppervlakteschema geïntroduceerd.</p>
+<p>Leveringszekerheid en verdelingsvoorkeuren kunnen beleidscriteria zijn, maar hun waarde is niet uit deze grafiek af te lezen. Het materiaal maakt geen actuele uitspraak over een echte heffing, nationaal inkomen of wettelijke regeling.</p>
+</section>
+<section class="page teacher" data-designed-page="6"><h2>Korte feedback die naar de bron terugstuurt</h2>
+<p>De doeloefeningen hebben indicatieve punten: <strong>7: 11 punten; 17: 10 punten; 27: 11 punten; 35: 16 punten</strong>. Het zijn geen genormeerde toetsen. Gebruik de punten om handelingen te onderscheiden, niet om beheersing of een landelijk examenniveau te claimen.</p>
+<table>
+<thead>
+<tr>
+<th>Handeling</th>
+<th>Waarvoor krediet geven?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Begripskeuze</td>
+<td>Juiste naam én het passende bronkenmerk.</td>
+</tr>
+<tr>
+<td>Comparatief voordeel</td>
+<td>Lagere alternatieve kosten, concreet benoemd als opgegeven andere productie.</td>
+</tr>
+<tr>
+<td>Handelsberekening</td>
+<td>Qa en Qv correct gebruikt, juiste richting van het verschil en juiste eenheid.</td>
+</tr>
+<tr>
+<td>Tariefopbrengst</td>
+<td>Import na de maatregel × tarief; geen totale binnenlandse verkoop.</td>
+</tr>
+<tr>
+<td>Grafiekmarkering</td>
+<td>Rechthoek tussen de juiste hoeveelheidspunten én prijsniveaus.</td>
+</tr>
+<tr>
+<td>Beleidsconclusie</td>
+<td>Een concreet voordeel, een concrete beperking en een brongegeven dat elk ondersteunt.</td>
+</tr>
+</tbody>
+</table>
+<h3>Voorbeeld: opgave 35f</h3>
+<p><strong>Te algemeen:</strong> “De economie gaat vooruit, want er wordt meer gemaakt.” Dit noemt noch de andere groepen, noch de prijs die zij betalen.</p>
+<p><strong>Onderbouwd:</strong> “Het productiedoel wordt ondersteund: binnenlandse productie stijgt van 40 naar 60 jassen per week. Dat bewijst niet dat alle inwoners profiteren; gezinnen betalen € 15 in plaats van € 10 per jas.”</p>
+<p>Voor deze drie punten kan één punt naar het expliciete oordeel, één naar het onderbouwde productiedoel en één naar het tegengestelde kopersbelang gaan. Neem gelijkwaardige formuleringen aan.</p>
+<h3>Bij een correcte uitkomst met een verkeerde methode</h3>
+<p>“5 × 100 = € 500” is niet een kleine rekenfout: het belast alle verkoop. Laat eerst benoemen welke 60 jassen binnenlands gemaakt zijn. Het juiste spoor is 100 − 60 = 40 import, daarna 5 × 40.</p>
+<p>“Pelta is goedkoper” bewijst het comparatieve voordeel evenmin. Laat de leerling het juiste bronfeit terugvinden: Pelta geeft voor extra jassen minder machineproductie op.</p>
+<h3>Bonusopgaven</h3>
+<p>Gebruik de beoordelingscriteria in het antwoordboek. Goede andere voorbeelden zijn toegestaan. Bij opgave 8 moet een leerling een kwalitatieve bron kunnen construeren; het doel is juist niet een productieverhouding uitrekenen.</p>
+</section>
+<section class="page teacher" data-designed-page="7"><h2>Bronnen en gemaakte keuzes</h2>
+<p><strong>Inhoudelijke basis:</strong> de bij deze opdracht aangeleverde <code>book-3-outline-v2(3).md</code> en <code>book-4-outline-v2(3).md</code>. Kopieën staan in <code>bronnen/</code>. De eerste bepaalt de vier handelsparagrafen; de tweede bewaakt de latere monopolie- en arbeidsmarktinhoud.</p>
+<p><strong>Repositoryrichtlijnen:</strong> beide Research Agent Maps, <code>skills/econ-exercise-builder.md</code>, <code>skills/econ-textbook-paragraph.md</code>, <code>skills/econ-didactiek.md</code> en <code>skills/economic-graph.md</code> zijn via de GitHub-connector gelezen. De geraadpleegde platform-main stond op <code>96416b6b5bd57094576e9aba0a42d682584ec479</code>.</p>
+<p>De rechtstreekse raw-downloadroute vanuit de bouwomgeving was niet beschikbaar; de noodzakelijke kaarten en richtlijnen waren wel via de connector toegankelijk. De toegangs- en bronregistratie maakt dit onderscheid. Er is geen bewijs dat niet-gepubliceerd lokaal werk is meegenomen.</p>
+<p>De in de outline genoemde aanvullende provenancebestanden en het mogelijke examenvoorbeeld uit 2022 zijn niet bij deze opdracht geleverd en niet als geverifieerde examenbasis gebruikt. Alle vier doelen en oefenbronnen zijn eigen uitwerkingen van de gegeven ontwerpspecificatie. Er wordt geen nieuwe CE/SE-dekkingsclaim gedaan.</p>
+<h3>Controle en reproduceerbaarheid</h3>
+<p>Het pakket bevat de Markdown-teksten, de twee outlines, vectorfiguren met PNG-paren, een model- en geometriebestand, bouwscripts en een lokale controle. De getallen van vraag, aanbod, handel en overheidsgeld zijn opnieuw berekend. De feitelijke SVG-coördinaten worden tegen de modelgegevens gecontroleerd. Vraag–antwoorddekking en paginering worden automatisch vergeleken.</p>
+<p>Daarnaast zijn leerlingboek, antwoordboek en docenteninformatie gerenderd en visueel nagekeken. Het betreft <strong>zelfcontrole</strong>, geen afzonderlijke onafhankelijke vakreview en geen proefles. Lestijd blijft een te toetsen inschatting.</p>
+<h3>Drukken en overdragen</h3>
+<p>Druk op A4 op ware grootte, dubbelzijdig, met omslaan langs de lange zijde. Bronnen en vragen van opgave 35 staan op tegenoverliggende pagina’s <strong>34–35</strong>. Iedere theorieparagraaf houdt de zeven afgesproken oefenkoppen. Een gemengde paragraaf krijgt geen kunstmatige nieuwe-theoriestructuur.</p>
+<p>Bouw lokaal opnieuw met <code>python build_all.py</code>. Bewerk voor kleine tekstcorrecties de Markdown; de <code>author_*.py</code>-scripts herstellen de oorspronkelijke auteursversie. De paragraafexports en het bronregister ondersteunen latere overdracht naar de repository. Ze vormen op zichzelf geen merge- of integratiebesluit.</p>
+</section></body></html>

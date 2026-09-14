@@ -1,0 +1,4068 @@
+[
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 1,
+    "book_page": 5,
+    "edits": [
+      {
+        "rect": [
+          537.79255859375,
+          238.4882861328125,
+          544.3322583007813,
+          251.4477032470703
+        ],
+        "reason": "chapter_contents_page",
+        "old": "2",
+        "new": "6",
+        "right_aligned": true,
+        "output_rect": [
+          537.7925415039062,
+          238.3682861328125,
+          544.332275390625,
+          251.5677032470703
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          279.21332275390625,
+          544.3326245117188,
+          292.172724609375
+        ],
+        "reason": "chapter_contents_page",
+        "old": "10",
+        "new": "14",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          279.09332275390625,
+          544.3326416015625,
+          292.292724609375
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          319.93829833984375,
+          544.3326245117188,
+          332.8977001953125
+        ],
+        "reason": "chapter_contents_page",
+        "old": "21",
+        "new": "25",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          319.81829833984375,
+          544.3326416015625,
+          333.0177001953125
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          360.6633044433594,
+          544.3326245117188,
+          373.6227062988281
+        ],
+        "reason": "chapter_contents_page",
+        "old": "32",
+        "new": "36",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          360.5433044433594,
+          544.3326416015625,
+          373.7427062988281
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          401.388310546875,
+          544.3326245117188,
+          414.34771240234375
+        ],
+        "reason": "chapter_contents_page",
+        "old": "37",
+        "new": "41",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          401.268310546875,
+          544.3326416015625,
+          414.46771240234375
+        ]
+      },
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "5",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 2,
+    "book_page": 6,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "6",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 3,
+    "book_page": 7,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "7",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 4,
+    "book_page": 8,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "8",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 5,
+    "book_page": 9,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "9",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 6,
+    "book_page": 10,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "10",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 7,
+    "book_page": 11,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "11",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 8,
+    "book_page": 12,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "12",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 9,
+    "book_page": 13,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "13",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 10,
+    "book_page": 14,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "14",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 11,
+    "book_page": 15,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "15",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 12,
+    "book_page": 16,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "16",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 13,
+    "book_page": 17,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "17",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 14,
+    "book_page": 18,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "18",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 15,
+    "book_page": 19,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "19",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 16,
+    "book_page": 20,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "20",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 17,
+    "book_page": 21,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "21",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 18,
+    "book_page": 22,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "22",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 19,
+    "book_page": 23,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "23",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 20,
+    "book_page": 24,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "24",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 21,
+    "book_page": 25,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "25",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 22,
+    "book_page": 26,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "26",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 23,
+    "book_page": 27,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "27",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 24,
+    "book_page": 28,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "28",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 25,
+    "book_page": 29,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "29",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 26,
+    "book_page": 30,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "30",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 27,
+    "book_page": 31,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "31",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 28,
+    "book_page": 32,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "32",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 29,
+    "book_page": 33,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "33",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 30,
+    "book_page": 34,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "34",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 31,
+    "book_page": 35,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "35",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 32,
+    "book_page": 36,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "32",
+        "new": "36",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 33,
+    "book_page": 37,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "33",
+        "new": "37",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 34,
+    "book_page": 38,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "34",
+        "new": "38",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 35,
+    "book_page": 39,
+    "edits": [
+      {
+        "rect": [
+          63.378267211914064,
+          107.71149169921875,
+          328.33787353515623,
+          121.03126037597656
+        ],
+        "reason": "inline_page_reference",
+        "old": "Gebruik bronnen A, B en C en figuur 21 op pagina 34.",
+        "new": "Gebruik bronnen A, B en C en figuur 21 op pagina 38.",
+        "horizontal_scale": 0.9957930733037842
+      },
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "35",
+        "new": "39",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 36,
+    "book_page": 40,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "36",
+        "new": "40",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 37,
+    "book_page": 41,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "37",
+        "new": "41",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H1_Monopolie.pdf",
+    "local_page": 38,
+    "book_page": 42,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "38",
+        "new": "42",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 1,
+    "book_page": 43,
+    "edits": [
+      {
+        "rect": [
+          537.79255859375,
+          277.55731689453125,
+          544.3322583007813,
+          290.51671875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "3",
+        "new": "45",
+        "right_aligned": true,
+        "output_rect": [
+          531.4927978515625,
+          277.43731689453125,
+          544.332275390625,
+          290.63671875
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          315.7823229980469,
+          544.3326245117188,
+          328.7417248535156
+        ],
+        "reason": "chapter_contents_page",
+        "old": "11",
+        "new": "53",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          315.6623229980469,
+          544.3326416015625,
+          328.8617248535156
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          354.0072985839844,
+          544.3326245117188,
+          366.9667004394531
+        ],
+        "reason": "chapter_contents_page",
+        "old": "19",
+        "new": "61",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          353.8872985839844,
+          544.3326416015625,
+          367.0867004394531
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          392.2323046875,
+          544.3326245117188,
+          405.19170654296875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "25",
+        "new": "67",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          392.1123046875,
+          544.3326416015625,
+          405.31170654296875
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          430.45731079101563,
+          544.3326245117188,
+          443.41671264648437
+        ],
+        "reason": "chapter_contents_page",
+        "old": "36",
+        "new": "78",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          430.3373107910156,
+          544.3326416015625,
+          443.5367126464844
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          468.68231689453125,
+          544.3326245117188,
+          481.64171875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "47",
+        "new": "89",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          468.56231689453125,
+          544.3326416015625,
+          481.76171875
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          506.90729248046875,
+          544.3326245117188,
+          519.8666943359375
+        ],
+        "reason": "chapter_contents_page",
+        "old": "53",
+        "new": "95",
+        "right_aligned": true,
+        "output_rect": [
+          531.4131469726562,
+          506.78729248046875,
+          544.3326416015625,
+          519.9866943359375
+        ]
+      },
+      {
+        "rect": [
+          53.77826873779297,
+          631.4318286132813,
+          288.40000732421873,
+          642.4717358398437
+        ],
+        "reason": "inline_page_reference",
+        "old": "Hoofdstukoverzicht: pagina 59. Begrippenlijst: pagina 60.",
+        "new": "Hoofdstukoverzicht: pagina 101. Begrippenlijst: pagina 102.",
+        "horizontal_scale": 0.9514417652030859
+      },
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "43",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 2,
+    "book_page": 44,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "44",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 3,
+    "book_page": 45,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "45",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 4,
+    "book_page": 46,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "46",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 5,
+    "book_page": 47,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "47",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 6,
+    "book_page": 48,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "48",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 7,
+    "book_page": 49,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "49",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 8,
+    "book_page": 50,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "50",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 9,
+    "book_page": 51,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "51",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 10,
+    "book_page": 52,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "52",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 11,
+    "book_page": 53,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "53",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 12,
+    "book_page": 54,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "54",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 13,
+    "book_page": 55,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "55",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 14,
+    "book_page": 56,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "56",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 15,
+    "book_page": 57,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "57",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 16,
+    "book_page": 58,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "58",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 17,
+    "book_page": 59,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "59",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 18,
+    "book_page": 60,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "60",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 19,
+    "book_page": 61,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "61",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 20,
+    "book_page": 62,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "62",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 21,
+    "book_page": 63,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "63",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 22,
+    "book_page": 64,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "64",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 23,
+    "book_page": 65,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "65",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 24,
+    "book_page": 66,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "66",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 25,
+    "book_page": 67,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "67",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 26,
+    "book_page": 68,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "68",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 27,
+    "book_page": 69,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "69",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 28,
+    "book_page": 70,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "70",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 29,
+    "book_page": 71,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "71",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 30,
+    "book_page": 72,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "72",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 31,
+    "book_page": 73,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "73",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 32,
+    "book_page": 74,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "32",
+        "new": "74",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 33,
+    "book_page": 75,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "33",
+        "new": "75",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 34,
+    "book_page": 76,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "34",
+        "new": "76",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 35,
+    "book_page": 77,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "35",
+        "new": "77",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 36,
+    "book_page": 78,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "36",
+        "new": "78",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 37,
+    "book_page": 79,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "37",
+        "new": "79",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 38,
+    "book_page": 80,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "38",
+        "new": "80",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 39,
+    "book_page": 81,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "39",
+        "new": "81",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 40,
+    "book_page": 82,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "40",
+        "new": "82",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 41,
+    "book_page": 83,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "41",
+        "new": "83",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 42,
+    "book_page": 84,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "42",
+        "new": "84",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 43,
+    "book_page": 85,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "43",
+        "new": "85",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 44,
+    "book_page": 86,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "44",
+        "new": "86",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 45,
+    "book_page": 87,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "45",
+        "new": "87",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 46,
+    "book_page": 88,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "46",
+        "new": "88",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 47,
+    "book_page": 89,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "47",
+        "new": "89",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 48,
+    "book_page": 90,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "48",
+        "new": "90",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 49,
+    "book_page": 91,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "49",
+        "new": "91",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 50,
+    "book_page": 92,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "50",
+        "new": "92",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 51,
+    "book_page": 93,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "51",
+        "new": "93",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 52,
+    "book_page": 94,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "52",
+        "new": "94",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 53,
+    "book_page": 95,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "53",
+        "new": "95",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 54,
+    "book_page": 96,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "54",
+        "new": "96",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 55,
+    "book_page": 97,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "55",
+        "new": "97",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 56,
+    "book_page": 98,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "56",
+        "new": "98",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 57,
+    "book_page": 99,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "57",
+        "new": "99",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 58,
+    "book_page": 100,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "58",
+        "new": "100",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 59,
+    "book_page": 101,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "59",
+        "new": "101",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+    "local_page": 60,
+    "book_page": 102,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "60",
+        "new": "102",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 1,
+    "book_page": 103,
+    "edits": [
+      {
+        "rect": [
+          537.79255859375,
+          223.00728332519532,
+          544.3322583007813,
+          235.96670043945312
+        ],
+        "reason": "chapter_contents_page",
+        "old": "2",
+        "new": "104",
+        "right_aligned": true,
+        "output_rect": [
+          525.1130981445312,
+          222.8872833251953,
+          544.332275390625,
+          236.08670043945312
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          261.2323046875,
+          544.3326245117188,
+          274.19170654296875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "12",
+        "new": "114",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          261.1123046875,
+          544.3326416015625,
+          274.31170654296875
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          299.4572802734375,
+          544.3326245117188,
+          312.41668212890625
+        ],
+        "reason": "chapter_contents_page",
+        "old": "20",
+        "new": "122",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          299.3372802734375,
+          544.3326416015625,
+          312.53668212890625
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          337.68231689453125,
+          544.3326245117188,
+          350.64171875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "29",
+        "new": "131",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          337.56231689453125,
+          544.3326416015625,
+          350.76171875
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          375.90729248046875,
+          544.3326245117188,
+          388.8666943359375
+        ],
+        "reason": "chapter_contents_page",
+        "old": "37",
+        "new": "139",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          375.78729248046875,
+          544.3326416015625,
+          388.9866943359375
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          414.1323291015625,
+          544.3326245117188,
+          427.09173095703125
+        ],
+        "reason": "chapter_contents_page",
+        "old": "44",
+        "new": "146",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          414.0123291015625,
+          544.3326416015625,
+          427.21173095703125
+        ]
+      },
+      {
+        "rect": [
+          531.4131640625,
+          452.3573046875,
+          544.3326245117188,
+          465.31670654296875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "49",
+        "new": "151",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          452.2373046875,
+          544.3326416015625,
+          465.43670654296875
+        ]
+      },
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "103",
+        "right_aligned": true,
+        "output_rect": [
+          528.5919799804688,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 2,
+    "book_page": 104,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "104",
+        "right_aligned": true,
+        "output_rect": [
+          528.5919799804688,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 3,
+    "book_page": 105,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "105",
+        "right_aligned": true,
+        "output_rect": [
+          528.5919799804688,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 4,
+    "book_page": 106,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "106",
+        "right_aligned": true,
+        "output_rect": [
+          528.5919799804688,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 5,
+    "book_page": 107,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "107",
+        "right_aligned": true,
+        "output_rect": [
+          528.5919799804688,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 6,
+    "book_page": 108,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "108",
+        "right_aligned": true,
+        "output_rect": [
+          528.5919799804688,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 7,
+    "book_page": 109,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "109",
+        "right_aligned": true,
+        "output_rect": [
+          528.5919799804688,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 8,
+    "book_page": 110,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "110",
+        "right_aligned": true,
+        "output_rect": [
+          528.5919799804688,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 9,
+    "book_page": 111,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "111",
+        "right_aligned": true,
+        "output_rect": [
+          528.5919799804688,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 10,
+    "book_page": 112,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "112",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 11,
+    "book_page": 113,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "113",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 12,
+    "book_page": 114,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "114",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 13,
+    "book_page": 115,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "115",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 14,
+    "book_page": 116,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "116",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 15,
+    "book_page": 117,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "117",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 16,
+    "book_page": 118,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "118",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 17,
+    "book_page": 119,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "119",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 18,
+    "book_page": 120,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "120",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 19,
+    "book_page": 121,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "121",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 20,
+    "book_page": 122,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "122",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 21,
+    "book_page": 123,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "123",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 22,
+    "book_page": 124,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "124",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 23,
+    "book_page": 125,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "125",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 24,
+    "book_page": 126,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "126",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 25,
+    "book_page": 127,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "127",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 26,
+    "book_page": 128,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "128",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 27,
+    "book_page": 129,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "129",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 28,
+    "book_page": 130,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "130",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 29,
+    "book_page": 131,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "131",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 30,
+    "book_page": 132,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "132",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 31,
+    "book_page": 133,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "133",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 32,
+    "book_page": 134,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "32",
+        "new": "134",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 33,
+    "book_page": 135,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "33",
+        "new": "135",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 34,
+    "book_page": 136,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "34",
+        "new": "136",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 35,
+    "book_page": 137,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "35",
+        "new": "137",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 36,
+    "book_page": 138,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "36",
+        "new": "138",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 37,
+    "book_page": 139,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "37",
+        "new": "139",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 38,
+    "book_page": 140,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "38",
+        "new": "140",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 39,
+    "book_page": 141,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "39",
+        "new": "141",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 40,
+    "book_page": 142,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "40",
+        "new": "142",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 41,
+    "book_page": 143,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "41",
+        "new": "143",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 42,
+    "book_page": 144,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "42",
+        "new": "144",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 43,
+    "book_page": 145,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "43",
+        "new": "145",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 44,
+    "book_page": 146,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "44",
+        "new": "146",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 45,
+    "book_page": 147,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "45",
+        "new": "147",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 46,
+    "book_page": 148,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "46",
+        "new": "148",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 47,
+    "book_page": 149,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "47",
+        "new": "149",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 48,
+    "book_page": 150,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "48",
+        "new": "150",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 49,
+    "book_page": 151,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "49",
+        "new": "151",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_4_H3_Arbeidsmarkt.pdf",
+    "local_page": 50,
+    "book_page": 152,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "50",
+        "new": "152",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  }
+]

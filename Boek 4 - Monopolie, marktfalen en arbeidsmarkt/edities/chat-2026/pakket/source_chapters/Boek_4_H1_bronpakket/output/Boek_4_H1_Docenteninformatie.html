@@ -1,0 +1,452 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Docenteninformatie · Monopolie</title><style>
+@page {size:A4; margin:17mm 18mm 17mm 19mm;
+ @top-left {content:"4veco  /  Boek 4";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @top-right {content:"4.1  Monopolie";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @bottom-left {content:"Economie · 4 vwo";font-family:Lato,sans-serif;font-size:8pt;color:#536777;}
+ @bottom-right {content:counter(page);font-family:Lato,sans-serif;font-size:9pt;color:#183247;}
+}
+@page:first {@top-left{content:none;}@top-right{content:none;}}
+* {box-sizing:border-box;}
+html{font-family:Lato,"DejaVu Sans",sans-serif;font-size:11.3pt;line-height:1.37;color:#183247;}
+body{margin:0;}
+p{margin:0 0 6pt;orphans:3;widows:3;}
+.page{break-before:page;}
+.page:first-child{break-before:auto;}
+.page-title{font-size:18pt;line-height:1.13;font-weight:800;border-bottom:1.5pt solid #17688f;padding:0 0 8pt;margin:0 0 12pt;}
+h1{font-size:25pt;line-height:1.13;margin:5pt 0 12pt;font-weight:800;break-after:avoid;}
+h2{font-size:17pt;line-height:1.15;color:#17688f;margin:10pt 0 8pt;break-after:avoid;}
+h3{font-size:12.5pt;line-height:1.22;margin:11pt 0 7pt;break-after:avoid;}
+h2:first-child,h3:first-child{margin-top:0;}
+a{color:inherit;text-decoration:none;}
+.kicker{letter-spacing:1pt;color:#17688f;font-size:9pt;font-weight:800;margin:0 0 12pt;}
+.box,.definition,.formula,.source,.route{padding:7pt 10pt;margin:8pt 0 9pt;break-inside:avoid;background:#f2f6f8;border-left:3pt solid #17688f;}
+.box p:last-child,.definition p:last-child,.formula p:last-child,.source p:last-child{margin-bottom:0;}
+.definition{background:#f4f7f8;padding:7pt 10pt;margin:7pt 0 9pt;}
+.formula{font-family:"DejaVu Sans Mono",monospace;font-size:11.3pt;line-height:1.6;background:#eef5f6;border-left-color:#227064;}
+.goals{font-size:10.7pt;line-height:1.38;}
+.summary{font-size:10.5pt;line-height:1.5;}
+.warning{border-left-color:#ad601b;background:#fbf5ed;}
+.source{border-left-color:#536777;font-size:10.6pt;}
+.route{font-size:10.2pt;line-height:1.3;}
+.calculation{font-family:"DejaVu Sans Mono",monospace;line-height:1.55;margin:8pt 0 10pt;padding:8pt 13pt;background:#f3f6f7;break-inside:avoid;}
+.exercise{break-inside:avoid;border:0.6pt solid #d5dfe5;border-radius:3pt;padding:8pt 10pt;margin:0 0 10pt;background:white;}
+.exercise>p:first-child{margin-top:0;}
+.exercise>p:last-child{margin-bottom:0;}
+.exercise>p{margin-bottom:6pt;}
+.exercise>b:first-child{display:block;margin-bottom:7pt;font-size:12pt;}
+.target{border-top:3pt solid #17688f;}
+table{border-collapse:collapse;width:100%;margin:7pt 0 9pt;font-size:10.1pt;line-height:1.27;table-layout:auto;break-inside:avoid;}
+th{background:#edf2f5;font-weight:700;vertical-align:bottom;text-align:left;border-bottom:1pt solid #9dabb7;}
+td,th{padding:4.4pt 5pt;border-bottom:0.55pt solid #dce4e9;}
+td{vertical-align:top;} tr:nth-child(even) td{background:#f8fafb;}
+figure{margin:10pt 0 11pt;break-inside:avoid;}
+figure img{display:block;width:100%;height:auto;}
+figcaption{font-size:9.3pt;line-height:1.3;color:#536777;margin:5pt 0 0;}
+.small{font-size:9.4pt;line-height:1.33;}
+.muted{color:#536777;}
+.cover-title{font-size:38pt;line-height:1.05;letter-spacing:-0.6pt;font-weight:900;margin:14pt 0 14pt;}
+.lead{font-size:14.5pt;line-height:1.3;margin:0 0 13pt;color:#17688f;}
+.contents{margin:12pt 0 12pt;}
+.contents a{display:block;border-top:0.6pt solid #cbd7df;padding:6pt 0;}
+.contents b{display:block;font-size:12pt;}
+.contents span{display:block;color:#536777;font-size:10.5pt;margin-top:2pt;}
+.answer h2{margin-top:16pt;}
+.answer p{margin-bottom:7pt;}
+.answer .why{font-size:10.6pt;color:#455c6d;}
+.answer .exercise{break-inside:auto;}
+.answer .answer-block{break-inside:avoid;margin-bottom:10pt;}
+.teacher{font-size:10.7pt;}
+.pair{display:flex;gap:12pt}.pair>div{flex:1}
+.target-source{padding:9pt 11pt;background:#f5f8f9;border-left:3pt solid #536777;margin:9pt 0}
+.step{font-weight:700;color:#17688f}
+.fraction{white-space:nowrap}
+.tight p{margin-bottom:4pt}
+.target-unit{font-size:9.7pt;color:#536777}
+@media print{a{color:inherit}}
+.teacher table{font-size:9.1pt;}
+
+.contents a{font-size:10.1pt;line-height:1.25;padding:5.5pt 0;}
+.contents a b{font-size:11.2pt;}
+.contents b span{float:right;font-size:11pt;display:inline;}
+.exercise{padding:7pt 9pt;margin-bottom:9pt;}
+.exercise>p{margin-bottom:5pt;}
+.exercise p:first-child b{font-size:11.6pt;}
+.formula{font-size:10.8pt;line-height:1.5;}
+.cover-title{font-size:34pt;}
+.side-note{font-size:9.5pt;color:#536777;}
+.answer .answer-block{break-inside:avoid;}
+.answer .calc{font-family:DejaVu Sans Mono,monospace;font-size:10pt;line-height:1.5;}
+
+.continuation{font-size:16pt;color:#17688f;font-weight:700;margin:0 0 10pt;}
+.writing-lines{height:78mm;background:repeating-linear-gradient(to bottom, transparent 0,transparent 25px,#dfe6eb 26px,transparent 27px);margin-top:9mm;}
+html{font-size:10.7pt;}</style></head><body><section class="page teacher" data-designed-page="1"><div class="kicker">BOEK 4 · HOOFDSTUK 4.1 · DOCENTENINFORMATIE</div>
+<h1>Monopolie</h1>
+<h2>Een veranderde opbrengststructuur, geen volledig nieuwe rekenmethode</h2>
+<p>Het leerlinghoofdstuk telt <strong>38 pagina’s</strong>. Het bestaat uit drie theorieparagrafen en één gemengde paragraaf. Er zijn <strong>38 opgaven met 107 deelvragen</strong>, drie uitgewerkte voorbeelden en vier nieuw geschreven doeloefeningen met samen 22 deelvragen. Het antwoordboek telt 20 pagina’s en bevat acht oplossingsfiguren.</p>
+<p>De 23 leerlingfiguren bestaan uit 22 genummerde figuren plus het openingsschema. De vormgeving sluit aan bij de eerder geleverde hoofdstukken; de tekst en opgaven zijn nieuw geschreven.</p>
+<table>
+<thead>
+<tr>
+<th>Onderdeel</th>
+<th style="text-align:right">Leerlingpagina’s</th>
+<th style="text-align:right">Doeloefening</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4.1.1 · Monopolie: kenmerken</td>
+<td style="text-align:right">2–9</td>
+<td style="text-align:right">8</td>
+</tr>
+<tr>
+<td>4.1.2 · Marginale opbrengst bij monopolie</td>
+<td style="text-align:right">10–20</td>
+<td style="text-align:right">18</td>
+</tr>
+<tr>
+<td>4.1.3 · Winstmaximalisatie bij monopolie</td>
+<td style="text-align:right">21–31</td>
+<td style="text-align:right">28</td>
+</tr>
+<tr>
+<td>4.1.4 · Gemengde opgaven</td>
+<td style="text-align:right">32–36</td>
+<td style="text-align:right">35</td>
+</tr>
+<tr>
+<td>Overzicht en begrippen</td>
+<td style="text-align:right">37–38</td>
+<td style="text-align:right">—</td>
+</tr>
+</tbody>
+</table>
+<h3>Inhoudelijke basis</h3>
+<p>De <strong>aangeleverde Book 4 outline proposal v2 van 6 september 2026</strong> bepaalt de inhoud, volgorde en afbakening. De meegeleverde Book 3 v2-outline en de eerder vervaardigde tekst van §3.2 bepalen welke vaardigheden teruggehaald worden. Deze bestanden hebben voor deze opdracht voorrang op oudere repositorydoelen.</p>
+<p>De outlines leveren doelbriefs, geen volledige opgaven. De doeloefeningen, contexten, getallen en antwoordmodellen in dit pakket zijn <strong>eigen uitwerkingen van die briefs</strong>. Zij zijn geen letterlijk overgenomen of formeel goedgekeurde doelregisterrecords. De gebruikte oefenondernemingen en marktgegevens zijn fictief. Er wordt geen nieuwe audit van het examenprogramma geclaimd.</p>
+<h3>Afbakening</h3>
+<p>Monopolie wordt hier onderzocht vanuit de ondernemingskeuze. Welvaartseffecten komen in <strong>§4.2.1</strong>, prijsdiscriminatie in <strong>§4.2.2</strong>. Geen strategische spelen, puntelasticiteitsformules, nieuwe marktfalenmodellen of algemene calculus. Het maximum van 40 pagina’s betreft alleen de leerlinguitgave; antwoorden en deze gids zijn afzonderlijk.</p>
+<h3>Print en digitale navigatie</h3>
+<p>A4, werkelijke grootte, dubbelzijdig, omslaan over de lange zijde. De bronnen en vragen van de gemengde doeloefening liggen tegenover elkaar op pagina’s <strong>34–35</strong>. Het hoofdstuk heeft een aanklikbare inhoudsopgave. De losse paragraafexports behouden de hoofdstukpaginanummers.</p>
+</section>
+<section class="page teacher" data-designed-page="2"><h1>Achterwaarts ontwerp</h1>
+<h2>§4.1.1 · Kenmerken</h2>
+<p>De openingsvraag haalt concurrentie doelgericht op. Opgave <strong>1</strong> geeft P, TK, MK en capaciteit; leerlingen hoeven geen nieuwe differentieerstap uit te vinden. De docent kan deze opgave vóór de instructie laten maken. De afgedrukte volgorde blijft uitleg → voorbeeld → Startopgaven.</p>
+<table>
+<thead>
+<tr>
+<th>Leerdoel en doelbewijs</th>
+<th>Modellering</th>
+<th>Oefening zonder doelhulp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bronbewijs en toetredingsbarrière: 8a</td>
+<td>Parkveer, p. 4: alleenrecht verbinden aan toetreding</td>
+<td>6a en 7a</td>
+</tr>
+<tr>
+<td>Verschil met volkomen concurrentie: 8b</td>
+<td>Twee ondernemingsgrafieken, p. 3; vergelijking in voorbeeld</td>
+<td>7a–b</td>
+</tr>
+<tr>
+<td>Vraagfunctie en bijpassende prijs/afzet: 8c–d</td>
+<td>Twee combinaties, figuur 2</td>
+<td>6b</td>
+</tr>
+<tr>
+<td>Begrensde prijsruimte: 8e</td>
+<td>Vraaggedrag en afruil in voorbeeld</td>
+<td>6b, 7b</td>
+</tr>
+</tbody>
+</table>
+<p>Startopgaven <strong>1–2</strong> activeren voorkennis en controleren de kern. In de begeleiding is figuur 3 bij <strong>3</strong> volledig gemarkeerd. <strong>4</strong> bevat formulehulp; <strong>5</strong> dwingt het onderscheid tussen eigen prijs en een andere vraagfactor af. Zelfstandige vragen <strong>6–7</strong> vragen om broninterpretatie zonder ingevulde redeneerstappen. De target vraagt geen volledige grafiekconstructie; die wordt daarom niet als extra doel toegevoegd.</p>
+<h2>§4.1.2 · Marginale opbrengst</h2>
+<table>
+<thead>
+<tr>
+<th>Leerdoel en doelbewijs</th>
+<th>Modellering</th>
+<th>Oefening zonder doelhulp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P → TO → MO: 18a</td>
+<td>Termgewijs op p. 11; voorbeeld Luma, p. 14</td>
+<td>16a</td>
+</tr>
+<tr>
+<td>Tabel invullen en TO controleren: 18b</td>
+<td>Volledige tabel bij Luma</td>
+<td>16a–c</td>
+</tr>
+<tr>
+<td>Tabelinterval versus punt: 18c</td>
+<td>Rekening op p. 13 en stap 3 van Luma</td>
+<td>16b</td>
+</tr>
+<tr>
+<td>Extra kg én prijsverlies: 18d–e</td>
+<td>Twee omzetvlakken, p. 10; voorbeeld p. 14</td>
+<td>16c en 17a</td>
+</tr>
+</tbody>
+</table>
+<p>Start <strong>11</strong> haalt vermenigvuldigen en de beperkte afgeleide op; <strong>12</strong> controleert het prijseffect op eerdere eenheden. Bij <strong>13</strong> zijn beide vlakken en bedragen ingevuld. In <strong>14</strong> zijn de algebra en tabel slechts gedeeltelijk ingevuld. <strong>15</strong> vraagt dezelfde tweedeling zonder ingevulde figuur. In <strong>16–17</strong> ontbreken de invulstappen.</p>
+<p>De pijlketen in figuur 6 heeft opzettelijk drie verschillende eenheden/rollen: prijs, totaal en marginaal. Vergelijk niet alleen cijfers maar vraag telkens: <strong>“Wat meet dit bedrag?”</strong></p>
+</section>
+<section class="page teacher" data-designed-page="3"><h1>Van keuze naar prijs</h1>
+<h2>§4.1.3 · Winstmaximalisatie</h2>
+<table>
+<thead>
+<tr>
+<th>Leerdoel en doelbewijs</th>
+<th>Uitleg / voorbeeld</th>
+<th>Zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Marginale relaties: 28a</td>
+<td>p. 22; Mira stap 1</td>
+<td>26a</td>
+</tr>
+<tr>
+<td>Haalbare q en maximum: 28b</td>
+<td>p. 22 en 25; Mira stap 2</td>
+<td>26a, 27a</td>
+</tr>
+<tr>
+<td>P via vraag / GO: 28c</td>
+<td>p. 23; Mira stap 3</td>
+<td>26b, 27b</td>
+</tr>
+<tr>
+<td>Winst, GTK en q = 0: 28d</td>
+<td>p. 24–26; Mira stap 4</td>
+<td>26c; GTK is tevens expliciete voorkennis uit Boek 2 en §3.2.2</td>
+</tr>
+<tr>
+<td>Grafische route: 28e</td>
+<td>Stapsgewijze figuren 12–14; voorbeeldfiguur 16</td>
+<td>26b</td>
+</tr>
+<tr>
+<td>Verkeerde regel P = MK weerleggen: 28f</td>
+<td>waarschuwing p. 23 en maximumcontrole p. 22</td>
+<td>26a–b; start 22 toetst de prijsverwarring</td>
+</tr>
+</tbody>
+</table>
+<p>Start <strong>21–22</strong> verbindt bekende kosten met nieuwe opbrengsten. <strong>23</strong> geeft eerst de volledig gemarkeerde q/P-route. <strong>24</strong> levert dezelfde lijnfamilie zonder route. <strong>25</strong> combineert een hogere vraag en hogere constante kosten; leerlingen moeten die effecten afzonderlijk analyseren en een verleidelijke verkeerde conclusie weerleggen. Zelfstandig <strong>26</strong> volgt de hele route en <strong>27</strong> controleert de capaciteit.</p>
+<p>De doeloefening behoudt de grafiek als aangeboden bron. Het leerdoel is hier vooral het <strong>juist markeren en interpreteren</strong>, niet het op een lege pagina reconstrueren van drie functies. De winstfiguur op p. 24 verbindt de eerdere gemiddelde-kostenmethode aan de nieuwe monopolyprijs; een extra cijfermatige welvaartsopgave is niet toegevoegd.</p>
+<h2>§4.1.4 · Gemengde opgaven</h2>
+<p>De gemengde target <strong>35</strong> combineert bronkeuze, marginale functies, haalbaarheid, prijs, winst, grafiekmarkering en een compacte prijsnemersvergelijking. Alle handelingen zijn eerder uitgelegd of expliciet opgehaald. <strong>31–34</strong> oefenen vooral methodekeuze, bronbeperkingen, totaal/gemiddeld, break-even en elasticiteit. <strong>36–38</strong> zijn aanvullende consolidatie voor foutanalyse, capaciteit en begrensde conclusies.</p>
+<p>De afzonderlijke ondernemingen in bron B en C van target 35 hebben dezelfde kostenfunctie, maar bedienen verschillende markten. Dit is geen welvaartsvergelijking tussen concurrentie en monopolie op dezelfde markt. Het doel is de prijsroute zichtbaar maken.</p>
+<h3>Geen verborgen nieuw doel</h3>
+<p>De vraag of een bedrijfskeuze “goed voor de samenleving” is, wordt alleen gebruikt om een <strong>te sterke conclusie te begrenzen</strong>. Er worden geen nieuwe surplusvlakken, efficiëntiehoeveelheden of monopoly-welvaartsverliezen gevraagd. Die volgen pas in §4.2.1.</p>
+</section>
+<section class="page teacher" data-designed-page="4"><h1>Lesplanning</h1>
+<p>De tijden hieronder zijn <strong>ontwerpschattingen</strong>, geen gemeten leerlingtijden. De korte kernroute veronderstelt dat het ophalen van de reeds onderwezen technieken lukt. Zij maakt niet alle afgedrukte secties verplicht.</p>
+<table>
+<thead>
+<tr>
+<th>Onderdeel (minuten)</th>
+<th style="text-align:right">4.1.1</th>
+<th style="text-align:right">4.1.2</th>
+<th style="text-align:right">4.1.3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Motiverende vraag</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Instructie, inclusief relevante figuren</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>Uitgewerkt voorbeeld</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">8</td>
+</tr>
+<tr>
+<td>Samenvatting en overgangen</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Startopgaven: 1–2 / 11–12 / 21–22</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">6</td>
+</tr>
+<tr>
+<td>Zelfstandig: 6–7 / 16–17 / 26–27</td>
+<td style="text-align:right">12</td>
+<td style="text-align:right">12</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>Doeloefening: 8 / 18 / 28</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">12</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td><strong>Totaal kernroute</strong></td>
+<td style="text-align:right"><strong>48</strong></td>
+<td style="text-align:right"><strong>54</strong></td>
+<td style="text-align:right"><strong>54</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Reserveer binnen de starttijd circa <strong>3–5 minuten voor de voorkennisopgave</strong>. De resterende tijd is een korte begripscheck, geen diagnostische toets of bewijs van beheersing.</p>
+<h3>Wanneer twee lessen beter zijn</h3>
+<p>Voor eerste gebruik is <strong>vijf tot zeven lessen voor het hoofdstuk</strong> een praktische planningsruimte. Vooral §4.1.2 en §4.1.3 kunnen elk een extra les nodig hebben. Is de afgeleide niet snel terug, of blijft MO = P hardnekkig, forceer dan geen 54-minutenroute.</p>
+<p>Een bruikbare tweelessenindeling voor §4.1.2 is: in les A uitleg, Luma, start en begeleiding; in les B een korte heractivatie, 16–17, target 18 en feedback. De definitieve target blijft voor iedereen hetzelfde. Voor §4.1.3 kan dezelfde splitsing worden gemaakt rond de prijs- en winststap. Begeleiding vervangt tijd voor zelfstandig werk of vraagt een extra les; zij komt niet onzichtbaar boven op een volle kernles.</p>
+<h3>Consolidatieles</h3>
+<p>Een compacte route is: 4 minuten heractiveren, 12 minuten opgaven <strong>31–32</strong>, 7 minuten <strong>33</strong>, 22 minuten target <strong>35</strong>, 5 minuten bespreking en herstel: <strong>50 minuten</strong>. Opgave <strong>34</strong> en <strong>36–38</strong> kunnen naar een vervolg- of huiswerkroute. De gemengde target is langer dan een theorie-target; er is in deze les geen nieuwe instructiecyclus.</p>
+<h3>Bonus en herhaling</h3>
+<p><strong>9, 19 en 29</strong> zijn buiten de kern. Zij vragen een andere invalshoek, geen langere versie van dezelfde som. <strong>10, 20 en 30</strong> zijn korte gespreide herhaling en kunnen huiswerk zijn. Gebruik fouten voor gerichte terugkeer naar de relevante stap, niet om leerlingen automatisch naar een ander einddoel te sturen.</p>
+</section>
+<section class="page teacher" data-designed-page="5"><h1>Reken- en modelprecisie</h1>
+<h2>Uniforme prijs is een vergelijking van plannen</h2>
+<p>Op p. 10 worden twee weekplannen vergeleken. “Minder opbrengst op de eerste 20 kg” betekent niet dat er achteraf geld wordt terugbetaald op historische verkopen. Bij de hogere afzet krijgen alle eenheden in het nieuwe plan dezelfde lagere prijs. De bijbehorende omzetverandering is exact opgesplitst in twee rechthoeken.</p>
+<h2>Eindige verandering en afgeleide niet gelijkstellen</h2>
+<p>Voor P = a − bq is TO = aq − bq² en MO = a − 2bq. Over een stap van q₀ naar q₁ is ΔTO / Δq een gemiddelde over dat interval. Het hoeft niet gelijk te zijn aan MO bij q₀ of q₁. De tekst kiest bewust duidelijke intervallen en laat het verschil zien. Er wordt geen middelpuntregel als nieuw verplicht trucje geïntroduceerd.</p>
+<p>Het doorlopende rekenmodel is bij kilogrammen concreet verdedigbaar. De kaartjesgrafieken in §4.1.1 zijn lineaire vraagmodellen; de gevraagde berekeningen leveren hele aantallen en gebruiken geen afgeleiden van individuele kaartjes.</p>
+<h2>Een kandidaat controleren</h2>
+<p>De rekenmodellen hebben dalende MO en constante of stijgende MK. Daardoor is het verschil MO − MK dalend. Een snijpunt in het uitvoerbare interval geeft een maximum; een snijpunt daarbuiten moet worden afgewezen. De tekst behandelt een bindende capaciteit vóórdat de zelfstandige en doelopgaven daarnaar vragen.</p>
+<p>Vaste kosten verdwijnen uit de afgeleide, niet uit TK of winst. Bij een vergelijking met q = 0 wordt expliciet vermeld dat zij in deze periode onvermijdbaar zijn. Er wordt geen algemene bedrijfsbeëindigingsregel of nieuwe langetermijnkostentheorie ingevoerd.</p>
+<h2>Twee winstvoorstellingen</h2>
+<p>In een TO/TK-grafiek is winst een verticale afstand. In een grafiek met euro per kg is de rechthoek (P − GTK) × q een totaalbedrag. De hele rechthoek gebruikt GTK bij de gekozen q; het is niet het oppervlak tussen de GO- en GTK-curve over alle hoeveelheden. P. 24 benoemt dit om de oudere surplusgewoonte niet verkeerd over te dragen.</p>
+<h2>Gelijke getallen kunnen iets anders meten</h2>
+<p>In target 28 zijn bij q = 40 zowel MO = MK als GTK gelijk aan € 20. Dit is een toevallige cijfergelijkheid. De verkoopprijs is € 30. De docent kan hier expliciet laten benoemen wat elk getal meet; het antwoordboek waarschuwt voor de toevallige gelijkheid.</p>
+<h2>Elasticiteit blijft terughalen</h2>
+<p>Opgave 30 herhaalt het eindige-veranderingsvoorbehoud uit Boek 2: +10% prijs en −10% hoeveelheid geven Ev = −1 met oude waarden als basis, maar TO daalt 1%. De hoofdtekst introduceert geen puntelasticiteitsformule of algemene elasticiteit-omzet-identiteit.</p>
+</section>
+<section class="page teacher" data-designed-page="6"><h1>Waar let je op in leerlingwerk?</h1>
+<table>
+<thead>
+<tr>
+<th>Signaal</th>
+<th>Gerichte terugkeer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“Eén merk, dus monopolie.”</td>
+<td>Laat bij 2 of 9 de markt afbakenen en alternatieven uit de bron benoemen.</td>
+</tr>
+<tr>
+<td>“Een monopolist kan alles tegelijk kiezen.”</td>
+<td>Laat op p. 4 één prijs én één afzet op dezelfde vraaglijn aanwijzen.</td>
+</tr>
+<tr>
+<td>“GO en MO zijn bij iedereen gelijk.”</td>
+<td>Herneem figuur 5: waar blijft de lagere opbrengst op de eerdere kg?</td>
+</tr>
+<tr>
+<td>“De extra omzet is de nieuwe prijs.”</td>
+<td>Laat het verschil tussen totaal en per kg expliciet opschrijven bij 13c.</td>
+</tr>
+<tr>
+<td>“Het tabelgemiddelde moet gelijk zijn aan de afgeleide.”</td>
+<td>P. 13: zet beginpunt, eindpunt en hele stap naast elkaar.</td>
+</tr>
+<tr>
+<td>“TO = a − bq².”</td>
+<td>Laat (a − bq) × q uitschrijven, zonder stap over te slaan; 36a.</td>
+</tr>
+<tr>
+<td>“Prijs uit MO aflezen.”</td>
+<td>Figuren 12–13 en opgave 23: eerst omlaag naar q, dan omhoog naar GO.</td>
+</tr>
+<tr>
+<td>“P = MK maximaliseert de monopoliewinst.”</td>
+<td>Target 28f: vergelijk MO en MK bij de verkeerd gekozen 60 kg.</td>
+</tr>
+<tr>
+<td>“Bij MO = MK is de winst nul.”</td>
+<td>Opgave 32: marginale verandering is niet de gemiddelde winst.</td>
+</tr>
+<tr>
+<td>“De hoogste omzet is de hoogste winst.”</td>
+<td>Tabel p. 21 en vergelijking met q = 75 op p. 24.</td>
+</tr>
+<tr>
+<td>“Capaciteit is de gewenste productie.”</td>
+<td>Opgave 37: de bovengrens kan hoger zijn dan het optimum.</td>
+</tr>
+<tr>
+<td>“Vaste kosten mag je negeren.”</td>
+<td>Maak onderscheid tussen MK en TK; p. 24–25 en 36b.</td>
+</tr>
+<tr>
+<td>“Een monopolie geeft altijd winst.”</td>
+<td>Bonus 29; vergelijk ook met de onvermijdbare kosten bij q = 0.</td>
+</tr>
+</tbody>
+</table>
+<h3>Feedback op redeneren</h3>
+<p>Accepteer verschillende formuleringen, maar vraag een verband: brongegeven → economische betekenis → conclusie. Een antwoord als “omdat het een monopolie is” herhaalt alleen de classificatie. Een goed antwoord legt uit hoe prijs, afzet en opbrengst samenhangen.</p>
+<h3>Feedback op grafieken</h3>
+<p>Eerst assen, variabelen en eenheden; dan de geselecteerde q; dan P uit de juiste lijn. Vraag bij de berekening naar het verschil tussen een totaalbedrag en een bedrag per kg. De lijnen zijn waar nodig gegeven om de aandacht op de beoogde route te houden. Kleur is extra steun; lijnlabels en de onderbroken MO-lijn blijven bruikbaar bij grijsafdruk.</p>
+<h3>Voorkom overladen herhaling</h3>
+<p>Het hoofdstuk start na een conceptueler handelsdeel. Daarom staat de prijsnemersopgave niet alleen in de bonus. Een volledige herbouw van het concurrentiehoofdstuk is evenmin nodig. Gebruik een korte gerichte opfrissing waar nodig, gevolgd door dezelfde monopolydoelen.</p>
+</section>
+<section class="page teacher" data-designed-page="7"><h1>Bronnen en overdracht</h1>
+<h2>Geraadpleegde basis</h2>
+<p><strong>Aangeleverd:</strong> <code>book-4-outline-v2(4).md</code> en <code>book-3-outline-v2(4).md</code>, beide met versiedatum 6 september 2026. Exacte kopieën staan in <code>bronnen/</code>. De daarin genoemde nevendocumenten over integratie zijn niet als aanvullende, geverifieerde autoriteit behandeld.</p>
+<p><strong>Repositoryrichtlijnen, gelezen via de GitHub-connector:</strong></p>
+<ul>
+<li><code>4veco-platform/RESEARCH_AGENT_MAP.md</code> en <code>4veco-lessen/RESEARCH_AGENT_MAP.md</code> — navigatie en bronbeoordeling.</li>
+<li><code>skills/econ-exercise-builder.md</code> — doel-eerst, de zeven koppen, kernroute, optionele begeleiding, antwoordmodellen en gerichte herhaling.</li>
+<li><code>skills/econ-textbook-paragraph.md</code> — probleem-eerst, uitgewerkt voorbeeld en stapsgewijze figuren.</li>
+<li><code>skills/econ-didactiek.md</code> — concrete transfer, consequente procedures en begrensde modeluitspraken.</li>
+<li><code>skills/economic-graph.md</code> — variabelen, eenheden, schaal, berekende geometrie en directe labels.</li>
+<li><code>4veco-lessen/specifications/product-vision.md</code> — een duidelijke route naar de feitelijke doelhandelingen.</li>
+</ul>
+<p>Paden en blob-identificaties staan in <code>QA/source-register.json</code>. Dit pakket wijzigt geen repositories of hun goedkeuringsstatus.</p>
+<h2>Vier gecontroleerde doeluitkomsten</h2>
+<table>
+<thead>
+<tr>
+<th>Target</th>
+<th>Belangrijkste controlewaarden</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8 · Eilandveer</td>
+<td>q = 60 → P = 18; q = 120 → P = 12; geen vrije combinatie (120,18).</td>
+</tr>
+<tr>
+<td>18 · Prisma</td>
+<td>TO = 30q − 0,50q²; MO = 30 − q; ΔTO van 20 naar 30 = 50; intervalgemiddelde 5 versus MO(20) = 10.</td>
+</tr>
+<tr>
+<td>28 · Nova</td>
+<td>q = 40; P = 30; TO = 1.200; TK = 800; winst = 400; GTK = 20.</td>
+</tr>
+<tr>
+<td>35 · KleurFix</td>
+<td>Monopolist q = 40, P = 24, winst = 360; afzonderlijke prijsnemer q = 50, P = 18, winst = 130.</td>
+</tr>
+</tbody>
+</table>
+<h2>Controleerbare bestanden</h2>
+<p><code>QA/validation.json</code> bevat de lokale structurele en numerieke controles. De werkelijke SVG-coördinaten en oppervlakten worden met de functies vergeleken, niet alleen de namen van bestanden. Pagina-indeling, vraag-antwoorddekking en aanwezige figuren zijn afzonderlijk gecontroleerd. De PDF’s zijn gerenderd voor visuele inspectie; <code>QA/visual-review.md</code> bevat de bevindingen.</p>
+<p>Dit is een eigen inhoudelijke en technische controle door de producerende assistent, <strong>geen onafhankelijke specialistische beoordeling</strong>. De voorgestelde lesduur en verwachte leerwinst zijn niet in een klas gemeten.</p>
+</section></body></html>

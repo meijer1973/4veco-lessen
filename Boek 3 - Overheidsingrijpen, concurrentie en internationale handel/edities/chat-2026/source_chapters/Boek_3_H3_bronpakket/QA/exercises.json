@@ -1,0 +1,884 @@
+[
+  {
+    "number": 1,
+    "section": "3.3.1",
+    "title": "Wat geef je op?",
+    "context": "Een school heeft één lokaal vrij. Het kan worden gebruikt voor een oefenband of voor een tekenclub. Beide activiteiten kunnen er niet tegelijk plaatsvinden.",
+    "subquestions": [
+      {
+        "id": "1a",
+        "prompt": "Wat zijn de alternatieve kosten als de school voor de oefenband kiest? Noem de opgegeven mogelijkheid, niet een verzonnen geldbedrag.",
+        "points": null
+      },
+      {
+        "id": "1b",
+        "prompt": "Leg uit waarom dezelfde vraag relevant is als een land productiemiddelen voor extra tassen gebruikt.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 2,
+    "section": "3.3.1",
+    "title": "Richting en betekenis",
+    "context": "Een bedrijf in Nera koopt hout uit Osta. Het verkoopt afgewerkte meubels terug aan Osta.",
+    "subquestions": [
+      {
+        "id": "2a",
+        "prompt": "Noem vanuit Nera één importstroom en één exportstroom.",
+        "points": null
+      },
+      {
+        "id": "2b",
+        "prompt": "Een leerling noemt een lage winkelprijs bewijs voor een comparatief voordeel. Welke informatie mist nog?",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 3,
+    "section": "3.3.1",
+    "title": "Lees eerst de vergelijking",
+    "context": "Gebruik de lesbron over Sol en Terra in het uitgewerkte voorbeeld.",
+    "subquestions": [
+      {
+        "id": "3a",
+        "prompt": "Onderstreep het brongegeven over benodigde productiemiddelen. Welk soort voordeel toont dat?",
+        "points": null
+      },
+      {
+        "id": "3b",
+        "prompt": "Omcirkel het brongegeven over opgegeven andere productie. Bij welk product heeft Terra een comparatief voordeel?",
+        "points": null
+      },
+      {
+        "id": "3c",
+        "prompt": "Maak af: “Terra kan zich meer richten op …, omdat het daarvoor relatief minder … opgeeft.”",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 4,
+    "section": "3.3.1",
+    "title": "Goedkoper én minder betrouwbaar",
+    "context": "Beoordeel de twee veranderingen eerst apart. Gebruik daarna de tabel als steun.",
+    "subquestions": [
+      {
+        "id": "4a",
+        "prompt": "Leg uit hoe minder materiaalgebruik de concurrentiepositie kan verbeteren, als het de kosten verlaagt.",
+        "points": null
+      },
+      {
+        "id": "4b",
+        "prompt": "Leg uit hoe de minder betrouwbare levering de concurrentiepositie kan verzwakken.",
+        "points": null
+      },
+      {
+        "id": "4c",
+        "prompt": "Is de concurrentiepositie per saldo zeker verbeterd? Geef aan welke informatie over de inkoper je nodig hebt.",
+        "points": null
+      },
+      {
+        "id": "4d",
+        "prompt": "Een leerling zegt: “Minder materiaalgebruik bewijst een comparatief voordeel.” Leg uit waarom deze bron daarvoor onvoldoende is.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 5,
+    "section": "3.3.1",
+    "title": "Ook de minder sterke producent kan meedoen",
+    "context": "Gebruik de lesbron.",
+    "subquestions": [
+      {
+        "id": "5a",
+        "prompt": "Welk land heeft in beide activiteiten een absoluut voordeel? Onderbouw met het juiste brongegeven.",
+        "points": null
+      },
+      {
+        "id": "5b",
+        "prompt": "Welke richting van specialisatie past bij de comparatieve voordelen? Leg uit met alternatieve kosten.",
+        "points": null
+      },
+      {
+        "id": "5c",
+        "prompt": "Beschrijf één mogelijke goederenstroom en benoem die vanuit beide landen.",
+        "points": null
+      },
+      {
+        "id": "5d",
+        "prompt": "Leg uit waarom de uitspraak “Sora kan beter nergens aan beginnen” onjuist is. Welke voorwaarde is nodig voor wederzijds voordeel door ruil?",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 6,
+    "section": "3.3.1",
+    "title": "Concurrentie is meer dan prijs",
+    "context": "Gebruik de lesbron.",
+    "subquestions": [
+      {
+        "id": "6a",
+        "prompt": "Welk bronfeit verklaart de gewonnen order? Verbind dat feit aan concurrentiepositie.",
+        "points": null
+      },
+      {
+        "id": "6b",
+        "prompt": "Beoordeel: “De exportorder bewijst dat alle binnenlandse ondernemingen en werknemers beter af zijn.”",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 7,
+    "section": "3.3.1",
+    "title": "Handelen ondanks twee absolute voordelen",
+    "context": "Gebruik alleen de lesbron. Reken geen productieverhoudingen uit.",
+    "subquestions": [
+      {
+        "id": "7a",
+        "prompt": "Welk land heeft een absoluut voordeel bij beide producten? Noem het brongegeven waarop je dat baseert.",
+        "points": 2
+      },
+      {
+        "id": "7b",
+        "prompt": "Leg uit bij welk product elk land een comparatief voordeel heeft. Gebruik het begrip alternatieve kosten.",
+        "points": 3
+      },
+      {
+        "id": "7c",
+        "prompt": "Beschrijf een passende richting van specialisatie en een bijbehorende handelsstroom. Benoem import en export vanuit de twee landen.",
+        "points": 2
+      },
+      {
+        "id": "7d",
+        "prompt": "Leg uit onder welke voorwaarde de ruil beide landen voordeel kan opleveren. Gebruik daarnaast één bronfeit om Asters concurrentiepositie bij pompen te verklaren.",
+        "points": 2
+      },
+      {
+        "id": "7e",
+        "prompt": "Een adviseur zegt: “Aster produceert beide goederen efficiënter, dus handel maakt alle inwoners van Aster beter af.” Beoordeel de uitspraak met een concrete groep uit de bron.",
+        "points": 2
+      }
+    ],
+    "target": true
+  },
+  {
+    "number": 8,
+    "section": "3.3.1",
+    "title": "Twee woorden, twee vragen",
+    "context": "Een advertentie zegt: “Onze koekjes zijn de goedkoopste. Daarom heeft ons land een comparatief voordeel bij koekjes.”",
+    "subquestions": [
+      {
+        "id": "8a",
+        "prompt": "Schrijf een korte reactie die uitlegt wat de advertentie wél zegt en wat zij niet bewijst.",
+        "points": null
+      },
+      {
+        "id": "8b",
+        "prompt": "Ontwerp twee korte, kwalitatieve bronzinnen die een comparatief-voordeelredenering mogelijk maken. Gebruik koekjes en één ander product, maar geen productiegetallen.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 9,
+    "section": "3.3.1",
+    "title": "De oude basis telt",
+    "context": "Een winkelprijs stijgt van € 20 naar € 25.",
+    "subquestions": [
+      {
+        "id": "9a",
+        "prompt": "Bereken de procentuele prijsstijging.",
+        "points": null
+      },
+      {
+        "id": "9b",
+        "prompt": "De prijs gaat daarna terug naar € 20. Is de procentuele daling even groot? Onderbouw met een berekening.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 10,
+    "section": "3.3.1",
+    "title": "Het verschil tussen opbrengst en voordeel",
+    "context": "Een koper wil voor een tas maximaal € 35 betalen. De verkoopprijs is € 25. Een winkel verkoopt 40 tassen voor die prijs.",
+    "subquestions": [
+      {
+        "id": "10a",
+        "prompt": "Bereken het consumentensurplus van deze ene koper.",
+        "points": null
+      },
+      {
+        "id": "10b",
+        "prompt": "Bereken de totale opbrengst van de winkel. Leg uit waarom dit niet het consumentensurplus van alle kopers is.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 11,
+    "section": "3.3.2",
+    "title": "Invullen bij een prijs",
+    "context": "Op een markt geldt Qv = 100 − 2P en Qa = 2P − 20. P is euro per product; Q is producten per week.",
+    "subquestions": [
+      {
+        "id": "11a",
+        "prompt": "Bereken Qv en Qa bij P = € 20.",
+        "points": null
+      },
+      {
+        "id": "11b",
+        "prompt": "Welke hoeveelheid hoort bij kopers en welke bij binnenlandse producenten?",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 12,
+    "section": "3.3.2",
+    "title": "Welk getal is import?",
+    "context": "Een klein land produceert 30 kratten en verbruikt 70 kratten per week. De wereldmarkt levert het verschil.",
+    "subquestions": [
+      {
+        "id": "12a",
+        "prompt": "Hoeveel kratten worden geïmporteerd?",
+        "points": null
+      },
+      {
+        "id": "12b",
+        "prompt": "Een leerling noemt 70 kratten “de import”. Leg de verwarring uit.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 13,
+    "section": "3.3.2",
+    "title": "Lees de drie labels",
+    "context": "Gebruik de volledig ingevulde importgrafiek van tassen in figuur 2 op pagina 12.",
+    "subquestions": [
+      {
+        "id": "13a",
+        "prompt": "Wijs de wereldprijslijn aan. Welk punt op de aanbodlijn bepaalt de binnenlandse productie?",
+        "points": null
+      },
+      {
+        "id": "13b",
+        "prompt": "Welk punt op de vraaglijn bepaalt het binnenlandse verbruik? Leg daarna de importpijl in woorden uit.",
+        "points": null
+      },
+      {
+        "id": "13c",
+        "prompt": "Leg met de prijsverandering uit waarom kopers en binnenlandse producenten hier niet hetzelfde belang hebben.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 14,
+    "section": "3.3.2",
+    "title": "Waar komt het verschil vandaan?",
+    "context": "Gebruik figuur 6. Je hoeft de lijnen niet opnieuw te tekenen.",
+    "subquestions": [
+      {
+        "id": "14a",
+        "prompt": "Lees bij € 10 de binnenlandse productie en het binnenlandse verbruik af. Schrijf “productie” en “verbruik” bij de juiste hoeveelheden.",
+        "points": null
+      },
+      {
+        "id": "14b",
+        "prompt": "Markeer het horizontale verschil, benoem import of export en bereken de hoeveelheid.",
+        "points": null
+      },
+      {
+        "id": "14c",
+        "prompt": "Beschrijf het effect op binnenlandse kopers en producenten ten opzichte van de prijs zonder handel. Gebruik CS en PS.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 15,
+    "section": "3.3.2",
+    "title": "Drie hoeveelheden",
+    "context": "Gebruik de lesbron en tabel.",
+    "subquestions": [
+      {
+        "id": "15a",
+        "prompt": "Bepaal productie en verbruik met handel en bereken import of export.",
+        "points": null
+      },
+      {
+        "id": "15b",
+        "prompt": "Leg met een prijsgegeven én een hoeveelheidsgegeven uit welk gevolg binnenlandse producenten ondervinden.",
+        "points": null
+      },
+      {
+        "id": "15c",
+        "prompt": "Wat gebeurt er met het consumentensurplus? Betekent een hoger totaal surplus dat niemand verliest?",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 16,
+    "section": "3.3.2",
+    "title": "De andere handelsrichting",
+    "context": "Gebruik alleen de lesbron over Vela.",
+    "subquestions": [
+      {
+        "id": "16a",
+        "prompt": "Bereken de export per week.",
+        "points": null
+      },
+      {
+        "id": "16b",
+        "prompt": "Leg uit waarom export hier binnenlandse producenten helpt, maar binnenlandse kopers benadeelt.",
+        "points": null
+      },
+      {
+        "id": "16c",
+        "prompt": "Waarom bepaalt Vela met deze export niet zelf de wereldmarktprijs?",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 17,
+    "section": "3.3.2",
+    "title": "Import en binnenlandse belangen",
+    "context": "Gebruik de lesbron en figuur 7.",
+    "subquestions": [
+      {
+        "id": "17a",
+        "prompt": "Lees bij de wereldmarktprijs de binnenlandse productie en het binnenlandse verbruik af. Bereken de import per week.",
+        "points": 3
+      },
+      {
+        "id": "17b",
+        "prompt": "Leg uit wat binnenlandse producenten merken ten opzichte van de situatie zonder handel. Gebruik prijs én productie.",
+        "points": 2
+      },
+      {
+        "id": "17c",
+        "prompt": "Leg uit wat er met het consumentensurplus van binnenlandse kopers gebeurt.",
+        "points": 2
+      },
+      {
+        "id": "17d",
+        "prompt": "Een leerling zegt: “Het totale surplus stijgt, dus alle groepen gaan erop vooruit.” Beoordeel met een concrete groep.",
+        "points": 2
+      },
+      {
+        "id": "17e",
+        "prompt": "Waarom verandert de wereldmarktprijs in dit model niet als Noro meer importeert?",
+        "points": 1
+      }
+    ],
+    "target": true
+  },
+  {
+    "number": 18,
+    "section": "3.3.2",
+    "title": "Een verborgen transportprobleem",
+    "context": "Een land kan graan voor een lage wereldmarktprijs kopen. Een afgelegen dorp heeft echter geen bruikbare vervoersverbinding met de haven.",
+    "subquestions": [
+      {
+        "id": "18a",
+        "prompt": "Welke aanname uit het marktmodel gaat voor dit dorp niet op?",
+        "points": null
+      },
+      {
+        "id": "18b",
+        "prompt": "Beoordeel: “Omdat de wereldprijs laag is, betalen alle inwoners automatisch die lage prijs.” Leg uit welke informatie nodig is om de dorpsprijs te beoordelen.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 19,
+    "section": "3.3.2",
+    "title": "Relatief minder opofferen",
+    "context": "Pavo heeft een groot absoluut voordeel bij meetapparatuur en een klein absoluut voordeel bij schoenen. Voor extra schoenen offert het relatief veel meetapparatuur op. Runo offert voor schoenen minder meetapparatuur op.",
+    "subquestions": [
+      {
+        "id": "19a",
+        "prompt": "Welk comparatief voordeel heeft Runo? Leg uit zonder een verhouding uit te rekenen.",
+        "points": null
+      },
+      {
+        "id": "19b",
+        "prompt": "Waarom verhindert Pavo’s absolute voordeel niet dat Runo kan exporteren?",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 20,
+    "section": "3.3.2",
+    "title": "Een prijsnemende onderneming",
+    "context": "Een kleine onderneming verkoopt 80 producten per week voor een gegeven prijs van € 5. Zij kan haar hele productie bij die prijs verkopen.",
+    "subquestions": [
+      {
+        "id": "20a",
+        "prompt": "Bereken TO en GO.",
+        "points": null
+      },
+      {
+        "id": "20b",
+        "prompt": "Wat is MO wanneer zij bij dezelfde prijs nog 10 producten verkoopt? Laat de extra opbrengst en de extra hoeveelheid zien.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 21,
+    "section": "3.3.3",
+    "title": "Van aantal naar overheidsbedrag",
+    "context": "Bij een al eerder geleerde productbelasting wordt € 3 per belaste eenheid afgedragen. Er zijn 40 belaste eenheden per week.",
+    "subquestions": [
+      {
+        "id": "21a",
+        "prompt": "Bereken de belastingopbrengst per week.",
+        "points": null
+      },
+      {
+        "id": "21b",
+        "prompt": "Waarom moet je weten welke eenheden belast zijn voordat je deze vermenigvuldiging uitvoert?",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 22,
+    "section": "3.3.3",
+    "title": "Niet alle verkoop is import",
+    "context": "Een land verbruikt 90 houten borden en produceert er zelf 60 per week. De invoerheffing bedraagt € 2 per ingevoerd bord.",
+    "subquestions": [
+      {
+        "id": "22a",
+        "prompt": "Over hoeveel borden ontvangt de overheid de heffing?",
+        "points": null
+      },
+      {
+        "id": "22b",
+        "prompt": "Een leerling gebruikt 90 als breedte van de opbrengstrechthoek. Leg de fout uit.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 23,
+    "section": "3.3.3",
+    "title": "Lees de ingevulde rechthoek",
+    "context": "Gebruik figuur 3 op pagina 23.",
+    "subquestions": [
+      {
+        "id": "23a",
+        "prompt": "Noem eerst de twee grenzen van de rechthoek op de hoeveelheidsas. Welk verschil geven zij aan?",
+        "points": null
+      },
+      {
+        "id": "23b",
+        "prompt": "Noem de twee grenzen op de prijsas. Waarom is het verschil de heffing per fles?",
+        "points": null
+      },
+      {
+        "id": "23c",
+        "prompt": "Bereken de oppervlakte. Leg uit waarom dit geld geen ontvangst voor de binnenlandse flessenproducenten is.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 24,
+    "section": "3.3.3",
+    "title": "Een hogere heffing, toch geen hogere winkelprijs?",
+    "context": "Behandel de twee veranderingen eerst afzonderlijk. Gebruik de tabel om je uitkomsten te ordenen.",
+    "subquestions": [
+      {
+        "id": "24a",
+        "prompt": "Vul alle lege cellen in de tabel. Bereken steeds de binnenlandse prijs.",
+        "points": null
+      },
+      {
+        "id": "24b",
+        "prompt": "Leg uit wat met de import gebeurt als alleen de wereldprijs daalt.",
+        "points": null
+      },
+      {
+        "id": "24c",
+        "prompt": "Leg uit wat met de import gebeurt als beide veranderingen plaatsvinden.",
+        "points": null
+      },
+      {
+        "id": "24d",
+        "prompt": "Een leerling zegt: “De heffing stijgt, dus de binnenlandse prijs stijgt zeker.” Waarom klopt dat niet in de uiteindelijke situatie?",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 25,
+    "section": "3.3.3",
+    "title": "Wie wordt beschermd?",
+    "context": "Gebruik de lesbron en figuur 5.",
+    "subquestions": [
+      {
+        "id": "25a",
+        "prompt": "Bereken de import na de heffing en de heffingsopbrengst per week.",
+        "points": null
+      },
+      {
+        "id": "25b",
+        "prompt": "Arceer de heffingsopbrengst in figuur 5 en benoem de breedte en hoogte.",
+        "points": null
+      },
+      {
+        "id": "25c",
+        "prompt": "Leg uit of het genoemde productiedoel door de grafiek wordt ondersteund. Benoem ook een nadeel voor binnenlandse kopers.",
+        "points": null
+      },
+      {
+        "id": "25d",
+        "prompt": "Een alternatief quotum krijgt gratis vergunningen, zonder invoerheffing. Mag je dan dezelfde overheidsopbrengst invullen? Leg uit.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 26,
+    "section": "3.3.3",
+    "title": "Welke prijs geldt?",
+    "context": "Gebruik de tweede lesbron.",
+    "subquestions": [
+      {
+        "id": "26a",
+        "prompt": "Waarom wordt de binnenlandse prijs in dit model niet automatisch € 21?",
+        "points": null
+      },
+      {
+        "id": "26b",
+        "prompt": "Wat betekent de uitkomst voor import en heffingsopbrengst?",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 27,
+    "section": "3.3.3",
+    "title": "Doel, berekening en verdeling",
+    "context": "Gebruik de lesbron, tabel en figuur 6.",
+    "subquestions": [
+      {
+        "id": "27a",
+        "prompt": "Bereken de import na de heffing en de heffingsopbrengst per week.",
+        "points": 3
+      },
+      {
+        "id": "27b",
+        "prompt": "Arceer in figuur 6 de heffingsopbrengst. Benoem de breedte en hoogte met eenheid.",
+        "points": 2
+      },
+      {
+        "id": "27c",
+        "prompt": "Leg met gegevens uit waarom binnenlandse producenten en kopers verschillend worden geraakt.",
+        "points": 2
+      },
+      {
+        "id": "27d",
+        "prompt": "Beoordeel: “Het productiedoel wordt bereikt, dus de maatregel is voor iedereen gunstig.”",
+        "points": 2
+      },
+      {
+        "id": "27e",
+        "prompt": "Waarom levert het beschreven alternatieve quotum niet dezelfde overheidsopbrengst op?",
+        "points": 2
+      }
+    ],
+    "target": true
+  },
+  {
+    "number": 28,
+    "section": "3.3.3",
+    "title": "Banen behouden is niet hetzelfde als iedereen helpen",
+    "context": "Een beleidsbrief zegt: “De heffing beschermt onze producenten. Daarom worden in het hele land meer banen gecreëerd.” De brief bevat alleen de binnenlandse prijs en de productie in deze ene bedrijfstak.",
+    "subquestions": [
+      {
+        "id": "28a",
+        "prompt": "Leg uit welk deel van de redenering door zulke cijfers ondersteund kan worden en welke sprong niet bewezen is.",
+        "points": null
+      },
+      {
+        "id": "28b",
+        "prompt": "Noem twee soorten aanvullende informatie die je zou vragen om de bredere werkgelegenheidsclaim te beoordelen. Je hoeft geen arbeidsmarktformules te gebruiken.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 29,
+    "section": "3.3.3",
+    "title": "Verschillende belastinggrondslagen",
+    "context": "In een eerder geleerde algemene productbelasting zijn alle 100 verkochte producten belast met € 2. In een andere situatie belast een invoerheffing alleen 30 ingevoerde producten met € 2.",
+    "subquestions": [
+      {
+        "id": "29a",
+        "prompt": "Bereken in beide situaties de overheidsopbrengst.",
+        "points": null
+      },
+      {
+        "id": "29b",
+        "prompt": "Leg uit waarom dezelfde heffing per eenheid niet automatisch dezelfde totale opbrengst geeft.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 30,
+    "section": "3.3.3",
+    "title": "Een prijsstijging en de reactie",
+    "context": "Een prijs stijgt van € 10 naar € 12. De gevraagde hoeveelheid daalt van 100 naar 90.",
+    "subquestions": [
+      {
+        "id": "30a",
+        "prompt": "Bereken de prijselasticiteit van de vraag met de oude waarden als basis.",
+        "points": null
+      },
+      {
+        "id": "30b",
+        "prompt": "Is de vraag prijselastisch of prijsinelastisch? Gebruik de absolute waarde van Ev.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 31,
+    "section": "3.3.4",
+    "title": "Kies het passende begrip",
+    "context": "Koppel elke vraag aan het passende begrip. Licht één keuze toe.",
+    "subquestions": [
+      {
+        "id": "31a",
+        "prompt": "“Wie geeft voor extra textiel relatief minder machineproductie op?” Kies: absoluut voordeel, comparatief voordeel of totale opbrengst.",
+        "points": null
+      },
+      {
+        "id": "31b",
+        "prompt": "“Hoeveel koopt het land bij van het buitenland?” Kies: binnenlands verbruik, binnenlandse productie of import.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 32,
+    "section": "3.3.4",
+    "title": "Een hogere wereldprijs",
+    "context": "Een klein prijsnemend land kan appels uitvoeren. Zonder handel was de prijs € 2 per kg. Met handel is die € 3. Bij € 3 is het binnenlandse aanbod 100 kg en de binnenlandse vraag 60 kg per week. Overige modelaannames blijven gelijk.",
+    "subquestions": [
+      {
+        "id": "32a",
+        "prompt": "Bereken de export per week.",
+        "points": null
+      },
+      {
+        "id": "32b",
+        "prompt": "Leg uit waarom een appelteler en een binnenlandse appelkoper verschillend kunnen oordelen over deze handelsmogelijkheid.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 33,
+    "section": "3.3.4",
+    "title": "Een verstandig besluit?",
+    "context": "Beoordeel de situatie uitsluitend met de lesbron.",
+    "subquestions": [
+      {
+        "id": "33a",
+        "prompt": "Leg uit waarom import van verpakkingen door Toren kan passen bij comparatief voordeel, hoewel Toren beide producten met minder middelen kan maken.",
+        "points": null
+      },
+      {
+        "id": "33b",
+        "prompt": "Beschrijf de levering van verpakkingen vanuit het gezichtspunt van beide landen.",
+        "points": null
+      },
+      {
+        "id": "33c",
+        "prompt": "Welke broninformatie ondersteunt een concurrentievoordeel van Vale’s leverancier naast de productiemiddelenvergelijking?",
+        "points": null
+      },
+      {
+        "id": "33d",
+        "prompt": "Een woordvoerder zegt: “Alle bedrijven in Toren profiteren van de import.” Beoordeel deze uitspraak.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 34,
+    "section": "3.3.4",
+    "title": "Een heffing verdedigen of afwijzen",
+    "context": "Gebruik de lesbron en tabel.",
+    "subquestions": [
+      {
+        "id": "34a",
+        "prompt": "Bereken de resterende import en de heffingsopbrengst per week.",
+        "points": null
+      },
+      {
+        "id": "34b",
+        "prompt": "Geef met de tabel een argument vóór de maatregel vanuit een binnenlandse producent.",
+        "points": null
+      },
+      {
+        "id": "34c",
+        "prompt": "Geef met de tabel een argument tegen de maatregel vanuit een binnenlandse koper.",
+        "points": null
+      },
+      {
+        "id": "34d",
+        "prompt": "Formuleer een conclusie waarin je het productiedoel beoordeelt, maar niet beweert dat alle inwoners erop vooruitgaan.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 35,
+    "section": "3.3.4",
+    "title": "Regenjassen in Nerin",
+    "context": "Gebruik de drie bronnen, de tabel en figuur 3 op pagina 34. Noteer bij berekeningen de eenheden en bij uitleg het gebruikte brongegeven.",
+    "subquestions": [
+      {
+        "id": "35a",
+        "prompt": "Leg met bron A uit waarom Pelta een comparatief voordeel kan hebben bij regenjassen, terwijl Nerin bij beide activiteiten een absoluut voordeel heeft.",
+        "points": 3
+      },
+      {
+        "id": "35b",
+        "prompt": "Bereken met bron B de import na de heffing en de heffingsopbrengst per week.",
+        "points": 3
+      },
+      {
+        "id": "35c",
+        "prompt": "Leg met prijs én hoeveelheid uit wat de maatregel betekent voor binnenlandse jassenmakers en binnenlandse kopers.",
+        "points": 3
+      },
+      {
+        "id": "35d",
+        "prompt": "Arceer de heffingsopbrengst in figuur 3. Benoem de breedte en hoogte met hun eenheden.",
+        "points": 2
+      },
+      {
+        "id": "35e",
+        "prompt": "Waarom mag de overheid bij het quotum uit bron C niet zonder meer dezelfde ontvangsten verwachten?",
+        "points": 2
+      },
+      {
+        "id": "35f",
+        "prompt": "De minister zegt: “De binnenlandse productie stijgt, dus de heffing is voor alle inwoners gunstig.” Geef een oordeel met twee concrete gegevens uit de bronnen of tabel. Maak duidelijk welke conclusie wél wordt ondersteund.",
+        "points": 3
+      }
+    ],
+    "target": true
+  },
+  {
+    "number": 36,
+    "section": "3.3.4",
+    "title": "Past deze aanname?",
+    "context": "Je hoeft geen nieuwe grafiek of prijsberekening te maken.",
+    "subquestions": [
+      {
+        "id": "36a",
+        "prompt": "Welke aanname botst met de informatie in de bron?",
+        "points": null
+      },
+      {
+        "id": "36b",
+        "prompt": "Leg uit waarom kopers met verschillende wensen toch verschillende keuzes kunnen maken.",
+        "points": null
+      },
+      {
+        "id": "36c",
+        "prompt": "Formuleer een betere conclusie die onderscheid maakt tussen de uitkomst van het vereenvoudigde model en de beschreven praktijk.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 37,
+    "section": "3.3.4",
+    "title": "Een bekende heffing, geen invoerheffing",
+    "context": "Op een binnenlandse markt betaalt de koper na een algemene productbelasting € 12. De verkoper houdt € 9 per product over. Er worden 40 belaste producten per week verkocht.",
+    "subquestions": [
+      {
+        "id": "37a",
+        "prompt": "Bereken de belasting per product en de belastingopbrengst per week.",
+        "points": null
+      },
+      {
+        "id": "37b",
+        "prompt": "Leg uit waarom je hier wél alle 40 verkochte producten gebruikt en bij een invoerheffing niet automatisch alle binnenlandse verkoop.",
+        "points": null
+      }
+    ],
+    "target": false
+  },
+  {
+    "number": 38,
+    "section": "3.3.4",
+    "title": "Een producent onder concurrentie",
+    "context": "Een prijsnemende producent verkoopt 100 producten per week voor € 8. Zijn totale kosten zijn € 650 per week. Andere ondernemingen kunnen vrij toetreden met dezelfde kostenmogelijkheden.",
+    "subquestions": [
+      {
+        "id": "38a",
+        "prompt": "Bereken zijn totale opbrengst en winst per week.",
+        "points": null
+      },
+      {
+        "id": "38b",
+        "prompt": "Leg uit welke richting van aanpassing je op lange termijn verwacht voor het marktaanbod en de prijs, zolang de overige omstandigheden gelijk blijven.",
+        "points": null
+      }
+    ],
+    "target": false
+  }
+]

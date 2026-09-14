@@ -1,0 +1,664 @@
+[
+  {
+    "term": "Afzet",
+    "definitions": [
+      {
+        "text": "De verkochte hoeveelheid in een aangegeven periode. Bij één onderneming schrijven we q.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Arbeidsaanbod",
+    "definitions": [
+      {
+        "text": "Arbeid die huishoudens bij een bepaald loon willen aanbieden. In bevolkingsbronnen wordt het actuele aanbod in personen vaak met de beroepsbevolking aangeduid.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Arbeidsproductiviteit",
+    "definitions": [
+      {
+        "text": "Productie per eenheid arbeidsinzet, bijvoorbeeld per gewerkt uur.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Arbeidsvraag",
+    "definitions": [
+      {
+        "text": "Arbeid die werkgevers bij een bepaald loon willen inzetten. In de gebruikte tellingen: werkgelegenheid plus vacatures.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Beroepsbevolking",
+    "definitions": [
+      {
+        "text": "Werkenden plus werklozen, binnen het gekozen leeftijdsbereik.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Bindend minimumloon",
+    "definitions": [
+      {
+        "text": "Loonvloer boven het vrije evenwichtsloon, die dat evenwicht uitsluit.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Break-even",
+    "definitions": [
+      {
+        "text": "TO en TK zijn gelijk; de winst is nul.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Bruto-arbeidsparticipatie",
+    "definitions": [
+      {
+        "text": "Beroepsbevolking als percentage van de bevolking in de opgegeven groep.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Cao",
+    "definitions": [
+      {
+        "text": "Collectieve arbeidsovereenkomst: gezamenlijke afspraken over arbeidsvoorwaarden.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Conjuncturele werkloosheid",
+    "definitions": [
+      {
+        "text": "Werkloosheid door te weinig vraag naar goederen en diensten.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Constante kosten",
+    "definitions": [
+      {
+        "text": "Totale kosten die in de aangegeven periode gelijk blijven bij verandering van de productie, tot de productiecapaciteit.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Consumentensurplus (CS)",
+    "definitions": [
+      {
+        "text": "Het gezamenlijke verschil tussen betalingsbereidheid en betaalde prijs op verkochte eenheden.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Efficiënte hoeveelheid",
+    "definitions": [
+      {
+        "text": "Hoeveelheid waarbij het relevante maatschappelijke surplus maximaal is onder de gegeven aannames.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Evenwichtsloon",
+    "definitions": [
+      {
+        "text": "Loon waarbij arbeidsvraag en arbeidsaanbod in het model gelijk zijn.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Externe baten",
+    "definitions": [
+      {
+        "text": "Niet-vergoede voordelen voor derden door productie of consumptie.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Externe kosten",
+    "definitions": [
+      {
+        "text": "Niet-vergoede nadelen voor derden door productie of consumptie.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Flexwerk",
+    "definitions": [
+      {
+        "text": "Werk met bijvoorbeeld tijdelijke contracten of wisselende uren.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Frictiewerkloosheid",
+    "definitions": [
+      {
+        "text": "Werkloosheid doordat zoeken en overstappen tijd kost. Hier onderdeel van structurele werkloosheid.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Fte",
+    "definitions": [
+      {
+        "text": "Fulltime-equivalent: arbeidsduur omgerekend naar voltijdbanen.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Gemiddelde opbrengst (GO)",
+    "definitions": [
+      {
+        "text": "TO per verkochte eenheid. Bij een uniforme prijs is GO = P voor q > 0.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Gemiddelde totale kosten (GTK)",
+    "definitions": [
+      {
+        "text": "TK gedeeld door de productiehoeveelheid, voor q > 0.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Heffingswig",
+    "definitions": [
+      {
+        "text": "Verschil Pc − Pp door een heffing per transactie.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Heterogeen product",
+    "definitions": [
+      {
+        "text": "Kopers zien relevante verschillen tussen de producten van aanbieders.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Homogeen product",
+    "definitions": [
+      {
+        "text": "Kopers zien de producten van aanbieders als gelijkwaardig.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Loonkosten per product",
+    "definitions": [
+      {
+        "text": "Loonkosten gedeeld door de geproduceerde hoeveelheid.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Loonsom",
+    "definitions": [
+      {
+        "text": "Totale loonbetaling voor daadwerkelijk betaalde arbeid in een periode.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Maatschappelijk surplus",
+    "definitions": [
+      {
+        "text": "De hier gebruikte euro-maatstaf die ook de opgegeven gevolgen voor derden en overheid meeneemt.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Marginale kosten (MK)",
+    "definitions": [
+      {
+        "text": "De extra kosten per extra eenheid; in het doorlopende model de afgeleide van TK.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      },
+      {
+        "text": "Kosten van een extra eenheid; private en maatschappelijke kosten kunnen verschillen.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Marginale opbrengst (MO)",
+    "definitions": [
+      {
+        "text": "De extra opbrengst per extra eenheid; in het doorlopende model de afgeleide van TO.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      },
+      {
+        "text": "Extra opbrengst van meer afzet voor de onderneming. Dit is niet de maatschappelijke batenlijn.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Marktfalen",
+    "definitions": [
+      {
+        "text": "De marktuitkomst benut onder de gegeven omstandigheden niet het maximaal haalbare maatschappelijke surplus.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Marktmacht",
+    "definitions": [
+      {
+        "text": "Invloed kunnen uitoefenen op de verkoopprijs.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      },
+      {
+        "text": "Mogelijkheid van een aanbieder om de verkoopprijs te beïnvloeden.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Minimumloon",
+    "definitions": [
+      {
+        "text": "Ondergrens aan het loon; niet automatisch het feitelijk betaalde loon.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Monopolie",
+    "definitions": [
+      {
+        "text": "Eén aanbieder op de afgebakende markt.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      },
+      {
+        "text": "Eén aanbieder op de afgebakende markt, met belemmerde toetreding.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Monopolistische concurrentie",
+    "definitions": [
+      {
+        "text": "Veel aanbieders met verschillende producten en relatief eenvoudige toetreding.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Netto-arbeidsparticipatie",
+    "definitions": [
+      {
+        "text": "Werkenden als percentage van de bevolking in de opgegeven groep.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Niet-beroepsbevolking",
+    "definitions": [
+      {
+        "text": "Mensen zonder betaald werk die niet recent zoeken of niet direct beschikbaar zijn.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Oligopolie",
+    "definitions": [
+      {
+        "text": "Enkele grote aanbieders; keuzes kunnen afhangen van reacties van concurrenten.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Overdracht",
+    "definitions": [
+      {
+        "text": "Een betaling of voordeel verschuift tussen partijen binnen de onderzochte groep.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Prijsdiscriminatie",
+    "definitions": [
+      {
+        "text": "Verschillende prijzen voor hetzelfde product die niet door kostenverschillen worden verklaard.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Prijsnemer",
+    "definitions": [
+      {
+        "text": "Een onderneming die de marktprijs als gegeven neemt.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Producentensurplus (PS)",
+    "definitions": [
+      {
+        "text": "Opbrengst boven variabele kosten. Voor winst moeten constante kosten er nog af.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Productiecapaciteit",
+    "definitions": [
+      {
+        "text": "De maximaal uitvoerbare productie in de aangegeven periode.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Structurele werkloosheid",
+    "definitions": [
+      {
+        "text": "Werkloosheid door onder meer een blijvend veranderde vraag naar arbeid of een slechte aansluiting tussen werk en werknemers.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Subsidiewig",
+    "definitions": [
+      {
+        "text": "Verschil Pp − Pc door een subsidie per gesubsidieerde transactie.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Toetredingsbarrière",
+    "definitions": [
+      {
+        "text": "Een belemmering waardoor nieuwe aanbieders moeilijk of niet kunnen beginnen.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Totale opbrengst (TO)",
+    "definitions": [
+      {
+        "text": "De opbrengst van alle verkochte eenheden: P × q. Ook omzet genoemd.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Totale surplus (TS)",
+    "definitions": [
+      {
+        "text": "CS + PS; bij externe effecten of overheid is dit alleen niet altijd de volledige maatschappelijke rekening.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Uitvoeringskosten",
+    "definitions": [
+      {
+        "text": "Echte middelen die nodig zijn voor het uitvoeren en controleren van beleid.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Uniforme verkoopprijs",
+    "definitions": [
+      {
+        "text": "Binnen één verkoopplan betalen kopers dezelfde prijs per eenheid.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Vacature",
+    "definitions": [
+      {
+        "text": "Arbeidsplaats waarvoor nog iemand wordt gezocht.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Vakbond",
+    "definitions": [
+      {
+        "text": "Organisatie die belangen van werknemers behartigt en over arbeidsvoorwaarden kan onderhandelen.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Volkomen concurrentie",
+    "definitions": [
+      {
+        "text": "Veel kleine aanbieders, een homogeen product en vrije toetreding; ondernemingen nemen de prijs als gegeven.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Vraaglijn van de monopolist",
+    "definitions": [
+      {
+        "text": "Geeft de prijs-afzetcombinaties voor de hele afgebakende markt. Bij één prijs is dit ook de GO-lijn.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Welvaartsverlies",
+    "definitions": [
+      {
+        "text": "Verschil tussen het haalbare en feitelijke maatschappelijke surplus onder dezelfde vergelijkingsvoorwaarden.",
+        "chapter": 2,
+        "local_page": 60,
+        "source_file": "source_chapters/Boek_4_H2_bronpakket/08 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Werkgelegenheid",
+    "definitions": [
+      {
+        "text": "De bezette arbeidsplaatsen of hoeveelheid verrichte arbeid; let op personen, banen, uren of fte.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Werkloze beroepsbevolking",
+    "definitions": [
+      {
+        "text": "Mensen zonder betaald werk die recent hebben gezocht en direct beschikbaar zijn.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Winst",
+    "definitions": [
+      {
+        "text": "TO min TK. Een maximum van de winst hoeft niet positief te zijn.",
+        "chapter": 1,
+        "local_page": 38,
+        "source_file": "source_chapters/Boek_4_H1_bronpakket/05 Overzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Zzp’er",
+    "definitions": [
+      {
+        "text": "Zelfstandige zonder personeel, niet hetzelfde als een flexwerknemer.",
+        "chapter": 3,
+        "local_page": 50,
+        "source_file": "source_chapters/Boek_4_H3_bronpakket/07 Overzicht.md"
+      }
+    ]
+  }
+]

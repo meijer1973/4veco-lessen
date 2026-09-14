@@ -1,0 +1,515 @@
+[
+  {
+    "number": 1,
+    "title": "Terug naar de prijsnemer",
+    "context": "Eén kleine producent ontvangt € 10 per kg. TK = 0,10q² + 2q + 40 en MK = 0,20q + 2. q is kg per week. De productiecapaciteit is 60 kg. De € 40 blijft deze week ook bij q = 0 bestaan.",
+    "questions": [
+      "Geef GO en MO. Bereken met MO = MK de winstmaximale q en controleer of die haalbaar is.",
+      "Bereken bij die q de totale opbrengst, totale kosten en winst. Waarom hoort de horizontale opbrengstlijn bij deze onderneming en niet bij de hele markt?"
+    ],
+    "section": "4.1.1",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 2,
+    "title": "Eén merk in de winkel",
+    "context": "Een winkel verkoopt als enige in het dorp het merk Pico. Twee andere winkels verkopen vergelijkbare producten. Klanten vinden die producten goede alternatieven.",
+    "questions": [
+      "Is dit genoeg bewijs voor een monopolie op de markt voor dit soort producten? Leg uit met de bron.",
+      "Wat kunnen klanten volgens de bron doen als de winkel zijn prijs sterk verhoogt?"
+    ],
+    "section": "4.1.1",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 3,
+    "title": "De gelabelde vraaglijn",
+    "context": "Gebruik figuur 3. Deze oefenonderneming is de enige aanbieder van de beschreven toegangsdienst.",
+    "questions": [
+      "Lees voor A en B de prijs en de afzet af. Wat gebeurt er met de prijs wanneer de afzet van A naar B gaat?",
+      "Een manager wil de afzet van B en de prijs van A combineren. Leg uit waarom die combinatie niet bij deze vraaglijn past."
+    ],
+    "section": "4.1.1",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 4,
+    "title": "Een besloten tuin",
+    "context": "Alleen Tuinpoort verkoopt toegang tot een historische tuin. Gebruik P = 18 − 0,10q. P is euro per kaartje; q is kaartjes per dag, van 0 tot 180.",
+    "questions": [
+      "Bereken de prijzen bij q = 40 en q = 80. Gebruik: P = 18 − 0,10 × … .",
+      "Los nu 12 = 18 − 0,10q op. Leg uit wat de uitkomst betekent voor Tuinpoort."
+    ],
+    "section": "4.1.1",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 5,
+    "title": "Twee veranderingen tegelijk",
+    "context": "De enige aanbieder van grotbezoeken verlaagt zijn eigen toegangsprijs. Tegelijk komen meer toeristen naar de regio. Zij willen bij elke mogelijke prijs samen meer bezoeken boeken. De capaciteit is groot genoeg.",
+    "questions": [
+      "Bekijk alleen de prijsverlaging. Is dit een beweging langs de vraaglijn of een verschuiving van de lijn? Wat gebeurt er met de afzet?",
+      "Bekijk alleen de extra toeristen. Welke verandering van de vraaglijn hoort daarbij?",
+      "Versterken de twee veranderingen de stijging van de afzet of werken ze elkaar tegen?",
+      "Een leerling zegt: “De prijsverlaging verschuift de vraaglijn naar rechts.” Leg uit welke twee oorzaken hij verwart."
+    ],
+    "section": "4.1.1",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 6,
+    "title": "Een beschermd filter",
+    "context": "Alleen Filtera mag in deze oefencase een bepaald beschermd filter maken. Er zijn binnen de afgebakende markt geen goede vervangers. Voor de verkoop geldt P = 40 − 0,50q, met q van 0 tot 80 filters per maand en P in euro per filter.",
+    "questions": [
+      "Noem de toetredingsbarrière en leg met de bron uit waarom we hier een monopolie onderzoeken.",
+      "Bereken P bij q = 20 en q = 40. Kan Filtera 40 filters verkopen voor de prijs die bij q = 20 hoort? Verklaar."
+    ],
+    "section": "4.1.1",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 7,
+    "title": "Twee leverancierssituaties",
+    "context": "A: veel kleine bedrijven leveren dezelfde schroeven; kopers kennen de prijzen en nieuwe bedrijven kunnen vrij beginnen. B: één bedrijf bezit de enige toegang tot een noodzakelijke voorziening; andere bedrijven kunnen die niet gebruiken.",
+    "questions": [
+      "Koppel elke situatie aan volkomen concurrentie of monopolie. Geef per situatie één brongegeven als bewijs.",
+      "Welke onderneming krijgt in dit model een horizontale vraaglijn en welke een dalende? Licht het verschil toe."
+    ],
+    "section": "4.1.1",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 8,
+    "title": "Eilandveer",
+    "context": "Gebruik beide bronnen en figuur 4.",
+    "questions": [
+      "Welk gegeven vormt hier een toetredingsbarrière? Leg uit waarom dit een monopolie op de beschreven verbinding ondersteunt.",
+      "Noem twee verschillen met volkomen concurrentie: één over toetreding en één over de vraaglijn van de onderneming.",
+      "Bereken de prijs bij punt A met q = 60 en bij punt B met q = 120.",
+      "De eigenaar wil 120 kaartjes verkopen voor € 18. Is dat volgens de bron haalbaar? Onderbouw met de vraagfunctie.",
+      "Beoordeel: “Zonder concurrenten kan ik elke prijs vragen én dezelfde afzet houden.” Gebruik de bron om je antwoord te begrenzen."
+    ],
+    "section": "4.1.1",
+    "group": "target",
+    "points": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Welke markt teken je?",
+    "context": "Een onderneming is als enige eigenaar van een uitkijktoren. In de omgeving liggen ook een uitzichtheuvel en een panoramacafé. Twee leerlingen tekenen de markt anders: de eerste bekijkt “toegang tot deze toren”, de tweede “uitstapjes met uitzicht”.",
+    "questions": [
+      "Leg uit waarom de keuze van de marktgrens invloed heeft op de conclusie “dit is een monopolie”.",
+      "Noem één extra gegeven over het gedrag van bezoekers dat je zou willen weten. Leg uit hoe dat helpt.",
+      "Kan alleenrecht op de toren samengaan met een sterke reactie op een prijsverhoging? Licht toe zonder een elasticiteitsformule te gebruiken."
+    ],
+    "section": "4.1.1",
+    "group": "bonus",
+    "points": null
+  },
+  {
+    "number": 10,
+    "title": "Kosten en omzet blijven verschillend",
+    "context": "Een onderneming verkoopt 60 kg per week voor € 9 per kg. TK = 100 + 4q; q is kg per week en TK euro per week.",
+    "questions": [
+      "Bereken TO, TK, GTK en winst bij q = 60. Reken met ongeronde GTK.",
+      "In een andere waarneming stijgt de prijs met 10% en daalt de afzet met 15%. Bereken Ev en bepaal of de vraag prijselastisch is."
+    ],
+    "section": "4.1.1",
+    "group": "review",
+    "points": null
+  },
+  {
+    "number": 11,
+    "title": "Vermenigvuldigen en differentiëren",
+    "context": "Gebruik de beperkte regel uit Boek 3: de afgeleide van aq² + bq + c is 2aq + b.",
+    "questions": [
+      "Werk uit: (18 − 0,10q) × q. Schrijf daarna de afgeleide van de uitkomst op.",
+      "Een andere onderneming heeft TK = 0,05q² + 3q + 90. Stel MK op. Wat gebeurt er met de constante term 90?"
+    ],
+    "section": "4.1.2",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 12,
+    "title": "Een extra kg brengt toch de prijs op?",
+    "context": "Een leerling bekijkt Luma uit het uitgewerkte voorbeeld en zegt: “De prijs bij 40 kg is € 8. Dus 10 kg extra verkopen geeft € 80 extra totale opbrengst.”",
+    "questions": [
+      "Welke verandering op de eerste 30 kg ontbreekt in deze redenering?",
+      "Herstel de redenering en bereken de werkelijke verandering van TO."
+    ],
+    "section": "4.1.2",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 13,
+    "title": "Twee gekleurde stroken",
+    "context": "Voor een oefenmonopolist geldt P = 16 − 0,20q. q is kg per week. Vergelijk 20 en 30 kg in figuur 10.",
+    "questions": [
+      "Lees af welke prijs bij 20 kg en welke prijs bij 30 kg hoort. Welke strook hoort bij de extra kg?",
+      "Welke strook hoort bij de lagere prijs op de eerste 20 kg? Controleer daarmee de netto toename van TO.",
+      "Bereken de gemiddelde extra opbrengst per kg over de toename van 20 naar 30 kg."
+    ],
+    "section": "4.1.2",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 14,
+    "title": "Van sportgel naar een formule",
+    "context": "Sportgel Sana heeft in deze oefencase vraag P = 18 − 0,20q. q is kg per week, van 0 tot 90. Iedereen betaalt dezelfde prijs.",
+    "questions": [
+      "Vul aan: TO = (18 − 0,20q) × q = …q − …q². Schrijf daarna MO op.",
+      "Neem de tabel hieronder over en vul eerst P, daarna TO in.",
+      "Bereken ΔTO / Δq van 20 naar 30 kg. Bereken ook MO bij q = 20. Waarom mag je niet eisen dat beide uitkomsten gelijk zijn?"
+    ],
+    "section": "4.1.2",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 15,
+    "title": "Twee omzetveranderingen tegelijk",
+    "context": "Een verkoper van een uniek mengsel vergelijkt twee weekplannen: 40 kg tegen € 15 of 50 kg tegen € 13. Iedereen betaalt binnen een plan dezelfde prijs.",
+    "questions": [
+      "Bereken alleen de opbrengst van de 10 extra kg in het tweede plan.",
+      "Bereken afzonderlijk hoeveel minder opbrengst de eerste 40 kg in dat plan geven.",
+      "Combineer beide effecten. Controleer je uitkomst ook met TO nieuw − TO oud.",
+      "Een leerling noemt alleen de extra kg en concludeert dat de omzet € 130 stijgt. Leg uit waarom zijn antwoord te hoog is."
+    ],
+    "section": "4.1.2",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 16,
+    "title": "Unieke geurstof",
+    "context": "Voor een geurstof geldt P = 25 − 0,25q. q is kg per week, van 0 tot 100; P is euro per kg. De verkoopprijs is uniform.",
+    "questions": [
+      "Stel TO en MO op. Bereken P en TO bij q = 20 en q = 40.",
+      "Bereken de gemiddelde extra opbrengst per kg van 20 naar 40 kg en MO bij q = 20. Verklaar het verschil.",
+      "Verdeel de verandering in TO over extra afzet en minder opbrengst op de eerste hoeveelheid. Controleer dat het totaal overeenkomt."
+    ],
+    "section": "4.1.2",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 17,
+    "title": "Prijs positief, MO negatief",
+    "context": "Een producent heeft P = 24 − 0,20q en MO = 24 − 0,40q. Gebruik figuur 11; q is kg per week.",
+    "questions": [
+      "Lees of bereken P en MO bij q = 80. Leg uit hoe P positief kan zijn terwijl MO negatief is.",
+      "Een kleine vermindering van de afzet rond 80 kg is gunstig voor TO. Leg uit waarom. Kun je zonder kosten ook de winstmaximale q noemen?"
+    ],
+    "section": "4.1.2",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 18,
+    "title": "Pigment Prisma",
+    "context": "Gebruik de bron. Noteer bij ieder bedrag wat het meet.",
+    "questions": [
+      "Stel uit de vraagfunctie de TO-functie en de MO-functie op. Laat de tussenstap met haakjes zien.",
+      "Neem de tabel over en vul de prijzen en totale opbrengsten in.",
+      "Bereken met de tabel de gemiddelde extra opbrengst per kg van 20 naar 30 kg. Bereken daarnaast MO bij q = 20 en leg uit waarom de uitkomsten verschillen.",
+      "Bereken voor de stap van 20 naar 30 kg afzonderlijk de opbrengst van de extra kg en de lagere opbrengst op de eerste 20 kg. Controleer de netto omzettoename.",
+      "Een leerling zegt: “Bij q = 20 is de prijs € 20. Daarom moet MO ook € 20 zijn.” Beoordeel met je berekening en de uniforme prijs uit de bron."
+    ],
+    "section": "4.1.2",
+    "group": "target",
+    "points": [
+      2,
+      2,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "number": 19,
+    "title": "Dezelfde TO, een andere reactie",
+    "context": "Voor een onderneming geldt P = 20 − 0,20q. Bij 20 kg is P = € 16; bij 80 kg is P = € 4. Beide weekplannen geven TO = € 320.",
+    "questions": [
+      "Een leerling zegt: “Omdat de omzet gelijk is, heeft een kleine extra afzet in beide situaties hetzelfde effect.” Beoordeel met de MO-functie.",
+      "Leg uit welke kleine aanpassing de omzet in elk plan kan verhogen. Beschrijf het verschil met een schets of in woorden.",
+      "Waarom vertelt gelijke omzet nog niet welke van de twee plannen de grootste winst geeft?"
+    ],
+    "section": "4.1.2",
+    "group": "bonus",
+    "points": null
+  },
+  {
+    "number": 20,
+    "title": "De prijsnemer herkennen",
+    "context": "Een kleine kruidenleverancier is prijsnemer bij P = € 12 per kg. TK = 0,10q² + 4q + 100. De capaciteit is 60 kg per week; de constante kosten zijn deze week onvermijdbaar.",
+    "questions": [
+      "Stel TO, MO en MK op. Bereken de winstmaximale haalbare q.",
+      "Bereken de winst. Leg uit waarom MO bij deze onderneming wel gelijk is aan de verkoopprijs."
+    ],
+    "section": "4.1.2",
+    "group": "review",
+    "points": null
+  },
+  {
+    "number": 21,
+    "title": "Opbrengst en kosten terughalen",
+    "context": "Voor een onderneming geldt P = 20 − 0,10q en TK = 0,05q² + 2q + 50. q is kg per week.",
+    "questions": [
+      "Stel TO, MO en MK op.",
+      "Bereken P, MO en MK bij q = 40. Is een kleine uitbreiding rond die q gunstig voor de winst?"
+    ],
+    "section": "4.1.3",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 22,
+    "title": "Welk getal is de prijs?",
+    "context": "Bij een afzet van 30 kg lees je in een ondernemingsgrafiek af: MO = MK = € 8 per kg en GO = € 14 per kg.",
+    "questions": [
+      "Welke prijs betalen de kopers bij die afzet?",
+      "Bereken TO. Welke informatie ontbreekt nog om de totale winst te berekenen?"
+    ],
+    "section": "4.1.3",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 23,
+    "title": "Volg de gemarkeerde route",
+    "context": "Gebruik figuur 17. De afzet is al gekozen; alle kg worden verkocht.",
+    "questions": [
+      "Leg uit waarom punt 1 de afzet bepaalt en punt 2 de verkoopprijs geeft.",
+      "De totale kosten bij q = 80 zijn € 420. Bereken de winst met de afgelezen prijs."
+    ],
+    "section": "4.1.3",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 24,
+    "title": "Waslaag Wavo",
+    "context": "Voor deze oefenmonopolist geldt P = 28 − 0,20q, TO = 28q − 0,20q² en TK = 8q + 100. q is kg per week. De capaciteit is 100 kg; de € 100 blijft ook zonder productie bestaan.",
+    "questions": [
+      "Stel MO en MK op. Los MO = MK op. Controleer dat de afzet past binnen de capaciteit en dat MO daarna onder MK ligt.",
+      "Markeer in figuur 18 de gevonden q en ga bij dezelfde q naar GO. Noteer de prijs.",
+      "Bereken TO, TK en winst bij deze combinatie."
+    ],
+    "section": "4.1.3",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 25,
+    "title": "Twee wijzigingen bij Wavo",
+    "context": "Begin telkens bij de gegevens van opgave 24. Door meer belangstelling wordt de vraag P = 32 − 0,20q. Tegelijk stijgen de constante kosten van € 100 naar € 180; de variabele kosten en capaciteit blijven gelijk.",
+    "questions": [
+      "Bekijk alleen de nieuwe vraag. Welke nieuwe MO hoort erbij en welke q volgt?",
+      "Bekijk alleen de hogere constante kosten. Verandert MK of de gekozen q? Wat gebeurt er bij dezelfde q met de winst?",
+      "Welke q en P horen bij beide veranderingen samen?",
+      "Weerleg: “Alle kosten stijgen, dus de monopolist moet minder produceren.”"
+    ],
+    "section": "4.1.3",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 26,
+    "title": "Hars Helder",
+    "context": "P = 40 − 0,20q en TK = 0,10q² + 4q + 100. q is kg per week; P is euro per kg; TK is euro per week. De capaciteit is 70 kg en de € 100 blijft deze week ook bij q = 0 bestaan.",
+    "questions": [
+      "Stel TO, MO en MK op. Bepaal de winstmaximale haalbare q en onderbouw met de marginale vergelijking.",
+      "Bereken de verkoopprijs. Markeer q en P in figuur 19.",
+      "Bereken de totale winst. Controleer dat niet produceren geen betere uitkomst geeft."
+    ],
+    "section": "4.1.3",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 27,
+    "title": "Een kleinere machine",
+    "context": "P = 22 − 0,20q en TK = 2q + 50. q is kg per week. De machine kan maximaal 40 kg produceren. De € 50 is deze week onvermijdbaar.",
+    "questions": [
+      "Bereken eerst de theoretische q bij MO = MK. Kies daarna de beste haalbare q en leg uit.",
+      "Bereken P en de totale winst bij de werkelijk gekozen q. Waarom hoort daar een andere prijs bij dan bij de theoretische kandidaat?"
+    ],
+    "section": "4.1.3",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 28,
+    "title": "Korrels Nova",
+    "context": "Gebruik de bron en figuur 20.",
+    "questions": [
+      "Stel TO, MO en MK op.",
+      "Bereken de winstmaximale haalbare q. Controleer het verloop van MO tegenover MK en de capaciteit.",
+      "Bereken de bijbehorende verkoopprijs.",
+      "Bereken TO, TK, winst en GTK. Controleer ook de uitkomst bij q = 0.",
+      "Markeer in de grafiek de gekozen q en P. Maak met hulplijnen zichtbaar hoe je van MO = MK naar de verkoopprijs gaat.",
+      "Een leerling gebruikt P = MK en vindt q = 60. Leg uit waarom dit niet de juiste winstkeuze is. Gebruik de marginale bedragen bij q = 60."
+    ],
+    "section": "4.1.3",
+    "group": "target",
+    "points": [
+      2,
+      3,
+      1,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "number": 29,
+    "title": "Dezelfde keuze, toch verlies",
+    "context": "Een analist vergelijkt twee ondernemingen met dezelfde vraag en dezelfde variabele kosten. Alleen hun onvermijdbare constante kosten verschillen. Bij hun beste haalbare q maakt A € 300 winst. B heeft € 500 hogere constante kosten. Beide hebben voldoende capaciteit; de constante kosten blijven in de onderzochte periode ook bij q = 0 bestaan.",
+    "questions": [
+      "Leg uit waarom dezelfde q het winstmaximum kan geven voor A én B.",
+      "Bereken de winst van B bij die q. Is “monopolist” dus een garantie voor positieve winst?",
+      "Welke vergelijking heb je nodig voordat je in deze periode voor q = 0 kiest? Leg uit waarom een negatief winstbedrag op zichzelf niet genoeg is."
+    ],
+    "section": "4.1.3",
+    "group": "bonus",
+    "points": null
+  },
+  {
+    "number": 30,
+    "title": "Bedragen en percentages",
+    "context": "Een marktprijs stijgt van € 10 naar € 11. De verkochte hoeveelheid daalt van 200 naar 180 kg per week.",
+    "questions": [
+      "Bereken Ev met de oude waarden als noemer. Bereken ook TO vóór en na. Is de omzet exact gelijk gebleven?",
+      "Bij een andere onderneming is de subsidie € 2 per verkochte kg en de totale gesubsidieerde afzet 150 kg. Bereken de overheidsuitgaven. Waarom gebruik je niet alleen de extra kg ten opzichte van vroeger?"
+    ],
+    "section": "4.1.3",
+    "group": "review",
+    "points": null
+  },
+  {
+    "number": 31,
+    "title": "Drie bronnen, twee routes",
+    "context": "Lees de drie beschrijvingen in de tabel.",
+    "questions": [
+      "Kies bij A en B de prijsnemersroute of de monopolieroute. Noem per bron het beslissende gegeven.",
+      "Waarom kun je bij C nog niet zeker dezelfde keuze maken? Noem welke informatie ontbreekt."
+    ],
+    "section": "4.1.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 32,
+    "title": "Vier bedragen bij één afzet",
+    "context": "Een monopolist produceert q = 40 kg. In zijn grafiek staan bij die q: GO = 18, MO = 10, MK = 10 en GTK = 13. Alle vier zijn euro per kg. MO daalt door de stijgende MK-lijn. De capaciteit is 70 kg.",
+    "questions": [
+      "Geef de verkoopprijs. Bereken TO, TK en winst.",
+      "Leg uit waarom q = 40 in dit model een winstmaximum is en waarom de winst niet gelijk is aan (MO − MK) × q."
+    ],
+    "section": "4.1.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 33,
+    "title": "Lees eerst de tabel",
+    "context": "Een onderneming vergelijkt vier mogelijke weekplannen. Alle geproduceerde kg worden verkocht. Neem de tabel over en vul eerst de kolom winst in.",
+    "questions": [
+      "Welke van deze vier plannen geeft de meeste omzet? Welke geeft de meeste winst?",
+      "Is de onderneming bij q = 60 break-even? Onderbouw met TO en TK.",
+      "Bereken bij q = 40 de GO en GTK. Gebruik deze bedragen om de winst nogmaals te controleren."
+    ],
+    "section": "4.1.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 34,
+    "title": "Een prijsactie",
+    "context": "Een aanbieder van een eigen recept verlaagt zijn uniforme prijs van € 10 naar € 9 per kg. Daardoor stijgt in dit oefenmodel de afzet van 100 naar 120 kg per week. Overige vraagfactoren veranderen niet.",
+    "questions": [
+      "Bereken de procentuele prijs- en afzetverandering en Ev. Classificeer de prijsgevoeligheid.",
+      "Bereken TO vóór en na de prijsverlaging. Leg uit hoe de hoeveelheidstoename en de lagere prijs samen doorwerken.",
+      "Kun je met alleen deze gegevens concluderen dat dit de winstmaximale prijs is? Leg uit."
+    ],
+    "section": "4.1.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 35,
+    "title": "KleurFix en een prijsnemer",
+    "context": "Gebruik bronnen A, B en C en figuur 21 op pagina 34.",
+    "questions": [
+      "Noem het brongegeven dat de toetredingsbarrière verklaart. Welk genoemd detail heb je niet nodig voor de berekeningen?",
+      "Stel voor KleurFix TO, MO en MK op. Bereken de winstmaximale q en controleer het marginale verloop en de productiecapaciteit.",
+      "Bereken voor KleurFix de verkoopprijs en de totale winst. Laat zien dat niet produceren geen betere keuze voor deze week is.",
+      "Markeer in figuur 21 de gekozen q en P. Gebruik hulplijnen die duidelijk maken welke lijn je voor elk getal gebruikt.",
+      "Bereken voor de prijsnemer uit bron C de winstmaximale haalbare q en de totale winst. Leg uit waar zijn verkoopprijs vandaan komt.",
+      "Een leerling zegt: “Bij beide ondernemingen gebruik ik MO = MK, dus bij beide lees ik de prijs uit het snijpunt af.” Beoordeel. Gebruik beide berekende prijzen en het marginale bedrag van KleurFix."
+    ],
+    "section": "4.1.4",
+    "group": "target",
+    "points": [
+      2,
+      3,
+      3,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "number": 36,
+    "title": "Welke stap ging mis?",
+    "context": "Bekijk drie uitspraken over een monopolist.",
+    "questions": [
+      "“Er geldt P = 30 − 0,10q, dus TO = 30 − 0,10q².” Herstel de formule en leg uit welke vermenigvuldiging ontbreekt.",
+      "“De constante kosten hebben afgeleide nul. Daarom hoef ik ze niet van TO af te trekken.” Leg de denkfout uit.",
+      "“MO is positief. Meer produceren geeft dus altijd meer winst.” Welke vergelijking ontbreekt? Geef een eenvoudig getallenvoorbeeld."
+    ],
+    "section": "4.1.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 37,
+    "title": "De capaciteit verandert",
+    "context": "Voor een monopolist geldt P = 20 − 0,10q en TK = 4q + 100. q is kg per week. De productiecapaciteit is eerst 60 kg en daarna 100 kg. De vraag en kostenformule blijven gelijk.",
+    "questions": [
+      "Bepaal de beste haalbare q vóór en na de capaciteitsverruiming. Geef de bijbehorende prijzen.",
+      "Leg uit waarom de onderneming na de verruiming niet automatisch alle 100 kg moet produceren."
+    ],
+    "section": "4.1.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 38,
+    "title": "Een scherpe conclusie",
+    "context": "Een onderzoeker kent alleen de vraagfunctie en de TO- en MO-lijnen van een monopolist. Zij schrijft: “Ik weet nu de winstmaximale afzet en kan ook bewijzen dat deze uitkomst het beste is voor de samenleving.”",
+    "questions": [
+      "Welke informatie ontbreekt voor de winstmaximale afzet? Noem behalve kosten nog één mogelijke beperking.",
+      "Waarom mag je de keuze met de hoogste ondernemingswinst niet zonder meer “het beste voor de samenleving” noemen? Gebruik geen nieuwe welvaartsberekeningen."
+    ],
+    "section": "4.1.4",
+    "group": "mixed",
+    "points": null
+  }
+]

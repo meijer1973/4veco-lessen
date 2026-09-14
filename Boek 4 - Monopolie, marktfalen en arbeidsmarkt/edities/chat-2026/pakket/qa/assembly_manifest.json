@@ -1,0 +1,73 @@
+{
+  "outputs": [
+    {
+      "file": "output/Boek_4_Compleet.pdf",
+      "pages": 162,
+      "source_pages": 148,
+      "chapter_starts": [
+        5,
+        43,
+        103
+      ],
+      "intentional_blank_pages": [],
+      "internal_links": 167,
+      "bookmarks": 37,
+      "recorded_edits": 169
+    },
+    {
+      "file": "output/Boek_4_Compleet_Antwoorden.pdf",
+      "pages": 64,
+      "source_pages": 62,
+      "chapter_starts": [
+        3,
+        23,
+        47
+      ],
+      "intentional_blank_pages": [],
+      "internal_links": 38,
+      "bookmarks": 153,
+      "recorded_edits": 62
+    },
+    {
+      "file": "output/Boek_4_Compleet_Docenteninformatie.pdf",
+      "pages": 28,
+      "source_pages": 24,
+      "chapter_starts": [
+        3,
+        11,
+        21
+      ],
+      "intentional_blank_pages": [
+        10,
+        20
+      ],
+      "internal_links": 3,
+      "bookmarks": 26,
+      "recorded_edits": 24
+    }
+  ],
+  "glossary_entries": 58,
+  "glossary_source_definitions": 62,
+  "glossary_pages": 5,
+  "formula_pages": 5,
+  "book_chapter_pages": 148,
+  "instructional_paragraphs": 17,
+  "exercise_total": 148,
+  "formula_start": 158,
+  "source_spreads_in_book": [
+    [
+      38,
+      39
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      148,
+      149
+    ]
+  ],
+  "book_guidance": "skills/econ-book-builder.md: cover, colophon, preface, full contents, chapters, glossary, formula overview; answers kept separate",
+  "guidance_adaptations": "PDF-preserving stitch rather than reflow; supplied latest cover unchanged; separate answer PDFs remain paper-first; no unsupported license, school, publisher or contact asserted. All 62 source glossary definitions retained under 58 alphabetic terms."
+}

@@ -1,0 +1,7850 @@
+{
+  "status": "PASS",
+  "pages": {
+    "Boek_4_H3_Arbeidsmarkt": 50,
+    "Boek_4_H3_Antwoorden": 18,
+    "Boek_4_H3_Docenteninformatie": 8
+  },
+  "exercises": 50,
+  "subquestions": 92,
+  "targets": 6,
+  "target_subquestions": 24,
+  "student_figure_placements": 24,
+  "solution_figure_placements": 8,
+  "checks": [
+    {
+      "category": "numeric",
+      "name": "6 people hours",
+      "passed": true,
+      "detail": "120 ; expected 120"
+    },
+    {
+      "category": "numeric",
+      "name": "hours to fte",
+      "passed": true,
+      "detail": "3 ; expected 3"
+    },
+    {
+      "category": "numeric",
+      "name": "theory AP",
+      "passed": true,
+      "detail": "4 ; expected 4"
+    },
+    {
+      "category": "numeric",
+      "name": "theory unit cost",
+      "passed": true,
+      "detail": "6 ; expected 6"
+    },
+    {
+      "category": "numeric",
+      "name": "fixed output new hours",
+      "passed": true,
+      "detail": "480 ; expected 480"
+    },
+    {
+      "category": "numeric",
+      "name": "growing output same hours",
+      "passed": true,
+      "detail": "600 ; expected 600"
+    },
+    {
+      "category": "numeric",
+      "name": "growing output more hours",
+      "passed": true,
+      "detail": "660 ; expected 660"
+    },
+    {
+      "category": "numeric",
+      "name": "WE431 old AP",
+      "passed": true,
+      "detail": "4 ; expected 4"
+    },
+    {
+      "category": "numeric",
+      "name": "WE431 new hours",
+      "passed": true,
+      "detail": "360 ; expected 360"
+    },
+    {
+      "category": "numeric",
+      "name": "WE431 hours change",
+      "passed": true,
+      "detail": "20 ; expected 20"
+    },
+    {
+      "category": "numeric",
+      "name": "WE431 old unit cost",
+      "passed": true,
+      "detail": "6 ; expected 6"
+    },
+    {
+      "category": "numeric",
+      "name": "WE431 new unit cost",
+      "passed": true,
+      "detail": "5 ; expected 5"
+    },
+    {
+      "category": "numeric",
+      "name": "theory gross participation",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "theory net participation",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "WE432 gross",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "WE432 net",
+      "passed": true,
+      "detail": "63 ; expected 63"
+    },
+    {
+      "category": "numeric",
+      "name": "vacancies figure unemployment",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "vacancies identity",
+      "passed": true,
+      "detail": "40 ; expected 40"
+    },
+    {
+      "category": "numeric",
+      "name": "WE433 unemployment",
+      "passed": true,
+      "detail": "8 ; expected 8"
+    },
+    {
+      "category": "numeric",
+      "name": "WE433 labor demand",
+      "passed": true,
+      "detail": "1930 ; expected 1930"
+    },
+    {
+      "category": "numeric",
+      "name": "WE433 erroneous gap",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "floor theory wagebill percentage",
+      "passed": true,
+      "detail": "-25/2 ; expected -25/2"
+    },
+    {
+      "category": "numeric",
+      "name": "WE434 wagebill percentage",
+      "passed": true,
+      "detail": "-15/4 ; expected -15/4"
+    },
+    {
+      "category": "numeric",
+      "name": "WE435 old cost",
+      "passed": true,
+      "detail": "6 ; expected 6"
+    },
+    {
+      "category": "numeric",
+      "name": "WE435 new cost",
+      "passed": true,
+      "detail": "28/5 ; expected 28/5"
+    },
+    {
+      "category": "numeric",
+      "name": "WE435 wage index",
+      "passed": true,
+      "detail": "105 ; expected 105"
+    },
+    {
+      "category": "numeric",
+      "name": "WE435 AP index",
+      "passed": true,
+      "detail": "225/2 ; expected 225/2"
+    },
+    {
+      "category": "numeric",
+      "name": "WE435 cost index",
+      "passed": true,
+      "detail": "280/3 ; expected 280/3"
+    },
+    {
+      "category": "numeric",
+      "name": "WE435 training included",
+      "passed": true,
+      "detail": "117/20 ; expected 117/20"
+    },
+    {
+      "category": "numeric",
+      "name": "theory432 equilibrium wage",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "theory432 equilibrium employment",
+      "passed": true,
+      "detail": "80 ; expected 80"
+    },
+    {
+      "category": "numeric",
+      "name": "WE432 equilibrium wage",
+      "passed": true,
+      "detail": "18 ; expected 18"
+    },
+    {
+      "category": "numeric",
+      "name": "WE432 equilibrium employment",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "theory433 equilibrium wage",
+      "passed": true,
+      "detail": "12 ; expected 12"
+    },
+    {
+      "category": "numeric",
+      "name": "theory433 equilibrium employment",
+      "passed": true,
+      "detail": "80 ; expected 80"
+    },
+    {
+      "category": "numeric",
+      "name": "theory433 new wage",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "theory433 new employment",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "theory433 unchanged wage new demand",
+      "passed": true,
+      "detail": "40 ; expected 40"
+    },
+    {
+      "category": "numeric",
+      "name": "WE433 equilibrium wage",
+      "passed": true,
+      "detail": "14 ; expected 14"
+    },
+    {
+      "category": "numeric",
+      "name": "WE433 equilibrium employment",
+      "passed": true,
+      "detail": "88 ; expected 88"
+    },
+    {
+      "category": "numeric",
+      "name": "WE433 new wage",
+      "passed": true,
+      "detail": "12 ; expected 12"
+    },
+    {
+      "category": "numeric",
+      "name": "WE433 new employment",
+      "passed": true,
+      "detail": "72 ; expected 72"
+    },
+    {
+      "category": "numeric",
+      "name": "WE433 unchanged wage new demand",
+      "passed": true,
+      "detail": "56 ; expected 56"
+    },
+    {
+      "category": "numeric",
+      "name": "theory434 equilibrium wage",
+      "passed": true,
+      "detail": "12 ; expected 12"
+    },
+    {
+      "category": "numeric",
+      "name": "theory434 equilibrium employment",
+      "passed": true,
+      "detail": "80 ; expected 80"
+    },
+    {
+      "category": "numeric",
+      "name": "theory434 floor demand",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "theory434 floor supply",
+      "passed": true,
+      "detail": "100 ; expected 100"
+    },
+    {
+      "category": "numeric",
+      "name": "theory434 shortage decomposition",
+      "passed": true,
+      "detail": "40 ; expected 40"
+    },
+    {
+      "category": "numeric",
+      "name": "theory434 old wage bill",
+      "passed": true,
+      "detail": "19200 ; expected 19200"
+    },
+    {
+      "category": "numeric",
+      "name": "theory434 new wage bill",
+      "passed": true,
+      "detail": "16800 ; expected 16800"
+    },
+    {
+      "category": "numeric",
+      "name": "WE434 equilibrium wage",
+      "passed": true,
+      "detail": "20 ; expected 20"
+    },
+    {
+      "category": "numeric",
+      "name": "WE434 equilibrium employment",
+      "passed": true,
+      "detail": "80 ; expected 80"
+    },
+    {
+      "category": "numeric",
+      "name": "WE434 floor demand",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "WE434 floor supply",
+      "passed": true,
+      "detail": "90 ; expected 90"
+    },
+    {
+      "category": "numeric",
+      "name": "WE434 shortage decomposition",
+      "passed": true,
+      "detail": "20 ; expected 20"
+    },
+    {
+      "category": "numeric",
+      "name": "WE434 old wage bill",
+      "passed": true,
+      "detail": "32000 ; expected 32000"
+    },
+    {
+      "category": "numeric",
+      "name": "WE434 new wage bill",
+      "passed": true,
+      "detail": "30800 ; expected 30800"
+    },
+    {
+      "category": "numeric",
+      "name": "1a",
+      "passed": true,
+      "detail": "3 ; expected 3"
+    },
+    {
+      "category": "numeric",
+      "name": "1b",
+      "passed": true,
+      "detail": "20 ; expected 20"
+    },
+    {
+      "category": "numeric",
+      "name": "3a",
+      "passed": true,
+      "detail": "20 ; expected 20"
+    },
+    {
+      "category": "numeric",
+      "name": "4a AP",
+      "passed": true,
+      "detail": "4 ; expected 4"
+    },
+    {
+      "category": "numeric",
+      "name": "4a hours",
+      "passed": true,
+      "detail": "400 ; expected 400"
+    },
+    {
+      "category": "numeric",
+      "name": "4a cost",
+      "passed": true,
+      "detail": "7/2 ; expected 7/2"
+    },
+    {
+      "category": "numeric",
+      "name": "5a",
+      "passed": true,
+      "detail": "6 ; expected 6"
+    },
+    {
+      "category": "numeric",
+      "name": "5b hours",
+      "passed": true,
+      "detail": "200 ; expected 200"
+    },
+    {
+      "category": "numeric",
+      "name": "5b old cost",
+      "passed": true,
+      "detail": "5 ; expected 5"
+    },
+    {
+      "category": "numeric",
+      "name": "5b new cost",
+      "passed": true,
+      "detail": "4 ; expected 4"
+    },
+    {
+      "category": "numeric",
+      "name": "6a old",
+      "passed": true,
+      "detail": "80 ; expected 80"
+    },
+    {
+      "category": "numeric",
+      "name": "6a new",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "7a AP",
+      "passed": true,
+      "detail": "4 ; expected 4"
+    },
+    {
+      "category": "numeric",
+      "name": "7a hours",
+      "passed": true,
+      "detail": "600 ; expected 600"
+    },
+    {
+      "category": "numeric",
+      "name": "7b old cost",
+      "passed": true,
+      "detail": "6 ; expected 6"
+    },
+    {
+      "category": "numeric",
+      "name": "7b new cost",
+      "passed": true,
+      "detail": "24/5 ; expected 24/5"
+    },
+    {
+      "category": "numeric",
+      "name": "7c output growth",
+      "passed": true,
+      "detail": "75/2 ; expected 75/2"
+    },
+    {
+      "category": "numeric",
+      "name": "7c AP growth",
+      "passed": true,
+      "detail": "75/2 ; expected 75/2"
+    },
+    {
+      "category": "numeric",
+      "name": "8a AP person A",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "8a AP person B",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "8a AP hour A",
+      "passed": true,
+      "detail": "2 ; expected 2"
+    },
+    {
+      "category": "numeric",
+      "name": "8a AP hour B",
+      "passed": true,
+      "detail": "3 ; expected 3"
+    },
+    {
+      "category": "numeric",
+      "name": "9a TK",
+      "passed": true,
+      "detail": "1800 ; expected 1800"
+    },
+    {
+      "category": "numeric",
+      "name": "9a GTK",
+      "passed": true,
+      "detail": "18 ; expected 18"
+    },
+    {
+      "category": "numeric",
+      "name": "10a equilibrium P",
+      "passed": true,
+      "detail": "20 ; expected 20"
+    },
+    {
+      "category": "numeric",
+      "name": "10a equilibrium Q",
+      "passed": true,
+      "detail": "40 ; expected 40"
+    },
+    {
+      "category": "numeric",
+      "name": "10b",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "12a BB",
+      "passed": true,
+      "detail": "560 ; expected 560"
+    },
+    {
+      "category": "numeric",
+      "name": "12b gross",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "12b net",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "14a BB",
+      "passed": true,
+      "detail": "840 ; expected 840"
+    },
+    {
+      "category": "numeric",
+      "name": "14a gross",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "14a net",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "16a BB",
+      "passed": true,
+      "detail": "3500 ; expected 3500"
+    },
+    {
+      "category": "numeric",
+      "name": "16a gross",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "16a net",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "17a new gross",
+      "passed": true,
+      "detail": "75 ; expected 75"
+    },
+    {
+      "category": "numeric",
+      "name": "17a unchanged net",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "18a wedge",
+      "passed": true,
+      "detail": "3 ; expected 3"
+    },
+    {
+      "category": "numeric",
+      "name": "18a revenue",
+      "passed": true,
+      "detail": "600 ; expected 600"
+    },
+    {
+      "category": "numeric",
+      "name": "19a BB",
+      "passed": true,
+      "detail": "2800 ; expected 2800"
+    },
+    {
+      "category": "numeric",
+      "name": "19a gross",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "20a unemployment",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "21a unemployment",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "21b incorrect percentage",
+      "passed": true,
+      "detail": "4 ; expected 4"
+    },
+    {
+      "category": "numeric",
+      "name": "23a unemployment",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "25a BB",
+      "passed": true,
+      "detail": "3000 ; expected 3000"
+    },
+    {
+      "category": "numeric",
+      "name": "25a unemployment",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "25a demand",
+      "passed": true,
+      "detail": "2820 ; expected 2820"
+    },
+    {
+      "category": "numeric",
+      "name": "25a erroneous gap",
+      "passed": true,
+      "detail": "180 ; expected 180"
+    },
+    {
+      "category": "numeric",
+      "name": "25c fixedwage demand",
+      "passed": true,
+      "detail": "48 ; expected 48"
+    },
+    {
+      "category": "numeric",
+      "name": "25c fixedwage supply",
+      "passed": true,
+      "detail": "84 ; expected 84"
+    },
+    {
+      "category": "numeric",
+      "name": "25c gap",
+      "passed": true,
+      "detail": "36 ; expected 36"
+    },
+    {
+      "category": "numeric",
+      "name": "26a old",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "26a new",
+      "passed": true,
+      "detail": "100/19 ; expected 100/19"
+    },
+    {
+      "category": "numeric",
+      "name": "27a TO q10",
+      "passed": true,
+      "detail": "250 ; expected 250"
+    },
+    {
+      "category": "numeric",
+      "name": "27a derivative slope",
+      "passed": true,
+      "detail": "-1 ; expected -1"
+    },
+    {
+      "category": "numeric",
+      "name": "28a trades",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "28a excess",
+      "passed": true,
+      "detail": "40 ; expected 40"
+    },
+    {
+      "category": "numeric",
+      "name": "29a payroll",
+      "passed": true,
+      "detail": "15000 ; expected 15000"
+    },
+    {
+      "category": "numeric",
+      "name": "30a lost employment",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "30a extra supply",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "34c percentage",
+      "passed": true,
+      "detail": "-20/3 ; expected -20/3"
+    },
+    {
+      "category": "numeric",
+      "name": "35a old weekly pay",
+      "passed": true,
+      "detail": "400 ; expected 400"
+    },
+    {
+      "category": "numeric",
+      "name": "35a new weekly pay",
+      "passed": true,
+      "detail": "360 ; expected 360"
+    },
+    {
+      "category": "numeric",
+      "name": "36a AP",
+      "passed": true,
+      "detail": "6 ; expected 6"
+    },
+    {
+      "category": "numeric",
+      "name": "36a cost",
+      "passed": true,
+      "detail": "9/2 ; expected 9/2"
+    },
+    {
+      "category": "numeric",
+      "name": "37a index",
+      "passed": true,
+      "detail": "110 ; expected 110"
+    },
+    {
+      "category": "numeric",
+      "name": "37b cost",
+      "passed": true,
+      "detail": "22/5 ; expected 22/5"
+    },
+    {
+      "category": "numeric",
+      "name": "39a old",
+      "passed": true,
+      "detail": "6 ; expected 6"
+    },
+    {
+      "category": "numeric",
+      "name": "39a new",
+      "passed": true,
+      "detail": "21/4 ; expected 21/4"
+    },
+    {
+      "category": "numeric",
+      "name": "39b change",
+      "passed": true,
+      "detail": "-25/2 ; expected -25/2"
+    },
+    {
+      "category": "numeric",
+      "name": "40a totalcost",
+      "passed": true,
+      "detail": "61/5 ; expected 61/5"
+    },
+    {
+      "category": "numeric",
+      "name": "41a index",
+      "passed": true,
+      "detail": "1350/13 ; expected 1350/13"
+    },
+    {
+      "category": "numeric",
+      "name": "41a percent",
+      "passed": true,
+      "detail": "50/13 ; expected 50/13"
+    },
+    {
+      "category": "numeric",
+      "name": "43b old",
+      "passed": true,
+      "detail": "6 ; expected 6"
+    },
+    {
+      "category": "numeric",
+      "name": "43b new",
+      "passed": true,
+      "detail": "63/11 ; expected 63/11"
+    },
+    {
+      "category": "numeric",
+      "name": "43b change",
+      "passed": true,
+      "detail": "-50/11 ; expected -50/11"
+    },
+    {
+      "category": "numeric",
+      "name": "43c training included",
+      "passed": true,
+      "detail": "326/55 ; expected 326/55"
+    },
+    {
+      "category": "numeric",
+      "name": "45a subsidy",
+      "passed": true,
+      "detail": "1000 ; expected 1000"
+    },
+    {
+      "category": "numeric",
+      "name": "46a fte",
+      "passed": true,
+      "detail": "4 ; expected 4"
+    },
+    {
+      "category": "numeric",
+      "name": "46b unemployment",
+      "passed": true,
+      "detail": "4 ; expected 4"
+    },
+    {
+      "category": "numeric",
+      "name": "47a old AP",
+      "passed": true,
+      "detail": "6 ; expected 6"
+    },
+    {
+      "category": "numeric",
+      "name": "47a new hours",
+      "passed": true,
+      "detail": "1050 ; expected 1050"
+    },
+    {
+      "category": "numeric",
+      "name": "47a hours growth",
+      "passed": true,
+      "detail": "5 ; expected 5"
+    },
+    {
+      "category": "numeric",
+      "name": "47b old cost",
+      "passed": true,
+      "detail": "4 ; expected 4"
+    },
+    {
+      "category": "numeric",
+      "name": "47b new cost",
+      "passed": true,
+      "detail": "7/2 ; expected 7/2"
+    },
+    {
+      "category": "numeric",
+      "name": "49a totalpop",
+      "passed": true,
+      "detail": "20000 ; expected 20000"
+    },
+    {
+      "category": "numeric",
+      "name": "49a BB",
+      "passed": true,
+      "detail": "14000 ; expected 14000"
+    },
+    {
+      "category": "numeric",
+      "name": "49a gross",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "49a unemployment",
+      "passed": true,
+      "detail": "10 ; expected 10"
+    },
+    {
+      "category": "numeric",
+      "name": "49e old cost",
+      "passed": true,
+      "detail": "3 ; expected 3"
+    },
+    {
+      "category": "numeric",
+      "name": "49e new cost",
+      "passed": true,
+      "detail": "63/22 ; expected 63/22"
+    },
+    {
+      "category": "numeric",
+      "name": "49e cost change",
+      "passed": true,
+      "detail": "-50/11 ; expected -50/11"
+    },
+    {
+      "category": "numeric",
+      "name": "13 equilibrium wage",
+      "passed": true,
+      "detail": "16 ; expected 16"
+    },
+    {
+      "category": "numeric",
+      "name": "13 equilibrium employment",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "15 equilibrium wage",
+      "passed": true,
+      "detail": "14 ; expected 14"
+    },
+    {
+      "category": "numeric",
+      "name": "15 equilibrium employment",
+      "passed": true,
+      "detail": "88 ; expected 88"
+    },
+    {
+      "category": "numeric",
+      "name": "16 equilibrium wage",
+      "passed": true,
+      "detail": "14 ; expected 14"
+    },
+    {
+      "category": "numeric",
+      "name": "16 equilibrium employment",
+      "passed": true,
+      "detail": "100 ; expected 100"
+    },
+    {
+      "category": "numeric",
+      "name": "24 equilibrium wage",
+      "passed": true,
+      "detail": "20 ; expected 20"
+    },
+    {
+      "category": "numeric",
+      "name": "24 equilibrium employment",
+      "passed": true,
+      "detail": "80 ; expected 80"
+    },
+    {
+      "category": "numeric",
+      "name": "24 new wage",
+      "passed": true,
+      "detail": "18 ; expected 18"
+    },
+    {
+      "category": "numeric",
+      "name": "24 new employment",
+      "passed": true,
+      "detail": "70 ; expected 70"
+    },
+    {
+      "category": "numeric",
+      "name": "24 unchanged wage new demand",
+      "passed": true,
+      "detail": "60 ; expected 60"
+    },
+    {
+      "category": "numeric",
+      "name": "25 equilibrium wage",
+      "passed": true,
+      "detail": "16 ; expected 16"
+    },
+    {
+      "category": "numeric",
+      "name": "25 equilibrium employment",
+      "passed": true,
+      "detail": "84 ; expected 84"
+    },
+    {
+      "category": "numeric",
+      "name": "25 new wage",
+      "passed": true,
+      "detail": "13 ; expected 13"
+    },
+    {
+      "category": "numeric",
+      "name": "25 new employment",
+      "passed": true,
+      "detail": "66 ; expected 66"
+    },
+    {
+      "category": "numeric",
+      "name": "25 unchanged wage new demand",
+      "passed": true,
+      "detail": "48 ; expected 48"
+    },
+    {
+      "category": "numeric",
+      "name": "31 and48 equilibrium wage",
+      "passed": true,
+      "detail": "16 ; expected 16"
+    },
+    {
+      "category": "numeric",
+      "name": "31 and48 equilibrium employment",
+      "passed": true,
+      "detail": "84 ; expected 84"
+    },
+    {
+      "category": "numeric",
+      "name": "31 and48 floor demand",
+      "passed": true,
+      "detail": "72 ; expected 72"
+    },
+    {
+      "category": "numeric",
+      "name": "31 and48 floor supply",
+      "passed": true,
+      "detail": "96 ; expected 96"
+    },
+    {
+      "category": "numeric",
+      "name": "31 and48 shortage decomposition",
+      "passed": true,
+      "detail": "24 ; expected 24"
+    },
+    {
+      "category": "numeric",
+      "name": "31 and48 old wage bill",
+      "passed": true,
+      "detail": "26880 ; expected 26880"
+    },
+    {
+      "category": "numeric",
+      "name": "31 and48 new wage bill",
+      "passed": true,
+      "detail": "25920 ; expected 25920"
+    },
+    {
+      "category": "numeric",
+      "name": "32 equilibrium wage",
+      "passed": true,
+      "detail": "20 ; expected 20"
+    },
+    {
+      "category": "numeric",
+      "name": "32 equilibrium employment",
+      "passed": true,
+      "detail": "100 ; expected 100"
+    },
+    {
+      "category": "numeric",
+      "name": "32 floor demand",
+      "passed": true,
+      "detail": "96 ; expected 96"
+    },
+    {
+      "category": "numeric",
+      "name": "32 floor supply",
+      "passed": true,
+      "detail": "110 ; expected 110"
+    },
+    {
+      "category": "numeric",
+      "name": "32 shortage decomposition",
+      "passed": true,
+      "detail": "14 ; expected 14"
+    },
+    {
+      "category": "numeric",
+      "name": "32 old wage bill",
+      "passed": true,
+      "detail": "40000 ; expected 40000"
+    },
+    {
+      "category": "numeric",
+      "name": "32 new wage bill",
+      "passed": true,
+      "detail": "42240 ; expected 42240"
+    },
+    {
+      "category": "numeric",
+      "name": "34 equilibrium wage",
+      "passed": true,
+      "detail": "12 ; expected 12"
+    },
+    {
+      "category": "numeric",
+      "name": "34 equilibrium employment",
+      "passed": true,
+      "detail": "100 ; expected 100"
+    },
+    {
+      "category": "numeric",
+      "name": "34 floor demand",
+      "passed": true,
+      "detail": "80 ; expected 80"
+    },
+    {
+      "category": "numeric",
+      "name": "34 floor supply",
+      "passed": true,
+      "detail": "120 ; expected 120"
+    },
+    {
+      "category": "numeric",
+      "name": "34 shortage decomposition",
+      "passed": true,
+      "detail": "40 ; expected 40"
+    },
+    {
+      "category": "numeric",
+      "name": "34 old wage bill",
+      "passed": true,
+      "detail": "30000 ; expected 30000"
+    },
+    {
+      "category": "numeric",
+      "name": "34 new wage bill",
+      "passed": true,
+      "detail": "28000 ; expected 28000"
+    },
+    {
+      "category": "numeric",
+      "name": "49 equilibrium wage",
+      "passed": true,
+      "detail": "14 ; expected 14"
+    },
+    {
+      "category": "numeric",
+      "name": "49 equilibrium employment",
+      "passed": true,
+      "detail": "100 ; expected 100"
+    },
+    {
+      "category": "numeric",
+      "name": "49 new wage",
+      "passed": true,
+      "detail": "16 ; expected 16"
+    },
+    {
+      "category": "numeric",
+      "name": "49 new employment",
+      "passed": true,
+      "detail": "120 ; expected 120"
+    },
+    {
+      "category": "numeric",
+      "name": "49 unchanged wage new demand",
+      "passed": true,
+      "detail": "140 ; expected 140"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "1a",
+      "passed": true,
+      "detail": "{'expected': ['3'], 'actual_tokens': ['2.700', '3', '900']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "1b",
+      "passed": true,
+      "detail": "{'expected': ['20'], 'actual_tokens': ['1.080', '100', '20', '900']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "4a",
+      "passed": true,
+      "detail": "{'expected': ['4', '400', '3,50'], 'actual_tokens': ['1', '1.600', '2', '2.400', '21', '3,50', '4', '400', '6']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "5b",
+      "passed": true,
+      "detail": "{'expected': ['200', '5', '4'], 'actual_tokens': ['1.500', '200', '30', '4', '5', '6', '7,5']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "7a",
+      "passed": true,
+      "detail": "{'expected': ['4', '600'], 'actual_tokens': ['2.400', '3.300', '37,5', '4', '5,5', '600']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "7b",
+      "passed": true,
+      "detail": "{'expected': ['6', '4,80'], 'actual_tokens': ['24', '26,40', '4', '4,80', '5,5', '6']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "8a",
+      "passed": true,
+      "detail": "{'expected': ['60', '2', '3'], 'actual_tokens': ['160', '2', '20', '3', '30', '300', '480', '60', '600']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "9a",
+      "passed": true,
+      "detail": "{'expected': ['1.800', '18'], 'actual_tokens': ['1', '1.800', '100', '12', '18', '2', '600']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "10a",
+      "passed": true,
+      "detail": "{'expected': ['20', '40'], 'actual_tokens': ['100', '120', '20', '4', '40', '5']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "10b",
+      "passed": true,
+      "detail": "{'expected': ['60'], 'actual_tokens': ['100', '120', '60', '72']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "12a",
+      "passed": true,
+      "detail": "{'expected': ['560'], 'actual_tokens': ['480', '560', '80']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "12b",
+      "passed": true,
+      "detail": "{'expected': ['70', '60'], 'actual_tokens': ['100', '480', '560', '60', '70', '800']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "13a",
+      "passed": true,
+      "detail": "{'expected': ['16', '60'], 'actual_tokens': ['10', '140', '16', '160', '20', '5', '60']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "14a",
+      "passed": true,
+      "detail": "{'expected': ['840', '70', '60'], 'actual_tokens': ['1.200', '100', '120', '60', '70', '720', '840']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "15a",
+      "passed": true,
+      "detail": "{'expected': ['14', '88'], 'actual_tokens': ['14', '16', '200', '224', '24', '8', '88']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "16a",
+      "passed": true,
+      "detail": "{'expected': ['3.500', '70', '60'], 'actual_tokens': ['100', '3.000', '3.500', '5.000', '500', '60', '70']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "16b",
+      "passed": true,
+      "detail": "{'expected': ['14', '100'], 'actual_tokens': ['10', '100', '14', '140', '20', '240', '280', '40']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "17a",
+      "passed": true,
+      "detail": "{'expected': ['70', '75', '60'], 'actual_tokens': ['1.000', '100', '150', '60', '600', '70', '75']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "18a",
+      "passed": true,
+      "detail": "{'expected': ['3', '600'], 'actual_tokens': ['1', '12', '200', '3', '600', '9']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "19a",
+      "passed": true,
+      "detail": "{'expected': ['2.800', '70'], 'actual_tokens': ['100', '2.400', '2.800', '4.000', '400', '70']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "21a",
+      "passed": true,
+      "detail": "{'expected': ['500', '10'], 'actual_tokens': ['10', '100', '30', '450', '50', '500']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "21b",
+      "passed": true,
+      "detail": "{'expected': ['480', '30'], 'actual_tokens': ['30', '450', '480', '50']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "23a",
+      "passed": true,
+      "detail": "{'expected': ['5.000', '10'], 'actual_tokens': ['10', '100', '4.500', '5.000', '500']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "24a",
+      "passed": true,
+      "detail": "{'expected': ['18', '70'], 'actual_tokens': ['10', '160', '18', '180', '20', '5', '70']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "24b",
+      "passed": true,
+      "detail": "{'expected': ['60', '80', '20'], 'actual_tokens': ['100', '160', '20', '60', '80']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "25a",
+      "passed": true,
+      "detail": "{'expected': ['3.000', '10', '2.820', '180'], 'actual_tokens': ['10', '100', '120', '180', '2.700', '2.820', '3.000', '300']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "25b",
+      "passed": true,
+      "detail": "{'expected': ['13', '66'], 'actual_tokens': ['12', '13', '144', '156', '6', '66', '84']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "25c",
+      "passed": true,
+      "detail": "{'expected': ['48', '84', '36'], 'actual_tokens': ['12', '13', '144', '16', '36', '48', '66', '84', '96']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "26a",
+      "passed": true,
+      "detail": "{'expected': ['10', '950', '5,26'], 'actual_tokens': ['1.000', '10', '100', '5,26', '50', '900', '950']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "27a",
+      "passed": true,
+      "detail": "{'expected': ['30', '0,5'], 'actual_tokens': ['0,5', '1', '2', '30', '4']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "28a",
+      "passed": true,
+      "detail": "{'expected': ['60', '40'], 'actual_tokens': ['100', '40', '60']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "29a",
+      "passed": true,
+      "detail": "{'expected': ['15.000'], 'actual_tokens': ['15', '15.000', '20', '50']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "30a",
+      "passed": true,
+      "detail": "{'expected': ['10'], 'actual_tokens': ['10', '20', '70', '80', '90']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "31a",
+      "passed": true,
+      "detail": "{'expected': ['72', '96'], 'actual_tokens': ['12', '16', '18', '180', '6', '72', '96']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "31b",
+      "passed": true,
+      "detail": "{'expected': ['24', '25.920'], 'actual_tokens': ['18', '20', '24', '25.920', '72', '96']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "32a",
+      "passed": true,
+      "detail": "{'expected': ['96', '110', '14', '42.240', '40.000', '2.240'], 'actual_tokens': ['100', '110', '14', '140', '2', '2.240', '20', '22', '40.000', '42.240', '5', '96']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "33a",
+      "passed": true,
+      "detail": "{'expected': ['24', '60'], 'actual_tokens': ['24', '60']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "34a",
+      "passed": true,
+      "detail": "{'expected': ['12', '100'], 'actual_tokens': ['10', '100', '12', '14', '20', '220', '240']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "34b",
+      "passed": true,
+      "detail": "{'expected': ['80', '120', '40'], 'actual_tokens': ['120', '140', '20', '220', '40', '80']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "34c",
+      "passed": true,
+      "detail": "{'expected': ['30.000', '28.000', '6,67'], 'actual_tokens': ['100', '12', '14', '25', '28.000', '30.000', '6,67', '80']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "35a",
+      "passed": true,
+      "detail": "{'expected': ['400', '360'], 'actual_tokens': ['16', '18', '20', '25', '360', '400']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "36a",
+      "passed": true,
+      "detail": "{'expected': ['6', '4,50'], 'actual_tokens': ['1', '27', '3', '4', '4,50', '4.800', '6', '800']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "37a",
+      "passed": true,
+      "detail": "{'expected': ['110'], 'actual_tokens': ['100', '110', '20', '22']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "37b",
+      "passed": true,
+      "detail": "{'expected': ['4,40'], 'actual_tokens': ['22', '4,40', '5']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "39a",
+      "passed": true,
+      "detail": "{'expected': ['6', '5,25'], 'actual_tokens': ['30', '31,50', '5', '5,25', '6']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "39b",
+      "passed": true,
+      "detail": "{'expected': ['12,5'], 'actual_tokens': ['100', '12,5', '5,25', '6']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "40a",
+      "passed": true,
+      "detail": "{'expected': ['12,20', '12'], 'actual_tokens': ['0,20', '0,80', '11,40', '12', '12,20']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "41a",
+      "passed": true,
+      "detail": "{'expected': ['103,85', '3,85'], 'actual_tokens': ['100', '103,85', '104', '108', '3,85']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "43b",
+      "passed": true,
+      "detail": "{'expected': ['6', '5,73', '4,55'], 'actual_tokens': ['10', '100', '30', '31,50', '4,55', '5', '5,5', '5,72727', '5,73', '6']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "43c",
+      "passed": true,
+      "detail": "{'expected': ['5,93'], 'actual_tokens': ['0,20', '5,72727', '5,92727', '5,93', '6']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "45a",
+      "passed": true,
+      "detail": "{'expected': ['1.000'], 'actual_tokens': ['1', '1.000', '2', '25', '3', '4', '40', '5']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "46a",
+      "passed": true,
+      "detail": "{'expected': ['4', '8'], 'actual_tokens': ['160', '4', '40', '8']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "46b",
+      "passed": true,
+      "detail": "{'expected': ['1.000', '4'], 'actual_tokens': ['1.000', '100', '30', '4', '40', '960']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "47a",
+      "passed": true,
+      "detail": "{'expected': ['6', '1.050', '5'], 'actual_tokens': ['1.000', '1.050', '100', '5', '50', '6', '6.000', '7,2', '7.560']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "47b",
+      "passed": true,
+      "detail": "{'expected': ['4', '3,50'], 'actual_tokens': ['24', '25,20', '3,50', '4', '6', '7,2']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "48a",
+      "passed": true,
+      "detail": "{'expected': ['16', '84', '72', '25.920'], 'actual_tokens': ['12', '16', '18', '180', '192', '20', '25.920', '6', '72', '84']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "48b",
+      "passed": true,
+      "detail": "{'expected': ['96', '24'], 'actual_tokens': ['12', '18', '24', '6', '72', '96']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "49a",
+      "passed": true,
+      "detail": "{'expected': ['20.000', '14.000', '70', '10'], 'actual_tokens': ['1.400', '10', '100', '12.600', '14.000', '20.000', '6.000', '70']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "49b",
+      "passed": true,
+      "detail": "{'expected': ['14', '100'], 'actual_tokens': ['10', '100', '14', '20', '240', '280', '40']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "49c",
+      "passed": true,
+      "detail": "{'expected': ['16', '120'], 'actual_tokens': ['10', '100', '120', '14', '16', '20', '280', '320', '40']}"
+    },
+    {
+      "category": "displayed-answer",
+      "name": "49e",
+      "passed": true,
+      "detail": "{'expected': ['3', '2,86', '4,55'], 'actual_tokens': ['100', '2,86', '2,863636', '24', '25,20', '3', '4,55', '8', '8,8']}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "demand_move / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "demand_move / A",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-point",
+      "name": "demand_move / B",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / Alleen het loon verandert: beweging langs Lᵥ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / L (arbeidsuren per week)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_move / B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "demand_shift / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "demand_shift / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "demand_shift / A",
+      "passed": true,
+      "detail": "1.4210854715202004e-14"
+    },
+    {
+      "category": "svg-point",
+      "name": "demand_shift / C",
+      "passed": true,
+      "detail": "1.4210854715202004e-14"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / Meer orders bij hetzelfde loon: Lᵥ verschuift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 100",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / L (arbeidsuren per week)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_shift / C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "demand_base / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / Basisgrafiek: arbeidsvraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / L (arbeidsuren per week)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "demand_base / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_intro / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_intro / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 7.105427357601002e-15, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "eq_intro / E",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / Dezelfde vergelijking, nu met loon en arbeid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_intro / E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_base / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_base / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.552713678800501e-15, 'in_plot': True}"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / Markeer loon en werkgelegenheid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_base / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_we / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_we / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "eq_we / E",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / Evenwicht in de voorbeeldsector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 70",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_we / E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_target / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 5.50458715338209e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_target / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 5.504587156224261e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / Basisgrafiek bij opgave 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / 240",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_target_answer / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 5.50458715338209e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_target_answer / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 5.504587156224261e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "eq_target_answer / E",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / Opgave 16 · loon € 14, werkgelegenheid 100",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 100",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / 240",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_target_answer / E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_ind_answer / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "eq_ind_answer / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.552713678800501e-15, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "eq_ind_answer / E",
+      "passed": true,
+      "detail": "1.4210854715202004e-14"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / Opgave 15 · loon € 14, werkgelegenheid 88",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 88",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "eq_ind_answer / E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_flex / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 3.669724770816174e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_flex / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.6697247693950885e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_flex / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 3.669724770816174e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_flex / E₀",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_flex / E₁",
+      "passed": true,
+      "detail": "3.6697247693950885e-05"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / Loon past zich aan: nieuw evenwicht",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / E₀",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_flex / E₁",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_fixed / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 3.669724770816174e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_fixed / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.6697247693950885e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_fixed / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 3.669724770816174e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_fixed / vraag nieuw",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_fixed / aanbod",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / Loon blijft € 12: niet iedereen vindt werk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / w = 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / vraag nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_fixed / verschil: 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_we / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_we / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.552713678800501e-15, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_we / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_we / E₀",
+      "passed": true,
+      "detail": "1.4210854715202004e-14"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_we / E₁",
+      "passed": true,
+      "detail": "1.4210854715202004e-14"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / Voorbeeld: minder opdrachten bij flexibel loon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 72",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 88",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / E₀",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_we / E₁",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_ind / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_ind / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 1.834862386473901e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_ind / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 1.834862388250258e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / Basisgrafiek: minder vraag naar arbeid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_target / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_target / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 2.752293578467402e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_target / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / Basisgrafiek bij opgave 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_target_answer / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_target_answer / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 2.752293578467402e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_target_answer / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_target_answer / E₀",
+      "passed": true,
+      "detail": "2.752293576691045e-05"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_target_answer / E₁",
+      "passed": true,
+      "detail": "2.7522935781121305e-05"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / Opgave 25 · van E₀ naar E₁",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 66",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 84",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / E₀",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_target_answer / E₁",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_ind_answer / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_ind_answer / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 1.834862386473901e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "shift_ind_answer / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 1.834862388250258e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_ind_answer / E₀",
+      "passed": true,
+      "detail": "9.174311927040435e-06"
+    },
+    {
+      "category": "svg-point",
+      "name": "shift_ind_answer / E₁",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / Opgave 24 · loon € 18, werkgelegenheid 70",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 70",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / E₀",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "shift_ind_answer / E₁",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_nonbinding / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 3.669724770816174e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_nonbinding / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.6697247693950885e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "floor_nonbinding / E",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / Minimumloon € 10: evenwicht blijft bestaan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / w = 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_nonbinding / E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_binding / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 3.669724770816174e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_binding / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.6697247693950885e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "floor_binding / werk",
+      "passed": true,
+      "detail": "3.669724770816174e-05"
+    },
+    {
+      "category": "svg-point",
+      "name": "floor_binding / aanbod",
+      "passed": true,
+      "detail": "3.669724770816174e-05"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / Minimumloon € 14: 60 werkenden, 100 aanbieders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 100",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / w = 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / werk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_binding / verschil: 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_bill / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 3.669724770816174e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_bill / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.6697247693950885e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / De loonsom gebruikt alleen betaalde arbeid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / w × L",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_bill / w = 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_we / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_we / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 1.834862386473901e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "floor_we / werk",
+      "passed": true,
+      "detail": "1.8348623868291725e-05"
+    },
+    {
+      "category": "svg-point",
+      "name": "floor_we / aanbod",
+      "passed": true,
+      "detail": "1.8348623868291725e-05"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / Voorbeeld: minimumloon € 22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 70",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 90",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / w = 22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / werk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_we / verschil: 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_guide / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_guide / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 2.752293578467402e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / Basisgrafiek bij opgave 31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_target / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 3.669724770816174e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_target / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.6697247693950885e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / Basisgrafiek bij opgave 34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_target_answer / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 3.669724770816174e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_target_answer / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 3.6697247693950885e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "floor_target_answer / werk",
+      "passed": true,
+      "detail": "3.669724770816174e-05"
+    },
+    {
+      "category": "svg-point",
+      "name": "floor_target_answer / aanbod",
+      "passed": true,
+      "detail": "3.669724770816174e-05"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / Opgave 34 · minimumloon € 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / w = 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / werk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_target_answer / verschil: 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_guide_answer / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "floor_guide_answer / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 2.752293578467402e-05, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "floor_guide_answer / werk",
+      "passed": true,
+      "detail": "2.842170943040401e-14"
+    },
+    {
+      "category": "svg-point",
+      "name": "floor_guide_answer / aanbod",
+      "passed": true,
+      "detail": "2.842170943040401e-14"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / Opgave 31 · minimumloon € 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 72",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 96",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / w = 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / werk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "floor_guide_answer / verschil: 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "mixed_base / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 8.080808072463697e-06, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "mixed_base / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "mixed_base / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / Basisgrafiek bij opgave 49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 240",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / 280",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_base / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-curve",
+      "name": "mixed_answer / arbeidsvraag",
+      "passed": true,
+      "detail": "{'equation_error': 8.080808072463697e-06, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "mixed_answer / arbeidsaanbod",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-curve",
+      "name": "mixed_answer / vraag nieuw",
+      "passed": true,
+      "detail": "{'equation_error': 0, 'in_plot': True}"
+    },
+    {
+      "category": "svg-point",
+      "name": "mixed_answer / E₀",
+      "passed": true,
+      "detail": "8.080808072463697e-06"
+    },
+    {
+      "category": "svg-point",
+      "name": "mixed_answer / E₁",
+      "passed": true,
+      "detail": "2.42424242458128e-05"
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / Opgave 49 · meer exportorders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 100",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 120",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 160",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 240",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / 280",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / w (€ per uur)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / L (personen)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / Lᵥ · vraag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / Lₐ · aanbod",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / Lᵥ nieuw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / E₀",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "svg-text-anchor",
+      "name": "mixed_answer / E₁",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "numeric",
+      "name": "SVG payroll width times height",
+      "passed": true,
+      "detail": "840.0 ; expected 840"
+    },
+    {
+      "category": "coverage",
+      "name": "50 consecutive exercises",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "coverage",
+      "name": "92 unique questions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "coverage",
+      "name": "every question has exactly one answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "coverage",
+      "name": "six authored targets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "coverage",
+      "name": "24 target subquestions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "1a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "1b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "2a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "3a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "3b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "4a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "4b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "5a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "5b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "6a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "6b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "6c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "6d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "7a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "7b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "7c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "7d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "8a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "9a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "9b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "10a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "10b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "11a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "12a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "12b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "13a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "13b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "14a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "15a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "16a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "16b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "16c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "17a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "18a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "19a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "20a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "20b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "21a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "21b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "22a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "22b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "23a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "24a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "24b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "25a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "25b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "25c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "26a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "27a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "28a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "29a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "30a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "30b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "31a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "31b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "32a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "33a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "34a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "34b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "34c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "34d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "35a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "36a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "37a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "37b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "38a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "39a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "39b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "40a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "40b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "41a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "42a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "43a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "43b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "43c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "43d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "44a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "45a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "46a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "46b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "46c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "47a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "47b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "48a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "48b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "49a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "49b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "49c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "49d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "49e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "49f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "answer-meaning",
+      "name": "50a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "structure",
+      "name": "4.3.1 headings",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "category": "structure",
+      "name": "4.3.1 summary placement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "structure",
+      "name": "4.3.2 headings",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "category": "structure",
+      "name": "4.3.2 summary placement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "structure",
+      "name": "4.3.3 headings",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "category": "structure",
+      "name": "4.3.3 summary placement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "structure",
+      "name": "4.3.4 headings",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "category": "structure",
+      "name": "4.3.4 summary placement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "structure",
+      "name": "4.3.5 headings",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "category": "structure",
+      "name": "4.3.5 summary placement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "figures",
+      "name": "24 student placements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "figures",
+      "name": "8 solution figure placements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "eq_intro",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "floor_we",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "floor_nonbinding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "unemployment_causes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "shift_ind_answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "demand_base",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "eq_base",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "productivity_paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "floor_binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "floor_target",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "mixed_answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "demand_move",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "bargaining",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "floor_target_answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "cao_costs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "eq_we",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "shift_target_answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "population",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "demand_shift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "shift_fixed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "shift_target",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "floor_guide_answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "floor_bill",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "eq_target_answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "eq_ind_answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "eq_target",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "shift_flex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "mixed_base",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "actor_bridge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "assets",
+      "name": "vacancy_overlap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf",
+      "name": "Boek_4_H3_Arbeidsmarkt page count",
+      "passed": true,
+      "detail": "50"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 1 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 1 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 1 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Arbeidsmarkt page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 2 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 2 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 2 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 3 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 3 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 3 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 4 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 4 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 4 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 5 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 5 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 5 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 6 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 6 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 6 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 7 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 7 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 7 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 8 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 8 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 8 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 9 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 9 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 9 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 10 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 10 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 10 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 11 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 11 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 11 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 12 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 12 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 12 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 13 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 13 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 13 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 14 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 14 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 14 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 15 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 15 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 15 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 16 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 16 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 16 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 17 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 17 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 17 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 18 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 18 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 18 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 19 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 19 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 19 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 20 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 20 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 20 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 21 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 21 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 21 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 22 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 22 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 22 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 23 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 23 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 23 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 24 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 24 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 24 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 25 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 25 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 25 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 26 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 26 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 26 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 27 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 27 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 27 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 28 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 28 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 28 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 29 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 29 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 29 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 30 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 30 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 30 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 31 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 31 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 31 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 32 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 32 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 32 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 33 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 33 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 33 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 34 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 34 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 34 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 35 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 35 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 35 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 36 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 36 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 36 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 37 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 37 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 37 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 38 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 38 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 38 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 39 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 39 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 39 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 40 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 40 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 40 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 41 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 41 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 41 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 42 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 42 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 42 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 43 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 43 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 43 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 44 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 44 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 44 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 45 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 45 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 45 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 46 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 46 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 46 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 47 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 47 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 47 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 48 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 48 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 48 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 49 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 49 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 49 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 50 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 50 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Arbeidsmarkt 50 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "9 student bookmarks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "target49 sources facing questions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pagination",
+      "name": "no student page drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf",
+      "name": "Boek_4_H3_Antwoorden page count",
+      "passed": true,
+      "detail": "18"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 1 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 1 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 1 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "navigation",
+      "name": "Boek_4_H3_Antwoorden page1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 2 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 2 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 2 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 3 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 3 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 3 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 4 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 4 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 4 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 5 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 5 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 5 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 6 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 6 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 6 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 7 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 7 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 7 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 8 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 8 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 8 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 9 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 9 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 9 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 10 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 10 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 10 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 11 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 11 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 11 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 12 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 12 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 12 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 13 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 13 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 13 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 14 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 14 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 14 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 15 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 15 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 15 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 16 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 16 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 16 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 17 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 17 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 17 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 18 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 18 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Antwoorden 18 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf",
+      "name": "Boek_4_H3_Docenteninformatie page count",
+      "passed": true,
+      "detail": "8"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 1 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 1 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 1 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 2 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 2 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 2 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 3 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 3 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 3 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 4 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 4 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 4 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 5 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 5 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 5 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 6 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 6 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 6 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 7 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 7 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 7 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 8 searchable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 8 text within page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "category": "pdf-page",
+      "name": "Boek_4_H3_Docenteninformatie 8 text encoding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "category": "sources",
+      "name": "sources/book-3-outline-v2.md",
+      "passed": true,
+      "detail": "4e558b63d8eb954de935ad366170f6373f533eae14f90633a89be0036c973217"
+    },
+    {
+      "category": "sources",
+      "name": "sources/book-4-outline-v2.md",
+      "passed": true,
+      "detail": "3bfb4350bb1f990a8ea559272263e8ef35e1b72bd0cbc86b59c9aa6ad4fc0899"
+    }
+  ],
+  "categories": {
+    "numeric": 194,
+    "displayed-answer": 61,
+    "svg-curve": 59,
+    "svg-point": 29,
+    "svg-text-anchor": 537,
+    "coverage": 5,
+    "answer-meaning": 92,
+    "structure": 10,
+    "figures": 2,
+    "assets": 31,
+    "pdf": 3,
+    "pdf-page": 228,
+    "navigation": 48,
+    "pagination": 1,
+    "sources": 2
+  },
+  "limits": [
+    "No claim of independent specialist review, live repository approval or classroom-measured learning gains.",
+    "Layout is additionally inspected using rendered pages; text-bound checks alone do not prove visual quality.",
+    "Arithmetic tests and selected answer tokens supplement, not replace, editorial reading of the full narrative."
+  ]
+}

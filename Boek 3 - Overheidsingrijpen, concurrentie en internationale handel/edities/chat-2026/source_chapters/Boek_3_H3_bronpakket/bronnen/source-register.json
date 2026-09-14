@@ -1,0 +1,99 @@
+{
+  "content_authority": "User supplied Book 3 and Book 4 outline v2, 6 September 2026; explicit task authorization to author this local print edition.",
+  "not_claimed": [
+    "Official target-registry status",
+    "CvTE adaptation",
+    "external independent review",
+    "live repository publication",
+    "classroom timing validation"
+  ],
+  "attachments": [
+    {
+      "file": "bronnen/book-3-outline-v2.md",
+      "sha256": "4e558b63d8eb954de935ad366170f6373f533eae14f90633a89be0036c973217",
+      "supplied_filename": "book-3-outline-v2(3).md",
+      "priority": "content and teaching boundaries"
+    },
+    {
+      "file": "bronnen/book-4-outline-v2.md",
+      "sha256": "3bfb4350bb1f990a8ea559272263e8ef35e1b72bd0cbc86b59c9aa6ad4fc0899",
+      "supplied_filename": "book-4-outline-v2(3).md",
+      "priority": "content and teaching boundaries"
+    }
+  ],
+  "repository_reads": [
+    {
+      "repo": "meijer1973/4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "91778371a11cbe9839a4822c3989e90e7317850a",
+      "requested_lines": [
+        1,
+        154
+      ],
+      "retrieval": "GitHub connector fetch_file",
+      "branch": "main",
+      "platform_main_when_read": "96416b6b5bd57094576e9aba0a42d682584ec479"
+    },
+    {
+      "repo": "meijer1973/4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5",
+      "requested_lines": [
+        1,
+        102
+      ],
+      "retrieval": "GitHub connector fetch_file",
+      "branch": "main",
+      "platform_main_when_read": null
+    },
+    {
+      "repo": "meijer1973/4veco-platform",
+      "path": "skills/econ-exercise-builder.md",
+      "blob_sha": "5504c8e8a325864978c76867b15b857c118df19d",
+      "requested_lines": [
+        1,
+        332
+      ],
+      "retrieval": "GitHub connector fetch_file",
+      "branch": "main",
+      "platform_main_when_read": "96416b6b5bd57094576e9aba0a42d682584ec479"
+    },
+    {
+      "repo": "meijer1973/4veco-platform",
+      "path": "skills/econ-textbook-paragraph.md",
+      "blob_sha": "b48ff1f0d02748e6e4d1f98d6d892ac786562c3b",
+      "requested_lines": [
+        145,
+        329
+      ],
+      "retrieval": "GitHub connector fetch_file",
+      "branch": "main",
+      "platform_main_when_read": "96416b6b5bd57094576e9aba0a42d682584ec479"
+    },
+    {
+      "repo": "meijer1973/4veco-platform",
+      "path": "skills/econ-didactiek.md",
+      "blob_sha": "5a38065e42754e0490e541002ba4465bf3dbeda8",
+      "requested_lines": [
+        1,
+        96
+      ],
+      "retrieval": "GitHub connector fetch_file",
+      "branch": "main",
+      "platform_main_when_read": "96416b6b5bd57094576e9aba0a42d682584ec479"
+    },
+    {
+      "repo": "meijer1973/4veco-platform",
+      "path": "skills/economic-graph.md",
+      "blob_sha": "938d5e61c46de0d60b8bdeaf0aced2572715c2d0",
+      "requested_lines": [
+        1,
+        155
+      ],
+      "retrieval": "GitHub connector fetch_file",
+      "branch": "main",
+      "platform_main_when_read": "96416b6b5bd57094576e9aba0a42d682584ec479"
+    }
+  ],
+  "access_note": "Direct raw downloads failed DNS in this runtime. Required maps and guidelines were read using the connected GitHub fetch_file action. This is not evidence that the files were absent or that unpushed local changes were included."
+}

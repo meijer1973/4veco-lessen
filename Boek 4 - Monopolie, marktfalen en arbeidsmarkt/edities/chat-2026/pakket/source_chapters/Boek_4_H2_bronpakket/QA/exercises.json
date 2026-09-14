@@ -1,0 +1,1848 @@
+[
+  {
+    "number": 1,
+    "title": "De bekende monopolieprocedure",
+    "section": "4.2.1",
+    "stage": "Startopgaven",
+    "context": "Voor een aanbieder geldt P = 30 − 0,5Q en TK = 40 + 10Q. Q is bezoeken per dag; P is euro per bezoek. De capaciteit is 40 bezoeken.",
+    "questions": [
+      {
+        "id": "1a",
+        "label": "a",
+        "prompt": "Bepaal MO en MK. Bereken Qm en Pm.",
+        "answer": "TO = 30Q − 0,5Q², dus MO = 30 − Q. MK = 10. Uit 30 − Q = 10 volgt Qm = 20 bezoeken per dag, binnen de capaciteit. Pm = 30 − 0,5 × 20 = € 20 per bezoek.",
+        "points": null
+      },
+      {
+        "id": "1b",
+        "label": "b",
+        "prompt": "Bereken de winst bij die hoeveelheid.",
+        "answer": "TO = 20 × 20 = € 400; TK = 40 + 10 × 20 = € 240. Winst = 400 − 240 = € 160 per dag.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 2,
+    "title": "Niet elk verlies is verdwenen",
+    "section": "4.2.1",
+    "stage": "Startopgaven",
+    "context": "Na een prijsverandering daalt CS met € 120 per week. PS stijgt met € 80. Andere onderdelen van de welvaartsvergelijking veranderen niet.",
+    "questions": [
+      {
+        "id": "2a",
+        "label": "a",
+        "prompt": "Bereken de verandering van TS.",
+        "answer": "ΔTS = −120 + 80 = −€ 40 per week. Het gezamenlijke surplus daalt dus met € 40.",
+        "points": null
+      },
+      {
+        "id": "2b",
+        "label": "b",
+        "prompt": "Een leerling noemt de hele € 120 welvaartsverlies. Wat vergeet hij?",
+        "answer": "Hij vergeet de € 80 die bij producenten terechtkomt. Dat deel is een overdracht binnen de onderzochte groep. Alleen het saldo van € 40 verdwijnt uit TS.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 3,
+    "title": "Herken de twee gebieden",
+    "section": "4.2.1",
+    "stage": "Begeleide inoefening",
+    "context": "Gebruik de volledig gemarkeerde figuur op deze pagina. Dezelfde vraag en kosten gelden in beide uitkomsten.",
+    "questions": [
+      {
+        "id": "3a",
+        "label": "a",
+        "prompt": "Lees Qm, Pm, Qe en Pe af. Benoem de economische functie van gebied A en gebied B.",
+        "answer": "Qm = 20, Pm = € 60, Qe = 30 en Pe = € 50. A is de overdracht op de blijvende verkopen; B is het welvaartsverlies door minder verkopen.",
+        "points": null
+      },
+      {
+        "id": "3b",
+        "label": "b",
+        "prompt": "Bereken de oppervlakte van A en B.",
+        "answer": "A = 20 × (60 − 50) = € 200 per dag. B = ½ × (30 − 20) × (60 − 40) = € 100 per dag.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 4,
+    "title": "Een tabel aanvullen",
+    "section": "4.2.1",
+    "stage": "Begeleide inoefening",
+    "context": "Een aanbieder verhuurt opslagvakken. Bij monopolie zijn Q = 20 en P = € 50; de efficiënte uitkomst is Q = 30 en P = € 40. De vraag begint bij € 70; MK = 10 + Q. Alle bedragen hieronder zijn per week. Er zijn geen externe effecten.",
+    "questions": [
+      {
+        "id": "4a",
+        "label": "a",
+        "prompt": "Vul de lege cellen van de tabel in. Gebruik voor PS bij monopolie eerst een rechthoek en daarna een driehoek.",
+        "answer": "Monopolie: CS = ½ × 20 × 20 = € 200; PS = 20 × 20 + ½ × 20 × 20 = € 600; TS = € 800. Efficiënt: CS = € 450; PS = € 450; TS = € 900.",
+        "points": null
+      },
+      {
+        "id": "4b",
+        "label": "b",
+        "prompt": "Bereken de overdracht en het welvaartsverlies.",
+        "answer": "Overdracht = 20 × (50 − 40) = € 200. Welvaartsverlies = 900 − 800 = € 100 per week.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 5,
+    "title": "Twee effecten tegelijk",
+    "section": "4.2.1",
+    "stage": "Zelfstandige oefening",
+    "context": "Door één prijs- en afzetverandering bij een verhuurder ontstaat een overdracht van € 300 van kopers naar verkopers. Daarnaast vervalt € 60 koperssurplus en € 40 producentensurplus door niet meer gesloten transacties. Er verandert verder niets.",
+    "questions": [
+      {
+        "id": "5a",
+        "label": "a",
+        "prompt": "Bekijk alleen de overdracht. Wat doet die met CS, PS en TS?",
+        "answer": "CS daalt € 300 en PS stijgt € 300. TS verandert door deze overdracht niet.",
+        "points": null
+      },
+      {
+        "id": "5b",
+        "label": "b",
+        "prompt": "Bekijk alleen de weggevallen transacties. Hoe verandert TS?",
+        "answer": "TS daalt met 60 + 40 = € 100.",
+        "points": null
+      },
+      {
+        "id": "5c",
+        "label": "c",
+        "prompt": "Bereken de totale verandering van CS, PS en TS.",
+        "answer": "ΔCS = −300 − 60 = −€ 360; ΔPS = +300 − 40 = +€ 260; ΔTS = −€ 100.",
+        "points": null
+      },
+      {
+        "id": "5d",
+        "label": "d",
+        "prompt": "Beoordeel: “PS stijgt, dus er is geen marktfalen.”",
+        "answer": "Onjuist. Het extra PS voor de verkoper is kleiner dan het verlies voor kopers. TS daalt met € 100 door gemiste wederzijds voordelige transacties.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 6,
+    "title": "De markt voor prints",
+    "section": "4.2.1",
+    "stage": "Zelfstandige oefening",
+    "context": "P = 60 − Q en MK = Q. Q is prints per week en P euro per print, met 0 ≤ Q ≤ 50. Er zijn geen externe effecten.",
+    "questions": [
+      {
+        "id": "6a",
+        "label": "a",
+        "prompt": "Bepaal de monopolie-uitkomst en de efficiënte uitkomst.",
+        "answer": "MO = 60 − 2Q. MO = MK geeft Qm = 20 en Pm = € 40. P = MK geeft Qe = 30 en Pe = € 30.",
+        "points": null
+      },
+      {
+        "id": "6b",
+        "label": "b",
+        "prompt": "Bereken CS, PS en TS bij monopolie en bepaal het welvaartsverlies.",
+        "answer": "CSm = ½ × 20 × 20 = € 200. PSm = 20 × (40 − 20) + ½ × 20 × 20 = € 600. TSm = € 800. Efficiënt: CSe = PSe = ½ × 30 × 30 = € 450, dus TSe = € 900. Welvaartsverlies = € 100 per week.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 7,
+    "title": "De VR-studio",
+    "section": "4.2.1",
+    "stage": "Doeloefening",
+    "context": "Gebruik de bron en de basisgrafiek. De lijnen zijn al gegeven.",
+    "questions": [
+      {
+        "id": "7a",
+        "label": "a",
+        "prompt": "Bereken Qm en Pm, en daarna Qe en Pe.",
+        "answer": "MO = 80 − Q. Monopolie: 80 − Q = 20 + 0,5Q → 60 = 1,5Q → Qm = 40 sessies, Pm = € 60. Efficiënt: 80 − 0,5Q = 20 + 0,5Q → Qe = 60, Pe = € 50. Beide passen binnen 100.",
+        "points": 3
+      },
+      {
+        "id": "7b",
+        "label": "b",
+        "prompt": "Markeer beide uitkomsten en arceer CS en PS bij monopolie. Bereken die bedragen en de winst.",
+        "answer": "CSm = ½ × 40 × (80 − 60) = € 400. MK(40) = € 40. PSm = 40 × (60 − 40) + ½ × 40 × (40 − 20) = 800 + 400 = € 1.200. Winst = PS − TCK = 1.200 − 200 = € 1.000 per week. Gebieden: CS tussen vraag en P = 60; PS tussen P = 60 en MK, tot Q = 40.",
+        "points": 3
+      },
+      {
+        "id": "7c",
+        "label": "c",
+        "prompt": "Bereken TS in beide situaties en het welvaartsverlies. Benoem basis en hoogte van de verliesdriehoek.",
+        "answer": "TSm = 400 + 1.200 = € 1.600. Efficiënt: CSe = ½ × 60 × 30 = € 900 en PSe = ½ × 60 × 30 = € 900; TSe = € 1.800. Verlies = € 200 per week. Basis = 60 − 40 = 20 sessies; hoogte = 60 − 40 = € 20 per sessie; ½ × 20 × 20 = € 200.",
+        "points": 3
+      },
+      {
+        "id": "7d",
+        "label": "d",
+        "prompt": "Bereken de overdracht op de blijvende sessies. Leg uit waarom die niet zelf het welvaartsverlies is.",
+        "answer": "Overdracht = 40 × (60 − 50) = € 400 per week. Die € 400 verplaatst zich van kopers naar de aanbieder en blijft binnen CS + PS. Het verlies van € 200 betreft niet meer uitgevoerde, gezamenlijk voordelige sessies.",
+        "points": 2
+      },
+      {
+        "id": "7e",
+        "label": "e",
+        "prompt": "Beoordeel: “Meer producentensurplus betekent dat deze uitkomst voor de samenleving beter én eerlijker is.”",
+        "answer": "Onjuist. PS stijgt van € 900 naar € 1.200, maar TS daalt van € 1.800 naar € 1.600. Wie het voordeel krijgt en wat eerlijk is, vragen bovendien een afzonderlijk verdelingsoordeel. De berekening bevat geen norm voor eerlijkheid.",
+        "points": 2
+      }
+    ],
+    "answer_fig": "421_answer7",
+    "tags": []
+  },
+  {
+    "number": 8,
+    "title": "Een betere techniek",
+    "section": "4.2.1",
+    "stage": "Denkertje / Bonusopgave",
+    "context": "Een ontwerper zegt: “Mijn nieuwe techniek heeft lagere kosten. Daarom mag je mijn monopolie niet vergelijken met een concurrerende markt met de oude, dure techniek.” Er zijn nog geen cijfers over de nieuwe kosten of toekomstige uitvindingen.",
+    "questions": [
+      {
+        "id": "8a",
+        "label": "a",
+        "prompt": "Waarom kan een vergelijking met verschillende technieken de oorzaak van een welvaartsverschil vertroebelen?",
+        "answer": "Dan veranderen marktvorm én kosten tegelijk. Een verschil in TS kan door de prijskeuze komen, door lagere productiekosten of door beide. De afzonderlijke invloed van marktmacht is zo niet af te leiden.",
+        "points": null
+      },
+      {
+        "id": "8b",
+        "label": "b",
+        "prompt": "Stel twee eerlijke vergelijkingen voor die samen meer inzicht geven.",
+        "answer": "Vergelijk eerst monopolie en de efficiënte hoeveelheid bij dezelfde nieuwe techniek. Dat isoleert de beperking van afzet. Vergelijk daarnaast de oude en nieuwe techniek onder dezelfde prijs- of marktaannames. Daarvoor zijn kostengegevens nodig.",
+        "points": null
+      },
+      {
+        "id": "8c",
+        "label": "c",
+        "prompt": "Bewijst het bestaan van een patent al dat de totale maatschappelijke uitkomst beter is?",
+        "answer": "Nee. Het patent kan in de bron een prikkel of barrière vormen, maar het netto-effect vereist informatie over innovatievoordeel, prijs, productie, looptijd en alternatieven. Die informatie ontbreekt hier.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 9,
+    "title": "De belasting blijft een wig",
+    "section": "4.2.1",
+    "stage": "Herhaling / Herhaling en interleaving",
+    "context": "Op een concurrerende markt is de oorspronkelijke prijs € 12. Na een belasting betalen kopers € 15 en ontvangen producenten € 10. Er worden 80 stuks per week verkocht.",
+    "questions": [
+      {
+        "id": "9a",
+        "label": "a",
+        "prompt": "Bereken de belasting per stuk en de overheidsopbrengst.",
+        "answer": "t = Pc − Pp = 15 − 10 = € 5 per stuk. Opbrengst = 5 × 80 = € 400 per week.",
+        "points": null
+      },
+      {
+        "id": "9b",
+        "label": "b",
+        "prompt": "Bereken het kopers- en verkopersdeel van de belasting per verkocht stuk.",
+        "answer": "Kopersdeel = 15 − 12 = € 3; verkopersdeel = 12 − 10 = € 2. Samen € 5. Wie de belasting afdraagt, is hiermee nog niet vastgesteld.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 10,
+    "title": "Twee inkomsten, één bedrijf",
+    "section": "4.2.2",
+    "stage": "Startopgaven",
+    "context": "Een aanbieder verkoopt in één week 30 bezoeken voor € 12 en 20 bezoeken voor € 8. De variabele kosten zijn € 3 per bezoek; de gezamenlijke constante kosten zijn € 90.",
+    "questions": [
+      {
+        "id": "10a",
+        "label": "a",
+        "prompt": "Bereken totale omzet, totale kosten en winst.",
+        "answer": "TO = 30 × 12 + 20 × 8 = € 520. Q = 50. TK = 90 + 3 × 50 = € 240. Winst = 520 − 240 = € 280 per week.",
+        "points": null
+      },
+      {
+        "id": "10b",
+        "label": "b",
+        "prompt": "Waarom trek je de € 90 niet voor elke groep afzonderlijk af?",
+        "answer": "Het gaat om één gezamenlijke vaste kostenpost. Die nogmaals aftrekken zou de kosten dubbel tellen en de winst te laag maken.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 11,
+    "title": "Drie prijskaartjes",
+    "section": "4.2.2",
+    "stage": "Startopgaven",
+    "context": "A: dezelfde rondleiding is goedkoper met een gecontroleerde studentenpas, zonder kostenverschil. B: een taxi rekent extra voor een langere rit. C: een abonnement met extra opslag kost meer.",
+    "questions": [
+      {
+        "id": "11a",
+        "label": "a",
+        "prompt": "Welke situatie beschrijft prijsdiscriminatie? Leg uit.",
+        "answer": "A: dezelfde dienst, maar een andere prijs die niet door andere kosten wordt verklaard. De pas maakt het onderscheid tussen groepen mogelijk.",
+        "points": null
+      },
+      {
+        "id": "11b",
+        "label": "b",
+        "prompt": "Waarom zijn B en C geen voldoende bewijs?",
+        "answer": "Bij B verandert de geleverde afstand en daarmee de dienst en de kosten. Bij C wordt meer opslag geleverd. Verschillende producten of kosten kunnen het prijsverschil verklaren.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 12,
+    "title": "Een volledig ingevuld paneel",
+    "section": "4.2.2",
+    "stage": "Begeleide inoefening",
+    "context": "Lees in de figuur de keuzes van Lichtzaal voor twee soorten persoonlijke passen. MK = € 4 per bezoek. Er zijn geen extra kosten om groepen te scheiden.",
+    "questions": [
+      {
+        "id": "12a",
+        "label": "a",
+        "prompt": "Lees voor A en B de hoeveelheid en de prijs af. Bereken de totale omzet.",
+        "answer": "A: Q_A = 16 en P_A = € 20. B: Q_B = 8 en P_B = € 12. TO = 16 × 20 + 8 × 12 = € 416 per week.",
+        "points": null
+      },
+      {
+        "id": "12b",
+        "label": "b",
+        "prompt": "Leg uit waarom het horizontale niveau van € 4 niet de verkoopprijs is.",
+        "answer": "€ 4 is MK en bij de gekozen hoeveelheden ook MO. De verkoopprijs staat voor elke groep hoger op haar eigen vraaglijn: € 20 respectievelijk € 12.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 13,
+    "title": "De rekentabel van de ijsbaan",
+    "section": "4.2.2",
+    "stage": "Begeleide inoefening",
+    "context": "Dezelfde ijsbaandienst wordt aan twee herkenbare groepen verkocht. De bron geeft de haalbare keuzes in de tabel. Variabele kosten: € 2 per bezoek. Gezamenlijke constante kosten: € 100 per week.",
+    "questions": [
+      {
+        "id": "13a",
+        "label": "a",
+        "prompt": "Vul eerst de lege cellen TO, TK en winst in voor beide situaties.",
+        "answer": "Eén prijs: Q = 20 + 10 = 30; TO = 10 × 30 = € 300; TK = 100 + 2 × 30 = € 160; winst = € 140. Twee prijzen: Q = 15 + 20 = 35; TO = 12 × 15 + 7 × 20 = € 320; TK = 100 + 2 × 35 = € 170; winst = € 150.",
+        "points": null
+      },
+      {
+        "id": "13b",
+        "label": "b",
+        "prompt": "Een leerling rekent bij twee prijzen € 220 winst. Welke kostenpost ontbreekt in zijn berekening 320 − 100?",
+        "answer": "Hij heeft wel de constante kosten afgetrokken, maar de variabele kosten 2 × 35 = € 70 niet. Omzet minus alleen vaste kosten is niet de winst.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 14,
+    "title": "Toegang tot een tentoonstelling",
+    "section": "4.2.2",
+    "stage": "Zelfstandige oefening",
+    "context": "Voor groep A geldt P_A = 28 − Q_A; voor B geldt P_B = 20 − Q_B. Prijzen zijn euro per bezoek, hoeveelheden bezoeken per week. MK = € 4 voor beide groepen. TCK = € 40 per week. De capaciteit is 48. De groepen gebruiken dezelfde dienst en kunnen niet doorverkopen.",
+    "questions": [
+      {
+        "id": "14a",
+        "label": "a",
+        "prompt": "Bereken de winstmaximale afzet en de prijs voor elke groep.",
+        "answer": "MO_A = 28 − 2Q_A = 4 geeft Q_A = 12 en P_A = € 16. MO_B = 20 − 2Q_B = 4 geeft Q_B = 8 en P_B = € 12. Samen 20, dus haalbaar. MO daalt in beide groepen door MK heen.",
+        "points": null
+      },
+      {
+        "id": "14b",
+        "label": "b",
+        "prompt": "Bereken de totale winst en geef één reden waarom de twee prijzen uitvoerbaar zijn.",
+        "answer": "TO = 16 × 12 + 12 × 8 = € 288. TK = 40 + 4 × (12 + 8) = € 120. Winst = € 168 per week. De groepen zijn herkenbaar en doorverkoop is uitgesloten; daardoor kan niet iedereen de lagere prijs kiezen.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 15,
+    "title": "Tegengestelde gevolgen",
+    "section": "4.2.2",
+    "stage": "Zelfstandige oefening",
+    "context": "Een ontspanningscentrum vervangt één tarief door groepsprijzen. Deelnemers van A betalen meer; CS_A daalt € 90. B krijgt korting; CS_B stijgt € 30. PS stijgt € 40 per week. Geen andere maatschappelijke posten veranderen.",
+    "questions": [
+      {
+        "id": "15a",
+        "label": "a",
+        "prompt": "Bekijk eerst alleen de prijsverandering voor A. Wat gebeurt met het surplus van A?",
+        "answer": "A betaalt meer en verliest € 90 consumentensurplus.",
+        "points": null
+      },
+      {
+        "id": "15b",
+        "label": "b",
+        "prompt": "Bekijk nu alleen de prijsverandering voor B. Wat gebeurt met het surplus van B?",
+        "answer": "B krijgt korting en wint € 30 consumentensurplus. Dat staat los van het verlies bij A.",
+        "points": null
+      },
+      {
+        "id": "15c",
+        "label": "c",
+        "prompt": "Bereken de verandering van het totale CS en van TS.",
+        "answer": "ΔCS = −90 + 30 = −€ 60. ΔTS = −60 + 40 = −€ 20 per week.",
+        "points": null
+      },
+      {
+        "id": "15d",
+        "label": "d",
+        "prompt": "Beoordeel: “Er is korting en de aanbieder verdient meer, dus alle partijen winnen.”",
+        "answer": "Onjuist. De korting geldt alleen voor B. A verliest meer surplus dan B wint; zelfs na de PS-stijging daalt TS met € 20. Een voordeel voor één groep is geen voordeel voor iedereen.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 16,
+    "title": "FilmLab",
+    "section": "4.2.2",
+    "stage": "Doeloefening",
+    "context": "Gebruik beide bronnen. Je hoeft de gemeenschappelijke prijs van € 20 niet opnieuw te bepalen.",
+    "questions": [
+      {
+        "id": "16a",
+        "label": "a",
+        "prompt": "Bereken per groep MO, de winstmaximale hoeveelheid en de groepsprijs.",
+        "answer": "MO_A = 40 − 2Q_A; 40 − 2Q_A = 8 → Q_A = 16, P_A = € 24. MO_B = 24 − 2Q_B; 24 − 2Q_B = 8 → Q_B = 8, P_B = € 16. Beide marginale lijnen dalen; vóór de keuze is MO groter dan MK en erna kleiner. Samen 24 ≤ 64.",
+        "points": 3
+      },
+      {
+        "id": "16b",
+        "label": "b",
+        "prompt": "Bereken TO en winst bij één prijs en bij de groepsprijzen.",
+        "answer": "Eén prijs: TO = 20 × (20 + 4) = € 480; TK = 80 + 8 × 24 = € 272; winst = € 208. Groepsprijzen: TO = 24 × 16 + 16 × 8 = € 512; TK = € 272; winst = € 240 per week. De vaste kosten worden één keer afgetrokken.",
+        "points": 3
+      },
+      {
+        "id": "16c",
+        "label": "c",
+        "prompt": "Welke groep betaalt meer en welke minder? Noem één noodzakelijke voorwaarde uit bron A.",
+        "answer": "A betaalt € 24 in plaats van € 20; B betaalt € 16 in plaats van € 20. Bijvoorbeeld: de persoonlijke gecontroleerde passen voorkomen doorverkoop en houden de groepen gescheiden.",
+        "points": 2
+      },
+      {
+        "id": "16d",
+        "label": "d",
+        "prompt": "Bereken met bron B PS en TS in beide situaties. Is de hogere winst hier ook een hogere totale welvaart?",
+        "answer": "PS = TO − TVK. Eén prijs: PS = 480 − 192 = € 288; TS = 208 + 288 = € 496. Groepsprijzen: PS = 512 − 192 = € 320; TS = 160 + 320 = € 480. Winst stijgt € 32, maar TS daalt € 16. Dus niet in deze case.",
+        "points": 3
+      },
+      {
+        "id": "16e",
+        "label": "e",
+        "prompt": "Waarom bewijst deze ene case niet dat prijsdiscriminatie altijd welvaart verlaagt?",
+        "answer": "Dit resultaat hoort bij de gegeven vraag, kosten en afzet. In een andere case kunnen bijvoorbeeld extra kopers worden bereikt die anders niets kopen. Dan kan de verandering van TS anders zijn. Zonder die gegevens is geen algemene richting bewezen.",
+        "points": 2
+      }
+    ],
+    "answer_fig": "422_answer16",
+    "tags": []
+  },
+  {
+    "number": 17,
+    "title": "Dezelfde naam, een ander gevolg",
+    "section": "4.2.2",
+    "stage": "Denkertje / Bonusopgave",
+    "context": "Een onderzoeker beschrijft twee denkbeeldige prijsdiscriminatiegevallen. Er zijn geen externe effecten. In geval I verandert CS van € 500 naar € 430 en PS van € 300 naar € 350. In geval II verandert CS van € 100 naar € 160 en PS van € 200 naar € 260. De bedragen zijn per maand.",
+    "questions": [
+      {
+        "id": "17a",
+        "label": "a",
+        "prompt": "Vergelijk de verandering van TS in beide gevallen.",
+        "answer": "Geval I: TS gaat van 800 naar 780, dus −€ 20. Geval II: TS gaat van 300 naar 420, dus +€ 120 per maand.",
+        "points": null
+      },
+      {
+        "id": "17b",
+        "label": "b",
+        "prompt": "Geef een mogelijke verklaring voor het verschil, zonder te doen alsof de cijfers die verklaring bewijzen.",
+        "answer": "In II kan een lagere prijs een nieuwe groep kopers hebben bereikt, waardoor meer voordelige transacties ontstaan. In I kan vooral afzet tussen groepen zijn verschoven. Dit zijn mogelijke mechanismen; de opgegeven totaalcijfers bewijzen de oorzaak niet.",
+        "points": null
+      },
+      {
+        "id": "17c",
+        "label": "c",
+        "prompt": "Welke extra broninformatie heb je nodig om te beoordelen wie erop vooruitgaat?",
+        "answer": "Prijzen, afzet en CS per klantgroep, en informatie over wie de ondernemingsopbrengst ontvangt. Een hoger totaal kan nog steeds verlies voor een afzonderlijke groep verbergen.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 18,
+    "title": "Terug naar één uniforme prijs",
+    "section": "4.2.2",
+    "stage": "Herhaling / Herhaling en interleaving",
+    "context": "Een monopolist gebruikt P = 24 − 0,2Q en MK = € 4. Q is stuks per week; de capaciteit is 100.",
+    "questions": [
+      {
+        "id": "18a",
+        "label": "a",
+        "prompt": "Bereken Qm en Pm.",
+        "answer": "MO = 24 − 0,4Q. MO = 4 geeft Qm = 50 stuks per week, binnen de capaciteit. Pm = 24 − 0,2 × 50 = € 14 per stuk.",
+        "points": null
+      },
+      {
+        "id": "18b",
+        "label": "b",
+        "prompt": "Bereken het consumentensurplus bij monopolie.",
+        "answer": "CS = ½ × 50 × (24 − 14) = € 250 per week. Het ligt boven P = 14 en onder de vraaglijn, tot Q = 50.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 19,
+    "title": "Prijsnemer of prijszetter?",
+    "section": "4.2.3",
+    "stage": "Startopgaven",
+    "context": "Onderneming A is een kleine prijsnemer en ontvangt € 9 per kg. Voor onderneming B geldt P = 18 − 0,20q. q is kg per week.",
+    "questions": [
+      {
+        "id": "19a",
+        "label": "a",
+        "prompt": "Geef voor A GO en MO.",
+        "answer": "Bij de prijsnemer zijn GO = MO = P = € 9 per kg, binnen de haalbare productie.",
+        "points": null
+      },
+      {
+        "id": "19b",
+        "label": "b",
+        "prompt": "Bepaal TO en MO voor B. Is MO bij positieve q gelijk aan P?",
+        "answer": "TO = 18q − 0,20q²; MO = 18 − 0,40q. Bij positieve q is MO lager dan P: een extra verkoop tegen een lagere uniforme prijs verlaagt ook de opbrengst op eerdere eenheden.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 20,
+    "title": "Vier logo’s",
+    "section": "4.2.3",
+    "stage": "Startopgaven",
+    "context": "Vier populaire merken meel zijn allemaal eigendom van dezelfde producent. Over andere meelproducenten geeft de bron niets.",
+    "questions": [
+      {
+        "id": "20a",
+        "label": "a",
+        "prompt": "Bewijzen vier merken dat er vier zelfstandige aanbieders zijn?",
+        "answer": "Nee. De vier merken horen bij één producent. Merken tellen is niet hetzelfde als zelfstandige ondernemingen tellen.",
+        "points": null
+      },
+      {
+        "id": "20b",
+        "label": "b",
+        "prompt": "Kun je nu zeker zeggen dat de hele meelmarkt een monopolie is?",
+        "answer": "Nee. Informatie over andere aanbieders en goede alternatieven ontbreekt. De markt moet eerst worden afgebakend.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 21,
+    "title": "De kenmerken staan er al",
+    "section": "4.2.3",
+    "stage": "Begeleide inoefening",
+    "context": "A: veel telers leveren een identieke kwaliteit graan; toetreding is vrij. B: veel onafhankelijke kapsalons bieden verschillende service; beginnen is relatief eenvoudig. C: drie grote fabrikanten domineren een markt met hoge startkosten. D: één leverancier bezit de enige toegestane toegang tot een voorziening.",
+    "questions": [
+      {
+        "id": "21a",
+        "label": "a",
+        "prompt": "Koppel A tot en met D aan de vier marktvormen.",
+        "answer": "A: volkomen concurrentie. B: monopolistische concurrentie. C: oligopolie. D: monopolie.",
+        "points": null
+      },
+      {
+        "id": "21b",
+        "label": "b",
+        "prompt": "Welke informatie onderscheidt B van een monopolie en C van volkomen concurrentie?",
+        "answer": "B heeft veel zelfstandige aanbieders en relatief eenvoudige toetreding. C heeft slechts drie grote aanbieders en hoge startkosten; dat wijkt af van veel kleine prijsnemers met vrije toetreding.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 22,
+    "title": "Een zaak met een eigen vraaglijn",
+    "section": "4.2.3",
+    "stage": "Begeleide inoefening",
+    "context": "De figuur hoort bij één lunchzaak tussen veel vergelijkbare maar niet identieke lunchzaken. De bron houdt het gedrag van andere zaken gelijk. MK = € 10 per maaltijd; q is maaltijden per dag.",
+    "questions": [
+      {
+        "id": "22a",
+        "label": "a",
+        "prompt": "Lees de gemarkeerde hoeveelheid en prijs af. Welke twee lijnen gebruik je achtereenvolgens?",
+        "answer": "q = 20 maaltijden per dag en P = € 20. Eerst bepaalt MO = MK de hoeveelheid; daarna lees je bij die hoeveelheid P op GO/vraag.",
+        "points": null
+      },
+      {
+        "id": "22b",
+        "label": "b",
+        "prompt": "Waarom mag je dezelfde grafiek niet automatisch voor iedere oligopolist gebruiken?",
+        "answer": "De figuur is een specifieke vraag- en kostenaanname voor deze lunchzaak. Bij oligopolie kan de vraag naar één onderneming mede afhangen van de reacties van andere grote ondernemingen; daarvoor zijn extra aannames nodig.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 23,
+    "title": "Twee veranderingen in een winkelstraat",
+    "section": "4.2.3",
+    "stage": "Zelfstandige oefening",
+    "context": "Eerst zijn er veel onafhankelijke gelijksoortige winkels. Daarna kopen twee ketens bijna alle winkels op. Tegelijk gaan de winkels sterk verschillen in assortiment. Er worden geen prijs- of kostencijfers gegeven.",
+    "questions": [
+      {
+        "id": "23a",
+        "label": "a",
+        "prompt": "Bekijk eerst alleen de overnames. Welk kenmerk verandert?",
+        "answer": "Het aantal zelfstandige aanbieders neemt af: veel winkels vallen nu onder slechts twee beslissende ondernemingen.",
+        "points": null
+      },
+      {
+        "id": "23b",
+        "label": "b",
+        "prompt": "Bekijk alleen de verschillende assortimenten. Welk kenmerk verandert?",
+        "answer": "De productverschillen nemen toe: kopers zien meer heterogeniteit.",
+        "points": null
+      },
+      {
+        "id": "23c",
+        "label": "c",
+        "prompt": "Combineer de twee veranderingen. Welke marktvorm past nu het best bij de bron?",
+        "answer": "Enkele grote aanbieders én heterogene producten: oligopolie. De twee kenmerken moeten samen worden gebruikt.",
+        "points": null
+      },
+      {
+        "id": "23d",
+        "label": "d",
+        "prompt": "Beoordeel: “Door verschillende assortimenten is er nu zeker monopolistische concurrentie.”",
+        "answer": "Dat volgt niet. Monopolistische concurrentie vereist veel aanbieders. Twee dominerende ketens passen eerder bij oligopolie met heterogene producten. Productverschillen alleen bepalen de marktvorm niet.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 24,
+    "title": "Een kleine bakker met een eigen recept",
+    "section": "4.2.3",
+    "stage": "Zelfstandige oefening",
+    "context": "Voor één bakker tussen veel zelfstandige bakkers geldt op korte termijn P = 20 − 0,10q en TK = 80 + 4q. q is producten per dag; de capaciteit is 100. Het gedrag van concurrenten blijft gelijk.",
+    "questions": [
+      {
+        "id": "24a",
+        "label": "a",
+        "prompt": "Bereken de winstmaximale hoeveelheid, prijs en winst.",
+        "answer": "TO = 20q − 0,10q², MO = 20 − 0,20q en MK = 4. MO = MK geeft q = 80, binnen de capaciteit; MO daalt door MK. P = € 12. TO = 12 × 80 = € 960; TK = 80 + 4 × 80 = € 400; winst = € 560 per dag.",
+        "points": null
+      },
+      {
+        "id": "24b",
+        "label": "b",
+        "prompt": "Maakt de gebruikte rekenprocedure deze bakker tot monopolist?",
+        "answer": "Nee. Ook een onderneming onder monopolistische concurrentie kan een dalende eigen vraag hebben. De bron noemt juist veel aanbieders. De procedure is geen bewijs van een monopolie.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 25,
+    "title": "Marktvorm is het begin",
+    "section": "4.2.3",
+    "stage": "Doeloefening",
+    "context": "Gebruik alleen de beschreven markten en de gegeven korte-termijnberekening.",
+    "questions": [
+      {
+        "id": "25a",
+        "label": "a",
+        "prompt": "Classificeer I tot en met IV. Geef voor elke markt het beslissende bronbewijs.",
+        "answer": "I: volkomen concurrentie: veel kleine aanbieders, homogeen product en vrije toetreding. II: monopolistische concurrentie: veel aanbieders, heterogene diensten en relatief eenvoudige toetreding. III: oligopolie: drie grote aanbieders en hoge toetredingskosten. IV: monopolie: één aanbieder en een onoverkomelijke toegangsdrempel binnen de afgebakende markt.",
+        "points": 4
+      },
+      {
+        "id": "25b",
+        "label": "b",
+        "prompt": "Bepaal voor Puur TO, MO en MK.",
+        "answer": "TO = (30 − 0,25q)q = 30q − 0,25q². MO = 30 − 0,50q. MK = 6; de constante € 144 verdwijnt bij de marginale afleiding.",
+        "points": 2
+      },
+      {
+        "id": "25c",
+        "label": "c",
+        "prompt": "Bereken de winstmaximale haalbare q, de verkoopprijs en de winst.",
+        "answer": "30 − 0,50q = 6 geeft q = 48. Dat is lager dan de capaciteit van 80. MO ligt ervoor boven 6 en erna eronder. P = 30 − 0,25 × 48 = € 18. TO = 18 × 48 = € 864; TK = 144 + 6 × 48 = € 432; winst = € 432 per dag.",
+        "points": 3
+      },
+      {
+        "id": "25d",
+        "label": "d",
+        "prompt": "Verklaar waarom Puur geen horizontale GO-lijn hoeft te hebben, ook al zijn er veel aanbieders.",
+        "answer": "De producten zijn heterogeen: klanten onderscheiden smaak en locatie. Puur heeft daardoor enige invloed op de prijs. Een kleine prijsnemer bij volkomen concurrentie biedt juist een homogeen goed aan en neemt P als gegeven.",
+        "points": 2
+      },
+      {
+        "id": "25e",
+        "label": "e",
+        "prompt": "Mag je de functie van Puur zonder extra broninformatie gebruiken voor markt III? Leg uit.",
+        "answer": "Nee. De functie geldt voor Puur onder de gegeven voorwaarden. Bij oligopolie moet onder meer duidelijk zijn hoe concurrenten reageren. De marktvorm III levert geen universele functie P = 30 − 0,25q op.",
+        "points": 2
+      }
+    ],
+    "answer_fig": "423_answer25",
+    "tags": []
+  },
+  {
+    "number": 26,
+    "title": "De enige winkel op het station",
+    "section": "4.2.3",
+    "stage": "Denkertje / Bonusopgave",
+    "context": "Op één perron staat één broodjeswinkel. Buiten het station liggen meerdere lunchzaken. Reizigers met haast blijven vaak op het perron; reizigers met veel tijd lopen geregeld naar buiten.",
+    "questions": [
+      {
+        "id": "26a",
+        "label": "a",
+        "prompt": "Waarom kan de conclusie over marktmacht verschillen per klantgroep?",
+        "answer": "Reizigers met weinig tijd hebben minder bruikbare alternatieven dan reizigers die naar buiten kunnen. De effectieve concurrentie en prijsgevoeligheid kunnen dus verschillen, hoewel hetzelfde bedrijf verkoopt.",
+        "points": null
+      },
+      {
+        "id": "26b",
+        "label": "b",
+        "prompt": "Welke gegevens zou je verzamelen voordat je de markt definitief afbakent?",
+        "answer": "Bijvoorbeeld hoeveel reizigers bij een prijsverhoging elders kopen, hoeveel tijd dat kost en welke alternatieven zij als gelijkwaardig zien. Een keuze voor marktgrenzen vraagt gedragsinformatie.",
+        "points": null
+      },
+      {
+        "id": "26c",
+        "label": "c",
+        "prompt": "Waarom is “één winkel in beeld” onvoldoende bewijs van een monopolie?",
+        "answer": "Een foto zegt niets over alternatieven buiten beeld of over de relevante marktgrens. Eén locatie kan nog steeds concurrentie ondervinden van andere aanbieders.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 27,
+    "title": "De vaste kosten nogmaals controleren",
+    "section": "4.2.3",
+    "stage": "Herhaling / Herhaling en interleaving",
+    "context": "Twee klantgroepen leveren samen € 900 omzet. Er zijn in totaal 80 bezoeken. Variabele kosten zijn € 5 per bezoek en gezamenlijke constante kosten € 200.",
+    "questions": [
+      {
+        "id": "27a",
+        "label": "a",
+        "prompt": "Bereken PS en winst.",
+        "answer": "TVK = 80 × 5 = € 400. PS = TO − TVK = 900 − 400 = € 500. Winst = PS − TCK = 500 − 200 = € 300.",
+        "points": null
+      },
+      {
+        "id": "27b",
+        "label": "b",
+        "prompt": "Leg uit welke fout ontstaat als iemand per groep € 200 vaste kosten aftrekt.",
+        "answer": "Dan telt diegene dezelfde gezamenlijke kosten twee keer. De totale winst wordt daardoor € 200 te laag berekend.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 28,
+    "title": "Een heffing terughalen",
+    "section": "4.2.4",
+    "stage": "Startopgaven",
+    "context": "Vraag: Pc = 20 − Q. Aanbod: Pp = Q. De verkoper draagt € 4 per eenheid af. Q is stuks per dag.",
+    "questions": [
+      {
+        "id": "28a",
+        "label": "a",
+        "prompt": "Bereken Q, Pc en Pp na de heffing.",
+        "answer": "20 − Q = Q + 4 → 16 = 2Q → Q = 8. Pc = 20 − 8 = € 12 en Pp = € 8 per stuk. De wig is € 4.",
+        "points": null
+      },
+      {
+        "id": "28b",
+        "label": "b",
+        "prompt": "Bereken de heffingsopbrengst.",
+        "answer": "Opbrengst = t × Q = 4 × 8 = € 32 per dag. Gebruik de verkochte hoeveelheid na heffing.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 29,
+    "title": "Wie staat buiten de transactie?",
+    "section": "4.2.4",
+    "stage": "Startopgaven",
+    "context": "A: een klant betaalt veel voor een schaars kaartje. B: geluid van een bedrijf verstoort onbetaald de nachtrust van buren. C: een bakker betaalt zijn meelrekening.",
+    "questions": [
+      {
+        "id": "29a",
+        "label": "a",
+        "prompt": "Welke situatie beschrijft een negatief extern effect? Benoem de derde partij.",
+        "answer": "B: de buren zijn geen koper of verkoper in de bedrijfstransactie, maar ondervinden niet-vergoede geluidshinder.",
+        "points": null
+      },
+      {
+        "id": "29b",
+        "label": "b",
+        "prompt": "Waarom zijn A en C op zichzelf geen externe kosten?",
+        "answer": "A betreft een betaling van de koper binnen de transactie. C is een eigen productiekost die de bakker betaalt. Er is zonder extra informatie geen niet-vergoed nadeel voor derden aangetoond.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 30,
+    "title": "Lees beide kostenlijnen",
+    "section": "4.2.4",
+    "stage": "Begeleide inoefening",
+    "context": "De figuur toont een markt met € 10 externe schade per levering. Gebruik Q = 20.",
+    "questions": [
+      {
+        "id": "30a",
+        "label": "a",
+        "prompt": "Lees de private en maatschappelijke marginale kosten af.",
+        "answer": "Bij Q = 20 zijn MK privé = 10 + 0,5 × 20 = € 20 en MK maatschappelijk = € 30 per levering.",
+        "points": null
+      },
+      {
+        "id": "30b",
+        "label": "b",
+        "prompt": "Bereken de totale externe schade bij 20 leveringen. Waarom is die niet € 10?",
+        "answer": "Totale schade = 20 × 10 = € 200 per dag. € 10 is de schade van één levering, niet van alle leveringen samen.",
+        "points": null
+      },
+      {
+        "id": "30c",
+        "label": "c",
+        "prompt": "Markeer Q₀ = 40 en Qe = 30. Arceer het oorspronkelijke verlies tussen die hoeveelheden: gebruik de vraag en de maatschappelijke-kostenlijn.",
+        "answer": "De verliesdriehoek loopt van Q = 30 tot 40. Bij Q = 40 is maatschappelijke MK € 40 en betalingsbereidheid € 30: hoogte € 10. Verlies = ½ × 10 × 10 = € 50 per dag.",
+        "points": null
+      }
+    ],
+    "answer_fig": "424_loss",
+    "tags": []
+  },
+  {
+    "number": 31,
+    "title": "Een gedeeltelijke correctie",
+    "section": "4.2.4",
+    "stage": "Begeleide inoefening",
+    "context": "Op een markt veroorzaakt elke eenheid € 8 externe schade. Met een heffing van € 4 worden 18 eenheden per dag verkocht. CS en PS zijn beide € 162 per dag. Zonder heffing was het maatschappelijk surplus € 240.",
+    "questions": [
+      {
+        "id": "31a",
+        "label": "a",
+        "prompt": "Vul eerst de ontbrekende posten in: overheidsontvangst, externe schade en maatschappelijk surplus.",
+        "answer": "Overheidsontvangst = 4 × 18 = € 72; externe schade = 8 × 18 = € 144. Maatschappelijk surplus = 162 + 162 + 72 − 144 = € 252 per dag.",
+        "points": null
+      },
+      {
+        "id": "31b",
+        "label": "b",
+        "prompt": "Vergelijk met € 240. Bewijst verbetering dat alle externe schade verdwenen is?",
+        "answer": "Verbetering = 252 − 240 = € 12 per dag. Nee: er resteert € 144 schade. Meer maatschappelijk surplus is niet hetzelfde als nul hinder.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 32,
+    "title": "Eigen kosten en schade veranderen tegelijk",
+    "section": "4.2.4",
+    "stage": "Zelfstandige oefening",
+    "context": "Bij dezelfde hoeveelheid productie stijgen de private kosten per extra eenheid met € 3 door duurder materiaal. Tegelijk daalt de externe schade per eenheid met € 5 door minder geluid. Er verandert verder niets.",
+    "questions": [
+      {
+        "id": "32a",
+        "label": "a",
+        "prompt": "Wat doet alleen het duurdere materiaal met maatschappelijke MK?",
+        "answer": "De private MK stijgt € 3; bij gelijkblijvende externe schade stijgt maatschappelijke MK daardoor ook € 3 per eenheid.",
+        "points": null
+      },
+      {
+        "id": "32b",
+        "label": "b",
+        "prompt": "Wat doet alleen de afname van geluid met maatschappelijke MK?",
+        "answer": "De externe schade daalt € 5. Bij gelijkblijvende private kosten daalt maatschappelijke MK daardoor € 5 per eenheid.",
+        "points": null
+      },
+      {
+        "id": "32c",
+        "label": "c",
+        "prompt": "Bepaal het gezamenlijke effect op de maatschappelijke kosten per extra eenheid.",
+        "answer": "Het gezamenlijke effect is +3 − 5 = −€ 2 per extra eenheid.",
+        "points": null
+      },
+      {
+        "id": "32d",
+        "label": "d",
+        "prompt": "Beoordeel: “Meer eigen kosten betekent hier meer maatschappelijke kosten per extra eenheid.”",
+        "answer": "Onjuist: private kosten stijgen, maar de maatschappelijke MK daalt door de grotere afname van externe schade.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 33,
+    "title": "Een nieuwe productiemarkt",
+    "section": "4.2.4",
+    "stage": "Zelfstandige oefening",
+    "context": "Voor behandelingen geldt Pc = 40 − Q en Pp = Q, in euro per behandeling; Q is behandelingen per dag. De schade aan omwonenden is € 8 per behandeling. Een producentenheffing bedraagt € 8. Er zijn geen andere maatschappelijke posten.",
+    "questions": [
+      {
+        "id": "33a",
+        "label": "a",
+        "prompt": "Bereken de oorspronkelijke en de belaste uitkomst, inclusief beide prijzen.",
+        "answer": "Zonder heffing: 40 − Q = Q → Q₀ = 20 en P₀ = € 20. Met heffing: 40 − Q = Q + 8 → Q₁ = 16, Pc = € 24 en Pp = € 16.",
+        "points": null
+      },
+      {
+        "id": "33b",
+        "label": "b",
+        "prompt": "Bereken het maatschappelijk surplus vóór en na.",
+        "answer": "Voor: CS = PS = ½ × 20 × 20 = € 200; schade = € 160; maatschappelijk surplus = € 240. Na: CS = PS = € 128; ontvangst = € 128; schade = € 128; maatschappelijk surplus = € 256. De verbetering is € 16 per dag.",
+        "points": null
+      },
+      {
+        "id": "33c",
+        "label": "c",
+        "prompt": "Bepaal de efficiënte hoeveelheid. Arceer het oorspronkelijke welvaartsverlies in de gegeven grafiek en bereken het.",
+        "answer": "Maatschappelijke MK = Q + 8. 40 − Q = Q + 8 → Qe = 16. De verliesdriehoek ligt tussen de maatschappelijke-kostenlijn en de vraag van Q = 16 tot 20. Basis = 4 behandelingen, hoogte = € 8. Verlies = ½ × 4 × 8 = € 16 per dag.",
+        "points": null
+      }
+    ],
+    "answer_fig": "424_answer33",
+    "tags": []
+  },
+  {
+    "number": 34,
+    "title": "Wie telt mee?",
+    "section": "4.2.4",
+    "stage": "Doeloefening",
+    "context": "Gebruik de bron en de basisgrafiek.",
+    "questions": [
+      {
+        "id": "34a",
+        "label": "a",
+        "prompt": "Noem de derde partij. Bereken de oorspronkelijke hoeveelheid en prijs, en de totale externe schade.",
+        "answer": "De derde partij bestaat uit de omwonenden. Zonder heffing: 60 − Q = Q → Q₀ = 30 diensten; P₀ = € 30 per dienst. Schade = 20 × 30 = € 600 per dag.",
+        "points": 3
+      },
+      {
+        "id": "34b",
+        "label": "b",
+        "prompt": "Bereken met de heffingswig Q, Pc, Pp en de overheidsontvangst.",
+        "answer": "60 − Q = Q + 20 → Q₁ = 20 diensten per dag. Pc = € 40; Pp = € 20. Controle: 40 − 20 = 20. Ontvangst = 20 × 20 = € 400 per dag.",
+        "points": 3
+      },
+      {
+        "id": "34c",
+        "label": "c",
+        "prompt": "Bereken het maatschappelijk surplus vóór en na ingrijpen. Laat alle vier posten zien.",
+        "answer": "Voor: CS = ½ × 30 × 30 = € 450; PS = € 450; ontvangst = 0; schade = € 600; maatschappelijk surplus = € 300. Na: CS = ½ × 20 × 20 = € 200; PS = € 200; ontvangst = € 400; schade = € 400; maatschappelijk surplus = € 400 per dag.",
+        "points": 4
+      },
+      {
+        "id": "34d",
+        "label": "d",
+        "prompt": "Markeer de efficiënte hoeveelheid en arceer het oorspronkelijke welvaartsverlies. Benoem basis en hoogte.",
+        "answer": "MK maatschappelijk = Q + 20. 60 − Q = Q + 20 geeft Qe = 20. Het verlies is de driehoek tussen vraag en maatschappelijke MK van Q = 20 tot Q = 30: basis 10 diensten, hoogte € 20 per dienst. Oppervlakte = ½ × 10 × 20 = € 100 per dag.",
+        "points": 2
+      },
+      {
+        "id": "34e",
+        "label": "e",
+        "prompt": "Beoordeel: “CS en PS dalen door de belasting, dus de maatschappij verliest.”",
+        "answer": "Onjuist in deze case. De overheidsontvangst en de afgenomen externe schade moeten ook worden meegeteld. Het maatschappelijk surplus stijgt van € 300 naar € 400. Dit bewijst niet dat ieder afzonderlijk persoon wint of dat elke belasting goed is.",
+        "points": 2
+      }
+    ],
+    "answer_fig": "424_answer34",
+    "tags": []
+  },
+  {
+    "number": 35,
+    "title": "Hoe goed kennen we de schade?",
+    "section": "4.2.4",
+    "stage": "Denkertje / Bonusopgave",
+    "context": "Een gemeente leest een schatting: externe schade ligt tussen € 6 en € 14 per levering. De gemiddelde waarde is € 10. Een adviseur zegt daarom dat een heffing van precies € 10 onder alle omstandigheden het beste is.",
+    "questions": [
+      {
+        "id": "35a",
+        "label": "a",
+        "prompt": "Welk verschil bestaat er tussen de eerdere oefencase en deze bron?",
+        "answer": "In de oefencase stond constante schade per levering exact vast. Hier is zij onzeker en mogelijk afhankelijk van omstandigheden. Een gemiddelde is niet automatisch de marginale schade in elke situatie.",
+        "points": null
+      },
+      {
+        "id": "35b",
+        "label": "b",
+        "prompt": "Noem twee gegevens die belangrijk zijn voor een beter advies.",
+        "answer": "Bijvoorbeeld hoe de schade verandert met tijd en hoeveelheid, wie de schade ondervindt, hoe vraag en aanbod op de heffing reageren, en wat meten en handhaven kost. Twee relevante, uitgelegde gegevens volstaan.",
+        "points": null
+      },
+      {
+        "id": "35c",
+        "label": "c",
+        "prompt": "Formuleer een voorzichtiger conclusie.",
+        "answer": "Een heffing van € 10 kan een bruikbaar uitgangspunt zijn bij de gemiddelde schatting, maar het optimale tarief is met deze informatie niet exact bewezen. Het advies moet worden getoetst aan schade, reacties en uitvoeringskosten.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 36,
+    "title": "Niet de prijs van de MO-lijn",
+    "section": "4.2.4",
+    "stage": "Herhaling / Herhaling en interleaving",
+    "context": "Voor een monopolist geldt P = 40 − Q en MK = 10. Q is stuks per week; de capaciteit is 30.",
+    "questions": [
+      {
+        "id": "36a",
+        "label": "a",
+        "prompt": "Bereken Qm en Pm.",
+        "answer": "MO = 40 − 2Q. MO = MK geeft 40 − 2Q = 10 → Qm = 15 stuks per week. Pm = 40 − 15 = € 25. De hoeveelheid past binnen de capaciteit.",
+        "points": null
+      },
+      {
+        "id": "36b",
+        "label": "b",
+        "prompt": "Leg uit waarom € 10 niet de verkoopprijs is.",
+        "answer": "€ 10 is bij de gekozen hoeveelheid MO = MK. De verkoopprijs wordt op de vraaglijn afgelezen en is € 25. Dezelfde prijsleesmethode uit hoofdstuk 4.1 blijft gelden.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 37,
+    "title": "De subsidie uit Boek 3",
+    "section": "4.2.5",
+    "stage": "Startopgaven",
+    "context": "Vraag: Pc = 20 − Q. Aanbod: Pp = 4 + Q. Producenten ontvangen € 4 subsidie per verkochte eenheid. Q is stuks per dag; prijzen zijn euro per stuk.",
+    "questions": [
+      {
+        "id": "37a",
+        "label": "a",
+        "prompt": "Bereken Q, Pc en Pp na de subsidie.",
+        "answer": "Pp = Pc + 4: 4 + Q = 20 − Q + 4 → Q = 10. Pc = € 10 en Pp = € 14 per stuk. Het verschil is de subsidie van € 4.",
+        "points": null
+      },
+      {
+        "id": "37b",
+        "label": "b",
+        "prompt": "Bereken de overheidsuitgaven.",
+        "answer": "Uitgaven = 4 × 10 = € 40 per dag. De subsidie geldt voor elke verkochte eenheid, niet alleen de extra eenheden.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 38,
+    "title": "Wie ontvangt het voordeel?",
+    "section": "4.2.5",
+    "stage": "Startopgaven",
+    "context": "Een deelnemer betaalt voor een cursus. Zelf leert zij er iets van. De aanbieder ontvangt lesgeld. Volgens de bron helpen de aangeleerde vaardigheden daarnaast andere buurtbewoners, zonder dat zij betalen.",
+    "questions": [
+      {
+        "id": "38a",
+        "label": "a",
+        "prompt": "Welk voordeel is extern en welk voordeel hoort bij de koper?",
+        "answer": "Het onbetaalde voordeel voor andere buurtbewoners is extern. Wat de deelnemer zelf leert, vormt haar private voordeel en kan in haar betalingsbereidheid zitten.",
+        "points": null
+      },
+      {
+        "id": "38b",
+        "label": "b",
+        "prompt": "Is het lesgeld van de aanbieder ook een externe baat?",
+        "answer": "Nee. Lesgeld is een betaling binnen de markttransactie. Het apart als externe baat toevoegen zou dezelfde marktbetaling dubbel waarderen.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 39,
+    "title": "Twee batenlijnen lezen",
+    "section": "4.2.5",
+    "stage": "Begeleide inoefening",
+    "context": "Gebruik de figuur. Het externe voordeel is € 10 per aanlegdienst.",
+    "questions": [
+      {
+        "id": "39a",
+        "label": "a",
+        "prompt": "Lees bij Q = 20 de private en maatschappelijke baten per extra dienst af.",
+        "answer": "Private baten = 50 − 0,5 × 20 = € 40. Maatschappelijke baten = 60 − 0,5 × 20 = € 50 per extra dienst.",
+        "points": null
+      },
+      {
+        "id": "39b",
+        "label": "b",
+        "prompt": "Welke van die bedragen is de betalingsbereidheid van de koper zelf?",
+        "answer": "€ 40. De extra € 10 is voordeel voor anderen. De hogere batenlijn is niet automatisch een feitelijke vraaglijn waar kopers € 50 betalen.",
+        "points": null
+      },
+      {
+        "id": "39c",
+        "label": "c",
+        "prompt": "Markeer Q₀ = 40 en Qe = 50. Arceer de oorspronkelijke gemiste baten tussen die hoeveelheden: gebruik de maatschappelijke-batenlijn en MK.",
+        "answer": "Het verlies is de driehoek tussen Q = 40 en 50. Bij Q = 40 zijn maatschappelijke baten € 40 en MK € 30. Basis = 10 diensten, hoogte = € 10. Verlies = € 50 per maand.",
+        "points": null
+      }
+    ],
+    "answer_fig": "425_loss",
+    "tags": []
+  },
+  {
+    "number": 40,
+    "title": "Een lagere subsidie",
+    "section": "4.2.5",
+    "stage": "Begeleide inoefening",
+    "context": "Een concurrerende cursusmarkt krijgt € 4 subsidie per deelnemer. Er doen 22 deelnemers per maand mee. CS en PS zijn beide € 242. De bron waardeert het externe voordeel op € 8 per deelnemer. Zonder subsidie was het maatschappelijk surplus € 560.",
+    "questions": [
+      {
+        "id": "40a",
+        "label": "a",
+        "prompt": "Bereken eerst subsidie-uitgaven en externe baten; vul daarna het maatschappelijk surplus in.",
+        "answer": "Uitgaven = 4 × 22 = € 88. Externe baten = 8 × 22 = € 176. Maatschappelijk surplus = 242 + 242 − 88 + 176 = € 572 per maand.",
+        "points": null
+      },
+      {
+        "id": "40b",
+        "label": "b",
+        "prompt": "Vergelijk met de beginsituatie. Waarom mogen uitgaven en externe baten hier niet tegen elkaar worden weggestreept?",
+        "answer": "Verbetering = 572 − 560 = € 12. Uitgaven zijn € 88 en externe baten € 176: ze zijn verschillende posten met verschillende bedragen. De ene volgt uit de subsidie, de andere uit het opgegeven echte derdenvoordeel.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 41,
+    "title": "Twee voordelen veranderen tegelijk",
+    "section": "4.2.5",
+    "stage": "Zelfstandige oefening",
+    "context": "Bij dezelfde hoeveelheid activiteit neemt het private voordeel van één extra activiteit met € 2 toe. Tegelijk daalt het extra voordeel voor derden met € 5. De productiekosten veranderen niet.",
+    "questions": [
+      {
+        "id": "41a",
+        "label": "a",
+        "prompt": "Beschrijf de invloed van alleen de stijging van het private voordeel.",
+        "answer": "De maatschappelijke baten per extra activiteit stijgen daardoor met € 2, zolang het externe voordeel gelijk blijft.",
+        "points": null
+      },
+      {
+        "id": "41b",
+        "label": "b",
+        "prompt": "Beschrijf de invloed van alleen de daling van het externe voordeel.",
+        "answer": "De maatschappelijke baten per extra activiteit dalen daardoor met € 5, zolang het private voordeel gelijk blijft.",
+        "points": null
+      },
+      {
+        "id": "41c",
+        "label": "c",
+        "prompt": "Bereken het gezamenlijke effect op de maatschappelijke baten per extra activiteit.",
+        "answer": "Samen veranderen de maatschappelijke baten met +2 − 5 = −€ 3 per extra activiteit.",
+        "points": null
+      },
+      {
+        "id": "41d",
+        "label": "d",
+        "prompt": "Beoordeel: “Als kopers meer voordeel krijgen, stijgen de maatschappelijke baten altijd.”",
+        "answer": "Onjuist: veranderingen voor derden kunnen groter zijn en de andere kant op werken. Hier dalen de maatschappelijke baten ondanks het hogere private voordeel.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 42,
+    "title": "Een cursus met hulp aan anderen",
+    "section": "4.2.5",
+    "stage": "Zelfstandige oefening",
+    "context": "Vraag Pc = 36 − Q; aanbod Pp = 4 + Q. Q is deelnemers per maand, prijzen zijn euro per deelnemer. Het externe voordeel is € 8 per deelnemer. Aanbieders ontvangen een subsidie van € 8; andere maatschappelijke posten ontbreken.",
+    "questions": [
+      {
+        "id": "42a",
+        "label": "a",
+        "prompt": "Bereken de oorspronkelijke en de gesubsidieerde uitkomst.",
+        "answer": "Zonder subsidie: 36 − Q = 4 + Q → Q₀ = 16, P₀ = € 20. Met subsidie: 4 + Q = 36 − Q + 8 → Q₁ = 20, Pc = € 16 en Pp = € 24.",
+        "points": null
+      },
+      {
+        "id": "42b",
+        "label": "b",
+        "prompt": "Bereken het maatschappelijk surplus vóór en na.",
+        "answer": "Voor: CS = PS = ½ × 16 × 16 = € 128; externe baten = 8 × 16 = € 128; maatschappelijk surplus = € 384. Na: CS = PS = ½ × 20 × 20 = € 200; uitgaven = € 160; externe baten = € 160; maatschappelijk surplus = € 400. Verbetering: € 16 per maand.",
+        "points": null
+      },
+      {
+        "id": "42c",
+        "label": "c",
+        "prompt": "Bepaal de efficiënte hoeveelheid. Arceer de oorspronkelijk gemiste baten in de gegeven grafiek en bereken het verlies.",
+        "answer": "Maatschappelijke baten = 44 − Q. 44 − Q = 4 + Q → Qe = 20. De driehoek tussen maatschappelijke baten en MK loopt van Q = 16 tot 20. Basis = 4 deelnemers, hoogte = € 8. Verlies = ½ × 4 × 8 = € 16 per maand.",
+        "points": null
+      }
+    ],
+    "answer_fig": "425_answer42",
+    "tags": []
+  },
+  {
+    "number": 43,
+    "title": "Eigen voordeel en voordeel voor anderen",
+    "section": "4.2.5",
+    "stage": "Doeloefening",
+    "context": "Gebruik de bron en de basisgrafiek.",
+    "questions": [
+      {
+        "id": "43a",
+        "label": "a",
+        "prompt": "Benoem het private en externe voordeel. Bereken de oorspronkelijke hoeveelheid en prijs.",
+        "answer": "Het eigen voordeel van deelnemers staat in de vraag; het bijkomende onbetaalde voordeel voor andere buurtbewoners is extern. 60 − 0,5Q = 20 + 0,5Q → Q₀ = 40 en P₀ = € 40 per deelnemer.",
+        "points": 2
+      },
+      {
+        "id": "43b",
+        "label": "b",
+        "prompt": "Bereken na de subsidie Q, Pc, Pp en de overheidsuitgaven.",
+        "answer": "20 + 0,5Q = 60 − 0,5Q + 10 → Q₁ = 50. Pc = 60 − 25 = € 35; Pp = 20 + 25 = € 45. Uitgaven = 10 × 50 = € 500 per maand.",
+        "points": 3
+      },
+      {
+        "id": "43c",
+        "label": "c",
+        "prompt": "Bereken CS, PS en het maatschappelijk surplus vóór en na.",
+        "answer": "Voor: CS = PS = ½ × 40 × 20 = € 400; externe baten = 10 × 40 = € 400; maatschappelijk surplus = € 1.200. Na: CS = PS = ½ × 50 × 25 = € 625; uitgaven = € 500; externe baten = € 500; maatschappelijk surplus = 625 + 625 − 500 + 500 = € 1.250 per maand.",
+        "points": 4
+      },
+      {
+        "id": "43d",
+        "label": "d",
+        "prompt": "Bepaal de efficiënte hoeveelheid en arceer het oorspronkelijke welvaartsverlies.",
+        "answer": "Maatschappelijke baten per extra deelnemer = 70 − 0,5Q. Vergelijk met MK = 20 + 0,5Q: Qe = 50. De driehoek tussen maatschappelijke baten en MK van Q = 40 tot Q = 50 heeft basis 10 deelnemers en hoogte € 10; verlies = ½ × 10 × 10 = € 50 per maand.",
+        "points": 2
+      },
+      {
+        "id": "43e",
+        "label": "e",
+        "prompt": "Leg uit waarom dit anders uitpakt dan dezelfde subsidie zonder externe baten.",
+        "answer": "Zonder externe baten zou het maatschappelijk surplus van 800 naar 625 + 625 − 500 = € 750 dalen. Met het gegeven voordeel voor derden stijgt het juist van 1.200 naar 1.250. Niet de subsidie alleen, maar de volledige maatschappelijke rekening bepaalt de conclusie.",
+        "points": 2
+      }
+    ],
+    "answer_fig": "425_answer43",
+    "tags": []
+  },
+  {
+    "number": 44,
+    "title": "Een te ruime regeling?",
+    "section": "4.2.5",
+    "stage": "Denkertje / Bonusopgave",
+    "context": "Een model voor tuinaanleg heeft € 10 extern voordeel per dienst. Er zijn geen andere maatschappelijke posten. De bron geeft drie volledig berekende scenario’s. Alle bedragen zijn euro per maand.",
+    "questions": [
+      {
+        "id": "44a",
+        "label": "a",
+        "prompt": "Bereken het maatschappelijk surplus in de drie rijen.",
+        "answer": "Geen subsidie: 800 − 0 + 400 = € 1.200. Subsidie € 10: 1.250 − 500 + 500 = € 1.250. Subsidie € 30: 2.450 − 2.100 + 700 = € 1.050.",
+        "points": null
+      },
+      {
+        "id": "44b",
+        "label": "b",
+        "prompt": "Waarom is “meer externe baten” niet voldoende om de grootste subsidie te kiezen?",
+        "answer": "Meer activiteit geeft meer externe baten, maar gebruikt ook extra middelen. De subsidie-uitgaven zitten al bij de marktdeelnemers en moeten worden afgetrokken. Bij € 30 wordt zo veel gestimuleerd dat het netto-surplus lager is, ook al zijn de externe baten hoger.",
+        "points": null
+      },
+      {
+        "id": "44c",
+        "label": "c",
+        "prompt": "Wat kun je wél en niet concluderen uit deze drie scenario’s?",
+        "answer": "Van deze drie is € 10 het beste volgens de genoemde surplusmaatstaf. Dat is geen universeel subsidiebedrag en bewijst niet dat alle echte kosten, onzekerheden of verdelingswensen zijn meegenomen.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 45,
+    "title": "Belasting is niet de schade",
+    "section": "4.2.5",
+    "stage": "Herhaling / Herhaling en interleaving",
+    "context": "Bij 20 verkochte eenheden per dag bedraagt een heffing € 6 per eenheid. De bron schat de resterende externe schade op € 10 per eenheid.",
+    "questions": [
+      {
+        "id": "45a",
+        "label": "a",
+        "prompt": "Bereken de belastingopbrengst en de totale externe schade.",
+        "answer": "Opbrengst = 6 × 20 = € 120 per dag. Schade = 10 × 20 = € 200 per dag.",
+        "points": null
+      },
+      {
+        "id": "45b",
+        "label": "b",
+        "prompt": "Hoe neem je deze twee posten mee naast CS en PS?",
+        "answer": "Maatschappelijk surplus = CS + PS + 120 − 200. De ontvangst is een overdracht aan de overheid; de schade is een echt nadeel voor derden. Ze zijn niet hetzelfde bedrag.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 46,
+    "title": "De juiste welvaartsrekening",
+    "section": "4.2.6",
+    "stage": "Startopgaven",
+    "context": "Na een heffing zijn CS = € 300, PS = € 200, overheidsontvangsten = € 100 en externe schade = € 150 per dag. De uitvoering gebruikt daarnaast € 20 aan middelen.",
+    "questions": [
+      {
+        "id": "46a",
+        "label": "a",
+        "prompt": "Bereken het maatschappelijk surplus na uitvoeringskosten.",
+        "answer": "300 + 200 + 100 − 150 − 20 = € 430 per dag. De overheidsontvangst wordt meegeteld; schade en het echte middelenverbruik worden afgetrokken.",
+        "points": null
+      },
+      {
+        "id": "46b",
+        "label": "b",
+        "prompt": "Waarom is “de overheid ontvangt € 100, dus de welvaart stijgt € 100” geen geldige conclusie?",
+        "answer": "De ontvangst is een overdracht. Om een welvaartsverandering te bepalen zijn ook CS, PS, schade, uitvoeringskosten én een vergelijkbare beginsituatie nodig.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 47,
+    "title": "Een doel of een middel?",
+    "section": "4.2.6",
+    "stage": "Startopgaven",
+    "context": "Een raadslid zegt: “We voeren een subsidie in, want dan hebben we ons doel bereikt.” De bron noemt nog geen probleem of meetbare doelstelling.",
+    "questions": [
+      {
+        "id": "47a",
+        "label": "a",
+        "prompt": "Waarom is deze uitspraak onvolledig?",
+        "answer": "Een subsidie is een instrument, geen bewijs dat een probleem is opgelost. Het doel, de oorzaak en de verwachte reactie ontbreken.",
+        "points": null
+      },
+      {
+        "id": "47b",
+        "label": "b",
+        "prompt": "Formuleer een bruikbare doelstelling voor een geval met positieve externe effecten.",
+        "answer": "Bijvoorbeeld: meer van de beschreven activiteit laten plaatsvinden zolang de extra maatschappelijke baten groter zijn dan de extra kosten. Of: het maatschappelijke surplus verhogen, inclusief echte baten, kosten en uitvoering.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 48,
+    "title": "De stappen zijn nog zichtbaar",
+    "section": "4.2.6",
+    "stage": "Begeleide inoefening",
+    "context": "Een plein heeft hinder van betaalde evenementen. Omwonenden krijgen geen vergoeding. Een heffing kan het aantal evenementen verminderen; een vast maximum kan dat ook. De bron zegt dat beide regels controle nodig hebben.",
+    "questions": [
+      {
+        "id": "48a",
+        "label": "a",
+        "prompt": "Vul de keten aan: probleem → oorzaak → twee mogelijke instrumenten.",
+        "answer": "Probleem: niet-vergoede hinder voor omwonenden. Oorzaak: die schade zit niet volledig in de keuzes van bezoekers en organisatoren. Instrumenten: een heffing per evenement of een maximum aan het aantal evenementen.",
+        "points": null
+      },
+      {
+        "id": "48b",
+        "label": "b",
+        "prompt": "Noem twee gegevens die nodig zijn om tussen die instrumenten te kiezen.",
+        "answer": "Bijvoorbeeld hun effect op het aantal evenementen, de schade per evenement, het surplus van deelnemers, de uitvoeringskosten en de naleving. Twee gegevens met hun functie in de vergelijking volstaan.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 49,
+    "title": "Hetzelfde resultaat vóór uitvoering",
+    "section": "4.2.6",
+    "stage": "Begeleide inoefening",
+    "context": "Voor twee maatregelen tegen geluid geeft een studie per dag: maatschappelijk surplus vóór uitvoering A = € 420 en B = € 450. Echte uitvoeringskosten: A = € 10 en B = € 60. Alle relevante effecten zijn in deze bedragen meegenomen.",
+    "questions": [
+      {
+        "id": "49a",
+        "label": "a",
+        "prompt": "Bereken beide uitkomsten na uitvoering.",
+        "answer": "A: 420 − 10 = € 410. B: 450 − 60 = € 390 per dag.",
+        "points": null
+      },
+      {
+        "id": "49b",
+        "label": "b",
+        "prompt": "Welke maatregel kies je bij het criterium maximaal maatschappelijk surplus? Waarom kun je een hoger bedrag vóór uitvoering niet als eindantwoord nemen?",
+        "answer": "A, met € 410 in plaats van € 390. De extra uitvoeringskosten van B zijn groter dan zijn voordeel vóór uitvoering. Zonder die kosten zou de vergelijking onvolledig zijn.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 50,
+    "title": "Een prijsvoorstel voor een voorziening",
+    "section": "4.2.6",
+    "stage": "Zelfstandige oefening",
+    "context": "Een bron vergelijkt een monopolie met een uitvoerbaar prijsvoorstel. De oorspronkelijke uitkomst heeft CS = € 400 en PS = € 1.000 per maand. Het voorstel heeft CS = € 650 en PS = € 850. Er zijn geen externe effecten; de bron garandeert de berekende leveringen. Het voorstel vraagt € 40 per maand aan extra uitvoering. De overige kosten blijven gelijk.",
+    "questions": [
+      {
+        "id": "50a",
+        "label": "a",
+        "prompt": "Bereken de verandering van maatschappelijk surplus, inclusief uitvoering.",
+        "answer": "Oud: 400 + 1.000 = € 1.400. Nieuw: 650 + 850 − 40 = € 1.460. Verbetering = € 60 per maand.",
+        "points": null
+      },
+      {
+        "id": "50b",
+        "label": "b",
+        "prompt": "Geef een advies bij het criterium efficiëntie en noem één verliezende groep.",
+        "answer": "Volgens het genoemde criterium is het voorstel gunstiger: +€ 60. De aanbieder verliest echter € 150 PS. Een efficiënter resultaat is dus niet automatisch een verbetering voor elke partij.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 51,
+    "title": "Een lage prijs is geen schadeloosstelling",
+    "section": "4.2.6",
+    "stage": "Zelfstandige oefening",
+    "context": "Een bindende maximumprijs laat 50 activiteiten vragen en 20 aanbieden per dag. Zonder extra voorraad vinden 20 transacties plaats. Elke uitgevoerde activiteit veroorzaakt € 10 niet-vergoede schade aan buren. De bron bevat geen regeling om buren te betalen.",
+    "questions": [
+      {
+        "id": "51a",
+        "label": "a",
+        "prompt": "Bereken het tekort en de resterende totale externe schade.",
+        "answer": "Tekort = Qv − Qa = 50 − 20 = 30 activiteiten per dag. Werkelijk uitgevoerd = 20. Resterende schade = 20 × 10 = € 200 per dag.",
+        "points": null
+      },
+      {
+        "id": "51b",
+        "label": "b",
+        "prompt": "Beoordeel: “De maximumprijs helpt kopers, dus het externe effect is opgelost.”",
+        "answer": "Onjuist. Er blijft € 200 schade voor buren bestaan; bovendien krijgen niet alle vragers de activiteit. Voor een volledige vergelijking zijn ook de toewijzing en andere surplusposten nodig. Een lagere prijs is geen vergoeding aan derden.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 52,
+    "title": "Twee plannen voor hetzelfde probleem",
+    "section": "4.2.6",
+    "stage": "Doeloefening",
+    "context": "Gebruik de bronnen. Het criterium staat in bron B.",
+    "questions": [
+      {
+        "id": "52a",
+        "label": "a",
+        "prompt": "Benoem het marktfalen en leg kort uit hoe elk plan erop aangrijpt.",
+        "answer": "Marktfalen: niet-vergoede geluidsschade aan derden. H maakt activiteit via de heffingswig minder aantrekkelijk; G begrenst de activiteit rechtstreeks. Beide beperken onder de bronvoorwaarden het aantal schadelijke diensten.",
+        "points": 2
+      },
+      {
+        "id": "52b",
+        "label": "b",
+        "prompt": "Bereken voor H Q, Pc, Pp en de overheidsontvangsten.",
+        "answer": "50 − 0,5Q = 10 + 0,5Q + 10 → Q = 30. Pc = € 35 en Pp = € 25. Ontvangsten = 10 × 30 = € 300 per dag.",
+        "points": 3
+      },
+      {
+        "id": "52c",
+        "label": "c",
+        "prompt": "Bereken voor beide plannen het maatschappelijk surplus na uitvoering.",
+        "answer": "H: 225 + 225 + 300 − 300 − 20 = € 430 per dag. G: 225 + 525 + 0 − 300 − 40 = € 410 per dag.",
+        "points": 3
+      },
+      {
+        "id": "52d",
+        "label": "d",
+        "prompt": "Adviseer een plan volgens het genoemde criterium. Noem één aanname die voor dit advies belangrijk is.",
+        "answer": "H levert volgens de gegevens € 20 per dag meer maatschappelijk surplus op. Dat advies veronderstelt bijvoorbeeld de gegeven naleving, efficiënte toewijzing of juiste schatting van uitvoeringskosten. Zonder die aanname kan de rangorde veranderen.",
+        "points": 2
+      },
+      {
+        "id": "52e",
+        "label": "e",
+        "prompt": "Waarom kan een producent toch voorkeur hebben voor G? Betekent dat dat de raad verkeerd rekent?",
+        "answer": "PS is bij G € 525 en bij H € 225. De producenten krijgen bij de hoeveelheidgrens meer surplus, terwijl bij H € 300 naar de overheid gaat. Hun belang verschilt van het genoemde maatschappelijke criterium. Dat maakt de berekening niet onjuist.",
+        "points": 2
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 53,
+    "title": "De rangorde is niet zeker",
+    "section": "4.2.6",
+    "stage": "Denkertje / Bonusopgave",
+    "context": "Een bureau schat de welvaartswinst van een maatregel vóór uitvoering op € 100 per dag. Uitvoeringskosten liggen naar verwachting tussen € 20 en € 140. Over de verdeling van de winst is nog niets bekend.",
+    "questions": [
+      {
+        "id": "53a",
+        "label": "a",
+        "prompt": "Geef de best en slechtst mogelijke netto-uitkomst binnen deze grenzen.",
+        "answer": "Beste uitkomst: 100 − 20 = +€ 80 per dag. Slechtste uitkomst: 100 − 140 = −€ 40 per dag.",
+        "points": null
+      },
+      {
+        "id": "53b",
+        "label": "b",
+        "prompt": "Waarom is een stellige aanbeveling “altijd invoeren” met deze bron te sterk?",
+        "answer": "De netto-uitkomst kan positief of negatief zijn. Bovendien ontbreekt verdelingsinformatie. De onzekerheid mag niet worden weggerekend door alleen het gunstigste kostengetal te kiezen.",
+        "points": null
+      },
+      {
+        "id": "53c",
+        "label": "c",
+        "prompt": "Noem een gerichte vervolgstap die het besluit beter onderbouwt.",
+        "answer": "Bijvoorbeeld een begrensde proef om echte uitvoeringskosten en naleving te meten, met een vooraf gekozen beoordelingscriterium. Ook onderzoek naar de verdeling is relevant. De stap moet een concreet ontbrekend gegeven opleveren.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 54,
+    "title": "Een heffing en een subsidie naast elkaar",
+    "section": "4.2.6",
+    "stage": "Herhaling / Herhaling en interleaving",
+    "context": "Situatie A: Pc = € 18, Pp = € 14 en Q = 50. Situatie B: Pc = € 12, Pp = € 17 en Q = 60. Q is transacties per week. Iedere transactie valt onder de maatregel.",
+    "questions": [
+      {
+        "id": "54a",
+        "label": "a",
+        "prompt": "Welke situatie heeft een heffingswig en welke een subsidiewig? Bereken het bedrag per transactie.",
+        "answer": "A: heffing, want kopers betalen meer dan producenten ontvangen; t = 18 − 14 = € 4. B: subsidie, want producenten ontvangen meer dan kopers betalen; s = 17 − 12 = € 5.",
+        "points": null
+      },
+      {
+        "id": "54b",
+        "label": "b",
+        "prompt": "Bereken het overheidsbedrag en de richting van de betaling.",
+        "answer": "A: overheid ontvangt 4 × 50 = € 200 per week. B: overheid betaalt 5 × 60 = € 300 per week. Deze budgetbedragen zijn niet vanzelf de welvaartsverandering.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 55,
+    "title": "Eerst de juiste vraag",
+    "section": "4.2.7",
+    "stage": "Gemengde oefening",
+    "context": "A: één aanbieder verkoopt minder om meer winst te maken; er zijn geen externe effecten. B: veel aanbieders veroorzaken per product niet-vergoede schade bij buren. C: twee herkenbare klantgroepen betalen verschillende prijzen voor dezelfde dienst.",
+    "questions": [
+      {
+        "id": "55a",
+        "label": "a",
+        "prompt": "Welke vergelijking heb je bij A nodig om welvaartsverlies te bepalen?",
+        "answer": "Vergelijk de monopolie-uitkomst met een efficiënte uitkomst bij dezelfde vraag en kosten. Bereken of identificeer beide TS-waarden en het verloren surplus; een prijsverschil alleen is onvoldoende.",
+        "points": null
+      },
+      {
+        "id": "55b",
+        "label": "b",
+        "prompt": "Welke post mag bij B niet ontbreken? Welke bekende techniek helpt als een heffing wordt ingevoerd?",
+        "answer": "De totale externe schade moet van de maatschappelijke rekening af. De bekende heffingswig Pc = Pp + t geeft de nieuwe hoeveelheid en prijzen; daarna tel je CS, PS en overheid op en trek je schade en eventuele uitvoering af.",
+        "points": null
+      },
+      {
+        "id": "55c",
+        "label": "c",
+        "prompt": "Wat controleer je bij C voordat je afzonderlijke prijzen als haalbaar behandelt?",
+        "answer": "Of de aanbieder marktmacht heeft, de groepen kan herkennen en doorverkoop of overstappen naar het goedkope tarief kan voorkomen. Bij aparte optimalisatie moeten de kostenvoorwaarden ook passend zijn.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 56,
+    "title": "Het centrum voor bezoekers",
+    "section": "4.2.7",
+    "stage": "Gemengde oefening",
+    "context": "Een aanbieder met marktmacht kan twee klantgroepen betrouwbaar scheiden. Dezelfde dienst kost voor iedere bezoeker € 2 aan variabele kosten. Gezamenlijke vaste kosten: € 60 per week. De tabel geeft twee uitvoerbare prijsplannen. Andere omstandigheden blijven gelijk en er zijn geen externe effecten.",
+    "questions": [
+      {
+        "id": "56a",
+        "label": "a",
+        "prompt": "Bereken bij ieder plan de totale omzet en winst.",
+        "answer": "Eén prijs: Q = 30 + 10 = 40; TO = 10 × 40 = € 400; TK = 60 + 2 × 40 = € 140; winst = € 260. Groepsprijzen: Q = 25 + 15 = 40; TO = 12 × 25 + 8 × 15 = € 420; TK = € 140; winst = € 280 per week.",
+        "points": null
+      },
+      {
+        "id": "56b",
+        "label": "b",
+        "prompt": "Bereken met het gegeven CS voor beide plannen TS.",
+        "answer": "PS één prijs = 400 − 80 = € 320; TS = 200 + 320 = € 520. PS groepsprijzen = 420 − 80 = € 340; TS = 170 + 340 = € 510. TS daalt € 10 per week.",
+        "points": null
+      },
+      {
+        "id": "56c",
+        "label": "c",
+        "prompt": "Beoordeel: “De totale afzet is gelijk en de winst stijgt, dus er kan geen nadeel zijn.”",
+        "answer": "Onjuist. De verdeling van verkopen tussen groepen verandert. A betaalt meer en koopt minder; B betaalt minder en koopt meer. Het totale CS daalt € 30, terwijl PS € 20 stijgt; daardoor daalt TS € 10.",
+        "points": null
+      },
+      {
+        "id": "56d",
+        "label": "d",
+        "prompt": "Wat zou veranderen als de goedkope kaartjes zonder controle konden worden doorverkocht?",
+        "answer": "Kopers uit de dure groep kunnen dan goedkope kaartjes overnemen. De opgegeven gescheiden groepsprijzen en verkopen blijven niet vanzelf uitvoerbaar.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 57,
+    "title": "De gezamenlijke cursus",
+    "section": "4.2.7",
+    "stage": "Gemengde oefening",
+    "context": "Een concurrerende cursusmarkt heeft vraag Pc = 40 − Q en aanbod Pp = Q. Q is deelnemers per maand, met 0 ≤ Q ≤ 40; prijzen zijn euro per deelnemer. Andere buurtbewoners hebben € 8 bijkomend voordeel per deelnemer, zonder ervoor te betalen. Aanbieders krijgen € 8 subsidie per gebruikte plaats. De uitvoering verbruikt € 10 aan middelen per maand. Er zijn geen andere maatschappelijke posten.",
+    "questions": [
+      {
+        "id": "57a",
+        "label": "a",
+        "prompt": "Bereken de oorspronkelijke markt en de uitkomst met subsidie, inclusief beide prijzen.",
+        "answer": "Zonder subsidie: 40 − Q = Q → Q₀ = 20 en P₀ = € 20. Met subsidie: Q = 40 − Q + 8 → Q₁ = 24. Pc = € 16 en Pp = € 24.",
+        "points": null
+      },
+      {
+        "id": "57b",
+        "label": "b",
+        "prompt": "Bereken de overheidsuitgaven en het totale externe voordeel na de subsidie.",
+        "answer": "Uitgaven = 8 × 24 = € 192 per maand. Externe baten = 8 × 24 = € 192 per maand. Hun bedragen zijn gelijk door de gekozen gegevens; het blijven verschillende posten.",
+        "points": null
+      },
+      {
+        "id": "57c",
+        "label": "c",
+        "prompt": "CS en PS zijn zonder subsidie elk € 200 en met subsidie elk € 288. Bereken de maatschappelijke verandering, inclusief uitvoering.",
+        "answer": "Voor: 200 + 200 + 8 × 20 = € 560. Na: 288 + 288 − 192 + 192 − 10 = € 566. De nettoverbetering is € 6 per maand.",
+        "points": null
+      },
+      {
+        "id": "57d",
+        "label": "d",
+        "prompt": "Waarom kun je niet gewoon de stijging van CS + PS als welvaartswinst rapporteren?",
+        "answer": "De stijging van CS + PS bevat de ontvangen subsidie. Overheidsuitgaven, externe baten en echte uitvoeringskosten moeten ook worden meegenomen. Anders wordt een overdracht voor echte extra welvaart aangezien.",
+        "points": null
+      }
+    ],
+    "answer_fig": "425_mixed57",
+    "tags": []
+  },
+  {
+    "number": 58,
+    "title": "Twee markten, twee oorzaken",
+    "section": "4.2.7",
+    "stage": "Doeloefening",
+    "context": "Gebruik de bronnen op de linkerpagina. Onderbouw berekeningen met eenheden en conclusies met brongegevens.",
+    "questions": [
+      {
+        "id": "58a",
+        "label": "a",
+        "prompt": "Bepaal voor Studio Solo de winstmaximale hoeveelheid en verkoopprijs. Bereken ook de winst.",
+        "answer": "MO = 70 − 2Q. 70 − 2Q = 10 + Q geeft Qm = 20 sessies per week. MO daalt door MK en 20 past binnen 50. Pm = € 50. TO = 50 × 20 = € 1.000; TK = 100 + 10 × 20 + 0,5 × 20² = € 500; winst = € 500 per week.",
+        "points": 3
+      },
+      {
+        "id": "58b",
+        "label": "b",
+        "prompt": "Bereken CS, PS en TS bij Solo en vergelijk met het gegeven TSe. Arceer het welvaartsverlies in figuur A.",
+        "answer": "CS = ½ × 20 × (70 − 50) = € 200. MK(20) = € 30; PS = 20 × (50 − 30) + ½ × 20 × (30 − 10) = € 600. TS = € 800. Welvaartsverlies = 900 − 800 = € 100 per week. Het is de driehoek tussen vraag en MK van Q = 20 tot Q = 30, basis 10 en hoogte 20.",
+        "points": 4
+      },
+      {
+        "id": "58c",
+        "label": "c",
+        "prompt": "Bereken in bron B de belaste hoeveelheid, Pc, Pp en de heffingsopbrengst.",
+        "answer": "Pc = Pp + 20: 60 − Q = Q + 20 → Q = 20 diensten per dag. Pc = € 40; Pp = € 20. Heffingsopbrengst = 20 × 20 = € 400 per dag.",
+        "points": 3
+      },
+      {
+        "id": "58d",
+        "label": "d",
+        "prompt": "Bereken met bron B het maatschappelijk surplus na de heffing en de verandering ten opzichte van de beginsituatie.",
+        "answer": "Totale externe schade na heffing = 20 × 20 = € 400 per dag. Maatschappelijk surplus = 200 + 200 + 400 − 400 = € 400. Verbetering = 400 − 300 = € 100 per dag.",
+        "points": 2
+      },
+      {
+        "id": "58e",
+        "label": "e",
+        "prompt": "Leg uit waarom minder verkopen bij Solo welvaartsverlies geeft, maar minder diensten in bron B juist verbetering kan geven.",
+        "answer": "Bij Solo zijn er geen externe effecten; tussen Qm en Qe is betalingsbereidheid groter dan MK en verdwijnen voordelige transacties. Bij B veroorzaken sommige oorspronkelijke diensten meer maatschappelijke kosten dan baten door schade aan derden. Het verminderen van die diensten vergroot het maatschappelijke saldo.",
+        "points": 2
+      },
+      {
+        "id": "58f",
+        "label": "f",
+        "prompt": "Beoordeel: “Een heffing van € 20 is dus ook vanzelf de beste oplossing voor Studio Solo.”",
+        "answer": "Dat volgt niet. De heffing van € 20 in B past bij de daar gegeven externe schade en concurrentie. Solo heeft juist marktmacht en geen genoemde externe schade. Zonder analyse van dat probleem en de beleidsreactie is dezelfde maatregel niet gerechtvaardigd.",
+        "points": 2
+      }
+    ],
+    "answer_fig": [
+      "427_answerA",
+      "427_answerB"
+    ],
+    "tags": []
+  },
+  {
+    "number": 59,
+    "title": "Drie overtuigend klinkende uitspraken",
+    "section": "4.2.7",
+    "stage": "Extra gemengde oefening",
+    "context": "Beoordeel elke uitspraak. Geef niet alleen “juist” of “onjuist”, maar herstel de redenering.",
+    "questions": [
+      {
+        "id": "59a",
+        "label": "a",
+        "prompt": "“Bij twee klantgroepen moet je voor elke groep opnieuw de totale huur aftrekken.”",
+        "answer": "Onjuist als het om één gezamenlijke huur gaat. Tel de totale omzet en afzet samen, bereken de totale variabele kosten en trek de gezamenlijke huur eenmaal af. Alleen werkelijk aparte kosten worden apart meegeteld.",
+        "points": null
+      },
+      {
+        "id": "59b",
+        "label": "b",
+        "prompt": "“Een producent met een dalende vraaglijn heeft altijd een monopolie.”",
+        "answer": "Onjuist. Ook onder monopolistische concurrentie kan een onderneming een dalende eigen vraag hebben. De marktvorm vereist broninformatie over aanbieders, productverschillen en toetreding.",
+        "points": null
+      },
+      {
+        "id": "59c",
+        "label": "c",
+        "prompt": "“Bij een subsidie is het externe voordeel gelijk aan wat de overheid uitgeeft.”",
+        "answer": "Onjuist als algemene regel. De subsidie volgt uit het tarief en de gebruikte hoeveelheid; externe baten volgen uit de werkelijke voordelen voor derden. Soms zijn de bedragen in een oefencase gelijk, maar het zijn verschillende posten.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  },
+  {
+    "number": 60,
+    "title": "Dezelfde techniek in twee vormen",
+    "section": "4.2.7",
+    "stage": "Herhaling / Herhaling en interleaving",
+    "context": "A: voor één onderneming geldt P = 30 − 0,5q en MK = € 10, met capaciteit 30. B: op een markt betalen kopers € 18, ontvangen producenten € 14 en worden 50 stuks verkocht. Alle bedragen bij B gelden per week.",
+    "questions": [
+      {
+        "id": "60a",
+        "label": "a",
+        "prompt": "Bereken voor A de winstmaximale q en verkoopprijs.",
+        "answer": "MO = 30 − q. MO = 10 geeft q = 20, binnen de capaciteit. P = 30 − 0,5 × 20 = € 20 per eenheid. De hoeveelheid komt uit MO/MK, de prijs uit de vraag.",
+        "points": null
+      },
+      {
+        "id": "60b",
+        "label": "b",
+        "prompt": "Bereken voor B de heffing per stuk en de overheidsontvangst.",
+        "answer": "t = Pc − Pp = 18 − 14 = € 4 per stuk. Ontvangst = 4 × 50 = € 200 per week.",
+        "points": null
+      },
+      {
+        "id": "60c",
+        "label": "c",
+        "prompt": "Welke extra informatie is nodig om in B een maatschappelijke welvaartsverandering vast te stellen?",
+        "answer": "Een vergelijkbare beginsituatie en de relevante CS-, PS- en externe-effectposten, plus eventuele echte uitvoeringskosten. Alleen de wig en de overheidsontvangst bepalen de welvaartsverandering niet.",
+        "points": null
+      }
+    ],
+    "answer_fig": null,
+    "tags": []
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "task": "Create Book 4 chapter 2",
+  "date": "2026-09-08",
+  "student_page_cap": 60,
+  "priority": [
+    "current user task: 60-page cap",
+    "attached v2 outlines: sequence and boundary",
+    "repository exercise/didactic/graph authoring guidance"
+  ],
+  "sources": [
+    {
+      "kind": "user_attachment",
+      "path": "sources/book-3-outline-v2(5).md",
+      "document_date": "2026-09-06",
+      "sha256": "4e558b63d8eb954de935ad366170f6373f533eae14f90633a89be0036c973217",
+      "role": "content_sequence_and_boundaries"
+    },
+    {
+      "kind": "user_attachment",
+      "path": "sources/book-4-outline-v2(5).md",
+      "document_date": "2026-09-06",
+      "sha256": "3bfb4350bb1f990a8ea559272263e8ef35e1b72bd0cbc86b59c9aa6ad4fc0899",
+      "role": "content_sequence_and_boundaries"
+    },
+    {
+      "kind": "repository_read",
+      "repository": "meijer1973/4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "ref_requested": "main",
+      "blob_sha": "91778371a11cbe9839a4822c3989e90e7317850a",
+      "lines_read": [
+        1,
+        180
+      ],
+      "access": "GitHub connector, successful",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/RESEARCH_AGENT_MAP.md",
+      "note": "The blob SHA identifies returned content. The human navigation link uses the default branch."
+    },
+    {
+      "kind": "repository_read",
+      "repository": "meijer1973/4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "ref_requested": "main",
+      "blob_sha": "d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5",
+      "lines_read": [
+        1,
+        125
+      ],
+      "access": "GitHub connector, successful",
+      "url": "https://github.com/meijer1973/4veco-lessen/blob/main/RESEARCH_AGENT_MAP.md",
+      "note": "The blob SHA identifies returned content. The human navigation link uses the default branch."
+    },
+    {
+      "kind": "repository_read",
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-exercise-builder.md",
+      "ref_requested": "main",
+      "blob_sha": "5504c8e8a325864978c76867b15b857c118df19d",
+      "lines_read": [
+        1,
+        340
+      ],
+      "access": "GitHub connector, successful",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md",
+      "note": "The blob SHA identifies returned content. The human navigation link uses the default branch."
+    },
+    {
+      "kind": "repository_read",
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-textbook-paragraph.md",
+      "ref_requested": "main",
+      "blob_sha": "b48ff1f0d02748e6e4d1f98d6d892ac786562c3b",
+      "lines_read": [
+        210,
+        390
+      ],
+      "access": "GitHub connector, successful",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-textbook-paragraph.md",
+      "note": "The blob SHA identifies returned content. The human navigation link uses the default branch."
+    },
+    {
+      "kind": "repository_read",
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-didactiek.md",
+      "ref_requested": "main",
+      "blob_sha": "5a38065e42754e0490e541002ba4465bf3dbeda8",
+      "lines_read": [
+        1,
+        115
+      ],
+      "access": "GitHub connector, successful",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-didactiek.md",
+      "note": "The blob SHA identifies returned content. The human navigation link uses the default branch."
+    },
+    {
+      "kind": "repository_read",
+      "repository": "meijer1973/4veco-platform",
+      "path": "references/authored/economie-terminologie.md",
+      "ref_requested": "main",
+      "blob_sha": "907ee2e9ccdaa0ebff7c9d5167ffe4fa952d82de",
+      "lines_read": [
+        190,
+        330
+      ],
+      "access": "GitHub connector, successful",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/references/authored/economie-terminologie.md",
+      "note": "The blob SHA identifies returned content. The human navigation link uses the default branch."
+    },
+    {
+      "kind": "repository_read",
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/economic-graph.md",
+      "ref_requested": "main",
+      "blob_sha": "938d5e61c46de0d60b8bdeaf0aced2572715c2d0",
+      "lines_read": [
+        1,
+        160
+      ],
+      "access": "GitHub connector, successful",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/economic-graph.md",
+      "note": "The blob SHA identifies returned content. The human navigation link uses the default branch."
+    }
+  ],
+  "authorship": "All chapter explanations, worked examples, cases, numerical models, target exercises and solutions newly authored from the outline briefs. No claim of official target approval.",
+  "scope_exclusions": [
+    "labour-market chapter",
+    "formal game theory",
+    "general calculus course",
+    "current statutory rules",
+    "repository writes"
+  ],
+  "reuse": "Print/build infrastructure from previously delivered Book 4 chapter 1; no reuse of its teaching prose as chapter 2 content."
+}

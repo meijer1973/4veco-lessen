@@ -1,0 +1,1772 @@
+[
+  {
+    "file": "demand_move",
+    "curve": "arbeidsvraag",
+    "L_intercept": 160,
+    "L_slope": -5,
+    "xmax": 160,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        32.0
+      ],
+      [
+        160,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "demand_shift",
+    "curve": "arbeidsvraag",
+    "L_intercept": 160,
+    "L_slope": -5,
+    "xmax": 200,
+    "ymax": 40,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        32.0
+      ],
+      [
+        160.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      100.6,
+      478.0,
+      275.0
+    ]
+  },
+  {
+    "file": "demand_shift",
+    "curve": "vraag nieuw",
+    "L_intercept": 180,
+    "L_slope": -5,
+    "xmax": 200,
+    "ymax": 40,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        36.0
+      ],
+      [
+        180.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      78.79999999999998,
+      527.5,
+      275.0
+    ]
+  },
+  {
+    "file": "demand_base",
+    "curve": "arbeidsvraag",
+    "L_intercept": 160,
+    "L_slope": -5,
+    "xmax": 160,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        32.0
+      ],
+      [
+        160,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "eq_intro",
+    "curve": "arbeidsvraag",
+    "L_intercept": 180,
+    "L_slope": -10,
+    "xmax": 180,
+    "ymax": 20,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        18.0
+      ],
+      [
+        180,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      78.79999999999998,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "eq_intro",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -20,
+    "L_slope": 10,
+    "xmax": 180,
+    "ymax": 20,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        2.0
+      ],
+      [
+        180,
+        20.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      253.2,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "eq_base",
+    "curve": "arbeidsvraag",
+    "L_intercept": 200,
+    "L_slope": -8,
+    "xmax": 200,
+    "ymax": 25,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        25.0
+      ],
+      [
+        200,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "eq_base",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -24,
+    "L_slope": 8,
+    "xmax": 200,
+    "ymax": 25,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        3.0
+      ],
+      [
+        176.0,
+        25.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      248.84,
+      517.6,
+      57.0
+    ]
+  },
+  {
+    "file": "eq_we",
+    "curve": "arbeidsvraag",
+    "L_intercept": 160,
+    "L_slope": -5,
+    "xmax": 160,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        32.0
+      ],
+      [
+        160,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "eq_we",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -20,
+    "L_slope": 5,
+    "xmax": 160,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        140.0,
+        32.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      247.75,
+      515.125,
+      57.0
+    ]
+  },
+  {
+    "file": "eq_target",
+    "curve": "arbeidsvraag",
+    "L_intercept": 240,
+    "L_slope": -10,
+    "xmax": 240,
+    "ymax": 28,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        24.0
+      ],
+      [
+        240,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      88.14285714285717,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "eq_target",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -40,
+    "L_slope": 10,
+    "xmax": 240,
+    "ymax": 28,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        240,
+        28.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      243.85714285714286,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "eq_target_answer",
+    "curve": "arbeidsvraag",
+    "L_intercept": 240,
+    "L_slope": -10,
+    "xmax": 240,
+    "ymax": 28,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        24.0
+      ],
+      [
+        240,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      88.14285714285717,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "eq_target_answer",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -40,
+    "L_slope": 10,
+    "xmax": 240,
+    "ymax": 28,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        240,
+        28.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      243.85714285714286,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "eq_ind_answer",
+    "curve": "arbeidsvraag",
+    "L_intercept": 200,
+    "L_slope": -8,
+    "xmax": 200,
+    "ymax": 25,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        25.0
+      ],
+      [
+        200,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "eq_ind_answer",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -24,
+    "L_slope": 8,
+    "xmax": 200,
+    "ymax": 25,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        3.0
+      ],
+      [
+        176.0,
+        25.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      248.84,
+      517.6,
+      57.0
+    ]
+  },
+  {
+    "file": "shift_flex",
+    "curve": "arbeidsvraag",
+    "L_intercept": 200,
+    "L_slope": -10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        20.0
+      ],
+      [
+        200,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      93.33333333333331,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_flex",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -40,
+    "L_slope": 10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        200,
+        24.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      238.66666666666669,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "shift_flex",
+    "curve": "vraag nieuw",
+    "L_intercept": 160,
+    "L_slope": -10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        16.0
+      ],
+      [
+        160.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      129.66666666666669,
+      478.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_fixed",
+    "curve": "arbeidsvraag",
+    "L_intercept": 200,
+    "L_slope": -10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        20.0
+      ],
+      [
+        200,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      93.33333333333331,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_fixed",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -40,
+    "L_slope": 10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        200,
+        24.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      238.66666666666669,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "shift_fixed",
+    "curve": "vraag nieuw",
+    "L_intercept": 160,
+    "L_slope": -10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        16.0
+      ],
+      [
+        160.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      129.66666666666669,
+      478.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_we",
+    "curve": "arbeidsvraag",
+    "L_intercept": 200,
+    "L_slope": -8,
+    "xmax": 200,
+    "ymax": 25,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        25.0
+      ],
+      [
+        200,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_we",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -24,
+    "L_slope": 8,
+    "xmax": 200,
+    "ymax": 25,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        3.0
+      ],
+      [
+        176.0,
+        25.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      248.84,
+      517.6,
+      57.0
+    ]
+  },
+  {
+    "file": "shift_we",
+    "curve": "vraag nieuw",
+    "L_intercept": 168,
+    "L_slope": -8,
+    "xmax": 200,
+    "ymax": 25,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        21.0
+      ],
+      [
+        168.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      91.88,
+      497.8,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_ind",
+    "curve": "arbeidsvraag",
+    "L_intercept": 180,
+    "L_slope": -5,
+    "xmax": 180,
+    "ymax": 36,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        36.0
+      ],
+      [
+        180,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_ind",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -20,
+    "L_slope": 5,
+    "xmax": 180,
+    "ymax": 36,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        160.0,
+        36.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      250.77777777777777,
+      522.0,
+      57.0
+    ]
+  },
+  {
+    "file": "shift_ind",
+    "curve": "vraag nieuw",
+    "L_intercept": 160,
+    "L_slope": -5,
+    "xmax": 180,
+    "ymax": 36,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        32.0
+      ],
+      [
+        160.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      81.22222222222223,
+      522.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_target",
+    "curve": "arbeidsvraag",
+    "L_intercept": 180,
+    "L_slope": -6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        30.0
+      ],
+      [
+        180,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_target",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -12,
+    "L_slope": 6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        2.0
+      ],
+      [
+        168.0,
+        30.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      260.46666666666664,
+      544.0,
+      57.0
+    ]
+  },
+  {
+    "file": "shift_target",
+    "curve": "vraag nieuw",
+    "L_intercept": 144,
+    "L_slope": -6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        24.0
+      ],
+      [
+        144.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      100.6,
+      478.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_target_answer",
+    "curve": "arbeidsvraag",
+    "L_intercept": 180,
+    "L_slope": -6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        30.0
+      ],
+      [
+        180,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_target_answer",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -12,
+    "L_slope": 6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        2.0
+      ],
+      [
+        168.0,
+        30.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      260.46666666666664,
+      544.0,
+      57.0
+    ]
+  },
+  {
+    "file": "shift_target_answer",
+    "curve": "vraag nieuw",
+    "L_intercept": 144,
+    "L_slope": -6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        24.0
+      ],
+      [
+        144.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      100.6,
+      478.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_ind_answer",
+    "curve": "arbeidsvraag",
+    "L_intercept": 180,
+    "L_slope": -5,
+    "xmax": 180,
+    "ymax": 36,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        36.0
+      ],
+      [
+        180,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "shift_ind_answer",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -20,
+    "L_slope": 5,
+    "xmax": 180,
+    "ymax": 36,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        160.0,
+        36.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      250.77777777777777,
+      522.0,
+      57.0
+    ]
+  },
+  {
+    "file": "shift_ind_answer",
+    "curve": "vraag nieuw",
+    "L_intercept": 160,
+    "L_slope": -5,
+    "xmax": 180,
+    "ymax": 36,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        32.0
+      ],
+      [
+        160.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      81.22222222222223,
+      522.0,
+      275.0
+    ]
+  },
+  {
+    "file": "floor_nonbinding",
+    "curve": "arbeidsvraag",
+    "L_intercept": 200,
+    "L_slope": -10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        20.0
+      ],
+      [
+        200,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      93.33333333333331,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "floor_nonbinding",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -40,
+    "L_slope": 10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        200,
+        24.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      238.66666666666669,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "floor_binding",
+    "curve": "arbeidsvraag",
+    "L_intercept": 200,
+    "L_slope": -10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        20.0
+      ],
+      [
+        200,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      93.33333333333331,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "floor_binding",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -40,
+    "L_slope": 10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        200,
+        24.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      238.66666666666669,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "floor_bill",
+    "curve": "arbeidsvraag",
+    "L_intercept": 200,
+    "L_slope": -10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        20.0
+      ],
+      [
+        200,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      93.33333333333331,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "floor_bill",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -40,
+    "L_slope": 10,
+    "xmax": 200,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        200,
+        24.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      238.66666666666669,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "floor_we",
+    "curve": "arbeidsvraag",
+    "L_intercept": 180,
+    "L_slope": -5,
+    "xmax": 180,
+    "ymax": 36,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        36.0
+      ],
+      [
+        180,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "floor_we",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -20,
+    "L_slope": 5,
+    "xmax": 180,
+    "ymax": 36,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        160.0,
+        36.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      250.77777777777777,
+      522.0,
+      57.0
+    ]
+  },
+  {
+    "file": "floor_guide",
+    "curve": "arbeidsvraag",
+    "L_intercept": 180,
+    "L_slope": -6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        30.0
+      ],
+      [
+        180,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "floor_guide",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -12,
+    "L_slope": 6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        2.0
+      ],
+      [
+        168.0,
+        30.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      260.46666666666664,
+      544.0,
+      57.0
+    ]
+  },
+  {
+    "file": "floor_target",
+    "curve": "arbeidsvraag",
+    "L_intercept": 220,
+    "L_slope": -10,
+    "xmax": 220,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        22.0
+      ],
+      [
+        220,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      75.16666666666669,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "floor_target",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -20,
+    "L_slope": 10,
+    "xmax": 220,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        2.0
+      ],
+      [
+        220,
+        24.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      256.8333333333333,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "floor_target_answer",
+    "curve": "arbeidsvraag",
+    "L_intercept": 220,
+    "L_slope": -10,
+    "xmax": 220,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        22.0
+      ],
+      [
+        220,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      75.16666666666669,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "floor_target_answer",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -20,
+    "L_slope": 10,
+    "xmax": 220,
+    "ymax": 24,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        2.0
+      ],
+      [
+        220,
+        24.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      256.8333333333333,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "floor_guide_answer",
+    "curve": "arbeidsvraag",
+    "L_intercept": 180,
+    "L_slope": -6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        30.0
+      ],
+      [
+        180,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      57.0,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "floor_guide_answer",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -12,
+    "L_slope": 6,
+    "xmax": 180,
+    "ymax": 30,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        2.0
+      ],
+      [
+        168.0,
+        30.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      260.46666666666664,
+      544.0,
+      57.0
+    ]
+  },
+  {
+    "file": "mixed_base",
+    "curve": "arbeidsvraag",
+    "L_intercept": 240,
+    "L_slope": -10,
+    "xmax": 280,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        24.0
+      ],
+      [
+        240.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      111.5,
+      506.2857142857143,
+      275.0
+    ]
+  },
+  {
+    "file": "mixed_base",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -40,
+    "L_slope": 10,
+    "xmax": 280,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        280,
+        32.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      247.75,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "mixed_base",
+    "curve": "vraag nieuw",
+    "L_intercept": 280,
+    "L_slope": -10,
+    "xmax": 280,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        28.0
+      ],
+      [
+        280,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      84.25,
+      577.0,
+      275.0
+    ]
+  },
+  {
+    "file": "mixed_answer",
+    "curve": "arbeidsvraag",
+    "L_intercept": 240,
+    "L_slope": -10,
+    "xmax": 280,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        24.0
+      ],
+      [
+        240.0,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      111.5,
+      506.2857142857143,
+      275.0
+    ]
+  },
+  {
+    "file": "mixed_answer",
+    "curve": "arbeidsaanbod",
+    "L_intercept": -40,
+    "L_slope": 10,
+    "xmax": 280,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        4.0
+      ],
+      [
+        280,
+        32.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      247.75,
+      577.0,
+      57.0
+    ]
+  },
+  {
+    "file": "mixed_answer",
+    "curve": "vraag nieuw",
+    "L_intercept": 280,
+    "L_slope": -10,
+    "xmax": 280,
+    "ymax": 32,
+    "plot": [
+      82,
+      275,
+      495,
+      218
+    ],
+    "endpoint_data": [
+      [
+        0,
+        28.0
+      ],
+      [
+        280,
+        0.0
+      ]
+    ],
+    "svg_coordinates": [
+      82.0,
+      84.25,
+      577.0,
+      275.0
+    ]
+  }
+]

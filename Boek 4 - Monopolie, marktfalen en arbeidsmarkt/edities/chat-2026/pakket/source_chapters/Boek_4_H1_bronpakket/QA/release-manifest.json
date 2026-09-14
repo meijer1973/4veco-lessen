@@ -1,0 +1,43 @@
+{
+  "title": "Boek 4 · Hoofdstuk 1 · Monopolie",
+  "student_page_limit": 40,
+  "exercises": 38,
+  "subquestions": 107,
+  "target_exercises": 4,
+  "target_subquestions": 22,
+  "worked_examples": 3,
+  "student_figures": 23,
+  "answer_figures": 8,
+  "files": [
+    {
+      "filename": "Boek_4_H1_Monopolie.pdf",
+      "pages": 38,
+      "bytes": 418536,
+      "sha256": "a20c9cc345e6b105780c6550bf2e74644818fc0f2decf4a79b27fc0c042c76c3",
+      "pdf_bookmarks": 50,
+      "pdf_links": 19
+    },
+    {
+      "filename": "Boek_4_H1_Antwoorden.pdf",
+      "pages": 20,
+      "bytes": 200027,
+      "sha256": "1055ad70fa2c10f41318391ef7dd52bba6d301df9ca3285568541584d7d7df19",
+      "pdf_bookmarks": 53,
+      "pdf_links": 0
+    },
+    {
+      "filename": "Boek_4_H1_Docenteninformatie.pdf",
+      "pages": 7,
+      "bytes": 55199,
+      "sha256": "f0602a59002e6697e90e9f630a0b035ffc8aa7411d3ccc455eeb0355a44216e3",
+      "pdf_bookmarks": 31,
+      "pdf_links": 0
+    }
+  ],
+  "validation": {
+    "checks": 644,
+    "failed": 0,
+    "scope": "Local arithmetic, SVG geometry, coverage, source, and PDF structure checks; not independent review or classroom timing verification"
+  },
+  "paragraph_exports": 12
+}

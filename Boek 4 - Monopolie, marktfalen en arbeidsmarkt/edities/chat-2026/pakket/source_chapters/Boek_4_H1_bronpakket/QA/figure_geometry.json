@@ -1,0 +1,1581 @@
+[
+  {
+    "file": "4.1_opener",
+    "width": 900,
+    "height": 195,
+    "panels": []
+  },
+  {
+    "file": "4.1.1_fig_1",
+    "width": 900,
+    "height": 435,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          66,
+          78,
+          337,
+          262
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 20,
+        "curves": [
+          {
+            "name": "P = GO = MO",
+            "kind": "linear",
+            "params": [
+              8,
+              0
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      },
+      {
+        "id": "p1",
+        "box": [
+          528,
+          78,
+          337,
+          262
+        ],
+        "xmax": 400,
+        "ymin": 0,
+        "ymax": 20,
+        "curves": [
+          {
+            "name": "Vraag = GO",
+            "kind": "linear",
+            "params": [
+              20,
+              -0.05
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.1_fig_2",
+    "width": 900,
+    "height": 425,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          265
+        ],
+        "xmax": 120,
+        "ymin": 0,
+        "ymax": 12,
+        "curves": [
+          {
+            "name": "Vraag = GO",
+            "kind": "linear",
+            "params": [
+              12,
+              -0.1
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 40,
+            "p": 8.0,
+            "name": "A",
+            "curve": "Vraag = GO"
+          },
+          {
+            "q": 80,
+            "p": 4.0,
+            "name": "B",
+            "curve": "Vraag = GO"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.1_ex_3",
+    "width": 900,
+    "height": 425,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          265
+        ],
+        "xmax": 200,
+        "ymin": 0,
+        "ymax": 20,
+        "curves": [
+          {
+            "name": "Vraag = GO",
+            "kind": "linear",
+            "params": [
+              20,
+              -0.1
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 80,
+            "p": 12.0,
+            "name": "A: (80, 12)",
+            "curve": "Vraag = GO"
+          },
+          {
+            "q": 120,
+            "p": 8.0,
+            "name": "B: (120, 8)",
+            "curve": "Vraag = GO"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.1_target",
+    "width": 900,
+    "height": 425,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          265
+        ],
+        "xmax": 240,
+        "ymin": 0,
+        "ymax": 24,
+        "curves": [
+          {
+            "name": "Vraag = GO",
+            "kind": "linear",
+            "params": [
+              24,
+              -0.1
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60,
+            "p": 18.0,
+            "name": "A",
+            "curve": "Vraag = GO"
+          },
+          {
+            "q": 120,
+            "p": 12.0,
+            "name": "B",
+            "curve": "Vraag = GO"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.2_fig_1",
+    "width": 900,
+    "height": 450,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          80,
+          74,
+          540,
+          275
+        ],
+        "xmax": 40.5,
+        "ymin": 0,
+        "ymax": 20,
+        "curves": [],
+        "points": [],
+        "areas": [
+          {
+            "label": "blijvende omzet",
+            "vertices": [
+              [
+                0,
+                0
+              ],
+              [
+                20,
+                0
+              ],
+              [
+                20,
+                14.0
+              ],
+              [
+                0,
+                14.0
+              ]
+            ]
+          },
+          {
+            "label": "minder per eerdere kg",
+            "vertices": [
+              [
+                0,
+                14.0
+              ],
+              [
+                20,
+                14.0
+              ],
+              [
+                20,
+                16.0
+              ],
+              [
+                0,
+                16.0
+              ]
+            ]
+          },
+          {
+            "label": "extra kg",
+            "vertices": [
+              [
+                20,
+                0
+              ],
+              [
+                30,
+                0
+              ],
+              [
+                30,
+                14.0
+              ],
+              [
+                20,
+                14.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "4.1.2_fig_2",
+    "width": 900,
+    "height": 195,
+    "panels": []
+  },
+  {
+    "file": "4.1.2_fig_3",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 20,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              20,
+              -0.2
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.2_fig_4",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": -20,
+        "ymax": 20,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              20,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              20,
+              -0.4
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.2_we",
+    "width": 900,
+    "height": 450,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          80,
+          74,
+          540,
+          275
+        ],
+        "xmax": 54.0,
+        "ymin": 0,
+        "ymax": 12,
+        "curves": [],
+        "points": [],
+        "areas": [
+          {
+            "label": "blijvende omzet",
+            "vertices": [
+              [
+                0,
+                0
+              ],
+              [
+                30,
+                0
+              ],
+              [
+                30,
+                8.0
+              ],
+              [
+                0,
+                8.0
+              ]
+            ]
+          },
+          {
+            "label": "minder per eerdere kg",
+            "vertices": [
+              [
+                0,
+                8.0
+              ],
+              [
+                30,
+                8.0
+              ],
+              [
+                30,
+                9.0
+              ],
+              [
+                0,
+                9.0
+              ]
+            ]
+          },
+          {
+            "label": "extra kg",
+            "vertices": [
+              [
+                30,
+                0
+              ],
+              [
+                40,
+                0
+              ],
+              [
+                40,
+                8.0
+              ],
+              [
+                30,
+                8.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "4.1.2_ex_13",
+    "width": 900,
+    "height": 450,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          80,
+          74,
+          540,
+          275
+        ],
+        "xmax": 40.5,
+        "ymin": 0,
+        "ymax": 16,
+        "curves": [],
+        "points": [],
+        "areas": [
+          {
+            "label": "blijvende omzet",
+            "vertices": [
+              [
+                0,
+                0
+              ],
+              [
+                20,
+                0
+              ],
+              [
+                20,
+                10.0
+              ],
+              [
+                0,
+                10.0
+              ]
+            ]
+          },
+          {
+            "label": "minder per eerdere kg",
+            "vertices": [
+              [
+                0,
+                10.0
+              ],
+              [
+                20,
+                10.0
+              ],
+              [
+                20,
+                12.0
+              ],
+              [
+                0,
+                12.0
+              ]
+            ]
+          },
+          {
+            "label": "extra kg",
+            "vertices": [
+              [
+                20,
+                0
+              ],
+              [
+                30,
+                0
+              ],
+              [
+                30,
+                10.0
+              ],
+              [
+                20,
+                10.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "4.1.2_ex_17",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": -16,
+        "ymax": 24,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              24,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              24,
+              -0.4
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_fig_1",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 30,
+        "curves": [
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              30,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              6,
+              0
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60,
+            "p": 6.0,
+            "name": "1",
+            "curve": "MO"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_fig_2",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 30,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              30,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              30,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              6,
+              0
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60,
+            "p": 6.0,
+            "name": "1",
+            "curve": "MO"
+          },
+          {
+            "q": 60,
+            "p": 18.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_fig_3",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 30,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              30,
+              -0.2
+            ]
+          },
+          {
+            "name": "GTK",
+            "kind": "avg",
+            "params": [
+              0,
+              6,
+              200
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60,
+            "p": 9.333333333333334,
+            "name": "",
+            "curve": "GTK"
+          },
+          {
+            "q": 60,
+            "p": 18.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": [
+          {
+            "label": "winst",
+            "vertices": [
+              [
+                0,
+                9.333333333333334
+              ],
+              [
+                60,
+                9.333333333333334
+              ],
+              [
+                60,
+                18.0
+              ],
+              [
+                0,
+                18.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_fig_4",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 30,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              30,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              30,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              6,
+              0
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 50,
+            "p": 10.0,
+            "name": "1",
+            "curve": "MO"
+          },
+          {
+            "q": 50,
+            "p": 20.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_we",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 50,
+        "ymin": 0,
+        "ymax": 24,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              24,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              24,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              6,
+              0.2
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 30,
+            "p": 12.0,
+            "name": "1",
+            "curve": "MO"
+          },
+          {
+            "q": 30,
+            "p": 18.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_ex_23",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 120,
+        "ymin": 0,
+        "ymax": 20,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              20,
+              -0.1
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              20,
+              -0.2
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              4,
+              0
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 80,
+            "p": 4.0,
+            "name": "1",
+            "curve": "MO"
+          },
+          {
+            "q": 80,
+            "p": 12.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_ex_24",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 28,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              28,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              28,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              8,
+              0
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_ex_26",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 40,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              40,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              40,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              4,
+              0.2
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_target",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 80,
+        "ymin": 0,
+        "ymax": 40,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              40,
+              -0.25
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              40,
+              -0.5
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              10,
+              0.25
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.4_target",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 80,
+        "ymin": 0,
+        "ymax": 32,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              32,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              32,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              8,
+              0.2
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1_overview",
+    "width": 900,
+    "height": 195,
+    "panels": []
+  },
+  {
+    "file": "4.1.1_ans_8",
+    "width": 900,
+    "height": 425,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          265
+        ],
+        "xmax": 240,
+        "ymin": 0,
+        "ymax": 24,
+        "curves": [
+          {
+            "name": "Vraag = GO",
+            "kind": "linear",
+            "params": [
+              24,
+              -0.1
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60,
+            "p": 18.0,
+            "name": "A: (60, 18)",
+            "curve": "Vraag = GO"
+          },
+          {
+            "q": 120,
+            "p": 12.0,
+            "name": "B: (120, 12)",
+            "curve": "Vraag = GO"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.2_ans_18",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 60,
+        "ymin": -30,
+        "ymax": 30,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              30,
+              -0.5
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              30,
+              -1.0
+            ]
+          }
+        ],
+        "points": [],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_ans_24",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 28,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              28,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              28,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              8,
+              0
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 50,
+            "p": 8.0,
+            "name": "1",
+            "curve": "MO"
+          },
+          {
+            "q": 50,
+            "p": 18.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_ans_26",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 100,
+        "ymin": 0,
+        "ymax": 40,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              40,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              40,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              4,
+              0.2
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 60,
+            "p": 16.0,
+            "name": "1",
+            "curve": "MO"
+          },
+          {
+            "q": 60,
+            "p": 28.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_ans_27",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 60,
+        "ymin": 0,
+        "ymax": 22,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              22,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              22,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              2,
+              0
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 40,
+            "p": 6.0,
+            "name": "1",
+            "curve": "MO"
+          },
+          {
+            "q": 40,
+            "p": 14.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_ans_28",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 80,
+        "ymin": 0,
+        "ymax": 40,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              40,
+              -0.25
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              40,
+              -0.5
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              10,
+              0.25
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 40,
+            "p": 20.0,
+            "name": "1",
+            "curve": "MO"
+          },
+          {
+            "q": 40,
+            "p": 30.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  },
+  {
+    "file": "4.1.3_ans_28_profit",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 80,
+        "ymin": 0,
+        "ymax": 40,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              40,
+              -0.25
+            ]
+          },
+          {
+            "name": "GTK",
+            "kind": "avg",
+            "params": [
+              0.125,
+              10,
+              200
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 40,
+            "p": 20.0,
+            "name": "",
+            "curve": "GTK"
+          },
+          {
+            "q": 40,
+            "p": 30.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": [
+          {
+            "label": "winst",
+            "vertices": [
+              [
+                0,
+                20.0
+              ],
+              [
+                40,
+                20.0
+              ],
+              [
+                40,
+                30.0
+              ],
+              [
+                0,
+                30.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "4.1.4_ans_35",
+    "width": 900,
+    "height": 440,
+    "panels": [
+      {
+        "id": "p0",
+        "box": [
+          78,
+          78,
+          738,
+          275
+        ],
+        "xmax": 80,
+        "ymin": 0,
+        "ymax": 32,
+        "curves": [
+          {
+            "name": "GO = P",
+            "kind": "linear",
+            "params": [
+              32,
+              -0.2
+            ]
+          },
+          {
+            "name": "MO",
+            "kind": "linear",
+            "params": [
+              32,
+              -0.4
+            ]
+          },
+          {
+            "name": "MK",
+            "kind": "linear",
+            "params": [
+              8,
+              0.2
+            ]
+          }
+        ],
+        "points": [
+          {
+            "q": 40,
+            "p": 16.0,
+            "name": "1",
+            "curve": "MO"
+          },
+          {
+            "q": 40,
+            "p": 24.0,
+            "name": "2",
+            "curve": "GO = P"
+          }
+        ],
+        "areas": []
+      }
+    ]
+  }
+]

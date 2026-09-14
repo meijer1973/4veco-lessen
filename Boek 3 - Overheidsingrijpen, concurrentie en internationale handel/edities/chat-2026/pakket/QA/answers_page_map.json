@@ -1,0 +1,1885 @@
+[
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 1,
+    "book_page": 3,
+    "edits": [
+      {
+        "rect": [
+          533.31404296875,
+          272.41995727539063,
+          539.3316479492188,
+          284.299189453125
+        ],
+        "reason": "answer_contents_page",
+        "old": "2",
+        "new": "4",
+        "right_aligned": true,
+        "output_rect": [
+          533.3140258789062,
+          272.2999572753906,
+          539.3316650390625,
+          284.419189453125
+        ]
+      },
+      {
+        "rect": [
+          533.31404296875,
+          294.59695922851563,
+          539.3316479492188,
+          306.47619140625
+        ],
+        "reason": "answer_contents_page",
+        "old": "7",
+        "new": "9",
+        "right_aligned": true,
+        "output_rect": [
+          533.3140258789062,
+          294.4769592285156,
+          539.3316650390625,
+          306.59619140625
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          316.77396118164063,
+          539.3314038085938,
+          328.653193359375
+        ],
+        "reason": "answer_contents_page",
+        "old": "11",
+        "new": "13",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          316.6539611816406,
+          539.3314208984375,
+          328.773193359375
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          338.95096313476563,
+          539.3314038085938,
+          350.8301953125
+        ],
+        "reason": "answer_contents_page",
+        "old": "17",
+        "new": "19",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          338.8309631347656,
+          539.3314208984375,
+          350.9501953125
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          361.12796508789063,
+          539.3314038085938,
+          373.007197265625
+        ],
+        "reason": "answer_contents_page",
+        "old": "22",
+        "new": "24",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          361.0079650878906,
+          539.3314208984375,
+          373.127197265625
+        ]
+      },
+      {
+        "rect": [
+          527.4561328125,
+          383.3049365234375,
+          539.3314038085938,
+          395.18416870117187
+        ],
+        "reason": "answer_contents_page",
+        "old": "28",
+        "new": "30",
+        "right_aligned": true,
+        "output_rect": [
+          527.4561157226562,
+          383.1849365234375,
+          539.3314208984375,
+          395.3041687011719
+        ]
+      },
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "3",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 2,
+    "book_page": 4,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "4",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 3,
+    "book_page": 5,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "5",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 4,
+    "book_page": 6,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "6",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 5,
+    "book_page": 7,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "7",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 6,
+    "book_page": 8,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "8",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 7,
+    "book_page": 9,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "9",
+        "right_aligned": true,
+        "output_rect": [
+          538.9519653320312,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 8,
+    "book_page": 10,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "10",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 9,
+    "book_page": 11,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "11",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 10,
+    "book_page": 12,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "12",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 11,
+    "book_page": 13,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "13",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 12,
+    "book_page": 14,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "14",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 13,
+    "book_page": 15,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "15",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 14,
+    "book_page": 16,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "16",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 15,
+    "book_page": 17,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "17",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 16,
+    "book_page": 18,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "18",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 17,
+    "book_page": 19,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "19",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 18,
+    "book_page": 20,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "20",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 19,
+    "book_page": 21,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "21",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 20,
+    "book_page": 22,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "22",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 21,
+    "book_page": 23,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "23",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 22,
+    "book_page": 24,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "24",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 23,
+    "book_page": 25,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "25",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 24,
+    "book_page": 26,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "26",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 25,
+    "book_page": 27,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "27",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 26,
+    "book_page": 28,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "28",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 27,
+    "book_page": 29,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "29",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 28,
+    "book_page": 30,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "30",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 29,
+    "book_page": 31,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "31",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 30,
+    "book_page": 32,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "32",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H1_Antwoorden.pdf",
+    "local_page": 31,
+    "book_page": 33,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "33",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 1,
+    "book_page": 35,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "35",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 2,
+    "book_page": 36,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "36",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 3,
+    "book_page": 37,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "37",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 4,
+    "book_page": 38,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "38",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 5,
+    "book_page": 39,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "39",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 6,
+    "book_page": 40,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "40",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 7,
+    "book_page": 41,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "41",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 8,
+    "book_page": 42,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "42",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 9,
+    "book_page": 43,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "43",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 10,
+    "book_page": 44,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "44",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 11,
+    "book_page": 45,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "45",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 12,
+    "book_page": 46,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "46",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 13,
+    "book_page": 47,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "47",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 14,
+    "book_page": 48,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "48",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 15,
+    "book_page": 49,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "49",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 16,
+    "book_page": 50,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "50",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 17,
+    "book_page": 51,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "51",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 18,
+    "book_page": 52,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "52",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 19,
+    "book_page": 53,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "53",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 20,
+    "book_page": 54,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "54",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 21,
+    "book_page": 55,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "55",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 22,
+    "book_page": 56,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "56",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H2_Antwoorden.pdf",
+    "local_page": 23,
+    "book_page": 57,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "57",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 1,
+    "book_page": 59,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "59",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 2,
+    "book_page": 60,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "60",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 3,
+    "book_page": 61,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "61",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 4,
+    "book_page": 62,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "62",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 5,
+    "book_page": 63,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "63",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 6,
+    "book_page": 64,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "64",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 7,
+    "book_page": 65,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "65",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 8,
+    "book_page": 66,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "66",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 9,
+    "book_page": 67,
+    "edits": [
+      {
+        "rect": [
+          538.951982421875,
+          812.5153247070313,
+          544.331953125,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "67",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.3319702148438,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 10,
+    "book_page": 68,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "68",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 11,
+    "book_page": 69,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "69",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 12,
+    "book_page": 70,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "70",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 13,
+    "book_page": 71,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "71",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 14,
+    "book_page": 72,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "72",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 15,
+    "book_page": 73,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "73",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 16,
+    "book_page": 74,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "74",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  },
+  {
+    "source": "inputs/Boek_3_H3_Antwoorden.pdf",
+    "local_page": 17,
+    "book_page": 75,
+    "edits": [
+      {
+        "rect": [
+          533.73201171875,
+          812.5153247070313,
+          544.3320141601563,
+          823.0753125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "75",
+        "right_aligned": true,
+        "output_rect": [
+          533.7319946289062,
+          812.3953247070312,
+          544.33203125,
+          823.1953125
+        ]
+      }
+    ]
+  }
+]

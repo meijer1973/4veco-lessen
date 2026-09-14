@@ -1,0 +1,520 @@
+[
+  {
+    "number": 1,
+    "title": "Opbrengst terughalen",
+    "context": "Een producent verkoopt 80 kg meel per dag voor € 4 per kg.",
+    "questions": [
+      "Bereken TO en GO. Noteer bij beide de juiste eenheid.",
+      "De afzet stijgt naar 100 kg bij dezelfde prijs. Bereken de extra opbrengst en MO over deze toename."
+    ],
+    "section": "3.2.1",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 2,
+    "title": "Welke lijn is horizontaal?",
+    "context": "Een leerling ziet figuur 2 en zegt: “Bij volkomen concurrentie verandert de totale vraag niet als de prijs verandert.”",
+    "questions": [
+      "Welk verschil tussen de marktgrafiek en de ondernemingsgrafiek ziet de leerling over het hoofd?",
+      "Noem twee modelkenmerken die verklaren waarom één teler de prijs als gegeven neemt."
+    ],
+    "section": "3.2.1",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 3,
+    "title": "Volg de prijs",
+    "context": "Gebruik het uitgewerkte voorbeeld en figuur 2.",
+    "questions": [
+      "Wijs eerst het marktevenwicht aan. Welk getal neem je naar de ondernemingsgrafiek over?",
+      "Leg met q = 100 en q = 120 uit waarom MO niet gelijk is aan de extra totale opbrengst van € 40.",
+      "Een teler verdubbelt zijn eigen kleine productie. Waarom betekent dit niet dat de totale markthoeveelheid verdubbelt?"
+    ],
+    "section": "3.2.1",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 4,
+    "title": "De rijstmarkt",
+    "context": "Op deze oefenmarkt leveren veel kleine ondernemingen dezelfde kwaliteit rijst. Prijzen zijn bekend. Toetreding is vrij. Eén onderneming kan maximaal 120 kg per dag leveren.",
+    "questions": [
+      "Lees links de evenwichtsprijs en de markthoeveelheid af. Let op × 1.000 op de horizontale as.",
+      "Neem rechts alleen de prijs over. Teken één horizontale lijn en zet erbij: P = GO = MO.",
+      "Bereken TO bij q = 80. Bereken vervolgens de extra opbrengst bij 20 kg extra afzet en MO.",
+      "Leg uit waarom deze onderneming bij dezelfde afzet geen hogere winst behaalt door € 0,20 onder de marktprijs te verkopen."
+    ],
+    "section": "3.2.1",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 5,
+    "title": "Standaard potgrond",
+    "context": "Veel kleine aanbieders leveren in dit model dezelfde potgrond. Eén aanbieder verkoopt maximaal 120 kg per dag.",
+    "questions": [
+      "Lees het marktevenwicht af en vul rechts de lijn P = GO = MO in.",
+      "Bereken TO en GO bij q = 90. Bereken MO als de afzet daarna naar 110 kg stijgt.",
+      "Een aanbieder vraagt € 0,50 boven de marktprijs. Leg met de modelaannames uit waarom dit geen bruikbare manier is om zijn winst te vergroten."
+    ],
+    "section": "3.2.1",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 6,
+    "title": "Een eigen merk",
+    "context": "Een andere aanbieder verkoopt potgrond met een eigen merk. Een groep klanten wil juist dit merk en betaalt er extra voor.",
+    "questions": [
+      "Welk kenmerk van volkomen concurrentie gaat in deze beschrijving niet meer op?",
+      "Waarom mag je voor deze aanbieder niet zonder meer dezelfde horizontale opbrengstlijn gebruiken?"
+    ],
+    "section": "3.2.1",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 7,
+    "title": "Wortelveiling",
+    "context": "Veel kleine telers bieden wortelen van dezelfde kwaliteit aan. Kopers kennen alle prijzen. Beginnen of stoppen is vrij. Teler Mila kan tot 160 kg per dag leveren en bij de marktprijs verkopen.",
+    "questions": [
+      "Lees de marktprijs en de markthoeveelheid af. Noem één kenmerk uit de bron dat prijsnemerschap ondersteunt.",
+      "Teken rechts de opbrengstlijn van Mila. Label die als P = GO = MO.",
+      "Bereken bij q = 120 kg de TO en GO. Bereken MO wanneer Mila van 120 naar 140 kg gaat.",
+      "Mila overweegt € 3,20 te vragen. Leg uit waarom zij in dit model daardoor haar kopers verliest.",
+      "Een klasgenoot zegt: “De markt verkoopt 4.000 kg, dus de lijn van Mila moet bij q = 4.000 eindigen.” Leg de fout uit."
+    ],
+    "section": "3.2.1",
+    "group": "target",
+    "points": [
+      2,
+      2,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Onbeperkt verkopen?",
+    "context": "“Een horizontale opbrengstlijn betekent dat één bedrijf oneindig veel kan verkopen zonder dat de prijs verandert.”",
+    "questions": [
+      "Beoordeel de uitspraak. Gebruik de begrippen productiecapaciteit en klein marktaandeel.",
+      "Leg uit wat er aan het model zou veranderen als dit ene bedrijf een groot deel van de markt gaat bedienen."
+    ],
+    "section": "3.2.1",
+    "group": "bonus",
+    "points": null
+  },
+  {
+    "number": 9,
+    "title": "Evenwicht uit formules",
+    "context": "Vraag: P = 18 − 0,20Q. Aanbod: P = 6 + 0,10Q. P is euro per product; Q is producten per week.",
+    "questions": [
+      "Bereken de evenwichtsprijs en -hoeveelheid.",
+      "Er komen meer aanbieders bij, bij ongewijzigde vraag. Welke kant verschuift de aanbodlijn? Wat verwacht je van de prijs?"
+    ],
+    "section": "3.2.1",
+    "group": "review",
+    "points": null
+  },
+  {
+    "number": 10,
+    "title": "Totaal en gemiddeld",
+    "context": "Voor een onderneming geldt TK = 150 + 3q. q is kg per week; TK is euro per week.",
+    "questions": [
+      "Bereken TK en GTK bij q = 50.",
+      "Bereken GTK bij q = 100. Leg uit waarom GTK daalt, terwijl TK stijgt."
+    ],
+    "section": "3.2.1",
+    "group": "review",
+    "points": null
+  },
+  {
+    "number": 11,
+    "title": "De bekende bouwstenen",
+    "context": "Een producent ontvangt € 9 per kg. Bij q = 40 zijn TK = € 280. Bij q = 50 zijn TK = € 350. Totale bedragen zijn per week.",
+    "questions": [
+      "Bereken TO, GTK en winst bij q = 40.",
+      "Bereken MK over de tabelstap van 40 naar 50 kg en vergelijk dit met MO."
+    ],
+    "section": "3.2.2",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 12,
+    "title": "Een maximum herkennen",
+    "context": "Een onderneming heeft MO = 12. Bij q = 60 is MK = 10 en bij q = 100 is MK = 14. Tussen deze punten stijgt MK.",
+    "questions": [
+      "Is een kleine uitbreiding rond q = 60 gunstig voor de winst? En rond q = 100?",
+      "Waarom zoek je het winstmaximum tussen deze hoeveelheden, als de capaciteit groot genoeg is?"
+    ],
+    "section": "3.2.2",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 13,
+    "title": "Term voor term",
+    "context": "Een zadenhandel heeft TK = 0,05q² + 3q + 60. q is kg per week.",
+    "questions": [
+      "Vul aan: de afgeleide van 0,05q² is …; van 3q is …; van 60 is … . Schrijf MK op.",
+      "P = € 9 per kg. Vul aan: 9 = …q + … . Bereken de kandidaat-q.",
+      "De capaciteit is 80 kg. Controleer de haalbaarheid en leg met stijgende MK uit waarom je een maximum vindt."
+    ],
+    "section": "3.2.2",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 14,
+    "title": "Gedroogde kruiden",
+    "context": "Voor één kleine leverancier geldt TK = 0,05q² + 4q + 180. P = € 12 per kg. q is kg per week; de capaciteit is 120 kg.",
+    "questions": [
+      "Stel MK op en los MO = MK op. Controleer of q haalbaar is.",
+      "Bereken TO, TK en winst. Gebruik eerst q² en vermenigvuldig daarna met 0,05.",
+      "Bereken GTK. Markeer q in de grafiek en arceer de winstrechthoek. Noteer de breedte en hoogte."
+    ],
+    "section": "3.2.2",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 15,
+    "title": "Twee veranderingen tegelijk",
+    "context": "Bij dezelfde leverancier stijgt de marktprijs van € 12 naar € 14. Ook stijgen de constante kosten van € 180 naar € 260. Capaciteit en variabele kosten blijven gelijk.",
+    "questions": [
+      "Bekijk eerst alleen de prijsstijging. Welke nieuwe q volgt uit MO = MK?",
+      "Bekijk alleen de hogere constante kosten. Verandert MK? En de winst bij dezelfde q?",
+      "Welke q kiest de leverancier als beide veranderingen plaatsvinden?",
+      "Een leerling zegt: “Alle kosten zijn hoger, dus je moet minder produceren.” Leg uit welke kosten hij door elkaar haalt."
+    ],
+    "section": "3.2.2",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 16,
+    "title": "Meel van één kwaliteitsklasse",
+    "context": "Een kleine molen is prijsnemer. P = € 12 per kg en TK = 0,02q² + 4q + 100. q is kg per week, bedragen zijn euro per week. Capaciteit: 250 kg.",
+    "questions": [
+      "Stel MK op. Bepaal de winstmaximale q en onderbouw je keuze met het verloop van MO en MK en de capaciteit.",
+      "Bereken TO, TK, winst en GTK bij de gekozen q.",
+      "Markeer q en arceer de winstrechthoek. Benoem breedte, hoogte en de eenheid van de oppervlakte.",
+      "Waarom is het snijpunt van MO en MK niet zelf het winstbedrag?"
+    ],
+    "section": "3.2.2",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 17,
+    "title": "Een machine met beperkte capaciteit",
+    "context": "Een leverancier van een gestandaardiseerde grondstof ontvangt € 18 per kg. TK = 0,10q² + 2q + 40. q is kg per week. De machine kan maximaal 60 kg per week verwerken. De € 40 is deze week onvermijdbaar.",
+    "questions": [
+      "Bereken welke q je krijgt bij MO = MK. Leg uit waarom de onderneming deze q niet kan kiezen.",
+      "Bepaal de beste haalbare q. Bereken MK bij de capaciteit en gebruik de vergelijking met MO.",
+      "Bereken de winst bij je gekozen q. Vergelijk met de winst bij q = 0.",
+      "Beoordeel: “Als MO nergens binnen de capaciteit gelijk is aan MK, bestaat er geen winstmaximum.”"
+    ],
+    "section": "3.2.2",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 18,
+    "title": "Korrels voor kwekerijen",
+    "context": "Een prijsnemende producent verkoopt één standaardkwaliteit korrels. P = € 16 per kg. TK = 0,04q² + 4q + 400. q is kg per week, TK is euro per week. Capaciteit: 200 kg. De € 400 is deze week onvermijdbaar.",
+    "questions": [
+      "Stel de functie voor MK op.",
+      "Bepaal de winstmaximale haalbare q. Onderbouw het maximum met MK links en rechts van je uitkomst.",
+      "Bereken TO, TK en totale winst bij de gekozen q.",
+      "Bereken GTK en geef in de grafiek q en de winstrechthoek aan. Benoem breedte en hoogte.",
+      "Vergelijk de winst met niet produceren (q = 0).",
+      "Door een storing wordt de capaciteit 120 kg. Kostenfunctie en prijs blijven gelijk. Welke q kies je nu? Licht toe; een nieuwe winstberekening is niet nodig."
+    ],
+    "section": "3.2.2",
+    "group": "target",
+    "points": [
+      2,
+      3,
+      3,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "number": 19,
+    "title": "Dezelfde MK, andere winst",
+    "context": "Twee kleine ondernemingen krijgen P = € 8 per kg. A heeft TK = 0,10q² + 2q + 40. B heeft TK = 0,10q² + 2q + 160. Beide hebben capaciteit 50 kg; hun constante kosten zijn deze week onvermijdbaar.",
+    "questions": [
+      "Beoordeel: “B heeft hogere kosten en moet dus een kleinere q kiezen.” Onderbouw je oordeel met een berekening.",
+      "Kunnen beide ondernemingen bij dezelfde q toch een verschillende winst hebben? Laat dit zien en beperk je conclusie tot deze week."
+    ],
+    "section": "3.2.2",
+    "group": "bonus",
+    "points": null
+  },
+  {
+    "number": 20,
+    "title": "Procenten en prijsgevoeligheid",
+    "context": "De prijs van een abonnement stijgt van € 8 naar € 10. De gevraagde hoeveelheid daalt met 10%.",
+    "questions": [
+      "Bereken de procentuele prijsstijging en de prijselasticiteit Ev.",
+      "Is de vraag prijsinelastisch of prijselastisch? Gebruik de absolute waarde."
+    ],
+    "section": "3.2.2",
+    "group": "review",
+    "points": null
+  },
+  {
+    "number": 21,
+    "title": "Belastingwig",
+    "context": "Na een belasting betalen kopers € 11. Verkopers ontvangen na afdracht € 8. Er worden 200 producten per week verhandeld.",
+    "questions": [
+      "Bereken de belasting per product en de belastingopbrengst per week.",
+      "Waarom is die belastingopbrengst niet hetzelfde als welvaartsverlies?"
+    ],
+    "section": "3.2.2",
+    "group": "review",
+    "points": null
+  },
+  {
+    "number": 22,
+    "title": "Nog één productieadvies",
+    "context": "P = € 8. TK = 0,10q² + 2q + 40. q is kg per week; capaciteit is 50 kg.",
+    "questions": [
+      "Stel MK op en bepaal de winstmaximale q.",
+      "Bereken TO, TK en winst. Wat is GTK bij die q?"
+    ],
+    "section": "3.2.3",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 23,
+    "title": "Een nul met betekenis",
+    "context": "De totale opbrengst van een onderneming is € 1.000 per week. Haar totale kosten zijn ook € 1.000. Daarin zit € 180 normale vergoeding voor de ondernemer.",
+    "questions": [
+      "Hoe groot is de economische winst?",
+      "Waarom klopt “de ondernemer krijgt niets” niet?"
+    ],
+    "section": "3.2.3",
+    "group": "start",
+    "points": null
+  },
+  {
+    "number": 24,
+    "title": "Bouw de keten",
+    "context": "Bekijk figuur 2 op pagina 23. Vraag en kosten van één onderneming blijven gelijk.",
+    "questions": [
+      "Vul in: overwinst → meer bedrijven → marktaanbod naar … → P … → winst per bedrijf … .",
+      "Lees de oude en nieuwe Q af. Lees daarna de oude en nieuwe q af. Leg uit waarom de richtingen verschillen.",
+      "Gebruik de uitkomsten P = 6 en q = 40 om de nulwinst te controleren met TK = 0,05q² + 2q + 80."
+    ],
+    "section": "3.2.3",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 25,
+    "title": "Een markt met verlies",
+    "context": "Gebruik de markt op pagina 24, nu zonder de nieuwe lijnen. Alle bedrijven hebben TK = 0,10q² + 2q + 40. Vraag en kosten blijven gelijk. Vrije uittreding is mogelijk.",
+    "questions": [
+      "Bij P = 5 en q = 15 is er verlies. Vul de eerste stap in: een deel van de bedrijven zal op langere termijn … .",
+      "Teken A₁ aan de juiste kant van A. Laat het nieuwe evenwicht bij P = 6 liggen. Label A₁ en E₁.",
+      "Teken rechts de nieuwe horizontale lijn P = GO = MO. Lees de bijbehorende q af en controleer TO = TK.",
+      "Leg uit waarom de GTK-lijn van de overblijvende onderneming niet verschuift."
+    ],
+    "section": "3.2.3",
+    "group": "guided",
+    "points": null
+  },
+  {
+    "number": 26,
+    "title": "Rijstmeel",
+    "context": "Veel kleine ondernemingen hebben TK = 0,10q² + 2q + 40, inclusief normale beloning. Capaciteit: 50 kg per week. De beginprijs is € 8. Het minimum GTK is € 6 bij q = 20. Vraag en kosten blijven gelijk; toetreding is vrij.",
+    "questions": [
+      "Bereken de beginproductie en economische winst van één onderneming.",
+      "Leg de langetermijnaanpassing uit. Teken een passende nieuwe aanbodlijn en de nieuwe prijslijn in de grafieken.",
+      "Bereken de totale opbrengst en winst van één onderneming in het langetermijnevenwicht."
+    ],
+    "section": "3.2.3",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 27,
+    "title": "Sommige bedrijven verdwijnen",
+    "context": "Op een andere markt geldt TK = 0,05q² + 2q + 80 en P = € 5. q is kg per week. De beste haalbare q is 30. Kosten zijn inclusief normale beloning. Vrije uittreding is mogelijk.",
+    "questions": [
+      "Bereken de economische winst. Verwacht je bij aanhoudende omstandigheden toetreding of uittreding?",
+      "Beschrijf de richting van het marktaanbod en de prijs. Noem één aanname die je voor deze redenering nodig hebt."
+    ],
+    "section": "3.2.3",
+    "group": "independent",
+    "points": null
+  },
+  {
+    "number": 28,
+    "title": "Standaard koffiebonen",
+    "context": "In deze oefenmarkt gebruiken alle bedrijven TK = 0,02q² + 4q + 200. q is kg per week; capaciteit is 250 kg. TK bevat alle kosten, inclusief € 120 normale ondernemersbeloning per week. Toetreding is vrij. Marktvraag, technologie en inputprijzen blijven gelijk. Het minimum GTK is € 8 bij q = 100.",
+    "questions": [
+      "Lees de beginprijs af. Stel MK op, bepaal q en bereken de economische winst van één bedrijf.",
+      "Leg uit waarom er bedrijven toetreden en hoe dit de prijs beïnvloedt.",
+      "Teken in de marktgrafiek een passende A₁ voor de langetermijnprijs. Teken rechts de bijbehorende P = GO = MO-lijn. Laat de kostencurven staan.",
+      "Bepaal de langetermijnprijs en q. Bereken TO en TK en controleer de economische winst.",
+      "Een leerling zegt: “Met nul winst verdient de ondernemer niets en is de omzet verdwenen.” Weerleg beide delen met de gegevens."
+    ],
+    "section": "3.2.3",
+    "group": "target",
+    "points": [
+      3,
+      2,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "number": 29,
+    "title": "Niet iedereen heeft dezelfde kosten",
+    "context": "In een markt is het minimum GTK van een bestaand bedrijf € 10. Een nieuw bedrijf gebruikt een goedkopere methode en heeft minimum GTK = € 8.",
+    "questions": [
+      "Welke aanname uit onze langetermijnmodellen is nu niet geldig?",
+      "Waarom kun je zonder meer informatie niet zeggen dat beide bedrijven bij dezelfde prijs precies nul economische winst maken? Je hoeft geen nieuw langetermijnevenwicht te berekenen."
+    ],
+    "section": "3.2.3",
+    "group": "bonus",
+    "points": null
+  },
+  {
+    "number": 30,
+    "title": "De eenheid van de oppervlakte",
+    "context": "In een ondernemingsgrafiek is P = € 12 per kg en GTK = € 9 per kg bij q = 200 kg per week.",
+    "questions": [
+      "Bereken de winst met de rechthoek en benoem de eenheden van breedte en hoogte.",
+      "Is het resultaat producentensurplus? Leg uit waarom de gebruikte berekening totale winst geeft."
+    ],
+    "section": "3.2.3",
+    "group": "review",
+    "points": null
+  },
+  {
+    "number": 31,
+    "title": "Een minimumprijs",
+    "context": "Vraag: P = 14 − 0,10Q. Aanbod: P = 2 + 0,10Q. P is euro per product; Q is producten per week. Er komt een minimumprijs van € 10; de overheid koopt niets op.",
+    "questions": [
+      "Bereken Qv, Qa en het aanbodoverschot bij de minimumprijs.",
+      "Hoeveel producten worden daadwerkelijk verkocht? Leg uit waarom dit niet Qa is."
+    ],
+    "section": "3.2.3",
+    "group": "review",
+    "points": null
+  },
+  {
+    "number": 32,
+    "title": "Twee bronnen over meel",
+    "context": "<b>Bron A.</b> De vraag op een markt is Qv = 12.000 − 1.000P. Het aanbod is Qa = 2.000P. Q is kg per week; P is euro per kg.<br><b>Bron B.</b> Een kleine molen verkoopt dezelfde kwaliteit als de andere molens. Hij kan maximaal 150 kg per week leveren. Kopers kennen alle prijzen.",
+    "questions": [
+      "Bereken de marktprijs en de markthoeveelheid.",
+      "Bereken TO bij q = 100 en geef GO en MO. Leg uit waarom Q en q hier verschillen.",
+      "De molen plakt een prijs van € 4,50 op hetzelfde product. Leg uit waarom dat in dit model niet werkt."
+    ],
+    "section": "3.2.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 33,
+    "title": "Vezels voor verpakkingen",
+    "context": "Een prijsnemer ontvangt € 14 per kg. Voor zijn kosten geldt TK = 0,05q² + 4q + 200. q is kg per week; capaciteit: 140 kg. Alle productie kan tegen deze prijs worden verkocht. Constante kosten zijn deze week onvermijdbaar.",
+    "questions": [
+      "Stel MK op. Bepaal de beste haalbare q en controleer of de winst vóór en na die q stijgt of daalt.",
+      "Bereken TO, TK, winst en GTK bij deze q.",
+      "Beschrijf precies welke rechthoek de winst in een ondernemingsgrafiek zou weergeven. Je hoeft de grafiek niet opnieuw te tekenen.",
+      "Een leerling kiest de q met het laagste GTK. Leg uit waarom die methode bij deze marktprijs niet automatisch de hoogste totale winst geeft."
+    ],
+    "section": "3.2.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 34,
+    "title": "De ruimte is de grens",
+    "context": "Een onderneming heeft MK = 0,20q + 4 en P = € 20 per kg. Zij kan maximaal 60 kg per week produceren. Haar constante kosten zijn deze week onvermijdbaar.",
+    "questions": [
+      "Bereken het snijpunt van MO en MK en bepaal de beste haalbare q.",
+      "Leg uit waarom verder zoeken naar een snijpunt binnen de capaciteit niet nodig is.",
+      "Welke extra kostengegevens heb je nodig om het totale winstbedrag te berekenen?"
+    ],
+    "section": "3.2.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 35,
+    "title": "Het aantal bedrijven verandert",
+    "context": "Ondernemingen produceren hetzelfde product met dezelfde onveranderde kosten. Het minimum GTK is € 8 per kg. Bij de huidige prijs van € 10 maken zij overwinst. Vraag blijft gelijk; toe- en uittreding zijn vrij.",
+    "questions": [
+      "Beschrijf de verwachte keten van toetreding tot de uiteindelijke prijs.",
+      "Noem de relatie tussen P, MO, MK en GTK in het langetermijnevenwicht.",
+      "Beoordeel: “Als er steeds meer bedrijven komen, wordt de uiteindelijke economische winst van ieder actief bedrijf negatief.”"
+    ],
+    "section": "3.2.4",
+    "group": "mixed",
+    "points": null
+  },
+  {
+    "number": 36,
+    "title": "Kweekkorrels: van markt naar bedrijf",
+    "context": "Gebruik bronnen A, B en C en figuur 1 op de linkerpagina.",
+    "questions": [
+      "Bereken in de beginsituatie P₀ en Q₀. Eén onderneming kiest dan q = 100. Controleer met TO en TK dat haar economische winst nul is.",
+      "Bereken direct na de vraagstijging, vóór toetreding, P₁ en Q₁. Markeer het nieuwe evenwicht E₁ in de marktgrafiek.",
+      "Stel MK op. Bepaal bij P₁ de winstmaximale q van één onderneming. Controleer de capaciteit en het verloop van MO en MK.",
+      "Bereken de economische winst en GTK bij die q. Teken rechts de nieuwe P = GO = MO-lijn en arceer de winstrechthoek.",
+      "Leg met bron C de langetermijnaanpassing uit. Bepaal de uiteindelijke prijs, de totale markthoeveelheid en q van één onderneming.",
+      "Beoordeel: “De markt wordt groter, dus elk oorspronkelijk bedrijf blijft op lange termijn meer produceren dan vóór de vraagstijging.” Vergelijk de drie q-uitkomsten en onderscheid die van Q."
+    ],
+    "section": "3.2.4",
+    "group": "target",
+    "points": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "number": 37,
+    "title": "Toetreding wordt duurder",
+    "context": "In opgave 36 bleven inputprijzen gelijk. Stel nu dat toetreding grond schaarser maakt. Daardoor stijgen de kosten van álle ondernemingen. Nieuwe minimum-GTK-waarden zijn niet gegeven.",
+    "questions": [
+      "Welk onderdeel van het oude langetermijnantwoord mag je niet zonder meer overnemen?",
+      "Geef aan wat je nog wél kunt uitleggen en voor welk getal je aanvullende informatie nodig hebt. Je hoeft geen nieuwe kostenfunctie te bedenken."
+    ],
+    "section": "3.2.4",
+    "group": "bonus",
+    "points": null
+  },
+  {
+    "number": 38,
+    "title": "Een laatste vergelijking",
+    "context": "Een ondernemer ontvangt P = € 12 per kg. Bij q = 100 zijn TO = € 1.200 en TK = € 1.000. Als q stijgt naar 110, neemt TO toe met € 120 en TK met € 150. Alle totale bedragen zijn per week.",
+    "questions": [
+      "Bereken GTK en winst bij q = 100.",
+      "Bereken MO en MK over de toename van 100 naar 110 kg. Neemt de winst over deze stap toe of af?",
+      "Waarom betekent een positieve totale winst bij q = 100 niet automatisch dat méér productie nog beter is?"
+    ],
+    "section": "3.2.4",
+    "group": "review",
+    "points": null
+  }
+]

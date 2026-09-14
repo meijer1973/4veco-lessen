@@ -1,0 +1,56 @@
+[
+  {
+    "id": "4.3.1",
+    "chapter_pages": [
+      2,
+      11
+    ],
+    "page_count": 10,
+    "pdf": "paragrafen/4.3.1/4.3.1 Arbeidsvraag en arbeidsproductiviteit – paragraaf.pdf"
+  },
+  {
+    "id": "4.3.2",
+    "chapter_pages": [
+      12,
+      19
+    ],
+    "page_count": 8,
+    "pdf": "paragrafen/4.3.2/4.3.2 Arbeidsaanbod, participatie en evenwicht – paragraaf.pdf"
+  },
+  {
+    "id": "4.3.3",
+    "chapter_pages": [
+      20,
+      28
+    ],
+    "page_count": 9,
+    "pdf": "paragrafen/4.3.3/4.3.3 Werkloosheid en veranderingen op de arbeidsmarkt – paragraaf.pdf"
+  },
+  {
+    "id": "4.3.4",
+    "chapter_pages": [
+      29,
+      36
+    ],
+    "page_count": 8,
+    "pdf": "paragrafen/4.3.4/4.3.4 Minimumloon – paragraaf.pdf"
+  },
+  {
+    "id": "4.3.5",
+    "chapter_pages": [
+      37,
+      43
+    ],
+    "page_count": 7,
+    "pdf": "paragrafen/4.3.5/4.3.5 Vakbonden, cao en arbeidsmarktbeleid – paragraaf.pdf"
+  },
+  {
+    "id": "4.3.6",
+    "chapter_pages": [
+      44,
+      48
+    ],
+    "page_count": 5,
+    "pdf": "paragrafen/4.3.6/4.3.6 Gemengde opgaven – arbeidsmarkt – paragraaf.pdf"
+  }
+]

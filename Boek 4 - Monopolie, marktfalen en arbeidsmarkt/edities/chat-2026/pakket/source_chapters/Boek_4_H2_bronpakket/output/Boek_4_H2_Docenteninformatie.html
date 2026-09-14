@@ -1,0 +1,696 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Docenteninformatie · Marktvormen en marktfalen</title><style>
+@page {size:A4; margin:17mm 18mm 17mm 19mm;
+ @top-left {content:"4veco  /  Boek 4";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @top-right {content:"4.2  Marktvormen en marktfalen";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @bottom-left {content:"Economie · 4 vwo";font-family:Lato,sans-serif;font-size:8pt;color:#536777;}
+ @bottom-right {content:counter(page);font-family:Lato,sans-serif;font-size:9pt;color:#183247;}
+}
+@page:first {@top-left{content:none;}@top-right{content:none;}}
+* {box-sizing:border-box;}
+html{font-family:Lato,"DejaVu Sans",sans-serif;font-size:11.3pt;line-height:1.37;color:#183247;}
+body{margin:0;}
+p{margin:0 0 6pt;orphans:3;widows:3;}
+.page{break-before:page;}
+.page:first-child{break-before:auto;}
+.page-title{font-size:18pt;line-height:1.13;font-weight:800;border-bottom:1.5pt solid #17688f;padding:0 0 8pt;margin:0 0 12pt;}
+h1{font-size:25pt;line-height:1.13;margin:5pt 0 12pt;font-weight:800;break-after:avoid;}
+h2{font-size:17pt;line-height:1.15;color:#17688f;margin:10pt 0 8pt;break-after:avoid;}
+h3{font-size:12.5pt;line-height:1.22;margin:11pt 0 7pt;break-after:avoid;}
+h2:first-child,h3:first-child{margin-top:0;}
+a{color:inherit;text-decoration:none;}
+.kicker{letter-spacing:1pt;color:#17688f;font-size:9pt;font-weight:800;margin:0 0 12pt;}
+.box,.definition,.formula,.source,.route{padding:7pt 10pt;margin:8pt 0 9pt;break-inside:avoid;background:#f2f6f8;border-left:3pt solid #17688f;}
+.box p:last-child,.definition p:last-child,.formula p:last-child,.source p:last-child{margin-bottom:0;}
+.definition{background:#f4f7f8;padding:7pt 10pt;margin:7pt 0 9pt;}
+.formula{font-family:"DejaVu Sans Mono",monospace;font-size:11.3pt;line-height:1.6;background:#eef5f6;border-left-color:#227064;}
+.goals{font-size:10.7pt;line-height:1.38;}
+.summary{font-size:10.5pt;line-height:1.5;}
+.warning{border-left-color:#ad601b;background:#fbf5ed;}
+.source{border-left-color:#536777;font-size:10.6pt;}
+.route{font-size:10.2pt;line-height:1.3;}
+.calculation{font-family:"DejaVu Sans Mono",monospace;line-height:1.55;margin:8pt 0 10pt;padding:8pt 13pt;background:#f3f6f7;break-inside:avoid;}
+.exercise{break-inside:avoid;border:0.6pt solid #d5dfe5;border-radius:3pt;padding:8pt 10pt;margin:0 0 10pt;background:white;}
+.exercise>p:first-child{margin-top:0;}
+.exercise>p:last-child{margin-bottom:0;}
+.exercise>p{margin-bottom:6pt;}
+.exercise>b:first-child{display:block;margin-bottom:7pt;font-size:12pt;}
+.target{border-top:3pt solid #17688f;}
+table{border-collapse:collapse;width:100%;margin:7pt 0 9pt;font-size:10.1pt;line-height:1.27;table-layout:auto;break-inside:avoid;}
+th{background:#edf2f5;font-weight:700;vertical-align:bottom;text-align:left;border-bottom:1pt solid #9dabb7;}
+td,th{padding:4.4pt 5pt;border-bottom:0.55pt solid #dce4e9;}
+td{vertical-align:top;} tr:nth-child(even) td{background:#f8fafb;}
+figure{margin:10pt 0 11pt;break-inside:avoid;}
+figure img{display:block;width:100%;height:auto;}
+figcaption{font-size:9.3pt;line-height:1.3;color:#536777;margin:5pt 0 0;}
+.small{font-size:9.4pt;line-height:1.33;}
+.muted{color:#536777;}
+.cover-title{font-size:38pt;line-height:1.05;letter-spacing:-0.6pt;font-weight:900;margin:14pt 0 14pt;}
+.lead{font-size:14.5pt;line-height:1.3;margin:0 0 13pt;color:#17688f;}
+.contents{margin:12pt 0 12pt;}
+.contents a{display:block;border-top:0.6pt solid #cbd7df;padding:6pt 0;}
+.contents b{display:block;font-size:12pt;}
+.contents span{display:block;color:#536777;font-size:10.5pt;margin-top:2pt;}
+.answer h2{margin-top:16pt;}
+.answer p{margin-bottom:7pt;}
+.answer .why{font-size:10.6pt;color:#455c6d;}
+.answer .exercise{break-inside:auto;}
+.answer .answer-block{break-inside:avoid;margin-bottom:10pt;}
+.teacher{font-size:10.7pt;}
+.pair{display:flex;gap:12pt}.pair>div{flex:1}
+.target-source{padding:9pt 11pt;background:#f5f8f9;border-left:3pt solid #536777;margin:9pt 0}
+.step{font-weight:700;color:#17688f}
+.fraction{white-space:nowrap}
+.tight p{margin-bottom:4pt}
+.target-unit{font-size:9.7pt;color:#536777}
+@media print{a{color:inherit}}
+.teacher table{font-size:9.1pt;}
+
+.contents a{font-size:10.1pt;line-height:1.25;padding:5.5pt 0;}
+.contents a b{font-size:11.2pt;}
+.contents b span{float:right;font-size:11pt;display:inline;}
+.exercise{padding:7pt 9pt;margin-bottom:9pt;}
+.exercise>p{margin-bottom:5pt;}
+.exercise p:first-child b{font-size:11.6pt;}
+.formula{font-size:10.8pt;line-height:1.5;}
+.cover-title{font-size:34pt;}
+.side-note{font-size:9.5pt;color:#536777;}
+.answer .answer-block{break-inside:avoid;}
+.answer .calc{font-family:DejaVu Sans Mono,monospace;font-size:10pt;line-height:1.5;}
+
+.continuation{font-size:16pt;color:#17688f;font-weight:700;margin:0 0 10pt;}
+.writing-lines{height:78mm;background:repeating-linear-gradient(to bottom, transparent 0,transparent 25px,#dfe6eb 26px,transparent 27px);margin-top:9mm;}
+
+.target .muted {font-size:9.5pt;} .page-title {font-size:17.5pt;} .compact figure {margin:8pt 0;} .small-figure {width:100%;} .panel-caption {font-size:10pt;}
+
+.glossary-columns{columns:2;column-gap:22pt;font-size:10.5pt;line-height:1.3;} .glossary-columns p{break-inside:avoid;margin:0 0 8pt;} .glossary-columns b{color:#17688f;}
+.answer h1{font-size:21pt;line-height:1.2;}
+.answer h3{font-size:12pt;margin:12pt 0 5pt;break-after:avoid;}
+.answer-stage{font-size:12.5pt;font-weight:700;color:#17688f;border-bottom:0.5pt solid #ccd9e0;margin:14pt 0 6pt;padding-bottom:4pt;break-after:avoid;}
+.answer-item{break-inside:avoid;}
+.assessment-note{font-size:9.5pt;color:#536777;break-inside:avoid;}
+html{font-size:10.7pt;}</style></head><body><section class="page teacher" data-designed-page="1"><div class="kicker">BOEK 4 · HOOFDSTUK 2 · DOCENTENINFORMATIE</div>
+<h1>Marktvormen en marktfalen</h1>
+<p>Deze uitgave volgt de zeven paragrafen van de door de opdrachtgever aangeleverde <strong>Book 4 outline proposal v2</strong>, niet de oudere hoofdstukindeling in de repository. Het leerlinghoofdstuk telt 60 pagina’s. Het actuele budget van 60 pagina’s vervangt voor deze opdracht de oudere werkgrens van 40 pagina’s in de outline.</p>
+<h3>Functie in de leerlijn</h3>
+<p>Hoofdstuk 4.1 levert de winstkeuze van de monopolist. Dit hoofdstuk verandert de beoordelingsvraag: van winst naar surplus, verdeling en gevolgen voor derden. Het bouwt voort op Boek 2 en de heffings- en subsidietechnieken uit Boek 3. De arbeidsmarkt volgt pas in 4.3.</p>
+<table>
+<thead>
+<tr>
+<th>Onderdeel</th>
+<th style="text-align:right">Leerlingpagina’s</th>
+<th style="text-align:right">Opgaven</th>
+<th style="text-align:right">Doeloefening</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4.2.1 Welvaartseffecten van monopolie</td>
+<td style="text-align:right">3–10</td>
+<td style="text-align:right">1–9</td>
+<td style="text-align:right">7</td>
+</tr>
+<tr>
+<td>4.2.2 Prijsdiscriminatie</td>
+<td style="text-align:right">11–18</td>
+<td style="text-align:right">10–18</td>
+<td style="text-align:right">16</td>
+</tr>
+<tr>
+<td>4.2.3 Marktvormen vergelijken</td>
+<td style="text-align:right">19–24</td>
+<td style="text-align:right">19–27</td>
+<td style="text-align:right">25</td>
+</tr>
+<tr>
+<td>4.2.4 Negatieve externe effecten</td>
+<td style="text-align:right">25–35</td>
+<td style="text-align:right">28–36</td>
+<td style="text-align:right">34</td>
+</tr>
+<tr>
+<td>4.2.5 Positieve externe effecten</td>
+<td style="text-align:right">36–46</td>
+<td style="text-align:right">37–45</td>
+<td style="text-align:right">43</td>
+</tr>
+<tr>
+<td>4.2.6 Overheidsingrijpen bij marktfalen</td>
+<td style="text-align:right">47–52</td>
+<td style="text-align:right">46–54</td>
+<td style="text-align:right">52</td>
+</tr>
+<tr>
+<td>4.2.7 Gemengde opgaven</td>
+<td style="text-align:right">53–58</td>
+<td style="text-align:right">55–60</td>
+<td style="text-align:right">58</td>
+</tr>
+</tbody>
+</table>
+<p>Er zijn zes uitgewerkte voorbeelden, 60 opgaven met 169 deelvragen, 32 leerlingfiguren en twaalf oplossingsfiguren. Overzicht en begrippenlijst staan op pagina 59–60. De doeloefening van de gemengde paragraaf heeft bronnen op pagina 56 en vragen op pagina 57: een open boek toont beide naast elkaar.</p>
+<h3>Wat de bron wel en niet levert</h3>
+<p>De aangeleverde outlines bevatten doelbeschrijvingen en ontwerpbrieven, geen complete leerlingopgaven. De zeven doeloefeningen, fictieve cases, numerieke modellen en uitwerkingen zijn voor deze opdracht nieuw ontworpen binnen die brieven. Dit is geen claim dat de oefeningen officieel geregistreerde of extern goedgekeurde examendoelen zijn.</p>
+<p>Er zijn geen repositories gewijzigd. De productie volgt de expliciete opdracht van de gebruiker. Deze lokale uitgave promoveert geen doelregister en vervangt geen repositorygoedkeuring. De originele aangeleverde outlines zijn ongewijzigd opgenomen in het bronpakket.</p>
+</section>
+<section class="page teacher" data-designed-page="2"><h1>Lesroutes: selecteren, niet alles verplichten</h1>
+<p>De kern is <strong>Startopgaven → Zelfstandige oefening → Doeloefening</strong>. Begeleide inoefening ondersteunt dezelfde doelen. Een leerling die die ondersteuning volgt, hoeft niet daarnaast alle vergelijkbare zelfstandige tussenstappen in dezelfde les te herhalen. De doeloefening blijft de bestemming. Bonus en afsluitende herhaling hoeven niet in de kernles.</p>
+<h3>Volledige kernbegroting bij beschikbare voorkennis</h3>
+<p>De minuten hieronder zijn ontwerpinschattingen voor een klas die de opgehaalde algebra en oppervlaktemethode nog beheerst. De start bevat steeds circa 3–5 minuten voorkennis en een korte begripscheck. De tabel telt instructie én werk mee; de leerlingspagina’s worden niet allemaal hardop behandeld.</p>
+<table>
+<thead>
+<tr>
+<th>§</th>
+<th style="text-align:right">Motivatie</th>
+<th style="text-align:right">Uitleg</th>
+<th style="text-align:right">Voorbeeld</th>
+<th style="text-align:right">Overgang / recap</th>
+<th style="text-align:right">Start</th>
+<th style="text-align:right">Zelfstandig</th>
+<th style="text-align:right">Doel</th>
+<th style="text-align:right">Totaal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4.2.1</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">9</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">55</td>
+</tr>
+<tr>
+<td>4.2.2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">16</td>
+<td style="text-align:right">55</td>
+</tr>
+<tr>
+<td>4.2.3</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">7</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">48</td>
+</tr>
+<tr>
+<td>4.2.4</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">12</td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">17</td>
+<td style="text-align:right">64 → twee lessen</td>
+</tr>
+<tr>
+<td>4.2.5</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">12</td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">13</td>
+<td style="text-align:right">17</td>
+<td style="text-align:right">64 → twee lessen</td>
+</tr>
+<tr>
+<td>4.2.6</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">52</td>
+</tr>
+</tbody>
+</table>
+<p>Geselecteerde kernopgaven: <strong>1–2, 5–7; 10–11, 14–16; 19–20, 23–25; 28–29, 32–34; 37–38, 41–43; 46–47, 50–52</strong>. De tijden bij zelfstandige oefening slaan op deze twee opgaven per paragraaf, niet op de optionele begeleide set. Bij 4.2.4 en 4.2.5 past de complete kern niet geloofwaardig in één les: plan daarom de onderstaande tweelessenroute. Het zelfstandige verliesgebied mag niet worden geschrapt om toch 55 minuten te noteren.</p>
+<h3>Eerste gebruik: reserveer liever 9–12 lessen</h3>
+<p>Plan voor 4.2.4 en 4.2.5 twee lessen. Ook 4.2.1 en 4.2.2 kunnen bij extra ondersteuningsbehoefte twee lessen vragen. De bovenstaande routes zijn geen gemeten garantie. Zodra het rekenwerk de nieuwe economische betekenis verdringt, splits de paragraaf in plaats van de uitlegstappen te schrappen.</p>
+<p>Een concrete tweelessenroute: <strong>les A</strong> start 6 + motivatie 3 + begripsuitleg 14 + voorbeeld 12 + begeleide inoefening 12 + recap 8 = <strong>55</strong>. <strong>Les B</strong> ophalen 5 + zelfstandige oefening 15 + doeloefening 20 + gerichte nabespreking 10 + slot 5 = <strong>55</strong>. Beide lessen hebben dezelfde doelen; les B begint niet met een nieuw model.</p>
+<p>Voor 4.2.7: ophalen/modelkeuze met 55 (8 min) + samen een aanpak verwoorden (5) + doeloefening 58 (25) + bespreking (12) + slot (5) = <strong>55</strong>. Opgaven 56–57 en 59 zijn aanvullende consolidatie; 60 kan huiswerk zijn. Maak de hele gemengde set niet verplicht binnen één les.</p>
+</section>
+<section class="page teacher" data-designed-page="3"><h1>Afstemming 4.2.1 en 4.2.2</h1>
+<p>De tabellen maken zichtbaar waar een doel wordt voorgedaan, ondersteund en zelfstandig gevraagd. De start is een korte check, geen bewijs van langdurige beheersing. Een figuur markeren is hier doelgerichter dan de aangeleverde lijnen nogmaals construeren.</p>
+<h3>4.2.1 · Welvaartseffecten van monopolie</h3>
+<table>
+<thead>
+<tr>
+<th>Waarneembare operatie</th>
+<th>Doel</th>
+<th>Voorbeeld en start</th>
+<th>Begeleid / zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monopoliehoeveelheid en prijs; vergelijkbare efficiënte hoeveelheid</td>
+<td>7a</td>
+<td>Studiohuur, stap 1; start 1</td>
+<td>3–4 / 6</td>
+</tr>
+<tr>
+<td>CS, PS, TS en winst onderscheiden en berekenen</td>
+<td>7b</td>
+<td>Studiohuur, stap 2; start 2</td>
+<td>4 / 6</td>
+</tr>
+<tr>
+<td>Verliesdriehoek herkennen, markeren en berekenen</td>
+<td>7c</td>
+<td>Theoriefiguur 3 en Studiohuur, stap 3</td>
+<td>3–4 / 5–6</td>
+</tr>
+<tr>
+<td>Overdracht op blijvende verkopen onderscheiden van verlies</td>
+<td>7d</td>
+<td>Theorie p. 4 en voorbeeld p. 5–6</td>
+<td>3–4 / 5</td>
+</tr>
+<tr>
+<td>Hogere producentenopbrengst niet gelijkstellen aan hogere TS</td>
+<td>7e</td>
+<td>Vergelijking van beide toestanden</td>
+<td>3–4 / 5–6</td>
+</tr>
+</tbody>
+</table>
+<p>De vaste kosten blijven in de vergelijking gelijk. TS is hier de gebruikelijke CS + PS-maatstaf. Winst volgt afzonderlijk uit PS − TCK. Laat leerlingen bij 7c zowel de basis als de hoogte van de verliesdriehoek benoemen. De vraag- en kostenvoorwaarden veranderen niet tussen beide uitkomsten.</p>
+<h3>4.2.2 · Prijsdiscriminatie</h3>
+<table>
+<thead>
+<tr>
+<th>Waarneembare operatie</th>
+<th>Doel</th>
+<th>Voorbeeld en start</th>
+<th>Begeleid / zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bekende MO/MK-route uitvoeren per herkenbare groep</td>
+<td>16a</td>
+<td>Avondhal, aparte A/B-berekening</td>
+<td>12 / 14</td>
+</tr>
+<tr>
+<td>Omzetten optellen; gezamenlijke kosten één keer aftrekken</td>
+<td>16b</td>
+<td>Avondhal-vergelijking; start 10</td>
+<td>13 / 14</td>
+</tr>
+<tr>
+<td>Groepsprijzen en uitvoerbaarheidsvoorwaarde uitleggen</td>
+<td>16c</td>
+<td>Voorwaarden en Avondhal; start 11</td>
+<td>12–13 / 14–15</td>
+</tr>
+<tr>
+<td>PS en TS uit marktgegevens samenstellen</td>
+<td>16d</td>
+<td>De volledige vergelijking op p. 13</td>
+<td>13 / 15</td>
+</tr>
+<tr>
+<td>De conclusie begrenzen tot de gegeven case</td>
+<td>16e</td>
+<td>Afzet/allocatievergelijking p. 13</td>
+<td>13 / 15</td>
+</tr>
+</tbody>
+</table>
+<p>De uniforme prijs is <strong>gegeven</strong>, zodat de leerling niet ook een nieuwe geknikte collectieve vraag hoeft te optimaliseren. Groepen hebben dezelfde constante MK; de totale capaciteit bindt niet. Het voorbeeld laat bewust gelijke totale afzet maar andere verdeling over kopers zien. Gelijke totale afzet garandeert dus geen gelijk TS. Een zelfstandig bewijs voor andere effecten op de welvaart wordt niet gevraagd; het denkertje levert daarvoor alternatieve, volledig gegeven totalen.</p>
+</section>
+<section class="page teacher" data-designed-page="4"><h1>Afstemming 4.2.3 en 4.2.4</h1>
+<h3>4.2.3 · Marktvormen vergelijken</h3>
+<table>
+<thead>
+<tr>
+<th>Waarneembare operatie</th>
+<th>Doel</th>
+<th>Voorbeeld en start</th>
+<th>Begeleid / zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vier marktvormen classificeren met bronbewijs</td>
+<td>25a</td>
+<td>Vergelijkingsgrid en IJsatelier; start 20</td>
+<td>21 / 23</td>
+</tr>
+<tr>
+<td>TO, MO en MK afleiden; haalbare winstkeuze berekenen</td>
+<td>25b–c</td>
+<td>IJsatelier, stap 2–3; start 19</td>
+<td>22 / 24</td>
+</tr>
+<tr>
+<td>Eigen prijsruimte ondanks veel aanbieders uitleggen</td>
+<td>25d</td>
+<td>Productverschillen en IJsatelier</td>
+<td>21–22 / 23–24</td>
+</tr>
+<tr>
+<td>Geen universele oligopolie-vraagfunctie aannemen</td>
+<td>25e</td>
+<td>Voorbehoud korte termijn/rivalen</td>
+<td>22 / 24</td>
+</tr>
+</tbody>
+</table>
+<p>Een dalende eigen vraaglijn bewijst geen monopolie. Het gegeven model voor één lunchzaak is een korte-termijnvoorstelling bij gelijkblijvend gedrag van concurrenten. Een strategisch oligopoliemodel, reactiecurve of spelmatrix is hier niet nodig en wordt niet stilzwijgend verondersteld.</p>
+<h3>4.2.4 · Negatieve externe effecten</h3>
+<table>
+<thead>
+<tr>
+<th>Waarneembare operatie</th>
+<th>Doel</th>
+<th>Voorbeeld en start</th>
+<th>Begeleid / zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Derde partij en niet-vergoede schade herkennen</td>
+<td>34a</td>
+<td>Actorenschema; Kleurwater stap 1; start 29</td>
+<td>30 / 32–33</td>
+</tr>
+<tr>
+<td>Onbelast evenwicht en totale externe schade bepalen</td>
+<td>34a</td>
+<td>Kleurwater stap 2 en 4</td>
+<td>30–31 / 33</td>
+</tr>
+<tr>
+<td>Heffingswig, Q, beide prijzen en opbrengst berekenen</td>
+<td>34b</td>
+<td>Kleurwater stap 3–4; start 28</td>
+<td>31 / 33</td>
+</tr>
+<tr>
+<td>CS + PS + belastingopbrengst − schade vergelijken</td>
+<td>34c</td>
+<td>Volledige welvaartscontrole p. 30</td>
+<td>31 / 33</td>
+</tr>
+<tr>
+<td>Efficiënte hoeveelheid en oorspronkelijke verliesdriehoek</td>
+<td>34d</td>
+<td>Theorie p. 26–27; voorbeeld p. 30</td>
+<td>30c / 33c</td>
+</tr>
+<tr>
+<td>Lagere CS + PS niet automatisch als maatschappelijk verlies lezen</td>
+<td>34e</td>
+<td>Boek 3-contrast en voorbeeld</td>
+<td>31 / 32–33</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Inhoudelijke brug:</strong> een hogere maatschappelijke-kostenlijn is niet vanzelf een nieuwe feitelijke aanbodlijn. Zonder ingreep rekenen aanbieders nog met hun eigen kosten. Pas bij de heffing wordt de eigen afweging veranderd. Bouw daarom de sociale-kostenvergelijking en de belastinggrafiek na elkaar op.</p>
+<p>De externe schade wordt berekend over <strong>alle resterende activiteiten</strong>. Belastingopbrengst wordt toegevoegd omdat CS en PS zijn gemeten met de prijzen na afdracht. Ze is geen echte besparing van productiemiddelen en evenmin bewijs dat slachtoffers een vergoeding ontvangen.</p>
+</section>
+<section class="page teacher" data-designed-page="5"><h1>Afstemming 4.2.5 en 4.2.6</h1>
+<h3>4.2.5 · Positieve externe effecten</h3>
+<table>
+<thead>
+<tr>
+<th>Waarneembare operatie</th>
+<th>Doel</th>
+<th>Voorbeeld en start</th>
+<th>Begeleid / zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eigen voordeel van de koper onderscheiden van voordeel voor derden</td>
+<td>43a</td>
+<td>Actorenschema, Buurtvaardig stap 1; start 38</td>
+<td>39 / 41–42</td>
+</tr>
+<tr>
+<td>Oorspronkelijk evenwicht bepalen</td>
+<td>43a</td>
+<td>Buurtvaardig stap 2</td>
+<td>39–40 / 42</td>
+</tr>
+<tr>
+<td>Subsidiewig, Q, beide prijzen en alle uitgaven</td>
+<td>43b</td>
+<td>Buurtvaardig stap 3–4; start 37</td>
+<td>40 / 42</td>
+</tr>
+<tr>
+<td>CS + PS − uitgaven + externe baten vergelijken</td>
+<td>43c</td>
+<td>Welvaartstabel p. 41</td>
+<td>40 / 42</td>
+</tr>
+<tr>
+<td>Efficiënte hoeveelheid en oorspronkelijke gemiste baten</td>
+<td>43d</td>
+<td>Maatschappelijke-batenlijn en p. 41</td>
+<td>39c / 42c</td>
+</tr>
+<tr>
+<td>Verschil met dezelfde subsidie zonder extern effect verklaren</td>
+<td>43e</td>
+<td>Expliciet Boek 3-contrast p. 39</td>
+<td>40 / 41–42</td>
+</tr>
+</tbody>
+</table>
+<p>De hogere batenlijn bevat ook het voordeel voor derden. Zij zegt niet dat de koper dat hele bedrag wil betalen. De subsidie gaat volgens de bron naar aanbieders; daarom is Pp = Pc + s. Het subsidierecht betreft iedere gebruikte cursusplaats, niet uitsluitend de toename ten opzichte van de uitgangssituatie.</p>
+<h3>4.2.6 · Overheidsingrijpen bij marktfalen</h3>
+<table>
+<thead>
+<tr>
+<th>Waarneembare operatie</th>
+<th>Doel</th>
+<th>Voorbeeld en start</th>
+<th>Begeleid / zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Probleem herkennen en de werking van twee instrumenten uitleggen</td>
+<td>52a</td>
+<td>Vierstappenschema; start 47</td>
+<td>48 / 50–51</td>
+</tr>
+<tr>
+<td>Een bekende heffingsberekening uitvoeren</td>
+<td>52b</td>
+<td>Voorbeeld stap 2</td>
+<td>48–49 / eerdere volledige heffingsroute</td>
+</tr>
+<tr>
+<td>Het gegeven criterium toepassen, inclusief echte uitvoeringskosten</td>
+<td>52c</td>
+<td>Voorbeeld stap 3; start 46</td>
+<td>49 / 50</td>
+</tr>
+<tr>
+<td>Een brongebonden advies met relevante aanname schrijven</td>
+<td>52d</td>
+<td>Voorbeeld stap 4</td>
+<td>48–49 / 50–51</td>
+</tr>
+<tr>
+<td>Verschillend verdelingsbelang onderscheiden van een rekenfout</td>
+<td>52e</td>
+<td>Criteriumkeuze in de uitleg</td>
+<td>49 / 50</td>
+</tr>
+</tbody>
+</table>
+<p>Het quotum is een bekend instrument uit Boek 3. De doelbron geeft de surplusuitkomsten en de toewijzing: geen nieuwe techniek voor quotumrente is nodig. Leerlingen berekenen de ontbrekende heffingsopbrengst, kiezen de juiste maatschappelijke rekening en trekken uitvoeringskosten één keer af.</p>
+<h3>Twee kleine versterkingen in de zelfstandige route</h3>
+<p>Opgaven <strong>23, 32 en 41</strong> laten eerst twee veranderingen afzonderlijk onderzoeken, dan combineren en ten slotte een verleidelijke fout weerleggen. Opgaven <strong>5 en 15</strong> doen hetzelfde voor overdracht/verlies en groepsverdeling. Niet alleen het juiste etiket, maar ook de reden moet zichtbaar zijn.</p>
+</section>
+<section class="page teacher" data-designed-page="6"><h1>Gemengde doeloefening en feedback</h1>
+<p>Opgave 58 bevat twee afzonderlijke markten. Studio Solo wordt per week beschreven, reiniging per dag. De leerling vergelijkt niet hun absolute welvaartsbedragen met elkaar, maar verklaart waarom een lagere hoeveelheid in de twee modellen een andere betekenis heeft.</p>
+<table>
+<thead>
+<tr>
+<th>Deelvraag</th>
+<th>Vereiste prestatie</th>
+<th>Eerder voorbereid in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>58a</td>
+<td>MO/MK, hoeveelheid, prijs en winst bij monopolie</td>
+<td>4.1; 4.2.1; 4.2.3</td>
+</tr>
+<tr>
+<td>58b</td>
+<td>CS/PS/TS, gelijkwaardig efficiënt referentiepunt en verliesgebied</td>
+<td>4.2.1</td>
+</tr>
+<tr>
+<td>58c</td>
+<td>Bekende heffingswig, beide prijzen en overheidsontvangst</td>
+<td>Boek 3; 4.2.4</td>
+</tr>
+<tr>
+<td>58d</td>
+<td>Resterende externe schade en volledige welvaartsverandering</td>
+<td>4.2.4</td>
+</tr>
+<tr>
+<td>58e</td>
+<td>Modelkeuze en twee verschillende oorzaken uitleggen</td>
+<td>4.2.1, 4.2.4, 4.2.6</td>
+</tr>
+<tr>
+<td>58f</td>
+<td>Onjuiste automatische overdracht van een beleid verwerpen</td>
+<td>4.2.6</td>
+</tr>
+</tbody>
+</table>
+<p>Voor 58b moet de leerling op de basisgrafiek het relevante gebied aangeven; er is geen opdracht de al gedrukte lijnen opnieuw te tekenen. Voor 58c staat Q bij dezelfde Pc en Pp. Een losse correcte heffingsopbrengst is niet voldoende wanneer de leerling die twee prijzen verwart.</p>
+<h3>Punten in de doeloefeningen</h3>
+<table>
+<thead>
+<tr>
+<th>Opgave</th>
+<th style="text-align:right">Aantal deelvragen</th>
+<th style="text-align:right">Voorgestelde punten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">13</td>
+</tr>
+<tr>
+<td>16</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">13</td>
+</tr>
+<tr>
+<td>25</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">13</td>
+</tr>
+<tr>
+<td>34</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">14</td>
+</tr>
+<tr>
+<td>43</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">13</td>
+</tr>
+<tr>
+<td>52</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">12</td>
+</tr>
+<tr>
+<td>58</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">16</td>
+</tr>
+</tbody>
+</table>
+<p>Dit zijn didactische puntvoorstellen, geen externe normering. Splits rekenpunten bijvoorbeeld in de juiste relatie, correcte verwerking en interpretatie met eenheid. Ken uitlegpunt(en) toe voor de causale relatie en een passende beperking, niet voor het letterlijk overschrijven van het antwoordboek.</p>
+<h3>Foutgerichte nabespreking</h3>
+<p>Een verkeerd getal vraagt een andere reactie dan een verkeerd model. Vraag bij een rekenfout eerst om de ingevulde vergelijking. Vraag bij een modelkeuzefout: “Wiens prijs gebruik je?”, “Wie staat buiten de transactie?” of “Waar kwam dit geld al in het surplus terecht?” Laat daarna de leerling één vergelijkbare stap zelfstandig herstellen.</p>
+<p>De bonusopgaven vragen een aanname, tegenvoorbeeld of informatiebehoefte. Een afwijkende conclusie is mogelijk als zij aantoonbaar bij de gegeven bron past. Het antwoordboek noemt voorbeeldredeneringen; alleen een losse mening is niet genoeg.</p>
+</section>
+<section class="page teacher" data-designed-page="7"><h1>Economische precisie</h1>
+<h3>Dezelfde maatstaf in beide toestanden</h3>
+<p>Voor een welvaartsvergelijking blijven de relevante vraag, techniek, kosten en kwaliteit gelijk, tenzij de bron expliciet een verandering geeft. Het efficiënte referentiepunt is een vergelijkingsuitkomst onder die aannames. Een lager tarief of een hoger producentenvoordeel bewijst op zichzelf geen grotere gezamenlijke welvaart.</p>
+<p><strong>TS = CS + PS</strong> is in de vroege paragrafen de gebruikelijke marktsurplusmaatstaf. Zij is niet altijd de volledige maatschappelijke rekening. De externe-effectenparagrafen voegen de ontbrekende partijen expliciet toe. Er worden geen verdelingsgewichten gebruikt. Gelijke, onvermijdelijke vaste kosten veranderen de vergelijking niet, maar moeten voor winst wel worden afgetrokken.</p>
+<h3>PS, winst en het referentiepunt</h3>
+<p>Bij stijgende private MK is PS de opbrengst boven de variabele kosten. Voor de betreffende ondernemingen geldt winst = PS − TCK. Het feit dat een efficiënt referentiepunt bij vaste kosten niet elke exploitant financiert, is geen bewijs tegen de gebruikte oppervlaktevergelijking. Nieuwe financierings- of technologievragen horen niet heimelijk bij het rekenantwoord.</p>
+<h3>Prijsdiscriminatie</h3>
+<p>De uniforme prijs is een gegeven vergelijkingsplan. De twee segmenten hebben één gemeenschappelijke constante MK en gezamenlijke vaste kosten. De groepen zijn herkenbaar, verkopen hetzelfde relevante product en kunnen niet doorverkopen. Bij bindende gezamenlijke capaciteit of MK die van de totale afzet afhangt, zouden de afzonderlijke optimale keuzes niet zomaar los kunnen worden opgeteld; zulke gevallen worden niet als kernopgave gebruikt.</p>
+<h3>Externe effecten en overheidsrekening</h3>
+<p>Een gewone betaling van koper aan verkoper is geen extern effect. Externe kosten/baten zijn hier echte gevolgen voor een derde partij die niet in de oorspronkelijke transactie zijn vergoed. De grootte per extra activiteit is constant in de gebruikte basiscases. Dat maakt de totale post eenvoudig: bedrag per activiteit × alle uitgevoerde activiteiten.</p>
+<p>In de heffingsrekening komt de ontvangst met een plus, in de subsidierekening de uitgave met een min. Dat voorkomt dubbel tellen van geld dat al uit/bij het surplus van de marktdeelnemers ging. De betaling zelf is geen verdwenen of nieuw geproduceerde welvaart.</p>
+<h3>Efficiënte omvang is niet nul of oneindig</h3>
+<p>Een negatieve externaliteit betekent niet dat alle productie moet verdwijnen; een positieve betekent niet dat iedere extra eenheid zinvol is. Vergelijk de relevante extra maatschappelijke baten en kosten. Een heffing of subsidie gelijk aan het gegeven constante externe bedrag bereikt in deze eenvoudige concurrerende modellen de efficiënte hoeveelheid. Dat is geen claim over de juiste omvang in een onbekende werkelijke markt.</p>
+<p>Echte uitvoeringskosten worden pas in 4.2.6 expliciet als extra bronpost afgetrokken. Zij worden niet verward met de gehele belasting- of subsidiestroom. Arbeidsmarktwiskunde, speltheorie, informatieproblemen en macromodellen blijven buiten dit hoofdstuk.</p>
+</section>
+<section class="page teacher" data-designed-page="8"><h1>Snelle antwoordankers bij de doeloefeningen</h1>
+<p>Gebruik het antwoordboek voor de tussenstappen en de grafiek. Onderstaande waarden zijn uitsluitend een snelle docentencontrole. Bedragen worden nooit tussen verschillende perioden opgeteld.</p>
+<table>
+<thead>
+<tr>
+<th>Doel</th>
+<th>Belangrijkste uitkomsten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7 · VR-studio</td>
+<td>Monopolie Q = 40, P = 60; efficiënt Q = 60, P = 50. CS = 400, PS = 1.200, winst = 1.000, TS = 1.600 per week. Efficiënt TS = 1.800; verlies = 200; overdracht = 400.</td>
+</tr>
+<tr>
+<td>16 · FilmLab</td>
+<td>Groep A: Q = 16, P = 24; B: Q = 8, P = 16. Winst 208 → 240 per week. TS 496 → 480. Gelijke totale afzet van 24, maar niet gelijk TS.</td>
+</tr>
+<tr>
+<td>25 · Puur</td>
+<td>Monopolistische concurrentie. MO = 30 − 0,5q, MK = 6, q = 48, P = 18. Winst = 432 per dag. q blijft onder capaciteit 80.</td>
+</tr>
+<tr>
+<td>34 · Reiniging</td>
+<td>Eerst Q = 30, P = 30. Met t = 20: Q = 20, Pc = 40, Pp = 20, opbrengst = 400. Maatschappelijk surplus 300 → 400 per dag; oorspronkelijk verlies = 100.</td>
+</tr>
+<tr>
+<td>43 · Buurtcursus</td>
+<td>Eerst Q = 40, P = 40. Met s = 10: Q = 50, Pc = 35, Pp = 45, uitgaven = 500. Maatschappelijk surplus 1.200 → 1.250 per maand; oorspronkelijk verlies = 50.</td>
+</tr>
+<tr>
+<td>52 · Geluid</td>
+<td>Plan H: Q = 30, Pc = 35, Pp = 25, ontvangst = 300 per dag. Na uitvoering: H = 430, G = 410. G heeft wel hoger PS; een ander criterium kan een ander oordeel geven.</td>
+</tr>
+<tr>
+<td>58 · Solo / reiniging</td>
+<td>Solo: Q = 20, P = 50, winst = 500, CS = 200, PS = 600, TS = 800; efficiënt TS = 900 per week. Reiniging: maatschappelijk surplus 300 → 400 per dag.</td>
+</tr>
+</tbody>
+</table>
+<h3>Plausibele antwoorden die inhoudelijk niet kloppen</h3>
+<p>“Meer winst = meer welvaart” verwart één belang met het totaal. “Een heffing veroorzaakt altijd verlies” negeert het mogelijke externe nadeel van de verdwenen transacties. “Subsidie = extra externe baten” verwart geld met echt derdenvoordeel. “De laagste prijs is altijd het beste beleid” negeert transacties, kosten en uitvoerbaarheid.</p>
+<p>De antwoorden op 5, 15, 23, 32 en 41 moeten beide afzonderlijke veranderingen én de combinatie benoemen. De vierde deelvraag confronteert telkens de verleidelijke verkeerde conclusie. Laat een fout in de eerste deelvraag niet verhullen dat de leerling de andere verandering wel begrijpt.</p>
+</section>
+<section class="page teacher" data-designed-page="9"><h1>Bronnen en kwaliteitscontrole</h1>
+<h3>Ontwerpbronnen</h3>
+<p><strong>1. Aangeleverde outlines.</strong> De bestanden <code>book-4-outline-v2(5).md</code> en <code>book-3-outline-v2(5).md</code>, gedateerd 6 september 2026, bepalen hoofdstukvolgorde, ontwerpbrieven, benodigde eerdere methoden en afbakeningen. De actuele opdracht bepaalt de grens van 60 leerlingpagina’s.</p>
+<p><strong>2. Repositoryrichtlijnen.</strong> Beide <code>RESEARCH_AGENT_MAP.md</code>-bestanden zijn via de GitHub-connector gelezen. De volgende platformbestanden sturen de productie: <code>skills/econ-exercise-builder.md</code>, <code>skills/econ-textbook-paragraph.md</code>, <code>skills/econ-didactiek.md</code>, <code>skills/economic-graph.md</code> en <code>references/authored/economie-terminologie.md</code>. Bestandsidentiteiten en gelezen bereiken staan in <code>sources/source-register.json</code>.</p>
+<p><strong>3. Eerdere uitgaven.</strong> De eerder geleverde hoofdstukken uit deze conversatie bepalen aansluiting en vertrouwde presentatie. De paginering- en opmaakhulpmiddelen van hoofdstuk 4.1 zijn hergebruikt. De theorie, oefeningen en figuren voor 4.2 zijn nieuw geschreven. Bestaande studentteksten en repositories zijn niet overschreven.</p>
+<h3>Wat lokaal wordt gecontroleerd</h3>
+<p>De reproduceerbare controle in het bronpakket vergelijkt rekenmodellen met afzonderlijk vastgelegde verwachte waarden. Zij controleert ook marginale keuzes en capaciteiten, overdracht- en welvaartsidentiteiten, alle deelvraag-/antwoord-ID’s, de zeven sectiekoppen, de bronbestanden en het aantal pagina’s.</p>
+<p>De SVG-controle leest de feitelijke curve-, punt- en vlakcoördinaten uit de bestanden. Zij vergelijkt die met de genoteerde functies en economische eenheden. Cijfers in een diagram moeten dezelfde case vertegenwoordigen als de omliggende tekst. Een visuele ronde controleert daarnaast tekst, tabellen, labels, arceringen en de uiteindelijke pagina’s.</p>
+<h3>Wat deze controles niet aantonen</h3>
+<p>Geen testscore of langdurige beheersing bij leerlingen is gemeten. Lesduur, keuze van voorbeelden en de verwachte winst van tussenstappen zijn didactische inschattingen. Dit is evenmin een onafhankelijke externe examenprogramma-audit of een formele repositoryvrijgave. De lokale controle-uitkomsten en eventueel vastgestelde beperkingen staan in <code>QA/validation_report.json</code> en <code>QA/visual-review.md</code>.</p>
+<h3>Druk- en gebruiksadvies</h3>
+<p>A4, werkelijke grootte, dubbelzijdig en omslaan aan de lange zijde. De leerlingtekst begint met een inhoudsopgave; de langere externe-effectenparagrafen krijgen ieder elf pagina’s. De bron- en vraagpagina’s van het gemengde doel liggen op 56–57. De losse paragraafexports in het bronpakket behouden de hoofdstukpaginanummers voor verwijzingen.</p>
+<p>Kleur is niet de enige informatiedrager: lijnen zijn direct benoemd en relevante vlakken hebben verschillende arceringen. Maak bij grootschalig kopiëren eerst één proefafdruk om contrast en grafiekschaal op de lokale printer te controleren.</p>
+</section></body></html>

@@ -1,0 +1,143 @@
+[
+  {
+    "number": 7,
+    "section": "3.3.1",
+    "title": "Handelen ondanks twee absolute voordelen",
+    "context": "Gebruik alleen de lesbron. Reken geen productieverhoudingen uit.",
+    "subquestions": [
+      {
+        "id": "7a",
+        "prompt": "Welk land heeft een absoluut voordeel bij beide producten? Noem het brongegeven waarop je dat baseert.",
+        "points": 2
+      },
+      {
+        "id": "7b",
+        "prompt": "Leg uit bij welk product elk land een comparatief voordeel heeft. Gebruik het begrip alternatieve kosten.",
+        "points": 3
+      },
+      {
+        "id": "7c",
+        "prompt": "Beschrijf een passende richting van specialisatie en een bijbehorende handelsstroom. Benoem import en export vanuit de twee landen.",
+        "points": 2
+      },
+      {
+        "id": "7d",
+        "prompt": "Leg uit onder welke voorwaarde de ruil beide landen voordeel kan opleveren. Gebruik daarnaast één bronfeit om Asters concurrentiepositie bij pompen te verklaren.",
+        "points": 2
+      },
+      {
+        "id": "7e",
+        "prompt": "Een adviseur zegt: “Aster produceert beide goederen efficiënter, dus handel maakt alle inwoners van Aster beter af.” Beoordeel de uitspraak met een concrete groep uit de bron.",
+        "points": 2
+      }
+    ],
+    "target": true
+  },
+  {
+    "number": 17,
+    "section": "3.3.2",
+    "title": "Import en binnenlandse belangen",
+    "context": "Gebruik de lesbron en figuur 7.",
+    "subquestions": [
+      {
+        "id": "17a",
+        "prompt": "Lees bij de wereldmarktprijs de binnenlandse productie en het binnenlandse verbruik af. Bereken de import per week.",
+        "points": 3
+      },
+      {
+        "id": "17b",
+        "prompt": "Leg uit wat binnenlandse producenten merken ten opzichte van de situatie zonder handel. Gebruik prijs én productie.",
+        "points": 2
+      },
+      {
+        "id": "17c",
+        "prompt": "Leg uit wat er met het consumentensurplus van binnenlandse kopers gebeurt.",
+        "points": 2
+      },
+      {
+        "id": "17d",
+        "prompt": "Een leerling zegt: “Het totale surplus stijgt, dus alle groepen gaan erop vooruit.” Beoordeel met een concrete groep.",
+        "points": 2
+      },
+      {
+        "id": "17e",
+        "prompt": "Waarom verandert de wereldmarktprijs in dit model niet als Noro meer importeert?",
+        "points": 1
+      }
+    ],
+    "target": true
+  },
+  {
+    "number": 27,
+    "section": "3.3.3",
+    "title": "Doel, berekening en verdeling",
+    "context": "Gebruik de lesbron, tabel en figuur 6.",
+    "subquestions": [
+      {
+        "id": "27a",
+        "prompt": "Bereken de import na de heffing en de heffingsopbrengst per week.",
+        "points": 3
+      },
+      {
+        "id": "27b",
+        "prompt": "Arceer in figuur 6 de heffingsopbrengst. Benoem de breedte en hoogte met eenheid.",
+        "points": 2
+      },
+      {
+        "id": "27c",
+        "prompt": "Leg met gegevens uit waarom binnenlandse producenten en kopers verschillend worden geraakt.",
+        "points": 2
+      },
+      {
+        "id": "27d",
+        "prompt": "Beoordeel: “Het productiedoel wordt bereikt, dus de maatregel is voor iedereen gunstig.”",
+        "points": 2
+      },
+      {
+        "id": "27e",
+        "prompt": "Waarom levert het beschreven alternatieve quotum niet dezelfde overheidsopbrengst op?",
+        "points": 2
+      }
+    ],
+    "target": true
+  },
+  {
+    "number": 35,
+    "section": "3.3.4",
+    "title": "Regenjassen in Nerin",
+    "context": "Gebruik de drie bronnen, de tabel en figuur 3 op pagina 34. Noteer bij berekeningen de eenheden en bij uitleg het gebruikte brongegeven.",
+    "subquestions": [
+      {
+        "id": "35a",
+        "prompt": "Leg met bron A uit waarom Pelta een comparatief voordeel kan hebben bij regenjassen, terwijl Nerin bij beide activiteiten een absoluut voordeel heeft.",
+        "points": 3
+      },
+      {
+        "id": "35b",
+        "prompt": "Bereken met bron B de import na de heffing en de heffingsopbrengst per week.",
+        "points": 3
+      },
+      {
+        "id": "35c",
+        "prompt": "Leg met prijs én hoeveelheid uit wat de maatregel betekent voor binnenlandse jassenmakers en binnenlandse kopers.",
+        "points": 3
+      },
+      {
+        "id": "35d",
+        "prompt": "Arceer de heffingsopbrengst in figuur 3. Benoem de breedte en hoogte met hun eenheden.",
+        "points": 2
+      },
+      {
+        "id": "35e",
+        "prompt": "Waarom mag de overheid bij het quotum uit bron C niet zonder meer dezelfde ontvangsten verwachten?",
+        "points": 2
+      },
+      {
+        "id": "35f",
+        "prompt": "De minister zegt: “De binnenlandse productie stijgt, dus de heffing is voor alle inwoners gunstig.” Geef een oordeel met twee concrete gegevens uit de bronnen of tabel. Maak duidelijk welke conclusie wél wordt ondersteund.",
+        "points": 3
+      }
+    ],
+    "target": true
+  }
+]

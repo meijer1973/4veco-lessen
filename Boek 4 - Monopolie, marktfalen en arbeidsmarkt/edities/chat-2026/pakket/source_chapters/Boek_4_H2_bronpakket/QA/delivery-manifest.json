@@ -1,0 +1,44 @@
+{
+  "title": "Boek 4 · Hoofdstuk 2 · Marktvormen en marktfalen",
+  "version": "1.0",
+  "date": "2026-09-08",
+  "student_page_cap": 60,
+  "counts": {
+    "pdf_pages": {
+      "student": 60,
+      "answers": 24,
+      "teacher": 9
+    },
+    "exercise_count": 60,
+    "subquestion_count": 169,
+    "instructional_figures": 32,
+    "solution_figure_uses": 12,
+    "svg_files": 43
+  },
+  "checks_summary": {
+    "passed": 2208,
+    "failed": 0,
+    "scope": "Local deterministic checks; not independent external review or classroom testing"
+  },
+  "files": [
+    {
+      "file": "output/Boek_4_H2_Antwoorden.pdf",
+      "pages": 24,
+      "sha256": "ee401412cea2cee7de014e35af068fdee9515f1c495eaea9ca54b1f5aac17e5e",
+      "bytes": 182751
+    },
+    {
+      "file": "output/Boek_4_H2_Docenteninformatie.pdf",
+      "pages": 9,
+      "sha256": "070def98a98e7f0669dd5c727376feaacf6ae076f73f0689320e5a2d100c5f6a",
+      "bytes": 71729
+    },
+    {
+      "file": "output/Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+      "pages": 60,
+      "sha256": "f05e2514d12758239f5d524ce54544a79356f93a47f622bdae97d0a19d5d319e",
+      "bytes": 365921
+    }
+  ],
+  "paragraph_exports": 14
+}

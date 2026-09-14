@@ -1,0 +1,65 @@
+{
+  "basis": "User-supplied v2 outlines, 6 September 2026; repository guidelines read live with GitHub connector",
+  "authored": "All target exercises, sources and numerical models are new authored instantiations of the outline briefs; no registry approval or independent review claimed.",
+  "sources": [
+    {
+      "repo": "4veco-platform",
+      "path": "skills/econ-exercise-builder.md",
+      "blob": "5504c8e8a325864978c76867b15b857c118df19d",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "skills/econ-textbook-paragraph.md",
+      "blob": "b48ff1f0d02748e6e4d1f98d6d892ac786562c3b",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-textbook-paragraph.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "skills/econ-didactiek.md",
+      "blob": "5a38065e42754e0490e541002ba4465bf3dbeda8",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-didactiek.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "skills/economic-graph.md",
+      "blob": "938d5e61c46de0d60b8bdeaf0aced2572715c2d0",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/economic-graph.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob": "91778371a11cbe9839a4822c3989e90e7317850a",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repo": "4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob": "d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5",
+      "url": "https://github.com/meijer1973/4veco-lessen/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repo": "4veco-lessen",
+      "path": "specifications/product-vision.md",
+      "blob": "6602845b00a8408d619a0e2e1fbe0cd06dc1f234",
+      "url": "https://github.com/meijer1973/4veco-lessen/blob/main/specifications/product-vision.md"
+    }
+  ],
+  "access_note": "Repository maps and guideline reads via GitHub connector succeeded. Direct raw HTTP saving from the sandbox failed DNS resolution; no claim that these guideline files are bundled as copies.",
+  "attached_outlines": [
+    {
+      "file": "bronnen/book-3-outline-v2.md",
+      "sha256": "4e558b63d8eb954de935ad366170f6373f533eae14f90633a89be0036c973217",
+      "role": "prerequisite scope"
+    },
+    {
+      "file": "bronnen/book-4-outline-v2.md",
+      "sha256": "3bfb4350bb1f990a8ea559272263e8ef35e1b72bd0cbc86b59c9aa6ad4fc0899",
+      "role": "content and sequence authority"
+    }
+  ],
+  "prior_material": {
+    "file": "Boek_3_H2_Bronpakket.zip",
+    "role": "Previously delivered §3.2 mathematics/notation and page design; not a new chapter text source."
+  }
+}

@@ -1,0 +1,3228 @@
+{
+  "scope": "Local arithmetic, SVG geometry, coverage, source, and PDF structure checks; not independent review or classroom timing verification",
+  "total": 644,
+  "passed": 644,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "theory412 TO pair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "theory412 interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "theory412 gain/loss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "theory412 identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "theory412 derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Luma TO pair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Luma interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Luma gain/loss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Luma identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Luma derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex13 TO pair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex13 interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex13 gain/loss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex13 identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex13 derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex14 TO pair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex14 interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex14 gain/loss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex14 identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex14 derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex15 TO pair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex15 interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex15 gain/loss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex15 identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex15 derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex16 TO pair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex16 interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex16 gain/loss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex16 identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex16 derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "target18 TO pair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "target18 interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "target18 gain/loss",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "target18 identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "target18 derivative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Parkveer40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Parkveer80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex4a",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex4b",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex6a",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ex6b",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "target8a",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "target8b",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start1 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start1 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start1 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start1 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start1 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start1 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start1 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "core413 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "core413 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "core413 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "core413 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "core413 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "core413 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "core413 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity50 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity50 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity50 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity50 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity50 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity50 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity50 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "loss q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "loss P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "loss profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "loss feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "loss maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "loss boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "loss profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mira q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mira P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mira profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mira feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mira maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mira boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mira profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review20 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review20 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review20 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review20 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review20 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review20 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review20 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo24 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo24 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo24 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo24 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo24 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo24 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo24 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo25both q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo25both P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo25both profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo25both feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo25both maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo25both boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wavo25both profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Helder26 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Helder26 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Helder26 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Helder26 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Helder26 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Helder26 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Helder26 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity27 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity27 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity27 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity27 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity27 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity27 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity27 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Nova28 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Nova28 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Nova28 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Nova28 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Nova28 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Nova28 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Nova28 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "KleurFix35 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "KleurFix35 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "KleurFix35 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "KleurFix35 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "KleurFix35 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "KleurFix35 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "KleurFix35 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "competitor35 q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "competitor35 P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "competitor35 profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "competitor35 feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "competitor35 maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "competitor35 boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "competitor35 profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37old q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37old P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37old profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37old feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37old maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37old boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37old profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37new q",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37new P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37new profit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37new feasible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37new maximum on feasible interval",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37new boundary zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "capacity37new profit rectangle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Revenue versus profit example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wrong P=MK candidate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 33 table",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 30 finite-percent effect",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 34 elasticity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1_opener viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1_opener PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 curve exists P = GO = MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 geometry P = GO = MO",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "name": "4.1.1_fig_1 curve clipping P = GO = MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 curve exists Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 geometry Vraag = GO",
+      "pass": true,
+      "detail": "max error 5.66338e-11"
+    },
+    {
+      "name": "4.1.1_fig_1 curve clipping Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 point count p1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_1 area count p1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 curve exists Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 geometry Vraag = GO",
+      "pass": true,
+      "detail": "max error 1.50946e-10"
+    },
+    {
+      "name": "4.1.1_fig_2 curve clipping Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_fig_2 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 curve exists Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 geometry Vraag = GO",
+      "pass": true,
+      "detail": "max error 2.51578e-10"
+    },
+    {
+      "name": "4.1.1_ex_3 curve clipping Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ex_3 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target curve exists Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target geometry Vraag = GO",
+      "pass": true,
+      "detail": "max error 3.01892e-10"
+    },
+    {
+      "name": "4.1.1_target curve clipping Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_target area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_1 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_1 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_1 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_1 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_1 polygon blijvende omzet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_1 polygon minder per eerdere kg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_1 polygon extra kg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_2 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_2 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_3 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_3 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_3 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_3 geometry GO = P",
+      "pass": true,
+      "detail": "max error 2.42428e-10"
+    },
+    {
+      "name": "4.1.2_fig_3 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_3 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_3 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_4 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_4 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_4 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_4 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.2_fig_4 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_4 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_4 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.2_fig_4 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_4 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_fig_4 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_we viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_we PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_we point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_we area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_we polygon blijvende omzet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_we polygon minder per eerdere kg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_we polygon extra kg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_13 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_13 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_13 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_13 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_13 polygon blijvende omzet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_13 polygon minder per eerdere kg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_13 polygon extra kg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_17 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_17 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_17 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_17 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.2_ex_17 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_17 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_17 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.2_ex_17 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_17 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ex_17 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_fig_1 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 geometry MK",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "name": "4.1.3_fig_1 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_1 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84853e-10"
+    },
+    {
+      "name": "4.1.3_fig_2 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_fig_2 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 geometry MK",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "name": "4.1.3_fig_2 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_2 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84853e-10"
+    },
+    {
+      "name": "4.1.3_fig_3 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 curve exists GTK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 geometry GTK",
+      "pass": true,
+      "detail": "max error 5.45308e-10"
+    },
+    {
+      "name": "4.1.3_fig_3 curve clipping GTK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_3 polygon winst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84853e-10"
+    },
+    {
+      "name": "4.1.3_fig_4 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_fig_4 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 geometry MK",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "name": "4.1.3_fig_4 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_fig_4 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we geometry GO = P",
+      "pass": true,
+      "detail": "max error 3.87882e-10"
+    },
+    {
+      "name": "4.1.3_we curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we geometry MO",
+      "pass": true,
+      "detail": "max error 3.87885e-10"
+    },
+    {
+      "name": "4.1.3_we curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we geometry MK",
+      "pass": true,
+      "detail": "max error 3.87883e-10"
+    },
+    {
+      "name": "4.1.3_we curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_we area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 geometry GO = P",
+      "pass": true,
+      "detail": "max error 3.55271e-15"
+    },
+    {
+      "name": "4.1.3_ex_23 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 geometry MO",
+      "pass": true,
+      "detail": "max error 7.10543e-15"
+    },
+    {
+      "name": "4.1.3_ex_23 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 geometry MK",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "name": "4.1.3_ex_23 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_23 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ex_24 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ex_24 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 geometry MK",
+      "pass": true,
+      "detail": "max error 1.45452e-10"
+    },
+    {
+      "name": "4.1.3_ex_24 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_24 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ex_26 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ex_26 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 geometry MK",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ex_26 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ex_26 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84853e-10"
+    },
+    {
+      "name": "4.1.3_target curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target geometry MO",
+      "pass": true,
+      "detail": "max error 4.84853e-10"
+    },
+    {
+      "name": "4.1.3_target curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target geometry MK",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_target curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_target area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target geometry GO = P",
+      "pass": true,
+      "detail": "max error 3.87885e-10"
+    },
+    {
+      "name": "4.1.4_target curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target geometry MO",
+      "pass": true,
+      "detail": "max error 3.87885e-10"
+    },
+    {
+      "name": "4.1.4_target curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target geometry MK",
+      "pass": true,
+      "detail": "max error 3.87885e-10"
+    },
+    {
+      "name": "4.1.4_target curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_target area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1_overview viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1_overview PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 curve exists Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 geometry Vraag = GO",
+      "pass": true,
+      "detail": "max error 3.01892e-10"
+    },
+    {
+      "name": "4.1.1_ans_8 curve clipping Vraag = GO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1_ans_8 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ans_18 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ans_18 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ans_18 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ans_18 geometry GO = P",
+      "pass": true,
+      "detail": "max error 7.2728e-10"
+    },
+    {
+      "name": "4.1.2_ans_18 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ans_18 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ans_18 geometry MO",
+      "pass": true,
+      "detail": "max error 7.27283e-10"
+    },
+    {
+      "name": "4.1.2_ans_18 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ans_18 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2_ans_18 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ans_24 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ans_24 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 geometry MK",
+      "pass": true,
+      "detail": "max error 1.45452e-10"
+    },
+    {
+      "name": "4.1.3_ans_24 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_24 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ans_26 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ans_26 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 geometry MK",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ans_26 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_26 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 geometry GO = P",
+      "pass": true,
+      "detail": "max error 3.55271e-15"
+    },
+    {
+      "name": "4.1.3_ans_27 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 geometry MO",
+      "pass": true,
+      "detail": "max error 7.10543e-15"
+    },
+    {
+      "name": "4.1.3_ans_27 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 geometry MK",
+      "pass": true,
+      "detail": "max error 0"
+    },
+    {
+      "name": "4.1.3_ans_27 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_27 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84853e-10"
+    },
+    {
+      "name": "4.1.3_ans_28 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 geometry MO",
+      "pass": true,
+      "detail": "max error 4.84853e-10"
+    },
+    {
+      "name": "4.1.3_ans_28 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 geometry MK",
+      "pass": true,
+      "detail": "max error 4.84857e-10"
+    },
+    {
+      "name": "4.1.3_ans_28 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit geometry GO = P",
+      "pass": true,
+      "detail": "max error 4.84853e-10"
+    },
+    {
+      "name": "4.1.3_ans_28_profit curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit curve exists GTK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit geometry GTK",
+      "pass": true,
+      "detail": "max error 7.25965e-10"
+    },
+    {
+      "name": "4.1.3_ans_28_profit curve clipping GTK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3_ans_28_profit polygon winst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 viewBox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 PNG mirror",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 curve exists GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 geometry GO = P",
+      "pass": true,
+      "detail": "max error 3.87885e-10"
+    },
+    {
+      "name": "4.1.4_ans_35 curve clipping GO = P",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 curve exists MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 geometry MO",
+      "pass": true,
+      "detail": "max error 3.87885e-10"
+    },
+    {
+      "name": "4.1.4_ans_35 curve clipping MO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 curve exists MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 geometry MK",
+      "pass": true,
+      "detail": "max error 3.87885e-10"
+    },
+    {
+      "name": "4.1.4_ans_35 curve clipping MK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 point count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 point 0 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 point 0 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 point 1 coordinates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 point 1 lies on curve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.4_ans_35 area count p0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "38 exercises contiguous",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "107 subquestions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Every subquestion answered exactly once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Final HTML questions match registry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Final HTML answer labels match registry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 1 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 1 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 2 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 2 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 3 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 3 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 4 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 4 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 5 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 5 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 6 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 6 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 7 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 7 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 8 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 8 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 9 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 9 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 10 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 10 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 11 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 11 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 12 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 12 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 13 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 13 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 14 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 14 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 15 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 15 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 16 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 16 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 17 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 17 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 18 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 18 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 19 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 19 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 20 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 20 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 21 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 21 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 22 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 22 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 23 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 23 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 24 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 24 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 25 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 25 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 26 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 26 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 27 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 27 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 28 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 28 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 29 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 29 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 30 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 30 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 31 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 31 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 32 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 32 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 33 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 33 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 34 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 34 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 35 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 35 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 36 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 36 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 37 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 37 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 38 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Exercise 38 title unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1 canonical section order",
+      "pass": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "name": "4.1.1 route note",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.1 one target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2 canonical section order",
+      "pass": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "name": "4.1.2 route note",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.2 one target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3 canonical section order",
+      "pass": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "name": "4.1.3 route note",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4.1.3 one target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "4 targets, 22 subquestions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Consolidation has no new-theory template",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "No point elasticity formula",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Paper-first",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Student internal links resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Answers internal links resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Monopolie page count",
+      "pass": true,
+      "detail": "38"
+    },
+    {
+      "name": "Boek_4_H1_Monopolie no page flow drift",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Monopolie searchable pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Monopolie no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Monopolie A4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Monopolie text within page",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Boek_4_H1_Antwoorden page count",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "name": "Boek_4_H1_Antwoorden no page flow drift",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Antwoorden searchable pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Antwoorden no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Antwoorden A4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Antwoorden text within page",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Boek_4_H1_Docenteninformatie page count",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "Boek_4_H1_Docenteninformatie no page flow drift",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Docenteninformatie searchable pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Docenteninformatie no replacement glyph",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Docenteninformatie A4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Boek_4_H1_Docenteninformatie text within page",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Student <=40 pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TOC start 4.1.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TOC start 4.1.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TOC start 4.1.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "TOC start 4.1.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mixed source and questions face each other",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "All referenced figures exist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "31 unique used vector figures",
+      "pass": true,
+      "detail": "31"
+    },
+    {
+      "name": "bronnen/book-3-outline-v2.md original hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "bronnen/book-4-outline-v2.md original hash",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

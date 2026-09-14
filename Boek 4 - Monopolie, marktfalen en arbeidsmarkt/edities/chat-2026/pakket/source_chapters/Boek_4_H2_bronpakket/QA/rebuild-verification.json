@@ -1,0 +1,29 @@
+{
+  "method": "Regenerated all manuscripts from author modules, rebuilt PDFs and compared all extracted text and page counts with reviewed build. PDF metadata/byte identity is not asserted.",
+  "checks": [
+    {
+      "file": "Boek_4_H2_Marktvormen_en_marktfalen.pdf",
+      "pass": true,
+      "result": {
+        "pages": 60,
+        "text_sha256": "cb56d57764dfd9f544b463587d2cd31c9fbbe97c41a129b822bfddc68dc98408"
+      }
+    },
+    {
+      "file": "Boek_4_H2_Docenteninformatie.pdf",
+      "pass": true,
+      "result": {
+        "pages": 9,
+        "text_sha256": "8a7dcdd577594de1fe756c48b91e9de4e54c14b83d1134925646421cceb0cd3a"
+      }
+    },
+    {
+      "file": "Boek_4_H2_Antwoorden.pdf",
+      "pass": true,
+      "result": {
+        "pages": 24,
+        "text_sha256": "ada18c60773d3d1740145cd94d840363e64b2b09b2e376b5d916b8cae67d1680"
+      }
+    }
+  ]
+}

@@ -28,3 +28,12 @@ archive/** -text
 
 # Delivered Book 2 edition: preserve original bytes, including searchable text.
 "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/**" -text
+
+# Selected Books 3/4: preserve supplied bytes, including searchable text.
+"Boek 3 - Overheidsingrijpen, concurrentie en internationale handel/edities/chat-2026/**" -text
+"Boek 4 - Monopolie, marktfalen en arbeidsmarkt/edities/chat-2026/**" -text
+
+# Original delivery whitespace is provenance; generated navigation stays checked.
+"Boek 3 - Overheidsingrijpen, concurrentie en internationale handel/edities/chat-2026/pakket/**" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+"Boek 3 - Overheidsingrijpen, concurrentie en internationale handel/edities/chat-2026/source_chapters/**" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+"Boek 4 - Monopolie, marktfalen en arbeidsmarkt/edities/chat-2026/pakket/**" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol

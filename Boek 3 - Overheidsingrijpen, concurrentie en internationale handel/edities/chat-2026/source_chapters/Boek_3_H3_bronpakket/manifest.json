@@ -1,0 +1,960 @@
+{
+  "edition": "Book 3 Chapter 3 - Internationale handel - local print edition 1.0",
+  "files": [
+    {
+      "path": "00 Inleiding.md",
+      "bytes": 1797,
+      "sha256": "7d6b3a9b6438c83058c51d7f7b2b47bf2fddbc339ad1622741e8709126614f27"
+    },
+    {
+      "path": "05 Overzicht.md",
+      "bytes": 1809,
+      "sha256": "208edc15ca9a8f4ccb8e08487f7092a601bcff746dcb886c61568a1dfc131a0e"
+    },
+    {
+      "path": "3.3 Internationale handel – hoofdstuk.md",
+      "bytes": 71029,
+      "sha256": "7d5d6e8ef041e0b9358a951d3de06640ba17b8fb4b2e5fde2685704736df5662"
+    },
+    {
+      "path": "3.3.1 manuscript.md",
+      "bytes": 17724,
+      "sha256": "625a3ecb3ccacdef7871df097976ea216af69424cb35f5a6eacc321564658b37"
+    },
+    {
+      "path": "3.3.2 manuscript.md",
+      "bytes": 17021,
+      "sha256": "434f5040c1f30b405296ceba74f5ddbaa16b261469e63447bb1b49825cc68833"
+    },
+    {
+      "path": "3.3.3 manuscript.md",
+      "bytes": 19035,
+      "sha256": "424d535ba34e140fb5c091c84e6f5175541049ab7cec70378099450f52b36af1"
+    },
+    {
+      "path": "3.3.4 manuscript.md",
+      "bytes": 13633,
+      "sha256": "889b0bcec573047b8e3254f15664d73599afd0f8e850bc9e90d84297ae8b2d38"
+    },
+    {
+      "path": "Antwoorden.md",
+      "bytes": 39821,
+      "sha256": "7ecea230dc8c2f841ec17fa2a1fda699488d5291e862aceafb6b6bed09acbaac"
+    },
+    {
+      "path": "Docenteninformatie.md",
+      "bytes": 15450,
+      "sha256": "46764740c662933e43b7357a0bd9fb5e1a4a1039b654648740bc526979332ac8"
+    },
+    {
+      "path": "QA/Boek_3_H3_Antwoorden_page_map.json",
+      "bytes": 1140,
+      "sha256": "291fc7b727e4c8d848c236663db0accc2a9140ea7621720f10df2abcd2a3793d"
+    },
+    {
+      "path": "QA/Boek_3_H3_Docenteninformatie_page_map.json",
+      "bytes": 464,
+      "sha256": "402baf28c9ddb80f84819e8c067c18f11b3e30a806150e825d862cb1f2f6ae2c"
+    },
+    {
+      "path": "QA/Boek_3_H3_Internationale_handel_page_map.json",
+      "bytes": 2568,
+      "sha256": "72dced2ced1bd3a59ffbdb21de0378a322771b93161ff6c77f20dfccae58973a"
+    },
+    {
+      "path": "QA/answers.json",
+      "bytes": 32613,
+      "sha256": "c32cfcaf1edd0b0fe0dc6d5f2935d37fd8e992cce541299e901244282117deef"
+    },
+    {
+      "path": "QA/authored-targets.json",
+      "bytes": 4953,
+      "sha256": "94cc2e927b93126658f746412d883c4af3936efed0b8d3f02e978ce37c4e5f50"
+    },
+    {
+      "path": "QA/exercises.json",
+      "bytes": 28959,
+      "sha256": "c2eaa7e8a1d5bbe3642d1523fbce832df9c11a66824ab8becb5934844bb4b7ac"
+    },
+    {
+      "path": "QA/figure_geometry.json",
+      "bytes": 102321,
+      "sha256": "477ff54863e5a522a7250103cf6bef4bf8cbc95a32726b3c20c6f3e177163b28"
+    },
+    {
+      "path": "QA/paragraph-exports.json",
+      "bytes": 1029,
+      "sha256": "a80fb2fda980fe99062216a9c67095d2df5c505274395fd4671497b689e30e67"
+    },
+    {
+      "path": "QA/validation-summary.md",
+      "bytes": 519,
+      "sha256": "9389995aeb0953781f5355554b2b718795a1695c73aadcd6386bd7806f6b2314"
+    },
+    {
+      "path": "QA/validation.json",
+      "bytes": 251491,
+      "sha256": "3cd30966a7dd8a7a623a15de39f47041165492bde88d1699e7f70631bc111fcb"
+    },
+    {
+      "path": "QA/visual/answers/contact_01_06.jpg",
+      "bytes": 268766,
+      "sha256": "d8c229f7759c6a287fce99e834792bcced74823152a7dce4e8c88bbee07f8687"
+    },
+    {
+      "path": "QA/visual/answers/contact_07_12.jpg",
+      "bytes": 264817,
+      "sha256": "3c0bd9b664d51b8167f873cbccdc916cd2d084e31e6a1aec4d1714a7fafb946b"
+    },
+    {
+      "path": "QA/visual/answers/contact_13_17.jpg",
+      "bytes": 228687,
+      "sha256": "b631b5111fa5669bca2f79d21ebe25dd1c1175c116e90e2253973deb1db47bd9"
+    },
+    {
+      "path": "QA/visual/poppler-tariff-check.png",
+      "bytes": 225122,
+      "sha256": "2c680e27bf34b47fc3c30d52e4396c7742096fccd27dfecb543417b2b99856f3"
+    },
+    {
+      "path": "QA/visual/student/contact_01_06.jpg",
+      "bytes": 282885,
+      "sha256": "2026b13a18a1bbd501ad6d914b4b8391fed904621818df0c3dbb8c8c34ac1a72"
+    },
+    {
+      "path": "QA/visual/student/contact_07_12.jpg",
+      "bytes": 273870,
+      "sha256": "9f3b83b1e5d9ad06741bf4ecbe644930bbc6800ebdc4b402c1e498507aba6be7"
+    },
+    {
+      "path": "QA/visual/student/contact_13_18.jpg",
+      "bytes": 259663,
+      "sha256": "28aef5fb109ca44ab18c080d72c65948ec654c8fae796caae16e493420697c34"
+    },
+    {
+      "path": "QA/visual/student/contact_19_24.jpg",
+      "bytes": 296575,
+      "sha256": "5b88dc32bc825c2b77f37785c628c179c77aad79fade623b77e434eef081ddba"
+    },
+    {
+      "path": "QA/visual/student/contact_25_30.jpg",
+      "bytes": 269840,
+      "sha256": "f6b703e4a18979b908ef5b9657a075e7819c982123e4afe5fef18aa555c692fe"
+    },
+    {
+      "path": "QA/visual/student/contact_31_36.jpg",
+      "bytes": 277343,
+      "sha256": "452449fcf41187da73b30c5bf075734b11626298c63408c6e0087b57510dff29"
+    },
+    {
+      "path": "QA/visual/student/contact_37_38.jpg",
+      "bytes": 113324,
+      "sha256": "7019a3778a2f07813454a92c8d8ce11c4ae26c614e027fbec758c0ab42186957"
+    },
+    {
+      "path": "QA/visual/teacher/contact_01_06.jpg",
+      "bytes": 286984,
+      "sha256": "8f38fa1149bc2e7863a47927630d3686ee12e938c2336b34fba78d3fadcf2212"
+    },
+    {
+      "path": "QA/visual/teacher/contact_07_07.jpg",
+      "bytes": 78595,
+      "sha256": "5292047c4c993194da1b04c34c149cada2fd22fb7e45902969cf0907ce93724c"
+    },
+    {
+      "path": "QA/visual-review.md",
+      "bytes": 1128,
+      "sha256": "4c6cacc99b386679f23434430fae3d2db0e82755ceec1ac80f223623a93dbeff"
+    },
+    {
+      "path": "QA/visual-reviewed-pdfs.json",
+      "bytes": 315,
+      "sha256": "5af23d59ffb458e6124847cd822d558efec6cbedce2ba6526b55b4c72835cddb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5007,
+      "sha256": "61c4abb1b29d7002ce92a6ba8792a6be3b9b6f51713d4b30184935b8cdc72f01"
+    },
+    {
+      "path": "_assets/3.3.1_fig_1.png",
+      "bytes": 33539,
+      "sha256": "c76305f2c5d002b7469a469aa35b27711d2df396d759b5c98d8ac60046bfb6d4"
+    },
+    {
+      "path": "_assets/3.3.1_fig_1.svg",
+      "bytes": 2503,
+      "sha256": "4f89fb7ebc11e7e5d1c5d37ad17bb068e68e3a68d1b33421975419f575f2a14b"
+    },
+    {
+      "path": "_assets/3.3.1_fig_2.png",
+      "bytes": 60242,
+      "sha256": "16425737fa8eab517cae082fb889f4eedadfe8f0d1cc14675cb6297db27f498b"
+    },
+    {
+      "path": "_assets/3.3.1_fig_2.svg",
+      "bytes": 2356,
+      "sha256": "b2e62eaf9e3b34f7d53268fb63d9757780ba1f7a6d790656d21b9d14baffbe7a"
+    },
+    {
+      "path": "_assets/3.3.1_fig_3.png",
+      "bytes": 44516,
+      "sha256": "c942377a66e398eb255ff5beb7c2630e6322981836b5a8736e072dbcaa4f6648"
+    },
+    {
+      "path": "_assets/3.3.1_fig_3.svg",
+      "bytes": 2716,
+      "sha256": "7e118909d21695757932b1a827f2a14e46609ff33807742a1efb4b4f9a0b01a6"
+    },
+    {
+      "path": "_assets/3.3.1_fig_4.png",
+      "bytes": 37838,
+      "sha256": "a67fbafe07fe1d7c016333ab45f54ddaa5d1378e74bb84d0f2fbf08d78f89b29"
+    },
+    {
+      "path": "_assets/3.3.1_fig_4.svg",
+      "bytes": 2489,
+      "sha256": "65df2b9f5b6966677bf940f6e5ebdcef43823ec54ab0217156a98c1a04a12df4"
+    },
+    {
+      "path": "_assets/3.3.2_ans_14.png",
+      "bytes": 86075,
+      "sha256": "3ab88d6eae5684b9f0055537d8ef5e4c190c0e7a2ae59216b6aa229e1e251908"
+    },
+    {
+      "path": "_assets/3.3.2_ans_14.svg",
+      "bytes": 8474,
+      "sha256": "cd0bfab6b25503c6963cc1a455b1e3cc9783c021e11cc3d12d82efae831f653c"
+    },
+    {
+      "path": "_assets/3.3.2_ans_17.png",
+      "bytes": 97160,
+      "sha256": "0cd843be397d4b3db52ec64a4caa41541e6ea13c92c2a41ec9de314a99187e61"
+    },
+    {
+      "path": "_assets/3.3.2_ans_17.svg",
+      "bytes": 9596,
+      "sha256": "52b827b7d59f9fd182e28922aabdbfbfd134862dbc9e1adf5be5dd9600c12312"
+    },
+    {
+      "path": "_assets/3.3.2_ex_1.png",
+      "bytes": 91701,
+      "sha256": "4faee11b36f4ef6cc75cb75d2de7dcccf92af693b26f7ab51a6739ee9cfa8c76"
+    },
+    {
+      "path": "_assets/3.3.2_ex_1.svg",
+      "bytes": 6638,
+      "sha256": "832dc2a5ca4ddeeaf35e85383ff201db0b7704f3fb83f081353891b3f0491c6d"
+    },
+    {
+      "path": "_assets/3.3.2_fig_1.png",
+      "bytes": 46590,
+      "sha256": "bf44e41f12091635c4afd3e03e79823d13bf6b887c73603c1f5d3d22875b410c"
+    },
+    {
+      "path": "_assets/3.3.2_fig_1.svg",
+      "bytes": 1979,
+      "sha256": "12a20bf9f3b85b415f9b2d0a48dd79aa49747afe22b6bd4ded14aed68e586185"
+    },
+    {
+      "path": "_assets/3.3.2_fig_2.png",
+      "bytes": 110939,
+      "sha256": "ab80dd98235ed9ebf5cff23760dcd1b9ab11cffab2dbd16fcdff4c9f7ce21f5e"
+    },
+    {
+      "path": "_assets/3.3.2_fig_2.svg",
+      "bytes": 8471,
+      "sha256": "5083ffc9b65d73a523fe8a4c5c4534a436e49c82184ca0665729bc378a7d3e64"
+    },
+    {
+      "path": "_assets/3.3.2_fig_3.png",
+      "bytes": 112226,
+      "sha256": "cb97c2a48cdad52e136fed73b9fab740b17725ac9b8983e0cafeaa0ba69109d2"
+    },
+    {
+      "path": "_assets/3.3.2_fig_3.svg",
+      "bytes": 8471,
+      "sha256": "4175bdbd312343cff0bfea4613dbf71009d7f0f09a5e5d14d7bd030a2125c992"
+    },
+    {
+      "path": "_assets/3.3.2_fig_4.png",
+      "bytes": 111694,
+      "sha256": "b50002a873535d2416a15b0db42f8ca94dcefdbd7ea702ebfe969961fbc0ed95"
+    },
+    {
+      "path": "_assets/3.3.2_fig_4.svg",
+      "bytes": 13723,
+      "sha256": "b906ca7cc2862e664dca66c53d578a2e9c9d7425b7bd104107902c0fc609d0e9"
+    },
+    {
+      "path": "_assets/3.3.2_target.png",
+      "bytes": 78580,
+      "sha256": "a9ad182da93eb741796e8c606428d3f183be87d271f105d41d3fa2cf35cb0094"
+    },
+    {
+      "path": "_assets/3.3.2_target.svg",
+      "bytes": 7737,
+      "sha256": "ac4553729d371b901d2a1fbd87c1c756fa8282fc63ae1f9ff6578fcea52844b0"
+    },
+    {
+      "path": "_assets/3.3.2_we_1.png",
+      "bytes": 87695,
+      "sha256": "7227cd020d879aac7a753ccc3bc4262a14afefc0ea0da12ec9d73cdcc67ce515"
+    },
+    {
+      "path": "_assets/3.3.2_we_1.svg",
+      "bytes": 9011,
+      "sha256": "6e975e9307d45858476e9d60ba426c62a265ce0ad0fa466dec91289e98075799"
+    },
+    {
+      "path": "_assets/3.3.3_ans_25.png",
+      "bytes": 100787,
+      "sha256": "dcd7fb859118363ebcbd7c21f25574f511eae4ce1028377b8b88246d054bd5ec"
+    },
+    {
+      "path": "_assets/3.3.3_ans_25.svg",
+      "bytes": 10495,
+      "sha256": "9a32cf1860807039718867633024a535ef9d7f90d8516d180fdc639136b50ca1"
+    },
+    {
+      "path": "_assets/3.3.3_ans_27.png",
+      "bytes": 106170,
+      "sha256": "8f145d0f74af89c126c7f93e02dc8d751965fe471c45a864593972d6da80f54f"
+    },
+    {
+      "path": "_assets/3.3.3_ans_27.svg",
+      "bytes": 9936,
+      "sha256": "17e654b323db912721d95067466a736478efc879d7a36e479b28974bdd4aca7d"
+    },
+    {
+      "path": "_assets/3.3.3_ex_1.png",
+      "bytes": 75385,
+      "sha256": "b58f9250a2365ad7ec90f074f26afdc496448e8328a6ada2963d03f65c6a2101"
+    },
+    {
+      "path": "_assets/3.3.3_ex_1.svg",
+      "bytes": 8612,
+      "sha256": "b52535e1fa2ae338c99b4c4fe528946a6857a0927cc70b0d00a0825df69338c9"
+    },
+    {
+      "path": "_assets/3.3.3_fig_1.png",
+      "bytes": 34598,
+      "sha256": "ba8594f44085864a6eeb0055a1f798c124c61a053fb1da3df201c95756bbfe22"
+    },
+    {
+      "path": "_assets/3.3.3_fig_1.svg",
+      "bytes": 2493,
+      "sha256": "552341dad1bd9793d6ad52d89aa497d4d474e3f67bb90bf66c4a5d95e145956c"
+    },
+    {
+      "path": "_assets/3.3.3_fig_2.png",
+      "bytes": 119681,
+      "sha256": "96fb650a0cb0fa5a27dc641d25db433561febbc3fa60bfcd2a192c3de5b5d2fa"
+    },
+    {
+      "path": "_assets/3.3.3_fig_2.svg",
+      "bytes": 10471,
+      "sha256": "5cdeb395b5a6e7fe50262eefe7dbe81d3da7901df5b77c72b78f8c7d98a149b7"
+    },
+    {
+      "path": "_assets/3.3.3_fig_3.png",
+      "bytes": 123783,
+      "sha256": "9d96d397e404d49771033979b02a358b2894030b2a4e07a4faa4a10b2b6c9f12"
+    },
+    {
+      "path": "_assets/3.3.3_fig_3.svg",
+      "bytes": 10480,
+      "sha256": "bfd34e4acd363815a1785f40fa8ab8214bfc435e5aaee3da2bc51f5a083c17e6"
+    },
+    {
+      "path": "_assets/3.3.3_fig_4.png",
+      "bytes": 102342,
+      "sha256": "129fda3e6c24d5aaf2b3539c114bfd13bcef1b2a224cf621cf5c430f25a361a9"
+    },
+    {
+      "path": "_assets/3.3.3_fig_4.svg",
+      "bytes": 8104,
+      "sha256": "63f460968ea9b3291ce28306091cac81733e61073726f7d68ab0e5f34bb34cae"
+    },
+    {
+      "path": "_assets/3.3.3_target.png",
+      "bytes": 90245,
+      "sha256": "316cdacc6d7c9d0e4b34cf1bbfe92d1fa9f01b4c21913a2fe7ff6702e76d7379"
+    },
+    {
+      "path": "_assets/3.3.3_target.svg",
+      "bytes": 8054,
+      "sha256": "c6cb41a2828fd421d3ec94b1a3e2626b83f886b8ce73953423539a6fcea195a6"
+    },
+    {
+      "path": "_assets/3.3.4_ans_35.png",
+      "bytes": 102254,
+      "sha256": "d71195283324f3d882476c1f153b2a571c2d8fce265f4557e472bc382979f142"
+    },
+    {
+      "path": "_assets/3.3.4_ans_35.svg",
+      "bytes": 9927,
+      "sha256": "cc2a05d54bfd7dfa630fbbffde5402030dd7cf96e7e2366ca125e490eae2bbd6"
+    },
+    {
+      "path": "_assets/3.3.4_fig_1.png",
+      "bytes": 33447,
+      "sha256": "38c8b2ca7c6511ebf4b6e523cfa0c503e8ddfddcc5a5db7cba6adf74618485cb"
+    },
+    {
+      "path": "_assets/3.3.4_fig_1.svg",
+      "bytes": 2480,
+      "sha256": "6188cb76ad2ae7d0bc45ce22e2fde2907f9c9a03e0d2edcb8865f2cad2418cfc"
+    },
+    {
+      "path": "_assets/3.3.4_fig_2.png",
+      "bytes": 49073,
+      "sha256": "d3b016ca1f4d29f3fc43e45bd19e0fabf5f7d502fcd6f0283d54a773c3060123"
+    },
+    {
+      "path": "_assets/3.3.4_fig_2.svg",
+      "bytes": 2775,
+      "sha256": "c3ff61ad70a29d632dfde0ad0b33b631b1fb84858d28c5af2ef2da76e0f1bf7b"
+    },
+    {
+      "path": "_assets/3.3.4_target.png",
+      "bytes": 92323,
+      "sha256": "cec06f3e2b21ce010cd139baf50b023e3693bc929b3d4fbb230edb1ba3c42260"
+    },
+    {
+      "path": "_assets/3.3.4_target.svg",
+      "bytes": 8043,
+      "sha256": "01402846608a43c01a8e9aff1c049ebbc7055ab76762ec3ffe653d34517b1789"
+    },
+    {
+      "path": "_assets/3.3_overzicht.png",
+      "bytes": 35833,
+      "sha256": "24123f36de0673066dadccb2897ddfc7c47b2e09615f018afbfb70865bfaead9"
+    },
+    {
+      "path": "_assets/3.3_overzicht.svg",
+      "bytes": 2520,
+      "sha256": "c3f5c4aed89c76513df2aa8abef8c444ff2a32ace500b46e2e80790c68d49fed"
+    },
+    {
+      "path": "_assets/3.3_slot.png",
+      "bytes": 37406,
+      "sha256": "12aa89aa7a3de1e8389241b45b1b2f01f98b09d4c2297ad9b3b67c83709ddb30"
+    },
+    {
+      "path": "_assets/3.3_slot.svg",
+      "bytes": 2517,
+      "sha256": "96f05e78187424ccea24790da51b5e69cd9d4013b9cfb17353a6de2d53f36841"
+    },
+    {
+      "path": "_chapter-plan.md",
+      "bytes": 10282,
+      "sha256": "7cd15f2887fb9faa68a529ea2435081a12b31f6e65b1c20c1113ecd83693bd26"
+    },
+    {
+      "path": "author_answers.py",
+      "bytes": 28692,
+      "sha256": "96e630b7533e043311936eccb3d953b41a73c627a11d9b2c7bdaabb78cf238f6"
+    },
+    {
+      "path": "author_chapter.py",
+      "bytes": 60159,
+      "sha256": "b317d69307fc338bee26346723e49b717a068a70c519680a6d406f5b44ada372"
+    },
+    {
+      "path": "author_teacher.py",
+      "bytes": 15787,
+      "sha256": "7f6ebe0df4de6c35d16d45a56ae4f5b333ba5e0624246d73b0314b3d448fc36d"
+    },
+    {
+      "path": "bronnen/book-3-outline-v2.md",
+      "bytes": 26806,
+      "sha256": "4e558b63d8eb954de935ad366170f6373f533eae14f90633a89be0036c973217"
+    },
+    {
+      "path": "bronnen/book-4-outline-v2.md",
+      "bytes": 28629,
+      "sha256": "3bfb4350bb1f990a8ea559272263e8ef35e1b72bd0cbc86b59c9aa6ad4fc0899"
+    },
+    {
+      "path": "bronnen/raw-access-attempts.json",
+      "bytes": 3042,
+      "sha256": "8795ce157732d9a7bcfc70ef8e37dd9a6f1deccf953759ba665a8f2893698fe3"
+    },
+    {
+      "path": "bronnen/source-register.json",
+      "bytes": 3326,
+      "sha256": "33ad1be4d4141ad7b5b502a085318b5b5ba9c12525423462c80ca0554957b7f3"
+    },
+    {
+      "path": "build.py",
+      "bytes": 3812,
+      "sha256": "7064534d25cfad2e478b8bb5abc4051718393ee96d9336987bec406d378601c8"
+    },
+    {
+      "path": "build_all.py",
+      "bytes": 543,
+      "sha256": "b9cd1eb0f8da24e24fad45a55596715949f85c1d76b8aced399142b4f31f0fc3"
+    },
+    {
+      "path": "chapter-order.json",
+      "bytes": 144,
+      "sha256": "64746bd6d894da1fc68c69bfdc634288504b1691c4fd910f3daead35703c2886"
+    },
+    {
+      "path": "export_paragraphs.py",
+      "bytes": 4419,
+      "sha256": "54fec4747fe17a0bf016ae42833416d18b1d1feeed08732b3a36ee4072b822e4"
+    },
+    {
+      "path": "make_assets.py",
+      "bytes": 15800,
+      "sha256": "7a27aed5c5878a2f83347e6d0549dc51614b216c2f474fd8203f05e7087ac6df"
+    },
+    {
+      "path": "output/Boek_3_H3_Antwoorden.html",
+      "bytes": 114747,
+      "sha256": "9ae50058c5b58cb39971e649751b93380b9c9381beda06a0f28c81954a767261"
+    },
+    {
+      "path": "output/Boek_3_H3_Antwoorden.pdf",
+      "bytes": 124483,
+      "sha256": "961a75fabf693bee885aaef42d60bd0f6096a89feea180c6e2c1ecb845e0d421"
+    },
+    {
+      "path": "output/Boek_3_H3_Docenteninformatie.html",
+      "bytes": 24446,
+      "sha256": "2668a7e13c29797267dc7fffbab0590541ab590e27e08d59ab2092d844bcd82f"
+    },
+    {
+      "path": "output/Boek_3_H3_Docenteninformatie.pdf",
+      "bytes": 50199,
+      "sha256": "c0da0526a54e9a5977bcd395e7ff7af91edef7eede5721fb40ea82bd26a884e6"
+    },
+    {
+      "path": "output/Boek_3_H3_Internationale_handel.html",
+      "bytes": 258328,
+      "sha256": "8007afde01df9a470005b7898a422a39042fd2568101e3b2855e519b35e07ec8"
+    },
+    {
+      "path": "output/Boek_3_H3_Internationale_handel.pdf",
+      "bytes": 285605,
+      "sha256": "0642ce52b75474263d901462b1bcebf5ccbe2a591f56ff555be223b116fd5a03"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/3.3.1 Waarom landen handelen – antwoorden.md",
+      "bytes": 10369,
+      "sha256": "71467f67f46ad094b1f33655b0932cb6b5e254b0a99a19c52c37946290ce311f"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/3.3.1 Waarom landen handelen – antwoorden.pdf",
+      "bytes": 75640,
+      "sha256": "52ccd7354cea66f710a74fae0658d124dc0e1e65756ff7a1dbe91e68e520e4d6"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/3.3.1 Waarom landen handelen – opgaven.md",
+      "bytes": 11899,
+      "sha256": "45b4df251c1d422e7543e828f230d60cd91f21bf906943644e8501c2ffcf29c2"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/3.3.1 Waarom landen handelen – opgaven.pdf",
+      "bytes": 169128,
+      "sha256": "d9907b60bb6662c14d985200cef7bd6cba6c6c841148ad8e992a87c7390249e8"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/3.3.1 Waarom landen handelen – paragraaf.md",
+      "bytes": 17724,
+      "sha256": "625a3ecb3ccacdef7871df097976ea216af69424cb35f5a6eacc321564658b37"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/3.3.1 Waarom landen handelen – paragraaf.pdf",
+      "bytes": 178166,
+      "sha256": "8017112cce287b83f9f0816f05a78458124faba9a94c3de3b124a74ccd25ca23"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/3.3.1-textbook-handoff.md",
+      "bytes": 917,
+      "sha256": "9468c92692d4ce9c9ff1f90fb5a788cf44a7b1d147736cb729af67b81278948e"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/_assets/3.3.1_fig_1.png",
+      "bytes": 33539,
+      "sha256": "c76305f2c5d002b7469a469aa35b27711d2df396d759b5c98d8ac60046bfb6d4"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/_assets/3.3.1_fig_1.svg",
+      "bytes": 2503,
+      "sha256": "4f89fb7ebc11e7e5d1c5d37ad17bb068e68e3a68d1b33421975419f575f2a14b"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/_assets/3.3.1_fig_2.png",
+      "bytes": 60242,
+      "sha256": "16425737fa8eab517cae082fb889f4eedadfe8f0d1cc14675cb6297db27f498b"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/_assets/3.3.1_fig_2.svg",
+      "bytes": 2356,
+      "sha256": "b2e62eaf9e3b34f7d53268fb63d9757780ba1f7a6d790656d21b9d14baffbe7a"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/_assets/3.3.1_fig_3.png",
+      "bytes": 44516,
+      "sha256": "c942377a66e398eb255ff5beb7c2630e6322981836b5a8736e072dbcaa4f6648"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/_assets/3.3.1_fig_3.svg",
+      "bytes": 2716,
+      "sha256": "7e118909d21695757932b1a827f2a14e46609ff33807742a1efb4b4f9a0b01a6"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/_assets/3.3.1_fig_4.png",
+      "bytes": 37838,
+      "sha256": "a67fbafe07fe1d7c016333ab45f54ddaa5d1378e74bb84d0f2fbf08d78f89b29"
+    },
+    {
+      "path": "paragrafen/3.3.1 Waarom landen handelen/_assets/3.3.1_fig_4.svg",
+      "bytes": 2489,
+      "sha256": "65df2b9f5b6966677bf940f6e5ebdcef43823ec54ab0217156a98c1a04a12df4"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/3.3.2 Wereldmarktprijs, import, export en welvaart – antwoorden.md",
+      "bytes": 9168,
+      "sha256": "e0ab9573ed8283653f98c55d3e17937099be45d243c1a6663ec745989373872b"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/3.3.2 Wereldmarktprijs, import, export en welvaart – antwoorden.pdf",
+      "bytes": 76823,
+      "sha256": "744d93a4f6ba46d618b84b1afc30d5232a809be2a34d554015caa51340c73925"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/3.3.2 Wereldmarktprijs, import, export en welvaart – opgaven.md",
+      "bytes": 10490,
+      "sha256": "b7b0850205266cf719e453230a4cde830521541c90fa42299d12520937af5991"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/3.3.2 Wereldmarktprijs, import, export en welvaart – opgaven.pdf",
+      "bytes": 170024,
+      "sha256": "d98b43c8ed50dcfb509fd0bf11bb20c239d0f86e487beeac69d1c7234a0254ab"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/3.3.2 Wereldmarktprijs, import, export en welvaart – paragraaf.md",
+      "bytes": 17021,
+      "sha256": "434f5040c1f30b405296ceba74f5ddbaa16b261469e63447bb1b49825cc68833"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/3.3.2 Wereldmarktprijs, import, export en welvaart – paragraaf.pdf",
+      "bytes": 183742,
+      "sha256": "1eed5c017c3b06caa2c39440090e64e9b65a84a0d6ae6bd8b5904086d892112a"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/3.3.2-textbook-handoff.md",
+      "bytes": 918,
+      "sha256": "28f626806b712d14cbf7840b6a8186b95f1de93c8dd82e502be1eaa5e3c9a696"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_ans_14.png",
+      "bytes": 86075,
+      "sha256": "3ab88d6eae5684b9f0055537d8ef5e4c190c0e7a2ae59216b6aa229e1e251908"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_ans_14.svg",
+      "bytes": 8474,
+      "sha256": "cd0bfab6b25503c6963cc1a455b1e3cc9783c021e11cc3d12d82efae831f653c"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_ans_17.png",
+      "bytes": 97160,
+      "sha256": "0cd843be397d4b3db52ec64a4caa41541e6ea13c92c2a41ec9de314a99187e61"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_ans_17.svg",
+      "bytes": 9596,
+      "sha256": "52b827b7d59f9fd182e28922aabdbfbfd134862dbc9e1adf5be5dd9600c12312"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_ex_1.png",
+      "bytes": 91701,
+      "sha256": "4faee11b36f4ef6cc75cb75d2de7dcccf92af693b26f7ab51a6739ee9cfa8c76"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_ex_1.svg",
+      "bytes": 6638,
+      "sha256": "832dc2a5ca4ddeeaf35e85383ff201db0b7704f3fb83f081353891b3f0491c6d"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_fig_1.png",
+      "bytes": 46590,
+      "sha256": "bf44e41f12091635c4afd3e03e79823d13bf6b887c73603c1f5d3d22875b410c"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_fig_1.svg",
+      "bytes": 1979,
+      "sha256": "12a20bf9f3b85b415f9b2d0a48dd79aa49747afe22b6bd4ded14aed68e586185"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_fig_2.png",
+      "bytes": 110939,
+      "sha256": "ab80dd98235ed9ebf5cff23760dcd1b9ab11cffab2dbd16fcdff4c9f7ce21f5e"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_fig_2.svg",
+      "bytes": 8471,
+      "sha256": "5083ffc9b65d73a523fe8a4c5c4534a436e49c82184ca0665729bc378a7d3e64"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_fig_3.png",
+      "bytes": 112226,
+      "sha256": "cb97c2a48cdad52e136fed73b9fab740b17725ac9b8983e0cafeaa0ba69109d2"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_fig_3.svg",
+      "bytes": 8471,
+      "sha256": "4175bdbd312343cff0bfea4613dbf71009d7f0f09a5e5d14d7bd030a2125c992"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_fig_4.png",
+      "bytes": 111694,
+      "sha256": "b50002a873535d2416a15b0db42f8ca94dcefdbd7ea702ebfe969961fbc0ed95"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_fig_4.svg",
+      "bytes": 13723,
+      "sha256": "b906ca7cc2862e664dca66c53d578a2e9c9d7425b7bd104107902c0fc609d0e9"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_target.png",
+      "bytes": 78580,
+      "sha256": "a9ad182da93eb741796e8c606428d3f183be87d271f105d41d3fa2cf35cb0094"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_target.svg",
+      "bytes": 7737,
+      "sha256": "ac4553729d371b901d2a1fbd87c1c756fa8282fc63ae1f9ff6578fcea52844b0"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_we_1.png",
+      "bytes": 87695,
+      "sha256": "7227cd020d879aac7a753ccc3bc4262a14afefc0ea0da12ec9d73cdcc67ce515"
+    },
+    {
+      "path": "paragrafen/3.3.2 Wereldmarktprijs, import, export en welvaart/_assets/3.3.2_we_1.svg",
+      "bytes": 9011,
+      "sha256": "6e975e9307d45858476e9d60ba426c62a265ce0ad0fa466dec91289e98075799"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/3.3.3 Protectionisme – antwoorden.md",
+      "bytes": 10828,
+      "sha256": "e3f3017dc3cf7239aa874b1a463774ae77749b9e9cc01a278f6ca53052259b0a"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/3.3.3 Protectionisme – antwoorden.pdf",
+      "bytes": 80185,
+      "sha256": "724eef50183d2a5788278296137d226eac7686d7c4c3a1973402df042f2109d8"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/3.3.3 Protectionisme – opgaven.md",
+      "bytes": 11558,
+      "sha256": "e5c1ba1b51770785377f1d4bc605a7ffe37a83bd501fae389c8247d4382d744a"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/3.3.3 Protectionisme – opgaven.pdf",
+      "bytes": 171142,
+      "sha256": "b2de300f21bbff2057162173793aec6c29ad97cf38e7d873b298777094959f92"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/3.3.3 Protectionisme – paragraaf.md",
+      "bytes": 19035,
+      "sha256": "424d535ba34e140fb5c091c84e6f5175541049ab7cec70378099450f52b36af1"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/3.3.3 Protectionisme – paragraaf.pdf",
+      "bytes": 185909,
+      "sha256": "6917c7b86f837e046f0ca44d495a5621dcd7885debd1b91e88095a18693a8261"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/3.3.3-textbook-handoff.md",
+      "bytes": 919,
+      "sha256": "8aa6d185b9e627aac445eee2653f021c4a618e7ecb6b45340b5d4767a183118e"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_ans_25.png",
+      "bytes": 100787,
+      "sha256": "dcd7fb859118363ebcbd7c21f25574f511eae4ce1028377b8b88246d054bd5ec"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_ans_25.svg",
+      "bytes": 10495,
+      "sha256": "9a32cf1860807039718867633024a535ef9d7f90d8516d180fdc639136b50ca1"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_ans_27.png",
+      "bytes": 106170,
+      "sha256": "8f145d0f74af89c126c7f93e02dc8d751965fe471c45a864593972d6da80f54f"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_ans_27.svg",
+      "bytes": 9936,
+      "sha256": "17e654b323db912721d95067466a736478efc879d7a36e479b28974bdd4aca7d"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_ex_1.png",
+      "bytes": 75385,
+      "sha256": "b58f9250a2365ad7ec90f074f26afdc496448e8328a6ada2963d03f65c6a2101"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_ex_1.svg",
+      "bytes": 8612,
+      "sha256": "b52535e1fa2ae338c99b4c4fe528946a6857a0927cc70b0d00a0825df69338c9"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_fig_1.png",
+      "bytes": 34598,
+      "sha256": "ba8594f44085864a6eeb0055a1f798c124c61a053fb1da3df201c95756bbfe22"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_fig_1.svg",
+      "bytes": 2493,
+      "sha256": "552341dad1bd9793d6ad52d89aa497d4d474e3f67bb90bf66c4a5d95e145956c"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_fig_2.png",
+      "bytes": 119681,
+      "sha256": "96fb650a0cb0fa5a27dc641d25db433561febbc3fa60bfcd2a192c3de5b5d2fa"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_fig_2.svg",
+      "bytes": 10471,
+      "sha256": "5cdeb395b5a6e7fe50262eefe7dbe81d3da7901df5b77c72b78f8c7d98a149b7"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_fig_3.png",
+      "bytes": 123783,
+      "sha256": "9d96d397e404d49771033979b02a358b2894030b2a4e07a4faa4a10b2b6c9f12"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_fig_3.svg",
+      "bytes": 10480,
+      "sha256": "bfd34e4acd363815a1785f40fa8ab8214bfc435e5aaee3da2bc51f5a083c17e6"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_fig_4.png",
+      "bytes": 102342,
+      "sha256": "129fda3e6c24d5aaf2b3539c114bfd13bcef1b2a224cf621cf5c430f25a361a9"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_fig_4.svg",
+      "bytes": 8104,
+      "sha256": "63f460968ea9b3291ce28306091cac81733e61073726f7d68ab0e5f34bb34cae"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_target.png",
+      "bytes": 90245,
+      "sha256": "316cdacc6d7c9d0e4b34cf1bbfe92d1fa9f01b4c21913a2fe7ff6702e76d7379"
+    },
+    {
+      "path": "paragrafen/3.3.3 Protectionisme/_assets/3.3.3_target.svg",
+      "bytes": 8054,
+      "sha256": "c6cb41a2828fd421d3ec94b1a3e2626b83f886b8ce73953423539a6fcea195a6"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/3.3.4 Gemengde opgaven internationale handel – antwoorden.md",
+      "bytes": 9446,
+      "sha256": "4fee14add1503880bda65a5ecb609267183ff63e1df649adba3645beff63c1f7"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/3.3.4 Gemengde opgaven internationale handel – antwoorden.pdf",
+      "bytes": 76912,
+      "sha256": "834c374eb5cdc77443f8120f4043cf185bd624ec70f19d005b36c9d1f93716d8"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/3.3.4 Gemengde opgaven internationale handel – opgaven.md",
+      "bytes": 13633,
+      "sha256": "889b0bcec573047b8e3254f15664d73599afd0f8e850bc9e90d84297ae8b2d38"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/3.3.4 Gemengde opgaven internationale handel – opgaven.pdf",
+      "bytes": 173651,
+      "sha256": "738d19d178f1ff105440916c5ab8ab627014c5bebce809400646e013e5406ba8"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/3.3.4-textbook-handoff.md",
+      "bytes": 920,
+      "sha256": "c3c464c9f49a0018519fa2ec202dd610f16b2482c132e1b91c351f86bdf95b9b"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/_assets/3.3.4_ans_35.png",
+      "bytes": 102254,
+      "sha256": "d71195283324f3d882476c1f153b2a571c2d8fce265f4557e472bc382979f142"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/_assets/3.3.4_ans_35.svg",
+      "bytes": 9927,
+      "sha256": "cc2a05d54bfd7dfa630fbbffde5402030dd7cf96e7e2366ca125e490eae2bbd6"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/_assets/3.3.4_fig_1.png",
+      "bytes": 33447,
+      "sha256": "38c8b2ca7c6511ebf4b6e523cfa0c503e8ddfddcc5a5db7cba6adf74618485cb"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/_assets/3.3.4_fig_1.svg",
+      "bytes": 2480,
+      "sha256": "6188cb76ad2ae7d0bc45ce22e2fde2907f9c9a03e0d2edcb8865f2cad2418cfc"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/_assets/3.3.4_fig_2.png",
+      "bytes": 49073,
+      "sha256": "d3b016ca1f4d29f3fc43e45bd19e0fabf5f7d502fcd6f0283d54a773c3060123"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/_assets/3.3.4_fig_2.svg",
+      "bytes": 2775,
+      "sha256": "c3ff61ad70a29d632dfde0ad0b33b631b1fb84858d28c5af2ef2da76e0f1bf7b"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/_assets/3.3.4_target.png",
+      "bytes": 92323,
+      "sha256": "cec06f3e2b21ce010cd139baf50b023e3693bc929b3d4fbb230edb1ba3c42260"
+    },
+    {
+      "path": "paragrafen/3.3.4 Gemengde opgaven internationale handel/_assets/3.3.4_target.svg",
+      "bytes": 8043,
+      "sha256": "01402846608a43c01a8e9aff1c049ebbc7055ab76762ec3ffe653d34517b1789"
+    },
+    {
+      "path": "print.css",
+      "bytes": 5031,
+      "sha256": "1e2fb816d45addf154c259108a61566a893523de675e61c4bb6d93c46e168b2a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 109,
+      "sha256": "e8cb9f9a6fed4037b026e1d1b4783c73633b6cf46a394e263fa1a78b96e458a7"
+    },
+    {
+      "path": "targets/doeloefening-17.md",
+      "bytes": 1948,
+      "sha256": "c5918228783466096808485e514eb63d0609903d470a3593626551cee418d3b5"
+    },
+    {
+      "path": "targets/doeloefening-27.md",
+      "bytes": 2093,
+      "sha256": "84abb9230a17350ac58daf8f1f7e2c9351422bc87813c6cd5ece69f330a1ea60"
+    },
+    {
+      "path": "targets/doeloefening-35.md",
+      "bytes": 3972,
+      "sha256": "b310cd7256c4f4bd4492abcb93cd6e7d7a7e09be26f05e7bcb5521ac8da3a7c4"
+    },
+    {
+      "path": "targets/doeloefening-7.md",
+      "bytes": 2261,
+      "sha256": "33d6a9ff0ffd91495b7cc7429ebc73c2e83410e56d68bfee013f734ed1cd4a67"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 17314,
+      "sha256": "f16b0c3bb579fceeb77baba942737a130dc86f09205365be29db2158cfdfe816"
+    }
+  ]
+}

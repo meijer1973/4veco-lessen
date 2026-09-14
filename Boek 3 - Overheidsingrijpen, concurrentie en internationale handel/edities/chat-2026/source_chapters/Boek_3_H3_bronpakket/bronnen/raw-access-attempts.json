@@ -1,0 +1,30 @@
+[
+  {
+    "path": "skills/econ-didactiek.md",
+    "status": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /meijer1973/4veco-platform/main/skills/econ-didactiek.md (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  {
+    "path": "skills/economic-graph.md",
+    "status": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /meijer1973/4veco-platform/main/skills/economic-graph.md (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  {
+    "path": "skills/econ-exercise-builder.md",
+    "status": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /meijer1973/4veco-platform/main/skills/econ-exercise-builder.md (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  {
+    "path": "skills/econ-textbook-paragraph.md",
+    "status": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /meijer1973/4veco-platform/main/skills/econ-textbook-paragraph.md (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  {
+    "path": "references/authored/economic_mathematical_precision_reference.md",
+    "status": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /meijer1973/4veco-platform/main/references/authored/economic_mathematical_precision_reference.md (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  {
+    "path": "references/authored/economie-terminologie.md",
+    "status": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /meijer1973/4veco-platform/main/references/authored/economie-terminologie.md (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  {
+    "path": "skills/econ-pdf-builder.md",
+    "status": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /meijer1973/4veco-platform/main/skills/econ-pdf-builder.md (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)\"))"
+  }
+]

@@ -1,0 +1,786 @@
+[
+  {
+    "number": 1,
+    "subquestions": [
+      {
+        "id": "1a",
+        "answer": "De opgegeven mogelijkheid is het gebruik van het lokaal door de tekenclub.",
+        "why": "Alternatieve kosten zijn het voordeel van de beste niet-gekozen mogelijkheid; er is geen geldbedrag gegeven."
+      },
+      {
+        "id": "1b",
+        "answer": "Productiemiddelen voor tassen kunnen niet tegelijk voor andere producten worden gebruikt. Het land geeft andere productie op.",
+        "why": "Hetzelfde schaarsteprobleem keert terug, maar de actoren zijn nu producenten in landen."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 2,
+    "subquestions": [
+      {
+        "id": "2a",
+        "answer": "Hout uit Osta is import van Nera. Meubels naar Osta zijn export van Nera.",
+        "why": "De richting van de levering wordt bekeken vanuit Nera."
+      },
+      {
+        "id": "2b",
+        "answer": "Er ontbreekt een vergelijking van de alternatieve kosten: hoeveel andere productie wordt opgegeven, vergeleken met een ander land?",
+        "why": "Een winkelprijs is niet hetzelfde als opgegeven andere productie."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 3,
+    "subquestions": [
+      {
+        "id": "3a",
+        "answer": "“Sol heeft voor beide producten minder middelen nodig dan Terra.” Dat toont een absoluut voordeel van Sol.",
+        "why": "Dit vergelijkt de benodigde middelen voor hetzelfde product."
+      },
+      {
+        "id": "3b",
+        "answer": "“Terra offert daarvoor minder instrumenten op.” Terra heeft een comparatief voordeel bij kleding.",
+        "why": "De vergelijking gaat nu over alternatieve kosten."
+      },
+      {
+        "id": "3c",
+        "answer": "“Terra kan zich meer richten op <b>kleding</b>, omdat het daarvoor relatief minder <b>instrumenten</b> opgeeft.”",
+        "why": "Het gekozen product volgt uit de lagere alternatieve kosten, niet uit de hoogste absolute productie."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 4,
+    "subquestions": [
+      {
+        "id": "4a",
+        "answer": "Minder materiaal voor dezelfde kwaliteit kan de kosten verlagen. Daardoor kan de producent bijvoorbeeld goedkoper aanbieden en aantrekkelijker worden voor de inkoper.",
+        "why": "De verbetering vereist dat het kostenvoordeel relevant is voor de verkoop; een prijsdaling is niet gegeven."
+      },
+      {
+        "id": "4b",
+        "answer": "Minder betrouwbare levering kan klanten kosten als zij de rugzakken op een bepaald tijdstip nodig hebben.",
+        "why": "Een lage prijs is niet het enige koopcriterium in de bron."
+      },
+      {
+        "id": "4c",
+        "answer": "Niet zeker. Nodig is informatie over hoeveel waarde de inkoper hecht aan op tijd leveren vergeleken met de mogelijke besparing.",
+        "why": "De twee veranderingen werken in tegengestelde richting; de bron geeft hun onderlinge gewicht niet."
+      },
+      {
+        "id": "4d",
+        "answer": "De bron vergelijkt niet de opgegeven andere productie in Canto met die in een ander land. Er is dus geen bewijs voor een comparatief voordeel.",
+        "why": "Lager materiaalgebruik bij één product is nog geen vergelijking van alternatieve kosten."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 5,
+    "subquestions": [
+      {
+        "id": "5a",
+        "answer": "Riva. Het maakt beide producten met minder productiemiddelen, bij verwaarloosbare kwaliteitsverschillen.",
+        "why": "Dat is de absolute vergelijking uit de bron."
+      },
+      {
+        "id": "5b",
+        "answer": "Riva richt zich meer op gereedschap; Sora meer op servies. Sora geeft voor extra servies minder gereedschap op.",
+        "why": "Sora heeft lagere alternatieve kosten van servies; Riva’s relatieve kracht ligt bij gereedschap."
+      },
+      {
+        "id": "5c",
+        "answer": "Bijvoorbeeld servies van Sora naar Riva: export voor Sora en import voor Riva.",
+        "why": "Eén levering heeft twee benamingen door het verschillende gezichtspunt."
+      },
+      {
+        "id": "5d",
+        "answer": "Sora kan ondanks zijn absolute nadeel een comparatief voordeel bij servies hebben en daaruit handelsmogelijkheden halen. De ruilafspraken moeten voor beide partijen aantrekkelijk zijn.",
+        "why": "Absoluut minder productief zijn sluit een lagere alternatieve kost niet uit."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 6,
+    "subquestions": [
+      {
+        "id": "6a",
+        "answer": "De tentdoekproducent levert minder defecten bij dezelfde prijs. Die hogere kwaliteit maakt zijn aanbod aantrekkelijker.",
+        "why": "De bron ondersteunt een kwaliteitsverklaring, niet een lagere-prijsverklaring."
+      },
+      {
+        "id": "6b",
+        "answer": "De uitspraak is te breed. De bron noemt binnenlandse producenten die de order verliezen en bevat geen gegevens over werknemers in andere bedrijfstakken.",
+        "why": "Het voordeel voor de winnaar van de order geldt niet automatisch voor alle anderen."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 7,
+    "subquestions": [
+      {
+        "id": "7a",
+        "answer": "Aster heeft bij beide producten een absoluut voordeel: het heeft voor pompen én jassen minder productiemiddelen nodig, bij dezelfde kwaliteit.",
+        "why": "Dit brongegeven vergelijkt middelen per product."
+      },
+      {
+        "id": "7b",
+        "answer": "Brin heeft een comparatief voordeel bij jassen: het offert daarvoor relatief minder pompen op. Aster heeft een comparatief voordeel bij pompen.",
+        "why": "De alternatieve kosten bepalen de relatieve specialisatie, ook als Aster absoluut sterker is in beide activiteiten."
+      },
+      {
+        "id": "7c",
+        "answer": "Aster specialiseert zich meer in pompen; Brin meer in jassen. Jassen van Brin naar Aster zijn export van Brin en import van Aster. Omgekeerd kunnen pompen naar Brin gaan.",
+        "why": "De handelsstromen passen bij de relatieve voordelen."
+      },
+      {
+        "id": "7d",
+        "answer": "De ruilafspraken moeten voor beide partijen aantrekkelijk zijn ten opzichte van zelf produceren. Het op tijd leveren maakt Asters pompen bovendien aantrekkelijk voor buitenlandse kopers.",
+        "why": "De eerste uitspraak gaat over wederzijds voordeel; de tweede over een concreet concurrentiekenmerk."
+      },
+      {
+        "id": "7e",
+        "answer": "Onjuist als algemene conclusie. Jassenmakers in Aster kunnen klanten verliezen aan import uit Brin. De bron vermeldt dat nadeel uitdrukkelijk.",
+        "why": "Minder middelen per product en mogelijk gezamenlijk handelsvoordeel bewijzen niet dat alle inwoners winnen."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 8,
+    "subquestions": [
+      {
+        "id": "8a",
+        "answer": "De advertentie zegt iets over de verkoopprijs. Zij bewijst niet dat het land voor extra koekjes relatief minder andere productie opgeeft dan een ander land.",
+        "why": "Een prijsvergelijking en een vergelijking van alternatieve kosten beantwoorden verschillende vragen."
+      },
+      {
+        "id": "8b",
+        "answer": "Bijvoorbeeld: “Land A en land B maken koekjes en brood met dezelfde productiemiddelen. Voor extra koekjes geeft land A minder brood op dan land B.” Dan heeft A bij koekjes een comparatief voordeel.",
+        "why": "De toegevoegde bron beschrijft de benodigde vergelijking rechtstreeks, zonder getallen."
+      }
+    ],
+    "criteria": [
+      "prijs en alternatieve kosten onderscheiden",
+      "twee landen en twee activiteiten benoemen",
+      "een heldere vergelijking van opgegeven andere productie"
+    ]
+  },
+  {
+    "number": 9,
+    "subquestions": [
+      {
+        "id": "9a",
+        "answer": "Procentuele stijging = (25 − 20) / 20 × 100% = <b>25%</b>.",
+        "why": "De oude prijs van € 20 is de basis."
+      },
+      {
+        "id": "9b",
+        "answer": "Daling = (20 − 25) / 25 × 100% = <b>−20%</b>. De procentuele daling is dus niet even groot als de stijging.",
+        "why": "Bij de terugkeer is € 25 de oude prijs; de basis is veranderd."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 10,
+    "subquestions": [
+      {
+        "id": "10a",
+        "answer": "CS van deze koper = betalingsbereidheid − prijs = 35 − 25 = <b>€ 10</b>.",
+        "why": "Deze koper betaalt € 10 minder dan hij maximaal wilde betalen."
+      },
+      {
+        "id": "10b",
+        "answer": "TO = P × Q = 25 × 40 = <b>€ 1.000</b>. Dit is het geld dat de winkel ontvangt. Voor gezamenlijk CS zijn de betalingsbereidheden van alle kopers nodig.",
+        "why": "Ontvangsten en kopersvoordeel zijn verschillende economische grootheden."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 11,
+    "subquestions": [
+      {
+        "id": "11a",
+        "answer": "Qv = 100 − 2 × 20 = <b>60 producten per week</b>. Qa = 2 × 20 − 20 = <b>20 producten per week</b>.",
+        "why": "Je vult dezelfde gegeven prijs in twee verschillende functies in."
+      },
+      {
+        "id": "11b",
+        "answer": "Qv = 60 hoort bij binnenlandse kopers. Qa = 20 hoort bij binnenlandse producenten.",
+        "why": "Vraag meet verbruik bij deze prijs; aanbod meet binnenlandse productie."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 12,
+    "subquestions": [
+      {
+        "id": "12a",
+        "answer": "Import = Qv − Qa = 70 − 30 = <b>40 kratten per week</b>.",
+        "why": "De buitenlandse levering vult het verschil aan."
+      },
+      {
+        "id": "12b",
+        "answer": "70 is het totale binnenlandse verbruik. Daarvan worden 30 kratten binnenlands geproduceerd; alleen 40 komen van buiten.",
+        "why": "Binnenlands verbruik bestaat hier uit binnenlandse productie plus import."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 13,
+    "subquestions": [
+      {
+        "id": "13a",
+        "answer": "De wereldprijslijn is P = € 20. Het punt op A bij Qa = 40 bepaalt de binnenlandse productie.",
+        "why": "Producenten kiezen hun aanbod bij die prijs."
+      },
+      {
+        "id": "13b",
+        "answer": "Het punt op V bij Qv = 80 bepaalt het verbruik. De pijl toont de 40 tassen die het buitenland levert.",
+        "why": "80 gevraagde tassen minus 40 binnenlandse tassen geeft de import."
+      },
+      {
+        "id": "13c",
+        "answer": "De prijs daalt van € 30 naar € 20. Kopers betalen minder, terwijl binnenlandse producenten minder per tas ontvangen.",
+        "why": "Eén prijsverandering werkt verschillend voor betalen en ontvangen."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 14,
+    "subquestions": [
+      {
+        "id": "14a",
+        "answer": "Binnenlandse productie is <b>40 paren per week</b>; verbruik is <b>80 paren per week</b>. “Productie” hoort bij Qa = 40; “verbruik” bij Qv = 80.",
+        "why": "De twee punten liggen op verschillende lijnen bij dezelfde prijs."
+      },
+      {
+        "id": "14b",
+        "answer": "Import = 80 − 40 = <b>40 paren per week</b>. Markeer het horizontale verschil tussen Q = 40 en Q = 80.",
+        "why": "Er wordt meer binnenlands verbruikt dan geproduceerd."
+      },
+      {
+        "id": "14c",
+        "answer": "Kopers betalen € 10 in plaats van € 15; hun CS stijgt. Binnenlandse producenten ontvangen minder en leveren minder; hun PS daalt.",
+        "why": "De prijsdaling vergroot het kopersvoordeel en verkleint het producentenvoordeel."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 15,
+    "subquestions": [
+      {
+        "id": "15a",
+        "answer": "Bij € 15: productie 30, verbruik 90. Import = 90 − 30 = <b>60 boxen per week</b>.",
+        "why": "De wereldprijs ligt beneden de prijs zonder handel."
+      },
+      {
+        "id": "15b",
+        "answer": "De prijs voor producenten daalt van € 20 naar € 15. Hun productie daalt van 60 naar 30 boxen per week.",
+        "why": "Bij een lagere prijs willen binnenlandse producenten minder leveren."
+      },
+      {
+        "id": "15c",
+        "answer": "CS stijgt. Niet iedereen wint: binnenlandse producenten verliezen surplus door de lagere prijs.",
+        "why": "Een stijgend totaal is verenigbaar met een daling bij één groep."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 16,
+    "subquestions": [
+      {
+        "id": "16a",
+        "answer": "Export = Qa − Qv = 90 − 50 = <b>40 kg kaas per week</b>.",
+        "why": "Buitenlandse kopers nemen het binnenlandse productieoverschot af."
+      },
+      {
+        "id": "16b",
+        "answer": "Producenten ontvangen € 8 in plaats van € 6 per kg. Binnenlandse kopers moeten die hogere prijs ook betalen. PS stijgt en CS daalt.",
+        "why": "De uitvoermogelijkheid is gunstig voor verkopers, niet automatisch voor binnenlandse kopers."
+      },
+      {
+        "id": "16c",
+        "answer": "Vela is klein en prijsnemend: zijn export verandert de gegeven wereldmarktprijs niet.",
+        "why": "Dat is de expliciete modelaanname uit de bron."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 17,
+    "subquestions": [
+      {
+        "id": "17a",
+        "answer": "Bij P = € 30: Qa = <b>60 matten</b> en Qv = <b>100 matten per week</b>. Import = 100 − 60 = <b>40 matten per week</b>.",
+        "why": "De wereldmarkt vult het verschil tussen verbruik en productie."
+      },
+      {
+        "id": "17b",
+        "answer": "Zonder handel: P = € 40 en Q = 80. Met import: P = € 30 en Qa = 60. Binnenlandse producenten ontvangen minder en produceren minder.",
+        "why": "De lagere gegeven prijs leidt tot beweging langs de aanbodlijn."
+      },
+      {
+        "id": "17c",
+        "answer": "Het binnenlandse CS stijgt: kopers betalen minder en het verbruik neemt toe van 80 naar 100 matten.",
+        "why": "Een lagere prijs vergroot het verschil met de betalingsbereidheid voor kopers."
+      },
+      {
+        "id": "17d",
+        "answer": "De conclusie is onjuist. Binnenlandse producenten verliezen surplus, ook als CS + PS samen stijgt.",
+        "why": "Het totaal zegt niet dat ieder onderdeel toeneemt."
+      },
+      {
+        "id": "17e",
+        "answer": "Noro is volgens de bron klein en prijsnemend. Zijn handelsomvang heeft geen invloed op de wereldprijs.",
+        "why": "Dit is een expliciete modelaanname, geen algemeen bewijs voor elk land."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 18,
+    "subquestions": [
+      {
+        "id": "18a",
+        "answer": "De aanname van beschikbare handel zonder transportproblemen gaat voor het dorp niet op.",
+        "why": "Een lage prijs in de haven betekent niet dat het product ook in het dorp beschikbaar is."
+      },
+      {
+        "id": "18b",
+        "answer": "De uitspraak is te sterk. Je moet onder meer weten of en tegen welke vervoerskosten graan het dorp kan bereiken.",
+        "why": "Zonder bereikbaarheid kun je de wereldprijs niet rechtstreeks als dorpsprijs gebruiken."
+      }
+    ],
+    "criteria": [
+      "de geschonden aanname noemen",
+      "havenprijs en bereikbare lokale prijs onderscheiden",
+      "aanvullende vervoersinformatie benoemen"
+    ]
+  },
+  {
+    "number": 19,
+    "subquestions": [
+      {
+        "id": "19a",
+        "answer": "Runo heeft een comparatief voordeel bij schoenen: het offert daarvoor minder meetapparatuur op.",
+        "why": "De relevante vergelijking is de opgegeven andere productie."
+      },
+      {
+        "id": "19b",
+        "answer": "Ook een land met een absoluut nadeel in beide activiteiten kan een comparatief voordeel in één activiteit hebben. Runo kan zich meer op schoenen richten en die uitvoeren.",
+        "why": "Het absolute voordeel bepaalt niet alleen de zin van handel."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 20,
+    "subquestions": [
+      {
+        "id": "20a",
+        "answer": "TO = 5 × 80 = <b>€ 400 per week</b>. GO = 400 / 80 = <b>€ 5 per product</b>.",
+        "why": "Totaal gaat over de hele verkoop; gemiddeld over één product."
+      },
+      {
+        "id": "20b",
+        "answer": "Extra TO = 5 × 10 = <b>€ 50 per week</b>. MO = ΔTO / ΔQ = 50 / 10 = <b>€ 5 per product</b>.",
+        "why": "Elk extra verkocht product levert bij de vaste prijs hetzelfde bedrag op."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 21,
+    "subquestions": [
+      {
+        "id": "21a",
+        "answer": "Opbrengst = belasting per eenheid × belaste hoeveelheid = 3 × 40 = <b>€ 120 per week</b>.",
+        "why": "Alleen de eenheden waarop de belasting werkelijk geldt, tellen mee."
+      },
+      {
+        "id": "21b",
+        "answer": "De vermenigvuldiging gebruikt de belaste hoeveelheid. Bij een invoerheffing zijn dat alleen ingevoerde producten; bij de beschreven algemene belasting zijn alle genoemde eenheden belast.",
+        "why": "Het instrument bepaalt de juiste grondslag."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 22,
+    "subquestions": [
+      {
+        "id": "22a",
+        "answer": "Import = 90 − 60 = <b>30 borden per week</b>. Alleen over deze 30 ontvangt de overheid € 2 per bord.",
+        "why": "60 borden zijn binnenlands geproduceerd en vallen niet onder deze invoerheffing."
+      },
+      {
+        "id": "22b",
+        "answer": "90 is het totale verbruik, niet de import. De breedte moet 90 − 60 = 30 zijn.",
+        "why": "De rechthoek stelt alleen ontvangsten over geïmporteerde eenheden voor."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 23,
+    "subquestions": [
+      {
+        "id": "23a",
+        "answer": "De grenzen zijn Qa = 50 en Qv = 70. Het verschil is 70 − 50 = <b>20 geïmporteerde flessen per week</b>.",
+        "why": "De import vult aan wat binnenlandse producenten niet leveren."
+      },
+      {
+        "id": "23b",
+        "answer": "De grenzen zijn € 20 en € 25 per fles. Het verschil van <b>€ 5 per fles</b> is de invoerheffing.",
+        "why": "De wereldprijs blijft gelijk; de heffing verklaart het verschil met de binnenlandse prijs."
+      },
+      {
+        "id": "23c",
+        "answer": "Oppervlakte = 20 × 5 = <b>€ 100 per week</b>. Importeurs dragen dit bedrag af aan de overheid. Het is geen ontvangst voor binnenlandse producenten.",
+        "why": "Die producenten profiteren van de hogere verkoopprijs, maar ontvangen de belasting niet."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 24,
+    "subquestions": [
+      {
+        "id": "24a",
+        "answer": "Binnenlandse prijs = wereldprijs + heffing. Begin: 10 + 2 = <b>€ 12</b>. Alleen wereldprijs omlaag: 8 + 2 = <b>€ 10</b>. Alleen heffing omhoog: 10 + 4 = <b>€ 14</b>. Beide: 8 + 4 = <b>€ 12 per boek</b>.",
+        "why": "Volgens de bron blijft in elk van deze situaties import bestaan; daarom mag de prijsregel worden gebruikt."
+      },
+      {
+        "id": "24b",
+        "answer": "Bij alleen een lagere wereldprijs daalt de binnenlandse prijs van € 12 naar € 10. Verbruik stijgt en binnenlandse productie daalt, zodat import toeneemt.",
+        "why": "De vraag- en aanbodlijn blijven gelijk; alleen de gekozen prijs verandert."
+      },
+      {
+        "id": "24c",
+        "answer": "Bij beide veranderingen blijft de binnenlandse prijs € 12. Door de onveranderde lijnen blijven productie, verbruik en import gelijk aan het begin.",
+        "why": "De twee prijseffecten heffen elkaar precies op."
+      },
+      {
+        "id": "24d",
+        "answer": "De leerling bekijkt alleen de heffing. De wereldprijs daalt tegelijk met hetzelfde bedrag als de heffing stijgt.",
+        "why": "Een verandering van één component bepaalt niet alleen de som."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 25,
+    "subquestions": [
+      {
+        "id": "25a",
+        "answer": "Import na heffing = 70 − 30 = <b>40 paraplu’s per week</b>. Opbrengst = 2 × 40 = <b>€ 80 per week</b>.",
+        "why": "De import na de maatregel, niet het oude of totale verbruik, is belast."
+      },
+      {
+        "id": "25b",
+        "answer": "Rechthoek van Q = 30 tot Q = 70 en van P = € 10 tot P = € 12. Breedte 40 paraplu’s per week; hoogte € 2 per paraplu.",
+        "why": "Breedte maal hoogte is de eerder berekende € 80 per week."
+      },
+      {
+        "id": "25c",
+        "answer": "Ja, het model toont meer binnenlandse productie: 20 → 30 paraplu’s per week. Kopers betalen echter € 12 in plaats van € 10 en gebruiken minder.",
+        "why": "Een bereikt productiedoel kan samengaan met een nadeel voor kopers."
+      },
+      {
+        "id": "25d",
+        "answer": "Nee. Bij gratis vergunningen zonder invoerheffing ontvangt de overheid niet automatisch geld per geïmporteerde paraplu.",
+        "why": "Een hoeveelheidsgrens is geen belastingbetaling."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 27,
+    "subquestions": [
+      {
+        "id": "27a",
+        "answer": "Import = 100 − 60 = <b>40 rugzakken per week</b>. Heffingsopbrengst = 10 × 40 = <b>€ 400 per week</b>.",
+        "why": "De heffing wordt alleen over de resterende import ontvangen."
+      },
+      {
+        "id": "27b",
+        "answer": "Arceer de rechthoek tussen Q = 60 en Q = 100, en P = € 20 en P = € 30. Breedte: <b>40 rugzakken per week</b>; hoogte: <b>€ 10 per rugzak</b>.",
+        "why": "Hoeveelheid per week maal euro per rugzak geeft euro per week."
+      },
+      {
+        "id": "27c",
+        "answer": "Binnenlandse producenten ontvangen € 30 in plaats van € 20 en leveren 60 in plaats van 40 rugzakken. Kopers betalen meer en gebruiken 100 in plaats van 120 rugzakken.",
+        "why": "De hogere binnenlandse prijs werkt in tegengestelde richting op aanbod en vraag."
+      },
+      {
+        "id": "27d",
+        "answer": "Het productiedoel wordt ondersteund door de stijging van 40 naar 60. Maar scholieren betalen meer, zodat “voor iedereen gunstig” niet volgt.",
+        "why": "Een doel over productie is niet hetzelfde als een oordeel over alle groepen."
+      },
+      {
+        "id": "27e",
+        "answer": "Het alternatief geeft vergunningen gratis en heft geen invoerheffing. Er is dus geen vergelijkbare betaling per ingevoerde rugzak aan de overheid.",
+        "why": "Zelfs bij dezelfde importhoeveelheid hoeft de opbrengst niet dezelfde te zijn."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 26,
+    "subquestions": [
+      {
+        "id": "26a",
+        "answer": "De mogelijke importprijs is 12 + 9 = € 21. Maar de binnenlandse markt bereikt al bij <b>€ 18</b> evenwicht zonder import. € 21 wordt dus niet de binnenlandse prijs.",
+        "why": "De prijsregel voor voortgaande import geldt hier niet meer."
+      },
+      {
+        "id": "26b",
+        "answer": "Import = <b>0 producten</b> en opbrengst = 9 × 0 = <b>€ 0</b>.",
+        "why": "Zonder import zijn er geen ingevoerde eenheden waarover de heffing wordt ontvangen."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 28,
+    "subquestions": [
+      {
+        "id": "28a",
+        "answer": "Een hogere prijs en productie kunnen ondersteunen dat de beschermde producenten meer kunnen afzetten. Ze bewijzen niet dat in het hele land meer banen ontstaan. Zelfs het aantal banen in deze bedrijfstak is niet rechtstreeks gegeven.",
+        "why": "Het verband tussen productie, werkgelegenheid en andere bedrijfstakken ontbreekt."
+      },
+      {
+        "id": "28b",
+        "answer": "Bijvoorbeeld gegevens over personeelsinzet bij de beschermde producenten en over werkgelegenheid in andere bedrijfstakken die met hogere inkoopprijzen of minder verkoop te maken krijgen.",
+        "why": "Voor een landelijke conclusie zijn gegevens buiten deze ene productie-uitkomst nodig."
+      }
+    ],
+    "criteria": [
+      "productie niet gelijkstellen aan banen",
+      "sector en heel land onderscheiden",
+      "twee relevante informatiebehoeften noemen"
+    ]
+  },
+  {
+    "number": 29,
+    "subquestions": [
+      {
+        "id": "29a",
+        "answer": "Algemene belasting: 2 × 100 = <b>€ 200</b>. Invoerheffing: 2 × 30 = <b>€ 60</b>.",
+        "why": "De belaste hoeveelheid verschilt."
+      },
+      {
+        "id": "29b",
+        "answer": "Een gelijk bedrag per product wordt met verschillende hoeveelheden vermenigvuldigd.",
+        "why": "Het tarief alleen bepaalt de totale ontvangsten niet."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 30,
+    "subquestions": [
+      {
+        "id": "30a",
+        "answer": "%ΔP = (12 − 10) / 10 × 100% = 20%. %ΔQv = (90 − 100) / 100 × 100% = −10%. Ev = −10% / 20% = <b>−0,5</b>.",
+        "why": "Beide percentages gebruiken de oude waarde."
+      },
+      {
+        "id": "30b",
+        "answer": "|Ev| = 0,5 &lt; 1, dus <b>prijsinelastisch</b>.",
+        "why": "De hoeveelheid reageert procentueel minder sterk dan de prijs."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 31,
+    "subquestions": [
+      {
+        "id": "31a",
+        "answer": "<b>Comparatief voordeel.</b> De vraag gaat over hoeveel andere productie wordt opgegeven.",
+        "why": "Dat zijn alternatieve kosten, niet de absolute hoeveelheid benodigde middelen."
+      },
+      {
+        "id": "31b",
+        "answer": "<b>Import.</b> Het gaat om wat uit het buitenland wordt gekocht.",
+        "why": "Binnenlands verbruik kan deels met binnenlandse productie worden geleverd."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 32,
+    "subquestions": [
+      {
+        "id": "32a",
+        "answer": "Export = Qa − Qv = 100 − 60 = <b>40 kg appels per week</b>.",
+        "why": "Het buitenland koopt het verschil tussen productie en binnenlands verbruik."
+      },
+      {
+        "id": "32b",
+        "answer": "De teler ontvangt € 3 in plaats van € 2 per kg; de koper betaalt juist die hogere prijs.",
+        "why": "Dezelfde prijsstijging is een voordeel voor de verkoper en een nadeel voor de koper."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 33,
+    "subquestions": [
+      {
+        "id": "33a",
+        "answer": "Toren geeft voor extra verpakkingen relatief veel scheepsonderdelen op. Vale geeft daarvoor minder op. Verpakkingen uit Vale kopen kan dus passen bij specialisatie op basis van comparatief voordeel.",
+        "why": "Toren kan absoluut sterker zijn en toch een hogere alternatieve kost van verpakkingen hebben."
+      },
+      {
+        "id": "33b",
+        "answer": "De levering is export vanuit Vale en import vanuit Toren.",
+        "why": "De grens wordt vanuit twee kanten bekeken."
+      },
+      {
+        "id": "33c",
+        "answer": "De verpakkingen komen op tijd aan. Dat ondersteunt een voordeel in betrouwbare levering.",
+        "why": "Concurrentiepositie gaat ook over leveringskenmerken, niet alleen over productie-efficiëntie."
+      },
+      {
+        "id": "33d",
+        "answer": "De bron spreekt de uitspraak tegen: een lokale verpakkingsproducent in Toren verliest een klant.",
+        "why": "Voordeel voor één inkopend bedrijf betekent geen voordeel voor alle bedrijven."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 34,
+    "subquestions": [
+      {
+        "id": "34a",
+        "answer": "Import = 90 − 70 = <b>20 doeken per week</b>. Opbrengst = 3 × 20 = <b>€ 60 per week</b>.",
+        "why": "Alleen de resterende import wordt belast."
+      },
+      {
+        "id": "34b",
+        "answer": "De binnenlandse producent ontvangt € 12 in plaats van € 9 en kan 70 in plaats van 50 doeken leveren.",
+        "why": "De heffing beperkt de concurrentiedruk van de goedkope import."
+      },
+      {
+        "id": "34c",
+        "answer": "De koper moet € 12 in plaats van € 9 betalen; het verbruik daalt van 110 naar 90.",
+        "why": "De bescherming heeft een prijs voor gebruikers."
+      },
+      {
+        "id": "34d",
+        "answer": "Bijvoorbeeld: “Het productiedoel wordt ondersteund: binnenlandse productie stijgt van 50 naar 70. Dat maakt de heffing niet gunstig voor iedereen, omdat kopers meer betalen.”",
+        "why": "De conclusie gebruikt het gekozen criterium en benoemt een tegengesteld belang."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 36,
+    "subquestions": [
+      {
+        "id": "36a",
+        "answer": "De aanname dat de producten volledig gelijkwaardig zijn. De bron noemt verschillen in levensduur en levertijd.",
+        "why": "Dan is één prijs niet het enige relevante onderscheid."
+      },
+      {
+        "id": "36b",
+        "answer": "Een koper die snel een jas nodig heeft, kan de snelle levering belangrijk vinden. Een andere koper kan meer waarde hechten aan lange levensduur.",
+        "why": "Verschillende voorkeuren kunnen bij gelijke prijzen toch verschillende keuzes geven."
+      },
+      {
+        "id": "36c",
+        "answer": "Bijvoorbeeld: “In het model met gelijkwaardige jassen is een gelijk prijskaartje voldoende voor die vergelijking. In de bron zijn de jassen niet gelijkwaardig; de voorkeur van de koper bepaalt mede de keuze.”",
+        "why": "Je trekt een modelconclusie niet zonder controle door naar een andere situatie."
+      }
+    ],
+    "criteria": [
+      "de gelijkwaardigheidsaanname herkennen",
+      "beide bronkenmerken gebruiken",
+      "de conclusie beperken tot wat model en bron ondersteunen"
+    ]
+  },
+  {
+    "number": 35,
+    "subquestions": [
+      {
+        "id": "35a",
+        "answer": "Pelta offert voor extra jassen minder machineproductie op. Het heeft dus lagere alternatieve kosten van jassen, ook al gebruikt Nerin absoluut minder middelen voor beide producten.",
+        "why": "De bron maakt het verschil tussen absoluut en comparatief voordeel expliciet."
+      },
+      {
+        "id": "35b",
+        "answer": "Import = 100 − 60 = <b>40 jassen per week</b>. Opbrengst = 5 × 40 = <b>€ 200 per week</b>.",
+        "why": "De import na de heffing bepaalt de ontvangsten."
+      },
+      {
+        "id": "35c",
+        "answer": "Jassenmakers ontvangen € 15 in plaats van € 10 en produceren 60 in plaats van 40 jassen. Kopers betalen € 5 meer en gebruiken 100 in plaats van 120.",
+        "why": "De stijgende binnenlandse prijs helpt aanbieders en benadeelt gebruikers."
+      },
+      {
+        "id": "35d",
+        "answer": "Rechthoek van Q = 60 tot 100 en van P = € 10 tot 15. Breedte = <b>40 jassen per week</b>; hoogte = <b>€ 5 per jas</b>.",
+        "why": "Deze oppervlakte is heffing maal ingevoerde hoeveelheid."
+      },
+      {
+        "id": "35e",
+        "answer": "Volgens bron C zijn de vergunningen gratis en is er geen invoerheffing. De overheid ontvangt dus niet hetzelfde bedrag per ingevoerde jas.",
+        "why": "Een importgrens creëert niet automatisch belastingontvangsten."
+      },
+      {
+        "id": "35f",
+        "answer": "Het productiedoel wordt ondersteund: productie stijgt van 40 naar 60. Maar gezinnen betalen € 15 in plaats van € 10 per jas. De conclusie “voor alle inwoners gunstig” is daarom te breed.",
+        "why": "De twee concrete gegevens laten zien dat doelbereik en gevolgen voor alle groepen niet samenvallen."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 37,
+    "subquestions": [
+      {
+        "id": "37a",
+        "answer": "Belasting per product = 12 − 9 = <b>€ 3</b>. Opbrengst = 3 × 40 = <b>€ 120 per week</b>.",
+        "why": "Het verschil tussen kopersprijs en verkopersontvangst is de belastingwig."
+      },
+      {
+        "id": "37b",
+        "answer": "De bron zegt dat alle 40 producten belast zijn. Een invoerheffing betreft alleen ingevoerde producten; een deel van de binnenlandse verkoop kan binnenlands geproduceerd zijn.",
+        "why": "De bron en de regeling bepalen welke hoeveelheid belast is."
+      }
+    ],
+    "criteria": []
+  },
+  {
+    "number": 38,
+    "subquestions": [
+      {
+        "id": "38a",
+        "answer": "TO = 8 × 100 = <b>€ 800 per week</b>. Winst = TO − TK = 800 − 650 = <b>€ 150 per week</b>.",
+        "why": "Winst is wat van de opbrengst overblijft na alle opgegeven kosten."
+      },
+      {
+        "id": "38b",
+        "answer": "De winst maakt toetreding aantrekkelijk. Door toetreding stijgt het marktaanbod, waardoor de prijs daalt bij gelijkblijvende vraag. Onder de opgegeven concurrentie- en kostenvoorwaarden verdwijnt de economische winst op lange termijn.",
+        "why": "Vrije toetreding kan de extra winstmogelijkheid wegnemen."
+      }
+    ],
+    "criteria": []
+  }
+]
