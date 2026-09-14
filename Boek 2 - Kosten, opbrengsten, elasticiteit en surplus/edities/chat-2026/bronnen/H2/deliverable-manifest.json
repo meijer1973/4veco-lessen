@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-06",
+  "edition": "standalone print edition",
+  "local_validation": "397 passed / 0 failed",
+  "deliverables": {
+    "Boek_2_H2_Elasticiteit.pdf": {
+      "pages": 36,
+      "bytes": 812273,
+      "sha256": "1463172ae0f7fb2b7639f9fbe3056b20f96c64f62c64a7836f606f6eedc04f5f"
+    },
+    "Boek_2_H2_Antwoorden.pdf": {
+      "pages": 18,
+      "bytes": 77071,
+      "sha256": "1042846b8687663ed87825a6f5e7fe6886f6e254eaf3f738ad2324f5e2fc6b06"
+    },
+    "Boek_2_H2_Docenteninformatie.pdf": {
+      "pages": 6,
+      "bytes": 47005,
+      "sha256": "37178f88903839897241dfa7ed16a45d023a03b6883c2cff82b75e5a9345ebf4"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "review_date": "2026-09-06",
+  "access": "GitHub connector; direct raw access failed in environment. No repository mutation.",
+  "materials_not_used": "Existing Chapter 3 student text, examples, exercises and graphics.",
+  "design_reuse": "Local renderer and visual styling adapted from the user-approved standalone Chapter 2 source package.",
+  "sources": [
+    {
+      "repo": "4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "91778371a11cbe9839a4822c3989e90e7317850a",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repo": "4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5",
+      "url": "https://github.com/meijer1973/4veco-lessen/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "references/authored/course-target-exercises.json",
+      "blob_sha": "5680842328576b63e2858ce8e354030a3a458410",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/references/authored/course-target-exercises.json"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "references/authored/book-outlines/book-2-outline.md",
+      "blob_sha": "abb135f812456ff4f4dad58dfa1724a3695fb0a4",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/references/authored/book-outlines/book-2-outline.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "skills/econ-exercise-builder.md",
+      "blob_sha": "5504c8e8a325864978c76867b15b857c118df19d",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "skills/econ-textbook-paragraph.md",
+      "blob_sha": "b48ff1f0d02748e6e4d1f98d6d892ac786562c3b",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-textbook-paragraph.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "skills/econ-didactiek.md",
+      "blob_sha": "5a38065e42754e0490e541002ba4465bf3dbeda8",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-didactiek.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "skills/economic-graph.md",
+      "blob_sha": "938d5e61c46de0d60b8bdeaf0aced2572715c2d0",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/economic-graph.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "skills/econ-pdf-builder.md",
+      "blob_sha": "81c7a8700c934d9eff3292dbb881372064c46562",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-pdf-builder.md"
+    },
+    {
+      "repo": "4veco-platform",
+      "path": "references/authored/economic_mathematical_precision_reference.md",
+      "blob_sha": "b735b7f91bace804b5cd9f88269e7451e3e7e4f6",
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/references/authored/economic_mathematical_precision_reference.md"
+    }
+  ]
+}

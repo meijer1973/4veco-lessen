@@ -64,6 +64,2022 @@
         "lessen-team-roadmap.md"
       ],
       "live_follow_up": "lessen-team-roadmap.md"
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – antwoorden.html",
+      "original_blob": "1ba897aa7ac8acbdee993f2034492e7476481e2e",
+      "final_blob": "1ba897aa7ac8acbdee993f2034492e7476481e2e",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – antwoorden.md",
+      "original_blob": "451bfeb4a471cefc3cdf572a4521c69f3df52da0",
+      "final_blob": "451bfeb4a471cefc3cdf572a4521c69f3df52da0",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – antwoorden.pdf",
+      "original_blob": "027001dec6cb311b2fa4f11e54e1f5834d8c75c2",
+      "final_blob": "027001dec6cb311b2fa4f11e54e1f5834d8c75c2",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – hoofdstuk.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – hoofdstuk.html",
+      "original_blob": "1b1829bc5c90d1b401d9e2265f6fe61df1239549",
+      "final_blob": "1b1829bc5c90d1b401d9e2265f6fe61df1239549",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – hoofdstuk.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – hoofdstuk.md",
+      "original_blob": "1a584343de49c8c0e07bc4e3ca1f0183e531c439",
+      "final_blob": "1a584343de49c8c0e07bc4e3ca1f0183e531c439",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – hoofdstuk.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1 Kosten en opbrengsten – hoofdstuk.pdf",
+      "original_blob": "8ce9bf80b3139d2dac4f19da6c697ef324200011",
+      "final_blob": "8ce9bf80b3139d2dac4f19da6c697ef324200011",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.html",
+      "original_blob": "be09334194c77edff873fbe517d9e0528a735fea",
+      "final_blob": "be09334194c77edff873fbe517d9e0528a735fea",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.md",
+      "original_blob": "6b1442c6fa17c77e644c594279fcd73a5f3df6cb",
+      "final_blob": "6b1442c6fa17c77e644c594279fcd73a5f3df6cb",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.pdf",
+      "original_blob": "73ab5ebde795d0dc47a4559858606e9d541d7acb",
+      "final_blob": "73ab5ebde795d0dc47a4559858606e9d541d7acb",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.html",
+      "original_blob": "ee994bf1b5c9f303f745ae517dc12d706e7596e8",
+      "final_blob": "ee994bf1b5c9f303f745ae517dc12d706e7596e8",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.md",
+      "original_blob": "a1e4f4cc97f6b565c70cfe812dc739a0cd349e75",
+      "final_blob": "a1e4f4cc97f6b565c70cfe812dc739a0cd349e75",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.pdf",
+      "original_blob": "101210e8b93ed6a0a4f6f5c2154373d1c45d4947",
+      "final_blob": "101210e8b93ed6a0a4f6f5c2154373d1c45d4947",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.zip",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.zip",
+      "original_blob": "44ab041c5ba6bb64babc8813e45e142b3128250a",
+      "final_blob": "44ab041c5ba6bb64babc8813e45e142b3128250a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.html",
+      "original_blob": "4fdd142c63c760c706f6afedcf842745f65362b9",
+      "final_blob": "4fdd142c63c760c706f6afedcf842745f65362b9",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.md",
+      "original_blob": "6aafb7195589bb98b51f4ca364c78bc9680d46b3",
+      "final_blob": "6aafb7195589bb98b51f4ca364c78bc9680d46b3",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.pdf",
+      "original_blob": "f9e4d4475ed9391f20230e017f796dc71cdda4ab",
+      "final_blob": "f9e4d4475ed9391f20230e017f796dc71cdda4ab",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1-quality-ref.yaml",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1-quality-ref.yaml",
+      "original_blob": "034f044f2244695f62cf13181fece8dc9a5afc9e",
+      "final_blob": "034f044f2244695f62cf13181fece8dc9a5afc9e",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1-review.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/2.1.1-review.md",
+      "original_blob": "0b31fb470253b7f61206a63a4ae6c5085f48a7cd",
+      "final_blob": "0b31fb470253b7f61206a63a4ae6c5085f48a7cd",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/_assets/2.1.1_fig_1.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/_assets/2.1.1_fig_1.png",
+      "original_blob": "8712bc93b82ed4baeb6477b484aa304ff07af6a0",
+      "final_blob": "8712bc93b82ed4baeb6477b484aa304ff07af6a0",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/_assets/2.1.1_fig_1.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/_assets/2.1.1_fig_1.svg",
+      "original_blob": "65c7403b4cb974f4771d10adcdc6aa47e70e6094",
+      "final_blob": "65c7403b4cb974f4771d10adcdc6aa47e70e6094",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/build_pdf.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.1 Kostenstructuren/build_pdf.py",
+      "original_blob": "ebc721d547352320438edecfc28e5b5bffd96e5b",
+      "final_blob": "ebc721d547352320438edecfc28e5b5bffd96e5b",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.html",
+      "original_blob": "4a76a9f96aa3e19138e5ac8921a15f4e3b722fff",
+      "final_blob": "4a76a9f96aa3e19138e5ac8921a15f4e3b722fff",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.md",
+      "original_blob": "052cbfa7ec1bdbb9aeccc84d2608687d00035cb5",
+      "final_blob": "052cbfa7ec1bdbb9aeccc84d2608687d00035cb5",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.pdf",
+      "original_blob": "632ec6c9b6c58121b1dade5a206046360cc5caaa",
+      "final_blob": "632ec6c9b6c58121b1dade5a206046360cc5caaa",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.html",
+      "original_blob": "49078c84ba350d575f3368aebafc9bdce866398d",
+      "final_blob": "49078c84ba350d575f3368aebafc9bdce866398d",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.md",
+      "original_blob": "11f1d1e9dc04e4cf92b67658fe638e79432f1bfd",
+      "final_blob": "11f1d1e9dc04e4cf92b67658fe638e79432f1bfd",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.pdf",
+      "original_blob": "104a5afeb8a7eddf2296eab25e13c1de0373bd4c",
+      "final_blob": "104a5afeb8a7eddf2296eab25e13c1de0373bd4c",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.html",
+      "original_blob": "e4555c7f1502b193d507ca5fe873c34b980c1783",
+      "final_blob": "e4555c7f1502b193d507ca5fe873c34b980c1783",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.md",
+      "original_blob": "4a90430ca927e2b5ded7c04ae79a43feafe8287a",
+      "final_blob": "4a90430ca927e2b5ded7c04ae79a43feafe8287a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.pdf",
+      "original_blob": "26989d047ad7e9cb808ac0955931bbe6fbae7e00",
+      "final_blob": "26989d047ad7e9cb808ac0955931bbe6fbae7e00",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2-quality-ref.yaml",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2-quality-ref.yaml",
+      "original_blob": "95727ee7ca4655ad585071bbff410613a0028d58",
+      "final_blob": "95727ee7ca4655ad585071bbff410613a0028d58",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2-review.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/2.1.2-review.md",
+      "original_blob": "7d1575bc89956de2d1f602d0c0365e63c94a9e48",
+      "final_blob": "7d1575bc89956de2d1f602d0c0365e63c94a9e48",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_1.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_1.png",
+      "original_blob": "2f0f8d19de09b58457bfff8299c214a18e441326",
+      "final_blob": "2f0f8d19de09b58457bfff8299c214a18e441326",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_1.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_1.svg",
+      "original_blob": "2cd1f1796ca648264d3d904e3661777ce9e136c8",
+      "final_blob": "2cd1f1796ca648264d3d904e3661777ce9e136c8",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_2.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_2.png",
+      "original_blob": "d60c4566558883787e2dde3600babc0f60a24323",
+      "final_blob": "d60c4566558883787e2dde3600babc0f60a24323",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_2.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_2.svg",
+      "original_blob": "04e49c3ff8bad2987f60d4481736a1f0c51d4cf5",
+      "final_blob": "04e49c3ff8bad2987f60d4481736a1f0c51d4cf5",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_paragraph-plan.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/_paragraph-plan.md",
+      "original_blob": "5c00480735dbc0c08ec41d350c2215018a142f8e",
+      "final_blob": "5c00480735dbc0c08ec41d350c2215018a142f8e",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/build_pdf.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.2 Opbrengsten, winst en break-even/build_pdf.py",
+      "original_blob": "5325f92fb993052a9aa5fd4ba19463990e22d855",
+      "final_blob": "5325f92fb993052a9aa5fd4ba19463990e22d855",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.html",
+      "original_blob": "a4e9b4b33016bb4832194fe202c80cce261f9552",
+      "final_blob": "a4e9b4b33016bb4832194fe202c80cce261f9552",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.md",
+      "original_blob": "bb3e069da03f43a4c501a3f7a8ba89308bd960f9",
+      "final_blob": "bb3e069da03f43a4c501a3f7a8ba89308bd960f9",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.pdf",
+      "original_blob": "e81cc1692b1bfdd144af085c210ee3b7c550615e",
+      "final_blob": "e81cc1692b1bfdd144af085c210ee3b7c550615e",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.html",
+      "original_blob": "9cb68040ce1d11ced8280716eccf40cd700b1283",
+      "final_blob": "9cb68040ce1d11ced8280716eccf40cd700b1283",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.md",
+      "original_blob": "1fd7b30a5e67875b48e521eb8c17643ca523e5f2",
+      "final_blob": "1fd7b30a5e67875b48e521eb8c17643ca523e5f2",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.pdf",
+      "original_blob": "e36a5b1a9bd353ff377ca653912856493fd3ab59",
+      "final_blob": "e36a5b1a9bd353ff377ca653912856493fd3ab59",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.html",
+      "original_blob": "56af24b6d3902059955f490eb3c5bf0f2f78e7aa",
+      "final_blob": "56af24b6d3902059955f490eb3c5bf0f2f78e7aa",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.md",
+      "original_blob": "277991c050dad61a0d63b9dc1194df3c8506a04f",
+      "final_blob": "277991c050dad61a0d63b9dc1194df3c8506a04f",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.pdf",
+      "original_blob": "ada6014eeb0dc2c8e98c71834bd584ecf935908a",
+      "final_blob": "ada6014eeb0dc2c8e98c71834bd584ecf935908a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3-quality-ref.yaml",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3-quality-ref.yaml",
+      "original_blob": "daaec5a5eb4258aab787745a72e7261045673283",
+      "final_blob": "daaec5a5eb4258aab787745a72e7261045673283",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3-review.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3-review.md",
+      "original_blob": "dd04a844041b032efd660bd5bafc959446c8913e",
+      "final_blob": "dd04a844041b032efd660bd5bafc959446c8913e",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_1.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_1.png",
+      "original_blob": "8255a246eb353c17715a8841b1026f8ff4054147",
+      "final_blob": "8255a246eb353c17715a8841b1026f8ff4054147",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_1.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_1.svg",
+      "original_blob": "edd4703bdb74a21b52c62adfd3b76ba0fdb59952",
+      "final_blob": "edd4703bdb74a21b52c62adfd3b76ba0fdb59952",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_2.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_2.png",
+      "original_blob": "7691dc9c4270c3c012a693aefe7478898e395c27",
+      "final_blob": "7691dc9c4270c3c012a693aefe7478898e395c27",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_2.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_2.svg",
+      "original_blob": "0596fe91c8ca50c57606ef5bdd1ade235206f603",
+      "final_blob": "0596fe91c8ca50c57606ef5bdd1ade235206f603",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_paragraph-plan.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/_paragraph-plan.md",
+      "original_blob": "4731dfae917d7feca1d26726536ceb41cf7453a3",
+      "final_blob": "4731dfae917d7feca1d26726536ceb41cf7453a3",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/build_pdf.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten/build_pdf.py",
+      "original_blob": "7ec95469408c76408cea59831acd2b6cf016aad5",
+      "final_blob": "7ec95469408c76408cea59831acd2b6cf016aad5",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.html",
+      "original_blob": "b0710ac5b313df6824775d7707e9a8febbfd2448",
+      "final_blob": "b0710ac5b313df6824775d7707e9a8febbfd2448",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.md",
+      "original_blob": "4057cd3e71d37a63cb77e4e963be008236a1fac4",
+      "final_blob": "4057cd3e71d37a63cb77e4e963be008236a1fac4",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.pdf",
+      "original_blob": "23b66507062677c399fc354100f45c544a9d2bde",
+      "final_blob": "23b66507062677c399fc354100f45c544a9d2bde",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.html",
+      "original_blob": "d85c36728c7cea44688c50c9fb02a944178dee64",
+      "final_blob": "d85c36728c7cea44688c50c9fb02a944178dee64",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.md",
+      "original_blob": "6849a172e869131139f9cb422e3fc2e25c7a8522",
+      "final_blob": "6849a172e869131139f9cb422e3fc2e25c7a8522",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.pdf",
+      "original_blob": "de46b02b1d0c56e6087c6a18b643ef501c83fd9a",
+      "final_blob": "de46b02b1d0c56e6087c6a18b643ef501c83fd9a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4-quality-ref.yaml",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4-quality-ref.yaml",
+      "original_blob": "9a1a04bdbd670b77ff456bd583e01ca2a6059e26",
+      "final_blob": "9a1a04bdbd670b77ff456bd583e01ca2a6059e26",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4-review.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/2.1.4-review.md",
+      "original_blob": "640b03cd3ac00a9c385ef2c3bf18282cbbda8315",
+      "final_blob": "640b03cd3ac00a9c385ef2c3bf18282cbbda8315",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/_assets/.gitkeep",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/_assets/.gitkeep",
+      "original_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "final_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/_paragraph-plan.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/_paragraph-plan.md",
+      "original_blob": "24e44b620c56a3b63fe7976f3e20aa156a091ede",
+      "final_blob": "24e44b620c56a3b63fe7976f3e20aa156a091ede",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/build_pdf.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/2.1.4 Gemengde opgaven/build_pdf.py",
+      "original_blob": "82eea98246b31baa925f650c31ba018793023525",
+      "final_blob": "82eea98246b31baa925f650c31ba018793023525",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.1_fig_1.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.1_fig_1.png",
+      "original_blob": "8712bc93b82ed4baeb6477b484aa304ff07af6a0",
+      "final_blob": "8712bc93b82ed4baeb6477b484aa304ff07af6a0",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.1_fig_1.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.1_fig_1.svg",
+      "original_blob": "65c7403b4cb974f4771d10adcdc6aa47e70e6094",
+      "final_blob": "65c7403b4cb974f4771d10adcdc6aa47e70e6094",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.2_fig_1.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.2_fig_1.png",
+      "original_blob": "2f0f8d19de09b58457bfff8299c214a18e441326",
+      "final_blob": "2f0f8d19de09b58457bfff8299c214a18e441326",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.2_fig_1.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.2_fig_1.svg",
+      "original_blob": "2cd1f1796ca648264d3d904e3661777ce9e136c8",
+      "final_blob": "2cd1f1796ca648264d3d904e3661777ce9e136c8",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.2_fig_2.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.2_fig_2.png",
+      "original_blob": "d60c4566558883787e2dde3600babc0f60a24323",
+      "final_blob": "d60c4566558883787e2dde3600babc0f60a24323",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.2_fig_2.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.2_fig_2.svg",
+      "original_blob": "04e49c3ff8bad2987f60d4481736a1f0c51d4cf5",
+      "final_blob": "04e49c3ff8bad2987f60d4481736a1f0c51d4cf5",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.3_fig_1.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.3_fig_1.png",
+      "original_blob": "8255a246eb353c17715a8841b1026f8ff4054147",
+      "final_blob": "8255a246eb353c17715a8841b1026f8ff4054147",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.3_fig_1.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.3_fig_1.svg",
+      "original_blob": "edd4703bdb74a21b52c62adfd3b76ba0fdb59952",
+      "final_blob": "edd4703bdb74a21b52c62adfd3b76ba0fdb59952",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.3_fig_2.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.3_fig_2.png",
+      "original_blob": "7691dc9c4270c3c012a693aefe7478898e395c27",
+      "final_blob": "7691dc9c4270c3c012a693aefe7478898e395c27",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.3_fig_2.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_assets/2.1.3_fig_2.svg",
+      "original_blob": "0596fe91c8ca50c57606ef5bdd1ade235206f603",
+      "final_blob": "0596fe91c8ca50c57606ef5bdd1ade235206f603",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/_chapter-plan.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/_chapter-plan.md",
+      "original_blob": "fd7bfc2817a7c6d1bdc3b87d4ac5fd2e67af0c5f",
+      "final_blob": "fd7bfc2817a7c6d1bdc3b87d4ac5fd2e67af0c5f",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.1 Hoofdstuk Kosten en opbrengsten/build_chapter.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.1 Hoofdstuk Kosten en opbrengsten/build_chapter.py",
+      "original_blob": "881a2457a6c6fde04e38bc5cac1a2d89fa5ed51e",
+      "final_blob": "881a2457a6c6fde04e38bc5cac1a2d89fa5ed51e",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – antwoorden.html",
+      "original_blob": "cff0afed506cb07884e97f252a89f7fb4628bfbe",
+      "final_blob": "cff0afed506cb07884e97f252a89f7fb4628bfbe",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – antwoorden.md",
+      "original_blob": "7a5c712fd1e3810e355b7edfe9d9f380d7e7d908",
+      "final_blob": "7a5c712fd1e3810e355b7edfe9d9f380d7e7d908",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – antwoorden.pdf",
+      "original_blob": "e0861df19e2a76c746eaabcf7b0bdde01f41337c",
+      "final_blob": "e0861df19e2a76c746eaabcf7b0bdde01f41337c",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – hoofdstuk.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – hoofdstuk.html",
+      "original_blob": "27265cc4ec03c7e4fbe200a17556f68e9fdc1d7c",
+      "final_blob": "27265cc4ec03c7e4fbe200a17556f68e9fdc1d7c",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – hoofdstuk.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – hoofdstuk.md",
+      "original_blob": "c6a93dc1dfaf7fd7be79d576ca988cdb05327c61",
+      "final_blob": "c6a93dc1dfaf7fd7be79d576ca988cdb05327c61",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – hoofdstuk.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2 Elasticiteit – hoofdstuk.pdf",
+      "original_blob": "5f253c46e7ff4d6daa484f5adf6dc73bade221b0",
+      "final_blob": "5f253c46e7ff4d6daa484f5adf6dc73bade221b0",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.html",
+      "original_blob": "9e35913e81b2d9be5bfed6f66a2cd52f74123421",
+      "final_blob": "9e35913e81b2d9be5bfed6f66a2cd52f74123421",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.md",
+      "original_blob": "8b620bf1024f761ab57f30ec4dc5e4b6325924b1",
+      "final_blob": "8b620bf1024f761ab57f30ec4dc5e4b6325924b1",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.pdf",
+      "original_blob": "3ed9a4374b6cbe25f8e0c539cb8cc310ffce1846",
+      "final_blob": "3ed9a4374b6cbe25f8e0c539cb8cc310ffce1846",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.html",
+      "original_blob": "526aa08d7210f6c836053cf260c47ad92c84e9e8",
+      "final_blob": "526aa08d7210f6c836053cf260c47ad92c84e9e8",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.md",
+      "original_blob": "c27ddafe4d44711ab47cf5b4581bcab998e8151f",
+      "final_blob": "c27ddafe4d44711ab47cf5b4581bcab998e8151f",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.pdf",
+      "original_blob": "f237a97ce0ba5c4f837e54cb1078a53db411e0b9",
+      "final_blob": "f237a97ce0ba5c4f837e54cb1078a53db411e0b9",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.html",
+      "original_blob": "0d1eba3bf08bcad34691caea5db306398471fc2b",
+      "final_blob": "0d1eba3bf08bcad34691caea5db306398471fc2b",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.md",
+      "original_blob": "871f8701e659ff1f318a1720b34edb60afc78cb4",
+      "final_blob": "871f8701e659ff1f318a1720b34edb60afc78cb4",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.pdf",
+      "original_blob": "caf7bc23c1b925cb1142ee544d0c34c57309ef14",
+      "final_blob": "caf7bc23c1b925cb1142ee544d0c34c57309ef14",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1-quality-ref.yaml",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1-quality-ref.yaml",
+      "original_blob": "229f3b4ebf5a4b72907060af7a42422daf3f8c0f",
+      "final_blob": "229f3b4ebf5a4b72907060af7a42422daf3f8c0f",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1-review.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/2.2.1-review.md",
+      "original_blob": "e01e65666d8f09481d598233d3ff1bacc5fe7dd3",
+      "final_blob": "e01e65666d8f09481d598233d3ff1bacc5fe7dd3",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_1.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_1.png",
+      "original_blob": "93ed067dd6fca125362cbce9d4a706c31aab402a",
+      "final_blob": "93ed067dd6fca125362cbce9d4a706c31aab402a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_1.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_1.svg",
+      "original_blob": "27c230ca74a81d22b5ba7ad28eb47f4b50e4b84a",
+      "final_blob": "27c230ca74a81d22b5ba7ad28eb47f4b50e4b84a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_2.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_2.png",
+      "original_blob": "16036c5e8742f80860784626158da00986c03c03",
+      "final_blob": "16036c5e8742f80860784626158da00986c03c03",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_2.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_2.svg",
+      "original_blob": "d91d7ca45bc700a1c034f05f48e22f7bd56b654b",
+      "final_blob": "d91d7ca45bc700a1c034f05f48e22f7bd56b654b",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_paragraph-plan.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/_paragraph-plan.md",
+      "original_blob": "c6ff938f230ebf0fcc38b239fd9f5253c2b4caab",
+      "final_blob": "c6ff938f230ebf0fcc38b239fd9f5253c2b4caab",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/build_pdf.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.1 Prijselasticiteit/build_pdf.py",
+      "original_blob": "5f17e4f0f64c468c1bd788af0bdc8b242edff52a",
+      "final_blob": "5f17e4f0f64c468c1bd788af0bdc8b242edff52a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.html",
+      "original_blob": "9b7cdf61228fc3f486bb04e0b6e1bf422daabffe",
+      "final_blob": "9b7cdf61228fc3f486bb04e0b6e1bf422daabffe",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.md",
+      "original_blob": "52490f5354b1e1d10e941f0098f53b6e5dc0fd94",
+      "final_blob": "52490f5354b1e1d10e941f0098f53b6e5dc0fd94",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.pdf",
+      "original_blob": "7fc86e4b782b1c0853a0a9cb4ce980e9dd8742e1",
+      "final_blob": "7fc86e4b782b1c0853a0a9cb4ce980e9dd8742e1",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.html",
+      "original_blob": "bc69ff23b06412361bd70beec18b28f01f9c8bc3",
+      "final_blob": "bc69ff23b06412361bd70beec18b28f01f9c8bc3",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.md",
+      "original_blob": "10214cb1416e222b885aa5975c5391e881029a6f",
+      "final_blob": "10214cb1416e222b885aa5975c5391e881029a6f",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.pdf",
+      "original_blob": "c496a4f8434b0fb2d9bed9d266035327c3ef41bc",
+      "final_blob": "c496a4f8434b0fb2d9bed9d266035327c3ef41bc",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.html",
+      "original_blob": "2ff9ce189fba62bcd1ab467174f29f24c4d29f59",
+      "final_blob": "2ff9ce189fba62bcd1ab467174f29f24c4d29f59",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.md",
+      "original_blob": "51a1c223fb1e4a0d9b1611a7868082e133999722",
+      "final_blob": "51a1c223fb1e4a0d9b1611a7868082e133999722",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.pdf",
+      "original_blob": "7721a91fdc1e16f8f85dac925788094edd6d6425",
+      "final_blob": "7721a91fdc1e16f8f85dac925788094edd6d6425",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2-quality-ref.yaml",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2-quality-ref.yaml",
+      "original_blob": "2a9389393aa18f001202ea0b521e62202e664ffc",
+      "final_blob": "2a9389393aa18f001202ea0b521e62202e664ffc",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2-review.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/2.2.2-review.md",
+      "original_blob": "0638f51535c2bfba1ed329e1dbadfdd119f825ef",
+      "final_blob": "0638f51535c2bfba1ed329e1dbadfdd119f825ef",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/_assets/.gitkeep",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/_assets/.gitkeep",
+      "original_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "final_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/_paragraph-plan.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/_paragraph-plan.md",
+      "original_blob": "7dea82c0e6d280f4574c40772e6e5abbd75446ce",
+      "final_blob": "7dea82c0e6d280f4574c40772e6e5abbd75446ce",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/build_pdf.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.2 Elasticiteit en omzet/build_pdf.py",
+      "original_blob": "cb8be6837f5cc2b2db3a2c9ac4800a8e966b526c",
+      "final_blob": "cb8be6837f5cc2b2db3a2c9ac4800a8e966b526c",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – antwoorden.html",
+      "original_blob": "ef13304d5ecc85838235418c7c37b49ac5e798e5",
+      "final_blob": "ef13304d5ecc85838235418c7c37b49ac5e798e5",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – antwoorden.md",
+      "original_blob": "7848959cd177bb80f1ce1b46d799c42723d25887",
+      "final_blob": "7848959cd177bb80f1ce1b46d799c42723d25887",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – antwoorden.pdf",
+      "original_blob": "302335e8d281e8ec584dc34e4122e9f129eb47f5",
+      "final_blob": "302335e8d281e8ec584dc34e4122e9f129eb47f5",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – opgaven.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – opgaven.html",
+      "original_blob": "16f331a2827248abab48518576375be48dd2d62b",
+      "final_blob": "16f331a2827248abab48518576375be48dd2d62b",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – opgaven.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – opgaven.md",
+      "original_blob": "b058e6da20844ff764b2640b6d4d8fc5b67a4194",
+      "final_blob": "b058e6da20844ff764b2640b6d4d8fc5b67a4194",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – opgaven.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – opgaven.pdf",
+      "original_blob": "146b2178a785321dde795945c6a71be040cf2182",
+      "final_blob": "146b2178a785321dde795945c6a71be040cf2182",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – paragraaf.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – paragraaf.html",
+      "original_blob": "b129e5887e7cb20073a044bf5b6a22542ee4f03c",
+      "final_blob": "b129e5887e7cb20073a044bf5b6a22542ee4f03c",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – paragraaf.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – paragraaf.md",
+      "original_blob": "d5de542a88c6e197f1b94454a77bc4dcc8501ace",
+      "final_blob": "d5de542a88c6e197f1b94454a77bc4dcc8501ace",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – paragraaf.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit – paragraaf.pdf",
+      "original_blob": "1207cd5efb02dbad217541b64141110deb1c7088",
+      "final_blob": "1207cd5efb02dbad217541b64141110deb1c7088",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3-quality-ref.yaml",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3-quality-ref.yaml",
+      "original_blob": "8b264e542e643b81497259dfc5d8bf2e5ea3b277",
+      "final_blob": "8b264e542e643b81497259dfc5d8bf2e5ea3b277",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3-review.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/2.2.3-review.md",
+      "original_blob": "96e0578e5cb1a95b3275969af2c59e4b847e5cf5",
+      "final_blob": "96e0578e5cb1a95b3275969af2c59e4b847e5cf5",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/_paragraph-plan.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/_paragraph-plan.md",
+      "original_blob": "803c3a05e4ab2fe2b232a17e6109bbc86deecb02",
+      "final_blob": "803c3a05e4ab2fe2b232a17e6109bbc86deecb02",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/build_pdf.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.3 Inkomenselasticiteit en kruiselingse elasticiteit/build_pdf.py",
+      "original_blob": "7d07790cb7beed613ff559a117517675e0593bfd",
+      "final_blob": "7d07790cb7beed613ff559a117517675e0593bfd",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – antwoorden.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – antwoorden.html",
+      "original_blob": "3ed0e35600607cde98ff13c9a5e051c60e0a7840",
+      "final_blob": "3ed0e35600607cde98ff13c9a5e051c60e0a7840",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – antwoorden.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – antwoorden.md",
+      "original_blob": "de49a6a5e297bd8e2fb57365190710ac6c091e67",
+      "final_blob": "de49a6a5e297bd8e2fb57365190710ac6c091e67",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – antwoorden.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – antwoorden.pdf",
+      "original_blob": "b1558afea098b99c321c121d02d2dd2ec112381a",
+      "final_blob": "b1558afea098b99c321c121d02d2dd2ec112381a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – opgaven.html",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – opgaven.html",
+      "original_blob": "f1b8ab4a50e243149e20f354248e0a48391aa205",
+      "final_blob": "f1b8ab4a50e243149e20f354248e0a48391aa205",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – opgaven.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – opgaven.md",
+      "original_blob": "a2321b01685720e3eab62770c115a876f5d7ee92",
+      "final_blob": "a2321b01685720e3eab62770c115a876f5d7ee92",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – opgaven.pdf",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4 Gemengde opgaven elasticiteit – opgaven.pdf",
+      "original_blob": "3f65c05c7fdef195215a8737fa571fd7f3b5605e",
+      "final_blob": "3f65c05c7fdef195215a8737fa571fd7f3b5605e",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4-quality-ref.yaml",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4-quality-ref.yaml",
+      "original_blob": "eb27784289af6ecabc2ddca6d20c7347486924a2",
+      "final_blob": "eb27784289af6ecabc2ddca6d20c7347486924a2",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4-review.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/2.2.4-review.md",
+      "original_blob": "873e284e0e6254492698d0e733042fdf35d28fce",
+      "final_blob": "873e284e0e6254492698d0e733042fdf35d28fce",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/_assets/.gitkeep",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/_assets/.gitkeep",
+      "original_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "final_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/build_pdf.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/2.2.4 Gemengde opgaven elasticiteit/build_pdf.py",
+      "original_blob": "83ffe0b7b8d6b18ee2d560698c1e807f02c38d1a",
+      "final_blob": "83ffe0b7b8d6b18ee2d560698c1e807f02c38d1a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/_assets/2.2.1_fig_1.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/_assets/2.2.1_fig_1.png",
+      "original_blob": "93ed067dd6fca125362cbce9d4a706c31aab402a",
+      "final_blob": "93ed067dd6fca125362cbce9d4a706c31aab402a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/_assets/2.2.1_fig_1.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/_assets/2.2.1_fig_1.svg",
+      "original_blob": "27c230ca74a81d22b5ba7ad28eb47f4b50e4b84a",
+      "final_blob": "27c230ca74a81d22b5ba7ad28eb47f4b50e4b84a",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/_assets/2.2.1_fig_2.png",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/_assets/2.2.1_fig_2.png",
+      "original_blob": "16036c5e8742f80860784626158da00986c03c03",
+      "final_blob": "16036c5e8742f80860784626158da00986c03c03",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/_assets/2.2.1_fig_2.svg",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/_assets/2.2.1_fig_2.svg",
+      "original_blob": "d91d7ca45bc700a1c034f05f48e22f7bd56b654b",
+      "final_blob": "d91d7ca45bc700a1c034f05f48e22f7bd56b654b",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/_chapter-plan.md",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/_chapter-plan.md",
+      "original_blob": "b17e6bad399aec7f63342bcdac415386ad6db9dc",
+      "final_blob": "b17e6bad399aec7f63342bcdac415386ad6db9dc",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
+    },
+    {
+      "original_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/2.2 Hoofdstuk Elasticiteit/build_chapter.py",
+      "archived_path": "archive/book-2-pre-chat-2026/2.2 Hoofdstuk Elasticiteit/build_chapter.py",
+      "original_blob": "c073f84fee837c6452112a28636581e32f7a4d89",
+      "final_blob": "c073f84fee837c6452112a28636581e32f7a4d89",
+      "source_commit": "3e63e82cd335405f383cd76f13b51b774b8b0571",
+      "topic": "Book 2 pre-chat repository production",
+      "batch": "BOOK2-CHAT-IMPORT-1",
+      "current_consumers": [
+        "Historical lookup via build-scripts/lib/historical-paths.js"
+      ],
+      "live_follow_up": null,
+      "navigation_edit": null
     }
   ]
 }

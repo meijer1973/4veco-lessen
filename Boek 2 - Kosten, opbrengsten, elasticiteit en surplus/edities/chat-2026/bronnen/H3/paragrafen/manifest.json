@@ -1,0 +1,103 @@
+[
+  {
+    "id": "2.3.1",
+    "title": "Consumentensurplus",
+    "student_pages": [
+      2,
+      9
+    ],
+    "exercise_pages": [
+      5,
+      9
+    ],
+    "theory": true,
+    "assets": [
+      "2.3.1_ans_4.svg",
+      "2.3.1_ans_6.svg",
+      "2.3.1_ans_8.svg",
+      "2.3.1_ex_1.svg",
+      "2.3.1_ex_2.svg",
+      "2.3.1_fig_1.svg",
+      "2.3.1_fig_2.svg",
+      "2.3.1_fig_3.svg",
+      "2.3.1_we_1.svg"
+    ],
+    "folder": "paragrafen/2.3.1 Consumentensurplus"
+  },
+  {
+    "id": "2.3.2",
+    "title": "Producentensurplus en totaal surplus",
+    "student_pages": [
+      10,
+      19
+    ],
+    "exercise_pages": [
+      13,
+      19
+    ],
+    "theory": true,
+    "assets": [
+      "2.3.2_ans_4.svg",
+      "2.3.2_ans_6.svg",
+      "2.3.2_ans_8.svg",
+      "2.3.2_ex_1.svg",
+      "2.3.2_ex_2.svg",
+      "2.3.2_ex_3.svg",
+      "2.3.2_ex_4.svg",
+      "2.3.2_fig_1.svg",
+      "2.3.2_fig_2.svg",
+      "2.3.2_fig_3.svg",
+      "2.3.2_we_1.svg"
+    ],
+    "folder": "paragrafen/2.3.2 Producentensurplus en totaal surplus"
+  },
+  {
+    "id": "2.3.3",
+    "title": "Pareto-efficiëntie en welvaartsverlies",
+    "student_pages": [
+      20,
+      30
+    ],
+    "exercise_pages": [
+      24,
+      30
+    ],
+    "theory": true,
+    "assets": [
+      "2.3.3_ans_4.svg",
+      "2.3.3_ans_5.svg",
+      "2.3.3_ans_6.svg",
+      "2.3.3_ex_1.svg",
+      "2.3.3_ex_2.svg",
+      "2.3.3_ex_3.svg",
+      "2.3.3_ex_4.svg",
+      "2.3.3_fig_1.svg",
+      "2.3.3_fig_2.svg",
+      "2.3.3_fig_3.svg",
+      "2.3.3_fig_4.svg",
+      "2.3.3_we_1.svg",
+      "2.3.3_we_2.svg"
+    ],
+    "folder": "paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies"
+  },
+  {
+    "id": "2.3.4",
+    "title": "Gemengde opgaven",
+    "student_pages": [
+      31,
+      36
+    ],
+    "exercise_pages": [
+      31,
+      36
+    ],
+    "theory": false,
+    "assets": [
+      "2.3.4_ans_2.svg",
+      "2.3.4_ans_3.svg",
+      "2.3.4_ex_1.svg",
+      "2.3.4_ex_2.svg"
+    ],
+    "folder": "paragrafen/2.3.4 Gemengde opgaven"
+  }
+]

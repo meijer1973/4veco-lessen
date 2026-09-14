@@ -1,0 +1,3341 @@
+{
+  "delivery": "Boek 2 — chatuitgave, oorspronkelijke PDF’s en bronnen",
+  "packaged_on": "2026-09-13",
+  "scope": "File-preserving repository import; no detailed content review or rebuild",
+  "suggested_lessons_path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026",
+  "original_archives": [
+    {
+      "filename": "Boek_2_Compleet_Bronpakket.zip",
+      "bytes": 47287959,
+      "sha256": "94f64c6d5162b3919d37aea1b528e6e0e7f0c5b5432fd8a8ab532deb5f3a6ee8",
+      "zip_crc_test": "passed"
+    },
+    {
+      "filename": "Boek_2_H1_Bronpakket.zip",
+      "bytes": 15152834,
+      "sha256": "10ca47591fdf319853e7f137f3d027b783d219290d0764201e2eb49fff1cb79a",
+      "zip_crc_test": "passed"
+    },
+    {
+      "filename": "Boek_2_H2_Bronpakket.zip",
+      "bytes": 7759423,
+      "sha256": "1c74b27c54b8f160d4d135a12e78a077b4ad8cca74b93df160a7426f1f2622e7",
+      "zip_crc_test": "passed"
+    },
+    {
+      "filename": "Boek_2_H3_Bronpakket.zip",
+      "bytes": 8286376,
+      "sha256": "81490a5e6c51d18a51fb22955042cfab8081d1d88bba654485b8ac878cf0dbf6",
+      "zip_crc_test": "passed"
+    }
+  ],
+  "original_content_modified": false,
+  "all_original_book_archive_files_accounted_for": "All 14 non-ZIP files preserved; three nested chapter archives fully expanded into bronnen/H1, H2 and H3",
+  "paragraph_ids": [
+    "2.1.1",
+    "2.1.2",
+    "2.1.3",
+    "2.1.4",
+    "2.2.1",
+    "2.2.2",
+    "2.2.3",
+    "2.2.4",
+    "2.3.1",
+    "2.3.2",
+    "2.3.3",
+    "2.3.4"
+  ],
+  "preserved_file_count": 459,
+  "pdf_file_count": 54,
+  "source_authority": "Use each H*/manuscript with chapter-order.json; chapter root answer and teacher Markdown. Paragraph exports are derived.",
+  "files": [
+    {
+      "path": "_assets/economics_textbook_cover_costs_and_surplus.png",
+      "bytes": 1943121,
+      "sha256": "55e5730b8a490306759ba4a8082cf95304e2cb5f60df413c26c5ffe8ee705034",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "economics_textbook_cover_costs_and_surplus.png"
+    },
+    {
+      "path": "boek/Boek_2_Compleet.pdf",
+      "bytes": 5848901,
+      "sha256": "798e412c65a6d6da35d3058e1f8e50b2bc2a381140f747d7e3721f648f85fad8",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_Compleet.pdf",
+      "pages": 110
+    },
+    {
+      "path": "boek/Boek_2_Compleet_Antwoorden.pdf",
+      "bytes": 4409271,
+      "sha256": "650bf42f1dd94ca2106523e7cb3755643e862e8900f19b9be0342eaca9a69e32",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_Compleet_Antwoorden.pdf",
+      "pages": 57
+    },
+    {
+      "path": "boek/Boek_2_Compleet_Docenteninformatie.pdf",
+      "bytes": 3585796,
+      "sha256": "acc66af6c732d5e9d8ff0a8d2f5ecd72982c5ddee6bb8bd88ccd449223f62979",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_Compleet_Docenteninformatie.pdf",
+      "pages": 19
+    },
+    {
+      "path": "bronnen/Boek_2_Compleet_README.txt",
+      "bytes": 374,
+      "sha256": "45c8f9e187aeb0378a4af453460f0063e09725cebeeb5b8baff5ac82c6d77ff7",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_Compleet_README.txt"
+    },
+    {
+      "path": "bronnen/H1/2.1 Kosten en opbrengsten – antwoorden.md",
+      "bytes": 40106,
+      "sha256": "380e73aa8c666604171a0fc4d52a39ce5ddde4d79175d339eae0f0051dde9eb2",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/2.1 Kosten en opbrengsten – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H1/2.1 Kosten en opbrengsten – hoofdstuk.md",
+      "bytes": 58773,
+      "sha256": "e58a022c9acfaff5b92d221a678f3bb5af0c61258dccaf2701568c9a8f1aaefa",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/2.1 Kosten en opbrengsten – hoofdstuk.md"
+    },
+    {
+      "path": "bronnen/H1/Docenten_en_bouwverantwoording.md",
+      "bytes": 15140,
+      "sha256": "2107166fd5525ef40417f950c6ff800c3684a530cb29786278ee0127394cc86d",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/Docenten_en_bouwverantwoording.md"
+    },
+    {
+      "path": "bronnen/H1/LOCAL_REVIEW.md",
+      "bytes": 1173,
+      "sha256": "b6fb6482660b838a6ca9167542085db664a8ae7aaab40b2793aafb02d66b4b6d",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/LOCAL_REVIEW.md"
+    },
+    {
+      "path": "bronnen/H1/README.md",
+      "bytes": 3924,
+      "sha256": "0dcde8e844fffec96f722791bd8f9d43e386db330632d52aac87277bfc2e061d",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/README.md"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_1.png",
+      "bytes": 90577,
+      "sha256": "525ab8788df4731e67c7b973b1ba667630a715f02718b981ec6b2bfcdc2c96bb",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.1_fig_1.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_1.svg",
+      "bytes": 2105,
+      "sha256": "16ce702ad494f3a577e4934611ed6b09f11b535abb0581db16b56a6f9d6cb684",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.1_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_2.png",
+      "bytes": 88089,
+      "sha256": "1b8b921629e039d4051a6466d4b39de12b0ceb79e886f053403c168d32a8af61",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.1_fig_2.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_2.svg",
+      "bytes": 11601,
+      "sha256": "d22609f290608eb92df8496df4dc6ab54b448c6d78e00257d5f04e61ac7d864c",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.1_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_3.png",
+      "bytes": 92016,
+      "sha256": "89c105bc03e9d2559b9ea1e52561437571b74eed5aff4da5c0c15db82e4bc56d",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.1_fig_3.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_3.svg",
+      "bytes": 12113,
+      "sha256": "7bac9a690d1421c4bc864f7cdaf1e1cf8d3b5e63901ccad07089fe20e3df94a3",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.1_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_1.png",
+      "bytes": 91128,
+      "sha256": "21426a4cd12e91318487034279bb18b27b9ceb4448f2972551a103cbc4c15647",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_1.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_1.svg",
+      "bytes": 10021,
+      "sha256": "e106ddc7b77b92c6d7425ed2b812639bcef2d019223cee7d5ebcd6ef737a39e3",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_2.png",
+      "bytes": 61302,
+      "sha256": "b05880ebbf779f0a6d793f1717868486a3455d9a0751862f5a07fcce20a702a2",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_2.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_2.svg",
+      "bytes": 6030,
+      "sha256": "402700add3f6ef425867316889376c2618aa90727cbaecf75076a1d8d58b8601",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_3.png",
+      "bytes": 94223,
+      "sha256": "ed6937cb38a070948a91286eadd7cec2a0a004a49eda594154fb6b0600c5c14c",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_3.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_3.svg",
+      "bytes": 10119,
+      "sha256": "8252625ddf26f84ca0e3ac68e572bd6b6877b1baae54735dc465ab023a2d98bb",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_3.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_4.png",
+      "bytes": 101459,
+      "sha256": "6de4a937d498ad4b99d9261755c5e36eba5a7f87172fdfe36a6e0974e16f724b",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_4.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_4.svg",
+      "bytes": 10850,
+      "sha256": "efae2fc1b09de3a3fc8e403b47faadff37f7ee2a3e1e1ea9a29fa727471088d3",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_4.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_5.png",
+      "bytes": 97519,
+      "sha256": "5e6debfff5e0bd0a35b823c8778780ceb6a58e5e71b1ed7ed9cbacc3d5f4eed4",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_5.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_5.svg",
+      "bytes": 10152,
+      "sha256": "70c937c42684f17eb1de6c7fc52cb6eb9a1fe1928139d640ad9ee983df03d0e7",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_ex_5.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_fig_1.png",
+      "bytes": 52178,
+      "sha256": "2b3d1b37689ef09902fea0ba19192645188158ba0f9ce67e39bfb8baa745d534",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_fig_1.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_fig_1.svg",
+      "bytes": 1868,
+      "sha256": "56b12190fe22f42c831415a887cc4a372726f3c59d8b0882e5320de620b49de6",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_fig_2.png",
+      "bytes": 102815,
+      "sha256": "a8d2c64ca67335ec584f0cd81b1c954e6232230aab09eb7a8153a82ac6baf351",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_fig_2.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_fig_2.svg",
+      "bytes": 10160,
+      "sha256": "522e6d494a75effc3559cc24d7219a660d9da11a93ef9c1fcd0d49eca1130e11",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.2_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.3_fig_1.png",
+      "bytes": 59014,
+      "sha256": "be377dce4492d5a7f7d209c7046297b28cbf49d34b8aca63c19867efa191a960",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.3_fig_1.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.3_fig_1.svg",
+      "bytes": 1780,
+      "sha256": "9440b27f97c5020d4d74d6caa70055b0aa2d3e0182986e0474fe37de7ec01889",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.3_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.3_fig_2.png",
+      "bytes": 70739,
+      "sha256": "aa42dd8d673ebb2a5e9447a701001d2254e5cb8be07f4eaf90c1a6aff134e87e",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.3_fig_2.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.3_fig_2.svg",
+      "bytes": 6399,
+      "sha256": "58faea842073d4d7104b417ee15075a7506a8bf951b4dc15b17a7968c08bac55",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.3_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_1.png",
+      "bytes": 88989,
+      "sha256": "bb5f18e228ebf1eb52470a346b66c048455d28a869dff1fb7409a6048736ed5f",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_ex_1.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_1.svg",
+      "bytes": 9034,
+      "sha256": "57f0e4916cd485873dbd39140d53a79128404e6f50b78014fb7550d282a00eff",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_2.png",
+      "bytes": 139202,
+      "sha256": "cf74ffebe5d180ecd86a4562c9d5616dcbca8f79340cbb2c95af57731e19404f",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_ex_2.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_2.svg",
+      "bytes": 10493,
+      "sha256": "d69abaab8e4de3477de418ec447fa59de1ebfb71c02aafeb70e302a4ca7732ec",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_3.png",
+      "bytes": 165833,
+      "sha256": "5fbee3b45a0f70f85fe3f60d4183417125aa59372cf81d5d3e5ce68bb75ef2c7",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_ex_3.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_3.svg",
+      "bytes": 11308,
+      "sha256": "9c9edcf06307a18062d0d67b2c1257adfd647a43902d115bb79897a2294cbe09",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_ex_3.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_4.png",
+      "bytes": 102535,
+      "sha256": "3ec8727e5ac6943510a2ed959eb5f0cbeb9840d3dad508f1755f651e865f3e19",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_ex_4.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_4.svg",
+      "bytes": 10301,
+      "sha256": "a228bd8bbfa16c78c88c7af74ab5113e08e90bf2c130e4c37f5974ad1e06aa58",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_ex_4.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_fig_1.png",
+      "bytes": 45872,
+      "sha256": "6d1adcb689a5cbc96a75c1c3e1d9cde4c6e8eb369b9802da49b9460b7911609d",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_fig_1.png"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_fig_1.svg",
+      "bytes": 2098,
+      "sha256": "ad65ce969f6cef631e0dfb66dffeb8ace56f22d9610df230e3492d9934b70bd5",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/2.1.4_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H1/_assets/geometry-data.json",
+      "bytes": 205241,
+      "sha256": "0ed8487e882d0dc54eacd491f4cdd3bc9acf1ee90398742bc7e9f150db21f9f2",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/_assets/geometry-data.json"
+    },
+    {
+      "path": "bronnen/H1/build.py",
+      "bytes": 7183,
+      "sha256": "3bab0adb782e26d8d0f138f918fdb3b5659b3b2fd7190db2103738cf277d5073",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/build.py"
+    },
+    {
+      "path": "bronnen/H1/build_answers.py",
+      "bytes": 4032,
+      "sha256": "9cc159c1e4feba6f4118faf37d3e27383c9b89f9054f585079968321da2398af",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/build_answers.py"
+    },
+    {
+      "path": "bronnen/H1/build_teacher.py",
+      "bytes": 994,
+      "sha256": "6d89954d3874f2002876fc0495532b85e67fbca16dfbc68ed12e2680d2471cdb",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/build_teacher.py"
+    },
+    {
+      "path": "bronnen/H1/chapter-order.json",
+      "bytes": 346,
+      "sha256": "e92dc8a6967e88f38e105517c86a64b3bfd375b51a42df76ef2ab3011ea932c2",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/chapter-order.json"
+    },
+    {
+      "path": "bronnen/H1/export_paragraphs.py",
+      "bytes": 3402,
+      "sha256": "0a19f17fac47fac837ff8a83b4ec3c6dba46b55046b2dc67fba67005d0629b62",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/export_paragraphs.py"
+    },
+    {
+      "path": "bronnen/H1/make_assets.py",
+      "bytes": 12985,
+      "sha256": "6e6e8238d8e9640e764cc5f3e27274bd9e37bc013eb8141fb9c5a77bbbe7003b",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/make_assets.py"
+    },
+    {
+      "path": "bronnen/H1/manuscript/00 Hoofdstukopening.md",
+      "bytes": 2629,
+      "sha256": "c61c706ec02dc2934d48e5076ad7918826f54b1b39b7b0c67d6d4f941ea3c6ad",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/manuscript/00 Hoofdstukopening.md"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1 Hoofdstukoverzicht.md",
+      "bytes": 2237,
+      "sha256": "939a731a2a0473df16f2bc4aafd365af813793384315ed80d91a1048e3895aa9",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/manuscript/2.1 Hoofdstukoverzicht.md"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1.1 Kostenstructuren – paragraaf.md",
+      "bytes": 14908,
+      "sha256": "01f07ddbc9b5a66b2408ac4c53a714fdac19e12a770b26984642b708181848f7",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/manuscript/2.1.1 Kostenstructuren – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1.2 Opbrengsten, winst en break-even – paragraaf.md",
+      "bytes": 15221,
+      "sha256": "d14a9e28cb9164ffc609595501cd3a9357fd1dcc85f7c60828436a2379083ccc",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/manuscript/2.1.2 Opbrengsten, winst en break-even – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.md",
+      "bytes": 16140,
+      "sha256": "1f2e91ea6f5d05ecbf53607a4d09a9e289dd914d253cbf5e1a8d16a0ef943e8b",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/manuscript/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1.4 Gemengde opgaven – opgaven.md",
+      "bytes": 9933,
+      "sha256": "bd5550cc11fa4c4def6efd42b31a2489aa898aa0374830440bd9b29721105ccf",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/manuscript/2.1.4 Gemengde opgaven – opgaven.md"
+    },
+    {
+      "path": "bronnen/H1/output/Boek_2_H1_Antwoorden.html",
+      "bytes": 814851,
+      "sha256": "653aee649ebef3f06b3cc51f97568f26f4d2d051eda1a0d55bce659dc3192bba",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/output/Boek_2_H1_Antwoorden.html"
+    },
+    {
+      "path": "bronnen/H1/output/Boek_2_H1_Antwoorden.pdf",
+      "bytes": 642726,
+      "sha256": "3db549b43e8653dfb62b584f1204ef3c5725924d2756263f940ca0382b0d2b26",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/output/Boek_2_H1_Antwoorden.pdf",
+      "pages": 20
+    },
+    {
+      "path": "bronnen/H1/output/Boek_2_H1_Docenteninformatie.html",
+      "bytes": 21987,
+      "sha256": "bc20d5424849de18edf88327d80029283d855406804094fc5d149b36aacfb342",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/output/Boek_2_H1_Docenteninformatie.html"
+    },
+    {
+      "path": "bronnen/H1/output/Boek_2_H1_Docenteninformatie.pdf",
+      "bytes": 43118,
+      "sha256": "c961feb9a429f63068929d9e2a446c57ac8e2a5bb3514cc7c921f73a755955db",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/output/Boek_2_H1_Docenteninformatie.pdf",
+      "pages": 5
+    },
+    {
+      "path": "bronnen/H1/output/Boek_2_H1_Kosten_en_opbrengsten.html",
+      "bytes": 1394801,
+      "sha256": "8c7bc44ed976b9b02af4a45bde170487a0f361ce10f80123a9e571b671674c0c",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/output/Boek_2_H1_Kosten_en_opbrengsten.html"
+    },
+    {
+      "path": "bronnen/H1/output/Boek_2_H1_Kosten_en_opbrengsten.pdf",
+      "bytes": 1116498,
+      "sha256": "9e4c164131185f02ac0b6ced0efd3508d44ab89e6179b81cebd4e4520c3ccfc3",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/output/Boek_2_H1_Kosten_en_opbrengsten.pdf",
+      "pages": 34
+    },
+    {
+      "path": "bronnen/H1/output/page_map.json",
+      "bytes": 2364,
+      "sha256": "acddad3ab1cf9bd71ebaeaeb9c0821cb0824138c4368d43a5918b38311b8a83e",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/output/page_map.json"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.md",
+      "bytes": 9116,
+      "sha256": "4d7e048371bf5bddc45db398d68016a7c44f5a83fe741d843c52e68745da9ac6",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.pdf",
+      "bytes": 597909,
+      "sha256": "efecbf1e0ec7c361ebd09d6dd755babaeb5fc7f2da8a564e6768d6fe85528de9",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – antwoorden.pdf",
+      "pages": 4
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.md",
+      "bytes": 9017,
+      "sha256": "2dcb5e2b2644b5aaed141181dad5335a53f26aa9313c706f5c1583e511ac446c",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.pdf",
+      "bytes": 1036992,
+      "sha256": "0b499f7c0e18addb8c5739a4763ef7fec7c79ad83ba05f56ff14a7be96988e48",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – opgaven.pdf",
+      "pages": 5
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.md",
+      "bytes": 14183,
+      "sha256": "4756c8d28a955941e2bb2011cbd686f0756b32e215c3d34237c630c2737dc427",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.pdf",
+      "bytes": 1045601,
+      "sha256": "6ad89572c5562fcfd3c08e0b4bfd854641e49a6bbdb91271ca9e72efbd7c4986",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – paragraaf.pdf",
+      "pages": 8
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/LEESMIJ.md",
+      "bytes": 279,
+      "sha256": "7863ce97963ecdf5ec82603f2289bfe1149f57a4d84a04d168fc802817e5fa14",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/LEESMIJ.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_1.png",
+      "bytes": 90577,
+      "sha256": "525ab8788df4731e67c7b973b1ba667630a715f02718b981ec6b2bfcdc2c96bb",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_1.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_1.svg",
+      "bytes": 2105,
+      "sha256": "16ce702ad494f3a577e4934611ed6b09f11b535abb0581db16b56a6f9d6cb684",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_2.png",
+      "bytes": 88089,
+      "sha256": "1b8b921629e039d4051a6466d4b39de12b0ceb79e886f053403c168d32a8af61",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_2.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_2.svg",
+      "bytes": 11601,
+      "sha256": "d22609f290608eb92df8496df4dc6ab54b448c6d78e00257d5f04e61ac7d864c",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_3.png",
+      "bytes": 92016,
+      "sha256": "89c105bc03e9d2559b9ea1e52561437571b74eed5aff4da5c0c15db82e4bc56d",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_3.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_3.svg",
+      "bytes": 12113,
+      "sha256": "7bac9a690d1421c4bc864f7cdaf1e1cf8d3b5e63901ccad07089fe20e3df94a3",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.1 Kostenstructuren/_assets/2.1.1_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.md",
+      "bytes": 9660,
+      "sha256": "75da3391e7b68ec53a48c1c5d976acdfd657c08a7f2d9fa6e61b2e139b6d6a10",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.pdf",
+      "bytes": 597513,
+      "sha256": "8b41cd8d974de0e845e3dd5bf27c87bc2a99f93e1f8d9f642a5fe865a79e6800",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – antwoorden.pdf",
+      "pages": 5
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.md",
+      "bytes": 9055,
+      "sha256": "20431eb60e7f9d706ccae13167ea6fdccf8bc3f70ece0e2ba7e8d8dc48378c15",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.pdf",
+      "bytes": 1036807,
+      "sha256": "fa70b2ee45d7bd272b1bfa2101bbe857d5e9d13ea70e88f34eb21277797241fd",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – opgaven.pdf",
+      "pages": 6
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.md",
+      "bytes": 14381,
+      "sha256": "cb6f8fc152e8eb099e526de82d0c6ddcd9a21d1994f65382546839a5d315b1f8",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.pdf",
+      "bytes": 1045521,
+      "sha256": "9b5642b1701f779b09f87f9dd342813f4031cf979856f54ae5fafb1a29289985",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/2.1.2 Opbrengsten, winst en break-even – paragraaf.pdf",
+      "pages": 9
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/LEESMIJ.md",
+      "bytes": 279,
+      "sha256": "7863ce97963ecdf5ec82603f2289bfe1149f57a4d84a04d168fc802817e5fa14",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/LEESMIJ.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_1.png",
+      "bytes": 91128,
+      "sha256": "21426a4cd12e91318487034279bb18b27b9ceb4448f2972551a103cbc4c15647",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_1.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_1.svg",
+      "bytes": 10021,
+      "sha256": "e106ddc7b77b92c6d7425ed2b812639bcef2d019223cee7d5ebcd6ef737a39e3",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_2.png",
+      "bytes": 61302,
+      "sha256": "b05880ebbf779f0a6d793f1717868486a3455d9a0751862f5a07fcce20a702a2",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_2.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_2.svg",
+      "bytes": 6030,
+      "sha256": "402700add3f6ef425867316889376c2618aa90727cbaecf75076a1d8d58b8601",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_3.png",
+      "bytes": 94223,
+      "sha256": "ed6937cb38a070948a91286eadd7cec2a0a004a49eda594154fb6b0600c5c14c",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_3.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_3.svg",
+      "bytes": 10119,
+      "sha256": "8252625ddf26f84ca0e3ac68e572bd6b6877b1baae54735dc465ab023a2d98bb",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_3.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_4.png",
+      "bytes": 101459,
+      "sha256": "6de4a937d498ad4b99d9261755c5e36eba5a7f87172fdfe36a6e0974e16f724b",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_4.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_4.svg",
+      "bytes": 10850,
+      "sha256": "efae2fc1b09de3a3fc8e403b47faadff37f7ee2a3e1e1ea9a29fa727471088d3",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_4.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_5.png",
+      "bytes": 97519,
+      "sha256": "5e6debfff5e0bd0a35b823c8778780ceb6a58e5e71b1ed7ed9cbacc3d5f4eed4",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_5.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_5.svg",
+      "bytes": 10152,
+      "sha256": "70c937c42684f17eb1de6c7fc52cb6eb9a1fe1928139d640ad9ee983df03d0e7",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_ex_5.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_1.png",
+      "bytes": 52178,
+      "sha256": "2b3d1b37689ef09902fea0ba19192645188158ba0f9ce67e39bfb8baa745d534",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_1.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_1.svg",
+      "bytes": 1868,
+      "sha256": "56b12190fe22f42c831415a887cc4a372726f3c59d8b0882e5320de620b49de6",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_2.png",
+      "bytes": 102815,
+      "sha256": "a8d2c64ca67335ec584f0cd81b1c954e6232230aab09eb7a8153a82ac6baf351",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_2.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_2.svg",
+      "bytes": 10160,
+      "sha256": "522e6d494a75effc3559cc24d7219a660d9da11a93ef9c1fcd0d49eca1130e11",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.2 Opbrengsten, winst en break-even/_assets/2.1.2_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.md",
+      "bytes": 10577,
+      "sha256": "4707afc979e2bc4d3cc276d445d1a437bacc98eb5e1cb0805161d0f445366203",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.pdf",
+      "bytes": 602248,
+      "sha256": "c0415a151577a322f923783beaf43654f14b9c8d72f4f20528e0a5f9c7d18e30",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – antwoorden.pdf",
+      "pages": 5
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.md",
+      "bytes": 9675,
+      "sha256": "4403beb96f0ea1039e7ae8ad1fa5cf55be07d3810819d023f6bd98a9968544c8",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.pdf",
+      "bytes": 1042861,
+      "sha256": "09d1b2fef35266dd5386f7e4579f089dae8a82828ef2e0a1d54839c1ae304b7f",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – opgaven.pdf",
+      "pages": 6
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.md",
+      "bytes": 15225,
+      "sha256": "1f37da019c0a9ba15f5fd1a5b014f05a60cab7fe88ac5c3c33357ca5aec8ab96",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.pdf",
+      "bytes": 1051953,
+      "sha256": "13644d2176d1a4f07e16838246b9f463773a42889b21d788a7d73b7ed59c0d3b",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.pdf",
+      "pages": 9
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/LEESMIJ.md",
+      "bytes": 279,
+      "sha256": "7863ce97963ecdf5ec82603f2289bfe1149f57a4d84a04d168fc802817e5fa14",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/LEESMIJ.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_1.png",
+      "bytes": 59014,
+      "sha256": "be377dce4492d5a7f7d209c7046297b28cbf49d34b8aca63c19867efa191a960",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_1.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_1.svg",
+      "bytes": 1780,
+      "sha256": "9440b27f97c5020d4d74d6caa70055b0aa2d3e0182986e0474fe37de7ec01889",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_2.png",
+      "bytes": 70739,
+      "sha256": "aa42dd8d673ebb2a5e9447a701001d2254e5cb8be07f4eaf90c1a6aff134e87e",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_2.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_2.svg",
+      "bytes": 6399,
+      "sha256": "58faea842073d4d7104b417ee15075a7506a8bf951b4dc15b17a7968c08bac55",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.md",
+      "bytes": 10753,
+      "sha256": "612e08b98822318b1a1f5639948f79a7c3f5035900252da00c43a712e44aa272",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.pdf",
+      "bytes": 599239,
+      "sha256": "7f5bc3dd5eaecbeecab7301bdb27cb67d5f70a21ea070410de62ca05bcaf6839",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – antwoorden.pdf",
+      "pages": 5
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.md",
+      "bytes": 9386,
+      "sha256": "e04e9c39ffc9055a66515715a7b55f17d7bb5212af8d041cff946e319d743d49",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.pdf",
+      "bytes": 1036839,
+      "sha256": "501fd349b2228aaa3889128b01e380652db438ea4de134a6ca225cc2d9ed857e",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/2.1.4 Gemengde opgaven – opgaven.pdf",
+      "pages": 6
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/LEESMIJ.md",
+      "bytes": 279,
+      "sha256": "7863ce97963ecdf5ec82603f2289bfe1149f57a4d84a04d168fc802817e5fa14",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/LEESMIJ.md"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_1.png",
+      "bytes": 88989,
+      "sha256": "bb5f18e228ebf1eb52470a346b66c048455d28a869dff1fb7409a6048736ed5f",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_1.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_1.svg",
+      "bytes": 9034,
+      "sha256": "57f0e4916cd485873dbd39140d53a79128404e6f50b78014fb7550d282a00eff",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_2.png",
+      "bytes": 139202,
+      "sha256": "cf74ffebe5d180ecd86a4562c9d5616dcbca8f79340cbb2c95af57731e19404f",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_2.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_2.svg",
+      "bytes": 10493,
+      "sha256": "d69abaab8e4de3477de418ec447fa59de1ebfb71c02aafeb70e302a4ca7732ec",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_3.png",
+      "bytes": 165833,
+      "sha256": "5fbee3b45a0f70f85fe3f60d4183417125aa59372cf81d5d3e5ce68bb75ef2c7",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_3.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_3.svg",
+      "bytes": 11308,
+      "sha256": "9c9edcf06307a18062d0d67b2c1257adfd647a43902d115bb79897a2294cbe09",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_3.svg"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_4.png",
+      "bytes": 102535,
+      "sha256": "3ec8727e5ac6943510a2ed959eb5f0cbeb9840d3dad508f1755f651e865f3e19",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_4.png"
+    },
+    {
+      "path": "bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_4.svg",
+      "bytes": 10301,
+      "sha256": "a228bd8bbfa16c78c88c7af74ab5113e08e90bf2c130e4c37f5974ad1e06aa58",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_4.svg"
+    },
+    {
+      "path": "bronnen/H1/paragraph-exports.json",
+      "bytes": 556,
+      "sha256": "cf6c0693fd8993828a7bd80c7e7cc0769b0e14fab21d6999b719387302c974dc",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/paragraph-exports.json"
+    },
+    {
+      "path": "bronnen/H1/rebuild.py",
+      "bytes": 502,
+      "sha256": "018dd620a833928a5a508dd9c57de36a8a8d8c0f0c6bc6cafc5afe2693f7d748",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/rebuild.py"
+    },
+    {
+      "path": "bronnen/H1/requirements.txt",
+      "bytes": 58,
+      "sha256": "38b60e2e6932184f5ca9dab8014f8236cfaa9b383788f5a3ff07c19c5d084ec1",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/requirements.txt"
+    },
+    {
+      "path": "bronnen/H1/source-manifest.json",
+      "bytes": 3796,
+      "sha256": "d18638fd1850dc77da0abf880c79a6784c4c08d957dc3ee54e6d6b66bba6ab1a",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/source-manifest.json"
+    },
+    {
+      "path": "bronnen/H1/validate.py",
+      "bytes": 10277,
+      "sha256": "47a7c57240975f70fecf4a49f0d5046aac28c6c5ed357aaab4e40f557cbbf5b0",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/validate.py"
+    },
+    {
+      "path": "bronnen/H1/validation-report.json",
+      "bytes": 23312,
+      "sha256": "27852da3f75308f106cf5e1b1feebe193ed1dcc9f29fd46425169dd22396db03",
+      "archive": "Boek_2_H1_Bronpakket.zip",
+      "member": "Boek_2_H1_bronpakket/validation-report.json"
+    },
+    {
+      "path": "bronnen/H2/2.2 Elasticiteit – antwoorden.md",
+      "bytes": 35979,
+      "sha256": "14977dcbb1c55b7d987a5c657a8c57f8640621b5ea26e26dd4c3f3320b6e9901",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/2.2 Elasticiteit – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H2/2.2 Elasticiteit – hoofdstuk.md",
+      "bytes": 62293,
+      "sha256": "107cae2b62b6a21c7783e542ce7822d5aeadc8a4d8545d41fa0fb88a22c3eaf9",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/2.2 Elasticiteit – hoofdstuk.md"
+    },
+    {
+      "path": "bronnen/H2/Docenten_en_bouwverantwoording.md",
+      "bytes": 16479,
+      "sha256": "91edca2d10a94ab108cd238d453ad8f99a2d042ca7cbd5f91feee9759b555722",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/Docenten_en_bouwverantwoording.md"
+    },
+    {
+      "path": "bronnen/H2/QA/LOCAL_REVIEW.md",
+      "bytes": 3820,
+      "sha256": "cbeaf3afecce6dab8f677efc4cd936555102a6b1be2b8b7a2d851886bbcca2f6",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/QA/LOCAL_REVIEW.md"
+    },
+    {
+      "path": "bronnen/H2/README.md",
+      "bytes": 4927,
+      "sha256": "e943b0f34e79e19e265b81657244c1b83cabd8ac4d2ae6ae921f3488dd35b69b",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/README.md"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_1.png",
+      "bytes": 51729,
+      "sha256": "124107a81e887c223faff192e467941248b5872505430b43bd374a604c020903",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.1_fig_1.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_1.svg",
+      "bytes": 3440,
+      "sha256": "4803c87ffa0d8c681847403fee5423c7805997769dbadf88d35b2bd7cd4aefa6",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.1_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_2.png",
+      "bytes": 50070,
+      "sha256": "7b41a02841bcd14cbcaa0ebb6d2ca03af2c2f144e84aacfcb3c24c60ac3354b8",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.1_fig_2.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_2.svg",
+      "bytes": 2078,
+      "sha256": "d9bda9894405ab5a1d2ac72eb398d11d54f43233ea810c3c794fc49e6a2c7f8d",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.1_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_3.png",
+      "bytes": 34480,
+      "sha256": "bf016a226ed3be1b70174557fd19849f5c2ead18449d1e8951ffde7f60f02002",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.1_fig_3.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_3.svg",
+      "bytes": 2589,
+      "sha256": "e06935220dc2db4e3cb19d03bd12c9827b3720468beb4f88ed8b063cfa2e3418",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.1_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_fig_1.png",
+      "bytes": 69184,
+      "sha256": "d30e78dbc6c26169bd067abf4f712b2829fb8c2a59cc4b439bc0a63bf60172c8",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.2_fig_1.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_fig_1.svg",
+      "bytes": 5464,
+      "sha256": "34947ee375482a7f0ac7d3194eef55b98c3596ca41fd626d5514079b5d771a52",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.2_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_fig_2.png",
+      "bytes": 65419,
+      "sha256": "6f24f67dbac340032820c89d232c71ceb2a9e823742c07a1f115060642acda1a",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.2_fig_2.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_fig_2.svg",
+      "bytes": 2358,
+      "sha256": "6dd18e5fbb8e82d76cd80d9a83705c96e019509d2ab957c101fe0b2c64e77170",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.2_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_we_1.png",
+      "bytes": 33679,
+      "sha256": "ebcd00c259106aab7db65cf8e6d9ad12ae68fdd3287ef17ec1b9343547d93f38",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.2_we_1.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_we_1.svg",
+      "bytes": 1679,
+      "sha256": "4b6a92ec5af35229969bd74fcc238280d30e079db49d8a97df4bd0595d57ad51",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.2_we_1.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_1.png",
+      "bytes": 41263,
+      "sha256": "f4bd181095bf63450052efe09990464f0dd7eef195dee56d8f490051212c83d9",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_1.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_1.svg",
+      "bytes": 2982,
+      "sha256": "7da64b21b0ca6553ff932409dce2c043f3add5a0c413417a1a588cf5295c2b01",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_2.png",
+      "bytes": 58090,
+      "sha256": "d4a1447dab4c880db54c6a2f7f7b3b5b839d31dda30aebe7b755ad4e08b3d79f",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_2.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_2.svg",
+      "bytes": 3717,
+      "sha256": "6e514b91edcda62f95f3f9fcc79d027097f7dac9a8d9b9e202f822a36e6266fc",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_3.png",
+      "bytes": 52421,
+      "sha256": "bd4483e564ecb4610edaf38f126944b060655a88360a65014c631a4b1985c52a",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_3.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_3.svg",
+      "bytes": 2027,
+      "sha256": "ac60a1a1618717d7c75265f112fc4ef5bf5c930b12831b56968dd3208b000062",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_4.png",
+      "bytes": 48217,
+      "sha256": "2d17526c81d434af3aea4ee29acf1456028ce052e92681230baee2e8c07ae9ce",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_4.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_4.svg",
+      "bytes": 2559,
+      "sha256": "be2aea6f8f4be0e341976cd397f37b62c5a4e60451320a30e43093c46a2b9705",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_4.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_5.png",
+      "bytes": 58185,
+      "sha256": "42678079024f006647b909341719260908369aa4456d5f04fae9b68e37e3e40b",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_5.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_5.svg",
+      "bytes": 2229,
+      "sha256": "912cce24799f41a88b8589f96f28f50f6fdef3633f7252f5e4fd70e835541ffc",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.3_fig_5.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.4_fig_1.png",
+      "bytes": 51250,
+      "sha256": "25f5d07ef96b227768c1a6361c034e9287a7edc0dd7db35ca417d673e237a408",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.4_fig_1.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.4_fig_1.svg",
+      "bytes": 2057,
+      "sha256": "a2b15e826c63c89b9f2723251e47b005a317a8f40a0f5ce3a5755756c17db124",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.4_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.4_fig_2.png",
+      "bytes": 59394,
+      "sha256": "65b4d7b3a86966b216c8118076cb5ab14b2d555b42f9a8fe181c865af8452956",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.4_fig_2.png"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.4_fig_2.svg",
+      "bytes": 2906,
+      "sha256": "4389e9891dee378e926def446ed0a274fc9a0324a3d4af813361a38727dc735e",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/2.2.4_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H2/_assets/geometry-data.json",
+      "bytes": 3752,
+      "sha256": "d7a423a7f40f54cecf85bc0c809e540e69294fa632be368ea7c6d2fb25a5f37b",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/_assets/geometry-data.json"
+    },
+    {
+      "path": "bronnen/H2/build.py",
+      "bytes": 7449,
+      "sha256": "2cfb70bb97e9ad14282d4bcc355f3010c7557b390b022bd770d8d7b48df83e5d",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/build.py"
+    },
+    {
+      "path": "bronnen/H2/build_all.py",
+      "bytes": 700,
+      "sha256": "021e1e652dce1e590e65dce3d49adfc2dcec26835a1aca1b6036f7db3f190588",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/build_all.py"
+    },
+    {
+      "path": "bronnen/H2/build_answers.py",
+      "bytes": 4563,
+      "sha256": "d578fe3d7596cdcf99d90415b75eaa32b12b2107c36e8481506fb998e24e5a6d",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/build_answers.py"
+    },
+    {
+      "path": "bronnen/H2/build_teacher.py",
+      "bytes": 1338,
+      "sha256": "74a1c2cb62557d07a793082370d12697271de59e3b103a83d86f86e931c0814e",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/build_teacher.py"
+    },
+    {
+      "path": "bronnen/H2/chapter-order.json",
+      "bytes": 338,
+      "sha256": "6ba501326db4db78907f36dc63012a7bd218a5b327bae7aab459607941ca2198",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/chapter-order.json"
+    },
+    {
+      "path": "bronnen/H2/deliverable-manifest.json",
+      "bytes": 643,
+      "sha256": "0102a16cdc41e4fb0b8262e410b1c73983c22aee9f9d4c9a3e2d0579d7614854",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/deliverable-manifest.json"
+    },
+    {
+      "path": "bronnen/H2/export_paragraphs.py",
+      "bytes": 3381,
+      "sha256": "9603797da12388d54e23bc793535e2a7b43e3b748a468b8e06a5900b166553e2",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/export_paragraphs.py"
+    },
+    {
+      "path": "bronnen/H2/make_assets.py",
+      "bytes": 12698,
+      "sha256": "738e5664271a3852fd8c21421c3ab9f08e8d546463816db4996840d25f70b3f5",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/make_assets.py"
+    },
+    {
+      "path": "bronnen/H2/manuscript/00 Hoofdstukopening.md",
+      "bytes": 2547,
+      "sha256": "ae981b07fcbb3b2fa6e52528921a5b5bf4c36825a2b13e2c42200e94b4d8e343",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/manuscript/00 Hoofdstukopening.md"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2 Hoofdstukoverzicht.md",
+      "bytes": 1943,
+      "sha256": "d6198120507a4ea22a58ee955fdbcafea8d0b91d42682a9dee3b57ec34b6c863",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/manuscript/2.2 Hoofdstukoverzicht.md"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2.1 Prijselasticiteit – paragraaf.md",
+      "bytes": 14635,
+      "sha256": "8b687d9947d330d8c4f7a8545d2474638ce14bc4c854e1d7056832eb82a72184",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/manuscript/2.2.1 Prijselasticiteit – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2.2 Elasticiteit en omzet – paragraaf.md",
+      "bytes": 13743,
+      "sha256": "8accd9170ab7e7f9cf1f41225cb3e4aea368f88c3c6470d7d1b1fbe64bbc2f84",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/manuscript/2.2.2 Elasticiteit en omzet – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – paragraaf.md",
+      "bytes": 21099,
+      "sha256": "ca8d6a33e0dc46a90d099ced335ab0eda51e73f3cbd2077b1d64714ae165ee58",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/manuscript/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2.4 Gemengde opgaven – opgaven.md",
+      "bytes": 10515,
+      "sha256": "b4ea80acb1e396535999eda635e75e3633a42214806e21a02feea5dc266d73de",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/manuscript/2.2.4 Gemengde opgaven – opgaven.md"
+    },
+    {
+      "path": "bronnen/H2/output/Boek_2_H2_Antwoorden.html",
+      "bytes": 52501,
+      "sha256": "102fb645fc7ddf1f771a60c3d209a4bcc91778f1a7face2792021e1d4bceda31",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/output/Boek_2_H2_Antwoorden.html"
+    },
+    {
+      "path": "bronnen/H2/output/Boek_2_H2_Antwoorden.pdf",
+      "bytes": 77071,
+      "sha256": "1042846b8687663ed87825a6f5e7fe6886f6e254eaf3f738ad2324f5e2fc6b06",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/output/Boek_2_H2_Antwoorden.pdf",
+      "pages": 18
+    },
+    {
+      "path": "bronnen/H2/output/Boek_2_H2_Docenteninformatie.html",
+      "bytes": 24564,
+      "sha256": "3d1e04ee8a349f07d9bbf63c83bb8cc82b6a03d4bb91bb0a8c8615de1f03d886",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/output/Boek_2_H2_Docenteninformatie.html"
+    },
+    {
+      "path": "bronnen/H2/output/Boek_2_H2_Docenteninformatie.pdf",
+      "bytes": 47005,
+      "sha256": "37178f88903839897241dfa7ed16a45d023a03b6883c2cff82b75e5a9345ebf4",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/output/Boek_2_H2_Docenteninformatie.pdf",
+      "pages": 6
+    },
+    {
+      "path": "bronnen/H2/output/Boek_2_H2_Elasticiteit.html",
+      "bytes": 976900,
+      "sha256": "9c611cb35e4ab89848ff3874dc93e85ea3cfebce3e071fe5fa1b6bce9a7ef1f5",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/output/Boek_2_H2_Elasticiteit.html"
+    },
+    {
+      "path": "bronnen/H2/output/Boek_2_H2_Elasticiteit.pdf",
+      "bytes": 812273,
+      "sha256": "1463172ae0f7fb2b7639f9fbe3056b20f96c64f62c64a7836f606f6eedc04f5f",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/output/Boek_2_H2_Elasticiteit.pdf",
+      "pages": 36
+    },
+    {
+      "path": "bronnen/H2/output/page_map.json",
+      "bytes": 2504,
+      "sha256": "4c6dfee5caa4ac611e37d97e0b45a76fc7621d15b173b84ee415e11dc1cf57c8",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/output/page_map.json"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.md",
+      "bytes": 7692,
+      "sha256": "3b0885f2192fc07b35cafb793024cb97579382339f1201da2769b3da27e4085f",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.pdf",
+      "bytes": 40246,
+      "sha256": "c9c3e78238a9a45893e0194d41a1be932130ba26f9884c1fd7ceef77d7298a82",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – antwoorden.pdf",
+      "pages": 4
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.md",
+      "bytes": 8391,
+      "sha256": "6c8b52b2a07af07da36c1fad07fc3e547d6079a6ed96713a9ce3bc10ab834c80",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.pdf",
+      "bytes": 731644,
+      "sha256": "423b5de9902977b977fb951678a165c6d71cac8f8240492ec650df6c0c37a2f2",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – opgaven.pdf",
+      "pages": 5
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.md",
+      "bytes": 13959,
+      "sha256": "b4b0a959b148fe7077200dd41a436f9c1cbaa56b5fd54677ccde8602a3ed8742",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.pdf",
+      "bytes": 740151,
+      "sha256": "239d2ff8daa0a45e77e709bf80c757a93ea301549deb588fc1d9f2a15b6d1774",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/2.2.1 Prijselasticiteit – paragraaf.pdf",
+      "pages": 8
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/LEESMIJ.md",
+      "bytes": 279,
+      "sha256": "7863ce97963ecdf5ec82603f2289bfe1149f57a4d84a04d168fc802817e5fa14",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/LEESMIJ.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_1.png",
+      "bytes": 51729,
+      "sha256": "124107a81e887c223faff192e467941248b5872505430b43bd374a604c020903",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_1.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_1.svg",
+      "bytes": 3440,
+      "sha256": "4803c87ffa0d8c681847403fee5423c7805997769dbadf88d35b2bd7cd4aefa6",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_2.png",
+      "bytes": 50070,
+      "sha256": "7b41a02841bcd14cbcaa0ebb6d2ca03af2c2f144e84aacfcb3c24c60ac3354b8",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_2.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_2.svg",
+      "bytes": 2078,
+      "sha256": "d9bda9894405ab5a1d2ac72eb398d11d54f43233ea810c3c794fc49e6a2c7f8d",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_3.png",
+      "bytes": 34480,
+      "sha256": "bf016a226ed3be1b70174557fd19849f5c2ead18449d1e8951ffde7f60f02002",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_3.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_3.svg",
+      "bytes": 2589,
+      "sha256": "e06935220dc2db4e3cb19d03bd12c9827b3720468beb4f88ed8b063cfa2e3418",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.md",
+      "bytes": 7908,
+      "sha256": "b90794839613461cb533f9fe98e753131b5c184e9e1968c6fe5cd615e9808cbf",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.pdf",
+      "bytes": 41035,
+      "sha256": "558450ca2fb243ada67f907d8eb52a629c948040fda67e3f163854cdf6748443",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – antwoorden.pdf",
+      "pages": 4
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.md",
+      "bytes": 9296,
+      "sha256": "9ee1a532fac54065b18bdb958c8ff29294e4eb682ee8fafc671b2b83aba3ecf2",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.pdf",
+      "bytes": 734599,
+      "sha256": "ddb092b7d4cc35e5fdeb29db02f580c728f1d73f154d90ea9ab68ff81c591aef",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – opgaven.pdf",
+      "pages": 6
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.md",
+      "bytes": 13035,
+      "sha256": "3dac719dac0b4ca02e5a2a23c5a08ba1cde7c57740f879f30ce61cafbaec37e4",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.pdf",
+      "bytes": 740266,
+      "sha256": "ba8f488a9bd00a8f38d619e59074b19ae91ccb2c5ec8e31e091c10a6010443c8",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/2.2.2 Elasticiteit en omzet – paragraaf.pdf",
+      "pages": 8
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/LEESMIJ.md",
+      "bytes": 279,
+      "sha256": "7863ce97963ecdf5ec82603f2289bfe1149f57a4d84a04d168fc802817e5fa14",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/LEESMIJ.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_fig_1.png",
+      "bytes": 69184,
+      "sha256": "d30e78dbc6c26169bd067abf4f712b2829fb8c2a59cc4b439bc0a63bf60172c8",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_fig_1.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_fig_1.svg",
+      "bytes": 5464,
+      "sha256": "34947ee375482a7f0ac7d3194eef55b98c3596ca41fd626d5514079b5d771a52",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_fig_2.png",
+      "bytes": 65419,
+      "sha256": "6f24f67dbac340032820c89d232c71ceb2a9e823742c07a1f115060642acda1a",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_fig_2.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_fig_2.svg",
+      "bytes": 2358,
+      "sha256": "6dd18e5fbb8e82d76cd80d9a83705c96e019509d2ab957c101fe0b2c64e77170",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_we_1.png",
+      "bytes": 33679,
+      "sha256": "ebcd00c259106aab7db65cf8e6d9ad12ae68fdd3287ef17ec1b9343547d93f38",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_we_1.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_we_1.svg",
+      "bytes": 1679,
+      "sha256": "4b6a92ec5af35229969bd74fcc238280d30e079db49d8a97df4bd0595d57ad51",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_we_1.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – antwoorden.md",
+      "bytes": 10690,
+      "sha256": "4841b9b7b591c6e0b1e6e9f5d9637e44737179476d3e7ef700194b70976b4296",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – antwoorden.pdf",
+      "bytes": 44531,
+      "sha256": "02cbfd35364916825682c6a3cc3ce38a5e377554542f5ee664ba5ca61f58d531",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – antwoorden.pdf",
+      "pages": 5
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – opgaven.md",
+      "bytes": 11190,
+      "sha256": "80e52900ca40f889dfdb154ca55eee22be4d82325794521c074b1f3c59c8000b",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – opgaven.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – opgaven.pdf",
+      "bytes": 736926,
+      "sha256": "14f19f05d0dd923c5413dcc5311d34c3407816a557778d64dfd424d1165cceac",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – opgaven.pdf",
+      "pages": 7
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – paragraaf.md",
+      "bytes": 19993,
+      "sha256": "94575d23fd8fed599d817947c791270eb8a45088332bd62e671d1f4e852b9a6b",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – paragraaf.pdf",
+      "bytes": 750363,
+      "sha256": "fdd1bda71aa75b0836026902667ed55952191a600c067a173dd6d731d1f26b91",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – paragraaf.pdf",
+      "pages": 12
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/LEESMIJ.md",
+      "bytes": 279,
+      "sha256": "7863ce97963ecdf5ec82603f2289bfe1149f57a4d84a04d168fc802817e5fa14",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/LEESMIJ.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_1.png",
+      "bytes": 41263,
+      "sha256": "f4bd181095bf63450052efe09990464f0dd7eef195dee56d8f490051212c83d9",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_1.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_1.svg",
+      "bytes": 2982,
+      "sha256": "7da64b21b0ca6553ff932409dce2c043f3add5a0c413417a1a588cf5295c2b01",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_2.png",
+      "bytes": 58090,
+      "sha256": "d4a1447dab4c880db54c6a2f7f7b3b5b839d31dda30aebe7b755ad4e08b3d79f",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_2.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_2.svg",
+      "bytes": 3717,
+      "sha256": "6e514b91edcda62f95f3f9fcc79d027097f7dac9a8d9b9e202f822a36e6266fc",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_3.png",
+      "bytes": 52421,
+      "sha256": "bd4483e564ecb4610edaf38f126944b060655a88360a65014c631a4b1985c52a",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_3.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_3.svg",
+      "bytes": 2027,
+      "sha256": "ac60a1a1618717d7c75265f112fc4ef5bf5c930b12831b56968dd3208b000062",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_4.png",
+      "bytes": 48217,
+      "sha256": "2d17526c81d434af3aea4ee29acf1456028ce052e92681230baee2e8c07ae9ce",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_4.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_4.svg",
+      "bytes": 2559,
+      "sha256": "be2aea6f8f4be0e341976cd397f37b62c5a4e60451320a30e43093c46a2b9705",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_4.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_5.png",
+      "bytes": 58185,
+      "sha256": "42678079024f006647b909341719260908369aa4456d5f04fae9b68e37e3e40b",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_5.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_5.svg",
+      "bytes": 2229,
+      "sha256": "912cce24799f41a88b8589f96f28f50f6fdef3633f7252f5e4fd70e835541ffc",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_5.svg"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – antwoorden.md",
+      "bytes": 9689,
+      "sha256": "8b413f6f1537f344f31a917251dd34c742eb12a8a74bfddb437098c37f8aa1cb",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – antwoorden.pdf",
+      "bytes": 42480,
+      "sha256": "0048f2798a7fc8b44c91f2875bae5d504170e67e583501fb1801d0a1736444f1",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – antwoorden.pdf",
+      "pages": 4
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – opgaven.md",
+      "bytes": 9980,
+      "sha256": "0412de253c50e18ddec145079f884fd7f258315050823ab3ac7ff2f01f6510c6",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – opgaven.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – opgaven.pdf",
+      "bytes": 734259,
+      "sha256": "31d717c7be985cd2e1d41d044b5e2cc914e72f886f1a0d2b99e557060dd6ed7f",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – opgaven.pdf",
+      "pages": 6
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/LEESMIJ.md",
+      "bytes": 279,
+      "sha256": "7863ce97963ecdf5ec82603f2289bfe1149f57a4d84a04d168fc802817e5fa14",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.4 Gemengde opgaven/LEESMIJ.md"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/_assets/2.2.4_fig_1.png",
+      "bytes": 51250,
+      "sha256": "25f5d07ef96b227768c1a6361c034e9287a7edc0dd7db35ca417d673e237a408",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.4 Gemengde opgaven/_assets/2.2.4_fig_1.png"
+    },
+    {
+      "path": "bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/_assets/2.2.4_fig_1.svg",
+      "bytes": 2057,
+      "sha256": "a2b15e826c63c89b9f2723251e47b005a317a8f40a0f5ce3a5755756c17db124",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragrafen/2.2.4 Gemengde opgaven/_assets/2.2.4_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H2/paragraph-exports.json",
+      "bytes": 555,
+      "sha256": "d6f64c348b7a214368df33c8087d4e9912ecaf6b18aba8c9246e1bd3ab21790d",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/paragraph-exports.json"
+    },
+    {
+      "path": "bronnen/H2/provenance/build-environment.json",
+      "bytes": 384,
+      "sha256": "74b0bec026f5c7ab5dd2ffe128af2aeb6c4c4fd1c01598983e7e2551c35f6754",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/provenance/build-environment.json"
+    },
+    {
+      "path": "bronnen/H2/provenance/source-register.json",
+      "bytes": 4673,
+      "sha256": "cc227d1213cf5ba9e23d4450a307a41b01a9a9a829b5985519af461d1e029a86",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/provenance/source-register.json"
+    },
+    {
+      "path": "bronnen/H2/provenance/target_questions.json",
+      "bytes": 5213,
+      "sha256": "6ef81466adfa523effcf761296ee8ae6b7fda9a06f6d1f6946d5f47ef7ff9f4a",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/provenance/target_questions.json"
+    },
+    {
+      "path": "bronnen/H2/requirements.txt",
+      "bytes": 109,
+      "sha256": "a044f84b7a583cc1a15e87003c15762900262289145c62faf813c56a4f1e72aa",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/requirements.txt"
+    },
+    {
+      "path": "bronnen/H2/validate.py",
+      "bytes": 13658,
+      "sha256": "dbce153e50ca4a9088fda7dec4e794a34a289b4c575d3f2d6fb4170f965ac0df",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/validate.py"
+    },
+    {
+      "path": "bronnen/H2/validation-report.json",
+      "bytes": 41513,
+      "sha256": "d59b4bd4bc6f26234fec9f299b1e2433442ea6d4a95b98802a855f7f734969f7",
+      "archive": "Boek_2_H2_Bronpakket.zip",
+      "member": "Boek_2_H2_bronpakket/validation-report.json"
+    },
+    {
+      "path": "bronnen/H3/2.3 Docenteninformatie.md",
+      "bytes": 15294,
+      "sha256": "452e0f7f15693b905a94d3664418404ccf9e89972c515a4883819100683b96ce",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/2.3 Docenteninformatie.md"
+    },
+    {
+      "path": "bronnen/H3/2.3 Surplus en welvaart – antwoorden.md",
+      "bytes": 28234,
+      "sha256": "293e5914bd7a6fe7b6b4b4bef23b229343a16adf835c23a78609b8e9786f6093",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/2.3 Surplus en welvaart – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H3/2.3 Surplus en welvaart – hoofdstuk.md",
+      "bytes": 60220,
+      "sha256": "cc3a798f71420855a6c2518e8d7204f25130abf1e00611d618f09f34349a0b05",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/2.3 Surplus en welvaart – hoofdstuk.md"
+    },
+    {
+      "path": "bronnen/H3/QA/LOCAL_REVIEW.md",
+      "bytes": 2934,
+      "sha256": "214097361e1ba70056a4b3b1b56fcfa153ff3709013a8ac7145cf886a146eb58",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/QA/LOCAL_REVIEW.md"
+    },
+    {
+      "path": "bronnen/H3/QA/VALIDATION.md",
+      "bytes": 140,
+      "sha256": "e4093251fd48d3f6143d91b9bf0dde7325b0125ace9f027a561c1bfde5bbd17d",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/QA/VALIDATION.md"
+    },
+    {
+      "path": "bronnen/H3/QA/validation-report.json",
+      "bytes": 96942,
+      "sha256": "e4f923073dde674018d9a838e4ea8357af6a128b120725f249e07db060733252",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/QA/validation-report.json"
+    },
+    {
+      "path": "bronnen/H3/README.md",
+      "bytes": 4396,
+      "sha256": "a90dccbbfe4023405247f73c30d8aa45a7ccb5f519e43aa2b19c71fc2697c6b7",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/README.md"
+    },
+    {
+      "path": "bronnen/H3/SHA256SUMS.json",
+      "bytes": 25991,
+      "sha256": "d15f806e6abb9b46e6f23f159e9606c8ee9744febc8d4b4437e355a68dc71bac",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/SHA256SUMS.json"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_4.png",
+      "bytes": 89840,
+      "sha256": "50b6ca65575f853c31d1c132324cfdb456354ce65555d5e10520e9f57ab2661e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ans_4.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_4.svg",
+      "bytes": 5583,
+      "sha256": "d3e0a7f9e2d89285d0fd20870246398fb4ed6145e2897a46aacac7f5022990be",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ans_4.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_6.png",
+      "bytes": 91722,
+      "sha256": "1f26559c10102b8f0e9e7562d9c8d945d2fe3accd319a65dd8904447386740c4",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ans_6.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_6.svg",
+      "bytes": 6333,
+      "sha256": "48069cee3be7382c6bfad6ad43a34dd6f0eb4be8e2cce8c7a65863af22da5ddf",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ans_6.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_8.png",
+      "bytes": 89127,
+      "sha256": "90b08d5a2b849df581e9d107338c28ae41df061a12d30bf6221d8689e1a4593f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ans_8.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_8.svg",
+      "bytes": 5097,
+      "sha256": "4c2e6781a540cc0e06ba95ef8ee989308cf7d2c550737d3d144babd3c50a7a83",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ans_8.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ex_1.png",
+      "bytes": 81194,
+      "sha256": "dedb82be31696e35580c81547d6069582298ebb6d3d33912b3b57cb4921e7122",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ex_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ex_1.svg",
+      "bytes": 5596,
+      "sha256": "e7598dd0f4f636a60f650919cc253cc2c30247ce116dbb28f873f3df64622114",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ex_2.png",
+      "bytes": 52004,
+      "sha256": "ab7c4df034814225e2c0be178b496f6ff965dd8d7f2635e876ebfbd0826db831",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ex_2.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ex_2.svg",
+      "bytes": 4316,
+      "sha256": "ef4af16efaf6a18f1399d9a750d502f78cf9738d0d017cc77c23723b4f5b5f31",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_1.png",
+      "bytes": 45585,
+      "sha256": "72b0d47502ef53f0da924fc9e71d890f25cc070daf3f071a482f4615175af1d2",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_fig_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_1.svg",
+      "bytes": 1849,
+      "sha256": "1bc4eb30e64e28caf33c4e2c80086e51e34918ee56899441c72b7ec16630d09e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_2.png",
+      "bytes": 86208,
+      "sha256": "f85d50215b272ed4561384129ed8d426cea960805c42c6d3353d2ffb70826cc1",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_fig_2.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_2.svg",
+      "bytes": 5584,
+      "sha256": "b1acad889d201ed5251322fe2a43a13031990f5adeb5d33c5d23c0cc922f979c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_3.png",
+      "bytes": 87752,
+      "sha256": "cdbf2375b0d061e14c6a07f1e8ff08d5c45ba7c91b60315d3f884bc83ad9b519",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_fig_3.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_3.svg",
+      "bytes": 5231,
+      "sha256": "66bc6346cc2c779b8378edddfd8ad7e464fb1cc40f60f4ab61f251f5ff35e566",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_we_1.png",
+      "bytes": 83823,
+      "sha256": "56f5ef0ed24443652626d170e0ba0e4d5f7f8d9d59637bd317093f08aaa4e63f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_we_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_we_1.svg",
+      "bytes": 4600,
+      "sha256": "99bcca7afd385650674aa94f81c4e27c972730407f22b4b802e4c1ab72e62bcd",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.1_we_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_4.png",
+      "bytes": 107662,
+      "sha256": "1020089fa5bfd51f8e6e1a44da18a1ae78814a0cb5289c0c525d48bc441ca058",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ans_4.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_4.svg",
+      "bytes": 6733,
+      "sha256": "f56890d2a56821f510fef3758c1c7756e732425960ed099f26152a5ee7c2967f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ans_4.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_6.png",
+      "bytes": 103948,
+      "sha256": "aa3f60b2b5fd2aa927234122cc8178d1994233b6ce4fb08a6a0120c35de4de3f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ans_6.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_6.svg",
+      "bytes": 6722,
+      "sha256": "02fc250d08abd418067b17504ac9363f2b0f7d9f31f959daf4c3723e9d8f393d",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ans_6.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_8.png",
+      "bytes": 104289,
+      "sha256": "708f78b338c591f001877ab4ce5dddb77282e9c4daa3b014b887e9c64571b825",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ans_8.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_8.svg",
+      "bytes": 6036,
+      "sha256": "543e883d6aca8ba5fb6db528a0a3b2437857040d218ed493008e1d21a120259b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ans_8.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_1.png",
+      "bytes": 100478,
+      "sha256": "2c4684cbf51810c7cfd2b6348bde9161004460445341c5a30e55c87e0006ce56",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ex_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_1.svg",
+      "bytes": 6539,
+      "sha256": "7bb56a377278252f7006859a6533a31effd720dde8cfeae4a24898817ba30993",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_2.png",
+      "bytes": 99178,
+      "sha256": "61a6941c80ea5d03c5a842230c2d4cac43a884481cb5a5ef160824748a3a305c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ex_2.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_2.svg",
+      "bytes": 5071,
+      "sha256": "dff7734fa139a0e9a491f0bdd0cef6a42f52a6652f2fbec63c179fdd08cce955",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_3.png",
+      "bytes": 93348,
+      "sha256": "72c9fd34403d8b7352a5529e827fb0f4a058e149319dd1d41bbfd5c972572b8d",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ex_3.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_3.svg",
+      "bytes": 5053,
+      "sha256": "6d2999f66dd6096b8ba7926e07a4b5d7b3382a128e20064a4fada3fe324aa37a",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ex_3.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_4.png",
+      "bytes": 92763,
+      "sha256": "fdbfb0464463681c8d7ab6e9115d4ac47297db48cba0ac4f08fb9ff5f387d1f3",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ex_4.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_4.svg",
+      "bytes": 4350,
+      "sha256": "601e3f8aeb9da08ce97074c0431791f91308959e6ef0d3164a7e75213d5f53da",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_ex_4.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_1.png",
+      "bytes": 55491,
+      "sha256": "45d274ef86395569a76847b4cb934c8440398c1f2fa41e623136e22960c970a2",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_fig_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_1.svg",
+      "bytes": 2330,
+      "sha256": "1edda0fe8207d7ee3a12b42239a1e59587acd41e0392b7afd04b12eb59beb5c2",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_2.png",
+      "bytes": 97637,
+      "sha256": "91a6cd1ecb5bcb3ba6100ad1690589aa4944accc6155bb69f328147a6b8e0ae9",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_fig_2.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_2.svg",
+      "bytes": 5139,
+      "sha256": "68b4d4ded97f94204157f36662d47b9a076b7c46433811230ce92781faa9e446",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_3.png",
+      "bytes": 98598,
+      "sha256": "ea07082a6c5726da3a58cc996da0ad5808901cb7875f0734f269b0dd24e04b5e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_fig_3.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_3.svg",
+      "bytes": 5516,
+      "sha256": "67b742d89d59eb722df3187772e3ec0f719192ca992b01c6bebfbdd7ff6f6b8f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_we_1.png",
+      "bytes": 108437,
+      "sha256": "5962795d6250e46fe2f72eac91ef1850123b01b5bd0aef85edcd63b5aaa7777b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_we_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_we_1.svg",
+      "bytes": 6045,
+      "sha256": "57529eac20afb3675bded0412a6d3ad3438b4bbe568cb56d29433b7041694421",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.2_we_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_4.png",
+      "bytes": 114159,
+      "sha256": "7b2400e5f0c17821aa5b7942a29356781b97a88d9456e7e01cdf35cc08fe2677",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ans_4.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_4.svg",
+      "bytes": 7429,
+      "sha256": "2aee52ce163c6dac820a2d1dbc42be17faeed9fa15ca2b884192d6ee340e3b32",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ans_4.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_5.png",
+      "bytes": 110024,
+      "sha256": "94f7cad96e4d7866f70f5ef997ea75045256c53a9a820361c2132154d988245a",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ans_5.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_5.svg",
+      "bytes": 7918,
+      "sha256": "d9ee45254777f6fc1a5b6d91e0edff3c880429d31da9adf51d529a7285720f3f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ans_5.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_6.png",
+      "bytes": 110486,
+      "sha256": "6a4566db1eaf80d26495995d6323556ea8b88f97d12e8a75240ad8d6e6f33697",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ans_6.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_6.svg",
+      "bytes": 6982,
+      "sha256": "c73e53162f22a5981b997c00ebd8acf8c95b74f9155f0b61eddab9e21cd096c3",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ans_6.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_1.png",
+      "bytes": 104833,
+      "sha256": "7fd2af6b6442db6ea23c5f82c33159b6a9fa145be476e813dee942b5b04f65a0",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ex_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_1.svg",
+      "bytes": 6592,
+      "sha256": "b2a6365a6d88854ed5521a1bcb219d9733bcc9e905d636d5b4decfab05edd4a5",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_2.png",
+      "bytes": 103666,
+      "sha256": "34c03bd139e62b08cffd16b05edcef5e2e3cb88f9541977db186c15eaa756d8b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ex_2.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_2.svg",
+      "bytes": 5755,
+      "sha256": "e6dc1373110a17460010062e397034a65d52f340a1a3d4a27c5714b053882845",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_3.png",
+      "bytes": 97848,
+      "sha256": "5d9c50299e96397a9ed62905a2c1754d34b4dd7bd9e4862fcb5f318a62c2ec5b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ex_3.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_3.svg",
+      "bytes": 6213,
+      "sha256": "c2ff613aab3b4c5c607dd1306f81533233456da0e51a8b4e27deb17f03d2d4ff",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ex_3.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_4.png",
+      "bytes": 98273,
+      "sha256": "4efa425c0f2473d63e1c1107600b901fe8b3353e9c9ea51a4cae9e2138c50c17",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ex_4.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_4.svg",
+      "bytes": 5294,
+      "sha256": "6c57b3ab0eb56de517319cf387e718231891fee0009161e44b1651d280ac78bf",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_ex_4.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_1.png",
+      "bytes": 94705,
+      "sha256": "70785907114840abb96c4ede1f5ff2def6eec5015cb87acb5e5bdd039ff84389",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_fig_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_1.svg",
+      "bytes": 4762,
+      "sha256": "929bd8081a9f9209c78d66f46600723c2306565991f6be3b2a415b5e4cfeb751",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_2.png",
+      "bytes": 103027,
+      "sha256": "06631c44f94a22e2a80fd2b70bda5bd78dcce4942d64567e351df410185293b1",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_fig_2.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_2.svg",
+      "bytes": 6073,
+      "sha256": "f1b87d9ebcf5d0f068d2cbbfe0bc9ef79139f8eb72985e1f86780c686588d002",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_3.png",
+      "bytes": 97473,
+      "sha256": "18b66fbb427e29d651794be7e84392a7f6a7eb832fff8b6ea334477d7efd16a7",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_fig_3.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_3.svg",
+      "bytes": 5149,
+      "sha256": "80d0705dde3e2f4121633a4ab646d9377c8a269927eceaca5eeab3e210afd663",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_4.png",
+      "bytes": 59450,
+      "sha256": "f77d49ecd80f44b6591b1190435100522bbcda7e42216c4306906ce9ba8baf41",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_fig_4.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_4.svg",
+      "bytes": 1995,
+      "sha256": "d9d73ef1842d8883d7baa5ef13506fc64ab252cbb7cadc2f507d66c335c89d6c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_fig_4.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_we_1.png",
+      "bytes": 108365,
+      "sha256": "596826db7272f482ed898ec8f989350f6f43bac6783ad870d969d76a38fd8ecb",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_we_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_we_1.svg",
+      "bytes": 7053,
+      "sha256": "2a4f2d3a562ec8c668d0dff5fc8ce3d49e27f46c815e6ff6c543104ea7868e56",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_we_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_we_2.png",
+      "bytes": 104737,
+      "sha256": "b693bc7770cbccd1620e3dbb27049af7b8bc6e387080764f7f682ebb4baaafa5",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_we_2.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_we_2.svg",
+      "bytes": 6097,
+      "sha256": "8883a9154f4c95f8409a986bb8f4b0f65d818393d5440946a422c1bda05015eb",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.3_we_2.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ans_2.png",
+      "bytes": 110980,
+      "sha256": "cca5e659905807a1ee16b828532053a5b055ff6eb648bbdf51e9a23f7e669b75",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_ans_2.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ans_2.svg",
+      "bytes": 7442,
+      "sha256": "5a558dfe2b3ff85fbcd6058a25cd3d15af08d32b06be20e67645f2ca7e5f2fe6",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_ans_2.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ans_3.png",
+      "bytes": 120978,
+      "sha256": "5f1e53f1629561ea62727deb6f6fad7fca24a6866753ea58f9621995077edf23",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_ans_3.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ans_3.svg",
+      "bytes": 8546,
+      "sha256": "ad0179af400463384951d691f87c20bcfa350cb3ee42d40e557a4a8408c6ce1c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_ans_3.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ex_1.png",
+      "bytes": 99285,
+      "sha256": "bab4bea132434920c81a7c9bc89f9f10b257f825d77f87b95a806e31c88828ab",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_ex_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ex_1.svg",
+      "bytes": 5454,
+      "sha256": "6921f3d51f43ee7c39900c5a5fad434a76e2bcc71987c370ae13b303dce6c3fa",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ex_2.png",
+      "bytes": 101652,
+      "sha256": "789caa246eb5f673d1e86b07af1379329fa4547133806b9e289140a1e501e8d3",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_ex_2.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ex_2.svg",
+      "bytes": 5803,
+      "sha256": "fcf0b258b472dafe53b7d8c7d9e318456a8d92653261563c64dfaef8d928fc79",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_fig_1.png",
+      "bytes": 69073,
+      "sha256": "070f9c1f3f5ce4694c84ace9e6c7045c663b866a407158656e8a01b292897cfb",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_fig_1.png"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_fig_1.svg",
+      "bytes": 2523,
+      "sha256": "00efeb562d387df418f5deacef677da31fcc576644b83211e6a0663f6578d8dd",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/2.3.4_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H3/_assets/geometry-data.json",
+      "bytes": 28417,
+      "sha256": "0352ed553ed0d1909ea452c3de199f1cb1141f9183d4acb9816eb269962d6415",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_assets/geometry-data.json"
+    },
+    {
+      "path": "bronnen/H3/_chapter-plan.md",
+      "bytes": 3523,
+      "sha256": "8f6814a05a5a21a2008b6a78a68e7a11472da4a311938360ca2caf29f64676f0",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/_chapter-plan.md"
+    },
+    {
+      "path": "bronnen/H3/build.py",
+      "bytes": 7798,
+      "sha256": "17ad2aaf496b54b0e0d81fcfc77c14cc6289069ec1575e412287bcc904467d1e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/build.py"
+    },
+    {
+      "path": "bronnen/H3/build_all.py",
+      "bytes": 598,
+      "sha256": "c3ce9a56eaf6fa4f3684cc1ce10b217b92faf26a594c10ae18e4139e4239a2f1",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/build_all.py"
+    },
+    {
+      "path": "bronnen/H3/build_answers.py",
+      "bytes": 4112,
+      "sha256": "b4a5608ec31ee0eddfe030049a7c67cdccf5ee1652734b521faa29f3deff436e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/build_answers.py"
+    },
+    {
+      "path": "bronnen/H3/build_teacher.py",
+      "bytes": 1640,
+      "sha256": "75e6b76d424ac581135f48db65aca050d8b58bee338eb44febcb12ca572db35b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/build_teacher.py"
+    },
+    {
+      "path": "bronnen/H3/chapter-order.json",
+      "bytes": 350,
+      "sha256": "4eee1ab472e8324762b9683003761be5483916cd8491e5291c5dec52504b09bc",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/chapter-order.json"
+    },
+    {
+      "path": "bronnen/H3/export_paragraphs.py",
+      "bytes": 3254,
+      "sha256": "ce83fef15e42e590615a697d0d126f92c4aa21404f7fb6fd87027031108ad6a1",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/export_paragraphs.py"
+    },
+    {
+      "path": "bronnen/H3/make_assets.py",
+      "bytes": 14687,
+      "sha256": "eb09dd734b036419d4fcb9281ff99858f0f1ca8ebbd624350191c4baa780f2ff",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/make_assets.py"
+    },
+    {
+      "path": "bronnen/H3/manuscript/00 Hoofdstukopening.md",
+      "bytes": 2548,
+      "sha256": "4da3847b1f16ff242e0e4e0f191975922681de773fde2d605022f81eab981e58",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/manuscript/00 Hoofdstukopening.md"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3 Hoofdstukoverzicht.md",
+      "bytes": 4112,
+      "sha256": "f23f300bea97009c413f41b1fecea13422835bb812315e8092cbaebf80ea1061",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/manuscript/2.3 Hoofdstukoverzicht.md"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3.1 Consumentensurplus – paragraaf.md",
+      "bytes": 12425,
+      "sha256": "66d3dea78343cbaacb0c1772ed050ca54b73dad957659cb3dacfe9bf2d4872df",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/manuscript/2.3.1 Consumentensurplus – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3.2 Producentensurplus en totaal surplus – paragraaf.md",
+      "bytes": 15080,
+      "sha256": "6b0bfa7d64151ad17dea91fd919d322628df148611c09ffbc684f7b8a9fd5b53",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/manuscript/2.3.2 Producentensurplus en totaal surplus – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.md",
+      "bytes": 17681,
+      "sha256": "59c2f8d4b22561adc246fcebb6e2f6a7f9053663ee129c8d9b5701f2323f73b2",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/manuscript/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3.4 Gemengde opgaven – opgaven.md",
+      "bytes": 10238,
+      "sha256": "dfb2a251a8787bc83c22376ab126f48b168fc385164eaf502181934a734ada6b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/manuscript/2.3.4 Gemengde opgaven – opgaven.md"
+    },
+    {
+      "path": "bronnen/H3/output/Boek_2_H3_Antwoorden.html",
+      "bytes": 142310,
+      "sha256": "df8d370e1299d0c25a7faa33582ad3d7a57fc910a84fdf1a60d5771a61b6f809",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/output/Boek_2_H3_Antwoorden.html"
+    },
+    {
+      "path": "bronnen/H3/output/Boek_2_H3_Antwoorden.pdf",
+      "bytes": 174955,
+      "sha256": "e8fc1b3f52a559c876512d964a2d5c5dcf22118327bebbc3dba195b6db2c4181",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/output/Boek_2_H3_Antwoorden.pdf",
+      "pages": 17
+    },
+    {
+      "path": "bronnen/H3/output/Boek_2_H3_Docenteninformatie.html",
+      "bytes": 23311,
+      "sha256": "c13264dd0e06c570c489cdf8649c678fb00d09f87f0e0da8838d15f1908d2663",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/output/Boek_2_H3_Docenteninformatie.html"
+    },
+    {
+      "path": "bronnen/H3/output/Boek_2_H3_Docenteninformatie.pdf",
+      "bytes": 48439,
+      "sha256": "20d6fedaf16d69a38d8b1348b08f0baee01be6867a890814998fff1778331e4d",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/output/Boek_2_H3_Docenteninformatie.pdf",
+      "pages": 6
+    },
+    {
+      "path": "bronnen/H3/output/Boek_2_H3_Surplus_en_welvaart.html",
+      "bytes": 254893,
+      "sha256": "116519bc987ca766cea602aed7ccb09007215b873881204b4cef8ffee22e8580",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/output/Boek_2_H3_Surplus_en_welvaart.html"
+    },
+    {
+      "path": "bronnen/H3/output/Boek_2_H3_Surplus_en_welvaart.pdf",
+      "bytes": 339149,
+      "sha256": "e1a5f54ce828e470bd6e92a9c2e8cb8c0875b5a8a33a74ad5d856808bee10fbd",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/output/Boek_2_H3_Surplus_en_welvaart.pdf",
+      "pages": 38
+    },
+    {
+      "path": "bronnen/H3/output/page_map.json",
+      "bytes": 2644,
+      "sha256": "e051d34d468eda61e3b754c09c365c8e592c1cbabb384e5fc6d2d07a3072ae0e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/output/page_map.json"
+    },
+    {
+      "path": "bronnen/H3/output/teacher_page_map.json",
+      "bytes": 410,
+      "sha256": "769f0a72a48d24ecd4c0c364c3dbaeac739425a36ec5ec99bd85f0530bd9b3bb",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/output/teacher_page_map.json"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – antwoorden.md",
+      "bytes": 6112,
+      "sha256": "c32afc20b0e406bf5758a5dc3b5ff12280d6df23bb2247e77cd42e7a3ca7e154",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – antwoorden.pdf",
+      "bytes": 55010,
+      "sha256": "ed4039ee57cca59554503b15521fea4ad6230e06799c0bdae5a868734d4b96fd",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – antwoorden.pdf",
+      "pages": 4
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – opgaven.md",
+      "bytes": 7597,
+      "sha256": "75d493fb95be36b75169722f883ba5aa0606902403f2e22eda4292ace9aa35b7",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – opgaven.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – opgaven.pdf",
+      "bytes": 317972,
+      "sha256": "8a253b214f41296cc561ceecdf9b2a55059067f86d67a3ae007e0c2dcf8e5e5c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – opgaven.pdf",
+      "pages": 5
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – paragraaf.md",
+      "bytes": 12425,
+      "sha256": "66d3dea78343cbaacb0c1772ed050ca54b73dad957659cb3dacfe9bf2d4872df",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – paragraaf.pdf",
+      "bytes": 326653,
+      "sha256": "53c7e04c8aeccaeec1bf2469784b3e1f3dfb45ee8e790aa7f9e83df3c677ea16",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – paragraaf.pdf",
+      "pages": 8
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_4.png",
+      "bytes": 89840,
+      "sha256": "50b6ca65575f853c31d1c132324cfdb456354ce65555d5e10520e9f57ab2661e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_4.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_4.svg",
+      "bytes": 5583,
+      "sha256": "d3e0a7f9e2d89285d0fd20870246398fb4ed6145e2897a46aacac7f5022990be",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_4.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_6.png",
+      "bytes": 91722,
+      "sha256": "1f26559c10102b8f0e9e7562d9c8d945d2fe3accd319a65dd8904447386740c4",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_6.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_6.svg",
+      "bytes": 6333,
+      "sha256": "48069cee3be7382c6bfad6ad43a34dd6f0eb4be8e2cce8c7a65863af22da5ddf",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_6.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_8.png",
+      "bytes": 89127,
+      "sha256": "90b08d5a2b849df581e9d107338c28ae41df061a12d30bf6221d8689e1a4593f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_8.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_8.svg",
+      "bytes": 5097,
+      "sha256": "4c2e6781a540cc0e06ba95ef8ee989308cf7d2c550737d3d144babd3c50a7a83",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_8.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ex_1.png",
+      "bytes": 81194,
+      "sha256": "dedb82be31696e35580c81547d6069582298ebb6d3d33912b3b57cb4921e7122",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ex_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ex_1.svg",
+      "bytes": 5596,
+      "sha256": "e7598dd0f4f636a60f650919cc253cc2c30247ce116dbb28f873f3df64622114",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ex_2.png",
+      "bytes": 52004,
+      "sha256": "ab7c4df034814225e2c0be178b496f6ff965dd8d7f2635e876ebfbd0826db831",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ex_2.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ex_2.svg",
+      "bytes": 4316,
+      "sha256": "ef4af16efaf6a18f1399d9a750d502f78cf9738d0d017cc77c23723b4f5b5f31",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_1.png",
+      "bytes": 45585,
+      "sha256": "72b0d47502ef53f0da924fc9e71d890f25cc070daf3f071a482f4615175af1d2",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_1.svg",
+      "bytes": 1849,
+      "sha256": "1bc4eb30e64e28caf33c4e2c80086e51e34918ee56899441c72b7ec16630d09e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_2.png",
+      "bytes": 86208,
+      "sha256": "f85d50215b272ed4561384129ed8d426cea960805c42c6d3353d2ffb70826cc1",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_2.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_2.svg",
+      "bytes": 5584,
+      "sha256": "b1acad889d201ed5251322fe2a43a13031990f5adeb5d33c5d23c0cc922f979c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_3.png",
+      "bytes": 87752,
+      "sha256": "cdbf2375b0d061e14c6a07f1e8ff08d5c45ba7c91b60315d3f884bc83ad9b519",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_3.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_3.svg",
+      "bytes": 5231,
+      "sha256": "66bc6346cc2c779b8378edddfd8ad7e464fb1cc40f60f4ab61f251f5ff35e566",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_we_1.png",
+      "bytes": 83823,
+      "sha256": "56f5ef0ed24443652626d170e0ba0e4d5f7f8d9d59637bd317093f08aaa4e63f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_we_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_we_1.svg",
+      "bytes": 4600,
+      "sha256": "99bcca7afd385650674aa94f81c4e27c972730407f22b4b802e4c1ab72e62bcd",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_we_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.1 Consumentensurplus/build_pdf.py",
+      "bytes": 231,
+      "sha256": "14a4459c7aa5e942b99d6be1c46c206c7eb7ff92c25ac5f2b85b1b801da9f219",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.1 Consumentensurplus/build_pdf.py"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – antwoorden.md",
+      "bytes": 7089,
+      "sha256": "7869f4e5e17b970bc052a4f957516d9509829d9ea16b9821bbd3ef740a99dba8",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – antwoorden.pdf",
+      "bytes": 60477,
+      "sha256": "d230ea6c12f14c37ed1ab46d49102806e26d4eeab7fc8f5aa0e929e1c3a38ac2",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – antwoorden.pdf",
+      "pages": 5
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – opgaven.md",
+      "bytes": 10136,
+      "sha256": "c74ce73620cbcaf3f9cc9178f9e0dadb8bf3e5c139f6900b4af0f236fa317a74",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – opgaven.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – opgaven.pdf",
+      "bytes": 324372,
+      "sha256": "be7c01d7d71dcb8df8afa9047d6d8a6104d5e338971bb08af9d8eb3d9b328807",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – opgaven.pdf",
+      "pages": 7
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – paragraaf.md",
+      "bytes": 15080,
+      "sha256": "6b0bfa7d64151ad17dea91fd919d322628df148611c09ffbc684f7b8a9fd5b53",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – paragraaf.pdf",
+      "bytes": 333572,
+      "sha256": "1c295f92d8b11a4554a70baa1741e047c2328778ce99057b204f6ecba5e3d36f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – paragraaf.pdf",
+      "pages": 10
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_4.png",
+      "bytes": 107662,
+      "sha256": "1020089fa5bfd51f8e6e1a44da18a1ae78814a0cb5289c0c525d48bc441ca058",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_4.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_4.svg",
+      "bytes": 6733,
+      "sha256": "f56890d2a56821f510fef3758c1c7756e732425960ed099f26152a5ee7c2967f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_4.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_6.png",
+      "bytes": 103948,
+      "sha256": "aa3f60b2b5fd2aa927234122cc8178d1994233b6ce4fb08a6a0120c35de4de3f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_6.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_6.svg",
+      "bytes": 6722,
+      "sha256": "02fc250d08abd418067b17504ac9363f2b0f7d9f31f959daf4c3723e9d8f393d",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_6.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_8.png",
+      "bytes": 104289,
+      "sha256": "708f78b338c591f001877ab4ce5dddb77282e9c4daa3b014b887e9c64571b825",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_8.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_8.svg",
+      "bytes": 6036,
+      "sha256": "543e883d6aca8ba5fb6db528a0a3b2437857040d218ed493008e1d21a120259b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_8.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_1.png",
+      "bytes": 100478,
+      "sha256": "2c4684cbf51810c7cfd2b6348bde9161004460445341c5a30e55c87e0006ce56",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_1.svg",
+      "bytes": 6539,
+      "sha256": "7bb56a377278252f7006859a6533a31effd720dde8cfeae4a24898817ba30993",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_2.png",
+      "bytes": 99178,
+      "sha256": "61a6941c80ea5d03c5a842230c2d4cac43a884481cb5a5ef160824748a3a305c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_2.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_2.svg",
+      "bytes": 5071,
+      "sha256": "dff7734fa139a0e9a491f0bdd0cef6a42f52a6652f2fbec63c179fdd08cce955",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_3.png",
+      "bytes": 93348,
+      "sha256": "72c9fd34403d8b7352a5529e827fb0f4a058e149319dd1d41bbfd5c972572b8d",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_3.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_3.svg",
+      "bytes": 5053,
+      "sha256": "6d2999f66dd6096b8ba7926e07a4b5d7b3382a128e20064a4fada3fe324aa37a",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_3.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_4.png",
+      "bytes": 92763,
+      "sha256": "fdbfb0464463681c8d7ab6e9115d4ac47297db48cba0ac4f08fb9ff5f387d1f3",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_4.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_4.svg",
+      "bytes": 4350,
+      "sha256": "601e3f8aeb9da08ce97074c0431791f91308959e6ef0d3164a7e75213d5f53da",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ex_4.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_1.png",
+      "bytes": 55491,
+      "sha256": "45d274ef86395569a76847b4cb934c8440398c1f2fa41e623136e22960c970a2",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_1.svg",
+      "bytes": 2330,
+      "sha256": "1edda0fe8207d7ee3a12b42239a1e59587acd41e0392b7afd04b12eb59beb5c2",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_2.png",
+      "bytes": 97637,
+      "sha256": "91a6cd1ecb5bcb3ba6100ad1690589aa4944accc6155bb69f328147a6b8e0ae9",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_2.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_2.svg",
+      "bytes": 5139,
+      "sha256": "68b4d4ded97f94204157f36662d47b9a076b7c46433811230ce92781faa9e446",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_3.png",
+      "bytes": 98598,
+      "sha256": "ea07082a6c5726da3a58cc996da0ad5808901cb7875f0734f269b0dd24e04b5e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_3.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_3.svg",
+      "bytes": 5516,
+      "sha256": "67b742d89d59eb722df3187772e3ec0f719192ca992b01c6bebfbdd7ff6f6b8f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_we_1.png",
+      "bytes": 108437,
+      "sha256": "5962795d6250e46fe2f72eac91ef1850123b01b5bd0aef85edcd63b5aaa7777b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_we_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_we_1.svg",
+      "bytes": 6045,
+      "sha256": "57529eac20afb3675bded0412a6d3ad3438b4bbe568cb56d29433b7041694421",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_we_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/build_pdf.py",
+      "bytes": 231,
+      "sha256": "14a4459c7aa5e942b99d6be1c46c206c7eb7ff92c25ac5f2b85b1b801da9f219",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.2 Producentensurplus en totaal surplus/build_pdf.py"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – antwoorden.md",
+      "bytes": 7815,
+      "sha256": "a93de4aeae7b1888015f3b64e977aa56a4de45b4a5d8f70ff8ba4cd593cd84ff",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – antwoorden.pdf",
+      "bytes": 63918,
+      "sha256": "b7ebb58494886cb085ba935bfc2094245c38b7f979a80cd30ab8bf351256911e",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – antwoorden.pdf",
+      "pages": 4
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – opgaven.md",
+      "bytes": 10628,
+      "sha256": "87f1f94b26b0f85c9a10d5b2259801aeb6f93938495c90e3a39a9929f82fb4ea",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – opgaven.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – opgaven.pdf",
+      "bytes": 325948,
+      "sha256": "9cfa1f016c6137381227f04782a5e9c270966f5e1b9beabd08a02b86ebf0411c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – opgaven.pdf",
+      "pages": 7
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.md",
+      "bytes": 17681,
+      "sha256": "59c2f8d4b22561adc246fcebb6e2f6a7f9053663ee129c8d9b5701f2323f73b2",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.pdf",
+      "bytes": 338983,
+      "sha256": "705080d28e43925ae40b5578b1a2cd9b7ffb9a90c90f01c1e975df466b50c371",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.pdf",
+      "pages": 11
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_4.png",
+      "bytes": 114159,
+      "sha256": "7b2400e5f0c17821aa5b7942a29356781b97a88d9456e7e01cdf35cc08fe2677",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_4.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_4.svg",
+      "bytes": 7429,
+      "sha256": "2aee52ce163c6dac820a2d1dbc42be17faeed9fa15ca2b884192d6ee340e3b32",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_4.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_5.png",
+      "bytes": 110024,
+      "sha256": "94f7cad96e4d7866f70f5ef997ea75045256c53a9a820361c2132154d988245a",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_5.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_5.svg",
+      "bytes": 7918,
+      "sha256": "d9ee45254777f6fc1a5b6d91e0edff3c880429d31da9adf51d529a7285720f3f",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_5.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_6.png",
+      "bytes": 110486,
+      "sha256": "6a4566db1eaf80d26495995d6323556ea8b88f97d12e8a75240ad8d6e6f33697",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_6.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_6.svg",
+      "bytes": 6982,
+      "sha256": "c73e53162f22a5981b997c00ebd8acf8c95b74f9155f0b61eddab9e21cd096c3",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_6.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_1.png",
+      "bytes": 104833,
+      "sha256": "7fd2af6b6442db6ea23c5f82c33159b6a9fa145be476e813dee942b5b04f65a0",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_1.svg",
+      "bytes": 6592,
+      "sha256": "b2a6365a6d88854ed5521a1bcb219d9733bcc9e905d636d5b4decfab05edd4a5",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_2.png",
+      "bytes": 103666,
+      "sha256": "34c03bd139e62b08cffd16b05edcef5e2e3cb88f9541977db186c15eaa756d8b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_2.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_2.svg",
+      "bytes": 5755,
+      "sha256": "e6dc1373110a17460010062e397034a65d52f340a1a3d4a27c5714b053882845",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_3.png",
+      "bytes": 97848,
+      "sha256": "5d9c50299e96397a9ed62905a2c1754d34b4dd7bd9e4862fcb5f318a62c2ec5b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_3.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_3.svg",
+      "bytes": 6213,
+      "sha256": "c2ff613aab3b4c5c607dd1306f81533233456da0e51a8b4e27deb17f03d2d4ff",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_3.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_4.png",
+      "bytes": 98273,
+      "sha256": "4efa425c0f2473d63e1c1107600b901fe8b3353e9c9ea51a4cae9e2138c50c17",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_4.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_4.svg",
+      "bytes": 5294,
+      "sha256": "6c57b3ab0eb56de517319cf387e718231891fee0009161e44b1651d280ac78bf",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ex_4.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_1.png",
+      "bytes": 94705,
+      "sha256": "70785907114840abb96c4ede1f5ff2def6eec5015cb87acb5e5bdd039ff84389",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_1.svg",
+      "bytes": 4762,
+      "sha256": "929bd8081a9f9209c78d66f46600723c2306565991f6be3b2a415b5e4cfeb751",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_2.png",
+      "bytes": 103027,
+      "sha256": "06631c44f94a22e2a80fd2b70bda5bd78dcce4942d64567e351df410185293b1",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_2.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_2.svg",
+      "bytes": 6073,
+      "sha256": "f1b87d9ebcf5d0f068d2cbbfe0bc9ef79139f8eb72985e1f86780c686588d002",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_2.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_3.png",
+      "bytes": 97473,
+      "sha256": "18b66fbb427e29d651794be7e84392a7f6a7eb832fff8b6ea334477d7efd16a7",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_3.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_3.svg",
+      "bytes": 5149,
+      "sha256": "80d0705dde3e2f4121633a4ab646d9377c8a269927eceaca5eeab3e210afd663",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_3.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_4.png",
+      "bytes": 59450,
+      "sha256": "f77d49ecd80f44b6591b1190435100522bbcda7e42216c4306906ce9ba8baf41",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_4.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_4.svg",
+      "bytes": 1995,
+      "sha256": "d9d73ef1842d8883d7baa5ef13506fc64ab252cbb7cadc2f507d66c335c89d6c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_fig_4.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_we_1.png",
+      "bytes": 108365,
+      "sha256": "596826db7272f482ed898ec8f989350f6f43bac6783ad870d969d76a38fd8ecb",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_we_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_we_1.svg",
+      "bytes": 7053,
+      "sha256": "2a4f2d3a562ec8c668d0dff5fc8ce3d49e27f46c815e6ff6c543104ea7868e56",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_we_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_we_2.png",
+      "bytes": 104737,
+      "sha256": "b693bc7770cbccd1620e3dbb27049af7b8bc6e387080764f7f682ebb4baaafa5",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_we_2.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_we_2.svg",
+      "bytes": 6097,
+      "sha256": "8883a9154f4c95f8409a986bb8f4b0f65d818393d5440946a422c1bda05015eb",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_we_2.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/build_pdf.py",
+      "bytes": 231,
+      "sha256": "14a4459c7aa5e942b99d6be1c46c206c7eb7ff92c25ac5f2b85b1b801da9f219",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/build_pdf.py"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – antwoorden.md",
+      "bytes": 7215,
+      "sha256": "4bf1e5cd4018a98f0231524e07003cf45aac383197dd1b6d4842bc2615c29d72",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – antwoorden.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – antwoorden.pdf",
+      "bytes": 53703,
+      "sha256": "0ecfdb27a814acbd9c457da61122c7fd0e63a60f86e7c01b573cbf7590fb40f1",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – antwoorden.pdf",
+      "pages": 4
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – opgaven.md",
+      "bytes": 10238,
+      "sha256": "dfb2a251a8787bc83c22376ab126f48b168fc385164eaf502181934a734ada6b",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – opgaven.md"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – opgaven.pdf",
+      "bytes": 320798,
+      "sha256": "58ab8d972d8f1b0cf1421ee35354894f45893bce10cf84b05cd9d0efb3b50611",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – opgaven.pdf",
+      "pages": 6
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ans_2.png",
+      "bytes": 110980,
+      "sha256": "cca5e659905807a1ee16b828532053a5b055ff6eb648bbdf51e9a23f7e669b75",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ans_2.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ans_2.svg",
+      "bytes": 7442,
+      "sha256": "5a558dfe2b3ff85fbcd6058a25cd3d15af08d32b06be20e67645f2ca7e5f2fe6",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ans_2.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ans_3.png",
+      "bytes": 120978,
+      "sha256": "5f1e53f1629561ea62727deb6f6fad7fca24a6866753ea58f9621995077edf23",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ans_3.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ans_3.svg",
+      "bytes": 8546,
+      "sha256": "ad0179af400463384951d691f87c20bcfa350cb3ee42d40e557a4a8408c6ce1c",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ans_3.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ex_1.png",
+      "bytes": 99285,
+      "sha256": "bab4bea132434920c81a7c9bc89f9f10b257f825d77f87b95a806e31c88828ab",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ex_1.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ex_1.svg",
+      "bytes": 5454,
+      "sha256": "6921f3d51f43ee7c39900c5a5fad434a76e2bcc71987c370ae13b303dce6c3fa",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ex_1.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ex_2.png",
+      "bytes": 101652,
+      "sha256": "789caa246eb5f673d1e86b07af1379329fa4547133806b9e289140a1e501e8d3",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ex_2.png"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ex_2.svg",
+      "bytes": 5803,
+      "sha256": "fcf0b258b472dafe53b7d8c7d9e318456a8d92653261563c64dfaef8d928fc79",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ex_2.svg"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/build_pdf.py",
+      "bytes": 231,
+      "sha256": "14a4459c7aa5e942b99d6be1c46c206c7eb7ff92c25ac5f2b85b1b801da9f219",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/2.3.4 Gemengde opgaven/build_pdf.py"
+    },
+    {
+      "path": "bronnen/H3/paragrafen/manifest.json",
+      "bytes": 2006,
+      "sha256": "be30ff3bb866582baa41cb66a1a8ae377bed259d8ebf6a577cbe38f616958bc7",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/paragrafen/manifest.json"
+    },
+    {
+      "path": "bronnen/H3/provenance/source-register.json",
+      "bytes": 3009,
+      "sha256": "f4a90bf91aa43fe084794c294761a6c3ce3f2d9e3872795f39cd9e6b6e8423dd",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/provenance/source-register.json"
+    },
+    {
+      "path": "bronnen/H3/provenance/target-transcription.json",
+      "bytes": 7245,
+      "sha256": "806295425a0ce928ace3081466ba0082282d01b02c2d9bc6887b6e65b21226cd",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/provenance/target-transcription.json"
+    },
+    {
+      "path": "bronnen/H3/requirements.txt",
+      "bytes": 109,
+      "sha256": "af900cd54c4b8d13703a447430ab730cd7d9797ce1d9cfe57c279f472d846399",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/requirements.txt"
+    },
+    {
+      "path": "bronnen/H3/validate.py",
+      "bytes": 14166,
+      "sha256": "fa6cd427d32cf2cb36fc3ce4d6a72452936ae73303e37ba381f1b4dbd5d771b8",
+      "archive": "Boek_2_H3_Bronpakket.zip",
+      "member": "Boek_2_H3_bronpakket/validate.py"
+    },
+    {
+      "path": "hoofdstukken/Boek_2_H1_Antwoorden.pdf",
+      "bytes": 642726,
+      "sha256": "3db549b43e8653dfb62b584f1204ef3c5725924d2756263f940ca0382b0d2b26",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_H1_Antwoorden.pdf",
+      "pages": 20
+    },
+    {
+      "path": "hoofdstukken/Boek_2_H1_Docenteninformatie.pdf",
+      "bytes": 43118,
+      "sha256": "c961feb9a429f63068929d9e2a446c57ac8e2a5bb3514cc7c921f73a755955db",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_H1_Docenteninformatie.pdf",
+      "pages": 5
+    },
+    {
+      "path": "hoofdstukken/Boek_2_H1_Kosten_en_opbrengsten.pdf",
+      "bytes": 1116498,
+      "sha256": "9e4c164131185f02ac0b6ced0efd3508d44ab89e6179b81cebd4e4520c3ccfc3",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_H1_Kosten_en_opbrengsten.pdf",
+      "pages": 34
+    },
+    {
+      "path": "hoofdstukken/Boek_2_H2_Antwoorden.pdf",
+      "bytes": 77071,
+      "sha256": "1042846b8687663ed87825a6f5e7fe6886f6e254eaf3f738ad2324f5e2fc6b06",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_H2_Antwoorden.pdf",
+      "pages": 18
+    },
+    {
+      "path": "hoofdstukken/Boek_2_H2_Docenteninformatie.pdf",
+      "bytes": 47005,
+      "sha256": "37178f88903839897241dfa7ed16a45d023a03b6883c2cff82b75e5a9345ebf4",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_H2_Docenteninformatie.pdf",
+      "pages": 6
+    },
+    {
+      "path": "hoofdstukken/Boek_2_H2_Elasticiteit.pdf",
+      "bytes": 812273,
+      "sha256": "1463172ae0f7fb2b7639f9fbe3056b20f96c64f62c64a7836f606f6eedc04f5f",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_H2_Elasticiteit.pdf",
+      "pages": 36
+    },
+    {
+      "path": "hoofdstukken/Boek_2_H3_Antwoorden.pdf",
+      "bytes": 174955,
+      "sha256": "e8fc1b3f52a559c876512d964a2d5c5dcf22118327bebbc3dba195b6db2c4181",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_H3_Antwoorden.pdf",
+      "pages": 17
+    },
+    {
+      "path": "hoofdstukken/Boek_2_H3_Docenteninformatie.pdf",
+      "bytes": 48439,
+      "sha256": "20d6fedaf16d69a38d8b1348b08f0baee01be6867a890814998fff1778331e4d",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_H3_Docenteninformatie.pdf",
+      "pages": 6
+    },
+    {
+      "path": "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf",
+      "bytes": 339149,
+      "sha256": "e1a5f54ce828e470bd6e92a9c2e8cb8c0875b5a8a33a74ad5d856808bee10fbd",
+      "archive": "Boek_2_Compleet_Bronpakket.zip",
+      "member": "Boek_2_H3_Surplus_en_welvaart.pdf",
+      "pages": 38
+    }
+  ],
+  "technical_preflight": {
+    "date": "2026-09-13",
+    "original_file_sha256_checks": 459,
+    "original_zip_crc_checks": 4,
+    "pdfs_opened_and_page_structures_checked": 54,
+    "local_markdown_image_references_checked": 202,
+    "missing_referenced_images": 0,
+    "new_readme_links_checked": 29,
+    "book_identity_render_sample_pdf_pages": [
+      1,
+      2,
+      3,
+      37,
+      73,
+      110
+    ],
+    "detailed_content_review_performed": false,
+    "chapter_builders_rerun": false,
+    "repository_ci_run": false,
+    "repository_mutated": false
+  }
+}

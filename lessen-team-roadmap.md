@@ -2,6 +2,12 @@
 
 Full baseline and completed execution history: [archive/roadmaps/snapshots/lessons-team-20260910.md](archive/roadmaps/snapshots/lessons-team-20260910.md). Current direction, ledger decisions and carried conditions remain in this live file.
 
+## Current Book 2 status — 2026-09-13
+
+**Book 2 writing and assembly are complete.** The owner selected the externally authored chat edition covering Chapters 2.1–2.3 and all twelve paragraphs. The supplied student book, separate answers, teacher guides and editable chapter sources are the import baseline. The current task is to place that edition in the repository unchanged except for substantial defects actually found, make it discoverable, and check technical integrity. Do not commission fresh Book 2 chapter writing or a new full content-review cycle for this import. Repository integration status is recorded separately from content completion. Existing target-approval and companion/product obligations are not automatically closed by the import.
+
+`BOOK2-CHAT-IMPORT-1`: **writing/assembly complete; import and archive cleanup in PR**. [Default delivered print edition](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/README.md). Issues #223/#229 and all separate target, companion and product obligations remain separate; no formal review is marked PASS by this import.
+
 ## Sprint Ledger
 
 The currently-active sprint sits at the top. Future sprints follow in sequence.
@@ -71,6 +77,7 @@ Core standard:
 
 | Sprint | Name | Completed | Current State |
 |--------|------|-----------|---------------|
+| BOOK2-CHAT-IMPORT-1 | Import completed Book 2 chat edition | no — import in PR | **Writing/assembly complete; import and archive cleanup in PR.** Supplied PDFs and editable sources preserved; superseded chapters 2.1/2.2 moved byte-for-byte to [archive](archive/book-2-pre-chat-2026/README.md). Technical integrity and discoverability only. [Edition](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/README.md). |
 | VISION-1 | Strategic Product Vision Canonicalization | **2026-06-06** | **CLOSED PASS WITH FLAGS / SPECIFICATION-GOVERNANCE / NO GENERATED OUTPUT.** Added a canonical strategic product vision and machine-readable companion above the operational product end-state, linked it from key platform and lesson entry points, and added a lightweight platform checker. No generated lesson output, product-use authority, diagnostics, mastery/sequencing, adaptive routing, summative use, student-facing AI, PV, Scale Gate, or broad scaling is authorized. |
 | BOOK1-FIX-1 | Book 1 TOC, Exercise Label, And Figure-Text Concordance Fix | 2026-06-02 | **CLOSED PASS WITH FLAGS.** Added Book 1 TOC page-number structure, standardized the post-start exercise label as `Zelfstandige oefening`, repaired the `1.1.3` Figure 2/Figure 3 aggregate-asset mismatch, strengthened chapter/book figure concordance checks, improved the `1.1.3` math-versus-economics graph-axis explanation, and updated review/testing guidance so rendered figure-caption mismatch blocks closure. Generated Book 1 output was refreshed through platform workflow only. No protected reference mutation, target-exercise promotion, diagnostics, adaptive routing, mastery/sequencing, student-facing AI, summative use, PV, Scale Gate 1, or product-wide use is authorized. |
 | SYNC-PRODUCT-1 | Product Proof Roadmap Alignment | **2026-06-01** | **CLOSED ROADMAP/SPECIFICATION ALIGNMENT / NO GENERATED OUTPUT.** Platform aligned both roadmaps and stable specs around the Product Proof Track before Scale Gate 1: short check plus target-equivalent exit ticket, shared task UI, visible/actionable skill map, route affordance, dual-coding task decisions, and three-paragraph product proof. No implementation, generated lesson output, diagnostics, adaptive routing, mastery/sequencing, summative use, PV, Scale Gate 1, or product-wide use was authorized. |
@@ -273,7 +280,7 @@ or a human waiver explicitly records consequences.
 | L1.5Q | Course Blueprint v5 + Four Test-Week Book Plan | **2026-05-18** | **CLOSED PASS WITH FLAGS.** Created the active v5 curriculum-source baseline for the four-book/four-test-week model. Active target-exercise registry now points to v5 with 54 count-bearing records and exact counts 12/12/14/16; v4 registry is archived, v4 blueprint/meta are superseded, v5 owned blueprint/meta exist, v5 validator checks counts, web-only test-prep, placeholder semantics, and blueprint anchors. Phase B upgraded `course_blueprint_v5.md` from scaffold to curriculum-source prose and closed with regenerated owned-source, owned-content, source-document, inventory, and URL-index artifacts. Flags: migrated target exercises and gemengde-opgaven placeholders are not reviewed final; L2.4-TEA remains the later target-exercise distribution audit. Log: `archive/sprints/L1.5Q/L1.5Q-closure-log.md`. |
 | L1.5P | Boek 1 Print-Edition Cut + 2026/27 12-Paragraph Scope | **2026-05-18** | **CLOSED PASS AFTER LEAD-REVIEW CORRECTION.** Printed Book 1 is generated through the platform book workflow from a 12-paragraph print manifest: chapters 1.1 and 1.2 plus a composed print chapter 1.3 (`Aanbod en marktevenwicht`). Test preparation is website-only; cost/revenue/marginal-analysis material remains online/parked for later migration. Independent lead review found duplicate opgaven and excluded body/glossary leakage after the first close; corrections are now platform-owned and regenerated. Green gates: strengthened print-scope checker 12/12, `check:book` 26/26, focused print-scope Jest 5/5, full platform Jest 502 passed / 8 skipped, markdown/PDF excluded-term scans clean, PDF generated. Logs: `archive/sprints/L1.5P/L1.5P-sprint-plan.md`, `archive/sprints/L1.5P/L1.5P-cut-survival-map.md`, `archive/sprints/L1.5P/L1.5P-closure-log.md`, `archive/sprints/L1.5P/L1.5P-lead-review-record.md`. |
 | L2.1 | Book 1 Release Polish | no | Teacher-facing polish continues under the Book 1 health gate after the print scope is stable. |
-| L2.2 | Book 2 Part A Textbook Layer | no | Start Book 2 Part A only after foundation-hardening gates say the v5/MTU/target-exercise path is stable enough. Do not start Book 2 full production merely because L1.5Q made v5 active. |
+| L2.2 | Book 2 Part A Textbook Layer | superseded | Fresh writing/assembly superseded by the owner-selected completed edition in BOOK2-CHAT-IMPORT-1; no new formal review or target closure claimed. |
 | L2.4-TEA | Target Exercise Distribution Audit | no | **FUTURE QUALITY SPRINT.** Do not execute until the micro-teaching-unit layer and companion-quality instruments are mature enough. Evaluate target exercises across the new book structure using MTU dependencies, teacher-learning-quality review, student-experience review, and built paragraph evidence. |
 | L-PV0 | PV-G4 Lesson Proof Track Planning | **2026-05-14** | **CLOSED PASS.** Operational proof plan added in `archive/sprints/L-PV0/L-PV0-proof-track-plan.md`. Current repos were checked first: PV-G4 intake was `0/2`, `shared/procedure/1.1.1.js` still exposed `(unit B02)`, and chapter/book aggregates still carried stale three-step wording. Candidate 1 selected `1.1.1`/B02; candidate 2 selected a bounded A61 table-trace pilot. |
 | L-PV1 | Procedure Contract Hardening | **2026-05-14** | **CLOSED PASS.** Platform now has a lesson procedure-contract registry and `validate-procedure-contracts.js`. The validator checks counts, formal step IDs, order, keywords, surface coverage, stale legacy wording, and student-facing internal-code leakage. Negative Jest fixtures prove wrong order, internal-code leakage, and old three-step language fail. |
@@ -579,7 +586,7 @@ Own the material side of delivery:
 
 - Book 1 release polish
 - Book 1 foundation hardening and flag burn-down
-- Book 2 Part A textbook production only after the foundation gates allow it
+- Book 2 writing/assembly is complete; finish the supplied-edition import under BOOK2-CHAT-IMPORT-1. Separate foundation/target obligations retain their own gates.
 - companion bounded-scope work, treated as controlled next-step production until quality and usability are good enough to scale
 - exam-target paragraph contracts, once the platform reference layer provides official exam prompt, source-annex, correction-model, MTU, and answer-operation evidence
 
@@ -592,7 +599,8 @@ That means:
 - Book 1 Part A is green.
 - Book 1 print scope has completed the urgent L1.5P cut and is the current
   publisher-print baseline.
-- Book 2 Part A should wait until the remaining foundation blockers clear.
+- Book 2 writing/assembly is complete; repository import is prepared/in PR.
+  The following foundation history remains separate from this import.
   Closed prerequisites now include L1.7A, L1.7B-C, L1.7C-0, L1.7C, L1.7D,
   L2.0, L1.7B-R, GATE-L1.7B, L1.7C-MATH, L1.7B-MAP, L1.7B-P23,
   reference-side GATE-MTU-H4 routing review, MTU-H4A through MTU-H4C,
@@ -3805,7 +3813,7 @@ Rules:
 
 ### Sprint L2.2: Book 2 Part A Textbook Layer
 
-Completed: no.
+Status: writing/assembly superseded by BOOK2-CHAT-IMPORT-1 on 2026-09-13; no new formal review claimed. The original contract below is historical, not a direction to write the supplied book again.
 
 Purpose:
 
@@ -4022,8 +4030,7 @@ Outputs:
   SCALE-PROOF-3P, and GATE-PRODUCT-3P; or
   does not conflict with source-of-truth decisions.
 - Hand platform-owned UI integration work back to the platform team instead of patching generated files.
-- Keep Book 2 Part A planning paused behind L1.5Q if it depends on the new
-  course structure.
+- Complete the Book 2 edition import under BOOK2-CHAT-IMPORT-1. Any later target-alignment or course-structure work remains separately scoped.
 
 ### Next 2-4 Weeks
 
@@ -4066,7 +4073,7 @@ Outputs:
   blockers with stated consequences before Scale Gate 1 if companion scaling
   is still desired.
 - Keep `course_blueprint_v5.md` and the target-exercise source-of-truth path as
-  the active baseline before Book 2 production.
+  the active baseline for any future separately scoped target-alignment work.
 - `1.1.1` exists as the reference companion paragraph with platform-integrated layout/UI and surface-adapted visual variants.
 - A second Book 1 companion paragraph is built under L1.4 against the current platform state, surfacing any pipeline gap that a second regeneration reveals.
 - Layout Round 2 (L1.5) acts on the combined findings from the L1.3A-C usability review and the L1.4 regression paragraph; changes land in platform-owned sources only.
@@ -4098,7 +4105,7 @@ Outputs:
 ### Months 1-3
 
 - Book 1 becomes controlled-production-ready.
-- Book 2 textbook layer becomes textbook-ready or close.
+- Book 2 writing/assembly is complete; track repository integration separately under BOOK2-CHAT-IMPORT-1.
 - Companion production decisions are based on validated, usable, regenerated companion materials with proper visual integration, not only file-count validation.
 
 ## What The Lessen Team Does Not Own

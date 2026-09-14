@@ -1,0 +1,222 @@
+[
+  {
+    "asset": "2.2.1_fig_1",
+    "type": "percentage_bars",
+    "x_origin": 490,
+    "pixels_per_percent": 10,
+    "values": [
+      10,
+      -5,
+      10,
+      -20
+    ],
+    "contexts": {
+      "RolVast": [
+        10,
+        11,
+        200,
+        190
+      ],
+      "SpringVrij": [
+        10,
+        11,
+        200,
+        160
+      ]
+    }
+  },
+  {
+    "asset": "2.2.1_fig_2",
+    "type": "ratio_flow",
+    "old_price": 10,
+    "new_price": 11,
+    "old_quantity": 200,
+    "new_quantity": 190,
+    "ev": -0.5
+  },
+  {
+    "asset": "2.2.1_fig_3",
+    "type": "absolute_value_scale",
+    "range": [
+      0,
+      3
+    ],
+    "threshold": 1,
+    "origin": 65,
+    "pixels_per_unit": 200,
+    "examples": [
+      -0.5,
+      -2
+    ]
+  },
+  {
+    "asset": "2.2.2_fig_1",
+    "type": "revenue_rectangles",
+    "panels": [
+      {
+        "p": 10,
+        "q": 100,
+        "revenue": 1000,
+        "plot": [
+          53,
+          338,
+          49,
+          224
+        ],
+        "rectangle": [
+          53,
+          78.16666666666666,
+          259.09090909090907,
+          145.83333333333334
+        ],
+        "xmax": 110,
+        "ymax": 12
+      },
+      {
+        "p": 11,
+        "q": 95,
+        "revenue": 1045,
+        "plot": [
+          418,
+          703,
+          49,
+          224
+        ],
+        "rectangle": [
+          418,
+          63.58333333333334,
+          246.13636363636363,
+          160.41666666666666
+        ],
+        "xmax": 110,
+        "ymax": 12
+      }
+    ]
+  },
+  {
+    "asset": "2.2.2_fig_2",
+    "type": "conceptual_local_rule",
+    "small_price_increase": {
+      "inelastic": "revenue_up",
+      "elastic": "revenue_down"
+    }
+  },
+  {
+    "asset": "2.2.2_we_1",
+    "type": "revenue_change",
+    "old": 1000,
+    "new": 1045,
+    "delta": 45,
+    "percentage": 4.5
+  },
+  {
+    "asset": "2.2.3_fig_1",
+    "type": "elasticity_family",
+    "denominators": {
+      "Ev": "own_price",
+      "Ei": "income",
+      "Ek": "other_price"
+    }
+  },
+  {
+    "asset": "2.2.3_fig_2",
+    "type": "income_response_bars",
+    "income_percentage": 10,
+    "demand_percentages": [
+      -5,
+      5,
+      20
+    ],
+    "ei": [
+      -0.5,
+      0.5,
+      2
+    ],
+    "origin": 350,
+    "pixels_per_percent": 12
+  },
+  {
+    "asset": "2.2.3_fig_3",
+    "type": "cross_elasticity",
+    "cases": [
+      {
+        "denominator_good": "bus",
+        "price_percentage": 10,
+        "numerator_good": "train",
+        "demand_percentage": 6,
+        "ek": 0.6
+      },
+      {
+        "denominator_good": "printer",
+        "price_percentage": 10,
+        "numerator_good": "ink",
+        "demand_percentage": -4,
+        "ek": -0.4
+      }
+    ]
+  },
+  {
+    "asset": "2.2.3_fig_4",
+    "type": "function_substitution",
+    "intercept": 200,
+    "coefficients": [
+      -5,
+      2,
+      0.01
+    ],
+    "inputs": [
+      10,
+      15,
+      20000
+    ],
+    "contributions": [
+      -50,
+      30,
+      200
+    ],
+    "output": 380
+  },
+  {
+    "asset": "2.2.3_fig_5",
+    "type": "separate_scenarios",
+    "function": "200-5*Px+2*Pz+.01*Y",
+    "base": {
+      "Px": 10,
+      "Pz": 15,
+      "Y": 20000,
+      "Qx": 380
+    },
+    "scenarios": [
+      {
+        "Px": 10,
+        "Pz": 15,
+        "Y": 22000,
+        "Qx": 400
+      },
+      {
+        "Px": 10,
+        "Pz": 20,
+        "Y": 20000,
+        "Qx": 390
+      }
+    ]
+  },
+  {
+    "asset": "2.2.4_fig_1",
+    "type": "simultaneous_observations",
+    "price_percentage": 10,
+    "quantity_percentage": 20,
+    "income": "increases",
+    "advertising": "campaign",
+    "causal_attribution": null
+  },
+  {
+    "asset": "2.2.4_fig_2",
+    "type": "chapter_summary",
+    "families": [
+      "Ev",
+      "Ei",
+      "Ek"
+    ]
+  }
+]

@@ -1,0 +1,4252 @@
+{
+  "scope": "Local deterministic author checks. Not independent specialist review or platform CI.",
+  "passed": 848,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "theory skate / Q",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "theory skate / CS",
+      "passed": true,
+      "detail": "actual=400; expected=400"
+    },
+    {
+      "check": "WE escaperoom / Q",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "WE escaperoom / CS",
+      "passed": true,
+      "detail": "actual=200; expected=200"
+    },
+    {
+      "check": "231.3 klimhal / Q",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "231.3 klimhal / CS",
+      "passed": true,
+      "detail": "actual=320; expected=320"
+    },
+    {
+      "check": "231.4 museum / Q",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "231.4 museum / CS",
+      "passed": true,
+      "detail": "actual=240; expected=240"
+    },
+    {
+      "check": "231.6 zwemmen / Q",
+      "passed": true,
+      "detail": "actual=50; expected=50"
+    },
+    {
+      "check": "231.6 zwemmen / CS",
+      "passed": true,
+      "detail": "actual=250; expected=250"
+    },
+    {
+      "check": "231.7 boeken / Q",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "231.7 boeken / CS",
+      "passed": true,
+      "detail": "actual=500; expected=500"
+    },
+    {
+      "check": "231.7 boeken / TO",
+      "passed": true,
+      "detail": "actual=600; expected=600"
+    },
+    {
+      "check": "231.8 target / Q",
+      "passed": true,
+      "detail": "actual=60; expected=60"
+    },
+    {
+      "check": "231.8 target / CS",
+      "passed": true,
+      "detail": "actual=900; expected=900"
+    },
+    {
+      "check": "231.9 counterexample / Q",
+      "passed": true,
+      "detail": "actual=60; expected=60"
+    },
+    {
+      "check": "231.9 counterexample / CS",
+      "passed": true,
+      "detail": "actual=450; expected=450"
+    },
+    {
+      "check": "theory posters / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=300; expected=300"
+    },
+    {
+      "check": "theory posters / Q",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "theory posters / P",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "theory posters / CS",
+      "passed": true,
+      "detail": "actual=200; expected=200"
+    },
+    {
+      "check": "theory posters / PS",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "theory posters / TS",
+      "passed": true,
+      "detail": "actual=300; expected=300"
+    },
+    {
+      "check": "WE notitieboeken / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=200; expected=200"
+    },
+    {
+      "check": "WE notitieboeken / Q",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "WE notitieboeken / P",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "WE notitieboeken / CS",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "WE notitieboeken / PS",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "WE notitieboeken / TS",
+      "passed": true,
+      "detail": "actual=200; expected=200"
+    },
+    {
+      "check": "232.1 ophalen / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "232.1 ophalen / Q",
+      "passed": true,
+      "detail": "actual=8; expected=8"
+    },
+    {
+      "check": "232.1 ophalen / P",
+      "passed": true,
+      "detail": "actual=10; expected=10"
+    },
+    {
+      "check": "232.3 bloemen / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=192; expected=192"
+    },
+    {
+      "check": "232.3 bloemen / Q",
+      "passed": true,
+      "detail": "actual=16; expected=16"
+    },
+    {
+      "check": "232.3 bloemen / P",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "232.3 bloemen / CS",
+      "passed": true,
+      "detail": "actual=128; expected=128"
+    },
+    {
+      "check": "232.3 bloemen / PS",
+      "passed": true,
+      "detail": "actual=64; expected=64"
+    },
+    {
+      "check": "232.3 bloemen / TS",
+      "passed": true,
+      "detail": "actual=192; expected=192"
+    },
+    {
+      "check": "232.4 handdoeken / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=288; expected=288"
+    },
+    {
+      "check": "232.4 handdoeken / Q",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "232.4 handdoeken / P",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "232.4 handdoeken / CS",
+      "passed": true,
+      "detail": "actual=144; expected=144"
+    },
+    {
+      "check": "232.4 handdoeken / PS",
+      "passed": true,
+      "detail": "actual=144; expected=144"
+    },
+    {
+      "check": "232.4 handdoeken / TS",
+      "passed": true,
+      "detail": "actual=288; expected=288"
+    },
+    {
+      "check": "232.6 bekers / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=450; expected=450"
+    },
+    {
+      "check": "232.6 bekers / Q",
+      "passed": true,
+      "detail": "actual=30; expected=30"
+    },
+    {
+      "check": "232.6 bekers / P",
+      "passed": true,
+      "detail": "actual=21; expected=21"
+    },
+    {
+      "check": "232.6 bekers / CS",
+      "passed": true,
+      "detail": "actual=225; expected=225"
+    },
+    {
+      "check": "232.6 bekers / PS",
+      "passed": true,
+      "detail": "actual=225; expected=225"
+    },
+    {
+      "check": "232.6 bekers / TS",
+      "passed": true,
+      "detail": "actual=450; expected=450"
+    },
+    {
+      "check": "232.8 target / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=1350; expected=1350"
+    },
+    {
+      "check": "232.8 target / Q",
+      "passed": true,
+      "detail": "actual=60; expected=60"
+    },
+    {
+      "check": "232.8 target / P",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "232.8 target / CS",
+      "passed": true,
+      "detail": "actual=900; expected=900"
+    },
+    {
+      "check": "232.8 target / PS",
+      "passed": true,
+      "detail": "actual=450; expected=450"
+    },
+    {
+      "check": "232.8 target / TS",
+      "passed": true,
+      "detail": "actual=1350; expected=1350"
+    },
+    {
+      "check": "theory posters cap / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=252; expected=252"
+    },
+    {
+      "check": "theory posters cap / cap strictly binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "theory posters cap / loss triangle",
+      "passed": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "theory posters cap / Qd",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "theory posters cap / Qs",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "theory posters cap / Q",
+      "passed": true,
+      "detail": "actual=12; expected=12"
+    },
+    {
+      "check": "theory posters cap / Dq",
+      "passed": true,
+      "detail": "actual=28; expected=28"
+    },
+    {
+      "check": "theory posters cap / Sq",
+      "passed": true,
+      "detail": "actual=16; expected=16"
+    },
+    {
+      "check": "theory posters cap / CS",
+      "passed": true,
+      "detail": "actual=144; expected=144"
+    },
+    {
+      "check": "theory posters cap / PS",
+      "passed": true,
+      "detail": "actual=108; expected=108"
+    },
+    {
+      "check": "theory posters cap / TS",
+      "passed": true,
+      "detail": "actual=252; expected=252"
+    },
+    {
+      "check": "theory posters cap / loss",
+      "passed": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "WE workshop / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=128; expected=128"
+    },
+    {
+      "check": "WE workshop / cap strictly binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "WE workshop / loss triangle",
+      "passed": true,
+      "detail": "actual=16; expected=16"
+    },
+    {
+      "check": "WE workshop / Qe",
+      "passed": true,
+      "detail": "actual=12; expected=12"
+    },
+    {
+      "check": "WE workshop / Pe",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "WE workshop / TSfree",
+      "passed": true,
+      "detail": "actual=144; expected=144"
+    },
+    {
+      "check": "WE workshop / Qd",
+      "passed": true,
+      "detail": "actual=10; expected=10"
+    },
+    {
+      "check": "WE workshop / Qs",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "WE workshop / Q",
+      "passed": true,
+      "detail": "actual=8; expected=8"
+    },
+    {
+      "check": "WE workshop / Dq",
+      "passed": true,
+      "detail": "actual=22; expected=22"
+    },
+    {
+      "check": "WE workshop / Sq",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "WE workshop / CS",
+      "passed": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "WE workshop / PS",
+      "passed": true,
+      "detail": "actual=80; expected=80"
+    },
+    {
+      "check": "WE workshop / TS",
+      "passed": true,
+      "detail": "actual=128; expected=128"
+    },
+    {
+      "check": "WE workshop / loss",
+      "passed": true,
+      "detail": "actual=16; expected=16"
+    },
+    {
+      "check": "233.3 zaal / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=168; expected=168"
+    },
+    {
+      "check": "233.3 zaal / cap strictly binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "233.3 zaal / loss triangle",
+      "passed": true,
+      "detail": "actual=32; expected=32"
+    },
+    {
+      "check": "233.3 zaal / Qe",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "233.3 zaal / Pe",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "233.3 zaal / TSfree",
+      "passed": true,
+      "detail": "actual=200; expected=200"
+    },
+    {
+      "check": "233.3 zaal / Qd",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "233.3 zaal / Qs",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "233.3 zaal / Dq",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "233.3 zaal / Sq",
+      "passed": true,
+      "detail": "actual=10; expected=10"
+    },
+    {
+      "check": "233.3 zaal / CS",
+      "passed": true,
+      "detail": "actual=84; expected=84"
+    },
+    {
+      "check": "233.3 zaal / PS",
+      "passed": true,
+      "detail": "actual=84; expected=84"
+    },
+    {
+      "check": "233.3 zaal / TS",
+      "passed": true,
+      "detail": "actual=168; expected=168"
+    },
+    {
+      "check": "233.3 zaal / loss",
+      "passed": true,
+      "detail": "actual=32; expected=32"
+    },
+    {
+      "check": "233.4 kajak / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=256; expected=256"
+    },
+    {
+      "check": "233.4 kajak / cap strictly binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "233.4 kajak / loss triangle",
+      "passed": true,
+      "detail": "actual=32; expected=32"
+    },
+    {
+      "check": "233.4 kajak / Qe",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "233.4 kajak / Pe",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "233.4 kajak / TSfree",
+      "passed": true,
+      "detail": "actual=288; expected=288"
+    },
+    {
+      "check": "233.4 kajak / Qd",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "233.4 kajak / Qs",
+      "passed": true,
+      "detail": "actual=28; expected=28"
+    },
+    {
+      "check": "233.4 kajak / Dq",
+      "passed": true,
+      "detail": "actual=22; expected=22"
+    },
+    {
+      "check": "233.4 kajak / Sq",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "233.4 kajak / CS",
+      "passed": true,
+      "detail": "actual=96; expected=96"
+    },
+    {
+      "check": "233.4 kajak / PS",
+      "passed": true,
+      "detail": "actual=160; expected=160"
+    },
+    {
+      "check": "233.4 kajak / TS",
+      "passed": true,
+      "detail": "actual=256; expected=256"
+    },
+    {
+      "check": "233.4 kajak / loss",
+      "passed": true,
+      "detail": "actual=32; expected=32"
+    },
+    {
+      "check": "233.5 schilder / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=200; expected=200"
+    },
+    {
+      "check": "233.5 schilder / cap strictly binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "233.5 schilder / loss triangle",
+      "passed": true,
+      "detail": "actual=25; expected=25"
+    },
+    {
+      "check": "233.5 schilder / Qe",
+      "passed": true,
+      "detail": "actual=15; expected=15"
+    },
+    {
+      "check": "233.5 schilder / Pe",
+      "passed": true,
+      "detail": "actual=25; expected=25"
+    },
+    {
+      "check": "233.5 schilder / TSfree",
+      "passed": true,
+      "detail": "actual=225; expected=225"
+    },
+    {
+      "check": "233.5 schilder / Qd",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "233.5 schilder / Qs",
+      "passed": true,
+      "detail": "actual=16; expected=16"
+    },
+    {
+      "check": "233.5 schilder / Dq",
+      "passed": true,
+      "detail": "actual=30; expected=30"
+    },
+    {
+      "check": "233.5 schilder / Sq",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "233.5 schilder / CS",
+      "passed": true,
+      "detail": "actual=90; expected=90"
+    },
+    {
+      "check": "233.5 schilder / PS",
+      "passed": true,
+      "detail": "actual=110; expected=110"
+    },
+    {
+      "check": "233.5 schilder / TS",
+      "passed": true,
+      "detail": "actual=200; expected=200"
+    },
+    {
+      "check": "233.5 schilder / loss",
+      "passed": true,
+      "detail": "actual=25; expected=25"
+    },
+    {
+      "check": "233.6 target / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=1200; expected=1200"
+    },
+    {
+      "check": "233.6 target / cap strictly binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "233.6 target / loss triangle",
+      "passed": true,
+      "detail": "actual=150; expected=150"
+    },
+    {
+      "check": "233.6 target / Qe",
+      "passed": true,
+      "detail": "actual=60; expected=60"
+    },
+    {
+      "check": "233.6 target / Pe",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "233.6 target / TSfree",
+      "passed": true,
+      "detail": "actual=1350; expected=1350"
+    },
+    {
+      "check": "233.6 target / Qd",
+      "passed": true,
+      "detail": "actual=50; expected=50"
+    },
+    {
+      "check": "233.6 target / Qs",
+      "passed": true,
+      "detail": "actual=80; expected=80"
+    },
+    {
+      "check": "233.6 target / Dq",
+      "passed": true,
+      "detail": "actual=30; expected=30"
+    },
+    {
+      "check": "233.6 target / Sq",
+      "passed": true,
+      "detail": "actual=15; expected=15"
+    },
+    {
+      "check": "233.6 target / CS",
+      "passed": true,
+      "detail": "actual=600; expected=600"
+    },
+    {
+      "check": "233.6 target / PS",
+      "passed": true,
+      "detail": "actual=600; expected=600"
+    },
+    {
+      "check": "233.6 target / TS",
+      "passed": true,
+      "detail": "actual=1200; expected=1200"
+    },
+    {
+      "check": "233.6 target / loss",
+      "passed": true,
+      "detail": "actual=150; expected=150"
+    },
+    {
+      "check": "234.1 surf / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=576; expected=576"
+    },
+    {
+      "check": "234.1 surf / Q",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "234.1 surf / P",
+      "passed": true,
+      "detail": "actual=36; expected=36"
+    },
+    {
+      "check": "234.1 surf / CS",
+      "passed": true,
+      "detail": "actual=288; expected=288"
+    },
+    {
+      "check": "234.1 surf / PS",
+      "passed": true,
+      "detail": "actual=288; expected=288"
+    },
+    {
+      "check": "234.1 surf / TS",
+      "passed": true,
+      "detail": "actual=576; expected=576"
+    },
+    {
+      "check": "234.2 plants / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=384; expected=384"
+    },
+    {
+      "check": "234.2 plants / cap strictly binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "234.2 plants / loss triangle",
+      "passed": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "234.2 plants / Qe",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "234.2 plants / Pe",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "234.2 plants / TSfree",
+      "passed": true,
+      "detail": "actual=432; expected=432"
+    },
+    {
+      "check": "234.2 plants / Qd",
+      "passed": true,
+      "detail": "actual=22; expected=22"
+    },
+    {
+      "check": "234.2 plants / Qs",
+      "passed": true,
+      "detail": "actual=28; expected=28"
+    },
+    {
+      "check": "234.2 plants / Dq",
+      "passed": true,
+      "detail": "actual=32; expected=32"
+    },
+    {
+      "check": "234.2 plants / Sq",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "234.2 plants / CS",
+      "passed": true,
+      "detail": "actual=224; expected=224"
+    },
+    {
+      "check": "234.2 plants / PS",
+      "passed": true,
+      "detail": "actual=160; expected=160"
+    },
+    {
+      "check": "234.2 plants / TS",
+      "passed": true,
+      "detail": "actual=384; expected=384"
+    },
+    {
+      "check": "234.2 plants / loss",
+      "passed": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "234.3 target / cancellation of transfer",
+      "passed": true,
+      "detail": "actual=1125; expected=1125"
+    },
+    {
+      "check": "234.3 target / cap strictly binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "234.3 target / loss triangle",
+      "passed": true,
+      "detail": "actual=75; expected=75"
+    },
+    {
+      "check": "234.3 target / Qe",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "234.3 target / Pe",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "234.3 target / TSfree",
+      "passed": true,
+      "detail": "actual=1200; expected=1200"
+    },
+    {
+      "check": "234.3 target / Qd",
+      "passed": true,
+      "detail": "actual=35; expected=35"
+    },
+    {
+      "check": "234.3 target / Qs",
+      "passed": true,
+      "detail": "actual=50; expected=50"
+    },
+    {
+      "check": "234.3 target / Dq",
+      "passed": true,
+      "detail": "actual=50; expected=50"
+    },
+    {
+      "check": "234.3 target / Sq",
+      "passed": true,
+      "detail": "actual=35; expected=35"
+    },
+    {
+      "check": "234.3 target / CS",
+      "passed": true,
+      "detail": "actual=600; expected=600"
+    },
+    {
+      "check": "234.3 target / PS",
+      "passed": true,
+      "detail": "actual=525; expected=525"
+    },
+    {
+      "check": "234.3 target / TS",
+      "passed": true,
+      "detail": "actual=1125; expected=1125"
+    },
+    {
+      "check": "234.3 target / loss",
+      "passed": true,
+      "detail": "actual=75; expected=75"
+    },
+    {
+      "check": "poster13 / WTP",
+      "passed": true,
+      "detail": "actual=27; expected=27"
+    },
+    {
+      "check": "poster13 / MK",
+      "passed": true,
+      "detail": "actual=16.5; expected=16.5"
+    },
+    {
+      "check": "poster13 / buyer gain",
+      "passed": true,
+      "detail": "actual=5; expected=5"
+    },
+    {
+      "check": "poster13 / seller gain",
+      "passed": true,
+      "detail": "actual=5.5; expected=5.5"
+    },
+    {
+      "check": "poster13 / both benefit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "workshop9 / WTP",
+      "passed": true,
+      "detail": "actual=21; expected=21"
+    },
+    {
+      "check": "workshop9 / MK",
+      "passed": true,
+      "detail": "actual=15; expected=15"
+    },
+    {
+      "check": "workshop9 / buyer gain",
+      "passed": true,
+      "detail": "actual=1; expected=1"
+    },
+    {
+      "check": "workshop9 / seller gain",
+      "passed": true,
+      "detail": "actual=5; expected=5"
+    },
+    {
+      "check": "workshop9 / both benefit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "kajak17 / WTP",
+      "passed": true,
+      "detail": "actual=21.5; expected=21.5"
+    },
+    {
+      "check": "kajak17 / MK",
+      "passed": true,
+      "detail": "actual=14.5; expected=14.5"
+    },
+    {
+      "check": "kajak17 / buyer gain",
+      "passed": true,
+      "detail": "actual=1.5; expected=1.5"
+    },
+    {
+      "check": "kajak17 / seller gain",
+      "passed": true,
+      "detail": "actual=5.5; expected=5.5"
+    },
+    {
+      "check": "kajak17 / both benefit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "schilder11 / WTP",
+      "passed": true,
+      "detail": "actual=29; expected=29"
+    },
+    {
+      "check": "schilder11 / MK",
+      "passed": true,
+      "detail": "actual=21; expected=21"
+    },
+    {
+      "check": "schilder11 / buyer gain",
+      "passed": true,
+      "detail": "actual=3; expected=3"
+    },
+    {
+      "check": "schilder11 / seller gain",
+      "passed": true,
+      "detail": "actual=5; expected=5"
+    },
+    {
+      "check": "schilder11 / both benefit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target41 / WTP",
+      "passed": true,
+      "detail": "actual=29.5; expected=29.5"
+    },
+    {
+      "check": "target41 / MK",
+      "passed": true,
+      "detail": "actual=15.25; expected=15.25"
+    },
+    {
+      "check": "target41 / buyer gain",
+      "passed": true,
+      "detail": "actual=4.5; expected=4.5"
+    },
+    {
+      "check": "target41 / seller gain",
+      "passed": true,
+      "detail": "actual=9.75; expected=9.75"
+    },
+    {
+      "check": "target41 / both benefit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "planten17 / WTP",
+      "passed": true,
+      "detail": "actual=31; expected=31"
+    },
+    {
+      "check": "planten17 / MK",
+      "passed": true,
+      "detail": "actual=20.5; expected=20.5"
+    },
+    {
+      "check": "planten17 / buyer gain",
+      "passed": true,
+      "detail": "actual=5; expected=5"
+    },
+    {
+      "check": "planten17 / seller gain",
+      "passed": true,
+      "detail": "actual=5.5; expected=5.5"
+    },
+    {
+      "check": "planten17 / both benefit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target31 / WTP",
+      "passed": true,
+      "detail": "actual=49; expected=49"
+    },
+    {
+      "check": "target31 / MK",
+      "passed": true,
+      "detail": "actual=35.5; expected=35.5"
+    },
+    {
+      "check": "target31 / buyer gain",
+      "passed": true,
+      "detail": "actual=4; expected=4"
+    },
+    {
+      "check": "target31 / seller gain",
+      "passed": true,
+      "detail": "actual=9.5; expected=9.5"
+    },
+    {
+      "check": "target31 / both benefit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target Q50 / marginal difference",
+      "passed": true,
+      "detail": "actual=7.5; expected=7.5"
+    },
+    {
+      "check": "target Q70 / marginal difference",
+      "passed": true,
+      "detail": "actual=-7.5; expected=-7.5"
+    },
+    {
+      "check": "flowers Q10 / marginal difference",
+      "passed": true,
+      "detail": "actual=9; expected=9"
+    },
+    {
+      "check": "flowers Q20 / marginal difference",
+      "passed": true,
+      "detail": "actual=-6; expected=-6"
+    },
+    {
+      "check": "cups Q20 / marginal difference",
+      "passed": true,
+      "detail": "actual=10; expected=10"
+    },
+    {
+      "check": "cups Q40 / marginal difference",
+      "passed": true,
+      "detail": "actual=-10; expected=-10"
+    },
+    {
+      "check": "surf Q30 / marginal difference",
+      "passed": true,
+      "detail": "actual=-12; expected=-12"
+    },
+    {
+      "check": "231.1 Q",
+      "passed": true,
+      "detail": "actual=50; expected=50"
+    },
+    {
+      "check": "231.1 area",
+      "passed": true,
+      "detail": "actual=250; expected=250"
+    },
+    {
+      "check": "231.2 individual",
+      "passed": true,
+      "detail": "actual=6; expected=6"
+    },
+    {
+      "check": "231.5 prints",
+      "passed": true,
+      "detail": "actual=180; expected=180"
+    },
+    {
+      "check": "231.10 percentage",
+      "passed": true,
+      "detail": "actual=15; expected=15"
+    },
+    {
+      "check": "231.11 TK",
+      "passed": true,
+      "detail": "actual=500; expected=500"
+    },
+    {
+      "check": "231.11 GTK",
+      "passed": true,
+      "detail": "actual=5; expected=5"
+    },
+    {
+      "check": "232.2 buyer",
+      "passed": true,
+      "detail": "actual=3; expected=3"
+    },
+    {
+      "check": "232.2 seller",
+      "passed": true,
+      "detail": "actual=4; expected=4"
+    },
+    {
+      "check": "232.5 combined change",
+      "passed": true,
+      "detail": "actual=3; expected=3"
+    },
+    {
+      "check": "232.7 TS",
+      "passed": true,
+      "detail": "actual=400; expected=400"
+    },
+    {
+      "check": "232.9 TS p15",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "232.9 TS p25",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "232.10 MK",
+      "passed": true,
+      "detail": "actual=4; expected=4"
+    },
+    {
+      "check": "232.11 Ev",
+      "passed": true,
+      "detail": "actual=-0.5; expected=-0.5"
+    },
+    {
+      "check": "233.1 CS",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "233.1 PS",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "233.2 net positive not Pareto",
+      "passed": true,
+      "detail": "actual=5; expected=5"
+    },
+    {
+      "check": "233.8 profit",
+      "passed": true,
+      "detail": "actual=140; expected=140"
+    },
+    {
+      "check": "233.9 area",
+      "passed": true,
+      "detail": "actual=480; expected=480"
+    },
+    {
+      "check": "234.4 efficient assignment",
+      "passed": true,
+      "detail": "actual=38; expected=38"
+    },
+    {
+      "check": "234.4 costly assignment",
+      "passed": true,
+      "detail": "actual=29; expected=29"
+    },
+    {
+      "check": "234.5 Ev",
+      "passed": true,
+      "detail": "actual=-0.5; expected=-0.5"
+    },
+    {
+      "check": "234.5 old TO",
+      "passed": true,
+      "detail": "actual=1000; expected=1000"
+    },
+    {
+      "check": "234.5 new TO",
+      "passed": true,
+      "detail": "actual=1080; expected=1080"
+    },
+    {
+      "check": "234.6 profit",
+      "passed": true,
+      "detail": "actual=150; expected=150"
+    },
+    {
+      "check": "234.7 loss B",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.1 / student exercise numbers",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "check": "2.3.1 / all answers present",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "check": "2.3.1 / canonical seven sections",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "check": "2.3.1 / summary in correct place",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / optional support note",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1.1 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b'] / ['a', 'b']"
+    },
+    {
+      "check": "2.3.1.2 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b'] / ['a', 'b']"
+    },
+    {
+      "check": "2.3.1.3 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c'] / ['a', 'b', 'c']"
+    },
+    {
+      "check": "2.3.1.4 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd'] / ['a', 'b', 'c', 'd']"
+    },
+    {
+      "check": "2.3.1.5 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b'] / ['a', 'b']"
+    },
+    {
+      "check": "2.3.1.6 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd', 'e'] / ['a', 'b', 'c', 'd', 'e']"
+    },
+    {
+      "check": "2.3.1.7 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c'] / ['a', 'b', 'c']"
+    },
+    {
+      "check": "2.3.1.8 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd', 'e'] / ['a', 'b', 'c', 'd', 'e']"
+    },
+    {
+      "check": "2.3.1.9 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.1.10 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.1.11 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.2 / student exercise numbers",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "check": "2.3.2 / all answers present",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "check": "2.3.2 / canonical seven sections",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "check": "2.3.2 / summary in correct place",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / optional support note",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2.1 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.2.2 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b'] / ['a', 'b']"
+    },
+    {
+      "check": "2.3.2.3 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd'] / ['a', 'b', 'c', 'd']"
+    },
+    {
+      "check": "2.3.2.4 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c'] / ['a', 'b', 'c']"
+    },
+    {
+      "check": "2.3.2.5 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd'] / ['a', 'b', 'c', 'd']"
+    },
+    {
+      "check": "2.3.2.6 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd'] / ['a', 'b', 'c', 'd']"
+    },
+    {
+      "check": "2.3.2.7 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b'] / ['a', 'b']"
+    },
+    {
+      "check": "2.3.2.8 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd', 'e'] / ['a', 'b', 'c', 'd', 'e']"
+    },
+    {
+      "check": "2.3.2.9 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.2.10 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.2.11 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.3 / student exercise numbers",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+    },
+    {
+      "check": "2.3.3 / all answers present",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+    },
+    {
+      "check": "2.3.3 / canonical seven sections",
+      "passed": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling / Herhaling en interleaving']"
+    },
+    {
+      "check": "2.3.3 / summary in correct place",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / optional support note",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3.1 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.3.2 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.3.3 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b'] / ['a', 'b']"
+    },
+    {
+      "check": "2.3.3.4 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd'] / ['a', 'b', 'c', 'd']"
+    },
+    {
+      "check": "2.3.3.5 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd', 'e', 'f'] / ['a', 'b', 'c', 'd', 'e', 'f']"
+    },
+    {
+      "check": "2.3.3.6 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd', 'e', 'f'] / ['a', 'b', 'c', 'd', 'e', 'f']"
+    },
+    {
+      "check": "2.3.3.7 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.3.8 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.3.9 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.4 / student exercise numbers",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7]"
+    },
+    {
+      "check": "2.3.4 / all answers present",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7]"
+    },
+    {
+      "check": "2.3.4.1 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd', 'e'] / ['a', 'b', 'c', 'd', 'e']"
+    },
+    {
+      "check": "2.3.4.2 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b', 'c', 'd', 'e', 'f'] / ['a', 'b', 'c', 'd', 'e', 'f']"
+    },
+    {
+      "check": "2.3.4.3 / subanswer labels",
+      "passed": true,
+      "detail": "['1', '2', '3', '4', '5', '6'] / ['1', '2', '3', '4', '5', '6']"
+    },
+    {
+      "check": "2.3.4.4 / subanswer labels",
+      "passed": true,
+      "detail": "[] / []"
+    },
+    {
+      "check": "2.3.4.5 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b'] / ['a', 'b']"
+    },
+    {
+      "check": "2.3.4.6 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b'] / ['a', 'b']"
+    },
+    {
+      "check": "2.3.4.7 / subanswer labels",
+      "passed": true,
+      "detail": "['a', 'b'] / ['a', 'b']"
+    },
+    {
+      "check": "38 complete exercises",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / source target context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / source target question 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / source target question 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / source target question 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / source target question 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / source target question 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / source target context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / source target question 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / source target question 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / source target question 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / source target question 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / source target question 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / source target context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / source target question 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / source target question 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / source target question 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / source target question 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / source target question 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / source target question 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / source target context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / source target question 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / source target question 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / source target question 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / source target question 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / source target question 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / source target question 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "22 source target subquestions retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No leaked target loss in student chapter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "27 instructional student figures",
+      "passed": true,
+      "detail": "27"
+    },
+    {
+      "check": "Student image alt / _assets/2.3.1_fig_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.1_fig_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.1_fig_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.1_we_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.1_ex_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.1_ex_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.2_fig_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.2_fig_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.2_fig_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.2_we_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.2_ex_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.2_ex_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.2_ex_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.2_ex_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.4_ex_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.4_ex_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_fig_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_fig_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_fig_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_fig_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_we_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_we_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_ex_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_ex_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_ex_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.3_ex_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Student image alt / _assets/2.3.4_fig_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.4_ex_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.1_ans_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_ex_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_ans_8.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.1_we_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_ans_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.1_ex_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_ex_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_ans_5.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.1_fig_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_ex_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_ex_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_we_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_ex_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.1_ans_6.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_fig_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.1_fig_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.4_fig_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.1_fig_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.4_ex_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_ans_6.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.4_ans_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_ex_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_ans_6.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_ex_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_ex_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_fig_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_fig_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_ans_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_we_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_we_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_fig_4.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.1_ex_2.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.1_ans_8.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.3_fig_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_fig_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.2_fig_1.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image reference / _assets/2.3.4_ans_3.svg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No internal/distracting wording / Part A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No internal/distracting wording / Part B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No internal/distracting wording / companion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No internal/distracting wording / QR-code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No internal/distracting wording / Ga naar de website",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No internal/distracting wording / productiegebied",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "38 paired figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_fig_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_fig_1 / raster size",
+      "passed": true,
+      "detail": "1800×535"
+    },
+    {
+      "check": "2.3.1_fig_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_fig_2 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_fig_2 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.1_fig_2 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_fig_2 / CS polygon area",
+      "passed": true,
+      "detail": "actual=400; expected=400"
+    },
+    {
+      "check": "2.3.1_fig_2 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_fig_2 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_fig_3 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_fig_3 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.1_fig_3 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_we_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_we_1 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.1_we_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_we_1 / CS polygon area",
+      "passed": true,
+      "detail": "actual=200; expected=200"
+    },
+    {
+      "check": "2.3.1_we_1 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_we_1 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ex_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ex_1 / raster size",
+      "passed": true,
+      "detail": "1800×750"
+    },
+    {
+      "check": "2.3.1_ex_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ex_1 / CS polygon area",
+      "passed": true,
+      "detail": "actual=320; expected=320"
+    },
+    {
+      "check": "2.3.1_ex_1 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ex_1 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ex_2 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ex_2 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.1_ex_2 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_4 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_4 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.1_ans_4 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_4 / CS polygon area",
+      "passed": true,
+      "detail": "actual=240; expected=240"
+    },
+    {
+      "check": "2.3.1_ans_4 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_4 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_6 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_6 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.1_ans_6 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_6 / CS polygon area",
+      "passed": true,
+      "detail": "actual=250; expected=250"
+    },
+    {
+      "check": "2.3.1_ans_6 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_6 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_8 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_8 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.1_ans_8 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_8 / CS polygon area",
+      "passed": true,
+      "detail": "actual=900; expected=900"
+    },
+    {
+      "check": "2.3.1_ans_8 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1_ans_8 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_1 / raster size",
+      "passed": true,
+      "detail": "1800×575"
+    },
+    {
+      "check": "2.3.2_fig_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_2 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_2 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_fig_2 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_2 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_fig_2 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_fig_2 / PS polygon area",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "2.3.2_fig_2 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_2 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_3 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_3 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_fig_3 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_3 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_fig_3 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_fig_3 / CS polygon area",
+      "passed": true,
+      "detail": "actual=200; expected=200"
+    },
+    {
+      "check": "2.3.2_fig_3 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_3 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_3 / PS polygon area",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "2.3.2_fig_3 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_fig_3 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_we_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_we_1 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_we_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_we_1 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "2.3.2_we_1 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "2.3.2_we_1 / CS polygon area",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "2.3.2_we_1 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_we_1 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_we_1 / PS polygon area",
+      "passed": true,
+      "detail": "actual=100; expected=100"
+    },
+    {
+      "check": "2.3.2_we_1 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_we_1 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_1 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_ex_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_1 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "2.3.2_ex_1 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "2.3.2_ex_1 / CS polygon area",
+      "passed": true,
+      "detail": "actual=128; expected=128"
+    },
+    {
+      "check": "2.3.2_ex_1 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_1 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_1 / PS polygon area",
+      "passed": true,
+      "detail": "actual=64; expected=64"
+    },
+    {
+      "check": "2.3.2_ex_1 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_1 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_2 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_2 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_ex_2 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_2 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_ex_2 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_ex_3 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_3 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_ex_3 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_3 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=21; expected=21"
+    },
+    {
+      "check": "2.3.2_ex_3 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=21; expected=21"
+    },
+    {
+      "check": "2.3.2_ex_4 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_4 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_ex_4 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ex_4 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_ex_4 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_ans_4 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_4 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_ans_4 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_4 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_ans_4 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_ans_4 / CS polygon area",
+      "passed": true,
+      "detail": "actual=144; expected=144"
+    },
+    {
+      "check": "2.3.2_ans_4 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_4 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_4 / PS polygon area",
+      "passed": true,
+      "detail": "actual=144; expected=144"
+    },
+    {
+      "check": "2.3.2_ans_4 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_4 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_6 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_6 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_ans_6 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_6 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=21; expected=21"
+    },
+    {
+      "check": "2.3.2_ans_6 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=21; expected=21"
+    },
+    {
+      "check": "2.3.2_ans_6 / CS polygon area",
+      "passed": true,
+      "detail": "actual=225; expected=225"
+    },
+    {
+      "check": "2.3.2_ans_6 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_6 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_6 / PS polygon area",
+      "passed": true,
+      "detail": "actual=225; expected=225"
+    },
+    {
+      "check": "2.3.2_ans_6 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_6 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_8 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_8 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.2_ans_8 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_8 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_ans_8 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.2_ans_8 / CS polygon area",
+      "passed": true,
+      "detail": "actual=900; expected=900"
+    },
+    {
+      "check": "2.3.2_ans_8 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_8 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_8 / PS polygon area",
+      "passed": true,
+      "detail": "actual=450; expected=450"
+    },
+    {
+      "check": "2.3.2_ans_8 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2_ans_8 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_1 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_fig_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_1 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_fig_1 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_fig_2 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_2 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_fig_2 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_2 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_fig_2 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_fig_2 / CS polygon area",
+      "passed": true,
+      "detail": "actual=144; expected=144"
+    },
+    {
+      "check": "2.3.3_fig_2 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_2 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_2 / PS polygon area",
+      "passed": true,
+      "detail": "actual=108; expected=108"
+    },
+    {
+      "check": "2.3.3_fig_2 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_2 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_3 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_3 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_fig_3 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_3 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_fig_3 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_fig_3 / verlies polygon area",
+      "passed": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "2.3.3_fig_3 / verlies vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_3 / verlies serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_4 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_fig_4 / raster size",
+      "passed": true,
+      "detail": "1800×582"
+    },
+    {
+      "check": "2.3.3_fig_4 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_1 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_we_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_1 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "2.3.3_we_1 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "2.3.3_we_1 / CS polygon area",
+      "passed": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "2.3.3_we_1 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_1 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_1 / PS polygon area",
+      "passed": true,
+      "detail": "actual=80; expected=80"
+    },
+    {
+      "check": "2.3.3_we_1 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_1 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_2 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_2 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_we_2 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_2 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "2.3.3_we_2 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "2.3.3_we_2 / verlies polygon area",
+      "passed": true,
+      "detail": "actual=16; expected=16"
+    },
+    {
+      "check": "2.3.3_we_2 / verlies vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_we_2 / verlies serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_1 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_ex_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_1 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "2.3.3_ex_1 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=14; expected=14"
+    },
+    {
+      "check": "2.3.3_ex_1 / CS polygon area",
+      "passed": true,
+      "detail": "actual=84; expected=84"
+    },
+    {
+      "check": "2.3.3_ex_1 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_1 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_1 / PS polygon area",
+      "passed": true,
+      "detail": "actual=84; expected=84"
+    },
+    {
+      "check": "2.3.3_ex_1 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_1 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_2 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_2 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_ex_2 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_2 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "2.3.3_ex_2 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "2.3.3_ex_3 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_3 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_ex_3 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_3 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=25; expected=25"
+    },
+    {
+      "check": "2.3.3_ex_3 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=25; expected=25"
+    },
+    {
+      "check": "2.3.3_ex_4 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_4 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_ex_4 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ex_4 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_ex_4 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_ans_4 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_4 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_ans_4 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_4 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "2.3.3_ans_4 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=18; expected=18"
+    },
+    {
+      "check": "2.3.3_ans_4 / CS polygon area",
+      "passed": true,
+      "detail": "actual=96; expected=96"
+    },
+    {
+      "check": "2.3.3_ans_4 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_4 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_4 / PS polygon area",
+      "passed": true,
+      "detail": "actual=160; expected=160"
+    },
+    {
+      "check": "2.3.3_ans_4 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_4 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_4 / verlies polygon area",
+      "passed": true,
+      "detail": "actual=32; expected=32"
+    },
+    {
+      "check": "2.3.3_ans_4 / verlies vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_4 / verlies serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_5 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_5 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_ans_5 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_5 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=25; expected=25"
+    },
+    {
+      "check": "2.3.3_ans_5 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=25; expected=25"
+    },
+    {
+      "check": "2.3.3_ans_5 / CS polygon area",
+      "passed": true,
+      "detail": "actual=90; expected=90"
+    },
+    {
+      "check": "2.3.3_ans_5 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_5 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_5 / PS polygon area",
+      "passed": true,
+      "detail": "actual=110; expected=110"
+    },
+    {
+      "check": "2.3.3_ans_5 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_5 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_5 / verlies polygon area",
+      "passed": true,
+      "detail": "actual=25; expected=25"
+    },
+    {
+      "check": "2.3.3_ans_5 / verlies vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_5 / verlies serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_6 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_6 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.3_ans_6 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_6 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_ans_6 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "2.3.3_ans_6 / CS polygon area",
+      "passed": true,
+      "detail": "actual=600; expected=600"
+    },
+    {
+      "check": "2.3.3_ans_6 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_6 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_6 / PS polygon area",
+      "passed": true,
+      "detail": "actual=600; expected=600"
+    },
+    {
+      "check": "2.3.3_ans_6 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_6 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_6 / verlies polygon area",
+      "passed": true,
+      "detail": "actual=150; expected=150"
+    },
+    {
+      "check": "2.3.3_ans_6 / verlies vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3_ans_6 / verlies serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ex_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ex_1 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.4_ex_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ex_1 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "2.3.4_ex_1 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "2.3.4_ex_2 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ex_2 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.4_ex_2 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ex_2 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "2.3.4_ex_2 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "2.3.4_ans_2 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_2 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.4_ans_2 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_2 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "2.3.4_ans_2 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "2.3.4_ans_2 / CS polygon area",
+      "passed": true,
+      "detail": "actual=224; expected=224"
+    },
+    {
+      "check": "2.3.4_ans_2 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_2 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_2 / PS polygon area",
+      "passed": true,
+      "detail": "actual=160; expected=160"
+    },
+    {
+      "check": "2.3.4_ans_2 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_2 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_2 / verlies polygon area",
+      "passed": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "2.3.4_ans_2 / verlies vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_2 / verlies serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_3 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_3 / raster size",
+      "passed": true,
+      "detail": "1800×900"
+    },
+    {
+      "check": "2.3.4_ans_3 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_3 / equilibrium on demand",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "2.3.4_ans_3 / equilibrium on supply",
+      "passed": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "2.3.4_ans_3 / CS polygon area",
+      "passed": true,
+      "detail": "actual=600; expected=600"
+    },
+    {
+      "check": "2.3.4_ans_3 / CS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_3 / CS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_3 / PS polygon area",
+      "passed": true,
+      "detail": "actual=525; expected=525"
+    },
+    {
+      "check": "2.3.4_ans_3 / PS vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_3 / PS serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_3 / verlies polygon area",
+      "passed": true,
+      "detail": "actual=75; expected=75"
+    },
+    {
+      "check": "2.3.4_ans_3 / verlies vertices in plot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_ans_3 / verlies serialized geometry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_fig_1 / PNG pair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4_fig_1 / raster size",
+      "passed": true,
+      "detail": "1800×568"
+    },
+    {
+      "check": "2.3.4_fig_1 / title and viewBox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart / page count",
+      "passed": true,
+      "detail": "38"
+    },
+    {
+      "check": "Student print cap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p1 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p1 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p2 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p2 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p3 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p3 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p4 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p4 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p5 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p5 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p6 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p6 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p7 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p7 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p8 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p8 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p9 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p9 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p10 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p10 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p11 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p11 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p12 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p12 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p13 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p13 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p14 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p14 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p15 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p15 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p16 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p16 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p17 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p17 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p18 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p18 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p19 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p19 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p20 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p20 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p21 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p21 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p22 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p22 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p23 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p23 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p24 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p24 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p25 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p25 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p26 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p26 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p27 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p27 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p28 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p28 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p29 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p29 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p30 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p30 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p31 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p31 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p32 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p32 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p33 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p33 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p34 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p34 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p35 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p35 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p36 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p36 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p37 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p37 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Surplus_en_welvaart p38 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Surplus_en_welvaart p38 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden / page count",
+      "passed": true,
+      "detail": "17"
+    },
+    {
+      "check": "Antwoorden p1 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p1 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p2 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p2 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p3 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p3 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p4 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p4 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p5 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p5 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p6 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p6 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p7 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p7 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p8 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p8 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p9 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p9 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p10 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p10 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p11 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p11 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p12 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p12 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p13 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p13 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p14 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p14 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p15 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p15 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p16 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p16 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Antwoorden p17 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Antwoorden p17 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Docenteninformatie / page count",
+      "passed": true,
+      "detail": "6"
+    },
+    {
+      "check": "Docenteninformatie p1 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Docenteninformatie p1 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Docenteninformatie p2 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Docenteninformatie p2 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Docenteninformatie p3 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Docenteninformatie p3 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Docenteninformatie p4 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Docenteninformatie p4 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Docenteninformatie p5 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Docenteninformatie p5 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Docenteninformatie p6 / text and glyphs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Docenteninformatie p6 / text inside page",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Mixed target rendered subanswer 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mixed target rendered subanswer 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mixed target rendered subanswer 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mixed target rendered subanswer 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mixed target rendered subanswer 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mixed target rendered subanswer 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "page_map.json / no overflow pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher_page_map.json / no overflow pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / export opgaven.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / export opgaven.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / export antwoorden.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / export antwoorden.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / export paragraaf.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.1 / export paragraaf.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / export opgaven.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / export opgaven.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / export antwoorden.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / export antwoorden.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / export paragraaf.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.2 / export paragraaf.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / export opgaven.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / export opgaven.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / export antwoorden.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / export antwoorden.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / export paragraaf.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.3 / export paragraaf.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / export opgaven.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / export opgaven.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / export antwoorden.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "2.3.4 / export antwoorden.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No bundled font files",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "outputs": {
+    "Boek_2_H3_Surplus_en_welvaart.pdf": "e1a5f54ce828e470bd6e92a9c2e8cb8c0875b5a8a33a74ad5d856808bee10fbd",
+    "Boek_2_H3_Docenteninformatie.pdf": "20d6fedaf16d69a38d8b1348b08f0baee01be6867a890814998fff1778331e4d",
+    "Boek_2_H3_Antwoorden.pdf": "e8fc1b3f52a559c876512d964a2d5c5dcf22118327bebbc3dba195b6db2c4181"
+  }
+}

@@ -1,0 +1,5 @@
+weasyprint
+markdown-it-py
+beautifulsoup4
+cairosvg
+PyMuPDF

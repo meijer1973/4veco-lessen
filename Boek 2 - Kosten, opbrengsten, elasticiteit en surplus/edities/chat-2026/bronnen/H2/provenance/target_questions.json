@@ -1,0 +1,57 @@
+{
+  "source": "meijer1973/4veco-platform/references/authored/course-target-exercises.json",
+  "commit": "96416b6b5bd57094576e9aba0a42d682584ec479",
+  "blob_sha": "5680842328576b63e2858ce8e354030a3a458410",
+  "scope": "Question-text excerpts, checked against the connected registry on 2026-09-06. Not a replacement registry.",
+  "targets": {
+    "2.2.1": {
+      "exercise_number": 7,
+      "record_sha256": "61b54bde03d60be241092479cfcea8820e8187220f8f454dc9fef5045c8ea288",
+      "context": "Bioscoop Nova verhoogt de ticketprijs van €10 naar €12; de gevraagde hoeveelheid daalt van 500 naar 420 tickets per week. Bij StreamNow is voor een andere prijsverhoging Ev=−2 gemeten. Gebruik voor Nova de oude waarde als noemer en Ev=%ΔQv/%ΔP.",
+      "questions": [
+        ["a",3,"Bereken voor Bioscoop Nova de procentuele prijsverandering, de procentuele verandering van de gevraagde hoeveelheid en Ev."],
+        ["b",2,"Classificeer de vraag naar bioscoopkaartjes met |Ev| en leg in gewone taal uit wat Ev=−0,8 betekent."],
+        ["c",2,"Classificeer de vraag naar StreamNow met Ev=−2 en vergelijk de prijsgevoeligheid met die van Bioscoop Nova."],
+        ["d",2,"Geef één plausibele contextverklaring voor het verschil in prijsgevoeligheid. Baseer je verklaring niet op een andere elasticiteitssoort."]
+      ]
+    },
+    "2.2.2": {
+      "exercise_number": 7,
+      "record_sha256": "8ce56143aef61b0e67aae5b179f6e5f3fe547192bc776a42c43101cb5a70fa2e",
+      "context": "Gebruik TO=P×Q. Bij Bioscoop Nova stijgt P van €10 naar €12 en daalt Q van 500 naar 420 per week; Ev=−0,8. Bij StreamNow stijgt P van €20 naar €22 en daalt Q van 1.000 naar 800 per maand; Ev=−2,0. Alle gegevens die je nodig hebt staan hier.",
+      "questions": [
+        ["a",2,"Bereken voor Bioscoop Nova TO vóór en na de prijsverhoging."],
+        ["b",2,"Bereken de procentuele verandering van TO bij Bioscoop Nova en verbind die uitkomst met Ev=−0,8."],
+        ["c",2,"Bereken voor StreamNow TO vóór en na de prijsverhoging."],
+        ["d",2,"Bereken de procentuele verandering van TO bij StreamNow en verbind die uitkomst met Ev=−2."],
+        ["e",2,"Formuleer de lokale omzetregel voor een kleine prijsstijging bij prijsinelastische en bij prijselastische vraag. Leg uit waarom je bij een grote, eindige verandering altijd TO vóór en na berekent."],
+        ["f",1,"Leg uit waarom uit deze omzetgegevens niet volgt dat de winst stijgt."]
+      ]
+    },
+    "2.2.3": {
+      "exercise_number": 8,
+      "record_sha256": "9a3a29bcedc16739b74b66b2bb8e136b37e86c7f5cfee3ee35ea37c4bdeed1c5",
+      "context": "Gebruik steeds de oude waarde als noemer. Voor inkomenselasticiteit geldt Ei=%ΔQv/%ΔY. De drie gebruikte categorieën zijn: Ei<0 inferieur goed, 0<Ei<1 normaal goed en Ei>1 luxegoed; Ei=0 en Ei=1 zijn grenswaarden. Voor kruislingse elasticiteit geldt Ek=%ΔQv van goed X/%ΔP van een ander goed Z. Noem bij Ek altijd beide goederen.",
+      "questions": [
+        ["a",3,"Bereken met bron inkomen Ei voor maaltijdpakketten en budgetnoedels."],
+        ["b",2,"Classificeer beide goederen met de drie categorieën uit de context."],
+        ["c",4,"Bereken met bron koffie Ek voor de vraag naar thee ten opzichte van de koffieprijs en voor de vraag naar koffiefilters ten opzichte van de koffieprijs. Noem teller- en noemergoed en classificeer de relaties."],
+        ["d",4,"Bereken Qx in de beginsituatie en nadat alleen Y stijgt naar 33.000. Bereken daarna %ΔQx, Ei en classificeer fitnessdienst X. Leg uit wat met Qx gebeurt en welke variabelen gelijk blijven."],
+        ["e",3,"Zet Y terug op 30.000. Bereken Qx nadat alleen Pz stijgt van 20 naar 24. Leg uit welke richting het verband tussen Pz en Qx heeft en welke variabelen gelijk blijven."]
+      ]
+    },
+    "2.2.4": {
+      "exercise_number": 5,
+      "record_sha256": "4e0840ddf202ce4906ee05cd4dde97c0f3577885c34f0b9613ea18760aad7519",
+      "context": "StreamPlus onderzoekt één recente prijsverhoging en mogelijke vervolgstappen. Gebruik bij vragen 1 tot en met 5 telkens alleen de aangegeven bron. Combineer bij vraag 6 minstens twee bronnen. De gemeten Ev in bron A is gegeven; de opgave combineert eerder onderwezen handelingen en introduceert geen nieuwe formule.",
+      "questions": [
+        ["1",2,"Selecteer uit bron A de gegevens voor een controleberekening van Ev en noem het gegeven dat daarvoor niet nodig is."],
+        ["2",2,"Classificeer met de gegeven Ev=−0,7 de vraag en leg in gewone taal uit hoe sterk Q procentueel reageert op een prijsverandering."],
+        ["3",2,"Bereken met bron A TO vóór en na de prijsverhoging."],
+        ["4",4,"Bereken en classificeer met bron B Ei voor Premium en Budget en met bron C Ek van de vraag naar StreamPlus ten opzichte van de prijs van het concurrerende abonnement. Noem bij Ek beide diensten."],
+        ["5",2,"Bereken met bron D Q in de beginsituatie en nadat alleen Y stijgt naar €42.000 per jaar. Noem welke variabelen gelijk blijven."],
+        ["6",2,"Geef op basis van minstens twee bronnen een voorzichtig omzetadvies. Noem één conclusie die de bronnen ondersteunen en precies twee conclusies die zij niet bewijzen."]
+      ]
+    }
+  }
+}

@@ -1,0 +1,421 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Docenteninformatie · Elasticiteit</title><style>
+@page {size:A4; margin:17mm 18mm 17mm 19mm;
+ @top-left {content:"4veco  /  Boek 2";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @top-right {content:"2.2  Elasticiteit";font-family:Lato,sans-serif;font-size:8.5pt;color:#536777;}
+ @bottom-left {content:"Economie · 4 vwo";font-family:Lato,sans-serif;font-size:8pt;color:#536777;}
+ @bottom-right {content:counter(page);font-family:Lato,sans-serif;font-size:9pt;color:#183247;}
+}
+@page:first {@top-left{content:none;}@top-right{content:none;}}
+* {box-sizing:border-box;}
+html{font-family:Lato,"DejaVu Sans",sans-serif;font-size:11.8pt;line-height:1.37;color:#183247;}
+body{margin:0;}
+p{margin:0 0 6pt;orphans:3;widows:3;}
+.page{break-before:page;}
+.page:first-child{break-before:auto;}
+.page-title{font-size:18pt;line-height:1.13;font-weight:800;border-bottom:1.5pt solid #17688f;padding:0 0 8pt;margin:0 0 12pt;}
+h1{font-size:25pt;line-height:1.13;margin:5pt 0 12pt;font-weight:800;break-after:avoid;}
+h2{font-size:17pt;line-height:1.15;color:#17688f;margin:10pt 0 8pt;break-after:avoid;}
+h3{font-size:12.5pt;line-height:1.22;margin:11pt 0 7pt;break-after:avoid;}
+h2:first-child,h3:first-child{margin-top:0;}
+a{color:inherit;text-decoration:none;}
+.kicker{letter-spacing:1pt;color:#17688f;font-size:9pt;font-weight:800;margin:0 0 12pt;}
+.box,.definition,.formula,.source,.route{padding:7pt 10pt;margin:8pt 0 9pt;break-inside:avoid;background:#f2f6f8;border-left:3pt solid #17688f;}
+.box p:last-child,.definition p:last-child,.formula p:last-child,.source p:last-child{margin-bottom:0;}
+.definition{background:#f4f7f8;padding:7pt 10pt;margin:7pt 0 9pt;}
+.formula{font-family:"DejaVu Sans Mono",monospace;font-size:11.3pt;line-height:1.6;background:#eef5f6;border-left-color:#227064;}
+.goals{font-size:10.7pt;line-height:1.38;}
+.summary{font-size:10.5pt;line-height:1.5;}
+.warning{border-left-color:#ad601b;background:#fbf5ed;}
+.source{border-left-color:#536777;font-size:10.6pt;}
+.route{font-size:10.2pt;line-height:1.3;}
+.calculation{font-family:"DejaVu Sans Mono",monospace;line-height:1.55;margin:8pt 0 10pt;padding:8pt 13pt;background:#f3f6f7;break-inside:avoid;}
+.exercise{break-inside:avoid;border:0.6pt solid #d5dfe5;border-radius:3pt;padding:8pt 10pt;margin:0 0 10pt;background:white;}
+.exercise>p:first-child{margin-top:0;}
+.exercise>p:last-child{margin-bottom:0;}
+.exercise>p{margin-bottom:6pt;}
+.exercise>b:first-child{display:block;margin-bottom:7pt;font-size:12pt;}
+.target{border-top:3pt solid #17688f;}
+table{border-collapse:collapse;width:100%;margin:7pt 0 9pt;font-size:10.1pt;line-height:1.27;table-layout:auto;break-inside:avoid;}
+th{background:#edf2f5;font-weight:700;vertical-align:bottom;text-align:left;border-bottom:1pt solid #9dabb7;}
+td,th{padding:4.4pt 5pt;border-bottom:0.55pt solid #dce4e9;}
+td{vertical-align:top;} tr:nth-child(even) td{background:#f8fafb;}
+figure{margin:10pt 0 11pt;break-inside:avoid;}
+figure img{display:block;width:100%;height:auto;}
+figcaption{font-size:9.3pt;line-height:1.3;color:#536777;margin:5pt 0 0;}
+.small{font-size:9.4pt;line-height:1.33;}
+.muted{color:#536777;}
+.cover-title{font-size:38pt;line-height:1.05;letter-spacing:-0.6pt;font-weight:900;margin:14pt 0 14pt;}
+.lead{font-size:14.5pt;line-height:1.3;margin:0 0 13pt;color:#17688f;}
+.contents{margin:12pt 0 12pt;}
+.contents a{display:block;border-top:0.6pt solid #cbd7df;padding:6pt 0;}
+.contents b{display:block;font-size:12pt;}
+.contents span{display:block;color:#536777;font-size:10.5pt;margin-top:2pt;}
+.answer h2{margin-top:16pt;}
+.answer p{margin-bottom:7pt;}
+.answer .why{font-size:10.6pt;color:#455c6d;}
+.answer .exercise{break-inside:auto;}
+.answer .answer-block{break-inside:avoid;margin-bottom:10pt;}
+.teacher{font-size:10.7pt;}
+.pair{display:flex;gap:12pt}.pair>div{flex:1}
+.target-source{padding:9pt 11pt;background:#f5f8f9;border-left:3pt solid #536777;margin:9pt 0}
+.step{font-weight:700;color:#17688f}
+.fraction{white-space:nowrap}
+.tight p{margin-bottom:4pt}
+.target-unit{font-size:9.7pt;color:#536777}
+@media print{a{color:inherit}}
+.teacher table{font-size:9.1pt;}
+
+@page { @top-left {content:"4veco / Docenteninformatie";} }
+.teacher h1{font-size:23pt;}
+.teacher h2{font-size:15pt;}
+.teacher h3{font-size:11.5pt;}
+.teacher{font-size:10.3pt;line-height:1.31;}
+.teacher table{font-size:9pt;line-height:1.25;}
+.teacher th,.teacher td{padding:4pt;}
+.teacher p{margin-bottom:7pt;}
+.teacher code{font-size:8.4pt;font-family:Lato,sans-serif;overflow-wrap:anywhere;}
+.hash{font-size:8.7pt;overflow-wrap:anywhere;}
+</style></head><body><section class="page teacher"><div class="kicker">4VECO · BOEK 2 · HOOFDSTUK 2.2</div>
+<h1>Docenteninformatie</h1>
+<h2>Elasticiteit — zelfstandig bruikbare printeditie</h2>
+<p>Dit hoofdstuk is opnieuw geschreven voor <strong>4 vwo</strong>. De bestaande hoofdstuktekst, voorbeelden en opgaven zijn niet als basis gebruikt. De actuele doelopgaven en de auteursrichtlijnen uit de platformrepository bepalen wél de inhoudelijke bestemming. De vormgeving sluit aan bij het eerder opgeleverde hoofdstuk 2.1.</p>
+<table>
+<thead>
+<tr>
+<th>Onderdeel</th>
+<th style="text-align:right">Leerlingpagina’s</th>
+<th>Kern</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Opening</td>
+<td style="text-align:right">1</td>
+<td>Plaats in boek 2; lees- en werkroute.</td>
+</tr>
+<tr>
+<td>2.2.1 Prijselasticiteit</td>
+<td style="text-align:right">2–9</td>
+<td>Procenten → Ev → indeling → betekenis en verklaring.</td>
+</tr>
+<tr>
+<td>2.2.2 Elasticiteit en omzet</td>
+<td style="text-align:right">10–17</td>
+<td>TO vóór/na; relatieve prijsreactie; grenzen aan advies.</td>
+</tr>
+<tr>
+<td>2.2.3 Inkomen en andere goederen</td>
+<td style="text-align:right">18–29</td>
+<td>Ei, Ek en één-factor-scenario’s in een vraagfunctie.</td>
+</tr>
+<tr>
+<td>2.2.4 Gemengde opgaven</td>
+<td style="text-align:right">30–35</td>
+<td>Bronselectie, rekenen, vergelijken en onderbouwd adviseren.</td>
+</tr>
+<tr>
+<td>Hoofdstukoverzicht</td>
+<td style="text-align:right">36</td>
+<td>Eén terugzoekblad met verhoudingen en controles.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Omvang.</strong> De leerlingeditie telt 36 pagina’s, inclusief de opening, theorie, drie volledige uitgewerkte voorbeelden, alle oefeningen en het overzicht. Het afzonderlijke antwoordenboek telt 18 pagina’s. De 38 genummerde opgaven zijn verdeeld als 10 + 10 + 11 + 7. Er zijn 13 oorspronkelijke instructieve figuren, naast de tabellen.</p>
+<h3>Gebruik op papier</h3>
+<p>Leerlingen werken in een schrift. Zij nemen een tabel over wanneer dat wordt gevraagd. De uitleg, formules, hulp, bronnen en voorbeelden staan in het boek; digitaal materiaal is niet nodig. Gebruik een rekenmachine en laat tussenuitkomsten ongerond bewaren.</p>
+<p>De drie theorieparagrafen volgen de zeven voorgeschreven oefenonderdelen. De kernroute is <strong>Startopgaven → Zelfstandige oefening → Doeloefening</strong>. Begeleide inoefening biedt extra ondersteuning voor dezelfde doelen. De bonusopgaven vragen anders kijken, niet alleen méér rekenen. Herhaling kan als huiswerk dienen.</p>
+<h3>Afdrukken en uitdelen</h3>
+<p>Druk de leerlingeditie af op A4 op ware grootte, dubbelzijdig met omslaan aan de lange zijde. De bronnen van StreamPlus staan op pagina 32; de vragen staan ernaast op pagina 33. Plaats vóór het hoofdstuk geen oneven aantal extra pagina’s als deze spreiding behouden moet blijven. De drie theorie-doeloefeningen zijn telkens op één pagina geplaatst.</p>
+<p>De antwoorden beginnen per paragraaf opnieuw bij opgave 1, net als de leerlingeditie. De afzonderlijke paragraafexports behouden de oorspronkelijke paginanummers zodat verwijzingen blijven werken.</p>
+</section><section class="page teacher"><h1>Lesplanning en ondersteuning</h1>
+<p>De volgende begrotingen zijn <strong>ontwerpschattingen, geen gemeten klassentijden</strong>. Een pagina is een lees- en naslagoppervlak, geen afzonderlijk instructiemoment. De docent selecteert de kern van de uitleg; leerlingen kunnen de rest teruglezen. Bonus en afsluitende herhaling vallen buiten deze kernbegrotingen.</p>
+<table>
+<thead>
+<tr>
+<th>Onderdeel in minuten</th>
+<th style="text-align:right">2.2.1</th>
+<th style="text-align:right">2.2.2</th>
+<th style="text-align:right">2.2.3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Motiverende situatie</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Gerichte instructie</td>
+<td style="text-align:right">9</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">9</td>
+</tr>
+<tr>
+<td>Uitgewerkt voorbeeld</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">7</td>
+</tr>
+<tr>
+<td>Samenvatting en overgangen</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Startopgaven 1–2</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">5</td>
+</tr>
+<tr>
+<td>Zelfstandig: 5–6 / 5–6 / 6–7</td>
+<td style="text-align:right">14</td>
+<td style="text-align:right">16</td>
+<td style="text-align:right">14</td>
+</tr>
+<tr>
+<td>Doeloefening: 7 / 7 / 8</td>
+<td style="text-align:right">12</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">16</td>
+</tr>
+<tr>
+<td><strong>Totaal kernroute</strong></td>
+<td style="text-align:right"><strong>50</strong></td>
+<td style="text-align:right"><strong>55</strong></td>
+<td style="text-align:right"><strong>55</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Elke kolom bevat de volledige kernroute, niet alleen de werktijd. De vijf minuten ruimte bij §2.2.1 kunnen naar feedback. Bij de andere twee paragrafen is de begroting krap: uitleg of oefenen verlengen betekent ook extra lestijd plannen. De moeilijkheid wordt niet verborgen door een doelbewerking weg te laten.</p>
+<h3>Voor §2.2.3: twee lessen zodra de klas dat nodig heeft</h3>
+<p>De 55-minutenroute is alleen aannemelijk bij vlotte procentberekeningen, veilige functie-invulling en korte mondelinge instructie. <strong>Plan voor een heterogene klas bij voorkeur twee lessen.</strong> Les A: startopgaven, Ei/Ek-uitleg, het eerste deel van het voorbeeld, begeleide opgave 3 en zelfstandige opgave 6. Les B: functies, het tweede deel van het voorbeeld, opgave 4 waar nodig, zelfstandige opgave 7 en de volledige doeloefening 8. Dit behoudt één paragraaf en dezelfde eindopgave.</p>
+<h3>De ondersteuningsroute kost echte tijd</h3>
+<p>In §2.2.1 loopt de steun terug van ingevulde rekenvormen (3) naar een tabel zonder rekenstappen (4). In §2.2.2 loopt die terug van een invultabel (3) naar zelfstandiger omzetredenering (4). In §2.2.3 biedt 3 steun bij de juiste noemer; 4 steunt de scenario-opbouw; 5 maakt tegengestelde verbanden zichtbaar. Reken op circa 8–15 extra werkminuten, bij §2.2.3 eventueel meer. Gebruik extra lestijd of verplaats werk; presenteer dit niet als gratis omweg binnen een al volle les.</p>
+<h3>Gemengde les</h3>
+<p>Een mogelijke verdeling is: 4 minuten opgave 1, 15 minuten voorbereiden met opgaven 2 en 4, 24 minuten doeloefening 5 en 12 minuten nabespreken = <strong>55 minuten</strong>. Opgave 3 en hoofdstukcheck 7 zijn vervolgwerk; 6 is bonus. Bij kwetsbare Ei/Ek- of functievaardigheid is extra oefentijd nodig vóór de doeloefening. De punten bij doelvragen geven de omvang van het antwoord aan; zij zijn geen automatisch cijfer of beheersingsbewijs.</p>
+</section><section class="page teacher"><h1>Van leerdoel naar doeloefening</h1>
+<h2>2.2.1 Prijselasticiteit</h2>
+<p>De doeloefening is opgave 7. Hieronder verwijzen de voorbeeldstappen naar pagina 5. De voorbereiding vraagt dezelfde bewerkingen, met andere contexten en overzichtelijkere getallen.</p>
+<table>
+<thead>
+<tr>
+<th>Doelbewerking</th>
+<th>Doelvraag</th>
+<th>Voorgedaan</th>
+<th>Start / hulp / zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Beide procentveranderingen berekenen; oude waarde als noemer.</td>
+<td>7a</td>
+<td>Stappen 1–2.</td>
+<td>1; 3a–c, 4a–b; 5a, 6a.</td>
+</tr>
+<tr>
+<td>Ev mét teken berekenen en met absolute waarde indelen.</td>
+<td>7a–c</td>
+<td>Stappen 2–3.</td>
+<td>2; 3c–d, 4; 5a–b, 6a–b.</td>
+</tr>
+<tr>
+<td>De relatieve gevoeligheid vergelijken en in woorden uitleggen.</td>
+<td>7b–c</td>
+<td>Stappen 2–3.</td>
+<td>2b; 3d, 4c; 5b, 6a.</td>
+</tr>
+<tr>
+<td>Een plausibele prijsgevoeligheidsverklaring geven zonder oorzaak te claimen.</td>
+<td>7d</td>
+<td>Stap 4.</td>
+<td>3e; 5c. Geen nieuwe verklaringsbewerking in de doelvraag.</td>
+</tr>
+</tbody>
+</table>
+<p>De onafhankelijke oefening bevat ook een <strong>prijsdaling</strong>. Daardoor kan een leerling het negatieve teken niet uitsluitend verbinden aan een daling van Q. Bonus 8 onderzoekt de eenhedeninvariantie van de verhouding. Opgaven 9–10 herhalen procenten en vraagfactoren uit boek 1.</p>
+<h2>2.2.2 Elasticiteit en omzet</h2>
+<p>De doeloefening is opgave 7. Het uitgewerkte voorbeeld op pagina 12–13 behandelt zowel een inelastische als een elastische reactie.</p>
+<table>
+<thead>
+<tr>
+<th>Doelbewerking</th>
+<th>Doelvraag</th>
+<th>Voorgedaan</th>
+<th>Start / hulp / zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Oude en nieuwe TO berekenen uit de bijbehorende P en Q.</td>
+<td>7a, 7c</td>
+<td>Stappen 1 en 4.</td>
+<td>1; 3a, 4a; 5a, 6a.</td>
+</tr>
+<tr>
+<td>Procentuele omzetverandering berekenen en met Ev verbinden.</td>
+<td>7b, 7d</td>
+<td>Stappen 2–4.</td>
+<td>1b; 3b–c, 4a–b; 5a–b.</td>
+</tr>
+<tr>
+<td>De kleine-veranderingregel onderscheiden van een eindige vergelijking.</td>
+<td>7e</td>
+<td>Stap 5; theorie p. 11.</td>
+<td>2a; 4b; 5c en 6a.</td>
+</tr>
+<tr>
+<td>Uitleggen waarom omzetgegevens geen winstconclusie dragen.</td>
+<td>7f</td>
+<td>Stap 6.</td>
+<td>2b; 3d, 4c; 6b.</td>
+</tr>
+</tbody>
+</table>
+<p>De voorbereiding houdt <strong>prijsrichting, relatieve reactie en omzetrichting</strong> uit elkaar. Opgave 6 gebruikt een prijsdaling. Bonus 8 laat gelijke omzet zien ondanks een meting van Ev = −0,8. Herhaling 10 toont een stijgende omzet én dalende winst met expliciete kostengegevens.</p>
+<p><strong>Papieren start.</strong> De docent kan opgave 1 aan het begin van de les laten maken. Dat verandert niet de voorgeschreven drukvolgorde: theorie → uitgewerkt voorbeeld → samenvatting → Startopgaven.</p>
+</section><section class="page teacher"><h1>Samenhang en voorkennis</h1>
+<h2>2.2.3 Inkomen, andere prijzen en functies</h2>
+<p>De doeloefening is opgave 8. Het uitgewerkte voorbeeld op pagina 23–24 bevat alle vijf doelbewerkingen; het is niet beperkt tot alleen de eenvoudigste Ei-berekening.</p>
+<table>
+<thead>
+<tr>
+<th>Doelbewerking</th>
+<th>Doelvraag</th>
+<th>Voorgedaan</th>
+<th>Start / hulp / zelfstandig</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ei berekenen; inferieur, normaal en luxe onderscheiden.</td>
+<td>8a–b</td>
+<td>Stap 1; normaal via stap 4.</td>
+<td>2a; 3a–b, 4b; 6a en 7b.</td>
+</tr>
+<tr>
+<td>Ek berekenen, beide goederen noemen en relatie indelen.</td>
+<td>8c</td>
+<td>Stap 2, positief én negatief.</td>
+<td>2a; 3c, 5a–b; 6b.</td>
+</tr>
+<tr>
+<td>Functie invullen bij de beginsituatie.</td>
+<td>8d</td>
+<td>Stap 3.</td>
+<td>1b; 4a; 7a.</td>
+</tr>
+<tr>
+<td>Alleen Y veranderen; Q, %ΔQ en Ei berekenen; prijzen gelijk houden.</td>
+<td>8d</td>
+<td>Stap 4.</td>
+<td>1a, 2b; 4b; 7b.</td>
+</tr>
+<tr>
+<td>Y terugzetten; alleen Pz veranderen; richting en vaste variabelen noemen.</td>
+<td>8e</td>
+<td>Stap 5; terugzetdiagram p. 22.</td>
+<td>2b; 4c; 7c.</td>
+</tr>
+</tbody>
+</table>
+<p>Opgave 5 confronteert twee tegengestelde kruisverbanden. De gegevens komen uit afzonderlijke onderzoeken. De leerling bepaalt de richtingen, maar telt de gemeten procenten niet zomaar op tot een bewezen gecombineerd effect. Bonus 9 gaat over twee consumentengroepen, niet over langere berekeningen.</p>
+<h2>2.2.4 Integreren zonder nieuwe theorie</h2>
+<p>De gemengde doeloefening is opgave 5. Opgave 1 oefent het kiezen van de noemer. Opgave 2 combineert Ev, omzet en een irrelevant gegeven. Opgave 3 herhaalt Ei, Ek en een inkomensscenario. Opgave 4 oefent een advies uit <strong>twee bronnen met precies twee niet-bewezen conclusies</strong>. Zo verschijnt die antwoordvorm niet onverwacht in doelvraag 6. Hoofdstukcheck 7 herneemt alle families; deze is geen nieuwe theorieparagraaf.</p>
+<h3>Voorkennis: niet verwarren met bewezen beheersing</h3>
+<table>
+<thead>
+<tr>
+<th>Herkomst</th>
+<th>Classificatie voor deze editie</th>
+<th>Beslissing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Boek 1: procenten, eenvoudige functie-invulling en vraagfactoren.</td>
+<td>Eerder onderwezen; ophalen vereist.</td>
+<td>Start- en herhalingsopgaven; korte rekenuitleg op papier.</td>
+</tr>
+<tr>
+<td>Hoofdstuk 2.1: TO en winst.</td>
+<td>Eerder onderwezen; ophalen vereist.</td>
+<td>§2.2.2 opgave 1 en herhaling 10; §2.2.3 opgave 11.</td>
+</tr>
+<tr>
+<td>Ev in §2.2.2–3.</td>
+<td>Eerder onderwezen; ophalen vereist.</td>
+<td>Teller/noemer en teken expliciet activeren.</td>
+</tr>
+<tr>
+<td>Ei, Ek en formele functie-scenario’s bij de start van §2.2.3.</td>
+<td>Nieuw formeel leren.</td>
+<td>Volledige uitleg en voorbeelden, niet als bekende procedure overslaan.</td>
+</tr>
+<tr>
+<td>Eerdere losse herkenning van ‘normaal’ of ‘inferieur’.</td>
+<td>Hoogstens kennismaking; geen veilige procedurele voorkennis.</td>
+<td>Sign-first-classificatie opnieuw onderwijzen.</td>
+</tr>
+</tbody>
+</table>
+<p>Voor een concrete klas kan een docent een bewerking als ‘nog niet veilig genoeg om aan te nemen’ markeren en extra steun inzetten. Deze editie claimt voor geen enkele leerling dat eerder onderwezen automatisch veilig beheerst betekent.</p>
+</section><section class="page teacher"><h1>Economische precisie en beelden</h1>
+<h3>1 · Teken, grootte en eenheid blijven afzonderlijk</h3>
+<p>Bij Ev blijft het teken in de uitkomst staan. Alleen de prijsgevoeligheidsindeling gebruikt de absolute waarde. Bij Ei en Ek bepaalt juist het teken mede de betekenis. Alle elasticiteiten zijn dimensieloos; P, Q, inkomen en TO hebben hun eigen eenheden. De teller is steeds een procentuele hoeveelheidsverandering, niet een omzetverandering.</p>
+<h3>2 · Omzetregel zonder onjuist algemeen voorschrift</h3>
+<p>De kleine-veranderingregel wordt gekoppeld aan de vraag rond de onderzochte situatie. Voor twee gegeven oude en nieuwe waarden staat de <strong>rechtstreekse TO-berekening</strong> voorop. Het tegenvoorbeeld op pagina 11 gebruikt P: 10 → 12 en Q: 100 → 82. Ev = −0,9, maar TO daalt van 1.000 naar 984. Dit is een oorspronkelijk rekenvoorbeeld dat de begrenzing uit de doelopgave zichtbaar maakt. Er worden geen afgeleiden of optimalisatieregels toegevoegd.</p>
+<p>Bij gelijke tegengestelde eindige procenten blijft TO niet automatisch gelijk. De hoofdstukcheck laat bijvoorbeeld 1,10 × 0,90 = 0,99 zien. ‘Unitair’ bij de oude-waardemethode mag dus niet worden vertaald als een exact gelijkblijvende omzet over elke eindige stap.</p>
+<h3>3 · De drie Ei-categorieën blijven die van deze methode</h3>
+<p>Conform de huidige doelautoriteit: Ei &lt; 0 inferieur; 0 &lt; Ei &lt; 1 normaal; Ei &gt; 1 luxe. De twee grenswaarden worden niet van zo’n label voorzien. De tekst zegt bewust <strong>‘in dit boek’</strong>. De editie vervangt deze keuze niet stilzwijgend door een andere classificatie. Een indeling wordt begrensd tot de onderzochte situatie of groep, niet tot een eeuwige eigenschap van een product.</p>
+<h3>4 · Functies: eerst invullen, dan één verandering</h3>
+<p>De leerling berekent telkens een volledige beginsituatie, verandert één factor en zet eerdere veranderingen terug. Een jaarinkomen blijft een jaarinkomen als de functie dat voorschrijft. Een functiecoëfficiënt wordt niet als elasticiteit behandeld. De regionale functie in de StreamPlus-bron heeft haar eigen uitgangshoeveelheid; de andere tabel wordt daar niet doorheen gemengd.</p>
+<h3>5 · Beelden voeren een inhoudelijke taak uit</h3>
+<p>De procentbalken vergelijken reacties vanaf dezelfde basis. De rekenschema’s tonen teller, noemer en teken. De omzetrechthoeken hebben <strong>gelijke asschalen</strong> en exact passende oppervlaktes. De tekst verklaart waarom een oppervlakte in een P/Q-diagram TO kan zijn, terwijl winst in de TO/TK-grafiek van hoofdstuk 2.1 een verticale afstand is. De scenariofiguur begint beide onderzoeken bij dezelfde basis. Het bonusbeeld met prijs, Q, inkomen en reclame toont observaties, geen bewezen causale pijlen.</p>
+<p>Grafiekproductie is hier geen doelbewerking. De figuren ondersteunen het begrijpen en lezen; zelfstandig en in de doeloefening verdwijnen de rekenhints, niet de benodigde bronnen. Elk bron- of invultabelletje heeft benoemde kolommen en een expliciete taak.</p>
+</section><section class="page teacher"><h1>Bronbasis, controle en overdracht</h1>
+<p><strong>Gelezen GitHub-basis, 6 september 2026:</strong> platform-main op commit <span class="hash">96416b6b5bd57094576e9aba0a42d682584ec479</span>. De repositorymaps zijn via de GitHub-connector toegankelijk. Rechtstreekse raw-downloads waren in de bouwomgeving niet beschikbaar; de relevante broninhoud is via de connector gelezen. Er is geen aanwijzing dat deze opgehaalde main-snapshot ouder is dan de genoemde integratie. Niet-gepushte lokale wijzigingen zijn hiermee niet te beoordelen.</p>
+<table>
+<thead>
+<tr>
+<th>Bronpad</th>
+<th>Gebruik in dit hoofdstuk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>RESEARCH_AGENT_MAP.md</code> in beide repositories</td>
+<td>Toegang, eigenaarschap en bronhiërarchie.</td>
+</tr>
+<tr>
+<td><code>references/authored/book-outlines/book-2-outline.md</code> en <code>.meta.json</code></td>
+<td>Plaats van hoofdstuk 2.2, volgorde, afhankelijkheden en grenzen.</td>
+</tr>
+<tr>
+<td><code>references/authored/course-target-exercises.json</code></td>
+<td>Vier doeloefeningen, doelen, bewerkingen en puntwaarden.</td>
+</tr>
+<tr>
+<td><code>skills/econ-exercise-builder.md</code></td>
+<td>Zeven onderdelen, fading, kernroute, antwoordmodellen en bonus.</td>
+</tr>
+<tr>
+<td><code>skills/econ-textbook-paragraph.md</code>, <code>econ-didactiek.md</code>, <code>economic-graph.md</code>, <code>econ-pdf-builder.md</code></td>
+<td>Problem-first-uitleg, dual coding, schrijf- en productieregels.</td>
+</tr>
+<tr>
+<td><code>references/authored/economic_mathematical_precision_reference.md</code></td>
+<td>Modelvoorwaarden, eenheden, exacte overeenstemming tussen tekst en figuur.</td>
+</tr>
+</tbody>
+</table>
+<p>De bronregisters in het bronpakket bewaren de exacte paden en beschikbare pins. De <strong>vier doelcontexten en 21 deelvragen</strong> zijn woordelijk overgenomen; de lokale controle negeert uitsluitend opmaak en witruimte. De registertabellen zijn afgedrukt. Alleen bronkopjes, leeswijzers, periodeverduidelijkingen en typografie zijn toegevoegd. De contexten en vragen zijn niet vervangen door eigen eenvoudiger doelen.</p>
+<h3>Wat lokaal is gecontroleerd</h3>
+<p>De reproduceerbare controle in <code>validate.py</code> toetst de oefenvolgorde, nummering, dekking door antwoorden, doelvraagtekst, rekenuitkomsten, functie-scenario’s, teruggezette variabelen, figuurparen, grafiekgeometrie, paginalimiet en tekstgrenzen. Het bijgeleverde <code>validation-report.json</code> bevat elk controlepunt en de actuele telling. Alle pagina’s van leerling- en antwoordenboek zijn na het renderen visueel bekeken; compacte en grafisch gevoelige pagina’s zijn ook afzonderlijk vergroot gecontroleerd.</p>
+<h3>Wat niet als bewezen wordt geclaimd</h3>
+<p>Dit is een afgewerkte, lokaal gecontroleerde printeditie, <strong>geen gemergde repositoryrelease</strong>. Er is geen onafhankelijke docent- of leerlingproef uitgevoerd. De 55-minutenbegroting is niet empirisch bevestigd. De formele repositoryvalidators, goedkeuringsprocedure en productieholds zijn niet door deze lokale export vervangen of afgesloten. De bronstatus <code>candidate_review_ready</code> wordt niet eigenhandig hernoemd.</p>
+<h3>Voor opname in de repository</h3>
+<p>Controleer opnieuw de actuele authority-pins, laat de inhoud en het gerenderde product onafhankelijk beoordelen en doorloop daarna de toepasselijke platformworkflow. Bewerk bronbestanden en bouw opnieuw; corrigeer niet alleen een samengestelde PDF. Deze levering wijzigt geen repositorybestanden en autoriseert geen merge. De didactische bronnen, nieuwe manuscripten en technische controle zijn in het bronpakket bewust van elkaar gescheiden.</p>
+</section></body></html>
