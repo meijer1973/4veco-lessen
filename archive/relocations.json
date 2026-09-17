@@ -2094,20 +2094,6 @@
         "course_blueprint_v5.md"
       ],
       "live_follow_up": "course_blueprint_v5.md"
-    },
-    {
-      "kind": "snapshot",
-      "original_path": "course_blueprint_v5.md",
-      "archived_path": "archive/blueprints/book34-pre-v3-20260917/course_blueprint_v5.md",
-      "original_blob": "49fc96422c7297ab8d24f116b9b5ef24313d9789",
-      "final_blob": "49fc96422c7297ab8d24f116b9b5ef24313d9789",
-      "source_commit": "a0548ff9937dfb3b788b8b0ed53bbf9bd4fe1c07",
-      "topic": "book34-v2-before-v3",
-      "batch": "BOOK34-V3-INTEGRATION-20260917",
-      "current_consumers": [
-        "course_blueprint_v5.md"
-      ],
-      "live_follow_up": "course_blueprint_v5.md"
     }
   ]
 }
