@@ -1,6 +1,27 @@
 # Boek 3 - Overheidsingrijpen, concurrentie en internationale handel
 
-De geselecteerde chat-editie 2026 is de standaard printeditie. Schrijven en assemblage zijn voltooid; repository-import en structurele integratie zijn voorbereid/in PR.
+## Geselecteerde v3-editie — integratie in PR
+
+Revisie `book34-lesson-balance-v3-20260915`; gerepareerde levering `book34-v3-r1-r5-20260916`.
+Schrijven, lokale assemblage en pakketherstel R1–R5 zijn gereed. Deze repository-integratie is voorbereid/in PR; geen merge of publicatie is uitgevoerd.
+
+De beperkte platform-first overgang is beschreven in het [transport- en activatiecontract](https://github.com/meijer1973/4veco-platform/blob/main/docs/review/books34-v3-platform-first-transition.md). Platform heeft een byte-identieke, niet-bewerkbare transportkopie zodat v3-bronnen beschikbaar zijn vóór deze lesprojectie wordt ingevoerd. Lessons blijft inhoudseigenaar; beide ontvangsten worden afzonderlijk strikt gecontroleerd.
+
+| Onderdeel | Pagina’s | Bestand |
+|---|---:|---|
+| Leerling | 132 | [Leerling PDF](../edities/books34-v3/books/book-3/output/Boek_3_Compleet_v3.pdf) |
+| Antwoorden | 74 | [Antwoorden PDF](../edities/books34-v3/books/book-3/output/Boek_3_Compleet_Antwoorden_v3.pdf) |
+| Docent | 22 | [Docent PDF](../edities/books34-v3/books/book-3/output/Boek_3_Compleet_Docenteninformatie_v3.pdf) |
+
+[Bewerkbare hoofdstukken en figuren](../edities/books34-v3/books/book-3/chapters/) · [Boekmateriaal](../edities/books34-v3/books/book-3/book-matter/) · [Gedeelde pakketdocumentatie](../edities/books34-v3/README.md) · [Ontvangen manifest](../edities/books34-v3/MANIFEST.sha256.json).
+
+Boek 3 telt 6+4+4 lessen; Boek 4 5+7+5. De beperkte afgeleide en winstkeuze zijn afzonderlijke lessen. Langetermijnevenwicht wordt voor het eerst in Boek 4 §4.1.1 beoordeeld. Oud v2 §4.3.5 cao/vakbonden is uitgesteld; nieuw v3 §4.3.5 is gemengde arbeidsmarktpraktijk.
+
+[Actuele outline en adoptie](https://github.com/meijer1973/4veco-platform/blob/main/references/authored/book-outlines/book-3-outline.meta.json). De 31 targets zijn gevulde `candidate_review_ready`-records; onafhankelijke doelreview blijft open. Geen targetfinaliteit of companionacceptatie. Tijdskwesties 3.1.2, 3.1.3, 3.1.5, 4.2.4 en 4.2.5 en latere cao-plaatsing met lestijd blijven open.
+
+## Historische v2-editie
+
+De v2-chat-editie is behouden als historische editie, inclusief alle oorspronkelijke bronnen, PDF’s en manifesten. De v2-import is al geïntegreerd; onderstaande links openen die ongewijzigde versie.
 
 | Onderdeel | Leerling | Antwoorden | Docent |
 |---|---|---|---|
@@ -11,6 +32,6 @@ De geselecteerde chat-editie 2026 is de standaard printeditie. Schrijven en asse
 
 [Alle bewerkbare paragraafbronnen](edities/chat-2026/BRONNEN.md) · [Editie en herkomst](edities/chat-2026/README.md) · [Bestandsmanifest](IMPORT_MANIFEST.json)
 
-[Actuele outline en adoptie](https://github.com/meijer1973/4veco-platform/blob/codex/import-books34-outlines-20260914/references/authored/book-outlines/book-3-outline.meta.json). De outline is structureel geselecteerd; dit verleent geen formele targetgoedkeuring of companionacceptatie.
+[Historische v2-outline bij het importcommit](https://github.com/meijer1973/4veco-platform/blob/67374a9808d226f1be7e8fa73eb104312c075267/references/authored/book-outlines/book-3-outline.meta.json). De outline is structureel geselecteerd; dit verleent geen formele targetgoedkeuring of companionacceptatie.
 
 Titelalias: het geleverde Boek 3 gebruikt “volkomen concurrentie”; de geselecteerde outline en mapnaam gebruiken “concurrentie”. Dit is dezelfde herziene editie.

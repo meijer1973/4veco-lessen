@@ -37,3 +37,6 @@ archive/** -text
 "Boek 3 - Overheidsingrijpen, concurrentie en internationale handel/edities/chat-2026/pakket/**" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
 "Boek 3 - Overheidsingrijpen, concurrentie en internationale handel/edities/chat-2026/source_chapters/**" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
 "Boek 4 - Monopolie, marktfalen en arbeidsmarkt/edities/chat-2026/pakket/**" whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+
+# Immutable received v3 delivery, including supplied text line endings.
+edities/books34-v3/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
