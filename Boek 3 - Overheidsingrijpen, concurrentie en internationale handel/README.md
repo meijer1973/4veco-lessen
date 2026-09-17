@@ -5,6 +5,8 @@
 Revisie `book34-lesson-balance-v3-20260915`; gerepareerde levering `book34-v3-r1-r5-20260916`.
 Schrijven, lokale assemblage en pakketherstel R1–R5 zijn gereed. Deze repository-integratie is voorbereid/in PR; geen merge of publicatie is uitgevoerd.
 
+De beperkte platform-first overgang is beschreven in het [transport- en activatiecontract](https://github.com/meijer1973/4veco-platform/blob/main/docs/review/books34-v3-platform-first-transition.md). Platform heeft een byte-identieke, niet-bewerkbare transportkopie zodat v3-bronnen beschikbaar zijn vóór deze lesprojectie wordt ingevoerd. Lessons blijft inhoudseigenaar; beide ontvangsten worden afzonderlijk strikt gecontroleerd.
+
 | Onderdeel | Pagina’s | Bestand |
 |---|---:|---|
 | Leerling | 132 | [Leerling PDF](../edities/books34-v3/books/book-3/output/Boek_3_Compleet_v3.pdf) |
