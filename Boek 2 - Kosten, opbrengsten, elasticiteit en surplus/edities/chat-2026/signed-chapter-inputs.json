@@ -589,17 +589,17 @@
     {
       "path": "bronnen/H2/_assets/theory-20260921/page-054.json",
       "bytes": 12889,
-      "sha256": "9dd5a2b8714221488bb0a312ba655a4023c422d112d78f4a21e90237563ed6c8"
+      "sha256": "8c0b06eb474ba119fe93e19800c80811c22d5e84255f74f565652212ab36eac7"
     },
     {
       "path": "bronnen/H2/_assets/theory-20260921/page-054.png",
-      "bytes": 76117,
-      "sha256": "fe8c198944ff540fefdcdde63a8a877820f5a7887d26f26974db9169b477114a"
+      "bytes": 76148,
+      "sha256": "8d745333f99a49e0c6b43e45b9237485d45353e4feaa08fe9e1b26a022f401d2"
     },
     {
       "path": "bronnen/H2/_assets/theory-20260921/page-054.svg",
       "bytes": 6149,
-      "sha256": "07f85b49c51644687c749ab8660c630c4c7d7bca3ff4dbdbb634648b7ad5cb31"
+      "sha256": "61bf5d0d3200ec224066fd708c043ff3d1eb65e0c324bacc4c876d027089471f"
     },
     {
       "path": "bronnen/H2/_assets/theory-20260921/page-055.json",
@@ -673,8 +673,8 @@
     },
     {
       "path": "bronnen/H2/Docenten_en_bouwverantwoording.md",
-      "bytes": 15749,
-      "sha256": "ceed4f9d15bc4dfcc3da160a7c125edf29f013519cbdf773f639d785d0890ccf"
+      "bytes": 15753,
+      "sha256": "eedc86d6a46f1271e338195c92a63977b5523030fee9ee9a7d02b26a5e74b7f5"
     },
     {
       "path": "bronnen/H2/export_paragraphs.py",
@@ -688,28 +688,28 @@
     },
     {
       "path": "bronnen/H2/manuscript/00 Hoofdstukopening.md",
-      "bytes": 2646,
-      "sha256": "8726ab096e286198213d4cb36369f83ce2ceb43bd7e20666071e76af3c2c1fe5"
+      "bytes": 2647,
+      "sha256": "e841e919f009b00fc43d1a446cd940af2aae6d5e0a5c8350e35541e9280ec92c"
     },
     {
       "path": "bronnen/H2/manuscript/2.2 Hoofdstukoverzicht.md",
-      "bytes": 37074,
-      "sha256": "08cee39ab799b16916c3e5419db3a0a2283dfdbfea77b687283331c447e9e6be"
+      "bytes": 37076,
+      "sha256": "a235ff3d8f23c695a853fd399ad8c69a2e3925f94eacdaf818e9685cba011655"
     },
     {
       "path": "bronnen/H2/manuscript/2.2.1 Prijselasticiteit – paragraaf.md",
-      "bytes": 91243,
-      "sha256": "0c361ff88ed6821870ae9f6324918d1513282a33d11099840288016e865132ed"
+      "bytes": 91256,
+      "sha256": "c79150a148e39ad1609ad77712c0f26cc032a83a40106e4aa0096e8af1dbb07b"
     },
     {
       "path": "bronnen/H2/manuscript/2.2.2 Elasticiteit en omzet – paragraaf.md",
       "bytes": 103975,
-      "sha256": "8deb56d44bf325e98387834e5ca043496b63907b225cf864768332c360d279ae"
+      "sha256": "dd5aec29637a494da80ad7264f08c7d7ecc7081d9ca23f0e963385127f8166f3"
     },
     {
       "path": "bronnen/H2/manuscript/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – paragraaf.md",
       "bytes": 180738,
-      "sha256": "0af8a2a60054334ddb364b6ab7372e579564d545827ba8c0a11c71014d0886c3"
+      "sha256": "40440809dc4e3d4261ff15d15e05bf8b5396ec346be1f59df3037c4d71984cea"
     },
     {
       "path": "bronnen/H2/manuscript/2.2.4 Gemengde opgaven – opgaven.md",
@@ -723,8 +723,8 @@
     },
     {
       "path": "bronnen/H3/2.3 Docenteninformatie.md",
-      "bytes": 14832,
-      "sha256": "702fca276c5902b1131aac7a90b52cb48356823ac5190c2a0c3294ebe63ddfc1"
+      "bytes": 14845,
+      "sha256": "95fef222ef377353c0f3986319707fe85838276e2dd59947aa764c6102437d93"
     },
     {
       "path": "bronnen/H3/2.3 Surplus en welvaart – antwoorden.md",
@@ -1378,28 +1378,28 @@
     },
     {
       "path": "bronnen/H3/manuscript/00 Hoofdstukopening.md",
-      "bytes": 2647,
-      "sha256": "5487b9d0f9f70c3dd7d2c0e3d3a3c88b2fa3b63ae7d9b7a3c8afbbb8c6eeadf0"
+      "bytes": 2650,
+      "sha256": "918faa5278a8a2c0ef11d3917c81592e6890ae96c004a88bb2870d76873ea4e0"
     },
     {
       "path": "bronnen/H3/manuscript/2.3 Hoofdstukoverzicht.md",
-      "bytes": 58711,
-      "sha256": "ea45c39bd1924bf3db5da9cfa4961fafd0ee521675da5aa5c103b8919fde66b6"
+      "bytes": 58718,
+      "sha256": "c1f35244be7e03f75bf1dbb69ffbbcfc7656f89676ed32f87cb3d8c474a97036"
     },
     {
       "path": "bronnen/H3/manuscript/2.3.1 Consumentensurplus – paragraaf.md",
-      "bytes": 77592,
-      "sha256": "a1176bcbb5875656d7d554258267cdf39561c1e1fa5597ea4cb36c680b47c90b"
+      "bytes": 77605,
+      "sha256": "79abbe55782b3bd3a2ac38f14213654cef38a0111c93a27ab4d95d4394f2ad35"
     },
     {
       "path": "bronnen/H3/manuscript/2.3.2 Producentensurplus en totaal surplus – paragraaf.md",
       "bytes": 95950,
-      "sha256": "624ea79522d04855da3521ce5b890a5083f218c02ef8e69df1b4002d420125e2"
+      "sha256": "77d485b2078bba0b3faffcb6d0e78d4ce8e55f4ab59de63d470c9214aff92745"
     },
     {
       "path": "bronnen/H3/manuscript/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.md",
       "bytes": 116518,
-      "sha256": "3aa64389bed298f244a0e9d94eb8508dcfcca898a0869e17325407e36b6bab39"
+      "sha256": "73f8bdb4f9ef2b7e7e997a7eef54657d9a2944bb8b65505fefbb5bf33e1bf69d"
     },
     {
       "path": "bronnen/H3/manuscript/2.3.4 Gemengde opgaven – opgaven.md",
@@ -1410,6 +1410,11 @@
       "path": "bronnen/H3/validate.py",
       "bytes": 14166,
       "sha256": "fa6cd427d32cf2cb36fc3ce4d6a72452936ae73303e37ba381f1b4dbd5d771b8"
+    },
+    {
+      "path": "print-pagination.json",
+      "bytes": 80,
+      "sha256": "ef8062c81b6b1ba9562b0cfc21f09e3c7df6237b7893c8f35a08e0dfdb0ea4ce"
     },
     {
       "path": "signed-cover-panel.html",
@@ -1425,6 +1430,11 @@
       "path": "signed-navigation.json",
       "bytes": 1700,
       "sha256": "61a01754dbc8de1d8adfa562cd09cdb697fb3152c1a93b0913e8c746bb5086cd"
+    },
+    {
+      "path": "signed-page-map.json",
+      "bytes": 12060,
+      "sha256": "67c638123e594e0d09f68305bc77593254a197cb59d303f153aa91ccf87d2b32"
     }
   ],
   "chapters": {
@@ -1435,13 +1445,13 @@
     },
     "hoofdstukken/Boek_2_H2_Elasticiteit.pdf": {
       "path": "hoofdstukken/Boek_2_H2_Elasticiteit.pdf",
-      "bytes": 218816,
-      "sha256": "a54cb9241943131f69c9919a7b03154b5cb98455ee4420d225face01c80e292a"
+      "bytes": 218930,
+      "sha256": "b2899881ca28331e679c2b71b5f32e7c73d750c44a38c3e92d1a57aafb879ee7"
     },
     "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf": {
       "path": "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf",
-      "bytes": 265277,
-      "sha256": "25e35d857742654907eb67c19cd286ab94e501894239122059a21567ff1ff82f"
+      "bytes": 265437,
+      "sha256": "e52515f2f48a2e8bda2b740a9d11c1cda6e14623ba714abcd0f0ab89f77d99f5"
     },
     "hoofdstukken/Boek_2_H1_Antwoorden.pdf": {
       "path": "hoofdstukken/Boek_2_H1_Antwoorden.pdf",
@@ -1450,13 +1460,13 @@
     },
     "hoofdstukken/Boek_2_H2_Antwoorden.pdf": {
       "path": "hoofdstukken/Boek_2_H2_Antwoorden.pdf",
-      "bytes": 77261,
-      "sha256": "13f46279e5abefd6fdf10e5d257a45029eb9dcc48efc6cee447b1f7293c5126f"
+      "bytes": 77292,
+      "sha256": "550ee1cc2a7562a3ca41a141139636632c8666bf51003dd11e5cfa3f1043d08b"
     },
     "hoofdstukken/Boek_2_H3_Antwoorden.pdf": {
       "path": "hoofdstukken/Boek_2_H3_Antwoorden.pdf",
-      "bytes": 175557,
-      "sha256": "2dca9b05fdf703279067aad38263769ecb86601154aebc2116f64f427f8cb43f"
+      "bytes": 175580,
+      "sha256": "52c60cd5848717739d0dd6fb1c0c1500798fb9b19e3f0760e56f65bf15f5289d"
     },
     "hoofdstukken/Boek_2_H1_Docenteninformatie.pdf": {
       "path": "hoofdstukken/Boek_2_H1_Docenteninformatie.pdf",
@@ -1465,13 +1475,13 @@
     },
     "hoofdstukken/Boek_2_H2_Docenteninformatie.pdf": {
       "path": "hoofdstukken/Boek_2_H2_Docenteninformatie.pdf",
-      "bytes": 46138,
-      "sha256": "938abc9c9f3835b79f5f89575515fa504c3f6d1bcca114ddf1950c6a0d915664"
+      "bytes": 46170,
+      "sha256": "2484214e929e6084b33e97afed108a246cf17d8e1916a9ed02dba23c6e1db098"
     },
     "hoofdstukken/Boek_2_H3_Docenteninformatie.pdf": {
       "path": "hoofdstukken/Boek_2_H3_Docenteninformatie.pdf",
-      "bytes": 48092,
-      "sha256": "3934a1d65aa376ec1e43d7fefb07b87972c708edf25f665f4466346b7ac1d3a4"
+      "bytes": 48135,
+      "sha256": "0c92bb7f0e51a0f8c8464199e7d18626883ef349ed3dc8018109ce416d1737c0"
     }
   }
 }

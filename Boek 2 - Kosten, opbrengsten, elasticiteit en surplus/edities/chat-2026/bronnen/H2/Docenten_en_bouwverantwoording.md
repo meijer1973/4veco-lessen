@@ -7,12 +7,12 @@ Dit hoofdstuk is opnieuw geschreven voor **4 vwo**. De bestaande hoofdstuktekst,
 
 | Onderdeel | Leerlingpagina’s | Kern |
 |---|---:|---|
-| Opening | 1 | Plaats in boek 2; lees- en werkroute. |
-| 2.2.1 Prijselasticiteit | 2–9 | Procenten → Ev → indeling → betekenis en verklaring. |
-| 2.2.2 Elasticiteit en omzet | 10–17 | TO vóór/na; relatieve prijsreactie; grenzen aan advies. |
-| 2.2.3 Inkomen en andere goederen | 18–29 | Ei, Ek en één-factor-scenario’s in een vraagfunctie. |
-| 2.2.4 Gemengde opgaven | 30–35 | Bronselectie, rekenen, vergelijken en onderbouwd adviseren. |
-| Hoofdstukoverzicht | 36 | Eén terugzoekblad met verhoudingen en controles. |
+| Opening | 35 | Plaats in boek 2; lees- en werkroute. |
+| 2.2.1 Prijselasticiteit | 36–43 | Procenten → Ev → indeling → betekenis en verklaring. |
+| 2.2.2 Elasticiteit en omzet | 44–51 | TO vóór/na; relatieve prijsreactie; grenzen aan advies. |
+| 2.2.3 Inkomen en andere goederen | 52–63 | Ei, Ek en één-factor-scenario’s in een vraagfunctie. |
+| 2.2.4 Gemengde opgaven | 64–69 | Bronselectie, rekenen, vergelijken en onderbouwd adviseren. |
+| Hoofdstukoverzicht | 70 | Eén terugzoekblad met verhoudingen en controles. |
 
 **Omvang.** De leerlingeditie telt 36 pagina’s, inclusief de opening, theorie, drie volledige uitgewerkte voorbeelden, alle oefeningen en het overzicht. Het afzonderlijke antwoordenboek telt 18 pagina’s. De 38 genummerde opgaven zijn verdeeld als 10 + 10 + 11 + 7. Er zijn 13 oorspronkelijke instructieve figuren, naast de tabellen.
 
@@ -24,9 +24,9 @@ Leerlingen werken in een schrift. Zij nemen een tabel over wanneer dat wordt gev
 
 ### Afdrukken en uitdelen
 
-Druk de leerlingeditie af op A4 op ware grootte, dubbelzijdig met omslaan aan de lange zijde. De bronnen van StreamPlus staan op pagina 32; de vragen staan ernaast op pagina 33. Plaats vóór het hoofdstuk geen oneven aantal extra pagina’s als deze spreiding behouden moet blijven. De drie theorie-doeloefeningen zijn telkens op één pagina geplaatst.
+Druk de leerlingeditie af op A4 op ware grootte, dubbelzijdig met omslaan aan de lange zijde. De bronnen van StreamPlus staan op pagina 66; de vragen staan ernaast op pagina 67. Plaats vóór het hoofdstuk geen oneven aantal extra pagina’s als deze spreiding behouden moet blijven. De drie theorie-doeloefeningen zijn telkens op één pagina geplaatst.
 
-De antwoorden beginnen per paragraaf opnieuw bij opgave 1, net als de leerlingeditie. De afzonderlijke paragraafexports behouden de oorspronkelijke paginanummers zodat verwijzingen blijven werken.
+De antwoorden beginnen per paragraaf opnieuw bij opgave 1, net als de leerlingeditie. De afzonderlijke paragraafexports behouden de doorlopende boekpaginanummers zodat verwijzingen blijven werken.
 
 <!-- PAGEBREAK -->
 
@@ -60,7 +60,7 @@ Deze paragraaf heeft geen afzonderlijke begeleide sectie. Werk met 1–4 naar do
 # Van leerdoel naar doeloefening
 ## 2.2.1 Prijselasticiteit
 
-De doeloefening is opgave 7. Hieronder verwijzen de voorbeeldstappen naar pagina 5. De voorbereiding vraagt dezelfde bewerkingen, met andere contexten en overzichtelijkere getallen.
+De doeloefening is opgave 7. Hieronder verwijzen de voorbeeldstappen naar pagina 39. De voorbereiding vraagt dezelfde bewerkingen, met andere contexten en overzichtelijkere getallen.
 
 | Doelbewerking | Doelvraag | Voorgedaan | Start / hulp / zelfstandig |
 |---|---|---|---|
@@ -73,13 +73,13 @@ De onafhankelijke oefening bevat ook een **prijsdaling**. Daardoor kan een leerl
 
 ## 2.2.2 Elasticiteit en omzet
 
-De doeloefening is opgave 7. Het uitgewerkte voorbeeld op pagina 12–13 behandelt zowel een inelastische als een elastische reactie.
+De doeloefening is opgave 7. Het uitgewerkte voorbeeld op pagina 46–47 behandelt zowel een inelastische als een elastische reactie.
 
 | Doelbewerking | Doelvraag | Voorgedaan | Start / hulp / zelfstandig |
 |---|---|---|---|
 | Oude en nieuwe TO berekenen uit de bijbehorende P en Q. | 7a, 7c | Stappen 1 en 4. | 1; 3a, 4a; 5a, 6a. |
 | Procentuele omzetverandering berekenen en met Ev verbinden. | 7b, 7d | Stappen 2–4. | 1b; 3b–c, 4a–b; 5a–b. |
-| De kleine-veranderingregel onderscheiden van een eindige vergelijking. | 7e | Stap 5; theorie p. 11. | 2a; 4b; 5c en 6a. |
+| De kleine-veranderingregel onderscheiden van een eindige vergelijking. | 7e | Stap 5; theorie p. 45. | 2a; 4b; 5c en 6a. |
 | Uitleggen waarom omzetgegevens geen winstconclusie dragen. | 7f | Stap 6. | 2b; 3d, 4c; 6b. |
 
 De voorbereiding houdt **prijsrichting, relatieve reactie en omzetrichting** uit elkaar. Opgave 6 gebruikt een prijsdaling. Bonus 8 laat gelijke omzet zien ondanks een meting van Ev = −0,8. Herhaling 10 toont een stijgende omzet én dalende winst met expliciete kostengegevens.
@@ -91,7 +91,7 @@ De voorbereiding houdt **prijsrichting, relatieve reactie en omzetrichting** uit
 # Samenhang en voorkennis
 ## 2.2.3 Inkomen, andere prijzen en functies
 
-De doeloefening is opgave 8. Het uitgewerkte voorbeeld op pagina 23–24 bevat alle vijf doelbewerkingen; het is niet beperkt tot alleen de eenvoudigste Ei-berekening.
+De doeloefening is opgave 8. Het uitgewerkte voorbeeld op pagina 57–58 bevat alle vijf doelbewerkingen; het is niet beperkt tot alleen de eenvoudigste Ei-berekening.
 
 | Doelbewerking | Doelvraag | Voorgedaan | Start / hulp / zelfstandig |
 |---|---|---|---|
@@ -99,7 +99,7 @@ De doeloefening is opgave 8. Het uitgewerkte voorbeeld op pagina 23–24 bevat a
 | Ek berekenen, beide goederen noemen en relatie indelen. | 8c | Stap 2, positief én negatief. | 2a; 3c, 5a–b; 6b. |
 | Functie invullen bij de beginsituatie. | 8d | Stap 3. | 1b; 4a; 7a. |
 | Alleen Y veranderen; Q, %ΔQ en Ei berekenen; prijzen gelijk houden. | 8d | Stap 4. | 1a, 2b; 4b; 7b. |
-| Y terugzetten; alleen Pz veranderen; richting en vaste variabelen noemen. | 8e | Stap 5; terugzetdiagram p. 22. | 2b; 4c; 7c. |
+| Y terugzetten; alleen Pz veranderen; richting en vaste variabelen noemen. | 8e | Stap 5; terugzetdiagram p. 56. | 2b; 4c; 7c. |
 
 Opgave 5 confronteert twee tegengestelde kruisverbanden. De gegevens komen uit afzonderlijke onderzoeken. De leerling bepaalt de richtingen, maar telt de gemeten procenten niet zomaar op tot een bewezen gecombineerd effect. Bonus 9 gaat over twee consumentengroepen, niet over langere berekeningen.
 
@@ -129,7 +129,7 @@ Bij Ev blijft het teken in de uitkomst staan. Leerlingen vergelijken rechtstreek
 
 ### 2 · Omzetregel zonder onjuist algemeen voorschrift
 
-De kleine-veranderingregel wordt gekoppeld aan de vraag rond de onderzochte situatie. Voor twee gegeven oude en nieuwe waarden staat de **rechtstreekse TO-berekening** voorop. Het tegenvoorbeeld op pagina 11 gebruikt P: 10 → 12 en Q: 100 → 82. Ev = −0,9, maar TO daalt van 1.000 naar 984. Dit is een oorspronkelijk rekenvoorbeeld dat de begrenzing uit de doelopgave zichtbaar maakt. Er worden geen afgeleiden of optimalisatieregels toegevoegd.
+De kleine-veranderingregel wordt gekoppeld aan de vraag rond de onderzochte situatie. Voor twee gegeven oude en nieuwe waarden staat de **rechtstreekse TO-berekening** voorop. Het tegenvoorbeeld op pagina 45 gebruikt P: 10 → 12 en Q: 100 → 82. Ev = −0,9, maar TO daalt van 1.000 naar 984. Dit is een oorspronkelijk rekenvoorbeeld dat de begrenzing uit de doelopgave zichtbaar maakt. Er worden geen afgeleiden of optimalisatieregels toegevoegd.
 
 Bij gelijke tegengestelde eindige procenten blijft TO niet automatisch gelijk. De hoofdstukcheck laat bijvoorbeeld 1,10 × 0,90 = 0,99 zien. ‘Unitair’ bij de oude-waardemethode mag dus niet worden vertaald als een exact gelijkblijvende omzet over elke eindige stap.
 

@@ -9,11 +9,11 @@ Een ondernemer verhoogt de prijs. Elk verkocht product levert nu meer op, maar s
 In hoofdstuk 2.1 rekende je met kosten, opbrengsten en winst. Nu onderzoek je wat er met de vraag gebeurt als de prijs, het inkomen of de prijs van een ander product verandert.
 
 <div class="contents">
-<a href="#s221"><b>2.2.1 · Prijselasticiteit <span style="float:right">2</span></b><span>Van procentuele veranderingen naar een maat voor prijsgevoeligheid.</span></a>
-<a href="#s222"><b>2.2.2 · Elasticiteit en omzet <span style="float:right">10</span></b><span>Begrijpen én narekenen wat een prijsverandering met de omzet doet.</span></a>
-<a href="#s223"><b>2.2.3 · Inkomen en de prijs van andere goederen <span style="float:right">18</span></b><span>Ei, Ek en vraagfuncties met meerdere variabelen.</span></a>
-<a href="#s224"><b>2.2.4 · Gemengde opgaven <span style="float:right">30</span></b><span>Gegevens kiezen, berekenen, vergelijken en een advies onderbouwen.</span></a>
-<a href="#overzicht"><b>Hoofdstukoverzicht <span style="float:right">36</span></b><span>De formules en beslisregels bij elkaar.</span></a>
+<a href="#s221"><b>2.2.1 · Prijselasticiteit <span style="float:right">36</span></b><span>Van procentuele veranderingen naar een maat voor prijsgevoeligheid.</span></a>
+<a href="#s222"><b>2.2.2 · Elasticiteit en omzet <span style="float:right">44</span></b><span>Begrijpen én narekenen wat een prijsverandering met de omzet doet.</span></a>
+<a href="#s223"><b>2.2.3 · Inkomen en de prijs van andere goederen <span style="float:right">52</span></b><span>Ei, Ek en vraagfuncties met meerdere variabelen.</span></a>
+<a href="#s224"><b>2.2.4 · Gemengde opgaven <span style="float:right">64</span></b><span>Gegevens kiezen, berekenen, vergelijken en een advies onderbouwen.</span></a>
+<a href="#overzicht"><b>Hoofdstukoverzicht <span style="float:right">70</span></b><span>De formules en beslisregels bij elkaar.</span></a>
 </div>
 
 <div class="box goals"><b>Na dit hoofdstuk kun je</b><br>
