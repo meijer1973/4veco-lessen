@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.2756pt" height="112.01624pt" viewBox="54 432 491.2756 112.01624" role="img">
+<title>Figuur 1. Eerst de toename bepalen, daarna delen door het aantal extra producten.</title>
+<defs><clipPath id="clip-0"><rect x="54" y="432.245" width="491.27557" height="110.68499"/></clipPath></defs>
+<path d="M 54 432.245 H 545.2756 V 542.93 H 54 Z" fill="#f5f8f9" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 54.6 432.845 H 544.6756 V 542.33 H 54.6 Z M 54 432.245 H 545.2756 V 542.93 H 54 Z" fill="#dbe4e8" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="66.60001" y="442.84503" width="133.35885" height="59.18201"/></clipPath></defs>
+<path d="M 66.6 442.845 H 199.9589 V 502.027 H 66.6 Z" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="232.95836" y="442.84503" width="133.35887" height="59.18201"/></clipPath></defs>
+<path d="M 232.9584 442.845 H 366.3172 V 502.027 H 232.9584 Z" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-3)"/>
+<defs><clipPath id="clip-4"><rect x="399.31671" y="442.84503" width="133.35889" height="59.18201"/></clipPath></defs>
+<path d="M 399.3167 442.845 H 532.6756 V 502.027 H 399.3167 Z" fill="#eef4f2" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-4)"/>
+<defs><clipPath id="clip-5"><rect x="66.60001" y="510.02701" width="466.07559" height="0.49997"/></clipPath></defs>
+<path d="M 66.6 510.527 H 532.6756 V 532.33 H 66.6 Z M 66.6 510.027 H 532.6756 V 532.33 H 66.6 Z" fill="#cfdee4" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-5)"/>
+<text x="120.78944" y="461.30685" font-family="Lato" font-size="10.99951" font-weight="700" fill="#18364b">Eerst</text>
+<text x="117.10133" y="478.29993" font-family="Lato" font-size="10.59961" font-weight="400" fill="#18364b">Q = 40</text>
+<text x="107.19825" y="492.18594" font-family="Lato" font-size="10.59961" font-weight="400" fill="#18364b">TK = € 260</text>
+<text x="207.95886" y="479.01462" font-family="Lato" font-size="16.99951" font-weight="400" fill="#506979">→</text>
+<text x="281.99704" y="461.30685" font-family="Lato" font-size="10.99951" font-weight="700" fill="#18364b">Daarna</text>
+<text x="283.45969" y="478.29993" font-family="Lato" font-size="10.59961" font-weight="400" fill="#18364b">Q = 50</text>
+<text x="273.55661" y="492.18594" font-family="Lato" font-size="10.59961" font-weight="400" fill="#18364b">TK = € 300</text>
+<text x="374.31723" y="479.01462" font-family="Lato" font-size="16.99951" font-weight="400" fill="#506979">→</text>
+<text x="434.81552" y="461.30685" font-family="Lato" font-size="10.99951" font-weight="700" fill="#18364b">Nieuw − oud</text>
+<text x="446.22482" y="478.29993" font-family="Lato" font-size="10.59961" font-weight="400" fill="#18364b">ΔQ = 10</text>
+<text x="439.39572" y="492.18594" font-family="Lato" font-size="10.59961" font-weight="400" fill="#18364b">ΔTK = € 40</text>
+<text x="142.23886" y="529.30139" font-family="Lato" font-size="11.2998" font-weight="400" fill="#18364b">€ 40 extra kosten ÷ 10 extra producten = </text>
+<text x="348.52548" y="529.30139" font-family="Lato" font-size="11.2998" font-weight="700" fill="#18364b">€ 4 per extra product</text>
+<text x="454.37" y="529.30139" font-family="Lato" font-size="11.2998" font-weight="400" fill="#18364b">.</text>
+</svg>

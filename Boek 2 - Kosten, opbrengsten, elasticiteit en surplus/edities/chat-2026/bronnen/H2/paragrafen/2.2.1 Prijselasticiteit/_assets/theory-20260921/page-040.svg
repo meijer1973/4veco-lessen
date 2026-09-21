@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.2756pt" height="82.51974pt" viewBox="54 369 491.2756 82.51974" role="img">
+<title>Figuur 3. Bij een negatieve Ev betekent verder naar links: een sterkere procentuele reactie van Qv op P.</title>
+<defs><clipPath id="clip-0"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 73.8583 382 H 372.231 V 405 H 73.8583 Z" fill="#ecf4f2" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 372.231 382 H 521.4173 V 405 H 372.231 Z" fill="#e8f3f7" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 73.8583 405 L 521.4173 405" fill="none" fill-rule="nonzero" stroke="#557184" stroke-width="0.6499999761581421" fill-opacity="1" stroke-opacity="1.0" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 73.8583 409 L 73.8583 403" fill="none" fill-rule="nonzero" stroke="#557184" stroke-width="0.6499999761581421" fill-opacity="1" stroke-opacity="1.0" clip-path="url(#clip-3)"/>
+<defs><clipPath id="clip-4"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 223.0446 409 L 223.0446 403" fill="none" fill-rule="nonzero" stroke="#557184" stroke-width="0.6499999761581421" fill-opacity="1" stroke-opacity="1.0" clip-path="url(#clip-4)"/>
+<defs><clipPath id="clip-5"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 372.231 409 L 372.231 403" fill="none" fill-rule="nonzero" stroke="#557184" stroke-width="0.6499999761581421" fill-opacity="1" stroke-opacity="1.0" clip-path="url(#clip-5)"/>
+<defs><clipPath id="clip-6"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 521.4173 409 L 521.4173 403" fill="none" fill-rule="nonzero" stroke="#557184" stroke-width="0.6499999761581421" fill-opacity="1" stroke-opacity="1.0" clip-path="url(#clip-6)"/>
+<defs><clipPath id="clip-7"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 372.231 381 L 372.231 407" fill="none" fill-rule="nonzero" stroke="#b76518" stroke-width="1.100000023841858" fill-opacity="1" stroke-opacity="1.0" clip-path="url(#clip-7)"/>
+<defs><clipPath id="clip-8"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 225.6446 405 C 225.6446 403.5641 224.4806 402.4 223.0446 402.4 C 221.6087 402.4 220.4446 403.5641 220.4446 405 C 220.4446 406.436 221.6087 407.6 223.0446 407.6 C 224.4806 407.6 225.6446 406.436 225.6446 405" fill="#008779" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-8)"/>
+<defs><clipPath id="clip-9"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 449.4241 405 C 449.4241 403.5641 448.2601 402.4 446.8241 402.4 C 445.3882 402.4 444.2241 403.5641 444.2241 405 C 444.2241 406.436 445.3882 407.6 446.8241 407.6 C 448.2601 407.6 449.4241 406.436 449.4241 405" fill="#007da2" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-9)"/>
+<text x="127.8583" y="395.26477" font-family="Lato" font-size="10.4" font-weight="700" fill="#008779">prijselastisch</text>
+<text x="398.23099" y="395.26477" font-family="Lato" font-size="10.4" font-weight="700" fill="#007da2">prijsinelastisch</text>
+<text x="69.85827" y="423.47516" font-family="Lato" font-size="9.6" font-weight="400" fill="#557184">−3</text>
+<text x="219.0446" y="423.47516" font-family="Lato" font-size="9.6" font-weight="400" fill="#557184">−2</text>
+<text x="368.23099" y="423.47516" font-family="Lato" font-size="9.6" font-weight="400" fill="#557184">−1</text>
+<text x="517.4173" y="423.47516" font-family="Lato" font-size="9.6" font-weight="400" fill="#557184">0</text>
+<text x="343.23099" y="377.42587" font-family="Lato" font-size="9.55" font-weight="700" fill="#b76518">grens: Ev = −1</text>
+<text x="182.0446" y="440.42587" font-family="Lato" font-size="9.55" font-weight="700" fill="#183e51">SpringVrij: Ev = −2</text>
+<text x="403.8241" y="440.42587" font-family="Lato" font-size="9.55" font-weight="700" fill="#183e51">RolVast: Ev = −0,5</text>
+<text x="514.4173" y="437.42587" font-family="Lato" font-size="9.55" font-weight="400" fill="#557184">Ev</text>
+</svg>

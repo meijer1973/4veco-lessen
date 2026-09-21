@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.41733pt" height="89.58661pt" viewBox="53.85827 273.07162 491.41733 89.58661" role="img">
+<title>Figuur 2. De lokale omzetrichting hangt af van de prijswijziging én de prijsgevoeligheid rond de huidige situatie.</title>
+<defs><clipPath id="clip-0"><rect x="53.85827" y="273.07162" width="241.27952" height="86.29401"/></clipPath></defs>
+<path d="M 53.8583 273.0716 H 295.1378 V 359.3656 H 53.8583 Z" fill="#eaf4f8" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="300.13779" y="273.07162" width="241.27957" height="86.29401"/></clipPath></defs>
+<path d="M 300.1378 273.0716 H 541.4174 V 359.3656 H 300.1378 Z" fill="#faf2e8" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="53.85827" y="273.07162" width="2" height="86.29401"/></clipPath></defs>
+<path d="M 55.8583 273.0716 H 295.1378 V 359.3656 H 55.8583 Z M 53.8583 273.0716 H 295.1378 V 359.3656 H 53.8583 Z" fill="#007da2" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="300.13779" y="273.07162" width="2.00003" height="86.29401"/></clipPath></defs>
+<path d="M 302.1378 273.0716 H 541.4174 V 359.3656 H 302.1378 Z M 300.1378 273.0716 H 541.4174 V 359.3656 H 300.1378 Z" fill="#b76518" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-3)"/>
+<text x="64.85827" y="291.13828" font-family="Lato" font-size="11.09985" font-weight="700" fill="#183e51">Bij een kleine prijsstijging</text>
+<text x="64.85827" y="309.242" font-family="Lato" font-size="10.19971" font-weight="700" fill="#183e51">Inelastische vraag:</text>
+<text x="148.07971" y="309.242" font-family="Lato" font-size="10.19971" font-weight="400" fill="#183e51"> de relatieve</text>
+<text x="64.85827" y="322.604" font-family="Lato" font-size="10.19971" font-weight="400" fill="#183e51">hoeveelheidsreactie is zwak.</text>
+<text x="64.85827" y="343.9599" font-family="Lato" font-size="13.19971" font-weight="700" fill="#007da2">P ↑, Q daalt weinig → TO ↑</text>
+<text x="311.13782" y="291.13828" font-family="Lato" font-size="11.09985" font-weight="700" fill="#183e51">Bij een kleine prijsstijging</text>
+<text x="311.13782" y="309.242" font-family="Lato" font-size="10.19971" font-weight="700" fill="#183e51">Elastische vraag:</text>
+<text x="386.05652" y="309.242" font-family="Lato" font-size="10.19971" font-weight="400" fill="#183e51"> de relatieve</text>
+<text x="311.13782" y="322.604" font-family="Lato" font-size="10.19971" font-weight="400" fill="#183e51">hoeveelheidsreactie is sterk.</text>
+<text x="311.13782" y="343.9599" font-family="Lato" font-size="13.19971" font-weight="700" fill="#b76518">P ↑, Q daalt veel → TO ↓</text>
+</svg>

@@ -12,15 +12,15 @@
     ],
     "theory": true,
     "assets": [
-      "2.3.1_ans_4.svg",
-      "2.3.1_ans_6.svg",
-      "2.3.1_ans_8.svg",
-      "2.3.1_ex_1.svg",
-      "2.3.1_ex_2.svg",
-      "2.3.1_fig_1.svg",
-      "2.3.1_fig_2.svg",
-      "2.3.1_fig_3.svg",
-      "2.3.1_we_1.svg"
+      "_assets/2.3.1_ans_4.svg",
+      "_assets/2.3.1_ans_6.svg",
+      "_assets/2.3.1_ans_8.svg",
+      "_assets/2.3.1_ex_1.svg",
+      "_assets/2.3.1_ex_2.svg",
+      "_assets/theory-20260921/page-074.svg",
+      "_assets/theory-20260921/page-075.svg",
+      "_assets/theory-20260921/page-076.svg",
+      "_assets/theory-20260921/page-077.svg"
     ],
     "folder": "paragrafen/2.3.1 Consumentensurplus"
   },
@@ -37,17 +37,17 @@
     ],
     "theory": true,
     "assets": [
-      "2.3.2_ans_4.svg",
-      "2.3.2_ans_6.svg",
-      "2.3.2_ans_8.svg",
-      "2.3.2_ex_1.svg",
-      "2.3.2_ex_2.svg",
-      "2.3.2_ex_3.svg",
-      "2.3.2_ex_4.svg",
-      "2.3.2_fig_1.svg",
-      "2.3.2_fig_2.svg",
-      "2.3.2_fig_3.svg",
-      "2.3.2_we_1.svg"
+      "_assets/2.3.2_ans_4.svg",
+      "_assets/2.3.2_ans_6.svg",
+      "_assets/2.3.2_ans_8.svg",
+      "_assets/2.3.2_ex_1.svg",
+      "_assets/2.3.2_ex_2.svg",
+      "_assets/2.3.2_ex_3.svg",
+      "_assets/2.3.2_ex_4.svg",
+      "_assets/theory-20260921/page-082.svg",
+      "_assets/theory-20260921/page-083.svg",
+      "_assets/theory-20260921/page-084.svg",
+      "_assets/theory-20260921/page-085.svg"
     ],
     "folder": "paragrafen/2.3.2 Producentensurplus en totaal surplus"
   },
@@ -64,19 +64,19 @@
     ],
     "theory": true,
     "assets": [
-      "2.3.3_ans_4.svg",
-      "2.3.3_ans_5.svg",
-      "2.3.3_ans_6.svg",
-      "2.3.3_ex_1.svg",
-      "2.3.3_ex_2.svg",
-      "2.3.3_ex_3.svg",
-      "2.3.3_ex_4.svg",
-      "2.3.3_fig_1.svg",
-      "2.3.3_fig_2.svg",
-      "2.3.3_fig_3.svg",
-      "2.3.3_fig_4.svg",
-      "2.3.3_we_1.svg",
-      "2.3.3_we_2.svg"
+      "_assets/2.3.3_ans_4.svg",
+      "_assets/2.3.3_ans_5.svg",
+      "_assets/2.3.3_ans_6.svg",
+      "_assets/2.3.3_ex_1.svg",
+      "_assets/2.3.3_ex_2.svg",
+      "_assets/2.3.3_ex_3.svg",
+      "_assets/2.3.3_ex_4.svg",
+      "_assets/theory-20260921/page-092.svg",
+      "_assets/theory-20260921/page-093.svg",
+      "_assets/theory-20260921/page-094.svg",
+      "_assets/theory-20260921/page-095.svg",
+      "_assets/theory-20260921/page-096.svg",
+      "_assets/theory-20260921/page-097.svg"
     ],
     "folder": "paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies"
   },
@@ -93,10 +93,10 @@
     ],
     "theory": false,
     "assets": [
-      "2.3.4_ans_2.svg",
-      "2.3.4_ans_3.svg",
-      "2.3.4_ex_1.svg",
-      "2.3.4_ex_2.svg"
+      "_assets/2.3.4_ans_2.svg",
+      "_assets/2.3.4_ans_3.svg",
+      "_assets/2.3.4_ex_1.svg",
+      "_assets/2.3.4_ex_2.svg"
     ],
     "folder": "paragrafen/2.3.4 Gemengde opgaven"
   }

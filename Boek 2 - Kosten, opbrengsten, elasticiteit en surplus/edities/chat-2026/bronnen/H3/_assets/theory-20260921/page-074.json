@@ -1,0 +1,259 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 74,
+  "caption": "Figuur 1. De betalingsbereidheid bestaat hier uit € 20 die de koper betaalt en € 10 consumentensurplus.",
+  "viewBox": [
+    54.0,
+    434.09549,
+    545.2756,
+    519.84033
+  ],
+  "shapes": [
+    {
+      "path": "M 86.9426 439.3193 H 370.1913 V 469.7918 H 86.9426 Z",
+      "fill": "#e7eef2",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        86.94264,
+        439.31934,
+        370.19128,
+        469.79181
+      ],
+      "clip": [
+        53.85827,
+        407.10562,
+        541.41736,
+        518.54767
+      ]
+    },
+    {
+      "path": "M 370.1913 439.3193 H 511.8156 V 469.7918 H 370.1913 Z",
+      "fill": "#d9ecf4",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        370.19128,
+        439.31934,
+        511.81558,
+        469.79181
+      ],
+      "clip": [
+        53.85827,
+        407.10562,
+        541.41736,
+        518.54767
+      ]
+    },
+    {
+      "path": "M 86.9426 434.0955 L 86.9426 473.2744",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        86.94264,
+        434.09549,
+        86.94264,
+        473.27435
+      ],
+      "clip": [
+        53.85827,
+        407.10562,
+        541.41736,
+        518.54767
+      ]
+    },
+    {
+      "path": "M 370.1884 434.0955 L 370.1884 473.2744",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        370.18835,
+        434.09549,
+        370.18835,
+        473.27435
+      ],
+      "clip": [
+        53.85827,
+        407.10562,
+        541.41736,
+        518.54767
+      ]
+    },
+    {
+      "path": "M 511.8156 434.0955 L 511.8156 473.2744",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        511.81558,
+        434.09549,
+        511.81558,
+        473.27435
+      ],
+      "clip": [
+        53.85827,
+        407.10562,
+        541.41736,
+        518.54767
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "betaald: € 20",
+          "origin": [
+            195.81369018554688,
+            458.47344970703125
+          ],
+          "font": "Lato-Bold",
+          "size": 11.318336486816406,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "CS: € 10",
+          "origin": [
+            420.1037292480469,
+            458.47344970703125
+          ],
+          "font": "Lato-Bold",
+          "size": 11.318336486816406,
+          "color": "#007da2",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "€ 0",
+          "origin": [
+            80.1620101928711,
+            488.07525634765625
+          ],
+          "font": "Lato",
+          "size": 9.577054023742676,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "€ 20",
+          "origin": [
+            360.63043212890625,
+            488.07525634765625
+          ],
+          "font": "Lato",
+          "size": 9.577054023742676,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "€ 30",
+          "origin": [
+            502.2576599121094,
+            488.07525634765625
+          ],
+          "font": "Lato",
+          "size": 9.577054023742676,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "betalingsbereidheid −prijs",
+          "origin": [
+            238.16171264648438,
+            515.0651245117188
+          ],
+          "font": "Lato-Bold",
+          "size": 10.4476957321167,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    }
+  ],
+  "model": {
+    "model": "Willingness30=price20+CS10",
+    "geometry_contract": [
+      {
+        "kind": "numeric_geometry",
+        "description": "Segment boundary euro0",
+        "shape_index": 2
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "Segment boundary euro20",
+        "shape_index": 3
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "Segment boundary euro30",
+        "shape_index": 4
+      }
+    ]
+  }
+}

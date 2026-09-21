@@ -1,5 +1,7 @@
 # Boek 2 · Hoofdstuk 2.2 · Elasticiteit
 
+**Actuele theorie- en elasticiteitsrevisie (21 september):** bouw via platform `build-scripts/books/rebuild_book2_signed.py --all`. Zie [bronnen, bewijs en beperkingen](../../SIGNED-REVISION-2026-09-21.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
+
 **Actuele bouwroute:** [platformcontroller](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/books/EXERCISE-ROUTES.md); [revisie en timing](../../ROUTE-REVISION-2026-09-21.md). De hieronder beschreven lokale scripts zijn ontvangen bouwonderdelen. Gebruik voor nieuwe uitvoer de platformcontroller.
 
 

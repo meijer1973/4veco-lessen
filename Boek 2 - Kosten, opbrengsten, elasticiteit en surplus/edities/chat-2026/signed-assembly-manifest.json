@@ -1,0 +1,26 @@
+{
+  "revision": "book2-theory-signed-20260921",
+  "chapter_inputs_sha256": "6cd839ec0ddce59bc4e62212990d097cc5940573e8f37e2a99e6c640a4bca0ca",
+  "files": [
+    {
+      "path": "boek/Boek_2_Compleet.pdf",
+      "bytes": 4411090,
+      "sha256": "a2c8cf236645b343c03a52841e8ef26bbb9d1b0baa363e2355de9450405c0c32"
+    },
+    {
+      "path": "boek/Boek_2_Compleet_Antwoorden.pdf",
+      "bytes": 4149371,
+      "sha256": "684de9a8a984a21a28ffb6ffb4bcb4b9325cc9f426b89d1c0a3903c1e2ffe9dc"
+    },
+    {
+      "path": "boek/Boek_2_Compleet_Docenteninformatie.pdf",
+      "bytes": 3315769,
+      "sha256": "b0d9fa94e7bd4ef01482f53532d6eea20a9e681211ff2fc18e24cfe639c36fdf"
+    },
+    {
+      "path": "_assets/economics_textbook_cover_costs_and_surplus.png",
+      "bytes": 2573751,
+      "sha256": "4474df4c039cfa4fe01366a84b49c5be0ffcd7c3ddba930a78e2d328c79738e2"
+    }
+  ]
+}

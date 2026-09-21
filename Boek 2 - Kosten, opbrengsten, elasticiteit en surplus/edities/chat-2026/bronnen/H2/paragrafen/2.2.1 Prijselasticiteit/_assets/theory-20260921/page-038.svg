@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.2756pt" height="152.1228pt" viewBox="54 443 491.2756 152.1228" role="img">
+<title>Figuur 1. P stijgt bij beide met 10%. Qv daalt bij SpringVrij procentueel sterker: 20% in plaats van 5%.</title>
+<defs><clipPath id="clip-0"><rect x="53.85827" y="432.76163" width="487.55909" height="161.06863"/></clipPath></defs>
+<path d="M 236.6929 444.08 L 236.6929 559.0046" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="53.85827" y="432.76163" width="487.55909" height="161.06863"/></clipPath></defs>
+<path d="M 297.6378 444.08 L 297.6378 559.0046" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="53.85827" y="432.76163" width="487.55909" height="161.06863"/></clipPath></defs>
+<path d="M 358.5827 444.08 L 358.5827 559.0046" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="53.85827" y="432.76163" width="487.55909" height="161.06863"/></clipPath></defs>
+<path d="M 419.5276 444.08 L 419.5276 559.0046" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-3)"/>
+<defs><clipPath id="clip-4"><rect x="53.85827" y="432.76163" width="487.55909" height="161.06863"/></clipPath></defs>
+<path d="M 480.4725 444.08 L 480.4725 559.0046" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-4)"/>
+<defs><clipPath id="clip-5"><rect x="53.85827" y="432.76163" width="487.55909" height="161.06863"/></clipPath></defs>
+<path d="M 358.5827 459.7515 H 419.5276 V 472.8111 H 358.5827 Z" fill="#007da2" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-5)"/>
+<defs><clipPath id="clip-6"><rect x="53.85827" y="432.76163" width="487.55909" height="161.06863"/></clipPath></defs>
+<path d="M 328.1103 479.7762 H 358.5827 V 492.8359 H 328.1103 Z" fill="#008779" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-6)"/>
+<defs><clipPath id="clip-7"><rect x="53.85827" y="432.76163" width="487.55909" height="161.06863"/></clipPath></defs>
+<path d="M 358.5827 515.4725 H 419.5276 V 528.5322 H 358.5827 Z" fill="#007da2" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-7)"/>
+<defs><clipPath id="clip-8"><rect x="53.85827" y="432.76163" width="487.55909" height="161.06863"/></clipPath></defs>
+<path d="M 236.6929 535.4973 H 358.5827 V 548.5569 H 236.6929 Z" fill="#008779" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-8)"/>
+<text x="225.52127" y="575.54681" font-family="Lato" font-size="9.57705" font-weight="400" fill="#557184">-20%</text>
+<text x="286.46616" y="575.54681" font-family="Lato" font-size="9.57705" font-weight="400" fill="#557184">-10%</text>
+<text x="351.96747" y="575.54681" font-family="Lato" font-size="9.57705" font-weight="400" fill="#557184">0%</text>
+<text x="407.35776" y="575.54681" font-family="Lato" font-size="9.57705" font-weight="400" fill="#557184">+10%</text>
+<text x="468.30264" y="575.54681" font-family="Lato" font-size="9.57705" font-weight="400" fill="#557184">+20%</text>
+<text x="58.21148" y="471.06985" font-family="Lato" font-size="10.4477" font-weight="700" fill="#183e51">RolVast</text>
+<text x="180.44475" y="469.32855" font-family="Lato" font-size="9.57705" font-weight="400" fill="#557184">P</text>
+<text x="424.75146" y="469.32855" font-family="Lato" font-size="10.4477" font-weight="700" fill="#007da2">+10%</text>
+<text x="173.5876" y="489.3533" font-family="Lato" font-size="9.57705" font-weight="400" fill="#557184">Qv</text>
+<text x="302.20532" y="489.3533" font-family="Lato" font-size="10.4477" font-weight="700" fill="#008779">−5%</text>
+<text x="58.21148" y="526.79089" font-family="Lato" font-size="10.4477" font-weight="700" fill="#183e51">SpringVrij</text>
+<text x="180.44475" y="525.04962" font-family="Lato" font-size="9.57705" font-weight="400" fill="#557184">P</text>
+<text x="424.75146" y="525.04962" font-family="Lato" font-size="10.4477" font-weight="700" fill="#007da2">+10%</text>
+<text x="173.5876" y="545.07434" font-family="Lato" font-size="9.57705" font-weight="400" fill="#557184">Qv</text>
+<text x="204.72833" y="545.07434" font-family="Lato" font-size="10.4477" font-weight="700" fill="#008779">−20%</text>
+</svg>

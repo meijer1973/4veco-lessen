@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.41733pt" height="95.63327pt" viewBox="53.85827 274 491.41733 95.63327" role="img">
+<title>Figuur 4. Beide nieuwe partijen hebben voordeel. De bestaande transacties blijven gelijk en anderen ondervinden geen nadeel.</title>
+<defs><clipPath id="clip-0"><rect x="53.85827" y="282.87363" width="241.27952" height="83.46701"/></clipPath></defs>
+<path d="M 53.8583 282.8736 H 295.1378 V 366.3406 H 53.8583 Z" fill="#eaf4f8" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="300.13779" y="282.87363" width="241.27957" height="83.46701"/></clipPath></defs>
+<path d="M 300.1378 282.8736 H 541.4174 V 366.3406 H 300.1378 Z" fill="#edf5f2" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="53.85827" y="282.87363" width="2" height="83.46701"/></clipPath></defs>
+<path d="M 55.8583 282.8736 H 295.1378 V 366.3406 H 55.8583 Z M 53.8583 282.8736 H 295.1378 V 366.3406 H 53.8583 Z" fill="#007da2" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="300.13779" y="282.87363" width="2.00003" height="83.46701"/></clipPath></defs>
+<path d="M 302.1378 282.8736 H 541.4174 V 366.3406 H 302.1378 Z M 300.1378 282.8736 H 541.4174 V 366.3406 H 300.1378 Z" fill="#008779" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-3)"/>
+<text x="65.85827" y="302.94028" font-family="Lato" font-size="11.09985" font-weight="700" fill="#183e51">Nieuwe koper</text>
+<text x="65.85827" y="322.9025" font-family="Lato" font-size="12.09961" font-weight="700" fill="#007da2">27 − 22 = € 5</text>
+<text x="65.85827" y="341.55099" font-family="Lato" font-size="10.19971" font-weight="700" fill="#183e51">Voordeel:</text>
+<text x="109.35899" y="341.55099" font-family="Lato" font-size="10.19971" font-weight="400" fill="#183e51"> betaalt minder dan zijn</text>
+<text x="65.85827" y="354.70901" font-family="Lato" font-size="10.19971" font-weight="400" fill="#183e51">betalingsbereidheid.</text>
+<text x="312.13779" y="302.94028" font-family="Lato" font-size="11.09985" font-weight="700" fill="#183e51">Nieuwe verkoper</text>
+<text x="312.13779" y="322.9025" font-family="Lato" font-size="12.09961" font-weight="700" fill="#008779">22 − 16,50 = € 5,50</text>
+<text x="312.13779" y="341.55099" font-family="Lato" font-size="10.19971" font-weight="700" fill="#183e51">Voordeel:</text>
+<text x="355.63852" y="341.55099" font-family="Lato" font-size="10.19971" font-weight="400" fill="#183e51"> ontvangt meer dan de marginale</text>
+<text x="312.13779" y="354.70901" font-family="Lato" font-size="10.19971" font-weight="400" fill="#183e51">kosten.</text>
+</svg>

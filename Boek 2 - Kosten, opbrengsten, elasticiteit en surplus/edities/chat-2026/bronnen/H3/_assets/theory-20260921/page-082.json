@@ -1,0 +1,346 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 82,
+  "caption": "Figuur 1. De prijs verdeelt het voordeel tussen koper en verkoper. Samen is het voordeel € 50 − € 20 = € 30.",
+  "viewBox": [
+    54.0,
+    427.04248,
+    545.2756,
+    512.78729
+  ],
+  "shapes": [
+    {
+      "path": "M 86.9426 432.2663 H 256.8918 V 462.7388 H 86.9426 Z",
+      "fill": "#e7eef2",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        86.94264,
+        432.26633,
+        256.89182,
+        462.73877
+      ],
+      "clip": [
+        53.85827,
+        400.05261,
+        541.41736,
+        511.49469
+      ]
+    },
+    {
+      "path": "M 256.8918 432.2663 H 384.3537 V 462.7388 H 256.8918 Z",
+      "fill": "#dcefe8",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        256.89182,
+        432.26633,
+        384.3537,
+        462.73877
+      ],
+      "clip": [
+        53.85827,
+        400.05261,
+        541.41736,
+        511.49469
+      ]
+    },
+    {
+      "path": "M 384.3537 432.2663 H 511.8156 V 462.7388 H 384.3537 Z",
+      "fill": "#d9ecf4",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        384.35373,
+        432.26633,
+        511.81558,
+        462.73877
+      ],
+      "clip": [
+        53.85827,
+        400.05261,
+        541.41736,
+        511.49469
+      ]
+    },
+    {
+      "path": "M 86.9426 427.0425 L 86.9426 466.2213",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        86.94264,
+        427.04248,
+        86.94264,
+        466.22134
+      ],
+      "clip": [
+        53.85827,
+        400.05261,
+        541.41736,
+        511.49469
+      ]
+    },
+    {
+      "path": "M 256.8918 427.0425 L 256.8918 466.2213",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        256.89182,
+        427.04248,
+        256.89182,
+        466.22134
+      ],
+      "clip": [
+        53.85827,
+        400.05261,
+        541.41736,
+        511.49469
+      ]
+    },
+    {
+      "path": "M 384.3537 427.0425 L 384.3537 466.2213",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        384.35373,
+        427.04248,
+        384.35373,
+        466.22134
+      ],
+      "clip": [
+        53.85827,
+        400.05261,
+        541.41736,
+        511.49469
+      ]
+    },
+    {
+      "path": "M 511.8156 427.0425 L 511.8156 466.2213",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        511.81558,
+        427.04248,
+        511.81558,
+        466.22134
+      ],
+      "clip": [
+        53.85827,
+        400.05261,
+        541.41736,
+        511.49469
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "MK: € 20",
+          "origin": [
+            148.63523864746094,
+            451.4204406738281
+          ],
+          "font": "Lato-Bold",
+          "size": 11.318336486816406,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "PS: € 15",
+          "origin": [
+            299.96075439453125,
+            451.4204406738281
+          ],
+          "font": "Lato-Bold",
+          "size": 11.318336486816406,
+          "color": "#008779",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "CS: € 15",
+          "origin": [
+            427.1820373535156,
+            451.4204406738281
+          ],
+          "font": "Lato-Bold",
+          "size": 11.318336486816406,
+          "color": "#007da2",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "€ 0",
+          "origin": [
+            80.1620101928711,
+            481.0222473144531
+          ],
+          "font": "Lato",
+          "size": 9.577054023742676,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "€ 20",
+          "origin": [
+            247.33389282226562,
+            481.0222473144531
+          ],
+          "font": "Lato",
+          "size": 9.577054023742676,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "€ 35",
+          "origin": [
+            374.7958068847656,
+            481.0222473144531
+          ],
+          "font": "Lato",
+          "size": 9.577054023742676,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "€ 50",
+          "origin": [
+            502.2576599121094,
+            481.0222473144531
+          ],
+          "font": "Lato",
+          "size": 9.577054023742676,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "prijs verdeelt het voordeel; CS + PS = € 30",
+          "origin": [
+            201.596923828125,
+            508.01214599609375
+          ],
+          "font": "Lato-Bold",
+          "size": 10.4476957321167,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    }
+  ],
+  "model": {
+    "model": "Willingness50=MK20+PS15+CS15; price35 distributes gain, PS not profit.",
+    "geometry_contract": [
+      {
+        "kind": "numeric_geometry",
+        "description": "Segment boundary euro0",
+        "shape_index": 3
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "Segment boundary euro20",
+        "shape_index": 4
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "Segment boundary euro35",
+        "shape_index": 5
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "Segment boundary euro50",
+        "shape_index": 6
+      }
+    ]
+  }
+}

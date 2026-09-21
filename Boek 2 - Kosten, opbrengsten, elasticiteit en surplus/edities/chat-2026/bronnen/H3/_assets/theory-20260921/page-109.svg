@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.41733pt" height="88.07025pt" viewBox="53.85827 87 491.41733 88.07025" role="img">
+<title>Figuur 3. Begin met de werkelijke transacties, niet met een oppervlakteformule.</title>
+<defs><clipPath id="clip-0"><rect x="53.85827" y="87.36362" width="487.55909" height="82.414"/></clipPath></defs>
+<path d="M 53.8583 87.3636 H 541.4174 V 169.7776 H 53.8583 Z" fill="#f3f7f9" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="68.45827" y="101.96362" width="90.58976" height="53.21401"/></clipPath></defs>
+<path d="M 68.4583 101.9636 H 159.048 V 155.1776 H 68.4583 Z" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="191.04803" y="101.96362" width="90.58976" height="53.21401"/></clipPath></defs>
+<path d="M 191.048 101.9636 H 281.6378 V 155.1776 H 191.048 Z" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="313.63779" y="101.96362" width="90.58978" height="53.21401"/></clipPath></defs>
+<path d="M 313.6378 101.9636 H 404.2276 V 155.1776 H 313.6378 Z" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-3)"/>
+<defs><clipPath id="clip-4"><rect x="436.22754" y="101.96362" width="90.58978" height="53.21401"/></clipPath></defs>
+<path d="M 436.2275 101.9636 H 526.8173 V 155.1776 H 436.2275 Z" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-4)"/>
+<defs><clipPath id="clip-5"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 54.4583 87.9636 H 540.8173 V 169.1776 H 54.4583 Z M 53.8583 87.3636 H 541.4174 V 169.7776 H 53.8583 Z" fill="#dce6eb" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-5)"/>
+<text x="80.27415" y="124.43625" font-family="Lato" font-size="9.64966" font-weight="700" fill="#183e51">1 · Hoeveelheid</text>
+<text x="75.29917" y="140.17424" font-family="Lato" font-size="9.64966" font-weight="400" fill="#183e51">Wie handelt echt?</text>
+<text x="166.54828" y="135.14923" font-family="Lato" font-size="16.99951" font-weight="400" fill="#557184">→</text>
+<text x="209.24915" y="118.06725" font-family="Lato" font-size="9.64966" font-weight="700" fill="#183e51">2 · Gebieden</text>
+<text x="209.21033" y="133.80524" font-family="Lato" font-size="9.64966" font-weight="400" fill="#183e51">Waar ligt het</text>
+<text x="215.69299" y="146.54324" font-family="Lato" font-size="9.64966" font-weight="400" fill="#183e51">voordeel?</text>
+<text x="289.13806" y="135.14923" font-family="Lato" font-size="16.99951" font-weight="400" fill="#557184">→</text>
+<text x="329.39044" y="124.43625" font-family="Lato" font-size="9.64966" font-weight="700" fill="#183e51">3 · Berekenen</text>
+<text x="319.18121" y="140.17424" font-family="Lato" font-size="9.64966" font-weight="400" fill="#183e51">Welke delen tel je?</text>
+<text x="398.70413" y="140.17424" font-family="Lato" font-size="16.99951" font-weight="400" fill="#557184"> </text>
+<text x="411.72778" y="135.14923" font-family="Lato" font-size="16.99951" font-weight="400" fill="#557184">→</text>
+<text x="454.37631" y="124.43625" font-family="Lato" font-size="9.64966" font-weight="700" fill="#183e51">4 · Uitleggen</text>
+<text x="444.87314" y="140.17424" font-family="Lato" font-size="9.64966" font-weight="400" fill="#183e51">Wat volgt er wel?</text>
+</svg>

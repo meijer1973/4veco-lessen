@@ -1,0 +1,306 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 12,
+  "caption": "Figuur 1. Opbrengst is nog geen winst: trek eerst alle kosten af.",
+  "viewBox": [
+    54.0,
+    550.0,
+    545.2756,
+    617.52667
+  ],
+  "shapes": [
+    {
+      "path": "M 54 553.049 H 199.7585 V 616.299 H 54 Z",
+      "fill": "#edf4f8",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        54.0,
+        553.04901,
+        199.75854,
+        616.29901
+      ],
+      "clip": [
+        54.0,
+        553.04901,
+        199.75854,
+        616.29901
+      ]
+    },
+    {
+      "path": "M 226.7585 553.049 H 372.517 V 616.299 H 226.7585 Z",
+      "fill": "#faf2e9",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        226.75851,
+        553.04901,
+        372.51703,
+        616.29901
+      ],
+      "clip": [
+        226.75851,
+        553.04901,
+        372.51703,
+        616.29901
+      ]
+    },
+    {
+      "path": "M 399.517 553.049 H 545.2756 V 616.299 H 399.517 Z",
+      "fill": "#edf5f3",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        399.51703,
+        553.04901,
+        545.27557,
+        616.29901
+      ],
+      "clip": [
+        399.51703,
+        553.04901,
+        545.27557,
+        616.29901
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "TO",
+          "origin": [
+            117.88365173339844,
+            575.2046508789062
+          ],
+          "font": "Lato-Bold",
+          "size": 12.999755859375,
+          "color": "#176d92",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Het hele",
+          "origin": [
+            108.19480895996094,
+            592.4191284179688
+          ],
+          "font": "Lato",
+          "size": 9.999755859375,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "verkoopbedrag",
+          "origin": [
+            93.93419647216797,
+            604.9191284179688
+          ],
+          "font": "Lato",
+          "size": 9.999755859375,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "−",
+          "origin": [
+            207.74850463867188,
+            592.027099609375
+          ],
+          "font": "Lato-Bold",
+          "size": 18.999755859375,
+          "color": "#18364b",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "TK",
+          "origin": [
+            291.2823181152344,
+            575.2046508789062
+          ],
+          "font": "Lato-Bold",
+          "size": 12.999755859375,
+          "color": "#ad5e1f",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Alle constante én",
+          "origin": [
+            261.6888122558594,
+            592.4191284179688
+          ],
+          "font": "Lato",
+          "size": 9.999755859375,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "variabele kosten",
+          "origin": [
+            263.9750671386719,
+            604.9191284179688
+          ],
+          "font": "Lato",
+          "size": 9.999755859375,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "=",
+          "origin": [
+            380.5070495605469,
+            592.027099609375
+          ],
+          "font": "Lato-Bold",
+          "size": 18.999755859375,
+          "color": "#18364b",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Winst",
+          "origin": [
+            455.00604248046875,
+            575.2046508789062
+          ],
+          "font": "Lato-Bold",
+          "size": 12.999755859375,
+          "color": "#187e74",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Wat na alle",
+          "origin": [
+            447.93634033203125,
+            592.4191284179688
+          ],
+          "font": "Lato",
+          "size": 9.999755859375,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "kosten overblijft",
+          "origin": [
+            436.97161865234375,
+            604.9191284179688
+          ],
+          "font": "Lato",
+          "size": 9.999755859375,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    }
+  ],
+  "model": {
+    "geometry_contract": [
+      {
+        "kind": "live_text_model",
+        "description": "Profit definition diagram",
+        "required": [
+          "TO",
+          "TK",
+          "Winst",
+          "Alle constante én",
+          "variabele kosten"
+        ],
+        "model": "Winst=TO-TK, including constant and variable costs"
+      }
+    ]
+  }
+}

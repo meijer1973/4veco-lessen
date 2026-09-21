@@ -65,7 +65,7 @@ De doeloefening is opgave 7. Hieronder verwijzen de voorbeeldstappen naar pagina
 | Doelbewerking | Doelvraag | Voorgedaan | Start / hulp / zelfstandig |
 |---|---|---|---|
 | Beide procentveranderingen berekenen; oude waarde als noemer. | 7a | Stappen 1–2. | 1; 3a–c, 4a–b; 5a, 6a. |
-| Ev mét teken berekenen en met absolute waarde indelen. | 7a–c | Stappen 2–3. | 2; 3c–d, 4; 5a–b, 6a–b. |
+| Ev mét teken berekenen en rechtstreeks met −1 en 0 indelen. | 7a–c | Stappen 2–3. | 2; 3c–d, 4; 5a–b, 6a–b. |
 | De relatieve gevoeligheid vergelijken en in woorden uitleggen. | 7b–c | Stappen 2–3. | 2b; 3d, 4c; 5b, 6a. |
 | Een plausibele prijsgevoeligheidsverklaring geven zonder oorzaak te claimen. | 7d | Stap 4. | 3e; 5c. Geen nieuwe verklaringsbewerking in de doelvraag. |
 
@@ -125,7 +125,7 @@ Voor een concrete klas kan een docent een bewerking als ‘nog niet veilig genoe
 
 ### 1 · Teken, grootte en eenheid blijven afzonderlijk
 
-Bij Ev blijft het teken in de uitkomst staan. Alleen de prijsgevoeligheidsindeling gebruikt de absolute waarde. Bij Ei en Ek bepaalt juist het teken mede de betekenis. Alle elasticiteiten zijn dimensieloos; P, Q, inkomen en TO hebben hun eigen eenheden. De teller is steeds een procentuele hoeveelheidsverandering, niet een omzetverandering.
+Bij Ev blijft het teken in de uitkomst staan. Leerlingen vergelijken rechtstreeks met −1 en 0; een afzonderlijke absolute-waardestap is niet verplicht. Bij Ei en Ek heeft het teken een eigen betekenis. Alle elasticiteiten zijn dimensieloos; P, Q, inkomen en TO hebben hun eigen eenheden. De teller is steeds een procentuele hoeveelheidsverandering, niet een omzetverandering.
 
 ### 2 · Omzetregel zonder onjuist algemeen voorschrift
 

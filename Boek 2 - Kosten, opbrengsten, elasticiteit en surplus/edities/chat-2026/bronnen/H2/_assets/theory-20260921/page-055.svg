@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.2756pt" height="158.49225pt" viewBox="54 431 491.2756 158.49225" role="img">
+<title>Figuur 2. Bij +10% inkomen geven Ei = −0,5, +0,5 en +2 respectievelijk −5%, +5% en +20% vraagverandering.</title>
+<defs><clipPath id="clip-0"><rect x="53.85827" y="440.19061" width="487.55909" height="148.00904"/></clipPath></defs>
+<path d="M 259.3296 450.6383 L 259.3296 560.3391" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="53.85827" y="440.19061" width="487.55909" height="148.00904"/></clipPath></defs>
+<path d="M 303.7323 450.6383 L 303.7323 560.3391" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="53.85827" y="440.19061" width="487.55909" height="148.00904"/></clipPath></defs>
+<path d="M 348.135 450.6383 L 348.135 560.3391" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="53.85827" y="440.19061" width="487.55909" height="148.00904"/></clipPath></defs>
+<path d="M 392.5378 450.6383 L 392.5378 560.3391" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-3)"/>
+<defs><clipPath id="clip-4"><rect x="53.85827" y="440.19061" width="487.55909" height="148.00904"/></clipPath></defs>
+<path d="M 436.9404 450.6383 L 436.9404 560.3391" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-4)"/>
+<defs><clipPath id="clip-5"><rect x="53.85827" y="440.19061" width="487.55909" height="148.00904"/></clipPath></defs>
+<path d="M 481.3431 450.6383 L 481.3431 560.3391" fill="#000000" fill-rule="nonzero" stroke="#dfe7ec" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-5)"/>
+<defs><clipPath id="clip-6"><rect x="53.85827" y="440.19061" width="487.55909" height="148.00904"/></clipPath></defs>
+<path d="M 259.3296 461.086 H 303.7323 V 477.6282 H 259.3296 Z" fill="#b76518" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-6)"/>
+<defs><clipPath id="clip-7"><rect x="53.85827" y="440.19061" width="487.55909" height="148.00904"/></clipPath></defs>
+<path d="M 303.7323 495.041 H 348.135 V 511.5832 H 303.7323 Z" fill="#007da2" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-7)"/>
+<defs><clipPath id="clip-8"><rect x="53.85827" y="440.19061" width="487.55909" height="148.00904"/></clipPath></defs>
+<path d="M 303.7323 528.996 H 481.3431 V 545.5382 H 303.7323 Z" fill="#008779" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-8)"/>
+<text x="251.08829" y="577.75195" font-family="Lato" font-size="9.40276" font-weight="400" fill="#557184">-5%</text>
+<text x="297.23737" y="577.75195" font-family="Lato" font-size="9.40276" font-weight="400" fill="#557184">0%</text>
+<text x="338.91339" y="577.75195" font-family="Lato" font-size="9.40276" font-weight="400" fill="#557184">+5%</text>
+<text x="380.58939" y="577.75195" font-family="Lato" font-size="9.40276" font-weight="400" fill="#557184">+10%</text>
+<text x="424.99207" y="577.75195" font-family="Lato" font-size="9.40276" font-weight="400" fill="#557184">+15%</text>
+<text x="469.39478" y="577.75195" font-family="Lato" font-size="9.40276" font-weight="400" fill="#557184">+20%</text>
+<text x="57.34084" y="473.27499" font-family="Lato" font-size="10.4477" font-weight="700" fill="#183e51">Inferieur · Ei = −0,5</text>
+<text x="233.42464" y="473.27499" font-family="Lato" font-size="10.4477" font-weight="700" fill="#b76518">−5%</text>
+<text x="57.34084" y="507.22998" font-family="Lato" font-size="10.4477" font-weight="700" fill="#183e51">Normaal · Ei = +0,5</text>
+<text x="353.35889" y="507.22998" font-family="Lato" font-size="10.4477" font-weight="700" fill="#007da2">+5%</text>
+<text x="57.34084" y="541.185" font-family="Lato" font-size="10.4477" font-weight="700" fill="#183e51">Luxe · Ei = +2</text>
+<text x="486.56699" y="541.185" font-family="Lato" font-size="10.4477" font-weight="700" fill="#008779">+20%</text>
+</svg>

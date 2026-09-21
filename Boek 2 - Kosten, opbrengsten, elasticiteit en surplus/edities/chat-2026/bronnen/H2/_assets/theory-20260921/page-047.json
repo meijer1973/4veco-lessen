@@ -1,0 +1,293 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 47,
+  "caption": "Figuur 2. De lokale omzetrichting hangt af van de prijswijziging én de prijsgevoeligheid rond de huidige situatie.",
+  "viewBox": [
+    53.85827,
+    273.07162,
+    545.2756,
+    362.65823
+  ],
+  "shapes": [
+    {
+      "path": "M 53.8583 273.0716 H 295.1378 V 359.3656 H 53.8583 Z",
+      "fill": "#eaf4f8",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        53.85827,
+        273.07162,
+        295.13779,
+        359.36563
+      ],
+      "clip": [
+        53.85827,
+        273.07162,
+        295.13779,
+        359.36563
+      ]
+    },
+    {
+      "path": "M 300.1378 273.0716 H 541.4174 V 359.3656 H 300.1378 Z",
+      "fill": "#faf2e8",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        300.13779,
+        273.07162,
+        541.41736,
+        359.36563
+      ],
+      "clip": [
+        300.13779,
+        273.07162,
+        541.41736,
+        359.36563
+      ]
+    },
+    {
+      "path": "M 55.8583 273.0716 H 295.1378 V 359.3656 H 55.8583 Z M 53.8583 273.0716 H 295.1378 V 359.3656 H 53.8583 Z",
+      "fill": "#007da2",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        53.85827,
+        273.07162,
+        55.85827,
+        359.36563
+      ],
+      "clip": [
+        53.85827,
+        273.07162,
+        55.85827,
+        359.36563
+      ]
+    },
+    {
+      "path": "M 302.1378 273.0716 H 541.4174 V 359.3656 H 302.1378 Z M 300.1378 273.0716 H 541.4174 V 359.3656 H 300.1378 Z",
+      "fill": "#b76518",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        300.13779,
+        273.07162,
+        302.13782,
+        359.36563
+      ],
+      "clip": [
+        300.13779,
+        273.07162,
+        302.13782,
+        359.36563
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Bij een kleine prijsstijging",
+          "origin": [
+            64.85826873779297,
+            291.1382751464844
+          ],
+          "font": "Lato-Bold",
+          "size": 11.099853515625,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Inelastische vraag:",
+          "origin": [
+            64.85826873779297,
+            309.24200439453125
+          ],
+          "font": "Lato-Bold",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 700
+        },
+        {
+          "text": " de relatieve",
+          "origin": [
+            148.0797119140625,
+            309.24200439453125
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "hoeveelheidsreactie is zwak.",
+          "origin": [
+            64.85826873779297,
+            322.60400390625
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "P ↑, Q daalt weinig → TO ↑",
+          "origin": [
+            64.85826873779297,
+            343.95989990234375
+          ],
+          "font": "Lato-Bold",
+          "size": 13.19970703125,
+          "color": "#007da2",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Bij een kleine prijsstijging",
+          "origin": [
+            311.1378173828125,
+            291.1382751464844
+          ],
+          "font": "Lato-Bold",
+          "size": 11.099853515625,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Elastische vraag:",
+          "origin": [
+            311.1378173828125,
+            309.24200439453125
+          ],
+          "font": "Lato-Bold",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 700
+        },
+        {
+          "text": " de relatieve",
+          "origin": [
+            386.0565185546875,
+            309.24200439453125
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "hoeveelheidsreactie is sterk.",
+          "origin": [
+            311.1378173828125,
+            322.60400390625
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "P ↑, Q daalt veel → TO ↓",
+          "origin": [
+            311.1378173828125,
+            343.95989990234375
+          ],
+          "font": "Lato-Bold",
+          "size": 13.19970703125,
+          "color": "#b76518",
+          "weight": 700
+        }
+      ]
+    }
+  ],
+  "model": {
+    "geometry_contract": [
+      {
+        "kind": "live_text_model",
+        "description": "Local turnover flow preserves scope",
+        "required": [
+          "Bij een kleine prijsstijging",
+          "Inelastische vraag",
+          "Elastische vraag",
+          "TO ↑",
+          "TO ↓"
+        ],
+        "model": "For a small price increase, weak proportional quantity fall raises local TO; strong fall lowers it. Finite comparison still uses multiplication on same-page native text."
+      }
+    ]
+  }
+}

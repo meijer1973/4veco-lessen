@@ -1,0 +1,461 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 55,
+  "caption": "Figuur 2. Bij +10% inkomen geven Ei = −0,5, +0,5 en +2 respectievelijk −5%, +5% en +20% vraagverandering.",
+  "viewBox": [
+    54.0,
+    431.0,
+    545.2756,
+    589.49225
+  ],
+  "shapes": [
+    {
+      "path": "M 259.3296 450.6383 L 259.3296 560.3391",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        259.32962,
+        450.63831,
+        259.32962,
+        560.33911
+      ],
+      "clip": [
+        53.85827,
+        440.19061,
+        541.41736,
+        588.19965
+      ]
+    },
+    {
+      "path": "M 303.7323 450.6383 L 303.7323 560.3391",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        303.73233,
+        450.63831,
+        303.73233,
+        560.33911
+      ],
+      "clip": [
+        53.85827,
+        440.19061,
+        541.41736,
+        588.19965
+      ]
+    },
+    {
+      "path": "M 348.135 450.6383 L 348.135 560.3391",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        348.13504,
+        450.63831,
+        348.13504,
+        560.33911
+      ],
+      "clip": [
+        53.85827,
+        440.19061,
+        541.41736,
+        588.19965
+      ]
+    },
+    {
+      "path": "M 392.5378 450.6383 L 392.5378 560.3391",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        392.53775,
+        450.63831,
+        392.53775,
+        560.33911
+      ],
+      "clip": [
+        53.85827,
+        440.19061,
+        541.41736,
+        588.19965
+      ]
+    },
+    {
+      "path": "M 436.9404 450.6383 L 436.9404 560.3391",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        436.94043,
+        450.63831,
+        436.94043,
+        560.33911
+      ],
+      "clip": [
+        53.85827,
+        440.19061,
+        541.41736,
+        588.19965
+      ]
+    },
+    {
+      "path": "M 481.3431 450.6383 L 481.3431 560.3391",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        481.34314,
+        450.63831,
+        481.34314,
+        560.33911
+      ],
+      "clip": [
+        53.85827,
+        440.19061,
+        541.41736,
+        588.19965
+      ]
+    },
+    {
+      "path": "M 259.3296 461.086 H 303.7323 V 477.6282 H 259.3296 Z",
+      "fill": "#b76518",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        259.32962,
+        461.086,
+        303.73233,
+        477.62817
+      ],
+      "clip": [
+        53.85827,
+        440.19061,
+        541.41736,
+        588.19965
+      ]
+    },
+    {
+      "path": "M 303.7323 495.041 H 348.135 V 511.5832 H 303.7323 Z",
+      "fill": "#007da2",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        303.73233,
+        495.04102,
+        348.13504,
+        511.58319
+      ],
+      "clip": [
+        53.85827,
+        440.19061,
+        541.41736,
+        588.19965
+      ]
+    },
+    {
+      "path": "M 303.7323 528.996 H 481.3431 V 545.5382 H 303.7323 Z",
+      "fill": "#008779",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        303.73233,
+        528.99603,
+        481.34314,
+        545.53821
+      ],
+      "clip": [
+        53.85827,
+        440.19061,
+        541.41736,
+        588.19965
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "-5%",
+          "origin": [
+            251.08828735351562,
+            577.751953125
+          ],
+          "font": "Lato",
+          "size": 9.402755737304688,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "0%",
+          "origin": [
+            297.23736572265625,
+            577.751953125
+          ],
+          "font": "Lato",
+          "size": 9.402755737304688,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "+5%",
+          "origin": [
+            338.91339111328125,
+            577.751953125
+          ],
+          "font": "Lato",
+          "size": 9.402755737304688,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "+10%",
+          "origin": [
+            380.5893859863281,
+            577.751953125
+          ],
+          "font": "Lato",
+          "size": 9.402755737304688,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "+15%",
+          "origin": [
+            424.9920654296875,
+            577.751953125
+          ],
+          "font": "Lato",
+          "size": 9.402755737304688,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "+20%",
+          "origin": [
+            469.394775390625,
+            577.751953125
+          ],
+          "font": "Lato",
+          "size": 9.402755737304688,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Inferieur · Ei = −0,5",
+          "origin": [
+            57.34083557128906,
+            473.2749938964844
+          ],
+          "font": "Lato-Bold",
+          "size": 10.4476957321167,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "−5%",
+          "origin": [
+            233.4246368408203,
+            473.2749938964844
+          ],
+          "font": "Lato-Bold",
+          "size": 10.4476957321167,
+          "color": "#b76518",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Normaal · Ei = +0,5",
+          "origin": [
+            57.34083557128906,
+            507.22998046875
+          ],
+          "font": "Lato-Bold",
+          "size": 10.4476957321167,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "+5%",
+          "origin": [
+            353.35888671875,
+            507.22998046875
+          ],
+          "font": "Lato-Bold",
+          "size": 10.4476957321167,
+          "color": "#007da2",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Luxe · Ei = +2",
+          "origin": [
+            57.34083557128906,
+            541.1849975585938
+          ],
+          "font": "Lato-Bold",
+          "size": 10.4476957321167,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "+20%",
+          "origin": [
+            486.5669860839844,
+            541.1849975585938
+          ],
+          "font": "Lato-Bold",
+          "size": 10.4476957321167,
+          "color": "#008779",
+          "weight": 700
+        }
+      ]
+    }
+  ],
+  "model": {
+    "model": "Same+10%income gives Q-5/+5/+20 for Ei-0.5/+0.5/+2; existing book labels inferior/normal/luxury and unlabeled0/1 boundaries preserved.",
+    "geometry_contract": [
+      {
+        "kind": "numeric_geometry",
+        "description": "Ei percentage bar -5",
+        "shape_index": 6
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "Ei percentage bar 5",
+        "shape_index": 7
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "Ei percentage bar 20",
+        "shape_index": 8
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.2756pt" height="67.52667pt" viewBox="54 550 491.2756 67.52667" role="img">
+<title>Figuur 1. Opbrengst is nog geen winst: trek eerst alle kosten af.</title>
+<defs><clipPath id="clip-0"><rect x="54" y="553.04901" width="145.75854" height="63.25"/></clipPath></defs>
+<path d="M 54 553.049 H 199.7585 V 616.299 H 54 Z" fill="#edf4f8" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="226.75851" y="553.04901" width="145.75852" height="63.25"/></clipPath></defs>
+<path d="M 226.7585 553.049 H 372.517 V 616.299 H 226.7585 Z" fill="#faf2e9" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="399.51703" y="553.04901" width="145.75854" height="63.25"/></clipPath></defs>
+<path d="M 399.517 553.049 H 545.2756 V 616.299 H 399.517 Z" fill="#edf5f3" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-2)"/>
+<text x="117.88365" y="575.20465" font-family="Lato" font-size="12.99976" font-weight="700" fill="#176d92">TO</text>
+<text x="108.19481" y="592.41913" font-family="Lato" font-size="9.99976" font-weight="400" fill="#18364b">Het hele</text>
+<text x="93.9342" y="604.91913" font-family="Lato" font-size="9.99976" font-weight="400" fill="#18364b">verkoopbedrag</text>
+<text x="207.7485" y="592.0271" font-family="Lato" font-size="18.99976" font-weight="700" fill="#18364b">−</text>
+<text x="291.28232" y="575.20465" font-family="Lato" font-size="12.99976" font-weight="700" fill="#ad5e1f">TK</text>
+<text x="261.68881" y="592.41913" font-family="Lato" font-size="9.99976" font-weight="400" fill="#18364b">Alle constante én</text>
+<text x="263.97507" y="604.91913" font-family="Lato" font-size="9.99976" font-weight="400" fill="#18364b">variabele kosten</text>
+<text x="380.50705" y="592.0271" font-family="Lato" font-size="18.99976" font-weight="700" fill="#18364b">=</text>
+<text x="455.00604" y="575.20465" font-family="Lato" font-size="12.99976" font-weight="700" fill="#187e74">Winst</text>
+<text x="447.93634" y="592.41913" font-family="Lato" font-size="9.99976" font-weight="400" fill="#18364b">Wat na alle</text>
+<text x="436.97162" y="604.91913" font-family="Lato" font-size="9.99976" font-weight="400" fill="#18364b">kosten overblijft</text>
+</svg>

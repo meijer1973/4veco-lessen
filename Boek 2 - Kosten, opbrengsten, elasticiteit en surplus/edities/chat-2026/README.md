@@ -1,10 +1,12 @@
 # Boek 2 — Kosten, opbrengsten, elasticiteit en surplus
 
+**Actuele theorie- en elasticiteitsrevisie (21 september):** bouw via platform `build-scripts/books/rebuild_book2_signed.py --all`. Zie [bronnen, bewijs en beperkingen](SIGNED-REVISION-2026-09-21.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
+
 ## Actuele chatuitgave · 2026
 
 **Oefenroutes gewijzigd, 21 september:** zie [routes, timing en bouwbewijs](ROUTE-REVISION-2026-09-21.md). De actuele hoofdstuktekst is opnieuw opgebouwd; het oorspronkelijke ontvangstmanifest blijft historisch.
 
-Deze uitgave bevat het voltooide Boek 2 dat de eigenaar voor opname in de repository heeft geselecteerd. De teksten, opgaven, antwoorden, figuren en PDF-pagina’s werden bij de import behouden. Dit is geen opnieuw geschreven repositoryversie.
+Deze uitgave bevat het voltooide Boek 2 dat de eigenaar voor opname in de repository heeft geselecteerd. De teksten, opgaven, antwoorden, figuren en PDF-pagina’s werden bij de import behouden. De actuele versie bevat de hieronder beschreven bronrevisie.
 
 **Gerichte correcties, 20 september 2026:** de overzichtslink van hoofdstuk 2.3 en de drie gerapporteerde omslagfouten zijn hersteld in de volledige bundels. Hoofdstukken en paginering zijn behouden. Zie [correcties, bouwroute en controle](CORRECTIES-2026-09-20.md).
 
