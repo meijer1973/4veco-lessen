@@ -1,0 +1,1487 @@
+{
+  "revision": "book2-theory-signed-20260921",
+  "sources": [
+    {
+      "path": "_assets/signed-cover-background.png",
+      "bytes": 2472771,
+      "sha256": "c16f95cace1e0212ffc160fb01343185a3a74ffda0711d0fef900a2ed059ac4e"
+    },
+    {
+      "path": "assembly.json",
+      "bytes": 3146,
+      "sha256": "20bf8b3e5fc8c566b52aef5f948caa8229ff503f3dfa57475f291d7bea030b83"
+    },
+    {
+      "path": "bronnen/H1/2.1 Kosten en opbrengsten – antwoorden.md",
+      "bytes": 40106,
+      "sha256": "380e73aa8c666604171a0fc4d52a39ce5ddde4d79175d339eae0f0051dde9eb2"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_1.png",
+      "bytes": 90577,
+      "sha256": "525ab8788df4731e67c7b973b1ba667630a715f02718b981ec6b2bfcdc2c96bb"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_1.svg",
+      "bytes": 2105,
+      "sha256": "16ce702ad494f3a577e4934611ed6b09f11b535abb0581db16b56a6f9d6cb684"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_2.png",
+      "bytes": 88089,
+      "sha256": "1b8b921629e039d4051a6466d4b39de12b0ceb79e886f053403c168d32a8af61"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_2.svg",
+      "bytes": 11601,
+      "sha256": "d22609f290608eb92df8496df4dc6ab54b448c6d78e00257d5f04e61ac7d864c"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_3.png",
+      "bytes": 92016,
+      "sha256": "89c105bc03e9d2559b9ea1e52561437571b74eed5aff4da5c0c15db82e4bc56d"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.1_fig_3.svg",
+      "bytes": 12113,
+      "sha256": "7bac9a690d1421c4bc864f7cdaf1e1cf8d3b5e63901ccad07089fe20e3df94a3"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_1.png",
+      "bytes": 91128,
+      "sha256": "21426a4cd12e91318487034279bb18b27b9ceb4448f2972551a103cbc4c15647"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_1.svg",
+      "bytes": 10021,
+      "sha256": "e106ddc7b77b92c6d7425ed2b812639bcef2d019223cee7d5ebcd6ef737a39e3"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_2.png",
+      "bytes": 61302,
+      "sha256": "b05880ebbf779f0a6d793f1717868486a3455d9a0751862f5a07fcce20a702a2"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_2.svg",
+      "bytes": 6030,
+      "sha256": "402700add3f6ef425867316889376c2618aa90727cbaecf75076a1d8d58b8601"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_3.png",
+      "bytes": 94223,
+      "sha256": "ed6937cb38a070948a91286eadd7cec2a0a004a49eda594154fb6b0600c5c14c"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_3.svg",
+      "bytes": 10119,
+      "sha256": "8252625ddf26f84ca0e3ac68e572bd6b6877b1baae54735dc465ab023a2d98bb"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_4.png",
+      "bytes": 101459,
+      "sha256": "6de4a937d498ad4b99d9261755c5e36eba5a7f87172fdfe36a6e0974e16f724b"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_4.svg",
+      "bytes": 10850,
+      "sha256": "efae2fc1b09de3a3fc8e403b47faadff37f7ee2a3e1e1ea9a29fa727471088d3"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_5.png",
+      "bytes": 97519,
+      "sha256": "5e6debfff5e0bd0a35b823c8778780ceb6a58e5e71b1ed7ed9cbacc3d5f4eed4"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_ex_5.svg",
+      "bytes": 10152,
+      "sha256": "70c937c42684f17eb1de6c7fc52cb6eb9a1fe1928139d640ad9ee983df03d0e7"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_fig_1.png",
+      "bytes": 52178,
+      "sha256": "2b3d1b37689ef09902fea0ba19192645188158ba0f9ce67e39bfb8baa745d534"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_fig_1.svg",
+      "bytes": 1868,
+      "sha256": "56b12190fe22f42c831415a887cc4a372726f3c59d8b0882e5320de620b49de6"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_fig_2.png",
+      "bytes": 102815,
+      "sha256": "a8d2c64ca67335ec584f0cd81b1c954e6232230aab09eb7a8153a82ac6baf351"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.2_fig_2.svg",
+      "bytes": 10160,
+      "sha256": "522e6d494a75effc3559cc24d7219a660d9da11a93ef9c1fcd0d49eca1130e11"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.3_fig_1.png",
+      "bytes": 59014,
+      "sha256": "be377dce4492d5a7f7d209c7046297b28cbf49d34b8aca63c19867efa191a960"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.3_fig_1.svg",
+      "bytes": 1780,
+      "sha256": "9440b27f97c5020d4d74d6caa70055b0aa2d3e0182986e0474fe37de7ec01889"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.3_fig_2.png",
+      "bytes": 70739,
+      "sha256": "aa42dd8d673ebb2a5e9447a701001d2254e5cb8be07f4eaf90c1a6aff134e87e"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.3_fig_2.svg",
+      "bytes": 6399,
+      "sha256": "58faea842073d4d7104b417ee15075a7506a8bf951b4dc15b17a7968c08bac55"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_1.png",
+      "bytes": 88989,
+      "sha256": "bb5f18e228ebf1eb52470a346b66c048455d28a869dff1fb7409a6048736ed5f"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_1.svg",
+      "bytes": 9034,
+      "sha256": "57f0e4916cd485873dbd39140d53a79128404e6f50b78014fb7550d282a00eff"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_2.png",
+      "bytes": 139202,
+      "sha256": "cf74ffebe5d180ecd86a4562c9d5616dcbca8f79340cbb2c95af57731e19404f"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_2.svg",
+      "bytes": 10493,
+      "sha256": "d69abaab8e4de3477de418ec447fa59de1ebfb71c02aafeb70e302a4ca7732ec"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_3.png",
+      "bytes": 165833,
+      "sha256": "5fbee3b45a0f70f85fe3f60d4183417125aa59372cf81d5d3e5ce68bb75ef2c7"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_3.svg",
+      "bytes": 11308,
+      "sha256": "9c9edcf06307a18062d0d67b2c1257adfd647a43902d115bb79897a2294cbe09"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_4.png",
+      "bytes": 102535,
+      "sha256": "3ec8727e5ac6943510a2ed959eb5f0cbeb9840d3dad508f1755f651e865f3e19"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_ex_4.svg",
+      "bytes": 10301,
+      "sha256": "a228bd8bbfa16c78c88c7af74ab5113e08e90bf2c130e4c37f5974ad1e06aa58"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_fig_1.png",
+      "bytes": 45872,
+      "sha256": "6d1adcb689a5cbc96a75c1c3e1d9cde4c6e8eb369b9802da49b9460b7911609d"
+    },
+    {
+      "path": "bronnen/H1/_assets/2.1.4_fig_1.svg",
+      "bytes": 2098,
+      "sha256": "ad65ce969f6cef631e0dfb66dffeb8ace56f22d9610df230e3492d9934b70bd5"
+    },
+    {
+      "path": "bronnen/H1/_assets/geometry-data.json",
+      "bytes": 205241,
+      "sha256": "0ed8487e882d0dc54eacd491f4cdd3bc9acf1ee90398742bc7e9f150db21f9f2"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-005.json",
+      "bytes": 17120,
+      "sha256": "9bfb1af7b9fad2456970e4c5377043b729bbe56c8ac30777af7ce3dc73c9ff6d"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-005.png",
+      "bytes": 65950,
+      "sha256": "a426fe5831dc9bf6842bf15a92e2e57b86e7276367959195e82df39a6f988cfc"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-005.svg",
+      "bytes": 9272,
+      "sha256": "57f7ba377a24fda96fcba66259c20903a8ba4317fd8c89a29d7fe2abb108ee74"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-006.json",
+      "bytes": 52455,
+      "sha256": "f5342967ef20d6be3144f6523e67cf30eeb34798701a803281978347120bf917"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-006.png",
+      "bytes": 67722,
+      "sha256": "d3474dcc2d35c7eb68db2e9aa421ff10fdb8d87e14477bc9433b1416073e31fb"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-006.svg",
+      "bytes": 42938,
+      "sha256": "45a7ed342ec8ac31ab957b999db032a2085a538fb9ee6cdaff4638dba9a7ab66"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-012.json",
+      "bytes": 5978,
+      "sha256": "ed97fe4093e6ff84a245d0edd8d8ea0617f6c8cc84e4266552ae2d50da8eac2a"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-012.png",
+      "bytes": 28409,
+      "sha256": "5a1ff60e1a2db69ab8b2112efdb0c845b47461b1103f3d86f2056cd2ac788b82"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-012.svg",
+      "bytes": 2469,
+      "sha256": "456aff4bd6458ab5aeb73ab3dd9689eb19e23c133182c6166bda9878d5c82a06"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-014.json",
+      "bytes": 23813,
+      "sha256": "378f64858d65b81fb74201e00a35c45b50b041737e85a73177955eca6d16b69c"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-014.png",
+      "bytes": 83055,
+      "sha256": "7a74d5a8cbb102a25612f02785ce97c6f9f94ee4eafa4f9681d06b7ba14745a2"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-014.svg",
+      "bytes": 13585,
+      "sha256": "4e0839e8b62418fd6a8919ee6ea4d61db9bde2e6ca3d6818c6d2613666ef08be"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-021.json",
+      "bytes": 8372,
+      "sha256": "847a37dfabb775c75a63ed4efe990d9a524d19a54968bdcd64f94e414a14c046"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-021.png",
+      "bytes": 40699,
+      "sha256": "da06e81aa28ece91704d5fcbca48b232f96e0938269cb5b981f2a4571363dc16"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-021.svg",
+      "bytes": 3882,
+      "sha256": "c09f36c98aea0d532f2dce64027b88587351463068be9de41f66bd1e4324d3d7"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-023.json",
+      "bytes": 27676,
+      "sha256": "34bcfcb28211a76fbc37037489583e771d2c9d9c5a0174e05005accee399195d"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-023.png",
+      "bytes": 55537,
+      "sha256": "431c7c241101ba189edcac04e2c4227efdc2f683c96f6894b6ced4737e1c19d6"
+    },
+    {
+      "path": "bronnen/H1/_assets/theory-20260921/page-023.svg",
+      "bytes": 16981,
+      "sha256": "8a01f5002af80541fa3140e6e9bebd76ebb25c4d8928b05cdb6c3d973caa7f39"
+    },
+    {
+      "path": "bronnen/H1/build.py",
+      "bytes": 7183,
+      "sha256": "3bab0adb782e26d8d0f138f918fdb3b5659b3b2fd7190db2103738cf277d5073"
+    },
+    {
+      "path": "bronnen/H1/build_answers.py",
+      "bytes": 4032,
+      "sha256": "9cc159c1e4feba6f4118faf37d3e27383c9b89f9054f585079968321da2398af"
+    },
+    {
+      "path": "bronnen/H1/build_teacher.py",
+      "bytes": 994,
+      "sha256": "6d89954d3874f2002876fc0495532b85e67fbca16dfbc68ed12e2680d2471cdb"
+    },
+    {
+      "path": "bronnen/H1/chapter-order.json",
+      "bytes": 346,
+      "sha256": "e92dc8a6967e88f38e105517c86a64b3bfd375b51a42df76ef2ab3011ea932c2"
+    },
+    {
+      "path": "bronnen/H1/Docenten_en_bouwverantwoording.md",
+      "bytes": 14470,
+      "sha256": "ed69ff51ef4dc9b73d359f5560ced6a190af82f200d79fb87222d0327f082b9e"
+    },
+    {
+      "path": "bronnen/H1/export_paragraphs.py",
+      "bytes": 3402,
+      "sha256": "0a19f17fac47fac837ff8a83b4ec3c6dba46b55046b2dc67fba67005d0629b62"
+    },
+    {
+      "path": "bronnen/H1/make_assets.py",
+      "bytes": 12985,
+      "sha256": "6e6e8238d8e9640e764cc5f3e27274bd9e37bc013eb8141fb9c5a77bbbe7003b"
+    },
+    {
+      "path": "bronnen/H1/manuscript/00 Hoofdstukopening.md",
+      "bytes": 2747,
+      "sha256": "9e642cffb852fb1373f3e1900398b696d543adce7316944abe84a43ebe883673"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1 Hoofdstukoverzicht.md",
+      "bytes": 31470,
+      "sha256": "4baeae030064565a5f64981d516a43120a8cdd024cb950b036bed4ebf78b5593"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1.1 Kostenstructuren – paragraaf.md",
+      "bytes": 70818,
+      "sha256": "7d1c31299783c3172cd89bd146c26e2af090b1e41de67d914835c616502a69d0"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1.2 Opbrengsten, winst en break-even – paragraaf.md",
+      "bytes": 91126,
+      "sha256": "33c07c4327027feca0d09f82227ab30851b70519f42d5bc5f8fcdf0c0318be43"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1.3 Marginale kosten en marginale opbrengsten – paragraaf.md",
+      "bytes": 180590,
+      "sha256": "8cee4de8cc847b58d5c29c3f9bee3df6f4634cd16bed1dc8d45017529ef997d6"
+    },
+    {
+      "path": "bronnen/H1/manuscript/2.1.4 Gemengde opgaven – opgaven.md",
+      "bytes": 10157,
+      "sha256": "124bee60e526b1ef69693637ab02198215ab83367d1ffecbca6d27640b62dbf3"
+    },
+    {
+      "path": "bronnen/H1/rebuild.py",
+      "bytes": 502,
+      "sha256": "018dd620a833928a5a508dd9c57de36a8a8d8c0f0c6bc6cafc5afe2693f7d748"
+    },
+    {
+      "path": "bronnen/H1/validate.py",
+      "bytes": 10277,
+      "sha256": "47a7c57240975f70fecf4a49f0d5046aac28c6c5ed357aaab4e40f557cbbf5b0"
+    },
+    {
+      "path": "bronnen/H2/2.2 Elasticiteit – antwoorden.md",
+      "bytes": 36191,
+      "sha256": "db35c4ad3af0e49d79b6fec45cb5312f28e043cd875840b33d853c1d28fa07f9"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_1.png",
+      "bytes": 51729,
+      "sha256": "124107a81e887c223faff192e467941248b5872505430b43bd374a604c020903"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_1.svg",
+      "bytes": 3440,
+      "sha256": "4803c87ffa0d8c681847403fee5423c7805997769dbadf88d35b2bd7cd4aefa6"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_2.png",
+      "bytes": 50070,
+      "sha256": "7b41a02841bcd14cbcaa0ebb6d2ca03af2c2f144e84aacfcb3c24c60ac3354b8"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_2.svg",
+      "bytes": 2078,
+      "sha256": "d9bda9894405ab5a1d2ac72eb398d11d54f43233ea810c3c794fc49e6a2c7f8d"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_3.png",
+      "bytes": 34480,
+      "sha256": "bf016a226ed3be1b70174557fd19849f5c2ead18449d1e8951ffde7f60f02002"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.1_fig_3.svg",
+      "bytes": 2589,
+      "sha256": "e06935220dc2db4e3cb19d03bd12c9827b3720468beb4f88ed8b063cfa2e3418"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_fig_1.png",
+      "bytes": 69184,
+      "sha256": "d30e78dbc6c26169bd067abf4f712b2829fb8c2a59cc4b439bc0a63bf60172c8"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_fig_1.svg",
+      "bytes": 5464,
+      "sha256": "34947ee375482a7f0ac7d3194eef55b98c3596ca41fd626d5514079b5d771a52"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_fig_2.png",
+      "bytes": 65419,
+      "sha256": "6f24f67dbac340032820c89d232c71ceb2a9e823742c07a1f115060642acda1a"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_fig_2.svg",
+      "bytes": 2358,
+      "sha256": "6dd18e5fbb8e82d76cd80d9a83705c96e019509d2ab957c101fe0b2c64e77170"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_we_1.png",
+      "bytes": 33679,
+      "sha256": "ebcd00c259106aab7db65cf8e6d9ad12ae68fdd3287ef17ec1b9343547d93f38"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.2_we_1.svg",
+      "bytes": 1679,
+      "sha256": "4b6a92ec5af35229969bd74fcc238280d30e079db49d8a97df4bd0595d57ad51"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_1.png",
+      "bytes": 41263,
+      "sha256": "f4bd181095bf63450052efe09990464f0dd7eef195dee56d8f490051212c83d9"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_1.svg",
+      "bytes": 2982,
+      "sha256": "7da64b21b0ca6553ff932409dce2c043f3add5a0c413417a1a588cf5295c2b01"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_2.png",
+      "bytes": 58090,
+      "sha256": "d4a1447dab4c880db54c6a2f7f7b3b5b839d31dda30aebe7b755ad4e08b3d79f"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_2.svg",
+      "bytes": 3717,
+      "sha256": "6e514b91edcda62f95f3f9fcc79d027097f7dac9a8d9b9e202f822a36e6266fc"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_3.png",
+      "bytes": 52421,
+      "sha256": "bd4483e564ecb4610edaf38f126944b060655a88360a65014c631a4b1985c52a"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_3.svg",
+      "bytes": 2027,
+      "sha256": "ac60a1a1618717d7c75265f112fc4ef5bf5c930b12831b56968dd3208b000062"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_4.png",
+      "bytes": 48217,
+      "sha256": "2d17526c81d434af3aea4ee29acf1456028ce052e92681230baee2e8c07ae9ce"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_4.svg",
+      "bytes": 2559,
+      "sha256": "be2aea6f8f4be0e341976cd397f37b62c5a4e60451320a30e43093c46a2b9705"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_5.png",
+      "bytes": 58185,
+      "sha256": "42678079024f006647b909341719260908369aa4456d5f04fae9b68e37e3e40b"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.3_fig_5.svg",
+      "bytes": 2229,
+      "sha256": "912cce24799f41a88b8589f96f28f50f6fdef3633f7252f5e4fd70e835541ffc"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.4_fig_1.png",
+      "bytes": 51250,
+      "sha256": "25f5d07ef96b227768c1a6361c034e9287a7edc0dd7db35ca417d673e237a408"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.4_fig_1.svg",
+      "bytes": 2057,
+      "sha256": "a2b15e826c63c89b9f2723251e47b005a317a8f40a0f5ce3a5755756c17db124"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.4_fig_2.png",
+      "bytes": 59394,
+      "sha256": "65b4d7b3a86966b216c8118076cb5ab14b2d555b42f9a8fe181c865af8452956"
+    },
+    {
+      "path": "bronnen/H2/_assets/2.2.4_fig_2.svg",
+      "bytes": 2906,
+      "sha256": "4389e9891dee378e926def446ed0a274fc9a0324a3d4af813361a38727dc735e"
+    },
+    {
+      "path": "bronnen/H2/_assets/geometry-data.json",
+      "bytes": 3752,
+      "sha256": "d7a423a7f40f54cecf85bc0c809e540e69294fa632be368ea7c6d2fb25a5f37b"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-038.json",
+      "bytes": 10847,
+      "sha256": "31a10c05866892c5cc83838cc645a1bdb63a771a00d83296a78a6d6cf6c5fd06"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-038.png",
+      "bytes": 27138,
+      "sha256": "30c5b449aa91520cfa0c0ff4618464c052822cf50e4bdb5bda4567df5142acb7"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-038.svg",
+      "bytes": 4868,
+      "sha256": "3e93ac5c626259414be233b6bdfc866e25fdbbcc76baa1a71c33c0b4df7ce4e4"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-039.json",
+      "bytes": 5879,
+      "sha256": "decd785f87a4d6ecb6f3dff9ac32af87323b744cc1e7a8eb00426e649f10288a"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-039.png",
+      "bytes": 22275,
+      "sha256": "faefc552aa2a17af8f412567c29e38b891cd5a261c427939e4f5a9a47a0c6fdc"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-039.svg",
+      "bytes": 2885,
+      "sha256": "9e843e2f1a38a0da384200bcd6365d93f0941a7a672803c08ef35f124a0d8c26"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-040.json",
+      "bytes": 9365,
+      "sha256": "5dd022b4346954b77f12707a90d1bffdd6e33a7c3418ed18b3890e9248e7f05f"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-040.png",
+      "bytes": 24070,
+      "sha256": "7a7c2e5e008cb45d28dff802f3aef13959e0f1730724aec7fd737fe8930085d3"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-040.svg",
+      "bytes": 4671,
+      "sha256": "8c441e1f397e4ff528d55c6fd0d4e0045abe07658339692da6104de068f6226d"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-046.json",
+      "bytes": 16056,
+      "sha256": "7a5edd3d010ab537b4691e0e360f79e1ce1c289e96db4d46667eeac4a983b97d"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-046.png",
+      "bytes": 39832,
+      "sha256": "f6434b8b6d3d7d6827c82ed7e6966a41c5071a24ccfe3355b137fe5a229b8817"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-046.svg",
+      "bytes": 8326,
+      "sha256": "1fad8b88cf29a22a557f8438f1b9dbc95804d953fbdfdf30d9dc9ceebdb61f72"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-047.json",
+      "bytes": 6399,
+      "sha256": "d08022b631c610041c5b617e0118bb2a7f405b1bf77ab478e935e745c616debd"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-047.png",
+      "bytes": 56607,
+      "sha256": "36b86af29fa3608657951083ea06ae91888c12487d29ad4a44075023abedcab0"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-047.svg",
+      "bytes": 2995,
+      "sha256": "bb63da50adb0917666a027356e44394440140887dc3a62ac1f932fb7d0089a53"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-048.json",
+      "bytes": 5849,
+      "sha256": "89834ab3127dbde9a607488c3f26a27ffc5071e9e25d7068b0b3d596b8e59e1b"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-048.png",
+      "bytes": 17946,
+      "sha256": "e1b8b7ad09d927001475172caf67394204b0f124d3c5e4ccba1e934518438811"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-048.svg",
+      "bytes": 2856,
+      "sha256": "cb57d89dccd0758ffde5e5b923bde5f7edc64f529727dc53520bd11498dbf54c"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-054.json",
+      "bytes": 12889,
+      "sha256": "8c0b06eb474ba119fe93e19800c80811c22d5e84255f74f565652212ab36eac7"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-054.png",
+      "bytes": 76148,
+      "sha256": "8d745333f99a49e0c6b43e45b9237485d45353e4feaa08fe9e1b26a022f401d2"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-054.svg",
+      "bytes": 6149,
+      "sha256": "61bf5d0d3200ec224066fd708c043ff3d1eb65e0c324bacc4c876d027089471f"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-055.json",
+      "bytes": 9375,
+      "sha256": "808caab8c25299a44f123b151b3aaf733936c7f54598b7b418268c4e512fbee3"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-055.png",
+      "bytes": 27082,
+      "sha256": "4dee27b371df7e67d3dcc958fa69ea899e3e2c6b91d30a6fc2a83a0c186ef16b"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-055.svg",
+      "bytes": 4574,
+      "sha256": "490e1447208a5d287569fdc5cbdd300eec6df2dfa9b7111d8d4bd5b511f0478a"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-056.json",
+      "bytes": 4515,
+      "sha256": "56ce70eb44712fe5ef35d480b0f718b78c596eb789f89d1960b018fc69194f59"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-056.png",
+      "bytes": 19328,
+      "sha256": "a6c1ead8b73c26ff283b6319471ce3a0d02ebe10d6dc19582978311d5e116d2a"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-056.svg",
+      "bytes": 2203,
+      "sha256": "34ce07f4a39162a03799093bde2b45510d40e732c7df21c8dda7d86e6063451d"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-057.json",
+      "bytes": 8481,
+      "sha256": "9c7f40d3c6284d7926cdc3a6915d130755ebcdb1081e6eada6fcafbf222a2692"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-057.png",
+      "bytes": 52842,
+      "sha256": "e477333ab6cbb7e38cb573b8b799064e97ddc1d211999ad7d0d8b0315610b9f1"
+    },
+    {
+      "path": "bronnen/H2/_assets/theory-20260921/page-057.svg",
+      "bytes": 4123,
+      "sha256": "7ea8aba57973db31d25184c9a5bbfb45fd2d1c55ceed57309eb3aede36608890"
+    },
+    {
+      "path": "bronnen/H2/build.py",
+      "bytes": 7449,
+      "sha256": "2cfb70bb97e9ad14282d4bcc355f3010c7557b390b022bd770d8d7b48df83e5d"
+    },
+    {
+      "path": "bronnen/H2/build_all.py",
+      "bytes": 700,
+      "sha256": "021e1e652dce1e590e65dce3d49adfc2dcec26835a1aca1b6036f7db3f190588"
+    },
+    {
+      "path": "bronnen/H2/build_answers.py",
+      "bytes": 4563,
+      "sha256": "d578fe3d7596cdcf99d90415b75eaa32b12b2107c36e8481506fb998e24e5a6d"
+    },
+    {
+      "path": "bronnen/H2/build_teacher.py",
+      "bytes": 1338,
+      "sha256": "74a1c2cb62557d07a793082370d12697271de59e3b103a83d86f86e931c0814e"
+    },
+    {
+      "path": "bronnen/H2/chapter-order.json",
+      "bytes": 338,
+      "sha256": "6ba501326db4db78907f36dc63012a7bd218a5b327bae7aab459607941ca2198"
+    },
+    {
+      "path": "bronnen/H2/Docenten_en_bouwverantwoording.md",
+      "bytes": 15753,
+      "sha256": "eedc86d6a46f1271e338195c92a63977b5523030fee9ee9a7d02b26a5e74b7f5"
+    },
+    {
+      "path": "bronnen/H2/export_paragraphs.py",
+      "bytes": 3381,
+      "sha256": "9603797da12388d54e23bc793535e2a7b43e3b748a468b8e06a5900b166553e2"
+    },
+    {
+      "path": "bronnen/H2/make_assets.py",
+      "bytes": 12698,
+      "sha256": "738e5664271a3852fd8c21421c3ab9f08e8d546463816db4996840d25f70b3f5"
+    },
+    {
+      "path": "bronnen/H2/manuscript/00 Hoofdstukopening.md",
+      "bytes": 2647,
+      "sha256": "e841e919f009b00fc43d1a446cd940af2aae6d5e0a5c8350e35541e9280ec92c"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2 Hoofdstukoverzicht.md",
+      "bytes": 37076,
+      "sha256": "a235ff3d8f23c695a853fd399ad8c69a2e3925f94eacdaf818e9685cba011655"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2.1 Prijselasticiteit – paragraaf.md",
+      "bytes": 91256,
+      "sha256": "c79150a148e39ad1609ad77712c0f26cc032a83a40106e4aa0096e8af1dbb07b"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2.2 Elasticiteit en omzet – paragraaf.md",
+      "bytes": 103975,
+      "sha256": "dd5aec29637a494da80ad7264f08c7d7ecc7081d9ca23f0e963385127f8166f3"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit – paragraaf.md",
+      "bytes": 180738,
+      "sha256": "40440809dc4e3d4261ff15d15e05bf8b5396ec346be1f59df3037c4d71984cea"
+    },
+    {
+      "path": "bronnen/H2/manuscript/2.2.4 Gemengde opgaven – opgaven.md",
+      "bytes": 10746,
+      "sha256": "d68304f2ba0eb15a30f74f458ff9dfd50b2ffb781f5b10b3ead5807ec934d82f"
+    },
+    {
+      "path": "bronnen/H2/validate.py",
+      "bytes": 13658,
+      "sha256": "dbce153e50ca4a9088fda7dec4e794a34a289b4c575d3f2d6fb4170f965ac0df"
+    },
+    {
+      "path": "bronnen/H3/2.3 Docenteninformatie.md",
+      "bytes": 14845,
+      "sha256": "95fef222ef377353c0f3986319707fe85838276e2dd59947aa764c6102437d93"
+    },
+    {
+      "path": "bronnen/H3/2.3 Surplus en welvaart – antwoorden.md",
+      "bytes": 28218,
+      "sha256": "9f5ebbbf133c5d0d50a0d55251546e957207cc3867b1d843842b271780b9b116"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_4.png",
+      "bytes": 89840,
+      "sha256": "50b6ca65575f853c31d1c132324cfdb456354ce65555d5e10520e9f57ab2661e"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_4.svg",
+      "bytes": 5583,
+      "sha256": "d3e0a7f9e2d89285d0fd20870246398fb4ed6145e2897a46aacac7f5022990be"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_6.png",
+      "bytes": 91722,
+      "sha256": "1f26559c10102b8f0e9e7562d9c8d945d2fe3accd319a65dd8904447386740c4"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_6.svg",
+      "bytes": 6333,
+      "sha256": "48069cee3be7382c6bfad6ad43a34dd6f0eb4be8e2cce8c7a65863af22da5ddf"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_8.png",
+      "bytes": 89127,
+      "sha256": "90b08d5a2b849df581e9d107338c28ae41df061a12d30bf6221d8689e1a4593f"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ans_8.svg",
+      "bytes": 5097,
+      "sha256": "4c2e6781a540cc0e06ba95ef8ee989308cf7d2c550737d3d144babd3c50a7a83"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ex_1.png",
+      "bytes": 81194,
+      "sha256": "dedb82be31696e35580c81547d6069582298ebb6d3d33912b3b57cb4921e7122"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ex_1.svg",
+      "bytes": 5596,
+      "sha256": "e7598dd0f4f636a60f650919cc253cc2c30247ce116dbb28f873f3df64622114"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ex_2.png",
+      "bytes": 52004,
+      "sha256": "ab7c4df034814225e2c0be178b496f6ff965dd8d7f2635e876ebfbd0826db831"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_ex_2.svg",
+      "bytes": 4316,
+      "sha256": "ef4af16efaf6a18f1399d9a750d502f78cf9738d0d017cc77c23723b4f5b5f31"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_1.png",
+      "bytes": 45585,
+      "sha256": "72b0d47502ef53f0da924fc9e71d890f25cc070daf3f071a482f4615175af1d2"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_1.svg",
+      "bytes": 1849,
+      "sha256": "1bc4eb30e64e28caf33c4e2c80086e51e34918ee56899441c72b7ec16630d09e"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_2.png",
+      "bytes": 86208,
+      "sha256": "f85d50215b272ed4561384129ed8d426cea960805c42c6d3353d2ffb70826cc1"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_2.svg",
+      "bytes": 5584,
+      "sha256": "b1acad889d201ed5251322fe2a43a13031990f5adeb5d33c5d23c0cc922f979c"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_3.png",
+      "bytes": 87752,
+      "sha256": "cdbf2375b0d061e14c6a07f1e8ff08d5c45ba7c91b60315d3f884bc83ad9b519"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_fig_3.svg",
+      "bytes": 5231,
+      "sha256": "66bc6346cc2c779b8378edddfd8ad7e464fb1cc40f60f4ab61f251f5ff35e566"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_we_1.png",
+      "bytes": 83823,
+      "sha256": "56f5ef0ed24443652626d170e0ba0e4d5f7f8d9d59637bd317093f08aaa4e63f"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.1_we_1.svg",
+      "bytes": 4600,
+      "sha256": "99bcca7afd385650674aa94f81c4e27c972730407f22b4b802e4c1ab72e62bcd"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_4.png",
+      "bytes": 107662,
+      "sha256": "1020089fa5bfd51f8e6e1a44da18a1ae78814a0cb5289c0c525d48bc441ca058"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_4.svg",
+      "bytes": 6733,
+      "sha256": "f56890d2a56821f510fef3758c1c7756e732425960ed099f26152a5ee7c2967f"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_6.png",
+      "bytes": 103948,
+      "sha256": "aa3f60b2b5fd2aa927234122cc8178d1994233b6ce4fb08a6a0120c35de4de3f"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_6.svg",
+      "bytes": 6722,
+      "sha256": "02fc250d08abd418067b17504ac9363f2b0f7d9f31f959daf4c3723e9d8f393d"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_8.png",
+      "bytes": 104289,
+      "sha256": "708f78b338c591f001877ab4ce5dddb77282e9c4daa3b014b887e9c64571b825"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ans_8.svg",
+      "bytes": 6036,
+      "sha256": "543e883d6aca8ba5fb6db528a0a3b2437857040d218ed493008e1d21a120259b"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_1.png",
+      "bytes": 100478,
+      "sha256": "2c4684cbf51810c7cfd2b6348bde9161004460445341c5a30e55c87e0006ce56"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_1.svg",
+      "bytes": 6539,
+      "sha256": "7bb56a377278252f7006859a6533a31effd720dde8cfeae4a24898817ba30993"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_2.png",
+      "bytes": 99178,
+      "sha256": "61a6941c80ea5d03c5a842230c2d4cac43a884481cb5a5ef160824748a3a305c"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_2.svg",
+      "bytes": 5071,
+      "sha256": "dff7734fa139a0e9a491f0bdd0cef6a42f52a6652f2fbec63c179fdd08cce955"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_3.png",
+      "bytes": 93348,
+      "sha256": "72c9fd34403d8b7352a5529e827fb0f4a058e149319dd1d41bbfd5c972572b8d"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_3.svg",
+      "bytes": 5053,
+      "sha256": "6d2999f66dd6096b8ba7926e07a4b5d7b3382a128e20064a4fada3fe324aa37a"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_4.png",
+      "bytes": 92763,
+      "sha256": "fdbfb0464463681c8d7ab6e9115d4ac47297db48cba0ac4f08fb9ff5f387d1f3"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_ex_4.svg",
+      "bytes": 4350,
+      "sha256": "601e3f8aeb9da08ce97074c0431791f91308959e6ef0d3164a7e75213d5f53da"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_1.png",
+      "bytes": 55491,
+      "sha256": "45d274ef86395569a76847b4cb934c8440398c1f2fa41e623136e22960c970a2"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_1.svg",
+      "bytes": 2330,
+      "sha256": "1edda0fe8207d7ee3a12b42239a1e59587acd41e0392b7afd04b12eb59beb5c2"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_2.png",
+      "bytes": 97637,
+      "sha256": "91a6cd1ecb5bcb3ba6100ad1690589aa4944accc6155bb69f328147a6b8e0ae9"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_2.svg",
+      "bytes": 5139,
+      "sha256": "68b4d4ded97f94204157f36662d47b9a076b7c46433811230ce92781faa9e446"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_3.png",
+      "bytes": 98598,
+      "sha256": "ea07082a6c5726da3a58cc996da0ad5808901cb7875f0734f269b0dd24e04b5e"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_fig_3.svg",
+      "bytes": 5516,
+      "sha256": "67b742d89d59eb722df3187772e3ec0f719192ca992b01c6bebfbdd7ff6f6b8f"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_we_1.png",
+      "bytes": 108437,
+      "sha256": "5962795d6250e46fe2f72eac91ef1850123b01b5bd0aef85edcd63b5aaa7777b"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.2_we_1.svg",
+      "bytes": 6045,
+      "sha256": "57529eac20afb3675bded0412a6d3ad3438b4bbe568cb56d29433b7041694421"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_4.png",
+      "bytes": 114159,
+      "sha256": "7b2400e5f0c17821aa5b7942a29356781b97a88d9456e7e01cdf35cc08fe2677"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_4.svg",
+      "bytes": 7429,
+      "sha256": "2aee52ce163c6dac820a2d1dbc42be17faeed9fa15ca2b884192d6ee340e3b32"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_5.png",
+      "bytes": 110024,
+      "sha256": "94f7cad96e4d7866f70f5ef997ea75045256c53a9a820361c2132154d988245a"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_5.svg",
+      "bytes": 7918,
+      "sha256": "d9ee45254777f6fc1a5b6d91e0edff3c880429d31da9adf51d529a7285720f3f"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_6.png",
+      "bytes": 110486,
+      "sha256": "6a4566db1eaf80d26495995d6323556ea8b88f97d12e8a75240ad8d6e6f33697"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ans_6.svg",
+      "bytes": 6982,
+      "sha256": "c73e53162f22a5981b997c00ebd8acf8c95b74f9155f0b61eddab9e21cd096c3"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_1.png",
+      "bytes": 104833,
+      "sha256": "7fd2af6b6442db6ea23c5f82c33159b6a9fa145be476e813dee942b5b04f65a0"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_1.svg",
+      "bytes": 6592,
+      "sha256": "b2a6365a6d88854ed5521a1bcb219d9733bcc9e905d636d5b4decfab05edd4a5"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_2.png",
+      "bytes": 103666,
+      "sha256": "34c03bd139e62b08cffd16b05edcef5e2e3cb88f9541977db186c15eaa756d8b"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_2.svg",
+      "bytes": 5755,
+      "sha256": "e6dc1373110a17460010062e397034a65d52f340a1a3d4a27c5714b053882845"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_3.png",
+      "bytes": 97848,
+      "sha256": "5d9c50299e96397a9ed62905a2c1754d34b4dd7bd9e4862fcb5f318a62c2ec5b"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_3.svg",
+      "bytes": 6213,
+      "sha256": "c2ff613aab3b4c5c607dd1306f81533233456da0e51a8b4e27deb17f03d2d4ff"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_4.png",
+      "bytes": 98273,
+      "sha256": "4efa425c0f2473d63e1c1107600b901fe8b3353e9c9ea51a4cae9e2138c50c17"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_ex_4.svg",
+      "bytes": 5294,
+      "sha256": "6c57b3ab0eb56de517319cf387e718231891fee0009161e44b1651d280ac78bf"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_1.png",
+      "bytes": 94705,
+      "sha256": "70785907114840abb96c4ede1f5ff2def6eec5015cb87acb5e5bdd039ff84389"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_1.svg",
+      "bytes": 4762,
+      "sha256": "929bd8081a9f9209c78d66f46600723c2306565991f6be3b2a415b5e4cfeb751"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_2.png",
+      "bytes": 103027,
+      "sha256": "06631c44f94a22e2a80fd2b70bda5bd78dcce4942d64567e351df410185293b1"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_2.svg",
+      "bytes": 6073,
+      "sha256": "f1b87d9ebcf5d0f068d2cbbfe0bc9ef79139f8eb72985e1f86780c686588d002"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_3.png",
+      "bytes": 97473,
+      "sha256": "18b66fbb427e29d651794be7e84392a7f6a7eb832fff8b6ea334477d7efd16a7"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_3.svg",
+      "bytes": 5149,
+      "sha256": "80d0705dde3e2f4121633a4ab646d9377c8a269927eceaca5eeab3e210afd663"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_4.png",
+      "bytes": 59450,
+      "sha256": "f77d49ecd80f44b6591b1190435100522bbcda7e42216c4306906ce9ba8baf41"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_fig_4.svg",
+      "bytes": 1995,
+      "sha256": "d9d73ef1842d8883d7baa5ef13506fc64ab252cbb7cadc2f507d66c335c89d6c"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_we_1.png",
+      "bytes": 108365,
+      "sha256": "596826db7272f482ed898ec8f989350f6f43bac6783ad870d969d76a38fd8ecb"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_we_1.svg",
+      "bytes": 7053,
+      "sha256": "2a4f2d3a562ec8c668d0dff5fc8ce3d49e27f46c815e6ff6c543104ea7868e56"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_we_2.png",
+      "bytes": 104737,
+      "sha256": "b693bc7770cbccd1620e3dbb27049af7b8bc6e387080764f7f682ebb4baaafa5"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.3_we_2.svg",
+      "bytes": 6097,
+      "sha256": "8883a9154f4c95f8409a986bb8f4b0f65d818393d5440946a422c1bda05015eb"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ans_2.png",
+      "bytes": 110980,
+      "sha256": "cca5e659905807a1ee16b828532053a5b055ff6eb648bbdf51e9a23f7e669b75"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ans_2.svg",
+      "bytes": 7442,
+      "sha256": "5a558dfe2b3ff85fbcd6058a25cd3d15af08d32b06be20e67645f2ca7e5f2fe6"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ans_3.png",
+      "bytes": 120978,
+      "sha256": "5f1e53f1629561ea62727deb6f6fad7fca24a6866753ea58f9621995077edf23"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ans_3.svg",
+      "bytes": 8546,
+      "sha256": "ad0179af400463384951d691f87c20bcfa350cb3ee42d40e557a4a8408c6ce1c"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ex_1.png",
+      "bytes": 99285,
+      "sha256": "bab4bea132434920c81a7c9bc89f9f10b257f825d77f87b95a806e31c88828ab"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ex_1.svg",
+      "bytes": 5454,
+      "sha256": "6921f3d51f43ee7c39900c5a5fad434a76e2bcc71987c370ae13b303dce6c3fa"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ex_2.png",
+      "bytes": 101652,
+      "sha256": "789caa246eb5f673d1e86b07af1379329fa4547133806b9e289140a1e501e8d3"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_ex_2.svg",
+      "bytes": 5803,
+      "sha256": "fcf0b258b472dafe53b7d8c7d9e318456a8d92653261563c64dfaef8d928fc79"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_fig_1.png",
+      "bytes": 69073,
+      "sha256": "070f9c1f3f5ce4694c84ace9e6c7045c663b866a407158656e8a01b292897cfb"
+    },
+    {
+      "path": "bronnen/H3/_assets/2.3.4_fig_1.svg",
+      "bytes": 2523,
+      "sha256": "00efeb562d387df418f5deacef677da31fcc576644b83211e6a0663f6578d8dd"
+    },
+    {
+      "path": "bronnen/H3/_assets/geometry-data.json",
+      "bytes": 28417,
+      "sha256": "0352ed553ed0d1909ea452c3de199f1cb1141f9183d4acb9816eb269962d6415"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-074.json",
+      "bytes": 5350,
+      "sha256": "8c559c524ad56291addd81ebcafba05256d00e5b9757f3f423a89174d7574731"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-074.png",
+      "bytes": 19316,
+      "sha256": "d61bbe1f02a4d5477b206827b462709f2aba5997281061e2fea65d0e9d8ed114"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-074.svg",
+      "bytes": 2604,
+      "sha256": "7bc9ca3e29dd0c7e31dbc575ed352680705d16345fcd93212d32423f7a705e31"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-075.json",
+      "bytes": 16302,
+      "sha256": "03d3c273395e50cd049b5ae42db9be6065507dceae04353349fa3a2daaea0170"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-075.png",
+      "bytes": 50261,
+      "sha256": "2d7160d928baac1f3b20136a0212a2c5aa6fd7adaa8fe9ba3b1ac175f7a34db0"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-075.svg",
+      "bytes": 8698,
+      "sha256": "00ab838b52ea933c5e1e8e9055a1c41d5388b2d406a0e27fcb4f261c277daebf"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-076.json",
+      "bytes": 17086,
+      "sha256": "b16d5c3f06ee48732bf985f8a09efc51a9e670086b4153dd69a76ca6b27d2359"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-076.png",
+      "bytes": 48699,
+      "sha256": "a1858ef8f063fd83497221358b9cddf3b7bc2a814f6191c47f90bdb9089deaa6"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-076.svg",
+      "bytes": 9525,
+      "sha256": "43d7660efe19e1ab7350ca7bc22dac7429e47c417138dda431391b62301a8029"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-077.json",
+      "bytes": 15509,
+      "sha256": "d24f4e5ecfc9df3192855dda710d5bc3a642ac0165d17c6b91ec3def4cea3f75"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-077.png",
+      "bytes": 50977,
+      "sha256": "519ff7356ba43e0b067405b1be470ea00fe51e73830488d36510fc4619e72ed3"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-077.svg",
+      "bytes": 8263,
+      "sha256": "d30f7ec8a82cc09799c4eb90c562edf5be11fef6489064a512d479f0b2ff5371"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-082.json",
+      "bytes": 7176,
+      "sha256": "ec000250e660abcb2c50ab3fbbb5b26880a8f48f8bd0ea88af2d37623a99c49b"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-082.png",
+      "bytes": 23818,
+      "sha256": "3dc4bd21957d911952f0221bc95551455b2b5524ba3154b9cae787876324f968"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-082.svg",
+      "bytes": 3505,
+      "sha256": "9526b86b18d5c16cea3ea391053cbb9ad56c8478b99644413985454c5389af7e"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-083.json",
+      "bytes": 16929,
+      "sha256": "6a7edbef79b2f480ad18118d6ad4ada5b32509f2d0e524e54e506e811819b03c"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-083.png",
+      "bytes": 60753,
+      "sha256": "0f0b9f622f848eea9951171395b9b4d665dbcc0cec9758cad55879c4e71f48f1"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-083.svg",
+      "bytes": 8902,
+      "sha256": "cbd3b4ce969c0d144abec4ad89bd3f2007fbfc9ed55eb7588dfabdfb2e098e0b"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-084.json",
+      "bytes": 18100,
+      "sha256": "481b0a325eccef3c5e0ccfed1023e82d622c1cc7679a4e46f5c53e4618964c77"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-084.png",
+      "bytes": 51127,
+      "sha256": "2a941f6a6231d6474bc67ff299752f699e84772efbc7f5b97de11452bd69044f"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-084.svg",
+      "bytes": 9338,
+      "sha256": "c1917eda025562d1ef6fd4c324ddc33c693f2348d5bd69353376ee1ed3ea003c"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-085.json",
+      "bytes": 19683,
+      "sha256": "c12409b52c9a02a46cb0e60ae087211145d89cc7b5e8613dda1963ce929134df"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-085.png",
+      "bytes": 68078,
+      "sha256": "c8d74029fea76d96e32c1cceb416259f6b0f346febbcf60bfde700a1d23b4e92"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-085.svg",
+      "bytes": 10217,
+      "sha256": "1b2782105a110bbb3ed35dbf9d6ec7c25cc3705a414a9b9d399bcd45484dd60d"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-092.json",
+      "bytes": 15721,
+      "sha256": "5cecd1853c81eba2fd21eb63931f3a391acbc03457d9e936bab422541a064d1d"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-092.png",
+      "bytes": 56204,
+      "sha256": "c23e9b4e169272094c3f92c5117bb1306cf7260377d2f641fa35a87f5ada868f"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-092.svg",
+      "bytes": 8447,
+      "sha256": "6ee1b8754cdc97fde5b65add49fd919264b606aac8d2da6e7ac7507f710ec95b"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-093.json",
+      "bytes": 20029,
+      "sha256": "8b15136120fe2c7a3b3a4a20f25735d08a2b5ceb754041c74e189bada959cd86"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-093.png",
+      "bytes": 68268,
+      "sha256": "56be3639d4addc894c3a098c134ed52ff0f0c3e10132860b22f7b2bfc12c915a"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-093.svg",
+      "bytes": 10438,
+      "sha256": "feee66b4837bdbbc9d7acf6c606c95b9aa8ac06dbdb63e577990411a63dbef1c"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-094.json",
+      "bytes": 21405,
+      "sha256": "2555a9e10f7e66d7178b766d40c3f1f307169a826b1af4cba95269ab4904306f"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-094.png",
+      "bytes": 63177,
+      "sha256": "66b58bd4887cd08e7e0009765e8aaeca51dc55e27144e0aa5292512aa2fcbb94"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-094.svg",
+      "bytes": 11814,
+      "sha256": "6b136230797e3edde96dde5506da5692053b027dd205046026719db42b6b9de4"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-095.json",
+      "bytes": 6356,
+      "sha256": "3136a9644947161d96f4a10b191cf3bf1574c6715e7d98ad7a813bc244348b25"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-095.png",
+      "bytes": 44016,
+      "sha256": "4c0b06162fb54bb9e44fa066c65c5970610f290a0685e97b6fdd0f488dc6b5d1"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-095.svg",
+      "bytes": 2940,
+      "sha256": "324f1dd4ddc6f4f3e055cf3362643a4aaa064d80d45671a0c7012864ec1cb19b"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-096.json",
+      "bytes": 20795,
+      "sha256": "a148fd7f61c2fd227bcd9bdca24e8f11819a237f80bdf85a58f01bcee2527261"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-096.png",
+      "bytes": 65010,
+      "sha256": "deaa2ba32bc364df3663703a9ed6c30ed5f3310f70e7ceb100caab64c9efa402"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-096.svg",
+      "bytes": 10853,
+      "sha256": "023acbe49ab40981edef9fd38e661276f43c6e8ba1d7a647f73c9f6c4ea2e222"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-097.json",
+      "bytes": 20391,
+      "sha256": "333dd638f05b2229dc42cb31b10eb4546dbd0e637b2e1896e2372191dff22177"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-097.png",
+      "bytes": 63631,
+      "sha256": "c7858d9ae145c5e0ce08e26b55d9e7185f36c6d97d26111f6a05133962221eea"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-097.svg",
+      "bytes": 11015,
+      "sha256": "56057c3958e093ec1ee6cdb80cc9d86c17d573edb297bb7e0c305894445c1836"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-109.json",
+      "bytes": 8060,
+      "sha256": "ec0b1fe3445f2515e974bae5cbbf6f40028391db8a4ce850fdefcf2e7beeac57"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-109.png",
+      "bytes": 30213,
+      "sha256": "79a0e067cc419fd8963c18f9a00dc29a94611ea4988b2f3b9e00c5b645c9bc4f"
+    },
+    {
+      "path": "bronnen/H3/_assets/theory-20260921/page-109.svg",
+      "bytes": 3762,
+      "sha256": "9ff3fc244d4ed8844afefd5c36f12e857d1f2a9b75bd865ecb4236bfd0e3b444"
+    },
+    {
+      "path": "bronnen/H3/build.py",
+      "bytes": 7798,
+      "sha256": "17ad2aaf496b54b0e0d81fcfc77c14cc6289069ec1575e412287bcc904467d1e"
+    },
+    {
+      "path": "bronnen/H3/build_all.py",
+      "bytes": 598,
+      "sha256": "c3ce9a56eaf6fa4f3684cc1ce10b217b92faf26a594c10ae18e4139e4239a2f1"
+    },
+    {
+      "path": "bronnen/H3/build_answers.py",
+      "bytes": 4112,
+      "sha256": "b4a5608ec31ee0eddfe030049a7c67cdccf5ee1652734b521faa29f3deff436e"
+    },
+    {
+      "path": "bronnen/H3/build_teacher.py",
+      "bytes": 1640,
+      "sha256": "75e6b76d424ac581135f48db65aca050d8b58bee338eb44febcb12ca572db35b"
+    },
+    {
+      "path": "bronnen/H3/chapter-order.json",
+      "bytes": 350,
+      "sha256": "4eee1ab472e8324762b9683003761be5483916cd8491e5291c5dec52504b09bc"
+    },
+    {
+      "path": "bronnen/H3/export_paragraphs.py",
+      "bytes": 3254,
+      "sha256": "ce83fef15e42e590615a697d0d126f92c4aa21404f7fb6fd87027031108ad6a1"
+    },
+    {
+      "path": "bronnen/H3/make_assets.py",
+      "bytes": 14687,
+      "sha256": "eb09dd734b036419d4fcb9281ff99858f0f1ca8ebbd624350191c4baa780f2ff"
+    },
+    {
+      "path": "bronnen/H3/manuscript/00 Hoofdstukopening.md",
+      "bytes": 2650,
+      "sha256": "918faa5278a8a2c0ef11d3917c81592e6890ae96c004a88bb2870d76873ea4e0"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3 Hoofdstukoverzicht.md",
+      "bytes": 58718,
+      "sha256": "c1f35244be7e03f75bf1dbb69ffbbcfc7656f89676ed32f87cb3d8c474a97036"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3.1 Consumentensurplus – paragraaf.md",
+      "bytes": 77605,
+      "sha256": "79abbe55782b3bd3a2ac38f14213654cef38a0111c93a27ab4d95d4394f2ad35"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3.2 Producentensurplus en totaal surplus – paragraaf.md",
+      "bytes": 95950,
+      "sha256": "77d485b2078bba0b3faffcb6d0e78d4ce8e55f4ab59de63d470c9214aff92745"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.md",
+      "bytes": 116518,
+      "sha256": "73f8bdb4f9ef2b7e7e997a7eef54657d9a2944bb8b65505fefbb5bf33e1bf69d"
+    },
+    {
+      "path": "bronnen/H3/manuscript/2.3.4 Gemengde opgaven – opgaven.md",
+      "bytes": 10231,
+      "sha256": "21eb878c0bdfef67199b193224b3665fdf9247b5fbb2d96d07f8d710ac8f180f"
+    },
+    {
+      "path": "bronnen/H3/validate.py",
+      "bytes": 14166,
+      "sha256": "fa6cd427d32cf2cb36fc3ce4d6a72452936ae73303e37ba381f1b4dbd5d771b8"
+    },
+    {
+      "path": "print-pagination.json",
+      "bytes": 80,
+      "sha256": "ef8062c81b6b1ba9562b0cfc21f09e3c7df6237b7893c8f35a08e0dfdb0ea4ce"
+    },
+    {
+      "path": "signed-cover-panel.html",
+      "bytes": 1423,
+      "sha256": "ffb65c286b44616145179025cc883e0a4f61643a18e267f7c23669d27d408752"
+    },
+    {
+      "path": "signed-cover-source.json",
+      "bytes": 486,
+      "sha256": "d032a465180edc8db70a9df513dcdb532c432ca3924a98627a7f51514d3eb0d9"
+    },
+    {
+      "path": "signed-navigation.json",
+      "bytes": 1700,
+      "sha256": "61a01754dbc8de1d8adfa562cd09cdb697fb3152c1a93b0913e8c746bb5086cd"
+    },
+    {
+      "path": "signed-page-map.json",
+      "bytes": 12060,
+      "sha256": "67c638123e594e0d09f68305bc77593254a197cb59d303f153aa91ccf87d2b32"
+    }
+  ],
+  "chapters": {
+    "hoofdstukken/Boek_2_H1_Kosten_en_opbrengsten.pdf": {
+      "path": "hoofdstukken/Boek_2_H1_Kosten_en_opbrengsten.pdf",
+      "bytes": 638209,
+      "sha256": "10aeea0c0f77692be7ce4884a350d224e33f9bfddf0ded6d546e4d9e4fcb1c4d"
+    },
+    "hoofdstukken/Boek_2_H2_Elasticiteit.pdf": {
+      "path": "hoofdstukken/Boek_2_H2_Elasticiteit.pdf",
+      "bytes": 218930,
+      "sha256": "b2899881ca28331e679c2b71b5f32e7c73d750c44a38c3e92d1a57aafb879ee7"
+    },
+    "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf": {
+      "path": "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf",
+      "bytes": 265437,
+      "sha256": "e52515f2f48a2e8bda2b740a9d11c1cda6e14623ba714abcd0f0ab89f77d99f5"
+    },
+    "hoofdstukken/Boek_2_H1_Antwoorden.pdf": {
+      "path": "hoofdstukken/Boek_2_H1_Antwoorden.pdf",
+      "bytes": 636497,
+      "sha256": "ad33b71061a035991e9135902437e581c9e0fd10a0a8c55c4b3c426a2a4fc1a5"
+    },
+    "hoofdstukken/Boek_2_H2_Antwoorden.pdf": {
+      "path": "hoofdstukken/Boek_2_H2_Antwoorden.pdf",
+      "bytes": 77292,
+      "sha256": "550ee1cc2a7562a3ca41a141139636632c8666bf51003dd11e5cfa3f1043d08b"
+    },
+    "hoofdstukken/Boek_2_H3_Antwoorden.pdf": {
+      "path": "hoofdstukken/Boek_2_H3_Antwoorden.pdf",
+      "bytes": 175580,
+      "sha256": "52c60cd5848717739d0dd6fb1c0c1500798fb9b19e3f0760e56f65bf15f5289d"
+    },
+    "hoofdstukken/Boek_2_H1_Docenteninformatie.pdf": {
+      "path": "hoofdstukken/Boek_2_H1_Docenteninformatie.pdf",
+      "bytes": 42763,
+      "sha256": "d1c076a4efdca20429dec35ca21fa6cf28aca262ccd9c9695a2bf9e58d033c32"
+    },
+    "hoofdstukken/Boek_2_H2_Docenteninformatie.pdf": {
+      "path": "hoofdstukken/Boek_2_H2_Docenteninformatie.pdf",
+      "bytes": 46170,
+      "sha256": "2484214e929e6084b33e97afed108a246cf17d8e1916a9ed02dba23c6e1db098"
+    },
+    "hoofdstukken/Boek_2_H3_Docenteninformatie.pdf": {
+      "path": "hoofdstukken/Boek_2_H3_Docenteninformatie.pdf",
+      "bytes": 48135,
+      "sha256": "0c92bb7f0e51a0f8c8464199e7d18626883ef349ed3dc8018109ce416d1737c0"
+    }
+  }
+}

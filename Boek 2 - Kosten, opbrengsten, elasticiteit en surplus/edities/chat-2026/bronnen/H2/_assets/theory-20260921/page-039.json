@@ -1,0 +1,291 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 39,
+  "caption": "Figuur 2. Bereken eerst twee procentuele veranderingen. Deel daarna de hoeveelheidsverandering door de prijsverandering.",
+  "viewBox": [
+    53.85827,
+    498.64764,
+    545.2756,
+    569.33228
+  ],
+  "shapes": [
+    {
+      "path": "M 53.8583 498.6476 H 541.4174 V 564.0397 H 53.8583 Z",
+      "fill": "#f3f7f9",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        53.85827,
+        498.64764,
+        541.41736,
+        564.03967
+      ],
+      "clip": [
+        53.85827,
+        498.64764,
+        541.41736,
+        564.03967
+      ]
+    },
+    {
+      "path": "M 64.4583 509.2476 H 198.5779 V 553.4396 H 64.4583 Z",
+      "fill": "#eaf4f8",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        64.45827,
+        509.24762,
+        198.57794,
+        553.43964
+      ],
+      "clip": [
+        64.45827,
+        509.24762,
+        198.57794,
+        553.43964
+      ]
+    },
+    {
+      "path": "M 230.5779 509.2476 H 364.6976 V 553.4396 H 230.5779 Z",
+      "fill": "#edf5f2",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        230.57794,
+        509.24762,
+        364.69763,
+        553.43964
+      ],
+      "clip": [
+        230.57794,
+        509.24762,
+        364.69763,
+        553.43964
+      ]
+    },
+    {
+      "path": "M 396.6976 509.2476 H 530.8173 V 553.4396 H 396.6976 Z",
+      "fill": "#ffffff",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        396.69763,
+        509.24762,
+        530.81732,
+        553.43964
+      ],
+      "clip": [
+        396.69763,
+        509.24762,
+        530.81732,
+        553.43964
+      ]
+    },
+    {
+      "path": "M 54.4583 499.2476 H 540.8173 V 563.4396 H 54.4583 Z M 53.8583 498.6476 H 541.4174 V 564.0397 H 53.8583 Z",
+      "fill": "#dce6eb",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        53.85827,
+        498.64764,
+        541.41736,
+        564.03967
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Eigen prijs P",
+          "origin": [
+            103.51176452636719,
+            527.031494140625
+          ],
+          "font": "Lato-Bold",
+          "size": 10.29931640625,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "+10%",
+          "origin": [
+            118.43009948730469,
+            543.62744140625
+          ],
+          "font": "Lato",
+          "size": 10.29931640625,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "→",
+          "origin": [
+            206.0782012939453,
+            537.9222412109375
+          ],
+          "font": "Lato",
+          "size": 16.99951171875,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Gevraagde hoeveelheid Qv",
+          "origin": [
+            235.83677673339844,
+            527.031494140625
+          ],
+          "font": "Lato-Bold",
+          "size": 10.29931640625,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "−5%",
+          "origin": [
+            287.53662109375,
+            543.62744140625
+          ],
+          "font": "Lato",
+          "size": 10.29931640625,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "→",
+          "origin": [
+            372.1978759765625,
+            537.9222412109375
+          ],
+          "font": "Lato",
+          "size": 16.99951171875,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Verhouding Ev",
+          "origin": [
+            430.45684814453125,
+            527.031494140625
+          ],
+          "font": "Lato-Bold",
+          "size": 10.29931640625,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "−5 ÷ 10 = −0,5",
+          "origin": [
+            430.43377685546875,
+            543.62744140625
+          ],
+          "font": "Lato",
+          "size": 10.29931640625,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    }
+  ],
+  "model": {
+    "geometry_contract": [
+      {
+        "kind": "live_text_model",
+        "description": "Signed elasticity flow",
+        "required": [
+          "+10%",
+          "−5%",
+          "−5 ÷ 10 = −0,5"
+        ],
+        "model": "Ev=%ΔQv/%ΔP=-5/10=-0.5"
+      }
+    ]
+  }
+}

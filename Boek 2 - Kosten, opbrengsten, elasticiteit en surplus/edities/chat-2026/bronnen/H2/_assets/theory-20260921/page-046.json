@@ -1,0 +1,788 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 46,
+  "caption": "Figuur 1. De omzetrechthoek wordt hoger én smaller. De oppervlakte P × Q stijgt hier van € 1.000 naar € 1.045 per dag.",
+  "viewBox": [
+    54.0,
+    456.0,
+    545.2756,
+    626.90509
+  ],
+  "shapes": [
+    {
+      "path": "M 91.2958 575.1153 L 272.3892 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        91.29585,
+        575.1153,
+        272.38922,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 91.2958 529.7723 L 272.3892 529.7723",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        91.29585,
+        529.77228,
+        272.38922,
+        529.77228
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 91.2958 484.4206 L 272.3892 484.4206",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        91.29585,
+        484.42059,
+        272.38922,
+        484.42059
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 91.2958 466.2852 L 91.2958 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        91.29585,
+        466.28516,
+        91.29585,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 173.615 466.2852 L 173.615 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        173.61499,
+        466.28516,
+        173.61499,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 255.9254 466.2852 L 255.9254 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        255.92542,
+        466.28516,
+        255.92542,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 91.2958 484.4235 H 255.9262 V 575.1153 H 91.2958 Z",
+      "fill": "#d9ecf4",
+      "fill_rule": "nonzero",
+      "stroke": "#007da2",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        91.29585,
+        484.42349,
+        255.92621,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 91.2958 575.1153 L 275.0012 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#183e51",
+      "width": 0.87064129114151,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        91.29585,
+        575.1153,
+        275.00116,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 91.2958 575.1153 L 91.2958 463.6732",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#183e51",
+      "width": 0.87064129114151,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        91.29585,
+        463.67322,
+        91.29585,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 335.946 575.1153 L 517.0394 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        335.94604,
+        575.1153,
+        517.03943,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 335.946 529.7723 L 517.0394 529.7723",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        335.94604,
+        529.77228,
+        517.03943,
+        529.77228
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 335.946 484.4206 L 517.0394 484.4206",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        335.94604,
+        484.42059,
+        517.03943,
+        484.42059
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 335.946 466.2852 L 335.946 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        335.94604,
+        466.28516,
+        335.94604,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 418.2652 466.2852 L 418.2652 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        418.26517,
+        466.28516,
+        418.26517,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 500.5757 466.2852 L 500.5757 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#dfe7ec",
+      "width": 0.6094489097595215,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        500.57565,
+        466.28516,
+        500.57565,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 335.946 475.3543 H 492.3449 V 575.1153 H 335.946 Z",
+      "fill": "#d9ecf4",
+      "fill_rule": "nonzero",
+      "stroke": "#007da2",
+      "width": 0.6965130567550659,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        335.94604,
+        475.35431,
+        492.34488,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 335.946 575.1153 L 519.6514 575.1153",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#183e51",
+      "width": 0.87064129114151,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        335.94604,
+        575.1153,
+        519.65137,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    },
+    {
+      "path": "M 335.946 575.1153 L 335.946 463.6732",
+      "fill": "#000000",
+      "fill_rule": "nonzero",
+      "stroke": "#183e51",
+      "width": 0.87064129114151,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        335.94604,
+        463.67322,
+        335.94604,
+        575.1153
+      ],
+      "clip": [
+        53.85827,
+        438.42462,
+        541.41736,
+        625.61249
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "0",
+          "origin": [
+            80.15180969238281,
+            577.7272338867188
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "5",
+          "origin": [
+            80.15180969238281,
+            532.3842163085938
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "10",
+          "origin": [
+            75.10225677490234,
+            487.03253173828125
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "0",
+          "origin": [
+            88.77107238769531,
+            588.1749267578125
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "50",
+          "origin": [
+            168.5654296875,
+            588.1749267578125
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "100",
+          "origin": [
+            248.35107421875,
+            588.1749267578125
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "TO = € 1.000",
+          "origin": [
+            137.93399047851562,
+            533.2548828125
+          ],
+          "font": "Lato-Bold",
+          "size": 12.18897819519043,
+          "color": "#007da2",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Q (kaartjes per dag)",
+          "origin": [
+            142.35589599609375,
+            606.4583740234375
+          ],
+          "font": "Lato",
+          "size": 9.2284574508667,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        0.0,
+        -1.0
+      ],
+      "runs": [
+        {
+          "text": "P (€ per kaartje)",
+          "origin": [
+            66.04724884033203,
+            552.6657104492188
+          ],
+          "font": "Lato",
+          "size": 9.2284574508667,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "0",
+          "origin": [
+            324.802001953125,
+            577.7272338867188
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "5",
+          "origin": [
+            324.802001953125,
+            532.3842163085938
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "10",
+          "origin": [
+            319.75244140625,
+            487.03253173828125
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "0",
+          "origin": [
+            333.4212646484375,
+            588.1749267578125
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "50",
+          "origin": [
+            413.2156066894531,
+            588.1749267578125
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "100",
+          "origin": [
+            493.0013122558594,
+            588.1749267578125
+          ],
+          "font": "Lato",
+          "size": 8.706413269042969,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "TO = € 1.045",
+          "origin": [
+            378.466064453125,
+            528.7188110351562
+          ],
+          "font": "Lato-Bold",
+          "size": 12.18897819519043,
+          "color": "#007da2",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Q (kaartjes per dag)",
+          "origin": [
+            387.0060729980469,
+            606.4583740234375
+          ],
+          "font": "Lato",
+          "size": 9.2284574508667,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        0.0,
+        -1.0
+      ],
+      "runs": [
+        {
+          "text": "P (€ per kaartje)",
+          "origin": [
+            310.69744873046875,
+            552.6657104492188
+          ],
+          "font": "Lato",
+          "size": 9.2284574508667,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    }
+  ],
+  "model": {
+    "model": "Equal-scale P-Q rectangles: 10×100=1000;11×95=1045, +4.5%. Area represents TO because P is per ticket and Q is tickets/day.",
+    "geometry_contract": [
+      {
+        "kind": "numeric_geometry",
+        "description": "TO rectangle quantity",
+        "shape_index": 6
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "TO rectangle price",
+        "shape_index": 6
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "TO rectangle area",
+        "shape_index": 6
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "TO rectangle quantity",
+        "shape_index": 15
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "TO rectangle price",
+        "shape_index": 15
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "TO rectangle area",
+        "shape_index": 15
+      }
+    ]
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 109,
+  "caption": "Figuur 3. Begin met de werkelijke transacties, niet met een oppervlakteformule.",
+  "viewBox": [
+    53.85827,
+    87.0,
+    545.2756,
+    175.07025
+  ],
+  "shapes": [
+    {
+      "path": "M 53.8583 87.3636 H 541.4174 V 169.7776 H 53.8583 Z",
+      "fill": "#f3f7f9",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        53.85827,
+        87.36362,
+        541.41736,
+        169.77762
+      ],
+      "clip": [
+        53.85827,
+        87.36362,
+        541.41736,
+        169.77762
+      ]
+    },
+    {
+      "path": "M 68.4583 101.9636 H 159.048 V 155.1776 H 68.4583 Z",
+      "fill": "#ffffff",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        68.45827,
+        101.96362,
+        159.04803,
+        155.17763
+      ],
+      "clip": [
+        68.45827,
+        101.96362,
+        159.04803,
+        155.17763
+      ]
+    },
+    {
+      "path": "M 191.048 101.9636 H 281.6378 V 155.1776 H 191.048 Z",
+      "fill": "#ffffff",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        191.04803,
+        101.96362,
+        281.63779,
+        155.17763
+      ],
+      "clip": [
+        191.04803,
+        101.96362,
+        281.63779,
+        155.17763
+      ]
+    },
+    {
+      "path": "M 313.6378 101.9636 H 404.2276 V 155.1776 H 313.6378 Z",
+      "fill": "#ffffff",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        313.63779,
+        101.96362,
+        404.22757,
+        155.17763
+      ],
+      "clip": [
+        313.63779,
+        101.96362,
+        404.22757,
+        155.17763
+      ]
+    },
+    {
+      "path": "M 436.2275 101.9636 H 526.8173 V 155.1776 H 436.2275 Z",
+      "fill": "#ffffff",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        436.22754,
+        101.96362,
+        526.81732,
+        155.17763
+      ],
+      "clip": [
+        436.22754,
+        101.96362,
+        526.81732,
+        155.17763
+      ]
+    },
+    {
+      "path": "M 54.4583 87.9636 H 540.8173 V 169.1776 H 54.4583 Z M 53.8583 87.3636 H 541.4174 V 169.7776 H 53.8583 Z",
+      "fill": "#dce6eb",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        53.85827,
+        87.36362,
+        541.41736,
+        169.77762
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "1 · Hoeveelheid",
+          "origin": [
+            80.2741470336914,
+            124.43624877929688
+          ],
+          "font": "Lato-Bold",
+          "size": 9.649658203125,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Wie handelt echt?",
+          "origin": [
+            75.2991714477539,
+            140.1742401123047
+          ],
+          "font": "Lato",
+          "size": 9.649658203125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "→",
+          "origin": [
+            166.54827880859375,
+            135.14923095703125
+          ],
+          "font": "Lato",
+          "size": 16.99951171875,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "2 · Gebieden",
+          "origin": [
+            209.2491455078125,
+            118.06724548339844
+          ],
+          "font": "Lato-Bold",
+          "size": 9.649658203125,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Waar ligt het",
+          "origin": [
+            209.2103271484375,
+            133.80523681640625
+          ],
+          "font": "Lato",
+          "size": 9.649658203125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "voordeel?",
+          "origin": [
+            215.6929931640625,
+            146.54324340820312
+          ],
+          "font": "Lato",
+          "size": 9.649658203125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "→",
+          "origin": [
+            289.1380615234375,
+            135.14923095703125
+          ],
+          "font": "Lato",
+          "size": 16.99951171875,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "3 · Berekenen",
+          "origin": [
+            329.39044189453125,
+            124.43624877929688
+          ],
+          "font": "Lato-Bold",
+          "size": 9.649658203125,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Welke delen tel je?",
+          "origin": [
+            319.18121337890625,
+            140.1742401123047
+          ],
+          "font": "Lato",
+          "size": 9.649658203125,
+          "color": "#183e51",
+          "weight": 400
+        },
+        {
+          "text": " ",
+          "origin": [
+            398.7041320800781,
+            140.1742401123047
+          ],
+          "font": "Lato",
+          "size": 16.99951171875,
+          "color": "#557184",
+          "weight": 400
+        },
+        {
+          "text": "→",
+          "origin": [
+            411.727783203125,
+            135.14923095703125
+          ],
+          "font": "Lato",
+          "size": 16.99951171875,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "4 · Uitleggen",
+          "origin": [
+            454.3763122558594,
+            124.43624877929688
+          ],
+          "font": "Lato-Bold",
+          "size": 9.649658203125,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Wat volgt er wel?",
+          "origin": [
+            444.8731384277344,
+            140.1742401123047
+          ],
+          "font": "Lato",
+          "size": 9.649658203125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    }
+  ],
+  "model": {
+    "geometry_contract": [
+      {
+        "kind": "live_text_model",
+        "description": "Transaction-first surplus flow",
+        "required": [
+          "1 · Hoeveelheid",
+          "2 · Gebieden",
+          "3 · Berekenen",
+          "4 · Uitleggen"
+        ],
+        "model": "Determine actual transactions/allocation -> select actual CS/PS areas -> rectangle/triangle amounts -> efficiency/Pareto limitations."
+      }
+    ]
+  }
+}

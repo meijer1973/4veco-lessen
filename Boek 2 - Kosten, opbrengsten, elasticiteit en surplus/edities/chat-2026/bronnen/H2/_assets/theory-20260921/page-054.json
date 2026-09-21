@@ -1,0 +1,618 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 54,
+  "caption": "Figuur 1. Vraag vóór het rekenen: welke factor verandert? Die factor bepaalt de noemer en de naam van de elasticiteit.",
+  "viewBox": [
+    53.85827,
+    288.6076,
+    545.2756,
+    412.15427
+  ],
+  "shapes": [
+    {
+      "path": "M 53.8583 288.6076 H 213.0446 V 408.8616 H 53.8583 Z",
+      "fill": "#eaf4f8",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        53.85827,
+        288.6076,
+        213.04463,
+        408.8616
+      ],
+      "clip": [
+        53.85827,
+        288.6076,
+        213.04463,
+        408.8616
+      ]
+    },
+    {
+      "path": "M 218.0446 288.6076 H 377.231 V 408.8616 H 218.0446 Z",
+      "fill": "#edf5f2",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        218.04462,
+        288.6076,
+        377.23099,
+        408.8616
+      ],
+      "clip": [
+        218.04462,
+        288.6076,
+        377.23099,
+        408.8616
+      ]
+    },
+    {
+      "path": "M 382.231 288.6076 H 541.4174 V 408.8616 H 382.231 Z",
+      "fill": "#faf2e8",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        382.23096,
+        288.6076,
+        541.41736,
+        408.8616
+      ],
+      "clip": [
+        382.23096,
+        288.6076,
+        541.41736,
+        408.8616
+      ]
+    },
+    {
+      "path": "M 55.8583 288.6076 H 213.0446 V 408.8616 H 55.8583 Z M 53.8583 288.6076 H 213.0446 V 408.8616 H 53.8583 Z",
+      "fill": "#007da2",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        53.85827,
+        288.6076,
+        55.85827,
+        408.8616
+      ],
+      "clip": [
+        53.85827,
+        288.6076,
+        55.85827,
+        408.8616
+      ]
+    },
+    {
+      "path": "M 220.0446 288.6076 H 377.231 V 408.8616 H 220.0446 Z M 218.0446 288.6076 H 377.231 V 408.8616 H 218.0446 Z",
+      "fill": "#008779",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        218.04462,
+        288.6076,
+        220.04462,
+        408.8616
+      ],
+      "clip": [
+        218.04462,
+        288.6076,
+        220.04462,
+        408.8616
+      ]
+    },
+    {
+      "path": "M 384.231 288.6076 H 541.4174 V 408.8616 H 384.231 Z M 382.231 288.6076 H 541.4174 V 408.8616 H 382.231 Z",
+      "fill": "#b76518",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        382.23096,
+        288.6076,
+        384.23099,
+        408.8616
+      ],
+      "clip": [
+        382.23096,
+        288.6076,
+        384.23099,
+        408.8616
+      ]
+    },
+    {
+      "path": "M 67.8583 348.8736 H 108.3663 V 364.7886 H 67.8583 Z M 67.8583 348.8736 H 108.3663 V 365.7886 H 67.8583 Z",
+      "fill": "#007da2",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        67.85827,
+        364.78864,
+        108.36633,
+        365.78864
+      ],
+      "clip": [
+        67.85827,
+        364.78864,
+        108.36633,
+        365.78864
+      ]
+    },
+    {
+      "path": "M 232.0446 348.8736 H 272.5527 V 364.7886 H 232.0446 Z M 232.0446 348.8736 H 272.5527 V 365.7886 H 232.0446 Z",
+      "fill": "#008779",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        232.04462,
+        364.78864,
+        272.55267,
+        365.78864
+      ],
+      "clip": [
+        232.04462,
+        364.78864,
+        272.55267,
+        365.78864
+      ]
+    },
+    {
+      "path": "M 396.231 348.8736 H 469.3545 V 364.7886 H 396.231 Z M 396.231 348.8736 H 469.3545 V 365.7886 H 396.231 Z",
+      "fill": "#b76518",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        396.23099,
+        364.78864,
+        469.35452,
+        365.78864
+      ],
+      "clip": [
+        396.23099,
+        364.78864,
+        469.35452,
+        365.78864
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Eigen prijs · Ev",
+          "origin": [
+            65.85826873779297,
+            308.6742858886719
+          ],
+          "font": "Lato-Bold",
+          "size": 11.099853515625,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "De prijs van het ",
+          "origin": [
+            65.85826873779297,
+            326.77801513671875
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        },
+        {
+          "text": "goed zelf",
+          "origin": [
+            138.48081970214844,
+            326.77801513671875
+          ],
+          "font": "Lato-Bold",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "verandert.",
+          "origin": [
+            65.85826873779297,
+            340.1400146484375
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "%ΔQv",
+          "origin": [
+            70.85826873779297,
+            360.51348876953125
+          ],
+          "font": "Lato-Bold",
+          "size": 12.099609375,
+          "color": "#007da2",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "%ΔP",
+          "origin": [
+            75.18981170654297,
+            379.4284973144531
+          ],
+          "font": "Lato-Bold",
+          "size": 12.099609375,
+          "color": "#007da2",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Dit ken je uit §2.2.1.",
+          "origin": [
+            65.85826873779297,
+            397.2300109863281
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Inkomen · Ei",
+          "origin": [
+            230.04461669921875,
+            308.6742858886719
+          ],
+          "font": "Lato-Bold",
+          "size": 11.099853515625,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Het ",
+          "origin": [
+            230.04461669921875,
+            326.77801513671875
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        },
+        {
+          "text": "inkomen Y",
+          "origin": [
+            249.29046630859375,
+            326.77801513671875
+          ],
+          "font": "Lato-Bold",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 700
+        },
+        {
+          "text": " van de",
+          "origin": [
+            297.09490966796875,
+            326.77801513671875
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "consumenten verandert.",
+          "origin": [
+            230.04461669921875,
+            340.1400146484375
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "%ΔQv",
+          "origin": [
+            235.04461669921875,
+            360.51348876953125
+          ],
+          "font": "Lato-Bold",
+          "size": 12.099609375,
+          "color": "#008779",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "%ΔY",
+          "origin": [
+            239.20074462890625,
+            379.4284973144531
+          ],
+          "font": "Lato-Bold",
+          "size": 12.099609375,
+          "color": "#008779",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Lees verder op p. 53.",
+          "origin": [
+            230.04461669921875,
+            397.2300109863281
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Andere prijs · Ek",
+          "origin": [
+            394.23095703125,
+            308.6742858886719
+          ],
+          "font": "Lato-Bold",
+          "size": 11.099853515625,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "De prijs van een ",
+          "origin": [
+            394.23095703125,
+            326.77801513671875
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        },
+        {
+          "text": "ander goed Z",
+          "origin": [
+            468.61865234375,
+            326.77801513671875
+          ],
+          "font": "Lato-Bold",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "verandert.",
+          "origin": [
+            394.23095703125,
+            340.1400146484375
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "%ΔQv van X",
+          "origin": [
+            399.2309875488281,
+            360.51348876953125
+          ],
+          "font": "Lato-Bold",
+          "size": 12.099609375,
+          "color": "#b76518",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "%ΔP van Z",
+          "origin": [
+            403.9803771972656,
+            379.4284973144531
+          ],
+          "font": "Lato-Bold",
+          "size": 12.099609375,
+          "color": "#b76518",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Lees verder op p. 54.",
+          "origin": [
+            394.23095703125,
+            397.2300109863281
+          ],
+          "font": "Lato",
+          "size": 10.19970703125,
+          "color": "#183e51",
+          "weight": 400
+        }
+      ]
+    }
+  ],
+  "model": {
+    "geometry_contract": [
+      {
+        "kind": "live_text_model",
+        "description": "Distinct elasticity denominators",
+        "required": [
+          "Eigen prijs · Ev",
+          "%ΔQv",
+          "%ΔP",
+          "Inkomen · Ei",
+          "%ΔY",
+          "Andere prijs · Ek",
+          "%ΔQv van X",
+          "%ΔP van Z"
+        ],
+        "model": "Ev: quantity/own price; Ei:quantity/income; Ek:quantity of X/price of Z; old percentage denominators preserved in surrounding source"
+      }
+    ]
+  }
+}

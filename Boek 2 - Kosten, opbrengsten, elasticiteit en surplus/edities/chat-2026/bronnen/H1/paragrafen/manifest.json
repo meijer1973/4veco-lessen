@@ -1,0 +1,82 @@
+[
+  {
+    "id": "2.1.1",
+    "title": "Kostenstructuren",
+    "student_pages": [
+      2,
+      9
+    ],
+    "exercise_pages": [
+      5,
+      9
+    ],
+    "theory": true,
+    "assets": [
+      "_assets/2.1.1_fig_1.png",
+      "_assets/theory-20260921/page-005.svg",
+      "_assets/theory-20260921/page-006.svg"
+    ],
+    "folder": "paragrafen/2.1.1 Kostenstructuren"
+  },
+  {
+    "id": "2.1.2",
+    "title": "Opbrengsten, winst en break-even",
+    "student_pages": [
+      10,
+      18
+    ],
+    "exercise_pages": [
+      13,
+      18
+    ],
+    "theory": true,
+    "assets": [
+      "_assets/2.1.2_ex_1.png",
+      "_assets/2.1.2_ex_2.png",
+      "_assets/2.1.2_ex_3.png",
+      "_assets/2.1.2_ex_4.png",
+      "_assets/2.1.2_ex_5.png",
+      "_assets/theory-20260921/page-012.svg",
+      "_assets/theory-20260921/page-014.svg"
+    ],
+    "folder": "paragrafen/2.1.2 Opbrengsten, winst en break-even"
+  },
+  {
+    "id": "2.1.3",
+    "title": "Marginale kosten en marginale opbrengsten",
+    "student_pages": [
+      19,
+      27
+    ],
+    "exercise_pages": [
+      22,
+      27
+    ],
+    "theory": true,
+    "assets": [
+      "_assets/theory-20260921/page-021.svg",
+      "_assets/theory-20260921/page-023.svg"
+    ],
+    "folder": "paragrafen/2.1.3 Marginale kosten en marginale opbrengsten"
+  },
+  {
+    "id": "2.1.4",
+    "title": "Gemengde opgaven",
+    "student_pages": [
+      29,
+      34
+    ],
+    "exercise_pages": [
+      29,
+      34
+    ],
+    "theory": false,
+    "assets": [
+      "_assets/2.1.4_ex_1.png",
+      "_assets/2.1.4_ex_2.png",
+      "_assets/2.1.4_ex_3.png",
+      "_assets/2.1.4_ex_4.png"
+    ],
+    "folder": "paragrafen/2.1.4 Gemengde opgaven"
+  }
+]

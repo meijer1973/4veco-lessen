@@ -1,5 +1,7 @@
 # Boek 2, hoofdstuk 3 — Surplus en welvaart
 
+**Actuele theorie- en elasticiteitsrevisie (21 september):** bouw via platform `build-scripts/books/rebuild_book2_signed.py --all`. Zie [bronnen, bewijs en beperkingen](../../SIGNED-REVISION-2026-09-21.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
+
 **Actuele bouwroute:** [platformcontroller](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/books/EXERCISE-ROUTES.md); [revisie en timing](../../ROUTE-REVISION-2026-09-21.md). De hieronder beschreven lokale scripts zijn ontvangen bouwonderdelen. Gebruik voor nieuwe uitvoer de platformcontroller.
 
 
@@ -55,4 +57,4 @@ De GitHub-verbinding kon beide repositorykaarten en de inhoudelijke bronnen leze
 
 ## Drukken
 
-A4, werkelijke grootte, dubbelzijdig, omslaan over de lange zijde. De 38 leerlingpagina’s blijven binnen de grens van 40. De bronnen en vragen van de gemengde doeloefening staan op de tegenoverliggende pagina’s 34–35. Antwoorden en docenteninformatie zijn niet in die 38 pagina’s opgenomen.
+A4, werkelijke grootte, dubbelzijdig, omslaan over de lange zijde. De 38 leerlingpagina’s blijven binnen de grens van 40. De bronnen en vragen van de gemengde doeloefening staan op de tegenoverliggende pagina’s 104–105. Antwoorden en docenteninformatie zijn niet in die 38 pagina’s opgenomen.

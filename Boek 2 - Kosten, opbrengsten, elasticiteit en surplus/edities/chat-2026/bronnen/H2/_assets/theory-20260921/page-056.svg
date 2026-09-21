@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.41733pt" height="70.68469pt" viewBox="53.85827 419.6846 491.41733 70.68469" role="img">
+<title>Figuur 3. Lees het verband van de prijs van Z naar de vraag naar X. De richting bepaalt het teken van Ek.</title>
+<defs><clipPath id="clip-0"><rect x="53.85827" y="419.6846" width="487.55909" height="65.392"/></clipPath></defs>
+<path d="M 53.8583 419.6846 H 541.4174 V 485.0766 H 53.8583 Z" fill="#f3f7f9" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="64.45827" y="430.28461" width="217.17952" height="44.19201"/></clipPath></defs>
+<path d="M 64.4583 430.2846 H 281.6378 V 474.4766 H 64.4583 Z" fill="#faf2e8" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="313.63779" y="430.28461" width="217.17953" height="44.19201"/></clipPath></defs>
+<path d="M 313.6378 430.2846 H 530.8173 V 474.4766 H 313.6378 Z" fill="#eaf4f8" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 54.4583 420.2846 H 540.8173 V 484.4767 H 54.4583 Z M 53.8583 419.6846 H 541.4174 V 485.0766 H 53.8583 Z" fill="#dce6eb" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-3)"/>
+<text x="126.00311" y="448.06848" font-family="Lato" font-size="10.29932" font-weight="700" fill="#183e51">Prijs van Z verandert</text>
+<text x="142.59174" y="464.66446" font-family="Lato" font-size="10.29932" font-weight="400" fill="#183e51">bus of printer</text>
+<text x="289.13806" y="458.95923" font-family="Lato" font-size="16.99951" font-weight="400" fill="#557184">→</text>
+<text x="372.74039" y="448.06848" font-family="Lato" font-size="10.29932" font-weight="700" fill="#183e51">Vraag naar X reageert</text>
+<text x="383.79483" y="464.66446" font-family="Lato" font-size="10.29932" font-weight="400" fill="#183e51">treinritten of inkt</text>
+</svg>

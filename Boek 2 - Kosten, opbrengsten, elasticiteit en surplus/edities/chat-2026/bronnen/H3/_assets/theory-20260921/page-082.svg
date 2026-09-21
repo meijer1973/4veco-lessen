@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.2756pt" height="85.74481pt" viewBox="54 427.04248 491.2756 85.74481" role="img">
+<title>Figuur 1. De prijs verdeelt het voordeel tussen koper en verkoper. Samen is het voordeel € 50 − € 20 = € 30.</title>
+<defs><clipPath id="clip-0"><rect x="53.85827" y="400.05261" width="487.55909" height="111.44208"/></clipPath></defs>
+<path d="M 86.9426 432.2663 H 256.8918 V 462.7388 H 86.9426 Z" fill="#e7eef2" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="53.85827" y="400.05261" width="487.55909" height="111.44208"/></clipPath></defs>
+<path d="M 256.8918 432.2663 H 384.3537 V 462.7388 H 256.8918 Z" fill="#dcefe8" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="53.85827" y="400.05261" width="487.55909" height="111.44208"/></clipPath></defs>
+<path d="M 384.3537 432.2663 H 511.8156 V 462.7388 H 384.3537 Z" fill="#d9ecf4" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="53.85827" y="400.05261" width="487.55909" height="111.44208"/></clipPath></defs>
+<path d="M 86.9426 427.0425 L 86.9426 466.2213" fill="#000000" fill-rule="nonzero" stroke="#557184" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-3)"/>
+<defs><clipPath id="clip-4"><rect x="53.85827" y="400.05261" width="487.55909" height="111.44208"/></clipPath></defs>
+<path d="M 256.8918 427.0425 L 256.8918 466.2213" fill="#000000" fill-rule="nonzero" stroke="#557184" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-4)"/>
+<defs><clipPath id="clip-5"><rect x="53.85827" y="400.05261" width="487.55909" height="111.44208"/></clipPath></defs>
+<path d="M 384.3537 427.0425 L 384.3537 466.2213" fill="#000000" fill-rule="nonzero" stroke="#557184" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-5)"/>
+<defs><clipPath id="clip-6"><rect x="53.85827" y="400.05261" width="487.55909" height="111.44208"/></clipPath></defs>
+<path d="M 511.8156 427.0425 L 511.8156 466.2213" fill="#000000" fill-rule="nonzero" stroke="#557184" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-6)"/>
+<text x="148.63524" y="451.42044" font-family="Lato" font-size="11.31834" font-weight="700" fill="#183e51">MK: € 20</text>
+<text x="299.96075" y="451.42044" font-family="Lato" font-size="11.31834" font-weight="700" fill="#008779">PS: € 15</text>
+<text x="427.18204" y="451.42044" font-family="Lato" font-size="11.31834" font-weight="700" fill="#007da2">CS: € 15</text>
+<text x="80.16201" y="481.02225" font-family="Lato" font-size="9.57705" font-weight="400" fill="#183e51">€ 0</text>
+<text x="247.33389" y="481.02225" font-family="Lato" font-size="9.57705" font-weight="400" fill="#183e51">€ 20</text>
+<text x="374.79581" y="481.02225" font-family="Lato" font-size="9.57705" font-weight="400" fill="#183e51">€ 35</text>
+<text x="502.25766" y="481.02225" font-family="Lato" font-size="9.57705" font-weight="400" fill="#183e51">€ 50</text>
+<text x="201.59692" y="508.01215" font-family="Lato" font-size="10.4477" font-weight="700" fill="#183e51">prijs verdeelt het voordeel; CS + PS = € 30</text>
+</svg>

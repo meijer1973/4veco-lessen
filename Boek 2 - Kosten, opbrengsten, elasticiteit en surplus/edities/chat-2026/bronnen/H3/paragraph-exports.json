@@ -1,0 +1,107 @@
+{
+  "2.3.1": {
+    "chapter_pages": [
+      2,
+      9
+    ],
+    "exercise_pages": [
+      5,
+      9
+    ],
+    "answer_pages": [
+      2,
+      5
+    ],
+    "exercise_count": 11,
+    "assets": [
+      "_assets/2.3.1_ans_4.svg",
+      "_assets/2.3.1_ans_6.svg",
+      "_assets/2.3.1_ans_8.svg",
+      "_assets/2.3.1_ex_1.svg",
+      "_assets/2.3.1_ex_2.svg",
+      "_assets/theory-20260921/page-074.svg",
+      "_assets/theory-20260921/page-075.svg",
+      "_assets/theory-20260921/page-076.svg",
+      "_assets/theory-20260921/page-077.svg"
+    ]
+  },
+  "2.3.2": {
+    "chapter_pages": [
+      10,
+      19
+    ],
+    "exercise_pages": [
+      13,
+      19
+    ],
+    "answer_pages": [
+      6,
+      9
+    ],
+    "exercise_count": 11,
+    "assets": [
+      "_assets/2.3.2_ans_4.svg",
+      "_assets/2.3.2_ans_6.svg",
+      "_assets/2.3.2_ans_8.svg",
+      "_assets/2.3.2_ex_1.svg",
+      "_assets/2.3.2_ex_2.svg",
+      "_assets/2.3.2_ex_3.svg",
+      "_assets/2.3.2_ex_4.svg",
+      "_assets/theory-20260921/page-082.svg",
+      "_assets/theory-20260921/page-083.svg",
+      "_assets/theory-20260921/page-084.svg",
+      "_assets/theory-20260921/page-085.svg"
+    ]
+  },
+  "2.3.3": {
+    "chapter_pages": [
+      20,
+      30
+    ],
+    "exercise_pages": [
+      24,
+      30
+    ],
+    "answer_pages": [
+      10,
+      13
+    ],
+    "exercise_count": 9,
+    "assets": [
+      "_assets/2.3.3_ans_4.svg",
+      "_assets/2.3.3_ans_5.svg",
+      "_assets/2.3.3_ans_6.svg",
+      "_assets/2.3.3_ex_1.svg",
+      "_assets/2.3.3_ex_2.svg",
+      "_assets/2.3.3_ex_3.svg",
+      "_assets/2.3.3_ex_4.svg",
+      "_assets/theory-20260921/page-092.svg",
+      "_assets/theory-20260921/page-093.svg",
+      "_assets/theory-20260921/page-094.svg",
+      "_assets/theory-20260921/page-095.svg",
+      "_assets/theory-20260921/page-096.svg",
+      "_assets/theory-20260921/page-097.svg"
+    ]
+  },
+  "2.3.4": {
+    "chapter_pages": [
+      31,
+      36
+    ],
+    "exercise_pages": [
+      31,
+      36
+    ],
+    "answer_pages": [
+      14,
+      17
+    ],
+    "exercise_count": 7,
+    "assets": [
+      "_assets/2.3.4_ans_2.svg",
+      "_assets/2.3.4_ans_3.svg",
+      "_assets/2.3.4_ex_1.svg",
+      "_assets/2.3.4_ex_2.svg"
+    ]
+  }
+}

@@ -1,10 +1,12 @@
 # Boek 2 — Kosten, opbrengsten, elasticiteit en surplus
 
+**Actuele theorie- en elasticiteitsrevisie (21 september):** bouw via platform `build-scripts/books/rebuild_book2_signed.py --all`. Zie [bronnen, bewijs en beperkingen](SIGNED-REVISION-2026-09-21.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
+
 ## Actuele chatuitgave · 2026
 
 **Oefenroutes gewijzigd, 21 september:** zie [routes, timing en bouwbewijs](ROUTE-REVISION-2026-09-21.md). De actuele hoofdstuktekst is opnieuw opgebouwd; het oorspronkelijke ontvangstmanifest blijft historisch.
 
-Deze uitgave bevat het voltooide Boek 2 dat de eigenaar voor opname in de repository heeft geselecteerd. De teksten, opgaven, antwoorden, figuren en PDF-pagina’s werden bij de import behouden. Dit is geen opnieuw geschreven repositoryversie.
+Deze uitgave bevat het voltooide Boek 2 dat de eigenaar voor opname in de repository heeft geselecteerd. De teksten, opgaven, antwoorden, figuren en PDF-pagina’s werden bij de import behouden. De actuele versie bevat de hieronder beschreven bronrevisie.
 
 **Gerichte correcties, 20 september 2026:** de overzichtslink van hoofdstuk 2.3 en de drie gerapporteerde omslagfouten zijn hersteld in de volledige bundels. Hoofdstukken en paginering zijn behouden. Zie [correcties, bouwroute en controle](CORRECTIES-2026-09-20.md).
 
@@ -45,6 +47,6 @@ Elke koppeling opent de map met de bestaande Markdown- en PDF-exports. De oorspr
 
 Zie [importnotities](IMPORT_NOTES.md) en [bestandsmanifest](delivery-manifest.json). De historische bouwscripts, vereisten, bronverantwoording en lokale controlerapporten zijn meegeleverd, zonder die rapporten als nieuwe repository-CI of onafhankelijke inhoudsreview te presenteren.
 
-De huidige hoofdstukken zijn na de routewijziging opnieuw opgebouwd en samengevoegd. De hoofdstukpaginanummers beginnen opnieuw per hoofdstuk; de inhoudsopgave van de bundel noemt de fysieke PDF-startpagina’s 3, 37 en 73. Deze revisie behoudt die paginering.
+De volledige bundels hebben een ongenummerde omslag en inhoudsopgave. Daarna loopt de gedrukte paginering door: leerlingenboek 1–108, antwoordenboek 1–55 en docenteninformatie 1–17. In het leerlingenboek beginnen de hoofdstukken op gedrukte pagina’s 1, 35 en 71 (fysieke PDF-pagina’s 3, 37 en 73). De losse hoofdstukken en paragraafexports behouden de boekpaginanummers. Zie [de actuele bouwroute en paginamapping](SIGNED-REVISION-2026-09-21.md).
 
 **Afdrukken:** A4 op ware grootte. De geleverde PDF’s bepalen de bladspiegel. Antwoorden en docenteninformatie blijven afzonderlijke documenten.

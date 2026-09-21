@@ -1,0 +1,77 @@
+[
+  {
+    "id": "2.2.1",
+    "title": "Prijselasticiteit",
+    "student_pages": [
+      2,
+      9
+    ],
+    "exercise_pages": [
+      5,
+      9
+    ],
+    "theory": true,
+    "assets": [
+      "_assets/theory-20260921/page-038.svg",
+      "_assets/theory-20260921/page-039.svg",
+      "_assets/theory-20260921/page-040.svg"
+    ],
+    "folder": "paragrafen/2.2.1 Prijselasticiteit"
+  },
+  {
+    "id": "2.2.2",
+    "title": "Elasticiteit en omzet",
+    "student_pages": [
+      10,
+      17
+    ],
+    "exercise_pages": [
+      12,
+      17
+    ],
+    "theory": true,
+    "assets": [
+      "_assets/theory-20260921/page-046.svg",
+      "_assets/theory-20260921/page-047.svg",
+      "_assets/theory-20260921/page-048.svg"
+    ],
+    "folder": "paragrafen/2.2.2 Elasticiteit en omzet"
+  },
+  {
+    "id": "2.2.3",
+    "title": "Inkomenselasticiteit en kruislingse elasticiteit",
+    "student_pages": [
+      18,
+      29
+    ],
+    "exercise_pages": [
+      23,
+      29
+    ],
+    "theory": true,
+    "assets": [
+      "_assets/theory-20260921/page-054.svg",
+      "_assets/theory-20260921/page-055.svg",
+      "_assets/theory-20260921/page-056.svg",
+      "_assets/theory-20260921/page-057.svg"
+    ],
+    "folder": "paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit"
+  },
+  {
+    "id": "2.2.4",
+    "title": "Gemengde opgaven",
+    "student_pages": [
+      30,
+      35
+    ],
+    "exercise_pages": [
+      30,
+      35
+    ],
+    "theory": false,
+    "assets": [
+      "_assets/2.2.4_fig_1.png"
+    ],
+    "folder": "paragrafen/2.2.4 Gemengde opgaven"
+  }
+]

@@ -1,5 +1,7 @@
 # Boek 2 · Hoofdstuk 2.2 · Elasticiteit
 
+**Actuele theorie- en elasticiteitsrevisie (21 september):** bouw via platform `build-scripts/books/rebuild_book2_signed.py --all`. Zie [bronnen, bewijs en beperkingen](../../SIGNED-REVISION-2026-09-21.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
+
 **Actuele bouwroute:** [platformcontroller](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/books/EXERCISE-ROUTES.md); [revisie en timing](../../ROUTE-REVISION-2026-09-21.md). De hieronder beschreven lokale scripts zijn ontvangen bouwonderdelen. Gebruik voor nieuwe uitvoer de platformcontroller.
 
 
@@ -14,7 +16,7 @@ Een nieuw geschreven Nederlandstalige printeditie voor 4 vwo. De bestaande leerl
 
 De leerlingeditie bevat 38 genummerde opgaven en 13 instructieve figuren. Elk opgavenummer begint per paragraaf opnieuw. Alle voorbeelden zijn fictieve onderwijscontexten; de getallen zijn geen empirische gegevens over echte bedrijven. De doelcontexten Nova en StreamNow worden bewust in §2.2.1 en §2.2.2 hergebruikt omdat de bronautoriteit die koppeling voorschrijft.
 
-**Print:** A4, ware grootte, dubbelzijdig, omslaan aan de lange zijde. Bij een ongewijzigde paginavolgorde staan de StreamPlus-bronnen en vragen op de naast elkaar liggende pagina’s 32–33. Leerlingen werken in een schrift.
+**Print:** A4, ware grootte, dubbelzijdig, omslaan aan de lange zijde. Bij een ongewijzigde paginavolgorde staan de StreamPlus-bronnen en vragen op de naast elkaar liggende pagina’s 66–67. Leerlingen werken in een schrift.
 
 ## Bronbestanden en afgeleide uitvoer
 

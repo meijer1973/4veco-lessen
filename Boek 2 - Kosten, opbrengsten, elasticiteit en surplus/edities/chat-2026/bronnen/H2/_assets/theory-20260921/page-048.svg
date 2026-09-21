@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.41733pt" height="70.68457pt" viewBox="53.85827 518.99866 491.41733 70.68457" role="img">
+<title>Figuur 3. De procentuele verandering vergelijkt de € 45 extra omzet met de oorspronkelijke € 1.000 omzet.</title>
+<defs><clipPath id="clip-0"><rect x="53.85827" y="518.99866" width="487.55909" height="65.39196"/></clipPath></defs>
+<path d="M 53.8583 518.9987 H 541.4174 V 584.3906 H 53.8583 Z" fill="#f3f7f9" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="64.45827" y="529.59863" width="134.11967" height="44.19196"/></clipPath></defs>
+<path d="M 64.4583 529.5986 H 198.5779 V 573.7906 H 64.4583 Z" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="230.57794" y="529.59863" width="134.11969" height="44.19196"/></clipPath></defs>
+<path d="M 230.5779 529.5986 H 364.6976 V 573.7906 H 230.5779 Z" fill="#eaf4f8" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="396.69763" y="529.59863" width="134.11969" height="44.19196"/></clipPath></defs>
+<path d="M 396.6976 529.5986 H 530.8173 V 573.7906 H 396.6976 Z" fill="#edf5f2" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-3)"/>
+<defs><clipPath id="clip-4"><rect x="0" y="0" width="595.27557" height="841.88977"/></clipPath></defs>
+<path d="M 54.4583 519.5986 H 540.8173 V 583.7906 H 54.4583 Z M 53.8583 518.9987 H 541.4174 V 584.3906 H 53.8583 Z" fill="#dce6eb" fill-rule="evenodd" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-4)"/>
+<text x="103.33159" y="547.38245" font-family="Lato" font-size="10.29932" font-weight="700" fill="#183e51">Oude omzet</text>
+<text x="114.05022" y="563.97852" font-family="Lato" font-size="10.29932" font-weight="400" fill="#183e51">€ 1.000</text>
+<text x="206.0782" y="558.27325" font-family="Lato" font-size="16.99951" font-weight="400" fill="#557184">→</text>
+<text x="269.79114" y="547.38245" font-family="Lato" font-size="10.29932" font-weight="700" fill="#183e51">Verandering</text>
+<text x="283.05383" y="563.97852" font-family="Lato" font-size="10.29932" font-weight="400" fill="#183e51">+ € 45</text>
+<text x="372.19788" y="558.27325" font-family="Lato" font-size="16.99951" font-weight="400" fill="#557184">→</text>
+<text x="430.54218" y="547.38245" font-family="Lato" font-size="10.29932" font-weight="700" fill="#183e51">Nieuwe omzet</text>
+<text x="446.28961" y="563.97852" font-family="Lato" font-size="10.29932" font-weight="400" fill="#183e51">€ 1.045</text>
+</svg>

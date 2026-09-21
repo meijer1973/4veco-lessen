@@ -1,0 +1,445 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 40,
+  "caption": "Figuur 3. Bij een negatieve Ev betekent verder naar links: een sterkere procentuele reactie van Qv op P.",
+  "viewBox": [
+    54.0,
+    369.0,
+    545.2756,
+    451.51974
+  ],
+  "shapes": [
+    {
+      "path": "M 73.8583 382 H 372.231 V 405 H 73.8583 Z",
+      "fill": "#ecf4f2",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        73.85827,
+        381.99997,
+        372.23099,
+        404.99997
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 372.231 382 H 521.4173 V 405 H 372.231 Z",
+      "fill": "#e8f3f7",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        372.23099,
+        381.99997,
+        521.4173,
+        404.99997
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 73.8583 405 L 521.4173 405",
+      "fill": "none",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6499999761581421,
+      "fill_opacity": null,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        73.85827,
+        404.99997,
+        521.4173,
+        404.99997
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 73.8583 409 L 73.8583 403",
+      "fill": "none",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6499999761581421,
+      "fill_opacity": null,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        73.85827,
+        402.99997,
+        73.85827,
+        408.99997
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 223.0446 409 L 223.0446 403",
+      "fill": "none",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6499999761581421,
+      "fill_opacity": null,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        223.0446,
+        402.99997,
+        223.0446,
+        408.99997
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 372.231 409 L 372.231 403",
+      "fill": "none",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6499999761581421,
+      "fill_opacity": null,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        372.23099,
+        402.99997,
+        372.23099,
+        408.99997
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 521.4173 409 L 521.4173 403",
+      "fill": "none",
+      "fill_rule": "nonzero",
+      "stroke": "#557184",
+      "width": 0.6499999761581421,
+      "fill_opacity": null,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        521.4173,
+        402.99997,
+        521.4173,
+        408.99997
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 372.231 381 L 372.231 407",
+      "fill": "none",
+      "fill_rule": "nonzero",
+      "stroke": "#b76518",
+      "width": 1.100000023841858,
+      "fill_opacity": null,
+      "stroke_opacity": 1.0,
+      "dash": "[] 0",
+      "bounds": [
+        372.23099,
+        380.99997,
+        372.23099,
+        406.99997
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 225.6446 405 C 225.6446 403.5641 224.4806 402.4 223.0446 402.4 C 221.6087 402.4 220.4446 403.5641 220.4446 405 C 220.4446 406.436 221.6087 407.6 223.0446 407.6 C 224.4806 407.6 225.6446 406.436 225.6446 405",
+      "fill": "#008779",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        220.4446,
+        402.39996,
+        225.64461,
+        407.59998
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 449.4241 405 C 449.4241 403.5641 448.2601 402.4 446.8241 402.4 C 445.3882 402.4 444.2241 403.5641 444.2241 405 C 444.2241 406.436 445.3882 407.6 446.8241 407.6 C 448.2601 407.6 449.4241 406.436 449.4241 405",
+      "fill": "#007da2",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        444.22409,
+        402.39996,
+        449.4241,
+        407.59998
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "prijselastisch",
+          "origin": [
+            127.8582992553711,
+            395.2647705078125
+          ],
+          "font": "Lato-Bold",
+          "size": 10.399999618530273,
+          "color": "#008779",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "prijsinelastisch",
+          "origin": [
+            398.2309875488281,
+            395.2647705078125
+          ],
+          "font": "Lato-Bold",
+          "size": 10.399999618530273,
+          "color": "#007da2",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "−3",
+          "origin": [
+            69.85826873779297,
+            423.47515869140625
+          ],
+          "font": "Lato-Regular",
+          "size": 9.600000381469727,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "−2",
+          "origin": [
+            219.0446014404297,
+            423.47515869140625
+          ],
+          "font": "Lato-Regular",
+          "size": 9.600000381469727,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "−1",
+          "origin": [
+            368.2309875488281,
+            423.47515869140625
+          ],
+          "font": "Lato-Regular",
+          "size": 9.600000381469727,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "0",
+          "origin": [
+            517.4172973632812,
+            423.47515869140625
+          ],
+          "font": "Lato-Regular",
+          "size": 9.600000381469727,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "grens: Ev = −1",
+          "origin": [
+            343.2309875488281,
+            377.4258728027344
+          ],
+          "font": "Lato-Bold",
+          "size": 9.550000190734863,
+          "color": "#b76518",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "SpringVrij: Ev = −2",
+          "origin": [
+            182.0446014404297,
+            440.4258728027344
+          ],
+          "font": "Lato-Bold",
+          "size": 9.550000190734863,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "RolVast: Ev = −0,5",
+          "origin": [
+            403.8240966796875,
+            440.4258728027344
+          ],
+          "font": "Lato-Bold",
+          "size": 9.550000190734863,
+          "color": "#183e51",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Ev",
+          "origin": [
+            514.4172973632812,
+            437.4258728027344
+          ],
+          "font": "Lato-Regular",
+          "size": 9.550000190734863,
+          "color": "#557184",
+          "weight": 400
+        }
+      ]
+    }
+  ],
+  "model": {
+    "model": "Non-positive own-price demand: Ev<-1 elastic; -1<Ev<0 inelastic; -1 unit elastic; zero no measured response. Number line is signed, leftward magnitude strengthens.",
+    "geometry_contract": [
+      {
+        "kind": "numeric_geometry",
+        "description": "Signed number-line marker -1",
+        "shape_index": 7
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "Signed number-line marker -2",
+        "shape_index": 8
+      },
+      {
+        "kind": "numeric_geometry",
+        "description": "Signed number-line marker -0.5",
+        "shape_index": 9
+      }
+    ]
+  }
+}

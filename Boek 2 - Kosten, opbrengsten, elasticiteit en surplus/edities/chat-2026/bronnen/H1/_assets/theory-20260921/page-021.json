@@ -1,0 +1,415 @@
+{
+  "provenance": "Recovered bounded geometry from accepted 2026-09-21 PDF; no page facsimile. See revision page map and geometry checks.",
+  "accepted_page": 21,
+  "caption": "Figuur 1. Eerst de toename bepalen, daarna delen door het aantal extra producten.",
+  "viewBox": [
+    54.0,
+    432.0,
+    545.2756,
+    544.01624
+  ],
+  "shapes": [
+    {
+      "path": "M 54 432.245 H 545.2756 V 542.93 H 54 Z",
+      "fill": "#f5f8f9",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        54.0,
+        432.245,
+        545.27557,
+        542.92999
+      ],
+      "clip": [
+        54.0,
+        432.245,
+        545.27557,
+        542.92999
+      ]
+    },
+    {
+      "path": "M 54.6 432.845 H 544.6756 V 542.33 H 54.6 Z M 54 432.245 H 545.2756 V 542.93 H 54 Z",
+      "fill": "#dbe4e8",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        54.0,
+        432.245,
+        545.27557,
+        542.92999
+      ],
+      "clip": [
+        0.0,
+        0.0,
+        595.27557,
+        841.88977
+      ]
+    },
+    {
+      "path": "M 66.6 442.845 H 199.9589 V 502.027 H 66.6 Z",
+      "fill": "#ffffff",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        66.60001,
+        442.84503,
+        199.95886,
+        502.02704
+      ],
+      "clip": [
+        66.60001,
+        442.84503,
+        199.95886,
+        502.02704
+      ]
+    },
+    {
+      "path": "M 232.9584 442.845 H 366.3172 V 502.027 H 232.9584 Z",
+      "fill": "#ffffff",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        232.95836,
+        442.84503,
+        366.31723,
+        502.02704
+      ],
+      "clip": [
+        232.95836,
+        442.84503,
+        366.31723,
+        502.02704
+      ]
+    },
+    {
+      "path": "M 399.3167 442.845 H 532.6756 V 502.027 H 399.3167 Z",
+      "fill": "#eef4f2",
+      "fill_rule": "nonzero",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        399.31671,
+        442.84503,
+        532.6756,
+        502.02704
+      ],
+      "clip": [
+        399.31671,
+        442.84503,
+        532.6756,
+        502.02704
+      ]
+    },
+    {
+      "path": "M 66.6 510.527 H 532.6756 V 532.33 H 66.6 Z M 66.6 510.027 H 532.6756 V 532.33 H 66.6 Z",
+      "fill": "#cfdee4",
+      "fill_rule": "evenodd",
+      "stroke": "none",
+      "width": 0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1,
+      "dash": "[] 0",
+      "bounds": [
+        66.60001,
+        510.02701,
+        532.6756,
+        510.52698
+      ],
+      "clip": [
+        66.60001,
+        510.02701,
+        532.6756,
+        510.52698
+      ]
+    }
+  ],
+  "text": [
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Eerst",
+          "origin": [
+            120.78943634033203,
+            461.3068542480469
+          ],
+          "font": "Lato-Bold",
+          "size": 10.99951171875,
+          "color": "#18364b",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Q = 40",
+          "origin": [
+            117.10132598876953,
+            478.2999267578125
+          ],
+          "font": "Lato",
+          "size": 10.599608421325684,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "TK = € 260",
+          "origin": [
+            107.19824981689453,
+            492.1859436035156
+          ],
+          "font": "Lato",
+          "size": 10.599608421325684,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "→",
+          "origin": [
+            207.9588623046875,
+            479.0146179199219
+          ],
+          "font": "Lato",
+          "size": 16.99951171875,
+          "color": "#506979",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Daarna",
+          "origin": [
+            281.9970397949219,
+            461.3068542480469
+          ],
+          "font": "Lato-Bold",
+          "size": 10.99951171875,
+          "color": "#18364b",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Q = 50",
+          "origin": [
+            283.4596862792969,
+            478.2999267578125
+          ],
+          "font": "Lato",
+          "size": 10.599608421325684,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "TK = € 300",
+          "origin": [
+            273.5566101074219,
+            492.1859436035156
+          ],
+          "font": "Lato",
+          "size": 10.599608421325684,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "→",
+          "origin": [
+            374.3172302246094,
+            479.0146179199219
+          ],
+          "font": "Lato",
+          "size": 16.99951171875,
+          "color": "#506979",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "Nieuw − oud",
+          "origin": [
+            434.8155212402344,
+            461.3068542480469
+          ],
+          "font": "Lato-Bold",
+          "size": 10.99951171875,
+          "color": "#18364b",
+          "weight": 700
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "ΔQ = 10",
+          "origin": [
+            446.2248229980469,
+            478.2999267578125
+          ],
+          "font": "Lato",
+          "size": 10.599608421325684,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "ΔTK = € 40",
+          "origin": [
+            439.3957214355469,
+            492.1859436035156
+          ],
+          "font": "Lato",
+          "size": 10.599608421325684,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    },
+    {
+      "direction": [
+        1.0,
+        0.0
+      ],
+      "runs": [
+        {
+          "text": "€ 40 extra kosten ÷ 10 extra producten = ",
+          "origin": [
+            142.23886108398438,
+            529.3013916015625
+          ],
+          "font": "Lato",
+          "size": 11.2998046875,
+          "color": "#18364b",
+          "weight": 400
+        },
+        {
+          "text": "€ 4 per extra product",
+          "origin": [
+            348.5254821777344,
+            529.3013916015625
+          ],
+          "font": "Lato-Bold",
+          "size": 11.2998046875,
+          "color": "#18364b",
+          "weight": 700
+        },
+        {
+          "text": ".",
+          "origin": [
+            454.3699951171875,
+            529.3013916015625
+          ],
+          "font": "Lato",
+          "size": 11.2998046875,
+          "color": "#18364b",
+          "weight": 400
+        }
+      ]
+    }
+  ],
+  "model": {
+    "geometry_contract": [
+      {
+        "kind": "live_text_model",
+        "description": "Interval MK diagram",
+        "required": [
+          "Q = 40",
+          "TK = € 260",
+          "Q = 50",
+          "TK = € 300",
+          "ΔQ = 10",
+          "ΔTK = € 40",
+          "€ 4 per extra product"
+        ],
+        "model": "(300-260)/(50-40)=4; units euro per extra product"
+      }
+    ]
+  }
+}

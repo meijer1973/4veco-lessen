@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491.2756pt" height="85.74484pt" viewBox="54 434.09549 491.2756 85.74484" role="img">
+<title>Figuur 1. De betalingsbereidheid bestaat hier uit € 20 die de koper betaalt en € 10 consumentensurplus.</title>
+<defs><clipPath id="clip-0"><rect x="53.85827" y="407.10562" width="487.55909" height="111.44205"/></clipPath></defs>
+<path d="M 86.9426 439.3193 H 370.1913 V 469.7918 H 86.9426 Z" fill="#e7eef2" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-0)"/>
+<defs><clipPath id="clip-1"><rect x="53.85827" y="407.10562" width="487.55909" height="111.44205"/></clipPath></defs>
+<path d="M 370.1913 439.3193 H 511.8156 V 469.7918 H 370.1913 Z" fill="#d9ecf4" fill-rule="nonzero" stroke="none" stroke-width="0" fill-opacity="1.0" stroke-opacity="1" clip-path="url(#clip-1)"/>
+<defs><clipPath id="clip-2"><rect x="53.85827" y="407.10562" width="487.55909" height="111.44205"/></clipPath></defs>
+<path d="M 86.9426 434.0955 L 86.9426 473.2744" fill="#000000" fill-rule="nonzero" stroke="#557184" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-2)"/>
+<defs><clipPath id="clip-3"><rect x="53.85827" y="407.10562" width="487.55909" height="111.44205"/></clipPath></defs>
+<path d="M 370.1884 434.0955 L 370.1884 473.2744" fill="#000000" fill-rule="nonzero" stroke="#557184" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-3)"/>
+<defs><clipPath id="clip-4"><rect x="53.85827" y="407.10562" width="487.55909" height="111.44205"/></clipPath></defs>
+<path d="M 511.8156 434.0955 L 511.8156 473.2744" fill="#000000" fill-rule="nonzero" stroke="#557184" stroke-width="0.6965130567550659" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clip-4)"/>
+<text x="195.81369" y="458.47345" font-family="Lato" font-size="11.31834" font-weight="700" fill="#183e51">betaald: € 20</text>
+<text x="420.10373" y="458.47345" font-family="Lato" font-size="11.31834" font-weight="700" fill="#007da2">CS: € 10</text>
+<text x="80.16201" y="488.07526" font-family="Lato" font-size="9.57705" font-weight="400" fill="#183e51">€ 0</text>
+<text x="360.63043" y="488.07526" font-family="Lato" font-size="9.57705" font-weight="400" fill="#183e51">€ 20</text>
+<text x="502.25766" y="488.07526" font-family="Lato" font-size="9.57705" font-weight="400" fill="#183e51">€ 30</text>
+<text x="238.16171" y="515.06512" font-family="Lato" font-size="10.4477" font-weight="700" fill="#183e51">betalingsbereidheid −prijs</text>
+</svg>
