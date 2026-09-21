@@ -5,7 +5,7 @@
   "platform_inputs": [
     {
       "path": "build-scripts/books/assemble_book2_signed.py",
-      "sha256_lf": "fdb975389a99512025db5c2b7463d3b5a7df9960080c856f613bdbae5ee832f1"
+      "sha256_lf": "faa43d8bab5656e09b90820e3ed0074dd37b877bb8ba105fe397be2a45f2c4bf"
     },
     {
       "path": "build-scripts/books/book2_native_checks.py",
