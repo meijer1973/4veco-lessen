@@ -1,5 +1,8 @@
 # Boek 2, hoofdstuk 3 — Surplus en welvaart
 
+**Actuele bouwroute:** [platformcontroller](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/books/EXERCISE-ROUTES.md); [revisie en timing](../../ROUTE-REVISION-2026-09-21.md). De hieronder beschreven lokale scripts zijn ontvangen bouwonderdelen. Gebruik voor nieuwe uitvoer de platformcontroller.
+
+
 Zelfstandige, nieuw geschreven drukeditie voor 4 vwo. Datum: 6 september 2026.
 
 ## Uitvoer

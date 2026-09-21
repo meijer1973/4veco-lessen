@@ -430,4 +430,4 @@ The yearly and whole-course arithmetic does not change from the already selected
 
 ## Outstanding matters
 
-The five existing timing conflicts at 3.1.2, 3.1.3, 3.1.5, 4.2.4 and 4.2.5 remain explicit. Other time estimates are not classroom proof. Target candidate review is distinct from the owner’s placement decision. Book 1 first edition remains the active classroom edition; its second edition is outside this package.
+The five existing timing conflicts at 3.1.2, 3.1.3, 3.1.5, 4.2.4 and 4.2.5 remain explicit. All other theory paragraphs also need complete supported-route estimates: earlier totals omitted guided practice. Normal-route records include guided practice; challenging-route records include the bonus. Mixed paragraphs retain their documented structure exceptions. No unsupported 55-minute fit is claimed. Target candidate review is distinct from the owner’s placement decision. Book 1 first edition remains the active classroom edition; its second edition is outside this package.

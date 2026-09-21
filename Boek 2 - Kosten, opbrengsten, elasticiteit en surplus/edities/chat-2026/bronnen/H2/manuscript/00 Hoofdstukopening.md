@@ -20,6 +20,6 @@ In hoofdstuk 2.1 rekende je met kosten, opbrengsten en winst. Nu onderzoek je wa
 procentuele veranderingen berekenen met de oude waarde als basis; Ev berekenen, uitleggen en gebruiken voor de indeling elastisch of inelastisch; omzet vóór en na vergelijken; Ei en Ek berekenen en goederen of relaties indelen; één variabele in een vraagfunctie veranderen; en met meerdere bronnen een voorzichtig omzetadvies geven.</div>
 
 <div class="box"><b>Zo werk je met dit hoofdstuk</b><br>
-Bestudeer de uitleg en het uitgewerkte voorbeeld. Maak daarna de startopgaven. De begeleide inoefening biedt extra steun; de zelfstandige oefening bereidt je voor op de doeloefening. Een denkertje is extra uitdaging. Herhaling kan ook huiswerk zijn.</div>
+Lees de uitleg en het uitgewerkte voorbeeld. Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Volg na de startopgaven de begeleide en zelfstandige oefening naar de doeloefening. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg de uitdagende route met de bonus. Herhaling is extra bij beide routes.</div>
 
 <div class="small muted">Werk in je schrift; neem tabellen over wanneer dat wordt gevraagd. Gebruik een rekenmachine. Reken tussendoor ongerond en rond einduitkomsten zo nodig af op twee decimalen. Alle bedrijven en getallen zijn oefensituaties. Bij een zuivere elasticiteitsberekening houden we de andere vraagfactoren gelijk, tenzij de opgave anders vermeldt.</div>

@@ -126,7 +126,7 @@
   "structural_scope_boundary": "State market separation and resale restrictions. For separate segment optimisation, use a stated common constant marginal cost, or explicitly account for costs that depend on combined output. Do not claim that discrimination necessarily raises or necessarily lowers total welfare. Avoid adding simultaneous unfamiliar cost structures and multiple optimisation cases.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.2/4.2.2 manuscript.md",
-    "student_manuscript_sha256": "68bbb2cfe7346e6f0c9b222ec22524b17e7c9c08aceda77c56cd92395e137d5a",
+    "student_manuscript_sha256": "980b9248d6ced542888be62403a717479b1909209ef871325461a423af8baee9",
     "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
     "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
     "chapter_student_pages": [
@@ -139,7 +139,6 @@
   "lesson_route": {
     "start": "10–11",
     "independent": "14–15",
-    "guided_or_alternative": "12–13",
     "target": "16",
     "target_subquestions": [
       "16a",
@@ -156,12 +155,66 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 10,
       "Doeloefening": 15,
-      "Feedback / afronding": 3
+      "Feedback / afronding": 3,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Optimaliseer per herkenbare groep bij gemeenschappelijke constante MK en niet-bindende gezamenlijke capaciteit. De uniforme vergelijkingsprijs is gegeven.",
-    "assessment_boundaries": "Trek gezamenlijke vaste kosten maar één keer af. Meer winst of een onveranderde totale afzet garandeert geen hoger totaal surplus; de verdeling van verkopen verandert."
+    "assessment_boundaries": "Trek gezamenlijke vaste kosten maar één keer af. Meer winst of een onveranderde totale afzet garandeert geen hoger totaal surplus; de verdeling van verkopen verandert.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 5,
+        "Motivatie": 2,
+        "Instructie": 9,
+        "Uitgewerkt voorbeeld": 9,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 10,
+        "Doeloefening": 15,
+        "Feedback / afronding": 3
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "12–13"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "10",
+        "11"
+      ],
+      "Begeleide inoefening": [
+        "12",
+        "13"
+      ],
+      "Zelfstandige oefening": [
+        "14",
+        "15"
+      ],
+      "Doeloefening": [
+        "16"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "10",
+        "11"
+      ],
+      "Zelfstandige oefening": [
+        "14",
+        "15"
+      ],
+      "Doeloefening": [
+        "16"
+      ],
+      "Denkertje / Bonusopgave": [
+        "17"
+      ]
+    },
+    "additional_repetition": [
+      "18"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

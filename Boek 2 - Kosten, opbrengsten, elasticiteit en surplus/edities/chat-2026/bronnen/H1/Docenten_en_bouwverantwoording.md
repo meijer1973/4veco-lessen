@@ -31,32 +31,28 @@ Marginale bedragen worden met verschillen in tabellen berekend. Bij een stap van
 
 # Lesroute en lestijd
 
-### Dezelfde bestemming, verschillende hoeveelheid hulp
+Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. De uitdagende route biedt minder tussenstappen en de bonus, met dezelfde doeloefening. Herhaling is extra bij beide routes. Een startscore bepaalt niet automatisch de route.
 
-De drie theorieparagrafen volgen de repositoryvolgorde: **Uitgewerkt voorbeeld → Startopgaven → Begeleide inoefening → Zelfstandige oefening → Doeloefening → Denkertje / Bonusopgave → Herhaling / Herhaling en interleaving**. Na het uitgewerkte voorbeeld staat een kort naslagkader, geen extra oefensectie.
+### Normale route
+| Paragraaf | Start | Begeleid | Zelfstandig | Doel | Bonus: uitdagende route |
+|---|---|---|---|---|---|
+| 2.1.1 | 1, 2 | 3, 4 | 5, 6 | 7 | 8 |
+| 2.1.2 | 1, 2 | 3, 4, 5 | 6, 7 | 8 | 9 |
+| 2.1.3 | 1, 2 | 3, 4 | 5, 6 | 7 | 8 |
 
-Een startopgave met eerder geleerde rekenvaardigheid kan bij binnenkomst worden gemaakt. De gedrukte volgorde verandert daardoor niet. De begeleide inoefening is een optionele ondersteuningsroute naar dezelfde doeloefening. Bonus en herhaling zijn geen verplichte toevoeging aan de volledige leskern.
+### Open timingvragen
+De oude begrotingen selecteerden soms maar een deel van de zelfstandige oefening en lieten begeleide inoefening weg. Ze onderbouwen geen volledige 55-minutenroute. Alle tijden hieronder zijn eerdere ontwerpschattingen, geen metingen.
 
-### Voorbeeldplanning voor 55 minuten
+| Paragraaf | Oude selectie zonder begeleiding | Ontbrekende begeleide tijd |
+|---|---:|---|
+| 2.1.1 | 52 min | niet afzonderlijk begroot |
+| 2.1.2 | 53 min | niet afzonderlijk begroot |
+| 2.1.3 | 55 min | eerder 10–15 minuten: samen 65–70 minuten, plus eventueel overig zelfstandig werk |
 
-De tijden hieronder zijn **ontwerpschattingen, niet gemeten klassentijden**. Een getekende grafiek, antwoordcontrole en het overschrijven van een tabel vragen tijd. De selectie noemt daarom de werkelijk bedoelde lesopgaven; niet alle gedrukte oefening is huiswerkvrij binnen één les uitvoerbaar.
+Begroot de volledige normale route op basis van lees-, reken-, teken- en uitlegtijd. Plan aanvullende lestijd; schrap geen opgaven of doelbewerkingen. Begroot de bonus afzonderlijk voor de uitdagende route. Herhaling blijft aanvullend. Vooral §§2.2.3 en 2.3.3 kunnen twee lessen vragen.
 
-| Paragraaf | Start | Zelfstandig in deze lesplanning | Doel | Aanvullende oefening / huiswerk |
-|---|---|---|---|---|
-| 2.1.1 | 1–2 | 6a–c | 7a–e | 5; 9–10; 8 is bonus |
-| 2.1.2 | 1–2 | 6a–d | 8a–d | 7; 10–11; 9 is bonus |
-| 2.1.3 | 1–2 | 5a–b en 6a–c | 7a–e | 6d; 9–10; 8 is bonus |
-| 2.1.4 | Korte mondelinge terugblik | 1 en 2 | 5a–f | 3–4 en 7; 6 is bonus |
-
-**2.1.1:** motivatie 2 + instructie 8 + uitgewerkt voorbeeld 5 + samenvatting/overgang 1 + start 6 + zelfstandig 12 + doel 14 + terugkoppeling 4 = **52 minuten**.
-
-**2.1.2:** motivatie 2 + instructie 8 + uitgewerkt voorbeeld 5 + samenvatting/overgang 1 + start 6 + zelfstandig 15 + doel 13 + terugkoppeling 3 = **53 minuten**.
-
-**2.1.3:** motivatie 2 + instructie 6 + uitgewerkt voorbeeld 5 + samenvatting/overgang 1 + start 5 + zelfstandig 20 + doel 13 + terugkoppeling 3 = **55 minuten**.
-
-**2.1.4:** ophalen en opdrachtkeuze 5 + opgaven 1 en 2 samen 20 + doeloefening 20 + terugkoppeling 7 = **52 minuten**.
-
-Bij §2.1.3 is de planning het krapst. Test vooral de tabeltijd en de uitleg van ‘per extra product’. Meer leestijd of uitgebreide hulp kan extra lestijd of thuiswerk vragen. Voeg niet ongemerkt een volledige begeleide route van 10–15 minuten aan deze planning toe. Behoud de doeloefening als bestemming; stem het moment van afronden af op de werkelijk benodigde tijd.
+### Gemengde paragraaf 2.1.4
+Deze paragraaf heeft geen afzonderlijke begeleide sectie. Werk met 1–4 naar doel 5, met de bestaande hoofdstukuitleg als steun. Bonus 6 hoort bij de uitdagende aanpak; 7 is aanvullende herhaling. De oude geselecteerde lesplanning van 52 minuten was geen begroting van alle gedrukte opgaven of extra begeleiding. De opgaven en doelen blijven behouden.
 
 ### Vooraf controleren
 

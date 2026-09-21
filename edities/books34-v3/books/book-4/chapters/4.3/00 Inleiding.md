@@ -17,3 +17,5 @@ Een werkgever zoekt personeel. Een werknemer zoekt een baan. Je herkent vraag en
 <div class="box goals"><b>Na dit hoofdstuk</b><br>Je kunt productie naar arbeidsinzet vertalen, deelname en werkloosheid berekenen, loon en werkgelegenheid in een model bepalen en gevolgen van een minimumloon met een passende berekening en een onderbouwde conclusie beoordelen.</div>
 
 <p class="school-note">Alle bedrijven, regio’s, voorstellen en cijfers in de opgaven zijn geconstrueerde lesvoorbeelden. Lonen zijn illustratief, geen actuele wettelijke tarieven. Je werkt in je schrift; gebruik de gegeven grafieken waar de opgave dat vraagt. Antwoorden staan in een apart antwoordboek.</p>
+
+<div class="box small"><b>Zo gebruik je dit hoofdstuk</b><br>Lees de uitleg en het uitgewerkte voorbeeld. Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Volg na de startopgaven de begeleide en zelfstandige oefening naar de doeloefening. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg de uitdagende route met de bonus. Herhaling is extra bij beide routes.</div>

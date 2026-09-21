@@ -3,24 +3,54 @@
   "cover": {
     "background": "_assets/book2-cover-background.png",
     "preview": "_assets/economics_textbook_cover_costs_and_surplus.png",
-    "costs": {"fixed": 500, "variable_per_unit": 10, "price": 20, "quantities": [0, 50, 100, 150]},
-    "market": {"demand_intercept": 18, "demand_slope": 1, "supply_intercept": 2, "supply_slope": 1}
+    "costs": {
+      "fixed": 500,
+      "variable_per_unit": 10,
+      "price": 20,
+      "quantities": [
+        0,
+        50,
+        100,
+        150
+      ]
+    },
+    "market": {
+      "demand_intercept": 18,
+      "demand_slope": 1,
+      "supply_intercept": 2,
+      "supply_slope": 1
+    }
   },
   "chapters": [
     {
       "title": "Hoofdstuk 1 — Kosten en opbrengsten",
       "description": "Van kostenstructuur naar opbrengst, winst, break-even en marginale verandering",
-      "paragraphs": ["Kostenstructuren", "Opbrengsten, winst en break-even", "Marginale kosten en marginale opbrengsten", "Gemengde opgaven"]
+      "paragraphs": [
+        "Kostenstructuren",
+        "Opbrengsten, winst en break-even",
+        "Marginale kosten en marginale opbrengsten",
+        "Gemengde opgaven"
+      ]
     },
     {
       "title": "Hoofdstuk 2 — Elasticiteit",
       "description": "Prijsreactie, omzet, inkomenselasticiteit en kruislingse elasticiteit",
-      "paragraphs": ["Prijselasticiteit", "Elasticiteit en omzet", "Inkomenselasticiteit en kruislingse elasticiteit", "Gemengde opgaven"]
+      "paragraphs": [
+        "Prijselasticiteit",
+        "Elasticiteit en omzet",
+        "Inkomenselasticiteit en kruislingse elasticiteit",
+        "Gemengde opgaven"
+      ]
     },
     {
       "title": "Hoofdstuk 3 — Surplus en welvaart",
       "description": "Consumentensurplus, producentensurplus, totaal surplus, Pareto-efficiëntie en welvaartsverlies",
-      "paragraphs": ["Consumentensurplus", "Producentensurplus en totaal surplus", "Pareto-efficiëntie en welvaartsverlies", "Gemengde opgaven"]
+      "paragraphs": [
+        "Consumentensurplus",
+        "Producentensurplus en totaal surplus",
+        "Pareto-efficiëntie en welvaartsverlies",
+        "Gemengde opgaven"
+      ]
     }
   ],
   "bundles": [
@@ -29,8 +59,16 @@
       "title": "Boek 2 — Inhoud",
       "subtitle": "4 vwo | Kosten, opbrengsten, elasticiteit en surplus",
       "output": "boek/Boek_2_Compleet.pdf",
-      "chapters": ["hoofdstukken/Boek_2_H1_Kosten_en_opbrengsten.pdf", "hoofdstukken/Boek_2_H2_Elasticiteit.pdf", "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf"],
-      "page_counts": [34, 36, 38]
+      "chapters": [
+        "hoofdstukken/Boek_2_H1_Kosten_en_opbrengsten.pdf",
+        "hoofdstukken/Boek_2_H2_Elasticiteit.pdf",
+        "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf"
+      ],
+      "page_counts": [
+        34,
+        36,
+        38
+      ]
     },
     {
       "kind": "answers",
@@ -38,8 +76,16 @@
       "subtitle": "Antwoordboek bij de drie hoofdstukken",
       "description": "Uitgewerkte antwoorden en toelichting",
       "output": "boek/Boek_2_Compleet_Antwoorden.pdf",
-      "chapters": ["hoofdstukken/Boek_2_H1_Antwoorden.pdf", "hoofdstukken/Boek_2_H2_Antwoorden.pdf", "hoofdstukken/Boek_2_H3_Antwoorden.pdf"],
-      "page_counts": [20, 18, 17]
+      "chapters": [
+        "hoofdstukken/Boek_2_H1_Antwoorden.pdf",
+        "hoofdstukken/Boek_2_H2_Antwoorden.pdf",
+        "hoofdstukken/Boek_2_H3_Antwoorden.pdf"
+      ],
+      "page_counts": [
+        20,
+        18,
+        17
+      ]
     },
     {
       "kind": "teacher",
@@ -47,8 +93,16 @@
       "subtitle": "Gecombineerde docenteninformatie bij de drie hoofdstukken",
       "description": "Docenteninformatie, didactische keuzes en kwaliteitsnotities",
       "output": "boek/Boek_2_Compleet_Docenteninformatie.pdf",
-      "chapters": ["hoofdstukken/Boek_2_H1_Docenteninformatie.pdf", "hoofdstukken/Boek_2_H2_Docenteninformatie.pdf", "hoofdstukken/Boek_2_H3_Docenteninformatie.pdf"],
-      "page_counts": [5, 6, 6]
+      "chapters": [
+        "hoofdstukken/Boek_2_H1_Docenteninformatie.pdf",
+        "hoofdstukken/Boek_2_H2_Docenteninformatie.pdf",
+        "hoofdstukken/Boek_2_H3_Docenteninformatie.pdf"
+      ],
+      "page_counts": [
+        5,
+        6,
+        6
+      ]
     }
   ]
 }

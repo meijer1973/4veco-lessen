@@ -134,7 +134,7 @@
   "structural_scope_boundary": "Monopoly does not mean unlimited pricing power. Patents can be one entry-barrier context; full policy evaluation belongs later.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.1/4.1.2 manuscript.md",
-    "student_manuscript_sha256": "3c0dc460e987378cc4a470e7317ecb3467fa742b4befafa2b03674b475b6d38a",
+    "student_manuscript_sha256": "739fc8fc31d2df3fcce02832e72df341c5be7544ff6c90fbe089e2f7cee99a3d",
     "answer_file": "books/book-4/chapters/4.1/Antwoorden.md",
     "answer_file_sha256": "01a9294bd3ce947ceb5460d588cd3f7ffee5b9f0be3e4334558fde44096f8da1",
     "chapter_student_pages": [
@@ -147,7 +147,6 @@
   "lesson_route": {
     "start": "11–12",
     "independent": "16–17",
-    "guided_or_alternative": "13–15",
     "target": "18",
     "target_subquestions": [
       "18a",
@@ -164,12 +163,67 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 12,
       "Doeloefening": 12,
-      "Feedback / afronding": 4
+      "Feedback / afronding": 4,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Gebruik §4.1.1 als contrast: vrije toetreding tegenover een expliciete barrière. Laat zien dat de monopolist prijs en afzet niet onafhankelijk kiest.",
-    "assessment_boundaries": "Een merk of een foto van één winkel bewijst geen monopolie. Begrens de markt en noem de barrière uit de bron; alleenrecht betekent geen onbeperkte prijszetting."
+    "assessment_boundaries": "Een merk of een foto van één winkel bewijst geen monopolie. Begrens de markt en noem de barrière uit de bron; alleenrecht betekent geen onbeperkte prijszetting.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 6,
+        "Motivatie": 2,
+        "Instructie": 10,
+        "Uitgewerkt voorbeeld": 7,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 12,
+        "Doeloefening": 12,
+        "Feedback / afronding": 4
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "13–15"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "11",
+        "12"
+      ],
+      "Begeleide inoefening": [
+        "13",
+        "14",
+        "15"
+      ],
+      "Zelfstandige oefening": [
+        "16",
+        "17"
+      ],
+      "Doeloefening": [
+        "18"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "11",
+        "12"
+      ],
+      "Zelfstandige oefening": [
+        "16",
+        "17"
+      ],
+      "Doeloefening": [
+        "18"
+      ],
+      "Denkertje / Bonusopgave": [
+        "19"
+      ]
+    },
+    "additional_repetition": [
+      "20"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

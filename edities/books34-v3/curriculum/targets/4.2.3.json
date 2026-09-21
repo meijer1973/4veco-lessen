@@ -121,7 +121,7 @@
   "structural_scope_boundary": "Do not assume an oligopolist has one universal demand curve. No reaction functions or payoff-matrix techniques here. Formal strategic interaction stays in the later course. This paragraph is not just a vocabulary checklist, but it also must not become four full new models.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.2/4.2.3 manuscript.md",
-    "student_manuscript_sha256": "308dad49d09b5ea46f2de1f59fa787901c10877ee3866d08fff53a930432e3c8",
+    "student_manuscript_sha256": "e83c2aa394758e939873e228074f4aeb169f326c170924cee100108e33af4a01",
     "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
     "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
     "chapter_student_pages": [
@@ -134,7 +134,6 @@
   "lesson_route": {
     "start": "19–20",
     "independent": "23–24",
-    "guided_or_alternative": "21–22",
     "target": "25",
     "target_subquestions": [
       "25a",
@@ -151,12 +150,66 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 10,
       "Doeloefening": 13,
-      "Feedback / afronding": 4
+      "Feedback / afronding": 4,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 52,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Classificeer met bronbewijs en pas één bekende rekenroute toe in de gegeven korte-termijncasus.",
-    "assessment_boundaries": "Een dalende eigen vraag bewijst geen monopolie. Geen universele oligopolievraagfunctie, reactiecurve of spelmatrix; het gedrag van andere aanbieders is volgens het model gelijk gehouden."
+    "assessment_boundaries": "Een dalende eigen vraag bewijst geen monopolie. Geen universele oligopolievraagfunctie, reactiecurve of spelmatrix; het gedrag van andere aanbieders is volgens het model gelijk gehouden.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 6,
+        "Motivatie": 2,
+        "Instructie": 8,
+        "Uitgewerkt voorbeeld": 7,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 10,
+        "Doeloefening": 13,
+        "Feedback / afronding": 4
+      },
+      "total_minutes": 52,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "21–22"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "19",
+        "20"
+      ],
+      "Begeleide inoefening": [
+        "21",
+        "22"
+      ],
+      "Zelfstandige oefening": [
+        "23",
+        "24"
+      ],
+      "Doeloefening": [
+        "25"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "19",
+        "20"
+      ],
+      "Zelfstandige oefening": [
+        "23",
+        "24"
+      ],
+      "Doeloefening": [
+        "25"
+      ],
+      "Denkertje / Bonusopgave": [
+        "26"
+      ]
+    },
+    "additional_repetition": [
+      "27"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

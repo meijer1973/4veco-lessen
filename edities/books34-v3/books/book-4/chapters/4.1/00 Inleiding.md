@@ -32,5 +32,5 @@ Uit §3.2.2 haal je de beperkte afgeleide terug. Uit §3.2.3 haal je de marginal
 | De totale kosten zijn opgegeven. | Bij het langetermijnmodel bevat TK ook een normale beloning voor de ondernemer. |
 | De prijsnemer heeft een horizontale opbrengstlijn. | De monopolist staat tegenover een dalende vraaglijn en moet rekening houden met prijsverlaging op bestaande verkopen. |
 
-<div class="box summary"><b>Gebruik van het boek</b><br>De startopgaven halen de benodigde voorkennis terug. Extra hulp staat in Begeleide inoefening. Zelfstandige oefening en de doeloefening laten zien of je de methode zonder tussenstappen kunt gebruiken.</div>
+<div class="box summary"><b>Gebruik van het boek</b><br>Lees de uitleg en het uitgewerkte voorbeeld. Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Volg na de startopgaven de begeleide en zelfstandige oefening naar de doeloefening. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg de uitdagende route met de bonus. Herhaling is extra bij beide routes.</div>
 De welvaartseffecten van de uitkomst onderzoek je in §4.2.1. Dit hoofdstuk gaat eerst over de keuze en de winst van de onderneming.

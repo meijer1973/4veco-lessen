@@ -126,7 +126,7 @@
   "structural_scope_boundary": "Keep the benefit to the buyer separate from the benefit to others. State who receives the subsidy. Do not count a transfer twice or assume every subsidy is appropriately sized. The external-benefit interpretation is new teaching, not prerequisite recall.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.2/4.2.5 manuscript.md",
-    "student_manuscript_sha256": "cad4ff28fa6e0b6857f79db3c0a02c49aec4d5e37258986bed54c4fdcba91756",
+    "student_manuscript_sha256": "552967cbfcda43b2865f19417298dadee472081e67282182fe963fa55672e82b",
     "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
     "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
     "chapter_student_pages": [
@@ -139,7 +139,6 @@
   "lesson_route": {
     "start": "37–38",
     "independent": "41–42",
-    "guided_or_alternative": "39–40",
     "target": "43",
     "target_subquestions": [
       "43a",
@@ -148,11 +147,57 @@
       "43d",
       "43e"
     ],
-    "minutes": null,
+    "minutes": {
+      "Begeleide inoefening": null
+    },
     "total_minutes": null,
     "one_lesson_status": "open_existing_timing_conflict",
     "instruction_focus": "Introduceer baten voor anderen en verbind ze met de bekende subsidie. Houd eigen voordeel en extern voordeel uit elkaar.",
-    "assessment_boundaries": "Tel uitgaven af en externe baten op; ze vallen alleen numeriek weg bij bijzondere gegeven bedragen. Behoud het oefencontrast met ongelijke subsidie en externe bate."
+    "assessment_boundaries": "Tel uitgaven af en externe baten op; ze vallen alleen numeriek weg bij bijzondere gegeven bedragen. Behoud het oefencontrast met ongelijke subsidie en externe bate.",
+    "previous_estimate": {
+      "minutes": null,
+      "total_minutes": null,
+      "one_lesson_status": "open_existing_timing_conflict",
+      "guided_or_alternative": "39–40"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "37",
+        "38"
+      ],
+      "Begeleide inoefening": [
+        "39",
+        "40"
+      ],
+      "Zelfstandige oefening": [
+        "41",
+        "42"
+      ],
+      "Doeloefening": [
+        "43"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "37",
+        "38"
+      ],
+      "Zelfstandige oefening": [
+        "41",
+        "42"
+      ],
+      "Doeloefening": [
+        "43"
+      ],
+      "Denkertje / Bonusopgave": [
+        "44"
+      ]
+    },
+    "additional_repetition": [
+      "45"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

@@ -144,7 +144,7 @@
   "structural_scope_boundary": "No price discrimination, strategic game or monopoly-welfare target before those are taught. Consolidation is not an extra theory paragraph.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.1/4.1.5 manuscript.md",
-    "student_manuscript_sha256": "6acff35292cfbd0542a592e118e6bb850910b4fd12701b19e1b434774bb15302",
+    "student_manuscript_sha256": "a75813115abe7117b6a0044960fc03a4861084949d86073b5e118e984d24bf3f",
     "answer_file": "books/book-4/chapters/4.1/Antwoorden.md",
     "answer_file_sha256": "01a9294bd3ce947ceb5460d588cd3f7ffee5b9f0be3e4334558fde44096f8da1",
     "chapter_student_pages": [
@@ -159,7 +159,6 @@
   "lesson_route": {
     "start": "41 en 41A",
     "independent": "42",
-    "guided_or_alternative": "43–44 en 46–48 als aanvullende selectie",
     "target": "45",
     "target_subquestions": [
       "45a",
@@ -180,9 +179,34 @@
       "Feedback / afronding": 6
     },
     "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "one_lesson_status": "selected_mixed_route_not_classroom_measured",
     "instruction_focus": "41A haalt langetermijnbetekenis op zonder de bestaande target uit te breiden. KleurFix en de prijsnemer blijven twee afzonderlijke markten.",
-    "assessment_boundaries": "Dezelfde vergelijking voor q betekent geen identieke prijsroute. Laat een leerling de gebruikte lijn benoemen; voeg geen prijsdiscriminatie of nieuwe welvaartsrekening toe."
+    "assessment_boundaries": "Dezelfde vergelijking voor q betekent geen identieke prijsroute. Laat een leerling de gebruikte lijn benoemen; voeg geen prijsdiscriminatie of nieuwe welvaartsrekening toe.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 8,
+        "Motivatie": 0,
+        "Instructie": 4,
+        "Uitgewerkt voorbeeld": 0,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 10,
+        "Doeloefening": 25,
+        "Feedback / afronding": 6
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "43–44 en 46–48 als aanvullende selectie"
+    },
+    "route_exception": {
+      "reason": "mixed_practice_without_separate_guided_section",
+      "preparation": "41, 41A en 42–44",
+      "bonus": null,
+      "repetition": null,
+      "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections.",
+      "additional_practice": "46–48"
+    },
+    "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

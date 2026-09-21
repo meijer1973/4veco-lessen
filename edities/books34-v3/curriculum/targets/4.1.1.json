@@ -133,7 +133,7 @@
   "structural_scope_boundary": "Retain the stated free-entry/exit, identical active-firm costs and input-price assumptions. Under this model the endpoint is P = MO = MK = minimum GTK; it is not a universal claim about every real industry. Do not infer immediate shutdown from a short-period loss. End with the question 'What changes when other suppliers cannot enter?' as the transition to §4.1.2, not a complete additional monopoly lesson. The existing classroom-time estimate remains provisional and needs checking after the book-opening retrieval is selected.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.1/4.1.1 manuscript.md",
-    "student_manuscript_sha256": "9777cfa0305cf03ac4241940e039a9f1f8a0bb517568c1ec56600dbc5569c4d3",
+    "student_manuscript_sha256": "7d80849940920bc83166692f39d89fec1c3eb909453ade5b6b55336aab17e797",
     "answer_file": "books/book-4/chapters/4.1/Antwoorden.md",
     "answer_file_sha256": "01a9294bd3ce947ceb5460d588cd3f7ffee5b9f0be3e4334558fde44096f8da1",
     "chapter_student_pages": [
@@ -146,7 +146,6 @@
   "lesson_route": {
     "start": "1–2",
     "independent": "5a–c en 6b",
-    "guided_or_alternative": "3–4",
     "target": "7",
     "target_subquestions": [
       "7a",
@@ -163,12 +162,67 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 11,
       "Doeloefening": 13,
-      "Feedback / afronding": 4
+      "Feedback / afronding": 4,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Verplaatst uit voormalig §3.2.3. Herstel binnen het startwerk de firmaberekening; voeg geen aparte recaples toe. Introduceer normale beloning en economische winst hier.",
-    "assessment_boundaries": "Het nulwinstresultaat geldt bij de genoemde vrije toe-/uittreding en onveranderde kosten. Nul economische winst is niet nul omzet of geen ondernemersbeloning. Verlies betekent niet automatisch onmiddellijk stilleggen."
+    "assessment_boundaries": "Het nulwinstresultaat geldt bij de genoemde vrije toe-/uittreding en onveranderde kosten. Nul economische winst is niet nul omzet of geen ondernemersbeloning. Verlies betekent niet automatisch onmiddellijk stilleggen.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 6,
+        "Motivatie": 2,
+        "Instructie": 10,
+        "Uitgewerkt voorbeeld": 7,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 11,
+        "Doeloefening": 13,
+        "Feedback / afronding": 4
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "3–4"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "1",
+        "2"
+      ],
+      "Begeleide inoefening": [
+        "3",
+        "4"
+      ],
+      "Zelfstandige oefening": [
+        "5",
+        "6"
+      ],
+      "Doeloefening": [
+        "7"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "1",
+        "2"
+      ],
+      "Zelfstandige oefening": [
+        "5",
+        "6"
+      ],
+      "Doeloefening": [
+        "7"
+      ],
+      "Denkertje / Bonusopgave": [
+        "8"
+      ]
+    },
+    "additional_repetition": [
+      "9",
+      "10"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

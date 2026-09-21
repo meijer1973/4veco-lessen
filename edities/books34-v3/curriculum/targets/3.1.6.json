@@ -146,7 +146,7 @@
   "structural_scope_boundary": "No new intervention or externality model. Do not force every intervention into one unwieldy target or one 55-minute compulsory route.",
   "source_pin": {
     "student_file": "books/book-3/chapters/3.1/3.1.6 manuscript.md",
-    "student_manuscript_sha256": "2bcaeb3319dfb280988947648a7a50453e32c8fffd4f16bf177257174dde7de3",
+    "student_manuscript_sha256": "0ea1f1c3e7bc206b1829f39bcc9a0da161b65d14d2f8e385834c9e8660a12bca",
     "answer_file": "books/book-3/chapters/3.1/Antwoorden.md",
     "answer_file_sha256": "6d639e4d56806829462acd76da214f1d3075ec064b024d46a4fe0601cff292dc",
     "chapter_student_pages": [
@@ -161,7 +161,6 @@
   "lesson_route": {
     "start": "46",
     "independent": "47",
-    "guided_or_alternative": "47A als gerichte vervanging of later herstel",
     "target": "48",
     "target_subquestions": [
       "48a",
@@ -182,9 +181,33 @@
       "Feedback / afronding": 6
     },
     "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "one_lesson_status": "selected_mixed_route_not_classroom_measured",
     "instruction_focus": "Laat leerlingen het instrument kiezen uit de bron; geef de methode niet vooraf per deelvraag weg. Opgave 47A komt niet boven op de kern.",
-    "assessment_boundaries": "Vraag bij fouten welke hoeveelheid wordt belast, gesubsidieerd, gekocht of verhandeld. De bron rechtvaardigt geen volledige welvaartsrangschikking van beide plannen."
+    "assessment_boundaries": "Vraag bij fouten welke hoeveelheid wordt belast, gesubsidieerd, gekocht of verhandeld. De bron rechtvaardigt geen volledige welvaartsrangschikking van beide plannen.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 8,
+        "Motivatie": 0,
+        "Instructie": 4,
+        "Uitgewerkt voorbeeld": 0,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 10,
+        "Doeloefening": 25,
+        "Feedback / afronding": 6
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "47A als gerichte vervanging of later herstel"
+    },
+    "route_exception": {
+      "reason": "mixed_practice_without_separate_guided_section",
+      "preparation": "46, 47 en 47A",
+      "bonus": null,
+      "repetition": null,
+      "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections."
+    },
+    "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

@@ -1,6 +1,8 @@
 # Boek 2 — Kosten, opbrengsten, elasticiteit en surplus
 
-## Geleverde chatuitgave · 2026
+## Actuele chatuitgave · 2026
+
+**Oefenroutes gewijzigd, 21 september:** zie [routes, timing en bouwbewijs](ROUTE-REVISION-2026-09-21.md). De actuele hoofdstuktekst is opnieuw opgebouwd; het oorspronkelijke ontvangstmanifest blijft historisch.
 
 Deze uitgave bevat het voltooide Boek 2 dat de eigenaar voor opname in de repository heeft geselecteerd. De teksten, opgaven, antwoorden, figuren en PDF-pagina’s werden bij de import behouden. Dit is geen opnieuw geschreven repositoryversie.
 
@@ -43,6 +45,6 @@ Elke koppeling opent de map met de bestaande Markdown- en PDF-exports. De oorspr
 
 Zie [importnotities](IMPORT_NOTES.md) en [bestandsmanifest](delivery-manifest.json). De historische bouwscripts, vereisten, bronverantwoording en lokale controlerapporten zijn meegeleverd, zonder die rapporten als nieuwe repository-CI of onafhankelijke inhoudsreview te presenteren.
 
-De hoofdstukken zijn ongewijzigd samengevoegd. De hoofdstukpaginanummers beginnen opnieuw per hoofdstuk; de inhoudsopgave van de bundel noemt de fysieke PDF-startpagina’s 3, 37 en 73. Verander die paginering niet als onderdeel van de import.
+De huidige hoofdstukken zijn na de routewijziging opnieuw opgebouwd en samengevoegd. De hoofdstukpaginanummers beginnen opnieuw per hoofdstuk; de inhoudsopgave van de bundel noemt de fysieke PDF-startpagina’s 3, 37 en 73. Deze revisie behoudt die paginering.
 
 **Afdrukken:** A4 op ware grootte. De geleverde PDF’s bepalen de bladspiegel. Antwoorden en docenteninformatie blijven afzonderlijke documenten.

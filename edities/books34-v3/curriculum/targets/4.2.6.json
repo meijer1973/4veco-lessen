@@ -121,7 +121,7 @@
   "structural_scope_boundary": "Not a second full course on every instrument. A patent/competition-policy example can retrieve market power; avoid importing the later games, insurance or macro-policy curriculum. Separate efficiency from distribution and recognise implementation limits stated in the source.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.2/4.2.6 manuscript.md",
-    "student_manuscript_sha256": "a4bb4d6df9b917c1b6fad0543c1ead47c9bec2e6c8ef6ed8077afe11681aa534",
+    "student_manuscript_sha256": "a053ce87e6ac20703671514c05a6e44c91e81028469f2e13843801c32e9674ee",
     "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
     "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
     "chapter_student_pages": [
@@ -134,7 +134,6 @@
   "lesson_route": {
     "start": "46–47",
     "independent": "50–51",
-    "guided_or_alternative": "48–49",
     "target": "52",
     "target_subquestions": [
       "52a",
@@ -151,12 +150,66 @@
       "Overgang / samenvatting": 3,
       "Zelfstandig": 11,
       "Doeloefening": 15,
-      "Feedback / afronding": 3
+      "Feedback / afronding": 3,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Beoordeel twee bekende instrumenten aan de hand van één expliciet criterium en de bron. Dit is niet een nieuwe behandeling van ieder instrument.",
-    "assessment_boundaries": "Uitvoeringskosten gebruiken middelen en zijn geen gewone overdracht. Een verdelingsvoorkeur van producenten is niet automatisch de maatschappelijke efficiëntie-uitkomst."
+    "assessment_boundaries": "Uitvoeringskosten gebruiken middelen en zijn geen gewone overdracht. Een verdelingsvoorkeur van producenten is niet automatisch de maatschappelijke efficiëntie-uitkomst.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 5,
+        "Motivatie": 2,
+        "Instructie": 8,
+        "Uitgewerkt voorbeeld": 8,
+        "Overgang / samenvatting": 3,
+        "Zelfstandig": 11,
+        "Doeloefening": 15,
+        "Feedback / afronding": 3
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "48–49"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "46",
+        "47"
+      ],
+      "Begeleide inoefening": [
+        "48",
+        "49"
+      ],
+      "Zelfstandige oefening": [
+        "50",
+        "51"
+      ],
+      "Doeloefening": [
+        "52"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "46",
+        "47"
+      ],
+      "Zelfstandige oefening": [
+        "50",
+        "51"
+      ],
+      "Doeloefening": [
+        "52"
+      ],
+      "Denkertje / Bonusopgave": [
+        "53"
+      ]
+    },
+    "additional_repetition": [
+      "54"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

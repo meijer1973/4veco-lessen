@@ -144,7 +144,7 @@
   "structural_scope_boundary": "MO = MK is not by itself a universal maximum proof. Do not choose output by mechanically minimising GTK. Fixed costs remain fixed within the stated period and capacity; avoid new production-range complications. Entry/exit, normal remuneration and the long-run zero-economic-profit result are formally taught in new §4.1.1, not here. Distinguish a short-period loss from an automatic decision to leave the market.",
   "source_pin": {
     "student_file": "books/book-3/chapters/3.2/3.2.3 manuscript.md",
-    "student_manuscript_sha256": "4ebf495f500689fb9414d9792429203e441e00c65efb0506ab56fa4e4a859181",
+    "student_manuscript_sha256": "b6a7f077dabc309e8db3a98089eb8c57cee6e3ab216a44c70812f0f9f55f22fb",
     "answer_file": "books/book-3/chapters/3.2/Antwoorden.md",
     "answer_file_sha256": "04f876a77f6bc7d27dfe714052e0c2cfea36441c15d5485b64d3b18f76cf3106",
     "chapter_student_pages": [
@@ -157,7 +157,6 @@
   "lesson_route": {
     "start": "20–21",
     "independent": "25a–d en 26a–b",
-    "guided_or_alternative": "22–24; vervang vergelijkbare tussenstappen",
     "target": "27",
     "target_subquestions": [
       "27a",
@@ -175,12 +174,68 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 13,
       "Doeloefening": 14,
-      "Feedback / afronding": 3
+      "Feedback / afronding": 3,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "De afgeleide is opgehaalde voorkennis uit §3.2.2. Nieuw is de economische keuze: marginale vergelijking, haalbaarheid en winst bij dezelfde q.",
-    "assessment_boundaries": "Beoordeel beide kanten van MO = MK en de capaciteit. Een positief winstbedrag bewijst niet dat extra productie gunstig is. Gebruik GTK pas ná de keuze van q."
+    "assessment_boundaries": "Beoordeel beide kanten van MO = MK en de capaciteit. Een positief winstbedrag bewijst niet dat extra productie gunstig is. Gebruik GTK pas ná de keuze van q.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 5,
+        "Motivatie": 2,
+        "Instructie": 9,
+        "Uitgewerkt voorbeeld": 7,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 13,
+        "Doeloefening": 14,
+        "Feedback / afronding": 3
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "22–24; vervang vergelijkbare tussenstappen"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "20",
+        "21"
+      ],
+      "Begeleide inoefening": [
+        "22",
+        "23",
+        "24"
+      ],
+      "Zelfstandige oefening": [
+        "25",
+        "26"
+      ],
+      "Doeloefening": [
+        "27"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "20",
+        "21"
+      ],
+      "Zelfstandige oefening": [
+        "25",
+        "26"
+      ],
+      "Doeloefening": [
+        "27"
+      ],
+      "Denkertje / Bonusopgave": [
+        "28"
+      ]
+    },
+    "additional_repetition": [
+      "29",
+      "30"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

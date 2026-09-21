@@ -1,0 +1,38 @@
+{
+  "scope": "Exercise-route revision; historical delivery and repair evidence retained",
+  "baseline_lesson_commit": "1056488b67b16c14cc83557a8b8497e2b9985370",
+  "builder": "4veco-platform/build-scripts/books/build_book2_chat.py",
+  "files": [
+    {
+      "path": "assembly.json",
+      "bytes": 3146,
+      "sha256": "20bf8b3e5fc8c566b52aef5f948caa8229ff503f3dfa57475f291d7bea030b83"
+    },
+    {
+      "path": "_assets/book2-cover-background.png",
+      "bytes": 1749422,
+      "sha256": "1ec086c2230ff1cdb070813bec38c2d0f3065af151f2fbb8acb533a0aaf5a4bf"
+    },
+    {
+      "path": "_assets/economics_textbook_cover_costs_and_surplus.png",
+      "bytes": 2613451,
+      "sha256": "fe7afa54ea871d3a2c5430d934517c895dc42cfb070ca607e09e89b9c839bd3a"
+    },
+    {
+      "path": "boek/Boek_2_Compleet.pdf",
+      "bytes": 5631614,
+      "sha256": "8f0e86882fe48bcab9aa9d99c72fe9d9e5aff737e95b52efed7a66fbb8710065"
+    },
+    {
+      "path": "boek/Boek_2_Compleet_Antwoorden.pdf",
+      "bytes": 4199148,
+      "sha256": "ab607d2cce956a4371097854b93246c916a91e39fdae7432730f0203e5e3bc97"
+    },
+    {
+      "path": "boek/Boek_2_Compleet_Docenteninformatie.pdf",
+      "bytes": 3359892,
+      "sha256": "7ba79cfc4c8ddb90b72a5e16e19481c5b9cf7945066a461f512f865c492b2d79"
+    }
+  ],
+  "chapter_inputs_sha256": "da5a92005921f2743a2a0ccb4b78130a21af080b85f22b7e8dc4452f78e8057a"
+}

@@ -18,7 +18,7 @@ Je gebruikt de gereedschappen uit Boek 1 en 2 opnieuw: vraag en aanbod, evenwich
 <a href="#overzicht"><b>Hoofdstukoverzicht <span>48</span></b>De belangrijkste begrippen en controles bij elkaar.</a>
 </div>
 
-<div class="box goals"><b>Werkwijze</b><br>Lees de uitleg en het uitgewerkte voorbeeld. De startopgaven halen benodigde voorkennis op. Begeleide inoefening is extra steun, geen extra verplicht einddoel. Zelfstandige oefening bereidt je voor op de doeloefening. Bonus en herhaling kunnen buiten de les.</div>
+<div class="box goals"><b>Werkwijze</b><br>Lees de uitleg en het uitgewerkte voorbeeld. Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Volg na de startopgaven de begeleide en zelfstandige oefening naar de doeloefening. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg de uitdagende route met de bonus. Herhaling is extra bij beide routes.</div>
 
 
 <div class="small muted">Werk in je schrift; gebruik de afgedrukte grafieken waar dat wordt gevraagd. Reken tussendoor ongerond; rond eurobedragen en percentages zo nodig af op twee decimalen. Alle markten, beleidsbronnen en bedragen zijn fictieve oefensituaties, geen actuele belastingregels.</div><div class="small muted">Herziene editie: extra uitleg en oefensteun bij belasting, subsidie en quota. Opgaven 22A, 40A en 47A zijn toegevoegd; de bestaande opgavenummers blijven behouden.</div>

@@ -30,9 +30,7 @@ Wat verandert, is **de vraag die je ermee beantwoordt**. Gaat het om de winst va
 
 
 ### Zo gebruik je de opgaven
-Lees de uitleg en het uitgewerkte voorbeeld. De **Startopgaven** halen benodigde voorkennis op en controleren kort het nieuwe idee. De normale route loopt daarna via **Zelfstandige oefening** naar **Doeloefening**.
-
-Heb je meer steun nodig, dan helpt **Begeleide inoefening**. Je werkt naar hetzelfde doel, met meer tussenstappen. Het **Denkertje / Bonusopgave** is extra uitdaging. De afsluitende herhaling oefent eerdere stof. Niet alles hoeft in dezelfde les af.
+Lees de uitleg en het uitgewerkte voorbeeld. Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Volg na de startopgaven de begeleide en zelfstandige oefening naar de doeloefening. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg de uitdagende route met de bonus. Herhaling is extra bij beide routes.
 
 ### Zo schrijf je een berekening
 Noteer eerst de relatie of het gebied, dan de ingevulde getallen, de uitkomst met eenheid en een korte economische uitleg. Bij een beleidsadvies hoort ook het criterium waarmee je beoordeelt.

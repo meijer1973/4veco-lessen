@@ -138,7 +138,7 @@
       "structural_scope_boundary": "State who remits the tax, its unit, and the competitive model assumptions. Remittance is not the same as economic tax burden. Do not add welfare accounting before §3.1.2.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.1/3.1.1 manuscript.md",
-        "student_manuscript_sha256": "c7f7c7d5a63efe90b5b115789b40eb190c31c4b1e339c72377444822bdce6cd9",
+        "student_manuscript_sha256": "938160312edc425888dd54b3207c932e0aa396c59411a30e6679865eb14fded8",
         "answer_file": "books/book-3/chapters/3.1/Antwoorden.md",
         "answer_file_sha256": "6d639e4d56806829462acd76da214f1d3075ec064b024d46a4fe0601cff292dc",
         "chapter_student_pages": [
@@ -151,7 +151,6 @@
       "lesson_route": {
         "start": "1–2",
         "independent": "5–6",
-        "guided_or_alternative": "3–4",
         "target": "7",
         "target_subquestions": [
           "7a",
@@ -168,12 +167,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 12,
           "Doeloefening": 12,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Zonder maatregel één prijs; na de heffing twee prijzen bij dezelfde hoeveelheid. Leid het aanbod in kopersprijzen expliciet af.",
-        "assessment_boundaries": "Afdragen is niet hetzelfde als dragen. Pp is een ontvangst vóór productiekosten, geen winst."
+        "assessment_boundaries": "Afdragen is niet hetzelfde als dragen. Pp is een ontvangst vóór productiekosten, geen winst.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 8,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 12,
+            "Doeloefening": 12,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "3–4"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Begeleide inoefening": [
+            "3",
+            "4"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ],
+          "Denkertje / Bonusopgave": [
+            "8"
+          ]
+        },
+        "additional_repetition": [
+          "9"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -332,7 +385,7 @@
       "structural_scope_boundary": "Government revenue is a transfer, not the deadweight loss. The initial welfare benchmark excludes external effects; corrective taxation returns in §4.2.4. Do not infer elasticity merely from slopes plotted with different scales.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.1/3.1.2 manuscript.md",
-        "student_manuscript_sha256": "2020abe9072c3a479dd59d4fdefe997d4a7def90e6698354fd30a326548a4955",
+        "student_manuscript_sha256": "fcf420689fff743c59776345c5e1043e960f0e0d792d279476797071c3e87757",
         "answer_file": "books/book-3/chapters/3.1/Antwoorden.md",
         "answer_file_sha256": "6d639e4d56806829462acd76da214f1d3075ec064b024d46a4fe0601cff292dc",
         "chapter_student_pages": [
@@ -345,7 +398,6 @@
       "lesson_route": {
         "start": "10–11",
         "independent": "14–15",
-        "guided_or_alternative": "12–13",
         "target": "16",
         "target_subquestions": [
           "16a",
@@ -354,11 +406,57 @@
           "16d",
           "16e"
         ],
-        "minutes": null,
+        "minutes": {
+          "Begeleide inoefening": null
+        },
         "total_minutes": null,
         "one_lesson_status": "open_existing_timing_conflict",
         "instruction_focus": "Behandel last per stuk, belastingopbrengst en verloren surplus afzonderlijk. De gecontroleerde prijsgevoeligheidsvergelijking hoort vóór zelfstandig werk.",
-        "assessment_boundaries": "De daling van CS + PS is niet geheel welvaartsverlies. O hoort bij verkochte eenheden; de verliesdriehoek bij weggevallen transacties."
+        "assessment_boundaries": "De daling van CS + PS is niet geheel welvaartsverlies. O hoort bij verkochte eenheden; de verliesdriehoek bij weggevallen transacties.",
+        "previous_estimate": {
+          "minutes": null,
+          "total_minutes": null,
+          "one_lesson_status": "open_existing_timing_conflict",
+          "guided_or_alternative": "12–13"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "10",
+            "11"
+          ],
+          "Begeleide inoefening": [
+            "12",
+            "13"
+          ],
+          "Zelfstandige oefening": [
+            "14",
+            "15"
+          ],
+          "Doeloefening": [
+            "16"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "10",
+            "11"
+          ],
+          "Zelfstandige oefening": [
+            "14",
+            "15"
+          ],
+          "Doeloefening": [
+            "16"
+          ],
+          "Denkertje / Bonusopgave": [
+            "17"
+          ]
+        },
+        "additional_repetition": [
+          "18"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -517,7 +615,7 @@
       "structural_scope_boundary": "Specify the eligible transaction and payment recipient. In this first treatment assume no external benefit; §4.2.5 deliberately changes that assumption. A subsidy is not automatically an efficiency improvement.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.1/3.1.3 manuscript.md",
-        "student_manuscript_sha256": "045125c17f630d6e40bc6917ea8898e3c225ea4cbd5ecf926592a93906f14995",
+        "student_manuscript_sha256": "a9bfe97a56a9cf77feff4602dce945ea69af2c14bcd14cbcbcb1d2b35cbe94da",
         "answer_file": "books/book-3/chapters/3.1/Antwoorden.md",
         "answer_file_sha256": "6d639e4d56806829462acd76da214f1d3075ec064b024d46a4fe0601cff292dc",
         "chapter_student_pages": [
@@ -530,7 +628,6 @@
       "lesson_route": {
         "start": "19–20",
         "independent": "23–24",
-        "guided_or_alternative": "21–22; zo nodig 22A",
         "target": "25",
         "target_subquestions": [
           "25a",
@@ -539,11 +636,58 @@
           "25d",
           "25e"
         ],
-        "minutes": null,
+        "minutes": {
+          "Begeleide inoefening": null
+        },
         "total_minutes": null,
         "one_lesson_status": "open_existing_timing_conflict",
         "instruction_focus": "Hergebruik de wig met omgekeerde richting. Maak de begrotingsrekening en de volledige welvaartsmaat zichtbaar vóór de target.",
-        "assessment_boundaries": "Betaal de subsidie over alle subsidiabele verkopen. Deze eerste analyse kent geen externe baten; die aanname verandert pas in §4.2.5."
+        "assessment_boundaries": "Betaal de subsidie over alle subsidiabele verkopen. Deze eerste analyse kent geen externe baten; die aanname verandert pas in §4.2.5.",
+        "previous_estimate": {
+          "minutes": null,
+          "total_minutes": null,
+          "one_lesson_status": "open_existing_timing_conflict",
+          "guided_or_alternative": "21–22; zo nodig 22A"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "19",
+            "20"
+          ],
+          "Begeleide inoefening": [
+            "21",
+            "22",
+            "22A"
+          ],
+          "Zelfstandige oefening": [
+            "23",
+            "24"
+          ],
+          "Doeloefening": [
+            "25"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "19",
+            "20"
+          ],
+          "Zelfstandige oefening": [
+            "23",
+            "24"
+          ],
+          "Doeloefening": [
+            "25"
+          ],
+          "Denkertje / Bonusopgave": [
+            "26"
+          ]
+        },
+        "additional_repetition": [
+          "27"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -702,7 +846,7 @@
       "structural_scope_boundary": "A low quoted price does not mean everyone buys at that price. Welfare-area calculations require an explicit allocation assumption. Avoid turning this into a full housing-policy chapter.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.1/3.1.4 manuscript.md",
-        "student_manuscript_sha256": "d8d37a131f60a17fca322fa289521f7ced878c9e5eec77c2fbe204f3fda2720a",
+        "student_manuscript_sha256": "77c8e3e3cbba0fae732cb904aa05be660e002bd378e1e049fd9e9155adbdef6c",
         "answer_file": "books/book-3/chapters/3.1/Antwoorden.md",
         "answer_file_sha256": "6d639e4d56806829462acd76da214f1d3075ec064b024d46a4fe0601cff292dc",
         "chapter_student_pages": [
@@ -715,7 +859,6 @@
       "lesson_route": {
         "start": "28–29",
         "independent": "32–33",
-        "guided_or_alternative": "30–31",
         "target": "34",
         "target_subquestions": [
           "34a",
@@ -732,12 +875,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 13,
           "Doeloefening": 13,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Controleer eerst of de maximumprijs bindt. Onderscheid gewenste vraag, aanbod en feitelijke verkoop.",
-        "assessment_boundaries": "Een lage toegestane prijs garandeert geen toegang. De bron bepaalt welke kopers het product krijgen; geef geen extra welvaartsrekening als eis."
+        "assessment_boundaries": "Een lage toegestane prijs garandeert geen toegang. De bron bepaalt welke kopers het product krijgen; geef geen extra welvaartsrekening als eis.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 9,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 13,
+            "Doeloefening": 13,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "30–31"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "28",
+            "29"
+          ],
+          "Begeleide inoefening": [
+            "30",
+            "31"
+          ],
+          "Zelfstandige oefening": [
+            "32",
+            "33"
+          ],
+          "Doeloefening": [
+            "34"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "28",
+            "29"
+          ],
+          "Zelfstandige oefening": [
+            "32",
+            "33"
+          ],
+          "Doeloefening": [
+            "34"
+          ],
+          "Denkertje / Bonusopgave": [
+            "35"
+          ]
+        },
+        "additional_repetition": [
+          "36"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -896,7 +1093,7 @@
       "structural_scope_boundary": "A production quota is not automatically a price floor; a floor does not imply public purchases unless the source says so. This is a high-load paragraph: the quota comparison stays bounded. Prepares the import-quota comparison in §3.3.3 and the later minimum-wage application in §4.3.4.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.1/3.1.5 manuscript.md",
-        "student_manuscript_sha256": "76c5b62f3d94b18b306acf7d6e35f7f513311aab000b0886afd4a67ac393a9ef",
+        "student_manuscript_sha256": "9f1aaab2c33c572a3d0dd4b85a5eb29bd90412a4de5bdf037c9a889c2c7bc30c",
         "answer_file": "books/book-3/chapters/3.1/Antwoorden.md",
         "answer_file_sha256": "6d639e4d56806829462acd76da214f1d3075ec064b024d46a4fe0601cff292dc",
         "chapter_student_pages": [
@@ -909,7 +1106,6 @@
       "lesson_route": {
         "start": "37–38",
         "independent": "41–42",
-        "guided_or_alternative": "39–40; 40A vóór de quotumvergelijking",
         "target": "43",
         "target_subquestions": [
           "43a",
@@ -918,11 +1114,58 @@
           "43d",
           "43e"
         ],
-        "minutes": null,
+        "minutes": {
+          "Begeleide inoefening": null
+        },
         "total_minutes": null,
         "one_lesson_status": "open_existing_timing_conflict",
         "instruction_focus": "Behandel minimumprijs, opkoopregel en productiequotum als onderscheiden regelingen. Het quotum vervangt in de vergelijking de gehele prijs- en opkoopregeling.",
-        "assessment_boundaries": "Een minimumprijs bevat niet vanzelf een aankoopbelofte. Lees bij een bindend productiequotum de prijs van de vraaglijn af."
+        "assessment_boundaries": "Een minimumprijs bevat niet vanzelf een aankoopbelofte. Lees bij een bindend productiequotum de prijs van de vraaglijn af.",
+        "previous_estimate": {
+          "minutes": null,
+          "total_minutes": null,
+          "one_lesson_status": "open_existing_timing_conflict",
+          "guided_or_alternative": "39–40; 40A vóór de quotumvergelijking"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "37",
+            "38"
+          ],
+          "Begeleide inoefening": [
+            "39",
+            "40",
+            "40A"
+          ],
+          "Zelfstandige oefening": [
+            "41",
+            "42"
+          ],
+          "Doeloefening": [
+            "43"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "37",
+            "38"
+          ],
+          "Zelfstandige oefening": [
+            "41",
+            "42"
+          ],
+          "Doeloefening": [
+            "43"
+          ],
+          "Denkertje / Bonusopgave": [
+            "44"
+          ]
+        },
+        "additional_repetition": [
+          "45"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -1094,7 +1337,7 @@
       "structural_scope_boundary": "No new intervention or externality model. Do not force every intervention into one unwieldy target or one 55-minute compulsory route.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.1/3.1.6 manuscript.md",
-        "student_manuscript_sha256": "2bcaeb3319dfb280988947648a7a50453e32c8fffd4f16bf177257174dde7de3",
+        "student_manuscript_sha256": "0ea1f1c3e7bc206b1829f39bcc9a0da161b65d14d2f8e385834c9e8660a12bca",
         "answer_file": "books/book-3/chapters/3.1/Antwoorden.md",
         "answer_file_sha256": "6d639e4d56806829462acd76da214f1d3075ec064b024d46a4fe0601cff292dc",
         "chapter_student_pages": [
@@ -1109,7 +1352,6 @@
       "lesson_route": {
         "start": "46",
         "independent": "47",
-        "guided_or_alternative": "47A als gerichte vervanging of later herstel",
         "target": "48",
         "target_subquestions": [
           "48a",
@@ -1130,9 +1372,33 @@
           "Feedback / afronding": 6
         },
         "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "one_lesson_status": "selected_mixed_route_not_classroom_measured",
         "instruction_focus": "Laat leerlingen het instrument kiezen uit de bron; geef de methode niet vooraf per deelvraag weg. Opgave 47A komt niet boven op de kern.",
-        "assessment_boundaries": "Vraag bij fouten welke hoeveelheid wordt belast, gesubsidieerd, gekocht of verhandeld. De bron rechtvaardigt geen volledige welvaartsrangschikking van beide plannen."
+        "assessment_boundaries": "Vraag bij fouten welke hoeveelheid wordt belast, gesubsidieerd, gekocht of verhandeld. De bron rechtvaardigt geen volledige welvaartsrangschikking van beide plannen.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 8,
+            "Motivatie": 0,
+            "Instructie": 4,
+            "Uitgewerkt voorbeeld": 0,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 25,
+            "Feedback / afronding": 6
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "47A als gerichte vervanging of later herstel"
+        },
+        "route_exception": {
+          "reason": "mixed_practice_without_separate_guided_section",
+          "preparation": "46, 47 en 47A",
+          "bonus": null,
+          "repetition": null,
+          "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections."
+        },
+        "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -1291,7 +1557,7 @@
       "structural_scope_boundary": "Explain the stated competitive assumptions. A horizontal firm demand curve is not the same as a horizontal market demand curve.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.2/3.2.1 manuscript.md",
-        "student_manuscript_sha256": "cc8e6578d4419c2affe0d793bf1c2b6accf920eb54bd5c1c1cf74b8a98cd3c80",
+        "student_manuscript_sha256": "c13b390b105beaf18a7d3e83cb52fb04792f3927d207efe5616b01a3ce8fc366",
         "answer_file": "books/book-3/chapters/3.2/Antwoorden.md",
         "answer_file_sha256": "04f876a77f6bc7d27dfe714052e0c2cfea36441c15d5485b64d3b18f76cf3106",
         "chapter_student_pages": [
@@ -1304,7 +1570,6 @@
       "lesson_route": {
         "start": "1–2",
         "independent": "5–6",
-        "guided_or_alternative": "3–4",
         "target": "7",
         "target_subquestions": [
           "7a",
@@ -1321,12 +1586,67 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 12,
           "Doeloefening": 12,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Verbind de prijs in de marktgrafiek met de horizontale opbrengstlijn van één onderneming. Laat Q en q steeds benoemen.",
-        "assessment_boundaries": "Vrije toetreding mag als kenmerk worden genoemd, maar het formele langetermijnmechanisme is geen Boek 3-toetsdoel meer. Een horizontale firmalijn is geen horizontale marktvraag."
+        "assessment_boundaries": "Vrije toetreding mag als kenmerk worden genoemd, maar het formele langetermijnmechanisme is geen Boek 3-toetsdoel meer. Een horizontale firmalijn is geen horizontale marktvraag.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 12,
+            "Doeloefening": 12,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "3–4"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Begeleide inoefening": [
+            "3",
+            "4"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ],
+          "Denkertje / Bonusopgave": [
+            "8"
+          ]
+        },
+        "additional_repetition": [
+          "9",
+          "10"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -1472,7 +1792,7 @@
       "structural_scope_boundary": "No full calculus course, differentiation of GTK, general product/quotient rules, or price/output optimisation. Do not call ΔTK/Δq over a large interval the exact derivative at its endpoint. Preserve the existing fixed-cost/capacity convention. A full optimum, capacity comparison and profit rectangle belong to §3.2.3, not this target. This new paragraph must have its own worked preparation, independent practice and compact target.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.2/3.2.2 manuscript.md",
-        "student_manuscript_sha256": "8939476f0ea474b0d35db29cf085650ddd7efb548f71df6a531ffce38d34f55c",
+        "student_manuscript_sha256": "992f1f64ee131c8c7a6c85dd517fc87724be5f825a1f9e497cd01f699645fdce",
         "answer_file": "books/book-3/chapters/3.2/Antwoorden.md",
         "answer_file_sha256": "04f876a77f6bc7d27dfe714052e0c2cfea36441c15d5485b64d3b18f76cf3106",
         "chapter_student_pages": [
@@ -1485,7 +1805,6 @@
       "lesson_route": {
         "start": "11–12",
         "independent": "15–16",
-        "guided_or_alternative": "13–14",
         "target": "17",
         "target_subquestions": [
           "17a",
@@ -1502,12 +1821,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 12,
           "Doeloefening": 12,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Nieuwe afzonderlijke les: totale kosten → afgeleide → marginale kosten op een punt. Vergelijk pas daarna met gemiddelde extra kosten over een eindige tabelstap.",
-        "assessment_boundaries": "Differentieer alleen aq² + bq + c. De afgeleide van de constante is nul, maar die kosten verdwijnen niet uit TK. Hier nog geen productieoptimum of winstrechthoek als einddoel."
+        "assessment_boundaries": "Differentieer alleen aq² + bq + c. De afgeleide van de constante is nul, maar die kosten verdwijnen niet uit TK. Hier nog geen productieoptimum of winstrechthoek als einddoel.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 5,
+            "Motivatie": 2,
+            "Instructie": 11,
+            "Uitgewerkt voorbeeld": 8,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 12,
+            "Doeloefening": 12,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "13–14"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "11",
+            "12"
+          ],
+          "Begeleide inoefening": [
+            "13",
+            "14"
+          ],
+          "Zelfstandige oefening": [
+            "15",
+            "16"
+          ],
+          "Doeloefening": [
+            "17"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "11",
+            "12"
+          ],
+          "Zelfstandige oefening": [
+            "15",
+            "16"
+          ],
+          "Doeloefening": [
+            "17"
+          ],
+          "Denkertje / Bonusopgave": [
+            "18"
+          ]
+        },
+        "additional_repetition": [
+          "19"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -1677,7 +2050,7 @@
       "structural_scope_boundary": "MO = MK is not by itself a universal maximum proof. Do not choose output by mechanically minimising GTK. Fixed costs remain fixed within the stated period and capacity; avoid new production-range complications. Entry/exit, normal remuneration and the long-run zero-economic-profit result are formally taught in new §4.1.1, not here. Distinguish a short-period loss from an automatic decision to leave the market.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.2/3.2.3 manuscript.md",
-        "student_manuscript_sha256": "4ebf495f500689fb9414d9792429203e441e00c65efb0506ab56fa4e4a859181",
+        "student_manuscript_sha256": "b6a7f077dabc309e8db3a98089eb8c57cee6e3ab216a44c70812f0f9f55f22fb",
         "answer_file": "books/book-3/chapters/3.2/Antwoorden.md",
         "answer_file_sha256": "04f876a77f6bc7d27dfe714052e0c2cfea36441c15d5485b64d3b18f76cf3106",
         "chapter_student_pages": [
@@ -1690,7 +2063,6 @@
       "lesson_route": {
         "start": "20–21",
         "independent": "25a–d en 26a–b",
-        "guided_or_alternative": "22–24; vervang vergelijkbare tussenstappen",
         "target": "27",
         "target_subquestions": [
           "27a",
@@ -1708,12 +2080,68 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 13,
           "Doeloefening": 14,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "De afgeleide is opgehaalde voorkennis uit §3.2.2. Nieuw is de economische keuze: marginale vergelijking, haalbaarheid en winst bij dezelfde q.",
-        "assessment_boundaries": "Beoordeel beide kanten van MO = MK en de capaciteit. Een positief winstbedrag bewijst niet dat extra productie gunstig is. Gebruik GTK pas ná de keuze van q."
+        "assessment_boundaries": "Beoordeel beide kanten van MO = MK en de capaciteit. Een positief winstbedrag bewijst niet dat extra productie gunstig is. Gebruik GTK pas ná de keuze van q.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 5,
+            "Motivatie": 2,
+            "Instructie": 9,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 13,
+            "Doeloefening": 14,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "22–24; vervang vergelijkbare tussenstappen"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "20",
+            "21"
+          ],
+          "Begeleide inoefening": [
+            "22",
+            "23",
+            "24"
+          ],
+          "Zelfstandige oefening": [
+            "25",
+            "26"
+          ],
+          "Doeloefening": [
+            "27"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "20",
+            "21"
+          ],
+          "Zelfstandige oefening": [
+            "25",
+            "26"
+          ],
+          "Doeloefening": [
+            "27"
+          ],
+          "Denkertje / Bonusopgave": [
+            "28"
+          ]
+        },
+        "additional_repetition": [
+          "29",
+          "30"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -1869,7 +2297,7 @@
       "structural_scope_boundary": "In the complete printed set, not just the target, relocate old exercise 35 and the long-run content of bonus 37 or replace them with already-taught retrieval. Reword old 36a's economic-profit/normal-remuneration premise as a supplied cost convention; do not require interpretation of normal remuneration before §4.1.1. Numeric equality TO = TK may remain familiar break-even arithmetic, not a long-run conclusion. Preserve independent consolidation before the Book 3 assessment.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.2/3.2.4 manuscript.md",
-        "student_manuscript_sha256": "f645f6e34e4e227bac144996ec7d1c3a3d1c38aaea8cfd4ba479f7ada5dc8a1c",
+        "student_manuscript_sha256": "08387dcdc8857346ddc877b1ef537a02cee235ec85f2766afc74bf30e04d8112",
         "answer_file": "books/book-3/chapters/3.2/Antwoorden.md",
         "answer_file_sha256": "04f876a77f6bc7d27dfe714052e0c2cfea36441c15d5485b64d3b18f76cf3106",
         "chapter_student_pages": [
@@ -1884,7 +2312,6 @@
       "lesson_route": {
         "start": "31a–c",
         "independent": "33a–b en 34a",
-        "guided_or_alternative": "32 als vervangende oefening bij fouten met GTK",
         "target": "35",
         "target_subquestions": [
           "35a",
@@ -1904,9 +2331,33 @@
           "Feedback / afronding": 6
         },
         "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "one_lesson_status": "selected_mixed_route_not_classroom_measured",
         "instruction_focus": "De target vergelijkt twee korte-termijnmomenten. Het aantal bedrijven en de kostentechniek blijven in het onderzochte tijdvak gelijk.",
-        "assessment_boundaries": "Geen vragen over toetreding, langetermijnprijs of normale ondernemersbeloning toevoegen. De nulwinst in de beginsituatie is hier een rekenuitkomst, geen nieuw langetermijnresultaat."
+        "assessment_boundaries": "Geen vragen over toetreding, langetermijnprijs of normale ondernemersbeloning toevoegen. De nulwinst in de beginsituatie is hier een rekenuitkomst, geen nieuw langetermijnresultaat.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 8,
+            "Motivatie": 0,
+            "Instructie": 4,
+            "Uitgewerkt voorbeeld": 0,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 25,
+            "Feedback / afronding": 6
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "32 als vervangende oefening bij fouten met GTK"
+        },
+        "route_exception": {
+          "reason": "mixed_practice_without_separate_guided_section",
+          "preparation": "31–34",
+          "bonus": "36",
+          "repetition": "37",
+          "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections."
+        },
+        "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -2053,7 +2504,7 @@
       "structural_scope_boundary": "No calculated opportunity-cost ratios, production-possibility-frontier optimisation, exchange-ratio bounds or separate ruilvoet calculation objective. Do not equate absolute with comparative advantage or claim that all groups necessarily gain. The conceptual/no-calculation boundary follows the owner's retained design instruction; this revision makes no new CE/SE validation claim. Formal productivity and unit-labour-cost analysis is taught in §4.3.1. Long-run entry/exit is not needed for this trade target.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.3/3.3.1 manuscript.md",
-        "student_manuscript_sha256": "6f14512949c2cafa67b868ec747c3d382574842fbfac3ed1d8946538391812ab",
+        "student_manuscript_sha256": "2f8b17f7624ecf6605d8f65a7076aacc95b39f2dabf3a1b4185d421247414a74",
         "answer_file": "books/book-3/chapters/3.3/Antwoorden.md",
         "answer_file_sha256": "4dd84fe5767895aaf273bc27e64bd8281305835ca621a0e00be34b3f6942228b",
         "chapter_student_pages": [
@@ -2066,7 +2517,6 @@
       "lesson_route": {
         "start": "1–2",
         "independent": "5–6",
-        "guided_or_alternative": "3–4",
         "target": "7",
         "target_subquestions": [
           "7a",
@@ -2083,12 +2533,67 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 12,
           "Doeloefening": 12,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Vraag een verklaring van relatief minder opofferen, ook wanneer hetzelfde land in beide activiteiten productiever is.",
-        "assessment_boundaries": "Geen productie- of specialisatietabellen met berekende comparatieve kosten. Productiviteit en concurrentiepositie blijven kwalitatief en brongebonden."
+        "assessment_boundaries": "Geen productie- of specialisatietabellen met berekende comparatieve kosten. Productiviteit en concurrentiepositie blijven kwalitatief en brongebonden.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 12,
+            "Doeloefening": 12,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "3–4"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Begeleide inoefening": [
+            "3",
+            "4"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ],
+          "Denkertje / Bonusopgave": [
+            "8"
+          ]
+        },
+        "additional_repetition": [
+          "9",
+          "10"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -2247,7 +2752,7 @@
       "structural_scope_boundary": "State a small, price-taking country, competitive markets, sufficient foreign supply/demand and the relevant transport/tariff assumptions. Keep currencies fixed. Domestic demand is not domestic production. A rise in the stated total-surplus measure is not evidence that every group gains. The target need not produce a full welfare-area ledger or balance-of-payments account.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.3/3.3.2 manuscript.md",
-        "student_manuscript_sha256": "cba49530c303ca57eb5162eb2545157ec129875c4fdf92bbdcfa3425df464aed",
+        "student_manuscript_sha256": "4098130b9a226b3007e5d2642f32ce47d0aa1667e1589a151fd8380a3efe043e",
         "answer_file": "books/book-3/chapters/3.3/Antwoorden.md",
         "answer_file_sha256": "4dd84fe5767895aaf273bc27e64bd8281305835ca621a0e00be34b3f6942228b",
         "chapter_student_pages": [
@@ -2260,7 +2765,6 @@
       "lesson_route": {
         "start": "11–12",
         "independent": "15–16",
-        "guided_or_alternative": "13–14",
         "target": "17",
         "target_subquestions": [
           "17a",
@@ -2277,12 +2781,67 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 12,
           "Doeloefening": 12,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Gebruik de opgegeven wereldprijs; onderscheid binnenlandse productie, consumptie en handelsstroom. Behandel ook de omgekeerde exportrichting.",
-        "assessment_boundaries": "Binnenlandse vraag is niet binnenlandse productie. De kleine-landaanname en de voorwaarden voor buitenlandse handel staan in de bron; geen nieuwe wisselkoersrekening."
+        "assessment_boundaries": "Binnenlandse vraag is niet binnenlandse productie. De kleine-landaanname en de voorwaarden voor buitenlandse handel staan in de bron; geen nieuwe wisselkoersrekening.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 12,
+            "Doeloefening": 12,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "13–14"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "11",
+            "12"
+          ],
+          "Begeleide inoefening": [
+            "13",
+            "14"
+          ],
+          "Zelfstandige oefening": [
+            "15",
+            "16"
+          ],
+          "Doeloefening": [
+            "17"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "11",
+            "12"
+          ],
+          "Zelfstandige oefening": [
+            "15",
+            "16"
+          ],
+          "Doeloefening": [
+            "17"
+          ],
+          "Denkertje / Bonusopgave": [
+            "18"
+          ]
+        },
+        "additional_repetition": [
+          "19",
+          "20"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -2441,7 +3000,7 @@
       "structural_scope_boundary": "Use imported quantity, not all domestic sales, for tariff revenue. Teach the no-import boundary using graph reading or a supplied contrast; do not mechanically impose world price plus tariff after imports disappear. State the model assumptions behind the case. Quantitative quota rents/allocation, export-subsidy models, exchange-rate adjustment and formal strategic retaliation remain deferred. An industry-gain claim is not automatically an economy-wide welfare claim.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.3/3.3.3 manuscript.md",
-        "student_manuscript_sha256": "5e41e97af832964ec1ac81baae6cbb77543de1550b20bafd3cab6ea55cbddd00",
+        "student_manuscript_sha256": "3e0e2a3c92b2ff117c037abb579e36b396d08259de7f7718f0e23397577e5afc",
         "answer_file": "books/book-3/chapters/3.3/Antwoorden.md",
         "answer_file_sha256": "4dd84fe5767895aaf273bc27e64bd8281305835ca621a0e00be34b3f6942228b",
         "chapter_student_pages": [
@@ -2454,7 +3013,6 @@
       "lesson_route": {
         "start": "21–22",
         "independent": "25–26",
-        "guided_or_alternative": "23–24",
         "target": "27",
         "target_subquestions": [
           "27a",
@@ -2471,12 +3029,67 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 12,
           "Doeloefening": 12,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Bereken heffingsopbrengst over de resterende import. Leer de grens met geen import met het meegeleverde contrast.",
-        "assessment_boundaries": "Wereldprijs plus heffing mag niet mechanisch worden gebruikt nadat de import verdwijnt. Een gratis importvergunning brengt niet automatisch geld in de overheidskas."
+        "assessment_boundaries": "Wereldprijs plus heffing mag niet mechanisch worden gebruikt nadat de import verdwijnt. Een gratis importvergunning brengt niet automatisch geld in de overheidskas.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 12,
+            "Doeloefening": 12,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "23–24"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "21",
+            "22"
+          ],
+          "Begeleide inoefening": [
+            "23",
+            "24"
+          ],
+          "Zelfstandige oefening": [
+            "25",
+            "26"
+          ],
+          "Doeloefening": [
+            "27"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "21",
+            "22"
+          ],
+          "Zelfstandige oefening": [
+            "25",
+            "26"
+          ],
+          "Doeloefening": [
+            "27"
+          ],
+          "Denkertje / Bonusopgave": [
+            "28"
+          ]
+        },
+        "additional_repetition": [
+          "29",
+          "30"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -2644,7 +3257,7 @@
       "structural_scope_boundary": "The earlier proposal cites a 2022 VWO-I Importheffing task as a possible target-design input. Carry that reference forward for later source verification, not as a completed adaptation or evidence that every operation is approved. Later current-account and game-theory demands stay outside this chapter. Claims about protected jobs do not require or establish a formal economy-wide employment result.",
       "source_pin": {
         "student_file": "books/book-3/chapters/3.3/3.3.4 manuscript.md",
-        "student_manuscript_sha256": "339d55ad529b134a0e5c29a565ee591aead938f8e32a91dcc1d599e9c284037c",
+        "student_manuscript_sha256": "35868a050f130381e4dc600fbe4bd399eca23ab6e96d83c72662df9225126faf",
         "answer_file": "books/book-3/chapters/3.3/Antwoorden.md",
         "answer_file_sha256": "4dd84fe5767895aaf273bc27e64bd8281305835ca621a0e00be34b3f6942228b",
         "chapter_student_pages": [
@@ -2659,7 +3272,6 @@
       "lesson_route": {
         "start": "31",
         "independent": "32 of 33 (kies één)",
-        "guided_or_alternative": "34 als aanvullende consolidatie",
         "target": "35",
         "target_subquestions": [
           "35a",
@@ -2680,9 +3292,33 @@
           "Feedback / afronding": 6
         },
         "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "one_lesson_status": "selected_mixed_route_not_classroom_measured",
         "instruction_focus": "Behoud de brongeleide handelsconclusie. Afsluitende herhaling 38b vraagt nu een korte-termijnproductieadvies, niet het verplaatste toetredingsmechanisme.",
-        "assessment_boundaries": "Opmerkingen over banen blijven gewone bronredenering; geen arbeidsmarktformules als voorkennis. Boek 4 begint nu met langetermijnaanpassing en daarna monopolie."
+        "assessment_boundaries": "Opmerkingen over banen blijven gewone bronredenering; geen arbeidsmarktformules als voorkennis. Boek 4 begint nu met langetermijnaanpassing en daarna monopolie.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 8,
+            "Motivatie": 0,
+            "Instructie": 4,
+            "Uitgewerkt voorbeeld": 0,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 25,
+            "Feedback / afronding": 6
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "34 als aanvullende consolidatie"
+        },
+        "route_exception": {
+          "reason": "mixed_practice_without_separate_guided_section",
+          "preparation": "31–34",
+          "bonus": "36",
+          "repetition": "37–38",
+          "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections."
+        },
+        "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -2841,7 +3477,7 @@
       "structural_scope_boundary": "Retain the stated free-entry/exit, identical active-firm costs and input-price assumptions. Under this model the endpoint is P = MO = MK = minimum GTK; it is not a universal claim about every real industry. Do not infer immediate shutdown from a short-period loss. End with the question 'What changes when other suppliers cannot enter?' as the transition to §4.1.2, not a complete additional monopoly lesson. The existing classroom-time estimate remains provisional and needs checking after the book-opening retrieval is selected.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.1/4.1.1 manuscript.md",
-        "student_manuscript_sha256": "9777cfa0305cf03ac4241940e039a9f1f8a0bb517568c1ec56600dbc5569c4d3",
+        "student_manuscript_sha256": "7d80849940920bc83166692f39d89fec1c3eb909453ade5b6b55336aab17e797",
         "answer_file": "books/book-4/chapters/4.1/Antwoorden.md",
         "answer_file_sha256": "01a9294bd3ce947ceb5460d588cd3f7ffee5b9f0be3e4334558fde44096f8da1",
         "chapter_student_pages": [
@@ -2854,7 +3490,6 @@
       "lesson_route": {
         "start": "1–2",
         "independent": "5a–c en 6b",
-        "guided_or_alternative": "3–4",
         "target": "7",
         "target_subquestions": [
           "7a",
@@ -2871,12 +3506,67 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 11,
           "Doeloefening": 13,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Verplaatst uit voormalig §3.2.3. Herstel binnen het startwerk de firmaberekening; voeg geen aparte recaples toe. Introduceer normale beloning en economische winst hier.",
-        "assessment_boundaries": "Het nulwinstresultaat geldt bij de genoemde vrije toe-/uittreding en onveranderde kosten. Nul economische winst is niet nul omzet of geen ondernemersbeloning. Verlies betekent niet automatisch onmiddellijk stilleggen."
+        "assessment_boundaries": "Het nulwinstresultaat geldt bij de genoemde vrije toe-/uittreding en onveranderde kosten. Nul economische winst is niet nul omzet of geen ondernemersbeloning. Verlies betekent niet automatisch onmiddellijk stilleggen.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 11,
+            "Doeloefening": 13,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "3–4"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Begeleide inoefening": [
+            "3",
+            "4"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ],
+          "Denkertje / Bonusopgave": [
+            "8"
+          ]
+        },
+        "additional_repetition": [
+          "9",
+          "10"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -3036,7 +3726,7 @@
       "structural_scope_boundary": "Monopoly does not mean unlimited pricing power. Patents can be one entry-barrier context; full policy evaluation belongs later.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.1/4.1.2 manuscript.md",
-        "student_manuscript_sha256": "3c0dc460e987378cc4a470e7317ecb3467fa742b4befafa2b03674b475b6d38a",
+        "student_manuscript_sha256": "739fc8fc31d2df3fcce02832e72df341c5be7544ff6c90fbe089e2f7cee99a3d",
         "answer_file": "books/book-4/chapters/4.1/Antwoorden.md",
         "answer_file_sha256": "01a9294bd3ce947ceb5460d588cd3f7ffee5b9f0be3e4334558fde44096f8da1",
         "chapter_student_pages": [
@@ -3049,7 +3739,6 @@
       "lesson_route": {
         "start": "11–12",
         "independent": "16–17",
-        "guided_or_alternative": "13–15",
         "target": "18",
         "target_subquestions": [
           "18a",
@@ -3066,12 +3755,67 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 12,
           "Doeloefening": 12,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Gebruik §4.1.1 als contrast: vrije toetreding tegenover een expliciete barrière. Laat zien dat de monopolist prijs en afzet niet onafhankelijk kiest.",
-        "assessment_boundaries": "Een merk of een foto van één winkel bewijst geen monopolie. Begrens de markt en noem de barrière uit de bron; alleenrecht betekent geen onbeperkte prijszetting."
+        "assessment_boundaries": "Een merk of een foto van één winkel bewijst geen monopolie. Begrens de markt en noem de barrière uit de bron; alleenrecht betekent geen onbeperkte prijszetting.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 12,
+            "Doeloefening": 12,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "13–15"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "11",
+            "12"
+          ],
+          "Begeleide inoefening": [
+            "13",
+            "14",
+            "15"
+          ],
+          "Zelfstandige oefening": [
+            "16",
+            "17"
+          ],
+          "Doeloefening": [
+            "18"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "11",
+            "12"
+          ],
+          "Zelfstandige oefening": [
+            "16",
+            "17"
+          ],
+          "Doeloefening": [
+            "18"
+          ],
+          "Denkertje / Bonusopgave": [
+            "19"
+          ]
+        },
+        "additional_repetition": [
+          "20"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -3227,7 +3971,7 @@
       "structural_scope_boundary": "Assume a uniform selling price. Do not introduce point-elasticity formulas or a general calculus chapter. Revisit elasticity qualitatively only where it supports the taught revenue interpretation.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.1/4.1.3 manuscript.md",
-        "student_manuscript_sha256": "45674b920fb1414d0e8ac70d87ea9d945c356fbe537829d8675b2218ccae11ed",
+        "student_manuscript_sha256": "c4360e8f4b2bbf0ea576f80d8f2bb323c2fe34a7d5f90c375203ca629bddbfc1",
         "answer_file": "books/book-4/chapters/4.1/Antwoorden.md",
         "answer_file_sha256": "01a9294bd3ce947ceb5460d588cd3f7ffee5b9f0be3e4334558fde44096f8da1",
         "chapter_student_pages": [
@@ -3240,7 +3984,6 @@
       "lesson_route": {
         "start": "21–22",
         "independent": "26a–c en 27a–b",
-        "guided_or_alternative": "23–25",
         "target": "28",
         "target_subquestions": [
           "28a",
@@ -3257,12 +4000,67 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 11,
           "Doeloefening": 14,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Hergebruik differentiatie uit §3.2.2. Leg het verlies op eerder verkochte eenheden uit vóór de algemene conclusie MO < P.",
-        "assessment_boundaries": "Bij uniforme prijs verandert ook de opbrengst van bestaande verkopen. Vergelijk een tabelgemiddelde niet alsof het dezelfde grootheid is als MO op een punt."
+        "assessment_boundaries": "Bij uniforme prijs verandert ook de opbrengst van bestaande verkopen. Vergelijk een tabelgemiddelde niet alsof het dezelfde grootheid is als MO op een punt.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 5,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 8,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 11,
+            "Doeloefening": 14,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "23–25"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "21",
+            "22"
+          ],
+          "Begeleide inoefening": [
+            "23",
+            "24",
+            "25"
+          ],
+          "Zelfstandige oefening": [
+            "26",
+            "27"
+          ],
+          "Doeloefening": [
+            "28"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "21",
+            "22"
+          ],
+          "Zelfstandige oefening": [
+            "26",
+            "27"
+          ],
+          "Doeloefening": [
+            "28"
+          ],
+          "Denkertje / Bonusopgave": [
+            "29"
+          ]
+        },
+        "additional_repetition": [
+          "30"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -3439,7 +4237,7 @@
       "structural_scope_boundary": "Do not read price from the MO curve, equate P with MK at the monopoly optimum, or confuse maximum revenue with maximum profit. Reserve the formal welfare comparison for §4.2.1, immediately after this chapter; it is not postponed to a later book.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.1/4.1.4 manuscript.md",
-        "student_manuscript_sha256": "53c24578d68752c2a275f3e8032a0ce787cecaacf2a58baab18f2f6d851a98dd",
+        "student_manuscript_sha256": "65dd2923fd9c6544fce1e1a26d30969bf34abc4f0bd9bd8ad85cd3198db752b0",
         "answer_file": "books/book-4/chapters/4.1/Antwoorden.md",
         "answer_file_sha256": "01a9294bd3ce947ceb5460d588cd3f7ffee5b9f0be3e4334558fde44096f8da1",
         "chapter_student_pages": [
@@ -3452,7 +4250,6 @@
       "lesson_route": {
         "start": "31–32",
         "independent": "36a–c en 37a",
-        "guided_or_alternative": "33–35",
         "target": "38",
         "target_subquestions": [
           "38a",
@@ -3470,12 +4267,67 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 11,
           "Doeloefening": 15,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Hergebruik de marginale keuze uit §3.2.3 en verander expliciet de prijsroute. Markeer q bij MO = MK en lees daarna P op GO.",
-        "assessment_boundaries": "P = MK is hier geen winstregel. Capaciteit, marginale richtingen en de vergelijking met q = 0 blijven nodig waar gevraagd. Monopoliewelvaart volgt in §4.2.1."
+        "assessment_boundaries": "P = MK is hier geen winstregel. Capaciteit, marginale richtingen en de vergelijking met q = 0 blijven nodig waar gevraagd. Monopoliewelvaart volgt in §4.2.1.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 5,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 11,
+            "Doeloefening": 15,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "33–35"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "31",
+            "32"
+          ],
+          "Begeleide inoefening": [
+            "33",
+            "34",
+            "35"
+          ],
+          "Zelfstandige oefening": [
+            "36",
+            "37"
+          ],
+          "Doeloefening": [
+            "38"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "31",
+            "32"
+          ],
+          "Zelfstandige oefening": [
+            "36",
+            "37"
+          ],
+          "Doeloefening": [
+            "38"
+          ],
+          "Denkertje / Bonusopgave": [
+            "39"
+          ]
+        },
+        "additional_repetition": [
+          "40"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -3645,7 +4497,7 @@
       "structural_scope_boundary": "No price discrimination, strategic game or monopoly-welfare target before those are taught. Consolidation is not an extra theory paragraph.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.1/4.1.5 manuscript.md",
-        "student_manuscript_sha256": "6acff35292cfbd0542a592e118e6bb850910b4fd12701b19e1b434774bb15302",
+        "student_manuscript_sha256": "a75813115abe7117b6a0044960fc03a4861084949d86073b5e118e984d24bf3f",
         "answer_file": "books/book-4/chapters/4.1/Antwoorden.md",
         "answer_file_sha256": "01a9294bd3ce947ceb5460d588cd3f7ffee5b9f0be3e4334558fde44096f8da1",
         "chapter_student_pages": [
@@ -3660,7 +4512,6 @@
       "lesson_route": {
         "start": "41 en 41A",
         "independent": "42",
-        "guided_or_alternative": "43–44 en 46–48 als aanvullende selectie",
         "target": "45",
         "target_subquestions": [
           "45a",
@@ -3681,9 +4532,34 @@
           "Feedback / afronding": 6
         },
         "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "one_lesson_status": "selected_mixed_route_not_classroom_measured",
         "instruction_focus": "41A haalt langetermijnbetekenis op zonder de bestaande target uit te breiden. KleurFix en de prijsnemer blijven twee afzonderlijke markten.",
-        "assessment_boundaries": "Dezelfde vergelijking voor q betekent geen identieke prijsroute. Laat een leerling de gebruikte lijn benoemen; voeg geen prijsdiscriminatie of nieuwe welvaartsrekening toe."
+        "assessment_boundaries": "Dezelfde vergelijking voor q betekent geen identieke prijsroute. Laat een leerling de gebruikte lijn benoemen; voeg geen prijsdiscriminatie of nieuwe welvaartsrekening toe.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 8,
+            "Motivatie": 0,
+            "Instructie": 4,
+            "Uitgewerkt voorbeeld": 0,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 25,
+            "Feedback / afronding": 6
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "43–44 en 46–48 als aanvullende selectie"
+        },
+        "route_exception": {
+          "reason": "mixed_practice_without_separate_guided_section",
+          "preparation": "41, 41A en 42–44",
+          "bonus": null,
+          "repetition": null,
+          "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections.",
+          "additional_practice": "46–48"
+        },
+        "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -3835,7 +4711,7 @@
       "structural_scope_boundary": "Keep demand, cost conditions and welfare boundary comparable across scenarios. Producer surplus is not automatically profit; do not treat every transfer between buyer and seller as a loss.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.2/4.2.1 manuscript.md",
-        "student_manuscript_sha256": "e62606f483a3cab40f9951f363d62f07d2ababc4eeb6829331df2566cc96df39",
+        "student_manuscript_sha256": "2761c18bb26b7e62d0436d623f388371eb1a4bbbe1f1a57d8170d16a45810305",
         "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
         "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
         "chapter_student_pages": [
@@ -3848,7 +4724,6 @@
       "lesson_route": {
         "start": "1–2",
         "independent": "5–6",
-        "guided_or_alternative": "3–4",
         "target": "7",
         "target_subquestions": [
           "7a",
@@ -3865,12 +4740,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 10,
           "Doeloefening": 15,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Haal de monopolieprocedure uit nieuwe §4.1.4 terug. Scheid overdracht op blijvende verkopen van de verloren transacties.",
-        "assessment_boundaries": "Houd de kosten en vraag vergelijkbaar. Producentensurplus is niet winst wanneer constante kosten bestaan. Een hogere producentenopbrengst bewijst geen hoger totaal surplus."
+        "assessment_boundaries": "Houd de kosten en vraag vergelijkbaar. Producentensurplus is niet winst wanneer constante kosten bestaan. Een hogere producentenopbrengst bewijst geen hoger totaal surplus.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 9,
+            "Uitgewerkt voorbeeld": 8,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 15,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "3–4"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Begeleide inoefening": [
+            "3",
+            "4"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ],
+          "Denkertje / Bonusopgave": [
+            "8"
+          ]
+        },
+        "additional_repetition": [
+          "9"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -4022,7 +4951,7 @@
       "structural_scope_boundary": "State market separation and resale restrictions. For separate segment optimisation, use a stated common constant marginal cost, or explicitly account for costs that depend on combined output. Do not claim that discrimination necessarily raises or necessarily lowers total welfare. Avoid adding simultaneous unfamiliar cost structures and multiple optimisation cases.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.2/4.2.2 manuscript.md",
-        "student_manuscript_sha256": "68bbb2cfe7346e6f0c9b222ec22524b17e7c9c08aceda77c56cd92395e137d5a",
+        "student_manuscript_sha256": "980b9248d6ced542888be62403a717479b1909209ef871325461a423af8baee9",
         "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
         "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
         "chapter_student_pages": [
@@ -4035,7 +4964,6 @@
       "lesson_route": {
         "start": "10–11",
         "independent": "14–15",
-        "guided_or_alternative": "12–13",
         "target": "16",
         "target_subquestions": [
           "16a",
@@ -4052,12 +4980,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 10,
           "Doeloefening": 15,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Optimaliseer per herkenbare groep bij gemeenschappelijke constante MK en niet-bindende gezamenlijke capaciteit. De uniforme vergelijkingsprijs is gegeven.",
-        "assessment_boundaries": "Trek gezamenlijke vaste kosten maar één keer af. Meer winst of een onveranderde totale afzet garandeert geen hoger totaal surplus; de verdeling van verkopen verandert."
+        "assessment_boundaries": "Trek gezamenlijke vaste kosten maar één keer af. Meer winst of een onveranderde totale afzet garandeert geen hoger totaal surplus; de verdeling van verkopen verandert.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 5,
+            "Motivatie": 2,
+            "Instructie": 9,
+            "Uitgewerkt voorbeeld": 9,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 15,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "12–13"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "10",
+            "11"
+          ],
+          "Begeleide inoefening": [
+            "12",
+            "13"
+          ],
+          "Zelfstandige oefening": [
+            "14",
+            "15"
+          ],
+          "Doeloefening": [
+            "16"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "10",
+            "11"
+          ],
+          "Zelfstandige oefening": [
+            "14",
+            "15"
+          ],
+          "Doeloefening": [
+            "16"
+          ],
+          "Denkertje / Bonusopgave": [
+            "17"
+          ]
+        },
+        "additional_repetition": [
+          "18"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -4204,7 +5186,7 @@
       "structural_scope_boundary": "Do not assume an oligopolist has one universal demand curve. No reaction functions or payoff-matrix techniques here. Formal strategic interaction stays in the later course. This paragraph is not just a vocabulary checklist, but it also must not become four full new models.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.2/4.2.3 manuscript.md",
-        "student_manuscript_sha256": "308dad49d09b5ea46f2de1f59fa787901c10877ee3866d08fff53a930432e3c8",
+        "student_manuscript_sha256": "e83c2aa394758e939873e228074f4aeb169f326c170924cee100108e33af4a01",
         "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
         "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
         "chapter_student_pages": [
@@ -4217,7 +5199,6 @@
       "lesson_route": {
         "start": "19–20",
         "independent": "23–24",
-        "guided_or_alternative": "21–22",
         "target": "25",
         "target_subquestions": [
           "25a",
@@ -4234,12 +5215,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 10,
           "Doeloefening": 13,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 52,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Classificeer met bronbewijs en pas één bekende rekenroute toe in de gegeven korte-termijncasus.",
-        "assessment_boundaries": "Een dalende eigen vraag bewijst geen monopolie. Geen universele oligopolievraagfunctie, reactiecurve of spelmatrix; het gedrag van andere aanbieders is volgens het model gelijk gehouden."
+        "assessment_boundaries": "Een dalende eigen vraag bewijst geen monopolie. Geen universele oligopolievraagfunctie, reactiecurve of spelmatrix; het gedrag van andere aanbieders is volgens het model gelijk gehouden.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 8,
+            "Uitgewerkt voorbeeld": 7,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 13,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 52,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "21–22"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "19",
+            "20"
+          ],
+          "Begeleide inoefening": [
+            "21",
+            "22"
+          ],
+          "Zelfstandige oefening": [
+            "23",
+            "24"
+          ],
+          "Doeloefening": [
+            "25"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "19",
+            "20"
+          ],
+          "Zelfstandige oefening": [
+            "23",
+            "24"
+          ],
+          "Doeloefening": [
+            "25"
+          ],
+          "Denkertje / Bonusopgave": [
+            "26"
+          ]
+        },
+        "additional_repetition": [
+          "27"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -4391,7 +5426,7 @@
       "structural_scope_boundary": "Do not count tax revenue as a real social loss or treat CS + PS alone as the full welfare measure when external harm is present. Keep external-cost assumptions explicit and simple; no unsupported claims of a uniquely optimal tax.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.2/4.2.4 manuscript.md",
-        "student_manuscript_sha256": "a5ed089cdfa1632fc5c778549d348b2fa29ed52f9513dbce986d98bd661165a3",
+        "student_manuscript_sha256": "4589774bbf4209f36c852ef55be55e77c40d58395dd824502dbb8e5bb675647a",
         "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
         "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
         "chapter_student_pages": [
@@ -4404,7 +5439,6 @@
       "lesson_route": {
         "start": "28–29",
         "independent": "32–33",
-        "guided_or_alternative": "30–31",
         "target": "34",
         "target_subquestions": [
           "34a",
@@ -4413,11 +5447,57 @@
           "34d",
           "34e"
         ],
-        "minutes": null,
+        "minutes": {
+          "Begeleide inoefening": null
+        },
         "total_minutes": null,
         "one_lesson_status": "open_existing_timing_conflict",
         "instruction_focus": "Introduceer de derde partij en de maatschappelijke kostengrens vóór de heffing. Hergebruik de belastingroute en tel de externe schade afzonderlijk mee.",
-        "assessment_boundaries": "CS + PS + overheidsontvangsten − schade is hier de relevante maat. Belasting is een overdracht, schade niet. De verliesdriehoek en onafhankelijke voorbereiding mogen niet verdwijnen om tijd te winnen."
+        "assessment_boundaries": "CS + PS + overheidsontvangsten − schade is hier de relevante maat. Belasting is een overdracht, schade niet. De verliesdriehoek en onafhankelijke voorbereiding mogen niet verdwijnen om tijd te winnen.",
+        "previous_estimate": {
+          "minutes": null,
+          "total_minutes": null,
+          "one_lesson_status": "open_existing_timing_conflict",
+          "guided_or_alternative": "30–31"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "28",
+            "29"
+          ],
+          "Begeleide inoefening": [
+            "30",
+            "31"
+          ],
+          "Zelfstandige oefening": [
+            "32",
+            "33"
+          ],
+          "Doeloefening": [
+            "34"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "28",
+            "29"
+          ],
+          "Zelfstandige oefening": [
+            "32",
+            "33"
+          ],
+          "Doeloefening": [
+            "34"
+          ],
+          "Denkertje / Bonusopgave": [
+            "35"
+          ]
+        },
+        "additional_repetition": [
+          "36"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -4569,7 +5649,7 @@
       "structural_scope_boundary": "Keep the benefit to the buyer separate from the benefit to others. State who receives the subsidy. Do not count a transfer twice or assume every subsidy is appropriately sized. The external-benefit interpretation is new teaching, not prerequisite recall.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.2/4.2.5 manuscript.md",
-        "student_manuscript_sha256": "cad4ff28fa6e0b6857f79db3c0a02c49aec4d5e37258986bed54c4fdcba91756",
+        "student_manuscript_sha256": "552967cbfcda43b2865f19417298dadee472081e67282182fe963fa55672e82b",
         "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
         "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
         "chapter_student_pages": [
@@ -4582,7 +5662,6 @@
       "lesson_route": {
         "start": "37–38",
         "independent": "41–42",
-        "guided_or_alternative": "39–40",
         "target": "43",
         "target_subquestions": [
           "43a",
@@ -4591,11 +5670,57 @@
           "43d",
           "43e"
         ],
-        "minutes": null,
+        "minutes": {
+          "Begeleide inoefening": null
+        },
         "total_minutes": null,
         "one_lesson_status": "open_existing_timing_conflict",
         "instruction_focus": "Introduceer baten voor anderen en verbind ze met de bekende subsidie. Houd eigen voordeel en extern voordeel uit elkaar.",
-        "assessment_boundaries": "Tel uitgaven af en externe baten op; ze vallen alleen numeriek weg bij bijzondere gegeven bedragen. Behoud het oefencontrast met ongelijke subsidie en externe bate."
+        "assessment_boundaries": "Tel uitgaven af en externe baten op; ze vallen alleen numeriek weg bij bijzondere gegeven bedragen. Behoud het oefencontrast met ongelijke subsidie en externe bate.",
+        "previous_estimate": {
+          "minutes": null,
+          "total_minutes": null,
+          "one_lesson_status": "open_existing_timing_conflict",
+          "guided_or_alternative": "39–40"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "37",
+            "38"
+          ],
+          "Begeleide inoefening": [
+            "39",
+            "40"
+          ],
+          "Zelfstandige oefening": [
+            "41",
+            "42"
+          ],
+          "Doeloefening": [
+            "43"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "37",
+            "38"
+          ],
+          "Zelfstandige oefening": [
+            "41",
+            "42"
+          ],
+          "Doeloefening": [
+            "43"
+          ],
+          "Denkertje / Bonusopgave": [
+            "44"
+          ]
+        },
+        "additional_repetition": [
+          "45"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -4742,7 +5867,7 @@
       "structural_scope_boundary": "Not a second full course on every instrument. A patent/competition-policy example can retrieve market power; avoid importing the later games, insurance or macro-policy curriculum. Separate efficiency from distribution and recognise implementation limits stated in the source.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.2/4.2.6 manuscript.md",
-        "student_manuscript_sha256": "a4bb4d6df9b917c1b6fad0543c1ead47c9bec2e6c8ef6ed8077afe11681aa534",
+        "student_manuscript_sha256": "a053ce87e6ac20703671514c05a6e44c91e81028469f2e13843801c32e9674ee",
         "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
         "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
         "chapter_student_pages": [
@@ -4755,7 +5880,6 @@
       "lesson_route": {
         "start": "46–47",
         "independent": "50–51",
-        "guided_or_alternative": "48–49",
         "target": "52",
         "target_subquestions": [
           "52a",
@@ -4772,12 +5896,66 @@
           "Overgang / samenvatting": 3,
           "Zelfstandig": 11,
           "Doeloefening": 15,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Beoordeel twee bekende instrumenten aan de hand van één expliciet criterium en de bron. Dit is niet een nieuwe behandeling van ieder instrument.",
-        "assessment_boundaries": "Uitvoeringskosten gebruiken middelen en zijn geen gewone overdracht. Een verdelingsvoorkeur van producenten is niet automatisch de maatschappelijke efficiëntie-uitkomst."
+        "assessment_boundaries": "Uitvoeringskosten gebruiken middelen en zijn geen gewone overdracht. Een verdelingsvoorkeur van producenten is niet automatisch de maatschappelijke efficiëntie-uitkomst.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 5,
+            "Motivatie": 2,
+            "Instructie": 8,
+            "Uitgewerkt voorbeeld": 8,
+            "Overgang / samenvatting": 3,
+            "Zelfstandig": 11,
+            "Doeloefening": 15,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "48–49"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "46",
+            "47"
+          ],
+          "Begeleide inoefening": [
+            "48",
+            "49"
+          ],
+          "Zelfstandige oefening": [
+            "50",
+            "51"
+          ],
+          "Doeloefening": [
+            "52"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "46",
+            "47"
+          ],
+          "Zelfstandige oefening": [
+            "50",
+            "51"
+          ],
+          "Doeloefening": [
+            "52"
+          ],
+          "Denkertje / Bonusopgave": [
+            "53"
+          ]
+        },
+        "additional_repetition": [
+          "54"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -4943,7 +6121,7 @@
       "structural_scope_boundary": "Do not put an unfamiliar policy or welfare concept into the mixed target. Keep core work feasible; distribute additional retrieval to the closing review.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.2/4.2.7 manuscript.md",
-        "student_manuscript_sha256": "7af1d4d8afe06a5f679072639cb7f0507387d32c00a63b950de0a308aa15fc10",
+        "student_manuscript_sha256": "04ff9cf133cafb6f0986d69ad3c4f2a93930a396b59fd9503822f15962b2e2d5",
         "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
         "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
         "chapter_student_pages": [
@@ -4958,7 +6136,6 @@
       "lesson_route": {
         "start": "55",
         "independent": "56 of 57 (kies één)",
-        "guided_or_alternative": "59 als extra consolidatie; 60 als herhaling",
         "target": "58",
         "target_subquestions": [
           "58a",
@@ -4979,9 +6156,34 @@
           "Feedback / afronding": 6
         },
         "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "one_lesson_status": "selected_mixed_route_not_classroom_measured",
         "instruction_focus": "Laat leerlingen verklaren waarom minder transacties in de ene situatie welvaartsverlies en in de andere juist winst geeft.",
-        "assessment_boundaries": "De kosten en baten van derden veranderen de maatstaf, niet de rekenregels. Houd de twee oefenmarkten uit elkaar en stel geen nieuwe beleidsvoorwaarden."
+        "assessment_boundaries": "De kosten en baten van derden veranderen de maatstaf, niet de rekenregels. Houd de twee oefenmarkten uit elkaar en stel geen nieuwe beleidsvoorwaarden.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 8,
+            "Motivatie": 0,
+            "Instructie": 4,
+            "Uitgewerkt voorbeeld": 0,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 25,
+            "Feedback / afronding": 6
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "59 als extra consolidatie; 60 als herhaling"
+        },
+        "route_exception": {
+          "reason": "mixed_practice_without_separate_guided_section",
+          "preparation": "55–57",
+          "bonus": null,
+          "repetition": "60",
+          "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections.",
+          "additional_practice": "59"
+        },
+        "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -5116,7 +6318,7 @@
       "structural_scope_boundary": "Keep hours, persons and full-time equivalents distinct. Do not imply productivity growth always reduces total employment; state output and other conditions. No formal marginal-revenue-product optimisation unless separately justified and taught. This is the first formal home of the productivity and unit-labour-cost calculations; revisit a qualitative competitiveness claim from §3.3.1 only after teaching the needed calculation here.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.3/4.3.1 manuscript.md",
-        "student_manuscript_sha256": "5f6801e16cc1c2bc34d1cc687c503a68004f889c338d0708ad8383342acc94f5",
+        "student_manuscript_sha256": "12f46259c226c4be4e651dd9a1fbe140a33c137756eca860482e19f41b49bfb7",
         "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
         "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
         "chapter_student_pages": [
@@ -5129,7 +6331,6 @@
       "lesson_route": {
         "start": "1–2",
         "independent": "5–6",
-        "guided_or_alternative": "3–4",
         "target": "7",
         "target_subquestions": [
           "7a",
@@ -5145,12 +6346,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 11,
           "Doeloefening": 14,
-          "Feedback / afronding": 3
+          "Feedback / afronding": 3,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Maak de rolwisseling zichtbaar: werkgevers vragen arbeid, huishoudens leveren die. Gebruik eerst uren en dezelfde tijdseenheid bij output en productiviteit.",
-        "assessment_boundaries": "Fte is niet hetzelfde als personen. Hogere productiviteit bij gelijkblijvende productie verlaagt benodigde uren; bij meer orders kan de arbeidsinzet toch groeien."
+        "assessment_boundaries": "Fte is niet hetzelfde als personen. Hogere productiviteit bij gelijkblijvende productie verlaagt benodigde uren; bij meer orders kan de arbeidsinzet toch groeien.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 5,
+            "Motivatie": 2,
+            "Instructie": 10,
+            "Uitgewerkt voorbeeld": 8,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 11,
+            "Doeloefening": 14,
+            "Feedback / afronding": 3
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "3–4"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Begeleide inoefening": [
+            "3",
+            "4"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "1",
+            "2"
+          ],
+          "Zelfstandige oefening": [
+            "5",
+            "6"
+          ],
+          "Doeloefening": [
+            "7"
+          ],
+          "Denkertje / Bonusopgave": [
+            "8"
+          ]
+        },
+        "additional_repetition": [
+          "9"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -5278,7 +6533,7 @@
       "structural_scope_boundary": "This paragraph absorbs the baseline part of the registry-baseline §4.2.3, not an entire extra lesson hidden inside it. Keep participation data simple, units fixed and the equilibrium model familiar. Distinguish a supply curve at different wages from measured labour-force totals. Review timing before finalising the target.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.3/4.3.2 manuscript.md",
-        "student_manuscript_sha256": "0b94d916c5364f7ef99bd024cf94f27f9b10673b817d9adbb1afb255abec4bcb",
+        "student_manuscript_sha256": "64323fd7ca261d025bb5944f65032d72b6d7a97d124f1ded9a2abeeea5dd89e7",
         "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
         "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
         "chapter_student_pages": [
@@ -5291,7 +6546,6 @@
       "lesson_route": {
         "start": "10–11",
         "independent": "14–15",
-        "guided_or_alternative": "12–13",
         "target": "16",
         "target_subquestions": [
           "16a",
@@ -5306,12 +6560,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 11,
           "Doeloefening": 13,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Scheid de bevolkingstelling van de aparte marktfunctie. De evenwichtsvergelijking is bekende algebra met nieuwe actoren en eenheden.",
-        "assessment_boundaries": "Bruto- en netto-participatie gebruiken de bevolkingsnoemer. Een gemeten beroepsbevolking is geen aanbodlijn bij alle lonen. Voeg niet de volledige verplaatste beleidsles toe."
+        "assessment_boundaries": "Bruto- en netto-participatie gebruiken de bevolkingsnoemer. Een gemeten beroepsbevolking is geen aanbodlijn bij alle lonen. Voeg niet de volledige verplaatste beleidsles toe.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 9,
+            "Uitgewerkt voorbeeld": 8,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 11,
+            "Doeloefening": 13,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "12–13"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "10",
+            "11"
+          ],
+          "Begeleide inoefening": [
+            "12",
+            "13"
+          ],
+          "Zelfstandige oefening": [
+            "14",
+            "15"
+          ],
+          "Doeloefening": [
+            "16"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "10",
+            "11"
+          ],
+          "Zelfstandige oefening": [
+            "14",
+            "15"
+          ],
+          "Doeloefening": [
+            "16"
+          ],
+          "Denkertje / Bonusopgave": [
+            "17"
+          ]
+        },
+        "additional_repetition": [
+          "18"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -5439,7 +6747,7 @@
       "structural_scope_boundary": "Distinguish the simplified clearing model from observed vacancies and mismatch. With data defined as labour demand = employment + vacancies, supply minus demand is not measured unemployment. Explain structural/frictional and demand-related unemployment at an introductory level; no output-gap or Phillips-curve model.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.3/4.3.3 manuscript.md",
-        "student_manuscript_sha256": "bc7393315c2bec96e0d9dc3e5637e2a897a9c0bb1f61d10ce03f4f1d58c0c089",
+        "student_manuscript_sha256": "4e16bc85b0ebef225cd588575d73adec0aa563795ead3f20d3642540ff7eaaee",
         "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
         "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
         "chapter_student_pages": [
@@ -5452,7 +6760,6 @@
       "lesson_route": {
         "start": "19–20",
         "independent": "23–24",
-        "guided_or_alternative": "21–22",
         "target": "25",
         "target_subquestions": [
           "25a",
@@ -5467,12 +6774,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 10,
           "Doeloefening": 14,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Onderscheid de waargenomen werkloosheid van de uitkomst van een vereenvoudigd model. Vergelijk de gegeven vraagverschuiving bij meebewegend en vast loon.",
-        "assessment_boundaries": "Vacatures worden niet van werklozen afgetrokken. Een loonverandering is een beweging langs de ongewijzigde andere lijn. Geen output-gap- of Phillipsmodel als voorkennis."
+        "assessment_boundaries": "Vacatures worden niet van werklozen afgetrokken. Een loonverandering is een beweging langs de ongewijzigde andere lijn. Geen output-gap- of Phillipsmodel als voorkennis.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 6,
+            "Motivatie": 2,
+            "Instructie": 9,
+            "Uitgewerkt voorbeeld": 8,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 14,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "21–22"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "19",
+            "20"
+          ],
+          "Begeleide inoefening": [
+            "21",
+            "22"
+          ],
+          "Zelfstandige oefening": [
+            "23",
+            "24"
+          ],
+          "Doeloefening": [
+            "25"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "19",
+            "20"
+          ],
+          "Zelfstandige oefening": [
+            "23",
+            "24"
+          ],
+          "Doeloefening": [
+            "25"
+          ],
+          "Denkertje / Bonusopgave": [
+            "26"
+          ]
+        },
+        "additional_repetition": [
+          "27"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -5612,7 +6973,7 @@
       "structural_scope_boundary": "State a competitive model, the wage unit and adjustment assumptions. Model outcomes are not universal empirical claims about every minimum-wage change. Use illustrative rates, not unverified current statutory figures.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.3/4.3.4 manuscript.md",
-        "student_manuscript_sha256": "1a82d579cb1336ef199ea1244c52c4fcf4f59697213c02e26af7cccd1ad71a27",
+        "student_manuscript_sha256": "ab17d4ad601262503b7ddfa0435fc4f7168512ee79f4e2977c3e489693df80e4",
         "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
         "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
         "chapter_student_pages": [
@@ -5625,7 +6986,6 @@
       "lesson_route": {
         "start": "28–29",
         "independent": "32–33",
-        "guided_or_alternative": "30–31",
         "target": "34",
         "target_subquestions": [
           "34a",
@@ -5641,12 +7001,66 @@
           "Overgang / samenvatting": 2,
           "Zelfstandig": 11,
           "Doeloefening": 14,
-          "Feedback / afronding": 4
+          "Feedback / afronding": 4,
+          "Begeleide inoefening": null
         },
-        "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "total_minutes": null,
+        "one_lesson_status": "open_supported_route_timing_conflict",
         "instruction_focus": "Haal de minimumprijsprocedure op en verander expliciet de loon- en arbeidseenheid. Bereken de loonsom uit daadwerkelijk betaalde werknemers en uren.",
-        "assessment_boundaries": "Het aanbodoverschot bestaat niet alleen uit mensen die hun baan verliezen. Geen overheidsaankoop van ongebruikte arbeid, geen algemene empirische voorspelling buiten de modelaannames."
+        "assessment_boundaries": "Het aanbodoverschot bestaat niet alleen uit mensen die hun baan verliezen. Geen overheidsaankoop van ongebruikte arbeid, geen algemene empirische voorspelling buiten de modelaannames.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 5,
+            "Motivatie": 2,
+            "Instructie": 9,
+            "Uitgewerkt voorbeeld": 8,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 11,
+            "Doeloefening": 14,
+            "Feedback / afronding": 4
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "30–31"
+        },
+        "normal_route": {
+          "Startopgaven": [
+            "28",
+            "29"
+          ],
+          "Begeleide inoefening": [
+            "30",
+            "31"
+          ],
+          "Zelfstandige oefening": [
+            "32",
+            "33"
+          ],
+          "Doeloefening": [
+            "34"
+          ]
+        },
+        "challenging_route": {
+          "Startopgaven": [
+            "28",
+            "29"
+          ],
+          "Zelfstandige oefening": [
+            "32",
+            "33"
+          ],
+          "Doeloefening": [
+            "34"
+          ],
+          "Denkertje / Bonusopgave": [
+            "35"
+          ]
+        },
+        "additional_repetition": [
+          "36"
+        ],
+        "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {
@@ -5808,7 +7222,7 @@
       "structural_scope_boundary": "In old mixed exercise 48, replace the cao wage floor by a clearly stated illustrative minimum wage, or select another already-taught wage-floor case. Remove or revise old 49's source C and 49f only to the extent needed by the retained goals; do not delete the useful data-limited employment reasoning already in §4.3.1. Update the final return-reference to old §4.3.5. The new numeric ID 4.3.5 is a mixed paragraph, not the old bargaining paragraph. Deferred goals must not return in compulsory homework, tests or an unexplained bonus.",
       "source_pin": {
         "student_file": "books/book-4/chapters/4.3/4.3.5 manuscript.md",
-        "student_manuscript_sha256": "701235d7ec86b72d7bb32db08b1845c97f43c9accf46e0fe14bb629d12de96a1",
+        "student_manuscript_sha256": "a9c5196872388d35c8b7814b72430d752beacc203b58e8469f686dadcd14f5a0",
         "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
         "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
         "chapter_student_pages": [
@@ -5823,7 +7237,6 @@
       "lesson_route": {
         "start": "37",
         "independent": "39",
-        "guided_or_alternative": "38 als gerichte productiviteitsherhaling",
         "target": "40",
         "target_subquestions": [
           "40a",
@@ -5844,9 +7257,33 @@
           "Feedback / afronding": 6
         },
         "total_minutes": 55,
-        "one_lesson_status": "designed_not_classroom_measured",
+        "one_lesson_status": "selected_mixed_route_not_classroom_measured",
         "instruction_focus": "Dit is de hernummerde gemengde les, niet de oude cao-les. Bron C beschrijft een werkproces; de rekentechniek komt uit §4.3.1.",
-        "assessment_boundaries": "Het minimumloon in opgave 39 vraagt geen kennis van cao’s. Het hoofdstuk behoudt participatie, werkloosheid, evenwicht, verschuivingen en productiviteit; collectieve onderhandelingen en scholingsbeleid zijn uitgesteld."
+        "assessment_boundaries": "Het minimumloon in opgave 39 vraagt geen kennis van cao’s. Het hoofdstuk behoudt participatie, werkloosheid, evenwicht, verschuivingen en productiviteit; collectieve onderhandelingen en scholingsbeleid zijn uitgesteld.",
+        "previous_estimate": {
+          "minutes": {
+            "Start / ophalen": 7,
+            "Motivatie": 0,
+            "Instructie": 4,
+            "Uitgewerkt voorbeeld": 0,
+            "Overgang / samenvatting": 2,
+            "Zelfstandig": 10,
+            "Doeloefening": 26,
+            "Feedback / afronding": 6
+          },
+          "total_minutes": 55,
+          "one_lesson_status": "designed_not_classroom_measured",
+          "guided_or_alternative": "38 als gerichte productiviteitsherhaling"
+        },
+        "route_exception": {
+          "reason": "mixed_practice_without_separate_guided_section",
+          "preparation": "37–39",
+          "bonus": "41",
+          "repetition": null,
+          "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections."
+        },
+        "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+        "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
       },
       "historical_source_refs": [
         {

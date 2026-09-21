@@ -18,3 +18,5 @@ Uit Boek 2: totale en gemiddelde kosten, opbrengsten, winst en marginale tabelve
 ### Wat komt later?
 We onderzoeken hier de keuze van een onderneming bij de gegeven marktprijs en productiecapaciteit. Hoe winst of verlies daarna het aantal bedrijven op een markt kan veranderen, leer je aan het begin van Boek 4.
 <div class="box"><b>Werkwijze</b><br>Let op de eenheden: Q hoort bij de markt, q bij één onderneming. Kies eerst de gevraagde bewerking. Reken daarna, en leg uit wat de uitkomst betekent.</div>
+
+<div class="box small"><b>Zo gebruik je dit hoofdstuk</b><br>Lees de uitleg en het uitgewerkte voorbeeld. Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Volg na de startopgaven de begeleide en zelfstandige oefening naar de doeloefening. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg de uitdagende route met de bonus. Herhaling is extra bij beide routes.</div>

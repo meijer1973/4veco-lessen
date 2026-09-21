@@ -12,10 +12,11 @@ Deze handleiding hoort uitsluitend bij de meegeleverde v3-leerlingtekst en antwo
 | Opgaven / deelvragen | 41 / 77 |
 | Doeloefeningen | 7, 16, 25, 34, 40 |
 
-### Eén paragraaf, één kernles
-De ontwerpgrens is 55 minuten inclusief uitleg, voorbeeld, zelfstandig werk, doel en feedback. De geselecteerde route staat per paragraaf aangegeven. Tijden zijn redactionele inschattingen, niet gemeten leerlingtijden of een garantie voor ieder individu.
+### Normale en uitdagende route
+Begeleide inoefening hoort voor de meeste leerlingen bij normaal leren. De normale route bevat startopgaven, begeleide en zelfstandige oefening en de volledige doeloefening. De uitdagende route is voor leerlingen die minder tussenstappen nodig hebben en extra uitdaging willen: startopgaven, zelfstandige oefening, dezelfde doeloefening en bonus. Herhaling is extra bij beide routes. Startopgaven bepalen niet automatisch een route.
 
-Begeleide inoefening is een steunroute: vervang zo nodig vergelijkbare tussenstappen, maar houd zelfstandige doelbewijzen over. Bonus en extra herhaling komen niet stilzwijgend boven op de kern. Nieuw leren mag niet worden verstopt in een tweede les of verplicht huiswerk.
+### Lestijd opnieuw begroten
+De eerdere begrotingen lieten begeleide inoefening buiten de les. Zij zijn geen bewijs dat de volledige normale route in 55 minuten past. Hieronder staan die onvolledige schattingen alleen als ondergrens. Begroot de echte lees-, reken-, teken- en uitlegtijd van de ontbrekende oefening en plan aanvullende lestijd. Schrap geen opgaven of doelbewerkingen om de som passend te maken. Ook de uitdagende route vraagt een afzonderlijke bonusbegroting.
 
 ### Gebruik en beoordeling
 Alle noodzakelijke bronnen en steun staan op papier. Reken met ongeronde tussenuitkomsten en beoordeel eenheden, redenering en gebruikte aannamen. Gelijkwaardige correcte formuleringen en grafieken zijn toegestaan. Gebruik een fout om het verkeerde onderscheid te herstellen, niet om alleen een eindgetal te laten overschrijven.
@@ -32,17 +33,17 @@ Alle noodzakelijke bronnen en steun staan op papier. Reken met ongeronde tussenu
 ### Bestemming
 Je kunt werkgevers en werknemers op de arbeidsmarkt onderscheiden. Je kunt arbeidsproductiviteit, benodigde arbeidsuren en loonkosten per product berekenen. Je kunt een loonverandering onderscheiden van een verandering in de arbeidsvraag.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 1–2 |
-| Zelfstandige voorbereiding | 5–6 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 7 |
-| Extra steun / alternatieve selectie | 3–4 |
+| Startopgaven | 1, 2 |
+| Begeleide inoefening | 3, 4 |
+| Zelfstandige oefening | 5, 6 |
+| Doeloefening | 7 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 5 | 2 | 10 | 8 | 2 | 11 | 14 | 3 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 8. Herhaling 9 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Maak de rolwisseling zichtbaar: werkgevers vragen arbeid, huishoudens leveren die. Gebruik eerst uren en dezelfde tijdseenheid bij output en productiviteit.
@@ -62,17 +63,17 @@ Fte is niet hetzelfde als personen. Hogere productiviteit bij gelijkblijvende pr
 ### Bestemming
 Je kunt werkenden, werklozen en niet-deelnemers onderscheiden. Je kunt bruto- en netto-arbeidsparticipatie berekenen. Je kunt met een bekend marktmodel het evenwichtsloon en de werkgelegenheid vinden.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 10–11 |
-| Zelfstandige voorbereiding | 14–15 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 16 |
-| Extra steun / alternatieve selectie | 12–13 |
+| Startopgaven | 10, 11 |
+| Begeleide inoefening | 12, 13 |
+| Zelfstandige oefening | 14, 15 |
+| Doeloefening | 16 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 2 | 9 | 8 | 2 | 11 | 13 | 4 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 17. Herhaling 18 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Scheid de bevolkingstelling van de aparte marktfunctie. De evenwichtsvergelijking is bekende algebra met nieuwe actoren en eenheden.
@@ -92,17 +93,17 @@ Bruto- en netto-participatie gebruiken de bevolkingsnoemer. Een gemeten beroepsb
 ### Bestemming
 Je kunt het werkloosheidspercentage berekenen. Je kunt oorzaken van werkloosheid onderscheiden. Je kunt een verschuiving van arbeidsvraag verwerken en uitleggen waarom een model niet alle waargenomen werkloosheid beschrijft.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 19–20 |
-| Zelfstandige voorbereiding | 23–24 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 25 |
-| Extra steun / alternatieve selectie | 21–22 |
+| Startopgaven | 19, 20 |
+| Begeleide inoefening | 21, 22 |
+| Zelfstandige oefening | 23, 24 |
+| Doeloefening | 25 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 2 | 9 | 8 | 2 | 10 | 14 | 4 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 26. Herhaling 27 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Onderscheid de waargenomen werkloosheid van de uitkomst van een vereenvoudigd model. Vergelijk de gegeven vraagverschuiving bij meebewegend en vast loon.
@@ -122,17 +123,17 @@ Vacatures worden niet van werklozen afgetrokken. Een loonverandering is een bewe
 ### Bestemming
 Je kunt bepalen of een minimumloon bindend is. Je kunt in een gegeven model arbeidsvraag, arbeidsaanbod, werkgelegenheid en loonsom berekenen. Je kunt verschillen tussen groepen werknemers uitleggen.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 28–29 |
-| Zelfstandige voorbereiding | 32–33 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 34 |
-| Extra steun / alternatieve selectie | 30–31 |
+| Startopgaven | 28, 29 |
+| Begeleide inoefening | 30, 31 |
+| Zelfstandige oefening | 32, 33 |
+| Doeloefening | 34 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 5 | 2 | 9 | 8 | 2 | 11 | 14 | 4 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 35. Herhaling 36 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Haal de minimumprijsprocedure op en verander expliciet de loon- en arbeidseenheid. Bereken de loonsom uit daadwerkelijk betaalde werknemers en uren.
@@ -152,17 +153,10 @@ Het aanbodoverschot bestaat niet alleen uit mensen die hun baan verliezen. Geen 
 ### Bestemming
 Je kunt informatie uit verschillende arbeidsmarktbronnen gebruiken. Je kunt zelfstandig een loon en hoeveelheid berekenen. Je kunt participatie, werkloosheid, productiviteit en marktuitkomsten verbinden zonder verschillende grootheden te verwarren.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
-|---|---|
-| Start / ophalen | 37 |
-| Zelfstandige voorbereiding | 39 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 40 |
-| Extra steun / alternatieve selectie | 38 als gerichte productiviteitsherhaling |
+### Gemengde oefening: afwijkende structuur
+Voorbereiding: 37–39; doeloefening: 40. Gebruik de bestaande uitleg en denkstappen uit het hoofdstuk. Er is geen aparte begeleide sectie. Bonus 41 hoort bij de uitdagende aanpak. Er is geen afzonderlijke herhalingssectie. 
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 7 | 0 | 4 | 0 | 2 | 10 | 26 | 6 | **55** |
+De eerdere selectie was begroot op 55 minuten. Dat geldt alleen voor de gekozen opgaven, niet voor alle gedrukte oefening of aanvullende begeleiding. De structuuruitzondering verandert geen opgave of einddoel.
 
 ### De uitleg die niet mag verdwijnen
 Dit is de hernummerde gemengde les, niet de oude cao-les. Bron C beschrijft een werkproces; de rekentechniek komt uit §4.3.1.
@@ -182,7 +176,7 @@ Boek 3 eindigt met de korte-termijnkeuze van de prijsnemende onderneming en de b
 De afzonderlijke cao-/vakbonds-/scholingsbeleidsles is uit het jaar-1-programma gehaald. **Nieuwe §4.3.5 is gemengde oefening.** De oude beleidstekst blijft afzonderlijk bewaard voor latere plaatsing. Een later jaardeel mag die uitgestelde doelen niet zonder expliciete introductie als voorkennis aannemen.
 
 ### Wat niet door deze revisie wordt bewezen
-De indeling blijft **14 lessen in Boek 3 en 17 in Boek 4**, naast de ongewijzigde 12 + 12 uit Boeken 1 en 2. Dat is een curriculumallocatie, geen bewijs dat iedere bestaande route al uitvoerbaar is. De tijdsconflicten bij §§3.1.2, 3.1.3, 3.1.5, 4.2.4 en 4.2.5 blijven afzonderlijk zichtbaar. De rest van de tijden zijn schattingen, geen gemeten leeropbrengsten.
+De indeling blijft **14 lessen in Boek 3 en 17 in Boek 4**, naast de ongewijzigde 12 + 12 uit Boeken 1 en 2. Dat is een curriculumallocatie, geen bewijs dat iedere bestaande route al uitvoerbaar is. De tijdsconflicten bij §§3.1.2, 3.1.3, 3.1.5, 4.2.4 en 4.2.5 blijven afzonderlijk zichtbaar. Daarnaast zijn alle theorieparagrafen opnieuw als open tijdsvraag aangemerkt: begeleide inoefening ontbrak in de oude begrotingen. De schattingen zijn geen gemeten leeropbrengsten.
 
 ### Bronnen en antwoorden
 Alle rekenvoorbeelden zijn geconstrueerde onderwijsmodellen, met hun voorwaarden in de bron. Actualiseer geen wettelijke loonbedragen of andere externe feiten zonder bron. De antwoorden worden met het leerlingdeel meegeleverd; een opgave die niet tot de gekozen kern behoort, is niet daardoor onjuist of overbodig.

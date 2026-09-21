@@ -1,5 +1,13 @@
 # Bouwomgeving en tekstcodering
 
+## Historische ontvangstenvironment
+
+De onderstaande Linux-omgeving beschrijft de eerdere ontvangst. De huidige Windows-revisie is afzonderlijk vastgelegd in [route-revision-environment.json](checks/route-revision-environment.json).
+
+
+**Actuele ingang:** [platformcontroller](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/books/EXERCISE-ROUTES.md). De ontvangen lockfile blijft de rendererbasis; huidige revisiebewijzen zijn gescheiden van het historische ontvangstmanifest.
+
+
 ## Vastgelegde, daadwerkelijk gebruikte omgeving
 
 De gerepareerde levering is gebouwd met **CPython 3.13.5 op Linux**, WeasyPrint **68.0**, PyMuPDF **1.26.7**, markdown-it-py **4.2.0**, BeautifulSoup **4.14.3**, CairoSVG **2.8.2** en Pillow **12.3.0**. `requirements.txt` bewaart de hoofdpakketten; `requirements-render-lock.txt` fixeert ook de hier aanwezige rendererafhankelijkheden. Installeer niet ongemerkt de nieuwste WeasyPrint in plaats van de vastgelegde versie.
