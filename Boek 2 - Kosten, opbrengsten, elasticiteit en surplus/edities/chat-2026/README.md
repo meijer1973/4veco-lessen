@@ -2,7 +2,9 @@
 
 ## Geleverde chatuitgave · 2026
 
-Deze uitgave bevat het voltooide Boek 2 dat de eigenaar voor opname in de repository heeft geselecteerd. De teksten, opgaven, antwoorden, figuren en PDF-pagina’s worden bij de import behouden. Dit is geen opnieuw geschreven repositoryversie.
+Deze uitgave bevat het voltooide Boek 2 dat de eigenaar voor opname in de repository heeft geselecteerd. De teksten, opgaven, antwoorden, figuren en PDF-pagina’s werden bij de import behouden. Dit is geen opnieuw geschreven repositoryversie.
+
+**Gerichte correcties, 20 september 2026:** de overzichtslink van hoofdstuk 2.3 en de drie gerapporteerde omslagfouten zijn hersteld in de volledige bundels. Hoofdstukken en paginering zijn behouden. Zie [correcties, bouwroute en controle](CORRECTIES-2026-09-20.md).
 
 | Volledige bundel | Pagina’s |
 |---|---:|
