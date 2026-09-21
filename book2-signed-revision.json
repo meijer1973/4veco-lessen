@@ -25,7 +25,7 @@
     },
     {
       "path": "build-scripts/books/verify_book2_signed.py",
-      "sha256_lf": "b1f5125c3e62f932fbb9216a5a8530847f68795a5a948e32f6998bd649206de0"
+      "sha256_lf": "6ec6cf574f962e289f8a78a6710255fd10c6c597cea8734bfb8729b6dd639162"
     },
     {
       "path": "build-scripts/books/verify_book2_figures.py",
