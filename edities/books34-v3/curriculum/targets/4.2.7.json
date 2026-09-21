@@ -140,7 +140,7 @@
   "structural_scope_boundary": "Do not put an unfamiliar policy or welfare concept into the mixed target. Keep core work feasible; distribute additional retrieval to the closing review.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.2/4.2.7 manuscript.md",
-    "student_manuscript_sha256": "7af1d4d8afe06a5f679072639cb7f0507387d32c00a63b950de0a308aa15fc10",
+    "student_manuscript_sha256": "04ff9cf133cafb6f0986d69ad3c4f2a93930a396b59fd9503822f15962b2e2d5",
     "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
     "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
     "chapter_student_pages": [
@@ -155,7 +155,6 @@
   "lesson_route": {
     "start": "55",
     "independent": "56 of 57 (kies één)",
-    "guided_or_alternative": "59 als extra consolidatie; 60 als herhaling",
     "target": "58",
     "target_subquestions": [
       "58a",
@@ -176,9 +175,34 @@
       "Feedback / afronding": 6
     },
     "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "one_lesson_status": "selected_mixed_route_not_classroom_measured",
     "instruction_focus": "Laat leerlingen verklaren waarom minder transacties in de ene situatie welvaartsverlies en in de andere juist winst geeft.",
-    "assessment_boundaries": "De kosten en baten van derden veranderen de maatstaf, niet de rekenregels. Houd de twee oefenmarkten uit elkaar en stel geen nieuwe beleidsvoorwaarden."
+    "assessment_boundaries": "De kosten en baten van derden veranderen de maatstaf, niet de rekenregels. Houd de twee oefenmarkten uit elkaar en stel geen nieuwe beleidsvoorwaarden.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 8,
+        "Motivatie": 0,
+        "Instructie": 4,
+        "Uitgewerkt voorbeeld": 0,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 10,
+        "Doeloefening": 25,
+        "Feedback / afronding": 6
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "59 als extra consolidatie; 60 als herhaling"
+    },
+    "route_exception": {
+      "reason": "mixed_practice_without_separate_guided_section",
+      "preparation": "55–57",
+      "bonus": null,
+      "repetition": "60",
+      "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections.",
+      "additional_practice": "59"
+    },
+    "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

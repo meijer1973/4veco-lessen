@@ -13,3 +13,5 @@ Een shirt, een fiets en een zak rijst kunnen een grens passeren voordat jij ze k
 <a href="#overzicht"><b>Hoofdstukoverzicht en begrippen <span>38</span></b></a>
 </div>
 <p class="small">Werk in je schrift, tenzij een vraag om een markering in de gegeven figuur vraagt. Alle landen, ondernemingen, beleidsbronnen en cijfers zijn fictieve lesvoorbeelden. De grafieken zijn vereenvoudigde marktmodellen, geen actuele marktgegevens.</p>
+
+<div class="box small"><b>Zo gebruik je dit hoofdstuk</b><br>Lees de uitleg en het uitgewerkte voorbeeld. Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Volg na de startopgaven de begeleide en zelfstandige oefening naar de doeloefening. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg de uitdagende route met de bonus. Herhaling is extra bij beide routes.</div>

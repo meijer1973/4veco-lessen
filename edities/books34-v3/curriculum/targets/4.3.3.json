@@ -102,7 +102,7 @@
   "structural_scope_boundary": "Distinguish the simplified clearing model from observed vacancies and mismatch. With data defined as labour demand = employment + vacancies, supply minus demand is not measured unemployment. Explain structural/frictional and demand-related unemployment at an introductory level; no output-gap or Phillips-curve model.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.3/4.3.3 manuscript.md",
-    "student_manuscript_sha256": "bc7393315c2bec96e0d9dc3e5637e2a897a9c0bb1f61d10ce03f4f1d58c0c089",
+    "student_manuscript_sha256": "4e16bc85b0ebef225cd588575d73adec0aa563795ead3f20d3642540ff7eaaee",
     "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
     "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
     "chapter_student_pages": [
@@ -115,7 +115,6 @@
   "lesson_route": {
     "start": "19–20",
     "independent": "23–24",
-    "guided_or_alternative": "21–22",
     "target": "25",
     "target_subquestions": [
       "25a",
@@ -130,12 +129,66 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 10,
       "Doeloefening": 14,
-      "Feedback / afronding": 4
+      "Feedback / afronding": 4,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Onderscheid de waargenomen werkloosheid van de uitkomst van een vereenvoudigd model. Vergelijk de gegeven vraagverschuiving bij meebewegend en vast loon.",
-    "assessment_boundaries": "Vacatures worden niet van werklozen afgetrokken. Een loonverandering is een beweging langs de ongewijzigde andere lijn. Geen output-gap- of Phillipsmodel als voorkennis."
+    "assessment_boundaries": "Vacatures worden niet van werklozen afgetrokken. Een loonverandering is een beweging langs de ongewijzigde andere lijn. Geen output-gap- of Phillipsmodel als voorkennis.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 6,
+        "Motivatie": 2,
+        "Instructie": 9,
+        "Uitgewerkt voorbeeld": 8,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 10,
+        "Doeloefening": 14,
+        "Feedback / afronding": 4
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "21–22"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "19",
+        "20"
+      ],
+      "Begeleide inoefening": [
+        "21",
+        "22"
+      ],
+      "Zelfstandige oefening": [
+        "23",
+        "24"
+      ],
+      "Doeloefening": [
+        "25"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "19",
+        "20"
+      ],
+      "Zelfstandige oefening": [
+        "23",
+        "24"
+      ],
+      "Doeloefening": [
+        "25"
+      ],
+      "Denkertje / Bonusopgave": [
+        "26"
+      ]
+    },
+    "additional_repetition": [
+      "27"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

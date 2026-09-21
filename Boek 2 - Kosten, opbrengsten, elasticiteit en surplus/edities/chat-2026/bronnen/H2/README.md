@@ -1,5 +1,8 @@
 # Boek 2 · Hoofdstuk 2.2 · Elasticiteit
 
+**Actuele bouwroute:** [platformcontroller](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/books/EXERCISE-ROUTES.md); [revisie en timing](../../ROUTE-REVISION-2026-09-21.md). De hieronder beschreven lokale scripts zijn ontvangen bouwonderdelen. Gebruik voor nieuwe uitvoer de platformcontroller.
+
+
 Een nieuw geschreven Nederlandstalige printeditie voor 4 vwo. De bestaande leerlingtekst van hoofdstuk 2.2 is niet als basis gebruikt. De actuele vier doelopgaven en auteursrichtlijnen uit de 4veco-platformrepository zijn wel gevolgd. De vier doelcontexten en 21 deelvragen blijven inhoudelijk en woordelijk behouden; de rest van het hoofdstuk is nieuw gecomponeerd.
 
 ## Direct gebruiken
@@ -49,9 +52,9 @@ De tekstgrenscontrole van SVG’s gebruikt standaard de systeemfonts onder `/usr
 
 ## Didactische opbouw
 
-Elke theorieparagraaf bevat een volledig uitgewerkt voorbeeld van de doelbewerkingen, gevolgd door een compacte samenvatting en de vaste route: Startopgaven, Begeleide inoefening, Zelfstandige oefening, Doeloefening, Denkertje / Bonusopgave en Herhaling / Herhaling en interleaving. De begeleide route ondersteunt dezelfde doelen en bouwt hulp af; de zelfstandige route laat de leerling zonder ingevulde rekenstappen werken.
+Elke theorieparagraaf bevat een volledig uitgewerkt voorbeeld van de doelbewerkingen, gevolgd door een compacte samenvatting en de vaste route: Startopgaven, Begeleide inoefening, Zelfstandige oefening, Doeloefening, Denkertje / Bonusopgave en Herhaling / Herhaling en interleaving. De normale route omvat begeleide én zelfstandige oefening; zie de canonieke routeafspraak in het revisierapport.
 
-De docenteninformatie bevat de operationele dekking per doelvraag. De kernbegrotingen voor 55-minutenlessen zijn schattingen. Vooral §2.2.3 kan twee lessen vragen; dit wordt niet opgelost door de doelopgave te versmallen. De bonus is geen verplichte uitbreiding van de kernroute.
+De docenteninformatie bevat de operationele dekking per doelvraag. De oude kernbegrotingen missen begeleide inoefening en onderbouwen geen volledige 55-minutenroute. Vooral §2.2.3 kan twee lessen vragen; dit wordt niet opgelost door de doelopgave te versmallen. De bonus hoort bij de uitdagende route; herhaling is extra bij beide routes.
 
 ## Controle en grenzen
 

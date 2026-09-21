@@ -1,5 +1,8 @@
 # Boek 2 – Hoofdstuk 2.1: Kosten en opbrengsten
 
+**Actuele bouwroute:** [platformcontroller](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/books/EXERCISE-ROUTES.md); [revisie en timing](../../ROUTE-REVISION-2026-09-21.md). De hieronder beschreven lokale scripts zijn ontvangen bouwonderdelen. Gebruik voor nieuwe uitvoer de platformcontroller.
+
+
 Nieuwe lokale printeditie voor 4 vwo, 6 september 2026. Het leerlingenhoofdstuk telt 34 pagina’s inclusief uitleg en alle opgaven; antwoorden staan afzonderlijk op 20 pagina’s. De volledige docenteninformatie telt 5 pagina’s.
 
 ## Lezen en printen

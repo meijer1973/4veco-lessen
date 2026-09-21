@@ -102,7 +102,7 @@
   "structural_scope_boundary": "This paragraph absorbs the baseline part of the registry-baseline §4.2.3, not an entire extra lesson hidden inside it. Keep participation data simple, units fixed and the equilibrium model familiar. Distinguish a supply curve at different wages from measured labour-force totals. Review timing before finalising the target.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.3/4.3.2 manuscript.md",
-    "student_manuscript_sha256": "0b94d916c5364f7ef99bd024cf94f27f9b10673b817d9adbb1afb255abec4bcb",
+    "student_manuscript_sha256": "64323fd7ca261d025bb5944f65032d72b6d7a97d124f1ded9a2abeeea5dd89e7",
     "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
     "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
     "chapter_student_pages": [
@@ -115,7 +115,6 @@
   "lesson_route": {
     "start": "10–11",
     "independent": "14–15",
-    "guided_or_alternative": "12–13",
     "target": "16",
     "target_subquestions": [
       "16a",
@@ -130,12 +129,66 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 11,
       "Doeloefening": 13,
-      "Feedback / afronding": 4
+      "Feedback / afronding": 4,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Scheid de bevolkingstelling van de aparte marktfunctie. De evenwichtsvergelijking is bekende algebra met nieuwe actoren en eenheden.",
-    "assessment_boundaries": "Bruto- en netto-participatie gebruiken de bevolkingsnoemer. Een gemeten beroepsbevolking is geen aanbodlijn bij alle lonen. Voeg niet de volledige verplaatste beleidsles toe."
+    "assessment_boundaries": "Bruto- en netto-participatie gebruiken de bevolkingsnoemer. Een gemeten beroepsbevolking is geen aanbodlijn bij alle lonen. Voeg niet de volledige verplaatste beleidsles toe.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 6,
+        "Motivatie": 2,
+        "Instructie": 9,
+        "Uitgewerkt voorbeeld": 8,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 11,
+        "Doeloefening": 13,
+        "Feedback / afronding": 4
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "12–13"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "10",
+        "11"
+      ],
+      "Begeleide inoefening": [
+        "12",
+        "13"
+      ],
+      "Zelfstandige oefening": [
+        "14",
+        "15"
+      ],
+      "Doeloefening": [
+        "16"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "10",
+        "11"
+      ],
+      "Zelfstandige oefening": [
+        "14",
+        "15"
+      ],
+      "Doeloefening": [
+        "16"
+      ],
+      "Denkertje / Bonusopgave": [
+        "17"
+      ]
+    },
+    "additional_repetition": [
+      "18"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

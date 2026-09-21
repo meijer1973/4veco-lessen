@@ -12,10 +12,11 @@ Deze handleiding hoort uitsluitend bij de meegeleverde v3-leerlingtekst en antwo
 | Opgaven / deelvragen | 38 / 108 |
 | Doeloefeningen | 7, 17, 27, 35 |
 
-### Eén paragraaf, één kernles
-De ontwerpgrens is 55 minuten inclusief uitleg, voorbeeld, zelfstandig werk, doel en feedback. De geselecteerde route staat per paragraaf aangegeven. Tijden zijn redactionele inschattingen, niet gemeten leerlingtijden of een garantie voor ieder individu.
+### Normale en uitdagende route
+Begeleide inoefening hoort voor de meeste leerlingen bij normaal leren. De normale route bevat startopgaven, begeleide en zelfstandige oefening en de volledige doeloefening. De uitdagende route is voor leerlingen die minder tussenstappen nodig hebben en extra uitdaging willen: startopgaven, zelfstandige oefening, dezelfde doeloefening en bonus. Herhaling is extra bij beide routes. Startopgaven bepalen niet automatisch een route.
 
-Begeleide inoefening is een steunroute: vervang zo nodig vergelijkbare tussenstappen, maar houd zelfstandige doelbewijzen over. Bonus en extra herhaling komen niet stilzwijgend boven op de kern. Nieuw leren mag niet worden verstopt in een tweede les of verplicht huiswerk.
+### Lestijd opnieuw begroten
+De eerdere begrotingen lieten begeleide inoefening buiten de les. Zij zijn geen bewijs dat de volledige normale route in 55 minuten past. Hieronder staan die onvolledige schattingen alleen als ondergrens. Begroot de echte lees-, reken-, teken- en uitlegtijd van de ontbrekende oefening en plan aanvullende lestijd. Schrap geen opgaven of doelbewerkingen om de som passend te maken. Ook de uitdagende route vraagt een afzonderlijke bonusbegroting.
 
 ### Gebruik en beoordeling
 Alle noodzakelijke bronnen en steun staan op papier. Reken met ongeronde tussenuitkomsten en beoordeel eenheden, redenering en gebruikte aannamen. Gelijkwaardige correcte formuleringen en grafieken zijn toegestaan. Gebruik een fout om het verkeerde onderscheid te herstellen, niet om alleen een eindgetal te laten overschrijven.
@@ -32,17 +33,17 @@ Alle noodzakelijke bronnen en steun staan op papier. Reken met ongeronde tussenu
 ### Bestemming
 Je kunt import, export en specialisatie uitleggen. Je kunt absoluut en comparatief voordeel onderscheiden zonder een productietabel uit te rekenen. Je kunt met brongegevens een concurrentiepositie verklaren en een uitspraak over handelsvoordelen beoordelen.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 1–2 |
-| Zelfstandige voorbereiding | 5–6 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 7 |
-| Extra steun / alternatieve selectie | 3–4 |
+| Startopgaven | 1, 2 |
+| Begeleide inoefening | 3, 4 |
+| Zelfstandige oefening | 5, 6 |
+| Doeloefening | 7 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 2 | 10 | 7 | 2 | 12 | 12 | 4 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 8. Herhaling 9, 10 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Vraag een verklaring van relatief minder opofferen, ook wanneer hetzelfde land in beide activiteiten productiever is.
@@ -62,17 +63,17 @@ Geen productie- of specialisatietabellen met berekende comparatieve kosten. Prod
 ### Bestemming
 Je kunt een wereldmarktprijs vergelijken met de prijs zonder handel. Je kunt binnenlandse productie, binnenlands verbruik en import of export bepalen. Je kunt met prijs en hoeveelheid uitleggen wat binnenlandse kopers en producenten merken.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 11–12 |
-| Zelfstandige voorbereiding | 15–16 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 17 |
-| Extra steun / alternatieve selectie | 13–14 |
+| Startopgaven | 11, 12 |
+| Begeleide inoefening | 13, 14 |
+| Zelfstandige oefening | 15, 16 |
+| Doeloefening | 17 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 2 | 10 | 7 | 2 | 12 | 12 | 4 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 18. Herhaling 19, 20 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Gebruik de opgegeven wereldprijs; onderscheid binnenlandse productie, consumptie en handelsstroom. Behandel ook de omgekeerde exportrichting.
@@ -92,17 +93,17 @@ Binnenlandse vraag is niet binnenlandse productie. De kleine-landaanname en de v
 ### Bestemming
 Je kunt het doel en de gevolgen van protectionisme onderscheiden. Je kunt resterende import en heffingsopbrengst berekenen. Je kunt een invoerheffing vergelijken met een importquotum en herkennen wanneer import verdwijnt.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 21–22 |
-| Zelfstandige voorbereiding | 25–26 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 27 |
-| Extra steun / alternatieve selectie | 23–24 |
+| Startopgaven | 21, 22 |
+| Begeleide inoefening | 23, 24 |
+| Zelfstandige oefening | 25, 26 |
+| Doeloefening | 27 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 2 | 10 | 7 | 2 | 12 | 12 | 4 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 28. Herhaling 29, 30 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Bereken heffingsopbrengst over de resterende import. Leer de grens met geen import met het meegeleverde contrast.
@@ -122,17 +123,10 @@ Wereldprijs plus heffing mag niet mechanisch worden gebruikt nadat de import ver
 ### Bestemming
 Je kunt relevante brongegevens kiezen, comparatief voordeel in woorden uitleggen en import of heffingsopbrengst berekenen. Je kunt een conclusie onderbouwen die onderscheid maakt tussen een gezamenlijk resultaat en de gevolgen voor groepen.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
-|---|---|
-| Start / ophalen | 31 |
-| Zelfstandige voorbereiding | 32 of 33 (kies één) |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 35 |
-| Extra steun / alternatieve selectie | 34 als aanvullende consolidatie |
+### Gemengde oefening: afwijkende structuur
+Voorbereiding: 31–34; doeloefening: 35. Gebruik de bestaande uitleg en denkstappen uit het hoofdstuk. Er is geen aparte begeleide sectie. Bonus 36 hoort bij de uitdagende aanpak. Herhaling 37–38 is aanvullend. 
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 8 | 0 | 4 | 0 | 2 | 10 | 25 | 6 | **55** |
+De eerdere selectie was begroot op 55 minuten. Dat geldt alleen voor de gekozen opgaven, niet voor alle gedrukte oefening of aanvullende begeleiding. De structuuruitzondering verandert geen opgave of einddoel.
 
 ### De uitleg die niet mag verdwijnen
 Behoud de brongeleide handelsconclusie. Afsluitende herhaling 38b vraagt nu een korte-termijnproductieadvies, niet het verplaatste toetredingsmechanisme.
@@ -152,7 +146,7 @@ Boek 3 eindigt met de korte-termijnkeuze van de prijsnemende onderneming en de b
 De afzonderlijke cao-/vakbonds-/scholingsbeleidsles is uit het jaar-1-programma gehaald. **Nieuwe §4.3.5 is gemengde oefening.** De oude beleidstekst blijft afzonderlijk bewaard voor latere plaatsing. Een later jaardeel mag die uitgestelde doelen niet zonder expliciete introductie als voorkennis aannemen.
 
 ### Wat niet door deze revisie wordt bewezen
-De indeling blijft **14 lessen in Boek 3 en 17 in Boek 4**, naast de ongewijzigde 12 + 12 uit Boeken 1 en 2. Dat is een curriculumallocatie, geen bewijs dat iedere bestaande route al uitvoerbaar is. De tijdsconflicten bij §§3.1.2, 3.1.3, 3.1.5, 4.2.4 en 4.2.5 blijven afzonderlijk zichtbaar. De rest van de tijden zijn schattingen, geen gemeten leeropbrengsten.
+De indeling blijft **14 lessen in Boek 3 en 17 in Boek 4**, naast de ongewijzigde 12 + 12 uit Boeken 1 en 2. Dat is een curriculumallocatie, geen bewijs dat iedere bestaande route al uitvoerbaar is. De tijdsconflicten bij §§3.1.2, 3.1.3, 3.1.5, 4.2.4 en 4.2.5 blijven afzonderlijk zichtbaar. Daarnaast zijn alle theorieparagrafen opnieuw als open tijdsvraag aangemerkt: begeleide inoefening ontbrak in de oude begrotingen. De schattingen zijn geen gemeten leeropbrengsten.
 
 ### Bronnen en antwoorden
 Alle rekenvoorbeelden zijn geconstrueerde onderwijsmodellen, met hun voorwaarden in de bron. Actualiseer geen wettelijke loonbedragen of andere externe feiten zonder bron. De antwoorden worden met het leerlingdeel meegeleverd; een opgave die niet tot de gekozen kern behoort, is niet daardoor onjuist of overbodig.

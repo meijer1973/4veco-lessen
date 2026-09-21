@@ -17,6 +17,6 @@ In dit hoofdstuk maak je dat voordeel zichtbaar. Je berekent het voor kopers, vo
 
 <div class="box goals"><b>Na dit hoofdstuk kun je</b><br>hoeveelheden en een evenwicht berekenen; consumentensurplus, producentensurplus en totaal surplus herkennen en berekenen; de aanbodlijn als marginale-kostenlijn lezen; bij een boekingsgrens de werkelijke transacties bepalen; welvaartsverlies berekenen en arceren; en efficiëntie onderscheiden van eerlijkheid.</div>
 
-<div class="box"><b>Zo gebruik je dit hoofdstuk</b><br>Bestudeer de uitleg en het uitgewerkte voorbeeld. Maak daarna de startopgaven. De begeleide inoefening geeft extra steun; de zelfstandige oefening bereidt je voor op de doeloefening. Het denkertje is extra uitdaging. Herhaling kan ook huiswerk zijn.</div>
+<div class="box"><b>Zo gebruik je dit hoofdstuk</b><br>Lees de uitleg en het uitgewerkte voorbeeld. Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Volg na de startopgaven de begeleide en zelfstandige oefening naar de doeloefening. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg de uitdagende route met de bonus. Herhaling is extra bij beide routes.</div>
 
 <div class="small muted">Werk in je schrift; teken of arceer in de geleverde grafiek wanneer dat wordt gevraagd. Neem tabellen over om ze in te vullen. Opgavenummers beginnen per paragraaf opnieuw. Reken tussendoor ongerond en rond geldbedragen zo nodig af op twee decimalen. De markten en getallen zijn oefensituaties.</div>

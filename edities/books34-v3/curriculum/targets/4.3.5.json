@@ -136,7 +136,7 @@
   "structural_scope_boundary": "In old mixed exercise 48, replace the cao wage floor by a clearly stated illustrative minimum wage, or select another already-taught wage-floor case. Remove or revise old 49's source C and 49f only to the extent needed by the retained goals; do not delete the useful data-limited employment reasoning already in §4.3.1. Update the final return-reference to old §4.3.5. The new numeric ID 4.3.5 is a mixed paragraph, not the old bargaining paragraph. Deferred goals must not return in compulsory homework, tests or an unexplained bonus.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.3/4.3.5 manuscript.md",
-    "student_manuscript_sha256": "701235d7ec86b72d7bb32db08b1845c97f43c9accf46e0fe14bb629d12de96a1",
+    "student_manuscript_sha256": "a9c5196872388d35c8b7814b72430d752beacc203b58e8469f686dadcd14f5a0",
     "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
     "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
     "chapter_student_pages": [
@@ -151,7 +151,6 @@
   "lesson_route": {
     "start": "37",
     "independent": "39",
-    "guided_or_alternative": "38 als gerichte productiviteitsherhaling",
     "target": "40",
     "target_subquestions": [
       "40a",
@@ -172,9 +171,33 @@
       "Feedback / afronding": 6
     },
     "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "one_lesson_status": "selected_mixed_route_not_classroom_measured",
     "instruction_focus": "Dit is de hernummerde gemengde les, niet de oude cao-les. Bron C beschrijft een werkproces; de rekentechniek komt uit §4.3.1.",
-    "assessment_boundaries": "Het minimumloon in opgave 39 vraagt geen kennis van cao’s. Het hoofdstuk behoudt participatie, werkloosheid, evenwicht, verschuivingen en productiviteit; collectieve onderhandelingen en scholingsbeleid zijn uitgesteld."
+    "assessment_boundaries": "Het minimumloon in opgave 39 vraagt geen kennis van cao’s. Het hoofdstuk behoudt participatie, werkloosheid, evenwicht, verschuivingen en productiviteit; collectieve onderhandelingen en scholingsbeleid zijn uitgesteld.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 7,
+        "Motivatie": 0,
+        "Instructie": 4,
+        "Uitgewerkt voorbeeld": 0,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 10,
+        "Doeloefening": 26,
+        "Feedback / afronding": 6
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "38 als gerichte productiviteitsherhaling"
+    },
+    "route_exception": {
+      "reason": "mixed_practice_without_separate_guided_section",
+      "preparation": "37–39",
+      "bonus": "41",
+      "repetition": null,
+      "support": "Use the chapter explanations and intermediate steps during preparation; preserve existing mixed sections."
+    },
+    "timing_scope": "Existing selected mixed-practice estimate; not a timing certificate for every printed exercise. Additional support and further practice require additional time.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

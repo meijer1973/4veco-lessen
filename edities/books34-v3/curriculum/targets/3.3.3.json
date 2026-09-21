@@ -133,7 +133,7 @@
   "structural_scope_boundary": "Use imported quantity, not all domestic sales, for tariff revenue. Teach the no-import boundary using graph reading or a supplied contrast; do not mechanically impose world price plus tariff after imports disappear. State the model assumptions behind the case. Quantitative quota rents/allocation, export-subsidy models, exchange-rate adjustment and formal strategic retaliation remain deferred. An industry-gain claim is not automatically an economy-wide welfare claim.",
   "source_pin": {
     "student_file": "books/book-3/chapters/3.3/3.3.3 manuscript.md",
-    "student_manuscript_sha256": "5e41e97af832964ec1ac81baae6cbb77543de1550b20bafd3cab6ea55cbddd00",
+    "student_manuscript_sha256": "3e0e2a3c92b2ff117c037abb579e36b396d08259de7f7718f0e23397577e5afc",
     "answer_file": "books/book-3/chapters/3.3/Antwoorden.md",
     "answer_file_sha256": "4dd84fe5767895aaf273bc27e64bd8281305835ca621a0e00be34b3f6942228b",
     "chapter_student_pages": [
@@ -146,7 +146,6 @@
   "lesson_route": {
     "start": "21–22",
     "independent": "25–26",
-    "guided_or_alternative": "23–24",
     "target": "27",
     "target_subquestions": [
       "27a",
@@ -163,12 +162,67 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 12,
       "Doeloefening": 12,
-      "Feedback / afronding": 4
+      "Feedback / afronding": 4,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Bereken heffingsopbrengst over de resterende import. Leer de grens met geen import met het meegeleverde contrast.",
-    "assessment_boundaries": "Wereldprijs plus heffing mag niet mechanisch worden gebruikt nadat de import verdwijnt. Een gratis importvergunning brengt niet automatisch geld in de overheidskas."
+    "assessment_boundaries": "Wereldprijs plus heffing mag niet mechanisch worden gebruikt nadat de import verdwijnt. Een gratis importvergunning brengt niet automatisch geld in de overheidskas.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 6,
+        "Motivatie": 2,
+        "Instructie": 10,
+        "Uitgewerkt voorbeeld": 7,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 12,
+        "Doeloefening": 12,
+        "Feedback / afronding": 4
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "23–24"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "21",
+        "22"
+      ],
+      "Begeleide inoefening": [
+        "23",
+        "24"
+      ],
+      "Zelfstandige oefening": [
+        "25",
+        "26"
+      ],
+      "Doeloefening": [
+        "27"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "21",
+        "22"
+      ],
+      "Zelfstandige oefening": [
+        "25",
+        "26"
+      ],
+      "Doeloefening": [
+        "27"
+      ],
+      "Denkertje / Bonusopgave": [
+        "28"
+      ]
+    },
+    "additional_repetition": [
+      "29",
+      "30"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

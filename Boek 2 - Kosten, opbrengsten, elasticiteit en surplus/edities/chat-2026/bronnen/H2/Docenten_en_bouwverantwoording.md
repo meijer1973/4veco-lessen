@@ -20,7 +20,7 @@ Dit hoofdstuk is opnieuw geschreven voor **4 vwo**. De bestaande hoofdstuktekst,
 
 Leerlingen werken in een schrift. Zij nemen een tabel over wanneer dat wordt gevraagd. De uitleg, formules, hulp, bronnen en voorbeelden staan in het boek; digitaal materiaal is niet nodig. Gebruik een rekenmachine en laat tussenuitkomsten ongerond bewaren.
 
-De drie theorieparagrafen volgen de zeven voorgeschreven oefenonderdelen. De kernroute is **Startopgaven → Zelfstandige oefening → Doeloefening**. Begeleide inoefening biedt extra ondersteuning voor dezelfde doelen. De bonusopgaven vragen anders kijken, niet alleen méér rekenen. Herhaling kan als huiswerk dienen.
+**Normale route:** Startopgaven → Begeleide inoefening → Zelfstandige oefening → Doeloefening. Begeleide inoefening is voor de meeste leerlingen normaal leren. **Uitdagende route:** Startopgaven → Zelfstandige oefening → dezelfde Doeloefening → Bonus, voor wie minder tussenstappen nodig heeft en extra uitdaging wil. Herhaling is extra bij beide routes.
 
 ### Afdrukken en uitdelen
 
@@ -30,34 +30,30 @@ De antwoorden beginnen per paragraaf opnieuw bij opgave 1, net als de leerlinged
 
 <!-- PAGEBREAK -->
 
-# Lesplanning en ondersteuning
+# Lesroute en lestijd
 
-De volgende begrotingen zijn **ontwerpschattingen, geen gemeten klassentijden**. Een pagina is een lees- en naslagoppervlak, geen afzonderlijk instructiemoment. De docent selecteert de kern van de uitleg; leerlingen kunnen de rest teruglezen. Bonus en afsluitende herhaling vallen buiten deze kernbegrotingen.
+Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. De uitdagende route biedt minder tussenstappen en de bonus, met dezelfde doeloefening. Herhaling is extra bij beide routes. Een startscore bepaalt niet automatisch de route.
 
-| Onderdeel in minuten | 2.2.1 | 2.2.2 | 2.2.3 |
-|---|---:|---:|---:|
-| Motiverende situatie | 2 | 1 | 2 |
-| Gerichte instructie | 9 | 8 | 9 |
-| Uitgewerkt voorbeeld | 6 | 8 | 7 |
-| Samenvatting en overgangen | 2 | 2 | 2 |
-| Startopgaven 1–2 | 5 | 5 | 5 |
-| Zelfstandig: 5–6 / 5–6 / 6–7 | 14 | 16 | 14 |
-| Doeloefening: 7 / 7 / 8 | 12 | 15 | 16 |
-| **Totaal kernroute** | **50** | **55** | **55** |
+### Normale route
+| Paragraaf | Start | Begeleid | Zelfstandig | Doel | Bonus: uitdagende route |
+|---|---|---|---|---|---|
+| 2.2.1 | 1, 2 | 3, 4 | 5, 6 | 7 | 8 |
+| 2.2.2 | 1, 2 | 3, 4 | 5, 6 | 7 | 8 |
+| 2.2.3 | 1, 2 | 3, 4, 5 | 6, 7 | 8 | 9 |
 
-Elke kolom bevat de volledige kernroute, niet alleen de werktijd. De vijf minuten ruimte bij §2.2.1 kunnen naar feedback. Bij de andere twee paragrafen is de begroting krap: uitleg of oefenen verlengen betekent ook extra lestijd plannen. De moeilijkheid wordt niet verborgen door een doelbewerking weg te laten.
+### Open timingvragen
+De oude begrotingen selecteerden soms maar een deel van de zelfstandige oefening en lieten begeleide inoefening weg. Ze onderbouwen geen volledige 55-minutenroute. Alle tijden hieronder zijn eerdere ontwerpschattingen, geen metingen.
 
-### Voor §2.2.3: twee lessen zodra de klas dat nodig heeft
+| Paragraaf | Oude selectie zonder begeleiding | Ontbrekende begeleide tijd |
+|---|---:|---|
+| 2.2.1 | 50 min | eerder 8–15 minuten: samen 58–65 minuten |
+| 2.2.2 | 55 min | eerder 8–15 minuten: samen 63–70 minuten |
+| 2.2.3 | 55 min | eerder 8–15 minuten of meer: samen 63–70 minuten of meer |
 
-De 55-minutenroute is alleen aannemelijk bij vlotte procentberekeningen, veilige functie-invulling en korte mondelinge instructie. **Plan voor een heterogene klas bij voorkeur twee lessen.** Les A: startopgaven, Ei/Ek-uitleg, het eerste deel van het voorbeeld, begeleide opgave 3 en zelfstandige opgave 6. Les B: functies, het tweede deel van het voorbeeld, opgave 4 waar nodig, zelfstandige opgave 7 en de volledige doeloefening 8. Dit behoudt één paragraaf en dezelfde eindopgave.
+Begroot de volledige normale route op basis van lees-, reken-, teken- en uitlegtijd. Plan aanvullende lestijd; schrap geen opgaven of doelbewerkingen. Begroot de bonus afzonderlijk voor de uitdagende route. Herhaling blijft aanvullend. Vooral §§2.2.3 en 2.3.3 kunnen twee lessen vragen.
 
-### De ondersteuningsroute kost echte tijd
-
-In §2.2.1 loopt de steun terug van ingevulde rekenvormen (3) naar een tabel zonder rekenstappen (4). In §2.2.2 loopt die terug van een invultabel (3) naar zelfstandiger omzetredenering (4). In §2.2.3 biedt 3 steun bij de juiste noemer; 4 steunt de scenario-opbouw; 5 maakt tegengestelde verbanden zichtbaar. Reken op circa 8–15 extra werkminuten, bij §2.2.3 eventueel meer. Gebruik extra lestijd of verplaats werk; presenteer dit niet als gratis omweg binnen een al volle les.
-
-### Gemengde les
-
-Een mogelijke verdeling is: 4 minuten opgave 1, 15 minuten voorbereiden met opgaven 2 en 4, 24 minuten doeloefening 5 en 12 minuten nabespreken = **55 minuten**. Opgave 3 en hoofdstukcheck 7 zijn vervolgwerk; 6 is bonus. Bij kwetsbare Ei/Ek- of functievaardigheid is extra oefentijd nodig vóór de doeloefening. De punten bij doelvragen geven de omvang van het antwoord aan; zij zijn geen automatisch cijfer of beheersingsbewijs.
+### Gemengde paragraaf 2.2.4
+Deze paragraaf heeft geen afzonderlijke begeleide sectie. Werk met 1–4 naar doel 5, met de bestaande hoofdstukuitleg als steun. Bonus 6 hoort bij de uitdagende aanpak; de hoofdstukcheck 7 is aanvullend. De oude geselecteerde lesplanning van 55 minuten was geen begroting van alle gedrukte opgaven of extra begeleiding. De opgaven en doelen blijven behouden.
 
 <!-- PAGEBREAK -->
 

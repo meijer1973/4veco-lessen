@@ -109,7 +109,7 @@
   "structural_scope_boundary": "Keep hours, persons and full-time equivalents distinct. Do not imply productivity growth always reduces total employment; state output and other conditions. No formal marginal-revenue-product optimisation unless separately justified and taught. This is the first formal home of the productivity and unit-labour-cost calculations; revisit a qualitative competitiveness claim from §3.3.1 only after teaching the needed calculation here.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.3/4.3.1 manuscript.md",
-    "student_manuscript_sha256": "5f6801e16cc1c2bc34d1cc687c503a68004f889c338d0708ad8383342acc94f5",
+    "student_manuscript_sha256": "12f46259c226c4be4e651dd9a1fbe140a33c137756eca860482e19f41b49bfb7",
     "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
     "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
     "chapter_student_pages": [
@@ -122,7 +122,6 @@
   "lesson_route": {
     "start": "1–2",
     "independent": "5–6",
-    "guided_or_alternative": "3–4",
     "target": "7",
     "target_subquestions": [
       "7a",
@@ -138,12 +137,66 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 11,
       "Doeloefening": 14,
-      "Feedback / afronding": 3
+      "Feedback / afronding": 3,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Maak de rolwisseling zichtbaar: werkgevers vragen arbeid, huishoudens leveren die. Gebruik eerst uren en dezelfde tijdseenheid bij output en productiviteit.",
-    "assessment_boundaries": "Fte is niet hetzelfde als personen. Hogere productiviteit bij gelijkblijvende productie verlaagt benodigde uren; bij meer orders kan de arbeidsinzet toch groeien."
+    "assessment_boundaries": "Fte is niet hetzelfde als personen. Hogere productiviteit bij gelijkblijvende productie verlaagt benodigde uren; bij meer orders kan de arbeidsinzet toch groeien.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 5,
+        "Motivatie": 2,
+        "Instructie": 10,
+        "Uitgewerkt voorbeeld": 8,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 11,
+        "Doeloefening": 14,
+        "Feedback / afronding": 3
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "3–4"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "1",
+        "2"
+      ],
+      "Begeleide inoefening": [
+        "3",
+        "4"
+      ],
+      "Zelfstandige oefening": [
+        "5",
+        "6"
+      ],
+      "Doeloefening": [
+        "7"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "1",
+        "2"
+      ],
+      "Zelfstandige oefening": [
+        "5",
+        "6"
+      ],
+      "Doeloefening": [
+        "7"
+      ],
+      "Denkertje / Bonusopgave": [
+        "8"
+      ]
+    },
+    "additional_repetition": [
+      "9"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

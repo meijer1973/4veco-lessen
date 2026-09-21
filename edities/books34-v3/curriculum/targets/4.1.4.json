@@ -151,7 +151,7 @@
   "structural_scope_boundary": "Do not read price from the MO curve, equate P with MK at the monopoly optimum, or confuse maximum revenue with maximum profit. Reserve the formal welfare comparison for §4.2.1, immediately after this chapter; it is not postponed to a later book.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.1/4.1.4 manuscript.md",
-    "student_manuscript_sha256": "53c24578d68752c2a275f3e8032a0ce787cecaacf2a58baab18f2f6d851a98dd",
+    "student_manuscript_sha256": "65dd2923fd9c6544fce1e1a26d30969bf34abc4f0bd9bd8ad85cd3198db752b0",
     "answer_file": "books/book-4/chapters/4.1/Antwoorden.md",
     "answer_file_sha256": "01a9294bd3ce947ceb5460d588cd3f7ffee5b9f0be3e4334558fde44096f8da1",
     "chapter_student_pages": [
@@ -164,7 +164,6 @@
   "lesson_route": {
     "start": "31–32",
     "independent": "36a–c en 37a",
-    "guided_or_alternative": "33–35",
     "target": "38",
     "target_subquestions": [
       "38a",
@@ -182,12 +181,67 @@
       "Overgang / samenvatting": 2,
       "Zelfstandig": 11,
       "Doeloefening": 15,
-      "Feedback / afronding": 3
+      "Feedback / afronding": 3,
+      "Begeleide inoefening": null
     },
-    "total_minutes": 55,
-    "one_lesson_status": "designed_not_classroom_measured",
+    "total_minutes": null,
+    "one_lesson_status": "open_supported_route_timing_conflict",
     "instruction_focus": "Hergebruik de marginale keuze uit §3.2.3 en verander expliciet de prijsroute. Markeer q bij MO = MK en lees daarna P op GO.",
-    "assessment_boundaries": "P = MK is hier geen winstregel. Capaciteit, marginale richtingen en de vergelijking met q = 0 blijven nodig waar gevraagd. Monopoliewelvaart volgt in §4.2.1."
+    "assessment_boundaries": "P = MK is hier geen winstregel. Capaciteit, marginale richtingen en de vergelijking met q = 0 blijven nodig waar gevraagd. Monopoliewelvaart volgt in §4.2.1.",
+    "previous_estimate": {
+      "minutes": {
+        "Start / ophalen": 5,
+        "Motivatie": 2,
+        "Instructie": 10,
+        "Uitgewerkt voorbeeld": 7,
+        "Overgang / samenvatting": 2,
+        "Zelfstandig": 11,
+        "Doeloefening": 15,
+        "Feedback / afronding": 3
+      },
+      "total_minutes": 55,
+      "one_lesson_status": "designed_not_classroom_measured",
+      "guided_or_alternative": "33–35"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "31",
+        "32"
+      ],
+      "Begeleide inoefening": [
+        "33",
+        "34",
+        "35"
+      ],
+      "Zelfstandige oefening": [
+        "36",
+        "37"
+      ],
+      "Doeloefening": [
+        "38"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "31",
+        "32"
+      ],
+      "Zelfstandige oefening": [
+        "36",
+        "37"
+      ],
+      "Doeloefening": [
+        "38"
+      ],
+      "Denkertje / Bonusopgave": [
+        "39"
+      ]
+    },
+    "additional_repetition": [
+      "40"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

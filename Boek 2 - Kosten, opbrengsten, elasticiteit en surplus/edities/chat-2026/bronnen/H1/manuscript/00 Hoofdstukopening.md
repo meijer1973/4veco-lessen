@@ -20,7 +20,7 @@ Je leert dezelfde onderneming op drie manieren bekijken: **alles bij elkaar**, *
 kosten indelen en kostenfuncties opstellen; totale en gemiddelde kosten, opbrengsten en winst berekenen; break-even bepalen en in een grafiek herkennen; extra kosten en opbrengsten per product berekenen; en een uitspraak controleren met gegevens.</div>
 
 <div class="box"><b>Zo werk je met dit boek</b><br>
-Lees de uitleg en het uitgewerkte voorbeeld. Maak de startopgaven, oefen zelfstandig en sluit af met de doeloefening. De begeleide inoefening biedt extra hulp bij hetzelfde doel. Het denkertje is extra; herhaling kan als huiswerk.<br><br>
+Lees de uitleg en het uitgewerkte voorbeeld. Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Volg na de startopgaven de begeleide en zelfstandige oefening naar de doeloefening. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg de uitdagende route met de bonus. Herhaling is extra bij beide routes.<br><br>
 Werk in je schrift. Neem tabellen over als de invulruimte niet genoeg is. Gebruik een rekenmachine, liniaal en ruitjespapier. Bewaar tussenuitkomsten; rond geldbedragen aan het einde af op centen.</div>
 
 <div class="small muted">Alle ondernemingen en gegevens in de opgaven zijn lesvoorbeelden. Er wordt geen btw berekend. Bij opbrengstenopgaven wordt de genoemde productie ook verkocht, tenzij anders vermeld.</div>

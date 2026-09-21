@@ -27,10 +27,12 @@ Geen nieuwe interventiemechaniek, belasting, subsidie, prijsbeleid, calculus of 
 
 ## Achterwaarts ontwerp en tijd
 
-De gedetailleerde doel-opgave-voorbeeldkoppelingen en volledige lesminuten staan in `2.3 Docenteninformatie.md`. De eerste drie paragrafen gebruiken de zeven canonieke oefensecties; de samenvatting blijft een niet-genummerd kader tussen voorbeeld en startopgaven. In 2.3.1 wordt grafiekproductiesteun afgebouwd. In 2.3.2 en 2.3.3 worden de doelconforme geleverde lijnen behouden.
+De gedetailleerde doel-opgave-voorbeeldkoppelingen, onvolledige eerdere tijdschattingen en open timingvragen staan in `2.3 Docenteninformatie.md`. De eerste drie paragrafen gebruiken de zeven canonieke oefensecties; de samenvatting blijft een niet-genummerd kader tussen voorbeeld en startopgaven. In 2.3.1 wordt grafiekproductiesteun afgebouwd. In 2.3.2 en 2.3.3 worden de doelconforme geleverde lijnen behouden.
 
-38 leerlingpagina’s; 38 opgaven; 22 behouden doeldeelvragen. Lesduur is niet geobserveerd. De compactste routes passen volgens schatting in 55 minuten, maar 2.3.3 wordt bij onzekerheid over de voorkennis in twee lessen uitgevoerd. De bestemming wordt niet verlaagd om een tijdclaim te laten passen.
+38 leerlingpagina’s; 38 opgaven; 22 behouden doeldeelvragen. Lesduur is niet geobserveerd. De oude selecties van 55 minuten lieten begeleide inoefening weg en onderbouwen de volledige normale route niet. Begroot alle begeleide en zelfstandige oefening en plan aanvullende lestijd; vooral 2.3.3 kan twee lessen vragen. De bestemming wordt niet verlaagd om een tijdclaim te laten passen.
 
 ## Uitvoer en bewijs
 
 Drie samengestelde PDF’s, bronmanuscripten, SVG/PNG-paren, afzonderlijke paragraafbestanden, reproduceerbare bouwscripts en lokale controle. Geen verzonnen onafhankelijke reviews of officiële gate-PASS. De feitelijke lokale resultaten staan in QA.
+
+De routeherziening van 21 september 2026 volgt de [canonieke Part A-routeafspraak](https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint). Zie de actuele docentbron en het [revisierapport](../../ROUTE-REVISION-2026-09-21.md); ontvangst- en eerdere lokale bewijsclaims hierboven blijven historisch.

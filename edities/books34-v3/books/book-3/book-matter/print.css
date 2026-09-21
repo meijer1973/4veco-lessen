@@ -77,6 +77,13 @@ figcaption{font-size:9.3pt;line-height:1.3;color:#536777;margin:5pt 0 0;}
 .answer .answer-block{break-inside:avoid;}
 .answer .calc{font-family:DejaVu Sans Mono,monospace;font-size:10pt;line-height:1.5;}
 
+/* Compact navigation; body and exercise typography stay unchanged. */
+.route{padding:4pt 9pt;margin:4pt 0 5pt;line-height:1.15;}
+
+/* Fit the revised route notice beside the existing start tasks. */
+.page[data-designed-page="22"] .exercise{padding:5pt 9pt;margin-bottom:5pt;}
+.page[data-designed-page="22"] h2{margin-top:6pt;margin-bottom:5pt;}
+
 @page{@top-right{content:"Boek 3 · editie v3";}}
 .glossary h3{font-size:11.5pt;margin:8pt 0 3pt;}
 .glossary p{font-size:10.5pt;line-height:1.28;margin:0 0 5pt;}

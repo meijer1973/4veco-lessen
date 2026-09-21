@@ -16,7 +16,7 @@ Reken met ongeronde tussenuitkomsten. Vermeld de relevante hoeveelheid, prijs, e
 ### Lezen en printen
 De paginanummers lopen door het hele boek. De hoofdstukken en paragrafen staan in de inhoudsopgave. Print op A4, op werkelijke grootte en dubbelzijdig over de lange zijde.
 
-<div class="box"><b>De les en het oefenmateriaal</b><br>De docent geeft aan welke opgaven bij de kern van de les horen. Begeleide inoefening geeft extra steun bij dezelfde doelen. Bonus en herhaling zijn niet automatisch extra verplicht werk in dezelfde les.</div>
+<div class="box"><b>De les en het oefenmateriaal</b><br>Begeleide inoefening is voor de meeste leerlingen een normaal onderdeel van leren. Na de startopgaven oefen je met denkstappen die steeds verder worden afgebouwd. Daarna volgen zelfstandige oefening en dezelfde doeloefening. De uitdagende route is voor leerlingen die minder tussenstappen nodig hebben en extra uitdaging willen; daarbij hoort de bonus. Herhaling is extra bij beide routes.</div>
 
 <!-- PAGE {"section": "inleiding", "title": "Zo gebruik je het boek"} -->
 
@@ -25,17 +25,17 @@ De paginanummers lopen door het hele boek. De hoofdstukken en paragrafen staan i
 Eerst onderzoek je hoe winst en verlies bij vrije toetreding kunnen veranderen. Daarna vergelijk je de prijsnemer met een monopolist. Je gebruikt die uitkomsten bij marktfalen en past bekende marktmethoden toe op arbeid.
 
 ### Elke paragraaf heeft een bestemming
-Lees de leerdoelen en volg de uitleg en het uitgewerkte voorbeeld. In de Startopgaven haal je voorkennis op en controleer je de eerste begrippen. Daarna oefen je zonder uitgewerkte stappen en pas je de methode toe in de doeloefening.
+Lees de leerdoelen en volg de uitleg en het uitgewerkte voorbeeld. In de Startopgaven haal je voorkennis op en controleer je de eerste begrippen. Daarna volg je de normale of uitdagende route naar dezelfde doeloefening.
 
-<div class="formula">Startopgaven → Zelfstandige oefening → Doeloefening</div>
+<div class="formula">Normale route: Startopgaven → Begeleide inoefening → Zelfstandige oefening → Doeloefening</div>
 
-Heb je extra steun nodig? Gebruik de Begeleide inoefening. Keer daarna terug naar zelfstandig werk. Het doel is niet alleen het juiste antwoord herkennen, maar de bewerking zelf kunnen kiezen, uitvoeren en uitleggen.
+Begeleide inoefening hoort bij leren. Heb je minder tussenstappen nodig en wil je extra uitdaging? Volg dan de uitdagende route: Startopgaven → Zelfstandige oefening → Doeloefening → Denkertje / Bonusopgave. Herhaling is extra bij beide routes.
 
 ### Bekijk tekst en beeld samen
 Lees steeds wat de assen meten. Een bedrag per product is niet een totaalbedrag. Een punt, lijn of oppervlakte heeft een betekenis die bij de bron hoort. Gebruik het plaatje om je berekening te controleren en andersom.
 
 ### Gemengde opgaven
-Hier combineer je eerder geleerde methoden. Je kiest zelf de juiste bron en aanpak. Er wordt geen nieuwe theorie verstopt in de afsluitende doelopgave.
+Hier combineer je eerder geleerde methoden. Je kiest zelf de juiste bron en aanpak. Gebruik de uitleg en denkstappen uit het hoofdstuk bij de voorbereiding. Volg de onderdelen die deze paragraaf heeft; die kunnen afwijken van de theorieparagrafen. Er komt geen nieuwe theorie bij.
 
 ### De grens van dit boek
 De arbeidsmarkt wordt behandeld met productiviteit, deelname, werkloosheid, evenwicht en minimumloon. De afzonderlijke behandeling van collectieve onderhandelingen en cao-beleid komt in een later leerjaar.

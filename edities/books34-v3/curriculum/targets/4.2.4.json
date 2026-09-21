@@ -126,7 +126,7 @@
   "structural_scope_boundary": "Do not count tax revenue as a real social loss or treat CS + PS alone as the full welfare measure when external harm is present. Keep external-cost assumptions explicit and simple; no unsupported claims of a uniquely optimal tax.",
   "source_pin": {
     "student_file": "books/book-4/chapters/4.2/4.2.4 manuscript.md",
-    "student_manuscript_sha256": "a5ed089cdfa1632fc5c778549d348b2fa29ed52f9513dbce986d98bd661165a3",
+    "student_manuscript_sha256": "4589774bbf4209f36c852ef55be55e77c40d58395dd824502dbb8e5bb675647a",
     "answer_file": "books/book-4/chapters/4.2/Antwoorden.md",
     "answer_file_sha256": "b77880f5e0c3e9252002c502b1cd101d4181773fa9968ea37d63e3d04cdf80f9",
     "chapter_student_pages": [
@@ -139,7 +139,6 @@
   "lesson_route": {
     "start": "28–29",
     "independent": "32–33",
-    "guided_or_alternative": "30–31",
     "target": "34",
     "target_subquestions": [
       "34a",
@@ -148,11 +147,57 @@
       "34d",
       "34e"
     ],
-    "minutes": null,
+    "minutes": {
+      "Begeleide inoefening": null
+    },
     "total_minutes": null,
     "one_lesson_status": "open_existing_timing_conflict",
     "instruction_focus": "Introduceer de derde partij en de maatschappelijke kostengrens vóór de heffing. Hergebruik de belastingroute en tel de externe schade afzonderlijk mee.",
-    "assessment_boundaries": "CS + PS + overheidsontvangsten − schade is hier de relevante maat. Belasting is een overdracht, schade niet. De verliesdriehoek en onafhankelijke voorbereiding mogen niet verdwijnen om tijd te winnen."
+    "assessment_boundaries": "CS + PS + overheidsontvangsten − schade is hier de relevante maat. Belasting is een overdracht, schade niet. De verliesdriehoek en onafhankelijke voorbereiding mogen niet verdwijnen om tijd te winnen.",
+    "previous_estimate": {
+      "minutes": null,
+      "total_minutes": null,
+      "one_lesson_status": "open_existing_timing_conflict",
+      "guided_or_alternative": "30–31"
+    },
+    "normal_route": {
+      "Startopgaven": [
+        "28",
+        "29"
+      ],
+      "Begeleide inoefening": [
+        "30",
+        "31"
+      ],
+      "Zelfstandige oefening": [
+        "32",
+        "33"
+      ],
+      "Doeloefening": [
+        "34"
+      ]
+    },
+    "challenging_route": {
+      "Startopgaven": [
+        "28",
+        "29"
+      ],
+      "Zelfstandige oefening": [
+        "32",
+        "33"
+      ],
+      "Doeloefening": [
+        "34"
+      ],
+      "Denkertje / Bonusopgave": [
+        "35"
+      ]
+    },
+    "additional_repetition": [
+      "36"
+    ],
+    "timing_scope": "The previous estimate excludes guided practice and may select only some independent tasks. Normal route includes all supported practice; a justified complete estimate is missing. Challenging route additionally needs a bonus estimate. No 55-minute fit is claimed.",
+    "route_contract": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md#21-the-routes-and-the-constraint"
   },
   "historical_source_refs": [
     {

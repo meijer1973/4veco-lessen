@@ -12,10 +12,11 @@ Deze handleiding hoort uitsluitend bij de meegeleverde v3-leerlingtekst en antwo
 | Opgaven / deelvragen | 49 / 135 |
 | Doeloefeningen | 7, 18, 28, 38, 45 |
 
-### Eén paragraaf, één kernles
-De ontwerpgrens is 55 minuten inclusief uitleg, voorbeeld, zelfstandig werk, doel en feedback. De geselecteerde route staat per paragraaf aangegeven. Tijden zijn redactionele inschattingen, niet gemeten leerlingtijden of een garantie voor ieder individu.
+### Normale en uitdagende route
+Begeleide inoefening hoort voor de meeste leerlingen bij normaal leren. De normale route bevat startopgaven, begeleide en zelfstandige oefening en de volledige doeloefening. De uitdagende route is voor leerlingen die minder tussenstappen nodig hebben en extra uitdaging willen: startopgaven, zelfstandige oefening, dezelfde doeloefening en bonus. Herhaling is extra bij beide routes. Startopgaven bepalen niet automatisch een route.
 
-Begeleide inoefening is een steunroute: vervang zo nodig vergelijkbare tussenstappen, maar houd zelfstandige doelbewijzen over. Bonus en extra herhaling komen niet stilzwijgend boven op de kern. Nieuw leren mag niet worden verstopt in een tweede les of verplicht huiswerk.
+### Lestijd opnieuw begroten
+De eerdere begrotingen lieten begeleide inoefening buiten de les. Zij zijn geen bewijs dat de volledige normale route in 55 minuten past. Hieronder staan die onvolledige schattingen alleen als ondergrens. Begroot de echte lees-, reken-, teken- en uitlegtijd van de ontbrekende oefening en plan aanvullende lestijd. Schrap geen opgaven of doelbewerkingen om de som passend te maken. Ook de uitdagende route vraagt een afzonderlijke bonusbegroting.
 
 ### Gebruik en beoordeling
 Alle noodzakelijke bronnen en steun staan op papier. Reken met ongeronde tussenuitkomsten en beoordeel eenheden, redenering en gebruikte aannamen. Gelijkwaardige correcte formuleringen en grafieken zijn toegestaan. Gebruik een fout om het verkeerde onderscheid te herstellen, niet om alleen een eindgetal te laten overschrijven.
@@ -32,17 +33,17 @@ Alle noodzakelijke bronnen en steun staan op papier. Reken met ongeronde tussenu
 ### Bestemming
 Je kunt de keten winst → toetreding → aanbod → prijs → winst uitleggen, en de omgekeerde keten bij verlies. Je kunt de verschuiving tekenen en de langetermijnuitkomst voor één onderneming berekenen. Je kunt uitleggen wat nul economische winst wél en niet betekent.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 1–2 |
-| Zelfstandige voorbereiding | 5a–c en 6b |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 7 |
-| Extra steun / alternatieve selectie | 3–4 |
+| Startopgaven | 1, 2 |
+| Begeleide inoefening | 3, 4 |
+| Zelfstandige oefening | 5, 6 |
+| Doeloefening | 7 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 2 | 10 | 7 | 2 | 11 | 13 | 4 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 8. Herhaling 9, 10 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Verplaatst uit voormalig §3.2.3. Herstel binnen het startwerk de firmaberekening; voeg geen aparte recaples toe. Introduceer normale beloning en economische winst hier.
@@ -62,17 +63,17 @@ Het nulwinstresultaat geldt bij de genoemde vrije toe-/uittreding en onveranderd
 ### Bestemming
 Je kunt een monopolie herkennen met gegevens uit een bron. Je kunt een toetredingsbarrière uitleggen. Je kunt de vraag voor een monopolist vergelijken met die voor een prijsnemer. Je kunt een prijs-afzetcombinatie berekenen en beoordelen.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 11–12 |
-| Zelfstandige voorbereiding | 16–17 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 18 |
-| Extra steun / alternatieve selectie | 13–15 |
+| Startopgaven | 11, 12 |
+| Begeleide inoefening | 13, 14, 15 |
+| Zelfstandige oefening | 16, 17 |
+| Doeloefening | 18 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 2 | 10 | 7 | 2 | 12 | 12 | 4 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 19. Herhaling 20 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Gebruik §4.1.1 als contrast: vrije toetreding tegenover een expliciete barrière. Laat zien dat de monopolist prijs en afzet niet onafhankelijk kiest.
@@ -92,17 +93,17 @@ Een merk of een foto van één winkel bewijst geen monopolie. Begrens de markt e
 ### Bestemming
 Je kunt uit een lineaire vraagfunctie TO en MO afleiden. Je kunt een korte opbrengsttabel invullen en controleren. Je kunt het verschil tussen een tabelstap en MO op één punt uitleggen. Je kunt verklaren waarom MO onder de verkoopprijs ligt bij uniforme prijzen.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 21–22 |
-| Zelfstandige voorbereiding | 26a–c en 27a–b |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 28 |
-| Extra steun / alternatieve selectie | 23–25 |
+| Startopgaven | 21, 22 |
+| Begeleide inoefening | 23, 24, 25 |
+| Zelfstandige oefening | 26, 27 |
+| Doeloefening | 28 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 5 | 2 | 10 | 8 | 2 | 11 | 14 | 3 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 29. Herhaling 30 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Hergebruik differentiatie uit §3.2.2. Leg het verlies op eerder verkochte eenheden uit vóór de algemene conclusie MO < P.
@@ -122,17 +123,17 @@ Bij uniforme prijs verandert ook de opbrengst van bestaande verkopen. Vergelijk 
 ### Bestemming
 Je kunt MO en MK gebruiken om een winstmaximale haalbare afzet te kiezen. Je kunt daarna de verkoopprijs uit de vraagfunctie halen. Je kunt de totale winst berekenen en de grafische route markeren. Je kunt een verkeerde prijs- of productiekeuze met de berekening weerleggen.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
+### Normale route: alle gedrukte oefening
+| Fase | Opgaven |
 |---|---|
-| Start / ophalen | 31–32 |
-| Zelfstandige voorbereiding | 36a–c en 37a |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 38 |
-| Extra steun / alternatieve selectie | 33–35 |
+| Startopgaven | 31, 32 |
+| Begeleide inoefening | 33, 34, 35 |
+| Zelfstandige oefening | 36, 37 |
+| Doeloefening | 38 |
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 5 | 2 | 10 | 7 | 2 | 11 | 15 | 3 | **55** |
+De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 39. Herhaling 40 is extra bij beide routes.
+
+**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
 
 ### De uitleg die niet mag verdwijnen
 Hergebruik de marginale keuze uit §3.2.3 en verander expliciet de prijsroute. Markeer q bij MO = MK en lees daarna P op GO.
@@ -152,17 +153,10 @@ P = MK is hier geen winstregel. Capaciteit, marginale richtingen en de vergelijk
 ### Bestemming
 Je kunt met brongegevens kiezen tussen een prijsnemer en een monopolist. Je kunt de bijbehorende hoeveelheid, prijs en winst berekenen. Je kunt een foutmethode herkennen en verbeteren. Je kunt je conclusie beperken tot wat de gegevens ondersteunen.
 
-### Lesroute en keuze van opgaven
-| Fase | Geselecteerd werk |
-|---|---|
-| Start / ophalen | 41 en 41A |
-| Zelfstandige voorbereiding | 42 |
-| Onafhankelijk doelbewijs | Alle deelvragen van opgave 45 |
-| Extra steun / alternatieve selectie | 43–44 en 46–48 als aanvullende selectie |
+### Gemengde oefening: afwijkende structuur
+Voorbereiding: 41, 41A en 42–44; doeloefening: 45. Gebruik de bestaande uitleg en denkstappen uit het hoofdstuk. Er is geen aparte begeleide sectie. Deze paragraaf heeft geen afzonderlijke bonussectie. Er is geen afzonderlijke herhalingssectie. 
 
-| Start | Motivatie | Uitleg | Voorbeeld | Overgang | Zelfst. | Doel | Feedback | Totaal |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 8 | 0 | 4 | 0 | 2 | 10 | 25 | 6 | **55** |
+De eerdere selectie was begroot op 55 minuten. Dat geldt alleen voor de gekozen opgaven, niet voor alle gedrukte oefening of aanvullende begeleiding. Opgaven 46–48 bieden verdere gemengde oefening; dit is geen benoemde bonus- of herhalingssectie. De structuuruitzondering verandert geen opgave of einddoel.
 
 ### De uitleg die niet mag verdwijnen
 41A haalt langetermijnbetekenis op zonder de bestaande target uit te breiden. KleurFix en de prijsnemer blijven twee afzonderlijke markten.
@@ -182,7 +176,7 @@ Boek 3 eindigt met de korte-termijnkeuze van de prijsnemende onderneming en de b
 De afzonderlijke cao-/vakbonds-/scholingsbeleidsles is uit het jaar-1-programma gehaald. **Nieuwe §4.3.5 is gemengde oefening.** De oude beleidstekst blijft afzonderlijk bewaard voor latere plaatsing. Een later jaardeel mag die uitgestelde doelen niet zonder expliciete introductie als voorkennis aannemen.
 
 ### Wat niet door deze revisie wordt bewezen
-De indeling blijft **14 lessen in Boek 3 en 17 in Boek 4**, naast de ongewijzigde 12 + 12 uit Boeken 1 en 2. Dat is een curriculumallocatie, geen bewijs dat iedere bestaande route al uitvoerbaar is. De tijdsconflicten bij §§3.1.2, 3.1.3, 3.1.5, 4.2.4 en 4.2.5 blijven afzonderlijk zichtbaar. De rest van de tijden zijn schattingen, geen gemeten leeropbrengsten.
+De indeling blijft **14 lessen in Boek 3 en 17 in Boek 4**, naast de ongewijzigde 12 + 12 uit Boeken 1 en 2. Dat is een curriculumallocatie, geen bewijs dat iedere bestaande route al uitvoerbaar is. De tijdsconflicten bij §§3.1.2, 3.1.3, 3.1.5, 4.2.4 en 4.2.5 blijven afzonderlijk zichtbaar. Daarnaast zijn alle theorieparagrafen opnieuw als open tijdsvraag aangemerkt: begeleide inoefening ontbrak in de oude begrotingen. De schattingen zijn geen gemeten leeropbrengsten.
 
 ### Bronnen en antwoorden
 Alle rekenvoorbeelden zijn geconstrueerde onderwijsmodellen, met hun voorwaarden in de bron. Actualiseer geen wettelijke loonbedragen of andere externe feiten zonder bron. De antwoorden worden met het leerlingdeel meegeleverd; een opgave die niet tot de gekozen kern behoort, is niet daardoor onjuist of overbodig.
