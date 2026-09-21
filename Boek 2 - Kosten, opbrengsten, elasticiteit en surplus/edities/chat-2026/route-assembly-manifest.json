@@ -20,8 +20,8 @@
     },
     {
       "path": "boek/Boek_2_Compleet.pdf",
-      "bytes": 5631608,
-      "sha256": "8f29719a01148466692a2c92ab1b3b6f18ff5704ffd07086a051ad72b8ee5d3e"
+      "bytes": 5631614,
+      "sha256": "8f0e86882fe48bcab9aa9d99c72fe9d9e5aff737e95b52efed7a66fbb8710065"
     },
     {
       "path": "boek/Boek_2_Compleet_Antwoorden.pdf",
@@ -34,5 +34,5 @@
       "sha256": "7ba79cfc4c8ddb90b72a5e16e19481c5b9cf7945066a461f512f865c492b2d79"
     }
   ],
-  "chapter_inputs_sha256": "21abd38352a2680da92da8a922b8dc7231714cfba7e94d573266db6a106bdf46"
+  "chapter_inputs_sha256": "da5a92005921f2743a2a0ccb4b78130a21af080b85f22b7e8dc4452f78e8057a"
 }

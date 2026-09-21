@@ -468,8 +468,8 @@
     },
     {
       "path": "bronnen/H2/manuscript/2.2.4 Gemengde opgaven – opgaven.md",
-      "bytes": 10739,
-      "sha256": "e6e758937acc8502a4dd3dbb5577db15799591077b6496009c3ac98c6f801071"
+      "bytes": 10746,
+      "sha256": "d68304f2ba0eb15a30f74f458ff9dfd50b2ffb781f5b10b3ead5807ec934d82f"
     },
     {
       "path": "bronnen/H2/validate.py",
@@ -950,8 +950,8 @@
     },
     "hoofdstukken/Boek_2_H2_Elasticiteit.pdf": {
       "path": "hoofdstukken/Boek_2_H2_Elasticiteit.pdf",
-      "bytes": 803779,
-      "sha256": "7f95cb44da191bf9a2258c0299113aadad0cd8f644841e3c294c9370cdee2b2b"
+      "bytes": 803785,
+      "sha256": "40ac47e9adf0c2e896825567637048992a071b69c91e8a34a94f34067d799d55"
     },
     "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf": {
       "path": "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf",
