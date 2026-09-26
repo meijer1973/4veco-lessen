@@ -1,5 +1,7 @@
 # Boeken 3 en 4 — actuele v3-uitgave
 
+**Getekende prijselasticiteit, 26 september 2026:** [actuele bouwroute en afbakening](SIGNED-RETRIEVAL-2026-09-26.md). Twee leerlingvragen en zes antwoordtoelichtingen vergelijken Ev rechtstreeks met −1 en 0. De bestaande berekeningen, doelen, nummering en routes blijven behouden. De antwoordhoofdstukken zijn expliciet herbouwd; deze opvolger krijgt eigen bewijs en vervangt geen historische review.
+
 **Routeherziening 21 september 2026:** [wijzigingen, tijdsconflicten en structuuruitzonderingen](ROUTE-REVISION-2026-09-21.md). De oorspronkelijke levering hieronder is de historische basis; de actuele tekst en uitvoer zijn opnieuw gebouwd.
 
 **Levering:** `book34-v3-r1-r5-20260916` · **curriculum:** `book34-lesson-balance-v3-20260915`.
@@ -15,11 +17,11 @@ Dit pakket vervangt de eerdere v3-levering. De vijf figuurnummers, context-expor
 
 De hoofdstukken tellen respectievelijk **48/34/38** en **48/60/44** leerlingpagina’s. De indeling blijft **14 paragrafen (6+4+4)** en **17 (5+7+5)**. Alle **31 manuscripten en paragraaf-PDFs**, de zes hoofdstukken met antwoorden en docentmateriaal, 31 gevulde kandidaat-doelrecords en de bewerkbare bronnen zijn aanwezig.
 
-De opgaven en antwoordteksten blijven ongewijzigd: **276 opgaven, 734 deelvragen**. De 31 targets bevatten **156 deelvragen**. De eerdere vijf figuurcorrecties blijven behouden. De actuele routeherziening wijzigt bovendien routeaanwijzingen, inleidingen en docenttekst.
+De inhoud en nummering blijven behouden: **276 opgaven, 734 deelvragen**. Alleen de acht genoemde vraag-/antwoordfragmenten zijn later tekstueel aangepast. De 31 targets bevatten **156 deelvragen**. De eerdere vijf figuurcorrecties en de routeherziening blijven behouden.
 
 ## Begin hier
 
-Begin met [de huidige revisie](ROUTE-REVISION-2026-09-21.md). Historische integratiecontext staat in [HANDOFF.md](HANDOFF.md) en [de concrete v2→v3-migratie](integration/V3_MIGRATION.md). Controleer alleen een ongewijzigde oorspronkelijke ontvangstkopie met:
+Begin met [de huidige getekende-elasticiteitsrevisie](SIGNED-RETRIEVAL-2026-09-26.md); de [routeherziening](ROUTE-REVISION-2026-09-21.md) blijft de voorgeschiedenis. Historische integratiecontext staat in [HANDOFF.md](HANDOFF.md) en [de concrete v2→v3-migratie](integration/V3_MIGRATION.md). Controleer alleen een ongewijzigde oorspronkelijke ontvangstkopie met:
 
 ```text
 python verify_manifest.py

@@ -133,9 +133,9 @@
   "structural_scope_boundary": "Use imported quantity, not all domestic sales, for tariff revenue. Teach the no-import boundary using graph reading or a supplied contrast; do not mechanically impose world price plus tariff after imports disappear. State the model assumptions behind the case. Quantitative quota rents/allocation, export-subsidy models, exchange-rate adjustment and formal strategic retaliation remain deferred. An industry-gain claim is not automatically an economy-wide welfare claim.",
   "source_pin": {
     "student_file": "books/book-3/chapters/3.3/3.3.3 manuscript.md",
-    "student_manuscript_sha256": "3e0e2a3c92b2ff117c037abb579e36b396d08259de7f7718f0e23397577e5afc",
+    "student_manuscript_sha256": "c2d21ba523488ab555fd9880718d4d986886a93fe938cabafd48c6865488a284",
     "answer_file": "books/book-3/chapters/3.3/Antwoorden.md",
-    "answer_file_sha256": "4dd84fe5767895aaf273bc27e64bd8281305835ca621a0e00be34b3f6942228b",
+    "answer_file_sha256": "aec2cc01f5ea47e8ba00df0eb9740701d8c355176044d0796346b6ca31e33c70",
     "chapter_student_pages": [
       29
     ],
