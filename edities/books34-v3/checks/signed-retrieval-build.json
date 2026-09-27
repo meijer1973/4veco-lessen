@@ -1,0 +1,352 @@
+{
+  "revision": "books34-signed-retrieval-20260926",
+  "baseline_reproduction": false,
+  "comparison_baseline": {
+    "baseline_lesson_commit": "f6518f513d1f22f82922d4a8d3d3842c369b14f7",
+    "receipt_sha256": "79f5511e55e94eddff8776b76e13448badda3d49de125ccd603ee99b5810611e",
+    "output_files": 819,
+    "sources_authenticated": 6,
+    "same_environment": true,
+    "builder_tools_match": true
+  },
+  "order": [
+    "answer:3.1",
+    "answer:3.2",
+    "answer:3.3",
+    "answer:4.1",
+    "student:3.2",
+    "student:3.3",
+    "assemble",
+    "records"
+  ],
+  "explicit_chapter_builds": [
+    {
+      "stem": "Boek_3_H1_Antwoorden_v3",
+      "pages": 31,
+      "designed_pages": 31,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_3_H2_Antwoorden_v3",
+      "pages": 22,
+      "designed_pages": 22,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_3_H3_Antwoorden_v3",
+      "pages": 17,
+      "designed_pages": 17,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_4_H1_Antwoorden_v3",
+      "pages": 26,
+      "designed_pages": 26,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_3_H2_Leerling_v3",
+      "pages": 34,
+      "designed_pages": 34,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_3_H3_Leerling_v3",
+      "pages": 38,
+      "designed_pages": 38,
+      "overflow": []
+    }
+  ],
+  "rebuilt_content_publications": [
+    "books/book-3/chapters/3.1/output/Boek_3_H1_Antwoorden_v3.html",
+    "books/book-3/chapters/3.1/output/Boek_3_H1_Antwoorden_v3.pdf",
+    "books/book-3/chapters/3.1/output/Boek_3_H1_Antwoorden_v3_page_map.json",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Antwoorden_v3.html",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Antwoorden_v3.pdf",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Antwoorden_v3_page_map.json",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Leerling_v3.html",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Leerling_v3.pdf",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Leerling_v3_bookpages.html",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Leerling_v3_bookpages.pdf",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Leerling_v3_bookpages_page_map.json",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Leerling_v3_page_map.json",
+    "books/book-3/chapters/3.2/paragraph-pdfs/3.2.3-leerling-v3.pdf",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Antwoorden_v3.html",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Antwoorden_v3.pdf",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Antwoorden_v3_page_map.json",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Leerling_v3.html",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Leerling_v3.pdf",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Leerling_v3_bookpages.html",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Leerling_v3_bookpages.pdf",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Leerling_v3_bookpages_page_map.json",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Leerling_v3_page_map.json",
+    "books/book-3/chapters/3.3/paragraph-pdfs/3.3.3-leerling-v3.pdf",
+    "books/book-3/output/Boek_3_Compleet_Antwoorden_v3.pdf",
+    "books/book-3/output/Boek_3_Compleet_v3.pdf",
+    "books/book-4/chapters/4.1/output/Boek_4_H1_Antwoorden_v3.html",
+    "books/book-4/chapters/4.1/output/Boek_4_H1_Antwoorden_v3.pdf",
+    "books/book-4/chapters/4.1/output/Boek_4_H1_Antwoorden_v3_page_map.json",
+    "books/book-4/output/Boek_4_Compleet_Antwoorden_v3.pdf"
+  ],
+  "byte_changed_by_build": [
+    "books/book-3/chapters/3.1/paragraph-pdfs/3.1.1-leerling-v3.pdf",
+    "books/book-3/chapters/3.1/paragraph-pdfs/3.1.2-leerling-v3.pdf",
+    "books/book-3/chapters/3.1/paragraph-pdfs/3.1.3-leerling-v3.pdf",
+    "books/book-3/chapters/3.1/paragraph-pdfs/3.1.4-leerling-v3.pdf",
+    "books/book-3/chapters/3.1/paragraph-pdfs/3.1.5-leerling-v3.pdf",
+    "books/book-3/chapters/3.1/paragraph-pdfs/3.1.6-leerling-v3.pdf",
+    "books/book-3/chapters/3.2/paragraph-pdfs/3.2.1-leerling-v3.pdf",
+    "books/book-3/chapters/3.2/paragraph-pdfs/3.2.2-leerling-v3.pdf",
+    "books/book-3/chapters/3.2/paragraph-pdfs/3.2.3-leerling-v3.pdf",
+    "books/book-3/chapters/3.2/paragraph-pdfs/3.2.4-leerling-v3.pdf",
+    "books/book-3/chapters/3.3/paragraph-pdfs/3.3.1-leerling-v3.pdf",
+    "books/book-3/chapters/3.3/paragraph-pdfs/3.3.2-leerling-v3.pdf",
+    "books/book-3/chapters/3.3/paragraph-pdfs/3.3.3-leerling-v3.pdf",
+    "books/book-3/chapters/3.3/paragraph-pdfs/3.3.4-leerling-v3.pdf",
+    "books/book-3/output/Boek_3_Compleet_Antwoorden_v3.pdf",
+    "books/book-3/output/Boek_3_Compleet_Docenteninformatie_v3.pdf",
+    "books/book-3/output/Boek_3_Compleet_v3.pdf",
+    "books/book-4/chapters/4.1/paragraph-pdfs/4.1.1-leerling-v3.pdf",
+    "books/book-4/chapters/4.1/paragraph-pdfs/4.1.2-leerling-v3.pdf",
+    "books/book-4/chapters/4.1/paragraph-pdfs/4.1.3-leerling-v3.pdf",
+    "books/book-4/chapters/4.1/paragraph-pdfs/4.1.4-leerling-v3.pdf",
+    "books/book-4/chapters/4.1/paragraph-pdfs/4.1.5-leerling-v3.pdf",
+    "books/book-4/chapters/4.2/paragraph-pdfs/4.2.1-leerling-v3.pdf",
+    "books/book-4/chapters/4.2/paragraph-pdfs/4.2.2-leerling-v3.pdf",
+    "books/book-4/chapters/4.2/paragraph-pdfs/4.2.3-leerling-v3.pdf",
+    "books/book-4/chapters/4.2/paragraph-pdfs/4.2.4-leerling-v3.pdf",
+    "books/book-4/chapters/4.2/paragraph-pdfs/4.2.5-leerling-v3.pdf",
+    "books/book-4/chapters/4.2/paragraph-pdfs/4.2.6-leerling-v3.pdf",
+    "books/book-4/chapters/4.2/paragraph-pdfs/4.2.7-leerling-v3.pdf",
+    "books/book-4/chapters/4.3/paragraph-pdfs/4.3.1-leerling-v3.pdf",
+    "books/book-4/chapters/4.3/paragraph-pdfs/4.3.2-leerling-v3.pdf",
+    "books/book-4/chapters/4.3/paragraph-pdfs/4.3.3-leerling-v3.pdf",
+    "books/book-4/chapters/4.3/paragraph-pdfs/4.3.4-leerling-v3.pdf",
+    "books/book-4/chapters/4.3/paragraph-pdfs/4.3.5-leerling-v3.pdf",
+    "books/book-4/output/Boek_4_Compleet_Antwoorden_v3.pdf",
+    "books/book-4/output/Boek_4_Compleet_Docenteninformatie_v3.pdf",
+    "books/book-4/output/Boek_4_Compleet_v3.pdf"
+  ],
+  "equivalent_dependencies_restored": [
+    {
+      "path": "books/book-4/output/Boek_4_Compleet_Docenteninformatie_v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 28,
+      "restored_sha256": "c37d0dabb571c89da3512811453d719f6980cda2185dd12dd3d774a2e0026101"
+    },
+    {
+      "path": "books/book-4/output/Boek_4_Compleet_v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 166,
+      "restored_sha256": "2ad8e1f9f15bc948f7058461a26976c616acf25935ddf8360a1abb17ca3d7914"
+    },
+    {
+      "path": "books/book-4/chapters/4.3/paragraph-pdfs/4.3.1-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 10,
+      "restored_sha256": "876baaa93e59d9bae6b7cfd3b164a85863ed9bcd2ec83abc49cf459f5b5f210c"
+    },
+    {
+      "path": "books/book-4/chapters/4.3/paragraph-pdfs/4.3.2-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 8,
+      "restored_sha256": "372f0b5e3d7083e0e2ce0181980f0d5dbc271a3eb6db43ca6c04a0c258374e80"
+    },
+    {
+      "path": "books/book-4/chapters/4.3/paragraph-pdfs/4.3.3-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 9,
+      "restored_sha256": "c83b0a103c04c0113ba801038b7b8c11af298e95d1c9dfbf9d4a042e86185bef"
+    },
+    {
+      "path": "books/book-4/chapters/4.3/paragraph-pdfs/4.3.4-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 8,
+      "restored_sha256": "adb23656a43149938f5d00e012a3028d30873d1f53278e2840429e1a583276fb"
+    },
+    {
+      "path": "books/book-4/chapters/4.3/paragraph-pdfs/4.3.5-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 6,
+      "restored_sha256": "46f4f11f6dbb39502f46fcfaa3ddbd7bf7a578f00d5d621368f398094618c01c"
+    },
+    {
+      "path": "books/book-4/chapters/4.2/paragraph-pdfs/4.2.1-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 8,
+      "restored_sha256": "a3d4d9a7990bdad742ca72930d292e1e823cf4f2b18392418bca5a572560dbeb"
+    },
+    {
+      "path": "books/book-4/chapters/4.2/paragraph-pdfs/4.2.2-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 8,
+      "restored_sha256": "6da7dee1662c30377875f090c4ebec18e6c618b59175a7fbd3b100009612c494"
+    },
+    {
+      "path": "books/book-4/chapters/4.2/paragraph-pdfs/4.2.3-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 6,
+      "restored_sha256": "9dd8507f3e9a9878049d1890b971aaaa380f718eb3071591e237ca2ec9f66f13"
+    },
+    {
+      "path": "books/book-4/chapters/4.2/paragraph-pdfs/4.2.4-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 11,
+      "restored_sha256": "a2f2ab43b9fb015c36bffd5ac54ff22546fc7f4d2a44bcd13ce46f0e04f83cb3"
+    },
+    {
+      "path": "books/book-4/chapters/4.2/paragraph-pdfs/4.2.5-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 11,
+      "restored_sha256": "f638803f979a6e7323ec5fc98a62a706952a4b1a20f270ab85348f91774b6df3"
+    },
+    {
+      "path": "books/book-4/chapters/4.2/paragraph-pdfs/4.2.6-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 6,
+      "restored_sha256": "336cd54fd6cd6e74340655907ba31b39cf5e2cddfac3999dc5a3bee0dce795f4"
+    },
+    {
+      "path": "books/book-4/chapters/4.2/paragraph-pdfs/4.2.7-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 6,
+      "restored_sha256": "8ed7ca68f1c67082e885602e633ff1ebd10674f23b511e617e44a3ccc379b7fe"
+    },
+    {
+      "path": "books/book-4/chapters/4.1/paragraph-pdfs/4.1.1-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 9,
+      "restored_sha256": "e71fb0a6af8c9e2ec443363fbdbb20ff90bc3b98afdecd94485f15ea0eefdf6c"
+    },
+    {
+      "path": "books/book-4/chapters/4.1/paragraph-pdfs/4.1.2-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 8,
+      "restored_sha256": "4a18f6419d37fd6b611bc200b6bd8cf655ac488480d8becde626bb4db68463d0"
+    },
+    {
+      "path": "books/book-4/chapters/4.1/paragraph-pdfs/4.1.3-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 11,
+      "restored_sha256": "5d464b9480e6bbd0c885eea288eb0b3ad7fc642889e49f7c51d39048d87f94f1"
+    },
+    {
+      "path": "books/book-4/chapters/4.1/paragraph-pdfs/4.1.4-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 11,
+      "restored_sha256": "61c72e85d9e4d0ce8652958e454b87bf564136f6b66171cdeb9821c207c2a810"
+    },
+    {
+      "path": "books/book-4/chapters/4.1/paragraph-pdfs/4.1.5-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 5,
+      "restored_sha256": "330ce20a782829db940dac42a6f0cd1cf69b5c10258b4dec7b09ad6f79f384ef"
+    },
+    {
+      "path": "books/book-3/output/Boek_3_Compleet_Docenteninformatie_v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 22,
+      "restored_sha256": "228f493f9a0d34e599a9d360b2b0f6282fa819b9d178905e7a55aa5173e78114"
+    },
+    {
+      "path": "books/book-3/chapters/3.3/paragraph-pdfs/3.3.1-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 9,
+      "restored_sha256": "c91ab3d670f802ef01b89ffb6c7a4c262c312114fe22ad05a4839fa9c0135bd0"
+    },
+    {
+      "path": "books/book-3/chapters/3.3/paragraph-pdfs/3.3.2-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 10,
+      "restored_sha256": "0ed4140d7a7109256edc1e93cf75a849777640d5a02a2c78e03ecb94f0df90d0"
+    },
+    {
+      "path": "books/book-3/chapters/3.3/paragraph-pdfs/3.3.4-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 7,
+      "restored_sha256": "260bec9bd486695d1cb433b96d2f547f920f1fe1f70fe2e7336377a76ad78f55"
+    },
+    {
+      "path": "books/book-3/chapters/3.2/paragraph-pdfs/3.2.1-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 8,
+      "restored_sha256": "22a5f842245b803b12160ef91725a7b9c7335e1c0c3a62f4908cc3ba41ca90c7"
+    },
+    {
+      "path": "books/book-3/chapters/3.2/paragraph-pdfs/3.2.2-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 7,
+      "restored_sha256": "6da4c9a9c4b3ca1c06994df59eeac3347780e8e5fd1762c7a725fab24db6d1dc"
+    },
+    {
+      "path": "books/book-3/chapters/3.2/paragraph-pdfs/3.2.4-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 6,
+      "restored_sha256": "ad67117672255fa3c00d990c605cc038d5746fde32cbae4c6366a629c8ad1476"
+    },
+    {
+      "path": "books/book-3/chapters/3.1/paragraph-pdfs/3.1.1-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 8,
+      "restored_sha256": "7a792264c9c017e7af64ff4b63486b14ece746303eb1d62974fab38e3eacc3df"
+    },
+    {
+      "path": "books/book-3/chapters/3.1/paragraph-pdfs/3.1.2-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 9,
+      "restored_sha256": "f14838984aa55432f9423e3f54677050211e4e59fc75d246c31ebac0b3ecf1d9"
+    },
+    {
+      "path": "books/book-3/chapters/3.1/paragraph-pdfs/3.1.3-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 9,
+      "restored_sha256": "250d394729e5c96899546874350a04c2e2fb0a7ba38d60a68a601cf4f1efbd53"
+    },
+    {
+      "path": "books/book-3/chapters/3.1/paragraph-pdfs/3.1.4-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 7,
+      "restored_sha256": "4ede1028a73dba4a9a469b6c99f5693fe948efd92020949c14c04354b03c69b6"
+    },
+    {
+      "path": "books/book-3/chapters/3.1/paragraph-pdfs/3.1.5-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 9,
+      "restored_sha256": "bb62ab5558d5ed7a0f73ca2db8c21e6b1a0b6337349beff0ce8de1ea61c74868"
+    },
+    {
+      "path": "books/book-3/chapters/3.1/paragraph-pdfs/3.1.6-leerling-v3.pdf",
+      "comparison": "same-environment baseline",
+      "pixel_pages": 4,
+      "restored_sha256": "ae0b2d4d20ab254df5578b838daa6d440d7903b412dc50d525de783c1ce8f840"
+    }
+  ],
+  "target_preservation": {
+    "targets_preserved": 31,
+    "answer_pins": [
+      "3.1.1",
+      "3.1.2",
+      "3.1.3",
+      "3.1.4",
+      "3.1.5",
+      "3.1.6",
+      "3.2.1",
+      "3.2.2",
+      "3.2.3",
+      "3.2.4",
+      "3.3.1",
+      "3.3.2",
+      "3.3.3",
+      "3.3.4",
+      "4.1.1",
+      "4.1.2",
+      "4.1.3",
+      "4.1.4",
+      "4.1.5"
+    ],
+    "manuscript_pins": [
+      "3.2.3",
+      "3.3.3"
+    ]
+  }
+}
