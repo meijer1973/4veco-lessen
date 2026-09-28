@@ -28,7 +28,6 @@ authority, task routing, review and publication boundaries for both repositories
 | Inspect existing content | Affected files; [lesson map](RESEARCH_AGENT_MAP.md) for unfamiliar locations. |
 | Textbook authoring or review / Part A | [Part A checklist](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/part-a-start.md), including reproduction of an unchanged edition. |
 | Companion / Part B | [Companion runbook](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/web-companion-paragraph-lane.md). |
-| PowerPoint / lespresentatie for a paragraph | [PowerPoint skill](https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-pptx-templates.md), locally `../4veco-platform/skills/econ-pptx-templates.md`. Follow its classroom recipe and current edition sources; defaults are already supplied. Final PPTX/PDF live beside the paragraph materials. |
 | Chapter/book assembly | [Chapter workflow](https://github.com/meijer1973/4veco-platform/blob/main/BUILD-CHAPTER.md) and the chapter plan. |
 | Complete cross-lane verification | [Complete paragraph workflow](https://github.com/meijer1973/4veco-platform/blob/main/BUILD-PARAGRAPH.md). |
 | Maintenance or integration | The shared guide's matching maintenance, Part A or protected/product route. |
