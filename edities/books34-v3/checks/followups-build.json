@@ -1,0 +1,141 @@
+{
+  "revision": "books34-followups-20260928",
+  "baseline_reproduction": false,
+  "comparison": {
+    "commit": "794cd54fe68f9b9a1bb413462373a133a459345c",
+    "receipt_sha256": "292f2ee30c34481e966ca72be29ef967840521cb52bc381fcd9c655d052223e7",
+    "same_environment": true
+  },
+  "order": [
+    "answer:3.2",
+    "teacher:3.1",
+    "teacher:3.2",
+    "teacher:3.3",
+    "teacher:4.1",
+    "teacher:4.2",
+    "teacher:4.3",
+    "assemble:books34_followups_assemble.py",
+    "records"
+  ],
+  "explicit_renders": [
+    {
+      "stem": "Boek_3_H2_Antwoorden_v3",
+      "pages": 22,
+      "designed_pages": 22,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_3_H1_Docenteninformatie_v3",
+      "pages": 8,
+      "designed_pages": 8,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_3_H2_Docenteninformatie_v3",
+      "pages": 6,
+      "designed_pages": 6,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_3_H3_Docenteninformatie_v3",
+      "pages": 6,
+      "designed_pages": 6,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_4_H1_Docenteninformatie_v3",
+      "pages": 7,
+      "designed_pages": 7,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_4_H2_Docenteninformatie_v3",
+      "pages": 9,
+      "designed_pages": 9,
+      "overflow": []
+    },
+    {
+      "stem": "Boek_4_H3_Docenteninformatie_v3",
+      "pages": 8,
+      "designed_pages": 8,
+      "overflow": []
+    }
+  ],
+  "dependent_publications": [
+    "books/book-3/book-matter/output/front-teacher.html",
+    "books/book-3/book-matter/output/front-teacher.pdf",
+    "books/book-3/book-matter/output/front-teacher_page_map.json",
+    "books/book-3/chapters/3.1/output/Boek_3_H1_Docenteninformatie_v3.html",
+    "books/book-3/chapters/3.1/output/Boek_3_H1_Docenteninformatie_v3.pdf",
+    "books/book-3/chapters/3.1/output/Boek_3_H1_Docenteninformatie_v3_page_map.json",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Antwoorden_v3.html",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Antwoorden_v3.pdf",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Antwoorden_v3_page_map.json",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Docenteninformatie_v3.html",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Docenteninformatie_v3.pdf",
+    "books/book-3/chapters/3.2/output/Boek_3_H2_Docenteninformatie_v3_page_map.json",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Docenteninformatie_v3.html",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Docenteninformatie_v3.pdf",
+    "books/book-3/chapters/3.3/output/Boek_3_H3_Docenteninformatie_v3_page_map.json",
+    "books/book-3/output/Boek_3_Compleet_Antwoorden_v3.pdf",
+    "books/book-3/output/Boek_3_Compleet_Docenteninformatie_v3.pdf",
+    "books/book-3/output/Boek_3_Compleet_v3.pdf",
+    "books/book-4/book-matter/output/front-teacher.html",
+    "books/book-4/book-matter/output/front-teacher.pdf",
+    "books/book-4/book-matter/output/front-teacher_page_map.json",
+    "books/book-4/chapters/4.1/output/Boek_4_H1_Docenteninformatie_v3.html",
+    "books/book-4/chapters/4.1/output/Boek_4_H1_Docenteninformatie_v3.pdf",
+    "books/book-4/chapters/4.1/output/Boek_4_H1_Docenteninformatie_v3_page_map.json",
+    "books/book-4/chapters/4.2/output/Boek_4_H2_Docenteninformatie_v3.html",
+    "books/book-4/chapters/4.2/output/Boek_4_H2_Docenteninformatie_v3.pdf",
+    "books/book-4/chapters/4.2/output/Boek_4_H2_Docenteninformatie_v3_page_map.json",
+    "books/book-4/chapters/4.3/output/Boek_4_H3_Docenteninformatie_v3.html",
+    "books/book-4/chapters/4.3/output/Boek_4_H3_Docenteninformatie_v3.pdf",
+    "books/book-4/chapters/4.3/output/Boek_4_H3_Docenteninformatie_v3_page_map.json",
+    "books/book-4/output/Boek_4_Compleet_Docenteninformatie_v3.pdf",
+    "books/book-4/output/Boek_4_Compleet_v3.pdf"
+  ],
+  "byte_changed_by_build": [
+    "edities/books34-v3/books/book-3/book-matter/output/front-teacher.html",
+    "edities/books34-v3/books/book-3/book-matter/output/front-teacher.pdf",
+    "edities/books34-v3/books/book-3/chapters/3.1/output/Boek_3_H1_Docenteninformatie_v3.html",
+    "edities/books34-v3/books/book-3/chapters/3.1/output/Boek_3_H1_Docenteninformatie_v3.pdf",
+    "edities/books34-v3/books/book-3/chapters/3.2/output/Boek_3_H2_Antwoorden_v3.html",
+    "edities/books34-v3/books/book-3/chapters/3.2/output/Boek_3_H2_Antwoorden_v3.pdf",
+    "edities/books34-v3/books/book-3/chapters/3.2/output/Boek_3_H2_Docenteninformatie_v3.html",
+    "edities/books34-v3/books/book-3/chapters/3.2/output/Boek_3_H2_Docenteninformatie_v3.pdf",
+    "edities/books34-v3/books/book-3/chapters/3.3/output/Boek_3_H3_Docenteninformatie_v3.html",
+    "edities/books34-v3/books/book-3/chapters/3.3/output/Boek_3_H3_Docenteninformatie_v3.pdf",
+    "edities/books34-v3/books/book-3/output/Boek_3_Compleet_Antwoorden_v3.pdf",
+    "edities/books34-v3/books/book-3/output/Boek_3_Compleet_Docenteninformatie_v3.pdf",
+    "edities/books34-v3/books/book-3/output/Boek_3_Compleet_v3.pdf",
+    "edities/books34-v3/books/book-4/book-matter/output/front-teacher.html",
+    "edities/books34-v3/books/book-4/book-matter/output/front-teacher.pdf",
+    "edities/books34-v3/books/book-4/chapters/4.1/output/Boek_4_H1_Docenteninformatie_v3.html",
+    "edities/books34-v3/books/book-4/chapters/4.1/output/Boek_4_H1_Docenteninformatie_v3.pdf",
+    "edities/books34-v3/books/book-4/chapters/4.2/output/Boek_4_H2_Docenteninformatie_v3.html",
+    "edities/books34-v3/books/book-4/chapters/4.2/output/Boek_4_H2_Docenteninformatie_v3.pdf",
+    "edities/books34-v3/books/book-4/chapters/4.3/output/Boek_4_H3_Docenteninformatie_v3.html",
+    "edities/books34-v3/books/book-4/chapters/4.3/output/Boek_4_H3_Docenteninformatie_v3.pdf",
+    "edities/books34-v3/books/book-4/output/Boek_4_Compleet_Antwoorden_v3.pdf",
+    "edities/books34-v3/books/book-4/output/Boek_4_Compleet_Docenteninformatie_v3.pdf",
+    "edities/books34-v3/books/book-4/output/Boek_4_Compleet_v3.pdf",
+    "edities/books34-v3/curriculum/course-target-exercises-books34-v3.json",
+    "edities/books34-v3/curriculum/targets/3.2.1.json",
+    "edities/books34-v3/curriculum/targets/3.2.2.json",
+    "edities/books34-v3/curriculum/targets/3.2.3.json",
+    "edities/books34-v3/curriculum/targets/3.2.4.json"
+  ],
+  "equivalent_dependencies_restored": [
+    {
+      "path": "edities/books34-v3/books/book-4/output/Boek_4_Compleet_Antwoorden_v3.pdf",
+      "pixel_pages": 68,
+      "restored_sha256": "b04587ef9f7e1e6916daf0aebdab91525ff13a3da82fc8a8fdadad71fcc6e9d7"
+    }
+  ],
+  "targets": {
+    "targets_preserved": 31,
+    "answer_pins_refreshed": 4,
+    "routes_and_null_timings_preserved": true
+  }
+}
