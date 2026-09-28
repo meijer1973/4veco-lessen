@@ -18,6 +18,7 @@ Inspect only the areas relevant to the question.
 | Product direction or route acceptance | [Vision](specifications/product-vision.md), [end state](specifications/product-end-state.md), [companion specification](specifications/companion-core-specifications.md) |
 | Sprint state or an outstanding obligation | [Lesson roadmap](lessen-team-roadmap.md); read the relevant section and its evidence. Roadmap prose does not establish artifact existence or current review. |
 | Build source, engine, skill or validator | [Platform map](https://github.com/meijer1973/4veco-platform/blob/main/RESEARCH_AGENT_MAP.md). Local checkout: `../4veco-platform/`. |
+| Classroom PowerPoint / lespresentatie | [Workflow and build source](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/classroom-presentation.md), local `../4veco-platform/`. Accepted §2.1.1: [PowerPoint](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.1%20Kostenstructuren/2.1.1%20Kostenstructuren%20%E2%80%93%20presentatie.pptx), [slide PDF](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.1%20Kostenstructuren/2.1.1%20Kostenstructuren%20%E2%80%93%20presentatie.pdf). New decks belong beside the current paragraph's other exports. |
 | Historical decision or regression | [Archive navigation](archive/README.md). Book 1 output remains frozen; examples are not authorization to retrofit it. |
 
 ## Artifact relationships
