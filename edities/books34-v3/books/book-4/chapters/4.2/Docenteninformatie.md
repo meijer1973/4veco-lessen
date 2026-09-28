@@ -15,13 +15,13 @@ Deze handleiding hoort uitsluitend bij de meegeleverde v3-leerlingtekst en antwo
 ### Normale en uitdagende route
 Begeleide inoefening hoort voor de meeste leerlingen bij normaal leren. De normale route bevat startopgaven, begeleide en zelfstandige oefening en de volledige doeloefening. De uitdagende route is voor leerlingen die minder tussenstappen nodig hebben en extra uitdaging willen: startopgaven, zelfstandige oefening, dezelfde doeloefening en bonus. Herhaling is extra bij beide routes. Startopgaven bepalen niet automatisch een route.
 
-### Lestijd opnieuw begroten
-De eerdere begrotingen lieten begeleide inoefening buiten de les. Zij zijn geen bewijs dat de volledige normale route in 55 minuten past. Hieronder staan die onvolledige schattingen alleen als ondergrens. Begroot de echte lees-, reken-, teken- en uitlegtijd van de ontbrekende oefening en plan aanvullende lestijd. Schrap geen opgaven of doelbewerkingen om de som passend te maken. Ook de uitdagende route vraagt een afzonderlijke bonusbegroting.
+### Lestijd plannen
+Reserveer voorlopig twee lessen van 55 minuten per theorieparagraaf voor de volledige normale route. Dit is een planningsadvies, geen gemeten tijd of bewezen 110-minutenfit. De eerdere schattingen misten begeleide inoefening. Les 1 richt zich op voorkennis, uitleg en begeleid oefenen; les 2 op afronding, zelfstandig werk, de volledige doeloefening en feedback. Verplaats zo nodig de lesgrens; schrap geen opgaven of doelbewerkingen. Houd bij de vijf bekende conflicten extra uitloop vrij. Plan de uitdagende route afzonderlijk, inclusief bonus; herhaling is extra bij beide routes. Dit advies reserveert lestijd; paragraafindeling en curriculum blijven gelijk.
 
 ### Gebruik en beoordeling
 Alle noodzakelijke bronnen en steun staan op papier. Reken met ongeronde tussenuitkomsten en beoordeel eenheden, redenering en gebruikte aannamen. Gelijkwaardige correcte formuleringen en grafieken zijn toegestaan. Gebruik een fout om het verkeerde onderscheid te herstellen, niet om alleen een eindgetal te laten overschrijven.
 
-<div class="box"><b>Lees de status per les</b><br>Een open tijdsconflict wordt hieronder niet als opgelost gepresenteerd. Een ontwerpinschatting is iets anders dan een onafhankelijke inhoudsbeoordeling of een praktijkproef.</div>
+<div class="box"><b>Stel bij voor de klas</b><br>Noteer per fase de werkelijk gebruikte tijd, inclusief lezen, rekenen, tekenen, bespreken en feedback. Pas de volgende planning daarop aan. Is meer tijd nodig, rond de volledige route in een volgende les af. De gemengde paragrafen houden hun eigen structuur en krijgen geen automatische tweelessenplanning.</div>
 
 <!-- PAGE {"section": "4.2.1", "title": "Lesroute en afstemming"} -->
 
@@ -43,7 +43,12 @@ Je kunt de monopolie-uitkomst vergelijken met een efficiënte uitkomst. Je kunt 
 
 De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 8. Herhaling 9 is extra bij beide routes.
 
-**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
+**Planningsadvies (niet gemeten):** reserveer voorlopig twee lessen van 55 minuten. De oude selectie van 55 minuten miste begeleide inoefening; zij onderbouwt geen volledige les van 55 minuten.
+
+- **Les 1:** start 1, 2, motivatie, uitleg, uitgewerkt voorbeeld, samenvatting en overgangen, en begeleide inoefening 3, 4.
+- **Les 2:** rond zo nodig de begeleide inoefening af; daarna zelfstandige oefening 5, 6, de volledige doeloefening 7 en feedback.
+
+De lesgrens is flexibel; ook een volledige 110-minutenfit is niet aangetoond.
 
 ### De uitleg die niet mag verdwijnen
 Haal de monopolieprocedure uit nieuwe §4.1.4 terug. Scheid overdracht op blijvende verkopen van de verloren transacties.
@@ -73,7 +78,12 @@ Je kunt prijsdiscriminatie herkennen en de voorwaarden uitleggen. Je kunt twee g
 
 De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 17. Herhaling 18 is extra bij beide routes.
 
-**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
+**Planningsadvies (niet gemeten):** reserveer voorlopig twee lessen van 55 minuten. De oude selectie van 55 minuten miste begeleide inoefening; zij onderbouwt geen volledige les van 55 minuten.
+
+- **Les 1:** start 10, 11, motivatie, uitleg, uitgewerkt voorbeeld, samenvatting en overgangen, en begeleide inoefening 12, 13.
+- **Les 2:** rond zo nodig de begeleide inoefening af; daarna zelfstandige oefening 14, 15, de volledige doeloefening 16 en feedback.
+
+De lesgrens is flexibel; ook een volledige 110-minutenfit is niet aangetoond.
 
 ### De uitleg die niet mag verdwijnen
 Optimaliseer per herkenbare groep bij gemeenschappelijke constante MK en niet-bindende gezamenlijke capaciteit. De uniforme vergelijkingsprijs is gegeven.
@@ -103,7 +113,12 @@ Je kunt vier marktvormen onderscheiden met brongegevens. Je kunt de rol van prod
 
 De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 26. Herhaling 27 is extra bij beide routes.
 
-**Open tijdsconflict:** de eerdere selectie vergde al **52 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
+**Planningsadvies (niet gemeten):** reserveer voorlopig twee lessen van 55 minuten. De oude selectie van 52 minuten miste begeleide inoefening; zij onderbouwt geen volledige les van 55 minuten.
+
+- **Les 1:** start 19, 20, motivatie, uitleg, uitgewerkt voorbeeld, samenvatting en overgangen, en begeleide inoefening 21, 22.
+- **Les 2:** rond zo nodig de begeleide inoefening af; daarna zelfstandige oefening 23, 24, de volledige doeloefening 25 en feedback.
+
+De lesgrens is flexibel; ook een volledige 110-minutenfit is niet aangetoond.
 
 ### De uitleg die niet mag verdwijnen
 Classificeer met bronbewijs en pas één bekende rekenroute toe in de gegeven korte-termijncasus.
@@ -133,7 +148,12 @@ Je kunt een negatief extern effect en de getroffen derde partij benoemen. Je kun
 
 De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 35. Herhaling 36 is extra bij beide routes.
 
-**Bestaand tijdsconflict blijft open:** ook de eerdere selectie had geen geloofwaardig doorgerekende 55-minutenroute. De normale route omvat nu uitdrukkelijk alle begeleide inoefening. Plan de benodigde aanvullende lestijd.
+**Planningsadvies (niet gemeten):** reserveer voorlopig twee lessen van 55 minuten. Dit blijft een van de vijf bekende tijdsconflicten; houd extra uitloop in een volgende les vrij.
+
+- **Les 1:** start 28, 29, motivatie, uitleg, uitgewerkt voorbeeld, samenvatting en overgangen, en begeleide inoefening 30, 31.
+- **Les 2:** rond zo nodig de begeleide inoefening af; daarna zelfstandige oefening 32, 33, de volledige doeloefening 34 en feedback.
+
+De lesgrens is flexibel; ook een volledige 110-minutenfit is niet aangetoond.
 
 ### De uitleg die niet mag verdwijnen
 Introduceer de derde partij en de maatschappelijke kostengrens vóór de heffing. Hergebruik de belastingroute en tel de externe schade afzonderlijk mee.
@@ -163,7 +183,12 @@ Je kunt private voordelen onderscheiden van voordelen voor derden. Je kunt een s
 
 De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 44. Herhaling 45 is extra bij beide routes.
 
-**Bestaand tijdsconflict blijft open:** ook de eerdere selectie had geen geloofwaardig doorgerekende 55-minutenroute. De normale route omvat nu uitdrukkelijk alle begeleide inoefening. Plan de benodigde aanvullende lestijd.
+**Planningsadvies (niet gemeten):** reserveer voorlopig twee lessen van 55 minuten. Dit blijft een van de vijf bekende tijdsconflicten; houd extra uitloop in een volgende les vrij.
+
+- **Les 1:** start 37, 38, motivatie, uitleg, uitgewerkt voorbeeld, samenvatting en overgangen, en begeleide inoefening 39, 40.
+- **Les 2:** rond zo nodig de begeleide inoefening af; daarna zelfstandige oefening 41, 42, de volledige doeloefening 43 en feedback.
+
+De lesgrens is flexibel; ook een volledige 110-minutenfit is niet aangetoond.
 
 ### De uitleg die niet mag verdwijnen
 Introduceer baten voor anderen en verbind ze met de bekende subsidie. Houd eigen voordeel en extern voordeel uit elkaar.
@@ -193,7 +218,12 @@ Je kunt beleid koppelen aan een vastgesteld marktprobleem. Je kunt twee voorstel
 
 De uitdagende route gebruikt start, zelfstandig werk en hetzelfde doel, gevolgd door bonus 53. Herhaling 54 is extra bij beide routes.
 
-**Open tijdsconflict:** de eerdere selectie vergde al **55 minuten zonder begeleide inoefening**. Begeleiding en eventueel niet geselecteerde zelfstandige vragen komen daar nog bij. Een volledige 55-minutenroute is niet onderbouwd.
+**Planningsadvies (niet gemeten):** reserveer voorlopig twee lessen van 55 minuten. De oude selectie van 55 minuten miste begeleide inoefening; zij onderbouwt geen volledige les van 55 minuten.
+
+- **Les 1:** start 46, 47, motivatie, uitleg, uitgewerkt voorbeeld, samenvatting en overgangen, en begeleide inoefening 48, 49.
+- **Les 2:** rond zo nodig de begeleide inoefening af; daarna zelfstandige oefening 50, 51, de volledige doeloefening 52 en feedback.
+
+De lesgrens is flexibel; ook een volledige 110-minutenfit is niet aangetoond.
 
 ### De uitleg die niet mag verdwijnen
 Beoordeel twee bekende instrumenten aan de hand van één expliciet criterium en de bron. Dit is niet een nieuwe behandeling van ieder instrument.
