@@ -23,6 +23,8 @@ Inspect only the areas relevant to the question.
 
 ## Artifact relationships
 
+§2.1.2 Opbrengsten, winst en break-even: [PowerPoint](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.2%20Opbrengsten%2C%20winst%20en%20break-even/2.1.2%20Opbrengsten%2C%20winst%20en%20break-even%20%E2%80%93%20presentatie.pptx), [slide PDF](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.2%20Opbrengsten%2C%20winst%20en%20break-even/2.1.2%20Opbrengsten%2C%20winst%20en%20break-even%20%E2%80%93%20presentatie.pdf). [Scoped author review and provenance](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.2%20Opbrengsten%2C%20winst%20en%20break-even/evidence/2.1.2-presentation.md). Independent review remains pending.
+
 Discover exact names from the inventory or directory listing before constructing
 a path. Book/chapter/paragraph folders contain their identifier and Dutch title.
 Artifact names commonly use ` – ` (space, en dash U+2013, space), not a hyphen.
