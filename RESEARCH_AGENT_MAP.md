@@ -47,6 +47,12 @@ teaching order; see the [chapter review and exact artifact identities](https://g
 | 2.3.3 Pareto-efficiëntie en welvaartsverlies | [PowerPoint](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies%20%E2%80%93%20presentatie.pptx) | [Slide PDF](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies%20%E2%80%93%20presentatie.pdf) | [Review](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies/evidence/2.3.3-presentation.md) |
 | 2.3.4 Gemengde opgaven | [PowerPoint](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4%20Gemengde%20opgaven/2.3.4%20Gemengde%20opgaven%20%E2%80%93%20presentatie.pptx) | [Slide PDF](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4%20Gemengde%20opgaven/2.3.4%20Gemengde%20opgaven%20%E2%80%93%20presentatie.pdf) | [Review](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4%20Gemengde%20opgaven/evidence/2.3.4-presentation.md) |
 
+Book 3 classroom presentations use the current v3 sources:
+
+| Paragraph | Editable slides | Slide PDF | Review |
+|---|---|---|---|
+| 3.1.4 Maximumprijs | [PowerPoint](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.4%20Maximumprijs%20%E2%80%93%20presentatie.pptx) | [Slide PDF](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.4%20Maximumprijs%20%E2%80%93%20presentatie.pdf) | [Review](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/evidence/3.1.4-presentation.md) |
+
 Discover exact names from the inventory or directory listing before constructing
 a path. Book/chapter/paragraph folders contain their identifier and Dutch title.
 Artifact names commonly use ` – ` (space, en dash U+2013, space), not a hyphen.
