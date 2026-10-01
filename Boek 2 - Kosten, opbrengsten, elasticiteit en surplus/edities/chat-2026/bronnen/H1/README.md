@@ -1,15 +1,15 @@
 # Boek 2 – Hoofdstuk 2.1: Kosten en opbrengsten
 
-**Actuele theorie- en elasticiteitsrevisie (21 september):** bouw via platform `build-scripts/books/rebuild_book2_signed.py --all`. Zie [bronnen, bewijs en beperkingen](../../SIGNED-REVISION-2026-09-21.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
+**Actuele theorie- en elasticiteitsrevisie (1 oktober):** bouw via platform `build-scripts/books/rebuild_book2_notation.py --all`. Zie [bronnen, bewijs en beperkingen](../../NOTATION-REVISION-2026-10-01.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
 
 **Actuele bouwroute:** [platformcontroller](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/books/EXERCISE-ROUTES.md); [revisie en timing](../../ROUTE-REVISION-2026-09-21.md). De hieronder beschreven lokale scripts zijn ontvangen bouwonderdelen. Gebruik voor nieuwe uitvoer de platformcontroller.
 
 
-Nieuwe lokale printeditie voor 4 vwo, 6 september 2026. Het leerlingenhoofdstuk telt 34 pagina’s inclusief uitleg en alle opgaven; antwoorden staan afzonderlijk op 20 pagina’s. De volledige docenteninformatie telt 5 pagina’s.
+Nieuwe lokale printeditie voor 4 vwo, 6 september 2026. Het leerlingenhoofdstuk telt 35 pagina’s inclusief uitleg en alle opgaven; antwoorden staan afzonderlijk op 21 pagina’s. De volledige docenteninformatie telt 5 pagina’s.
 
 ## Lezen en printen
 
-De definitieve PDF’s en zelfstandige HTML-bestanden staan in `output/`. Print het leerlingenhoofdstuk op A4, ware grootte. Bij dubbelzijdig afdrukken: omslaan aan de lange zijde. De SmoothBox-bronnen en vragen zijn als spread op pagina 32–33 geplaatst. De bestanden in `paragrafen/` zijn afzonderlijke PDF- en Markdown-exports; paginanummers blijven gelijk aan de bovenliggende bundel.
+De definitieve PDF’s en zelfstandige HTML-bestanden staan in `output/`. Print het leerlingenhoofdstuk op A4, ware grootte. Bij dubbelzijdig afdrukken: omslaan aan de lange zijde. De SmoothBox-bronnen en vragen zijn op opeenvolgende gedrukte pagina’s 33–34 geplaatst; deze staan bij dubbelzijdig printen niet tegenover elkaar. De bestanden in `paragrafen/` zijn afzonderlijke PDF- en Markdown-exports; paginanummers blijven gelijk aan de bovenliggende bundel.
 
 ## Bewerken: Markdown is de bron
 

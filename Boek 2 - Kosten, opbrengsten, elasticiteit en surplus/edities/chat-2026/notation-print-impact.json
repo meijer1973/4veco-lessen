@@ -1,0 +1,196 @@
+{
+  "baseline": "d53080f38ebbdbba319e6d9b89dcba86067a72be",
+  "printing": "A4 duplex, long edge; cover first recto; two front-matter pages",
+  "exercise_identities": 114,
+  "split_exercises": [
+    {
+      "exercise": "2.1.2/3",
+      "name": "SokkenShop",
+      "previous_pages": [
+        14,
+        15
+      ],
+      "current_pages": [
+        14,
+        15
+      ],
+      "previous_facing": true,
+      "current_facing": true,
+      "anchors": [
+        {
+          "page": 14,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H1/manuscript/2.1.2 Opbrengsten, winst en break-even – paragraaf.md",
+          "anchor": "Eerst controleren, dan verder"
+        },
+        {
+          "page": 15,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H1/manuscript/2.1.2 Opbrengsten, winst en break-even – paragraaf.md",
+          "anchor": "Van herkennen naar zelf tekenen"
+        }
+      ]
+    },
+    {
+      "exercise": "2.1.4/5",
+      "name": "SmoothBox",
+      "previous_pages": [
+        32,
+        33
+      ],
+      "current_pages": [
+        33,
+        34
+      ],
+      "previous_facing": true,
+      "current_facing": false,
+      "anchors": [
+        {
+          "page": 33,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H1/manuscript/2.1.4 Gemengde opgaven – opgaven.md",
+          "anchor": "Doeloefening — bronblad"
+        },
+        {
+          "page": 34,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H1/manuscript/2.1.4 Gemengde opgaven – opgaven.md",
+          "anchor": "Doeloefening — de vragen"
+        }
+      ]
+    },
+    {
+      "exercise": "2.2.4/5",
+      "name": "StreamPlus",
+      "previous_pages": [
+        66,
+        67
+      ],
+      "current_pages": [
+        67,
+        68
+      ],
+      "previous_facing": true,
+      "current_facing": false,
+      "anchors": [
+        {
+          "page": 67,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/manuscript/2.2.4 Gemengde opgaven – opgaven.md",
+          "anchor": "Doeloefening · de bronnen"
+        },
+        {
+          "page": 68,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/manuscript/2.2.4 Gemengde opgaven – opgaven.md",
+          "anchor": "Doeloefening · de vragen"
+        }
+      ]
+    },
+    {
+      "exercise": "2.3.2/8",
+      "name": "Concertkaartjes",
+      "previous_pages": [
+        88,
+        89
+      ],
+      "current_pages": [
+        89,
+        90
+      ],
+      "previous_facing": true,
+      "current_facing": false,
+      "anchors": [
+        {
+          "page": 89,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/manuscript/2.3.2 Producentensurplus en totaal surplus – paragraaf.md",
+          "anchor": "Doeloefening · bronnen"
+        },
+        {
+          "page": 90,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/manuscript/2.3.2 Producentensurplus en totaal surplus – paragraaf.md",
+          "anchor": "Doeloefening · vragen en terugblik"
+        }
+      ]
+    },
+    {
+      "exercise": "2.3.3/6",
+      "name": "Concertkaartjes met boekingsgrens",
+      "previous_pages": [
+        99,
+        100
+      ],
+      "current_pages": [
+        100,
+        101
+      ],
+      "previous_facing": false,
+      "current_facing": true,
+      "anchors": [
+        {
+          "page": 100,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/manuscript/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.md",
+          "anchor": "Doeloefening · bronnen"
+        },
+        {
+          "page": 101,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/manuscript/2.3.3 Pareto-efficiëntie en welvaartsverlies – paragraaf.md",
+          "anchor": "Doeloefening · vragen en terugblik"
+        }
+      ]
+    },
+    {
+      "exercise": "2.3.4/2",
+      "name": "Plantenmarkt",
+      "previous_pages": [
+        102,
+        103
+      ],
+      "current_pages": [
+        103,
+        104
+      ],
+      "previous_facing": true,
+      "current_facing": false,
+      "anchors": [
+        {
+          "page": 103,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/manuscript/2.3.4 Gemengde opgaven – opgaven.md",
+          "anchor": "Plantenmarkt · bronnen"
+        },
+        {
+          "page": 104,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/manuscript/2.3.4 Gemengde opgaven – opgaven.md",
+          "anchor": "Plantenmarkt · vergelijken en beoordelen"
+        }
+      ]
+    },
+    {
+      "exercise": "2.3.4/3",
+      "name": "Huurfietsen",
+      "previous_pages": [
+        104,
+        105
+      ],
+      "current_pages": [
+        105,
+        106
+      ],
+      "previous_facing": true,
+      "current_facing": false,
+      "anchors": [
+        {
+          "page": 105,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/manuscript/2.3.4 Gemengde opgaven – opgaven.md",
+          "anchor": "Doeloefening · bronnen"
+        },
+        {
+          "page": 106,
+          "source": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/manuscript/2.3.4 Gemengde opgaven – opgaven.md",
+          "anchor": "Doeloefening · vragen"
+        }
+      ]
+    }
+  ],
+  "lost_facing_pairs": [
+    "2.1.4/5",
+    "2.2.4/5",
+    "2.3.2/8",
+    "2.3.4/2",
+    "2.3.4/3"
+  ]
+}

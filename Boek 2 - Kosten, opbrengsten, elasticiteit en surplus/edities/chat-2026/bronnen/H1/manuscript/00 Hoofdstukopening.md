@@ -13,7 +13,7 @@ Je leert dezelfde onderneming op drie manieren bekijken: **alles bij elkaar**, *
 <a href="#s211"><b>2.1.1 Kostenstructuren <span style="float:right;font-size:11pt;color:#183247">2</span></b><span>Constante, variabele, totale en gemiddelde kosten</span></a>
 <a href="#s212"><b>2.1.2 Opbrengsten, winst en break-even <span style="float:right;font-size:11pt;color:#183247">10</span></b><span>Van omzet naar resultaat; rekenen en tekenen</span></a>
 <a href="#s213"><b>2.1.3 Marginale kosten en marginale opbrengsten <span style="float:right;font-size:11pt;color:#183247">19</span></b><span>Wat kosten en leveren extra producten op?</span></a>
-<a href="#s214"><b>2.1.4 Gemengde opgaven <span style="float:right;font-size:11pt;color:#183247">29</span></b><span>Zelf gegevens kiezen, combineren en conclusies onderbouwen</span></a>
+<a href="#s214"><b>2.1.4 Gemengde opgaven <span style="float:right;font-size:11pt;color:#183247">30</span></b><span>Zelf gegevens kiezen, combineren en conclusies onderbouwen</span></a>
 </div>
 
 <div class="box goals"><b>Na dit hoofdstuk kun je</b><br>
