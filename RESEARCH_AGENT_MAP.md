@@ -23,6 +23,12 @@ Inspect only the areas relevant to the question.
 
 ## Artifact relationships
 
+Book 3 v3 §3.1.1 **Belastingen: wig en nieuw evenwicht**:
+[PowerPoint](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.1%20Belastingen%20%E2%80%93%20wig%20en%20nieuw%20evenwicht%20%E2%80%93%20presentatie.pptx),
+[slide PDF](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.1%20Belastingen%20%E2%80%93%20wig%20en%20nieuw%20evenwicht%20%E2%80%93%20presentatie.pdf),
+[review and provenance](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/evidence/3.1.1-presentation.md).
+The 24-slide classroom route discusses target exercise 7, Bedrukte tassen.
+
 The Book 2 classroom series covers all paragraphs in chapters 2.1, 2.2 and 2.3.
 Each editable deck, matching PDF and review lives beside that paragraph's
 other lesson materials. The platform [parallel production and continuity
