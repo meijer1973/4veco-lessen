@@ -74,6 +74,12 @@ review](https://github.com/meijer1973/4veco-platform/blob/codex/ppt-book3-202610
 Presentation review does not establish measured classroom timing, pupil mastery
 or formal approval of the textbook target candidates. The book sources remain unchanged.
 
+## Classroom presentations — Book 4
+
+| Paragraph | PowerPoint | Slide PDF | Evidence |
+|---|---|---|---|
+| 4.1.3 Marginale opbrengst bij monopolie | [PowerPoint](edities/books34-v3/books/book-4/chapters/4.1/paragraph-pdfs/4.1.3%20Marginale%20opbrengst%20bij%20monopolie%20%E2%80%93%20presentatie.pptx) | [Slide PDF](edities/books34-v3/books/book-4/chapters/4.1/paragraph-pdfs/4.1.3%20Marginale%20opbrengst%20bij%20monopolie%20%E2%80%93%20presentatie.pdf) | [Review evidence](edities/books34-v3/books/book-4/chapters/4.1/paragraph-pdfs/evidence/4.1.3-presentation.md) |
+
 Discover exact names from the inventory or directory listing before constructing
 a path. Book/chapter/paragraph folders contain their identifier and Dutch title.
 Artifact names commonly use ` – ` (space, en dash U+2013, space), not a hyphen.
