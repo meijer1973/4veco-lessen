@@ -1,13 +1,13 @@
 {
   "source_pdf": {
     "path": "boek/Boek_2_Compleet.pdf",
-    "bytes": 4356045,
-    "sha256": "3e1164e44de994b440cef0884c52894723b1967c48266006784501bcd2afadf1"
+    "bytes": 4356022,
+    "sha256": "23d0532a7804fb743f053608a814959c6f09c9259c27762b1dff5952556908d5"
   },
   "extract_pdf": {
     "path": "boek/Boek_2_Theorie_46_Herziene_Paginas.pdf",
     "bytes": 917669,
-    "sha256": "547e641c2f460bad2f5fbb47a28bc562f2a37bc7406d9c116c86a958e43ff4f2"
+    "sha256": "264934198ec5532cbee989a4a349e15cfa9855e32b16c0d7b05c60b3662bf090"
   },
   "navigation": "Leesextract met boekpaginanummers; gebruik het complete boek voor klikbare verwijzingen.",
   "pages": [

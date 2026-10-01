@@ -2,6 +2,8 @@
 
 **Actuele notatie- en woordformulerevisie (1 oktober):** bouw via platform `build-scripts/books/rebuild_book2_notation.py --all`. Zie [wijzigingen, paginering en bewijs](NOTATION-REVISION-2026-10-01.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
 
+**Presentaties vanaf §2.1.3:** de bestaande dia’s en sprekersnotities verwijzen nog naar de oude boekpagina’s. Gebruik vóór de les de [omzettabel en open herstelopdracht](PRESENTATIES-PAGINAVERWIJZINGEN.md). De waarschuwing staat ook bij elke betrokken paragraafmap.
+
 ## Actuele chatuitgave · 2026
 
 **Oefenroutes gewijzigd, 21 september:** zie [routes, timing en bouwbewijs](ROUTE-REVISION-2026-09-21.md). De actuele hoofdstuktekst is opnieuw opgebouwd; het oorspronkelijke ontvangstmanifest blijft historisch.

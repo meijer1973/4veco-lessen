@@ -1,0 +1,450 @@
+{
+  "followup": "BOOK2-PRESENTATION-PAGE-REFERENCES",
+  "status": "OPEN",
+  "scope": "Separately authorize source, manifest, overview text, speaker-note page references, PPTX and matching PDF repair. Check internal theory references by named example: old page 22 splits Linoprint/Atelier Boog across 22/23; do not apply a blanket shift. Audit cross-paragraph references in notes too. Preserve economics, exercise IDs and timing. Rebuild and independently review changed slides before closing.",
+  "presentations": [
+    {
+      "paragraph": "2.1.1",
+      "manifest": "build-scripts/content/book-2/presentation-211.manifest.json",
+      "manifest_sha256": "58fa01671768fed8d8738d918fb81497f9583bb627d7671f0dcd5d78cc1f2a0d",
+      "recorded_pages": {
+        "start": 6,
+        "basis": [
+          6,
+          7
+        ],
+        "independent": 7,
+        "target": 8
+      },
+      "current_pages": {
+        "start": 6,
+        "basis": [
+          6,
+          7
+        ],
+        "independent": 7,
+        "target": 8
+      },
+      "status": "No pagination change; no new slide-content acceptance"
+    },
+    {
+      "paragraph": "2.1.2",
+      "manifest": "build-scripts/content/book-2/presentation-212.manifest.json",
+      "manifest_sha256": "c4a9c9ff6c5560ef416519ddd42387dff85924ea70d6d58480c9a7b6220fc735",
+      "recorded_pages": {
+        "start": 14,
+        "target": 17,
+        "basis": [
+          14,
+          15,
+          16
+        ],
+        "independent": 16,
+        "theory": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "current_pages": {
+        "start": 14,
+        "target": 17,
+        "basis": [
+          14,
+          15,
+          16
+        ],
+        "independent": 16,
+        "theory": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "status": "No pagination change; no new slide-content acceptance"
+    },
+    {
+      "paragraph": "2.1.3",
+      "manifest": "build-scripts/content/book-2/presentation-213.manifest.json",
+      "manifest_sha256": "c78539cbb9587f7516380ca2ec27c12209473a9a3ea2e0cd5d2a0253ad4bf4ae",
+      "recorded_pages": {
+        "theory": [
+          19,
+          20,
+          21,
+          22
+        ],
+        "start": 23,
+        "basis": [
+          23,
+          24
+        ],
+        "independent": [
+          24,
+          25
+        ],
+        "target": 26
+      },
+      "current_pages": {
+        "theory": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "start": 24,
+        "basis": [
+          24,
+          25
+        ],
+        "independent": [
+          25,
+          26
+        ],
+        "target": 27
+      },
+      "status": "OPEN: page references need repair"
+    },
+    {
+      "paragraph": "2.1.4",
+      "manifest": "build-scripts/content/book-2/presentation-214.manifest.json",
+      "manifest_sha256": "535d50dcd3525a8342c22e7835900c2bdd023cd9437b266dd8b062706ac9f02f",
+      "recorded_pages": {
+        "start": 29,
+        "practice": [
+          29,
+          30,
+          31
+        ],
+        "target": [
+          32,
+          33
+        ],
+        "bonusAndReview": 34
+      },
+      "current_pages": {
+        "start": 30,
+        "practice": [
+          30,
+          31,
+          32
+        ],
+        "target": [
+          33,
+          34
+        ],
+        "bonusAndReview": 35
+      },
+      "status": "OPEN: page references need repair"
+    },
+    {
+      "paragraph": "2.2.1",
+      "manifest": "build-scripts/content/book-2/presentation-221.manifest.json",
+      "manifest_sha256": "cf852b73dfd71915208fda0e916fdced7e17edc21f119a0d6e751de8c27af7a4",
+      "recorded_pages": {
+        "theory": [
+          36,
+          37,
+          38
+        ],
+        "workedExample": 39,
+        "start": 40,
+        "basis": [
+          40,
+          41
+        ],
+        "independent": 41,
+        "target": 42,
+        "extra": 43
+      },
+      "current_pages": {
+        "theory": [
+          37,
+          38,
+          39
+        ],
+        "workedExample": 40,
+        "start": 41,
+        "basis": [
+          41,
+          42
+        ],
+        "independent": 42,
+        "target": 43,
+        "extra": 44
+      },
+      "status": "OPEN: page references need repair"
+    },
+    {
+      "paragraph": "2.2.2",
+      "manifest": "build-scripts/content/book-2/presentation-222.manifest.json",
+      "manifest_sha256": "d1a717381e8040ae5c3a044154339f67d800e7cc124b7ab4afcedfb52ce0ae32",
+      "recorded_pages": {
+        "theory": [
+          44,
+          45,
+          46,
+          47
+        ],
+        "start": 48,
+        "basis": [
+          48,
+          49
+        ],
+        "independent": 49,
+        "target": 50,
+        "extra": 51
+      },
+      "current_pages": {
+        "theory": [
+          45,
+          46,
+          47,
+          48
+        ],
+        "start": 49,
+        "basis": [
+          49,
+          50
+        ],
+        "independent": 50,
+        "target": 51,
+        "extra": 52
+      },
+      "status": "OPEN: page references need repair"
+    },
+    {
+      "paragraph": "2.2.3",
+      "manifest": "build-scripts/content/book-2/presentation-223.manifest.json",
+      "manifest_sha256": "0bab76a98374b0305c312bf47826247f317a15fcbeb9150f2b76231f93c4fa3d",
+      "recorded_pages": {
+        "theory": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "start": 59,
+        "basis": [
+          59,
+          60
+        ],
+        "independent": 61,
+        "target": 62
+      },
+      "current_pages": {
+        "theory": [
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ],
+        "start": 60,
+        "basis": [
+          60,
+          61
+        ],
+        "independent": 62,
+        "target": 63
+      },
+      "status": "OPEN: page references need repair"
+    },
+    {
+      "paragraph": "2.2.4",
+      "manifest": "build-scripts/content/book-2/presentation-224.manifest.json",
+      "manifest_sha256": "705d2faabfa6cdb1fb12077b64c287f7e832f8de35fb02bb19f39427302d94da",
+      "recorded_pages": {
+        "bonus": 68,
+        "practice": [
+          64,
+          65
+        ],
+        "chapterCheck": 69,
+        "target": [
+          66,
+          67
+        ],
+        "start": 64
+      },
+      "current_pages": {
+        "bonus": 69,
+        "practice": [
+          65,
+          66
+        ],
+        "chapterCheck": 70,
+        "target": [
+          67,
+          68
+        ],
+        "start": 65
+      },
+      "status": "OPEN: page references need repair"
+    },
+    {
+      "paragraph": "2.3.1",
+      "manifest": "build-scripts/content/book-2/presentation-231.manifest.json",
+      "manifest_sha256": "727d601f8f6c2419f62427d0c14576c12ca641eec175cfae4a3dc867dba44e1e",
+      "recorded_pages": {
+        "theory": [
+          72,
+          73,
+          74
+        ],
+        "workedExample": 75,
+        "start": 76,
+        "basis": [
+          76,
+          77
+        ],
+        "independent": 78,
+        "target": 79
+      },
+      "current_pages": {
+        "theory": [
+          73,
+          74,
+          75
+        ],
+        "workedExample": 76,
+        "start": 77,
+        "basis": [
+          77,
+          78
+        ],
+        "independent": 79,
+        "target": 80
+      },
+      "status": "OPEN: page references need repair"
+    },
+    {
+      "paragraph": "2.3.2",
+      "manifest": "build-scripts/content/book-2/presentation-232.manifest.json",
+      "manifest_sha256": "f56c559a2166ef0afac7ddeb3a902b067b46988685a7d53ff9bf1733eaf6ae84",
+      "recorded_pages": {
+        "theory": [
+          80,
+          81,
+          82,
+          83,
+          84
+        ],
+        "start": 84,
+        "basis": [
+          85,
+          86
+        ],
+        "independent": 87,
+        "target": [
+          88,
+          89
+        ]
+      },
+      "current_pages": {
+        "theory": [
+          81,
+          82,
+          83,
+          84,
+          85
+        ],
+        "start": 85,
+        "basis": [
+          86,
+          87
+        ],
+        "independent": 88,
+        "target": [
+          89,
+          90
+        ]
+      },
+      "status": "OPEN: page references need repair"
+    },
+    {
+      "paragraph": "2.3.3",
+      "manifest": "build-scripts/content/book-2/presentation-233.manifest.json",
+      "manifest_sha256": "c48e63e51b72ffdd1a455b1ecf425b244f96954f7625b318af51078b97eae634",
+      "recorded_pages": {
+        "theory": [
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ],
+        "start": 96,
+        "basis": [
+          96,
+          97
+        ],
+        "independent": 98,
+        "target": [
+          99,
+          100
+        ]
+      },
+      "current_pages": {
+        "theory": [
+          91,
+          92,
+          93,
+          94,
+          95,
+          96
+        ],
+        "start": 97,
+        "basis": [
+          97,
+          98
+        ],
+        "independent": 99,
+        "target": [
+          100,
+          101
+        ]
+      },
+      "status": "OPEN: page references need repair"
+    },
+    {
+      "paragraph": "2.3.4",
+      "manifest": "build-scripts/content/book-2/presentation-234.manifest.json",
+      "manifest_sha256": "c2207cc2f779eb630e9fece7de30a8b26bbded7696f1e9d4473dfbdb1dad7a61",
+      "recorded_pages": {
+        "start": 101,
+        "practice": [
+          102,
+          103
+        ],
+        "target": [
+          104,
+          105
+        ],
+        "bonusAndReview": 106
+      },
+      "current_pages": {
+        "start": 102,
+        "practice": [
+          103,
+          104
+        ],
+        "target": [
+          105,
+          106
+        ],
+        "bonusAndReview": 107
+      },
+      "status": "OPEN: page references need repair"
+    }
+  ]
+}

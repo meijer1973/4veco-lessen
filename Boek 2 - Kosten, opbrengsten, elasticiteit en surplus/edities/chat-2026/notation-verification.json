@@ -61,7 +61,7 @@
     "pages": 46,
     "text_pixels_page_map": "PASS",
     "path": "boek/Boek_2_Theorie_46_Herziene_Paginas.pdf",
-    "sha256": "547e641c2f460bad2f5fbb47a28bc562f2a37bc7406d9c116c86a958e43ff4f2"
+    "sha256": "264934198ec5532cbee989a4a349e15cfa9855e32b16c0d7b05c60b3662bf090"
   },
   "source_checks": {
     "exercise_blocks": 114,
@@ -77,5 +77,12 @@
       9
     ],
     "theory_extract_pages": 5
+  },
+  "print_and_presentation_compatibility": {
+    "split_exercises": 7,
+    "lost_facing_pairs": 5,
+    "presentations_audited": 12,
+    "presentation_warnings": 10,
+    "presentation_repair": "OPEN"
   }
 }

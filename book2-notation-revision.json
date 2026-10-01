@@ -1,6 +1,6 @@
 {
   "revision": "book2-notation-20261001",
-  "baseline_lesson_commit": "d53080f38ebbdbba319e6d9b89dcba86067a72be",
+  "baseline_lesson_commit": "9b8304d5031cafac936a56281e144573a25fbbc9",
   "predecessors": [
     {
       "manifest": "exercise-route-revision.json",
@@ -23,7 +23,7 @@
       "files": 1480
     },
     {
-      "accepted_classroom_commit": "d53080f38ebbdbba319e6d9b89dcba86067a72be",
+      "accepted_classroom_commit": "9b8304d5031cafac936a56281e144573a25fbbc9",
       "files": [
         {
           "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.1 Kostenstructuren/2.1.1 Kostenstructuren – presentatie.pdf",
@@ -144,6 +144,66 @@
           "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/evidence/2.2.4-presentation.md",
           "bytes": 9378,
           "sha256": "ed3cd2fbcddd981baf17c99c4584244dfc25240ac4b5bfa14d8d174bb58f58c9"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – presentatie.pdf",
+          "bytes": 176341,
+          "sha256": "25b91fa2302cc71f3af839ffee596a2b4910beb9454f7fddc2d36eb45a97085a"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – presentatie.pptx",
+          "bytes": 127722,
+          "sha256": "4bc9c938de81c3f94d09783a9fb9ec7c6462ae62e01243608b86d8578053df4a"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.1 Consumentensurplus/evidence/2.3.1-presentation.md",
+          "bytes": 7248,
+          "sha256": "74ca8eae756b439f5fe5cae4a95c603bc90e27ba9ef8e50421dbf6c1e8fbf2bb"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – presentatie.pdf",
+          "bytes": 186974,
+          "sha256": "b613c73fbe27bd24cb03fa20fa6c7615d70dce84ab8ac62c6c00d3c471583593"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – presentatie.pptx",
+          "bytes": 141576,
+          "sha256": "04c2bc7a11b774dc6d1bbffa91bf6a96e1e276fb49504e8580639c4a036fb4a9"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/evidence/2.3.2-presentation.md",
+          "bytes": 7726,
+          "sha256": "d1958541b9dcf7e5ab09591e3a9b508b991aa465bd96dc83d69b0ea661c38e4a"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – presentatie.pdf",
+          "bytes": 195607,
+          "sha256": "a91de8bcd1d37e9ec916cc0861e0e4289e83eb802be67481f80b5925327dce24"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – presentatie.pptx",
+          "bytes": 165300,
+          "sha256": "395df262431dc1c9765a6e4691bfc91856da40f054076409c89149c9c4be8045"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/evidence/2.3.3-presentation.md",
+          "bytes": 6609,
+          "sha256": "224505cdc20d2b632e0c9f0ec19fcbdd06ff5eb13ce1d87d24fe66d93541ed4f"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – presentatie.pdf",
+          "bytes": 178417,
+          "sha256": "5fe6a18408a7b2fc97f361e0afb697bd7af51cbbc3e6434abbb17913c4694e9a"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – presentatie.pptx",
+          "bytes": 120843,
+          "sha256": "84a14b4a01ec1067961eccc2282a42bf583a63b8f2e5d2e2fe293dd932a51fae"
+        },
+        {
+          "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/evidence/2.3.4-presentation.md",
+          "bytes": 6891,
+          "sha256": "5b96b91bb1b05bff8ef14a6b65584513b37d82401fd7cefc3d47f347c50c543d"
         }
       ]
     }
@@ -151,19 +211,19 @@
   "platform_inputs": [
     {
       "path": "build-scripts/books/book2-notation-contract.json",
-      "sha256_lf": "e721e947cdbe8d9674ca94ef76340c7555f86556eb04a6e74ab6bd1de1d48701"
+      "sha256_lf": "1c926141d4c704ef97c2e1f49557ee6c73643ce5d774c77a306f92d16a2e4c64"
     },
     {
       "path": "build-scripts/books/book2-notation-revision.js",
-      "sha256_lf": "872611063bae92e971c420b271b2773f590b4c225e1d03abc6e31d70cc07805f"
+      "sha256_lf": "3bc06f090797bfabdc0c492923c06d6b49ffb6965d32e96d789e55eacc719051"
     },
     {
       "path": "build-scripts/books/record_book2_notation_revision.js",
-      "sha256_lf": "bf203c2b1f34f1cc472aa356d97e687bccb0daa81c20451f2a9e17fc36fe9e1a"
+      "sha256_lf": "df62f7ac2046d98cf108baa8fcba86d2e7e6325746163fc2b9887cc9c111f86f"
     },
     {
       "path": "build-scripts/books/book2-notation-review.js",
-      "sha256_lf": "7ff5c9d278ef4510ecac603a59fd9b5fbb3dbcf8657b681dcff56f2a4bd5b73d"
+      "sha256_lf": "1fd3f83564bbaa52f34f8fcef27968d0ef93b14d64c53a75b024ec07310ed50b"
     },
     {
       "path": "build-scripts/books/rebuild_book2_notation.py",
@@ -183,11 +243,15 @@
     },
     {
       "path": "build-scripts/books/book2_notation_checks.py",
-      "sha256_lf": "f2f816a8df8a840c40e036dc50eeb17d0e16e76c330b91127a181f56cf680e9f"
+      "sha256_lf": "624b080fab293e3fa9170ba65405339bcf4e7cd5ca85c8b074e2b5e8b87c935b"
+    },
+    {
+      "path": "build-scripts/books/book2_print_compatibility.py",
+      "sha256_lf": "78bdb7b4af76b05e8b27870de340b836b1540ef259fda432c8ab5b91bfc8c1da"
     },
     {
       "path": "build-scripts/books/verify_book2_notation.py",
-      "sha256_lf": "dbf3ed81f8fdb243ef66572609a0be4919781bd8c3f8cd0c8a2ad88b425e5049"
+      "sha256_lf": "18739c323a25d715c3a1934d25c5a766b88566412f59099d157e8211d1ce43fc"
     },
     {
       "path": "build-scripts/books/requirements-exercise-routes.txt",
@@ -207,7 +271,7 @@
     },
     {
       "path": ".github/workflows/paired-book2-notation-ci.yml",
-      "sha256_lf": "47ed7be701911a53e38f2f35aa71be7981caf6a8bee446a60b86d4e042330a90"
+      "sha256_lf": "1379b7162f60c9e2891cc9d4e0e52fcc7c820d20ad6165d8fbcbf37d726aa7e0"
     },
     {
       "path": ".gitattributes",
@@ -219,6 +283,12 @@
     }
   ],
   "files": [
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/README.md",
+      "bytes": 2525,
+      "sha256": "82201b6250168a9bfedff725b3dc54a19dee5bf259709ab0ddbc2218c6fd8fc9",
+      "baseline_git_blob": "1dc47a58101933075dfe5106a9d1ddcb5e95fae8"
+    },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/CORRECTIES-2026-09-20.md",
       "bytes": 3740,
@@ -239,14 +309,20 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/NOTATION-REVISION-2026-10-01.md",
-      "bytes": 6001,
-      "sha256": "221f5304ce5fb154ad18144e42ef2495fc0bfef2443fcbb2f00580afb0d3b918",
+      "bytes": 7030,
+      "sha256": "72195f0bfaba015664ad7a761cc853729faa1002160aba4c3d472bd72bbb05a9",
+      "baseline_git_blob": null
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/PRESENTATIES-PAGINAVERWIJZINGEN.md",
+      "bytes": 3844,
+      "sha256": "1e5728aaaf439d70b0fcbdd732449ad82e28982808556d28a6e8de5625d7561b",
       "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/README.md",
-      "bytes": 4771,
-      "sha256": "f9d1521c4ae14d915d0677bf51f1cba1721dff68c176d057149c2bfd83f3159e",
+      "bytes": 5046,
+      "sha256": "f78aac326c21745faf2ab0ccf5ef8a7caf97ee29ead7298555e35693b7a384e0",
       "baseline_git_blob": "f8d0af62a39afd7565205587752f4aafb8f4e0d8"
     },
     {
@@ -287,26 +363,26 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/boek/Boek_2_Compleet.pdf",
-      "bytes": 4356045,
-      "sha256": "3e1164e44de994b440cef0884c52894723b1967c48266006784501bcd2afadf1",
+      "bytes": 4356022,
+      "sha256": "23d0532a7804fb743f053608a814959c6f09c9259c27762b1dff5952556908d5",
       "baseline_git_blob": "65c893fece11ef2124e1f69eef9c5ba570e5ea17"
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/boek/Boek_2_Compleet_Antwoorden.pdf",
       "bytes": 4102849,
-      "sha256": "58a78a4262903e96c883c48c253cfd4156b9be3eeb60e304bf4404ae07641fe8",
+      "sha256": "c28c975799c8f68f78d2d20ea92512322a9ba305e1da1c124b4fbc739dd8f4e8",
       "baseline_git_blob": "02d68a7137f8d2b410d375ce6cdeb529a7669a6c"
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/boek/Boek_2_Compleet_Docenteninformatie.pdf",
-      "bytes": 3268805,
-      "sha256": "0f36bf59daec60b137a05ca76fcb67844d455ff395a6fa79b373db3c204ae5f7",
+      "bytes": 3268881,
+      "sha256": "75a4756341b45e93f6387703363c583d6869240754357696c85bc1dd4436b7ff",
       "baseline_git_blob": "3615a7f612b92d5707ef451336ba022f8b43f0c8"
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/boek/Boek_2_Theorie_2.1.3_p19-23.pdf",
       "bytes": 517809,
-      "sha256": "9cf659fac06d67e162766a6aded83d36a11d26f61f1545bd1fd7e4f052e4352c",
+      "sha256": "4d8e3734cc75066c9368e17416e47960ba8241526dfe2e8b4397fd91420c3811",
       "baseline_git_blob": null
     },
     {
@@ -324,13 +400,13 @@
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/boek/Boek_2_Theorie_46_Herziene_Paginas.json",
       "bytes": 15298,
-      "sha256": "ce5ec98a46b7662557cfabbf6afa57f1c92b455f5c4100475fb7d494abc47325",
+      "sha256": "59621d332acdb991bc66a4629dcffa42e08ebf770eaec478d16bd22c620aec80",
       "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/boek/Boek_2_Theorie_46_Herziene_Paginas.pdf",
       "bytes": 917669,
-      "sha256": "547e641c2f460bad2f5fbb47a28bc562f2a37bc7406d9c116c86a958e43ff4f2",
+      "sha256": "264934198ec5532cbee989a4a349e15cfa9855e32b16c0d7b05c60b3662bf090",
       "baseline_git_blob": null
     },
     {
@@ -1174,6 +1250,12 @@
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/README.md",
+      "bytes": 642,
+      "sha256": "788fb2cfb49bf456aea45660a19a767f3327d127e392dec1fe0277cc4e9ee550",
+      "baseline_git_blob": null
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.3 Marginale kosten en marginale opbrengsten/_assets/2.1.3_fig_1.png",
       "bytes": 59014,
       "sha256": "be377dce4492d5a7f7d209c7046297b28cbf49d34b8aca63c19867efa191a960",
@@ -1288,6 +1370,12 @@
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/README.md",
+      "bytes": 642,
+      "sha256": "9e2f4891094a5697b40b296a280203cc5e1a370f78ce86503849bcd3158d9fd5",
+      "baseline_git_blob": null
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.4 Gemengde opgaven/_assets/2.1.4_ex_1.png",
       "bytes": 88989,
       "sha256": "bb5f18e228ebf1eb52470a346b66c048455d28a869dff1fb7409a6048736ed5f",
@@ -1397,8 +1485,8 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/2.2 Elasticiteit – hoofdstuk.md",
-      "bytes": 423550,
-      "sha256": "13a7d695684954ef5215b4a7425b020aab5973d38c387cdbb19f838404e14c77",
+      "bytes": 423530,
+      "sha256": "af1fe81d2cfe268f374f17637118a577896b2da5b258877e448ef084c087d18b",
       "baseline_git_blob": "a5662a437288c3f6d5ee7a17ab5e2f1225d2abb9"
     },
     {
@@ -1841,8 +1929,8 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/manuscript/2.2.4 Gemengde opgaven – opgaven.md",
-      "bytes": 10776,
-      "sha256": "700252e33a2139cbf2da0fbf96f4de681ad2fc4ec226306c24161632183d60c8",
+      "bytes": 10756,
+      "sha256": "fe7f9acfbd5c0df0902260095d090b09fb9527f9ba5197664b56285341b2ccfe",
       "baseline_git_blob": "20f0eec69fa23b8945a2d7858a0d1e2ef9e76cd5"
     },
     {
@@ -1871,14 +1959,14 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/output/Boek_2_H2_Elasticiteit.html",
-      "bytes": 567449,
-      "sha256": "fce69ab0bc2bf4bd1e2f444cd0a503630ed8879a638ad8beff31b979f11ff93c",
+      "bytes": 567429,
+      "sha256": "509ded77a4f2d91ae6181db87997862b8717f3f09c7ea661cb855e9c1ae365f5",
       "baseline_git_blob": "5123de06b799c9a078fe1f16841bb241f002cb4a"
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/output/Boek_2_H2_Elasticiteit.pdf",
-      "bytes": 217346,
-      "sha256": "35e3625e0dd5cac0cf6f7618419252232959125232a973cefb1a86753de47ddd",
+      "bytes": 217324,
+      "sha256": "d40211adcf0b83161581567f0848db8631c2a7f517e6dcf039c17f42ff5559b2",
       "baseline_git_blob": "ea65e33a12dd22c1ea82a4147deea518d8228f25"
     },
     {
@@ -1940,6 +2028,12 @@
       "bytes": 402,
       "sha256": "fd22fd3a69498879d9792f7e1360a47a071970c83bd16608fee97bfb9918bd6a",
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/README.md",
+      "bytes": 642,
+      "sha256": "3a256f27e1f5ca34387b920525b7cc9a45398c1ea793e817f3fc647e73ade163",
+      "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.1 Prijselasticiteit/_assets/2.2.1_fig_1.png",
@@ -2080,6 +2174,12 @@
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/README.md",
+      "bytes": 642,
+      "sha256": "6a65ae2bc33d1e0445fb6a1e8e343c65ed6e594a71c3c9a6476560f28ceb7797",
+      "baseline_git_blob": null
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.2 Elasticiteit en omzet/_assets/2.2.2_fig_1.png",
       "bytes": 69184,
       "sha256": "d30e78dbc6c26169bd067abf4f712b2829fb8c2a59cc4b439bc0a63bf60172c8",
@@ -2216,6 +2316,12 @@
       "bytes": 402,
       "sha256": "fd22fd3a69498879d9792f7e1360a47a071970c83bd16608fee97bfb9918bd6a",
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/README.md",
+      "bytes": 642,
+      "sha256": "f48b58fcc914d3b1dea05427d3a324ad65f96780b917cb26019ebbde65b5d5b7",
+      "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.3 Inkomenselasticiteit en kruislingse elasticiteit/_assets/2.2.3_fig_1.png",
@@ -2363,14 +2469,14 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – opgaven.md",
-      "bytes": 10211,
-      "sha256": "ca3968c33825761a393802b50b23b88d62f760f5590782cc623f10e6ec6b31f7",
+      "bytes": 10191,
+      "sha256": "1592332312bac63b7491e279687f9de107e0ef59745ef55e56f683d4abc10ccd",
       "baseline_git_blob": "39780cf56502b1d2083ee7ad8120a10b2b887a7a"
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/2.2.4 Gemengde opgaven – opgaven.pdf",
-      "bytes": 108720,
-      "sha256": "f5cd680d1f1d1af322d1cdbe259fce46aaf5ba4514adbed25a7bcb7bcdc38c77",
+      "bytes": 108697,
+      "sha256": "d76952968fba855e87a07b7de4e9ea0c3e97c23622ab8443d39938e3c26e7cfa",
       "baseline_git_blob": "5b3499a0bfbae0c93111e83ac3fb80aaf431dc9b"
     },
     {
@@ -2390,6 +2496,12 @@
       "bytes": 402,
       "sha256": "fd22fd3a69498879d9792f7e1360a47a071970c83bd16608fee97bfb9918bd6a",
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/README.md",
+      "bytes": 642,
+      "sha256": "9dfe8a2808d4b675308acb65dc9269ab96b6c70cfd4a3ba81b7122f0e4d95a70",
+      "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H2/paragrafen/2.2.4 Gemengde opgaven/_assets/2.2.4_fig_1.png",
@@ -2465,8 +2577,8 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/2.3 Docenteninformatie.md",
-      "bytes": 14889,
-      "sha256": "1490933b70da807c5237b0fc2a4a190f9570f3288d85dfad90d3b8f165111d9d",
+      "bytes": 14941,
+      "sha256": "6cd82958d06e3da05ed7e96c1d2bdf6bf3ba54149f0eea9362e6c9277bbcff97",
       "baseline_git_blob": "684c346272f391e4c14f635a6cc58dd2f44a9f2e"
     },
     {
@@ -2501,8 +2613,8 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/README.md",
-      "bytes": 5048,
-      "sha256": "9b66a14753dfd8fe826803363f0ed7556e6077d3540aa275edd8b92fa81e35cb",
+      "bytes": 5183,
+      "sha256": "fff932c809d4e380ce17414ddb6c1e7161ade29681f82b79a42332c22665c579",
       "baseline_git_blob": "0a23d26eb9173822cdc3bd8aac351649ffd63434"
     },
     {
@@ -3341,14 +3453,14 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/output/Boek_2_H3_Docenteninformatie.html",
-      "bytes": 23973,
-      "sha256": "c9c32725fc7cbf0ab18027602aa313de8eb0cde05d9db44907208ef7fdc4f88c",
+      "bytes": 24025,
+      "sha256": "9d1113d2d8ac8cb8ad2cf9cf5a3622f38155cd7b12d388eee52260f74acc1185",
       "baseline_git_blob": "ee3b3f178371f134a5a43c625ea7380a0f87fbb9"
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/output/Boek_2_H3_Docenteninformatie.pdf",
-      "bytes": 48104,
-      "sha256": "6dbbe595312d3a357873ea3777fe18608f648cd9a42c521c0d927d3f9366b393",
+      "bytes": 48177,
+      "sha256": "4d12e11ff6bf3836aca3d7bbc86ce19891ce534858c79c182ab576e8a76f1e20",
       "baseline_git_blob": "546fb2029283b00943b2fdabaec141f094129a49"
     },
     {
@@ -3412,10 +3524,28 @@
       "baseline_git_blob": "7221585af24bce4ad1ab068d322100cf911bb124"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – presentatie.pdf",
+      "bytes": 176341,
+      "sha256": "25b91fa2302cc71f3af839ffee596a2b4910beb9454f7fddc2d36eb45a97085a",
+      "baseline_git_blob": "6681a7d8a61b9968f6f19cdcbaaa039b3683cc70"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.1 Consumentensurplus/2.3.1 Consumentensurplus – presentatie.pptx",
+      "bytes": 127722,
+      "sha256": "4bc9c938de81c3f94d09783a9fb9ec7c6462ae62e01243608b86d8578053df4a",
+      "baseline_git_blob": "15fc16680f11682d2cf781a8700f6f86270e60bc"
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.1 Consumentensurplus/LEESMIJ.md",
       "bytes": 402,
       "sha256": "fd22fd3a69498879d9792f7e1360a47a071970c83bd16608fee97bfb9918bd6a",
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.1 Consumentensurplus/README.md",
+      "bytes": 642,
+      "sha256": "70a1df1e4b40896f5c67676cae4802ce47f2e7778bf49ae79b0010fa901c85d9",
+      "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.1 Consumentensurplus/_assets/2.3.1_ans_4.png",
@@ -3580,6 +3710,12 @@
       "baseline_git_blob": "5545d5adf73ba2976c0e6b04edfb123577e4a0dc"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.1 Consumentensurplus/evidence/2.3.1-presentation.md",
+      "bytes": 7248,
+      "sha256": "74ca8eae756b439f5fe5cae4a95c603bc90e27ba9ef8e50421dbf6c1e8fbf2bb",
+      "baseline_git_blob": "309a5fd26fd1632470788279e8a34226ab8b7ea2"
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – antwoorden.md",
       "bytes": 7073,
       "sha256": "af1426e77f8a374b9c0e1f903ac503379c3f8708500b9fa3f141a654955ef99d",
@@ -3616,10 +3752,28 @@
       "baseline_git_blob": "cff30c9eaaec6e33a598ac7dd197ac8c7b566a46"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – presentatie.pdf",
+      "bytes": 186974,
+      "sha256": "b613c73fbe27bd24cb03fa20fa6c7615d70dce84ab8ac62c6c00d3c471583593",
+      "baseline_git_blob": "4805364f4c51c501a1436f41f9d4453059d63df3"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/2.3.2 Producentensurplus en totaal surplus – presentatie.pptx",
+      "bytes": 141576,
+      "sha256": "04c2bc7a11b774dc6d1bbffa91bf6a96e1e276fb49504e8580639c4a036fb4a9",
+      "baseline_git_blob": "862544252ef8897733608b25b75d47b08ad52bfa"
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/LEESMIJ.md",
       "bytes": 402,
       "sha256": "fd22fd3a69498879d9792f7e1360a47a071970c83bd16608fee97bfb9918bd6a",
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/README.md",
+      "bytes": 642,
+      "sha256": "bfcc054a014913436614f24c836435ace7916198a38f5175d4d7a420d8104f1c",
+      "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/_assets/2.3.2_ans_4.png",
@@ -3808,6 +3962,12 @@
       "baseline_git_blob": "5545d5adf73ba2976c0e6b04edfb123577e4a0dc"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.2 Producentensurplus en totaal surplus/evidence/2.3.2-presentation.md",
+      "bytes": 7726,
+      "sha256": "d1958541b9dcf7e5ab09591e3a9b508b991aa465bd96dc83d69b0ea661c38e4a",
+      "baseline_git_blob": "bbf3e6f2132ccf6e5228a295ba5f66ff5c26a496"
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – antwoorden.md",
       "bytes": 7815,
       "sha256": "350f32b1e3e07ac1475919a883ecd763b1c7312f3176e2d5c1d3e6f35994f08a",
@@ -3844,10 +4004,28 @@
       "baseline_git_blob": "a56c4b39d970f020d3013306342b2aa6f12301e5"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – presentatie.pdf",
+      "bytes": 195607,
+      "sha256": "a91de8bcd1d37e9ec916cc0861e0e4289e83eb802be67481f80b5925327dce24",
+      "baseline_git_blob": "8bd83d43ffdead6c3636fa32dfe708e58f77c29d"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/2.3.3 Pareto-efficiëntie en welvaartsverlies – presentatie.pptx",
+      "bytes": 165300,
+      "sha256": "395df262431dc1c9765a6e4691bfc91856da40f054076409c89149c9c4be8045",
+      "baseline_git_blob": "bcf36c061ecedf1849f8e5278dc1b55a22fa449a"
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/LEESMIJ.md",
       "bytes": 402,
       "sha256": "fd22fd3a69498879d9792f7e1360a47a071970c83bd16608fee97bfb9918bd6a",
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/README.md",
+      "bytes": 642,
+      "sha256": "408e287e94ad5bb4803f93075f418e5fb0a79f67bb6bac69718f11c65c81aa24",
+      "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/_assets/2.3.3_ans_4.png",
@@ -4084,6 +4262,12 @@
       "baseline_git_blob": "5545d5adf73ba2976c0e6b04edfb123577e4a0dc"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3 Pareto-efficiëntie en welvaartsverlies/evidence/2.3.3-presentation.md",
+      "bytes": 6609,
+      "sha256": "224505cdc20d2b632e0c9f0ec19fcbdd06ff5eb13ce1d87d24fe66d93541ed4f",
+      "baseline_git_blob": "1cf412cd2790f7667e2ae9c2a4b2b2a3dad42905"
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – antwoorden.md",
       "bytes": 7215,
       "sha256": "712f5d8974aa012a715b18c6d4cae8dd83374a3af5e8a001b7d1f72fc918475d",
@@ -4108,10 +4292,28 @@
       "baseline_git_blob": "469804a30e370dc11a6375ec3c5f9fe2565f91f7"
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – presentatie.pdf",
+      "bytes": 178417,
+      "sha256": "5fe6a18408a7b2fc97f361e0afb697bd7af51cbbc3e6434abbb17913c4694e9a",
+      "baseline_git_blob": "919ebb6f2522609866c25ce32d87ea1be68432f9"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/2.3.4 Gemengde opgaven – presentatie.pptx",
+      "bytes": 120843,
+      "sha256": "84a14b4a01ec1067961eccc2282a42bf583a63b8f2e5d2e2fe293dd932a51fae",
+      "baseline_git_blob": "29f5abb3fa4ae83c936855dd2413dcac1e707f87"
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/LEESMIJ.md",
       "bytes": 402,
       "sha256": "fd22fd3a69498879d9792f7e1360a47a071970c83bd16608fee97bfb9918bd6a",
       "baseline_git_blob": "5dceae48869641918fe6976a19085e4e87a13b54"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/README.md",
+      "bytes": 642,
+      "sha256": "2c1f516215c4007218bd088f514dac2804e0ff49a2e788ad714c046614904c3b",
+      "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/_assets/2.3.4_ans_2.png",
@@ -4166,6 +4368,12 @@
       "bytes": 357,
       "sha256": "697fe0870cc24e5a2da2447ea1736d1ec0a73234f1370c614dbcbbba44b23554",
       "baseline_git_blob": "5545d5adf73ba2976c0e6b04edfb123577e4a0dc"
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4 Gemengde opgaven/evidence/2.3.4-presentation.md",
+      "bytes": 6891,
+      "sha256": "5b96b91bb1b05bff8ef14a6b65584513b37d82401fd7cefc3d47f347c50c543d",
+      "baseline_git_blob": "82ca1f197d45549d366e56eccfbb40f7404c88cc"
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/bronnen/H3/paragrafen/manifest.json",
@@ -4247,8 +4455,8 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/hoofdstukken/Boek_2_H2_Elasticiteit.pdf",
-      "bytes": 217346,
-      "sha256": "35e3625e0dd5cac0cf6f7618419252232959125232a973cefb1a86753de47ddd",
+      "bytes": 217324,
+      "sha256": "d40211adcf0b83161581567f0848db8631c2a7f517e6dcf039c17f42ff5559b2",
       "baseline_git_blob": "ea65e33a12dd22c1ea82a4147deea518d8228f25"
     },
     {
@@ -4259,8 +4467,8 @@
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/hoofdstukken/Boek_2_H3_Docenteninformatie.pdf",
-      "bytes": 48104,
-      "sha256": "6dbbe595312d3a357873ea3777fe18608f648cd9a42c521c0d927d3f9366b393",
+      "bytes": 48177,
+      "sha256": "4d12e11ff6bf3836aca3d7bbc86ce19891ce534858c79c182ab576e8a76f1e20",
       "baseline_git_blob": "546fb2029283b00943b2fdabaec141f094129a49"
     },
     {
@@ -4272,13 +4480,13 @@
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/notation-assembly-manifest.json",
       "bytes": 1397,
-      "sha256": "708b5846b825a54b6cbc09302f077b1f5285f9a3918c97f85f71bd25fb2a7290",
+      "sha256": "b074212f0c7b8b3eea173cb63430c7bc0e0deda0a3efff9c2341d13e121bf921",
       "baseline_git_blob": null
     },
     {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/notation-chapter-inputs.json",
       "bytes": 52844,
-      "sha256": "e75b9b1a49d1b2d22caad6c2467af535fd34a05bf55d663ea1586deaafb3cf6d",
+      "sha256": "c93a067021308ecbfd755041a748ded78224d4eadf5cf365831b0657796906a4",
       "baseline_git_blob": null
     },
     {
@@ -4300,9 +4508,21 @@
       "baseline_git_blob": null
     },
     {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/notation-print-impact.json",
+      "bytes": 5871,
+      "sha256": "0bf5aa6160a7cb114b847fd32f22a274e27bc698c3af357814d7a4ee7153fb05",
+      "baseline_git_blob": null
+    },
+    {
       "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/notation-verification.json",
-      "bytes": 1671,
-      "sha256": "e8b287c656c4fefe8c97d7f09558669ecab6b87b3030fcab42886bf25da787ab",
+      "bytes": 1874,
+      "sha256": "73535e43b5f197d4b66cfb6a8b8f9d59e1e6cfa657cd5c0aa78c22c38a65b393",
+      "baseline_git_blob": null
+    },
+    {
+      "path": "Boek 2 - Kosten, opbrengsten, elasticiteit en surplus/edities/chat-2026/presentation-page-compatibility.json",
+      "bytes": 9886,
+      "sha256": "b194ac24222925ad85e7c3e533d48dddd1d0361e601c15288944aa3ef213813c",
       "baseline_git_blob": null
     },
     {

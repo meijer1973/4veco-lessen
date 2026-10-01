@@ -728,8 +728,8 @@
     },
     {
       "path": "bronnen/H2/manuscript/2.2.4 Gemengde opgaven – opgaven.md",
-      "bytes": 10776,
-      "sha256": "700252e33a2139cbf2da0fbf96f4de681ad2fc4ec226306c24161632183d60c8"
+      "bytes": 10756,
+      "sha256": "fe7f9acfbd5c0df0902260095d090b09fb9527f9ba5197664b56285341b2ccfe"
     },
     {
       "path": "bronnen/H2/validate.py",
@@ -738,8 +738,8 @@
     },
     {
       "path": "bronnen/H3/2.3 Docenteninformatie.md",
-      "bytes": 14889,
-      "sha256": "1490933b70da807c5237b0fc2a4a190f9570f3288d85dfad90d3b8f165111d9d"
+      "bytes": 14941,
+      "sha256": "6cd82958d06e3da05ed7e96c1d2bdf6bf3ba54149f0eea9362e6c9277bbcff97"
     },
     {
       "path": "bronnen/H3/2.3 Surplus en welvaart – antwoorden.md",
@@ -1460,8 +1460,8 @@
     },
     "hoofdstukken/Boek_2_H2_Elasticiteit.pdf": {
       "path": "hoofdstukken/Boek_2_H2_Elasticiteit.pdf",
-      "bytes": 217346,
-      "sha256": "35e3625e0dd5cac0cf6f7618419252232959125232a973cefb1a86753de47ddd"
+      "bytes": 217324,
+      "sha256": "d40211adcf0b83161581567f0848db8631c2a7f517e6dcf039c17f42ff5559b2"
     },
     "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf": {
       "path": "hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf",
@@ -1495,8 +1495,8 @@
     },
     "hoofdstukken/Boek_2_H3_Docenteninformatie.pdf": {
       "path": "hoofdstukken/Boek_2_H3_Docenteninformatie.pdf",
-      "bytes": 48104,
-      "sha256": "6dbbe595312d3a357873ea3777fe18608f648cd9a42c521c0d927d3f9366b393"
+      "bytes": 48177,
+      "sha256": "4d12e11ff6bf3836aca3d7bbc86ce19891ce534858c79c182ab576e8a76f1e20"
     }
   }
 }

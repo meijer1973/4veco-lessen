@@ -38,7 +38,19 @@ Omslag en inhoudsopgave blijven ongenummerd. In het leerlingenboek is alleen §2
 
 De hoofdinhoudsopgaven hebben nu 15 / 3 / 3 klikbare regels; samen met de hoofdstuklinks zijn er 101 / 47 / 3 links. Paginanummers, bladwijzers, overzichtslinks en de koppelingen vanuit paragraafexports worden op hun huidige bestemmingen gecontroleerd. Opgavenexports beginnen bij de eerste echte opgave, inclusief de bestaande gedeelde theorie/startpagina in §2.3.2, zodat eerdere theorie niet onbedoeld als opgavenblad wordt meegeleverd.
 
-**Docenten:** de extra leerlingpagina verschuift de dubbelzijdige paginavouw. SmoothBox 33–34, StreamPlus 67–68 en de gemengde doelopgave van hoofdstuk 2.3 op 105–106 staan achter elkaar, maar niet tegenover elkaar. Houd het bronblad tijdens het werken los beschikbaar of laat leerlingen terugbladeren. Er is geen extra blanco pagina ingevoegd om dit te verbergen.
+**Docenten:** vijf bron-/vraagparen verliezen door de extra leerlingpagina hun tegenoverliggende plaats bij dubbelzijdig printen:
+
+| Oefening | Eerdere pagina’s | Huidige pagina’s |
+|---|---|---|
+| §2.1.4 / 5 · SmoothBox | 32–33 | 33–34 |
+| §2.2.4 / 5 · StreamPlus | 66–67 | 67–68 |
+| §2.3.2 / 8 · Concertkaartjes | 88–89 | 89–90 |
+| §2.3.4 / 2 · Plantenmarkt | 102–103 | 103–104 |
+| §2.3.4 / 3 · Huurfietsen | 104–105 | 105–106 |
+
+Geef de betreffende bronpagina als los blad wanneer leerlingen de bron tegelijk met de vragen moeten zien. Er is geen blanco pagina ingevoegd. De [controle van alle zeven gesplitste oefeningen](notation-print-impact.json) omvat ook SokkenShop 14–15 (ongewijzigd tegenoverliggend) en de doeloefening van §2.3.3 100–101 (nu wel tegenoverliggend). De twee StreamPlus-verwijzingen zeggen nu volgende/vorige pagina.
+
+**Afzonderlijke presentaties:** ongewijzigde dia’s zijn niet automatisch verenigbaar met de nieuwe boekpaginering. Alle twaalf bestaande paginamaps zijn gecontroleerd; tien presentaties vanaf §2.1.3 bevatten verouderde verwijzingen. De [zichtbare waarschuwing, omzettabel en open herstelopdracht](PRESENTATIES-PAGINAVERWIJZINGEN.md) gelden totdat bron, manifest, sprekersnotities, PPTX en PDF apart zijn hersteld en beoordeeld. De bestaande classroom-bestanden en hun historische reviews blijven hier ongewijzigd.
 
 De eerdere timingbeperking blijft staan: voor de negen theorieparagrafen van Boek 2 is geen gemeten begroting van de volledige ondersteunde route beschikbaar. De extra uitleg geeft geen onderbouwing voor een 55-minutenclaim. Plan naar behoefte extra lestijd; de doeloefening en begeleiding blijven volledig beschikbaar.
 

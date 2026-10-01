@@ -57,4 +57,4 @@ De GitHub-verbinding kon beide repositorykaarten en de inhoudelijke bronnen leze
 
 ## Drukken
 
-A4, werkelijke grootte, dubbelzijdig, omslaan over de lange zijde. De 38 leerlingpagina’s blijven binnen de grens van 40. De bronnen en vragen van de gemengde doeloefening staan op opeenvolgende gedrukte pagina’s 105–106 (bij dubbelzijdig printen niet tegenover elkaar). Antwoorden en docenteninformatie zijn niet in die 38 pagina’s opgenomen.
+A4, werkelijke grootte, dubbelzijdig, omslaan over de lange zijde. De 38 leerlingpagina’s blijven binnen de grens van 40. De bronnen en vragen van Concertkaartjes (§2.3.2, 89–90), Plantenmarkt (§2.3.4, 103–104) en Huurfietsen (§2.3.4, 105–106) staan op opeenvolgende pagina’s, bij dubbelzijdig printen niet tegenover elkaar. Geef de bronpagina als los blad wanneer gelijktijdig raadplegen nodig is. Antwoorden en docenteninformatie zijn niet in die 38 pagina’s opgenomen.
