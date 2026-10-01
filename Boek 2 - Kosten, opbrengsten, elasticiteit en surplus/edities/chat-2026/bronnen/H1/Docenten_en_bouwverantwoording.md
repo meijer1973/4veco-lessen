@@ -5,15 +5,15 @@
 
 ### Wat is geleverd?
 
-Het leerlingenhoofdstuk telt **34 A4-pagina’s**, inclusief hoofdstukopening, alle uitleg, uitgewerkte voorbeelden, opgaven, bonusopgaven, herhaling en het hoofdstukoverzicht. Het afzonderlijke antwoordenboek telt **20 pagina’s**. Er zijn **38 genummerde opgaven** en **drie volledig uitgewerkte voorbeelden**. De nummering begint per paragraaf opnieuw.
+Het leerlingenhoofdstuk telt **35 A4-pagina’s**, inclusief hoofdstukopening, alle uitleg, uitgewerkte voorbeelden, opgaven, bonusopgaven, herhaling en het hoofdstukoverzicht. Het afzonderlijke antwoordenboek telt **21 pagina’s**. Er zijn **38 genummerde opgaven** en **drie uitgewerkte voorbeeldreeksen**. De nummering begint per paragraaf opnieuw.
 
 | Onderdeel | Leerlingenpagina’s | Opgaven | Doeloefening |
 |---|---:|---:|---|
 | 2.1.1 Kostenstructuren | 2–9 | 1–10 | 7 · De Korenaar |
 | 2.1.2 Opbrengsten, winst en break-even | 10–18 | 1–11 | 8 · De Korenaar |
-| 2.1.3 Marginale kosten en marginale opbrengsten | 19–27 | 1–10 | 7 · Linea en Curva |
-| Hoofdstukoverzicht | 28 | — | — |
-| 2.1.4 Gemengde opgaven | 29–34 | 1–7 | 5 · SmoothBox |
+| 2.1.3 Marginale kosten en marginale opbrengsten | 19–28 | 1–10 | 7 · Linea en Curva |
+| Hoofdstukoverzicht | 29 | — | — |
+| 2.1.4 Gemengde opgaven | 30–35 | 1–7 | 5 · SmoothBox |
 
 De bestaande hoofdstuktekst in de lessenrepository is **niet als bron of uitgangspunt gebruikt**. De uitleg, contexten voor de oefenroute, didactische verbindingen, illustraties en antwoorduitwerkingen zijn opnieuw geschreven. De actuele repositorydoelen en doelopgaven zijn wel als inhoudelijk vertrekpunt gebruikt. De aanpassingen aan die doelopgaven staan verderop expliciet beschreven.
 
@@ -25,7 +25,7 @@ Constante kosten veranderen binnen de genoemde periode niet met Q, tot en met de
 
 Marginale bedragen worden met verschillen in tabellen berekend. Bij een stap van meerdere producten gaat het om het gemiddelde extra bedrag per extra product binnen die stap. Afgeleiden en de formele keuze van de winstmaximaliserende hoeveelheid vallen buiten dit hoofdstuk.
 
-**Printadvies:** A4, ware grootte, dubbelzijdig en omslaan aan de lange zijde. Het bronblad en de vragen van SmoothBox staan op pagina **32–33**, dus naast elkaar wanneer het hoofdstuk op een rechterpagina begint. Er zijn geen apparaten, websites of aanvullende digitale bronnen nodig voor de leerling.
+**Printadvies:** A4, ware grootte, dubbelzijdig en omslaan aan de lange zijde. Het bronblad en de vragen van SmoothBox staan op opeenvolgende gedrukte pagina’s **33–34**. Bij dubbelzijdig afdrukken staan deze niet tegenover elkaar; houd het bronblad los beschikbaar of laat leerlingen terugbladeren. Er zijn geen apparaten, websites of aanvullende digitale bronnen nodig voor de leerling.
 
 <!-- PAGEBREAK -->
 
