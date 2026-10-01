@@ -76,6 +76,12 @@ prove review or completeness. A missing optional companion is not automatically
 a defect in a textbook-only assignment.
 ## Selected Books 3 and 4
 
+### Current Book 3 classroom presentations
+
+| Paragraph | Editable slides | Slide PDF | Review and provenance |
+|---|---|---|---|
+| 3.1.1 Eén product, twee prijzen | [PowerPoint](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.1%20E%C3%A9n%20product%2C%20twee%20prijzen%20%E2%80%93%20presentatie.pptx) | [Slide PDF](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.1%20E%C3%A9n%20product%2C%20twee%20prijzen%20%E2%80%93%20presentatie.pdf) | [Review](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/evidence/3.1.1-presentation.md) |
+
 - Book 3: [complete PDFs, chapters and all editable sources](Boek%203%20-%20Overheidsingrijpen%2C%20concurrentie%20en%20internationale%20handel/README.md); [current outline adoption](https://github.com/meijer1973/4veco-platform/blob/main/references/authored/book-outlines/book-3-outline.meta.json).
 - Book 4: [complete PDFs, chapters and all editable sources](Boek%204%20-%20Monopolie%2C%20marktfalen%20en%20arbeidsmarkt/README.md); [current outline adoption](https://github.com/meijer1973/4veco-platform/blob/main/references/authored/book-outlines/book-4-outline.meta.json).
 
