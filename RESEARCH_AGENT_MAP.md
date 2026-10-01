@@ -82,3 +82,12 @@ a defect in a textbook-only assignment.
 Current lookup: platform `node build-scripts/references/books34-selected-structure.js --revision book34-lesson-balance-v3-20260915 3.3.1`. Validation: `node build-scripts/maintenance/check-books34-v3-import.js --require-tracked`. Numeric IDs require revision `book34-lesson-balance-v3-20260915`; archive IDs do not transfer target approval. Integration is prepared/in PR.
 
 Books 3/4 v3: one shared lesson package at `edities/books34-v3/`; 31 filled candidates, 6+4+4 / 5+7+5. Integration in PR; no merge, publication, final target review or classroom timing certification. V2 sources and checks remain historical.
+
+### Book 3 classroom presentation
+
+§3.2.2 uses the current books34-v3 title **Marginale kosten en de afgeleide**.
+[PowerPoint](Boek%203%20-%20Overheidsingrijpen%2C%20concurrentie%20en%20internationale%20handel/3.2%20Productie%20en%20winst/3.2.2%20Marginale%20kosten%20en%20de%20afgeleide/3.2.2%20Marginale%20kosten%20en%20de%20afgeleide%20%E2%80%93%20presentatie.pptx) · [Slide PDF](Boek%203%20-%20Overheidsingrijpen%2C%20concurrentie%20en%20internationale%20handel/3.2%20Productie%20en%20winst/3.2.2%20Marginale%20kosten%20en%20de%20afgeleide/3.2.2%20Marginale%20kosten%20en%20de%20afgeleide%20%E2%80%93%20presentatie.pdf) · [Source and review evidence](Boek%203%20-%20Overheidsingrijpen%2C%20concurrentie%20en%20internationale%20handel/3.2%20Productie%20en%20winst/3.2.2%20Marginale%20kosten%20en%20de%20afgeleide/evidence/3.2.2-presentation.md).
+
+The deck is scoped Part B output in the standard book/chapter/paragraph location.
+The signed v3 chapter package has no titled paragraph folders and remains unchanged.
+Independent review is pending; see the evidence record for the precise status.
