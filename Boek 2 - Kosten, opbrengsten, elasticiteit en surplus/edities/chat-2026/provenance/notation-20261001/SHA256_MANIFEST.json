@@ -1,0 +1,267 @@
+[
+  {
+    "path": "INTEGRATIE_AANWIJZINGEN.md",
+    "bytes": 4831,
+    "sha256": "c4ad35e53c2fbf78f42c1b7d0de702d9670114ead72d1f1b51408d57526b05c4"
+  },
+  {
+    "path": "README.md",
+    "bytes": 883,
+    "sha256": "22d7afda3fda7ec7cc310a12c5a4f8946e98735fd66174476c1ab4c5991721d0"
+  },
+  {
+    "path": "REVISIEVERSLAG.md",
+    "bytes": 8124,
+    "sha256": "58a339ecf71afb8c9312d92c74688aa33597376c6c61d5a5e9586a4ad8d457de"
+  },
+  {
+    "path": "baseline/Boek_2_Referentie_22_september.pdf",
+    "bytes": 4408990,
+    "sha256": "f46333e5b16a266a2f716932e935095117f08d0a7b409dff85854b96a4c44259"
+  },
+  {
+    "path": "companion_proposals/H1_antwoorden_voorstel.md",
+    "bytes": 40387,
+    "sha256": "a2434ef2b4ee0b51082ecea128f5da52828e8e7de660905ca64f4ed9219d0165"
+  },
+  {
+    "path": "companion_proposals/H3_antwoorden_notatievoorstel.md",
+    "bytes": 28218,
+    "sha256": "aa2b16cf1a27f136755805b345b5ad48588baacd06fd219133d6013423e22a51"
+  },
+  {
+    "path": "companion_proposals/LEESMIJ.md",
+    "bytes": 1561,
+    "sha256": "9306b22122fd3622f08b480a18ad9ac0a0ca43f00adc6572817c65be75843fd1"
+  },
+  {
+    "path": "companion_proposals/SportLint_antwoordaanvulling.md",
+    "bytes": 1033,
+    "sha256": "4ff5f200cc5987d1b56a43cb8d601415f20c27d1e364f0f46e8a5f812f7d6354"
+  },
+  {
+    "path": "output/Boek_2_Herzien_Woordformules_en_Notatie.pdf",
+    "bytes": 5649410,
+    "sha256": "638d5d0e0666eedd782bdf85091f1ce6b772b07d7c0eaa6926d1ba9615d17b55"
+  },
+  {
+    "path": "output/Boek_2_Paragraaf_2.1.3_Theorie_p19-23.pdf",
+    "bytes": 810832,
+    "sha256": "3c51fded3b3a1eb88e84c176528b38d182f0c1e1c8e17dbb88c8696caf790e43"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 76,
+    "sha256": "00138a6fcaa3ec3514bf1f85b961ad2436af010fab1ede40939d793353cf5cac"
+  },
+  {
+    "path": "source/assemble_revision.py",
+    "bytes": 13684,
+    "sha256": "49e9c653c7ebd2450a979845f0bf9045aef6d9e08d3ced36c265e4e49ceb519e"
+  },
+  {
+    "path": "source/exercise026.md",
+    "bytes": 1621,
+    "sha256": "904c9660f1fe94485a22700f6eac7b8f0a08fd77dbbbfbb73b34d008d1cfe1df"
+  },
+  {
+    "path": "source/exercise087.md",
+    "bytes": 1269,
+    "sha256": "3db86f6fbfd530b461067c1597d1757efeda3b46a09d705e2bb0af65c9894eae"
+  },
+  {
+    "path": "source/exercise088.md",
+    "bytes": 1392,
+    "sha256": "e53a030275df8ac660f52a4383ae8396838f70f5058f3cec06229ce8b90abdec"
+  },
+  {
+    "path": "source/exercise089.md",
+    "bytes": 1197,
+    "sha256": "0af654c85deadfa323cbfc1c316d5c920482e7a972200227a47a1f553db4c309"
+  },
+  {
+    "path": "source/exercise098.md",
+    "bytes": 1709,
+    "sha256": "50a914a717611876d4a0eeb3e91c5d7daf15bc321c3f47558673dc006e9661de"
+  },
+  {
+    "path": "source/exercise099.md",
+    "bytes": 1370,
+    "sha256": "6b5a2ff31d640df3730802d288eb35da555e8ce2ddcce04f21f3c68a70025a6e"
+  },
+  {
+    "path": "source/exercise100.md",
+    "bytes": 1207,
+    "sha256": "482c0ec2f894c271b6caf7e353cb801a60f1813e8895ded71fe4f324f960c975"
+  },
+  {
+    "path": "source/exercise104.md",
+    "bytes": 1276,
+    "sha256": "5bbf0f5f763745014e7835d83c42275ed26721bb1a4f04962e48569cc605104d"
+  },
+  {
+    "path": "source/render_replacements.py",
+    "bytes": 24162,
+    "sha256": "6f9d2308df5d66ec1b20050c509785835f59eb7142383cbc88b1b149febdcf51"
+  },
+  {
+    "path": "source/render_standalone_exercises.py",
+    "bytes": 641,
+    "sha256": "735f27797e6639f67dc84c006e9bd618ca37166fea809ed8cd39e7d987c076da"
+  },
+  {
+    "path": "source/verify_revision.py",
+    "bytes": 5196,
+    "sha256": "29f989c7b6b96d1e958b9c63831788ef01062dbfad04a741035f8fce9f323420"
+  },
+  {
+    "path": "work/arithmetic_checks.json",
+    "bytes": 1465,
+    "sha256": "3e3e8d76f64d5fc4a19bfd770362a68a7d5c9a3bfbc9d3323c7f3c112a4b4b5c"
+  },
+  {
+    "path": "work/exercise_source_checks.json",
+    "bytes": 1796,
+    "sha256": "3980c7290caa564ee406e01ebbfdca8ca1867b60ea4f2d32899627460ed1ec9e"
+  },
+  {
+    "path": "work/paginamap.csv",
+    "bytes": 1683,
+    "sha256": "1024477c5371ba8cff106e90f149595131b0378395bce1969edd7da53745957d"
+  },
+  {
+    "path": "work/patch_log.json",
+    "bytes": 37257,
+    "sha256": "1dd3bea77697c5d1e7b33688cdc6e3c40da68f314565b7e36ac93e492dbc43ee"
+  },
+  {
+    "path": "work/patched_rects.json",
+    "bytes": 29531,
+    "sha256": "a99f4c452cd26103973746dfdff0a86e14a5fd9a6323849c806afbe3310d8c6c"
+  },
+  {
+    "path": "work/reference_updates.json",
+    "bytes": 1207,
+    "sha256": "992a451089ecea5dcb036ef0be863c6ef2cfa7e2f4ece4a46211d67cea0cbd81"
+  },
+  {
+    "path": "work/replacements/exercise026.html",
+    "bytes": 7425,
+    "sha256": "41db8d426c3e07868a30fd9cdefd374b4cf0868898a5d8467ea8048358172bba"
+  },
+  {
+    "path": "work/replacements/exercise026.pdf",
+    "bytes": 21601,
+    "sha256": "91f48ba82c50056b7cf7dbaeccda886a0ea9331bbf13a0981224a9e2b97b115b"
+  },
+  {
+    "path": "work/replacements/exercise087.html",
+    "bytes": 14821,
+    "sha256": "0534fcf0fea126786634466dfac4101a70a9f0892069c575866380a6aed3e0a0"
+  },
+  {
+    "path": "work/replacements/exercise087.pdf",
+    "bytes": 32621,
+    "sha256": "c20984bf1fa293f5a19c99cbc864ba2c586b8e5251dd21e5694d94236662a7fa"
+  },
+  {
+    "path": "work/replacements/exercise088.html",
+    "bytes": 13022,
+    "sha256": "32cd9783460294a54574f429d8eeb4d5119d3bb4535ea0bb955d4ac0570c2911"
+  },
+  {
+    "path": "work/replacements/exercise088.pdf",
+    "bytes": 27918,
+    "sha256": "8289ca9f2b317d109f095bfd9cf78a5791f2d326321a7e012d92d8320f67fff9"
+  },
+  {
+    "path": "work/replacements/exercise089.html",
+    "bytes": 12804,
+    "sha256": "6d515d8e37554f4802d4b8b4c79a7399a48107365742f31b9042811b43598067"
+  },
+  {
+    "path": "work/replacements/exercise089.pdf",
+    "bytes": 27309,
+    "sha256": "2680af9c05757562e9b85aee90501ed7adeeadbb005d9a238be0691d01bacc3f"
+  },
+  {
+    "path": "work/replacements/exercise098.html",
+    "bytes": 15404,
+    "sha256": "6d7ecae0c43011f0de6fec4ccfc183d67c0a91e56c9293c6087698cd2da5c44d"
+  },
+  {
+    "path": "work/replacements/exercise098.pdf",
+    "bytes": 33997,
+    "sha256": "91b12f67677e05d9367f8391ba6e64360f446b9f4eca1c36c21e1fc7e04bcc12"
+  },
+  {
+    "path": "work/replacements/exercise099.html",
+    "bytes": 13882,
+    "sha256": "72a37cb2e728e77c69a1f5f27155d409bd94a71cf582539c3f34e02c7f5cac44"
+  },
+  {
+    "path": "work/replacements/exercise099.pdf",
+    "bytes": 27850,
+    "sha256": "e3588d2080a713b264ca9263261d805aae1e6120a1e26c5c5ee97b8fadfd28c6"
+  },
+  {
+    "path": "work/replacements/exercise100.html",
+    "bytes": 14334,
+    "sha256": "784d825ab5174ac9bbfdc417b2d3c9aca5fa42aa12173b8e490b7b1ae44ff3cc"
+  },
+  {
+    "path": "work/replacements/exercise100.pdf",
+    "bytes": 28026,
+    "sha256": "0abae105352968ff0615a5f9fd334f6fcfcab29ab1730117794a62e09a538da9"
+  },
+  {
+    "path": "work/replacements/exercise104.html",
+    "bytes": 13661,
+    "sha256": "ebd1920f35193344e0cf20759e331e4142034555feaa58783e060f0552ec67e3"
+  },
+  {
+    "path": "work/replacements/exercise104.pdf",
+    "bytes": 26975,
+    "sha256": "65f0dff3f53b359f98e0ea22b3233cc159047c4b434e0462d1c7f213d6271536"
+  },
+  {
+    "path": "work/replacements/theory19.pdf",
+    "bytes": 57255,
+    "sha256": "14b6a5fba815149d9260b14857b0168a0ad54166de92c36e07f2f0d310194683"
+  },
+  {
+    "path": "work/replacements/theory20.pdf",
+    "bytes": 57844,
+    "sha256": "94c22efa9ed78d409e3cb4acf5d5605114560b729b6b7a933dddb622fb656c37"
+  },
+  {
+    "path": "work/replacements/theory21.pdf",
+    "bytes": 61142,
+    "sha256": "ec87312575ed9bbceece8f36ec9c1fc877973e2246e17987f2f7976f7cc852fb"
+  },
+  {
+    "path": "work/replacements/theory22.pdf",
+    "bytes": 57326,
+    "sha256": "5314e360b0728d57fa414bc9bc64f2c109b7485c90aebed01e2b6cce56fbe11a"
+  },
+  {
+    "path": "work/replacements/theory23.pdf",
+    "bytes": 57379,
+    "sha256": "854c6c9ce501a9e6c457c7f7a077a38c47418c0c64f0783c31377dd74f49d556"
+  },
+  {
+    "path": "work/replacements/worked05.pdf",
+    "bytes": 56811,
+    "sha256": "aed3d193511ddd8f7c1fa1ec1bdb96d82d6f475c5fc1a6cfcc5da99673c901d8"
+  },
+  {
+    "path": "work/replacements/worked13.pdf",
+    "bytes": 56961,
+    "sha256": "b48d2876c035ffbe67068e8aab7693c26e0e29984be8248e56914df43fb74ec0"
+  },
+  {
+    "path": "work/verification.json",
+    "bytes": 884,
+    "sha256": "a3c81ecf520da09df289253421a1fe1ff40005ac68c254df7d80421b35f8d179"
+  }
+]

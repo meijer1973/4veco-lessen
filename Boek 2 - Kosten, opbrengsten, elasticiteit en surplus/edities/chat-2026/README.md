@@ -1,6 +1,6 @@
 # Boek 2 — Kosten, opbrengsten, elasticiteit en surplus
 
-**Actuele theorie- en elasticiteitsrevisie (21 september):** bouw via platform `build-scripts/books/rebuild_book2_signed.py --all`. Zie [bronnen, bewijs en beperkingen](SIGNED-REVISION-2026-09-21.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
+**Actuele notatie- en woordformulerevisie (1 oktober):** bouw via platform `build-scripts/books/rebuild_book2_notation.py --all`. Zie [wijzigingen, paginering en bewijs](NOTATION-REVISION-2026-10-01.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
 
 ## Actuele chatuitgave · 2026
 
@@ -12,15 +12,15 @@ Deze uitgave bevat het voltooide Boek 2 dat de eigenaar voor opname in de reposi
 
 | Volledige bundel | Pagina’s |
 |---|---:|
-| [Leerlingenboek](boek/Boek_2_Compleet.pdf) | 110 |
-| [Antwoordenboek](boek/Boek_2_Compleet_Antwoorden.pdf) | 57 |
+| [Leerlingenboek](boek/Boek_2_Compleet.pdf) | 111 |
+| [Antwoordenboek](boek/Boek_2_Compleet_Antwoorden.pdf) | 58 |
 | [Docenteninformatie](boek/Boek_2_Compleet_Docenteninformatie.pdf) | 19 |
 
 ## Hoofdstukken
 
 | Hoofdstuk | Leerling-PDF | Antwoorden | Docenteninformatie | Bewerkbare bronnen |
 |---|---|---|---|---|
-| 2.1 Kosten en opbrengsten | [34 pagina’s](hoofdstukken/Boek_2_H1_Kosten_en_opbrengsten.pdf) | [20 pagina’s](hoofdstukken/Boek_2_H1_Antwoorden.pdf) | [5 pagina’s](hoofdstukken/Boek_2_H1_Docenteninformatie.pdf) | [Bronpakket H1](bronnen/H1/README.md) |
+| 2.1 Kosten en opbrengsten | [35 pagina’s](hoofdstukken/Boek_2_H1_Kosten_en_opbrengsten.pdf) | [21 pagina’s](hoofdstukken/Boek_2_H1_Antwoorden.pdf) | [5 pagina’s](hoofdstukken/Boek_2_H1_Docenteninformatie.pdf) | [Bronpakket H1](bronnen/H1/README.md) |
 | 2.2 Elasticiteit | [36 pagina’s](hoofdstukken/Boek_2_H2_Elasticiteit.pdf) | [18 pagina’s](hoofdstukken/Boek_2_H2_Antwoorden.pdf) | [6 pagina’s](hoofdstukken/Boek_2_H2_Docenteninformatie.pdf) | [Bronpakket H2](bronnen/H2/README.md) |
 | 2.3 Surplus en welvaart | [38 pagina’s](hoofdstukken/Boek_2_H3_Surplus_en_welvaart.pdf) | [17 pagina’s](hoofdstukken/Boek_2_H3_Antwoorden.pdf) | [6 pagina’s](hoofdstukken/Boek_2_H3_Docenteninformatie.pdf) | [Bronpakket H3](bronnen/H3/README.md) |
 
@@ -47,6 +47,6 @@ Elke koppeling opent de map met de bestaande Markdown- en PDF-exports. De oorspr
 
 Zie [importnotities](IMPORT_NOTES.md) en [bestandsmanifest](delivery-manifest.json). De historische bouwscripts, vereisten, bronverantwoording en lokale controlerapporten zijn meegeleverd, zonder die rapporten als nieuwe repository-CI of onafhankelijke inhoudsreview te presenteren.
 
-De volledige bundels hebben een ongenummerde omslag en inhoudsopgave. Daarna loopt de gedrukte paginering door: leerlingenboek 1–108, antwoordenboek 1–55 en docenteninformatie 1–17. In het leerlingenboek beginnen de hoofdstukken op gedrukte pagina’s 1, 35 en 71 (fysieke PDF-pagina’s 3, 37 en 73). De losse hoofdstukken en paragraafexports behouden de boekpaginanummers. Zie [de actuele bouwroute en paginamapping](SIGNED-REVISION-2026-09-21.md).
+De volledige bundels hebben een ongenummerde omslag en inhoudsopgave. Daarna loopt de gedrukte paginering door: leerlingenboek 1–109, antwoordenboek 1–56 en docenteninformatie 1–17. In het leerlingenboek beginnen de hoofdstukken op gedrukte pagina’s 1, 36 en 72 (fysieke PDF-pagina’s 3, 38 en 74). De losse hoofdstukken en paragraafexports behouden de boekpaginanummers. Zie [de actuele bouwroute en paginamapping](NOTATION-REVISION-2026-10-01.md).
 
 **Afdrukken:** A4 op ware grootte. De geleverde PDF’s bepalen de bladspiegel. Antwoorden en docenteninformatie blijven afzonderlijke documenten.

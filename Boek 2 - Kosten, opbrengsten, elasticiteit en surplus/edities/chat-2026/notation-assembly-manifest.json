@@ -1,0 +1,41 @@
+{
+  "revision": "book2-notation-20261001",
+  "chapter_inputs_sha256": "e75b9b1a49d1b2d22caad6c2467af535fd34a05bf55d663ea1586deaafb3cf6d",
+  "files": [
+    {
+      "path": "boek/Boek_2_Compleet.pdf",
+      "bytes": 4356045,
+      "sha256": "3e1164e44de994b440cef0884c52894723b1967c48266006784501bcd2afadf1"
+    },
+    {
+      "path": "boek/Boek_2_Compleet_Antwoorden.pdf",
+      "bytes": 4102849,
+      "sha256": "58a78a4262903e96c883c48c253cfd4156b9be3eeb60e304bf4404ae07641fe8"
+    },
+    {
+      "path": "boek/Boek_2_Compleet_Docenteninformatie.pdf",
+      "bytes": 3268805,
+      "sha256": "0f36bf59daec60b137a05ca76fcb67844d455ff395a6fa79b373db3c204ae5f7"
+    },
+    {
+      "path": "_assets/economics_textbook_cover_costs_and_surplus.png",
+      "bytes": 2573751,
+      "sha256": "4474df4c039cfa4fe01366a84b49c5be0ffcd7c3ddba930a78e2d328c79738e2"
+    },
+    {
+      "path": "boek/Boek_2_Theorie_46_Herziene_Paginas.pdf",
+      "bytes": 917669,
+      "sha256": "547e641c2f460bad2f5fbb47a28bc562f2a37bc7406d9c116c86a958e43ff4f2"
+    },
+    {
+      "path": "boek/Boek_2_Theorie_46_Herziene_Paginas.json",
+      "bytes": 15298,
+      "sha256": "ce5ec98a46b7662557cfabbf6afa57f1c92b455f5c4100475fb7d494abc47325"
+    },
+    {
+      "path": "boek/Boek_2_Theorie_2.1.3_p19-23.pdf",
+      "bytes": 517809,
+      "sha256": "9cf659fac06d67e162766a6aded83d36a11d26f61f1545bd1fd7e4f052e4352c"
+    }
+  ]
+}
