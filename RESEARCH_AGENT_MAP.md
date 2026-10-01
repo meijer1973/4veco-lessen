@@ -23,6 +23,11 @@ Inspect only the areas relevant to the question.
 
 ## Artifact relationships
 
+### Book 4 classroom presentation §4.2.3
+
+Current books34-v3 paragraph: [PowerPoint](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/4.2.3%20Marktvormen%20vergelijken%20%E2%80%93%20presentatie.pptx), [slide PDF](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/4.2.3%20Marktvormen%20vergelijken%20%E2%80%93%20presentatie.pdf), [source and review evidence](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/evidence/4.2.3-presentation.md). The deck discusses target exercise 25 and assigns exercises 21–25 as homework.
+
+
 The Book 2 classroom series covers all paragraphs in chapters 2.1, 2.2 and 2.3.
 Each editable deck, matching PDF and review lives beside that paragraph's
 other lesson materials. The platform [parallel production and continuity
