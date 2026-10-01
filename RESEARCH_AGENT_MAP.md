@@ -76,6 +76,8 @@ prove review or completeness. A missing optional companion is not automatically
 a defect in a textbook-only assignment.
 ## Selected Books 3 and 4
 
+Classroom §3.1.3 Subsidies (selected v3 edition): [PowerPoint](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.3%20Subsidies%20%E2%80%93%20presentatie.pptx), [slide PDF](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.3%20Subsidies%20%E2%80%93%20presentatie.pdf), [source and review evidence](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/evidence/3.1.3-presentation.md). Target exercise 25; full-book printed page 30. Scoped Part B classroom output.
+
 - Book 3: [complete PDFs, chapters and all editable sources](Boek%203%20-%20Overheidsingrijpen%2C%20concurrentie%20en%20internationale%20handel/README.md); [current outline adoption](https://github.com/meijer1973/4veco-platform/blob/main/references/authored/book-outlines/book-3-outline.meta.json).
 - Book 4: [complete PDFs, chapters and all editable sources](Boek%204%20-%20Monopolie%2C%20marktfalen%20en%20arbeidsmarkt/README.md); [current outline adoption](https://github.com/meijer1973/4veco-platform/blob/main/references/authored/book-outlines/book-4-outline.meta.json).
 
