@@ -71,6 +71,12 @@ review](https://github.com/meijer1973/4veco-platform/blob/codex/ppt-book3-202610
 | 3.3.3 Protectionisme: invoerheffingen en importquota | [PowerPoint](edities/books34-v3/books/book-3/chapters/3.3/paragraph-pdfs/3.3.3%20Protectionisme%20%E2%80%93%20presentatie.pptx) | [Slide PDF](edities/books34-v3/books/book-3/chapters/3.3/paragraph-pdfs/3.3.3%20Protectionisme%20%E2%80%93%20presentatie.pdf) | [Review](edities/books34-v3/books/book-3/chapters/3.3/paragraph-pdfs/evidence/3.3.3-presentation.md) |
 | 3.3.4 Gemengde opgaven: internationale handel | [PowerPoint](edities/books34-v3/books/book-3/chapters/3.3/paragraph-pdfs/3.3.4%20Gemengde%20opgaven%20internationale%20handel%20%E2%80%93%20presentatie.pptx) | [Slide PDF](edities/books34-v3/books/book-3/chapters/3.3/paragraph-pdfs/3.3.4%20Gemengde%20opgaven%20internationale%20handel%20%E2%80%93%20presentatie.pdf) | [Review](edities/books34-v3/books/book-3/chapters/3.3/paragraph-pdfs/evidence/3.3.4-presentation.md) |
 
+Book 4 classroom presentation:
+
+| Paragraph | PowerPoint | PDF | Evidence |
+|---|---|---|---|
+| 4.2.5 Positieve externe effecten | [PowerPoint](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/4.2.5%20Positieve%20externe%20effecten%20%E2%80%93%20presentatie.pptx) | [Slide PDF](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/4.2.5%20Positieve%20externe%20effecten%20%E2%80%93%20presentatie.pdf) | [Review](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/evidence/4.2.5-presentation.md) |
+
 Presentation review does not establish measured classroom timing, pupil mastery
 or formal approval of the textbook target candidates. The book sources remain unchanged.
 
