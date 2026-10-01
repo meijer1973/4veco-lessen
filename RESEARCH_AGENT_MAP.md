@@ -109,3 +109,9 @@ a defect in a textbook-only assignment.
 Current lookup: platform `node build-scripts/references/books34-selected-structure.js --revision book34-lesson-balance-v3-20260915 3.3.1`. Current preservation check (including classroom additions): `node build-scripts/maintenance/check-classroom-edition.js --require-tracked`. Numeric IDs require revision `book34-lesson-balance-v3-20260915`; archive IDs do not transfer target approval. Integration is prepared/in PR.
 
 Books 3/4 v3: one shared lesson package at `edities/books34-v3/`; 31 filled candidates, 6+4+4 / 5+7+5. Integration in PR; no merge, publication, final target review or classroom timing certification. V2 sources and checks remain historical.
+
+## Book 4 classroom presentations
+
+| Paragraph | Editable presentation | Projection/print copy | Evidence |
+|---|---|---|---|
+| 4.1.4 Winstmaximalisatie bij monopolie | [PowerPoint](edities/books34-v3/books/book-4/chapters/4.1/paragraph-pdfs/4.1.4%20Winstmaximalisatie%20bij%20monopolie%20%E2%80%93%20presentatie.pptx) | [Slide PDF](edities/books34-v3/books/book-4/chapters/4.1/paragraph-pdfs/4.1.4%20Winstmaximalisatie%20bij%20monopolie%20%E2%80%93%20presentatie.pdf) | [Review](edities/books34-v3/books/book-4/chapters/4.1/paragraph-pdfs/evidence/4.1.4-presentation.md) |
