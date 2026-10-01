@@ -74,6 +74,14 @@ review](https://github.com/meijer1973/4veco-platform/blob/codex/ppt-book3-202610
 Presentation review does not establish measured classroom timing, pupil mastery
 or formal approval of the textbook target candidates. The book sources remain unchanged.
 
+## Book 4 classroom presentations
+
+Classroom additions use the current v3 sources and sit beside the sealed student PDFs.
+
+| Paragraph | Editable presentation | Projection/print copy | Evidence |
+|---|---|---|---|
+| 4.2.4 Negatieve externe effecten | [PowerPoint](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/4.2.4%20Negatieve%20externe%20effecten%20%E2%80%93%20presentatie.pptx) | [Slide PDF](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/4.2.4%20Negatieve%20externe%20effecten%20%E2%80%93%20presentatie.pdf) | [Review](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/evidence/4.2.4-presentation.md) |
+
 Discover exact names from the inventory or directory listing before constructing
 a path. Book/chapter/paragraph folders contain their identifier and Dutch title.
 Artifact names commonly use ` – ` (space, en dash U+2013, space), not a hyphen.
