@@ -24,7 +24,7 @@ Gebruik de gepinde Pythonafhankelijkheden in `requirements-exercise-routes.txt` 
 - §2.1.3 toont eerst de woordbreuken en introduceert daarna Δ. Linoprint en Atelier Boog hebben elk een pagina. PlakLab, WafelWagen, het kostenoverzicht en geselecteerde vraag-/aanbodberekeningen scheiden onafhankelijke formules duidelijker.
 - SportLint, opgave 5, heeft MK- en MO-invulkolommen. Het antwoord bevat de volledige tabel en dezelfde berekeningen: MK = 4 en MO = 9 voor beide intervallen.
 - Alle 114 genummerde oefeningen, gegevens, leerdoelen en doelhandelingen blijven behouden. De huidige targetautoriteit is ongewijzigd; Qd→Qv en Qs→Qa in doelfragmenten zijn alleen equivalente notatie. Er is geen nieuwe curriculum- of PV-vrijgave.
-- De normale route met begeleide inoefening, de getekende elasticiteitsuitleg en de eerdere omslagcorrecties blijven behouden. Boek 1, Boeken 3/4 en Part B wijzigen niet.
+- De normale route met begeleide inoefening, de getekende elasticiteitsuitleg en de eerdere omslagcorrecties blijven behouden. Boek 1 en Boeken 3/4 wijzigen niet. De aanvullende, expliciet opgedragen Part B-reparatie omvat alleen de tien presentaties hieronder.
 
 ## Paginering en gebruik
 
@@ -50,7 +50,7 @@ De hoofdinhoudsopgaven hebben nu 15 / 3 / 3 klikbare regels; samen met de hoofds
 
 Geef de betreffende bronpagina als los blad wanneer leerlingen de bron tegelijk met de vragen moeten zien. Er is geen blanco pagina ingevoegd. De [controle van alle zeven gesplitste oefeningen](notation-print-impact.json) omvat ook SokkenShop 14–15 (ongewijzigd tegenoverliggend) en de doeloefening van §2.3.3 100–101 (nu wel tegenoverliggend). De twee StreamPlus-verwijzingen zeggen nu volgende/vorige pagina.
 
-**Afzonderlijke presentaties:** ongewijzigde dia’s zijn niet automatisch verenigbaar met de nieuwe boekpaginering. Alle twaalf bestaande paginamaps zijn gecontroleerd; tien presentaties vanaf §2.1.3 bevatten verouderde verwijzingen. De [zichtbare waarschuwing, omzettabel en open herstelopdracht](PRESENTATIES-PAGINAVERWIJZINGEN.md) gelden totdat bron, manifest, sprekersnotities, PPTX en PDF apart zijn hersteld en beoordeeld. De bestaande classroom-bestanden en hun historische reviews blijven hier ongewijzigd.
+**Presentaties:** alle twaalf paginamaps zijn gecontroleerd. De tien presentaties vanaf §2.1.3 zijn via hun platformbron en manifest herbouwd als PPTX en PDF; overzichtsdia’s, docentnotities, verwijzingen naar de gesplitste voorbeelden en Qv/Qa sluiten nu aan op het huidige boek. De [actuele presentatie-index](PRESENTATIES-PAGINAVERWIJZINGEN.md) vervangt de waarschuwingen en omzettabel. De oorspronkelijke classroom-reviews blijven historische bewijsstukken; de nieuwe review bindt de herbouwde bestanden. BOOK2-PRESENTATION-PAGE-REFERENCES is hiermee afgehandeld.
 
 De eerdere timingbeperking blijft staan: voor de negen theorieparagrafen van Boek 2 is geen gemeten begroting van de volledige ondersteunde route beschikbaar. De extra uitleg geeft geen onderbouwing voor een 55-minutenclaim. Plan naar behoefte extra lestijd; de doeloefening en begeleiding blijven volledig beschikbaar.
 

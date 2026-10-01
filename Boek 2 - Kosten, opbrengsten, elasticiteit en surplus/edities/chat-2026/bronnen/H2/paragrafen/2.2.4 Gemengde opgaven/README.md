@@ -1,7 +1,8 @@
 # 2.2.4 — presentaties en boekeditie
 
-> **Let op: verouderde boekpaginaverwijzingen in de presentatie.** De PPTX en presentatie-PDF in deze map horen bij de eerdere paginering. Vanaf §2.1.3 sluiten de paginaverwijzingen niet aan op het herziene leerlingenboek van 111 pagina’s.
+De presentatie en sprekersnotities sluiten aan op de gedrukte paginanummers van het herziene leerlingenboek (1 oktober 2026).
 
-Gebruik vóór de les de [omzettabel en open vervolgtaak](../../../../PRESENTATIES-PAGINAVERWIJZINGEN.md). De dia’s en sprekersnotities zijn nog niet hersteld; neem hun boekpaginanummers niet rechtstreeks over. Opgavenummers blijven gelijk.
+- [PowerPoint](2.2.4%20Gemengde%20opgaven%20%E2%80%93%20presentatie.pptx)
+- [Presentatie als PDF](2.2.4%20Gemengde%20opgaven%20%E2%80%93%20presentatie.pdf)
 
-De paragraaf- en opgaven-PDF’s volgen wel de actuele boekpaginering. Zie [bron- en bouwinformatie](LEESMIJ.md).
+Zie het [overzicht van alle twaalf presentaties](../../../../PRESENTATIES-PAGINAVERWIJZINGEN.md) en de [bron- en bouwinformatie](LEESMIJ.md).

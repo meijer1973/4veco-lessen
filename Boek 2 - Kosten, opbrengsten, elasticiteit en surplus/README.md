@@ -13,7 +13,7 @@ De bewerkbare leerlingbronnen staan in `edities/chat-2026/bronnen/H*/manuscript/
 
 **Actuele levering:** 111 / 58 / 19 fysieke pagina’s; omslag en inhoudsopgave zijn ongenummerd. De bestanden en bouwroute in deze versie horen bij de notatie- en woordformulerevisie. De bijbehorende beoordeling en integratiestatus staan in [Platform #274](https://github.com/meijer1973/4veco-platform/pull/274) en [Lessons #73](https://github.com/meijer1973/4veco-lessen/pull/73).
 
-**Let op bij presentaties vanaf §2.1.3:** de bestaande PPTX/PDF-dia’s en sprekersnotities gebruiken nog de oude boekpaginering. Lees vóór de les de [omzettabel en open herstelopdracht](edities/chat-2026/PRESENTATIES-PAGINAVERWIJZINGEN.md).
+**Presentaties:** de PowerPoints, PDF’s en docentnotities sluiten aan op de huidige gedrukte boekpagina’s. [Open de twaalf presentaties](edities/chat-2026/PRESENTATIES-PAGINAVERWIJZINGEN.md).
 
 **Importhistorie:** `BOOK2-CHAT-IMPORT-1` beschrijft de eerdere ontvangst en archivering. De statuszinnen in het [historische integratieverslag](IMPORT_REPORT.md) zijn geen actuele leverings- of mergestatus. De import verleende geen nieuwe targetgoedkeuring of companion/productstatus.
 

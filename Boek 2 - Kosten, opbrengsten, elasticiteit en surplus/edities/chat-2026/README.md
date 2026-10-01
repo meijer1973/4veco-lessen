@@ -2,7 +2,7 @@
 
 **Actuele notatie- en woordformulerevisie (1 oktober):** bouw via platform `build-scripts/books/rebuild_book2_notation.py --all`. Zie [wijzigingen, paginering en bewijs](NOTATION-REVISION-2026-10-01.md). Oudere bouwinstructies hieronder beschrijven historische reproductie.
 
-**Presentaties vanaf §2.1.3:** de bestaande dia’s en sprekersnotities verwijzen nog naar de oude boekpagina’s. Gebruik vóór de les de [omzettabel en open herstelopdracht](PRESENTATIES-PAGINAVERWIJZINGEN.md). De waarschuwing staat ook bij elke betrokken paragraafmap.
+**Presentaties:** de PowerPoints, PDF’s en docentnotities sluiten aan op de huidige gedrukte boekpagina’s. [Open de twaalf presentaties](PRESENTATIES-PAGINAVERWIJZINGEN.md).
 
 ## Actuele chatuitgave · 2026
 
