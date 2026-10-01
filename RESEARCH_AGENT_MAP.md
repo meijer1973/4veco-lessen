@@ -82,3 +82,14 @@ a defect in a textbook-only assignment.
 Current lookup: platform `node build-scripts/references/books34-selected-structure.js --revision book34-lesson-balance-v3-20260915 3.3.1`. Validation: `node build-scripts/maintenance/check-books34-v3-import.js --require-tracked`. Numeric IDs require revision `book34-lesson-balance-v3-20260915`; archive IDs do not transfer target approval. Integration is prepared/in PR.
 
 Books 3/4 v3: one shared lesson package at `edities/books34-v3/`; 31 filled candidates, 6+4+4 / 5+7+5. Integration in PR; no merge, publication, final target review or classroom timing certification. V2 sources and checks remain historical.
+
+### Classroom presentation §3.1.6
+
+Mixed practice on government intervention, current Books 3/4 v3 edition.
+Start: 46; further practice: 47 and 47A (extra); discussion: 48; homework: 46, 47, 47A and 48.
+
+- [PowerPoint](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.6%20Gemengde%20opgaven%20-%20overheidsingrijpen%20%E2%80%93%20presentatie.pptx)
+- [Matching slide PDF](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/3.1.6%20Gemengde%20opgaven%20-%20overheidsingrijpen%20%E2%80%93%20presentatie.pdf)
+- [Source and review evidence](edities/books34-v3/books/book-3/chapters/3.1/paragraph-pdfs/evidence/3.1.6-presentation.md)
+
+Scoped classroom output; no new target approval or measured lesson timing.
