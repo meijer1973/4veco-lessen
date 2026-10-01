@@ -74,6 +74,12 @@ review](https://github.com/meijer1973/4veco-platform/blob/codex/ppt-book3-202610
 Presentation review does not establish measured classroom timing, pupil mastery
 or formal approval of the textbook target candidates. The book sources remain unchanged.
 
+## Book 4 classroom presentations
+
+| Paragraph | Editable slides | Slide PDF | Evidence |
+|---|---|---|---|
+| 4.2.7 Gemengde opgaven: marktvormen en marktfalen | [PowerPoint](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/4.2.7%20Gemengde%20opgaven%20-%20marktvormen%20en%20marktfalen%20%E2%80%93%20presentatie.pptx) | [Slide PDF](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/4.2.7%20Gemengde%20opgaven%20-%20marktvormen%20en%20marktfalen%20%E2%80%93%20presentatie.pdf) | [Review](edities/books34-v3/books/book-4/chapters/4.2/paragraph-pdfs/evidence/4.2.7-presentation.md) |
+
 Discover exact names from the inventory or directory listing before constructing
 a path. Book/chapter/paragraph folders contain their identifier and Dutch title.
 Artifact names commonly use ` – ` (space, en dash U+2013, space), not a hyphen.
