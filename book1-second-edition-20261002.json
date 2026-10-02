@@ -11,6 +11,11 @@
       "sha256": "964df055450d1e0d00fb3801ed857f5f7b931229ae2bba94c41a48dbbb064cc1"
     },
     {
+      "path": ".github/workflows/paired-exercise-route-ci.yml",
+      "bytes": 5082,
+      "sha256": "d80fee38c852c48c2570839f6554c85e4f5c2d76c3640efe33344fc6761d22e9"
+    },
+    {
       "path": "AGENTS.md",
       "bytes": 7100,
       "sha256": "cd610649c496fc61506507d3fea0afa8cda37616d920b52d4de54d6d2d6b73a3"
@@ -27,8 +32,8 @@
     },
     {
       "path": "build-scripts/books/book1-second-edition-revision.js",
-      "bytes": 10330,
-      "sha256": "386636512cbb8d755876dc952e77530201c68db6c473d121819679409f499686"
+      "bytes": 10661,
+      "sha256": "fda8db1f161892158e68126bde42b2d1a0ed2f20030c925c9ef009b30fedaa08"
     },
     {
       "path": "build-scripts/books/book1-second-edition-revision.test.js",
