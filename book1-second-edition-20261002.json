@@ -6,6 +6,11 @@
   "approval": "Manifest is freshness evidence only; independent review and human merge authority are separate.",
   "platform": [
     {
+      "path": ".gitattributes",
+      "bytes": 14866,
+      "sha256": "2077c30f711d7f48d57c2d713fefd2842a72ce02e7ca73cf111fc588af8665c4"
+    },
+    {
       "path": ".github/workflows/paired-book1-second-edition-ci.yml",
       "bytes": 4544,
       "sha256": "964df055450d1e0d00fb3801ed857f5f7b931229ae2bba94c41a48dbbb064cc1"
@@ -37,13 +42,13 @@
     },
     {
       "path": "build-scripts/books/book1-second-edition-revision.js",
-      "bytes": 10827,
-      "sha256": "e42a1f7e0670a8860eea6c64bd5c19b6f147ca65a5781b7cfdbc397162763c7e"
+      "bytes": 12047,
+      "sha256": "97e67a03cd4052f181228ab9c905829a8bd3c474a1bcc017e817268777a4f8a5"
     },
     {
       "path": "build-scripts/books/book1-second-edition-revision.test.js",
-      "bytes": 1930,
-      "sha256": "38a30d11d2deae89654a240a7dc6e7997ec48ab7d358f32c3dfdec359d6cea19"
+      "bytes": 4701,
+      "sha256": "771f84a95f81b63108af6d0f890913c17a475b8812f79f63533b75b4b327a18e"
     },
     {
       "path": "build-scripts/books/book1_second_edition/book/build_book.py",
@@ -257,8 +262,8 @@
     },
     {
       "path": "docs/workflows/book1-second-edition.md",
-      "bytes": 2326,
-      "sha256": "bc4714a990e42e04dfb6040215f7654579c0e970c3f96416a1a1e1081a20d15a"
+      "bytes": 3061,
+      "sha256": "c64079d7944a9318e9904c4ceb29897e6b038fd17732fb1856c70872df0e5e99"
     },
     {
       "path": "docs/workflows/part-a-start.md",
