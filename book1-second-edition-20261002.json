@@ -27,8 +27,8 @@
     },
     {
       "path": "build-scripts/books/book1-second-edition-revision.js",
-      "bytes": 10283,
-      "sha256": "f1ea94b930c09429dc0f9e3681c86712d81de50d00c3afa33b6110126158518e"
+      "bytes": 10330,
+      "sha256": "386636512cbb8d755876dc952e77530201c68db6c473d121819679409f499686"
     },
     {
       "path": "build-scripts/books/book1-second-edition-revision.test.js",
@@ -149,6 +149,11 @@
       "path": "build-scripts/books/build-book.py",
       "bytes": 2712,
       "sha256": "d66aec851ef141b7266cca2f69934473141ab3fe0d18d6477110413bead8d0b6"
+    },
+    {
+      "path": "build-scripts/ci/paired-paragraph-ci.test.js",
+      "bytes": 8544,
+      "sha256": "8baac0785b5d18d78e187a57055d136e95f87ab0afdc328ff74c49b56c85b30b"
     },
     {
       "path": "build-scripts/content/book-1/presentation-v2-registry.js",
