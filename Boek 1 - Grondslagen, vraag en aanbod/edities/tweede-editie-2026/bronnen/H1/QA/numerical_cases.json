@@ -1,0 +1,477 @@
+[
+  {
+    "label": "worked111_read",
+    "expression": "4*40",
+    "expected": 160
+  },
+  {
+    "label": "worked111_repair",
+    "expression": "4*55",
+    "expected": 220
+  },
+  {
+    "label": "garden40",
+    "expression": "8*5",
+    "expected": 40
+  },
+  {
+    "label": "garden56",
+    "expression": "8*7",
+    "expected": 56
+  },
+  {
+    "label": "job36",
+    "expression": "4*9",
+    "expected": 36
+  },
+  {
+    "label": "job44",
+    "expression": "4*11",
+    "expected": 44
+  },
+  {
+    "label": "target111music",
+    "expression": "3*70",
+    "expected": 210
+  },
+  {
+    "label": "target111market",
+    "expression": "3*90",
+    "expected": 270
+  },
+  {
+    "label": "feechange",
+    "expression": "(100-80)/80*100",
+    "expected": 25
+  },
+  {
+    "label": "reverse",
+    "expression": "(80-100)/100*100",
+    "expected": -20
+  },
+  {
+    "label": "sharegrowth",
+    "expression": "(25-20)/20*100",
+    "expected": 25
+  },
+  {
+    "label": "new56",
+    "expression": "50*1.12",
+    "expected": 56
+  },
+  {
+    "label": "new40",
+    "expression": "50*.8",
+    "expected": 40
+  },
+  {
+    "label": "idx120",
+    "expression": "60/50*100",
+    "expected": 120
+  },
+  {
+    "label": "idx132",
+    "expression": "66/50*100",
+    "expected": 132
+  },
+  {
+    "label": "idxgrowth",
+    "expression": "(132-120)/120*100",
+    "expected": 10
+  },
+  {
+    "label": "we1126",
+    "expression": "180/30",
+    "expected": 6
+  },
+  {
+    "label": "we11220",
+    "expression": "(6-5)/5*100",
+    "expected": 20
+  },
+  {
+    "label": "we1127.26",
+    "expression": "6.6*1.1",
+    "expected": 7.26
+  },
+  {
+    "label": "we112share",
+    "expression": "30/120*100",
+    "expected": 25
+  },
+  {
+    "label": "we112members",
+    "expression": "(30-20)/20*100",
+    "expected": 50
+  },
+  {
+    "label": "ex12pct",
+    "expression": "(60-48)/48*100",
+    "expected": 25
+  },
+  {
+    "label": "ex12new",
+    "expression": "60*.9",
+    "expected": 54
+  },
+  {
+    "label": "ex13idx",
+    "expression": "30/20*100",
+    "expected": 150
+  },
+  {
+    "label": "ex13growth",
+    "expression": "(150-120)/120*100",
+    "expected": 25
+  },
+  {
+    "label": "ex14both",
+    "expression": ".24*150",
+    "expected": 36
+  },
+  {
+    "label": "ex14growth",
+    "expression": "(36-20)/20*100",
+    "expected": 80
+  },
+  {
+    "label": "ex15per",
+    "expression": "144/18",
+    "expected": 8
+  },
+  {
+    "label": "ex15new",
+    "expression": "8*1.125",
+    "expected": 9
+  },
+  {
+    "label": "ex16growth",
+    "expression": "(121-110)/110*100",
+    "expected": 10
+  },
+  {
+    "label": "ex16price",
+    "expression": "4*1.21",
+    "expected": 4.84
+  },
+  {
+    "label": "target112per",
+    "expression": "216/36",
+    "expected": 6
+  },
+  {
+    "label": "target112pct",
+    "expression": "(12-10)/10*100",
+    "expected": 20
+  },
+  {
+    "label": "target112new",
+    "expression": "15*1.08",
+    "expected": 16.2
+  },
+  {
+    "label": "target112idx",
+    "expression": "15/10*100",
+    "expected": 150
+  },
+  {
+    "label": "target112indexpct",
+    "expression": "(150-120)/120*100",
+    "expected": 25
+  },
+  {
+    "label": "target112shareold",
+    "expression": "24/120*100",
+    "expected": 20
+  },
+  {
+    "label": "target112sharenew",
+    "expression": "36/150*100",
+    "expected": 24
+  },
+  {
+    "label": "target112sharepct",
+    "expression": "(24-20)/20*100",
+    "expected": 20
+  },
+  {
+    "label": "bonus112case1",
+    "expression": "1000/2000*100",
+    "expected": 50
+  },
+  {
+    "label": "bonus112case2",
+    "expression": "1000/10000*100",
+    "expected": 10
+  },
+  {
+    "label": "review21",
+    "expression": "(60-80)/80*100",
+    "expected": -25
+  },
+  {
+    "label": "theoryinterpolate",
+    "expression": "60-(4.5-4)/(6-4)*(60-40)",
+    "expected": 55
+  },
+  {
+    "label": "formula18",
+    "expression": "6+3*4",
+    "expected": 18
+  },
+  {
+    "label": "formula8",
+    "expression": "(30-6)/3",
+    "expected": 8
+  },
+  {
+    "label": "bookschange",
+    "expression": "60-36",
+    "expected": 24
+  },
+  {
+    "label": "booksrate",
+    "expression": "(60-36)/(6-3)",
+    "expected": 8
+  },
+  {
+    "label": "we113between",
+    "expression": "40-.5*(40-20)",
+    "expected": 30
+  },
+  {
+    "label": "we113pct",
+    "expression": "(40-60)/60*100",
+    "expected": -33.333333333333336
+  },
+  {
+    "label": "we113sub",
+    "expression": "4+2*5",
+    "expected": 14
+  },
+  {
+    "label": "we113inverse",
+    "expression": "(20-4)/2",
+    "expected": 8
+  },
+  {
+    "label": "we113rect",
+    "expression": "(5-1)*(5-2)",
+    "expected": 12
+  },
+  {
+    "label": "we113tri",
+    "expression": ".5*(5-1)*(5-2)",
+    "expected": 6
+  },
+  {
+    "label": "ex24mid",
+    "expression": "60-.5*(60-30)",
+    "expected": 45
+  },
+  {
+    "label": "ex25miss",
+    "expression": "60-20",
+    "expected": 40
+  },
+  {
+    "label": "ex25interp",
+    "expression": "60-.5*(60-40)",
+    "expected": 50
+  },
+  {
+    "label": "ex26inverse",
+    "expression": "(25-5)/4",
+    "expected": 5
+  },
+  {
+    "label": "ex26area",
+    "expression": "5*(6-2)",
+    "expected": 20
+  },
+  {
+    "label": "ex27interpolate",
+    "expression": "120-(5-3)/(6-3)*(120-90)",
+    "expected": 100
+  },
+  {
+    "label": "ex27percentage",
+    "expression": "(90-120)/120*100",
+    "expected": -25
+  },
+  {
+    "label": "ex27rate",
+    "expression": "(120-60)/(9-3)",
+    "expected": 10
+  },
+  {
+    "label": "ex28T0",
+    "expression": "10+2.5*0",
+    "expected": 10
+  },
+  {
+    "label": "ex28T4",
+    "expression": "10+2.5*4",
+    "expected": 20
+  },
+  {
+    "label": "ex28T12",
+    "expression": "10+2.5*12",
+    "expected": 40
+  },
+  {
+    "label": "ex28inverse",
+    "expression": "(35-10)/2.5",
+    "expected": 10
+  },
+  {
+    "label": "ex28T8",
+    "expression": "10+2.5*8",
+    "expected": 30
+  },
+  {
+    "label": "ex29rect",
+    "expression": "(11-3)*(7-2)",
+    "expected": 40
+  },
+  {
+    "label": "ex29tri",
+    "expression": ".5*(11-3)*(7-2)",
+    "expected": 20
+  },
+  {
+    "label": "target113interp",
+    "expression": "100-(4-2)/(5-2)*(100-70)",
+    "expected": 80
+  },
+  {
+    "label": "target113pct",
+    "expression": "(70-100)/100*100",
+    "expected": -30
+  },
+  {
+    "label": "target113T",
+    "expression": "8+2*6",
+    "expected": 20
+  },
+  {
+    "label": "target113inverse",
+    "expression": "(32-8)/2",
+    "expected": 12
+  },
+  {
+    "label": "target113area",
+    "expression": "(8-2)*(8-4)",
+    "expected": 24
+  },
+  {
+    "label": "target113tri",
+    "expression": ".5*(8-2)*(8-4)",
+    "expected": 12
+  },
+  {
+    "label": "review32",
+    "expression": "(100-125)/125*100",
+    "expected": -20
+  },
+  {
+    "label": "review33",
+    "expression": "2*9",
+    "expected": 18
+  },
+  {
+    "label": "mixedwe110",
+    "expression": "2*55",
+    "expected": 110
+  },
+  {
+    "label": "mixedwe25",
+    "expression": "(10-8)/8*100",
+    "expected": 25
+  },
+  {
+    "label": "mixedwe70",
+    "expression": "80-.5*(80-60)",
+    "expected": 70
+  },
+  {
+    "label": "ex34priceold",
+    "expression": "60/200",
+    "expected": 0.3
+  },
+  {
+    "label": "ex34pricenew",
+    "expression": "80/250",
+    "expected": 0.32
+  },
+  {
+    "label": "ex34pct",
+    "expression": "(.32-.30)/.30*100",
+    "expected": 6.666666666666667
+  },
+  {
+    "label": "ex34total",
+    "expression": "(80-60)/60*100",
+    "expected": 33.333333333333336
+  },
+  {
+    "label": "ex34idx",
+    "expression": ".32/.30*100",
+    "expected": 106.66666666666667
+  },
+  {
+    "label": "ex35ratio",
+    "expression": "(210-150)/150*100",
+    "expected": 40
+  },
+  {
+    "label": "target114120",
+    "expression": "2*60",
+    "expected": 120
+  },
+  {
+    "label": "target114150",
+    "expression": "2*75",
+    "expected": 150
+  },
+  {
+    "label": "target114interp",
+    "expression": "140-.5*(140-100)",
+    "expected": 120
+  },
+  {
+    "label": "target114idx120",
+    "expression": "4.8/4*100",
+    "expected": 120
+  },
+  {
+    "label": "target114idx150",
+    "expression": "6/4*100",
+    "expected": 150
+  },
+  {
+    "label": "target114percent",
+    "expression": "(150-120)/120*100",
+    "expected": 25
+  },
+  {
+    "label": "ex37sub",
+    "expression": "12+3*4",
+    "expected": 24
+  },
+  {
+    "label": "ex37inverse",
+    "expression": "(42-12)/3",
+    "expected": 10
+  },
+  {
+    "label": "ex37rect",
+    "expression": "(7-1)*(5-2)",
+    "expected": 18
+  },
+  {
+    "label": "ex37tri",
+    "expression": ".5*(7-1)*(5-2)",
+    "expected": 9
+  }
+]

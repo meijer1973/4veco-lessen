@@ -1,0 +1,222 @@
+[
+  {
+    "label": "Ravi q bij2",
+    "expression": "12-2*2",
+    "expected": 8
+  },
+  {
+    "label": "Ravi inverse bij6",
+    "expression": "(12-6)/2",
+    "expected": 3
+  },
+  {
+    "label": "Sara preview",
+    "expression": "(10-4)+(7-4)",
+    "expected": 9
+  },
+  {
+    "label": "Doel8 q2",
+    "expression": "20-4*2",
+    "expected": 12
+  },
+  {
+    "label": "Doel8 q3",
+    "expression": "20-4*3",
+    "expected": 8
+  },
+  {
+    "label": "Doel8 inverse",
+    "expression": "(20-6)/4",
+    "expected": 3.5
+  },
+  {
+    "label": "Doel8 cutoff",
+    "expression": "20/4",
+    "expected": 5
+  },
+  {
+    "label": "Opgave6 q2",
+    "expression": "18-3*2",
+    "expected": 12
+  },
+  {
+    "label": "Opgave6 q4",
+    "expression": "18-3*4",
+    "expected": 6
+  },
+  {
+    "label": "Opgave5 inverse",
+    "expression": "(15-6)/3",
+    "expected": 3
+  },
+  {
+    "label": "Opgave10 percentage",
+    "expression": "(3.6-3)/3*100",
+    "expected": 20
+  },
+  {
+    "label": "Lumi oud",
+    "expression": "100-5*8",
+    "expected": 60
+  },
+  {
+    "label": "Lumi alleenprijs",
+    "expression": "100-5*10",
+    "expected": 50
+  },
+  {
+    "label": "Lumi nieuw",
+    "expression": "120-5*10",
+    "expected": 70
+  },
+  {
+    "label": "Lumi nettoverschil",
+    "expression": "70-60",
+    "expected": 10
+  },
+  {
+    "label": "Wraps oud",
+    "expression": "60-3*6",
+    "expected": 42
+  },
+  {
+    "label": "Wraps tussen",
+    "expression": "60-3*8",
+    "expected": 36
+  },
+  {
+    "label": "Wraps nieuw",
+    "expression": "72-3*8",
+    "expected": 48
+  },
+  {
+    "label": "Dans oud",
+    "expression": "60-3*10",
+    "expected": 30
+  },
+  {
+    "label": "Dans nieuw",
+    "expression": "72-3*8",
+    "expected": 48
+  },
+  {
+    "label": "Wasstraat verschoven",
+    "expression": "100-10*6",
+    "expected": 40
+  },
+  {
+    "label": "Helmen extra",
+    "expression": "40-24",
+    "expected": 16
+  },
+  {
+    "label": "Index21",
+    "expression": "(132-120)/120*100",
+    "expected": 10
+  },
+  {
+    "label": "Voorbeeld aggregaat P2",
+    "expression": "(8-2*2)+(12-2*2)",
+    "expected": 12
+  },
+  {
+    "label": "Voorbeeld uittreden P5",
+    "expression": "max(0,8-2*5)+max(0,12-2*5)",
+    "expected": 2
+  },
+  {
+    "label": "WE123 P3",
+    "expression": "(12-3*3)+(8-3)",
+    "expected": 8
+  },
+  {
+    "label": "WE123 P6",
+    "expression": "max(0,12-3*6)+max(0,8-6)",
+    "expected": 2
+  },
+  {
+    "label": "Doel30 P0",
+    "expression": "18+24",
+    "expected": 42
+  },
+  {
+    "label": "Doel30 P2",
+    "expression": "(18-3*2)+(24-2*2)",
+    "expected": 32
+  },
+  {
+    "label": "Doel30 P4",
+    "expression": "(18-3*4)+(24-2*4)",
+    "expected": 22
+  },
+  {
+    "label": "Doel30 P6",
+    "expression": "max(0,18-3*6)+(24-2*6)",
+    "expected": 12
+  },
+  {
+    "label": "Doel30 P8",
+    "expression": "max(0,18-3*8)+(24-2*8)",
+    "expected": 8
+  },
+  {
+    "label": "Ind28 P2",
+    "expression": "36-6*2",
+    "expected": 24
+  },
+  {
+    "label": "Ind29 P6",
+    "expression": "max(0,10-2*6)+max(0,18-2*6)",
+    "expected": 6
+  },
+  {
+    "label": "Opgave33 rechthoek",
+    "expression": "(8-2)*(6-3)",
+    "expected": 18
+  },
+  {
+    "label": "Workshop stijging",
+    "expression": "(7.5-6)/6*100",
+    "expected": 25
+  },
+  {
+    "label": "Sanne q bij4",
+    "expression": "(7-4)/0.5",
+    "expected": 6
+  },
+  {
+    "label": "Sanne q bij5",
+    "expression": "(7-5)/0.5",
+    "expected": 4
+  },
+  {
+    "label": "Doel37 oud",
+    "expression": "60-6*4",
+    "expected": 36
+  },
+  {
+    "label": "Doel37 prijs bij30",
+    "expression": "(60-30)/6",
+    "expected": 5
+  },
+  {
+    "label": "Doel37 alleenprijs",
+    "expression": "60-6*6",
+    "expected": 24
+  },
+  {
+    "label": "Doel37 na",
+    "expression": "72-6*6",
+    "expected": 36
+  },
+  {
+    "label": "Doel37 net",
+    "expression": "36-36",
+    "expected": 0
+  },
+  {
+    "label": "Herstel38 perioden",
+    "expression": "7*6+7",
+    "expected": 49
+  }
+]

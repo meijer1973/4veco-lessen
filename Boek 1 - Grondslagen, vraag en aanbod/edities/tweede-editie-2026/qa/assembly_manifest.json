@@ -1,0 +1,74 @@
+{
+  "outputs": [
+    {
+      "file": "boek/Boek_1_Compleet_Tweede_editie.pdf",
+      "pages": 132,
+      "source_pages": 120,
+      "chapter_starts": [
+        5,
+        45,
+        85
+      ],
+      "intentional_blank_pages": [],
+      "internal_links": 125,
+      "bookmarks": 31,
+      "recorded_edits": 135
+    },
+    {
+      "file": "boek/Boek_1_Compleet_Antwoorden_Tweede_editie.pdf",
+      "pages": 66,
+      "source_pages": 63,
+      "chapter_starts": [
+        3,
+        23,
+        45
+      ],
+      "intentional_blank_pages": [
+        66
+      ],
+      "internal_links": 23,
+      "bookmarks": 131,
+      "recorded_edits": 71
+    },
+    {
+      "file": "boek/Boek_1_Compleet_Docenteninformatie_Tweede_editie.pdf",
+      "pages": 28,
+      "source_pages": 25,
+      "chapter_starts": [
+        3,
+        11,
+        19
+      ],
+      "intentional_blank_pages": [
+        28
+      ],
+      "internal_links": 3,
+      "bookmarks": 27,
+      "recorded_edits": 25
+    }
+  ],
+  "glossary_entries": 47,
+  "glossary_source_definitions": 48,
+  "glossary_pages": 4,
+  "formula_pages": 4,
+  "book_chapter_pages": 120,
+  "instructional_paragraphs": 12,
+  "exercise_total": 114,
+  "formula_start": 129,
+  "source_spreads_in_book": [
+    [
+      40,
+      41
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      120,
+      121
+    ]
+  ],
+  "book_guidance": "skills/econ-book-builder.md: cover, colophon, preface, full contents, chapters, glossary, formula overview; answers kept separate",
+  "guidance_adaptations": "Rebuild editable second-edition manuscripts and assemble with continuous pagination. Corrected native cover diagrams; supported normal route and honest teacher planning. Preserve first-edition evidence separately. Source and review evidence are distinct."
+}

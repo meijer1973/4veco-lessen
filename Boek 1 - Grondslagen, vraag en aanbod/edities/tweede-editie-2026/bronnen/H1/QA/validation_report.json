@@ -1,0 +1,5339 @@
+{
+  "scope": "Local content/build checks. Manual visual review recorded separately; no classroom or independent-review claim.",
+  "total_checks": 1126,
+  "passed": 1126,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "38 consecutive exercises",
+      "pass": true
+    },
+    {
+      "check": "100 subquestions",
+      "pass": true
+    },
+    {
+      "check": "Four target exercises",
+      "pass": true
+    },
+    {
+      "check": "1: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "1a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "1a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "1b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "1b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "2: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "2a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "2a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "2b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "2b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "3: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "3a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "3a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "3b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "3b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "4: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "4a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "4a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "4b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "4b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "5: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "5a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "5a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "5b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "5b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "6: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "6a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "6a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "6b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "6b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "7: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "7a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "7a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "7b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "7b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "7c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "7c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "7d: complete answer",
+      "pass": true
+    },
+    {
+      "check": "7d: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "7e: complete answer",
+      "pass": true
+    },
+    {
+      "check": "7e: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "8: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "8a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "8a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "9: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "9a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "9a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "9b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "9b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "10: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "10a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "10a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "10b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "10b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "11: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "11a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "11a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "11b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "11b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "11c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "11c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "12: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "12a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "12a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "12b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "12b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "13: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "13a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "13a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "13b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "13b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "14: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "14a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "14a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "14b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "14b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "14c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "14c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "14d: complete answer",
+      "pass": true
+    },
+    {
+      "check": "14d: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "15: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "15a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "15a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "15b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "15b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "15c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "15c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "16: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "16a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "16a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "16b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "16b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "16c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "16c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "17: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "17a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "17a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "17b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "17b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "18: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "18a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "18a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "18b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "18b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "18c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "18c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "18d: complete answer",
+      "pass": true
+    },
+    {
+      "check": "18d: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "18e: complete answer",
+      "pass": true
+    },
+    {
+      "check": "18e: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "18f: complete answer",
+      "pass": true
+    },
+    {
+      "check": "18f: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "18g: complete answer",
+      "pass": true
+    },
+    {
+      "check": "18g: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "19: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "19a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "19a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "20: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "20a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "20a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "21: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "21a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "21a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "22: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "22a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "22a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "22b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "22b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "23: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "23a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "23a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "23b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "23b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "24: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "24a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "24a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "24b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "24b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "25: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "25a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "25a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "25b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "25b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "25c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "25c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "26: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "26a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "26a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "26b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "26b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "26c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "26c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "27: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "27a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "27a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "27b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "27b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "27c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "27c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "27d: complete answer",
+      "pass": true
+    },
+    {
+      "check": "27d: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "28: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "28a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "28a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "28b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "28b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "28c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "28c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "29: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "29a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "29a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "29b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "29b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "30: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "30a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "30a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "30b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "30b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "30c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "30c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "30d: complete answer",
+      "pass": true
+    },
+    {
+      "check": "30d: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "30e: complete answer",
+      "pass": true
+    },
+    {
+      "check": "30e: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "30f: complete answer",
+      "pass": true
+    },
+    {
+      "check": "30f: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "30g: complete answer",
+      "pass": true
+    },
+    {
+      "check": "30g: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "31: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "31a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "31a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "32: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "32a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "32a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "33: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "33a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "33a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "34: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "34a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "34a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "34b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "34b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "34c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "34c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "34d: complete answer",
+      "pass": true
+    },
+    {
+      "check": "34d: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "35: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "35a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "35a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "35b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "35b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "36: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "36a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "36a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "36b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "36b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "36c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "36c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "36d: complete answer",
+      "pass": true
+    },
+    {
+      "check": "36d: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "36e: complete answer",
+      "pass": true
+    },
+    {
+      "check": "36e: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "36f: complete answer",
+      "pass": true
+    },
+    {
+      "check": "36f: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "36g: complete answer",
+      "pass": true
+    },
+    {
+      "check": "36g: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "37: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "37a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "37a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "37b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "37b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "38: question/answer count",
+      "pass": true
+    },
+    {
+      "check": "38a: complete answer",
+      "pass": true
+    },
+    {
+      "check": "38a: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "38b: complete answer",
+      "pass": true
+    },
+    {
+      "check": "38b: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "38c: complete answer",
+      "pass": true
+    },
+    {
+      "check": "38c: explanation or bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "arithmetic worked111_read",
+      "pass": true,
+      "detail": {
+        "computed": 160,
+        "expected": 160
+      }
+    },
+    {
+      "check": "arithmetic worked111_repair",
+      "pass": true,
+      "detail": {
+        "computed": 220,
+        "expected": 220
+      }
+    },
+    {
+      "check": "arithmetic garden40",
+      "pass": true,
+      "detail": {
+        "computed": 40,
+        "expected": 40
+      }
+    },
+    {
+      "check": "arithmetic garden56",
+      "pass": true,
+      "detail": {
+        "computed": 56,
+        "expected": 56
+      }
+    },
+    {
+      "check": "arithmetic job36",
+      "pass": true,
+      "detail": {
+        "computed": 36,
+        "expected": 36
+      }
+    },
+    {
+      "check": "arithmetic job44",
+      "pass": true,
+      "detail": {
+        "computed": 44,
+        "expected": 44
+      }
+    },
+    {
+      "check": "arithmetic target111music",
+      "pass": true,
+      "detail": {
+        "computed": 210,
+        "expected": 210
+      }
+    },
+    {
+      "check": "arithmetic target111market",
+      "pass": true,
+      "detail": {
+        "computed": 270,
+        "expected": 270
+      }
+    },
+    {
+      "check": "arithmetic feechange",
+      "pass": true,
+      "detail": {
+        "computed": 25.0,
+        "expected": 25
+      }
+    },
+    {
+      "check": "arithmetic reverse",
+      "pass": true,
+      "detail": {
+        "computed": -20.0,
+        "expected": -20
+      }
+    },
+    {
+      "check": "arithmetic sharegrowth",
+      "pass": true,
+      "detail": {
+        "computed": 25.0,
+        "expected": 25
+      }
+    },
+    {
+      "check": "arithmetic new56",
+      "pass": true,
+      "detail": {
+        "computed": 56.00000000000001,
+        "expected": 56
+      }
+    },
+    {
+      "check": "arithmetic new40",
+      "pass": true,
+      "detail": {
+        "computed": 40.0,
+        "expected": 40
+      }
+    },
+    {
+      "check": "arithmetic idx120",
+      "pass": true,
+      "detail": {
+        "computed": 120.0,
+        "expected": 120
+      }
+    },
+    {
+      "check": "arithmetic idx132",
+      "pass": true,
+      "detail": {
+        "computed": 132.0,
+        "expected": 132
+      }
+    },
+    {
+      "check": "arithmetic idxgrowth",
+      "pass": true,
+      "detail": {
+        "computed": 10.0,
+        "expected": 10
+      }
+    },
+    {
+      "check": "arithmetic we1126",
+      "pass": true,
+      "detail": {
+        "computed": 6.0,
+        "expected": 6
+      }
+    },
+    {
+      "check": "arithmetic we11220",
+      "pass": true,
+      "detail": {
+        "computed": 20.0,
+        "expected": 20
+      }
+    },
+    {
+      "check": "arithmetic we1127.26",
+      "pass": true,
+      "detail": {
+        "computed": 7.26,
+        "expected": 7.26
+      }
+    },
+    {
+      "check": "arithmetic we112share",
+      "pass": true,
+      "detail": {
+        "computed": 25.0,
+        "expected": 25
+      }
+    },
+    {
+      "check": "arithmetic we112members",
+      "pass": true,
+      "detail": {
+        "computed": 50.0,
+        "expected": 50
+      }
+    },
+    {
+      "check": "arithmetic ex12pct",
+      "pass": true,
+      "detail": {
+        "computed": 25.0,
+        "expected": 25
+      }
+    },
+    {
+      "check": "arithmetic ex12new",
+      "pass": true,
+      "detail": {
+        "computed": 54.0,
+        "expected": 54
+      }
+    },
+    {
+      "check": "arithmetic ex13idx",
+      "pass": true,
+      "detail": {
+        "computed": 150.0,
+        "expected": 150
+      }
+    },
+    {
+      "check": "arithmetic ex13growth",
+      "pass": true,
+      "detail": {
+        "computed": 25.0,
+        "expected": 25
+      }
+    },
+    {
+      "check": "arithmetic ex14both",
+      "pass": true,
+      "detail": {
+        "computed": 36.0,
+        "expected": 36
+      }
+    },
+    {
+      "check": "arithmetic ex14growth",
+      "pass": true,
+      "detail": {
+        "computed": 80.0,
+        "expected": 80
+      }
+    },
+    {
+      "check": "arithmetic ex15per",
+      "pass": true,
+      "detail": {
+        "computed": 8.0,
+        "expected": 8
+      }
+    },
+    {
+      "check": "arithmetic ex15new",
+      "pass": true,
+      "detail": {
+        "computed": 9.0,
+        "expected": 9
+      }
+    },
+    {
+      "check": "arithmetic ex16growth",
+      "pass": true,
+      "detail": {
+        "computed": 10.0,
+        "expected": 10
+      }
+    },
+    {
+      "check": "arithmetic ex16price",
+      "pass": true,
+      "detail": {
+        "computed": 4.84,
+        "expected": 4.84
+      }
+    },
+    {
+      "check": "arithmetic target112per",
+      "pass": true,
+      "detail": {
+        "computed": 6.0,
+        "expected": 6
+      }
+    },
+    {
+      "check": "arithmetic target112pct",
+      "pass": true,
+      "detail": {
+        "computed": 20.0,
+        "expected": 20
+      }
+    },
+    {
+      "check": "arithmetic target112new",
+      "pass": true,
+      "detail": {
+        "computed": 16.200000000000003,
+        "expected": 16.2
+      }
+    },
+    {
+      "check": "arithmetic target112idx",
+      "pass": true,
+      "detail": {
+        "computed": 150.0,
+        "expected": 150
+      }
+    },
+    {
+      "check": "arithmetic target112indexpct",
+      "pass": true,
+      "detail": {
+        "computed": 25.0,
+        "expected": 25
+      }
+    },
+    {
+      "check": "arithmetic target112shareold",
+      "pass": true,
+      "detail": {
+        "computed": 20.0,
+        "expected": 20
+      }
+    },
+    {
+      "check": "arithmetic target112sharenew",
+      "pass": true,
+      "detail": {
+        "computed": 24.0,
+        "expected": 24
+      }
+    },
+    {
+      "check": "arithmetic target112sharepct",
+      "pass": true,
+      "detail": {
+        "computed": 20.0,
+        "expected": 20
+      }
+    },
+    {
+      "check": "arithmetic bonus112case1",
+      "pass": true,
+      "detail": {
+        "computed": 50.0,
+        "expected": 50
+      }
+    },
+    {
+      "check": "arithmetic bonus112case2",
+      "pass": true,
+      "detail": {
+        "computed": 10.0,
+        "expected": 10
+      }
+    },
+    {
+      "check": "arithmetic review21",
+      "pass": true,
+      "detail": {
+        "computed": -25.0,
+        "expected": -25
+      }
+    },
+    {
+      "check": "arithmetic theoryinterpolate",
+      "pass": true,
+      "detail": {
+        "computed": 55.0,
+        "expected": 55
+      }
+    },
+    {
+      "check": "arithmetic formula18",
+      "pass": true,
+      "detail": {
+        "computed": 18,
+        "expected": 18
+      }
+    },
+    {
+      "check": "arithmetic formula8",
+      "pass": true,
+      "detail": {
+        "computed": 8.0,
+        "expected": 8
+      }
+    },
+    {
+      "check": "arithmetic bookschange",
+      "pass": true,
+      "detail": {
+        "computed": 24,
+        "expected": 24
+      }
+    },
+    {
+      "check": "arithmetic booksrate",
+      "pass": true,
+      "detail": {
+        "computed": 8.0,
+        "expected": 8
+      }
+    },
+    {
+      "check": "arithmetic we113between",
+      "pass": true,
+      "detail": {
+        "computed": 30.0,
+        "expected": 30
+      }
+    },
+    {
+      "check": "arithmetic we113pct",
+      "pass": true,
+      "detail": {
+        "computed": -33.33333333333333,
+        "expected": -33.333333333333336
+      }
+    },
+    {
+      "check": "arithmetic we113sub",
+      "pass": true,
+      "detail": {
+        "computed": 14,
+        "expected": 14
+      }
+    },
+    {
+      "check": "arithmetic we113inverse",
+      "pass": true,
+      "detail": {
+        "computed": 8.0,
+        "expected": 8
+      }
+    },
+    {
+      "check": "arithmetic we113rect",
+      "pass": true,
+      "detail": {
+        "computed": 12,
+        "expected": 12
+      }
+    },
+    {
+      "check": "arithmetic we113tri",
+      "pass": true,
+      "detail": {
+        "computed": 6.0,
+        "expected": 6
+      }
+    },
+    {
+      "check": "arithmetic ex24mid",
+      "pass": true,
+      "detail": {
+        "computed": 45.0,
+        "expected": 45
+      }
+    },
+    {
+      "check": "arithmetic ex25miss",
+      "pass": true,
+      "detail": {
+        "computed": 40,
+        "expected": 40
+      }
+    },
+    {
+      "check": "arithmetic ex25interp",
+      "pass": true,
+      "detail": {
+        "computed": 50.0,
+        "expected": 50
+      }
+    },
+    {
+      "check": "arithmetic ex26inverse",
+      "pass": true,
+      "detail": {
+        "computed": 5.0,
+        "expected": 5
+      }
+    },
+    {
+      "check": "arithmetic ex26area",
+      "pass": true,
+      "detail": {
+        "computed": 20,
+        "expected": 20
+      }
+    },
+    {
+      "check": "arithmetic ex27interpolate",
+      "pass": true,
+      "detail": {
+        "computed": 100.0,
+        "expected": 100
+      }
+    },
+    {
+      "check": "arithmetic ex27percentage",
+      "pass": true,
+      "detail": {
+        "computed": -25.0,
+        "expected": -25
+      }
+    },
+    {
+      "check": "arithmetic ex27rate",
+      "pass": true,
+      "detail": {
+        "computed": 10.0,
+        "expected": 10
+      }
+    },
+    {
+      "check": "arithmetic ex28T0",
+      "pass": true,
+      "detail": {
+        "computed": 10.0,
+        "expected": 10
+      }
+    },
+    {
+      "check": "arithmetic ex28T4",
+      "pass": true,
+      "detail": {
+        "computed": 20.0,
+        "expected": 20
+      }
+    },
+    {
+      "check": "arithmetic ex28T12",
+      "pass": true,
+      "detail": {
+        "computed": 40.0,
+        "expected": 40
+      }
+    },
+    {
+      "check": "arithmetic ex28inverse",
+      "pass": true,
+      "detail": {
+        "computed": 10.0,
+        "expected": 10
+      }
+    },
+    {
+      "check": "arithmetic ex28T8",
+      "pass": true,
+      "detail": {
+        "computed": 30.0,
+        "expected": 30
+      }
+    },
+    {
+      "check": "arithmetic ex29rect",
+      "pass": true,
+      "detail": {
+        "computed": 40,
+        "expected": 40
+      }
+    },
+    {
+      "check": "arithmetic ex29tri",
+      "pass": true,
+      "detail": {
+        "computed": 20.0,
+        "expected": 20
+      }
+    },
+    {
+      "check": "arithmetic target113interp",
+      "pass": true,
+      "detail": {
+        "computed": 80.0,
+        "expected": 80
+      }
+    },
+    {
+      "check": "arithmetic target113pct",
+      "pass": true,
+      "detail": {
+        "computed": -30.0,
+        "expected": -30
+      }
+    },
+    {
+      "check": "arithmetic target113T",
+      "pass": true,
+      "detail": {
+        "computed": 20,
+        "expected": 20
+      }
+    },
+    {
+      "check": "arithmetic target113inverse",
+      "pass": true,
+      "detail": {
+        "computed": 12.0,
+        "expected": 12
+      }
+    },
+    {
+      "check": "arithmetic target113area",
+      "pass": true,
+      "detail": {
+        "computed": 24,
+        "expected": 24
+      }
+    },
+    {
+      "check": "arithmetic target113tri",
+      "pass": true,
+      "detail": {
+        "computed": 12.0,
+        "expected": 12
+      }
+    },
+    {
+      "check": "arithmetic review32",
+      "pass": true,
+      "detail": {
+        "computed": -20.0,
+        "expected": -20
+      }
+    },
+    {
+      "check": "arithmetic review33",
+      "pass": true,
+      "detail": {
+        "computed": 18,
+        "expected": 18
+      }
+    },
+    {
+      "check": "arithmetic mixedwe110",
+      "pass": true,
+      "detail": {
+        "computed": 110,
+        "expected": 110
+      }
+    },
+    {
+      "check": "arithmetic mixedwe25",
+      "pass": true,
+      "detail": {
+        "computed": 25.0,
+        "expected": 25
+      }
+    },
+    {
+      "check": "arithmetic mixedwe70",
+      "pass": true,
+      "detail": {
+        "computed": 70.0,
+        "expected": 70
+      }
+    },
+    {
+      "check": "arithmetic ex34priceold",
+      "pass": true,
+      "detail": {
+        "computed": 0.3,
+        "expected": 0.3
+      }
+    },
+    {
+      "check": "arithmetic ex34pricenew",
+      "pass": true,
+      "detail": {
+        "computed": 0.32,
+        "expected": 0.32
+      }
+    },
+    {
+      "check": "arithmetic ex34pct",
+      "pass": true,
+      "detail": {
+        "computed": 6.666666666666673,
+        "expected": 6.666666666666667
+      }
+    },
+    {
+      "check": "arithmetic ex34total",
+      "pass": true,
+      "detail": {
+        "computed": 33.33333333333333,
+        "expected": 33.333333333333336
+      }
+    },
+    {
+      "check": "arithmetic ex34idx",
+      "pass": true,
+      "detail": {
+        "computed": 106.66666666666667,
+        "expected": 106.66666666666667
+      }
+    },
+    {
+      "check": "arithmetic ex35ratio",
+      "pass": true,
+      "detail": {
+        "computed": 40.0,
+        "expected": 40
+      }
+    },
+    {
+      "check": "arithmetic target114120",
+      "pass": true,
+      "detail": {
+        "computed": 120,
+        "expected": 120
+      }
+    },
+    {
+      "check": "arithmetic target114150",
+      "pass": true,
+      "detail": {
+        "computed": 150,
+        "expected": 150
+      }
+    },
+    {
+      "check": "arithmetic target114interp",
+      "pass": true,
+      "detail": {
+        "computed": 120.0,
+        "expected": 120
+      }
+    },
+    {
+      "check": "arithmetic target114idx120",
+      "pass": true,
+      "detail": {
+        "computed": 120.0,
+        "expected": 120
+      }
+    },
+    {
+      "check": "arithmetic target114idx150",
+      "pass": true,
+      "detail": {
+        "computed": 150.0,
+        "expected": 150
+      }
+    },
+    {
+      "check": "arithmetic target114percent",
+      "pass": true,
+      "detail": {
+        "computed": 25.0,
+        "expected": 25
+      }
+    },
+    {
+      "check": "arithmetic ex37sub",
+      "pass": true,
+      "detail": {
+        "computed": 24,
+        "expected": 24
+      }
+    },
+    {
+      "check": "arithmetic ex37inverse",
+      "pass": true,
+      "detail": {
+        "computed": 10.0,
+        "expected": 10
+      }
+    },
+    {
+      "check": "arithmetic ex37rect",
+      "pass": true,
+      "detail": {
+        "computed": 18,
+        "expected": 18
+      }
+    },
+    {
+      "check": "arithmetic ex37tri",
+      "pass": true,
+      "detail": {
+        "computed": 9.0,
+        "expected": 9
+      }
+    },
+    {
+      "check": "cross-check target111 alternative",
+      "pass": true
+    },
+    {
+      "check": "cross-check target112 pp",
+      "pass": true
+    },
+    {
+      "check": "cross-check target112 relative share",
+      "pass": true
+    },
+    {
+      "check": "cross-check target113 inverse",
+      "pass": true
+    },
+    {
+      "check": "cross-check target114 interpolation",
+      "pass": true
+    },
+    {
+      "check": "cross-check target114 growth",
+      "pass": true
+    },
+    {
+      "check": "1.1.1_fig_1 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.1_fig_1 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.1_fig_1 text 0 viewport",
+      "pass": true,
+      "detail": "Je kunt hetzelfde middel niet tegelijk twee keer gebruiken"
+    },
+    {
+      "check": "1.1.1_fig_1 text 1 viewport",
+      "pass": true,
+      "detail": "Behoeften"
+    },
+    {
+      "check": "1.1.1_fig_1 text 2 viewport",
+      "pass": true,
+      "detail": "Wat wil je bereiken?"
+    },
+    {
+      "check": "1.1.1_fig_1 text 3 viewport",
+      "pass": true,
+      "detail": "Beperkt middel"
+    },
+    {
+      "check": "1.1.1_fig_1 text 4 viewport",
+      "pass": true,
+      "detail": "Tijd, geld of ruimte"
+    },
+    {
+      "check": "1.1.1_fig_1 text 5 viewport",
+      "pass": true,
+      "detail": "Keuze"
+    },
+    {
+      "check": "1.1.1_fig_1 text 6 viewport",
+      "pass": true,
+      "detail": "Wat doe je wél?"
+    },
+    {
+      "check": "1.1.1_fig_1 text 7 viewport",
+      "pass": true,
+      "detail": "Een keuze betekent dat een andere mogelijkheid vervalt."
+    },
+    {
+      "check": "1.1.1_fig_2 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.1_fig_2 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.1_fig_2 text 0 viewport",
+      "pass": true,
+      "detail": "De beste mogelijkheid die je laat liggen"
+    },
+    {
+      "check": "1.1.1_fig_2 text 1 viewport",
+      "pass": true,
+      "detail": "Drie uur op zaterdag"
+    },
+    {
+      "check": "1.1.1_fig_2 text 2 viewport",
+      "pass": true,
+      "detail": "Naar de bibliotheek"
+    },
+    {
+      "check": "1.1.1_fig_2 text 3 viewport",
+      "pass": true,
+      "detail": "Jouw gekozen activiteit"
+    },
+    {
+      "check": "1.1.1_fig_2 text 4 viewport",
+      "pass": true,
+      "detail": "Geen toegangsprijs"
+    },
+    {
+      "check": "1.1.1_fig_2 text 5 viewport",
+      "pass": true,
+      "detail": "Honden uitlaten"
+    },
+    {
+      "check": "1.1.1_fig_2 text 6 viewport",
+      "pass": true,
+      "detail": "3 × € 8 = € 24"
+    },
+    {
+      "check": "1.1.1_fig_2 text 7 viewport",
+      "pass": true,
+      "detail": "Beste gemiste geldbedrag"
+    },
+    {
+      "check": "1.1.1_fig_2 text 8 viewport",
+      "pass": true,
+      "detail": "Tuinwerk"
+    },
+    {
+      "check": "1.1.1_fig_2 text 9 viewport",
+      "pass": true,
+      "detail": "3 × € 6 = € 18"
+    },
+    {
+      "check": "1.1.1_fig_2 text 10 viewport",
+      "pass": true,
+      "detail": "Niet óók erbij optellen"
+    },
+    {
+      "check": "1.1.1_fig_2 text 11 viewport",
+      "pass": true,
+      "detail": "Bij deze vergelijking loop je € 24 aan inkomsten mis."
+    },
+    {
+      "check": "1.1.1_we_1 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.1_we_1 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.1_we_1 text 0 viewport",
+      "pass": true,
+      "detail": "Van beperkte tijd naar twee vergelijkbare uitkomsten"
+    },
+    {
+      "check": "1.1.1_we_1 text 1 viewport",
+      "pass": true,
+      "detail": "Middel"
+    },
+    {
+      "check": "1.1.1_we_1 text 2 viewport",
+      "pass": true,
+      "detail": "4 uur in de buurtzaal"
+    },
+    {
+      "check": "1.1.1_we_1 text 3 viewport",
+      "pass": true,
+      "detail": "Vergelijk"
+    },
+    {
+      "check": "1.1.1_we_1 text 4 viewport",
+      "pass": true,
+      "detail": "€ 160 of € 220"
+    },
+    {
+      "check": "1.1.1_we_1 text 5 viewport",
+      "pass": true,
+      "detail": "Kies bij het doel"
+    },
+    {
+      "check": "1.1.1_we_1 text 6 viewport",
+      "pass": true,
+      "detail": "Meeste geld: € 220"
+    },
+    {
+      "check": "1.1.1_we_1 text 7 viewport",
+      "pass": true,
+      "detail": "De opgegeven activiteit is € 160 waard; niet het verschil van € 60."
+    },
+    {
+      "check": "1.1.1_ex_3 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.1_ex_3 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.1_ex_3 text 0 viewport",
+      "pass": true,
+      "detail": "Een ingevulde vergelijking"
+    },
+    {
+      "check": "1.1.1_ex_3 text 1 viewport",
+      "pass": true,
+      "detail": "Eén middag in de studio"
+    },
+    {
+      "check": "1.1.1_ex_3 text 2 viewport",
+      "pass": true,
+      "detail": "Portretfoto’s"
+    },
+    {
+      "check": "1.1.1_ex_3 text 3 viewport",
+      "pass": true,
+      "detail": "Netto € 180"
+    },
+    {
+      "check": "1.1.1_ex_3 text 4 viewport",
+      "pass": true,
+      "detail": "Gekozen: hoogste bedrag"
+    },
+    {
+      "check": "1.1.1_ex_3 text 5 viewport",
+      "pass": true,
+      "detail": "Productfoto’s"
+    },
+    {
+      "check": "1.1.1_ex_3 text 6 viewport",
+      "pass": true,
+      "detail": "Netto € 150"
+    },
+    {
+      "check": "1.1.1_ex_3 text 7 viewport",
+      "pass": true,
+      "detail": "Beste opgegeven optie"
+    },
+    {
+      "check": "1.1.1_ex_3 text 8 viewport",
+      "pass": true,
+      "detail": "Andere boeking"
+    },
+    {
+      "check": "1.1.1_ex_3 text 9 viewport",
+      "pass": true,
+      "detail": "Niet beschikbaar"
+    },
+    {
+      "check": "1.1.1_ex_3 text 10 viewport",
+      "pass": true,
+      "detail": "Geen haalbaar alternatief"
+    },
+    {
+      "check": "1.1.1_ex_3 text 11 viewport",
+      "pass": true,
+      "detail": "Alternatieve kosten van de gekozen portretmiddag: € 150."
+    },
+    {
+      "check": "1.1.2_fig_1 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_fig_1 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_fig_1 text 0 viewport",
+      "pass": true,
+      "detail": "Twee verschillende vergelijkingen"
+    },
+    {
+      "check": "1.1.2_fig_1 text 1 viewport",
+      "pass": true,
+      "detail": "Bedrag per eenheid"
+    },
+    {
+      "check": "1.1.2_fig_1 text 2 viewport",
+      "pass": true,
+      "detail": "€ 180 voor 12 personen"
+    },
+    {
+      "check": "1.1.2_fig_1 text 3 viewport",
+      "pass": true,
+      "detail": "€ 180 / 12 = € 15"
+    },
+    {
+      "check": "1.1.2_fig_1 text 4 viewport",
+      "pass": true,
+      "detail": "Eenheid: euro per persoon"
+    },
+    {
+      "check": "1.1.2_fig_1 text 5 viewport",
+      "pass": true,
+      "detail": "Deel van een groep"
+    },
+    {
+      "check": "1.1.2_fig_1 text 6 viewport",
+      "pass": true,
+      "detail": "18 van de 60 leerlingen"
+    },
+    {
+      "check": "1.1.2_fig_1 text 7 viewport",
+      "pass": true,
+      "detail": "18 / 60 × 100% = 30%"
+    },
+    {
+      "check": "1.1.2_fig_1 text 8 viewport",
+      "pass": true,
+      "detail": "Eenheid: procent"
+    },
+    {
+      "check": "1.1.2_fig_2 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_fig_2 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_fig_2 text 0 viewport",
+      "pass": true,
+      "detail": "Van € 80 naar € 100: de oude € 80 is de basis"
+    },
+    {
+      "check": "1.1.2_fig_2 text 1 viewport",
+      "pass": true,
+      "detail": "Oud"
+    },
+    {
+      "check": "1.1.2_fig_2 text 2 viewport",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "1.1.2_fig_2 text 3 viewport",
+      "pass": true,
+      "detail": "Nieuw"
+    },
+    {
+      "check": "1.1.2_fig_2 text 4 viewport",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "1.1.2_fig_2 text 5 viewport",
+      "pass": true,
+      "detail": "prijs (€)"
+    },
+    {
+      "check": "1.1.2_fig_2 text 6 viewport",
+      "pass": true,
+      "detail": "Vergelijk het verschil steeds met de oude waarde."
+    },
+    {
+      "check": "1.1.2_fig_3 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_fig_3 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_fig_3 text 0 viewport",
+      "pass": true,
+      "detail": "20% naar 25%: twee juiste, verschillende beschrijvingen"
+    },
+    {
+      "check": "1.1.2_fig_3 text 1 viewport",
+      "pass": true,
+      "detail": "Oud"
+    },
+    {
+      "check": "1.1.2_fig_3 text 2 viewport",
+      "pass": true,
+      "detail": "20%"
+    },
+    {
+      "check": "1.1.2_fig_3 text 3 viewport",
+      "pass": true,
+      "detail": "Nieuw"
+    },
+    {
+      "check": "1.1.2_fig_3 text 4 viewport",
+      "pass": true,
+      "detail": "25%"
+    },
+    {
+      "check": "1.1.2_fig_3 text 5 viewport",
+      "pass": true,
+      "detail": "+5 procentpunten: het verschil tussen de aandelen"
+    },
+    {
+      "check": "1.1.2_fig_3 text 6 viewport",
+      "pass": true,
+      "detail": "+25%: het verschil vergeleken met het oude aandeel"
+    },
+    {
+      "check": "1.1.2_fig_4 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_fig_4 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_fig_4 text 0 viewport",
+      "pass": true,
+      "detail": "Eén vaste basis; steeds opnieuw de juiste vergelijking"
+    },
+    {
+      "check": "1.1.2_fig_4 text 1 viewport",
+      "pass": true,
+      "detail": "Basisjaar"
+    },
+    {
+      "check": "1.1.2_fig_4 text 2 viewport",
+      "pass": true,
+      "detail": "€ 50"
+    },
+    {
+      "check": "1.1.2_fig_4 text 3 viewport",
+      "pass": true,
+      "detail": "Index 100"
+    },
+    {
+      "check": "1.1.2_fig_4 text 4 viewport",
+      "pass": true,
+      "detail": "Jaar 2"
+    },
+    {
+      "check": "1.1.2_fig_4 text 5 viewport",
+      "pass": true,
+      "detail": "€ 60"
+    },
+    {
+      "check": "1.1.2_fig_4 text 6 viewport",
+      "pass": true,
+      "detail": "Index 120"
+    },
+    {
+      "check": "1.1.2_fig_4 text 7 viewport",
+      "pass": true,
+      "detail": "Jaar 3"
+    },
+    {
+      "check": "1.1.2_fig_4 text 8 viewport",
+      "pass": true,
+      "detail": "€ 66"
+    },
+    {
+      "check": "1.1.2_fig_4 text 9 viewport",
+      "pass": true,
+      "detail": "Index 132"
+    },
+    {
+      "check": "1.1.2_fig_4 text 10 viewport",
+      "pass": true,
+      "detail": "120 → 132: +12 indexpunten"
+    },
+    {
+      "check": "1.1.2_fig_4 text 11 viewport",
+      "pass": true,
+      "detail": "12 / 120 × 100% = 10%"
+    },
+    {
+      "check": "1.1.2_ex_12 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_ex_12 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.2_ex_12 text 0 viewport",
+      "pass": true,
+      "detail": "De berekening is ingevuld: € 48 → € 60 is +25%"
+    },
+    {
+      "check": "1.1.2_ex_12 text 1 viewport",
+      "pass": true,
+      "detail": "Oud"
+    },
+    {
+      "check": "1.1.2_ex_12 text 2 viewport",
+      "pass": true,
+      "detail": "48"
+    },
+    {
+      "check": "1.1.2_ex_12 text 3 viewport",
+      "pass": true,
+      "detail": "Nieuw"
+    },
+    {
+      "check": "1.1.2_ex_12 text 4 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.2_ex_12 text 5 viewport",
+      "pass": true,
+      "detail": "prijs (€)"
+    },
+    {
+      "check": "1.1.2_ex_12 text 6 viewport",
+      "pass": true,
+      "detail": "Vergelijk het verschil steeds met de oude waarde."
+    },
+    {
+      "check": "1.1.3_fig_1 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_1 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_1 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_1 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_1 text 0 viewport",
+      "pass": true,
+      "detail": "Stap 1 · Kies de assen en een bruikbare schaal"
+    },
+    {
+      "check": "1.1.3_fig_1 text 1 viewport",
+      "pass": true,
+      "detail": "Reserveringen Q (per middag)"
+    },
+    {
+      "check": "1.1.3_fig_1 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_fig_1 text 4 viewport",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "1.1.3_fig_1 text 5 viewport",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "1.1.3_fig_1 text 6 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_fig_1 text 7 viewport",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "1.1.3_fig_1 text 8 viewport",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "1.1.3_fig_1 text 9 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_fig_1 text 10 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_fig_1 text 11 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_fig_1 text 12 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_fig_2 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_2 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_2 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_2 point 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_2 point 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_2 point 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_2 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_2 segment 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_2 segment 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_2 text 0 viewport",
+      "pass": true,
+      "detail": "Stap 2 · Zet de drie punten en verbind ze"
+    },
+    {
+      "check": "1.1.3_fig_2 text 1 viewport",
+      "pass": true,
+      "detail": "Reserveringen Q (per middag)"
+    },
+    {
+      "check": "1.1.3_fig_2 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_fig_2 text 4 viewport",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "1.1.3_fig_2 text 5 viewport",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "1.1.3_fig_2 text 6 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_fig_2 text 7 viewport",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "1.1.3_fig_2 text 8 viewport",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "1.1.3_fig_2 text 9 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_fig_2 text 10 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_fig_2 text 11 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_fig_2 text 12 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_fig_3 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 point 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 point 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 point 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 segment 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 segment 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 reading geometry",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 reading lies on segment",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_3 text 0 viewport",
+      "pass": true,
+      "detail": "Stap 3 · Lees tussen twee punten: Q = 55 bij P = € 4,50"
+    },
+    {
+      "check": "1.1.3_fig_3 text 1 viewport",
+      "pass": true,
+      "detail": "Reserveringen Q (per middag)"
+    },
+    {
+      "check": "1.1.3_fig_3 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_fig_3 text 4 viewport",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "1.1.3_fig_3 text 5 viewport",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "1.1.3_fig_3 text 6 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_fig_3 text 7 viewport",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "1.1.3_fig_3 text 8 viewport",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "1.1.3_fig_3 text 9 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_fig_3 text 10 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_fig_3 text 11 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_fig_3 text 12 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_fig_3 text 13 viewport",
+      "pass": true,
+      "detail": "(55; 4,5)"
+    },
+    {
+      "check": "1.1.3_fig_4 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_4 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_4 text 0 viewport",
+      "pass": true,
+      "detail": "Vooruit invullen en terugrekenen"
+    },
+    {
+      "check": "1.1.3_fig_4 text 1 viewport",
+      "pass": true,
+      "detail": "Aantal n"
+    },
+    {
+      "check": "1.1.3_fig_4 text 2 viewport",
+      "pass": true,
+      "detail": "4 stoelen"
+    },
+    {
+      "check": "1.1.3_fig_4 text 3 viewport",
+      "pass": true,
+      "detail": "Rekenregel"
+    },
+    {
+      "check": "1.1.3_fig_4 text 4 viewport",
+      "pass": true,
+      "detail": "× 3, daarna + 6"
+    },
+    {
+      "check": "1.1.3_fig_4 text 5 viewport",
+      "pass": true,
+      "detail": "Bedrag T"
+    },
+    {
+      "check": "1.1.3_fig_4 text 6 viewport",
+      "pass": true,
+      "detail": "€ 18"
+    },
+    {
+      "check": "1.1.3_fig_4 text 7 viewport",
+      "pass": true,
+      "detail": "Terug: van € 18 eerst € 6 afhalen, daarna delen door € 3."
+    },
+    {
+      "check": "1.1.3_fig_5 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_5 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_5 polygon 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_5 area 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_5 polygon 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_5 area 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_5 text 0 viewport",
+      "pass": true,
+      "detail": "Een rechthoek en een driehoek op een plattegrond"
+    },
+    {
+      "check": "1.1.3_fig_5 text 1 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_fig_5 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_fig_5 text 4 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_fig_5 text 5 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_fig_5 text 6 viewport",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "1.1.3_fig_5 text 7 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.3_fig_5 text 8 viewport",
+      "pass": true,
+      "detail": "24 m²"
+    },
+    {
+      "check": "1.1.3_fig_5 text 9 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_fig_5 text 11 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_fig_5 text 12 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_fig_5 text 13 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_fig_5 text 14 viewport",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "1.1.3_fig_5 text 15 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.3_fig_5 text 16 viewport",
+      "pass": true,
+      "detail": "12 m²"
+    },
+    {
+      "check": "1.1.3_fig_6 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_6 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_6 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_6 point 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_6 point 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_6 point 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_6 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_6 segment 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_6 segment 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_fig_6 text 0 viewport",
+      "pass": true,
+      "detail": "Een tijdreeks: tijd staat nu op de horizontale as"
+    },
+    {
+      "check": "1.1.3_fig_6 text 1 viewport",
+      "pass": true,
+      "detail": "Tijd t (dagen)"
+    },
+    {
+      "check": "1.1.3_fig_6 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_fig_6 text 4 viewport",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "1.1.3_fig_6 text 5 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_fig_6 text 6 viewport",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "1.1.3_fig_6 text 7 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_fig_6 text 8 viewport",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "1.1.3_fig_6 text 9 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_fig_6 text 10 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.3_fig_6 text 11 viewport",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "1.1.3_fig_6 text 12 viewport",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "1.1.3_fig_6 text 13 viewport",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "1.1.3_fig_6 text 14 viewport",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "1.1.3_fig_6 text 15 viewport",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "1.1.3_fig_6 text 16 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_fig_6 text 17 viewport",
+      "pass": true,
+      "detail": "70"
+    },
+    {
+      "check": "1.1.3_fig_6 text 18 viewport",
+      "pass": true,
+      "detail": "Geconstrueerde waarnemingen"
+    },
+    {
+      "check": "1.1.3_we_1 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 point 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 point 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 point 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 segment 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 segment 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 reading geometry",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 reading lies on segment",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_1 text 0 viewport",
+      "pass": true,
+      "detail": "Uitgewerkt voorbeeld · Verwachte reserveringen"
+    },
+    {
+      "check": "1.1.3_we_1 text 1 viewport",
+      "pass": true,
+      "detail": "Reserveringen Q (per middag)"
+    },
+    {
+      "check": "1.1.3_we_1 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_we_1 text 4 viewport",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "1.1.3_we_1 text 5 viewport",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "1.1.3_we_1 text 6 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_we_1 text 7 viewport",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "1.1.3_we_1 text 8 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_we_1 text 9 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_we_1 text 10 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_we_1 text 11 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_we_1 text 12 viewport",
+      "pass": true,
+      "detail": "(30; 5)"
+    },
+    {
+      "check": "1.1.3_we_2 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_2 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_2 polygon 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_2 area 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_2 polygon 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_2 area 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_we_2 text 0 viewport",
+      "pass": true,
+      "detail": "Een rechthoek en een driehoek op een plattegrond"
+    },
+    {
+      "check": "1.1.3_we_2 text 1 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_we_2 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_we_2 text 4 viewport",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "1.1.3_we_2 text 5 viewport",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "1.1.3_we_2 text 6 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_we_2 text 7 viewport",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "1.1.3_we_2 text 8 viewport",
+      "pass": true,
+      "detail": "12 m²"
+    },
+    {
+      "check": "1.1.3_we_2 text 9 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_we_2 text 11 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_we_2 text 12 viewport",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "1.1.3_we_2 text 13 viewport",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "1.1.3_we_2 text 14 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_we_2 text 15 viewport",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "1.1.3_we_2 text 16 viewport",
+      "pass": true,
+      "detail": "6 m²"
+    },
+    {
+      "check": "1.1.3_ex_24 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 point 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 point 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 point 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 segment 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 segment 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 reading geometry",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 reading lies on segment",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_24 text 0 viewport",
+      "pass": true,
+      "detail": "Lees de ingevulde grafiek"
+    },
+    {
+      "check": "1.1.3_ex_24 text 1 viewport",
+      "pass": true,
+      "detail": "Verhuringen Q (per dag)"
+    },
+    {
+      "check": "1.1.3_ex_24 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ex_24 text 4 viewport",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "1.1.3_ex_24 text 5 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_ex_24 text 6 viewport",
+      "pass": true,
+      "detail": "90"
+    },
+    {
+      "check": "1.1.3_ex_24 text 7 viewport",
+      "pass": true,
+      "detail": "120"
+    },
+    {
+      "check": "1.1.3_ex_24 text 8 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ex_24 text 9 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_ex_24 text 10 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_ex_24 text 11 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ex_24 text 12 viewport",
+      "pass": true,
+      "detail": "(45; 5)"
+    },
+    {
+      "check": "1.1.3_ex_25 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_25 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_25 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_25 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_25 text 0 viewport",
+      "pass": true,
+      "detail": "Vul zelf de grafiek aan"
+    },
+    {
+      "check": "1.1.3_ex_25 text 1 viewport",
+      "pass": true,
+      "detail": "Bestellingen Q (per week)"
+    },
+    {
+      "check": "1.1.3_ex_25 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ex_25 text 4 viewport",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "1.1.3_ex_25 text 5 viewport",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "1.1.3_ex_25 text 6 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_ex_25 text 7 viewport",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "1.1.3_ex_25 text 8 viewport",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "1.1.3_ex_25 text 9 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ex_25 text 10 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_ex_25 text 11 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_ex_25 text 12 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ex_25 text 13 viewport",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "1.1.3_ex_29 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_29 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_29 polygon 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_29 area 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_29 polygon 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_29 area 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_29 text 0 viewport",
+      "pass": true,
+      "detail": "Een rechthoek en een driehoek op een plattegrond"
+    },
+    {
+      "check": "1.1.3_ex_29 text 1 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_ex_29 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ex_29 text 4 viewport",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "1.1.3_ex_29 text 5 viewport",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "1.1.3_ex_29 text 6 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ex_29 text 7 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.3_ex_29 text 8 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_ex_29 text 10 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ex_29 text 11 viewport",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "1.1.3_ex_29 text 12 viewport",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "1.1.3_ex_29 text 13 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ex_29 text 14 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.3_ex_30 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_30 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_30 polygon 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_30 area 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_30 polygon 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_30 area 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ex_30 text 0 viewport",
+      "pass": true,
+      "detail": "Een rechthoek en een driehoek op een plattegrond"
+    },
+    {
+      "check": "1.1.3_ex_30 text 1 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_ex_30 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ex_30 text 4 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ex_30 text 5 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ex_30 text 6 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_ex_30 text 7 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ex_30 text 8 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_ex_30 text 10 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ex_30 text 11 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ex_30 text 12 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ex_30 text 13 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_ex_30 text 14 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.4_ex_37 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ex_37 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ex_37 polygon 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ex_37 area 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ex_37 polygon 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ex_37 area 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ex_37 text 0 viewport",
+      "pass": true,
+      "detail": "Een rechthoek en een driehoek op een plattegrond"
+    },
+    {
+      "check": "1.1.4_ex_37 text 1 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.4_ex_37 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.4_ex_37 text 4 viewport",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "1.1.4_ex_37 text 5 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.4_ex_37 text 6 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.4_ex_37 text 7 viewport",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "1.1.4_ex_37 text 8 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.4_ex_37 text 10 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.4_ex_37 text 11 viewport",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "1.1.4_ex_37 text 12 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.4_ex_37 text 13 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.4_ex_37 text 14 viewport",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "1.1.3_ans_25 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 point 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 point 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 point 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 point 3",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 segment 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 segment 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 segment 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 reading geometry",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 reading lies on segment",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_25 text 0 viewport",
+      "pass": true,
+      "detail": "Opgave 25 · Volledig ingevulde grafiek"
+    },
+    {
+      "check": "1.1.3_ans_25 text 1 viewport",
+      "pass": true,
+      "detail": "Bestellingen Q (per week)"
+    },
+    {
+      "check": "1.1.3_ans_25 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ans_25 text 4 viewport",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "1.1.3_ans_25 text 5 viewport",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "1.1.3_ans_25 text 6 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_ans_25 text 7 viewport",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "1.1.3_ans_25 text 8 viewport",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "1.1.3_ans_25 text 9 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ans_25 text 10 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_ans_25 text 11 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_ans_25 text 12 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ans_25 text 13 viewport",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "1.1.3_ans_25 text 14 viewport",
+      "pass": true,
+      "detail": "(50; 5)"
+    },
+    {
+      "check": "1.1.3_ans_27 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 point 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 point 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 point 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 segment 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 segment 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 reading geometry",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 reading lies on segment",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_27 text 0 viewport",
+      "pass": true,
+      "detail": "Opgave 27 · Grafiek en interpolatie"
+    },
+    {
+      "check": "1.1.3_ans_27 text 1 viewport",
+      "pass": true,
+      "detail": "Bezoekers Q (per middag)"
+    },
+    {
+      "check": "1.1.3_ans_27 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ans_27 text 4 viewport",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "1.1.3_ans_27 text 5 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_ans_27 text 6 viewport",
+      "pass": true,
+      "detail": "90"
+    },
+    {
+      "check": "1.1.3_ans_27 text 7 viewport",
+      "pass": true,
+      "detail": "120"
+    },
+    {
+      "check": "1.1.3_ans_27 text 8 viewport",
+      "pass": true,
+      "detail": "150"
+    },
+    {
+      "check": "1.1.3_ans_27 text 9 viewport",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "1.1.3_ans_27 text 10 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_ans_27 text 11 viewport",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "1.1.3_ans_27 text 12 viewport",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "1.1.3_ans_27 text 13 viewport",
+      "pass": true,
+      "detail": "(100; 5)"
+    },
+    {
+      "check": "1.1.3_ans_30 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 point 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 point 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 point 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 segment 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 segment 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 reading geometry",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 reading lies on segment",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30 text 0 viewport",
+      "pass": true,
+      "detail": "Opgave 30 · Grafiek en interpolatie"
+    },
+    {
+      "check": "1.1.3_ans_30 text 1 viewport",
+      "pass": true,
+      "detail": "Reserveringen Q (per middag)"
+    },
+    {
+      "check": "1.1.3_ans_30 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ans_30 text 4 viewport",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "1.1.3_ans_30 text 5 viewport",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "1.1.3_ans_30 text 6 viewport",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "1.1.3_ans_30 text 7 viewport",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "1.1.3_ans_30 text 8 viewport",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "1.1.3_ans_30 text 9 viewport",
+      "pass": true,
+      "detail": "120"
+    },
+    {
+      "check": "1.1.3_ans_30 text 10 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ans_30 text 11 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_ans_30 text 12 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.3_ans_30 text 13 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ans_30 text 14 viewport",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "1.1.3_ans_30 text 15 viewport",
+      "pass": true,
+      "detail": "(80; 4)"
+    },
+    {
+      "check": "1.1.4_ans_36 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 point count",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 point 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 point 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 point 2",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 segment count",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 segment 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 segment 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 reading geometry",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 reading lies on segment",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_36 text 0 viewport",
+      "pass": true,
+      "detail": "Opgave 36 · Model voor het bezoekersaantal"
+    },
+    {
+      "check": "1.1.4_ans_36 text 1 viewport",
+      "pass": true,
+      "detail": "Bezoekers Q (per avond)"
+    },
+    {
+      "check": "1.1.4_ans_36 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.4_ans_36 text 4 viewport",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "1.1.4_ans_36 text 5 viewport",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "1.1.4_ans_36 text 6 viewport",
+      "pass": true,
+      "detail": "120"
+    },
+    {
+      "check": "1.1.4_ans_36 text 7 viewport",
+      "pass": true,
+      "detail": "160"
+    },
+    {
+      "check": "1.1.4_ans_36 text 8 viewport",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "check": "1.1.4_ans_36 text 9 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.4_ans_36 text 10 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.4_ans_36 text 11 viewport",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "1.1.4_ans_36 text 12 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.4_ans_36 text 13 viewport",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "1.1.4_ans_36 text 14 viewport",
+      "pass": true,
+      "detail": "(120; 7)"
+    },
+    {
+      "check": "1.1.3_ans_29 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_29 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_29 polygon 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_29 area 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_29 polygon 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_29 area 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_29 text 0 viewport",
+      "pass": true,
+      "detail": "Een rechthoek en een driehoek op een plattegrond"
+    },
+    {
+      "check": "1.1.3_ans_29 text 1 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_ans_29 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ans_29 text 4 viewport",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "1.1.3_ans_29 text 5 viewport",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "1.1.3_ans_29 text 6 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ans_29 text 7 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.3_ans_29 text 8 viewport",
+      "pass": true,
+      "detail": "40 m²"
+    },
+    {
+      "check": "1.1.3_ans_29 text 9 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_ans_29 text 11 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ans_29 text 12 viewport",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "1.1.3_ans_29 text 13 viewport",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "1.1.3_ans_29 text 14 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ans_29 text 15 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.3_ans_29 text 16 viewport",
+      "pass": true,
+      "detail": "20 m²"
+    },
+    {
+      "check": "1.1.3_ans_30_area SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30_area canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30_area polygon 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30_area area 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30_area polygon 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30_area area 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.3_ans_30_area text 0 viewport",
+      "pass": true,
+      "detail": "Een rechthoek en een driehoek op een plattegrond"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 1 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 4 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 5 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 6 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 7 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 8 viewport",
+      "pass": true,
+      "detail": "24 m²"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 9 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 11 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 12 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 13 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 14 viewport",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 15 viewport",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "1.1.3_ans_30_area text 16 viewport",
+      "pass": true,
+      "detail": "12 m²"
+    },
+    {
+      "check": "1.1.4_ans_37 SVG/PNG exist",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_37 canvas",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_37 polygon 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_37 area 0",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_37 polygon 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_37 area 1",
+      "pass": true
+    },
+    {
+      "check": "1.1.4_ans_37 text 0 viewport",
+      "pass": true,
+      "detail": "Een rechthoek en een driehoek op een plattegrond"
+    },
+    {
+      "check": "1.1.4_ans_37 text 1 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.4_ans_37 text 3 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.4_ans_37 text 4 viewport",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "1.1.4_ans_37 text 5 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.4_ans_37 text 6 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.4_ans_37 text 7 viewport",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "1.1.4_ans_37 text 8 viewport",
+      "pass": true,
+      "detail": "18 m²"
+    },
+    {
+      "check": "1.1.4_ans_37 text 9 viewport",
+      "pass": true,
+      "detail": "Horizontale positie (m)"
+    },
+    {
+      "check": "1.1.4_ans_37 text 11 viewport",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "1.1.4_ans_37 text 12 viewport",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "check": "1.1.4_ans_37 text 13 viewport",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "1.1.4_ans_37 text 14 viewport",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "check": "1.1.4_ans_37 text 15 viewport",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "1.1.4_ans_37 text 16 viewport",
+      "pass": true,
+      "detail": "9 m²"
+    },
+    {
+      "check": "1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md canonical headings",
+      "pass": true,
+      "detail": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling en combineren"
+      ]
+    },
+    {
+      "check": "1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md paper route",
+      "pass": true
+    },
+    {
+      "check": "1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md summary before start",
+      "pass": true
+    },
+    {
+      "check": "1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md canonical headings",
+      "pass": true,
+      "detail": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling en combineren"
+      ]
+    },
+    {
+      "check": "1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md paper route",
+      "pass": true
+    },
+    {
+      "check": "1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md summary before start",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md canonical headings",
+      "pass": true,
+      "detail": [
+        "Uitgewerkt voorbeeld",
+        "Startopgaven",
+        "Begeleide inoefening",
+        "Zelfstandige oefening",
+        "Doeloefening",
+        "Denkertje / Bonusopgave",
+        "Herhaling en combineren"
+      ]
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md paper route",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md summary before start",
+      "pass": true
+    },
+    {
+      "check": "1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md references _assets/1.1.1_fig_1.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md references _assets/1.1.1_fig_2.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md references _assets/1.1.1_we_1.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md references _assets/1.1.1_ex_3.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md references _assets/1.1.2_fig_1.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md references _assets/1.1.2_fig_2.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md references _assets/1.1.2_fig_3.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md references _assets/1.1.2_fig_4.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md references _assets/1.1.2_ex_12.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_fig_1.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_fig_2.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_fig_3.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_fig_4.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_fig_5.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_fig_6.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_we_1.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_we_2.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_ex_24.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_ex_25.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_ex_29.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 Tabellen, grafieken en formules – paragraaf.md references _assets/1.1.3_ex_30.svg",
+      "pass": true
+    },
+    {
+      "check": "1.1.4 Gemengde opgaven – opgaven.md references _assets/1.1.4_ex_37.svg",
+      "pass": true
+    },
+    {
+      "check": "Antwoorden.md references _assets/1.1.3_ans_25.svg",
+      "pass": true
+    },
+    {
+      "check": "Antwoorden.md references _assets/1.1.3_ans_27.svg",
+      "pass": true
+    },
+    {
+      "check": "Antwoorden.md references _assets/1.1.3_ans_29.svg",
+      "pass": true
+    },
+    {
+      "check": "Antwoorden.md references _assets/1.1.3_ans_30.svg",
+      "pass": true
+    },
+    {
+      "check": "Antwoorden.md references _assets/1.1.3_ans_30_area.svg",
+      "pass": true
+    },
+    {
+      "check": "Antwoorden.md references _assets/1.1.4_ans_36.svg",
+      "pass": true
+    },
+    {
+      "check": "Antwoorden.md references _assets/1.1.4_ans_37.svg",
+      "pass": true
+    },
+    {
+      "check": "No answer figure in student text",
+      "pass": true
+    },
+    {
+      "check": "No device dependence in student copy",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page count",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie no designed-page spill",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 1 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 1 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 1 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 2 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 2 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 2 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 3 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 3 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 3 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 4 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 4 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 4 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 5 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 5 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 5 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 6 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 6 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 6 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 7 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 7 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 7 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 8 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 8 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 8 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 9 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 9 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 9 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 10 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 10 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 10 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 11 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 11 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 11 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 12 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 12 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 12 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 13 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 13 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 13 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 14 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 14 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 14 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 15 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 15 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 15 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 16 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 16 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 16 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 17 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 17 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 17 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 18 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 18 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 18 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 19 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 19 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 19 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 20 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 20 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 20 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 21 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 21 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 21 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 22 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 22 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 22 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 23 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 23 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 23 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 24 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 24 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 24 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 25 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 25 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 25 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 26 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 26 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 26 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 27 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 27 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 27 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 28 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 28 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 28 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 29 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 29 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 29 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 30 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 30 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 30 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 31 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 31 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 31 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 32 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 32 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 32 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 33 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 33 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 33 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 34 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 34 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 34 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 35 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 35 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 35 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 36 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 36 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 36 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 37 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 37 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 37 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 38 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 38 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 38 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 39 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 39 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 39 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 40 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 40 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie page 40 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "All student exercise headings in PDF",
+      "pass": true
+    },
+    {
+      "check": "Facing sources and target",
+      "pass": true
+    },
+    {
+      "check": "Continuous footer numbers",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page count",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie no designed-page spill",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 1 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 1 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 1 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 2 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 2 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 2 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 3 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 3 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 3 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 4 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 4 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 4 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 5 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 5 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 5 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 6 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 6 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 6 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 7 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 7 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 7 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 8 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 8 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 8 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 9 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 9 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 9 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 10 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 10 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 10 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 11 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 11 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 11 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 12 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 12 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 12 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 13 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 13 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 13 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 14 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 14 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 14 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 15 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 15 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 15 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 16 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 16 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 16 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 17 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 17 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 17 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 18 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 18 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 18 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 19 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 19 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 19 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 20 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 20 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Antwoorden_Tweede_editie page 20 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "All answer exercise headings in PDF",
+      "pass": true
+    },
+    {
+      "check": "38 answer bookmarks",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page count",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie no designed-page spill",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 1 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 1 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 1 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 2 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 2 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 2 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 3 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 3 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 3 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 4 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 4 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 4 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 5 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 5 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 5 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 6 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 6 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 6 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 7 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 7 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 7 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 8 has text",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 8 glyphs",
+      "pass": true
+    },
+    {
+      "check": "Boek_1_H1_Docenteninformatie_Tweede_editie page 8 text bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "1.1.1 complete route estimate",
+      "pass": true
+    },
+    {
+      "check": "1.1.2 complete route estimate",
+      "pass": true
+    },
+    {
+      "check": "1.1.3 complete route estimate",
+      "pass": true
+    },
+    {
+      "check": "1.1.4 complete route estimate",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,1046 @@
+[
+  {
+    "number": 1,
+    "title": "Eenheden ophalen",
+    "section": "1.1.1",
+    "page": 5,
+    "kind": "start",
+    "context": "Een bezorgklus duurt 3 uur. De vergoeding is € 8 per uur.",
+    "questions": [
+      "Bereken de totale vergoeding. Zet de eenheid bij je antwoord.",
+      "Een andere klus levert voor dezelfde drie uur € 30 op. Bereken het verschil in totale vergoeding."
+    ],
+    "answers": [
+      [
+        "3 uur × € 8 per uur = **€ 24**.",
+        "Door met uren te vermenigvuldigen, maak je van een bedrag per uur een totaalbedrag."
+      ],
+      [
+        "€ 30 − € 24 = **€ 6**.",
+        "Beide bedragen gaan over hetzelfde tijdvak; daardoor kun je ze vergelijken."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 2,
+    "title": "Een gratis schoolplein",
+    "section": "1.1.1",
+    "page": 5,
+    "kind": "start",
+    "context": "Een schoolplein kan tijdens de pauze worden gebruikt voor een sportactiviteit óf een optreden. Ze passen niet tegelijk op het plein. Het gebruik van het plein kost niets.",
+    "questions": [
+      "Welk middel is beperkt? Leg uit waarom er toch schaarste is.",
+      "De school kiest het optreden. Wat is dan het opgegeven alternatief?"
+    ],
+    "answers": [
+      [
+        "De **ruimte op het plein tijdens die pauze** is beperkt. De twee gewenste activiteiten passen er niet tegelijk.",
+        "Een middel kan schaars zijn zonder dat je ervoor betaalt."
+      ],
+      [
+        "De **sportactiviteit in die pauze** vervalt. De waarde daarvan is de alternatieve kost.",
+        "Je vergelijkt het gekozen gebruik met het andere haalbare gebruik."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 3,
+    "title": "Lees de ingevulde keuze",
+    "section": "1.1.1",
+    "page": 5,
+    "kind": "guided",
+    "context": "Een fotograaf gebruikt een middag voor portretfoto’s. Bekijk de ingevulde vergelijking.",
+    "questions": [
+      "Welk bedrag zijn de alternatieve kosten? Noem ook de activiteit die daarbij hoort.",
+      "Waarom is het verschil van € 30 niet het antwoord op vraag a?"
+    ],
+    "answers": [
+      [
+        "**€ 150**, de netto opbrengst van productfoto’s in dezelfde middag.",
+        "Dat is het beste haalbare alternatief dat door de portretmiddag vervalt."
+      ],
+      [
+        "€ 180 − € 150 = € 30 is de **extra netto opbrengst** van de gekozen activiteit. De gemiste activiteit zelf levert € 150 op.",
+        "Alternatieve kosten meten wat je opgeeft, niet hoeveel beter de gekozen optie scoort."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 4,
+    "title": "De moestuin",
+    "section": "1.1.1",
+    "page": 6,
+    "kind": "guided",
+    "context": "Een vereniging gebruikt acht even grote tuinbedden voor kruiden óf bloemen. Voor elke optie zijn alle acht bedden nodig. Het doel is het hoogste bedrag overhouden voor de vereniging. De gegeven bedragen zijn al na aftrek van uitgaven.",
+    "questions": [
+      "Neem de tabel over en vul de twee totaalbedragen in. Vermenigvuldig per rij het aantal bedden met het bedrag per bed.",
+      "Kies de activiteit die bij het doel past. Noem daarna de alternatieve kosten van die keuze."
+    ],
+    "answers": [
+      [
+        "Kruiden: 8 × € 5 = **€ 40**. Bloemen: 8 × € 7 = **€ 56**.",
+        "De twee totalen hebben betrekking op dezelfde acht bedden."
+      ],
+      [
+        "Kies **bloemen**. De alternatieve kosten zijn **€ 40** uit kruiden.",
+        "Het gekozen gebruik maakt het andere gebruik van de bedden onmogelijk."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 5,
+    "title": "Een weekendklus",
+    "section": "1.1.1",
+    "page": 6,
+    "kind": "practice",
+    "context": "Noor heeft zaterdag vier uur. Zij kan één klus doen: oppassen voor € 9 per uur of helpen bij een verhuizing voor € 11 per uur. Beide klussen duren precies vier uur; er zijn geen bijkomende uitgaven. Zij wil zoveel mogelijk verdienen.",
+    "questions": [
+      "Welke klus kiest zij bij dit doel? Onderbouw met beide totaalbedragen.",
+      "Bereken de alternatieve kosten van de gekozen klus. Leg uit waarom dat bedrag geen betaling is."
+    ],
+    "answers": [
+      [
+        "Oppassen: 4 × € 9 = € 36. Verhuizen: 4 × € 11 = € 44. Kies **verhuizen**.",
+        "De totale inkomsten zijn dan het hoogst."
+      ],
+      [
+        "De alternatieve kosten zijn **€ 36**, de misgelopen oppasvergoeding. Noor betaalt die € 36 aan niemand.",
+        "Het bedrag beschrijft de inkomsten die zij niet kan verdienen tijdens het verhuizen."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 6,
+    "title": "Een middag voor de buurt",
+    "section": "1.1.1",
+    "page": 6,
+    "kind": "practice",
+    "context": "Een vrijwilligersgroep kan één activiteit begeleiden. Bij een sportmiddag doen 40 buurtbewoners mee; bij een creatieve middag 30. Elke activiteit vraagt de hele middag. Het doel is zoveel mogelijk buurtbewoners laten deelnemen.",
+    "questions": [
+      "Welke activiteit past bij het doel? Benoem de beperkte inzet van de vrijwilligers.",
+      "Iemand zegt: “Zonder prijzen kun je niets over alternatieve kosten zeggen.” Beoordeel deze uitspraak."
+    ],
+    "answers": [
+      [
+        "De **sportmiddag**, want 40 > 30. Dezelfde vrijwilligerstijd kan niet beide activiteiten begeleiden.",
+        "Je vergelijkt deelname omdat dat het opgegeven doel is."
+      ],
+      [
+        "Onjuist. De creatieve middag voor 30 deelnemers is het opgegeven alternatief. De waarde van die gemiste activiteit hoeft niet in euro’s te zijn uitgedrukt.",
+        "Alternatieve kosten kunnen ook bestaan uit gemiste tijd, deelname of plezier."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 7,
+    "title": "Eén aula, twee plannen",
+    "section": "1.1.1",
+    "page": 7,
+    "kind": "target",
+    "context": "Een school organiseert een activiteit voor een goed doel. De aula is vrijdag drie uur beschikbaar. De school kiest een muziekmiddag óf een ruilmarkt. Elk plan gebruikt de aula de volledige drie uur. De school kan beide plannen uitvoeren, maar niet tegelijk.\n\nHet doel is **zoveel mogelijk geld voor het goede doel overhouden**. In de bedragen zijn alle uitgaven voor de activiteit al verrekend. De aula is gratis.",
+    "questions": [
+      "Welk middel is schaars? Leg uit waarom de school moet kiezen.",
+      "Bereken voor beide plannen hoeveel geld overblijft. Welk plan past bij het genoemde doel?",
+      "Wat zijn de alternatieve kosten van de keuze uit b? Benoem de gemiste activiteit en het bedrag.",
+      "Een leerling zegt: “De aula is gratis, dus deze keuze heeft geen alternatieve kosten.” Leg uit waarom dit niet klopt.",
+      "Het doel verandert in “zoveel mogelijk leerlingen laten deelnemen”. Welk plan kies je dan? Gebruik een gegeven uit de tabel."
+    ],
+    "answers": [
+      [
+        "De **aula gedurende die drie uur** is schaars. Beide activiteiten vragen hetzelfde tijdvak en kunnen niet worden gecombineerd.",
+        "De school kan niet aan beide wensen tegelijk voldoen met de beschikbare ruimte."
+      ],
+      [
+        "Muziek: 3 × € 70 = **€ 210**. Ruilmarkt: 3 × € 90 = **€ 270**. Kies de **ruilmarkt**.",
+        "Bij het gelddoel telt het totale bedrag voor het goede doel."
+      ],
+      [
+        "De **muziekmiddag** wordt opgegeven. De alternatieve kosten zijn **€ 210**, niet € 60.",
+        "€ 210 is de waarde van het beste andere haalbare gebruik; € 60 is alleen het verschil."
+      ],
+      [
+        "De huurbetaling is € 0. Toch vervalt de muziekmiddag die € 210 kon opleveren. Er zijn dus wel alternatieve kosten.",
+        "Gratis toegang tot een middel neemt het keuzeprobleem niet weg."
+      ],
+      [
+        "De **muziekmiddag**: 90 deelnemers in plaats van 60.",
+        "Een ander doel kan bij dezelfde mogelijkheden tot een andere keuze leiden."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 8,
+    "title": "Twee verdedigbare keuzes",
+    "section": "1.1.1",
+    "page": 8,
+    "kind": "bonus",
+    "context": "Een vereniging heeft één zaal voor een avond. Een voorstelling levert € 300 op voor de kas en bereikt 50 bezoekers. Een gratis kennismakingsavond kost de vereniging niets, brengt niets in kas en bereikt 90 bezoekers. Beide avonden zijn haalbaar, maar er kan er maar één doorgaan.",
+    "questions": [
+      "Schrijf twee korte adviezen die tot verschillende keuzes leiden. Geef bij elk advies een duidelijk doel, een passend gegeven en het beste opgegeven alternatief. Leg ook uit waarom de cijfers niet één universeel juiste keuze bepalen."
+    ],
+    "answers": [
+      [
+        "**Voorbeeldantwoord.** “Kies de voorstelling als extra geld voor de kas het doel is: € 300 tegenover € 0. Je geeft de kennismakingsavond voor 90 bezoekers op. Kies de kennismakingsavond als het doel is meer mensen te bereiken: 90 tegenover 50. Je geeft dan de voorstelling en de mogelijke € 300 op. De cijfers beschrijven de opties, maar bepalen niet welk doel de vereniging het belangrijkst vindt.”",
+        ""
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "Twee verschillende, expliciete doelen leiden tot twee verschillende adviezen.",
+      "Elk advies gebruikt het relevante gegeven en benoemt het alternatief.",
+      "Geen verzonnen geldwaarde voor bereik of plezier; de conclusie erkent de rol van het doel."
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Kort terughalen",
+    "section": "1.1.1",
+    "page": 8,
+    "kind": "review",
+    "context": "Een buurtgroep heeft vijf vrijwilligers. Zij kunnen elk twee uur helpen bij één van twee gelijktijdige activiteiten. De groep blijft bij elkaar; elk plan vraagt alle vrijwilligers gedurende die twee uur. Gezamenlijk helpen bij de eerste activiteit levert € 80 op; bij de tweede € 65. Er zijn geen andere haalbare activiteiten.",
+    "questions": [
+      "Hoeveel vrijwilligersuren zijn samen beschikbaar?",
+      "De groep kiest de eerste activiteit vanwege het geldbedrag. Noem de alternatieve kosten en leg uit waarom je niet € 15 antwoordt."
+    ],
+    "answers": [
+      [
+        "5 personen × 2 uur = **10 vrijwilligersuren**.",
+        "Je telt de beschikbare tijd van alle vrijwilligers bij elkaar op."
+      ],
+      [
+        "De alternatieve kosten zijn **€ 65** uit de tweede activiteit. € 80 − € 65 = € 15 is het verschil.",
+        "De tweede activiteit is het beste haalbare alternatief dat vervalt."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 10,
+    "title": "Eerst delen en aftrekken",
+    "section": "1.1.2",
+    "page": 15,
+    "kind": "start",
+    "context": "Bij een activiteit zijn 24 leerlingen. Een doos met 24 gelijke werkboekjes kost € 72. Vorig jaar deden 20 leerlingen mee.",
+    "questions": [
+      "Bereken het bedrag per werkboekje.",
+      "Bereken hoeveel leerlingen er meer meedoen dan vorig jaar."
+    ],
+    "answers": [
+      [
+        "€ 72 / 24 = **€ 3 per werkboekje**.",
+        "De totale prijs wordt verdeeld over 24 gelijke boekjes."
+      ],
+      [
+        "24 − 20 = **4 leerlingen meer**.",
+        "Dit is een verandering in personen, nog geen percentage."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 11,
+    "title": "Welke basis gebruik je?",
+    "section": "1.1.2",
+    "page": 15,
+    "kind": "start",
+    "context": "Een prijs stijgt van € 40 naar € 50. Een apart deelnamepercentage stijgt van 30% naar 36%.",
+    "questions": [
+      "Deel je de prijsstijging door 40 of door 50 voor de procentuele verandering? Leg kort uit.",
+      "Is 36 − 30 een verschil in procenten of procentpunten?",
+      "Welke vermenigvuldigingsfactor hoort bij een aangekondigde prijsstijging van 8%?"
+    ],
+    "answers": [
+      [
+        "Door **40**, de oude prijs.",
+        "Je meet hoe groot de verandering is ten opzichte van de uitgangssituatie."
+      ],
+      [
+        "**6 procentpunten**.",
+        "Je trekt twee percentages van elkaar af."
+      ],
+      [
+        "1 + 8 / 100 = **1,08**.",
+        "De oude 100% blijft bestaan en daar komt 8% bij."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 12,
+    "title": "Lees de ingevulde prijsstijging",
+    "section": "1.1.2",
+    "page": 15,
+    "kind": "guided",
+    "context": "Een sportshirt wordt duurder: van € 48 naar € 60. De figuur laat de verandering zien.",
+    "questions": [
+      "De uitkomst +25% staat al in de figuur. Laat met de formule zien hoe die uitkomst ontstaat.",
+      "De nieuwe prijs van € 60 krijgt later 10% korting. Bereken de prijs na korting."
+    ],
+    "answers": [
+      [
+        "(60 − 48) / 48 × 100% = 12 / 48 × 100% = **25%**.",
+        "De toename is een kwart van de oude € 48."
+      ],
+      [
+        "€ 60 × (1 − 10 / 100) = € 60 × 0,90 = **€ 54**.",
+        "De korting wordt berekend over de prijs van € 60."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 13,
+    "title": "De vaste basis blijft staan",
+    "section": "1.1.2",
+    "page": 16,
+    "kind": "guided",
+    "context": "De huur van een instrument is in jaar 1 € 20 per maand, in jaar 2 € 24 en in jaar 3 € 30. Gebruik jaar 1 als indexbasis.",
+    "questions": [
+      "Neem de tabel over en vul de twee ontbrekende indexcijfers in. Gebruik steeds € 20 als basiswaarde.",
+      "Bereken de verandering tussen jaar 2 en 3 in indexpunten. Bereken daarna de procentuele verandering met index jaar 2 als oude waarde."
+    ],
+    "answers": [
+      [
+        "Jaar 2: 24 / 20 × 100 = **120**. Jaar 3: 30 / 20 × 100 = **150**.",
+        "Dezelfde basis maakt de indexcijfers vergelijkbaar."
+      ],
+      [
+        "150 − 120 = **30 indexpunten**. (150 − 120) / 120 × 100% = **25%**.",
+        "Voor de groei vanaf jaar 2 is 120 de oude waarde, ook al blijft het basisjaar 1."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 14,
+    "title": "Twee veranderingen tegelijk",
+    "section": "1.1.2",
+    "page": 16,
+    "kind": "guided",
+    "context": "Een jeugdvereniging had 100 leden. Daarvan deed 20% mee aan een vrijwilligersdag. Nu heeft de vereniging 150 leden en doet 24% mee.",
+    "questions": [
+      "Bekijk alleen de verandering van het aandeel. Hoeveel deelnemers zouden er zijn bij 100 leden en 24% deelname?",
+      "Bekijk alleen de verandering van het ledental. Hoeveel deelnemers zouden er zijn bij 150 leden en nog steeds 20% deelname?",
+      "Bereken het oude en het werkelijke nieuwe aantal deelnemers. Versterken de twee veranderingen elkaar?",
+      "Een leerling zegt: “Het aandeel stijgt met 4 procentpunten, dus het aantal deelnemers stijgt met 4%.” Weerleg dit met het juiste groeipercentage van het aantal."
+    ],
+    "answers": [
+      [
+        "0,24 × 100 = **24 deelnemers**.",
+        "Het totale ledental blijft in deze tussenvergelijking gelijk."
+      ],
+      [
+        "0,20 × 150 = **30 deelnemers**.",
+        "Het aandeel blijft in deze tussenvergelijking gelijk."
+      ],
+      [
+        "Oud: 0,20 × 100 = **20**. Nieuw: 0,24 × 150 = **36 deelnemers**. Ze versterken elkaar.",
+        "Zowel meer leden als een hoger aandeel vergroot het aantal deelnemers."
+      ],
+      [
+        "(36 − 20) / 20 × 100% = **80%** groei van het aantal.",
+        "Een aandeel en een aantal hebben verschillende vergelijkingsbases. Bovendien verandert het totale ledental."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 15,
+    "title": "Een tekenpakket",
+    "section": "1.1.2",
+    "page": 17,
+    "kind": "practice",
+    "context": "Een klas koopt 18 gelijke tekenpakketten voor samen € 144. Een jaar eerder kostte hetzelfde pakket € 10 per stuk.",
+    "questions": [
+      "Bereken de huidige prijs per pakket.",
+      "Bereken de absolute en procentuele prijsverandering.",
+      "De huidige prijs stijgt volgend jaar met 12,5%. Bereken de aangekondigde nieuwe prijs."
+    ],
+    "answers": [
+      [
+        "€ 144 / 18 = **€ 8 per pakket**.",
+        "Alle pakketten zijn gelijk en delen samen het totaalbedrag."
+      ],
+      [
+        "8 − 10 = **−€ 2 per pakket**. (8 − 10) / 10 × 100% = **−20%**.",
+        "De daling wordt vergeleken met de oude prijs van € 10."
+      ],
+      [
+        "€ 8 × 1,125 = **€ 9 per pakket**.",
+        "12,5% wordt toegevoegd aan de huidige prijs, niet aan de eerdere € 10."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 16,
+    "title": "Een indexbericht",
+    "section": "1.1.2",
+    "page": 17,
+    "kind": "practice",
+    "context": "Een vervoerder publiceert onderstaande indexcijfers voor dezelfde ritprijs. De basis is in alle jaren gelijk.",
+    "questions": [
+      "Bereken de verandering van jaar 2 naar jaar 3 in indexpunten én in procenten.",
+      "De ritprijs in jaar 1 was € 4. Bereken de ritprijs in jaar 3.",
+      "Is “jaar 3 is 21% duurder dan jaar 2” juist? Licht toe."
+    ],
+    "answers": [
+      [
+        "121 − 110 = **11 indexpunten**. 11 / 110 × 100% = **10%**.",
+        "De oude index van deze verandering is 110."
+      ],
+      [
+        "€ 4 × 121 / 100 = **€ 4,84**.",
+        "Index 121 is 121% van de basisprijs."
+      ],
+      [
+        "Nee. **21%** is de stijging ten opzichte van **jaar 1**. Ten opzichte van jaar 2 is de stijging **10%**.",
+        "De uitspraak noemt de verkeerde vergelijkingsperiode."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 17,
+    "title": "Lid van een debatclub",
+    "section": "1.1.2",
+    "page": 17,
+    "kind": "practice",
+    "context": "Vorig jaar waren 30 van de 150 leerlingen lid. Dit jaar zijn 45 van de 180 leerlingen lid.",
+    "questions": [
+      "Bereken in beide jaren het aandeel leden.",
+      "Bereken de verandering van het aandeel in procentpunten én in procenten."
+    ],
+    "answers": [
+      [
+        "30 / 150 × 100% = **20%**. 45 / 180 × 100% = **25%**.",
+        "Elk aandeel gebruikt het totale aantal leerlingen van hetzelfde jaar."
+      ],
+      [
+        "25 − 20 = **5 procentpunten**. (25 − 20) / 20 × 100% = **25%**.",
+        "Het eerste antwoord is een verschil tussen percentages; het tweede vergelijkt dat verschil met het oude aandeel."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 18,
+    "title": "Een workshop voor scholieren",
+    "section": "1.1.2",
+    "page": 18,
+    "kind": "target",
+    "context": "Een cultureel centrum vergelijkt zijn workshopprijs en het aandeel leerlingen dat deelneemt. Gebruik voor de **prijsindex jaar 1 als basis**. Alle bedragen en aantallen zijn voor deze opgave gegeven.\n\nIn jaar 3 betaalt het centrum € 216 aan materiaal voor de 36 deelnemers. Na jaar 3 wil het de workshopprijs met 8% verhogen.",
+    "questions": [
+      "Bereken het materiaalbedrag per deelnemer in jaar 3.",
+      "Bereken de absolute en procentuele prijsverandering van jaar 1 naar jaar 2.",
+      "Bereken de aangekondigde workshopprijs na jaar 3.",
+      "Bereken de prijsindexcijfers van jaar 2 en jaar 3.",
+      "Bereken met die indexcijfers de prijsverandering van jaar 2 naar jaar 3 in indexpunten én in procenten.",
+      "Bereken het deelnamepercentage in jaar 1 en jaar 3. Hoeveel procentpunten is de verandering?",
+      "Een bericht luidt: “Het aandeel deelnemers is met 4% gestegen.” Beoordeel dit bericht met een berekening."
+    ],
+    "answers": [
+      [
+        "€ 216 / 36 = **€ 6 per deelnemer**.",
+        "Een bedrag per deelnemer is het totaal verdeeld over de deelnemers."
+      ],
+      [
+        "€ 12 − € 10 = **€ 2**. (12 − 10) / 10 × 100% = **20%**.",
+        "De oude prijs in deze vergelijking is € 10."
+      ],
+      [
+        "€ 15 × 1,08 = **€ 16,20**.",
+        "De aangekondigde verhoging is 8% van de prijs van jaar 3."
+      ],
+      [
+        "Jaar 2: 12 / 10 × 100 = **120**. Jaar 3: 15 / 10 × 100 = **150**.",
+        "De twee indexcijfers hebben dezelfde prijs uit jaar 1 als basis."
+      ],
+      [
+        "150 − 120 = **30 indexpunten**. (150 − 120) / 120 × 100% = **25%**.",
+        "Het verschil van 30 wordt voor deze groei vergeleken met de oude index 120."
+      ],
+      [
+        "Jaar 1: 24 / 120 × 100% = **20%**. Jaar 3: 36 / 150 × 100% = **24%**. Verschil: **4 procentpunten**.",
+        "Gebruik bij elk jaar zijn eigen totaal aantal leerlingen."
+      ],
+      [
+        "Het bericht is onjuist. (24 − 20) / 20 × 100% = **20% relatieve stijging** van het aandeel. Correct is ook: +4 procentpunten.",
+        "Het bericht verwart een verschil in procentpunten met een procentuele verandering."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 19,
+    "title": "Welke groei bedoel je?",
+    "section": "1.1.2",
+    "page": 19,
+    "kind": "bonus",
+    "context": "Een museum meldt: “Ons bezoekersaantal groeide van index 120 naar 144.” Een ander museum meldt: “Wij kregen 1.000 bezoekers meer.”",
+    "questions": [
+      "Kun je met alleen deze informatie bepalen welk museum relatief het sterkst groeide? Geef een onderbouwd antwoord en beschrijf twee mogelijke situaties voor het tweede museum die tot een andere vergelijking leiden."
+    ],
+    "answers": [
+      [
+        "Het eerste museum groeide (144 − 120) / 120 × 100% = **20%**. Voor het tweede ontbreekt het oude aantal. Bij 2.000 oude bezoekers is +1.000 een groei van 50%; bij 10.000 oude bezoekers 10%. Het tweede museum kan dus relatief sterker of zwakker zijn gegroeid.",
+        ""
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "Berekent 20% voor het eerste museum.",
+      "Benoemt het ontbrekende oude bezoekersaantal als beslissende informatie.",
+      "Gebruikt twee geldige voorbeelden met verschillende relatieve uitkomsten."
+    ]
+  },
+  {
+    "number": 20,
+    "title": "Het beste andere gebruik",
+    "section": "1.1.2",
+    "page": 19,
+    "kind": "review",
+    "context": "Een buurthuis kan een ruimte dezelfde avond verhuren voor € 90 of gebruiken voor een activiteit die € 70 oplevert. Beide bedragen zijn al na uitgaven. Het doel is de grootste geldopbrengst.",
+    "questions": [
+      "Welke keuze past bij het doel, en wat zijn de alternatieve kosten van die keuze?"
+    ],
+    "answers": [
+      [
+        "Kies **verhuur**. De alternatieve kosten zijn **€ 70**, de gemiste opbrengst van de activiteit.",
+        "Je geeft het beste andere gebruik van dezelfde ruimte op, niet alleen het verschil van € 20."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 21,
+    "title": "Een daling controleren",
+    "section": "1.1.2",
+    "page": 19,
+    "kind": "review",
+    "context": "Een deelnemersaantal daalt van 80 naar 60.",
+    "questions": [
+      "Bereken de procentuele verandering. Controleer je antwoord door het bijbehorende percentage van 80 te nemen."
+    ],
+    "answers": [
+      [
+        "(60 − 80) / 80 × 100% = **−25%**. Controle: 80 × 0,75 = **60 deelnemers**.",
+        "Een daling van 25% laat 75% van het oude aantal over."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 22,
+    "title": "Rekenen voor je tekent",
+    "section": "1.1.3",
+    "page": 28,
+    "kind": "start",
+    "context": "Gebruik de eerder geleerde rekenstappen.",
+    "questions": [
+      "Bereken 18 − 6 en deel de uitkomst door 3.",
+      "Een aantal daalt van 50 naar 40. Bereken de procentuele verandering."
+    ],
+    "answers": [
+      [
+        "(18 − 6) / 3 = 12 / 3 = **4**.",
+        "De aftrekking wordt eerst uitgevoerd."
+      ],
+      [
+        "(40 − 50) / 50 × 100% = **−20%**.",
+        "De oude 50 is de basis van de daling."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 23,
+    "title": "Een punt herkennen",
+    "section": "1.1.3",
+    "page": 28,
+    "kind": "start",
+    "context": "Je tekent een prijs–hoeveelheidsgrafiek met Q horizontaal en P verticaal. De prijs is € 5 en de hoeveelheid is 30 stuks.",
+    "questions": [
+      "Welke coördinaten horen bij dit punt?",
+      "Je tekent daarna een grafiek van bezoekersaantallen per maand. Welke grootheid zet je nu normaal horizontaal?"
+    ],
+    "answers": [
+      [
+        "**(30; 5)**: eerst Q, daarna P.",
+        "De eerste coördinaat hoort bij de horizontale as."
+      ],
+      [
+        "De **tijd, in maanden**.",
+        "De assen volgen het type bron; de prijs–hoeveelheidsafspraak geldt niet voor elke grafiek."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 24,
+    "title": "Eerst een grafiek lezen",
+    "section": "1.1.3",
+    "page": 28,
+    "kind": "guided",
+    "context": "Een verhuurbedrijf voor tentjes gebruikt onderstaande grafiek. De overige omstandigheden blijven gelijk en de lijn is het gegeven model.",
+    "questions": [
+      "Lees af hoeveel verhuringen horen bij een prijs van € 4. Noem de eenheid.",
+      "Leg uit waarom bij € 5 het aantal 45 is. Gebruik de twee omliggende punten."
+    ],
+    "answers": [
+      [
+        "**60 verhuringen per dag** bij € 4 per verhuring.",
+        "Het punt op de lijn bij P = 4 ligt boven Q = 60."
+      ],
+      [
+        "€ 5 ligt halverwege € 4 en € 6. Het midden tussen 60 en 30 is 60 − ½ × 30 = **45**.",
+        "De gegeven rechte lijn laat een gelijkmatige verandering tussen de punten zien."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 25,
+    "title": "Nu zelf aanvullen",
+    "section": "1.1.3",
+    "page": 29,
+    "kind": "guided",
+    "context": "Een maker van kaarten verwacht bij elke prijsstijging van € 2 steeds 20 bestellingen minder. De andere omstandigheden blijven gelijk. Gebruik tussen de opgegeven punten rechte lijnstukken.",
+    "questions": [
+      "Neem de tabel over en vul het ontbrekende aantal in.",
+      "Teken alle punten in het meegeleverde frame en verbind ze.",
+      "Teken hulplijnen bij P = € 5 en lees het aantal bestellingen af."
+    ],
+    "answers": [
+      [
+        "Bij € 6 horen **40 bestellingen per week**: 60 − 20 = 40.",
+        "Er is een gelijkmatige verandering van 20 per prijsstap van € 2 gegeven."
+      ],
+      [
+        "Zie de antwoordgrafiek: **(80; 2), (60; 4), (40; 6), (20; 8)** met rechte lijnstukken.",
+        "De coördinaten zetten het aantal horizontaal en de prijs verticaal."
+      ],
+      [
+        "Bij P = € 5: **50 bestellingen per week**.",
+        "€ 5 ligt halverwege € 4 en € 6; 50 ligt halverwege 60 en 40."
+      ]
+    ],
+    "answer_figure": "1.1.3_ans_25",
+    "criteria": null
+  },
+  {
+    "number": 26,
+    "title": "Zonder ingevulde tekening",
+    "section": "1.1.3",
+    "page": 29,
+    "kind": "guided",
+    "context": "Voor materiaaltransport geldt T = 5 + 4n. T is het bedrag in euro, n het aantal ritten van 0 tot en met 10.",
+    "questions": [
+      "T is € 25. Schrijf eerst op welke twee bewerkingen je achtereenvolgens uitvoert. Bereken daarna n en controleer.",
+      "Een rechthoek is 5 meter breed. De onderkant ligt op hoogte 2 meter en de bovenkant op 6 meter. Bereken eerst de hoogte en dan de oppervlakte.",
+      "Een apart rechtlijnig model geeft Q = 40 bij P = € 6 en Q = 20 bij P = € 8. Leg zonder te tekenen uit welke Q bij P = € 7 hoort."
+    ],
+    "answers": [
+      [
+        "Eerst **5 aftrekken**, daarna **delen door 4**. n = (25 − 5) / 4 = **5 ritten**. Controle: 5 + 4 × 5 = € 25.",
+        "Je maakt de bewerkingen van de formule in omgekeerde volgorde ongedaan."
+      ],
+      [
+        "Hoogte: 6 − 2 = **4 meter**. Oppervlakte: 5 × 4 = **20 m²**.",
+        "Een hoogte is de afstand tussen onderkant en bovenkant."
+      ],
+      [
+        "€ 7 ligt halverwege € 6 en € 8. Q = 40 − ½ × (40 − 20) = **30 eenheden**.",
+        "Het model is rechtlijnig; dezelfde fractie van het prijsverschil hoort bij dezelfde fractie van het hoeveelheidverschil."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 27,
+    "title": "Bezoek aan een uitkijktoren",
+    "section": "1.1.3",
+    "page": 30,
+    "kind": "practice",
+    "context": "Een beheerder gebruikt deze verwachting voor één middag. Andere omstandigheden blijven gelijk. Tussen de opgegeven punten gebruikt hij rechte lijnstukken; buiten het getoonde gebied doet hij geen voorspelling.",
+    "questions": [
+      "Teken zelf een grafiek op ruitjespapier. Zet Q horizontaal en P verticaal. Kies bruikbare schalen, benoem de eenheden en teken de punten en lijnstukken.",
+      "Bepaal met lineaire interpolatie het aantal bezoekers bij een prijs van € 5.",
+      "Bereken de procentuele verandering van het bezoekersaantal als de prijs van € 3 naar € 6 gaat. Beoordeel “Het aantal daalt met 30%”.",
+      "Van € 3 naar € 9 daalt het aantal met 60 bezoekers. Hoeveel bezoekers minder is dat gemiddeld per euro prijsstijging?"
+    ],
+    "answers": [
+      [
+        "Zie de antwoordgrafiek met **(120; 3), (90; 6), (60; 9)**. De assen starten bij 0 en hebben gelijkmatige schalen.",
+        "De grafiek geeft dezelfde combinaties van prijs en aantal als de bron."
+      ],
+      [
+        "€ 5 ligt 2 / 3 van het stuk tussen € 3 en € 6. Q = 120 − (2 / 3) × (120 − 90) = **100 bezoekers per middag**.",
+        "Je neemt dezelfde fractie van het aantalverschil als van het prijsverschil."
+      ],
+      [
+        "(90 − 120) / 120 × 100% = **−25%**. De uitspraak is onjuist.",
+        "30 bezoekers minder is 25% van het oude aantal 120, niet 30%."
+      ],
+      [
+        "Aantalverschil / prijsverschil = 60 / (9 − 3) = **10 bezoekers minder per euro prijsstijging**.",
+        "De prijsstap is € 6. Het totale aantalverschil hoort dus niet bij één euro."
+      ]
+    ],
+    "answer_figure": "1.1.3_ans_27",
+    "criteria": null
+  },
+  {
+    "number": 28,
+    "title": "Materiaal voor een foto-opdracht",
+    "section": "1.1.3",
+    "page": 31,
+    "kind": "practice",
+    "context": "De betaalregel is T = 10 + 2,5n. T is het bedrag in euro en n het aantal gehuurde lichtsets, van 0 tot en met 20.",
+    "questions": [
+      "Neem de tabel over en vul de drie bedragen in.",
+      "Bij welk aantal lichtsets is T gelijk aan € 35? Controleer je antwoord door het in te vullen.",
+      "Verdubbelt het totaalbedrag als n van 4 naar 8 gaat? Onderbouw met beide bedragen."
+    ],
+    "answers": [
+      [
+        "n = 0: 10 + 2,5 × 0 = **€ 10**. n = 4: **€ 20**. n = 12: **€ 40**.",
+        "De formule bestaat uit € 10 plus een bedrag dat met het aantal meeverandert."
+      ],
+      [
+        "35 = 10 + 2,5n → 25 = 2,5n → n = **10 lichtsets**. Controle: 10 + 2,5 × 10 = € 35.",
+        "Dezelfde rekenregel moet de gevonden hoeveelheid terug vertalen naar € 35."
+      ],
+      [
+        "Bij n = 4 is T = € 20; bij n = 8 is T = 10 + 2,5 × 8 = **€ 30**. Het bedrag verdubbelt niet.",
+        "De term 10 wordt niet verdubbeld als alleen n verdubbelt."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 29,
+    "title": "Ruimte op een plattegrond",
+    "section": "1.1.3",
+    "page": 31,
+    "kind": "practice",
+    "context": "De assen geven posities in meters aan. De twee gekleurde vormen hebben dezelfde basis en hoogte.",
+    "questions": [
+      "Bepaal de basis en hoogte. Bereken de oppervlakte van de rechthoek en de driehoek.",
+      "Waarom gebruik je niet 7 meter als hoogte?"
+    ],
+    "answers": [
+      [
+        "Basis = 11 − 3 = **8 m**. Hoogte = 7 − 2 = **5 m**. Rechthoek = 8 × 5 = **40 m²**. Driehoek = ½ × 8 × 5 = **20 m²**.",
+        "De twee vormen delen dezelfde afstanden; de driehoek is de helft van de rechthoek."
+      ],
+      [
+        "De onderkant ligt op 2 meter. De afstand tot de bovenkant op 7 meter is **5 meter**.",
+        "Een positie op de as is niet hetzelfde als de grootte van een vorm."
+      ]
+    ],
+    "answer_figure": "1.1.3_ans_29",
+    "criteria": null
+  },
+  {
+    "number": 30,
+    "title": "Reserveren, huren en meten",
+    "section": "1.1.3",
+    "page": 32,
+    "kind": "target",
+    "context": "**Bron A.** Een verhuurder gebruikt onderstaande reserveringstabel voor één middag. De overige omstandigheden blijven gelijk. Tussen de punten geldt een rechte lijn.\n\n**Bron B.** Voor de huur van verlichting geldt T = 8 + 2n. T is het bedrag in euro; n het aantal lampjes, van 0 tot en met 30.\n\n**Bron C.** De figuur is een plattegrond met posities in meters.",
+    "questions": [
+      "Teken bij bron A zelf een prijs–hoeveelheidsgrafiek op ruitjespapier, met schalen, eenheden en de drie punten.",
+      "Bepaal met lineaire interpolatie Q bij P = € 4.",
+      "Een bericht stelt: “Tussen P = € 2 en P = € 5 daalt het aantal met ongeveer 43%.” Controleer de uitspraak.",
+      "Bereken met bron B het bedrag bij n = 6.",
+      "Bereken met bron B het aantal lampjes bij T = € 32. Controleer.",
+      "Bereken met bron C de oppervlakte van de rechthoek.",
+      "Bereken met bron C de oppervlakte van de driehoek. Laat zien welke basis en hoogte je gebruikt."
+    ],
+    "answers": [
+      [
+        "Zie de antwoordgrafiek: **(100; 2), (70; 5), (40; 8)**. Q staat horizontaal in reserveringen per middag; P verticaal in euro per reservering.",
+        "Je neemt de waarden uit één rij/kolomcombinatie samen, zonder de assen om te draaien."
+      ],
+      [
+        "Q = 100 − (4 − 2) / (5 − 2) × (100 − 70) = 100 − 20 = **80 reserveringen per middag**.",
+        "€ 4 ligt op twee derde van het prijsinterval € 2–€ 5."
+      ],
+      [
+        "(70 − 100) / 100 × 100% = **−30%**, dus de uitspraak is onjuist.",
+        "Je deelt de afname door het oude aantal 100. Delen door het nieuwe aantal 70 zou de verkeerde basis gebruiken."
+      ],
+      [
+        "T = 8 + 2 × 6 = **€ 20**.",
+        "Vermenigvuldig het aantal eerst met 2 en tel daarna 8 op."
+      ],
+      [
+        "32 = 8 + 2n → 24 = 2n → n = **12 lampjes**. Controle: 8 + 2 × 12 = € 32.",
+        "De teruggevonden waarde geeft het gevraagde bedrag en ligt tussen 0 en 30."
+      ],
+      [
+        "Basis = 8 − 2 = **6 m**. Hoogte = 8 − 4 = **4 m**. Rechthoek = 6 × 4 = **24 m²**.",
+        "De hoogte begint bij 4 meter, niet bij 0."
+      ],
+      [
+        "Driehoek = ½ × (8 − 2) × (8 − 4) = ½ × 6 × 4 = **12 m²**.",
+        "Bij dezelfde basis en hoogte is de driehoek half zo groot als de rechthoek."
+      ]
+    ],
+    "answer_figure": "1.1.3_ans_30",
+    "criteria": null
+  },
+  {
+    "number": 31,
+    "title": "Wat gebeurde er tussendoor?",
+    "section": "1.1.3",
+    "page": 33,
+    "kind": "bonus",
+    "context": "Een actie verzamelt op dag 1 in totaal 20 boeken en op dag 5 in totaal 60. Over dag 2, 3 en 4 is niets geregistreerd. Het totaal kan niet dalen.",
+    "questions": [
+      "Geef twee mogelijke reeksen voor dag 1 tot en met 5 die allebei bij de bron passen, maar op dag 3 een ander aantal geven. Leg uit welke extra aanname nodig is om op dag 3 precies 40 te voorspellen."
+    ],
+    "answers": [
+      [
+        "Bijvoorbeeld **20, 30, 40, 50, 60** en **20, 25, 30, 45, 60**. Beide hebben de gegeven eindpunten en dalen niet. Voor precies 40 op dag 3 is een **gelijkmatige, lineaire toename** tussen dag 1 en 5 nodig.",
+        ""
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "Beide reeksen hebben de gegeven eindwaarden en dalen niet.",
+      "De twee dag-3-waarden verschillen.",
+      "Noemt de lineariteitsaanname en presenteert de tussenwaarde niet als meting."
+    ]
+  },
+  {
+    "number": 32,
+    "title": "Indexpunten zijn geen procenten",
+    "section": "1.1.3",
+    "page": 33,
+    "kind": "review",
+    "context": "Een index daalt van 125 naar 100. De twee indexcijfers hebben dezelfde basis.",
+    "questions": [
+      "Bereken de daling in indexpunten en de procentuele verandering."
+    ],
+    "answers": [
+      [
+        "100 − 125 = **−25 indexpunten**. (100 − 125) / 125 × 100% = **−20%**.",
+        "125 is de oude index; de daling met 25 punten is daarvan een vijfde."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 33,
+    "title": "Een opgegeven klus",
+    "section": "1.1.3",
+    "page": 33,
+    "kind": "review",
+    "context": "Sam kiest ervoor om twee uur te sporten. In hetzelfde tijdvak kan Sam anders twee uur werken voor € 9 per uur. Andere alternatieven leveren geen geld op. Voor het sporten wordt niets betaald.",
+    "questions": [
+      "Hoeveel mogelijke inkomsten geeft Sam op? Waarom zijn de alternatieve kosten in deze geldvergelijking niet nul?"
+    ],
+    "answers": [
+      [
+        "2 × € 9 = **€ 18**. Het sporten heeft geen toegangsprijs, maar sluit het werken in diezelfde twee uur uit.",
+        "Een gratis activiteit kan dus wel gemiste inkomsten als alternatieve kosten hebben."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 34,
+    "title": "Meer bekers inkopen",
+    "section": "1.1.4",
+    "page": 35,
+    "kind": "practice",
+    "context": "Een activiteitencommissie kocht vorig jaar 200 gelijke drinkbekers voor samen € 60. Dit jaar koopt zij 250 bekers van hetzelfde type voor samen € 80.",
+    "questions": [
+      "Bereken de betaalde prijs per beker in beide jaren.",
+      "Bereken de procentuele verandering van de prijs per beker.",
+      "Het totaalbedrag steeg met 33,33%. Bewijst dit dat een beker 33,33% duurder werd? Leg uit.",
+      "Bereken de index van de huidige prijs per beker met vorig jaar = 100."
+    ],
+    "answers": [
+      [
+        "Vorig jaar: € 60 / 200 = **€ 0,30 per beker**. Dit jaar: € 80 / 250 = **€ 0,32 per beker**.",
+        "Je deelt ieder totaalbedrag door het aantal bekers uit hetzelfde jaar."
+      ],
+      [
+        "(0,32 − 0,30) / 0,30 × 100% = **6,67%**.",
+        "Voor een prijsverandering vergelijk je de bedragen per beker, niet de twee totalen."
+      ],
+      [
+        "Nee. Het aantal ingekochte bekers is ook gestegen: 200 → 250. Een beker werd **6,67%** duurder, niet 33,33%.",
+        "Een totaal kan veranderen doordat het aantal én het bedrag per eenheid veranderen."
+      ],
+      [
+        "0,32 / 0,30 × 100 = **106,67**.",
+        "De basisprijs € 0,30 krijgt index 100."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 35,
+    "title": "Een lokaal op woensdagavond",
+    "section": "1.1.4",
+    "page": 35,
+    "kind": "practice",
+    "context": "Een wijkvereniging heeft één lokaal, drie uur lang. Zij kiest een beweegles óf een taalcafé; ieder programma vult de hele avond. Het doel is zoveel mogelijk geld voor een project overhouden. Na alle uitgaven blijft bij de beweegles € 50 per uur over; bij het taalcafé € 70.",
+    "questions": [
+      "Bereken de twee totaalbedragen en kies het programma dat bij het doel past.",
+      "Noem de alternatieve kosten. Bereken ook hoeveel procent het gekozen totaal boven het andere totaal ligt."
+    ],
+    "answers": [
+      [
+        "Beweegles: 3 × € 50 = **€ 150**. Taalcafé: 3 × € 70 = **€ 210**. Kies **taalcafé**.",
+        "Beide opties gebruiken dezelfde ruimte gedurende dezelfde drie uur."
+      ],
+      [
+        "Alternatieve kosten: **€ 150** uit de beweegles. Procentuele meeropbrengst: (210 − 150) / 150 × 100% = **40%**.",
+        "€ 150 is het opgegeven alternatief. De 40% beschrijft een vergelijking van beide uitkomsten."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 36,
+    "title": "Een schoolactiviteit plannen",
+    "section": "1.1.4",
+    "page": 37,
+    "kind": "target",
+    "context": "Gebruik de bronnen op de pagina hiernaast. Schrijf bij elke berekening welke waarden je gebruikt en geef de juiste eenheid.",
+    "questions": [
+      "Leg met bron A uit waarom de school moet kiezen. Bereken beide totaalbedragen en bepaal welk plan bij het doel past.",
+      "Noem de alternatieve kosten van de keuze uit a. Verklaar waarom het verschil tussen beide geldbedragen niet hetzelfde is.",
+      "Teken met bron B zelf een grafiek op ruitjespapier. Benoem de assen en eenheden, kies een schaal en teken de punten en rechte lijnstukken.",
+      "Bepaal met lineaire interpolatie het verwachte aantal bezoekers bij een ticketprijs van € 7.",
+      "Bereken met bron C de prijsindexcijfers van jaar 2 en jaar 3. Bereken vervolgens de procentuele prijsverandering tussen die twee jaren.",
+      "Beoordeel het bericht in bron C. Schrijf een verbeterde zin.",
+      "Past het prijsvoorstel van € 7 bij het doel in bron B? Geef een advies met het berekende aantal en één beperking van het model."
+    ],
+    "answers": [
+      [
+        "De **aula gedurende twee uur** is beperkt; beide plannen vragen het hele tijdvak. Boekenruil: 2 × € 60 = **€ 120**. Cultuuratelier: 2 × € 75 = **€ 150**. Kies **cultuuratelier**.",
+        "De hoogste totale opbrengst voor het goede doel is het opgegeven criterium."
+      ],
+      [
+        "De alternatieve kosten zijn **€ 120**, de gemiste boekenruil. € 150 − € 120 = € 30 is alleen het voordeel in geld ten opzichte van dat alternatief.",
+        "De waarde van wat je laat liggen en het verschil tussen de opties beantwoorden verschillende vragen."
+      ],
+      [
+        "Zie de antwoordgrafiek met **(180; 4), (140; 6), (100; 8)**. Q staat horizontaal, in bezoekers per avond; P verticaal, in euro per bezoeker.",
+        "De grafiek moet de gegevens uit bron B weergeven, niet de jaarvergelijking uit C."
+      ],
+      [
+        "€ 7 ligt halverwege € 6 en € 8. Q = 140 − ½ × (140 − 100) = **120 bezoekers per avond**.",
+        "Tussen de punten is expliciet een rechte lijn aangenomen."
+      ],
+      [
+        "Jaar 2: 4,80 / 4 × 100 = **120**. Jaar 3: 6 / 4 × 100 = **150**. Groei: (150 − 120) / 120 × 100% = **25%**.",
+        "Voor de index gebruikt elk jaar € 4; voor de groei vanaf jaar 2 gebruik je index 120."
+      ],
+      [
+        "“De prijsindex stijgt met **30 indexpunten**; een ticket wordt ten opzichte van jaar 2 **25% duurder**.”",
+        "Een puntenverschil is pas een procentuele verandering nadat je door de oude waarde hebt gedeeld."
+      ],
+      [
+        "Volgens het model **niet**: bij € 7 worden **120** bezoekers verwacht, minder dan de gewenste 130. Advies: kies dit voorstel niet als dat bezoekersdoel leidend is. De verwachting hangt af van gelijkblijvende omstandigheden en de rechte-lijnaanname.",
+        "Het model ondersteunt een voorwaardelijk advies, geen garantie over het werkelijke bezoekersaantal."
+      ]
+    ],
+    "answer_figure": "1.1.4_ans_36",
+    "criteria": null
+  },
+  {
+    "number": 37,
+    "title": "Een formule en twee vormen",
+    "section": "1.1.4",
+    "page": 38,
+    "kind": "practice",
+    "context": "Voor materiaalhuur geldt T = 12 + 3n. T is het bedrag in euro en n het aantal sets, van 0 tot en met 25. De figuur is een aparte plattegrond; beide assen geven posities in meters aan.",
+    "questions": [
+      "Bereken het bedrag voor 4 sets en het aantal sets dat hoort bij € 42. Controleer de teruggerekende waarde.",
+      "Bereken de basis en hoogte en daarna de twee gekleurde oppervlaktes."
+    ],
+    "answers": [
+      [
+        "Bij 4 sets: 12 + 3 × 4 = **€ 24**. Bij € 42: 42 − 12 = 3n → n = **10 sets**. Controle: 12 + 3 × 10 = € 42.",
+        "Invullen en terugrekenen zijn tegengestelde bewerkingen van dezelfde regel."
+      ],
+      [
+        "Basis = 7 − 1 = **6 m**; hoogte = 5 − 2 = **3 m**. Rechthoek = 6 × 3 = **18 m²**. Driehoek = ½ × 6 × 3 = **9 m²**.",
+        "De oppervlakte volgt uit de afstanden, niet uit de hoogste aswaarden."
+      ]
+    ],
+    "answer_figure": "1.1.4_ans_37",
+    "criteria": null
+  },
+  {
+    "number": 38,
+    "title": "Herstel de fout",
+    "section": "1.1.4",
+    "page": 38,
+    "kind": "practice",
+    "context": "Hieronder staan drie antwoorden van leerlingen. Herstel per geval de fout en leg in één zin uit wat er misging.",
+    "questions": [
+      "“Van 100 naar 80 is −25%, want 20 / 80 × 100 = 25.”",
+      "“Een rechthoek loopt verticaal van 2 tot 6 meter en is 5 meter breed, dus de oppervlakte is 30 m².”",
+      "“Er kwamen meer bezoekers nadat er posters waren opgehangen. De tabel bewijst dat de posters de stijging veroorzaakten.”"
+    ],
+    "answers": [
+      [
+        "(80 − 100) / 100 × 100% = **−20%**.",
+        "De leerling deelde door de nieuwe waarde 80 in plaats van de oude 100."
+      ],
+      [
+        "Hoogte = 6 − 2 = 4 m. Oppervlakte = 5 × 4 = **20 m²**.",
+        "De aspositie 6 werd ten onrechte gebruikt als de volledige hoogte."
+      ],
+      [
+        "De bron laat een volgorde en een stijging zien, maar bewijst zonder verdere informatie geen oorzaak.",
+        "Een andere omstandigheid kan tegelijk veranderd zijn."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  }
+]

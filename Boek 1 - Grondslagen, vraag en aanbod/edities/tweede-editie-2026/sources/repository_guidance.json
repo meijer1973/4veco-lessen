@@ -1,0 +1,22 @@
+{
+  "retrieval_date": "2026-09-09",
+  "method": "Authenticated GitHub connector reads; no repository writes",
+  "chapter_authority": "The three delivered Book 1 second-edition chapters in this conversation and book-1-outline-second-edition-v1.md; not the live first-edition lesson tree.",
+  "sources": [
+    {"repository":"meijer1973/4veco-platform","path":"RESEARCH_AGENT_MAP.md","blob_sha":"91778371a11cbe9839a4822c3989e90e7317850a"},
+    {"repository":"meijer1973/4veco-lessen","path":"RESEARCH_AGENT_MAP.md","blob_sha":"d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5"},
+    {"repository":"meijer1973/4veco-platform","path":"skills/econ-book-builder.md","blob_sha":"5e35395cf5ad68b988af7adebc99db42e8c4756f"},
+    {"repository":"meijer1973/4veco-platform","path":"skills/econ-pdf-builder.md","blob_sha":"81c7a8700c934d9eff3292dbb881372064c46562"},
+    {"repository":"meijer1973/4veco-platform","path":"skills/econ-chapter-assembler.md","blob_sha":"7dc6aff0862d5b95979070c9dc0781a1df2ae9e2"}
+  ],
+  "implemented_structure": ["cover","colophon","preface","full contents","three chapters","glossary","formula and procedure overview"],
+  "documented_adaptations": [
+    "Preserve delivered PDFs rather than reflow Markdown chapters.",
+    "Keep student exercise support and all source chapter pages; do not apply old first-edition omissions retroactively.",
+    "Keep separate paper answer book and teacher guide.",
+    "Use supplied cover unchanged and fit to A4 without cropping or distortion.",
+    "Reuse exact chapter glossary definitions; do not replace them with later-book or legacy registry formulations.",
+    "Do not fabricate school, publisher, contact or licensing information."
+  ],
+  "limitations": "No new economics, syllabus or empirical-data audit. Original chapter quality statements remain source statements. The cover miniature index graph and table are not a consistent instructional dataset."
+}

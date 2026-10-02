@@ -1,0 +1,3407 @@
+[
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 1,
+    "book_page": 5,
+    "edits": [
+      {
+        "rect": [
+          537.87255859375,
+          219.17430114746094,
+          544.2522583007812,
+          232.37371826171875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "2",
+        "new": "6",
+        "right_aligned": true,
+        "output_rect": [
+          537.87255859375,
+          219.17430114746094,
+          544.2522583007812,
+          232.37371826171875
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          537.87255859375,
+          259.8992919921875,
+          544.2522583007812,
+          273.09869384765625
+        ],
+        "reason": "chapter_contents_page",
+        "old": "9",
+        "new": "13",
+        "right_aligned": true,
+        "output_rect": [
+          531.4927978515625,
+          259.8992919921875,
+          544.2522583007812,
+          273.09869384765625
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          531.4931640625,
+          300.6242980957031,
+          544.2526245117188,
+          313.8236999511719
+        ],
+        "reason": "chapter_contents_page",
+        "old": "20",
+        "new": "24",
+        "right_aligned": true,
+        "output_rect": [
+          531.4931640625,
+          300.6242980957031,
+          544.2526245117188,
+          313.8236999511719
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          531.4931640625,
+          341.34930419921875,
+          544.2526245117188,
+          354.5487060546875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "34",
+        "new": "38",
+        "right_aligned": true,
+        "output_rect": [
+          531.4931640625,
+          341.34930419921875,
+          544.2526245117188,
+          354.5487060546875
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          531.4931640625,
+          382.0743408203125,
+          544.2526245117188,
+          395.27374267578125
+        ],
+        "reason": "chapter_contents_page",
+        "old": "39",
+        "new": "43",
+        "right_aligned": true,
+        "output_rect": [
+          531.4931640625,
+          382.0743408203125,
+          544.2526245117188,
+          395.27374267578125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "5",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 2,
+    "book_page": 6,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "6",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 3,
+    "book_page": 7,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "7",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 4,
+    "book_page": 8,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "8",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 5,
+    "book_page": 9,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "9",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 6,
+    "book_page": 10,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "10",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 7,
+    "book_page": 11,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "11",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 8,
+    "book_page": 12,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "12",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 9,
+    "book_page": 13,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "13",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 10,
+    "book_page": 14,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "14",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 11,
+    "book_page": 15,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "15",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 12,
+    "book_page": 16,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "16",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 13,
+    "book_page": 17,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "17",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 14,
+    "book_page": 18,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "18",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 15,
+    "book_page": 19,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "19",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 16,
+    "book_page": 20,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "20",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 17,
+    "book_page": 21,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "21",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 18,
+    "book_page": 22,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "22",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 19,
+    "book_page": 23,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "23",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 20,
+    "book_page": 24,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "24",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 21,
+    "book_page": 25,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "25",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 22,
+    "book_page": 26,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "26",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 23,
+    "book_page": 27,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "27",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 24,
+    "book_page": 28,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "28",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 25,
+    "book_page": 29,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "29",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 26,
+    "book_page": 30,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "30",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 27,
+    "book_page": 31,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "31",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 28,
+    "book_page": 32,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "32",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 29,
+    "book_page": 33,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "33",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 30,
+    "book_page": 34,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "34",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 31,
+    "book_page": 35,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "35",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 32,
+    "book_page": 36,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "32",
+        "new": "36",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 33,
+    "book_page": 37,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "33",
+        "new": "37",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 34,
+    "book_page": 38,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "34",
+        "new": "38",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 35,
+    "book_page": 39,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "35",
+        "new": "39",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 36,
+    "book_page": 40,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "36",
+        "new": "40",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 37,
+    "book_page": 41,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "37",
+        "new": "41",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 38,
+    "book_page": 42,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "38",
+        "new": "42",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 39,
+    "book_page": 43,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "39",
+        "new": "43",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+    "local_page": 40,
+    "book_page": 44,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "40",
+        "new": "44",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 1,
+    "book_page": 45,
+    "edits": [
+      {
+        "rect": [
+          537.87255859375,
+          164.62428283691406,
+          544.2522583007812,
+          177.82369995117188
+        ],
+        "reason": "chapter_contents_page",
+        "old": "2",
+        "new": "46",
+        "right_aligned": true,
+        "output_rect": [
+          531.4927978515625,
+          164.62428283691406,
+          544.2522583007812,
+          177.82369995117188
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          531.4931640625,
+          205.3492889404297,
+          544.2526245117188,
+          218.5487060546875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "14",
+        "new": "58",
+        "right_aligned": true,
+        "output_rect": [
+          531.4931640625,
+          205.3492889404297,
+          544.2526245117188,
+          218.5487060546875
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          531.4931640625,
+          246.0742645263672,
+          544.2526245117188,
+          259.273681640625
+        ],
+        "reason": "chapter_contents_page",
+        "old": "24",
+        "new": "68",
+        "right_aligned": true,
+        "output_rect": [
+          531.4931640625,
+          246.0742645263672,
+          544.2526245117188,
+          259.273681640625
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          531.4931640625,
+          286.79931640625,
+          544.2526245117188,
+          299.99871826171875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "34",
+        "new": "78",
+        "right_aligned": true,
+        "output_rect": [
+          531.4931640625,
+          286.79931640625,
+          544.2526245117188,
+          299.99871826171875
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "45",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 2,
+    "book_page": 46,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "46",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 3,
+    "book_page": 47,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "47",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 4,
+    "book_page": 48,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "48",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 5,
+    "book_page": 49,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "49",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 6,
+    "book_page": 50,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "50",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 7,
+    "book_page": 51,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "51",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 8,
+    "book_page": 52,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "52",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 9,
+    "book_page": 53,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "53",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 10,
+    "book_page": 54,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "54",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 11,
+    "book_page": 55,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "55",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 12,
+    "book_page": 56,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "56",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 13,
+    "book_page": 57,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "57",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 14,
+    "book_page": 58,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "58",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 15,
+    "book_page": 59,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "59",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 16,
+    "book_page": 60,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "60",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 17,
+    "book_page": 61,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "61",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 18,
+    "book_page": 62,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "62",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 19,
+    "book_page": 63,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "63",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 20,
+    "book_page": 64,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "64",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 21,
+    "book_page": 65,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "65",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 22,
+    "book_page": 66,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "66",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 23,
+    "book_page": 67,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "67",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 24,
+    "book_page": 68,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "68",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 25,
+    "book_page": 69,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "69",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 26,
+    "book_page": 70,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "70",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 27,
+    "book_page": 71,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "71",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 28,
+    "book_page": 72,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "72",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 29,
+    "book_page": 73,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "73",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 30,
+    "book_page": 74,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "74",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 31,
+    "book_page": 75,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "75",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 32,
+    "book_page": 76,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "32",
+        "new": "76",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 33,
+    "book_page": 77,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "33",
+        "new": "77",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 34,
+    "book_page": 78,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "34",
+        "new": "78",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 35,
+    "book_page": 79,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "35",
+        "new": "79",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 36,
+    "book_page": 80,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "36",
+        "new": "80",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 37,
+    "book_page": 81,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "37",
+        "new": "81",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 38,
+    "book_page": 82,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "38",
+        "new": "82",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 39,
+    "book_page": 83,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "39",
+        "new": "83",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+    "local_page": 40,
+    "book_page": 84,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "40",
+        "new": "84",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 1,
+    "book_page": 85,
+    "edits": [
+      {
+        "rect": [
+          537.87255859375,
+          200.32427978515625,
+          544.2522583007812,
+          213.52369689941406
+        ],
+        "reason": "chapter_contents_page",
+        "old": "2",
+        "new": "86",
+        "right_aligned": true,
+        "output_rect": [
+          531.4927978515625,
+          200.32427978515625,
+          544.2522583007812,
+          213.52369689941406
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          531.4931640625,
+          238.54928588867188,
+          544.2526245117188,
+          251.7487030029297
+        ],
+        "reason": "chapter_contents_page",
+        "old": "12",
+        "new": "96",
+        "right_aligned": true,
+        "output_rect": [
+          531.4931640625,
+          238.54928588867188,
+          544.2526245117188,
+          251.7487030029297
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          531.4931640625,
+          276.7742919921875,
+          544.2526245117188,
+          289.97369384765625
+        ],
+        "reason": "chapter_contents_page",
+        "old": "24",
+        "new": "108",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          276.7742919921875,
+          544.2526245117188,
+          289.97369384765625
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          531.4931640625,
+          314.99932861328125,
+          544.2526245117188,
+          328.19873046875
+        ],
+        "reason": "chapter_contents_page",
+        "old": "34",
+        "new": "118",
+        "right_aligned": true,
+        "output_rect": [
+          525.1134643554688,
+          314.99932861328125,
+          544.2526245117188,
+          328.19873046875
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "85",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 2,
+    "book_page": 86,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "86",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 3,
+    "book_page": 87,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "87",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 4,
+    "book_page": 88,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "88",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 5,
+    "book_page": 89,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "89",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 6,
+    "book_page": 90,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "90",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 7,
+    "book_page": 91,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "91",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 8,
+    "book_page": 92,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "92",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 9,
+    "book_page": 93,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "93",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 10,
+    "book_page": 94,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "94",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 11,
+    "book_page": 95,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "95",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 12,
+    "book_page": 96,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "96",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 13,
+    "book_page": 97,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "97",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 14,
+    "book_page": 98,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "98",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 15,
+    "book_page": 99,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "99",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 16,
+    "book_page": 100,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "100",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 17,
+    "book_page": 101,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "101",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 18,
+    "book_page": 102,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "102",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 19,
+    "book_page": 103,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "103",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 20,
+    "book_page": 104,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "104",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 21,
+    "book_page": 105,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "105",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 22,
+    "book_page": 106,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "106",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 23,
+    "book_page": 107,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "23",
+        "new": "107",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 24,
+    "book_page": 108,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "24",
+        "new": "108",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 25,
+    "book_page": 109,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "25",
+        "new": "109",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 26,
+    "book_page": 110,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "26",
+        "new": "110",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 27,
+    "book_page": 111,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "27",
+        "new": "111",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 28,
+    "book_page": 112,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "28",
+        "new": "112",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 29,
+    "book_page": 113,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "29",
+        "new": "113",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 30,
+    "book_page": 114,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "30",
+        "new": "114",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 31,
+    "book_page": 115,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "31",
+        "new": "115",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 32,
+    "book_page": 116,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "32",
+        "new": "116",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 33,
+    "book_page": 117,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "33",
+        "new": "117",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 34,
+    "book_page": 118,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "34",
+        "new": "118",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 35,
+    "book_page": 119,
+    "edits": [
+      {
+        "rect": [
+          263.38433837890625,
+          408.5447998046875,
+          451.39404296875,
+          420.6640319824219
+        ],
+        "reason": "inline_page_reference",
+        "old": "Het voorbeeld op pagina 17 en opgave 15.",
+        "new": "Het voorbeeld op pagina 101 en opgave 15.",
+        "right_aligned": false,
+        "output_rect": [
+          263.38433837890625,
+          408.5447998046875,
+          458.0849609375,
+          420.6640319824219
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          263.38433837890625,
+          430.7218017578125,
+          451.39404296875,
+          442.8410339355469
+        ],
+        "reason": "inline_page_reference",
+        "old": "Het voorbeeld op pagina 27 en opgave 26.",
+        "new": "Het voorbeeld op pagina 111 en opgave 26.",
+        "right_aligned": false,
+        "output_rect": [
+          263.38433837890625,
+          430.7218017578125,
+          458.0849609375,
+          442.8410339355469
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "35",
+        "new": "119",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 36,
+    "book_page": 120,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "36",
+        "new": "120",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 37,
+    "book_page": 121,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "37",
+        "new": "121",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 38,
+    "book_page": 122,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "38",
+        "new": "122",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 39,
+    "book_page": 123,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "39",
+        "new": "123",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+    "local_page": 40,
+    "book_page": 124,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "40",
+        "new": "124",
+        "right_aligned": true,
+        "output_rect": [
+          528.592041015625,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  }
+]

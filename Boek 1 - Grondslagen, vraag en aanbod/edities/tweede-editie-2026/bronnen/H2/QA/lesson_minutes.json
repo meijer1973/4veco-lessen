@@ -1,0 +1,102 @@
+[
+  {
+    "paragraph": "1.2.1",
+    "title": "Betalingsbereidheid en individuele vraag",
+    "start": "1–2",
+    "guided": "3–5",
+    "independent": "6–7",
+    "target": "8",
+    "bonus": "9",
+    "repetition": "10–11",
+    "components": {
+      "uitleg": 20,
+      "voorbeeld": 16,
+      "start": 9,
+      "begeleid": 25,
+      "zelfstandig": 28,
+      "doel": 24,
+      "overgangen_feedback": 13,
+      "motivatie": 3,
+      "samenvatting": 3
+    },
+    "total": 141,
+    "estimate": "ontwerpschatting; niet gemeten",
+    "normal_route": true,
+    "bonus_minutes": 15,
+    "challenging_total": 131
+  },
+  {
+    "paragraph": "1.2.2",
+    "title": "Vraagfactoren",
+    "start": "12–13",
+    "guided": "14–16",
+    "independent": "17–18",
+    "target": "19",
+    "bonus": "20",
+    "repetition": "21–22",
+    "components": {
+      "uitleg": 22,
+      "voorbeeld": 15,
+      "start": 8,
+      "begeleid": 25,
+      "zelfstandig": 29,
+      "doel": 25,
+      "overgangen_feedback": 11,
+      "motivatie": 3,
+      "samenvatting": 3
+    },
+    "total": 141,
+    "estimate": "ontwerpschatting; niet gemeten",
+    "normal_route": true,
+    "bonus_minutes": 15,
+    "challenging_total": 131
+  },
+  {
+    "paragraph": "1.2.3",
+    "title": "Van individuele naar collectieve vraag",
+    "start": "23–24",
+    "guided": "25–27",
+    "independent": "28–29",
+    "target": "30",
+    "bonus": "31",
+    "repetition": "32–33",
+    "components": {
+      "uitleg": 20,
+      "voorbeeld": 19,
+      "start": 8,
+      "begeleid": 25,
+      "zelfstandig": 21,
+      "doel": 25,
+      "overgangen_feedback": 13,
+      "motivatie": 3,
+      "samenvatting": 3
+    },
+    "total": 137,
+    "estimate": "ontwerpschatting; niet gemeten",
+    "normal_route": true,
+    "bonus_minutes": 18,
+    "challenging_total": 130
+  },
+  {
+    "paragraph": "1.2.4",
+    "title": "Gemengde opgaven",
+    "start": "—",
+    "guided": "—",
+    "independent": "34–36",
+    "target": "37",
+    "bonus": "38",
+    "repetition": "—",
+    "components": {
+      "uitleg": 0,
+      "voorbeeld": 5,
+      "start": 0,
+      "begeleid": 0,
+      "zelfstandig": 28,
+      "doel": 23,
+      "overgangen_feedback": 7
+    },
+    "total": 63,
+    "estimate": "ontwerpschatting; niet gemeten",
+    "normal_route": false
+  }
+]

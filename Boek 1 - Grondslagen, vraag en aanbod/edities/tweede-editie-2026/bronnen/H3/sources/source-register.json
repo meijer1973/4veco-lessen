@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-09",
+  "purpose": "New second-edition Book 1 Chapter 3; owner request, not a first-edition retrofit",
+  "outline": {
+    "file": "book-1-outline-second-edition-v1.md",
+    "sha256": "ab51a92b2be4a37e87317c32ac4d2a14174a3689e469b1f104e02c2c85668022",
+    "controls": "Chapter 7, paragraph purposes and target briefs; mathematical progression and Book 2 handoff"
+  },
+  "repositories": [
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "91778371a11cbe9839a4822c3989e90e7317850a",
+      "lines_fetched": [
+        1,
+        165
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/RESEARCH_AGENT_MAP.md",
+      "access": "GitHub connector; successfully retrieved excerpt"
+    },
+    {
+      "repository": "meijer1973/4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "blob_sha": "d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5",
+      "lines_fetched": [
+        1,
+        116
+      ],
+      "url": "https://github.com/meijer1973/4veco-lessen/blob/main/RESEARCH_AGENT_MAP.md",
+      "access": "GitHub connector; successfully retrieved excerpt"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-exercise-builder.md",
+      "blob_sha": "5504c8e8a325864978c76867b15b857c118df19d",
+      "lines_fetched": [
+        1,
+        228
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md",
+      "access": "GitHub connector; successfully retrieved excerpt"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-didactiek.md",
+      "blob_sha": "5a38065e42754e0490e541002ba4465bf3dbeda8",
+      "lines_fetched": [
+        1,
+        105
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-didactiek.md",
+      "access": "GitHub connector; successfully retrieved excerpt"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/economic-graph.md",
+      "blob_sha": "938d5e61c46de0d60b8bdeaf0aced2572715c2d0",
+      "lines_fetched": [
+        176,
+        303
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/economic-graph.md",
+      "access": "GitHub connector; successfully retrieved excerpt"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-textbook-paragraph.md",
+      "blob_sha": "b48ff1f0d02748e6e4d1f98d6d892ac786562c3b",
+      "lines_fetched": [
+        160,
+        237
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-textbook-paragraph.md",
+      "access": "GitHub connector; successfully retrieved excerpt"
+    }
+  ],
+  "provenance_limit": "The register records fetched identity and excerpts, not a complete local repository snapshot or an examination-program audit. The live first-edition blueprint and registry have not been edited. Four target exercises, examples, numbers and contexts are newly authored from the second-edition briefs, not verbatim existing targets.",
+  "prior_artifacts": [
+    {
+      "file": "Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+      "sha256": "7c3b500d6150ffaf99d8abcf13bcb4e11523b62d6c5c02750f8cc1c98ffbbf1f",
+      "use": "Read to check notation, prerequisites, page-reference conventions and style; not reproduced in this package"
+    },
+    {
+      "file": "Boek_1_H2_Vraag_Tweede_editie.pdf",
+      "sha256": "479686e4149b1b832b1b93eea20f128a59b2e5de78abf4f106efed1f7406cd08",
+      "use": "Read to check notation, prerequisites, page-reference conventions and style; not reproduced in this package"
+    }
+  ]
+}

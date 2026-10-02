@@ -1,0 +1,1606 @@
+[
+  {
+    "file": "1.2.1_fig_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 315,
+    "type": "wtp",
+    "values": [
+      10,
+      7,
+      4,
+      2
+    ],
+    "price": 4,
+    "count": 3,
+    "preview": false
+  },
+  {
+    "file": "1.2.1_fig_2",
+    "kind": "instruction",
+    "width": 720,
+    "height": 291,
+    "type": "step",
+    "values": [
+      10,
+      7,
+      4,
+      2
+    ],
+    "price": 4
+  },
+  {
+    "file": "1.2.1_fig_3",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 12,
+      "ymax": 6
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 12,
+        "b": 2,
+        "pmin": 0,
+        "pmax": 6,
+        "drawn": false,
+        "endpoints": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        12,
+        0,
+        "",
+        false
+      ],
+      [
+        "V",
+        0,
+        6,
+        "",
+        false
+      ]
+    ]
+  },
+  {
+    "file": "1.2.1_fig_4",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 12,
+      "ymax": 6
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 12,
+        "b": 2,
+        "pmin": 0,
+        "pmax": 6,
+        "drawn": true,
+        "endpoints": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        8,
+        2,
+        "A"
+      ],
+      [
+        "V",
+        4,
+        4,
+        "B"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.1_we_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 12,
+      "ymax": 6
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 12,
+        "b": 2,
+        "pmin": 0,
+        "pmax": 6,
+        "drawn": true,
+        "endpoints": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        8,
+        2,
+        "A"
+      ],
+      [
+        "V",
+        4,
+        4,
+        "B"
+      ],
+      [
+        "V",
+        6,
+        3,
+        "C"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.1_ex_3",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 12,
+      "ymax": 6
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 12,
+        "b": 2,
+        "pmin": 0,
+        "pmax": 6,
+        "drawn": true,
+        "endpoints": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        8,
+        2,
+        "A"
+      ],
+      [
+        "V",
+        4,
+        4,
+        "B"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.1_ex_4",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 8,
+      "ymax": 8
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 8,
+        "b": 1,
+        "pmin": 0,
+        "pmax": 8,
+        "drawn": false,
+        "endpoints": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            8
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        8,
+        0,
+        "",
+        false
+      ],
+      [
+        "V",
+        0,
+        8,
+        "",
+        false
+      ]
+    ]
+  },
+  {
+    "file": "1.2.1_ans_4",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 8,
+      "ymax": 8.0
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 8,
+        "b": 1,
+        "pmin": 0,
+        "pmax": 8.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            8,
+            0
+          ],
+          [
+            0.0,
+            8.0
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        6,
+        2,
+        "A"
+      ],
+      [
+        "V",
+        3,
+        5,
+        "B"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.1_ans_6",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 18,
+      "ymax": 6.0
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 18,
+        "b": 3,
+        "pmin": 0,
+        "pmax": 6.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            18,
+            0
+          ],
+          [
+            0.0,
+            6.0
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        12,
+        2,
+        "A"
+      ],
+      [
+        "V",
+        6,
+        4,
+        "B"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.1_ans_8",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 20,
+      "ymax": 5.0
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 20,
+        "b": 4,
+        "pmin": 0,
+        "pmax": 5.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            20,
+            0
+          ],
+          [
+            0.0,
+            5.0
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        12,
+        2,
+        "A"
+      ],
+      [
+        "V",
+        8,
+        3,
+        "B"
+      ],
+      [
+        "V",
+        6,
+        3.5,
+        "C"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.2_fig_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 100,
+      "ymax": 25
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 80,
+        "b": 4,
+        "pmin": 0,
+        "pmax": 20.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            80,
+            0
+          ],
+          [
+            0.0,
+            20.0
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V0",
+        60,
+        5,
+        "A"
+      ],
+      [
+        "V0",
+        40,
+        10,
+        "B"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.2_fig_2",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 100,
+      "ymax": 25
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 80,
+        "b": 4,
+        "pmin": 0,
+        "pmax": 20.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            80,
+            0
+          ],
+          [
+            0.0,
+            20.0
+          ]
+        ]
+      },
+      {
+        "name": "V1",
+        "a": 100,
+        "b": 4,
+        "pmin": 0,
+        "pmax": 25,
+        "drawn": true,
+        "endpoints": [
+          [
+            100,
+            0
+          ],
+          [
+            0,
+            25
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V0",
+        40,
+        10,
+        "B"
+      ],
+      [
+        "V1",
+        60,
+        10,
+        "C"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.2_fig_3",
+    "kind": "instruction",
+    "width": 720,
+    "height": 198,
+    "type": "flow",
+    "heads": [
+      "Prijs thee stijgt",
+      "Thee wordt relatief duur",
+      "Vraag naar koffie"
+    ],
+    "lines": [
+      [
+        "Koffieprijs blijft gelijk"
+      ],
+      [
+        "Sommigen kiezen koffie"
+      ],
+      [
+        "Verschuift naar rechts"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.2_fig_4",
+    "kind": "instruction",
+    "width": 720,
+    "height": 198,
+    "type": "flow",
+    "heads": [
+      "Printer wordt duurder",
+      "Minder printers gekocht",
+      "Vraag naar inkt"
+    ],
+    "lines": [
+      [
+        "Inktprijs blijft gelijk"
+      ],
+      [
+        "Minder inkt nodig"
+      ],
+      [
+        "Verschuift naar links"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.2_we_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 80,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 60,
+        "b": 3,
+        "pmin": 0,
+        "pmax": 20.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            60,
+            0
+          ],
+          [
+            0.0,
+            20.0
+          ]
+        ]
+      },
+      {
+        "name": "V1",
+        "a": 72,
+        "b": 3,
+        "pmin": 0,
+        "pmax": 24,
+        "drawn": true,
+        "endpoints": [
+          [
+            72,
+            0
+          ],
+          [
+            0,
+            24
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V0",
+        42,
+        6,
+        "A"
+      ],
+      [
+        "V0",
+        36,
+        8,
+        "B"
+      ],
+      [
+        "V1",
+        48,
+        8,
+        "C"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.2_ex_14",
+    "kind": "instruction",
+    "width": 720,
+    "height": 255,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 185,
+      "top": 53,
+      "ex": 620,
+      "xmax": 64,
+      "ymax": 16
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 48,
+        "b": 4,
+        "pmin": 0,
+        "pmax": 12.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            48,
+            0
+          ],
+          [
+            0.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "V1",
+        "a": 64,
+        "b": 4,
+        "pmin": 0,
+        "pmax": 16,
+        "drawn": true,
+        "endpoints": [
+          [
+            64,
+            0
+          ],
+          [
+            0,
+            16
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V0",
+        24,
+        6,
+        "A"
+      ],
+      [
+        "V1",
+        40,
+        6,
+        "B"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.2_ex_15",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 120,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 120,
+        "b": 10,
+        "pmin": 0,
+        "pmax": 12,
+        "drawn": true,
+        "endpoints": [
+          [
+            120,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ]
+      }
+    ],
+    "marks": []
+  },
+  {
+    "file": "1.2.2_ex_18",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 80,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 60,
+        "b": 3,
+        "pmin": 0,
+        "pmax": 20.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            60,
+            0
+          ],
+          [
+            0.0,
+            20.0
+          ]
+        ]
+      }
+    ],
+    "marks": []
+  },
+  {
+    "file": "1.2.2_ex_19",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 120,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 100,
+        "b": 5,
+        "pmin": 0,
+        "pmax": 20.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            100,
+            0
+          ],
+          [
+            0.0,
+            20.0
+          ]
+        ]
+      }
+    ],
+    "marks": []
+  },
+  {
+    "file": "1.2.2_ans_15",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 120,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 120,
+        "b": 10,
+        "pmin": 0,
+        "pmax": 12,
+        "drawn": true,
+        "endpoints": [
+          [
+            120,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ]
+      },
+      {
+        "name": "V1",
+        "a": 100,
+        "b": 10,
+        "pmin": 0,
+        "pmax": 10.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            100,
+            0
+          ],
+          [
+            0.0,
+            10.0
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V0",
+        60,
+        6,
+        "A"
+      ],
+      [
+        "V0",
+        40,
+        8,
+        "B"
+      ],
+      [
+        "V1",
+        40,
+        6,
+        "C"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.2_ans_18",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 80,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 60,
+        "b": 3,
+        "pmin": 0,
+        "pmax": 20.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            60,
+            0
+          ],
+          [
+            0.0,
+            20.0
+          ]
+        ]
+      },
+      {
+        "name": "V1",
+        "a": 72,
+        "b": 3,
+        "pmin": 0,
+        "pmax": 24,
+        "drawn": true,
+        "endpoints": [
+          [
+            72,
+            0
+          ],
+          [
+            0,
+            24
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V0",
+        30,
+        10,
+        "A"
+      ],
+      [
+        "V0",
+        36,
+        8,
+        "B"
+      ],
+      [
+        "V1",
+        48,
+        8,
+        "C"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.2_ans_19",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 120,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 100,
+        "b": 5,
+        "pmin": 0,
+        "pmax": 20.0,
+        "drawn": true,
+        "endpoints": [
+          [
+            100,
+            0
+          ],
+          [
+            0.0,
+            20.0
+          ]
+        ]
+      },
+      {
+        "name": "V1",
+        "a": 120,
+        "b": 5,
+        "pmin": 0,
+        "pmax": 24,
+        "drawn": true,
+        "endpoints": [
+          [
+            120,
+            0
+          ],
+          [
+            0,
+            24
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V0",
+        60,
+        8,
+        "A"
+      ],
+      [
+        "V0",
+        50,
+        10,
+        "B"
+      ],
+      [
+        "V1",
+        70,
+        10,
+        "C"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.3_fig_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 365,
+    "type": "aggregation",
+    "panels": [
+      {
+        "ox": 42,
+        "ex": 224,
+        "by": 242,
+        "top": 75,
+        "xmax": 20,
+        "ymax": 6,
+        "a": 8,
+        "b": 2,
+        "price": 2,
+        "pmax": 4.0
+      },
+      {
+        "ox": 279,
+        "ex": 461,
+        "by": 242,
+        "top": 75,
+        "xmax": 20,
+        "ymax": 6,
+        "a": 12,
+        "b": 2,
+        "price": 2,
+        "pmax": 6
+      },
+      {
+        "ox": 516,
+        "ex": 698,
+        "by": 242,
+        "top": 75,
+        "xmax": 20,
+        "ymax": 6,
+        "a": 20,
+        "b": 4,
+        "price": 2,
+        "pmax": 4.0
+      }
+    ]
+  },
+  {
+    "file": "1.2.3_fig_2",
+    "kind": "instruction",
+    "width": 720,
+    "height": 337,
+    "type": "dropout",
+    "models": [
+      [
+        8,
+        2
+      ],
+      [
+        12,
+        2
+      ]
+    ],
+    "points": [
+      [
+        20,
+        0
+      ],
+      [
+        4.0,
+        4.0
+      ],
+      [
+        0,
+        6.0
+      ]
+    ],
+    "test": [
+      2.0,
+      5.0
+    ],
+    "plot": {
+      "ox": 82,
+      "ex": 620,
+      "by": 267,
+      "top": 55,
+      "xmax": 20,
+      "ymax": 6.0
+    }
+  },
+  {
+    "file": "1.2.3_we_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 20,
+      "ymax": 8
+    },
+    "curves": [
+      {
+        "name": "VA",
+        "a": 20,
+        "b": 4,
+        "pmin": 0,
+        "pmax": 4,
+        "drawn": true,
+        "endpoints": [
+          [
+            20,
+            0
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "VA",
+        12,
+        2,
+        "A"
+      ],
+      [
+        "VA",
+        4,
+        4,
+        "B"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.3_ex_25",
+    "kind": "instruction",
+    "width": 720,
+    "height": 365,
+    "type": "aggregation",
+    "panels": [
+      {
+        "ox": 42,
+        "ex": 224,
+        "by": 242,
+        "top": 75,
+        "xmax": 20,
+        "ymax": 6,
+        "a": 8,
+        "b": 2,
+        "price": 2,
+        "pmax": 4.0
+      },
+      {
+        "ox": 279,
+        "ex": 461,
+        "by": 242,
+        "top": 75,
+        "xmax": 20,
+        "ymax": 6,
+        "a": 12,
+        "b": 2,
+        "price": 2,
+        "pmax": 6
+      },
+      {
+        "ox": 516,
+        "ex": 698,
+        "by": 242,
+        "top": 75,
+        "xmax": 20,
+        "ymax": 6,
+        "a": 20,
+        "b": 4,
+        "price": 2,
+        "pmax": 4.0
+      }
+    ]
+  },
+  {
+    "file": "1.2.3_ex_26",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 24,
+      "ymax": 8
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 24,
+        "b": 4,
+        "pmin": 0,
+        "pmax": 4,
+        "drawn": false,
+        "endpoints": [
+          [
+            24,
+            0
+          ],
+          [
+            8,
+            4
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        24,
+        0,
+        "",
+        false
+      ]
+    ]
+  },
+  {
+    "file": "1.2.3_ans_26",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 24,
+      "ymax": 8
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 24,
+        "b": 4,
+        "pmin": 0,
+        "pmax": 4,
+        "drawn": true,
+        "endpoints": [
+          [
+            24,
+            0
+          ],
+          [
+            8,
+            4
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        16,
+        2,
+        "A"
+      ],
+      [
+        "V",
+        8,
+        4,
+        "B"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.3_ans_28",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 36,
+      "ymax": 6
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 36,
+        "b": 6,
+        "pmin": 0,
+        "pmax": 4,
+        "drawn": true,
+        "endpoints": [
+          [
+            36,
+            0
+          ],
+          [
+            12,
+            4
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        24,
+        2,
+        "A"
+      ],
+      [
+        "V",
+        12,
+        4,
+        "B"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.3_ans_30",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 48,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 42,
+        "b": 5,
+        "pmin": 0,
+        "pmax": 6,
+        "drawn": true,
+        "endpoints": [
+          [
+            42,
+            0
+          ],
+          [
+            12,
+            6
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        32,
+        2,
+        "A"
+      ],
+      [
+        "V",
+        22,
+        4,
+        "B"
+      ],
+      [
+        "V",
+        12,
+        6,
+        "C"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.4_ex_37",
+    "kind": "instruction",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 72,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 60,
+        "b": 6,
+        "pmin": 0,
+        "pmax": 8,
+        "drawn": true,
+        "endpoints": [
+          [
+            60,
+            0
+          ],
+          [
+            12,
+            8
+          ]
+        ]
+      }
+    ],
+    "marks": []
+  },
+  {
+    "file": "1.2.4_ans_37",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 72,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 60,
+        "b": 6,
+        "pmin": 0,
+        "pmax": 8,
+        "drawn": true,
+        "endpoints": [
+          [
+            60,
+            0
+          ],
+          [
+            12,
+            8
+          ]
+        ]
+      },
+      {
+        "name": "V1",
+        "a": 72,
+        "b": 6,
+        "pmin": 0,
+        "pmax": 8,
+        "drawn": true,
+        "endpoints": [
+          [
+            72,
+            0
+          ],
+          [
+            24,
+            8
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V0",
+        36,
+        4,
+        "A"
+      ],
+      [
+        "V0",
+        24,
+        6,
+        "B"
+      ],
+      [
+        "V1",
+        36,
+        6,
+        "C"
+      ]
+    ]
+  },
+  {
+    "file": "1.2.4_ans_36",
+    "kind": "answer",
+    "width": 720,
+    "height": 340,
+    "type": "chart",
+    "plot": {
+      "ox": 82,
+      "by": 270,
+      "top": 53,
+      "ex": 620,
+      "xmax": 14,
+      "ymax": 7
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 14,
+        "b": 2,
+        "pmin": 0,
+        "pmax": 7,
+        "drawn": true,
+        "endpoints": [
+          [
+            14,
+            0
+          ],
+          [
+            0,
+            7
+          ]
+        ]
+      }
+    ],
+    "marks": [
+      [
+        "V",
+        6,
+        4,
+        "A"
+      ],
+      [
+        "V",
+        4,
+        5,
+        "B"
+      ]
+    ]
+  }
+]

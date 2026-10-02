@@ -1,0 +1,2053 @@
+[
+  {
+    "name": "1.3.1_fig_1",
+    "kind": "instruction",
+    "height": 241
+  },
+  {
+    "name": "1.3.1_fig_2",
+    "kind": "instruction",
+    "height": 340,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 273,
+      "top": 51,
+      "xmax": 40,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "A0",
+        "a": -20,
+        "b": 5,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          12
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 12,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "A0",
+        "q": 10,
+        "p": 6,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "A0",
+        "q": 20,
+        "p": 8,
+        "guides": true
+      },
+      {
+        "id": 2,
+        "curve": "A0",
+        "q": 30,
+        "p": 10,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.1_fig_3",
+    "kind": "instruction",
+    "height": 340,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 273,
+      "top": 51,
+      "xmax": 40,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "A0",
+        "a": -20,
+        "b": 5,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          12
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 12,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -30,
+        "b": 5,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          6,
+          12
+        ],
+        "dash": "7 4",
+        "p_lo": 6,
+        "p_hi": 12,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "A0",
+        "q": 20,
+        "p": 8,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "A1",
+        "q": 10,
+        "p": 8,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.1_we_1",
+    "kind": "instruction",
+    "height": 286,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 219,
+      "top": 51,
+      "xmax": 40,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "A0",
+        "a": -12,
+        "b": 4,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          3,
+          12
+        ],
+        "dash": "",
+        "p_lo": 3,
+        "p_hi": 12,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -20,
+        "b": 4,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          5,
+          12
+        ],
+        "dash": "7 4",
+        "p_lo": 5,
+        "p_hi": 12,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "A0",
+        "q": 12,
+        "p": 6,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "A0",
+        "q": 20,
+        "p": 8,
+        "guides": true
+      },
+      {
+        "id": 2,
+        "curve": "A1",
+        "q": 12,
+        "p": 8,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.1_ex_3",
+    "kind": "instruction",
+    "height": 242,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 175,
+      "top": 51,
+      "xmax": 24,
+      "ymax": 10
+    },
+    "curves": [
+      {
+        "name": "A",
+        "a": -6,
+        "b": 3,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          2,
+          10
+        ],
+        "dash": "",
+        "p_lo": 2,
+        "p_hi": 10,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "A",
+        "q": 6,
+        "p": 4,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "A",
+        "q": 12,
+        "p": 6,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.1_ex_4",
+    "kind": "instruction",
+    "height": 246,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 179,
+      "top": 51,
+      "xmax": 32,
+      "ymax": 10
+    },
+    "curves": [
+      {
+        "name": "A0",
+        "a": -8,
+        "b": 4,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          2,
+          10
+        ],
+        "dash": "",
+        "p_lo": 2,
+        "p_hi": 10,
+        "drawn": true
+      }
+    ],
+    "marks": [],
+    "gap": null
+  },
+  {
+    "name": "1.3.1_ex_8",
+    "kind": "instruction",
+    "height": 340,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 273,
+      "top": 51,
+      "xmax": 112,
+      "ymax": 16
+    },
+    "curves": [
+      {
+        "name": "A0",
+        "a": -32,
+        "b": 8,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          16
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 16,
+        "drawn": true
+      }
+    ],
+    "marks": [],
+    "gap": null
+  },
+  {
+    "name": "1.3.1_ex_9",
+    "kind": "instruction",
+    "height": 235,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 168,
+      "top": 51,
+      "xmax": 80,
+      "ymax": 32
+    },
+    "curves": [
+      {
+        "name": "A0",
+        "a": -40,
+        "b": 4,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          10,
+          30
+        ],
+        "dash": "",
+        "p_lo": 10,
+        "p_hi": 30,
+        "drawn": true
+      }
+    ],
+    "marks": [],
+    "gap": null
+  },
+  {
+    "name": "1.3.2_fig_1",
+    "kind": "instruction",
+    "height": 237,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 170,
+      "top": 51,
+      "xmax": 120,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 120,
+        "b": -10,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          12
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 12,
+        "drawn": true
+      }
+    ],
+    "marks": [],
+    "gap": null
+  },
+  {
+    "name": "1.3.2_fig_2",
+    "kind": "instruction",
+    "height": 290,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 223,
+      "top": 51,
+      "xmax": 120,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 120,
+        "b": -10,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          12
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 12,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -20,
+        "b": 10,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          2,
+          12
+        ],
+        "dash": "",
+        "p_lo": 2,
+        "p_hi": 12,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 50,
+        "p": 7,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.2_fig_3",
+    "kind": "instruction",
+    "height": 340,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 273,
+      "top": 51,
+      "xmax": 120,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 120,
+        "b": -10,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          12
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 12,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -20,
+        "b": 10,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          2,
+          12
+        ],
+        "dash": "",
+        "p_lo": 2,
+        "p_hi": 12,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 70,
+        "p": 5,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "A",
+        "q": 30,
+        "p": 5,
+        "guides": true
+      }
+    ],
+    "gap": {
+      "left": 30,
+      "right": 70,
+      "p": 5,
+      "a": "V",
+      "b": "A"
+    }
+  },
+  {
+    "name": "1.3.2_fig_4",
+    "kind": "instruction",
+    "height": 340,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 273,
+      "top": 51,
+      "xmax": 120,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 120,
+        "b": -10,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          12
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 12,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -20,
+        "b": 10,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          2,
+          12
+        ],
+        "dash": "",
+        "p_lo": 2,
+        "p_hi": 12,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 30,
+        "p": 9,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "A",
+        "q": 70,
+        "p": 9,
+        "guides": true
+      }
+    ],
+    "gap": {
+      "left": 30,
+      "right": 70,
+      "p": 9,
+      "a": "V",
+      "b": "A"
+    }
+  },
+  {
+    "name": "1.3.2_we_1",
+    "kind": "instruction",
+    "height": 245,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 178,
+      "top": 51,
+      "xmax": 80,
+      "ymax": 16
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 80,
+        "b": -5,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          16
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 16,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -20,
+        "b": 5,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          4,
+          16
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 16,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 30,
+        "p": 10,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.2_ex_14",
+    "kind": "instruction",
+    "height": 340,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 273,
+      "top": 51,
+      "xmax": 60,
+      "ymax": 12
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 60,
+        "b": -5,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          12
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 12,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -10,
+        "b": 5,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          2,
+          12
+        ],
+        "dash": "",
+        "p_lo": 2,
+        "p_hi": 12,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 25,
+        "p": 7,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V",
+        "q": 35,
+        "p": 5,
+        "guides": true
+      },
+      {
+        "id": 2,
+        "curve": "A",
+        "q": 15,
+        "p": 5,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.2_ex_15",
+    "kind": "instruction",
+    "height": 250,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 183,
+      "top": 51,
+      "xmax": 150,
+      "ymax": 18
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 90,
+        "b": -5,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          18
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 18,
+        "drawn": true
+      }
+    ],
+    "marks": [],
+    "gap": null
+  },
+  {
+    "name": "1.3.2_fig_5",
+    "kind": "instruction",
+    "height": 220
+  },
+  {
+    "name": "1.3.3_fig_1",
+    "kind": "instruction",
+    "height": 282,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 215,
+      "top": 51,
+      "xmax": 96,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 80,
+        "b": -4,
+        "label": "V₀",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -16,
+        "b": 4,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          4,
+          24
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 24,
+        "drawn": true
+      },
+      {
+        "name": "V1",
+        "a": 96,
+        "b": -4,
+        "label": "V₁",
+        "col": "#704b8b",
+        "domain": [
+          0,
+          24
+        ],
+        "dash": "7 4",
+        "p_lo": 0,
+        "p_hi": 24,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V0",
+        "q": 32,
+        "p": 12,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V1",
+        "q": 48,
+        "p": 12,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_fig_2",
+    "kind": "instruction",
+    "height": 340,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 273,
+      "top": 51,
+      "xmax": 96,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 80,
+        "b": -4,
+        "label": "V₀",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -16,
+        "b": 4,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          4,
+          24
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 24,
+        "drawn": true
+      },
+      {
+        "name": "V1",
+        "a": 96,
+        "b": -4,
+        "label": "V₁",
+        "col": "#704b8b",
+        "domain": [
+          0,
+          24
+        ],
+        "dash": "7 4",
+        "p_lo": 0,
+        "p_hi": 24,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V0",
+        "q": 32,
+        "p": 12,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V1",
+        "q": 40,
+        "p": 14,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_fig_3",
+    "kind": "instruction",
+    "height": 290,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 223,
+      "top": 51,
+      "xmax": 96,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 80,
+        "b": -4,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A0",
+        "a": -16,
+        "b": 4,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          24
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 24,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -32,
+        "b": 4,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          8,
+          24
+        ],
+        "dash": "7 4",
+        "p_lo": 8,
+        "p_hi": 24,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 32,
+        "p": 12,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V",
+        "q": 24,
+        "p": 14,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_we_1",
+    "kind": "instruction",
+    "height": 237,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 170,
+      "top": 51,
+      "xmax": 40,
+      "ymax": 20
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 40,
+        "b": -2,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A0",
+        "a": -8,
+        "b": 2,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          20
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -16,
+        "b": 2,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          8,
+          20
+        ],
+        "dash": "7 4",
+        "p_lo": 8,
+        "p_hi": 20,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 16,
+        "p": 12,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V",
+        "q": 12,
+        "p": 14,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_ex_25",
+    "kind": "instruction",
+    "height": 231,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 164,
+      "top": 51,
+      "xmax": 72,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 60,
+        "b": -3,
+        "label": "V₀",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -12,
+        "b": 3,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          4,
+          24
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 24,
+        "drawn": true
+      },
+      {
+        "name": "V1",
+        "a": 72,
+        "b": -3,
+        "label": "V₁",
+        "col": "#704b8b",
+        "domain": [
+          0,
+          24
+        ],
+        "dash": "7 4",
+        "p_lo": 0,
+        "p_hi": 24,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V0",
+        "q": 24,
+        "p": 12,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V1",
+        "q": 30,
+        "p": 14,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_ex_26",
+    "kind": "instruction",
+    "height": 340,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 273,
+      "top": 51,
+      "xmax": 100,
+      "ymax": 20
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 100,
+        "b": -5,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A0",
+        "a": -20,
+        "b": 5,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          20
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 20,
+        "drawn": true
+      }
+    ],
+    "marks": [],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_ex_29",
+    "kind": "instruction",
+    "height": 240,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 173,
+      "top": 51,
+      "xmax": 120,
+      "ymax": 20
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 120,
+        "b": -6,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A0",
+        "a": -24,
+        "b": 6,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          20
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 20,
+        "drawn": true
+      }
+    ],
+    "marks": [],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_ex_31",
+    "kind": "instruction",
+    "height": 233,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 166,
+      "top": 51,
+      "xmax": 120,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 100,
+        "b": -5,
+        "label": "V₀",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -20,
+        "b": 5,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          4,
+          24
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 24,
+        "drawn": true
+      }
+    ],
+    "marks": [],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_fig_4",
+    "kind": "instruction",
+    "height": 220
+  },
+  {
+    "name": "1.3.4_ex_38",
+    "kind": "instruction",
+    "height": 345,
+    "type": "geometry",
+    "plot": {
+      "ox": 100,
+      "by": 276,
+      "sx": 50,
+      "sy": 30
+    },
+    "polygon": [
+      [
+        0,
+        2
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "expected_area": 16
+  },
+  {
+    "name": "1.3.1_ans_4",
+    "kind": "answer",
+    "height": 258,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 191,
+      "top": 51,
+      "xmax": 32,
+      "ymax": 10
+    },
+    "curves": [
+      {
+        "name": "A0",
+        "a": -8,
+        "b": 4,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          2,
+          10
+        ],
+        "dash": "",
+        "p_lo": 2,
+        "p_hi": 10,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -16,
+        "b": 4,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          4,
+          10
+        ],
+        "dash": "7 4",
+        "p_lo": 4,
+        "p_hi": 10,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "A0",
+        "q": 16,
+        "p": 6,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "A1",
+        "q": 8,
+        "p": 6,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.1_ans_8",
+    "kind": "answer",
+    "height": 278,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 211,
+      "top": 51,
+      "xmax": 112,
+      "ymax": 16
+    },
+    "curves": [
+      {
+        "name": "A0",
+        "a": -32,
+        "b": 8,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          16
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 16,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -16,
+        "b": 8,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          2,
+          16
+        ],
+        "dash": "7 4",
+        "p_lo": 2,
+        "p_hi": 16,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "A0",
+        "q": 48,
+        "p": 10,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "A1",
+        "q": 64,
+        "p": 10,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.1_ans_9",
+    "kind": "answer",
+    "height": 270,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 203,
+      "top": 51,
+      "xmax": 80,
+      "ymax": 32
+    },
+    "curves": [
+      {
+        "name": "A0",
+        "a": -40,
+        "b": 4,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          10,
+          30
+        ],
+        "dash": "",
+        "p_lo": 10,
+        "p_hi": 30,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -52,
+        "b": 4,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          13,
+          30
+        ],
+        "dash": "7 4",
+        "p_lo": 13,
+        "p_hi": 30,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "A0",
+        "q": 40,
+        "p": 20,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "A0",
+        "q": 56,
+        "p": 24,
+        "guides": true
+      },
+      {
+        "id": 2,
+        "curve": "A1",
+        "q": 44,
+        "p": 24,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.2_ans_15",
+    "kind": "answer",
+    "height": 285,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 218,
+      "top": 51,
+      "xmax": 150,
+      "ymax": 18
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 90,
+        "b": -5,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          18.0
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 18,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -30,
+        "b": 10,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          3.0,
+          18
+        ],
+        "dash": "",
+        "p_lo": 3.0,
+        "p_hi": 18,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 50,
+        "p": 8,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.2_ans_17",
+    "kind": "answer",
+    "height": 285,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 218,
+      "top": 51,
+      "xmax": 140,
+      "ymax": 14
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 140,
+        "b": -10,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          14.0
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 14,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -20,
+        "b": 10,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          2.0,
+          14
+        ],
+        "dash": "",
+        "p_lo": 2.0,
+        "p_hi": 14,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 60,
+        "p": 8,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.2_ans_20",
+    "kind": "answer",
+    "height": 285,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 218,
+      "top": 51,
+      "xmax": 150,
+      "ymax": 16
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 150,
+        "b": -10,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          15.0
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 15.0,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -30,
+        "b": 5,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          6.0,
+          15
+        ],
+        "dash": "",
+        "p_lo": 6.0,
+        "p_hi": 15,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 30,
+        "p": 12,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_ans_26",
+    "kind": "answer",
+    "height": 280,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 213,
+      "top": 51,
+      "xmax": 100,
+      "ymax": 20
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 100,
+        "b": -5,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A0",
+        "a": -20,
+        "b": 5,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          20
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -40,
+        "b": 5,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          8,
+          20
+        ],
+        "dash": "7 4",
+        "p_lo": 8,
+        "p_hi": 20,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 40,
+        "p": 12,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V",
+        "q": 30,
+        "p": 14,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_ans_29",
+    "kind": "answer",
+    "height": 282,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 215,
+      "top": 51,
+      "xmax": 120,
+      "ymax": 20
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 120,
+        "b": -6,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A0",
+        "a": -24,
+        "b": 6,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          4,
+          20
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -12,
+        "b": 6,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          2,
+          20
+        ],
+        "dash": "7 4",
+        "p_lo": 2,
+        "p_hi": 20,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 48,
+        "p": 12,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V",
+        "q": 54,
+        "p": 11,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.3_ans_31",
+    "kind": "answer",
+    "height": 280,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 213,
+      "top": 51,
+      "xmax": 120,
+      "ymax": 24
+    },
+    "curves": [
+      {
+        "name": "V0",
+        "a": 100,
+        "b": -5,
+        "label": "V₀",
+        "col": "#17688f",
+        "domain": [
+          0,
+          20
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 20,
+        "drawn": true
+      },
+      {
+        "name": "A",
+        "a": -20,
+        "b": 5,
+        "label": "A",
+        "col": "#227064",
+        "domain": [
+          4,
+          24
+        ],
+        "dash": "",
+        "p_lo": 4,
+        "p_hi": 24,
+        "drawn": true
+      },
+      {
+        "name": "V1",
+        "a": 120,
+        "b": -5,
+        "label": "V₁",
+        "col": "#704b8b",
+        "domain": [
+          0,
+          24
+        ],
+        "dash": "7 4",
+        "p_lo": 0,
+        "p_hi": 24,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V0",
+        "q": 40,
+        "p": 12,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V1",
+        "q": 50,
+        "p": 14,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.4_ans_36",
+    "kind": "answer",
+    "height": 290,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 223,
+      "top": 51,
+      "xmax": 160,
+      "ymax": 30
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 120,
+        "b": -4,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          30
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 30,
+        "drawn": true
+      },
+      {
+        "name": "A0",
+        "a": -24,
+        "b": 8,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          3,
+          24
+        ],
+        "dash": "",
+        "p_lo": 3,
+        "p_hi": 23.0,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -12,
+        "b": 8,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          1.5,
+          24
+        ],
+        "dash": "7 4",
+        "p_lo": 1.5,
+        "p_hi": 21.5,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 72,
+        "p": 12,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V",
+        "q": 76,
+        "p": 11,
+        "guides": true
+      }
+    ],
+    "gap": null
+  },
+  {
+    "name": "1.3.4_ans_37",
+    "kind": "answer",
+    "height": 315,
+    "type": "linear",
+    "plot": {
+      "ox": 84,
+      "ex": 634,
+      "by": 248,
+      "top": 51,
+      "xmax": 180,
+      "ymax": 18
+    },
+    "curves": [
+      {
+        "name": "V",
+        "a": 180,
+        "b": -10,
+        "label": "V",
+        "col": "#17688f",
+        "domain": [
+          0,
+          18
+        ],
+        "dash": "",
+        "p_lo": 0,
+        "p_hi": 18,
+        "drawn": true
+      },
+      {
+        "name": "A0",
+        "a": -20,
+        "b": 10,
+        "label": "A₀",
+        "col": "#227064",
+        "domain": [
+          2,
+          18
+        ],
+        "dash": "",
+        "p_lo": 2,
+        "p_hi": 18,
+        "drawn": true
+      },
+      {
+        "name": "A1",
+        "a": -60,
+        "b": 10,
+        "label": "A₁",
+        "col": "#ad601b",
+        "domain": [
+          6,
+          18
+        ],
+        "dash": "7 4",
+        "p_lo": 6,
+        "p_hi": 18,
+        "drawn": true
+      }
+    ],
+    "marks": [
+      {
+        "id": 0,
+        "curve": "V",
+        "q": 80,
+        "p": 10,
+        "guides": true
+      },
+      {
+        "id": 1,
+        "curve": "V",
+        "q": 60,
+        "p": 12,
+        "guides": true
+      }
+    ],
+    "gap": null
+  }
+]

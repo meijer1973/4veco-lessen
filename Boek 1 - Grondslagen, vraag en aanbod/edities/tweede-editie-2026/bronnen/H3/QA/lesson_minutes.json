@@ -1,0 +1,102 @@
+[
+  {
+    "paragraph": "1.3.1",
+    "title": "Aanbod en aanbodfactoren",
+    "start": "1–2",
+    "guided": "3–5",
+    "independent": "6–8",
+    "target": "9",
+    "bonus": "10",
+    "repetition": "11",
+    "components": {
+      "uitleg": 21,
+      "voorbeeld": 11,
+      "start": 9,
+      "begeleid": 25,
+      "zelfstandig": 26,
+      "doel": 21,
+      "overgangen_feedback": 14,
+      "motivatie": 3,
+      "samenvatting": 3
+    },
+    "total": 133,
+    "estimate": "ontwerpschatting; niet gemeten",
+    "normal_route": true,
+    "bonus_minutes": 15,
+    "challenging_total": 123
+  },
+  {
+    "paragraph": "1.3.2",
+    "title": "Marktevenwicht",
+    "start": "12–13",
+    "guided": "14–16",
+    "independent": "17–19",
+    "target": "20",
+    "bonus": "21",
+    "repetition": "22",
+    "components": {
+      "uitleg": 23,
+      "voorbeeld": 12,
+      "start": 13,
+      "begeleid": 25,
+      "zelfstandig": 24,
+      "doel": 21,
+      "overgangen_feedback": 17,
+      "motivatie": 3,
+      "samenvatting": 3
+    },
+    "total": 141,
+    "estimate": "ontwerpschatting; niet gemeten",
+    "normal_route": true,
+    "bonus_minutes": 20,
+    "challenging_total": 136
+  },
+  {
+    "paragraph": "1.3.3",
+    "title": "Verschuivingen en nieuw evenwicht",
+    "start": "23–24",
+    "guided": "25–27",
+    "independent": "28–30",
+    "target": "31",
+    "bonus": "32",
+    "repetition": "33",
+    "components": {
+      "uitleg": 21,
+      "voorbeeld": 12,
+      "start": 11,
+      "begeleid": 25,
+      "zelfstandig": 24,
+      "doel": 25,
+      "overgangen_feedback": 14,
+      "motivatie": 3,
+      "samenvatting": 3
+    },
+    "total": 138,
+    "estimate": "ontwerpschatting; niet gemeten",
+    "normal_route": true,
+    "bonus_minutes": 20,
+    "challenging_total": 133
+  },
+  {
+    "paragraph": "1.3.4",
+    "title": "Gemengde opgaven",
+    "start": "—",
+    "guided": "—",
+    "independent": "34–36",
+    "target": "37",
+    "bonus": "—",
+    "repetition": "38",
+    "components": {
+      "uitleg": 0,
+      "voorbeeld": 6,
+      "start": 0,
+      "begeleid": 0,
+      "zelfstandig": 24,
+      "doel": 30,
+      "overgangen_feedback": 10
+    },
+    "total": 70,
+    "estimate": "ontwerpschatting; niet gemeten",
+    "normal_route": false
+  }
+]

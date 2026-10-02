@@ -1,0 +1,6890 @@
+{
+  "checks": 1376,
+  "passed": 1376,
+  "failed": 0,
+  "source_pages_compared": 208,
+  "comparison": "Every source page rendered at 90 dpi; differences >3/255 outside recorded navigation rectangles with a 1.8pt antialias margin are rejected. Unedited words and coordinates checked separately to 0.025pt. This is an assembly test, not a new content or exam audit.",
+  "unexpected_differences": [],
+  "items": [
+    {
+      "check": "unchanged_input:bronnen/omslag/achtergrond.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:bronnen/omslag/data.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:hoofdstukken/H1/Boek_1_H1_Docenteninformatie_Tweede_editie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:hoofdstukken/H2/Boek_1_H2_Docenteninformatie_Tweede_editie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged_input:hoofdstukken/H3/Boek_1_H3_Docenteninformatie_Tweede_editie.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:page_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:all_source_pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:chapter_recto_starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:only_planned_blanks",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:A4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:links_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:bookmarks_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:render_preservation:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:5",
+      "pass": true,
+      "detail": "257 / 257"
+    },
+    {
+      "check": "student:footer:5",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "student:navigation_text:5:2",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "student:navigation_text:5:9",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "student:navigation_text:5:20",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "student:navigation_text:5:34",
+      "pass": true,
+      "detail": "38"
+    },
+    {
+      "check": "student:navigation_text:5:39",
+      "pass": true,
+      "detail": "43"
+    },
+    {
+      "check": "student:render_preservation:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:6",
+      "pass": true,
+      "detail": "249 / 249"
+    },
+    {
+      "check": "student:footer:6",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "student:render_preservation:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:7",
+      "pass": true,
+      "detail": "296 / 296"
+    },
+    {
+      "check": "student:footer:7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "student:render_preservation:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:8",
+      "pass": true,
+      "detail": "314 / 314"
+    },
+    {
+      "check": "student:footer:8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "student:render_preservation:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:9",
+      "pass": true,
+      "detail": "263 / 263"
+    },
+    {
+      "check": "student:footer:9",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "student:render_preservation:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:10",
+      "pass": true,
+      "detail": "268 / 268"
+    },
+    {
+      "check": "student:footer:10",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "student:render_preservation:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:11",
+      "pass": true,
+      "detail": "222 / 222"
+    },
+    {
+      "check": "student:footer:11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "student:render_preservation:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:12",
+      "pass": true,
+      "detail": "226 / 226"
+    },
+    {
+      "check": "student:footer:12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "student:render_preservation:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:13",
+      "pass": true,
+      "detail": "256 / 256"
+    },
+    {
+      "check": "student:footer:13",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "student:render_preservation:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:14",
+      "pass": true,
+      "detail": "248 / 248"
+    },
+    {
+      "check": "student:footer:14",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "student:render_preservation:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:15",
+      "pass": true,
+      "detail": "238 / 238"
+    },
+    {
+      "check": "student:footer:15",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "student:render_preservation:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:16",
+      "pass": true,
+      "detail": "273 / 273"
+    },
+    {
+      "check": "student:footer:16",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "student:render_preservation:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:17",
+      "pass": true,
+      "detail": "220 / 220"
+    },
+    {
+      "check": "student:footer:17",
+      "pass": true,
+      "detail": "17"
+    },
+    {
+      "check": "student:render_preservation:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:18",
+      "pass": true,
+      "detail": "291 / 291"
+    },
+    {
+      "check": "student:footer:18",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "student:render_preservation:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:19",
+      "pass": true,
+      "detail": "263 / 263"
+    },
+    {
+      "check": "student:footer:19",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "student:render_preservation:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:20",
+      "pass": true,
+      "detail": "231 / 231"
+    },
+    {
+      "check": "student:footer:20",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "student:render_preservation:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:21",
+      "pass": true,
+      "detail": "187 / 187"
+    },
+    {
+      "check": "student:footer:21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "check": "student:render_preservation:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:22",
+      "pass": true,
+      "detail": "195 / 195"
+    },
+    {
+      "check": "student:footer:22",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "student:render_preservation:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:23",
+      "pass": true,
+      "detail": "166 / 166"
+    },
+    {
+      "check": "student:footer:23",
+      "pass": true,
+      "detail": "23"
+    },
+    {
+      "check": "student:render_preservation:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:24",
+      "pass": true,
+      "detail": "197 / 197"
+    },
+    {
+      "check": "student:footer:24",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "student:render_preservation:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:25",
+      "pass": true,
+      "detail": "261 / 261"
+    },
+    {
+      "check": "student:footer:25",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "student:render_preservation:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:26",
+      "pass": true,
+      "detail": "256 / 256"
+    },
+    {
+      "check": "student:footer:26",
+      "pass": true,
+      "detail": "26"
+    },
+    {
+      "check": "student:render_preservation:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:27",
+      "pass": true,
+      "detail": "281 / 281"
+    },
+    {
+      "check": "student:footer:27",
+      "pass": true,
+      "detail": "27"
+    },
+    {
+      "check": "student:render_preservation:28",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:28",
+      "pass": true,
+      "detail": "256 / 256"
+    },
+    {
+      "check": "student:footer:28",
+      "pass": true,
+      "detail": "28"
+    },
+    {
+      "check": "student:render_preservation:29",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:29",
+      "pass": true,
+      "detail": "267 / 267"
+    },
+    {
+      "check": "student:footer:29",
+      "pass": true,
+      "detail": "29"
+    },
+    {
+      "check": "student:render_preservation:30",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:30",
+      "pass": true,
+      "detail": "214 / 214"
+    },
+    {
+      "check": "student:footer:30",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "student:render_preservation:31",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:31",
+      "pass": true,
+      "detail": "254 / 254"
+    },
+    {
+      "check": "student:footer:31",
+      "pass": true,
+      "detail": "31"
+    },
+    {
+      "check": "student:render_preservation:32",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:32",
+      "pass": true,
+      "detail": "242 / 242"
+    },
+    {
+      "check": "student:footer:32",
+      "pass": true,
+      "detail": "32"
+    },
+    {
+      "check": "student:render_preservation:33",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:33",
+      "pass": true,
+      "detail": "261 / 261"
+    },
+    {
+      "check": "student:footer:33",
+      "pass": true,
+      "detail": "33"
+    },
+    {
+      "check": "student:render_preservation:34",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:34",
+      "pass": true,
+      "detail": "186 / 186"
+    },
+    {
+      "check": "student:footer:34",
+      "pass": true,
+      "detail": "34"
+    },
+    {
+      "check": "student:render_preservation:35",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:35",
+      "pass": true,
+      "detail": "199 / 199"
+    },
+    {
+      "check": "student:footer:35",
+      "pass": true,
+      "detail": "35"
+    },
+    {
+      "check": "student:render_preservation:36",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:36",
+      "pass": true,
+      "detail": "247 / 247"
+    },
+    {
+      "check": "student:footer:36",
+      "pass": true,
+      "detail": "36"
+    },
+    {
+      "check": "student:render_preservation:37",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:37",
+      "pass": true,
+      "detail": "188 / 188"
+    },
+    {
+      "check": "student:footer:37",
+      "pass": true,
+      "detail": "37"
+    },
+    {
+      "check": "student:render_preservation:38",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:38",
+      "pass": true,
+      "detail": "332 / 332"
+    },
+    {
+      "check": "student:footer:38",
+      "pass": true,
+      "detail": "38"
+    },
+    {
+      "check": "student:render_preservation:39",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:39",
+      "pass": true,
+      "detail": "186 / 186"
+    },
+    {
+      "check": "student:footer:39",
+      "pass": true,
+      "detail": "39"
+    },
+    {
+      "check": "student:render_preservation:40",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:40",
+      "pass": true,
+      "detail": "282 / 282"
+    },
+    {
+      "check": "student:footer:40",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "student:render_preservation:41",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:41",
+      "pass": true,
+      "detail": "184 / 184"
+    },
+    {
+      "check": "student:footer:41",
+      "pass": true,
+      "detail": "41"
+    },
+    {
+      "check": "student:render_preservation:42",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:42",
+      "pass": true,
+      "detail": "219 / 219"
+    },
+    {
+      "check": "student:footer:42",
+      "pass": true,
+      "detail": "42"
+    },
+    {
+      "check": "student:render_preservation:43",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:43",
+      "pass": true,
+      "detail": "243 / 243"
+    },
+    {
+      "check": "student:footer:43",
+      "pass": true,
+      "detail": "43"
+    },
+    {
+      "check": "student:render_preservation:44",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:44",
+      "pass": true,
+      "detail": "254 / 254"
+    },
+    {
+      "check": "student:footer:44",
+      "pass": true,
+      "detail": "44"
+    },
+    {
+      "check": "student:render_preservation:45",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:45",
+      "pass": true,
+      "detail": "255 / 255"
+    },
+    {
+      "check": "student:footer:45",
+      "pass": true,
+      "detail": "45"
+    },
+    {
+      "check": "student:navigation_text:45:2",
+      "pass": true,
+      "detail": "46"
+    },
+    {
+      "check": "student:navigation_text:45:14",
+      "pass": true,
+      "detail": "58"
+    },
+    {
+      "check": "student:navigation_text:45:24",
+      "pass": true,
+      "detail": "68"
+    },
+    {
+      "check": "student:navigation_text:45:34",
+      "pass": true,
+      "detail": "78"
+    },
+    {
+      "check": "student:render_preservation:46",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:46",
+      "pass": true,
+      "detail": "258 / 258"
+    },
+    {
+      "check": "student:footer:46",
+      "pass": true,
+      "detail": "46"
+    },
+    {
+      "check": "student:render_preservation:47",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:47",
+      "pass": true,
+      "detail": "258 / 258"
+    },
+    {
+      "check": "student:footer:47",
+      "pass": true,
+      "detail": "47"
+    },
+    {
+      "check": "student:render_preservation:48",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:48",
+      "pass": true,
+      "detail": "239 / 239"
+    },
+    {
+      "check": "student:footer:48",
+      "pass": true,
+      "detail": "48"
+    },
+    {
+      "check": "student:render_preservation:49",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:49",
+      "pass": true,
+      "detail": "267 / 267"
+    },
+    {
+      "check": "student:footer:49",
+      "pass": true,
+      "detail": "49"
+    },
+    {
+      "check": "student:render_preservation:50",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:50",
+      "pass": true,
+      "detail": "283 / 283"
+    },
+    {
+      "check": "student:footer:50",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "student:render_preservation:51",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:51",
+      "pass": true,
+      "detail": "240 / 240"
+    },
+    {
+      "check": "student:footer:51",
+      "pass": true,
+      "detail": "51"
+    },
+    {
+      "check": "student:render_preservation:52",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:52",
+      "pass": true,
+      "detail": "184 / 184"
+    },
+    {
+      "check": "student:footer:52",
+      "pass": true,
+      "detail": "52"
+    },
+    {
+      "check": "student:render_preservation:53",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:53",
+      "pass": true,
+      "detail": "147 / 147"
+    },
+    {
+      "check": "student:footer:53",
+      "pass": true,
+      "detail": "53"
+    },
+    {
+      "check": "student:render_preservation:54",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:54",
+      "pass": true,
+      "detail": "231 / 231"
+    },
+    {
+      "check": "student:footer:54",
+      "pass": true,
+      "detail": "54"
+    },
+    {
+      "check": "student:render_preservation:55",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:55",
+      "pass": true,
+      "detail": "188 / 188"
+    },
+    {
+      "check": "student:footer:55",
+      "pass": true,
+      "detail": "55"
+    },
+    {
+      "check": "student:render_preservation:56",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:56",
+      "pass": true,
+      "detail": "193 / 193"
+    },
+    {
+      "check": "student:footer:56",
+      "pass": true,
+      "detail": "56"
+    },
+    {
+      "check": "student:render_preservation:57",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:57",
+      "pass": true,
+      "detail": "218 / 218"
+    },
+    {
+      "check": "student:footer:57",
+      "pass": true,
+      "detail": "57"
+    },
+    {
+      "check": "student:render_preservation:58",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:58",
+      "pass": true,
+      "detail": "229 / 229"
+    },
+    {
+      "check": "student:footer:58",
+      "pass": true,
+      "detail": "58"
+    },
+    {
+      "check": "student:render_preservation:59",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:59",
+      "pass": true,
+      "detail": "290 / 290"
+    },
+    {
+      "check": "student:footer:59",
+      "pass": true,
+      "detail": "59"
+    },
+    {
+      "check": "student:render_preservation:60",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:60",
+      "pass": true,
+      "detail": "303 / 303"
+    },
+    {
+      "check": "student:footer:60",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "student:render_preservation:61",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:61",
+      "pass": true,
+      "detail": "358 / 358"
+    },
+    {
+      "check": "student:footer:61",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "check": "student:render_preservation:62",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:62",
+      "pass": true,
+      "detail": "243 / 243"
+    },
+    {
+      "check": "student:footer:62",
+      "pass": true,
+      "detail": "62"
+    },
+    {
+      "check": "student:render_preservation:63",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:63",
+      "pass": true,
+      "detail": "236 / 236"
+    },
+    {
+      "check": "student:footer:63",
+      "pass": true,
+      "detail": "63"
+    },
+    {
+      "check": "student:render_preservation:64",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:64",
+      "pass": true,
+      "detail": "236 / 236"
+    },
+    {
+      "check": "student:footer:64",
+      "pass": true,
+      "detail": "64"
+    },
+    {
+      "check": "student:render_preservation:65",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:65",
+      "pass": true,
+      "detail": "217 / 217"
+    },
+    {
+      "check": "student:footer:65",
+      "pass": true,
+      "detail": "65"
+    },
+    {
+      "check": "student:render_preservation:66",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:66",
+      "pass": true,
+      "detail": "229 / 229"
+    },
+    {
+      "check": "student:footer:66",
+      "pass": true,
+      "detail": "66"
+    },
+    {
+      "check": "student:render_preservation:67",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:67",
+      "pass": true,
+      "detail": "187 / 187"
+    },
+    {
+      "check": "student:footer:67",
+      "pass": true,
+      "detail": "67"
+    },
+    {
+      "check": "student:render_preservation:68",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:68",
+      "pass": true,
+      "detail": "250 / 250"
+    },
+    {
+      "check": "student:footer:68",
+      "pass": true,
+      "detail": "68"
+    },
+    {
+      "check": "student:render_preservation:69",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:69",
+      "pass": true,
+      "detail": "281 / 281"
+    },
+    {
+      "check": "student:footer:69",
+      "pass": true,
+      "detail": "69"
+    },
+    {
+      "check": "student:render_preservation:70",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:70",
+      "pass": true,
+      "detail": "270 / 270"
+    },
+    {
+      "check": "student:footer:70",
+      "pass": true,
+      "detail": "70"
+    },
+    {
+      "check": "student:render_preservation:71",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:71",
+      "pass": true,
+      "detail": "285 / 285"
+    },
+    {
+      "check": "student:footer:71",
+      "pass": true,
+      "detail": "71"
+    },
+    {
+      "check": "student:render_preservation:72",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:72",
+      "pass": true,
+      "detail": "249 / 249"
+    },
+    {
+      "check": "student:footer:72",
+      "pass": true,
+      "detail": "72"
+    },
+    {
+      "check": "student:render_preservation:73",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:73",
+      "pass": true,
+      "detail": "217 / 217"
+    },
+    {
+      "check": "student:footer:73",
+      "pass": true,
+      "detail": "73"
+    },
+    {
+      "check": "student:render_preservation:74",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:74",
+      "pass": true,
+      "detail": "235 / 235"
+    },
+    {
+      "check": "student:footer:74",
+      "pass": true,
+      "detail": "74"
+    },
+    {
+      "check": "student:render_preservation:75",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:75",
+      "pass": true,
+      "detail": "201 / 201"
+    },
+    {
+      "check": "student:footer:75",
+      "pass": true,
+      "detail": "75"
+    },
+    {
+      "check": "student:render_preservation:76",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:76",
+      "pass": true,
+      "detail": "193 / 193"
+    },
+    {
+      "check": "student:footer:76",
+      "pass": true,
+      "detail": "76"
+    },
+    {
+      "check": "student:render_preservation:77",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:77",
+      "pass": true,
+      "detail": "179 / 179"
+    },
+    {
+      "check": "student:footer:77",
+      "pass": true,
+      "detail": "77"
+    },
+    {
+      "check": "student:render_preservation:78",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:78",
+      "pass": true,
+      "detail": "202 / 202"
+    },
+    {
+      "check": "student:footer:78",
+      "pass": true,
+      "detail": "78"
+    },
+    {
+      "check": "student:render_preservation:79",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:79",
+      "pass": true,
+      "detail": "170 / 170"
+    },
+    {
+      "check": "student:footer:79",
+      "pass": true,
+      "detail": "79"
+    },
+    {
+      "check": "student:render_preservation:80",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:80",
+      "pass": true,
+      "detail": "271 / 271"
+    },
+    {
+      "check": "student:footer:80",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "check": "student:render_preservation:81",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:81",
+      "pass": true,
+      "detail": "221 / 221"
+    },
+    {
+      "check": "student:footer:81",
+      "pass": true,
+      "detail": "81"
+    },
+    {
+      "check": "student:render_preservation:82",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:82",
+      "pass": true,
+      "detail": "199 / 199"
+    },
+    {
+      "check": "student:footer:82",
+      "pass": true,
+      "detail": "82"
+    },
+    {
+      "check": "student:render_preservation:83",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:83",
+      "pass": true,
+      "detail": "281 / 281"
+    },
+    {
+      "check": "student:footer:83",
+      "pass": true,
+      "detail": "83"
+    },
+    {
+      "check": "student:render_preservation:84",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:84",
+      "pass": true,
+      "detail": "313 / 313"
+    },
+    {
+      "check": "student:footer:84",
+      "pass": true,
+      "detail": "84"
+    },
+    {
+      "check": "student:render_preservation:85",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:85",
+      "pass": true,
+      "detail": "233 / 233"
+    },
+    {
+      "check": "student:footer:85",
+      "pass": true,
+      "detail": "85"
+    },
+    {
+      "check": "student:navigation_text:85:2",
+      "pass": true,
+      "detail": "86"
+    },
+    {
+      "check": "student:navigation_text:85:12",
+      "pass": true,
+      "detail": "96"
+    },
+    {
+      "check": "student:navigation_text:85:24",
+      "pass": true,
+      "detail": "108"
+    },
+    {
+      "check": "student:navigation_text:85:34",
+      "pass": true,
+      "detail": "118"
+    },
+    {
+      "check": "student:render_preservation:86",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:86",
+      "pass": true,
+      "detail": "229 / 229"
+    },
+    {
+      "check": "student:footer:86",
+      "pass": true,
+      "detail": "86"
+    },
+    {
+      "check": "student:render_preservation:87",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:87",
+      "pass": true,
+      "detail": "219 / 219"
+    },
+    {
+      "check": "student:footer:87",
+      "pass": true,
+      "detail": "87"
+    },
+    {
+      "check": "student:render_preservation:88",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:88",
+      "pass": true,
+      "detail": "232 / 232"
+    },
+    {
+      "check": "student:footer:88",
+      "pass": true,
+      "detail": "88"
+    },
+    {
+      "check": "student:render_preservation:89",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:89",
+      "pass": true,
+      "detail": "324 / 324"
+    },
+    {
+      "check": "student:footer:89",
+      "pass": true,
+      "detail": "89"
+    },
+    {
+      "check": "student:render_preservation:90",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:90",
+      "pass": true,
+      "detail": "239 / 239"
+    },
+    {
+      "check": "student:footer:90",
+      "pass": true,
+      "detail": "90"
+    },
+    {
+      "check": "student:render_preservation:91",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:91",
+      "pass": true,
+      "detail": "238 / 238"
+    },
+    {
+      "check": "student:footer:91",
+      "pass": true,
+      "detail": "91"
+    },
+    {
+      "check": "student:render_preservation:92",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:92",
+      "pass": true,
+      "detail": "205 / 205"
+    },
+    {
+      "check": "student:footer:92",
+      "pass": true,
+      "detail": "92"
+    },
+    {
+      "check": "student:render_preservation:93",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:93",
+      "pass": true,
+      "detail": "189 / 189"
+    },
+    {
+      "check": "student:footer:93",
+      "pass": true,
+      "detail": "93"
+    },
+    {
+      "check": "student:render_preservation:94",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:94",
+      "pass": true,
+      "detail": "204 / 204"
+    },
+    {
+      "check": "student:footer:94",
+      "pass": true,
+      "detail": "94"
+    },
+    {
+      "check": "student:render_preservation:95",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:95",
+      "pass": true,
+      "detail": "174 / 174"
+    },
+    {
+      "check": "student:footer:95",
+      "pass": true,
+      "detail": "95"
+    },
+    {
+      "check": "student:render_preservation:96",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:96",
+      "pass": true,
+      "detail": "223 / 223"
+    },
+    {
+      "check": "student:footer:96",
+      "pass": true,
+      "detail": "96"
+    },
+    {
+      "check": "student:render_preservation:97",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:97",
+      "pass": true,
+      "detail": "210 / 210"
+    },
+    {
+      "check": "student:footer:97",
+      "pass": true,
+      "detail": "97"
+    },
+    {
+      "check": "student:render_preservation:98",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:98",
+      "pass": true,
+      "detail": "254 / 254"
+    },
+    {
+      "check": "student:footer:98",
+      "pass": true,
+      "detail": "98"
+    },
+    {
+      "check": "student:render_preservation:99",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:99",
+      "pass": true,
+      "detail": "250 / 250"
+    },
+    {
+      "check": "student:footer:99",
+      "pass": true,
+      "detail": "99"
+    },
+    {
+      "check": "student:render_preservation:100",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:100",
+      "pass": true,
+      "detail": "255 / 255"
+    },
+    {
+      "check": "student:footer:100",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "check": "student:render_preservation:101",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:101",
+      "pass": true,
+      "detail": "227 / 227"
+    },
+    {
+      "check": "student:footer:101",
+      "pass": true,
+      "detail": "101"
+    },
+    {
+      "check": "student:render_preservation:102",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:102",
+      "pass": true,
+      "detail": "292 / 292"
+    },
+    {
+      "check": "student:footer:102",
+      "pass": true,
+      "detail": "102"
+    },
+    {
+      "check": "student:render_preservation:103",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:103",
+      "pass": true,
+      "detail": "213 / 213"
+    },
+    {
+      "check": "student:footer:103",
+      "pass": true,
+      "detail": "103"
+    },
+    {
+      "check": "student:render_preservation:104",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:104",
+      "pass": true,
+      "detail": "207 / 207"
+    },
+    {
+      "check": "student:footer:104",
+      "pass": true,
+      "detail": "104"
+    },
+    {
+      "check": "student:render_preservation:105",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:105",
+      "pass": true,
+      "detail": "233 / 233"
+    },
+    {
+      "check": "student:footer:105",
+      "pass": true,
+      "detail": "105"
+    },
+    {
+      "check": "student:render_preservation:106",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:106",
+      "pass": true,
+      "detail": "220 / 220"
+    },
+    {
+      "check": "student:footer:106",
+      "pass": true,
+      "detail": "106"
+    },
+    {
+      "check": "student:render_preservation:107",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:107",
+      "pass": true,
+      "detail": "177 / 177"
+    },
+    {
+      "check": "student:footer:107",
+      "pass": true,
+      "detail": "107"
+    },
+    {
+      "check": "student:render_preservation:108",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:108",
+      "pass": true,
+      "detail": "257 / 257"
+    },
+    {
+      "check": "student:footer:108",
+      "pass": true,
+      "detail": "108"
+    },
+    {
+      "check": "student:render_preservation:109",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:109",
+      "pass": true,
+      "detail": "265 / 265"
+    },
+    {
+      "check": "student:footer:109",
+      "pass": true,
+      "detail": "109"
+    },
+    {
+      "check": "student:render_preservation:110",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:110",
+      "pass": true,
+      "detail": "245 / 245"
+    },
+    {
+      "check": "student:footer:110",
+      "pass": true,
+      "detail": "110"
+    },
+    {
+      "check": "student:render_preservation:111",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:111",
+      "pass": true,
+      "detail": "315 / 315"
+    },
+    {
+      "check": "student:footer:111",
+      "pass": true,
+      "detail": "111"
+    },
+    {
+      "check": "student:render_preservation:112",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:112",
+      "pass": true,
+      "detail": "206 / 206"
+    },
+    {
+      "check": "student:footer:112",
+      "pass": true,
+      "detail": "112"
+    },
+    {
+      "check": "student:render_preservation:113",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:113",
+      "pass": true,
+      "detail": "217 / 217"
+    },
+    {
+      "check": "student:footer:113",
+      "pass": true,
+      "detail": "113"
+    },
+    {
+      "check": "student:render_preservation:114",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:114",
+      "pass": true,
+      "detail": "208 / 208"
+    },
+    {
+      "check": "student:footer:114",
+      "pass": true,
+      "detail": "114"
+    },
+    {
+      "check": "student:render_preservation:115",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:115",
+      "pass": true,
+      "detail": "210 / 210"
+    },
+    {
+      "check": "student:footer:115",
+      "pass": true,
+      "detail": "115"
+    },
+    {
+      "check": "student:render_preservation:116",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:116",
+      "pass": true,
+      "detail": "206 / 206"
+    },
+    {
+      "check": "student:footer:116",
+      "pass": true,
+      "detail": "116"
+    },
+    {
+      "check": "student:render_preservation:117",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:117",
+      "pass": true,
+      "detail": "197 / 197"
+    },
+    {
+      "check": "student:footer:117",
+      "pass": true,
+      "detail": "117"
+    },
+    {
+      "check": "student:render_preservation:118",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:118",
+      "pass": true,
+      "detail": "237 / 237"
+    },
+    {
+      "check": "student:footer:118",
+      "pass": true,
+      "detail": "118"
+    },
+    {
+      "check": "student:render_preservation:119",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:119",
+      "pass": true,
+      "detail": "224 / 224"
+    },
+    {
+      "check": "student:footer:119",
+      "pass": true,
+      "detail": "119"
+    },
+    {
+      "check": "student:navigation_text:119:Het voorbeeld op pagina ",
+      "pass": true,
+      "detail": "Het voorbeeld op pagina 101 en opgave 15."
+    },
+    {
+      "check": "student:navigation_text:119:Het voorbeeld op pagina ",
+      "pass": true,
+      "detail": "Het voorbeeld op pagina 111 en opgave 26."
+    },
+    {
+      "check": "student:render_preservation:120",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:120",
+      "pass": true,
+      "detail": "277 / 277"
+    },
+    {
+      "check": "student:footer:120",
+      "pass": true,
+      "detail": "120"
+    },
+    {
+      "check": "student:render_preservation:121",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:121",
+      "pass": true,
+      "detail": "205 / 205"
+    },
+    {
+      "check": "student:footer:121",
+      "pass": true,
+      "detail": "121"
+    },
+    {
+      "check": "student:render_preservation:122",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:122",
+      "pass": true,
+      "detail": "202 / 202"
+    },
+    {
+      "check": "student:footer:122",
+      "pass": true,
+      "detail": "122"
+    },
+    {
+      "check": "student:render_preservation:123",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:123",
+      "pass": true,
+      "detail": "275 / 275"
+    },
+    {
+      "check": "student:footer:123",
+      "pass": true,
+      "detail": "123"
+    },
+    {
+      "check": "student:render_preservation:124",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "student:text_geometry:124",
+      "pass": true,
+      "detail": "291 / 291"
+    },
+    {
+      "check": "student:footer:124",
+      "pass": true,
+      "detail": "124"
+    },
+    {
+      "check": "student:original_chapter_limits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:exact_cover_pixels",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.1.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.1.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.1.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.1.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.1.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.1.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.1.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.1.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.2.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.2.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.2.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.2.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.2.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.2.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.2.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.2.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.3.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.3.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.3.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.3.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.3.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.3.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:TOC:1.3.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:paragraph_bookmark:1.3.4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:mixed_target_spread:1.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:mixed_target_spread:1.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:mixed_target_spread:1.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:glossary_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:all_glossary_definitions_preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:new_page_bounds:2",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:3",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:4",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:125",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:126",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:127",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:128",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:129",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:130",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:131",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "student:new_page_bounds:132",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "answers:page_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:all_source_pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:chapter_recto_starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:only_planned_blanks",
+      "pass": true,
+      "detail": "[66]"
+    },
+    {
+      "check": "answers:A4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:links_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:bookmarks_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:render_preservation:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:3",
+      "pass": true,
+      "detail": "191 / 191"
+    },
+    {
+      "check": "answers:footer:3",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "answers:navigation_text:3:2",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "answers:navigation_text:3:5",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "answers:navigation_text:3:10",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "answers:navigation_text:3:17",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "answers:render_preservation:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:4",
+      "pass": true,
+      "detail": "265 / 265"
+    },
+    {
+      "check": "answers:footer:4",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "answers:render_preservation:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:5",
+      "pass": true,
+      "detail": "311 / 311"
+    },
+    {
+      "check": "answers:footer:5",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "answers:render_preservation:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:6",
+      "pass": true,
+      "detail": "233 / 233"
+    },
+    {
+      "check": "answers:footer:6",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "answers:render_preservation:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:7",
+      "pass": true,
+      "detail": "190 / 190"
+    },
+    {
+      "check": "answers:footer:7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "answers:render_preservation:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:8",
+      "pass": true,
+      "detail": "184 / 184"
+    },
+    {
+      "check": "answers:footer:8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "answers:render_preservation:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:9",
+      "pass": true,
+      "detail": "239 / 239"
+    },
+    {
+      "check": "answers:footer:9",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "answers:render_preservation:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:10",
+      "pass": true,
+      "detail": "226 / 226"
+    },
+    {
+      "check": "answers:footer:10",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "answers:render_preservation:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:11",
+      "pass": true,
+      "detail": "176 / 176"
+    },
+    {
+      "check": "answers:footer:11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "answers:render_preservation:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:12",
+      "pass": true,
+      "detail": "182 / 182"
+    },
+    {
+      "check": "answers:footer:12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "answers:render_preservation:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:13",
+      "pass": true,
+      "detail": "252 / 252"
+    },
+    {
+      "check": "answers:footer:13",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "answers:render_preservation:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:14",
+      "pass": true,
+      "detail": "206 / 206"
+    },
+    {
+      "check": "answers:footer:14",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "answers:render_preservation:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:15",
+      "pass": true,
+      "detail": "279 / 279"
+    },
+    {
+      "check": "answers:footer:15",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "answers:render_preservation:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:16",
+      "pass": true,
+      "detail": "182 / 182"
+    },
+    {
+      "check": "answers:footer:16",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "answers:render_preservation:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:17",
+      "pass": true,
+      "detail": "209 / 209"
+    },
+    {
+      "check": "answers:footer:17",
+      "pass": true,
+      "detail": "17"
+    },
+    {
+      "check": "answers:render_preservation:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:18",
+      "pass": true,
+      "detail": "172 / 172"
+    },
+    {
+      "check": "answers:footer:18",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "answers:render_preservation:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:19",
+      "pass": true,
+      "detail": "208 / 208"
+    },
+    {
+      "check": "answers:footer:19",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "answers:render_preservation:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:20",
+      "pass": true,
+      "detail": "236 / 236"
+    },
+    {
+      "check": "answers:footer:20",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "answers:render_preservation:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:21",
+      "pass": true,
+      "detail": "195 / 195"
+    },
+    {
+      "check": "answers:footer:21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "check": "answers:render_preservation:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:22",
+      "pass": true,
+      "detail": "250 / 250"
+    },
+    {
+      "check": "answers:footer:22",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "answers:render_preservation:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:23",
+      "pass": true,
+      "detail": "199 / 199"
+    },
+    {
+      "check": "answers:footer:23",
+      "pass": true,
+      "detail": "23"
+    },
+    {
+      "check": "answers:navigation_text:23:2",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "answers:navigation_text:23:7",
+      "pass": true,
+      "detail": "29"
+    },
+    {
+      "check": "answers:navigation_text:23:13",
+      "pass": true,
+      "detail": "35"
+    },
+    {
+      "check": "answers:navigation_text:23:18",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "answers:render_preservation:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:24",
+      "pass": true,
+      "detail": "236 / 236"
+    },
+    {
+      "check": "answers:footer:24",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "answers:render_preservation:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:25",
+      "pass": true,
+      "detail": "241 / 241"
+    },
+    {
+      "check": "answers:footer:25",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "answers:render_preservation:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:26",
+      "pass": true,
+      "detail": "290 / 290"
+    },
+    {
+      "check": "answers:footer:26",
+      "pass": true,
+      "detail": "26"
+    },
+    {
+      "check": "answers:render_preservation:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:27",
+      "pass": true,
+      "detail": "304 / 304"
+    },
+    {
+      "check": "answers:footer:27",
+      "pass": true,
+      "detail": "27"
+    },
+    {
+      "check": "answers:render_preservation:28",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:28",
+      "pass": true,
+      "detail": "201 / 201"
+    },
+    {
+      "check": "answers:footer:28",
+      "pass": true,
+      "detail": "28"
+    },
+    {
+      "check": "answers:render_preservation:29",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:29",
+      "pass": true,
+      "detail": "137 / 137"
+    },
+    {
+      "check": "answers:footer:29",
+      "pass": true,
+      "detail": "29"
+    },
+    {
+      "check": "answers:render_preservation:30",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:30",
+      "pass": true,
+      "detail": "198 / 198"
+    },
+    {
+      "check": "answers:footer:30",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "check": "answers:render_preservation:31",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:31",
+      "pass": true,
+      "detail": "216 / 216"
+    },
+    {
+      "check": "answers:footer:31",
+      "pass": true,
+      "detail": "31"
+    },
+    {
+      "check": "answers:render_preservation:32",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:32",
+      "pass": true,
+      "detail": "197 / 197"
+    },
+    {
+      "check": "answers:footer:32",
+      "pass": true,
+      "detail": "32"
+    },
+    {
+      "check": "answers:render_preservation:33",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:33",
+      "pass": true,
+      "detail": "271 / 271"
+    },
+    {
+      "check": "answers:footer:33",
+      "pass": true,
+      "detail": "33"
+    },
+    {
+      "check": "answers:render_preservation:34",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:34",
+      "pass": true,
+      "detail": "211 / 211"
+    },
+    {
+      "check": "answers:footer:34",
+      "pass": true,
+      "detail": "34"
+    },
+    {
+      "check": "answers:render_preservation:35",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:35",
+      "pass": true,
+      "detail": "195 / 195"
+    },
+    {
+      "check": "answers:footer:35",
+      "pass": true,
+      "detail": "35"
+    },
+    {
+      "check": "answers:render_preservation:36",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:36",
+      "pass": true,
+      "detail": "201 / 201"
+    },
+    {
+      "check": "answers:footer:36",
+      "pass": true,
+      "detail": "36"
+    },
+    {
+      "check": "answers:render_preservation:37",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:37",
+      "pass": true,
+      "detail": "260 / 260"
+    },
+    {
+      "check": "answers:footer:37",
+      "pass": true,
+      "detail": "37"
+    },
+    {
+      "check": "answers:render_preservation:38",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:38",
+      "pass": true,
+      "detail": "278 / 278"
+    },
+    {
+      "check": "answers:footer:38",
+      "pass": true,
+      "detail": "38"
+    },
+    {
+      "check": "answers:render_preservation:39",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:39",
+      "pass": true,
+      "detail": "218 / 218"
+    },
+    {
+      "check": "answers:footer:39",
+      "pass": true,
+      "detail": "39"
+    },
+    {
+      "check": "answers:render_preservation:40",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:40",
+      "pass": true,
+      "detail": "153 / 153"
+    },
+    {
+      "check": "answers:footer:40",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "check": "answers:render_preservation:41",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:41",
+      "pass": true,
+      "detail": "223 / 223"
+    },
+    {
+      "check": "answers:footer:41",
+      "pass": true,
+      "detail": "41"
+    },
+    {
+      "check": "answers:render_preservation:42",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:42",
+      "pass": true,
+      "detail": "228 / 228"
+    },
+    {
+      "check": "answers:footer:42",
+      "pass": true,
+      "detail": "42"
+    },
+    {
+      "check": "answers:render_preservation:43",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:43",
+      "pass": true,
+      "detail": "235 / 235"
+    },
+    {
+      "check": "answers:footer:43",
+      "pass": true,
+      "detail": "43"
+    },
+    {
+      "check": "answers:render_preservation:44",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:44",
+      "pass": true,
+      "detail": "193 / 193"
+    },
+    {
+      "check": "answers:footer:44",
+      "pass": true,
+      "detail": "44"
+    },
+    {
+      "check": "answers:render_preservation:45",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:45",
+      "pass": true,
+      "detail": "215 / 215"
+    },
+    {
+      "check": "answers:footer:45",
+      "pass": true,
+      "detail": "45"
+    },
+    {
+      "check": "answers:render_preservation:46",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:46",
+      "pass": true,
+      "detail": "206 / 206"
+    },
+    {
+      "check": "answers:footer:46",
+      "pass": true,
+      "detail": "46"
+    },
+    {
+      "check": "answers:render_preservation:47",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:47",
+      "pass": true,
+      "detail": "270 / 270"
+    },
+    {
+      "check": "answers:footer:47",
+      "pass": true,
+      "detail": "47"
+    },
+    {
+      "check": "answers:render_preservation:48",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:48",
+      "pass": true,
+      "detail": "175 / 175"
+    },
+    {
+      "check": "answers:footer:48",
+      "pass": true,
+      "detail": "48"
+    },
+    {
+      "check": "answers:render_preservation:49",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:49",
+      "pass": true,
+      "detail": "270 / 270"
+    },
+    {
+      "check": "answers:footer:49",
+      "pass": true,
+      "detail": "49"
+    },
+    {
+      "check": "answers:render_preservation:50",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:50",
+      "pass": true,
+      "detail": "260 / 260"
+    },
+    {
+      "check": "answers:footer:50",
+      "pass": true,
+      "detail": "50"
+    },
+    {
+      "check": "answers:render_preservation:51",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:51",
+      "pass": true,
+      "detail": "272 / 272"
+    },
+    {
+      "check": "answers:footer:51",
+      "pass": true,
+      "detail": "51"
+    },
+    {
+      "check": "answers:render_preservation:52",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:52",
+      "pass": true,
+      "detail": "222 / 222"
+    },
+    {
+      "check": "answers:footer:52",
+      "pass": true,
+      "detail": "52"
+    },
+    {
+      "check": "answers:render_preservation:53",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:53",
+      "pass": true,
+      "detail": "263 / 263"
+    },
+    {
+      "check": "answers:footer:53",
+      "pass": true,
+      "detail": "53"
+    },
+    {
+      "check": "answers:render_preservation:54",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:54",
+      "pass": true,
+      "detail": "198 / 198"
+    },
+    {
+      "check": "answers:footer:54",
+      "pass": true,
+      "detail": "54"
+    },
+    {
+      "check": "answers:render_preservation:55",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:55",
+      "pass": true,
+      "detail": "305 / 305"
+    },
+    {
+      "check": "answers:footer:55",
+      "pass": true,
+      "detail": "55"
+    },
+    {
+      "check": "answers:render_preservation:56",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:56",
+      "pass": true,
+      "detail": "221 / 221"
+    },
+    {
+      "check": "answers:footer:56",
+      "pass": true,
+      "detail": "56"
+    },
+    {
+      "check": "answers:render_preservation:57",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:57",
+      "pass": true,
+      "detail": "250 / 250"
+    },
+    {
+      "check": "answers:footer:57",
+      "pass": true,
+      "detail": "57"
+    },
+    {
+      "check": "answers:render_preservation:58",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:58",
+      "pass": true,
+      "detail": "238 / 238"
+    },
+    {
+      "check": "answers:footer:58",
+      "pass": true,
+      "detail": "58"
+    },
+    {
+      "check": "answers:render_preservation:59",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:59",
+      "pass": true,
+      "detail": "295 / 295"
+    },
+    {
+      "check": "answers:footer:59",
+      "pass": true,
+      "detail": "59"
+    },
+    {
+      "check": "answers:render_preservation:60",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:60",
+      "pass": true,
+      "detail": "208 / 208"
+    },
+    {
+      "check": "answers:footer:60",
+      "pass": true,
+      "detail": "60"
+    },
+    {
+      "check": "answers:render_preservation:61",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:61",
+      "pass": true,
+      "detail": "212 / 212"
+    },
+    {
+      "check": "answers:footer:61",
+      "pass": true,
+      "detail": "61"
+    },
+    {
+      "check": "answers:render_preservation:62",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:62",
+      "pass": true,
+      "detail": "256 / 256"
+    },
+    {
+      "check": "answers:footer:62",
+      "pass": true,
+      "detail": "62"
+    },
+    {
+      "check": "answers:render_preservation:63",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:63",
+      "pass": true,
+      "detail": "203 / 203"
+    },
+    {
+      "check": "answers:footer:63",
+      "pass": true,
+      "detail": "63"
+    },
+    {
+      "check": "answers:render_preservation:64",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:64",
+      "pass": true,
+      "detail": "184 / 184"
+    },
+    {
+      "check": "answers:footer:64",
+      "pass": true,
+      "detail": "64"
+    },
+    {
+      "check": "answers:render_preservation:65",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "answers:text_geometry:65",
+      "pass": true,
+      "detail": "273 / 273"
+    },
+    {
+      "check": "answers:footer:65",
+      "pass": true,
+      "detail": "65"
+    },
+    {
+      "check": "answers:114_exercise_bookmarks",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.1:38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.2:38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:heading:1.3:38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:page_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:all_source_pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:chapter_recto_starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:only_planned_blanks",
+      "pass": true,
+      "detail": "[28]"
+    },
+    {
+      "check": "teacher:A4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:links_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:bookmarks_resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:render_preservation:3",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:3",
+      "pass": true,
+      "detail": "257 / 257"
+    },
+    {
+      "check": "teacher:footer:3",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "check": "teacher:render_preservation:4",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:4",
+      "pass": true,
+      "detail": "321 / 321"
+    },
+    {
+      "check": "teacher:footer:4",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "check": "teacher:render_preservation:5",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:5",
+      "pass": true,
+      "detail": "306 / 306"
+    },
+    {
+      "check": "teacher:footer:5",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "teacher:render_preservation:6",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:6",
+      "pass": true,
+      "detail": "293 / 293"
+    },
+    {
+      "check": "teacher:footer:6",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "check": "teacher:render_preservation:7",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:7",
+      "pass": true,
+      "detail": "241 / 241"
+    },
+    {
+      "check": "teacher:footer:7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "check": "teacher:render_preservation:8",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:8",
+      "pass": true,
+      "detail": "290 / 290"
+    },
+    {
+      "check": "teacher:footer:8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "teacher:render_preservation:9",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:9",
+      "pass": true,
+      "detail": "269 / 269"
+    },
+    {
+      "check": "teacher:footer:9",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "teacher:render_preservation:10",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:10",
+      "pass": true,
+      "detail": "282 / 282"
+    },
+    {
+      "check": "teacher:footer:10",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "teacher:render_preservation:11",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:11",
+      "pass": true,
+      "detail": "319 / 319"
+    },
+    {
+      "check": "teacher:footer:11",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "check": "teacher:render_preservation:12",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:12",
+      "pass": true,
+      "detail": "342 / 342"
+    },
+    {
+      "check": "teacher:footer:12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "check": "teacher:render_preservation:13",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:13",
+      "pass": true,
+      "detail": "322 / 322"
+    },
+    {
+      "check": "teacher:footer:13",
+      "pass": true,
+      "detail": "13"
+    },
+    {
+      "check": "teacher:render_preservation:14",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:14",
+      "pass": true,
+      "detail": "326 / 326"
+    },
+    {
+      "check": "teacher:footer:14",
+      "pass": true,
+      "detail": "14"
+    },
+    {
+      "check": "teacher:render_preservation:15",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:15",
+      "pass": true,
+      "detail": "284 / 284"
+    },
+    {
+      "check": "teacher:footer:15",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "check": "teacher:render_preservation:16",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:16",
+      "pass": true,
+      "detail": "238 / 238"
+    },
+    {
+      "check": "teacher:footer:16",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "check": "teacher:render_preservation:17",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:17",
+      "pass": true,
+      "detail": "287 / 287"
+    },
+    {
+      "check": "teacher:footer:17",
+      "pass": true,
+      "detail": "17"
+    },
+    {
+      "check": "teacher:render_preservation:18",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:18",
+      "pass": true,
+      "detail": "308 / 308"
+    },
+    {
+      "check": "teacher:footer:18",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "check": "teacher:render_preservation:19",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:19",
+      "pass": true,
+      "detail": "220 / 220"
+    },
+    {
+      "check": "teacher:footer:19",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "check": "teacher:render_preservation:20",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:20",
+      "pass": true,
+      "detail": "303 / 303"
+    },
+    {
+      "check": "teacher:footer:20",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "check": "teacher:render_preservation:21",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:21",
+      "pass": true,
+      "detail": "286 / 286"
+    },
+    {
+      "check": "teacher:footer:21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "check": "teacher:render_preservation:22",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:22",
+      "pass": true,
+      "detail": "280 / 280"
+    },
+    {
+      "check": "teacher:footer:22",
+      "pass": true,
+      "detail": "22"
+    },
+    {
+      "check": "teacher:render_preservation:23",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:23",
+      "pass": true,
+      "detail": "240 / 240"
+    },
+    {
+      "check": "teacher:footer:23",
+      "pass": true,
+      "detail": "23"
+    },
+    {
+      "check": "teacher:render_preservation:24",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:24",
+      "pass": true,
+      "detail": "289 / 289"
+    },
+    {
+      "check": "teacher:footer:24",
+      "pass": true,
+      "detail": "24"
+    },
+    {
+      "check": "teacher:render_preservation:25",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:25",
+      "pass": true,
+      "detail": "294 / 294"
+    },
+    {
+      "check": "teacher:footer:25",
+      "pass": true,
+      "detail": "25"
+    },
+    {
+      "check": "teacher:render_preservation:26",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:26",
+      "pass": true,
+      "detail": "266 / 266"
+    },
+    {
+      "check": "teacher:footer:26",
+      "pass": true,
+      "detail": "26"
+    },
+    {
+      "check": "teacher:render_preservation:27",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "teacher:text_geometry:27",
+      "pass": true,
+      "detail": "270 / 270"
+    },
+    {
+      "check": "teacher:footer:27",
+      "pass": true,
+      "detail": "27"
+    },
+    {
+      "check": "glossary:term:Aanbod",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Aanbod:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Aanbod:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Aanbodfactor",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Aanbodfactor:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Aanbodfactor:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Aanbodoverschot",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Aanbodoverschot:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Aanbodoverschot:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Aangeboden hoeveelheid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Aangeboden hoeveelheid:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Aangeboden hoeveelheid:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Absolute verandering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Absolute verandering:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Absolute verandering:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Alternatieve kosten",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Alternatieve kosten:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Alternatieve kosten:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Basiswaarde",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Basiswaarde:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Basiswaarde:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Behoefte",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Behoefte:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Behoefte:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Behoeften en voorkeuren",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Behoeften en voorkeuren:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Behoeften en voorkeuren:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Betalingsbereidheid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Betalingsbereidheid:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Betalingsbereidheid:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Beweging langs de vraaglijn",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Beweging langs de vraaglijn:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Beweging langs de vraaglijn:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Beweging langs een lijn",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Beweging langs een lijn:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Beweging langs een lijn:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Ceteris paribus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Ceteris paribus:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Ceteris paribus:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Ceteris paribus:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Ceteris paribus:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Collectieve vraag",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Collectieve vraag:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Collectieve vraag:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Complementen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Complementen:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Complementen:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Consumentensurplus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Consumentensurplus:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Consumentensurplus:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Eenheid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Eenheid:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Eenheid:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Evenwichtshoeveelheid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Evenwichtshoeveelheid:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Evenwichtshoeveelheid:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Evenwichtsprijs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Evenwichtsprijs:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Evenwichtsprijs:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Formule",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Formule:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Formule:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Geldigheid van een formule",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Geldigheid van een formule:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Geldigheid van een formule:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Gevraagde hoeveelheid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Gevraagde hoeveelheid:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Gevraagde hoeveelheid:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Haalbaar alternatief",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Haalbaar alternatief:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Haalbaar alternatief:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Indexcijfer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Indexcijfer:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Indexcijfer:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Indexpunt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Indexpunt:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Indexpunt:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Individuele vraag",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Individuele vraag:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Individuele vraag:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Interpoleren",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Interpoleren:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Interpoleren:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Koopgrens in het voorbeeld",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Koopgrens in het voorbeeld:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Koopgrens in het voorbeeld:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Lineair vraagmodel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Lineair vraagmodel:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Lineair vraagmodel:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Marktaanbod",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Marktaanbod:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Marktaanbod:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Marktevenwicht",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Marktevenwicht:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Marktevenwicht:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Model",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Model:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Model:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Prijsdruk",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Prijsdruk:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Prijsdruk:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Procent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Procent:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Procent:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Procentpunt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Procentpunt:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Procentpunt:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Productiemiddel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Productiemiddel:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Productiemiddel:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Schaal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Schaal:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Schaal:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Schaarste",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Schaarste:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Schaarste:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Snijpunt met een as",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Snijpunt met een as:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Snijpunt met een as:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Substituten",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Substituten:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Substituten:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Transactie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Transactie:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Transactie:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Variabele",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Variabele:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Variabele:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Verschuiving van de vraaglijn",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Verschuiving van de vraaglijn:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Verschuiving van de vraaglijn:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Verschuiving van een lijn",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Verschuiving van een lijn:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Verschuiving van een lijn:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Voorraad",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Voorraad:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Voorraad:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Vraagfunctie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Vraagfunctie:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Vraagfunctie:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:term:Vraagoverschot",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:definition:Vraagoverschot:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "glossary:source:Vraagoverschot:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "preface:under_300_words",
+      "pass": true,
+      "detail": "279"
+    },
+    {
+      "check": "student:intended_link:0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:39",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:41",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:42",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:43",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:44",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:45",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:46",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:47",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:49",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:50",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:51",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:52",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:53",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:54",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:55",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:56",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:57",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:58",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:59",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:61",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:62",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:63",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:64",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:65",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:66",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:67",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:68",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:69",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:70",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:71",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:72",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:73",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:74",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:75",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:76",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:77",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:78",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:79",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:81",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:82",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:83",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:84",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:85",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:86",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:87",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:88",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:89",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:90",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:91",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:92",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:93",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:94",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:95",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:96",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:97",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:98",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:99",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:101",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:102",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:103",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:104",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:105",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:106",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:107",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:108",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:109",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:110",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:111",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:112",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:113",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:114",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:115",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:116",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:117",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:118",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:119",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:121",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:122",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:123",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:intended_link:124",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "student:metadata_second_edition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:intended_link:22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "answers:metadata_second_edition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:intended_link:0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:intended_link:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:intended_link:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "teacher:metadata_second_edition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/1.1.3 Tabellen, grafieken en formules – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/1.1.4 Gemengde opgaven – opgaven.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.1_ex_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.1_ex_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.1_fig_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.1_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.1_fig_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.1_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.1_we_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.1_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_ex_12.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_ex_12.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_fig_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_fig_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_fig_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_fig_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.2_fig_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_25.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_25.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_27.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_27.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_29.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_29.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_30.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_30.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_30_area.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ans_30_area.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ex_24.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ex_24.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ex_25.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ex_25.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ex_29.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ex_29.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ex_30.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_ex_30.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_5.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_5.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_6.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_fig_6.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_we_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_we_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.3_we_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.4_ans_36.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.4_ans_36.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.4_ans_37.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.4_ans_37.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.4_ex_37.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/_assets/1.1.4_ex_37.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/Antwoorden.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/chapter-order.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/design.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/Docenteninformatie.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/Hoofdstukoverzicht.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/print.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/sources/book-1-outline-second-edition-v1.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H1/Voorblad.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/1.2.1 Betalingsbereidheid en individuele vraag – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/1.2.2 Vraagfactoren – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/1.2.3 Van individuele naar collectieve vraag – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/1.2.4 Gemengde opgaven – opgaven.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ans_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ans_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ans_6.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ans_6.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ans_8.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ans_8.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ex_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ex_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ex_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_ex_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_fig_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_fig_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_fig_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_fig_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_fig_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_we_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.1_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ans_15.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ans_15.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ans_18.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ans_18.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ans_19.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ans_19.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ex_14.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ex_14.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ex_15.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ex_15.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ex_18.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ex_18.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ex_19.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_ex_19.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_fig_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_fig_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_fig_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_fig_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_fig_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_we_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.2_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ans_26.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ans_26.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ans_28.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ans_28.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ans_30.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ans_30.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ex_25.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ex_25.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ex_26.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_ex_26.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_fig_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_fig_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_we_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.3_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.4_ans_36.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.4_ans_36.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.4_ans_37.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.4_ans_37.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.4_ex_37.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/_assets/1.2.4_ex_37.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/Antwoorden.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/chapter-order.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/design.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/Docenteninformatie.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/Hoofdstukoverzicht.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/print.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/sources/1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/sources/1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/sources/1.1.3 Tabellen, grafieken en formules – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/sources/book-1-outline-second-edition-v1.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H2/Voorblad.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/1.3.1 Aanbod en aanbodfactoren – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/1.3.2 Marktevenwicht – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/1.3.3 Verschuivingen en nieuw evenwicht – paragraaf.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/1.3.4 Gemengde opgaven – opgaven.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ans_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ans_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ans_8.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ans_8.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ans_9.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ans_9.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ex_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ex_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ex_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ex_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ex_8.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ex_8.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ex_9.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_ex_9.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_fig_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_fig_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_fig_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_we_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.1_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ans_15.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ans_15.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ans_17.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ans_17.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ans_20.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ans_20.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ex_14.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ex_14.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ex_15.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_ex_15.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_5.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_fig_5.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_we_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.2_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ans_26.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ans_26.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ans_29.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ans_29.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ans_31.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ans_31.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ex_25.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ex_25.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ex_26.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ex_26.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ex_29.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ex_29.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ex_31.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_ex_31.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_fig_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_fig_2.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_fig_3.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_fig_4.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_fig_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_we_1.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.3_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.4_ans_36.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.4_ans_36.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.4_ans_37.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.4_ans_37.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.4_ex_38.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/_assets/1.3.4_ex_38.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/Antwoorden.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/chapter-order.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/Docenteninformatie.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/Hoofdstukoverzicht.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/ONTWERP.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/print.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/sources/book-1-outline-second-edition-v1.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/H3/Voorblad.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "source_file_preservation:bronnen/omslag/achtergrond.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "package:no_font_files",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

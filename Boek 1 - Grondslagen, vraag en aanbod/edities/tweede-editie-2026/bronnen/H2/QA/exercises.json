@@ -1,0 +1,1000 @@
+[
+  {
+    "number": 1,
+    "title": "Een bekende rekenregel",
+    "section": "1.2.1",
+    "page": 8,
+    "kind": "start",
+    "context": "Voor materiaalhuur geldt T = 5 + 2n. T is het bedrag in euro; n is een heel aantal materialen van 0 tot en met 20.",
+    "questions": [
+      "Bereken T als n = 4.",
+      "Bereken n als T = € 17 en controleer je antwoord."
+    ],
+    "answers": [
+      [
+        "T = 5 + 2 × 4 = **€ 13**.",
+        "Je vermenigvuldigt het bedrag per materiaal eerst met het aantal."
+      ],
+      [
+        "17 = 5 + 2n → 12 = 2n → n = **6 materialen**. Controle: 5 + 2 × 6 = € 17.",
+        "Aan beide kanten 5 aftrekken en vervolgens door 2 delen houdt de vergelijking gelijk."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 2,
+    "title": "Een aankoop en een punt",
+    "section": "1.2.1",
+    "page": 8,
+    "kind": "start",
+    "context": "Omar wil voor een eerste poster maximaal € 8 betalen. De prijs is € 6. Hij heeft genoeg geld. In een andere vraaggrafiek staat q horizontaal en P verticaal.",
+    "questions": [
+      "Koopt Omar de poster volgens de koopregel? Licht toe.",
+      "Welk punt hoort bij 4 producten en € 3 per product?"
+    ],
+    "answers": [
+      [
+        "**Ja**, want zijn betalingsbereidheid van € 8 is hoger dan de prijs van € 6.",
+        "Het gaat om de waarde van die ene poster voor Omar."
+      ],
+      [
+        "**(4; 3)**.",
+        "Eerst de horizontale hoeveelheid, daarna de verticale prijs."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 3,
+    "title": "De ingevulde hulplijnen",
+    "section": "1.2.1",
+    "page": 9,
+    "kind": "guided",
+    "context": "Lina’s vraag naar tijdschriften is q = 12 − 2P, met q per maand en P in euro per tijdschrift. Het model geldt voor 0 ≤ P ≤ 6; de overige omstandigheden blijven gelijk.",
+    "questions": [
+      "Lees q bij P = € 2 af. Noem de eenheid.",
+      "Lees P bij q = 4 af en controleer met de formule.",
+      "Kun je uit de vraaglijn alleen vaststellen dat er ook echt vier tijdschriften worden verkocht? Leg uit."
+    ],
+    "answers": [
+      [
+        "Bij € 2 is q = **8 tijdschriften per maand**.",
+        "De horizontale hulplijn vertrekt bij de prijs; de verticale hulplijn geeft het bijbehorende aantal."
+      ],
+      [
+        "P = **€ 4 per tijdschrift**. Controle: q = 12 − 2 × 4 = 4 tijdschriften per maand.",
+        "P en q zijn twee coördinaten van hetzelfde punt op de lijn."
+      ],
+      [
+        "**Nee.** De lijn beschrijft Lina’s gevraagde hoeveelheid bij mogelijke prijzen; feitelijke beschikbaarheid en verkoop staan niet vast.",
+        "Vraag is een koopplan onder voorwaarden, niet op zichzelf een waargenomen transactie."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 4,
+    "title": "Maak de vraaglijn af",
+    "section": "1.2.1",
+    "page": 10,
+    "kind": "guided",
+    "context": "Voor Mats geldt q = 8 − P. q is het aantal bezoeken aan een expositieruimte per maand; P is euro per bezoek. Gebruik 0 ≤ P ≤ 8. Andere omstandigheden blijven gelijk.",
+    "questions": [
+      "Vul de twee ontbrekende hoeveelheden in de tabel in.",
+      "Teken de rechte vraaglijn door de gegeven snijpunten. Markeer de punten bij P = € 2 en P = € 5.",
+      "Welke prijs hoort bij q = 3?"
+    ],
+    "answers": [
+      [
+        "Bij P = 2: q = 8 − 2 = **6 bezoeken**. Bij P = 5: q = 8 − 5 = **3 bezoeken** per maand.",
+        "Je vult de prijs in dezelfde rekenregel in."
+      ],
+      [
+        "De lijn loopt door **(0; 8)** en **(8; 0)**. De punten zijn **(6; 2)** en **(3; 5)**.",
+        "Alle getekende punten voldoen aan q = 8 − P."
+      ],
+      [
+        "3 = 8 − P → P = **€ 5 per bezoek**. Controle: 8 − 5 = 3.",
+        "De prijs hoort bij de gekozen hoeveelheid op dezelfde lijn."
+      ]
+    ],
+    "answer_figure": "1.2.1_ans_4",
+    "criteria": null
+  },
+  {
+    "number": 5,
+    "title": "Zonder tekening",
+    "section": "1.2.1",
+    "page": 10,
+    "kind": "guided",
+    "context": "Voor Lila’s pakjes kaarten geldt q = 15 − 3P, voor 0 ≤ P ≤ 5. q is pakjes per maand en P is euro per pakje. Een ander pakje heeft voor haar een gegeven betalingsbereidheid van € 4.",
+    "questions": [
+      "Bereken de prijs waarbij zij volgens de functie 6 pakjes vraagt.",
+      "Dat andere pakje kost € 4. Koopt ze het volgens onze afspraak bij gelijkheid?"
+    ],
+    "answers": [
+      [
+        "6 = 15 − 3P → 6 + 3P = 15 → 3P = 9 → P = **€ 3 per pakje**. Controle: 15 − 3 × 3 = 6.",
+        "Je rekent terug naar de prijs en controleert daarna de oorspronkelijke functie."
+      ],
+      [
+        "**Ja.** Bij gelijkheid veronderstellen we dat zij koopt, als er geen extra beperking is.",
+        "De afspraak maakt een anders onbesliste koopkeuze eenduidig."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 6,
+    "title": "Sap voor Joris",
+    "section": "1.2.1",
+    "page": 11,
+    "kind": "practice",
+    "context": "Joris’ vraag naar appelsap wordt benaderd door q = 18 − 3P, met q in liter per week en P in euro per liter. Gebruik 0 ≤ P ≤ 6 en houd de overige omstandigheden gelijk.",
+    "questions": [
+      "Bereken q bij P = € 2 en bij P = € 4.",
+      "Bereken de prijs die hoort bij q = 9. Controleer je antwoord.",
+      "Bepaal beide snijpunten en teken zelf de vraaglijn. Markeer de punten uit a.",
+      "Leg uit waarom de functie niet betekent dat Joris zeker 18 liter gaat kopen."
+    ],
+    "answers": [
+      [
+        "Bij € 2: 18 − 3 × 2 = **12 liter per week**. Bij € 4: 18 − 3 × 4 = **6 liter per week**.",
+        "Bij de hogere prijs is volgens het model minder sap aantrekkelijk."
+      ],
+      [
+        "9 = 18 − 3P → 3P = 9 → P = **€ 3 per liter**. Controle: 18 − 3 × 3 = 9 liter.",
+        "Terugrekenen en invullen beschrijven dezelfde combinatie."
+      ],
+      [
+        "Snijpunten **(18; 0)** en **(0; 6)**; getekende punten **(12; 2)** en **(6; 4)**.",
+        "Op de q-as is P nul; op de P-as is q nul."
+      ],
+      [
+        "18 liter is de gevraagde hoeveelheid **bij P = 0** in dit model. De werkelijke prijs en verkoop zijn niet gegeven.",
+        "Het getal is een voorwaardelijke modeluitkomst, geen gegarandeerde aankoop."
+      ]
+    ],
+    "answer_figure": "1.2.1_ans_6",
+    "criteria": null
+  },
+  {
+    "number": 7,
+    "title": "Een bezoek meer of minder",
+    "section": "1.2.1",
+    "page": 11,
+    "kind": "practice",
+    "context": "Noor wil voor haar eerste vier museumbezoeken per maand maximaal € 18, € 12, € 8 en € 4 per bezoek betalen. Zij heeft voldoende budget en toegang. Bij gelijkheid koopt ze ook.",
+    "questions": [
+      "Hoeveel bezoeken wil Noor kopen bij € 9 per bezoek? Licht toe.",
+      "Hoeveel wil zij kopen bij € 12 en bij € 6?",
+      "Is in b haar betalingsbereidheid veranderd? Leg uit."
+    ],
+    "answers": [
+      [
+        "**2 bezoeken per maand**: € 18 en € 12 zijn minstens € 9; € 8 niet.",
+        "Vergelijk de waarde van ieder extra bezoek met de prijs."
+      ],
+      [
+        "Bij € 12: **2 bezoeken**; bij € 6: **3 bezoeken per maand**.",
+        "Het tweede bezoek wordt bij gelijkheid gekocht; bij € 6 past ook het derde bezoek."
+      ],
+      [
+        "**Nee.** De bron houdt de betalingsbereidheden gelijk en verandert alleen de prijs.",
+        "Een andere koophoeveelheid hoeft geen andere voorkeur te betekenen."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 8,
+    "title": "Fotoprints en een sapmodel",
+    "section": "1.2.1",
+    "page": 12,
+    "kind": "target",
+    "context": "**Bron A.** Iris wil voor vier extra fotoprints maximaal € 12, € 9, € 5 en € 2 betalen. Elke print kost € 5. Zij heeft voldoende budget; bij gelijkheid koopt zij ook.\n\n**Bron B — een andere situatie.** Voor Amir geldt q = 20 − 4P. q is sap in liter per maand, P euro per liter. De functie geldt voor 0 ≤ P ≤ 5. Alle overige omstandigheden blijven gelijk.",
+    "questions": [
+      "Hoeveel fotoprints koopt Iris volgens bron A? Leg uit.",
+      "Bereken met bron B de gevraagde hoeveelheid bij P = € 2 en bij P = € 3.",
+      "Bereken de prijs die hoort bij q = 6 liter per maand. Controleer je antwoord.",
+      "Bereken beide snijpunten van de vraaglijn uit bron B.",
+      "Teken die vraaglijn in je schrift en markeer de twee punten uit b. Vermeld variabelen, eenheden en een bruikbare schaal.",
+      "Leg uit wat de prijsstijging van € 2 naar € 3 voor Amirs vraag betekent. Kun je daarmee ook zijn feitelijke aankoop vaststellen?"
+    ],
+    "answers": [
+      [
+        "**3 fotoprints**. De waarden € 12, € 9 en € 5 zijn minstens de prijs van € 5; de vierde waarde van € 2 is lager.",
+        "De gelijkheidsafspraak bepaalt dat Iris ook de derde print koopt."
+      ],
+      [
+        "Bij € 2: q = 20 − 4 × 2 = **12 liter per maand**. Bij € 3: q = 20 − 4 × 3 = **8 liter per maand**.",
+        "Je verandert alleen de eigen prijs in één en dezelfde vraagfunctie."
+      ],
+      [
+        "6 = 20 − 4P → 6 + 4P = 20 → 4P = 14 → P = **€ 3,50 per liter**. Controle: 20 − 4 × 3,50 = 6 liter.",
+        "De uitkomst blijft binnen de geldige prijsgrenzen."
+      ],
+      [
+        "P = 0 → q = 20: **(20; 0)**. q = 0 → 4P = 20 → P = 5: **(0; 5)**.",
+        "Een snijpunt met een as heeft nul als de andere coördinaat."
+      ],
+      [
+        "Teken q horizontaal (liter per maand), P verticaal (€ per liter). Verbind **(20; 0)** met **(0; 5)**; markeer **(12; 2)** en **(8; 3)**.",
+        "Een controlepunt uit de functie moet exact op de getekende lijn liggen."
+      ],
+      [
+        "De gevraagde hoeveelheid daalt **met 4 liter, van 12 naar 8 liter per maand**, ceteris paribus. De feitelijke aankoop is niet bepaald: beschikbaarheid en de werkelijk geldende prijs ontbreken.",
+        "Een vraagrelatie beschrijft het gedrag bij veronderstelde prijzen; zij bevat geen aanbodinformatie."
+      ]
+    ],
+    "answer_figure": "1.2.1_ans_8",
+    "criteria": null
+  },
+  {
+    "number": 9,
+    "title": "Hetzelfde aantal, dezelfde vraag?",
+    "section": "1.2.1",
+    "page": 13,
+    "kind": "bonus",
+    "context": "Twee leerlingen kopen ieder twee drankjes bij een prijs van € 3. Een onderzoeker zegt: “Hun individuele vraag is dus precies hetzelfde.”",
+    "questions": [
+      "Beoordeel de uitspraak. Geef twee verschillende rijtjes betalingsbereidheden die bij € 3 tot twee aankopen leiden, maar bij een andere prijs tot verschillende aantallen."
+    ],
+    "answers": [
+      [
+        "Bijvoorbeeld leerling A: **€ 6, € 4, € 2**; leerling B: **€ 5, € 3, € 1**. Bij € 3 kopen beiden twee drankjes. Bij € 4 koopt A twee en B één. De uitspraak is dus onjuist.",
+        "Eén overeenkomstig punt bewijst niet dat de hele vraagrelatie gelijk is."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "Beide rijtjes geven precies twee aankopen bij € 3, met dezelfde gelijkheidsafspraak.",
+      "Een andere prijs laat een verschil zien.",
+      "De conclusie onderscheidt één waarneming van een volledig verband."
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Verhoudingen blijven nodig",
+    "section": "1.2.1",
+    "page": 13,
+    "kind": "review",
+    "context": "Een groep koopt 6 identieke folders voor in totaal € 18. Een week later stijgt de prijs per folder van € 3 naar € 3,60.",
+    "questions": [
+      "Bereken het bedrag per folder bij de eerste aankoop.",
+      "Bereken de procentuele prijsverandering."
+    ],
+    "answers": [
+      [
+        "€ 18 / 6 = **€ 3 per folder**.",
+        "Je deelt het totaal door het aantal identieke eenheden."
+      ],
+      [
+        "(3,60 − 3) / 3 × 100% = **20% stijging**.",
+        "De oude prijs van € 3 is de vergelijkingsbasis. Herhaal zo nodig §1.1.2."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 11,
+    "title": "Een zaterdagmiddag",
+    "section": "1.2.1",
+    "page": 13,
+    "kind": "review",
+    "context": "Bram heeft drie uur beschikbaar. Hij kan óf helpen bij een verhuizing voor € 36 in totaal, óf flyers bezorgen voor € 27 in totaal. Beide opties duren drie uur. Hij kiest de verhuizing; zijn doel is de hoogste geldelijke opbrengst.",
+    "questions": [
+      "Wat zijn de geldelijk uitgedrukte alternatieve kosten van zijn keuze? Leg uit waarom het antwoord niet € 9 is."
+    ],
+    "answers": [
+      [
+        "**€ 27**, de opbrengst van het beste alternatief dat hij opgeeft. € 9 is alleen het verschil tussen de twee opbrengsten.",
+        "Alternatieve kosten meten wat de beschikbare tijd elders zou opleveren. Herhaal zo nodig §1.1.1."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 12,
+    "title": "Rekenen met een bekende basis",
+    "section": "1.2.2",
+    "page": 18,
+    "kind": "start",
+    "context": "Gebruik de rekenstappen uit het vorige hoofdstuk en §1.2.1.",
+    "questions": [
+      "Een aantal daalt van 24 naar 18. Bereken de procentuele verandering.",
+      "Bereken Q bij P = € 6 in Q = 24 − 2P. Q is stuks per week; de formule geldt voor 0 ≤ P ≤ 12."
+    ],
+    "answers": [
+      [
+        "(18 − 24) / 24 × 100% = **−25%**.",
+        "Je vergelijkt de afname met de oude hoeveelheid 24."
+      ],
+      [
+        "Q = 24 − 2 × 6 = **12 stuks per week**.",
+        "Alleen de gegeven prijs wordt ingevuld."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 13,
+    "title": "Wat verandert er?",
+    "section": "1.2.2",
+    "page": 18,
+    "kind": "start",
+    "context": "Je onderzoekt de vraag naar een rugzak. De prijs van deze rugzak daalt; alle andere omstandigheden blijven gelijk.",
+    "questions": [
+      "Is dit een beweging langs of een verschuiving van de vraaglijn? Noem ook de richting van de hoeveelheid."
+    ],
+    "answers": [
+      [
+        "Een **beweging langs** de bestaande vraaglijn, naar een grotere gevraagde hoeveelheid.",
+        "De eigen prijs verandert; de andere vraagfactoren niet."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 14,
+    "title": "Een beter gewaardeerde helm",
+    "section": "1.2.2",
+    "page": 18,
+    "kind": "guided",
+    "context": "Na nieuwe informatie waarderen kopers fietshelmen meer. De prijs blijft € 6. Bekijk de ingevulde grafiek.",
+    "questions": [
+      "Lees Q vóór en na de verandering af. Welke factor en welke richting horen hierbij?"
+    ],
+    "answers": [
+      [
+        "Q gaat van **24 naar 40 helmen per week**. De factor is behoeften/voorkeuren; de lijn verschuift **naar rechts**.",
+        "Bij dezelfde prijs willen de kopers meer helmen; dat is geen eigen-prijsbeweging."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 15,
+    "title": "Twee losse veranderingen bij de wasstraat",
+    "section": "1.2.2",
+    "page": 19,
+    "kind": "guided",
+    "context": "De beginlijn is Q = 120 − 10P, voor 0 ≤ P ≤ 12. Q is wasbeurten per dag; P is euro per wasbeurt. Bij beide veranderingen hieronder begin je opnieuw bij deze lijn en P = € 6.",
+    "questions": [
+      "De eigen prijs stijgt naar € 8; de overige omstandigheden blijven gelijk. Bereken beide hoeveelheden en teken de beweging met een pijl.",
+      "De prijs bij een concurrerende wasstraat daalt. Volgens de bron is die dienst een substituut. Bij elke prijs worden bij onze wasstraat 20 wasbeurten minder gevraagd. Teken V₁ voor Q = 100 − 10P, voor 0 ≤ P ≤ 10, en markeer de hoeveelheid bij € 6. Gebruik bijvoorbeeld de snijpunten.",
+      "Leg uit waarom de twee pijlen niet hetzelfde soort verandering laten zien."
+    ],
+    "answers": [
+      [
+        "Bij € 6: 120 − 10 × 6 = **60 wasbeurten**. Bij € 8: 120 − 10 × 8 = **40 wasbeurten per dag**. Pijl van (60; 6) naar (40; 8) op V₀.",
+        "Alleen de prijs van de eigen dienst verandert."
+      ],
+      [
+        "V₁ loopt door **(100; 0)** en **(0; 10)**. Bij € 6: Q = 100 − 10 × 6 = **40 wasbeurten per dag**; markeer (40; 6).",
+        "De lagere prijs van het substituut vermindert de vraag bij dezelfde eigen prijs."
+      ],
+      [
+        "In a beweeg je **langs V₀**. In b verschuift de lijn **naar links** door de prijs van een substituut.",
+        "Een andere hoeveelheid kan door verschillende oorzaken ontstaan. De gevallen zijn los van elkaar, niet opgeteld."
+      ]
+    ],
+    "answer_figure": "1.2.2_ans_15",
+    "criteria": null
+  },
+  {
+    "number": 16,
+    "title": "Een spel en de bijbehorende console",
+    "section": "1.2.2",
+    "page": 20,
+    "kind": "guided",
+    "context": "De prijs van een nieuw spel daalt. Tegelijk stijgt de prijs van de console die nodig is om het spel te spelen. Volgens de bron gebruiken klanten beide samen; verder verandert er niets. De grootte van de effecten is niet gegeven.",
+    "questions": [
+      "Bekijk eerst alleen de spelprijs. Wat gebeurt er met de vraaggrafiek voor het spel?",
+      "Bekijk daarna alleen de consoleprijs. Benoem de vraagfactor en de richting.",
+      "Versterken de twee effecten elkaar? Kun je de uiteindelijke hoeveelheid bepalen?",
+      "Een leerling zegt: “De duurdere console betekent dat de spelprijs stijgt.” Leg uit waarom die redenering onjuist is."
+    ],
+    "answers": [
+      [
+        "Een **beweging langs** de vraaglijn naar een grotere gevraagde hoeveelheid.",
+        "Het spel is het onderzochte product; zijn eigen prijs daalt."
+      ],
+      [
+        "De console is een **complement**. Zijn hogere prijs kan de vraag naar het spel **naar links verschuiven**, zoals de bron beschrijft.",
+        "Het gaat om de prijs van een ander, samen gebruikt goed."
+      ],
+      [
+        "De effecten **werken tegen elkaar in**. Zonder de grootte van beide effecten is ook de richting van de totale hoeveelheidsverandering niet zeker.",
+        "Een positieve en een negatieve bijdrage kun je niet op richting alleen bij elkaar optellen."
+      ],
+      [
+        "De consoleprijs en spelprijs zijn verschillende prijzen. De bron zegt juist dat het spel goedkoper wordt.",
+        "Benoem steeds de eigenaar van de veranderde prijs; anders wissel je ongemerkt van product."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 17,
+    "title": "De oorzaak precies benoemen",
+    "section": "1.2.2",
+    "page": 20,
+    "kind": "practice",
+    "context": "Onderzoek steeds de vraag naar het product in de eerste kolom. De overige omstandigheden blijven gelijk. Neem de tabel over en vul de laatste drie kolommen in.",
+    "questions": [
+      "Classificeer alle vier situaties. Gebruik de specifieke factor, niet alleen “er verandert iets”."
+    ],
+    "answers": [
+      [
+        "1. Rugzak: **beweging langs; Q stijgt; eigen prijs**. 2. Havermelk: **verschuiving rechts; prijs substituut koemelk**. 3. Simpele afhaalmaaltijd: **verschuiving links; inkomen**. 4. Schriften bij de school: **verschuiving rechts; aantal kopers**.",
+        "Je gebruikt het productgedrag dat de bron noemt. Vooral bij inkomen is “meer inkomen → meer van alles” geen geldige algemene regel."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 18,
+    "title": "Meer danslessen",
+    "section": "1.2.2",
+    "page": 21,
+    "kind": "practice",
+    "context": "Voor danslessen geldt eerst Q = 60 − 3P, voor 0 ≤ P ≤ 20. Q is lessen per week; P is euro per les. De prijs daalt van € 10 naar € 8. Tegelijk stijgt het inkomen van de kopers. Volgens de bron willen zij daardoor bij elke onderzochte prijs 12 lessen extra. Neem aan dat de nieuwe vraaglijn recht blijft tot de gevraagde hoeveelheid nul is. De overige omstandigheden blijven gelijk.",
+    "questions": [
+      "Bereken de oude hoeveelheid en de hoeveelheid na alleen de eigen prijsdaling. Benoem het soort grafische verandering.",
+      "Voeg de nieuwe vraaglijn en de oude en uiteindelijke punten aan de figuur toe. Noteer de coördinaten bij de punten.",
+      "Bereken de uiteindelijke hoeveelheid. Leg uit of de twee effecten elkaar versterken of tegenwerken."
+    ],
+    "answers": [
+      [
+        "Oud: 60 − 3 × 10 = **30 lessen per week**. Alleen prijs: 60 − 3 × 8 = **36 lessen per week**. Dit is een beweging langs V₀.",
+        "Je houdt voor het eerste effect de oorspronkelijke vraagfunctie vast."
+      ],
+      [
+        "Nieuwe lijn: **Q = 72 − 3P** (0 ≤ P ≤ 24). Oud A = **(30; 10)**; alleen prijs B = **(36; 8)**; uiteindelijk C = **(48; 8)**.",
+        "Het inkomen verhoogt volgens de bron Q bij elke prijs met 12; daarom verschuift de lijn naar rechts."
+      ],
+      [
+        "Uiteindelijk: 72 − 3 × 8 = **48 lessen per week**. De prijsdaling geeft +6 en de inkomensverandering +12: de effecten **versterken elkaar**.",
+        "De stijging van 30 naar 48 heeft twee apart benoemde oorzaken."
+      ]
+    ],
+    "answer_figure": "1.2.2_ans_18",
+    "criteria": null
+  },
+  {
+    "number": 19,
+    "title": "Filmhuis Lumi",
+    "section": "1.2.2",
+    "page": 22,
+    "kind": "target",
+    "context": "Voor filmbezoeken geldt eerst Q = 100 − 5P, voor 0 ≤ P ≤ 20. Q is bezoeken per week; P is euro per bezoek. Lumi verhoogt de prijs van € 8 naar € 10. Tegelijk worden kaartjes van een nabijgelegen bioscoop duurder. Volgens de bron zijn die bezoeken substituten. Hierdoor worden bij Lumi bij elke onderzochte prijs 20 bezoeken extra gevraagd. Neem aan dat de nieuwe vraaglijn recht blijft tot de gevraagde hoeveelheid nul is. Verder blijven de omstandigheden gelijk.",
+    "questions": [
+      "Bereken Q vóór de veranderingen en na alleen de eigen prijsstijging. Benoem de grafische verandering.",
+      "Welke specifieke factor veroorzaakt de andere verandering? Benoem de richting van de verschuiving.",
+      "Teken de nieuwe vraaglijn in de figuur. Markeer A (oud), B (alleen de eigen prijsstijging) en C (beide veranderingen). Noteer hun coördinaten.",
+      "Bereken de uiteindelijke hoeveelheid en de verandering ten opzichte van het begin. Werken de twee effecten elkaar tegen of versterken ze elkaar?",
+      "Beoordeel: “De hogere prijs van Lumi verschuift zijn vraaglijn naar rechts.” Gebruik je uitkomsten."
+    ],
+    "answers": [
+      [
+        "Oud: 100 − 5 × 8 = **60 bezoeken per week**. Alleen de eigen prijs: 100 − 5 × 10 = **50 bezoeken per week**. Beweging langs V₀ naar minder bezoeken.",
+        "De eigen prijsstijging wordt eerst los bekeken."
+      ],
+      [
+        "De factor is de **prijs van een substituut**: de andere bioscoop wordt duurder. De vraag naar Lumi verschuift **naar rechts**.",
+        "Het product waarvan de prijs verandert is niet Lumi’s eigen filmbezoek."
+      ],
+      [
+        "Nieuwe lijn: **Q = 120 − 5P**, voor 0 ≤ P ≤ 24. A = **(60; 8)**; B = **(50; 10)**; C = **(70; 10)**.",
+        "Alleen C bevat beide veranderingen; B is een analytische tussenstap."
+      ],
+      [
+        "Q nieuw = 120 − 5 × 10 = **70 bezoeken per week**. Verandering: 70 − 60 = **10 bezoeken meer**. De effecten werken elkaar tegen: −10 + 20 = +10.",
+        "De bron geeft de omvang van beide effecten; daarom kan hier wel een netto-uitkomst worden berekend."
+      ],
+      [
+        "**Onjuist.** Lumi’s eigen prijsstijging verplaatst het punt op V₀ van 60 naar 50 bezoeken. De prijs van het substituut veroorzaakt de verschuiving naar V₁.",
+        "De uiteindelijke stijging naar 70 bewijst niet dat een hogere eigen prijs de vraaglijn naar rechts verschuift."
+      ]
+    ],
+    "answer_figure": "1.2.2_ans_19",
+    "criteria": null
+  },
+  {
+    "number": 20,
+    "title": "Een onderzoek met te weinig informatie",
+    "section": "1.2.2",
+    "page": 23,
+    "kind": "bonus",
+    "context": "Een winkel ziet dat een bordspel duurder is geworden en dat meer mensen het willen kopen. Er staat niets over inkomen, andere spellen of voorkeuren.",
+    "questions": [
+      "Een medewerker zegt dat de vraaglijn daarom stijgend moet zijn. Geef een andere mogelijke verklaring. Leg uit welke extra informatie nodig is om de eigen-prijsreactie te onderzoeken."
+    ],
+    "answers": [
+      [
+        "De belangstelling kan tegelijk zijn toegenomen, bijvoorbeeld door nieuwe positieve ervaringen die kopers met het spel delen. Een vraagverschuiving naar rechts kan de negatieve eigen-prijsreactie overtreffen. Om het eigen-prijseffect te onderzoeken moet je de prijs vergelijken bij **gelijkblijvende overige omstandigheden** of het effect van de andere veranderingen afzonderlijk vaststellen.",
+        "Twee gelijktijdig geobserveerde veranderingen bewijzen niet het verband dat zou gelden onder ceteris paribus."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "Een plausibele niet-prijsfactor wordt genoemd als mogelijkheid, niet als bewezen feit.",
+      "Eigen-prijsreactie en vraagverschuiving blijven onderscheiden.",
+      "De benodigde vergelijking houdt andere omstandigheden gelijk."
+    ]
+  },
+  {
+    "number": 21,
+    "title": "Indexen vergelijken",
+    "section": "1.2.2",
+    "page": 23,
+    "kind": "review",
+    "context": "De prijsindex van sportmateriaal gaat van 120 naar 132; beide indexen gebruiken hetzelfde basisjaar.",
+    "questions": [
+      "Bereken de procentuele verandering. Leg uit waarom het antwoord niet 12% is."
+    ],
+    "answers": [
+      [
+        "(132 − 120) / 120 × 100% = **10% stijging**. Het verschil is **12 indexpunten**, niet 12%.",
+        "De oude index 120, niet 100, is de basis voor deze verandering. Herhaal zo nodig §1.1.2."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 22,
+    "title": "Een formule teruglezen",
+    "section": "1.2.2",
+    "page": 23,
+    "kind": "review",
+    "context": "Een individuele vraag wordt beschreven door q = 16 − 2P voor 0 ≤ P ≤ 8. q is stuks per maand; P is euro per stuk.",
+    "questions": [
+      "Bereken P als q = 8 en controleer de oorspronkelijke formule."
+    ],
+    "answers": [
+      [
+        "8 = 16 − 2P → 2P = 8 → P = **€ 4 per stuk**. Controle: 16 − 2 × 4 = 8 stuks per maand.",
+        "Een gegeven hoeveelheid kan worden gebruikt om de bijbehorende prijs terug te rekenen. Herhaal zo nodig §1.2.1."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 23,
+    "title": "Invullen en vergelijken",
+    "section": "1.2.3",
+    "page": 28,
+    "kind": "start",
+    "context": "Gebruik alleen eerder geoefende rekenstappen.",
+    "questions": [
+      "Bereken q bij P = 4 in q = 8 − 2P, geldig voor 0 ≤ P ≤ 4. q is liter per week.",
+      "Een hoeveelheid stijgt van 12 naar 18 liter per week. Bereken de procentuele verandering."
+    ],
+    "answers": [
+      [
+        "q = 8 − 2 × 4 = **0 liter per week**.",
+        "De prijs ligt precies op het snijpunt met de prijsas."
+      ],
+      [
+        "(18 − 12) / 12 × 100% = **50% stijging**.",
+        "De oude hoeveelheid van 12 liter is de basis."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 24,
+    "title": "Het totaal is geen gemiddelde",
+    "section": "1.2.3",
+    "page": 28,
+    "kind": "start",
+    "context": "Bij dezelfde prijs vraagt een koper 3 liter melk per week en een tweede 5 liter. Alleen deze twee kopers tellen mee.",
+    "questions": [
+      "Bereken de collectieve vraag. Wat gaat er mis als je de uitkomst door twee deelt?"
+    ],
+    "answers": [
+      [
+        "Q = 3 + 5 = **8 liter per week**. Delen door twee geeft 4 liter per koper: dat is het gemiddelde, niet het totaal.",
+        "Collectieve vraag is de som van alle hoeveelheden bij die prijs."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 25,
+    "title": "Twee kopers van verf",
+    "section": "1.2.3",
+    "page": 29,
+    "kind": "guided",
+    "context": "Twee hobbyclubs kopen verf. De volgende grafieken geven hun vraag in liter per week weer. Andere omstandigheden blijven gelijk. Lees de ingevulde hulplijnen.",
+    "questions": [
+      "Lees voor A en B de hoeveelheid bij € 2 af. Controleer het gezamenlijke punt.",
+      "Een leerling telt de twee prijzen op en noteert “12 liter bij € 4”. Leg uit wat daar misgaat."
+    ],
+    "answers": [
+      [
+        "A vraagt **4 liter**, B **8 liter**. Samen 4 + 8 = **12 liter per week**, dus het punt **(12; 2)**.",
+        "De prijs is in alle drie grafieken hetzelfde; alleen de hoeveelheden worden opgeteld."
+      ],
+      [
+        "De prijs blijft **€ 2 per liter**. Er worden niet twee prijsbedragen voor dezelfde liter bij elkaar opgeteld.",
+        "Collectieve vraag is horizontaal optellen bij één prijs, geen optelsom van prijzen."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 26,
+    "title": "Teken de gezamenlijke lijn",
+    "section": "1.2.3",
+    "page": 30,
+    "kind": "guided",
+    "context": "Twee gezinnen kopen chocolademelk. q<sub>A</sub> = 8 − 2P (0 ≤ P ≤ 4); q<sub>B</sub> = 16 − 2P (0 ≤ P ≤ 8). P is euro per liter, q liter per week. Boven de eigen koopgrens is q nul. Andere omstandigheden blijven gelijk.",
+    "questions": [
+      "Vul de tabel in en schrijf de gezamenlijke functie voor 0 ≤ P ≤ 4.",
+      "Teken in de figuur de gezamenlijke vraag voor 0 ≤ P ≤ 4. Het punt bij P = 0 is al gegeven."
+    ],
+    "answers": [
+      [
+        "P = 0: **8, 16, 24**. P = 2: **4, 12, 16**. P = 4: **0, 8, 8** liter per week. Q = (8 − 2P) + (16 − 2P) = **24 − 4P**, voor 0 ≤ P ≤ 4.",
+        "De afzonderlijke uitkomsten blijven in dit interval niet-negatief."
+      ],
+      [
+        "Verbind **(24; 0)** met **(8; 4)** en controleer **(16; 2)**. Teken niet buiten de opgegeven grens door.",
+        "Een correct lijnstuk toont alleen het deel waarvoor de samengevoegde rekenregel geldig is."
+      ]
+    ],
+    "answer_figure": "1.2.3_ans_26",
+    "criteria": null
+  },
+  {
+    "number": 27,
+    "title": "Zonder grafiek: wie koopt nog?",
+    "section": "1.2.3",
+    "page": 30,
+    "kind": "guided",
+    "context": "Voor setjes kaarten gelden q<sub>A</sub> = 6 − P (0 ≤ P ≤ 6) en q<sub>B</sub> = 10 − P (0 ≤ P ≤ 10), in setjes per maand. P is euro per setje. Boven de eigen koopgrens vraagt die koper niets.",
+    "questions": [
+      "Bereken bij P = € 8 hoeveel beide kopers samen vragen."
+    ],
+    "answers": [
+      [
+        "A: **0**; zijn koopgrens is € 6. B: 10 − 8 = **2 setjes**. Samen **2 setjes per maand**.",
+        "De negatieve rekenuitkomst van A is geen aankoop en wordt niet van B afgetrokken."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 28,
+    "title": "Vraag naar illustratieprints",
+    "section": "1.2.3",
+    "page": 31,
+    "kind": "practice",
+    "context": "Twee kopersgroepen vragen illustratieprints. Q<sub>A</sub> = 12 − 3P (0 ≤ P ≤ 4) en Q<sub>B</sub> = 24 − 3P (0 ≤ P ≤ 8). Q is prints per week; P is euro per print. Boven de eigen koopgrens is de vraag van de groep nul. Andere omstandigheden blijven gelijk.",
+    "questions": [
+      "Bereken de vraag van iedere groep en de gezamenlijke vraag bij € 2.",
+      "Stel de gezamenlijke functie op voor 0 ≤ P ≤ 4. Controleer met a.",
+      "Teken zelf de gezamenlijke vraag voor 0 ≤ P ≤ 4. Noteer de eindpunten van dit deel."
+    ],
+    "answers": [
+      [
+        "A: 12 − 3 × 2 = **6 prints**; B: 24 − 3 × 2 = **18 prints**; samen **24 prints per week**.",
+        "De twee groepen worden bij dezelfde prijs vergeleken."
+      ],
+      [
+        "Q = (12 − 3P) + (24 − 3P) = **36 − 6P**, voor 0 ≤ P ≤ 4. Bij € 2: 36 − 6 × 2 = **24**.",
+        "Gelijksoortige termen tel je op; de geldigheid volgt uit de beide afzonderlijke regels."
+      ],
+      [
+        "Eindpunten **(36; 0)** en **(12; 4)**. Controlepunt: **(24; 2)**. Q horizontaal, P verticaal, met eenheden.",
+        "Het interval eindigt bij € 4, niet pas bij het rekenkundige snijpunt van de verlengde somlijn met de P-as."
+      ]
+    ],
+    "answer_figure": "1.2.3_ans_28",
+    "criteria": null
+  },
+  {
+    "number": 29,
+    "title": "Geen negatieve bijdragen",
+    "section": "1.2.3",
+    "page": 31,
+    "kind": "practice",
+    "context": "Twee kopers vragen knutselpakketten. q<sub>A</sub> = 10 − 2P (0 ≤ P ≤ 5); q<sub>B</sub> = 18 − 2P (0 ≤ P ≤ 9). q is pakketten per maand en P is euro per pakket. Boven de eigen koopgrens vraagt een koper nul.",
+    "questions": [
+      "Bereken de gezamenlijke vraag bij € 6.",
+      "Een leerling gebruikt Q = 28 − 4P en komt op 4 pakketten. Leg uit waarom dit geen geldige gezamenlijke vraag is bij die prijs."
+    ],
+    "answers": [
+      [
+        "A: **0**; B: 18 − 2 × 6 = **6**. Samen **6 pakketten per maand**.",
+        "A heeft bij € 6 zijn koopgrens overschreden; B nog niet."
+      ],
+      [
+        "De gebruikte somfunctie geldt alleen voor **0 ≤ P ≤ 5**. Bij € 6 bevat zij voor A een bijdrage van −2. Die mag niet van B’s 6 pakketten worden afgetrokken.",
+        "Negatieve rekenuitkomsten buiten de grens zijn geen negatieve economische vraag."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 30,
+    "title": "Reserveringen bij een spellenclub",
+    "section": "1.2.3",
+    "page": 32,
+    "kind": "target",
+    "context": "Een spellenclub onderzoekt de vraag van twee afzonderlijke groepen. Q<sub>A</sub> = 18 − 3P, geldig voor 0 ≤ P ≤ 6. Q<sub>B</sub> = 24 − 2P, geldig voor 0 ≤ P ≤ 12. Q is reserveringen per week; P is euro per reservering. Boven de eigen koopgrens vraagt de groep nul. De overige omstandigheden blijven gelijk.",
+    "questions": [
+      "Neem de tabel over en vul alle lege hoeveelheden in.",
+      "Stel de gezamenlijke vraagfunctie op voor 0 ≤ P ≤ 6. Controleer de formule met de tabelwaarde bij € 4.",
+      "Teken in je schrift de gezamenlijke vraag voor 0 ≤ P ≤ 6. Noteer de eindpunten en markeer het punt bij € 4.",
+      "Bereken de gezamenlijke vraag bij P = € 8.",
+      "Een leerling trekt de lijn uit c door en vindt bij € 8 een gezamenlijke vraag van 2 reserveringen. Leg uit waarom dit onjuist is."
+    ],
+    "answers": [
+      [
+        "Bij P = 0: A **18**, B **24**, samen **42**. Bij P = 2: **12, 20, 32**. Bij P = 4: **6, 16, 22**. Bij P = 6: **0, 12, 12** reserveringen per week.",
+        "Iedere tabelrij hoort bij één gemeenschappelijke prijs."
+      ],
+      [
+        "Q = (18 − 3P) + (24 − 2P) = **42 − 5P**, voor **0 ≤ P ≤ 6**. Bij € 4: Q = 42 − 5 × 4 = **22 reserveringen per week**.",
+        "De controle verbindt de opgetelde formule met de afzonderlijke brongegevens."
+      ],
+      [
+        "Verbind **(42; 0)** en **(12; 6)**. Markeer **(22; 4)**. Zet Q horizontaal (reserveringen per week) en P verticaal (€ per reservering).",
+        "Je tekent alleen het interval waarvoor de somfunctie geldt."
+      ],
+      [
+        "A: **0**, omdat € 8 boven zijn grens van € 6 ligt. B: 24 − 2 × 8 = **8**. Samen **8 reserveringen per week**.",
+        "De overgebleven vraag van B telt volledig mee."
+      ],
+      [
+        "De verlengde somfunctie geeft 42 − 5 × 8 = 2, maar bevat dan een negatieve bijdrage van A: 18 − 3 × 8 = −6. De geldige berekening is **0 + 8 = 8**.",
+        "De teken- en formulegrens beschermt tegen het aftrekken van niet-bestaande negatieve reserveringen."
+      ]
+    ],
+    "answer_figure": "1.2.3_ans_30",
+    "criteria": null
+  },
+  {
+    "number": 31,
+    "title": "Meer mogelijke kopers, toch hetzelfde totaal",
+    "section": "1.2.3",
+    "page": 33,
+    "kind": "bonus",
+    "context": "Een aanbieder bereikt tien extra mogelijke kopers. De prijs blijft € 10. Alle bestaande kopers blijven precies dezelfde hoeveelheid vragen.",
+    "questions": [
+      "Moet de gezamenlijke gevraagde hoeveelheid bij € 10 nu groter zijn? Geef een tegenvoorbeeld en leg uit welke aanvullende voorwaarde een stijging wél garandeert."
+    ],
+    "answers": [
+      [
+        "**Niet noodzakelijk.** De nieuwe mogelijke kopers kunnen allemaal maximaal € 8 willen betalen. Bij € 10 dragen zij dan nul bij en blijft het totaal gelijk. Het totaal stijgt als minstens één extra koper bij € 10 een **positieve hoeveelheid wil en kan kopen**, terwijl de bestaande vraag gelijk blijft.",
+        "Een grotere bereikbare groep is niet hetzelfde als extra positieve vraag bij iedere prijs."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "Het tegenvoorbeeld behoudt de prijs en de vraag van bestaande kopers.",
+      "De nulbijdrage van de extra mogelijke kopers wordt uitgelegd.",
+      "De voorwaarde voor een werkelijk grotere totale vraag is correct."
+    ]
+  },
+  {
+    "number": 32,
+    "title": "Een daling vergelijken",
+    "section": "1.2.3",
+    "page": 33,
+    "kind": "review",
+    "context": "Een aantal aanmeldingen daalt van 10 naar 8 per week.",
+    "questions": [
+      "Bereken de procentuele verandering."
+    ],
+    "answers": [
+      [
+        "(8 − 10) / 10 × 100% = **−20%**.",
+        "De oude hoeveelheid is de basis; een daling behoudt haar negatieve teken. Herhaal zo nodig §1.1.2."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 33,
+    "title": "Afstanden op een plattegrond",
+    "section": "1.2.3",
+    "page": 33,
+    "kind": "review",
+    "context": "Een rechthoek ligt op een plattegrond van x = 2 tot x = 8 en van y = 3 tot y = 6. Beide assen geven posities in meters. Een driehoek beslaat de helft van die rechthoek.",
+    "questions": [
+      "Bereken de oppervlakte van de rechthoek en de driehoek."
+    ],
+    "answers": [
+      [
+        "Basis = 8 − 2 = **6 m**; hoogte = 6 − 3 = **3 m**. Rechthoek = 6 × 3 = **18 m²**. Driehoek = ½ × 6 × 3 = **9 m²**.",
+        "De zijden zijn afstanden tussen asposities, niet de grootste afgelezen getallen. Herhaal zo nodig §1.1.3."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 34,
+    "title": "Een workshop kiezen",
+    "section": "1.2.4",
+    "page": 34,
+    "kind": "practice",
+    "context": "Sophie heeft voor haar eerste vier korte workshops maximaal € 14, € 10, € 6 en € 3 per workshop over. De prijs is € 6. Zij heeft voldoende budget en tijd; bij gelijkheid doet zij mee.",
+    "questions": [
+      "Hoeveel workshops wil Sophie volgen bij € 6? Leg uit.",
+      "Later kost dezelfde workshop € 7,50; de betalingsbereidheden blijven gelijk. Bereken de procentuele prijsstijging en het nieuwe aantal."
+    ],
+    "answers": [
+      [
+        "**3 workshops**. De eerste drie betalingsbereidheden zijn minstens € 6; de vierde niet.",
+        "De gelijkheidsafspraak bepaalt de derde aankoop."
+      ],
+      [
+        "(7,50 − 6) / 6 × 100% = **25% stijging**. Zij kiest nu **2 workshops**.",
+        "De oude prijs is de procentuele basis; de betalingsbereidheden veranderen niet."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 35,
+    "title": "Een gezamenlijke vraag controleren",
+    "section": "1.2.4",
+    "page": 34,
+    "kind": "practice",
+    "context": "Twee groepen vragen puzzelboekjes. De tabel geldt bij onveranderde overige omstandigheden; alle aantallen zijn per week.",
+    "questions": [
+      "Vul de gezamenlijke vraag per rij in.",
+      "Een medewerker maakt een gemiddelde van de twee groepen. Leg uit waarom dat de gevraagde marktgrootte niet weergeeft."
+    ],
+    "answers": [
+      [
+        "Bij € 2: 8 + 12 = **20 boekjes**. Bij € 4: 4 + 8 = **12 boekjes**. Bij € 6: 0 + 4 = **4 boekjes per week**.",
+        "Je telt per rij hoeveelheden bij één prijs op."
+      ],
+      [
+        "Het gemiddelde deelt de totale hoeveelheid door twee en beschrijft een gemiddelde groep. Voor deze markt is juist de **som** gevraagd.",
+        "Groepsgemiddelden en totale marktvraag zijn verschillende grootheden."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 36,
+    "title": "Luisterboeken voor Sanne",
+    "section": "1.2.4",
+    "page": 35,
+    "kind": "practice",
+    "context": "De vraag van Sanne wordt beschreven door P = 7 − 0,5q, voor 0 ≤ q ≤ 14. P is euro per luisterboek; q is luisterboeken per maand. Alle overige omstandigheden blijven gelijk. Het is een eenvoudig model van haar vraag, geen verkoopregistratie.",
+    "questions": [
+      "Bereken q bij P = € 4. Controleer met de oorspronkelijke formule.",
+      "Bepaal de twee snijpunten en teken de vraaglijn zelf.",
+      "Een prijsstijging van € 4 naar € 5 treedt op. Leg uit wat met Sanne’s gevraagde hoeveelheid gebeurt en of haar vraaglijn verschuift.",
+      "Er komen tien nieuwe mogelijke kopers bij de aanbieder. Een leerling zegt dat Sanne daarom zelf meer luisterboeken moet gaan kopen. Beoordeel."
+    ],
+    "answers": [
+      [
+        "4 = 7 − 0,5q → 0,5q = 3 → q = **6 luisterboeken per maand**. Controle: 7 − 0,5 × 6 = € 4.",
+        "Je rekent van een gegeven prijs terug naar de bijbehorende hoeveelheid."
+      ],
+      [
+        "q = 0 → P = 7: **(0; 7)**. P = 0 → 0,5q = 7 → q = 14: **(14; 0)**. De lijn verbindt deze punten.",
+        "De prijs staat verticaal, hoewel zij links in de formule staat; q staat horizontaal."
+      ],
+      [
+        "Bij € 5: 5 = 7 − 0,5q → q = **4 luisterboeken per maand**. De hoeveelheid daalt van 6 naar 4, een **beweging langs** dezelfde lijn.",
+        "Alleen de prijs van haar luisterboek verandert."
+      ],
+      [
+        "**Onjuist.** Extra kopers kunnen de gezamenlijke vraag veranderen, maar hoeven Sanne’s eigen vraag niet te veranderen.",
+        "Het individuele en het collectieve niveau mogen niet worden verwisseld."
+      ]
+    ],
+    "answer_figure": "1.2.4_ans_36",
+    "criteria": null
+  },
+  {
+    "number": 37,
+    "title": "Tafeltennistijd bij Club Noord",
+    "section": "1.2.4",
+    "page": 37,
+    "kind": "target",
+    "context": "Gebruik de bronnen en figuur 22 op de tegenoverliggende pagina. Vermeld bij berekeningen de eenheid en bij verklaringen de specifieke oorzaak.",
+    "questions": [
+      "Stel uit bron A de gezamenlijke vraagfunctie op voor 0 ≤ P ≤ 8. Bereken de oude vraag bij € 4 en controleer door beide groepen afzonderlijk te berekenen.",
+      "Welke prijs hoort volgens de oorspronkelijke gezamenlijke functie bij Q = 30 halfuren per week? Controleer je antwoord.",
+      "Bekijk de twee veranderingen uit bron B afzonderlijk. Bereken eerst de hoeveelheid na alleen de eigen prijsstijging. Benoem daarna de specifieke factor en de richting van het andere effect.",
+      "Teken de nieuwe gezamenlijke vraaglijn voor 0 ≤ P ≤ 8 in figuur 22. Markeer A (oud), B (alleen de eigen prijsstijging) en C (beide veranderingen); noteer de coördinaten.",
+      "Bereken de uiteindelijke gezamenlijke vraag. Beoordeel daarmee de uitspraak: “Het totaal blijft gelijk, dus de eigen prijsstijging heeft geen effect.”",
+      "Hoeveel halfuren wil Sem volgens bron C bij € 6 kopen? Mag je die hoeveelheid nog bij de uitkomst van e optellen? Leg uit."
+    ],
+    "answers": [
+      [
+        "Q = (24 − 3P) + (36 − 3P) = **60 − 6P**, voor **0 ≤ P ≤ 8**. Bij € 4: Q = 60 − 6 × 4 = **36 halfuren per week**. Controle: A = 24 − 12 = 12; B = 36 − 12 = 24; samen 12 + 24 = 36.",
+        "Dezelfde prijs, periode en eenheid maken optellen mogelijk."
+      ],
+      [
+        "30 = 60 − 6P → 6P = 30 → P = **€ 5 per halfuur**. Controle: 60 − 6 × 5 = 30 halfuren per week.",
+        "De gevraagde prijs valt binnen het interval waarin beide regels geldig zijn."
+      ],
+      [
+        "Alleen de eigen prijs: Q = 60 − 6 × 6 = **24 halfuren per week**, dus 12 minder door beweging langs V₀. Het andere effect komt door de **hogere prijs van het substituut bowlen**: een verschuiving naar rechts met 12 halfuren bij elke prijs.",
+        "De oorzaak van de verschuiving is niet een veranderde tafeltennisprijs of onbenoemde smaak."
+      ],
+      [
+        "V₁: **Q = 72 − 6P**, alleen voor 0 ≤ P ≤ 8. A = **(36; 4)**; B = **(24; 6)**; C = **(36; 6)**. Bij P = 0 begint V₁ op (72; 0), bij P = 8 eindigt het gevraagde deel op (24; 8).",
+        "A en C hebben dezelfde hoeveelheid maar verschillende prijzen en liggen op verschillende lijnen."
+      ],
+      [
+        "Q nieuw = 72 − 6 × 6 = **36 halfuren per week**. De uitspraak is **onjuist**: het eigen-prijseffect is −12; het substituuteffect is +12. Ze heffen elkaar hier precies op.",
+        "Een nulverandering in het totaal bewijst niet dat de afzonderlijke effecten nul zijn."
+      ],
+      [
+        "Sem wil **2 halfuren**: € 7 en € 6 zijn minstens € 6; € 4 en € 2 niet. **Niet nogmaals optellen**, want hij zit al in groep A.",
+        "De individuele koopbeslissing is een deel van de bron, geen extra koper buiten de beide groepen."
+      ]
+    ],
+    "answer_figure": "1.2.4_ans_37",
+    "criteria": null
+  },
+  {
+    "number": 38,
+    "title": "Drie ogenschijnlijk logische antwoorden",
+    "section": "1.2.4",
+    "page": 38,
+    "kind": "bonus",
+    "context": "Een redacteur controleert onderstaande leerlingantwoorden. Repareer de redenering, niet alleen het laatste woord of getal.",
+    "questions": [
+      "“Koper A vraagt 6 liter per dag en B 7 liter per week. Samen vragen ze 13 liter.” A vraagt op elk van de zeven dagen hetzelfde. Geef de juiste som met periode.",
+      "“De trein wordt duurder. Mensen kiezen volgens de bron in plaats daarvan de bus. Dus de voorkeur voor de bus is veranderd.” Benoem de juiste factor bij de vraag naar busritten.",
+      "“Een gegeven vraagfunctie voorspelt 80 tickets bij € 10. Er zijn dus zeker 80 tickets verkocht.” Welke extra informatie ontbreekt?"
+    ],
+    "answers": [
+      [
+        "Per week: A vraagt 7 × 6 = **42 liter**, B **7 liter**. Samen **49 liter per week**. De oorspronkelijke optelling mengt perioden.",
+        "Een som is alleen betekenisvol wanneer de eenheden en perioden gelijk zijn."
+      ],
+      [
+        "De factor is **de prijs van een substituut**, namelijk de trein. De bron geeft een verandering van de relatieve prijs, geen verandering van smaak.",
+        "De specifieke oorzaak blijft zichtbaar als je het andere product benoemt."
+      ],
+      [
+        "De functie geeft een gevraagde hoeveelheid bij een mogelijke prijs. Je weet nog niet of **€ 10 werkelijk de prijs is en of de tickets verkrijgbaar zijn**; feitelijke verkopen zijn niet vermeld.",
+        "Een voorwaardelijk koopplan is geen bewijs van een uitgevoerde transactie."
+      ]
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "De herstelde antwoorden gebruiken gelijke eenheden en expliciete perioden.",
+      "De economische oorzaak wordt precies benoemd.",
+      "Een modeluitkomst wordt niet als bewezen verkoop gepresenteerd."
+    ]
+  }
+]

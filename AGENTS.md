@@ -11,7 +11,8 @@ authority, task routing, review and publication boundaries for both repositories
 - Edit lesson source where its workflow assigns ownership here. Repair
   generated files through platform tools; copied `shared/` runtime code is
   owned by platform. Do not introduce lesson-local replacements for its tools.
-- Book 1 is frozen. New material uses the markdown-native `Boek N - titel/`
+- Book 1 first-edition output is frozen. The owner-authorized second edition
+  uses `Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/README.md`. New material uses the markdown-native `Boek N - titel/`
   route and current teaching authority.
 - Claim this worktree through the platform preflight with `--worktree`.
   When both repositories change, keep their owned worktrees together under

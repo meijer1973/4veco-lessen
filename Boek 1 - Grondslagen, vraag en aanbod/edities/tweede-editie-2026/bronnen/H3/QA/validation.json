@@ -1,0 +1,7194 @@
+{
+  "scope": "local arithmetic, figure geometry, exercise coverage and PDF structure; no classroom validation or independent external review",
+  "checks": 1437,
+  "passed": 1437,
+  "failed": 0,
+  "failures": [],
+  "results": [
+    {
+      "check": "Arithmetic: potten q bij8",
+      "pass": true,
+      "detail": "actual=20; expected=20"
+    },
+    {
+      "check": "Arithmetic: grond gecombineerd",
+      "pass": true,
+      "detail": "actual=12; expected=12"
+    },
+    {
+      "check": "Arithmetic: lepels6",
+      "pass": true,
+      "detail": "actual=12; expected=12"
+    },
+    {
+      "check": "Arithmetic: kaars6oud",
+      "pass": true,
+      "detail": "actual=16; expected=16"
+    },
+    {
+      "check": "Arithmetic: kaars6nieuw",
+      "pass": true,
+      "detail": "actual=8; expected=8"
+    },
+    {
+      "check": "Arithmetic: kaasnieuw",
+      "pass": true,
+      "detail": "actual=64; expected=64"
+    },
+    {
+      "check": "Arithmetic: Sprint begin",
+      "pass": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "Arithmetic: Sprint alleenprijs",
+      "pass": true,
+      "detail": "actual=56; expected=56"
+    },
+    {
+      "check": "Arithmetic: Sprint alleenstof",
+      "pass": true,
+      "detail": "actual=28; expected=28"
+    },
+    {
+      "check": "Arithmetic: Sprint beide",
+      "pass": true,
+      "detail": "actual=44; expected=44"
+    },
+    {
+      "check": "Arithmetic: broodjes eqprijs",
+      "pass": true,
+      "detail": "actual=7.0; expected=7"
+    },
+    {
+      "check": "Arithmetic: broodjes eqQ",
+      "pass": true,
+      "detail": "actual=50; expected=50"
+    },
+    {
+      "check": "Arithmetic: broodtekort",
+      "pass": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "Arithmetic: flessen eq",
+      "pass": true,
+      "detail": "actual=10.0; expected=10"
+    },
+    {
+      "check": "Arithmetic: flessen q",
+      "pass": true,
+      "detail": "actual=30; expected=30"
+    },
+    {
+      "check": "Arithmetic: posters eq",
+      "pass": true,
+      "detail": "actual=8.0; expected=8"
+    },
+    {
+      "check": "Arithmetic: schriften eq",
+      "pass": true,
+      "detail": "actual=8.0; expected=8"
+    },
+    {
+      "check": "Arithmetic: manden eq",
+      "pass": true,
+      "detail": "actual=15.0; expected=15"
+    },
+    {
+      "check": "Arithmetic: mandenQ",
+      "pass": true,
+      "detail": "actual=60; expected=60"
+    },
+    {
+      "check": "Arithmetic: bekers eq",
+      "pass": true,
+      "detail": "actual=12.0; expected=12"
+    },
+    {
+      "check": "Arithmetic: bekersQ",
+      "pass": true,
+      "detail": "actual=30; expected=30"
+    },
+    {
+      "check": "Arithmetic: bekertekort",
+      "pass": true,
+      "detail": "actual=30; expected=30"
+    },
+    {
+      "check": "Arithmetic: index10896",
+      "pass": true,
+      "detail": "actual=12.5; expected=12.5"
+    },
+    {
+      "check": "Arithmetic: helmenoudP",
+      "pass": true,
+      "detail": "actual=12.0; expected=12"
+    },
+    {
+      "check": "Arithmetic: helmennieuwP",
+      "pass": true,
+      "detail": "actual=14.0; expected=14"
+    },
+    {
+      "check": "Arithmetic: helmennieuwQ",
+      "pass": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "Arithmetic: helmenaanbodscenario",
+      "pass": true,
+      "detail": "actual=24.0; expected=24"
+    },
+    {
+      "check": "Arithmetic: aardbeienPnieuw",
+      "pass": true,
+      "detail": "actual=14.0; expected=14"
+    },
+    {
+      "check": "Arithmetic: aardbeienQnieuw",
+      "pass": true,
+      "detail": "actual=12; expected=12"
+    },
+    {
+      "check": "Arithmetic: aardbeienprocent",
+      "pass": true,
+      "detail": "actual=-25.0; expected=-25"
+    },
+    {
+      "check": "Arithmetic: plantvoedingQnieuw",
+      "pass": true,
+      "detail": "actual=30; expected=30"
+    },
+    {
+      "check": "Arithmetic: notitieblokkenQnieuw",
+      "pass": true,
+      "detail": "actual=30; expected=30"
+    },
+    {
+      "check": "Arithmetic: reparatiesQnieuw",
+      "pass": true,
+      "detail": "actual=48; expected=48"
+    },
+    {
+      "check": "Arithmetic: reparatiesgroei",
+      "pass": true,
+      "detail": "actual=20.0; expected=20"
+    },
+    {
+      "check": "Arithmetic: speelgoedprijs",
+      "pass": true,
+      "detail": "actual=11.0; expected=11"
+    },
+    {
+      "check": "Arithmetic: speelgoedQ",
+      "pass": true,
+      "detail": "actual=54; expected=54"
+    },
+    {
+      "check": "Arithmetic: kabelnieuwP",
+      "pass": true,
+      "detail": "actual=14.0; expected=14"
+    },
+    {
+      "check": "Arithmetic: kabelnieuwQ",
+      "pass": true,
+      "detail": "actual=50; expected=50"
+    },
+    {
+      "check": "Arithmetic: kabelgroei",
+      "pass": true,
+      "detail": "actual=25.0; expected=25"
+    },
+    {
+      "check": "Arithmetic: knoppenoud",
+      "pass": true,
+      "detail": "actual=24; expected=24"
+    },
+    {
+      "check": "Arithmetic: knoppennieuw",
+      "pass": true,
+      "detail": "actual=30; expected=30"
+    },
+    {
+      "check": "Arithmetic: tentenoudP",
+      "pass": true,
+      "detail": "actual=12.0; expected=12"
+    },
+    {
+      "check": "Arithmetic: tentennieuwP",
+      "pass": true,
+      "detail": "actual=11.0; expected=11"
+    },
+    {
+      "check": "Arithmetic: tentennieuwQ",
+      "pass": true,
+      "detail": "actual=76; expected=76"
+    },
+    {
+      "check": "Arithmetic: tassenoudP",
+      "pass": true,
+      "detail": "actual=10.0; expected=10"
+    },
+    {
+      "check": "Arithmetic: tassenoudQ",
+      "pass": true,
+      "detail": "actual=80; expected=80"
+    },
+    {
+      "check": "Arithmetic: tassennieuwP",
+      "pass": true,
+      "detail": "actual=12.0; expected=12"
+    },
+    {
+      "check": "Arithmetic: tassennieuwQ",
+      "pass": true,
+      "detail": "actual=60; expected=60"
+    },
+    {
+      "check": "Arithmetic: tassenPprocent",
+      "pass": true,
+      "detail": "actual=20.0; expected=20"
+    },
+    {
+      "check": "Arithmetic: tassenQprocent",
+      "pass": true,
+      "detail": "actual=-25.0; expected=-25"
+    },
+    {
+      "check": "Arithmetic: tassenQv14",
+      "pass": true,
+      "detail": "actual=40; expected=40"
+    },
+    {
+      "check": "Arithmetic: tassenQa14",
+      "pass": true,
+      "detail": "actual=80; expected=80"
+    },
+    {
+      "check": "Arithmetic: driehoek",
+      "pass": true,
+      "detail": "actual=16.0; expected=16"
+    },
+    {
+      "check": "Arithmetic: index125150",
+      "pass": true,
+      "detail": "actual=20.0; expected=20"
+    },
+    {
+      "check": "Market: broodjes",
+      "pass": true,
+      "detail": "P=7.0, Qv=50.0, Qa=50.0"
+    },
+    {
+      "check": "Market: drinkflessen",
+      "pass": true,
+      "detail": "P=10.0, Qv=30.0, Qa=30.0"
+    },
+    {
+      "check": "Market: lunchboxen",
+      "pass": true,
+      "detail": "P=7.0, Qv=25.0, Qa=25.0"
+    },
+    {
+      "check": "Market: posters",
+      "pass": true,
+      "detail": "P=8.0, Qv=50.0, Qa=50.0"
+    },
+    {
+      "check": "Market: schriften",
+      "pass": true,
+      "detail": "P=8.0, Qv=60.0, Qa=60.0"
+    },
+    {
+      "check": "Market: fietsmanden",
+      "pass": true,
+      "detail": "P=15.0, Qv=60.0, Qa=60.0"
+    },
+    {
+      "check": "Market: bekers",
+      "pass": true,
+      "detail": "P=12.0, Qv=30.0, Qa=30.0"
+    },
+    {
+      "check": "Market: helmen oud",
+      "pass": true,
+      "detail": "P=12.0, Qv=32.0, Qa=32.0"
+    },
+    {
+      "check": "Market: helmen vraag nieuw",
+      "pass": true,
+      "detail": "P=14.0, Qv=40.0, Qa=40.0"
+    },
+    {
+      "check": "Market: helmen aanbod nieuw",
+      "pass": true,
+      "detail": "P=14.0, Qv=24.0, Qa=24.0"
+    },
+    {
+      "check": "Market: aardbeien oud",
+      "pass": true,
+      "detail": "P=12.0, Qv=16.0, Qa=16.0"
+    },
+    {
+      "check": "Market: aardbeien nieuw",
+      "pass": true,
+      "detail": "P=14.0, Qv=12.0, Qa=12.0"
+    },
+    {
+      "check": "Market: plantenvoeding oud",
+      "pass": true,
+      "detail": "P=12.0, Qv=24.0, Qa=24.0"
+    },
+    {
+      "check": "Market: plantenvoeding nieuw",
+      "pass": true,
+      "detail": "P=14.0, Qv=30.0, Qa=30.0"
+    },
+    {
+      "check": "Market: notitieblokken oud",
+      "pass": true,
+      "detail": "P=12.0, Qv=40.0, Qa=40.0"
+    },
+    {
+      "check": "Market: notitieblokken nieuw",
+      "pass": true,
+      "detail": "P=14.0, Qv=30.0, Qa=30.0"
+    },
+    {
+      "check": "Market: reparatiesets oud",
+      "pass": true,
+      "detail": "P=14.0, Qv=40.0, Qa=40.0"
+    },
+    {
+      "check": "Market: reparatiesets nieuw",
+      "pass": true,
+      "detail": "P=16.0, Qv=48.0, Qa=48.0"
+    },
+    {
+      "check": "Market: speelgoed oud",
+      "pass": true,
+      "detail": "P=12.0, Qv=48.0, Qa=48.0"
+    },
+    {
+      "check": "Market: speelgoed nieuw",
+      "pass": true,
+      "detail": "P=11.0, Qv=54.0, Qa=54.0"
+    },
+    {
+      "check": "Market: kabels oud",
+      "pass": true,
+      "detail": "P=12.0, Qv=40.0, Qa=40.0"
+    },
+    {
+      "check": "Market: kabels nieuw",
+      "pass": true,
+      "detail": "P=14.0, Qv=50.0, Qa=50.0"
+    },
+    {
+      "check": "Market: lampjes",
+      "pass": true,
+      "detail": "P=8.0, Qv=50.0, Qa=50.0"
+    },
+    {
+      "check": "Market: tenten oud",
+      "pass": true,
+      "detail": "P=12.0, Qv=72.0, Qa=72.0"
+    },
+    {
+      "check": "Market: tenten nieuw",
+      "pass": true,
+      "detail": "P=11.0, Qv=76.0, Qa=76.0"
+    },
+    {
+      "check": "Market: tassen oud",
+      "pass": true,
+      "detail": "P=10.0, Qv=80.0, Qa=80.0"
+    },
+    {
+      "check": "Market: tassen nieuw",
+      "pass": true,
+      "detail": "P=12.0, Qv=60.0, Qa=60.0"
+    },
+    {
+      "check": "Exercise numbers 1–38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Ninety subquestions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Four target exercises",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bonus criteria 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bonus criteria 21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bonus criteria 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer figure 37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answers for exercise 38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Why in exercise 38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Canonical order 1.3.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Summary before start 1.3.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper routes 1.3.1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Canonical order 1.3.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Summary before start 1.3.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper routes 1.3.2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Canonical order 1.3.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Summary before start 1.3.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Paper routes 1.3.3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "26 student figures",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "11 solution figures",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.1_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.1_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.1_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.1_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.1_ex_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.1_ex_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.1_ex_8.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.1_ex_9.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.2_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.2_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.2_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.2_fig_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.2_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.2_ex_14.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.2_ex_15.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.2_fig_5.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.3_fig_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.3_fig_2.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.3_fig_3.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.3_we_1.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.3_ex_25.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.3_ex_26.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.3_ex_29.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.3_ex_31.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.3_fig_4.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Student asset 1.3.4_ex_38.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_fig_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_fig_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_1: Dezelfde markt, twee soorten planne",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_1: Kopers",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_1: Hoeveel wil en kan ik kopen?",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_1: bij verschillende prijzen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_1: Verkopers",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_1: Hoeveel wil en kan ik aanbieden?",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_1: bij verschillende prijzen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_1: Eén afgesproken product, periode en",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_1: Een plan bij een prijs is nog geen ",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_fig_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_fig_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: Tabel en lijn laten hetzelfde aanbo",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: q (plantenpotten per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: P (€ per pot)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: R",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: S",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_2: T",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_fig_2/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_fig_2/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_fig_2/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_2/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_2/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_fig_2/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_2/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_2/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_fig_2/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_2/h2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_2/v2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_fig_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_fig_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: Duurdere klei: vergelijk eerst bij ",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: q (plantenpotten per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: P (€ per pot)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: S",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_fig_3: U",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_fig_3/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_fig_3/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_fig_3/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_fig_3/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_fig_3/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_3/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_3/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_fig_3/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_3/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_fig_3/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_we_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_we_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: R: oud · S: alleen prijs · T: beide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: q (basilicumtrays per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: P (€ per tray)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: R",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: S",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_we_1: T",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_we_1/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_we_1/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_we_1/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_we_1/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_we_1/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_we_1/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_we_1/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_we_1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_we_1/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_we_1/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_we_1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_we_1/h2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_we_1/v2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_ex_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_ex_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: Een prijsverandering, dezelfde aanb",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: q (houten lepels per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: P (€ per lepel)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: R",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_3: S",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ex_3/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ex_3/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_ex_3/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ex_3/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ex_3/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_ex_3/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ex_3/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ex_3/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_ex_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_ex_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: De beginlijn: voeg het nieuwe aanbo",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: q (kaarsen per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: P (€ per kaars)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_4: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ex_4/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ex_4/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_ex_8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_ex_8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: Oorspronkelijk marktaanbod van kaas",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: 56",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: 84",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: 112",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: Qₐ (kilo kaas per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: P (€ per kilo)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_8: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ex_8/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ex_8/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_ex_9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_ex_9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: Aanbod van één tassenatelier: de be",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: q (sporttassen per maand)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: P (€ per tas)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ex_9: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ex_9/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ex_9/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_fig_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_fig_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: Eerst de koopplannen: de collectiev",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: Q (broodjes per middag)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: P (€ per broodje)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_1: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_1/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_1/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_fig_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_fig_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: Nu ook de verkoopplannen: de lijnen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: Q (broodjes per middag)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: P (€ per broodje)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_2: E",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_2/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_2/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_2/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_2/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_fig_2/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_2/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_2/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_fig_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_fig_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: Bij € 5: 70 gevraagd, 30 aangeboden",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: Q (broodjes per middag)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: P (€ per broodje)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: Qv = 70",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: Qa = 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_3: vraagoverschot: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_3/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_3/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_3/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_3/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_fig_3/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_3/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_3/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_fig_3/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_3/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_3/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_fig_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_fig_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: Bij € 9: 30 gevraagd, 70 aangeboden",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: Q (broodjes per middag)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: P (€ per broodje)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: Qv = 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: Qa = 70",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_4: aanbodoverschot: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_4/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_4/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_4/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_fig_4/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_fig_4/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_4/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_4/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_fig_4/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_4/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_fig_4/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_we_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_we_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: E: € 10 en 30 flessen per week",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: Q (flessen per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: P (€ per fles)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_we_1: E",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_we_1/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_we_1/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_we_1/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_we_1/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_we_1/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_we_1/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_we_1/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_ex_14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_ex_14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: Lees E en de twee plannen bij € 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 50",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: Q (lunchboxen per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: P (€ per lunchbox)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: E",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: R",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_14: S",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ex_14/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ex_14/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ex_14/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ex_14/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_ex_14/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ex_14/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ex_14/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_ex_14/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ex_14/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ex_14/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_ex_14/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ex_14/h2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ex_14/v2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_ex_15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_ex_15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: Alleen V staat er: teken A en het e",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 90",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 150",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: 18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: Q (posters per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: P (€ per poster)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ex_15: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ex_15/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ex_15/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_fig_5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_fig_5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: Een controle bestaat uit twee apart",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: Gevonden prijs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: Niet afronden",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: tijdens het oplossen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: Invullen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: In de vraagfunctie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: én in de aanbodfunctie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: Vergelijken",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: Qv = Qa?",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: Eenheid en betekenis?",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_fig_5: Gelijke uitkomsten controleren het ",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_fig_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_fig_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: Meer kopers: kijk eerst bij de oude",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 64",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 96",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: Q (fietshelmen per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: P (€ per helm)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: V₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: V₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_1: R",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_1/V0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_1/V0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_1/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_1/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_1/V1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_1/V1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_fig_1/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_1/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_1/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_fig_1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_1/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_1/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_fig_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_fig_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: Dezelfde lijnen: nu ook het nieuwe ",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 64",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 96",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: Q (fietshelmen per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: P (€ per helm)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: V₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: V₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_2: E₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_2/V0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_2/V0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_2/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_2/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_2/V1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_2/V1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_fig_2/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_2/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_2/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_fig_2/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_2/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_2/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_fig_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_fig_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: Andere oorzaak: duurdere materialen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 64",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 96",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: Q (fietshelmen per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: P (€ per helm)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_3: E₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_3/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_3/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_3/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_3/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_3/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_fig_3/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_fig_3/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_3/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_3/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_fig_3/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_3/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_fig_3/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_we_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_we_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: Van E₀ (16; 12) naar E₁ (12; 14)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: Q (bakjes aardbeien per dag)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: P (€ per bakje)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_we_1: E₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_we_1/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_we_1/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_we_1/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_we_1/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_we_1/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_we_1/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_we_1/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_we_1/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_we_1/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_we_1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_we_1/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_we_1/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_ex_25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_ex_25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: Meer kopers: de uitwerking is al in",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 72",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: Q (flessen plantenvoeding per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: P (€ per fles)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: V₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: V₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_25: E₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_25/V0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_25/V0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_25/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_25/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_25/V1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_25/V1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_ex_25/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ex_25/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ex_25/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_ex_25/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ex_25/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ex_25/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_ex_26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_ex_26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: De oorspronkelijke markt voor notit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: Q (notitieblokken per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: P (€ per blok)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_26: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_26/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_26/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_26/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_26/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_ex_29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_ex_29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: Houten speelgoed: voeg A₁ en de uit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 72",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 96",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: Q (speelgoedsets per maand)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: P (€ per set)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_29: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_29/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_29/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_29/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_29/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_ex_31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_ex_31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: Oplaadkabels: de oorspronkelijke vr",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: Q (kabels per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: P (€ per kabel)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: V₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ex_31: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_31/V0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_31/V0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_31/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ex_31/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_fig_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_fig_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: Van bron naar conclusie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: Bron",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: Welke factor",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: verandert?",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: Oude prijs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: Nieuwe plannen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: vergelijken",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: Nieuwe uitkomst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: Nieuwe gelijkheid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: oplossen en verklaren",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_fig_4: Een prijsreactie op een verschuivin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.4_ex_38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.4_ex_38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: Meetkunde: lees de afstanden, niet ",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: B",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: C",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: Horizontale afstand (cm)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ex_38: Verticale afstand (cm)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual SVG triangle area",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_ans_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_ans_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: Kaarsen: bij € 6 daalt q van 16 naa",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: q (kaarsen per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: P (€ per kaars)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: R",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_4: S",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_4/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_4/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_4/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_4/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_ans_4/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_4/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_4/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_ans_4/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_4/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_4/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_ans_8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_ans_8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: Kaas: meer aangeboden bij dezelfde ",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: 56",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: 84",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: 112",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: Qₐ (kilo kaas per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: P (€ per kilo)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: R",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_8: S",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_8/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_8/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_8/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_8/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_ans_8/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_8/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_8/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_ans_8/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_8/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_8/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.1_ans_9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.1_ans_9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: Atelier Sprint: R = oud, S = alleen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: q (sporttassen per maand)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: P (€ per tas)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: R",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: S",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.1_ans_9: T",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_9/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_9/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_9/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.1_ans_9/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_ans_9/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_9/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_9/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_ans_9/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_9/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_9/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.1_ans_9/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_9/h2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.1_ans_9/v2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_ans_15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_ans_15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: Posters: E = (50; 8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 90",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 150",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: 18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: Q (posters per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: P (€ per stuk)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_15: E",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_15/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_15/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_15/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_15/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_ans_15/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ans_15/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ans_15/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_ans_17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_ans_17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: Schriften: E = (60; 8)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 140",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: 14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: Q (schriften per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: P (€ per stuk)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_17: E",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_17/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_17/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_17/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_17/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_ans_17/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ans_17/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ans_17/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.2_ans_20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.2_ans_20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: Bekers: E = (30; 12)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 90",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 150",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: Q (bekers per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: P (€ per stuk)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.2_ans_20: E",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_20/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_20/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_20/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.2_ans_20/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.2_ans_20/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ans_20/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.2_ans_20/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Cup answer graph respects source upper price 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_ans_26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_ans_26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: Notitieblokken: minder transacties ",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: Q (notitieblokken per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: P (€ per blok)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_26: E₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_26/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_26/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_26/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_26/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_26/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_26/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_ans_26/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_26/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_26/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_ans_26/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_26/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_26/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_ans_29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_ans_29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: Houten speelgoed: lagere prijs en m",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 72",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 96",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: Q (speelgoedsets per maand)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: P (€ per set)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_29: E₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_29/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_29/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_29/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_29/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_29/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_29/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_ans_29/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_29/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_29/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_ans_29/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_29/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_29/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.3_ans_31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.3_ans_31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: Oplaadkabels: V verschuift; op A vi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 100",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: Q (kabels per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: P (€ per kabel)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: V₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: A",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: V₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.3_ans_31: E₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_31/V0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_31/V0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_31/A/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_31/A/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_31/V1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.3_ans_31/V1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_ans_31/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_31/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_31/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.3_ans_31/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_31/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.3_ans_31/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.4_ans_36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.4_ans_36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: Tenten: E₀ = (72; 12) en E₁ = (76; ",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 80",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 160",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: Q (tenten per maand)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: P (€ per tent)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_36: E₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_36/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_36/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_36/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_36/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_36/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_36/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.4_ans_36/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.4_ans_36/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.4_ans_36/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.4_ans_36/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.4_ans_36/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.4_ans_36/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG viewport 1.3.4_ans_37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PNG aspect 1.3.4_ans_37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: Tassen: E₀ = (80; 10) en E₁ = (60; ",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 60",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 90",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 120",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 150",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 180",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: 18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: Q (tassen per week)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: P (€ per tas)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: V",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: A₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: A₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: E₀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Text anchor 1.3.4_ans_37: E₁",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_37/V/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_37/V/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_37/A0/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_37/A0/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_37/A1/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG endpoint 1.3.4_ans_37/A1/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.4_ans_37/0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.4_ans_37/h0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.4_ans_37/v0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG marker 1.3.4_ans_37/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.4_ans_37/h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SVG guide 1.3.4_ans_37/v1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF page count Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No layout overflow Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No replacement glyph Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/39",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie/40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie Inhoud · Aanbod en marktevenwicht",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie 1.3.1 Aanbod en aanbodfactoren",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie 1.3.2 Marktevenwicht: prijs en hoeveelheid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie 1.3.3 Verschuivingen en nieuw evenwicht",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie 1.3.4 Gemengde opgaven",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie Hoofdstukoverzicht",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie Begrippen en vervolg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Internal link Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF page count Boek_1_H3_Antwoorden_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No layout overflow Boek_1_H3_Antwoorden_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No replacement glyph Boek_1_H3_Antwoorden_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Antwoorden_Tweede_editie/21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Bookmark Boek_1_H3_Antwoorden_Tweede_editie Opgave 38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF page count Boek_1_H3_Docenteninformatie_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No layout overflow Boek_1_H3_Docenteninformatie_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No replacement glyph Boek_1_H3_Docenteninformatie_Tweede_editie",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Docenteninformatie_Tweede_editie/1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Docenteninformatie_Tweede_editie/2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Docenteninformatie_Tweede_editie/3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Docenteninformatie_Tweede_editie/4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Docenteninformatie_Tweede_editie/5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Docenteninformatie_Tweede_editie/6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Docenteninformatie_Tweede_editie/7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Docenteninformatie_Tweede_editie/8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Nonblank Boek_1_H3_Docenteninformatie_Tweede_editie/9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No text outside physical page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Exercise rendered 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 16",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 21",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 22",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 24",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 25",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 26",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 27",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 29",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 30",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 31",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 34",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 35",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 36",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exercise rendered 38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Answer rendered 38",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Facing target sources/questions 36–37",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "1.3.1 complete route estimate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "1.3.2 complete route estimate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "1.3.3 complete route estimate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "1.3.4 complete route estimate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Outline provenance unchanged",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}
