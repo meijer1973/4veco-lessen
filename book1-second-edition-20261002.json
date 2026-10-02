@@ -307,63 +307,63 @@
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.1.1-review.md",
-      "bytes": 4755,
-      "sha256": "7289f50e1971ab21cecbaf852eebfd4a637f1790748e066e91d7aaf8eef70d71"
+      "bytes": 4898,
+      "sha256": "6557676221e5925b59c34900445f77edfcaa67e5861675df3bfe7e741cbc1423"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.1.2-review.md",
-      "bytes": 4761,
-      "sha256": "7f46af2c435d4cccb1cf715eeaaa391b3c208069d6129206232c50bf22710eec"
+      "bytes": 4912,
+      "sha256": "7febb029aeb82a489784a26cf86d482b39ddd02f2a4785bc91a5a10457eb9997"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.1.3-review.md",
-      "bytes": 4767,
-      "sha256": "fcbad515c8e774420479e135de75e60070f8eee461b13deca5cd6357dd9ebb96"
+      "bytes": 4869,
+      "sha256": "e644abb99cc636389ca787b7a1098747f72cda38bb40bb1c98aff2189cbbf77e"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.1.4-review.md",
-      "bytes": 4689,
-      "sha256": "b7329d9cb14fc4c3befc0e6d952be4b320f91d7a750366ca8c2e862006323b94"
+      "bytes": 4809,
+      "sha256": "09ab1ef2e820be0ec7804ea349df8dc73115c3b2dbed978e62bb72baba18e7f0"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.2.1-review.md",
-      "bytes": 4729,
-      "sha256": "737d2dbeac59ef3c15706a9ae3779bc57b7b9185b43b84f991d167347c5a740f"
+      "bytes": 4838,
+      "sha256": "ecb8d5a5455c98beab0bd9d7e5cae0603f7c884ebe3ad3fe4a884c10d9fb01a7"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.2.2-review.md",
-      "bytes": 4831,
-      "sha256": "6deccf81abba1c36c58bbea8a2c1fb8d1da9f0d330aaea69d32d08a32b91d77b"
+      "bytes": 4913,
+      "sha256": "3d21f9b2c8a828bde149311ef447ca0521c373920b7d3e143b9e97a5078335f7"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.2.3-review.md",
-      "bytes": 4784,
-      "sha256": "de9b2c6111707f3f3fc2465783940c12861f1fc6f0726970d4e0cd07dc60e77a"
+      "bytes": 4843,
+      "sha256": "051787d20a30385a4480f1a411bc62fa2f58b05ffcec9b48a5a6a1586a741d80"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.2.4-review.md",
-      "bytes": 4632,
-      "sha256": "63251defb45f059b8155bd15b95d74384e22ce2e7040a84568d936909a2bc6d6"
+      "bytes": 4743,
+      "sha256": "3de36c1f181ec7811bc887dbaa5102124f273030529577f357fe0e0082dfbb82"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.3.1-review.md",
-      "bytes": 4777,
-      "sha256": "647230da62706b2348b952844879afb54235dc587dfac04089bda7d86710b8bc"
+      "bytes": 4896,
+      "sha256": "f246d290b130e3b7f21919ba313704591591cbef21be060902d7530794541d6b"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.3.2-review.md",
-      "bytes": 4750,
-      "sha256": "2671a799508739bea705edf4edc7af354b72b253106f905c67c5347fde571215"
+      "bytes": 4814,
+      "sha256": "6bdd1437e54959b1ec3bda14425f3f3a53971e88a1a788cb88b78aa974e8cbfb"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.3.3-review.md",
-      "bytes": 4768,
-      "sha256": "930f60a800c57f377f6bc4ad19814e6063ff654a31b8c1bf9a0b71b2fe3db03d"
+      "bytes": 4863,
+      "sha256": "691a2eda66a8e2498ecb1e5968459ad0bfa8be758428980d35aba50481c5db35"
     },
     {
       "path": "reports/review-gates/book1-second-edition-20261002/1.3.4-review.md",
-      "bytes": 4652,
-      "sha256": "41fe85e1de569e8ffcf0e7b127019c6a76bb64002625e5d9d4cfa1becf67718d"
+      "bytes": 4787,
+      "sha256": "72efd4713cc7f6e1ae20fcf1f65bdf3cdeb6d7958f158d4ff0dc40a217f11b12"
     },
     {
       "path": "skills/econ-didactiek.md",
@@ -414,8 +414,8 @@
     },
     {
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/.gitattributes",
-      "bytes": 343,
-      "sha256": "0fe602fcc386318fe172de8dbe971938d8fef2dc5e8a953ab562be53ddd391ee"
+      "bytes": 422,
+      "sha256": "25228da26b6ecdd96a216d55899fd5531be761f1c10f7ddd679262e260470317"
     },
     {
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/Boek 1 Grondslagen, vraag en aanbod – boek.md",
