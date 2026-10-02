@@ -1,0 +1,5 @@
+# Saved source/QA hashes bind exact bytes, including received line endings.
+# Normal builds emit UTF-8/LF; checkout must not rewrite source evidence.
+* -text whitespace=cr-at-eol
+# Received historical outlines retain Markdown hard line breaks verbatim.
+bronnen/H*/sources/book-1-outline-second-edition-v1.md whitespace=-blank-at-eol,cr-at-eol
