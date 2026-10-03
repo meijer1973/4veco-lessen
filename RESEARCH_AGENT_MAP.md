@@ -21,6 +21,15 @@ Inspect only the areas relevant to the question.
 | Classroom PowerPoint / lespresentatie | [Workflow and build source](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/classroom-presentation.md), local `../4veco-platform/`. §2.1.1 reference: [PowerPoint](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.1%20Kostenstructuren/2.1.1%20Kostenstructuren%20%E2%80%93%20presentatie.pptx), [slide PDF](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.1%20Kostenstructuren/2.1.1%20Kostenstructuren%20%E2%80%93%20presentatie.pdf). New decks belong beside the current paragraph's other exports. |
 | Historical decision or regression | [Archive navigation](archive/README.md). Book 1 output remains frozen; examples are not authorization to retrofit it. |
 
+## Book 1 second-edition classroom presentations
+
+These classroom files accompany the current second-edition paragraph exports.
+The initial cold author evidence records the source and scoped validation.
+
+| Paragraph | Editable presentation | Projection/print copy | Evidence |
+|---|---|---|---|
+| 1.1.1 Schaarste, keuzes en alternatieve kosten | [PowerPoint](Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/edities/tweede-editie-2026/paragrafen/H1/1.1.1%20Schaarste%2C%20keuzes%20en%20alternatieve%20kosten%20%E2%80%93%20presentatie.pptx) | [Slide PDF](Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/edities/tweede-editie-2026/paragrafen/H1/1.1.1%20Schaarste%2C%20keuzes%20en%20alternatieve%20kosten%20%E2%80%93%20presentatie.pdf) | [Evidence](Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/edities/tweede-editie-2026/paragrafen/H1/evidence/1.1.1-presentation.md) |
+
 ## Artifact relationships
 
 The Book 2 classroom series covers all paragraphs in chapters 2.1, 2.2 and 2.3.
