@@ -21,6 +21,14 @@ Inspect only the areas relevant to the question.
 | Classroom PowerPoint / lespresentatie | [Workflow and build source](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/classroom-presentation.md), local `../4veco-platform/`. §2.1.1 reference: [PowerPoint](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.1%20Kostenstructuren/2.1.1%20Kostenstructuren%20%E2%80%93%20presentatie.pptx), [slide PDF](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H1/paragrafen/2.1.1%20Kostenstructuren/2.1.1%20Kostenstructuren%20%E2%80%93%20presentatie.pdf). New decks belong beside the current paragraph's other exports. |
 | Historical decision or regression | [Archive navigation](archive/README.md). Book 1 output remains frozen; examples are not authorization to retrofit it. |
 
+## Book 1 second-edition classroom presentations
+
+Current second-edition classroom slides sit beside the sealed paragraph PDFs. The classroom addition does not change textbook authority or establish a complete web companion.
+
+| Paragraph | Editable presentation | Slide PDF | Evidence |
+|---|---|---|---|
+| 1.1.4 Gemengde opgaven | [PowerPoint](Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/edities/tweede-editie-2026/paragrafen/H1/1.1.4%20Gemengde%20opgaven%20%E2%80%93%20presentatie.pptx) | [Slide PDF](Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/edities/tweede-editie-2026/paragrafen/H1/1.1.4%20Gemengde%20opgaven%20%E2%80%93%20presentatie.pdf) | [Author verification](Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/edities/tweede-editie-2026/paragrafen/H1/evidence/1.1.4-presentation.md) |
+
 ## Artifact relationships
 
 The Book 2 classroom series covers all paragraphs in chapters 2.1, 2.2 and 2.3.
