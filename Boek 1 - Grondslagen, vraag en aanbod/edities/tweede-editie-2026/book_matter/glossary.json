@@ -1,0 +1,525 @@
+[
+  {
+    "term": "Aanbod",
+    "definitions": [
+      {
+        "text": "Verkoopplannen bij verschillende prijzen, terwijl overige omstandigheden gelijk blijven.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Aanbodfactor",
+    "definitions": [
+      {
+        "text": "Omstandigheid achter de aanbodlijn, zoals techniek, productiemiddelprijzen of aantal aanbieders.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Aanbodoverschot",
+    "definitions": [
+      {
+        "text": "Bij een prijs is Qₐ groter dan Qᵥ; het verschil is Qₐ − Qᵥ.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Aangeboden hoeveelheid",
+    "definitions": [
+      {
+        "text": "Het aantal dat verkopers bij één prijs willen en kunnen aanbieden in de genoemde periode.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Absolute verandering",
+    "definitions": [
+      {
+        "text": "Het verschil nieuw − oud, uitgedrukt in de oorspronkelijke eenheid. Kan positief of negatief zijn.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Alternatieve kosten",
+    "definitions": [
+      {
+        "text": "De waarde van het beste haalbare alternatief dat je opgeeft door een keuze.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Basiswaarde",
+    "definitions": [
+      {
+        "text": "De waarde waarmee je vergelijkt. Bij een procentuele verandering is dit de oude waarde.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Behoefte",
+    "definitions": [
+      {
+        "text": "Iets waaraan iemand wil voldoen, zoals ontspanning, eten of contact.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Behoeften en voorkeuren",
+    "definitions": [
+      {
+        "text": "Wat mensen willen en hoe zij producten waarderen. Een verandering kan de vraaglijn verschuiven.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Betalingsbereidheid",
+    "definitions": [
+      {
+        "text": "Het maximale bedrag dat een koper voor een bepaalde eenheid wil betalen.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Beweging langs de vraaglijn",
+    "definitions": [
+      {
+        "text": "Een andere gevraagde hoeveelheid door een verandering van de eigen prijs, ceteris paribus.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Beweging langs een lijn",
+    "definitions": [
+      {
+        "text": "Een andere hoeveelheid op dezelfde lijn door een verandering van de eigen prijs.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Ceteris paribus",
+    "definitions": [
+      {
+        "text": "Alle overige omstandigheden blijven gelijk. Zo onderzoek je één verband.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      },
+      {
+        "text": "Alle andere omstandigheden blijven gelijk tijdens de onderzochte vergelijking.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Collectieve vraag",
+    "definitions": [
+      {
+        "text": "De gezamenlijke vraag van alle kopers op een afgebakende markt, bij verschillende prijzen.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Complementen",
+    "definitions": [
+      {
+        "text": "Goederen die in de beschreven situatie samen worden gebruikt.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Consumentensurplus",
+    "definitions": [
+      {
+        "text": "Voordeel van een aankoop: betalingsbereidheid minus betaalde prijs. Hier alleen een eerste kennismaking; verdere behandeling in Boek 2.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Eenheid",
+    "definitions": [
+      {
+        "text": "Waarin je meet, bijvoorbeeld euro, personen, uren of vierkante meter.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Evenwichtshoeveelheid",
+    "definitions": [
+      {
+        "text": "De hoeveelheid waarbij de koop- en verkoopplannen bij de evenwichtsprijs overeenkomen.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Evenwichtsprijs",
+    "definitions": [
+      {
+        "text": "De prijs waarbij Qᵥ = Qₐ.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Formule",
+    "definitions": [
+      {
+        "text": "Een rekenregel die het verband tussen benoemde grootheden vastlegt.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Geldigheid van een formule",
+    "definitions": [
+      {
+        "text": "De prijzen of hoeveelheden waarvoor de gegeven rekenregel als model mag worden gebruikt.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Gevraagde hoeveelheid",
+    "definitions": [
+      {
+        "text": "Hoeveel iemand of een groep bij één prijs wil en kan kopen, binnen de bronvoorwaarden.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Haalbaar alternatief",
+    "definitions": [
+      {
+        "text": "Een andere keuze die met de beschikbare middelen echt mogelijk is.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Indexcijfer",
+    "definitions": [
+      {
+        "text": "Een waarde ten opzichte van een gekozen basiswaarde die index 100 krijgt.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Indexpunt",
+    "definitions": [
+      {
+        "text": "Een eenheid in het verschil tussen twee indexcijfers met dezelfde basis.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Individuele vraag",
+    "definitions": [
+      {
+        "text": "Het prijs–hoeveelheidsverband voor één koper, bij gelijkblijvende overige omstandigheden.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Interpoleren",
+    "definitions": [
+      {
+        "text": "Een tussenwaarde bepalen tussen twee bekende punten; lineair met een rechte-lijnaanname.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Koopgrens in het voorbeeld",
+    "definitions": [
+      {
+        "text": "De hoogste prijs waarbij het gegeven model nog een niet-negatieve hoeveelheid oplevert. Boven die grens draagt de koper nul bij.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Lineair vraagmodel",
+    "definitions": [
+      {
+        "text": "Een vereenvoudigd vraagverband met een rechte lijn. Het geldt niet automatisch voor elk echt product.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Marktaanbod",
+    "definitions": [
+      {
+        "text": "Het aanbod van alle verkopers in de afgebakende markt samen.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Marktevenwicht",
+    "definitions": [
+      {
+        "text": "Gevraagde en aangeboden hoeveelheid zijn bij dezelfde prijs gelijk.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Model",
+    "definitions": [
+      {
+        "text": "Een vereenvoudigde beschrijving van een situatie, met benoemde aannames.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Prijsdruk",
+    "definitions": [
+      {
+        "text": "Een reden voor de prijs om te stijgen of dalen, zoals niet-passende koop- en verkoopplannen.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Procent",
+    "definitions": [
+      {
+        "text": "Een honderdste deel. Een percentage geeft een verhouding ten opzichte van een basis weer.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Procentpunt",
+    "definitions": [
+      {
+        "text": "Een eenheid in het verschil tussen twee percentages.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Productiemiddel",
+    "definitions": [
+      {
+        "text": "Een middel dat bij het maken van een product wordt gebruikt, zoals klei, energie of een oven.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Schaal",
+    "definitions": [
+      {
+        "text": "De afspraak welk getalsverschil hoort bij een afstand op een as.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Schaarste",
+    "definitions": [
+      {
+        "text": "Middelen zijn beperkt ten opzichte van de behoeften, waardoor keuzes nodig zijn.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Snijpunt met een as",
+    "definitions": [
+      {
+        "text": "Een punt waar de lijn een as raakt of kruist. Op de prijsas is de hoeveelheid nul; op de hoeveelheidas de prijs.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Substituten",
+    "definitions": [
+      {
+        "text": "Goederen die elkaar in het gebruik van de koper kunnen vervangen.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Transactie",
+    "definitions": [
+      {
+        "text": "Een gerealiseerde aankoop en verkoop van hetzelfde product.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Variabele",
+    "definitions": [
+      {
+        "text": "Een grootheid die verschillende waarden kan aannemen, bijvoorbeeld prijs P of aantal n.",
+        "chapter": 1,
+        "local_page": 40,
+        "source_file": "bronnen/H1/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Verschuiving van de vraaglijn",
+    "definitions": [
+      {
+        "text": "Meer of minder gevraagde hoeveelheid bij dezelfde prijs door een andere vraagfactor.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Verschuiving van een lijn",
+    "definitions": [
+      {
+        "text": "Een andere hoeveelheid bij dezelfde prijs, door veranderde omstandigheden achter de lijn.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Voorraad",
+    "definitions": [
+      {
+        "text": "De producten of materialen die op een bepaald moment aanwezig zijn.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Vraagfunctie",
+    "definitions": [
+      {
+        "text": "Een rekenregel voor het prijs–hoeveelheidsverband, met een expliciete eenheid, periode en geldigheid.",
+        "chapter": 2,
+        "local_page": 40,
+        "source_file": "bronnen/H2/Hoofdstukoverzicht.md"
+      }
+    ]
+  },
+  {
+    "term": "Vraagoverschot",
+    "definitions": [
+      {
+        "text": "Bij een prijs is Qᵥ groter dan Qₐ; het tekort is Qᵥ − Qₐ.",
+        "chapter": 3,
+        "local_page": 40,
+        "source_file": "bronnen/H3/Hoofdstukoverzicht.md"
+      }
+    ]
+  }
+]

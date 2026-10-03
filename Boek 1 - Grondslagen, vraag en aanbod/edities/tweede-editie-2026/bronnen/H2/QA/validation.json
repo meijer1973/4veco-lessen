@@ -1,0 +1,5787 @@
+{
+  "scope": "Local content, arithmetic, parsed SVG geometry, coverage, navigation and page integrity. Not classroom or external specialist validation.",
+  "pass": true,
+  "checks": 1441,
+  "failed": [],
+  "counts": {
+    "exercises": 38,
+    "subquestions": 90,
+    "targets": 4,
+    "instructional_figures": 22,
+    "answer_figures": 11,
+    "pdf_pages": {
+      "student": 40,
+      "answer": 22,
+      "teacher": 8
+    }
+  },
+  "details": [
+    {
+      "check": "exercise numbers unique 1–38",
+      "pass": true
+    },
+    {
+      "check": "90 subquestions",
+      "pass": true
+    },
+    {
+      "check": "4 target exercises from the new outline",
+      "pass": true
+    },
+    {
+      "check": "exercise 1 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 2 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 3 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 4 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 5 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 6 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 7 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 8 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 9 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 9 bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "exercise 10 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 11 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 12 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 13 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 14 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 15 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 16 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 17 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 18 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 19 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 20 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 20 bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "exercise 21 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 22 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 23 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 24 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 25 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 26 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 27 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 28 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 29 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 30 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 31 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 31 bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "exercise 32 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 33 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 34 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 35 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 36 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 37 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 38 complete answers",
+      "pass": true
+    },
+    {
+      "check": "exercise 38 bonus criteria",
+      "pass": true
+    },
+    {
+      "check": "1.2.1 Betalingsbereidheid en individuele vraag – paragraaf.md exact seven exercise headings",
+      "pass": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling en combineren']"
+    },
+    {
+      "check": "1.2.1 Betalingsbereidheid en individuele vraag – paragraaf.md summary in correct interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1 Betalingsbereidheid en individuele vraag – paragraaf.md paper route",
+      "pass": true
+    },
+    {
+      "check": "1.2.2 Vraagfactoren – paragraaf.md exact seven exercise headings",
+      "pass": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling en combineren']"
+    },
+    {
+      "check": "1.2.2 Vraagfactoren – paragraaf.md summary in correct interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2 Vraagfactoren – paragraaf.md paper route",
+      "pass": true
+    },
+    {
+      "check": "1.2.3 Van individuele naar collectieve vraag – paragraaf.md exact seven exercise headings",
+      "pass": true,
+      "detail": "['Uitgewerkt voorbeeld', 'Startopgaven', 'Begeleide inoefening', 'Zelfstandige oefening', 'Doeloefening', 'Denkertje / Bonusopgave', 'Herhaling en combineren']"
+    },
+    {
+      "check": "1.2.3 Van individuele naar collectieve vraag – paragraaf.md summary in correct interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3 Van individuele naar collectieve vraag – paragraaf.md paper route",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Ravi q bij2",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Ravi inverse bij6",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Sara preview",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel8 q2",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel8 q3",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel8 inverse",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel8 cutoff",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Opgave6 q2",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Opgave6 q4",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Opgave5 inverse",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Opgave10 percentage",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Lumi oud",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Lumi alleenprijs",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Lumi nieuw",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Lumi nettoverschil",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Wraps oud",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Wraps tussen",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Wraps nieuw",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Dans oud",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Dans nieuw",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Wasstraat verschoven",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Helmen extra",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Index21",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Voorbeeld aggregaat P2",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Voorbeeld uittreden P5",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: WE123 P3",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: WE123 P6",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel30 P0",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel30 P2",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel30 P4",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel30 P6",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel30 P8",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Ind28 P2",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Ind29 P6",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Opgave33 rechthoek",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Workshop stijging",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Sanne q bij4",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Sanne q bij5",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel37 oud",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel37 prijs bij30",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel37 alleenprijs",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel37 na",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Doel37 net",
+      "pass": true
+    },
+    {
+      "check": "arithmetic: Herstel38 perioden",
+      "pass": true
+    },
+    {
+      "check": "independent fixture: Iris: three prints",
+      "pass": true
+    },
+    {
+      "check": "independent fixture: Amir: inverse price",
+      "pass": true
+    },
+    {
+      "check": "independent fixture: Lumi net quantity",
+      "pass": true
+    },
+    {
+      "check": "independent fixture: Lumi change",
+      "pass": true
+    },
+    {
+      "check": "independent fixture: Spellenclub common interval",
+      "pass": true
+    },
+    {
+      "check": "independent fixture: Spellenclub dropout",
+      "pass": true
+    },
+    {
+      "check": "independent fixture: Club Noord old quantity",
+      "pass": true
+    },
+    {
+      "check": "independent fixture: Club Noord after both changes",
+      "pass": true
+    },
+    {
+      "check": "independent fixture: Sem counted once: purchases",
+      "pass": true
+    },
+    {
+      "check": "33 registered SVG/PNG figures",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_1 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_1 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_1 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_1 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_1 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_2 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_2 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_2 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_2 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_2 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt2 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt2 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt2 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt2/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1/pt2/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt2 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt2 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt2 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt2/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8/pt2/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V1 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V1 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V1 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V1 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/V1 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_3 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_3 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_3 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_3 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_3 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_4 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_4 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_4 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_4 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_4 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V1 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V1 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V1 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V1 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/V1 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt2 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt2 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt2 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt2/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1/pt2/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V1 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V1 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V1 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V1 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/V1 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V1 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V1 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V1 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V1 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/V1 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt2 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt2 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt2 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt2/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15/pt2/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V1 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V1 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V1 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V1 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/V1 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt2 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt2 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt2 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt2/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18/pt2/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V1 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V1 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V1 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V1 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/V1 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt2 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt2 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt2 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt2/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19/pt2/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel0/endpoint0",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel0/endpoint1",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel0/point",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel0/guideh",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel0/guidev",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel1/endpoint0",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel1/endpoint1",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel1/point",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel1/guideh",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel1/guidev",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel2/endpoint0",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel2/endpoint1",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel2/point",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel2/guideh",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1/panel2/guidev",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1 combined coefficients",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1 common interval not extrapolated",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2/dropout endpoint0",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2/dropout endpoint1",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2/dropout endpoint2",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2/data-cutoff",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2/data-test",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/VA drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/VA actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/VA endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/VA actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/VA endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel0/endpoint0",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel0/endpoint1",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel0/point",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel0/guideh",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel0/guidev",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel1/endpoint0",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel1/endpoint1",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel1/point",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel1/guideh",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel1/guidev",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel2/endpoint0",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel2/endpoint1",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel2/point",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel2/guideh",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25/panel2/guidev",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25 combined coefficients",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25 common interval not extrapolated",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt2 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt2 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt2 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt2/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30/pt2/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V0 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V0 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V0 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V0 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V0 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V1 drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V1 actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V1 endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V1 actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/V1 endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt2 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt2 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt2 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt2/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37/pt2/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36 SVG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36 PNG exists",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36 labelled visual",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36 viewport",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/V drawn state",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/V actual endpoint 0 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/V endpoint 0 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/V actual endpoint 1 on model",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/V endpoint 1 within intended interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt0 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt0 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt0 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt0/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt0/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt1 actual point on function",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt1 intended coordinates match drawing",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt1 point inside interval",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt1/h guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36/pt1/v guide aligned",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36 text anchor coordinates within viewport",
+      "pass": true
+    },
+    {
+      "check": "22 student instructional figures",
+      "pass": true
+    },
+    {
+      "check": "11 answer figures",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_19 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_4 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_1 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_3 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_we_1 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_18 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_19 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_1 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_2 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_4 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_6 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_28 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "chapter opener uses chapter goal label",
+      "pass": true
+    },
+    {
+      "check": "student expected actual page count",
+      "pass": true
+    },
+    {
+      "check": "student no pagination drift",
+      "pass": true
+    },
+    {
+      "check": "student p1 A4",
+      "pass": true
+    },
+    {
+      "check": "student p1 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p1 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p1 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p1 link destination",
+      "pass": true
+    },
+    {
+      "check": "student p2 A4",
+      "pass": true
+    },
+    {
+      "check": "student p2 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p2 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p2 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p3 A4",
+      "pass": true
+    },
+    {
+      "check": "student p3 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p3 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p3 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p4 A4",
+      "pass": true
+    },
+    {
+      "check": "student p4 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p4 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p4 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p5 A4",
+      "pass": true
+    },
+    {
+      "check": "student p5 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p5 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p5 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p6 A4",
+      "pass": true
+    },
+    {
+      "check": "student p6 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p6 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p6 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p7 A4",
+      "pass": true
+    },
+    {
+      "check": "student p7 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p7 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p7 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p8 A4",
+      "pass": true
+    },
+    {
+      "check": "student p8 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p8 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p8 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p9 A4",
+      "pass": true
+    },
+    {
+      "check": "student p9 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p9 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p9 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p10 A4",
+      "pass": true
+    },
+    {
+      "check": "student p10 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p10 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p10 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p11 A4",
+      "pass": true
+    },
+    {
+      "check": "student p11 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p11 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p11 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p12 A4",
+      "pass": true
+    },
+    {
+      "check": "student p12 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p12 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p12 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p13 A4",
+      "pass": true
+    },
+    {
+      "check": "student p13 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p13 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p13 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p14 A4",
+      "pass": true
+    },
+    {
+      "check": "student p14 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p14 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p14 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p15 A4",
+      "pass": true
+    },
+    {
+      "check": "student p15 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p15 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p15 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p16 A4",
+      "pass": true
+    },
+    {
+      "check": "student p16 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p16 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p16 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p17 A4",
+      "pass": true
+    },
+    {
+      "check": "student p17 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p17 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p17 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p18 A4",
+      "pass": true
+    },
+    {
+      "check": "student p18 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p18 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p18 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p19 A4",
+      "pass": true
+    },
+    {
+      "check": "student p19 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p19 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p19 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p20 A4",
+      "pass": true
+    },
+    {
+      "check": "student p20 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p20 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p20 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p21 A4",
+      "pass": true
+    },
+    {
+      "check": "student p21 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p21 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p21 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p22 A4",
+      "pass": true
+    },
+    {
+      "check": "student p22 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p22 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p22 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p23 A4",
+      "pass": true
+    },
+    {
+      "check": "student p23 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p23 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p23 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p24 A4",
+      "pass": true
+    },
+    {
+      "check": "student p24 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p24 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p24 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p25 A4",
+      "pass": true
+    },
+    {
+      "check": "student p25 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p25 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p25 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p26 A4",
+      "pass": true
+    },
+    {
+      "check": "student p26 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p26 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p26 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p27 A4",
+      "pass": true
+    },
+    {
+      "check": "student p27 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p27 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p27 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p28 A4",
+      "pass": true
+    },
+    {
+      "check": "student p28 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p28 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p28 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p29 A4",
+      "pass": true
+    },
+    {
+      "check": "student p29 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p29 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p29 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p30 A4",
+      "pass": true
+    },
+    {
+      "check": "student p30 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p30 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p30 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p31 A4",
+      "pass": true
+    },
+    {
+      "check": "student p31 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p31 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p31 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p32 A4",
+      "pass": true
+    },
+    {
+      "check": "student p32 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p32 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p32 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p33 A4",
+      "pass": true
+    },
+    {
+      "check": "student p33 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p33 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p33 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p34 A4",
+      "pass": true
+    },
+    {
+      "check": "student p34 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p34 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p34 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p35 A4",
+      "pass": true
+    },
+    {
+      "check": "student p35 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p35 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p35 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p36 A4",
+      "pass": true
+    },
+    {
+      "check": "student p36 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p36 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p36 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p37 A4",
+      "pass": true
+    },
+    {
+      "check": "student p37 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p37 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p37 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p38 A4",
+      "pass": true
+    },
+    {
+      "check": "student p38 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p38 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p38 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p39 A4",
+      "pass": true
+    },
+    {
+      "check": "student p39 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p39 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p39 text within page",
+      "pass": true
+    },
+    {
+      "check": "student p40 A4",
+      "pass": true
+    },
+    {
+      "check": "student p40 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "student p40 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "student p40 text within page",
+      "pass": true
+    },
+    {
+      "check": "student bookmark Inhoud · Vraag",
+      "pass": true
+    },
+    {
+      "check": "student bookmark 1.2.1 Betalingsbereidheid en individuele vraag",
+      "pass": true
+    },
+    {
+      "check": "student bookmark 1.2.2 Vraagfactoren: bewegen of verschuiven?",
+      "pass": true
+    },
+    {
+      "check": "student bookmark 1.2.3 Van individuele naar collectieve vraag",
+      "pass": true
+    },
+    {
+      "check": "student bookmark 1.2.4 Gemengde opgaven",
+      "pass": true
+    },
+    {
+      "check": "student bookmark Hoofdstukoverzicht",
+      "pass": true
+    },
+    {
+      "check": "student bookmark Begrippen",
+      "pass": true
+    },
+    {
+      "check": "answer expected actual page count",
+      "pass": true
+    },
+    {
+      "check": "answer no pagination drift",
+      "pass": true
+    },
+    {
+      "check": "answer p1 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p1 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p1 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p1 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p2 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p2 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p2 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p2 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p3 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p3 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p3 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p3 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p4 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p4 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p4 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p4 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p5 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p5 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p5 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p5 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p6 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p6 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p6 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p6 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p7 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p7 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p7 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p7 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p8 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p8 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p8 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p8 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p9 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p9 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p9 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p9 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p10 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p10 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p10 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p10 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p11 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p11 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p11 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p11 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p12 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p12 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p12 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p12 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p13 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p13 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p13 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p13 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p14 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p14 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p14 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p14 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p15 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p15 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p15 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p15 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p16 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p16 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p16 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p16 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p17 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p17 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p17 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p17 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p18 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p18 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p18 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p18 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p19 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p19 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p19 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p19 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p20 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p20 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p20 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p20 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p21 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p21 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p21 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p21 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer p22 A4",
+      "pass": true
+    },
+    {
+      "check": "answer p22 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "answer p22 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "answer p22 text within page",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 1",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 2",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 3",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 4",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 5",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 6",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 7",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 8",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 9",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 10",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 11",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 12",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 13",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 14",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 15",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 16",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 17",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 18",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 19",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 20",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 21",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 22",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 23",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 24",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 25",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 26",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 27",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 28",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 29",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 30",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 31",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 32",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 33",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 34",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 35",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 36",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 37",
+      "pass": true
+    },
+    {
+      "check": "answer bookmark Opgave 38",
+      "pass": true
+    },
+    {
+      "check": "teacher expected actual page count",
+      "pass": true
+    },
+    {
+      "check": "teacher no pagination drift",
+      "pass": true
+    },
+    {
+      "check": "teacher p1 A4",
+      "pass": true
+    },
+    {
+      "check": "teacher p1 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "teacher p1 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "teacher p1 text within page",
+      "pass": true
+    },
+    {
+      "check": "teacher p2 A4",
+      "pass": true
+    },
+    {
+      "check": "teacher p2 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "teacher p2 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "teacher p2 text within page",
+      "pass": true
+    },
+    {
+      "check": "teacher p3 A4",
+      "pass": true
+    },
+    {
+      "check": "teacher p3 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "teacher p3 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "teacher p3 text within page",
+      "pass": true
+    },
+    {
+      "check": "teacher p4 A4",
+      "pass": true
+    },
+    {
+      "check": "teacher p4 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "teacher p4 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "teacher p4 text within page",
+      "pass": true
+    },
+    {
+      "check": "teacher p5 A4",
+      "pass": true
+    },
+    {
+      "check": "teacher p5 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "teacher p5 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "teacher p5 text within page",
+      "pass": true
+    },
+    {
+      "check": "teacher p6 A4",
+      "pass": true
+    },
+    {
+      "check": "teacher p6 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "teacher p6 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "teacher p6 text within page",
+      "pass": true
+    },
+    {
+      "check": "teacher p7 A4",
+      "pass": true
+    },
+    {
+      "check": "teacher p7 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "teacher p7 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "teacher p7 text within page",
+      "pass": true
+    },
+    {
+      "check": "teacher p8 A4",
+      "pass": true
+    },
+    {
+      "check": "teacher p8 text is selectable",
+      "pass": true
+    },
+    {
+      "check": "teacher p8 no replacement glyph",
+      "pass": true
+    },
+    {
+      "check": "teacher p8 text within page",
+      "pass": true
+    },
+    {
+      "check": "exercise 1 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 1 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 1a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 1b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 1a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 1a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 1b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 1b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 2 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 2 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 2a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 2b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 2a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 2a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 2b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 2b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 3 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 3 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 3a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 3b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 3c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 3a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 3a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 3b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 3b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 3c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 3c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 4 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 4 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 4a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 4b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 4c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 4a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 4a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 4b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 4b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 4c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 4c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 5 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 5 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 5a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 5b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 5a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 5a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 5b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 5b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 6 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 6a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6d prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6d answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 6d why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 7 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 7 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 7a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 7b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 7c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 7a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 7a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 7b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 7b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 7c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 7c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 8 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 8a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8d prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8e prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8f prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8d answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8d why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8e answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8e why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8f answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 8f why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 9 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 9 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 9a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 9a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 9a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 10 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 10 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 10a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 10b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 10a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 10a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 10b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 10b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 11 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 11 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 11a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 11a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 11a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 12 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 12 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 12a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 12b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 12a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 12a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 12b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 12b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 13 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 13 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 13a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 13a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 13a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 14 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 14 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 14a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 14a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 14a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 15 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 15 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 15a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 15b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 15c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 15a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 15a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 15b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 15b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 15c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 15c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 16 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 16a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16d prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16d answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 16d why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 17 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 17 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 17a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 17a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 17a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 18 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 18 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 18a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 18b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 18c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 18a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 18a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 18b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 18b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 18c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 18c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 19 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 19a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19d prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19e prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19d answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19d why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19e answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 19e why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 20 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 20 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 20a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 20a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 20a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 21 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 21 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 21a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 21a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 21a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 22 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 22 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 22a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 22a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 22a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 23 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 23 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 23a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 23b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 23a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 23a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 23b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 23b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 24 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 24 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 24a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 24a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 24a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 25 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 25 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 25a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 25b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 25a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 25a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 25b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 25b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 26 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 26 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 26a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 26b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 26a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 26a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 26b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 26b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 27 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 27 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 27a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 27a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 27a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 28 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 28 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 28a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 28b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 28c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 28a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 28a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 28b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 28b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 28c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 28c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 29 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 29 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 29a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 29b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 29a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 29a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 29b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 29b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 30 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 30a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30d prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30e prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30d answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30d why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30e answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 30e why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 31 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 31 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 31a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 31a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 31a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 32 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 32 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 32a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 32a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 32a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 33 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 33 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 33a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 33a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 33a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 34 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 34 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 34a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 34b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 34a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 34a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 34b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 34b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 35 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 35 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 35a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 35b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 35a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 35a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 35b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 35b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 36 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 36a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36d prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36d answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 36d why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 37 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 37a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37d prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37e prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37f prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37c why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37d answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37d why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37e answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37e why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37f answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 37f why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 38 visible in student PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 38 visible in answer PDF",
+      "pass": true
+    },
+    {
+      "check": "exercise 38a prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 38b prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 38c prompt preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 38a answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 38a why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 38b answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 38b why preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 38c answer preserved",
+      "pass": true
+    },
+    {
+      "check": "exercise 38c why preserved",
+      "pass": true
+    },
+    {
+      "check": "mixed source page 36",
+      "pass": true
+    },
+    {
+      "check": "mixed questions page 37",
+      "pass": true
+    }
+  ]
+}

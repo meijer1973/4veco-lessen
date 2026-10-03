@@ -1,0 +1,90 @@
+{
+  "front": [
+    {
+      "local_page": 1,
+      "book_page": 1,
+      "title": ""
+    },
+    {
+      "local_page": 2,
+      "book_page": 2,
+      "title": "Colofon"
+    },
+    {
+      "local_page": 3,
+      "book_page": 3,
+      "title": "Voorwoord"
+    },
+    {
+      "local_page": 4,
+      "book_page": 4,
+      "title": "Inhoud"
+    }
+  ],
+  "back": [
+    {
+      "local_page": 1,
+      "book_page": 125,
+      "title": "Begrippenlijst"
+    },
+    {
+      "local_page": 2,
+      "book_page": 126,
+      "title": "Begrippenlijst · vervolg"
+    },
+    {
+      "local_page": 3,
+      "book_page": 127,
+      "title": "Begrippenlijst · vervolg"
+    },
+    {
+      "local_page": 4,
+      "book_page": 128,
+      "title": "Begrippenlijst · vervolg"
+    },
+    {
+      "local_page": 5,
+      "book_page": 129,
+      "title": "Rekenen en vergelijken"
+    },
+    {
+      "local_page": 6,
+      "book_page": 130,
+      "title": "Kiezen, tekenen en controleren"
+    },
+    {
+      "local_page": 7,
+      "book_page": 131,
+      "title": "Vraag: van koper naar markt"
+    },
+    {
+      "local_page": 8,
+      "book_page": 132,
+      "title": "Aanbod en marktevenwicht"
+    }
+  ],
+  "answers": [
+    {
+      "local_page": 1,
+      "book_page": 1,
+      "title": "Antwoorden"
+    },
+    {
+      "local_page": 2,
+      "book_page": 2,
+      "title": "Inhoud"
+    }
+  ],
+  "teacher": [
+    {
+      "local_page": 1,
+      "book_page": 1,
+      "title": "Docenteninformatie"
+    },
+    {
+      "local_page": 2,
+      "book_page": 2,
+      "title": "Paginering en verantwoording"
+    }
+  ]
+}

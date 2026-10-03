@@ -1,0 +1,722 @@
+{
+  "schema": "book1-fixed-page-part-a-review-v1",
+  "edition": "book1-second-edition-2026",
+  "paragraph": "1.3.3",
+  "scope": "Current Part A; shared chapter inputs included. No inherited review or Part B acceptance.",
+  "files": [
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/README.md",
+      "sha256": "c17923491bd2e07ca0ea1830308b5c983598a26bfd45a3eac460eb74ccb10d00",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/1.3.1 Aanbod en aanbodfactoren – paragraaf.md",
+      "sha256": "a6a557e48d331c69fd8ac3ebacbf02a62c04a862760d0134c37c3d9fd8b3259f",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/1.3.2 Marktevenwicht – paragraaf.md",
+      "sha256": "7fd85481e677e2044bacbb3854ac4151656b4e5b260941c9372a8bdda97e67e3",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/1.3.3 Verschuivingen en nieuw evenwicht – paragraaf.md",
+      "sha256": "a6e550c22e037e950f0f7f9015827a0046a23138cef3591e31237e6cec5533bf",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/1.3.4 Gemengde opgaven – opgaven.md",
+      "sha256": "80b7fc5499d4a151717b5f46f502a06a78e1689ef95526869410f75d24f72597",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/Antwoorden.md",
+      "sha256": "1cb6fce9da344dff9e98ea826b6e89e5d61ade745116c9b0ddef7bd0c68d2540",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/Docenteninformatie.md",
+      "sha256": "854e7e555300b8bc0eff5a7dc8e549171c899ba2098523c1b665a98e6ceb8847",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/Hoofdstukoverzicht.md",
+      "sha256": "db99ff6eb374d674cf0ab91e9d36ce77b3122e71c89a610331a72698585c1d19",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/ONTWERP.md",
+      "sha256": "3e461b45a2080a734a1a0f189326913f2ccdee713fe6c121b6a270208d76f449",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/QA/lesson_minutes.json",
+      "sha256": "aef21389ecd43c87c1cc47d8087c7417d8e5569585f945f2b43726ab508e56d7",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/README.md",
+      "sha256": "4c35fe9d538843837494157f9561156a79b4c81b8c5e0c2cbf462ce155880673",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/Voorblad.md",
+      "sha256": "d1aae296059b6f71aca0052526a49fd0e02b8ef9aaf98727025f50d17fae4d62",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ans_4.png",
+      "sha256": "19a5256598c5c49f39d4f354bc63670e6f56b3c40cd1c543cba6f528976cb797",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ans_4.svg",
+      "sha256": "69944919280b2759d4df92224ca7315642f40a07dbce1e1bb54209608924df01",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ans_8.png",
+      "sha256": "5b5b78119194458ccdfe5f5eae8d577562a7e5887790a00cd1f69a2049a8fa25",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ans_8.svg",
+      "sha256": "52648732909aeb8f00e462469ead2ccd9c71b0a33447639a73381613525477f8",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ans_9.png",
+      "sha256": "ae9fe9e64030e6523e2c4b8042e7d06c31d0af8bfb5b1bf9d2ed332b94d28c41",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ans_9.svg",
+      "sha256": "5cd63a624507477742c8f0ead23bb0581273c2071da8868691ba21203db0f489",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ex_3.png",
+      "sha256": "9e799769c4faa53377f7d78df8ffd396f28b0b552fbe28818eddb90a3fdabfe7",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ex_3.svg",
+      "sha256": "63cc66e1ce00d5b9aed88b5096db8ca0fc41311d18f8260584947bc9a161f8d3",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ex_4.png",
+      "sha256": "c8a94994dddef751a3da8bd106640e42a823afcf5b0b7364fc62c1627e0c3de7",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ex_4.svg",
+      "sha256": "1f80f8c2f6e396843e3fe7b3ba50137e2850772786dccf103296c695ccf7f72b",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ex_8.png",
+      "sha256": "aa7b4110e7a21cfc871568a308e503f1cbdbe5b99b0415cb3aae8fbb21ba1625",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ex_8.svg",
+      "sha256": "67841215881e7faa6dfc9e2b7c51350f4bacf9d5770a5f85591db0fc3686a868",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ex_9.png",
+      "sha256": "54131b05abbc8d198560f89e9728904defc554bc710a72e229b82de35fbbfcf8",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_ex_9.svg",
+      "sha256": "bfb09916f6e213516b5a4751fd230235248499cd3ea6d1d1f11123182b874b3a",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_fig_1.png",
+      "sha256": "012bf9678b72296f457c1ee574ef674193f443474bd1cf7c0e21a37d588e0fec",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_fig_1.svg",
+      "sha256": "ec0680d85d83fceae5842f3df9c8d38686318cb12a38daf9b2b4630aaca27866",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_fig_2.png",
+      "sha256": "b69bde52f36e0454b9ca28ca0a45cfeaef0c29bd3d09fc719ad4952e15065865",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_fig_2.svg",
+      "sha256": "4d129e041e1ac357a2122d99d63a19d4b7b411f62b523fbb256bfbda9f859491",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_fig_3.png",
+      "sha256": "521537cddc83f1d6ca0f50a8de9cdb56122ca9d5050937659c7b697c78b935ac",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_fig_3.svg",
+      "sha256": "33d18c71939f493a80e2e37299eb7f004acf7ed32fb0865c8f91489c668de67e",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_we_1.png",
+      "sha256": "599959e53b7657ffe6d62f0e4707100c88ac86f9990638f103a2f09876bec495",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.1_we_1.svg",
+      "sha256": "95b28cfd2b2481216539e5dc19cac95fbcc925996ec88b62c5b7e9ec70634a9e",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ans_15.png",
+      "sha256": "0d7b2b553f9b441f64d7bc17a80960bf97740778573fd59c8739ca520bb85c97",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ans_15.svg",
+      "sha256": "3f437894e9611e79b27e8972a804ee45542638f569d34f03dfe1e05bcb3a76cc",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ans_17.png",
+      "sha256": "f241e0c9a3d3eec585fcde2214cec01e032a4f0cf91d79d2fa57f49839cb7055",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ans_17.svg",
+      "sha256": "54efdd38edaeec68cf2502b5eacdfa61df3faad10491a616a26120536d40b29a",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ans_20.png",
+      "sha256": "86df67581be00343646915c9965fad77b0f7bcd96d40992b9e701c9ce18c7545",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ans_20.svg",
+      "sha256": "808a7743145d79906fdffeb23fba52534bb05428a9121ea008273d16a9cee787",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ex_14.png",
+      "sha256": "95223e1f997f842e7028cc1edba636d5400f58e022d9b7636055d147d0b588f6",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ex_14.svg",
+      "sha256": "43e8d401490267dc72fd0e6aab284e46dd3d526d95016c38199820971fcba5ae",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ex_15.png",
+      "sha256": "aeb0473c30119478c2cd5f0fd2859486ad8581e7fb5142237ffa9c68e3fd01ca",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_ex_15.svg",
+      "sha256": "cff3f07b516f42132b6d36809e5910a8f52fd78c501f77cf1bba1f0c3e1bf02e",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_1.png",
+      "sha256": "f0e4af15210b464c2b72ae0675c6e3e077cf79fd68071dd0132df1f61502b50b",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_1.svg",
+      "sha256": "2ec1c37dcd66fc0d47aea833e2d73db23c81c9cbdd927f0d149a37ae4cf02754",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_2.png",
+      "sha256": "98c043bba1c9709fd2b716eaca1c2e83564d8fcf1d56183932d1a6d23b19873b",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_2.svg",
+      "sha256": "478bfc183c2d86d9b0b92b86da5a163963de3857f80b13d7ad3f6d77f0a599db",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_3.png",
+      "sha256": "aae63cf4c4b46cdab0546883d07a25ed758dbb954132f32f8a0e93c8ad43709e",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_3.svg",
+      "sha256": "dd0c815544f5470574c9c66e1f3ffab7d61263df8f75ee8615f4eeb093ba3638",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_4.png",
+      "sha256": "83b76bdba9743f7a70589334cd244a82d3a35160b9411b93cb66e90b555137c1",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_4.svg",
+      "sha256": "7541b9dab3f2e07a7ed654f5983262647a213782f56a9ce72653e1e70e20da14",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_5.png",
+      "sha256": "beda8858a3988ddf6533970de2fb5f49d71204ab1bcfd8f66c8a9ed3177e79ca",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_fig_5.svg",
+      "sha256": "43a3670761ab0016b12003f32d845ad02d0b27cc8cfb75a4b50e4073ea94278c",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_we_1.png",
+      "sha256": "38867a03368131899cbd0a5a4667b993acc077b7de1e23ecef0ee157688c7da0",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.2_we_1.svg",
+      "sha256": "62d6ea245b32395005d46c36b8939c8f5a875bd9c65d614529d6007263b89769",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ans_26.png",
+      "sha256": "efcc3edf0597f62c413ffc83f3eaa5118343a29387819ee22a0fc987f4289e3b",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ans_26.svg",
+      "sha256": "f50bf868ec2fda10786b0623900aabc6fbc609cb7760faf8e4411a3dd4663667",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ans_29.png",
+      "sha256": "8ddf6505aeec35b75e0cddf7b2f23e48facf7def6d196d68423fe6f904e83822",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ans_29.svg",
+      "sha256": "98dbcf88ba431aba8e31fec07f1d5cd9e5ce1318890dddae90b3d33811d6f0e8",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ans_31.png",
+      "sha256": "9a03d9718a7604866915132ab73d0faa1a43ee1a832559c62b017ceb9cba0646",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ans_31.svg",
+      "sha256": "c1ba2144ebe5d1d39d3e4185497543a1d56df5749e846d92bac9f41a041f2ad1",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ex_25.png",
+      "sha256": "15b0ff419c1d847840b78839f4077189c72daa3829f4c2ea138162b2b8505df5",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ex_25.svg",
+      "sha256": "ef59bf0555688cb8916bb9a3d11b5660ebb4db0357073af347be1695a6caa77a",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ex_26.png",
+      "sha256": "dbaa7cbd8e26e2473fa4a925c8c5fdcf195bc9220e8040e61ee0d5d18b26b3b0",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ex_26.svg",
+      "sha256": "30df31698d2562c19f585bfddaa702d24cf3046e6d3550c07471123e27683d17",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ex_29.png",
+      "sha256": "b51cbc66eb20061b03b18dd00dc005f7d69abec43cee83bb632fa082d6abf78b",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ex_29.svg",
+      "sha256": "120f1187635e1a82223c29db04d4ffd5e222db790467dc5c2b74fc009020614d",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ex_31.png",
+      "sha256": "f26c1b1654b7db2574ff99386414bed0e1e529775a80d1f08393ff51c375d7ff",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_ex_31.svg",
+      "sha256": "6366429d2e8501ebfd67868b0ee8d67d50c5d384525bb9771932b0a22ac87d20",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_fig_1.png",
+      "sha256": "0e657be12cd01b2b21eb912d854d71dfe3f2c84b70c3287d1644fb3fb212a5ec",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_fig_1.svg",
+      "sha256": "f08312ba30c17ca221367b64d7d5f26e72610fb6452f7b6a42d89716fa1a6e48",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_fig_2.png",
+      "sha256": "1f438e128e544f9fa59c4c793d273429f59b0ce7786d8ee140630d96bfd547eb",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_fig_2.svg",
+      "sha256": "9ba98a80f36c127fa1c35d2c71caadc5e63dba2e8b8cd9dbcced32ae6ac756fd",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_fig_3.png",
+      "sha256": "ff5ffbec393ecac186f330e3223c4f467950dd0679862f5fee03c381e23626b2",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_fig_3.svg",
+      "sha256": "2ab5d69a332e0e36c576e7ddaafda5b216708205b59d2dbd176805bd9bb08a32",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_fig_4.png",
+      "sha256": "ae8ea37671259ca67c723022afe4db819f33a5f61128c4ec7be7179216407261",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_fig_4.svg",
+      "sha256": "90ecb2f863612b9e2097a67c0cf30df75975bef93a085fa9d36648d6e2a9b789",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_we_1.png",
+      "sha256": "cbc1f9b4d2cef7b46eb72e49bfcbb4d63cc84edf6ed770330c6ba0dd6e1a7f02",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.3_we_1.svg",
+      "sha256": "c587b8cfe3f56e2b10819a5fa17412a652d62685ca5eb9fd55246439573fcf6f",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.4_ans_36.png",
+      "sha256": "6a9a99e5b148e3d0f6b15eb290cc591fe6ebcd451ba59f5cd38716eaea1b3da7",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.4_ans_36.svg",
+      "sha256": "19172a8afecb5016b81aec3146b9f27da6809a771ca6632f24e9b89dfb942a0b",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.4_ans_37.png",
+      "sha256": "e3289b08c91e0597f3cb6aa31038a08fe2c5a8c4929abe687aa7206bdb8f2c52",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.4_ans_37.svg",
+      "sha256": "38cb153892b00427cd676d59ea7df3609467c38ca77006ed7ab46f35e3c05aa6",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.4_ex_38.png",
+      "sha256": "2da1d5faa0fee0a9ddfd6ddd82756eb2544c320ea77f46e2b986f6c9ad842eda",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/_assets/1.3.4_ex_38.svg",
+      "sha256": "150f92f097c42bf801a11c56069d95274101ab49c8dd3777cd2fb3215d0c9ccd",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/chapter-order.json",
+      "sha256": "b897137e86b4ed5083b13e6f5895ee395140cb80b3f7d040d6ce59b5b2846737",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/print.css",
+      "sha256": "9036ff1c2410eea68eb492fb510b1458e78b3fb3128ac8e0e3a320d6669013bd",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.html",
+      "sha256": "606974cd8ac4953118eaa8087429b70f66cbe01defa001ead242618a46d6bd83",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
+      "sha256": "dae97868a765e052de6cf72987287790959b6153a9e2b46785b82dfd937ddfaa",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.html",
+      "sha256": "61e91aae7548870878bf95b9ef54341e0cba3843b4fa7e042770cddb8db81bf8",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+      "sha256": "8f9508ed216e63fa8608dbcdbbbbd790b616d2de64b53c40e5184ead8890ec7c",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Docenteninformatie_Tweede_editie.html",
+      "sha256": "469c32c33ae267428ff24cdc62c4f6ad4fcacf6b9a70c4ee327b39decbebdffa",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Docenteninformatie_Tweede_editie.pdf",
+      "sha256": "d63b769bdb91a5917eb012e7b4f4397c4f76dfd99de6459bf6e202931a760abc",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/paragrafen/H3/1.3.3 Verschuivingen en nieuw evenwicht – antwoorden.pdf",
+      "sha256": "e7500008364396456cfc67e780304f8fd27c2f44d8b077ab80c77adc8306d7aa",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "lessons",
+      "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/paragrafen/H3/1.3.3 Verschuivingen en nieuw evenwicht – paragraaf.pdf",
+      "sha256": "535640c1ce6cde0d9101a1d76ec56a4ca1b48ef3ceb212eb385bf15e2dc67edf",
+      "hash_mode": "exact_bytes"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/book/build_book.py",
+      "sha256": "f8fb85f7e501d8b1ca14ace82d0dde772e4d0e217ec4f92b4fcdc9ded08b367e",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/book/cover.py",
+      "sha256": "91c54a124a5b2e64c232a047d88152f536cc44d70d272fe23122171620a43c5b",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/book/export_manuscript.py",
+      "sha256": "d3e6f518478e3d20bbf4610296f428b857ad1abc70757564a176453624344c2a",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/book/prepare_inputs.py",
+      "sha256": "ac66b23fc19fd22e4510d939c10da20b231dbcd0993733dd67e0768e08aacb67",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/book/validate_book.py",
+      "sha256": "734db7125c7a77bcec3e14bb82acc55705b56f3f2b80c55ece6829e508fdae57",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/chapters/H1/build.py",
+      "sha256": "c3c361ea3606088c76994b88aeb57f3439dd4c5950b686d8dbef820ff971ea70",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/chapters/H1/make_assets.py",
+      "sha256": "55b850982ec55c234ae28146ff90fba70f808aa243e21fa8da72f41d6b4065af",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/chapters/H1/validate.py",
+      "sha256": "01fda118d5dadca651d091dc1b6b81faf18c0d56d8bd9a0f454f2ff4876dae1b",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/chapters/H2/build.py",
+      "sha256": "e5b812c72edb5d50bcb22d8006e2b192a89014428cb615e1963f7f33af065618",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/chapters/H2/make_assets.py",
+      "sha256": "4871d3f18d139fb40dfb4e7e7599b7e16fcc0c6ceb66cfadc0aeb934c72a8990",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/chapters/H2/validate.py",
+      "sha256": "b31577d3085b940143f5957cb76187f32c6bdb32c7b5be974d1a8f97f79ab9da",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/chapters/H3/build.py",
+      "sha256": "ab2f84485434421a960f4149063a39898867d0639502b58304c957a644c910bf",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/chapters/H3/make_assets.py",
+      "sha256": "20a23db6b6896a147e374a159d40dacc9c1a001f432f19495f2f0261aa74a86e",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/chapters/H3/validate.py",
+      "sha256": "61f5c7a1059b3ff0d407bfd12e6d52e8c6a8d61e72cb97811c6ba5d957d63233",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/export_paragraphs.py",
+      "sha256": "ceabcfd8ed4b81980b8960afb5efbe43250818b935f31ea851eb69b190524ce8",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/publish.py",
+      "sha256": "0f4ee7b35783503c94ba59fec770c688721c56874fc7a0c0fffcca90cfadacbf",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/rebuild.py",
+      "sha256": "3cdd8d040d2baafa37bf215144d3232e6911253ef43d338066a8587660d179b6",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/review_snapshots.py",
+      "sha256": "171aa5f09bf7bdf55601c4368194fc1554c627cf0c2b8663d8514ac965399418",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/targets.py",
+      "sha256": "adddf9b09984aa7966dbddbd4f4272e25b0135cf185c49c26fdcccb2d3e68eb1",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/test_book1.py",
+      "sha256": "7967694a9972030a8e3dd84d16ba55e87e4fda097dbcc68c87447900212fdc9c",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "build-scripts/books/book1_second_edition/verify.py",
+      "sha256": "dec2ea3c701823e382f9eeef97729c79df6abf19bbc407967d016dedc55c3fa2",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "references/owned/book1-second-edition-2026/targets.json",
+      "sha256": "3ee165784ee930d204d440ccad958da8c10a07202951d94fbf6757caffd1d553",
+      "hash_mode": "utf8_lf"
+    },
+    {
+      "repository": "platform",
+      "path": "skills/econ-exercise-builder.md",
+      "sha256": "83f07c86db1b0634cec6fecda43281588ea8acf7f4bdc2e46eb8cf5fc0df83ff",
+      "hash_mode": "utf8_lf"
+    }
+  ]
+}

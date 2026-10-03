@@ -1,0 +1,728 @@
+[
+  {
+    "number": 1,
+    "title": "Een vraagfunctie ophalen",
+    "section": "1.3.1",
+    "page": 6,
+    "kind": "start",
+    "context": "Voor één koper geldt q = 18 − 2P, voor 0 ≤ P ≤ 9. q is stuks per maand; P is euro per stuk.",
+    "questions": [
+      "Bereken q bij P = € 3.",
+      "Bereken P als q = 8. Controleer je antwoord in de functie."
+    ],
+    "answers": [
+      "q = 18 − 2 × 3 = **12 stuks per maand**. **Waarom:** bij deze prijs hoort dit koopplan in de gegeven vraagfunctie.",
+      "8 = 18 − 2P → 2P = 10 → P = **€ 5 per stuk**. Controle: 18 − 2 × 5 = 8. **Waarom:** dezelfde prijs moet de gevraagde hoeveelheid 8 opleveren."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 2,
+    "title": "Plannen, voorraad en verkoop",
+    "section": "1.3.1",
+    "page": 6,
+    "kind": "start",
+    "context": "Een fietsenmaker heeft 8 binnenbanden op voorraad. Hij wil en kan deze middag bij € 12 per vervanging 5 binnenbanden vervangen. Er komen maar 3 klanten.",
+    "questions": [
+      "Welke hoeveelheid hoort bij zijn aanbodplan, welke bij zijn voorraad en welke bij zijn werkelijke verkoop?"
+    ],
+    "answers": [
+      "Aanbodplan: **5 vervangingen deze middag**. Voorraad: **8 binnenbanden op dit moment**. Verkoop: **3 vervangingen deze middag**. **Waarom:** kunnen en willen aanbieden is iets anders dan al aanwezige onderdelen of uitgevoerde opdrachten."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 3,
+    "title": "Houten lepels",
+    "section": "1.3.1",
+    "page": 6,
+    "kind": "guided",
+    "context": "Bekijk het volledig ingevulde aanboddiagram van één maker.",
+    "questions": [
+      "Lees de hoeveelheden bij € 4 en € 6 af.",
+      "Is R → S een beweging of een verschuiving? Licht toe."
+    ],
+    "answers": [
+      "Bij € 4: **6 lepels per week**. Bij € 6: **12 lepels per week**. **Waarom:** de hulplijnen verbinden iedere prijs met een punt op dezelfde aanbodlijn.",
+      "**Een beweging langs A**, naar een grotere aangeboden hoeveelheid. **Waarom:** alleen de verkoopprijs verandert; de lijn blijft liggen."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 4,
+    "title": "Kaarsen en duurdere was",
+    "section": "1.3.1",
+    "page": 7,
+    "kind": "guided",
+    "context": "Een kaarsenmaker heeft eerst q = 4P − 8, voor 2 ≤ P ≤ 10. Door duurdere was wordt dit q = 4P − 16, voor 4 ≤ P ≤ 10. q is kaarsen per week; P is euro per kaars.",
+    "questions": [
+      "Neem de tabel over en vul beide hoeveelheden in. Gebruik de oude en de nieuwe functie afzonderlijk.",
+      "Voeg A₁ aan de grafiek toe. Markeer bij € 6 een punt op elke lijn en verklaar de richting van de verschuiving."
+    ],
+    "answers": [
+      "Bij P = 4: oud 4 × 4 − 8 = **8**, nieuw 4 × 4 − 16 = **0**. Bij P = 6: **16** en **8**. Bij P = 8: **24** en **16 kaarsen per week**. **Waarom:** bij elke onderzochte prijs ligt het nieuwe aanbod 8 kaarsen lager.",
+      "A₁ loopt door **(0; 4)** en **(24; 10)**; de vergelijkingspunten zijn **(16; 6)** en **(8; 6)**. A verschuift naar links. **Waarom:** duurdere was verlaagt het aanbod bij dezelfde verkoopprijs."
+    ],
+    "answer_figure": "1.3.1_ans_4",
+    "criteria": null
+  },
+  {
+    "number": 5,
+    "title": "Twee prijzen bij granola",
+    "section": "1.3.1",
+    "page": 7,
+    "kind": "guided",
+    "context": "De verkoopprijs van granola stijgt. Tegelijk wordt de havermout voor granola duurder. Verder verandert er niets; de grootte van beide effecten is onbekend.",
+    "questions": [
+      "Wat doet alleen de verkoopprijs met de aangeboden hoeveelheid?",
+      "Wat doet alleen de havermoutprijs met de aanbodlijn?",
+      "Kun je het uiteindelijke aanbod bepalen?",
+      "Beoordeel: “Allebei de prijsstijgingen verschuiven de aanbodlijn.”"
+    ],
+    "answers": [
+      "Een **beweging langs A naar meer aangeboden granola**. **Waarom:** een hogere eigen verkoopprijs maakt aanbieden aantrekkelijker, bij gelijke overige omstandigheden.",
+      "**A verschuift naar links.** **Waarom:** havermout is een productiemiddel; bij dezelfde granolaprijs wordt produceren minder aantrekkelijk.",
+      "**Niet bepalen uit deze informatie.** De effecten werken tegen elkaar in; hun groottes ontbreken. **Waarom:** de positieve en negatieve hoeveelheidseffecten hoeven niet even groot te zijn.",
+      "**Onjuist.** Alleen de havermoutprijs verschuift A. De eigen granolaprijs geeft een beweging langs A. **Waarom:** de twee prijzen horen bij verschillende producten."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 6,
+    "title": "Ansichtkaarten",
+    "section": "1.3.1",
+    "page": 8,
+    "kind": "independent",
+    "context": "Eén drukker wil en kan q = 10P − 20 ansichtkaarten per week aanbieden, voor 2 ≤ P ≤ 8. P is euro per kaart. De overige omstandigheden blijven gelijk.",
+    "questions": [
+      "Bereken q bij € 4 en bij € 6. Leg uit wat het getal 10 in de functie betekent.",
+      "Bereken de prijs waarbij de drukker 30 kaarten per week aanbiedt. Controleer."
+    ],
+    "answers": [
+      "Bij € 4: q = 10 × 4 − 20 = **20 kaarten per week**. Bij € 6: **40 kaarten per week**. Het getal 10 betekent **10 extra kaarten per week per euro prijsstijging**. **Waarom:** het beschrijft de reactie langs deze aanbodlijn.",
+      "30 = 10P − 20 → 50 = 10P → P = **€ 5 per kaart**. Controle: 10 × 5 − 20 = 30. **Waarom:** de teruggevonden prijs hoort bij het gewenste aanbodplan."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 7,
+    "title": "Wat verandert er bij boeketten?",
+    "section": "1.3.1",
+    "page": 8,
+    "kind": "independent",
+    "context": "Onderzoek het marktaanbod van boeketten. Vergelijk per rij alleen de genoemde verandering; de overige omstandigheden blijven gelijk. Neem de tabel over en vul de drie antwoordkolommen in.",
+    "questions": [
+      "Classificeer alle situaties en benoem de specifieke oorzaak."
+    ],
+    "answers": [
+      "Eigen boeketprijs daalt: **beweging langs A; aangeboden hoeveelheid daalt; eigen verkoopprijs**. Energie goedkoper: **A naar rechts; meer aanbod bij dezelfde boeketprijs; prijs van een productiemiddel**. Extra bloemisten: **A naar rechts; meer marktaanbod; aantal aanbieders**. Machine valt uit: **A naar links; minder aanbod; verminderde productiemogelijkheden**. **Waarom:** alleen de eerste rij verandert de eigen prijs; de andere rijen veranderen de omstandigheden van het aanbod."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 8,
+    "title": "Kaas uit de regio",
+    "section": "1.3.1",
+    "page": 9,
+    "kind": "independent",
+    "context": "Voor alle kaasmakers samen geldt eerst Q<sub>a</sub> = 8P − 32, voor 4 ≤ P ≤ 16. Energie wordt goedkoper. Daardoor geldt Q<sub>a</sub> = 8P − 16, voor 2 ≤ P ≤ 16. Q<sub>a</sub> is kilo kaas per week; P is euro per kilo. Verder verandert er niets.",
+    "questions": [
+      "Bereken het oude en nieuwe aanbod bij € 10 per kilo. Hoe groot is de verandering?",
+      "Teken de nieuwe lijn in de figuur. Markeer de twee hoeveelheden bij € 10. Leg uit waarom je bij deze vergelijking dezelfde verkoopprijs gebruikt."
+    ],
+    "answers": [
+      "Oud: 8 × 10 − 32 = **48 kilo per week**. Nieuw: 8 × 10 − 16 = **64 kilo per week**. Verandering: 64 − 48 = **+16 kilo per week**. **Waarom:** lagere energiekosten verhogen het aanbod bij dezelfde kaasprijs.",
+      "A₁ loopt door **(0; 2)** en **(112; 16)**. Markeringen: **(48; 10)** en **(64; 10)**. **Waarom:** door de verkoopprijs gelijk te houden, isoleer je de verandering in de omstandigheden. Het is een verschuiving, niet alleen een beweging."
+    ],
+    "answer_figure": "1.3.1_ans_8",
+    "criteria": null
+  },
+  {
+    "number": 9,
+    "title": "Atelier Sprint",
+    "section": "1.3.1",
+    "page": 10,
+    "kind": "target",
+    "context": "Eén atelier maakt sporttassen. Eerst geldt q = 4P − 40, voor 10 ≤ P ≤ 30. q is tassen per maand; P is euro per tas. De verkoopprijs stijgt van € 20 naar € 24. Tegelijk wordt stof duurder. Het nieuwe aanbod is q = 4P − 52, voor 13 ≤ P ≤ 30. Verder verandert er niets.",
+    "questions": [
+      "Bereken q vóór de veranderingen en na alleen de verkoopprijsstijging. Wat betekent de 4 in de functie?",
+      "Welke factor verschuift A? Bereken ter vergelijking het nieuwe aanbod bij de oude prijs van € 20.",
+      "Teken A₁. Markeer R (oud), S (alleen hogere verkoopprijs) en T (beide veranderingen), met hun coördinaten.",
+      "Bereken de uiteindelijke hoeveelheid en de verandering ten opzichte van het begin. Leg uit hoe de effecten samenwerken of tegenwerken.",
+      "Beoordeel: “De hogere verkoopprijs verschuift de aanbodlijn naar rechts.”"
+    ],
+    "answers": [
+      "Oud: 4 × 20 − 40 = **40 tassen per maand**. Alleen prijs: 4 × 24 − 40 = **56 tassen per maand**. De 4 is **4 extra tassen per maand per euro prijsstijging**. **Waarom:** dit is de reactie langs A₀.",
+      "De **prijs van stof, een productiemiddel**, stijgt. A verschuift naar links. Bij € 20 nieuw: 4 × 20 − 52 = **28 tassen per maand**. **Waarom:** bij dezelfde verkoopprijs is het nieuwe aanbod 12 tassen lager.",
+      "A₁: van **(0; 13)** tot **(68; 30)**. R = **(40; 20)**, S = **(56; 24)**, T = **(44; 24)**. **Waarom:** de uiteindelijke prijs moet in de nieuwe functie worden ingevuld; S hoort nog bij de oude omstandigheden.",
+      "Uiteindelijk: 4 × 24 − 52 = **44 tassen per maand**. Verandering: 44 − 40 = **+4 tassen per maand**. De effecten werken tegen elkaar: **+16** door de verkoopprijs en **−12** door de stofprijs. **Waarom:** hier is het positieve prijseffect groter dan de afname door duurdere stof.",
+      "**Onjuist:** de verkoopprijs veroorzaakt de beweging R → S langs A₀. Duurdere stof verschuift de lijn naar links. **Waarom:** de eigen verkoopprijs en de prijs van een productiemiddel zijn verschillende oorzaken."
+    ],
+    "answer_figure": "1.3.1_ans_9",
+    "criteria": null
+  },
+  {
+    "number": 10,
+    "title": "De potten staan er al",
+    "section": "1.3.1",
+    "page": 11,
+    "kind": "bonus",
+    "context": "Een verkoper heeft voor één laatste marktuur al 40 vazen klaargezet. Hij kan in dat uur niets bijmaken of bijkopen. Een klant zegt: “Bij een hogere prijs moet hij altijd meer kunnen aanbieden.”",
+    "questions": [
+      "Beoordeel de uitspraak. Beschrijf een aanbodvoorstelling die bij deze korte periode kan passen en noem welke informatie over zijn verkoopbereidheid nog ontbreekt."
+    ],
+    "answers": [
+      "De bestaande voorraad begrenst het aanbod voor dat uur op **40 vazen**. Een hogere prijs kan geen nieuwe vazen tevoorschijn brengen. Bij prijzen waarbij hij alle 40 wil verkopen, past een verticaal deel bij q = 40. Bij lage prijzen kan hij sommige vazen willen bewaren; dat is niet bekend. De gebruikelijke stijgende voorbeeldlijn is dus niet voor elk product en elke periode verplicht."
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "Onderscheidt kunnen aanbieden van willen aanbieden.",
+      "Benoemt de vaste beschikbaarheid in het laatste uur.",
+      "Maakt de voorgestelde lijn afhankelijk van verkoopbereidheid; claimt geen universele verticale aanbodlijn."
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Twee korte terugblikken",
+    "section": "1.3.1",
+    "page": 11,
+    "kind": "review",
+    "context": "Gebruik wat je in hoofdstuk 1.1 en 1.2 hebt geleerd.",
+    "questions": [
+      "Een prijs stijgt van € 8 naar € 10. Bereken de procentuele verandering.",
+      "Koper A vraagt bij € 3 twee liter sap per week en koper B vijf liter. B is al in de bron opgenomen. Bereken de collectieve vraag van deze twee kopers."
+    ],
+    "answers": [
+      "(10 − 8) / 8 × 100% = **25% stijging**. **Waarom:** de oude prijs van € 8 is de vergelijkingsbasis. Herhaal zo nodig §1.1.2.",
+      "Q = 2 + 5 = **7 liter per week**. **Waarom:** tel hoeveelheden bij dezelfde prijs op en tel elke koper één keer. Herhaal zo nodig §1.2.3."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 12,
+    "title": "Rekenen terughalen",
+    "section": "1.3.2",
+    "page": 18,
+    "kind": "start",
+    "context": "Gebruik de eenvoudige vraagfunctie q = 30 − 3P, voor 0 ≤ P ≤ 10. q is stuks per week; P is euro per stuk.",
+    "questions": [
+      "Bereken P als q = 12. Controleer."
+    ],
+    "answers": [
+      "12 = 30 − 3P → 3P = 18 → P = **€ 6 per stuk**. Controle: 30 − 3 × 6 = 12 stuks per week. **Waarom:** terugrekenen en daarna invullen moeten dezelfde combinatie opleveren."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 13,
+    "title": "Eén markt, dezelfde producten",
+    "section": "1.3.2",
+    "page": 18,
+    "kind": "start",
+    "context": "Bij € 4 worden 60 bidons gevraagd en 60 bidons aangeboden. Kopers en verkopers vinden elkaar; er zijn geen andere belemmeringen.",
+    "questions": [
+      "Is er evenwicht? Hoeveel bidons worden verkocht: 60 of 120? Leg uit."
+    ],
+    "answers": [
+      "**Er is evenwicht; er worden 60 bidons verkocht.** **Waarom:** de kopers kopen dezelfde bidons die de verkopers verkopen. Vraag en aanbod tellen hier geen verschillende transacties."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 14,
+    "title": "Lunchboxen",
+    "section": "1.3.2",
+    "page": 19,
+    "kind": "guided",
+    "context": "Op een markt gelden Q<sub>v</sub> = 60 − 5P en Q<sub>a</sub> = 5P − 10. Beide zijn bruikbaar voor 2 ≤ P ≤ 12. Q is lunchboxen per week; P is euro per lunchbox. De volledig uitgewerkte figuur laat E en twee plannen bij € 5 zien.",
+    "questions": [
+      "Lees de evenwichtsprijs en evenwichtshoeveelheid af. Vul de afgelezen prijs in beide functies in.",
+      "Lees bij € 5 beide hoeveelheden af. Bereken het verschil en benoem het overschot. Hoeveel wordt verkocht als alle aangeboden lunchboxen een koper vinden en er geen andere voorraad of belemmering is?"
+    ],
+    "answers": [
+      "E: **P = € 7 per lunchbox**, **Q = 25 lunchboxen per week**. Q<sub>v</sub> = 60 − 5 × 7 = 25; Q<sub>a</sub> = 5 × 7 − 10 = 25. **Waarom:** het snijpunt moet in beide functies dezelfde hoeveelheid geven.",
+      "Bij € 5: Q<sub>v</sub> = **35**, Q<sub>a</sub> = **15**. Vraagoverschot: 35 − 15 = **20 lunchboxen per week**. Verkoop: **15 lunchboxen per week**. **Waarom:** onder de gegeven afspraak worden alle 15 aangeboden lunchboxen verkocht, niet de 20 ontbrekende lunchboxen."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 15,
+    "title": "De tweede lijn tekenen",
+    "section": "1.3.2",
+    "page": 20,
+    "kind": "guided",
+    "context": "Voor posters geldt Q<sub>v</sub> = 90 − 5P (0 ≤ P ≤ 18) en Q<sub>a</sub> = 10P − 30 (3 ≤ P ≤ 18). Q is posters per week; P is euro per poster.",
+    "questions": [
+      "Maak af: 90 − 5P = 10P − 30 → 90 = …P − 30 → … = …P. Bereken P, Q en de controle.",
+      "Teken A met twee zelf berekende punten en markeer E met hulplijnen.",
+      "Bereken bij € 6 het vraagoverschot of aanbodoverschot."
+    ],
+    "answers": [
+      "90 = **15P** − 30 → **120 = 15P** → P = **€ 8**. Q<sub>v</sub> = 90 − 5 × 8 = **50 posters per week**. Controle: 10 × 8 − 30 = 50. **Waarom:** dezelfde bewerking aan beide kanten houdt de gelijkheid in stand.",
+      "A bijvoorbeeld door **(0; 3)** en **(150; 18)**. E = **(50; 8)**, met hulplijnen naar 50 en 8. **Waarom:** de aanbodpunten komen uit de aanbodfunctie; E ligt ook op de gegeven vraaglijn.",
+      "Q<sub>v</sub> = 90 − 5 × 6 = **60**; Q<sub>a</sub> = 10 × 6 − 30 = **30**. Vraagoverschot = 60 − 30 = **30 posters per week**. **Waarom:** er zijn bij € 6 meer koopplannen dan verkoopplannen."
+    ],
+    "answer_figure": "1.3.2_ans_15",
+    "criteria": null
+  },
+  {
+    "number": 16,
+    "title": "Zonder grafiek",
+    "section": "1.3.2",
+    "page": 20,
+    "kind": "guided",
+    "context": "Bij de opening van een markt vragen kopers 40 sjaals en bieden verkopers er 70 aan, bij dezelfde prijs. Alle kopers vinden een verkoper; niets anders belemmert de verkoop.",
+    "questions": [
+      "Bereken de verkoop en het overschot. Welke kant gaat de prijsdruk op als verkopers hun prijs kunnen aanpassen?"
+    ],
+    "answers": [
+      "Verkoop: **40 sjaals**. Aanbodoverschot: 70 − 40 = **30 sjaals**. **Neerwaartse prijsdruk. Waarom:** verkopers concurreren om minder koopplannen dan zij samen willen leveren."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 17,
+    "title": "Schriftenmarkt",
+    "section": "1.3.2",
+    "page": 21,
+    "kind": "independent",
+    "context": "Voor dezelfde soort schriften gelden Q<sub>v</sub> = 140 − 10P (0 ≤ P ≤ 14) en Q<sub>a</sub> = 10P − 20 (2 ≤ P ≤ 14). Q is schriften per week; P is euro per schrift.",
+    "questions": [
+      "Bereken het evenwicht en controleer met beide functies.",
+      "Teken zelf een marktgrafiek met beide lijnen, E, assen, eenheden, een schaal en hulplijnen.",
+      "Bereken het overschot bij € 6 en verklaar de prijsdruk."
+    ],
+    "answers": [
+      "140 − 10P = 10P − 20 → 140 = 20P − 20 → 160 = 20P → P = **€ 8**. Q<sub>v</sub> = 140 − 10 × 8 = **60**; controle Q<sub>a</sub> = 10 × 8 − 20 = **60 schriften per week**. **Waarom:** beide plannen stemmen overeen.",
+      "V door **(0; 14)** en **(140; 0)**. A door **(0; 2)** en **(120; 14)**. E = **(60; 8)**. **Waarom:** iedere lijn verbindt prijs en hoeveelheid uit zijn eigen functie; E ligt op beide. Zie de antwoordfiguur.",
+      "Bij € 6: Q<sub>v</sub> = 80 en Q<sub>a</sub> = 40. Vraagoverschot = 80 − 40 = **40 schriften per week**. **Opwaartse druk**, doordat kopers om het kleinere aanbod concurreren. **Waarom:** de prijs is onder het berekende evenwicht."
+    ],
+    "answer_figure": "1.3.2_ans_17",
+    "criteria": null
+  },
+  {
+    "number": 18,
+    "title": "Fietsmanden",
+    "section": "1.3.2",
+    "page": 21,
+    "kind": "independent",
+    "context": "Q<sub>v</sub> = 120 − 4P (0 ≤ P ≤ 30); Q<sub>a</sub> = 6P − 30 (5 ≤ P ≤ 30). Q is manden per maand; P is euro per mand.",
+    "questions": [
+      "Bereken de evenwichtsprijs en hoeveelheid en controleer.",
+      "Een leerling vindt P = € 30 door Qᵥ = 0 te nemen en noemt dit de evenwichtsprijs. Wat heeft die leerling wel gevonden?"
+    ],
+    "answers": [
+      "120 − 4P = 6P − 30 → 150 = 10P → P = **€ 15**. Q<sub>v</sub> = 120 − 4 × 15 = **60**; Q<sub>a</sub> = 6 × 15 − 30 = **60 manden per maand**. **Waarom:** alleen bij € 15 zijn de twee plannen gelijk.",
+      "Het **snijpunt van de vraaglijn met de P-as**, waar de gevraagde hoeveelheid nul is. **Waarom:** deze berekening gebruikt geen aanbod en zoekt dus niet naar overeenstemming tussen vraag en aanbod."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 19,
+    "title": "Plantbollen",
+    "section": "1.3.2",
+    "page": 21,
+    "kind": "independent",
+    "context": "Bij € 4 vragen kopers 90 zakken en bieden verkopers er 50 aan. Bij € 7 zijn dat 30 en 80. De gegevens betreffen dezelfde week. Op elk prijsniveau vinden alle deelnemers aan de kleinste kant een handelspartner; er zijn geen andere beperkingen.",
+    "questions": [
+      "Bereken per prijs het type overschot, zijn omvang en de werkelijke verkoop.",
+      "Leg uit waarom je de gevraagde en aangeboden hoeveelheden niet bij elkaar optelt."
+    ],
+    "answers": [
+      "€ 4: vraagoverschot **90 − 50 = 40 zakken**, verkoop **50 zakken**. € 7: aanbodoverschot **80 − 30 = 50 zakken**, verkoop **30 zakken**. **Waarom:** het verschil meet de niet-passende plannen, het kleinere aantal meet hier de gerealiseerde transacties.",
+      "Elke verkoop is tegelijk één aankoop. **Waarom:** optellen zou dezelfde transactie tweemaal tellen."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 20,
+    "title": "Een markt voor herbruikbare bekers",
+    "section": "1.3.2",
+    "page": 22,
+    "kind": "target",
+    "context": "Een markt verkoopt één soort herbruikbare beker. Veel kleine kopers en verkopers kunnen elkaar vinden. De overige omstandigheden blijven gelijk. Q<sub>v</sub> = 150 − 10P, voor 0 ≤ P ≤ 15. Q<sub>a</sub> = 5P − 30, voor 6 ≤ P ≤ 15. Q is bekers per week; P is euro per beker.",
+    "questions": [
+      "Bereken de evenwichtsprijs. Laat je algebraïsche stappen zien.",
+      "Bereken de evenwichtshoeveelheid en controleer die met beide functies. Leg de uitkomst uit in een zin met eenheden.",
+      "Teken zelf beide lijnen in één marktgrafiek. Geef de assen, eenheden, schaal, E en hulplijnen naar de evenwichtsprijs en -hoeveelheid aan.",
+      "Aan het begin geldt nog een prijs van € 10. Bereken Qᵥ, Qₐ en het tekort of overschot bij die prijs. Hoeveel bekers worden verkocht als al het aanbod een koper vindt, er geen andere voorraad is en niets anders de verkoop belemmert?",
+      "De prijs kan zich daarna aanpassen. Verklaar de richting van de prijsdruk en de reacties van kopers en verkopers langs de bestaande lijnen."
+    ],
+    "answers": [
+      "150 − 10P = 5P − 30 → 150 = 15P − 30 (+10P aan beide kanten) → 180 = 15P (+30) → P = **€ 12 per beker** (delen door 15). **Waarom:** de gelijkheid zoekt één prijs voor dezelfde hoeveelheid in beide plannen.",
+      "Q<sub>v</sub> = 150 − 10 × 12 = **30 bekers per week**. Controle: Q<sub>a</sub> = 5 × 12 − 30 = **30**. Bij **€ 12 per beker** sluiten beide plannen voor **30 bekers per week** aan. **Waarom:** gelijkheid van de hoeveelheden is precies de evenwichtsvoorwaarde.",
+      "V door **(0; 15)** en **(150; 0)**; A door **(0; 6)** en **(45; 15)**. E = **(30; 12)**. Q horizontaal, P verticaal, met juiste eenheden en schalen. **Waarom:** het evenwicht is het gemeenschappelijke punt, niet een snijpunt met een as.",
+      "Bij € 10: Q<sub>v</sub> = 150 − 10 × 10 = **50**; Q<sub>a</sub> = 5 × 10 − 30 = **20**. Vraagoverschot: 50 − 20 = **30 bekers per week**. Verkoop volgens de afspraak: **20 bekers per week**. **Waarom:** ontbrekende bekers worden niet verkocht; alle 20 aangeboden bekers wel.",
+      "**Opwaartse prijsdruk.** Kopers concurreren om het kleinere aanbod. Als P stijgt, daalt Q<sub>v</sub> langs V en stijgt Q<sub>a</sub> langs A, totdat de plannen aansluiten. **Waarom:** de omstandigheden achter de lijnen veranderen niet; er ontstaan geen verschuivingen."
+    ],
+    "answer_figure": "1.3.2_ans_20",
+    "criteria": null
+  },
+  {
+    "number": 21,
+    "title": "Iedereen tevreden?",
+    "section": "1.3.2",
+    "page": 23,
+    "kind": "bonus",
+    "context": "Op een markt is evenwicht bij € 10. Een leerling wil het product wel hebben, maar wil er hoogstens € 7 voor betalen. De leerling koopt niet.",
+    "questions": [
+      "Spreekt dit het marktevenwicht tegen? Beoordeel ook de uitspraak: “Bij evenwicht zijn alle behoeften vervuld.”"
+    ],
+    "answers": [
+      "Nee. Evenwicht vergelijkt wat mensen **bij € 10 willen en kunnen kopen** met het aanbod bij die prijs. Iemand met een betalingsbereidheid van € 7 draagt bij € 10 geen vraag bij. Dat betekent niet dat die persoon geen behoefte heeft. Evenwicht sluit plannen bij een prijs op elkaar aan, maar vervult niet alle wensen en bewijst geen eerlijke verdeling."
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "Maakt de vergelijking expliciet afhankelijk van de prijs.",
+      "Onderscheidt behoefte van koopbereidheid bij € 10.",
+      "Leidt geen eerlijkheid of algemene tevredenheid af uit Qv = Qa."
+    ]
+  },
+  {
+    "number": 22,
+    "title": "Basis en oppervlakte",
+    "section": "1.3.2",
+    "page": 23,
+    "kind": "review",
+    "context": "Twee korte herhalingen uit §1.1.2 en §1.1.3.",
+    "questions": [
+      "Een index gaat van 96 naar 108. Bereken de relatieve verandering, met de oude index als basis.",
+      "Een rechthoek heeft basis 6 cm en hoogte 4 cm. Bereken de oppervlakte van de rechthoek en van een driehoek met dezelfde basis en hoogte."
+    ],
+    "answers": [
+      "(108 − 96) / 96 × 100% = **12,5% stijging**. **Waarom:** de toename van 12 indexpunten wordt vergeleken met 96, niet met 100.",
+      "Rechthoek: 6 × 4 = **24 cm²**. Driehoek: ½ × 6 × 4 = **12 cm²**. **Waarom:** de driehoek heeft de helft van de oppervlakte van de rechthoek met dezelfde basis en hoogte."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 23,
+    "title": "Een verandering vergelijken",
+    "section": "1.3.3",
+    "page": 28,
+    "kind": "start",
+    "context": "Een hoeveelheid stijgt van 320 naar 400 stuks per week.",
+    "questions": [
+      "Bereken de procentuele verandering."
+    ],
+    "answers": [
+      "(400 − 320) / 320 × 100% = **25% stijging**. **Waarom:** de oude hoeveelheid is de basis; het verschil van 80 is niet zelf een percentage."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 24,
+    "title": "Welke oorzaak?",
+    "section": "1.3.3",
+    "page": 28,
+    "kind": "start",
+    "context": "Er komen meer kopers van fietsbellen. De techniek, het aantal verkopers en hun omstandigheden blijven gelijk.",
+    "questions": [
+      "Welke lijn verschuift? Verschuift de andere lijn ook zodra de marktprijs stijgt?"
+    ],
+    "answers": [
+      "**De vraaglijn verschuift naar rechts.** Een hogere marktprijs geeft daarna een **beweging langs de bestaande aanbodlijn**, geen verschuiving. **Waarom:** de omstandigheden van de aanbieders veranderen niet."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 25,
+    "title": "Plantenvoeding",
+    "section": "1.3.3",
+    "page": 28,
+    "kind": "guided",
+    "context": "Er komen meer kopers. De figuur toont de volledige uitwerking; het aanbod verandert niet.",
+    "questions": [
+      "Lees de oude en nieuwe prijs en hoeveelheid af.",
+      "Leg uit waarom de grotere aangeboden hoeveelheid hier geen verschuiving van A is."
+    ],
+    "answers": [
+      "Oud: **€ 12 per fles en 24 flessen per week**. Nieuw: **€ 14 per fles en 30 flessen per week**. **Waarom:** de hulplijnen en schaal verbinden beide evenwichten met hun assen.",
+      "De prijs stijgt en verkopers reageren **langs dezelfde A**. **Waarom:** meer kopers verandert de vraag, niet de omstandigheden achter het aanbod."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 26,
+    "title": "Duurder papier voor notitieblokken",
+    "section": "1.3.3",
+    "page": 29,
+    "kind": "guided",
+    "context": "Begin met Q<sub>v</sub> = 100 − 5P (0 ≤ P ≤ 20) en Q<sub>a,0</sub> = 5P − 20 (4 ≤ P ≤ 20). Door duurdere papierpulp wordt het aanbod Q<sub>a,1</sub> = 5P − 40 (8 ≤ P ≤ 20). Q is notitieblokken per week; P is euro per blok. Er zijn geen andere veranderingen.",
+    "questions": [
+      "Bereken het oude en nieuwe evenwicht. Controleer beide hoeveelheden. Gebruik per situatie Qᵥ = Qₐ.",
+      "Voeg A₁ toe aan de figuur. Markeer E₀ en E₁. Gebruik twee zelf berekende punten voor de nieuwe lijn.",
+      "Bereken bij de oude prijs de nieuwe Qₐ en de ongewijzigde Qᵥ. Leg via het verschil uit waarom de prijs verandert."
+    ],
+    "answers": [
+      "Oud: 100 − 5P = 5P − 20 → 120 = 10P → **P₀ = € 12**, Q₀ = 100 − 60 = **40**; controle 60 − 20 = 40. Nieuw: 100 − 5P = 5P − 40 → 140 = 10P → **P₁ = € 14**, Q₁ = 100 − 70 = **30**; controle 70 − 40 = **30 blokken per week**. **Waarom:** iedere situatie gebruikt haar eigen aanbodfunctie.",
+      "A₁ door **(0; 8)** en **(60; 20)**; E₀ = **(40; 12)**, E₁ = **(30; 14)**. **Waarom:** duurdere papierpulp legt het aanbod bij elke relevante prijs lager, dus de nieuwe lijn ligt links van A₀.",
+      "Bij € 12 nieuw: Q<sub>a,1</sub> = 5 × 12 − 40 = **20**; Q<sub>v</sub> = 100 − 5 × 12 = **40**. Vraagoverschot = **20 blokken per week**. **Waarom:** kopers concurreren om het kleinere aanbod; de prijs krijgt opwaartse druk."
+    ],
+    "answer_figure": "1.3.3_ans_26",
+    "criteria": null
+  },
+  {
+    "number": 27,
+    "title": "Meer vraag én meer aanbod",
+    "section": "1.3.3",
+    "page": 30,
+    "kind": "guided",
+    "context": "Er komen meer kopers van campinglampen. Tegelijk maakt een betere techniek de productie gemakkelijker. De vraag- en aanbodlijn verschuiven allebei naar rechts. De oorspronkelijke lijnen zijn dalend respectievelijk stijgend. De verschuivingen zijn niet becijferd.",
+    "questions": [
+      "Wat gebeurt er met evenwichtsprijs en -hoeveelheid als je alleen de extra kopers bekijkt?",
+      "Wat gebeurt er als je alleen de betere techniek bekijkt?",
+      "Welke richting van de uiteindelijke hoeveelheid is bepaald? Is de richting van de prijs ook bepaald?",
+      "Een leerling zegt: “De tegengestelde prijsdruk betekent dat de prijs gelijk blijft.” Waarom volgt dat niet?"
+    ],
+    "answers": [
+      "Alleen meer vraag: **prijs omhoog en hoeveelheid omhoog**. **Waarom:** bij de oude prijs ontstaat een vraagoverschot.",
+      "Alleen meer aanbod: **prijs omlaag en hoeveelheid omhoog**. **Waarom:** bij de oude prijs ontstaat een aanbodoverschot.",
+      "In dit model neemt de evenwichtshoeveelheid **toe**. De prijs kan **stijgen, dalen of gelijk blijven**. **Waarom:** de hoeveelheidseffecten versterken elkaar; de prijsuitkomst hangt af van de groottes van beide verschuivingen.",
+      "De drukken hoeven niet even groot te zijn. **Waarom:** zonder relatieve groottes kun je niet besluiten dat ze elkaar precies opheffen."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 28,
+    "title": "Reparatiesets",
+    "section": "1.3.3",
+    "page": 30,
+    "kind": "independent",
+    "context": "Q<sub>v,0</sub> = 96 − 4P (0 ≤ P ≤ 24) en Q<sub>a</sub> = 4P − 16 (4 ≤ P ≤ 28). Repareren wordt populairder. Alleen de voorkeur verandert: Q<sub>v,1</sub> = 112 − 4P (0 ≤ P ≤ 28). Q is sets per week; P is euro per set.",
+    "questions": [
+      "Bereken beide evenwichten en controleer de hoeveelheden.",
+      "Vergelijk na de verandering de plannen bij de oude prijs. Verklaar de prijsdruk.",
+      "Bereken de procentuele verandering van de evenwichtshoeveelheid."
+    ],
+    "answers": [
+      "Oud: 96 − 4P = 4P − 16 → 112 = 8P → **€ 14**; Q = 96 − 56 = **40**; controle 56 − 16 = 40. Nieuw: 112 − 4P = 4P − 16 → 128 = 8P → **€ 16**; Q = 112 − 64 = **48**; controle 64 − 16 = **48 sets per week**. **Waarom:** de voorkeur verandert de vraagfunctie, het aanbod blijft staan.",
+      "Bij € 14 nieuw: Q<sub>v,1</sub> = 112 − 56 = **56**, Q<sub>a</sub> = 56 − 16 = **40**. Vraagoverschot = **16 sets per week**; opwaartse prijsdruk. **Waarom:** de koopplannen zijn toegenomen voordat de prijs reageert.",
+      "(48 − 40) / 40 × 100% = **20% stijging**. **Waarom:** je vergelijkt de twee evenwichtshoeveelheden, niet het tijdelijke vraagoverschot."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 29,
+    "title": "Houten speelgoed",
+    "section": "1.3.3",
+    "page": 31,
+    "kind": "independent",
+    "context": "Q<sub>v</sub> = 120 − 6P (0 ≤ P ≤ 20) en Q<sub>a,0</sub> = 6P − 24 (4 ≤ P ≤ 20). Door goedkoper hout wordt Q<sub>a,1</sub> = 6P − 12 (2 ≤ P ≤ 20). Q is speelgoedsets per maand; P is euro per set. De overige omstandigheden blijven gelijk.",
+    "questions": [
+      "Bereken beide evenwichten en controleer. Voeg A₁, E₀, E₁ en hun coördinaten aan de figuur toe.",
+      "Leg uit waarom de grotere gevraagde hoeveelheid niet bewijst dat de vraaglijn is verschoven."
+    ],
+    "answers": [
+      "Oud: 120 − 6P = 6P − 24 → 144 = 12P → **P₀ = € 12**, Q₀ = 120 − 72 = **48**, controle 72 − 24 = 48. Nieuw: 120 − 6P = 6P − 12 → 132 = 12P → **P₁ = € 11**, Q₁ = 120 − 66 = **54**, controle 66 − 12 = **54 sets per maand**. A₁ door (0; 2) en (108; 20); E₀ = (48; 12), E₁ = (54; 11). **Waarom:** lagere houtkosten verhogen het aanbod bij dezelfde prijs.",
+      "Kopers reageren op de lagere prijs **langs dezelfde V**. **Waarom:** hun omstandigheden zijn gelijk gebleven; alleen de kosten van de aanbieders zijn veranderd."
+    ],
+    "answer_figure": "1.3.3_ans_29",
+    "criteria": null
+  },
+  {
+    "number": 30,
+    "title": "Wat past bij de waarneming?",
+    "section": "1.3.3",
+    "page": 31,
+    "kind": "independent",
+    "context": "De prijs van kampeermatten stijgt en de verkochte hoeveelheid daalt. Volgens een onderzoek is er precies één verandering: óf materiaal werd duurder, óf de voorkeur voor deze matten nam toe. De andere lijn bleef gelijk.",
+    "questions": [
+      "Welke van de twee verklaringen past in het standaardmodel? Motiveer met prijs én hoeveelheid."
+    ],
+    "answers": [
+      "**Duurdere materialen.** Dat verschuift A naar links, waardoor P stijgt en Q daalt. Alleen sterkere voorkeur verschuift V naar rechts en zou P én Q doen stijgen. **Waarom:** de richting van Q onderscheidt hier de twee gegeven verklaringen; de conclusie steunt op de expliciete aanname van één verandering."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 31,
+    "title": "Meer kopers van oplaadkabels",
+    "section": "1.3.3",
+    "page": 32,
+    "kind": "target",
+    "context": "Een regionale markt heeft Q<sub>v,0</sub> = 100 − 5P (0 ≤ P ≤ 20) en Q<sub>a</sub> = 5P − 20 (4 ≤ P ≤ 24). Q is kabels per week; P is euro per kabel. Er komen meer kopers. Alleen daardoor wordt Q<sub>v,1</sub> = 120 − 5P (0 ≤ P ≤ 24). De omstandigheden van de aanbieders blijven gelijk.",
+    "questions": [
+      "Bereken het oude evenwicht en controleer met beide functies.",
+      "Benoem de specifieke factor. Bereken na de verandering beide plannen bij de oude prijs en verklaar de prijsdruk.",
+      "Bereken het nieuwe evenwicht en controleer. Bereken de procentuele verandering van Q.",
+      "Voeg V₁ toe. Markeer E₀ en E₁ met coördinaten. Laat met pijlen de verschuiving bij de oude prijs en de beweging langs A zien.",
+      "Beoordeel: “De grotere aangeboden hoeveelheid komt door een verschuiving van de aanbodlijn.”"
+    ],
+    "answers": [
+      "100 − 5P = 5P − 20 → 120 = 10P → **P₀ = € 12**. Q<sub>v,0</sub> = 100 − 60 = **40**; Q<sub>a</sub> = 60 − 20 = **40 kabels per week**. **Waarom:** de twee oorspronkelijke plannen zijn gelijk.",
+      "**Aantal vragers.** Bij € 12: Q<sub>v,1</sub> = 120 − 60 = **60**, Q<sub>a</sub> = 60 − 20 = **40**. Vraagoverschot: **20 kabels per week**; opwaartse druk. **Waarom:** meer kopers vragen bij dezelfde prijs meer, terwijl de aanbieders hun oorspronkelijke plan behouden.",
+      "120 − 5P = 5P − 20 → 140 = 10P → **P₁ = € 14**. Q<sub>v,1</sub> = 120 − 70 = **50**; controle Q<sub>a</sub> = 70 − 20 = **50 kabels per week**. Verandering: (50 − 40) / 40 × 100% = **25% stijging**. **Waarom:** de nieuwe prijs brengt beide plannen weer samen.",
+      "V₁ door **(0; 24)** en **(120; 0)**. E₀ = **(40; 12)**; E₁ = **(50; 14)**. Een horizontale pijl bij € 12 loopt van 40 naar 60; de andere pijl loopt van E₀ naar E₁ langs A. **Waarom:** de eerste pijl toont de veranderde vraag, de tweede de prijsreactie van verkopers.",
+      "**Onjuist.** A blijft Q<sub>a</sub> = 5P − 20. Alleen P stijgt van € 12 naar € 14; daarom wordt Q<sub>a</sub> groter langs dezelfde lijn. **Waarom:** de aanbodfactoren zijn niet veranderd."
+    ],
+    "answer_figure": "1.3.3_ans_31",
+    "criteria": null
+  },
+  {
+    "number": 32,
+    "title": "Twee verklaringen voor dezelfde richting",
+    "section": "1.3.3",
+    "page": 33,
+    "kind": "bonus",
+    "context": "In een krant staat dat de prijs én de verkochte hoeveelheid van een product zijn gestegen. Er staat niets over veranderingen in vraagfactoren of aanbodfactoren.",
+    "questions": [
+      "Beschrijf of schets twee verschillende verklaringen die hierbij kunnen passen. Gebruik in één verklaring één verschuiving en in de andere twee verschuivingen. Leg uit waarom de twee waarnemingen de precieze oorzaak niet bewijzen."
+    ],
+    "answers": [
+      "Eén mogelijkheid is een **vraagtoename bij onveranderd aanbod**: P en Q stijgen. Een tweede is **meer vraag én minder aanbod**, waarbij de vraagtoename groot genoeg is om de hoeveelheid toch te laten stijgen. Ook meer vraag plus een beperkte aanbodtoename kan passen als de vraagtoename de prijsdruk overheerst. De waarnemingen geven niet aan welke omstandigheden werkelijk veranderden. Er is aanvullende informatie over de oorzaken en hun grootte nodig."
+    ],
+    "answer_figure": null,
+    "criteria": [
+      "Geeft twee economisch mogelijke verklaringen voor P omhoog en Q omhoog.",
+      "Houdt bij twee verschuivingen rekening met hun relatieve grootte.",
+      "Onderscheidt een mogelijke modelverklaring van bewijs van de werkelijke oorzaak."
+    ]
+  },
+  {
+    "number": 33,
+    "title": "Formules en eenheden ophalen",
+    "section": "1.3.3",
+    "page": 33,
+    "kind": "review",
+    "context": "Gebruik de methodes uit eerdere paragrafen.",
+    "questions": [
+      "Een vereniging betaalt € 84 voor 14 gelijke mappen. Bereken het bedrag per map.",
+      "Voor één koper geldt q = 20 − 2P, voor 0 ≤ P ≤ 10. q is stuks per maand; P is euro per stuk. Bereken beide snijpunten van de vraaglijn met de assen."
+    ],
+    "answers": [
+      "€ 84 / 14 = **€ 6 per map**. **Waarom:** je verdeelt het totale bedrag over het aantal gelijke producten. Herhaal zo nodig §1.1.2.",
+      "Bij q = 0: 0 = 20 − 2P → P = **€ 10**. Bij P = 0: q = **20 stuks per maand**. Coördinaten: **(0; 10)** en **(20; 0)**. **Waarom:** bij elk assnijpunt is één coördinaat nul. Herhaal zo nodig §1.2.1."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 34,
+    "title": "Knoppen uit een 3D-printer",
+    "section": "1.3.4",
+    "page": 34,
+    "kind": "mixed",
+    "context": "Eén maker biedt q = 6P − 18 knoppen per week aan, voor 3 ≤ P ≤ 15. P is euro per knop. Door een betere printer wordt het aanbod q = 6P − 12, voor 2 ≤ P ≤ 15. De verkoopprijs blijft € 7.",
+    "questions": [
+      "Bereken het aanbod vóór en na de verandering. Benoem de factor en de grafische verandering.",
+      "Een medewerker noemt het nieuwe aantal “de evenwichtshoeveelheid”. Waarom volgt dat niet uit deze bron?"
+    ],
+    "answers": [
+      "Oud: 6 × 7 − 18 = **24 knoppen per week**. Nieuw: 6 × 7 − 12 = **30 knoppen per week**. **Techniek** verandert; A verschuift naar rechts. **Waarom:** bij dezelfde prijs is er meer aanbod.",
+      "De bron geeft alleen het aanbod van één maker, geen collectieve vraag en geen volledig marktmodel. **Waarom:** een aanbodhoeveelheid bij een prijs is nog geen evenwicht tussen vraag en aanbod."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 35,
+    "title": "Fietslampjes bij de opening",
+    "section": "1.3.4",
+    "page": 34,
+    "kind": "mixed",
+    "context": "Op een markt gelden Q<sub>v</sub> = 90 − 5P (0 ≤ P ≤ 18) en Q<sub>a</sub> = 10P − 30 (3 ≤ P ≤ 18). Q is lampjes per week; P is euro per lampje. De openingsprijs is € 6. Alle aangeboden lampjes vinden een koper; er zijn geen andere voorraden of verkoopbelemmeringen.",
+    "questions": [
+      "Bereken het evenwicht en controleer.",
+      "Bereken de verkoop en het tekort bij de openingsprijs.",
+      "Verklaar de prijsdruk na de opening, als de prijs zich kan aanpassen."
+    ],
+    "answers": [
+      "90 − 5P = 10P − 30 → 120 = 15P → **P = € 8**. Q<sub>v</sub> = 90 − 40 = **50**; Q<sub>a</sub> = 80 − 30 = **50 lampjes per week**. **Waarom:** één prijs brengt de plannen samen.",
+      "Bij € 6: Q<sub>v</sub> = 60 en Q<sub>a</sub> = 30. Verkoop: **30 lampjes per week**. Vraagoverschot: 60 − 30 = **30 lampjes per week**. **Waarom:** de verkoop en het tekort zijn hier toevallig even groot, maar zijn verschillende grootheden.",
+      "**Opwaartse prijsdruk**, doordat kopers om het beperkte aanbod concurreren. Q<sub>v</sub> daalt en Q<sub>a</sub> stijgt langs de bestaande lijnen. **Waarom:** er is geen nieuwe vraag- of aanbodfactor genoemd."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  },
+  {
+    "number": 36,
+    "title": "Tenten uit de fabriek",
+    "section": "1.3.4",
+    "page": 35,
+    "kind": "mixed",
+    "context": "Een markt voor eenvoudige tenten heeft Q<sub>v</sub> = 120 − 4P (0 ≤ P ≤ 30) en Q<sub>a,0</sub> = 8P − 24 (3 ≤ P ≤ 24). Q is tenten per maand; P is euro per tent. Door een nieuwe productietechniek geldt voortaan Q<sub>a,1</sub> = 8P − 12 (1,5 ≤ P ≤ 24). De vraag en de overige omstandigheden blijven gelijk.",
+    "questions": [
+      "Bereken beide evenwichten en controleer. Leg uit wat de verandering van −24 naar −12 betekent bij dezelfde prijs.",
+      "Teken zelf V, A₀ en A₁ in één marktgrafiek. Markeer beide evenwichten met coördinaten. Leg uit welke lijn verschuift en langs welke lijn een beweging optreedt.",
+      "Beoordeel: “Na de verandering moet je nog steeds Qᵥ = Qₐ,₀ gebruiken, want vraag en aanbod moeten gelijk blijven.”"
+    ],
+    "answers": [
+      "Oud: 120 − 4P = 8P − 24 → 144 = 12P → **€ 12**. Q = 120 − 48 = **72**, controle 96 − 24 = 72. Nieuw: 120 − 4P = 8P − 12 → 132 = 12P → **€ 11**. Q = 120 − 44 = **76**, controle 88 − 12 = **76 tenten per maand**. Bij dezelfde prijs is het nieuwe aanbod **12 tenten groter**. **Waarom:** de techniek maakt meer aanbieden mogelijk; het prijsverschil tussen de evenwichten is een reactie.",
+      "V door (0; 30) en (120; 0); A₀ door (0; 3) en (168; 24); A₁ door (0; 1,5) en (180; 24). Een tekening mag een kleiner venster gebruiken met correct afgebroken lijnen. E₀ = **(72; 12)** en E₁ = **(76; 11)**. **A verschuift naar rechts; beweging langs V. Waarom:** de vraagfactoren zijn niet veranderd. De antwoordfiguur gebruikt een venster tot Q = 160.",
+      "**Onjuist.** De evenwichtsvoorwaarde blijft vraag = aanbod, maar je moet de **nieuwe aanbodfunctie** gebruiken: Q<sub>v</sub> = Q<sub>a,1</sub>. **Waarom:** dezelfde economische voorwaarde toepassen betekent niet dat een verouderde functie geldig blijft."
+    ],
+    "answer_figure": "1.3.4_ans_36",
+    "criteria": null
+  },
+  {
+    "number": 37,
+    "title": "De linnen boodschappentas",
+    "section": "1.3.4",
+    "page": 37,
+    "kind": "target",
+    "context": "Gebruik bronnen A–D op de linkerpagina. Werk met tassen per week en euro per tas.",
+    "questions": [
+      "Bereken uit bron A de evenwichtsprijs en -hoeveelheid. Controleer de hoeveelheid met beide functies.",
+      "Leg uit welke lijn door bron B verschuift en waarom. Bereken het nieuwe aanbod bij de oude evenwichtsprijs en vergelijk dit met de ongewijzigde vraag.",
+      "Bereken het nieuwe evenwicht en controleer. Bereken de procentuele verandering van prijs én verhandelde hoeveelheid ten opzichte van bron A.",
+      "Teken zelf V, A₀ en A₁ in één marktgrafiek. Geef assen, eenheden en schaal. Markeer E₀ en E₁ met coördinaten en hulplijnen. Laat ook een verschuiving bij de oude prijs en de beweging langs de ongewijzigde lijn zien.",
+      "Gebruik nu uitsluitend de situatie van bron C. Bereken de vraag, het nieuwe aanbod, het type en de omvang van het overschot en de werkelijke verkoop volgens de gegeven afspraak.",
+      "Beoordeel beide delen van de uitspraak in bron D. Gebruik je berekening en het model. Noem ook één gegeven uit bron D dat niet nodig was om de evenwichten te berekenen."
+    ],
+    "answers": [
+      "180 − 10P = 10P − 20 → 180 = 20P − 20 → 200 = 20P → **P₀ = € 10 per tas**. Q<sub>v</sub> = 180 − 10 × 10 = **80**; Q<sub>a,0</sub> = 10 × 10 − 20 = **80 tassen per week**. **Waarom:** alleen bron A beschrijft de beginmarkt.",
+      "**A verschuift naar links**, doordat linnen, een productiemiddel, duurder wordt. Bij € 10 nieuw: Q<sub>a,1</sub> = 10 × 10 − 60 = **40**; Q<sub>v</sub> = 180 − 10 × 10 = **80**. Vraagoverschot = **40 tassen per week**. **Waarom:** het nieuwe aanbod is bij dezelfde prijs lager; de vraagfunctie is niet veranderd.",
+      "180 − 10P = 10P − 60 → 240 = 20P → **P₁ = € 12**. Q<sub>v</sub> = 180 − 120 = **60**; controle: Q<sub>a,1</sub> = 120 − 60 = **60 tassen per week**. Prijs: (12 − 10) / 10 × 100% = **+20%**. Hoeveelheid: (60 − 80) / 80 × 100% = **−25%**. **Waarom:** de percentages vergelijken de twee evenwichten, elk met zijn eigen oude waarde.",
+      "V door **(0; 18)** en **(180; 0)**. A₀ door **(0; 2)** en **(160; 18)**. A₁ door **(0; 6)** en **(120; 18)**. E₀ = **(80; 10)** en E₁ = **(60; 12)**. Een horizontale pijl bij € 10 van 80 naar 40 toont de aanbodverschuiving; de stap E₀ → E₁ ligt langs V. **Waarom:** duurdere linnenproductie verandert A; kopers reageren op de hogere tasprijs langs dezelfde V.",
+      "Bij € 14 in de nieuwe situatie: Q<sub>v</sub> = 180 − 140 = **40**; Q<sub>a,1</sub> = 140 − 60 = **80**. Aanbodoverschot: 80 − 40 = **40 tassen per week**. Verkoop: **40 tassen per week**. **Waarom:** volgens bron C vindt iedere koper een verkoper; de overige verkoopplannen worden niet gerealiseerd.",
+      "De vraaglijn is **niet verschoven**: zij blijft Q<sub>v</sub> = 180 − 10P. De prijsstijging leidt tot een beweging langs V van 80 naar 60. Het evenwicht bewijst ook **geen algemene tevredenheid**; koop- en verkoopplannen passen bij die prijs, maar behoeften kunnen onvervuld blijven. De **enquêtewaardering van 4,6/5** is niet nodig voor de berekening. **Waarom:** de functies en de veranderde linnenprijs leveren de relevante modelinformatie."
+    ],
+    "answer_figure": "1.3.4_ans_37",
+    "criteria": null,
+    "source_html": "<div class=\"source\"><p><strong>Bron A · De oorspronkelijke markt</strong></p><p>In deze oefening gaat het om één soort linnen boodschappentas. Er zijn veel kleine kopers en verkopers. De prijs kan zich aanpassen. Q is tassen per week; P is euro per tas.</p>\n<div class=\"math\">Q<sub>v</sub> = 180 − 10P &nbsp; (0 ≤ P ≤ 18)<br/>Q<sub>a,0</sub> = 10P − 20 &nbsp; (2 ≤ P ≤ 18)</div></div><div class=\"source\"><p><strong>Bron B · Linnen wordt duurder</strong></p><p>Alleen de prijs van het linnen stijgt. De koopplannen van consumenten veranderen niet. De aanbieders hebben voortaan deze aanbodfunctie:</p>\n<div class=\"math\">Q<sub>a,1</sub> = 10P − 60 &nbsp; (6 ≤ P ≤ 18)</div><p class=\"note\">Deze nieuwe situatie begint vanuit bron A. Er is geen andere vraag- of aanbodverandering.</p>\n</div><div class=\"source\"><p><strong>Bron C · Een afzonderlijke prijsvergelijking</strong></p><p>Bekijk daarna afzonderlijk de nieuwe situatie uit bron B bij een verkoopprijs van <strong>€ 14</strong>. Zolang deze prijs geldt, vindt iedere koper die volgens de vraagfunctie wil kopen een verkoper. Er zijn geen andere belemmeringen. Dit is een rekenvergelijking bij één prijs, geen wettelijke prijsregel.</p>\n</div><div class=\"source\"><p><strong>Bron D · Een uitspraak</strong></p><p>Een verkoper beweert: “Door de hogere marktprijs is de vraaglijn naar links verschoven. Het nieuwe evenwicht laat bovendien zien dat iedereen tevreden is.” De vormgeving van de tassen kreeg in een enquête 4,6 uit 5 punten; die beoordeling veranderde niet.</p>\n</div>",
+    "source_page": 36
+  },
+  {
+    "number": 38,
+    "title": "Korte terugblik op hoofdstuk 1.1",
+    "section": "1.3.4",
+    "page": 38,
+    "kind": "review",
+    "context": "Deze vragen halen eerder geleerde rekenvaardigheden op. De figuur is een meetkundige tekening, geen nieuwe economische grafiek.",
+    "questions": [
+      "Een magazijn betaalt € 90 voor 15 gelijke dozen. Bereken het bedrag per doos.",
+      "Voor 6 extra dozen betaalt het magazijn € 36 extra. Bereken het extra bedrag per extra doos.",
+      "Een prijsindex stijgt van 125 naar 150. Bereken de procentuele verandering.",
+      "Bereken in de figuur de basis AB, de hoogte van C boven AB en de oppervlakte van driehoek ABC. Bereken ook de oppervlakte van een rechthoek met dezelfde basis en hoogte."
+    ],
+    "answers": [
+      "90 / 15 = **€ 6 per doos**. **Waarom:** je deelt een totaalbedrag door het bijbehorende aantal producten.",
+      "36 / 6 = **€ 6 per extra doos**. **Waarom:** het extra bedrag hoort bij zes extra eenheden, niet bij één of bij alle 21 dozen.",
+      "(150 − 125) / 125 × 100% = **20% stijging**. **Waarom:** de oude index 125 is de vergelijkingsbasis; 25 indexpunten is niet hetzelfde als 25%.",
+      "AB = 8 − 0 = **8 cm**. Hoogte = 6 − 2 = **4 cm**. Driehoek: ½ × 8 × 4 = **16 cm²**. Rechthoek: 8 × 4 = **32 cm²**. **Waarom:** de hoogte begint bij de basis op niveau 2, niet bij de horizontale as."
+    ],
+    "answer_figure": null,
+    "criteria": null
+  }
+]

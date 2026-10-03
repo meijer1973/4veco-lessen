@@ -1,0 +1,272 @@
+[
+  {
+    "label": "potten q bij8",
+    "expression": "5*8-20",
+    "expected": 20
+  },
+  {
+    "label": "grond gecombineerd",
+    "expression": "4*8-20",
+    "expected": 12
+  },
+  {
+    "label": "lepels6",
+    "expression": "3*6-6",
+    "expected": 12
+  },
+  {
+    "label": "kaars6oud",
+    "expression": "4*6-8",
+    "expected": 16
+  },
+  {
+    "label": "kaars6nieuw",
+    "expression": "4*6-16",
+    "expected": 8
+  },
+  {
+    "label": "kaasnieuw",
+    "expression": "8*10-16",
+    "expected": 64
+  },
+  {
+    "label": "Sprint begin",
+    "expression": "4*20-40",
+    "expected": 40
+  },
+  {
+    "label": "Sprint alleenprijs",
+    "expression": "4*24-40",
+    "expected": 56
+  },
+  {
+    "label": "Sprint alleenstof",
+    "expression": "4*20-52",
+    "expected": 28
+  },
+  {
+    "label": "Sprint beide",
+    "expression": "4*24-52",
+    "expected": 44
+  },
+  {
+    "label": "broodjes eqprijs",
+    "expression": "(120+20)/(10+10)",
+    "expected": 7
+  },
+  {
+    "label": "broodjes eqQ",
+    "expression": "120-10*7",
+    "expected": 50
+  },
+  {
+    "label": "broodtekort",
+    "expression": "(120-10*5)-(10*5-20)",
+    "expected": 40
+  },
+  {
+    "label": "flessen eq",
+    "expression": "(80+20)/10",
+    "expected": 10
+  },
+  {
+    "label": "flessen q",
+    "expression": "80-5*10",
+    "expected": 30
+  },
+  {
+    "label": "posters eq",
+    "expression": "(90+30)/15",
+    "expected": 8
+  },
+  {
+    "label": "schriften eq",
+    "expression": "(140+20)/20",
+    "expected": 8
+  },
+  {
+    "label": "manden eq",
+    "expression": "150/10",
+    "expected": 15
+  },
+  {
+    "label": "mandenQ",
+    "expression": "120-4*15",
+    "expected": 60
+  },
+  {
+    "label": "bekers eq",
+    "expression": "180/15",
+    "expected": 12
+  },
+  {
+    "label": "bekersQ",
+    "expression": "150-10*12",
+    "expected": 30
+  },
+  {
+    "label": "bekertekort",
+    "expression": "(150-10*10)-(5*10-30)",
+    "expected": 30
+  },
+  {
+    "label": "index10896",
+    "expression": "(108-96)/96*100",
+    "expected": 12.5
+  },
+  {
+    "label": "helmenoudP",
+    "expression": "(80+16)/8",
+    "expected": 12
+  },
+  {
+    "label": "helmennieuwP",
+    "expression": "(96+16)/8",
+    "expected": 14
+  },
+  {
+    "label": "helmennieuwQ",
+    "expression": "96-4*14",
+    "expected": 40
+  },
+  {
+    "label": "helmenaanbodscenario",
+    "expression": "80-4*((80+32)/8)",
+    "expected": 24
+  },
+  {
+    "label": "aardbeienPnieuw",
+    "expression": "(40+16)/4",
+    "expected": 14
+  },
+  {
+    "label": "aardbeienQnieuw",
+    "expression": "40-2*14",
+    "expected": 12
+  },
+  {
+    "label": "aardbeienprocent",
+    "expression": "(12-16)/16*100",
+    "expected": -25
+  },
+  {
+    "label": "plantvoedingQnieuw",
+    "expression": "72-3*14",
+    "expected": 30
+  },
+  {
+    "label": "notitieblokkenQnieuw",
+    "expression": "100-5*14",
+    "expected": 30
+  },
+  {
+    "label": "reparatiesQnieuw",
+    "expression": "112-4*16",
+    "expected": 48
+  },
+  {
+    "label": "reparatiesgroei",
+    "expression": "(48-40)/40*100",
+    "expected": 20
+  },
+  {
+    "label": "speelgoedprijs",
+    "expression": "132/12",
+    "expected": 11
+  },
+  {
+    "label": "speelgoedQ",
+    "expression": "120-6*11",
+    "expected": 54
+  },
+  {
+    "label": "kabelnieuwP",
+    "expression": "140/10",
+    "expected": 14
+  },
+  {
+    "label": "kabelnieuwQ",
+    "expression": "120-5*14",
+    "expected": 50
+  },
+  {
+    "label": "kabelgroei",
+    "expression": "(50-40)/40*100",
+    "expected": 25
+  },
+  {
+    "label": "knoppenoud",
+    "expression": "6*7-18",
+    "expected": 24
+  },
+  {
+    "label": "knoppennieuw",
+    "expression": "6*7-12",
+    "expected": 30
+  },
+  {
+    "label": "tentenoudP",
+    "expression": "(120+24)/12",
+    "expected": 12
+  },
+  {
+    "label": "tentennieuwP",
+    "expression": "(120+12)/12",
+    "expected": 11
+  },
+  {
+    "label": "tentennieuwQ",
+    "expression": "120-4*11",
+    "expected": 76
+  },
+  {
+    "label": "tassenoudP",
+    "expression": "200/20",
+    "expected": 10
+  },
+  {
+    "label": "tassenoudQ",
+    "expression": "180-10*10",
+    "expected": 80
+  },
+  {
+    "label": "tassennieuwP",
+    "expression": "240/20",
+    "expected": 12
+  },
+  {
+    "label": "tassennieuwQ",
+    "expression": "180-10*12",
+    "expected": 60
+  },
+  {
+    "label": "tassenPprocent",
+    "expression": "(12-10)/10*100",
+    "expected": 20
+  },
+  {
+    "label": "tassenQprocent",
+    "expression": "(60-80)/80*100",
+    "expected": -25
+  },
+  {
+    "label": "tassenQv14",
+    "expression": "180-10*14",
+    "expected": 40
+  },
+  {
+    "label": "tassenQa14",
+    "expression": "10*14-60",
+    "expected": 80
+  },
+  {
+    "label": "driehoek",
+    "expression": "0.5*8*(6-2)",
+    "expected": 16
+  },
+  {
+    "label": "index125150",
+    "expression": "(150-125)/125*100",
+    "expected": 20
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "file": "1.1.1_fig_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 208,
+    "type": "flow",
+    "nodes": [
+      [
+        "Behoeften",
+        [
+          "Wat wil je bereiken?"
+        ]
+      ],
+      [
+        "Beperkt middel",
+        [
+          "Tijd, geld of ruimte"
+        ]
+      ],
+      [
+        "Keuze",
+        [
+          "Wat doe je wél?"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "1.1.1_fig_2",
+    "kind": "instruction",
+    "width": 720,
+    "height": 273,
+    "type": "choice",
+    "options": [
+      [
+        "Naar de bibliotheek",
+        "Jouw gekozen activiteit",
+        "Geen toegangsprijs"
+      ],
+      [
+        "Honden uitlaten",
+        "3 × € 8 = € 24",
+        "Beste gemiste geldbedrag"
+      ],
+      [
+        "Tuinwerk",
+        "3 × € 6 = € 18",
+        "Niet óók erbij optellen"
+      ]
+    ],
+    "chosen": 0
+  },
+  {
+    "file": "1.1.1_we_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 208,
+    "type": "flow",
+    "nodes": [
+      [
+        "Middel",
+        [
+          "4 uur in de buurtzaal"
+        ]
+      ],
+      [
+        "Vergelijk",
+        [
+          "€ 160 of € 220"
+        ]
+      ],
+      [
+        "Kies bij het doel",
+        [
+          "Meeste geld: € 220"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "1.1.1_ex_3",
+    "kind": "instruction",
+    "width": 720,
+    "height": 273,
+    "type": "choice",
+    "options": [
+      [
+        "Portretfoto’s",
+        "Netto € 180",
+        "Gekozen: hoogste bedrag"
+      ],
+      [
+        "Productfoto’s",
+        "Netto € 150",
+        "Beste opgegeven optie"
+      ],
+      [
+        "Andere boeking",
+        "Niet beschikbaar",
+        "Geen haalbaar alternatief"
+      ]
+    ],
+    "chosen": 0
+  },
+  {
+    "file": "1.1.2_fig_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 214,
+    "type": "ratio-comparison",
+    "ratios": [
+      [
+        180,
+        12,
+        15
+      ],
+      [
+        18,
+        60,
+        0.3
+      ]
+    ]
+  },
+  {
+    "file": "1.1.2_fig_2",
+    "kind": "instruction",
+    "width": 720,
+    "height": 276,
+    "type": "bars",
+    "values": [
+      80,
+      100
+    ],
+    "pixels_per_unit": 3.4745762711864407
+  },
+  {
+    "file": "1.1.2_fig_3",
+    "kind": "instruction",
+    "width": 720,
+    "height": 276,
+    "type": "shares",
+    "values": [
+      20,
+      25
+    ],
+    "pixels_per_percent": 4.8
+  },
+  {
+    "file": "1.1.2_fig_4",
+    "kind": "instruction",
+    "width": 720,
+    "height": 266,
+    "type": "index",
+    "values": [
+      50,
+      60,
+      66
+    ],
+    "indices": [
+      100,
+      120,
+      132
+    ]
+  },
+  {
+    "file": "1.1.2_ex_12",
+    "kind": "instruction",
+    "width": 720,
+    "height": 276,
+    "type": "bars",
+    "values": [
+      48,
+      60
+    ],
+    "pixels_per_unit": 5.790960451977401
+  },
+  {
+    "file": "1.1.3_fig_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [
+      [
+        80,
+        2
+      ],
+      [
+        60,
+        4
+      ],
+      [
+        40,
+        6
+      ]
+    ],
+    "xmax": 100,
+    "ymax": 8,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "axes",
+    "reading": null
+  },
+  {
+    "file": "1.1.3_fig_2",
+    "kind": "instruction",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [
+      [
+        80,
+        2
+      ],
+      [
+        60,
+        4
+      ],
+      [
+        40,
+        6
+      ]
+    ],
+    "xmax": 100,
+    "ymax": 8,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "line",
+    "reading": null
+  },
+  {
+    "file": "1.1.3_fig_3",
+    "kind": "instruction",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [
+      [
+        80,
+        2
+      ],
+      [
+        60,
+        4
+      ],
+      [
+        40,
+        6
+      ]
+    ],
+    "xmax": 100,
+    "ymax": 8,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "line",
+    "reading": [
+      55,
+      4.5
+    ]
+  },
+  {
+    "file": "1.1.3_fig_4",
+    "kind": "instruction",
+    "width": 720,
+    "height": 208,
+    "type": "flow",
+    "nodes": [
+      [
+        "Aantal n",
+        [
+          "4 stoelen"
+        ]
+      ],
+      [
+        "Rekenregel",
+        [
+          "× 3, daarna + 6"
+        ]
+      ],
+      [
+        "Bedrag T",
+        [
+          "€ 18"
+        ]
+      ]
+    ]
+  },
+  {
+    "file": "1.1.3_fig_5",
+    "kind": "instruction",
+    "width": 720,
+    "height": 345,
+    "type": "area",
+    "panels": [
+      {
+        "vertices": [
+          [
+            2,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "area": 24.0,
+        "plot": [
+          50,
+          312,
+          56,
+          267
+        ],
+        "max": [
+          10,
+          8
+        ]
+      },
+      {
+        "vertices": [
+          [
+            2,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "area": 12.0,
+        "plot": [
+          409,
+          671,
+          56,
+          267
+        ],
+        "max": [
+          10,
+          8
+        ]
+      }
+    ],
+    "solution": true
+  },
+  {
+    "file": "1.1.3_fig_6",
+    "kind": "instruction",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [
+      [
+        1,
+        20
+      ],
+      [
+        3,
+        36
+      ],
+      [
+        6,
+        60
+      ]
+    ],
+    "xmax": 7,
+    "ymax": 70,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "line",
+    "reading": null
+  },
+  {
+    "file": "1.1.3_we_1",
+    "kind": "instruction",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [
+      [
+        60,
+        2
+      ],
+      [
+        40,
+        4
+      ],
+      [
+        20,
+        6
+      ]
+    ],
+    "xmax": 80,
+    "ymax": 8,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "line",
+    "reading": [
+      30,
+      5
+    ]
+  },
+  {
+    "file": "1.1.3_we_2",
+    "kind": "instruction",
+    "width": 720,
+    "height": 345,
+    "type": "area",
+    "panels": [
+      {
+        "vertices": [
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "area": 12.0,
+        "plot": [
+          50,
+          312,
+          56,
+          267
+        ],
+        "max": [
+          7,
+          6
+        ]
+      },
+      {
+        "vertices": [
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "area": 6.0,
+        "plot": [
+          409,
+          671,
+          56,
+          267
+        ],
+        "max": [
+          7,
+          6
+        ]
+      }
+    ],
+    "solution": true
+  },
+  {
+    "file": "1.1.3_ex_24",
+    "kind": "instruction",
+    "width": 720,
+    "height": 278,
+    "type": "chart",
+    "points": [
+      [
+        90,
+        2
+      ],
+      [
+        60,
+        4
+      ],
+      [
+        30,
+        6
+      ]
+    ],
+    "xmax": 120,
+    "ymax": 8,
+    "plot": [
+      82,
+      665,
+      51,
+      214
+    ],
+    "stage": "line",
+    "reading": [
+      45,
+      5
+    ]
+  },
+  {
+    "file": "1.1.3_ex_25",
+    "kind": "instruction",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [],
+    "xmax": 100,
+    "ymax": 10,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "axes",
+    "reading": null
+  },
+  {
+    "file": "1.1.3_ex_29",
+    "kind": "instruction",
+    "width": 720,
+    "height": 345,
+    "type": "area",
+    "panels": [
+      {
+        "vertices": [
+          [
+            3,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "area": 40.0,
+        "plot": [
+          50,
+          312,
+          56,
+          267
+        ],
+        "max": [
+          13,
+          8
+        ]
+      },
+      {
+        "vertices": [
+          [
+            3,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "area": 20.0,
+        "plot": [
+          409,
+          671,
+          56,
+          267
+        ],
+        "max": [
+          13,
+          8
+        ]
+      }
+    ],
+    "solution": false
+  },
+  {
+    "file": "1.1.3_ex_30",
+    "kind": "instruction",
+    "width": 720,
+    "height": 345,
+    "type": "area",
+    "panels": [
+      {
+        "vertices": [
+          [
+            2,
+            4
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "area": 24.0,
+        "plot": [
+          50,
+          312,
+          56,
+          267
+        ],
+        "max": [
+          10,
+          9
+        ]
+      },
+      {
+        "vertices": [
+          [
+            2,
+            4
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "area": 12.0,
+        "plot": [
+          409,
+          671,
+          56,
+          267
+        ],
+        "max": [
+          10,
+          9
+        ]
+      }
+    ],
+    "solution": false
+  },
+  {
+    "file": "1.1.4_ex_37",
+    "kind": "instruction",
+    "width": 720,
+    "height": 345,
+    "type": "area",
+    "panels": [
+      {
+        "vertices": [
+          [
+            1,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "area": 18.0,
+        "plot": [
+          50,
+          312,
+          56,
+          267
+        ],
+        "max": [
+          9,
+          6
+        ]
+      },
+      {
+        "vertices": [
+          [
+            1,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "area": 9.0,
+        "plot": [
+          409,
+          671,
+          56,
+          267
+        ],
+        "max": [
+          9,
+          6
+        ]
+      }
+    ],
+    "solution": false
+  },
+  {
+    "file": "1.1.3_ans_25",
+    "kind": "answer",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [
+      [
+        80,
+        2
+      ],
+      [
+        60,
+        4
+      ],
+      [
+        40,
+        6
+      ],
+      [
+        20,
+        8
+      ]
+    ],
+    "xmax": 100,
+    "ymax": 10,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "line",
+    "reading": [
+      50,
+      5
+    ]
+  },
+  {
+    "file": "1.1.3_ans_27",
+    "kind": "answer",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [
+      [
+        120,
+        3
+      ],
+      [
+        90,
+        6
+      ],
+      [
+        60,
+        9
+      ]
+    ],
+    "xmax": 150,
+    "ymax": 12,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "line",
+    "reading": [
+      100,
+      5
+    ]
+  },
+  {
+    "file": "1.1.3_ans_30",
+    "kind": "answer",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [
+      [
+        100,
+        2
+      ],
+      [
+        70,
+        5
+      ],
+      [
+        40,
+        8
+      ]
+    ],
+    "xmax": 120,
+    "ymax": 10,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "line",
+    "reading": [
+      80,
+      4
+    ]
+  },
+  {
+    "file": "1.1.4_ans_36",
+    "kind": "answer",
+    "width": 720,
+    "height": 360,
+    "type": "chart",
+    "points": [
+      [
+        180,
+        4
+      ],
+      [
+        140,
+        6
+      ],
+      [
+        100,
+        8
+      ]
+    ],
+    "xmax": 200,
+    "ymax": 10,
+    "plot": [
+      82,
+      665,
+      51,
+      296
+    ],
+    "stage": "line",
+    "reading": [
+      120,
+      7
+    ]
+  },
+  {
+    "file": "1.1.3_ans_29",
+    "kind": "answer",
+    "width": 720,
+    "height": 345,
+    "type": "area",
+    "panels": [
+      {
+        "vertices": [
+          [
+            3,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "area": 40.0,
+        "plot": [
+          50,
+          312,
+          56,
+          267
+        ],
+        "max": [
+          13,
+          8
+        ]
+      },
+      {
+        "vertices": [
+          [
+            3,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "area": 20.0,
+        "plot": [
+          409,
+          671,
+          56,
+          267
+        ],
+        "max": [
+          13,
+          8
+        ]
+      }
+    ],
+    "solution": true
+  },
+  {
+    "file": "1.1.3_ans_30_area",
+    "kind": "answer",
+    "width": 720,
+    "height": 345,
+    "type": "area",
+    "panels": [
+      {
+        "vertices": [
+          [
+            2,
+            4
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "area": 24.0,
+        "plot": [
+          50,
+          312,
+          56,
+          267
+        ],
+        "max": [
+          10,
+          9
+        ]
+      },
+      {
+        "vertices": [
+          [
+            2,
+            4
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "area": 12.0,
+        "plot": [
+          409,
+          671,
+          56,
+          267
+        ],
+        "max": [
+          10,
+          9
+        ]
+      }
+    ],
+    "solution": true
+  },
+  {
+    "file": "1.1.4_ans_37",
+    "kind": "answer",
+    "width": 720,
+    "height": 345,
+    "type": "area",
+    "panels": [
+      {
+        "vertices": [
+          [
+            1,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "area": 18.0,
+        "plot": [
+          50,
+          312,
+          56,
+          267
+        ],
+        "max": [
+          9,
+          6
+        ]
+      },
+      {
+        "vertices": [
+          [
+            1,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "area": 9.0,
+        "plot": [
+          409,
+          671,
+          56,
+          267
+        ],
+        "max": [
+          9,
+          6
+        ]
+      }
+    ],
+    "solution": true
+  }
+]

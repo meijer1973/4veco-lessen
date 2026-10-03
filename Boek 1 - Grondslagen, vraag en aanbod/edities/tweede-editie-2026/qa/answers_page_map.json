@@ -1,0 +1,1792 @@
+[
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 1,
+    "book_page": 3,
+    "edits": [
+      {
+        "rect": [
+          387.740478515625,
+          208.23797607421875,
+          393.5981140136719,
+          220.3572235107422
+        ],
+        "reason": "answer_contents_page",
+        "old": "2",
+        "new": "4",
+        "right_aligned": false,
+        "output_rect": [
+          387.740478515625,
+          208.23797607421875,
+          393.5981140136719,
+          220.3572235107422
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          387.740478515625,
+          230.41497802734375,
+          393.5981140136719,
+          242.5342254638672
+        ],
+        "reason": "answer_contents_page",
+        "old": "5",
+        "new": "7",
+        "right_aligned": false,
+        "output_rect": [
+          387.740478515625,
+          230.41497802734375,
+          393.5981140136719,
+          242.5342254638672
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          387.740478515625,
+          252.59194946289062,
+          399.45574951171875,
+          264.711181640625
+        ],
+        "reason": "answer_contents_page",
+        "old": "10",
+        "new": "12",
+        "right_aligned": false,
+        "output_rect": [
+          387.740478515625,
+          252.59194946289062,
+          399.45574951171875,
+          264.711181640625
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          387.740478515625,
+          274.7689514160156,
+          399.45574951171875,
+          286.88818359375
+        ],
+        "reason": "answer_contents_page",
+        "old": "17",
+        "new": "19",
+        "right_aligned": false,
+        "output_rect": [
+          387.740478515625,
+          274.7689514160156,
+          399.45574951171875,
+          286.88818359375
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "3",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 2,
+    "book_page": 4,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "4",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 3,
+    "book_page": 5,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "5",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 4,
+    "book_page": 6,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "6",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 5,
+    "book_page": 7,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "7",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 6,
+    "book_page": 8,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "8",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 7,
+    "book_page": 9,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "9",
+        "right_aligned": true,
+        "output_rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 8,
+    "book_page": 10,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "10",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 9,
+    "book_page": 11,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "11",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 10,
+    "book_page": 12,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "12",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 11,
+    "book_page": 13,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "13",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 12,
+    "book_page": 14,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "14",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 13,
+    "book_page": 15,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "15",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 14,
+    "book_page": 16,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "16",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 15,
+    "book_page": 17,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "17",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 16,
+    "book_page": 18,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "18",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 17,
+    "book_page": 19,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "19",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 18,
+    "book_page": 20,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "20",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 19,
+    "book_page": 21,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "21",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
+    "local_page": 20,
+    "book_page": 22,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "22",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 1,
+    "book_page": 23,
+    "edits": [
+      {
+        "rect": [
+          458.49798583984375,
+          208.23797607421875,
+          464.3556213378906,
+          220.3572235107422
+        ],
+        "reason": "answer_contents_page",
+        "old": "2",
+        "new": "24",
+        "right_aligned": false,
+        "output_rect": [
+          458.49798583984375,
+          208.23797607421875,
+          470.2132568359375,
+          220.3572235107422
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          458.49798583984375,
+          230.41497802734375,
+          464.3556213378906,
+          242.5342254638672
+        ],
+        "reason": "answer_contents_page",
+        "old": "7",
+        "new": "29",
+        "right_aligned": false,
+        "output_rect": [
+          458.49798583984375,
+          230.41497802734375,
+          470.2132568359375,
+          242.5342254638672
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          458.49798583984375,
+          252.59194946289062,
+          470.2132263183594,
+          264.711181640625
+        ],
+        "reason": "answer_contents_page",
+        "old": "13",
+        "new": "35",
+        "right_aligned": false,
+        "output_rect": [
+          458.49798583984375,
+          252.59194946289062,
+          470.2132568359375,
+          264.711181640625
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          458.49798583984375,
+          274.7689514160156,
+          470.2132263183594,
+          286.88818359375
+        ],
+        "reason": "answer_contents_page",
+        "old": "18",
+        "new": "40",
+        "right_aligned": false,
+        "output_rect": [
+          458.49798583984375,
+          274.7689514160156,
+          470.2132568359375,
+          286.88818359375
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      },
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "23",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 2,
+    "book_page": 24,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "24",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 3,
+    "book_page": 25,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "25",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 4,
+    "book_page": 26,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "26",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 5,
+    "book_page": 27,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "27",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 6,
+    "book_page": 28,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "28",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 7,
+    "book_page": 29,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "29",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 8,
+    "book_page": 30,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "30",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 9,
+    "book_page": 31,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "31",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 10,
+    "book_page": 32,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "32",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 11,
+    "book_page": 33,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "33",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 12,
+    "book_page": 34,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "34",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 13,
+    "book_page": 35,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "35",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 14,
+    "book_page": 36,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "36",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 15,
+    "book_page": 37,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "37",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 16,
+    "book_page": 38,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "38",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 17,
+    "book_page": 39,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "39",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 18,
+    "book_page": 40,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "40",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 19,
+    "book_page": 41,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "41",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 20,
+    "book_page": 42,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "42",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 21,
+    "book_page": 43,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "43",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
+    "local_page": 22,
+    "book_page": 44,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "22",
+        "new": "44",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 1,
+    "book_page": 45,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "1",
+        "new": "45",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 2,
+    "book_page": 46,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "2",
+        "new": "46",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 3,
+    "book_page": 47,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "3",
+        "new": "47",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 4,
+    "book_page": 48,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "4",
+        "new": "48",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 5,
+    "book_page": 49,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "5",
+        "new": "49",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 6,
+    "book_page": 50,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "6",
+        "new": "50",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 7,
+    "book_page": 51,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "7",
+        "new": "51",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 8,
+    "book_page": 52,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "8",
+        "new": "52",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 9,
+    "book_page": 53,
+    "edits": [
+      {
+        "rect": [
+          539.031982421875,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "9",
+        "new": "53",
+        "right_aligned": true,
+        "output_rect": [
+          533.8119506835938,
+          812.3953247070312,
+          544.251953125,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 10,
+    "book_page": 54,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "10",
+        "new": "54",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 11,
+    "book_page": 55,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "11",
+        "new": "55",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 12,
+    "book_page": 56,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "12",
+        "new": "56",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 13,
+    "book_page": 57,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "13",
+        "new": "57",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 14,
+    "book_page": 58,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "14",
+        "new": "58",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 15,
+    "book_page": 59,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "15",
+        "new": "59",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 16,
+    "book_page": 60,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "16",
+        "new": "60",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 17,
+    "book_page": 61,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "17",
+        "new": "61",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 18,
+    "book_page": 62,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "18",
+        "new": "62",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 19,
+    "book_page": 63,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "19",
+        "new": "63",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 20,
+    "book_page": 64,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "20",
+        "new": "64",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  },
+  {
+    "source": "hoofdstukken/H3/Boek_1_H3_Antwoorden_Tweede_editie.pdf",
+    "local_page": 21,
+    "book_page": 65,
+    "edits": [
+      {
+        "rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "reason": "continuous_page_number",
+        "old": "21",
+        "new": "65",
+        "right_aligned": true,
+        "output_rect": [
+          533.81201171875,
+          812.3953247070312,
+          544.2520141601562,
+          823.1953125
+        ],
+        "method": "empty exact original TJ run; append same-size text"
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-08",
+  "local_sources": [
+    {
+      "file": "1.1.1 Schaarste, keuzes en alternatieve kosten – paragraaf.md",
+      "sha256": "03176ea3287ff7e15773d2caacf2191c1ad2a0b3ce9c655b29d8332f85225d21",
+      "role": "Previously authored Chapter 1 prerequisite reference"
+    },
+    {
+      "file": "1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.md",
+      "sha256": "b09ac6bf7ea213f6b88ea9f9e1e823a71ceb4cf60fd9ecf732dd654f74c3afc0",
+      "role": "Previously authored Chapter 1 prerequisite reference"
+    },
+    {
+      "file": "1.1.3 Tabellen, grafieken en formules – paragraaf.md",
+      "sha256": "0b8630d0929a1d1d4dfc065fae1e6ae3666e67feaf80e9b96f50bf23332e2654",
+      "role": "Previously authored Chapter 1 prerequisite reference"
+    },
+    {
+      "file": "book-1-outline-second-edition-v1.md",
+      "sha256": "ab51a92b2be4a37e87317c32ac4d2a14174a3689e469b1f104e02c2c85668022",
+      "role": "Governing second-edition outline"
+    }
+  ],
+  "live_guidance": [
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "git_blob_sha": "91778371a11cbe9839a4822c3989e90e7317850a",
+      "requested_lines": [
+        1,
+        160
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repository": "meijer1973/4veco-lessen",
+      "path": "RESEARCH_AGENT_MAP.md",
+      "git_blob_sha": "d1e6b7fb1dadf5d2e1142e84aca34ccaab47c7f5",
+      "requested_lines": [
+        1,
+        128
+      ],
+      "url": "https://github.com/meijer1973/4veco-lessen/blob/main/RESEARCH_AGENT_MAP.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-exercise-builder.md",
+      "git_blob_sha": "5504c8e8a325864978c76867b15b857c118df19d",
+      "requested_lines": [
+        1,
+        345
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-exercise-builder.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-textbook-paragraph.md",
+      "git_blob_sha": "b48ff1f0d02748e6e4d1f98d6d892ac786562c3b",
+      "requested_lines": [
+        90,
+        355
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-textbook-paragraph.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/econ-didactiek.md",
+      "git_blob_sha": "5a38065e42754e0490e541002ba4465bf3dbeda8",
+      "requested_lines": [
+        1,
+        182
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/econ-didactiek.md"
+    },
+    {
+      "repository": "meijer1973/4veco-platform",
+      "path": "skills/economic-graph.md",
+      "git_blob_sha": "938d5e61c46de0d60b8bdeaf0aced2572715c2d0",
+      "requested_lines": [
+        1,
+        255
+      ],
+      "url": "https://github.com/meijer1973/4veco-platform/blob/main/skills/economic-graph.md"
+    }
+  ],
+  "interpretation": "The supplied second-edition Book 1 outline sets scope. Current repository skills supply method. New examples and target exercises are original authoring within those briefs, not quotations, repaired old targets, or reviewed_final records. The first-edition freeze is preserved."
+}
