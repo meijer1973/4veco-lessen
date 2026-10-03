@@ -47,6 +47,14 @@ teaching order; see the [chapter review and exact artifact identities](https://g
 | 2.3.3 Pareto-efficiëntie en welvaartsverlies | [PowerPoint](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies%20%E2%80%93%20presentatie.pptx) | [Slide PDF](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies%20%E2%80%93%20presentatie.pdf) | [Review](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.3%20Pareto-effici%C3%ABntie%20en%20welvaartsverlies/evidence/2.3.3-presentation.md) |
 | 2.3.4 Gemengde opgaven | [PowerPoint](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4%20Gemengde%20opgaven/2.3.4%20Gemengde%20opgaven%20%E2%80%93%20presentatie.pptx) | [Slide PDF](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4%20Gemengde%20opgaven/2.3.4%20Gemengde%20opgaven%20%E2%80%93%20presentatie.pdf) | [Review](Boek%202%20-%20Kosten%2C%20opbrengsten%2C%20elasticiteit%20en%20surplus/edities/chat-2026/bronnen/H3/paragrafen/2.3.4%20Gemengde%20opgaven/evidence/2.3.4-presentation.md) |
 
+## Book 1 classroom presentations, second edition 2026
+
+Classroom slides accompany the current second-edition paragraph exports. The textbook sources and sealed student PDFs retain their own authority.
+
+| Paragraph | Editable presentation | Projection/print copy | Evidence |
+|---|---|---|---|
+| 1.3.2 Marktevenwicht | [PowerPoint](Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/edities/tweede-editie-2026/paragrafen/H3/1.3.2%20Marktevenwicht%20%E2%80%93%20presentatie.pptx) | [Slide PDF](Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/edities/tweede-editie-2026/paragrafen/H3/1.3.2%20Marktevenwicht%20%E2%80%93%20presentatie.pdf) | [Author review](Boek%201%20-%20Grondslagen%2C%20vraag%20en%20aanbod/edities/tweede-editie-2026/paragrafen/H3/evidence/1.3.2-presentation.md) |
+
 ## Book 3 classroom presentations
 
 Current v3 presentations for all 14 paragraphs live beside the existing
