@@ -19,7 +19,7 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H2/1.2.2 Vraagfactoren – paragraaf.md",
-      "sha256": "e0573715e6e956ed47e30e10db1e7f262e4062b79b8898cadea8d85431cea3f9",
+      "sha256": "57fe7dacb96f888b82d170bd55060c129fcd8effbae8fbed89c8a4eacd8f6c7a",
       "hash_mode": "utf8_lf"
     },
     {
@@ -493,7 +493,7 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H2/Boek_1_H2_Antwoorden_Tweede_editie.pdf",
-      "sha256": "7783f148903e275283ef85b05d8645044e006c88b07a8e7469c4ea96189f1b23",
+      "sha256": "fde66954ffff0a20671c951758230558c0a4374d52b6ce25d14d50ecb601f4c9",
       "hash_mode": "exact_bytes"
     },
     {
@@ -505,31 +505,31 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H2/Boek_1_H2_Docenteninformatie_Tweede_editie.pdf",
-      "sha256": "fca0813359c12ebfb4f5eac98e59abf1faa4b16e47f3e75501aedb1d9cbc74f4",
+      "sha256": "c9a4dddd22e2abcc4e194e88941aeee7f615624a26727cb5736c8791629dab39",
       "hash_mode": "exact_bytes"
     },
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.html",
-      "sha256": "104b94b334d8f5ac0737a3763e2e6fb744dc2c5aae76291ff601ab0fd5d80f85",
+      "sha256": "3d852d9b7f37bb9c848ade9e52f10e5b388d12734ae250d09baecd8370cfa387",
       "hash_mode": "utf8_lf"
     },
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H2/Boek_1_H2_Vraag_Tweede_editie.pdf",
-      "sha256": "9beecb35083969c828991ad7003a9907f3a92482a3ba98ac7817887b2830d9cf",
+      "sha256": "0e070cd91771cae6f2d29d7849b48c8d2cf61260d8a30ee980cc31ccf5249016",
       "hash_mode": "exact_bytes"
     },
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/paragrafen/H2/1.2.1 Betalingsbereidheid en individuele vraag – antwoorden.pdf",
-      "sha256": "7bb8590951c2c65eb29faf20f2c634075ef7bc1c3d2fcdb9944c78ac103ec5a6",
+      "sha256": "e8f342c46371e27b8a406da59836525d233dc8a567f228e0f46fdf7d60642ded",
       "hash_mode": "exact_bytes"
     },
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/paragrafen/H2/1.2.1 Betalingsbereidheid en individuele vraag – paragraaf.pdf",
-      "sha256": "19a2aec5dc01f6610f80a9fc5cd607bc4ac2ade3f3771607d4ce1481d6e9b4f4",
+      "sha256": "a0363feb7866d1ab99fabd01c9141b5e803620b44e6b3e45009a6f91394b3a09",
       "hash_mode": "exact_bytes"
     },
     {
@@ -655,13 +655,13 @@
     {
       "repository": "platform",
       "path": "build-scripts/books/book1_second_edition/verify.py",
-      "sha256": "d68c5cd79773af68d9645bc0e02c85143bb6dd3ac042c4d38e794d24f924b4ec",
+      "sha256": "dec2ea3c701823e382f9eeef97729c79df6abf19bbc407967d016dedc55c3fa2",
       "hash_mode": "utf8_lf"
     },
     {
       "repository": "platform",
       "path": "references/owned/book1-second-edition-2026/targets.json",
-      "sha256": "f3ce0c0e840a823574b596e11162c403e739b28926908b1bfe5c11469bece95d",
+      "sha256": "3ee165784ee930d204d440ccad958da8c10a07202951d94fbf6757caffd1d553",
       "hash_mode": "utf8_lf"
     },
     {

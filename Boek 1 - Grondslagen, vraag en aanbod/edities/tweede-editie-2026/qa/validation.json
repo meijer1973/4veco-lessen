@@ -989,7 +989,7 @@
     {
       "check": "student:text_geometry:61",
       "pass": true,
-      "detail": "358 / 358"
+      "detail": "362 / 362"
     },
     {
       "check": "student:footer:61",

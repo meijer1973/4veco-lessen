@@ -445,7 +445,7 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H1/Boek_1_H1_Antwoorden_Tweede_editie.pdf",
-      "sha256": "c2370fc0b7e3e8fdb2e1433bfde3e810c2d8c639c61bac0d70688fc3bd4c4869",
+      "sha256": "246be24912314367b9d103b0f21278d69ff3b5676dfae01b092a31135e0fa35c",
       "hash_mode": "exact_bytes"
     },
     {
@@ -457,7 +457,7 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H1/Boek_1_H1_Docenteninformatie_Tweede_editie.pdf",
-      "sha256": "ffdae703795acdd8cd5125c070f02492d5b0c4080f58800b3f2009fb6592e241",
+      "sha256": "4405d423fd317cc35480eade330322a9bc71a4b41cf3dd51a0486adddb04803b",
       "hash_mode": "exact_bytes"
     },
     {
@@ -469,19 +469,19 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H1/Boek_1_H1_Economisch_denken_en_rekenen_Tweede_editie.pdf",
-      "sha256": "f5c7a57b2b8d1bc084e3219d642eea3bf17fbad93a6fbfa6ccf264c0f2ac6a9d",
+      "sha256": "c8bdded08cf6a35eff13373eb483216f6f5f4479a441ec12a7cffc67312254bf",
       "hash_mode": "exact_bytes"
     },
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/paragrafen/H1/1.1.2 Verhoudingen, percentages en indexcijfers – antwoorden.pdf",
-      "sha256": "3aad9641eb96f3b2b9e39da33bc3d7161268cf1af4874b4bccbf0f1a5c196c86",
+      "sha256": "e55cd18ee3ba4c65af9d2633e0e7e045b7397368bca417509fb3feb92f14a982",
       "hash_mode": "exact_bytes"
     },
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/paragrafen/H1/1.1.2 Verhoudingen, percentages en indexcijfers – paragraaf.pdf",
-      "sha256": "7e3769394db797cf2951fdbbb486a1b0166c8e5d61431556ebde00ce20977a45",
+      "sha256": "63d3c6f6969b69d94374a039c9cb86476e56e57937d2319ab6de7ef9889d4610",
       "hash_mode": "exact_bytes"
     },
     {
@@ -607,13 +607,13 @@
     {
       "repository": "platform",
       "path": "build-scripts/books/book1_second_edition/verify.py",
-      "sha256": "d68c5cd79773af68d9645bc0e02c85143bb6dd3ac042c4d38e794d24f924b4ec",
+      "sha256": "dec2ea3c701823e382f9eeef97729c79df6abf19bbc407967d016dedc55c3fa2",
       "hash_mode": "utf8_lf"
     },
     {
       "repository": "platform",
       "path": "references/owned/book1-second-edition-2026/targets.json",
-      "sha256": "f3ce0c0e840a823574b596e11162c403e739b28926908b1bfe5c11469bece95d",
+      "sha256": "3ee165784ee930d204d440ccad958da8c10a07202951d94fbf6757caffd1d553",
       "hash_mode": "utf8_lf"
     },
     {
