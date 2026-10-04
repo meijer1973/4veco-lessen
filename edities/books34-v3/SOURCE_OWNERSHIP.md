@@ -1,5 +1,14 @@
 # Bronbestanden en gegenereerde bestanden
 
+**Actuele onderhoudsroute, 4 oktober:** gebruik vanuit platform
+`python build-scripts/books/rebuild_textbook_maintenance.py --book 34 --lessons ../4veco-lessen`.
+Deze controller bouwt de gewijzigde antwoordhoofdstukken expliciet vóór de
+boekassemblage en vernieuwt paragraafexports en doelrecords. De afzonderlijke
+`verify_textbook_maintenance.py` controleert de huidige bronnen/publicaties.
+De onderstaande eigendomsverdeling blijft gelden. De vorige controller en
+zijn bevroren manifest controleren uitsluitend hun historische revisie; alleen
+een manifest vernieuwen is geen geldige acceptatie van nieuwe bronwijzigingen.
+
 Deze indeling geldt voor de actuele v3-opvolging. Zie de [platformbouwroute](https://github.com/meijer1973/4veco-platform/blob/main/build-scripts/books/BOOKS34-FOLLOWUPS.md) en [navigatie-, antwoordkop- en docentnotities](FOLLOWUPS-2026-09-28.md). De oorspronkelijke [routenotities](ROUTE-REVISION-2026-09-21.md) blijven historische context.
 
 | Bestand | Eigenaarschap en juiste wijzigingsplaats |
