@@ -41,8 +41,8 @@
     },
     {
       "path": "build-scripts/books/textbook-maintenance-contract.json",
-      "bytes": 12738,
-      "sha256": "a1ee8a81be431e02ab75281ea2eb457494b8f45e558259b8ef3a60a0b69688cb"
+      "bytes": 12804,
+      "sha256": "bc406a40d5f934266ef4233573fa763259fdb620df15574ed4b52c8e1b9e97bf"
     },
     {
       "path": "build-scripts/books/textbook-maintenance-presentations.json",
@@ -120,14 +120,19 @@
       "sha256": "b108f85db30bc1042a6704825dacb412645a377fd045acf6784d6c7c3865333a"
     },
     {
+      "path": "build-scripts/maintenance/check-classroom-notation.test.js",
+      "bytes": 10840,
+      "sha256": "42765f87e98f43945e6ec72d7f080686641f35b6afedb09fb47860020b67e2b5"
+    },
+    {
       "path": "docs/workflows/book1-second-edition.md",
       "bytes": 3613,
       "sha256": "214569fa5870060cdfffea04fb5937b3fcf97485fee35082198af01e7eda7b32"
     },
     {
       "path": "docs/workflows/textbook-maintenance-20261004.md",
-      "bytes": 8669,
-      "sha256": "4aeb29ca0e6fdb816574c6e1b778af0666d4e7aa23075851500570e49bae284b"
+      "bytes": 8967,
+      "sha256": "7e3ae21a9a78c7e3d2b56cfa68f39af721b835507fd6489c627b27966879e276"
     },
     {
       "path": "references/owned/book1-second-edition-2026/targets.json",
@@ -229,7 +234,7 @@
     {
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/qa/input_hashes.json",
       "bytes": 1407,
-      "sha256": "45e0dcc9c9a2aa131119d1a57a2db764bccd5f67ee0fe419c2b9b6308fb4c28a"
+      "sha256": "375a1a2d42d56af4f66e9f7926b51de6a5ff5c3e5c351f5c11f20246f1025093"
     },
     {
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/qa/reviews/1.1.1-textbook-review-manifest.json",
