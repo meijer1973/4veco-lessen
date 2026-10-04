@@ -32,7 +32,7 @@
     "figures": [
       {
         "path": "books/book-4/chapters/4.3/_assets/eq_target.svg",
-        "sha256": "b050da4637ecc5b395f8f04ed6acbd6d4fc06d43e4919b1781a4f65b7d939656"
+        "sha256": "77659af656b7cbd6a52f747bcef101b164515441bea8b3a417a0f379cb58aef5"
       }
     ],
     "subquestions": [
@@ -104,7 +104,7 @@
     "student_file": "books/book-4/chapters/4.3/4.3.2 manuscript.md",
     "student_manuscript_sha256": "64323fd7ca261d025bb5944f65032d72b6d7a97d124f1ded9a2abeeea5dd89e7",
     "answer_file": "books/book-4/chapters/4.3/Antwoorden.md",
-    "answer_file_sha256": "e602feba92be7245eeb349393f6787a2eac044e8c12a956712f3ac507f658f9f",
+    "answer_file_sha256": "d98abc0feee38b289bf1a5189684bd4d58e70a7ba9dbaecc3724272e4d2c5013",
     "chapter_student_pages": [
       18
     ],
@@ -210,5 +210,5 @@
     "Classroom timing is not measured."
   ],
   "target_payload_schema": "source-context-questions-answers-assets-v2",
-  "target_payload_sha256": "67fafb4a743798a9f8bd0f41125a240f47a45475ac0ff04820b182cf1d30182d"
+  "target_payload_sha256": "31166ffa7e4b989e99e40e93e4911cd5842480f9ea4094b8bc2ffe4f7fd12582"
 }

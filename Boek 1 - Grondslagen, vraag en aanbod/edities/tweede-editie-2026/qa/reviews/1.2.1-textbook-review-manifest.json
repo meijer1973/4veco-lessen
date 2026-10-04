@@ -7,7 +7,7 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/README.md",
-      "sha256": "c17923491bd2e07ca0ea1830308b5c983598a26bfd45a3eac460eb74ccb10d00",
+      "sha256": "afed60676749fafa6acb72093bb259a06fdf6c627db1353c3a01314d2178d4b6",
       "hash_mode": "utf8_lf"
     },
     {
@@ -661,7 +661,7 @@
     {
       "repository": "platform",
       "path": "references/owned/book1-second-edition-2026/targets.json",
-      "sha256": "3ee165784ee930d204d440ccad958da8c10a07202951d94fbf6757caffd1d553",
+      "sha256": "5e05caf8b1a7e1936f343517f128e00cc915f57cc22d3a2ffe91e1cda2f889cc",
       "hash_mode": "utf8_lf"
     },
     {

@@ -2868,23 +2868,7 @@
       "pass": true
     },
     {
-      "check": "1.2.4_ex_37 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.2_ans_18 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.2_ans_15 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.4_ans_36 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.1_we_1 referenced asset is registered",
+      "check": "1.2.2_fig_1 referenced asset is registered",
       "pass": true
     },
     {
@@ -2892,31 +2876,7 @@
       "pass": true
     },
     {
-      "check": "1.2.2_ex_15 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.1_ex_4 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.3_fig_2 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.1_fig_1 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.1_ex_3 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.1_ans_8 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.2_fig_3 referenced asset is registered",
+      "check": "1.2.2_ex_18 referenced asset is registered",
       "pass": true
     },
     {
@@ -2924,71 +2884,11 @@
       "pass": true
     },
     {
-      "check": "1.2.3_ans_30 referenced asset is registered",
+      "check": "1.2.3_ans_28 referenced asset is registered",
       "pass": true
     },
     {
-      "check": "1.2.2_ex_18 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.2_ans_19 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.2_fig_1 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.4_ans_37 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.1_fig_2 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.3_we_1 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.1_ans_4 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.3_ans_26 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.3_fig_1 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.3_ex_25 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.2_fig_2 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.2_fig_4 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.2_ex_14 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.1_fig_3 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.3_ex_26 referenced asset is registered",
-      "pass": true
-    },
-    {
-      "check": "1.2.1_fig_4 referenced asset is registered",
+      "check": "1.2.1_ex_4 referenced asset is registered",
       "pass": true
     },
     {
@@ -2996,7 +2896,107 @@
       "pass": true
     },
     {
-      "check": "1.2.3_ans_28 referenced asset is registered",
+      "check": "1.2.2_ans_19 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_3 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_15 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_3 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_1 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_2 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_37 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_26 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ans_30 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_8 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_15 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ans_18 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_2 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_2 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_we_1 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_fig_4 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_ex_14 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ans_4 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ans_36 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_we_1 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_25 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.2_fig_4 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_ex_26 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.4_ex_37 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.1_ex_3 referenced asset is registered",
+      "pass": true
+    },
+    {
+      "check": "1.2.3_fig_1 referenced asset is registered",
       "pass": true
     },
     {

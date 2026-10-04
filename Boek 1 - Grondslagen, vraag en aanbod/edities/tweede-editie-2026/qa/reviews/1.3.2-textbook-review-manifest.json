@@ -7,7 +7,7 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/README.md",
-      "sha256": "c17923491bd2e07ca0ea1830308b5c983598a26bfd45a3eac460eb74ccb10d00",
+      "sha256": "afed60676749fafa6acb72093bb259a06fdf6c627db1353c3a01314d2178d4b6",
       "hash_mode": "utf8_lf"
     },
     {
@@ -25,7 +25,7 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/1.3.3 Verschuivingen en nieuw evenwicht – paragraaf.md",
-      "sha256": "a6e550c22e037e950f0f7f9015827a0046a23138cef3591e31237e6cec5533bf",
+      "sha256": "8c3d46243338d1d2ecb24985433862075b46b022119b5d8e1130b6427d7f2f4c",
       "hash_mode": "utf8_lf"
     },
     {
@@ -43,7 +43,7 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/Docenteninformatie.md",
-      "sha256": "854e7e555300b8bc0eff5a7dc8e549171c899ba2098523c1b665a98e6ceb8847",
+      "sha256": "a8e1bf2df94b5d9aa0b2a9aeaf36f87b0b73fd0d465d67660920b71ddf4ac2e7",
       "hash_mode": "utf8_lf"
     },
     {
@@ -61,7 +61,7 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/bronnen/H3/QA/lesson_minutes.json",
-      "sha256": "aef21389ecd43c87c1cc47d8087c7417d8e5569585f945f2b43726ab508e56d7",
+      "sha256": "754f3fb5340464651cecdf33b9cc7ad1a09725f4067c1ddbc640f2dc088834b9",
       "hash_mode": "utf8_lf"
     },
     {
@@ -535,13 +535,13 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.html",
-      "sha256": "606974cd8ac4953118eaa8087429b70f66cbe01defa001ead242618a46d6bd83",
+      "sha256": "19f15de39924200ae57345f4cab929ade27f6c64e700782f67e3bb71dece4b27",
       "hash_mode": "utf8_lf"
     },
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Aanbod_en_marktevenwicht_Tweede_editie.pdf",
-      "sha256": "dae97868a765e052de6cf72987287790959b6153a9e2b46785b82dfd937ddfaa",
+      "sha256": "e4399837544f028bfde97d7268aef0e59a117982536e782fece99be21312d9fb",
       "hash_mode": "exact_bytes"
     },
     {
@@ -559,13 +559,13 @@
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Docenteninformatie_Tweede_editie.html",
-      "sha256": "469c32c33ae267428ff24cdc62c4f6ad4fcacf6b9a70c4ee327b39decbebdffa",
+      "sha256": "36bc87f4f5d8620cb49ea1c7db6b3642ab75f941836caf821bdf319eb02be306",
       "hash_mode": "utf8_lf"
     },
     {
       "repository": "lessons",
       "path": "Boek 1 - Grondslagen, vraag en aanbod/edities/tweede-editie-2026/hoofdstukken/H3/Boek_1_H3_Docenteninformatie_Tweede_editie.pdf",
-      "sha256": "d63b769bdb91a5917eb012e7b4f4397c4f76dfd99de6459bf6e202931a760abc",
+      "sha256": "05f0aae5c5e0e0fb39f0efa5e4fa44867d1afaaf452cde2d5bf084ff7cbeed7d",
       "hash_mode": "exact_bytes"
     },
     {
@@ -709,7 +709,7 @@
     {
       "repository": "platform",
       "path": "references/owned/book1-second-edition-2026/targets.json",
-      "sha256": "3ee165784ee930d204d440ccad958da8c10a07202951d94fbf6757caffd1d553",
+      "sha256": "5e05caf8b1a7e1936f343517f128e00cc915f57cc22d3a2ffe91e1cda2f889cc",
       "hash_mode": "utf8_lf"
     },
     {

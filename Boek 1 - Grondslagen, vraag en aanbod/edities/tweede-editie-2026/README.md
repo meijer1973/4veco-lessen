@@ -9,6 +9,21 @@ De drie hoofdstukken bevatten twaalf paragrafen, 114 opgaven en 280 deelvragen.
 - [Docenteninformatie · 28 pagina’s](boek/Boek_1_Compleet_Docenteninformatie_Tweede_editie.pdf)
 - [Hoofdstukken en losse paragrafen](index.html)
 
+## Onderhoud 4 oktober 2026
+
+§1.3.3 heeft op pagina 114 een afzonderlijk uitgewerkt voorbeeld vóór opgave 27.
+Alle opgaven, antwoorden, paginering en tegenoverliggende bron-/vraagpagina’s
+blijven behouden. De docentraming bevat voorlopig vijf extra minuten: 1.386
+minuten voor het boek, minimaal 26 volledige lessen van 55 minuten vóór
+aanvullende herhaling en uitloop. Ook de eerdere 1.381 minuten vergden al 26
+lessen. Tijd, afronding en hulpbehoefte moeten nog in de klas worden gemeten.
+
+De twaalf presentaties van de tweede editie zijn afzonderlijk geleverd. Hun
+paginaverwijzingen blijven geldig. Oude quizzen en webmodellen horen nog bij de
+eerste editie. Zie de [huidige bouw- en controleroute](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/textbook-maintenance-20261004.md)
+voor deze begrensde opvolging; eerdere ontvangst- en reviewbewijzen blijven
+historisch en worden niet opnieuw als goedkeuring van gewijzigde bestanden gebruikt.
+
 ## Bronnen en bouwen
 
 `bronnen/H1`, `H2` en `H3` bevatten de bewerkbare paragraafmanuscripten,
@@ -59,4 +74,6 @@ De nieuwe doelen krijgen een eigen editie-identiteit. Oude `reviewed_final`-
 status, machinekoppelingen en curriculumautoriteit worden niet geërfd. De
 onafhankelijke inhoudsreview van deze editie en repository-CI zijn afzonderlijke
 bewijzen; ze vormen geen nieuwe CvTE-validatie of gemeten leereffect.
-Boek 2–4, hun historische bewijzen en Part B blijven inhoudelijk ongewijzigd.
+Bij de oorspronkelijke integratie bleven Boeken 2–4 en Part B inhoudelijk
+ongewijzigd. Het afzonderlijke onderhoud van 4 oktober corrigeert ook genoemde
+Boek 3/4-bronnen en drie direct afhankelijke presentaties; Boek 2 blijft ongewijzigd.

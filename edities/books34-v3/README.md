@@ -1,5 +1,14 @@
 # Boeken 3 en 4 — actuele v3-uitgave
 
+**Onderhoud 4 oktober 2026:** [actuele correcties, bouwroute en controle](https://github.com/meijer1973/4veco-platform/blob/main/docs/workflows/textbook-maintenance-20261004.md).
+Boek 4-grafieken respecteren de capaciteit en loondomeinen, antwoord 27 verwijst
+naar §4.1.3 en de antwoord-ID’s 37–41 en de kop bij 39 zijn hersteld. Boek 3 heeft
+drie herstelde tussenkoppen en een ruimere definitie van welvaartsverlies met
+zichtbare modelvoorwaarden. De afhankelijke publicaties en drie presentaties
+zijn bijgewerkt. Opgaven, berekeningen, leerdoelen, paginering en navigatie blijven
+behouden. NAV1, de eerdere antwoordkop en TIMING34-docentadvies blijven gesloten;
+gemeten lestijd en targetautoriteit blijven afzonderlijke vragen.
+
 **Opvolging 28 september 2026:** [navigatie, antwoordkop en docentadvies](FOLLOWUPS-2026-09-28.md). Herstelde hoofdstukkoppelingen, “Herhaling 29 en 30” en een voorlopige tweelessenplanning voor de 25 theorieparagrafen. Leerlingtekst, oefeningen, doelen en paginering blijven behouden; de lestijd is niet gemeten.
 
 **Getekende prijselasticiteit, 26 september 2026:** [actuele bouwroute en afbakening](SIGNED-RETRIEVAL-2026-09-26.md). Twee leerlingvragen en zes antwoordtoelichtingen vergelijken Ev rechtstreeks met −1 en 0. De bestaande berekeningen, doelen, nummering en routes blijven behouden. De antwoordhoofdstukken zijn expliciet herbouwd; deze opvolger krijgt eigen bewijs en vervangt geen historische review.
@@ -19,11 +28,13 @@ Dit pakket vervangt de eerdere v3-levering. De vijf figuurnummers, context-expor
 
 De hoofdstukken tellen respectievelijk **48/34/38** en **48/60/44** leerlingpagina’s. De indeling blijft **14 paragrafen (6+4+4)** en **17 (5+7+5)**. Alle **31 manuscripten en paragraaf-PDFs**, de zes hoofdstukken met antwoorden en docentmateriaal, 31 gevulde kandidaat-doelrecords en de bewerkbare bronnen zijn aanwezig.
 
-De inhoud en nummering blijven behouden: **276 opgaven, 734 deelvragen**. Na de acht genoemde vraag-/antwoordfragmenten zijn alleen de genoemde antwoordkop en docentadviezen tekstueel aangepast. De 31 targets bevatten **156 deelvragen**. De eerdere vijf figuurcorrecties en de routeherziening blijven behouden.
+De inhoud en nummering blijven behouden: **276 opgaven, 734 deelvragen**.
+De 31 targets bevatten **156 deelvragen**. De eerdere correcties en routeherziening
+blijven behouden; de aanvullingen van 4 oktober staan hierboven afzonderlijk vermeld.
 
 ## Begin hier
 
-Begin met [de huidige opvolging](FOLLOWUPS-2026-09-28.md); de [getekende-elasticiteitsrevisie](SIGNED-RETRIEVAL-2026-09-26.md) en [routeherziening](ROUTE-REVISION-2026-09-21.md) blijven de voorgeschiedenis. Historische integratiecontext staat in [HANDOFF.md](HANDOFF.md) en [de concrete v2→v3-migratie](integration/V3_MIGRATION.md). Controleer alleen een ongewijzigde oorspronkelijke ontvangstkopie met:
+Begin met de onderhoudsroute van 4 oktober hierboven; de [opvolging van 28 september](FOLLOWUPS-2026-09-28.md), [getekende-elasticiteitsrevisie](SIGNED-RETRIEVAL-2026-09-26.md) en [routeherziening](ROUTE-REVISION-2026-09-21.md) blijven de voorgeschiedenis. Historische integratiecontext staat in [HANDOFF.md](HANDOFF.md) en [de concrete v2→v3-migratie](integration/V3_MIGRATION.md). Controleer alleen een ongewijzigde oorspronkelijke ontvangstkopie met:
 
 ```text
 python verify_manifest.py
