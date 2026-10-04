@@ -96,8 +96,8 @@
     },
     {
       "path": "build-scripts/content/book-4/presentation-432.mjs",
-      "bytes": 31656,
-      "sha256": "2c4c5ce064cf0488ed071d71095eb2f8f24f27a680521e892b025da4c98ca450"
+      "bytes": 31400,
+      "sha256": "a84bd0b1c1862e810367c69dba45e090e8883b7f5e84acab33f1d31d27a5ad6b"
     },
     {
       "path": "build-scripts/content/book-4/presentation-435.manifest.json",
