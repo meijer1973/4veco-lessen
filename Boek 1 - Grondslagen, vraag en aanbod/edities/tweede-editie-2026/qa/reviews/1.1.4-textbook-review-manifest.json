@@ -613,7 +613,7 @@
     {
       "repository": "platform",
       "path": "references/owned/book1-second-edition-2026/targets.json",
-      "sha256": "3ee165784ee930d204d440ccad958da8c10a07202951d94fbf6757caffd1d553",
+      "sha256": "5e05caf8b1a7e1936f343517f128e00cc915f57cc22d3a2ffe91e1cda2f889cc",
       "hash_mode": "utf8_lf"
     },
     {

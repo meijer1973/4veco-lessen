@@ -1759,7 +1759,7 @@
     {
       "check": "student:text_geometry:111",
       "pass": true,
-      "detail": "315 / 315"
+      "detail": "320 / 320"
     },
     {
       "check": "student:footer:111",
@@ -1804,7 +1804,7 @@
     {
       "check": "student:text_geometry:114",
       "pass": true,
-      "detail": "208 / 208"
+      "detail": "348 / 348"
     },
     {
       "check": "student:footer:114",
@@ -4104,7 +4104,7 @@
     {
       "check": "teacher:text_geometry:22",
       "pass": true,
-      "detail": "280 / 280"
+      "detail": "287 / 287"
     },
     {
       "check": "teacher:footer:22",
@@ -4119,7 +4119,7 @@
     {
       "check": "teacher:text_geometry:23",
       "pass": true,
-      "detail": "240 / 240"
+      "detail": "283 / 283"
     },
     {
       "check": "teacher:footer:23",
@@ -4134,7 +4134,7 @@
     {
       "check": "teacher:text_geometry:24",
       "pass": true,
-      "detail": "289 / 289"
+      "detail": "301 / 301"
     },
     {
       "check": "teacher:footer:24",

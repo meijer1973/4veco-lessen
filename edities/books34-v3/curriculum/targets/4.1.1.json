@@ -32,7 +32,7 @@
     "figures": [
       {
         "path": "books/book-4/chapters/4.1/_assets/3.2.3_target.svg",
-        "sha256": "fb7c50589eac2ff53e993d5a044c72539d2a4b42f89e02f122e85406f71a84a7"
+        "sha256": "30200d658307fb7da85b85bc7e62a5486e6d6ac5d09d9c69b4467a4d30a44646"
       }
     ],
     "subquestions": [
@@ -86,7 +86,7 @@
   "answer_figures": [
     {
       "path": "books/book-4/chapters/4.1/_assets/3.2.3_ans_2.svg",
-      "sha256": "9e5aec5347e7ab8f7f708abe6ce526ef27430fd24788c27b9a2563215870f25d"
+      "sha256": "351135a14b4cef063d462fa88387f12c57b84635838ee50cf9602b898a9cf911"
     }
   ],
   "lesson_goals": [
@@ -244,5 +244,5 @@
     "Classroom timing is not measured."
   ],
   "target_payload_schema": "source-context-questions-answers-assets-v2",
-  "target_payload_sha256": "a38ec5f8dc9ecf621561f8b0ca86c7c0f58bba4727e394124a6b8c9438f0c09c"
+  "target_payload_sha256": "0a99a82466a20bda140682b1994e352205f7ab2482c9c34ef7ed34e35a0254bb"
 }
