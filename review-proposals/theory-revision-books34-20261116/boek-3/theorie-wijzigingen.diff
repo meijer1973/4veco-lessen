@@ -1,0 +1,691 @@
+--- huidig/3.1/3.1.1 manuscript.md
++++ nieuw/3.1/3.1.1 manuscript.md
+@@ -13,34 +13,36 @@
+ 
+ ### Geef de prijzen een eigen naam
+ 
++Zonder belasting is er één prijs: wat de koper betaalt, ontvangt de verkoper. Met een belasting per product klopt dat niet meer. Van elk betaald bedrag gaat een deel naar de overheid. Daarom rekenen we voortaan met twee prijzen.
++
+ **Pc** is de prijs die de consument betaalt. **Pp** is het bedrag dat de producent per verkocht product overhoudt na afdracht van de belasting, maar **vóór aftrek van zijn productiekosten**. **t** is de belasting per product.
+ 
+ <figure><img src="_assets/3.1.1_fig_1.svg" alt="Van de € 10 die de koper betaalt, houdt de verkoper € 6 over. De overige € 4 gaat naar de overheid."><figcaption>Figuur 1. Van de € 10 die de koper betaalt, houdt de verkoper € 6 over. De overige € 4 gaat naar de overheid.</figcaption></figure>
+ 
++Het verschil tussen wat de koper betaalt en wat de verkoper overhoudt, is precies de belasting. Dat verschil heet de **belastingwig**: de belasting drijft de twee prijzen uit elkaar.
++
+ <div class="formula">Belastingwig: Pc − Pp = t<br>Dus: Pc = Pp + t</div>
+ 
+ 
+-<div class="small">De bedragen in de geldstroom zijn de nieuwe marktuitkomst die we hierna berekenen. Pp is dus géén winst per product.</div>
++<div class="small">De bedragen in figuur 1 zijn de nieuwe marktuitkomst die we hierna berekenen. Pp is géén winst per product: de productiekosten moeten er nog af.</div>
+ 
+ <!-- PAGE {"section": "3.1.1", "title": "De markt rekent met beide prijzen", "origin_chapter": "3.1", "origin_page": 3, "edition_page": 3} -->
+ 
+ ### Wat blijft hetzelfde?
+ 
+-Kopers reageren op **hun betaalde prijs Pc**. Verkopers reageren op **hun ontvangst Pp**. Bij het nieuwe evenwicht wordt nog steeds evenveel gevraagd als aangeboden. Alleen gebruik je niet meer voor iedereen dezelfde prijs.
+-
+-Voor fruitbekers geldt:
++De belasting verandert niet wat kopers voor een beker overhebben en ook niet wat het maken ervan kost. De vraaglijn V en de aanbodlijn A blijven dus gelden. Wel kijkt elke kant naar een eigen prijs: kopers reageren op **hun betaalde prijs Pc**, verkopers op **hun ontvangst Pp**. In het nieuwe evenwicht wordt nog steeds evenveel gevraagd als aangeboden.
+ 
+ <div class="formula">Vraag: Pc = 14 − 0,10Q<br>Aanbod: Pp = 2 + 0,10Q</div>
+ 
+ 
+-Q is het aantal fruitbekers per dag. Pc en Pp zijn euro per beker. Zonder belasting is Pc = Pp. Met t = € 4 wordt de aanbodlijn, uitgedrukt in de **kopersprijs**:
++Q is het aantal fruitbekers per dag. Pc en Pp zijn euro per beker. Een grafiek heeft maar één prijsas. Daarom drukken we ook het aanbod uit in de **kopersprijs**. Bij t = € 4 is die steeds € 4 hoger dan Pp:
+ 
+ <div class="formula">Pc = Pp + 4 = 6 + 0,10Q</div>
+ 
+ 
+ ### Lees de grafiek in drie stappen
+ 
+-Eerst staan V en A er: het vertrouwde vrije evenwicht. Daarna schuift de aanbodlijn in kopersprijzen € 4 omhoog naar **A + t**. Het snijpunt met V geeft de nieuwe hoeveelheid en Pc. Lees bij **dezelfde Q** op de oorspronkelijke A af wat verkopers ontvangen.
++**1.** V en A geven het vertrouwde vrije evenwicht. **2.** De aanbodlijn in kopersprijzen ligt € 4 hoger: **A&nbsp;+&nbsp;t**. Het snijpunt met V geeft de nieuwe hoeveelheid en Pc. **3.** Lees bij **dezelfde Q** op de oorspronkelijke A af wat verkopers ontvangen: Pp.
+ 
+ <figure><img src="_assets/3.1.1_fig_2.svg" alt="Zonder belasting: 60 bekers voor € 8. Met belasting: 40 bekers, Pc = € 10 en Pp = € 6. De verticale afstand bij Q = 40 is € 4."><figcaption>Figuur 2. Zonder belasting: 60 bekers voor € 8. Met belasting: 40 bekers, Pc = € 10 en Pp = € 6. De verticale afstand bij Q = 40 is € 4.</figcaption></figure>
+ 
+@@ -50,7 +52,7 @@
+ 
+ ### Vergelijk twee prijzen bij dezelfde hoeveelheid
+ 
+-De fruitbekermarkt heeft vraag Pc = 14 − 0,10Q en aanbod Pp = 2 + 0,10Q. Een verkoper draagt **€ 4 per verkochte beker** af. De oorspronkelijke A vertelt nog steeds welk bedrag verkopers willen ontvangen, vóór aftrek van productiekosten.
++Bij elke hoeveelheid lees je op V af wat kopers willen betalen en op A wat verkopers willen ontvangen. De belasting van **€ 4 per beker** moet precies tussen die twee bedragen passen.
+ 
+ | Q (bekers per dag) | Bedrag op V: Pc (€ per beker) | Bedrag op A: Pp (€ per beker) | Verschil Pc − Pp (€ per beker) |
+ |---|---:|---:|---:|
+@@ -58,15 +60,17 @@
+ | **40** | **10** | **6** | **4** |
+ | 60 | 8 | 8 | 0 |
+ 
+-Bij **40 bekers** passen beide kanten én de belasting bij elkaar: kopers betalen € 10, verkopers ontvangen € 6 en de overheid krijgt € 4. Daarom horen beide prijzen bij hetzelfde aantal verkochte bekers.
++Bij 20 bekers is het verschil € 8. Dat is meer dan de belasting: een extra beker verkopen levert beide kanten nog voordeel op. Bij 60 bekers is er geen verschil. Verkopers zouden na afdracht € 4 overhouden, terwijl zij voor die hoeveelheid € 8 willen ontvangen. Zoveel bekers worden er dus niet meer verkocht.
++
++Alleen bij **40 bekers** is het verschil precies € 4: kopers betalen € 10, de overheid krijgt € 4 en verkopers houden € 6 over. Daarom horen beide prijzen bij hetzelfde aantal verkochte bekers.
+ 
+ ### Van gewenste ontvangst naar benodigde kopersprijs
+ 
+-Voor 40 bekers geeft A een ontvangst van € 6. De verkoper kan daarvan niet ook nog € 4 afdragen. Hij moet dan € 10 van de koper ontvangen. Deze omzetting geldt bij iedere hoeveelheid:
++Die hoeveelheid vind je ook met een formule. Voor 40 bekers willen verkopers € 6 ontvangen. Omdat zij € 4 afdragen, moet de koper € 10 betalen. Deze omzetting geldt bij iedere hoeveelheid:
+ 
+ <div class="formula">Oorspronkelijk aanbod: Pp = 2 + 0,10Q<br>Tel de belasting op: Pc = (2 + 0,10Q) + 4<br>Aanbod in kopersprijzen: Pc = 6 + 0,10Q</div>
+ 
+-De productiekosten veranderen hier niet. A + t geeft dezelfde aanbodbeslissing weer, maar nu in de prijs die kopers moeten betalen. Het snijpunt van **V en A + t** bepaalt de nieuwe hoeveelheid.
++De productiekosten veranderen hier niet. A + t geeft dezelfde aanbodbeslissing weer, maar nu in de prijs die kopers moeten betalen. Het snijpunt van **V en A + t** bepaalt de nieuwe hoeveelheid. Die is kleiner dan zonder belasting: kopers betalen meer en vragen dus minder; verkopers ontvangen minder en bieden dus minder aan.
+ 
+ <div class="box warning"><b>Niet: oude prijs + hele belasting</b><br>Pc = € 8 + € 4 = € 12 zou Pp = € 8 geven. Bij die twee prijzen worden 20 bekers gevraagd en 60 aangeboden. Dat is geen evenwicht. Laat vraag en aanbod dus eerst samen de nieuwe hoeveelheid bepalen.</div>
+ 
+@@ -83,14 +87,14 @@
+ 
+ **2 · Nieuw aanbod in kopersprijzen.** De koper betaalt de gewenste ontvangst plus de belasting: Pc = Pp + 4 = 6 + 0,10Q.
+ 
+-**3 · Nieuwe hoeveelheid en beide prijzen.**
++**3 · Nieuwe hoeveelheid en beide prijzen.** Snijd V met A + t. Vul de gevonden Q in de vraagfunctie in voor Pc en in het oorspronkelijke aanbod voor Pp.
+ 
+ <div class="formula">14 − 0,10Q = 6 + 0,10Q → Qt = 40<br>Pc = 14 − 0,10 × 40 = € 10<br>Pp = 2 + 0,10 × 40 = € 6</div>
+ 
+ 
+-**4 · Controle en uitleg.** 10 − 6 = € 4: de wig klopt. Markeer bij Q = 40 beide prijzen in figuur 2. Kopers betalen € 2 meer dan eerst; verkopers houden € 2 minder over. Afdragen en de last dragen zijn dus verschillend.
++**4 · Controle en uitleg.** 10 − 6 = € 4: de wig klopt. Kopers betalen € 2 meer dan eerst; verkopers houden € 2 minder over. Verkopers dragen de hele € 4 af, maar dragen zelf maar € 2 van de last.
+ 
+-<div class="box summary"><b>Onthouden</b><br>Gebruik V voor Pc en de oorspronkelijke A voor Pp, beide bij dezelfde nieuwe hoeveelheid. Controleer Pc − Pp = t.</div>
++<div class="box summary"><b>Onthouden</b><br>Gebruik V voor Pc en de oorspronkelijke A voor Pp, beide bij dezelfde nieuwe hoeveelheid. Controleer Pc − Pp = t. Afdragen is niet hetzelfde als de last dragen.</div>
+ 
+ ## Startopgaven
+ 
+--- huidig/3.1/3.1.2 manuscript.md
++++ nieuw/3.1/3.1.2 manuscript.md
+@@ -10,6 +10,10 @@
+ 
+ <div class="box goals"><b>Lesdoelen</b><br>Je kunt de belastingdruk per product over kopers en verkopers verdelen, ook in procenten. Je kunt belastingopbrengst, CS, PS en welvaartsverlies berekenen en markeren. Je kunt uitleggen waarom de minder prijsgevoelige kant relatief meer last draagt.</div>
+ 
++### Wie draagt welk deel?
++
++Vergelijk beide nieuwe prijzen met de oude prijs van € 8. Kopers betalen € 2 meer. Verkopers houden € 2 minder over. Samen is dat de belasting van € 4. Het deel dat een kant per product draagt, heet de **last** of belastingdruk van die kant.
++
+ <div class="formula">Last koper per stuk = Pc − P₀<br>Last verkoper per stuk = P₀ − Pp<br>Aandeel koper = (Pc − P₀) / t × 100%</div>
+ 
+ 
+@@ -20,7 +24,7 @@
+ 
+ ### Geen verdwenen geld
+ 
+-De € 160 is een overdracht aan de overheid. Het is geen € 160 aan verdwenen welvaart. Voor onze vergelijking tellen we overheidsontvangsten mee naast het consumenten- en producentensurplus.
++De € 160 verhuist van kopers en verkopers naar de overheid. Dat geld is niet weg: het is een overdracht, geen verloren welvaart. In onze vergelijking tellen we de overheidsontvangsten daarom mee, naast het consumenten- en producentensurplus.
+ 
+ <div class="box warning"><b>Onze welvaartsmaat</b><br>Zonder belasting: CS + PS. Met belasting: CS + PS + O. We rekenen zonder effecten voor buitenstaanders en zonder uitvoeringskosten. Wat de overheid later met het geld doet, is hier niet gegeven.</div>
+ 
+@@ -28,12 +32,12 @@
+ 
+ ### De gebieden vertellen elk iets anders
+ 
+-De vraaglijn geeft de betalingsbereidheid. De oorspronkelijke aanbodlijn stelt in dit model de marginale kosten voor. CS ligt boven **Pc**; PS ligt onder **Pp**. De belastingopbrengst ligt tussen die twee prijzen, over de verkochte hoeveelheid.
++Uit Boek 2 ken je het surplus als gebied in de grafiek. De vraaglijn geeft de betalingsbereidheid. De oorspronkelijke aanbodlijn stelt in dit model de marginale kosten voor. Nieuw is dat er twee prijzen zijn: CS ligt boven **Pc**, PS ligt onder **Pp**. Tussen die twee prijzen ligt, over de verkochte hoeveelheid, de belastingopbrengst O.
+ 
+ <figure><img src="_assets/3.1.2_fig_1.svg" alt="O is de belastingrechthoek: 40 × € 4. W is de driehoek van gemiste transacties tussen Q = 40 en Q = 60."><figcaption>Figuur 1. O is de belastingrechthoek: 40 × € 4. W is de driehoek van gemiste transacties tussen Q = 40 en Q = 60.</figcaption></figure>
+ 
+ 
+-De extra transacties tussen 40 en 60 zouden meer opleveren aan betalingsbereidheid dan ze kosten. Door de wig komen ze niet tot stand. Hun gezamenlijke gemiste voordeel heet **welvaartsverlies W**.
++Rechts van O blijft een driehoek over. Dat zijn de bekers tussen 40 en 60. Kopers hebben er meer voor over dan ze kosten om te maken, maar door de wig worden ze niet meer verkocht. Het voordeel dat zo verloren gaat, heet **welvaartsverlies W**. Niemand ontvangt het: de koper niet, de verkoper niet en de overheid niet.
+ 
+ <div class="formula">W = oude welvaartsmaat − nieuwe welvaartsmaat<br>Bij deze rechte lijnen ook: W = ½ × (Q₀ − Qt) × t</div>
+ 
+@@ -47,13 +51,13 @@
+ 
+ <figure><img src="_assets/3.1.2_rev_ledger.svg" alt="Van € 360 aan oud surplus blijft € 320 in de nieuwe welvaartsmaat over. De € 160 belastingopbrengst telt mee; de € 40 verloren voordeel niet."><figcaption>Figuur 2. Van € 360 aan oud surplus blijft € 320 in de nieuwe welvaartsmaat over. De € 160 belastingopbrengst telt mee; de € 40 verloren voordeel niet.</figcaption></figure>
+ 
+-De gezamenlijke afname van CS en PS is **€ 200**. Dat bedrag bestaat uit twee delen:
++Kopers en verkopers verliezen samen **€ 200** aan surplus. Dat bedrag valt in twee delen uiteen:
+ 
+ <div class="formula">Verlies van CS en PS: 100 + 100 = € 200<br>Daarvan bij de overheid: € 160<br>Verdwenen voordeel van handel: 200 − 160 = € 40</div>
+ 
+ ### Waarom ontstaat dat verloren voordeel?
+ 
+-Bekijk een extra beker rond Q = 50. Op V staat € 9 betalingsbereidheid; op A staat € 7 marginale kosten. Zonder belasting kan die transactie voordeel opleveren. Maar de ruimte van € 2 is niet genoeg om ook de belasting van € 4 te overbruggen. De transactie valt weg.
++Bekijk één beker rond Q = 50. Op V staat € 9 betalingsbereidheid; op A staat € 7 marginale kosten. Zonder belasting levert die transactie € 2 voordeel op. Met belasting moet er ook € 4 naar de overheid. Daarvoor is € 2 niet genoeg. De transactie valt weg, en het voordeel van € 2 ook.
+ 
+ Alle verdwenen voordelen tussen Qt = 40 en Q₀ = 60 vormen samen driehoek W. Daarom is de basis **20 bekers per dag**, niet 40 verkochte bekers. De hoogte bij Q = 40 is **€ 4 per beker**. De oppervlakte is ½ × 20 × 4 = € 40 per dag.
+ 
+@@ -63,7 +67,7 @@
+ 
+ ### Verander maar één kenmerk
+ 
+-Twee markten beginnen bij **P₀ = € 8 en Q₀ = 60 producten per dag**. Het aanbod is in beide Pp = 2 + 0,10Q. Ook de belasting van € 3 per product is gelijk. Alleen de reactie van de kopers verschilt.
++Waarom dragen kopers en verkopers bij de fruitbekers elk de helft? Dat hangt af van hoe sterk elke kant op de prijs reageert. Twee markten beginnen bij **P₀ = € 8 en Q₀ = 60 producten per dag**. Het aanbod is in beide Pp = 2 + 0,10Q en de belasting € 3 per product. Alleen de reactie van de kopers verschilt.
+ 
+ | Vergelijking | Markt A | Markt B |
+ |---|---:|---:|
+@@ -72,7 +76,7 @@
+ | Qv bij Pc = € 9 | 50 | 55 |
+ | Daling door dezelfde prijsstijging | 10 producten | 5 producten |
+ 
+-**B reageert minder sterk.** Kopers blijven bij dezelfde prijsstijging relatief vaker kopen. Verkopers kunnen daardoor een groter deel van de belasting via de prijs doorberekenen. De nieuwe uitkomsten zijn A: Qt = 45, Pc = € 9,50, Pp = € 6,50; B: Qt = 50, Pc = € 10, Pp = € 7.
++**B reageert minder sterk.** Bij dezelfde prijsstijging haken daar minder kopers af. Verkopers kunnen de belasting dus grotendeels in de prijs doorberekenen zonder veel afzet te verliezen. In A kost een hogere prijs meer klanten; verkopers nemen daar een groter deel zelf voor hun rekening. De uitkomsten zijn A: Qt = 45, Pc = € 9,50, Pp = € 6,50; B: Qt = 50, Pc = € 10, Pp = € 7.
+ 
+ <figure><img src="_assets/3.1.2_fig_2.svg" alt="Van dezelfde € 3 belasting draagt de koper in A € 1,50 en in B € 2. De minder prijsgevoelige kopers in B dragen hier het grotere aandeel."><figcaption>Figuur 3. Van dezelfde € 3 belasting draagt de koper in A € 1,50 en in B € 2. De minder prijsgevoelige kopers in B dragen hier het grotere aandeel.</figcaption></figure>
+ 
+@@ -103,7 +107,6 @@
+ 
+ <div class="box summary"><b>Onthouden</b><br>Last per stuk ≠ belastingopbrengst ≠ welvaartsverlies. O is een rechthoek over verkochte producten. W is de driehoek van gemiste voordelige transacties. De minder prijsgevoelige kant draagt relatief meer last.</div>
+ 
+-
+ ## Startopgaven
+ 
+ <div class="route"><b>Normale route:</b> Startopgaven → Begeleide inoefening → Zelfstandige oefening → Doeloefening.<br><b>Uitdagende route (minder tussenstappen, extra uitdaging):</b> Startopgaven → Zelfstandige oefening → Doeloefening → Denkertje / Bonusopgave.<br>Herhaling is extra bij beide routes.</div>
+--- huidig/3.1/3.1.3 manuscript.md
++++ nieuw/3.1/3.1.3 manuscript.md
+@@ -10,12 +10,14 @@
+ 
+ <div class="box goals"><b>Lesdoelen</b><br>Je kunt bij een subsidie per verkocht product Pc, Pp en de hoeveelheid berekenen. Je kunt de overheidsuitgaven bepalen en de voordelen voor kopers en verkopers vergelijken. Je kunt een welvaartsclaim beoordelen door de uitgaven mee te rekenen.</div>
+ 
++**s** is de subsidie per verkocht product. **Pc** blijft de prijs die de koper betaalt. **Pp** is hier de totale ontvangst van de producent: het bedrag van de koper plus de subsidie. Daar moeten de productiekosten nog af.
++
+ <figure><img src="_assets/3.1.3_fig_1.svg" alt="De koper betaalt € 10. De gemeente legt € 4 bij. De aanbieder ontvangt samen € 14 per verkochte workshopplaats."><figcaption>Figuur 1. De koper betaalt € 10. De gemeente legt € 4 bij. De aanbieder ontvangt samen € 14 per verkochte workshopplaats.</figcaption></figure>
+ 
+-<div class="formula">Subsidiewig: Pp − Pc = s<br>Dus: Pp = Pc + s en Pc = Pp − s</div>
++Het verschil tussen de ontvangst van de aanbieder en de prijs van de koper is nu precies de subsidie.
+ 
++<div class="formula">Subsidiewig: Pp − Pc = s<br>Dus: Pp = Pc + s en Pc = Pp − s</div>
+ 
+-**s** is de subsidie per verkocht product. **Pp** is hier de totale ontvangst van de producent: het bedrag van de koper plus de subsidie. Daar moeten de productiekosten nog af.
+ 
+ <div class="box summary"><b>Vergelijk met belasting</b><br>Belasting: Pc is hoger dan Pp. Subsidie: Pp is hoger dan Pc. In beide gevallen lees je Pc op de vraaglijn en Pp op de oorspronkelijke aanbodlijn bij dezelfde nieuwe Q.</div>
+ 
+@@ -23,22 +25,22 @@
+ 
+ ### De aanbodlijn in kopersprijzen
+ 
+-Voor workshopplaatsen geldt Pc = 18 − 0,10Q en Pp = 6 + 0,10Q. Q is plaatsen per week; prijzen zijn euro per plaats. Door de subsidie van € 4 hoeft de koper € 4 minder te betalen dan de aanbieder totaal wil ontvangen.
++Voor workshopplaatsen geldt Pc = 18 − 0,10Q en Pp = 6 + 0,10Q. Q is plaatsen per week; prijzen zijn euro per plaats. De gemeente betaalt € 4 van wat de aanbieder wil ontvangen. De koper hoeft dus € 4 minder te betalen:
+ 
+ <div class="formula">Pc = Pp − 4 = 2 + 0,10Q</div>
+ 
+ <figure><img src="_assets/3.1.3_fig_2.svg" alt="A − s ligt € 4 onder A. Bij Q = 80 zijn Pc = € 10 en Pp = € 14. U is de uitgavenrechthoek over alle 80 plaatsen."><figcaption>Figuur 2. A − s ligt € 4 onder A. Bij Q = 80 zijn Pc = € 10 en Pp = € 14. U is de uitgavenrechthoek over alle 80 plaatsen.</figcaption></figure>
+ 
+ 
++Kopers betalen minder en vragen dus meer. Aanbieders ontvangen meer en bieden dus meer aan. De hoeveelheid stijgt van 60 naar 80.
++
+ ### Een rekening voor de overheid
+ 
+-De subsidie geldt hier voor **elke verkochte plaats**, niet alleen voor de extra plaatsen. De overheidsuitgaven zijn dus **U = s × Qsub**: de rechthoek U in de figuur. Qsub is het aantal verkochte plaatsen mét subsidie; Qa blijft de aangeboden hoeveelheid.
++De subsidie geldt hier voor **elke verkochte plaats**, niet alleen voor de extra plaatsen. De overheidsuitgaven zijn dus **U = s × Qsub**: de rechthoek U in de figuur. Qsub is het aantal verkochte plaatsen mét subsidie.
+ 
+ ### Kijk verder dan CS en PS
+ 
+-Kopers betalen minder en aanbieders ontvangen meer. CS en PS kunnen dus allebei stijgen. Maar de overheid betaalt ervoor. De relevante welvaartsmaat is hier **CS + PS − U**.
+-
+-De extra transacties voorbij het vrije evenwicht kosten in dit model meer dan de kopers ervoor overhebben. Zonder baten voor buitenstaanders kan de subsidie daardoor welvaartsverlies veroorzaken. We veronderstellen ook hier geen uitvoeringskosten.
++CS en PS stijgen allebei. Maar de overheid betaalt ervoor. De welvaartsmaat is hier daarom **CS&nbsp;+&nbsp;PS&nbsp;−&nbsp;U**. Die kan dalen, ook als kopers en aanbieders beter af zijn. De volgende pagina laat zien waarom. We rekenen ook hier zonder uitvoeringskosten.
+ 
+ <div class="box warning"><b>Geen dubbele telling</b><br>Tel U niet bij het voordeel van kopers en verkopers op. De subsidie zit al in de grotere gebieden CS en PS. Voor de welvaartsvergelijking trek je de overheidsuitgaven af.</div>
+ 
+@@ -61,7 +63,7 @@
+ 
+ ### Kijk naar één extra plaats
+ 
+-Rond Q = 70 is de betalingsbereidheid 18 − 0,10 × 70 = **€ 11**. De marginale kosten zijn 6 + 0,10 × 70 = **€ 13**. Zo’n extra plaats kost € 2 meer dan het voordeel dat de koper eraan toekent. De subsidie maakt verkoop wel aantrekkelijk voor koper en aanbieder, maar neemt dat verschil niet weg.
++Rond Q = 70 is de betalingsbereidheid 18 − 0,10 × 70 = **€ 11**. De marginale kosten zijn 6 + 0,10 × 70 = **€ 13**. Zo’n extra plaats kost € 2 meer dan hij de koper waard is. Zonder subsidie komt hij er daarom niet. De € 4 subsidie overbrugt dat tekort, maar neemt het niet weg: die € 2 gaat verloren.
+ 
+ <div class="box warning"><b>Wat telt ons model mee?</b><br>We nemen geen extra baten voor buitenstaanders aan. Daarom maakt “meer activiteiten” de uitkomst niet automatisch beter. In Boek 4 onderzoeken we opnieuw subsidies, maar dan mét zulke extra baten.</div>
+ 
+@@ -93,7 +95,6 @@
+ 
+ <div class="box summary"><b>Onthouden</b><br>Subsidie: Pp − Pc = s. Bereken U over alle gesubsidieerde verkopen. Vergelijk niet alleen CS en PS, maar CS + PS − U. Zonder externe baten is méér productie niet automatisch beter.</div>
+ 
+-
+ ## Startopgaven
+ 
+ <div class="route"><b>Normale route:</b> Startopgaven → Begeleide inoefening → Zelfstandige oefening → Doeloefening.<br><b>Uitdagende route (minder tussenstappen, extra uitdaging):</b> Startopgaven → Zelfstandige oefening → Doeloefening → Denkertje / Bonusopgave.<br>Herhaling is extra bij beide routes.</div>
+--- huidig/3.1/3.1.4 manuscript.md
++++ nieuw/3.1/3.1.4 manuscript.md
+@@ -15,7 +15,7 @@
+ <figure><img src="_assets/3.1.4_fig_1.svg" alt="Bij Pmax = € 6 willen kopers 80 puzzels, maar verkopers bieden er 40 aan. Er worden 40 verkocht; het tekort is 40."><figcaption>Figuur 1. Bij Pmax = € 6 willen kopers 80 puzzels, maar verkopers bieden er 40 aan. Er worden 40 verkocht; het tekort is 40.</figcaption></figure>
+ 
+ 
+-Qv is wat kopers **willen kopen**. Qa is wat verkopers **willen verkopen**. Het werkelijke aantal transacties is weer iets anders. Zonder extra aanvoer kunnen niet meer producten worden verkocht dan er worden aangeboden.
++Bij € 6 willen meer kopers een puzzel: de gevraagde hoeveelheid **Qv** stijgt naar 80. Voor verkopers loont leveren minder: de aangeboden hoeveelheid **Qa** daalt naar 40. Op een vrije markt zou de prijs nu stijgen tot het tekort weg is. De maximumprijs verbiedt dat, dus het tekort blijft. Het **werkelijke aantal verkopen** is een derde hoeveelheid: zonder extra aanvoer kan er niet meer worden verkocht dan er wordt aangeboden.
+ 
+ <div class="box small"><b>Geen wig</b><br>Hier is geen belasting of subsidie per verkoop. Bij een verkoop betaalt de koper hetzelfde bedrag als de verkoper ontvangt. Het probleem is een verschil tussen hoeveelheden, niet tussen twee prijzen.</div>
+ 
+@@ -23,35 +23,32 @@
+ 
+ ### Een maximum is geen verplicht prijskaartje
+ 
+-Bij een vrije evenwichtsprijs van € 8 laat een maximum van € 10 de marktprijs van € 8 toe. Verkopers hoeven niet € 10 te vragen. De regeling is dan **niet bindend**.
++Een maximumprijs verbiedt alleen prijzen die hoger zijn. Ligt het maximum op € 10, dan blijft de vrije evenwichtsprijs van € 8 gewoon toegestaan. Verkopers gaan niet € 10 vragen: bij die prijs zouden zij met onverkochte puzzels blijven zitten. De regeling is dan **niet bindend**.
+ 
+ | Maximumprijs | Bindend bij vrij evenwicht € 8? | Marktuitkomst in dit model |
+ |---|---|---|
+ | € 6 | Ja | Bereken Qv en Qa bij € 6. |
+ | € 10 | Nee | P blijft € 8; Q blijft 60. |
+ 
++### Zelfde rekenen, andere interpretatie
++
++In Boek 1 vulde je een prijs in om Qv en Qa te bepalen. Die techniek blijft gelijk. Nieuw is dat de opgelegde prijs niet kan stijgen om het tekort op te lossen. Markeer daarom vraag, aanbod **en** werkelijke verkopen afzonderlijk.
++
+ ### De korte kant bepaalt wat er kan worden verkocht
+ 
+-In de puzzelmarkt zijn 40 producten beschikbaar en willen kopers er 80. Neem aan dat die 40 daadwerkelijk worden verkocht. Dan geldt:
++In de puzzelmarkt willen kopers 80 puzzels, maar er worden er 40 aangeboden. Voor een verkoop zijn een koper én een verkoper nodig. De kleinste van de twee hoeveelheden bepaalt dus het aantal verkopen:
+ 
+ <div class="formula">Werkelijke verkopen = Qa = 40<br>Tekort = Qv − Qa = 80 − 40 = 40</div>
+ 
+ 
+-Je kunt deze regel niet gebruiken zonder de context te lezen. Een bron kan bijvoorbeeld voorraden of extra aanvoer noemen. In onze oefeningen zijn die er niet, tenzij de tekst dat uitdrukkelijk zegt.
++Lees wel altijd de context. Een bron kan voorraden of extra aanvoer noemen. In onze oefeningen zijn die er niet, tenzij de tekst dat uitdrukkelijk zegt.
+ 
+ ### Wie ontvangt het product?
+ 
+-Voor het totale aantal verkopen is “40 aangeboden” genoeg. Voor de verdeling van het voordeel is ook nodig **welke kopers** de 40 producten krijgen. Een wachtrij, loting en toewijzing op betalingsbereidheid kunnen andere kopers selecteren.
+-
+-Krijgen de hoogste betalingsbereidheden voorrang, dan blijven andere geïnteresseerde kopers zonder product. Een lagere prijs is dus niet automatisch beter voor iedere koper.
++Er zijn 80 gegadigden voor 40 puzzels. De prijs kan niet meer bepalen wie er een krijgt. Iets anders doet dat: een wachtrij, een loting of voorrang voor wie er het meest voor overheeft. Elke regel selecteert andere kopers. Wie een puzzel krijgt, is goedkoper uit. Wie er geen krijgt, heeft niets aan de lage prijs.
+ 
+ <div class="box warning"><b>Surplus vraagt om een toewijzingsregel</b><br>Bij een tekort gebruik je niet zomaar de hele driehoek tot Qv. Alleen werkelijk verkochte producten leveren surplus op. Wie ze ontvangt, bepaalt het CS. In dit onderdeel staan binding, hoeveelheden en de verdeling van toegang centraal; het denkertje laat de toewijzing zien.</div>
+ 
+-
+-### Zelfde rekenen, andere interpretatie
+-
+-In Boek 1 vulde je een prijs in om Qv en Qa te bepalen. Die techniek blijft gelijk. Nieuw is dat de opgelegde prijs niet vrij kan stijgen om het tekort op te lossen. Markeer daarom vraag, aanbod **en** werkelijke verkopen afzonderlijk.
+-
+ <!-- PAGE {"section": "3.1.4", "title": "Een lage prijs analyseren", "origin_chapter": "3.1", "origin_page": 30, "edition_page": 30} -->
+ 
+ ## Uitgewerkt voorbeeld
+@@ -76,7 +73,6 @@
+ 
+ <div class="box summary"><b>Onthouden</b><br>Vergelijk eerst Pmax met P₀. Alleen bij een bindende maximumprijs bereken je de nieuwe hoeveelheden bij Pmax. Zonder extra aanvoer: verkopen = Qa en tekort = Qv − Qa. Een lage prijs is geen aankoopgarantie.</div>
+ 
+-
+ ## Startopgaven
+ 
+ <div class="route"><b>Normale route:</b> Startopgaven → Begeleide inoefening → Zelfstandige oefening → Doeloefening.<br><b>Uitdagende route (minder tussenstappen, extra uitdaging):</b> Startopgaven → Zelfstandige oefening → Doeloefening → Denkertje / Bonusopgave.<br>Herhaling is extra bij beide routes.</div>
+--- huidig/3.1/3.1.5 manuscript.md
++++ nieuw/3.1/3.1.5 manuscript.md
+@@ -15,7 +15,9 @@
+ <figure><img src="_assets/3.1.5_fig_1.svg" alt="Bij Pmin = € 10 zijn Qv = 40 en Qa = 80. In de getekende aankoopregeling koopt de overheid 40 kratten; U = 40 × € 10."><figcaption>Figuur 1. Bij Pmin = € 10 zijn Qv = 40 en Qa = 80. In de getekende aankoopregeling koopt de overheid 40 kratten; U = 40 × € 10.</figcaption></figure>
+ 
+ 
+-De oorspronkelijke vraaglijn beschrijft hier de **particuliere kopers**. Hun aankopen zijn dus niet hetzelfde als alle verkopen wanneer de overheid ook koopt.
++Bij € 10 willen telers 80 kratten leveren, maar kopers willen er maar 40. Het verschil is het **aanbodoverschot**. Op een vrije markt zou de prijs dalen tot het overschot weg is. De minimumprijs verbiedt dat.
++
++De vraaglijn beschrijft hier de **particuliere kopers**. Koopt ook de overheid, dan zijn hun aankopen niet alle verkopen.
+ 
+ <div class="box warning"><b>Aanbod is nog geen verkoop</b><br>Zonder aankoopgarantie zijn 80 aangeboden kratten niet automatisch 80 verkochte kratten. Met een garantie kan de overheid het verschil tussen Qa en Qv afnemen.</div>
+ 
+@@ -51,15 +53,15 @@
+ <figure><img src="_assets/3.1.5_fig_2.svg" alt="Het quotum beperkt de productie tot 40. Lees de marktprijs bij deze hoeveelheid op V af: € 10. De overheid koopt hier niets."><figcaption>Figuur 3. Het quotum beperkt de productie tot 40. Lees de marktprijs bij deze hoeveelheid op V af: € 10. De overheid koopt hier niets.</figcaption></figure>
+ 
+ 
+-Bij deze hoeveelheid willen kopers € 10 betalen. Dat is hoger dan de oorspronkelijke vrije prijs. Een quotum zet dus niet rechtstreeks een minimumprijs vast, maar beperkt het aanbod. Het kan zo wél de marktprijs verhogen.
++Er zijn nu maar 40 kratten, terwijl kopers er bij de oude prijs van € 8 zestig willen hebben. De prijs stijgt tot kopers precies 40 kratten vragen: € 10. Een quotum legt dus geen prijs op. Het beperkt het aanbod, en daardoor stijgt de marktprijs.
+ 
+ <div class="box small"><b>Controleer ook het quotum</b><br>Een quotum van 80 kratten zou hier niet binden: het vrije evenwicht is maar 60. Je produceert dan niet automatisch 80 en leest de prijs dus niet klakkeloos bij 80 af.</div>
+ 
+ ### Waarom lees je de prijs op de vraaglijn?
+ 
+-De productiegrens bepaalt hier dat er 40 kratten worden verkocht. De vraaglijn vertelt welke prijs particuliere kopers voor dat aantal willen betalen. Bij € 10 vragen zij precies 40 kratten.
++Het quotum bepaalt de hoeveelheid: 40 kratten. De vraaglijn vertelt bij welke prijs particuliere kopers precies dat aantal willen hebben: € 10.
+ 
+-Op A staat bij Q = 40 juist € 6. Dat is de marginale kost van die hoeveelheid in dit model, niet de verkoopprijs. Het quotum voorkomt dat de productie door kan groeien tot het vrije evenwicht.
++Op A staat bij Q = 40 juist € 6. Dat zijn de marginale kosten van die hoeveelheid in dit model, niet de verkoopprijs. Bij € 10 zouden telers graag meer maken, maar het quotum verbiedt dat.
+ 
+ <div class="box small"><b>Niet dezelfde regel</b><br>Een minimumprijs verbiedt lage prijzen. Een quotum verbiedt te veel productie. Dat beide in dit voorbeeld tot een prijs van € 10 leiden, maakt de mechanismen niet hetzelfde.</div>
+ 
+@@ -89,7 +91,6 @@
+ 
+ <div class="box summary"><b>Onthouden</b><br>Minimumprijs: eerst binding, dan Qv en Qa, dan de aankoopregel. Quotum: eerst binding, dan de toegestane verkochte hoeveelheid en de prijs op V. Veronderstel nooit automatisch opkoop of overheidsinkomsten.</div>
+ 
+-
+ ## Startopgaven
+ 
+ <div class="route"><b>Normale route:</b> Startopgaven → Begeleide inoefening → Zelfstandige oefening → Doeloefening.<br><b>Uitdagende route (minder tussenstappen, extra uitdaging):</b> Startopgaven → Zelfstandige oefening → Doeloefening → Denkertje / Bonusopgave.<br>Herhaling is extra bij beide routes.</div>
+--- huidig/3.2/3.2.1 manuscript.md
++++ nieuw/3.2/3.2.1 manuscript.md
+@@ -10,10 +10,15 @@
+ | Kenmerk | Betekenis voor de onderneming |
+ |---|---|
+ | Veel kleine aanbieders en vragers | Eén deelnemer heeft nauwelijks invloed op de marktprijs. |
+-| Homogeen product | Kopers zien de producten als gelijkwaardig. |
++| Homogeen product | Kopers zien de producten als gelijkwaardig. Zij letten alleen op de prijs. |
+ | Doorzichtige markt | Kopers en verkopers kennen de relevante prijzen en kwaliteit. |
+ | Vrije toetreding en uittreding | Ondernemingen kunnen beginnen of stoppen zonder bijzondere toetredingsbarrières. |
+ <figure><img src="_assets/3.2.1_fig_1.svg" alt="Figuur 1. Door deze combinatie van aannames is één onderneming prijsnemer."><figcaption>Figuur 1. Door deze combinatie van aannames is één onderneming prijsnemer.</figcaption></figure>
++
++### Waarom volgt de onderneming de marktprijs?
++
++**Niet hoger.** Het product is overal gelijk en kopers kennen alle prijzen. Wie meer vraagt dan de marktprijs, verkoopt dus niets. **Niet lager.** De onderneming is klein: tegen de marktprijs kan zij alles verkopen wat zij maakt. Een lagere prijs levert dan geen extra klanten op, alleen minder opbrengst per product.
++
+ <div class="definition"><b>Prijsnemer</b><br>Een onderneming die de marktprijs als gegeven neemt. Zij kiest haar productie, niet zelfstandig een hogere marktprijs.</div>
+ 
+ <!-- PAGE {"section": "3.2.1", "title": "Twee grafieken, één prijs", "origin_chapter": "3.2", "origin_page": 3, "edition_page": 3} -->
+@@ -27,8 +32,8 @@
+ ### Lees de assen voordat je rekent
+ **Q** is de totale hoeveelheid op de markt. Links betekent 4 dus **4.000 kg per dag**. **q** is de afzet van één onderneming, hier maximaal 150 kg per dag.
+ 
+-De horizontale lijn rechts zegt: elke kg brengt bij deze marktprijs € 2 op. Als één teler wat meer verkoopt, blijft zijn prijs in het model gelijk.
+-<div class="box warning"><b>Niet verwisselen</b><br>De horizontale lijn hoort bij één prijsnemende onderneming. De vraaglijn van de <b>hele markt</b> blijft dalend.</div>
++De horizontale lijn rechts zegt: elke kg brengt bij deze marktprijs € 2 op, hoeveel de teler ook verkoopt. Gemiddeld ontvangt hij dus € 2 per kg: de gemiddelde opbrengst **GO**. Ook een extra kg levert € 2 extra op: de marginale opbrengst **MO**. Daarom heet de lijn **P = GO = MO**.
++<div class="box warning"><b>Niet verwisselen</b><br>De horizontale lijn hoort bij één prijsnemende onderneming. De vraaglijn van de <b>hele markt</b> blijft dalend: als alle telers samen meer aanbieden, daalt de marktprijs wél.</div>
+ 
+ <!-- PAGE {"section": "3.2.1", "title": "De prijs bepaalt de opbrengst", "origin_chapter": "3.2", "origin_page": 4, "edition_page": 4} -->
+ 
+@@ -40,7 +45,7 @@
+ **2 · Totale opbrengst.** Bij q = 100 kg verkoopt zij 100 keer een kg voor € 2.
+ <div class="formula">TO = P × q = 2 × 100 = € 200 per dag</div>
+ 
+-**3 · Gemiddelde en marginale opbrengst.** Gemiddeld ontvangt zij € 2 per kg. Nog 20 kg verkopen geeft € 40 extra opbrengst.
++**3 · Gemiddelde en marginale opbrengst.** Deel de totale opbrengst door het aantal kg voor GO. Bereken voor MO wat 20 kg extra oplevert, per extra kg.
+ <div class="formula">GO = TO / q = 200 / 100 = € 2 per kg<br>MO = ΔTO / Δq = (240 − 200) / (120 − 100)<br>MO = 40 / 20 = € 2 per kg</div>
+ 
+ **4 · Teken en leg uit.** De horizontale lijn in haar grafiek heet **P = GO = MO**. Een prijs van € 2,10 verliest kopers aan dezelfde aardappelen van anderen. Een prijs van € 1,90 is niet nodig om haar 100 kg te verkopen: die kan zij al voor € 2 afzetten.
+--- huidig/3.2/3.2.2 manuscript.md
++++ nieuw/3.2/3.2.2 manuscript.md
+@@ -2,27 +2,26 @@
+ 
+ <a id="s322"></a><div class="kicker">3.2.2 · MARGINALE KOSTEN EN DE AFGELEIDE</div>
+ # Wat kost een kleine uitbreiding?
++Een kruidenzadenbedrijf maakt 60 kg per week. Wat kost het om daar **een klein beetje** bij te maken? Dat bedrag heb je in §3.2.3 nodig om de beste productie te kiezen.
+ <div class="box goals"><b>Lesdoelen</b><br>Je kunt uit een eenvoudige kwadratische TK-functie de MK-functie afleiden. Je kunt MK op één punt onderscheiden van gemiddelde extra kosten over een tabelstap. Je gebruikt de juiste eenheden en verklaart de rol van constante kosten.</div>
+-Een kruidenzadenbedrijf heeft <b>TK = 0,05q² + 2q + 80</b>. q is kg per week; TK is euro per week. De capaciteit is 100 kg per week. De constante kosten blijven in deze week gelijk, ook bij q = 0.
++Voor het bedrijf geldt <b>TK = 0,05q² + 2q + 80</b>. q is kg per week; TK is euro per week. De capaciteit is 100 kg per week. De constante kosten blijven in deze week gelijk, ook bij q = 0.
+ 
+ ### Van een grote stap naar een kleine verandering
+-Met een tabel bereken je de gemiddelde extra kosten over een aangegeven productiestap. Tussen 40 en 60 kg geldt:
+-<div class="formula">MK over 40–60 = (380 − 240) / (60 − 40)<br>MK over 40–60 = € 7 per extra kg</div>
++In Boek 2 berekende je marginale kosten over een stap in een tabel: de extra kosten gedeeld door het aantal extra producten. Van 60 naar 80 kg geldt:
++<div class="formula">MK over 60–80 = (560 − 380) / (80 − 60)<br>MK over 60–80 = € 9 per extra kg</div>
+ 
+-Dit betekent niet dat iedere kg in die stap exact € 7 extra kost. In het model stijgen de extra kosten geleidelijk.
++Dat is een **gemiddelde** over 20 kg. Niet iedere kg in die stap kost € 9 extra: in het model lopen de extra kosten geleidelijk op. Maak de stap daarom steeds kleiner.
+ 
+-Om de extra kosten ook tussen de tabelwaarden te bepalen, gebruiken we een doorlopende kostenfunctie. Kilogrammen kunnen we in dit model ook in delen produceren.
+-<div class="definition"><b>De afgeleide</b><br>De afgeleide van TK geeft aan hoe snel TK op één punt verandert. In ons doorlopende model noemen we dat de marginale kosten MK, in euro per kg.</div>
+-
+-Bij de kruidenzaden is de afgeleide **MK = 0,10q + 2**. Op de volgende pagina leer je hoe je die formule maakt.
++| Stap vanaf q = 60 | Toename van TK | Gemiddeld per extra kg |
++|---|---:|---:|
++| Van 60 naar 80 kg | € 180 | € 9,00 |
++| Van 60 naar 70 kg | € 85 | € 8,50 |
++| Van 60 naar 61 kg | € 8,05 | € 8,05 |
+ 
+-| Plaats of stap | Wat meet je? | Uitkomst |
+-|---|---|---:|
+-| Van 40 naar 60 kg | Gemiddelde extra kosten over 20 kg | € 7 per kg |
+-| Op het punt q = 60 | MK bij een heel kleine uitbreiding | € 8 per kg |
+-| Van 60 naar 61 kg | Exact verschil in totale kosten | € 8,05 voor die kg |
++Hoe kleiner de stap, hoe dichter de uitkomst bij **€ 8** komt. Dat bedrag hoort niet meer bij een stap, maar bij het punt q = 60 zelf. In het model kan q elke waarde hebben, ook delen van een kg.
++<div class="definition"><b>De afgeleide</b><br>De afgeleide van TK geeft aan hoe snel TK op één punt verandert. In ons doorlopende model noemen we dat de marginale kosten MK, in euro per kg.</div>
+ 
+-De uitkomsten spreken elkaar niet tegen: ze gaan over verschillende veranderingen.
++Bij de kruidenzaden is de afgeleide **MK = 0,10q + 2**. Bij q = 60 geeft dat precies € 8 per kg. Op de volgende pagina leer je hoe je die formule maakt.
+ <div class="box warning"><b>Welke methode gebruik je?</b><br>Vraagt de opgave om een tabelstap? Gebruik ΔTK / Δq. Vraagt de opgave om MK op één punt van een doorlopende TK-functie? Gebruik de afgeleide. Voor een hele extra kg kan de afgeleide een kleine benadering zijn.</div>
+ 
+ <!-- PAGE {"section": "3.2.2", "title": "Van TK naar MK", "origin_chapter": "3.2", "origin_page": 12, "edition_page": 11} -->
+@@ -42,10 +41,12 @@
+ | 80 | Dit bedrag verandert niet bij meer productie. | 0 |
+ <div class="formula">MK = 0,10q + 2</div>
+ 
++Elke term heeft zijn eigen betekenis. Door de term 2q kost iedere extra kg € 2. Door de term 0,05q² lopen de extra kosten op: hoe groter q, hoe duurder de volgende kg. De 80 telt niet mee, want MK meet alleen wat verandert als q verandert.
++
+ Nog een voorbeeld: **TK = 0,20q² + 3q + 50** geeft **MK = 0,40q + 3**.
+ 
+ De constante kosten verdwijnen uit MK, maar niet uit TK of uit de winstberekening. Zij blijven in de onderzochte periode gelijk, tot de productiecapaciteit.
+-<div class="box small"><b>Controle</b><br>Vul na het differentiëren een q in. Bij q = 60 geeft MK = 0,10 × 60 + 2 = € 8 per kg. Dat is geen totaalbedrag.</div>
++<div class="box small"><b>Controle</b><br>Vul na het differentiëren een q in. Bij q = 60 geeft MK = 0,10 × 60 + 2 = € 8 per kg: de waarde waar de kleine stappen op de vorige pagina naartoe gingen. Dat is geen totaalbedrag.</div>
+ 
+ <!-- PAGE {"section": "3.2.2", "title": "De afgeleide gebruiken", "edition_page": 12} -->
+ 
+@@ -62,7 +63,7 @@
+ TK(20) = 0,10 × 20² + 2 × 20 + 40 = € 120 per week.
+ TK(30) = 0,10 × 30² + 2 × 30 + 40 = € 190 per week.
+ <div class="formula">MK over 20–30 = (190 − 120) / (30 − 20)<br>= € 7 per extra kg</div>
+-De € 7 is het gemiddelde over tien extra kg. Bij q = 20 is de puntwaarde € 6 en bij q = 30 is die € 8. De verschillende antwoorden gaan over verschillende veranderingen.
++De € 7 is het gemiddelde over tien extra kg. Bij q = 20 is de puntwaarde € 6 en bij q = 30 is die € 8: de extra kosten lopen binnen de stap op. De antwoorden verschillen omdat ze iets anders meten, niet omdat er één fout is.
+ 
+ ### 4 · Controleer welke kosten veranderen
+ Als alleen de constante kosten van € 40 naar € 70 stijgen, wordt TK bij elke q € 30 hoger. MK blijft **0,20q + 2**: de extra € 30 verandert niet door één kg meer te produceren.
+--- huidig/3.2/3.2.3 manuscript.md
++++ nieuw/3.2/3.2.3 manuscript.md
+@@ -6,9 +6,7 @@
+ Een leverancier van kruidenzaden ontvangt € 8 per kg. Elke extra kg geeft extra opbrengst, maar kost ook iets. Wanneer stopt hij met uitbreiden?
+ <div class="box goals"><b>Lesdoelen</b><br>Je kunt de winstmaximale haalbare productie vinden en onderbouwen. Je kunt totale winst berekenen en als rechthoek in een ondernemingsgrafiek weergeven.</div>
+ 
+-Uit §3.2.2 weet je hoe je uit TK de functie MK = 0,10q + 2 maakt.
+-
+-Voor deze oefenonderneming geldt **TK = 0,05q² + 2q + 80**. q is kg per week; TK is euro per week. De productiecapaciteit is 100 kg per week. Alle productie wordt verkocht.
++Voor deze oefenonderneming geldt **TK = 0,05q² + 2q + 80**. q is kg per week; TK is euro per week. De productiecapaciteit is 100 kg per week. Alle productie wordt verkocht voor de marktprijs van €&nbsp;8, dus TO&nbsp;=&nbsp;8&nbsp;×&nbsp;q.
+ 
+ | q (kg per week) | TO (€ per week) | TK (€ per week) | Winst (€ per week) |
+ |---:|---:|---:|---:|
+@@ -19,16 +17,18 @@
+ | 80 | 640 | 560 | 80 |
+ | 100 | 800 | 780 | 20 |
+ 
+-Van 40 naar 60 kg stijgt TO met € 160 en TK met € 140. De winst neemt toe. Van 60 naar 80 kg stijgt TK met € 180. Dat is méér dan de extra opbrengst: de winst daalt.
++Elke stap van 20 kg levert € 160 extra opbrengst op. De extra kosten lopen op. Van 40 naar 60 kg stijgt TK met € 140: minder dan de extra opbrengst, dus de winst neemt toe. Van 60 naar 80 kg stijgt TK met € 180: méér dan de extra opbrengst, dus de winst daalt. De hoogste winst ligt ergens rond 60 kg. Waar precies, vind je met de marginale bedragen.
+ <div class="box small"><b>Nieuwe stap</b><br>Je kende marginale bedragen uit Boek 2 en de afgeleide uit §3.2.2. Nieuw is de <b>keuze</b>: vergelijk extra opbrengsten en extra kosten om de productie te bepalen.</div>
+ 
+ <!-- PAGE {"section": "3.2.3", "title": "Waarom MO = MK hier een maximum geeft", "origin_chapter": "3.2", "origin_page": 13, "edition_page": 18} -->
+ 
+ ### Vergelijk links én rechts van het snijpunt
+-Bij de kruidenzaden is **MO = P = 8** en **MK = 0,10q + 2**.
++Kijk naar één kleine uitbreiding. Levert die meer op dan zij kost (MO groter dan MK), dan stijgt de winst: breid uit. Kost zij meer dan zij oplevert (MO kleiner dan MK), dan daalt de winst: maak minder. De winst is dus het hoogst waar MO en MK gelijk zijn.
++
++Bij de kruidenzaden is **MO = P = 8**. Uit §3.2.2 weet je: **MK = 0,10q + 2**.
+ <div class="formula">8 = 0,10q + 2 → 6 = 0,10q → q = 60</div>
+ 
+-Bij q = 40 is MK = € 6: een kleine uitbreiding levert meer op dan zij kost. Bij q = 80 is MK = € 10: iets minder produceren bespaart meer dan aan opbrengst verloren gaat.
++Controleer beide kanten. Bij q = 40 is MK = € 6: een kleine uitbreiding levert meer op dan zij kost. Bij q = 80 is MK = € 10: iets minder produceren bespaart meer dan aan opbrengst verloren gaat.
+ <figure><img src="_assets/3.2.2_fig_3.svg" alt="Figuur 2. MK stijgt door de horizontale MO-lijn. De winst stijgt vóór q = 60 en daalt erna."><figcaption>Figuur 2. MK stijgt door de horizontale MO-lijn. De winst stijgt vóór q = 60 en daalt erna.</figcaption></figure>
+ <div class="box warning"><b>Controleer ook de haalbaarheid</b><br>q = 60 past binnen de capaciteit van 100 kg. Zou de capaciteit maar 50 kg zijn, dan kiest de onderneming 50 kg: tot die grens blijft MO groter dan MK. Het theoretische snijpunt is dan onhaalbaar.</div>
+ 
+@@ -39,7 +39,7 @@
+ <!-- PAGE {"section": "3.2.3", "title": "De winst is een rechthoek", "origin_chapter": "3.2", "origin_page": 14, "edition_page": 19} -->
+ 
+ ### Eerst winst per kg, dan totale winst
+-Bij q = 60 zijn TK = € 380 en TO = € 480. De winst is € 100 per week. De gemiddelde totale kosten zijn 380 / 60 ≈ € 6,33 per kg.
++Bij q = 60 zijn TK = € 380 en TO = € 480. De winst is € 100 per week. Je kunt dezelfde winst ook per kg bekijken. De gemiddelde totale kosten zijn 380 / 60 ≈ € 6,33 per kg. Elke kg brengt € 8 op en kost gemiddeld € 6,33: dat is ongeveer € 1,67 winst per kg, 60 keer.
+ <div class="formula">Winst = TO − TK<br>Winst = (P − GTK) × q</div>
+ <figure><img src="_assets/3.2.2_fig_4.svg" alt="Figuur 3. Breedte: 60 kg per week. Hoogte: € 8 − € 6,33… per kg. De oppervlakte is € 100 per week."><figcaption>Figuur 3. Breedte: 60 kg per week. Hoogte: € 8 − € 6,33… per kg. De oppervlakte is € 100 per week.</figcaption></figure>
+ 
+@@ -66,7 +66,7 @@
+ <figure><img src="_assets/3.2.2_we_1.svg" alt="Figuur 4. De winstrechthoek heeft breedte 40 en hoogte 10 − 7 = 3."><figcaption>Figuur 4. De winstrechthoek heeft breedte 40 en hoogte 10 − 7 = 3.</figcaption></figure>
+ 
+ **4 · Controleer een grens.** Bij q = 0 is de winst −€ 40. Bij een lagere capaciteit van 30 kg zou q = 40 niet haalbaar zijn. Dan kiest Linde q = 30, omdat MO tot die grens groter blijft dan MK.
+-<div class="box summary"><b>Onthouden</b><br>P → MO; TK → MK; vergelijk MO en MK; controleer capaciteit; bereken TO − TK; teken de winst met P en GTK bij de gekozen q.</div>
++<div class="box summary"><b>Onthouden</b><br>Neem de marktprijs over: MO = P. Leid MK af uit TK. Los MO = MK op en controleer dat de winst ervoor stijgt en erna daalt. Controleer de capaciteit en q = 0. Bereken de winst met TO − TK; in de grafiek is dat (P − GTK) × q bij de gekozen q.</div>
+ 
+ <!-- PAGE {"section": "3.2.3", "title": "Opbrengst en kosten weer bij elkaar", "origin_chapter": "3.2", "origin_page": 16, "edition_page": 21} -->
+ 
+--- huidig/3.3/3.3.1 manuscript.md
++++ nieuw/3.3/3.3.1 manuscript.md
+@@ -8,20 +8,22 @@
+ 
+ ### Eén grens, twee gezichtspunten
+ <div class="definition"><b>Import — invoer</b><br>Goederen en diensten kopen uit het buitenland.</div><div class="definition"><b>Export — uitvoer</b><br>Goederen en diensten verkopen aan het buitenland.</div><figure><img src="_assets/3.3.1_fig_1.svg" alt="Figuur 1. Dezelfde levering is export voor de verkoper in land A en import voor de koper in land B. De pijlen laten goederenstromen zien, geen geldstromen."><figcaption>Figuur 1. Dezelfde levering is export voor de verkoper in land A en import voor de koper in land B. De pijlen laten goederenstromen zien, geen geldstromen.</figcaption></figure>
+-De grens van het land bepaalt het gezichtspunt. Een levering van A aan B is dus niet voor beide landen export. Geld gaat bij betaling in de andere richting; dat werken we hier niet verder uit.
++Dezelfde levering heeft dus twee namen. Welke je gebruikt, hangt af van het land waarvoor je de vraag beantwoordt: voor A is het export, voor B import. Het geld gaat bij de betaling de andere kant op; dat werken we hier niet verder uit.
+ 
+ ### Waarom niet alles zelf maken?
+-Productiemiddelen zijn schaars. Wie ze voor het ene product gebruikt, kan ze niet tegelijk voor iets anders gebruiken. Door zich meer op bepaalde activiteiten te richten en te ruilen, kunnen landen hun mogelijkheden beter benutten.
++Productiemiddelen zijn schaars. Wie ze voor het ene product gebruikt, kan ze niet tegelijk voor iets anders gebruiken. Een land dat alles zelf maakt, zet daardoor ook middelen in voor producten waar het minder geschikt voor is. Door zich meer op bepaalde activiteiten te richten en de rest te ruilen, kunnen landen met dezelfde middelen meer bereiken.
+ 
+ <!-- PAGE {"section": "3.3.1", "title": "Sterk zijn is niet hetzelfde als relatief sterk zijn", "origin_chapter": "3.3", "origin_page": 3, "edition_page": 3} -->
+ 
+ ### Eerst het absolute voordeel
+ Stel: werkplaatsen in Linde maken met dezelfde hoeveelheid productiemiddelen meer machines én meer tassen dan werkplaatsen in Maris. De producten zijn van dezelfde kwaliteit. Linde heeft dan in beide activiteiten een <b>absoluut voordeel</b>.
+ <div class="definition"><b>Absoluut voordeel</b><br>Een product met minder productiemiddelen kunnen maken dan een ander land, bij dezelfde kwaliteit.</div>
+-Dat betekent nog niet dat Linde ook alles zelf moet maken. De productiemiddelen die het voor tassen gebruikt, kunnen niet tegelijk machines maken.
++Moet Linde dan ook alles zelf maken? Nee. Middelen die Linde voor tassen gebruikt, kunnen niet tegelijk machines maken. Het gaat er dus om wat een land <b>opgeeft</b> als het voor een product kiest: de alternatieve kosten uit Boek 1.
+ 
+ ### Dan de vergelijking tussen activiteiten
+-In dit voorbeeld is Lindes voorsprong bij machines groot en bij tassen klein. Een extra tas kost Linde relatief veel opgegeven machineproductie. Maris geeft voor een extra tas minder machineproductie op.
++Vergelijk het met een arts die ook sneller typt dan haar assistent. Toch laat zij het typen aan de assistent over. Elk uur dat zij typt, kan zij geen patiënten helpen: daarmee geeft zij veel op. De assistent geeft voor een uur typen veel minder op.
++
++Zo is het ook bij Linde. De voorsprong is bij machines groot en bij tassen klein. Een extra tas kost Linde daardoor relatief veel machineproductie. Maris geeft voor een extra tas minder machineproductie op.
+ <figure><img src="_assets/3.3.1_fig_2.svg" alt="Figuur 2. De bron geeft een kwalitatieve vergelijking. Linde is in beide activiteiten absoluut sterker, maar de relatieve voorsprong verschilt. Er staan geen te berekenen productieverhoudingen."><figcaption>Figuur 2. De bron geeft een kwalitatieve vergelijking. Linde is in beide activiteiten absoluut sterker, maar de relatieve voorsprong verschilt. Er staan geen te berekenen productieverhoudingen.</figcaption></figure><div class="definition"><b>Comparatief voordeel</b><br>Een product maken met lagere alternatieve kosten dan een ander land. Je geeft er relatief minder andere productie voor op.</div>
+ Linde heeft hier een comparatief voordeel bij machines. Maris heeft dat bij tassen, ook al is Maris bij beide activiteiten absoluut minder productief.
+ <div class="box warning"><b>Niet verwisselen</b><br><b>Absoluut:</b> wie gebruikt voor hetzelfde product minder middelen?<br><b>Comparatief:</b> wie offert relatief minder andere productie op?</div>
+@@ -30,11 +32,11 @@
+ 
+ ### Meer van wat relatief gunstig is
+ <div class="definition"><b>Specialisatie</b><br>Je sterker toeleggen op bepaalde activiteiten of producten. Dat hoeft niet te betekenen dat je nog maar één product maakt.</div>
+-Linde kan meer machines maken en Maris meer tassen. Daarna kunnen zij een deel van die productie verhandelen. Zo hoeven zij minder van de andere productie op te geven dan wanneer ieder land alles zelf blijft maken.
++Linde verschuift middelen van tassen naar machines; Maris doet het omgekeerde. Elk land geeft daarbij relatief weinig op en krijgt er relatief veel voor terug. Samen maken zij met dezelfde middelen meer. Door een deel van die productie te ruilen, kunnen beide landen daarvan profiteren.
+ <figure><img src="_assets/3.3.1_fig_3.svg" alt="Figuur 3. Relatief minder opofferen maakt wederzijds voordeel mogelijk. De afspraken over de ruil moeten voor beide partijen aantrekkelijk zijn."><figcaption>Figuur 3. Relatief minder opofferen maakt wederzijds voordeel mogelijk. De afspraken over de ruil moeten voor beide partijen aantrekkelijk zijn.</figcaption></figure>
+ 
+ ### Concurrentiepositie: een andere vraag
+-Een buitenlandse klant vergelijkt niet alleen productiemiddelen. Ook de verkoopprijs, kwaliteit en betrouwbaarheid van levering kunnen de keuze bepalen.
++Comparatief voordeel gaat over wat een land opgeeft. Een buitenlandse klant stelt een andere vraag: bij wie koop ik? Daarbij tellen de verkoopprijs, de kwaliteit en de betrouwbaarheid van levering.
+ <div class="definition"><b>Concurrentiepositie</b><br>De mogelijkheden van producenten om te concurreren met andere aanbieders, bijvoorbeeld door prijs, kwaliteit en betrouwbare levering.</div>
+ Een lesbron kan melden dat een producent weinig defecte producten levert of snel kan bezorgen. Dat ondersteunt een verklaring van zijn concurrentiepositie. Het bewijst niet meteen een comparatief voordeel: daarvoor moet je de alternatieve kosten van activiteiten vergelijken.
+ 
+@@ -48,11 +50,11 @@
+ <div class="source"><b>Lesbron · Sol en Terra</b><br>In beide landen kunnen productiemiddelen worden ingezet voor muziekinstrumenten of kleding van dezelfde kwaliteit. Sol heeft voor beide producten minder middelen nodig dan Terra. Sols voorsprong is groot bij instrumenten en klein bij kleding. Voor extra kleding offert Sol relatief veel instrumenten op; Terra offert daarvoor minder instrumenten op. Instrumenten uit Sol zijn bovendien bekend om betrouwbare levering. Kledingbedrijven in Sol vrezen klanten te verliezen aan import.</div>
+ <b>Vraag.</b> Leg uit welke specialisatie past, hoe handel beide landen kan helpen en waarom niet iedereen hoeft te winnen.
+ 
+-**1 · Lees wat absoluut is.** Sol heeft voor beide producten minder middelen nodig. Het heeft dus bij beide een absoluut voordeel.
++**1 · Lees wat absoluut is.** Sol heeft voor beide producten minder middelen nodig. Het heeft dus bij beide een absoluut voordeel. Dat zegt nog niets over de specialisatie.
+ 
+ **2 · Zoek de alternatieve kosten.** Terra offert relatief minder instrumenten op als het extra kleding maakt. Terra heeft daarom een comparatief voordeel bij kleding; Sol bij instrumenten.
+ 
+-**3 · Verbind specialisatie aan handel.** Sol richt zich meer op instrumenten en Terra meer op kleding. Bij voor beide gunstige ruilafspraken kunnen beide landen profiteren. Kleding van Terra naar Sol is export van Terra en import van Sol.
++**3 · Verbind specialisatie aan handel.** Sol richt zich meer op instrumenten en Terra meer op kleding. Samen maken zij zo meer. Bij voor beide gunstige ruilafspraken kunnen beide landen profiteren. Kleding van Terra naar Sol is export van Terra en import van Sol.
+ 
+ **4 · Beoordeel de claim per groep.** Betrouwbare levering ondersteunt Sols concurrentiepositie bij instrumenten. Maar kledingbedrijven in Sol kunnen klanten verliezen. “Sol maakt efficiënter, dus iedereen wint” gaat verder dan de bron ondersteunt.
+ <div class="box summary"><b>Onthouden</b><br>Import komt binnen; export gaat naar buiten. Absoluut voordeel gaat over benodigde middelen. Comparatief voordeel gaat over opgegeven andere productie. Specialisatie kan beide landen helpen, maar niet automatisch alle groepen. In §3.3.2 bekijken we de marktprijs.</div>
+--- huidig/3.3/3.3.2 manuscript.md
++++ nieuw/3.3/3.3.2 manuscript.md
+@@ -5,12 +5,16 @@
+ # Eén prijs, twee hoeveelheden
+ Zonder buitenlandse handel kosten tassen in een oefenland € 30. Buitenlandse aanbieders willen dezelfde tassen leveren voor € 20. Waarom zouden binnenlandse kopers dan nog € 30 betalen?
+ <div class="box goals"><b>Lesdoelen</b><br>Je kunt een wereldmarktprijs vergelijken met de prijs zonder handel. Je kunt binnenlandse productie, binnenlands verbruik en import of export bepalen. Je kunt met prijs en hoeveelheid uitleggen wat binnenlandse kopers en producenten merken.</div><div class="definition"><b>Wereldmarktprijs</b><br>De gegeven prijs waartegen het land op de wereldmarkt kan kopen of verkopen. We noteren die prijs als P<sub>w</sub>.</div>
++
+ ### Het model dat we gebruiken
+ Het land is **klein en prijsnemend**: zijn handel verandert de wereldmarktprijs niet. Er zijn veel concurrerende kopers en verkopers. Binnenlandse en buitenlandse producten zijn gelijkwaardig. Er is voldoende buitenlands aanbod én voldoende buitenlandse vraag tegen P<sub>w</sub>.
+ 
+ We rekenen in euro’s, zonder veranderende wisselkoers. Er zijn geen transportkosten, heffingen of andere handelsbelemmeringen. We laten effecten op derden buiten de welvaartsvergelijking.
+ <figure><img src="_assets/3.3.2_fig_1.svg" alt="Figuur 1. Dezelfde marktvaardigheid krijgt drie betekenissen: Qa is binnenlandse productie, Qv is binnenlands verbruik en het verschil gaat over de grens."><figcaption>Figuur 1. Dezelfde marktvaardigheid krijgt drie betekenissen: Qa is binnenlandse productie, Qv is binnenlands verbruik en het verschil gaat over de grens.</figcaption></figure>
++
+ ### Niet opnieuw oplossen, maar anders lezen
++Met handel wordt de wereldmarktprijs ook de binnenlandse prijs. Kopers betalen een binnenlandse producent niet meer dan de prijs waarvoor zij kunnen invoeren. Producenten verkopen in eigen land niet voor minder dan zij in het buitenland kunnen krijgen.
++
+ Zonder handel vind je de prijs bij Qv = Qa. Met handel is de prijs gegeven. Lees bij die prijs **twee** hoeveelheden af. Die hoeven niet gelijk te zijn: het buitenland kan het verschil kopen of leveren.
+ 
+ <!-- PAGE {"section": "3.3.2", "title": "Een lage wereldprijs: import", "origin_chapter": "3.3", "origin_page": 12, "edition_page": 12} -->
+@@ -18,8 +22,9 @@
+ ### Volg de prijslijn van links naar rechts
+ De tassenmarkt heeft Qv = 120 − 2P en Qa = 2P. P is euro per tas; Q is tassen per week. Zonder handel ligt het evenwicht bij P = € 30 en Q = 60.
+ 
+-Bij P<sub>w</sub> = € 20 willen binnenlandse producenten 40 tassen leveren. Binnenlandse kopers willen er 80 gebruiken. De resterende 40 tassen komen uit het buitenland.
++Nu kunnen kopers ook voor P<sub>w</sub> = € 20 invoeren. Binnenlandse producenten moeten die prijs volgen, anders verliezen zij hun klanten. Bij € 20 willen zij nog 40 tassen leveren. Binnenlandse kopers willen er 80 gebruiken. De resterende 40 tassen komen uit het buitenland.
+ <figure><img src="_assets/3.3.2_fig_2.svg" alt="Figuur 2. Import is het horizontale verschil tussen binnenlands verbruik en binnenlandse productie bij dezelfde wereldmarktprijs."><figcaption>Figuur 2. Import is het horizontale verschil tussen binnenlands verbruik en binnenlandse productie bij dezelfde wereldmarktprijs.</figcaption></figure><div class="formula"><b>Bij import</b><br>Import = Qv − Qa<br>80 − 40 = 40 tassen per week</div>
++
+ ### Wat verandert er ten opzichte van geen handel?
+ De prijs daalt van € 30 naar € 20. Binnenlandse producenten produceren minder: van 60 naar 40. Kopers nemen juist meer af: van 60 naar 80. Zij kopen zowel binnenlandse als ingevoerde tassen.
+ <div class="box warning"><b>Veelgemaakte fout</b><br>“Het land verbruikt 80 tassen, dus het produceert 80 tassen.” Nee: het produceert er 40 en importeert er 40. Tel productie en import op om het binnenlandse verbruik te controleren.</div>
+@@ -27,10 +32,11 @@
+ <!-- PAGE {"section": "3.3.2", "title": "Een hoge wereldprijs: export", "origin_chapter": "3.3", "origin_page": 13, "edition_page": 13} -->
+ 
+ ### De richting keert om
+-Neem dezelfde tassenmarkt, maar nu is de wereldmarktprijs € 40. Buitenlandse kopers kunnen voldoende tassen afnemen. Binnenlandse producenten hoeven daarom niet voor € 30 aan binnenlandse kopers te verkopen.
++Neem dezelfde tassenmarkt, maar nu is de wereldmarktprijs € 40. Buitenlandse kopers kunnen voldoende tassen afnemen. Binnenlandse producenten verkopen daarom niet meer voor € 30 aan binnenlandse kopers: ook die betalen nu € 40.
+ 
+-Bij € 40 willen producenten 80 tassen leveren. Binnenlandse kopers willen er 40 gebruiken. De overige 40 tassen worden uitgevoerd.
++Bij € 40 willen producenten 80 tassen leveren. Binnenlandse kopers willen er nog 40 gebruiken. De overige 40 tassen worden uitgevoerd.
+ <figure><img src="_assets/3.3.2_fig_3.svg" alt="Figuur 3. Bij export ligt binnenlandse productie rechts van binnenlands verbruik. Het verschil wordt verkocht aan buitenlandse kopers."><figcaption>Figuur 3. Bij export ligt binnenlandse productie rechts van binnenlands verbruik. Het verschil wordt verkocht aan buitenlandse kopers.</figcaption></figure><div class="formula"><b>Bij export</b><br>Export = Qa − Qv<br>80 − 40 = 40 tassen per week</div>
++
+ | Vergeleken met geen handel | Import bij lage P<sub>w</sub> | Export bij hoge P<sub>w</sub> |
+ |---|---|---|
+ | Binnenlandse prijs | Daalt | Stijgt |
+@@ -45,8 +51,9 @@
+ ### Een bekend surplus, een nieuwe verdeling
+ Uit Boek 2 ken je consumentensurplus: het verschil tussen betalingsbereidheid en betaalde prijs. Producentensurplus ligt boven de aanbodlijn en onder de prijs, voor de eenheden die binnenlandse producenten leveren.
+ <figure><img src="_assets/3.3.2_fig_4.svg" alt="Figuur 4. Bij import groeit CS en krimpt PS. Let op de verschillende rechtergrenzen: CS hoort bij binnenlands verbruik; PS bij binnenlandse productie. Beide panelen hebben dezelfde asschalen."><figcaption>Figuur 4. Bij import groeit CS en krimpt PS. Let op de verschillende rechtergrenzen: CS hoort bij binnenlands verbruik; PS bij binnenlandse productie. Beide panelen hebben dezelfde asschalen.</figcaption></figure>
++
+ ### Het gezamenlijke resultaat en de afzonderlijke groepen
+-In dit model is het voordeel voor kopers bij import groter dan het nadeel voor binnenlandse producenten. Het binnenlandse totale surplus, CS + PS, stijgt. Maar het nadeel voor producenten verdwijnt niet door deze optelling.
++Vergelijk de twee panelen. Het surplus dat producenten bij import verliezen, verdwijnt niet: het komt als lagere prijs bij kopers terecht. Kopers winnen daarbovenop extra, omdat zij meer tassen kopen en het buitenland goedkoper levert dan binnenlandse producenten kunnen. Daardoor stijgt het binnenlandse totale surplus, CS + PS. Het nadeel voor producenten blijft wel bestaan.
+ 
+ Bij export draait de verdeling om. Binnenlandse producenten ontvangen een hogere prijs en leveren meer. Binnenlandse kopers betalen meer en kopen minder. Onder dezelfde modelaannames stijgt ook hier het binnenlandse totale surplus.
+ <div class="box warning"><b>Wél concluderen, niet overdrijven</b><br><b>Wél:</b> de markt biedt in dit model een gezamenlijk handelsvoordeel.<br><b>Niet:</b> alle inwoners winnen, alle banen blijven bestaan of iedere verdeling is eerlijk.</div>
+@@ -56,9 +63,9 @@
+ 
+ ## Uitgewerkt voorbeeld
+ <div class="source"><b>Lesbron · Sporthelmen in Elva</b><br>Elva is een klein prijsnemend land met concurrerende aanbieders. Het model op pagina 11 geldt. Zonder handel is de prijs € 40. De wereldmarktprijs is € 30. De gegeven lijnen zijn Qv = 140 − 2P en Qa = 2P − 20. Q is sporthelmen per week; P is euro per helm.</div><figure><img src="_assets/3.3.2_we_1.svg" alt="Figuur 5. Lees bij € 30 eerst het aanbod en daarna de vraag. Het verschil is de import van sporthelmen."><figcaption>Figuur 5. Lees bij € 30 eerst het aanbod en daarna de vraag. Het verschil is de import van sporthelmen.</figcaption></figure>
+-<b>1 · Vergelijk de prijzen.</b> € 30 is lager dan € 40. Elva importeert.
++<b>1 · Vergelijk de prijzen.</b> € 30 is lager dan € 40. Kopers voeren liever in dan € 40 te betalen: Elva importeert en de binnenlandse prijs wordt € 30.
+ 
+-**2 · Bepaal productie en verbruik.**
++**2 · Bepaal productie en verbruik.** Vul € 30 in beide functies in.
+ <div class="formula">Qa = 2 × 30 − 20 = 40 helmen per week<br>Qv = 140 − 2 × 30 = 80 helmen per week</div>
+ 
+ **3 · Bereken het verschil.** Import = 80 − 40 = **40 helmen per week**. Controle: 40 binnenlandse helmen + 40 import = 80 verbruik.
+--- huidig/3.3/3.3.3 manuscript.md
++++ nieuw/3.3/3.3.3 manuscript.md
+@@ -5,6 +5,7 @@
+ # Beschermen: voor wie?
+ Een producent verliest klanten aan goedkopere import. Hij vraagt de regering om bescherming. Een winkelier protesteert: zijn klanten willen juist goedkoop kunnen kopen. Beiden kijken naar dezelfde markt, maar niet vanuit hetzelfde belang.
+ <div class="box goals"><b>Lesdoelen</b><br>Je kunt het doel en de gevolgen van protectionisme onderscheiden. Je kunt resterende import en heffingsopbrengst berekenen. Je kunt een invoerheffing vergelijken met een importquotum en herkennen wanneer import verdwijnt.</div><div class="definition"><b>Protectionisme</b><br>Maatregelen die binnenlandse producenten beschermen tegen buitenlandse concurrentie door handel te beperken.</div>
++
+ ### Een doel is nog geen uitkomst
+ Een overheid kan minder afhankelijk willen zijn van buitenlandse levering of binnenlandse productie willen behouden. Een bron moet duidelijk maken welk doel hier speelt. Daarna onderzoek je of de maatregel bij dat doel past en wie de gevolgen ondervindt.
+ 
+@@ -21,47 +22,50 @@
+ <!-- PAGE {"section": "3.3.3", "title": "Een heffing op ingevoerde producten", "origin_chapter": "3.3", "origin_page": 22, "edition_page": 22} -->
+ 
+ ### Eerst de prijs, dan de hoeveelheden
+-Op de markt voor drinkflessen is de wereldprijs € 20 per fles. De overheid heft € 5 per ingevoerde fles. De importeur draagt de heffing af. Zolang import blijft plaatsvinden, komt een buitenlandse fles daarmee voor € 25 beschikbaar.
++Op de markt voor drinkflessen is de wereldprijs € 20 per fles. De overheid heft € 5 per ingevoerde fles. De importeur draagt de heffing af. Een buitenlandse fles kost in het binnenland daardoor € 25, zolang er import is.
+ <div class="definition"><b>Invoerheffing per eenheid</b><br>Een bedrag dat bij invoer per product aan de overheid moet worden betaald. De heffing geldt hier alleen voor ingevoerde producten.</div><figure><img src="_assets/3.3.3_fig_2.svg" alt="Figuur 2. De binnenlandse prijs stijgt van € 20 naar € 25. De binnenlandse productie neemt toe van 40 naar 50; het verbruik daalt van 80 naar 70. De import wordt kleiner."><figcaption>Figuur 2. De binnenlandse prijs stijgt van € 20 naar € 25. De binnenlandse productie neemt toe van 40 naar 50; het verbruik daalt van 80 naar 70. De import wordt kleiner.</figcaption></figure>
+-In het model concurreren identieke binnenlandse en ingevoerde flessen met elkaar. Binnenlandse producenten kunnen daardoor ook € 25 ontvangen. Zij dragen deze <b>invoer</b>heffing niet af over hun eigen binnenlandse productie.
++Binnenlandse en ingevoerde flessen zijn gelijkwaardig. Kopers kunnen nergens meer goedkoper terecht dan voor € 25. Binnenlandse producenten kunnen daarom ook € 25 vragen. Zij dragen deze <b>invoer</b>heffing niet af: die geldt niet voor hun eigen productie.
+ <div class="formula"><b>Zolang er import is</b><br>Binnenlandse prijs = wereldmarktprijs + heffing<br>€ 20 + € 5 = € 25 per fles</div>
+-De binnenlandse aanbodlijn blijft staan; producenten bewegen langs die lijn. De wereldprijs blijft € 20: dit kleine land verandert die niet. De stijging van de binnenlandse prijs is dus niet hetzelfde als een hogere ontvangst voor de buitenlandse producent.
++De vraaglijn en de aanbodlijn blijven staan. Bij de hogere prijs leveren binnenlandse producenten meer en kopen binnenlandse kopers minder. De wereldprijs blijft € 20: dit kleine land verandert die niet. De buitenlandse producent ontvangt dus niet meer dan eerst.
+ <div class="box warning"><b>Het is geen belasting op alle verkoop</b><br>Bij een algemene productbelasting kan elke verkochte eenheid belast zijn. Hier gaat het uitsluitend om de eenheden die de grens binnenkomen.</div>
+ 
+ <!-- PAGE {"section": "3.3.3", "title": "De overheid ontvangt over de import", "origin_chapter": "3.3", "origin_page": 23, "edition_page": 23} -->
+ 
+ ### De juiste breedte van de rechthoek
+-Na de heffing gebruiken binnenlandse kopers 70 flessen. Binnenlandse producenten leveren er 50. Er worden dus nog maar 20 flessen ingevoerd.
++Na de heffing gebruiken binnenlandse kopers 70 flessen. Binnenlandse producenten leveren er 50. Er worden dus nog maar 20 flessen ingevoerd. Alleen over die 20 flessen ontvangt de overheid de heffing.
+ <figure><img src="_assets/3.3.3_fig_3.svg" alt="Figuur 3. De hoogte is € 5 per geïmporteerde fles. De breedte is 20 geïmporteerde flessen per week, niet 70 verkochte flessen."><figcaption>Figuur 3. De hoogte is € 5 per geïmporteerde fles. De breedte is 20 geïmporteerde flessen per week, niet 70 verkochte flessen.</figcaption></figure><div class="formula"><b>Heffingsopbrengst</b><br>Import na de heffing = Qv − Qa = 70 − 50 = 20<br>Opbrengst = heffing per eenheid × import<br>Opbrengst = 5 × 20 = € 100 per week</div>
++
+ ### Drie groepen, drie gevolgen
+ **Binnenlandse kopers** betalen meer en kopen minder. Hun consumentensurplus daalt. **Binnenlandse producenten** krijgen een hogere prijs en produceren meer. Hun producentensurplus stijgt. **De overheid** ontvangt de heffing over de resterende import.
+ 
+-Belastingontvangsten zijn niet hetzelfde als verloren welvaart. In dit model van een klein land zonder externe effecten weegt de winst van producenten en overheid niet volledig op tegen het verlies van kopers. Het binnenlandse totale surplus, inclusief de heffingsopbrengst, daalt ten opzichte van vrije handel.
++De heffingsopbrengst is een overdracht, geen verloren welvaart. Toch verliezen kopers in dit model meer dan producenten en overheid samen winnen. Dat heeft twee oorzaken. De 10 extra binnenlandse flessen kosten meer om te maken dan de € 20 waarvoor het buitenland ze levert. En kopers zien af van 10 flessen die hun meer waard zijn dan € 20. Het binnenlandse totale surplus, inclusief de heffingsopbrengst, daalt daardoor ten opzichte van vrije handel.
+ 
+-Dat oordeel volgt uit de genoemde aannames. Een beleidsdoel zoals leveringszekerheid is niet automatisch in deze surplusmaat verwerkt. Een hogere opbrengst voor één groep bewijst dus geen voordeel voor iedereen.
++Dat oordeel geldt voor een klein land zonder externe effecten. Een beleidsdoel zoals leveringszekerheid zit niet in deze surplusmaat. Een hogere opbrengst voor één groep bewijst dus geen voordeel voor iedereen.
+ 
+ <!-- PAGE {"section": "3.3.3", "title": "Een grens aan de hoeveelheid en aan de prijsregel", "origin_chapter": "3.3", "origin_page": 24, "edition_page": 24} -->
+ 
+ ### Een importquotum is geen geldbedrag
+ <div class="definition"><b>Importquotum</b><br>Een maximum aan de hoeveelheid van een product die in een bepaalde periode mag worden ingevoerd.</div>
+-Een quotum van 20 flessen per week kan in de drinkflessenmarkt tot dezelfde hoeveelheid import leiden als de heffing. Toch volgt daar niet dezelfde overheidsopbrengst uit. Bij gratis vergunningen zonder invoerheffing ontvangt de overheid niets per ingevoerde fles. Verkoop van vergunningen is een andere regeling; je moet die apart in de bron terugvinden.
++Een quotum van 20 flessen per week kan in de drinkflessenmarkt tot dezelfde import leiden als de heffing. Ook dan worden flessen in het binnenland schaarser en duurder. Toch volgt daar niet dezelfde overheidsopbrengst uit. Bij gratis vergunningen zonder invoerheffing ontvangt de overheid niets per ingevoerde fles. Verkoop van vergunningen is een andere regeling; je moet die apart in de bron terugvinden.
+ 
+ Een **productiequotum** begrenst binnenlandse productie. Een **importquotum** begrenst de invoer. Verwissel deze hoeveelheden niet.
++
+ ### Wat als er helemaal geen import overblijft?
+-Zonder handel ontstaat op de flessenmarkt een prijs van € 30. De wereldprijs is € 20. Bij een heffing van € 15 zou een importfles € 35 kosten. Binnenlandse producenten en kopers kunnen echter al bij € 30 een evenwicht bereiken.
++Zonder handel ontstaat op de flessenmarkt een prijs van € 30. De wereldprijs is € 20. Bij een heffing van € 15 zou een importfles € 35 kosten. Niemand koopt die, want binnenlandse producenten en kopers bereiken al bij € 30 een evenwicht. De import valt weg en de binnenlandse prijs wordt € 30, niet € 35.
+ <figure><img src="_assets/3.3.3_fig_4.svg" alt="Figuur 4. De mogelijke invoerprijs van € 35 is niet de binnenlandse marktprijs. Bij € 30 voorziet de binnenlandse markt zelf in 60 flessen; import en heffingsopbrengst zijn nul."><figcaption>Figuur 4. De mogelijke invoerprijs van € 35 is niet de binnenlandse marktprijs. Bij € 30 voorziet de binnenlandse markt zelf in 60 flessen; import en heffingsopbrengst zijn nul.</figcaption></figure><div class="box warning"><b>Controle vóór gebruik</b><br>Gebruik P<sub>w</sub> + heffing niet mechanisch als import verdwijnt. Kijk dan naar de binnenlandse markt zonder import.</div>
+ 
+ <!-- PAGE {"section": "3.3.3", "title": "Van een beleidsbron naar een begrensde conclusie", "origin_chapter": "3.3", "origin_page": 25, "edition_page": 25} -->
+ 
+ ## Uitgewerkt voorbeeld
+ <div class="source"><b>Lesbron · Sportballen in Orel</b><br>Orel is een klein prijsnemend land met concurrerende aanbieders en gelijkwaardige producten. Er zijn geen transportkosten of effecten op derden. De wereldprijs is € 12. Een heffing van € 4 per ingevoerde bal moet binnenlandse productie behouden. Importeurs dragen de heffing af. Er blijft import. Een alternatief is een importquotum met gratis vergunningen, zonder invoerheffing.</div>
++
+ | Situatie | Binnenlandse prijs | Verbruik Qv | Productie Qa |
+ |---|---:|---:|---:|
+ | Vrije invoer | € 12 | 120 | 40 |
+ | Met heffing | € 16 | 100 | 60 |
+ <p class="small">Hoeveelheden in sportballen per week.</p>
+ 
+-**1 · Lees de maatregel.** De heffing geldt per ingevoerde bal, niet voor alle 100 binnenlands verkochte ballen.
++**1 · Lees de maatregel.** De heffing geldt per ingevoerde bal, niet voor alle 100 binnenlands verkochte ballen. Er blijft import, dus de binnenlandse prijs is € 12 + € 4 = € 16.
+ 
+ **2 · Bereken de import na de heffing.** 100 − 60 = **40 ballen per week**.
+ 

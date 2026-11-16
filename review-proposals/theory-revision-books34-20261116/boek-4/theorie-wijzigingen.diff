@@ -1,0 +1,202 @@
+--- huidig/4.1/4.1.1 manuscript.md
++++ nieuw/4.1/4.1.1 manuscript.md
+@@ -7,7 +7,7 @@
+ <div class="box goals"><b>Lesdoelen</b><br>Je kunt de keten winst → toetreding → aanbod → prijs → winst uitleggen, en de omgekeerde keten bij verlies. Je kunt de verschuiving tekenen en de langetermijnuitkomst voor één onderneming berekenen. Je kunt uitleggen wat nul economische winst wél en niet betekent.</div>
+ 
+ ### Eerst één afspraak over het woord winst
+-Ook de inzet van de ondernemer heeft een prijs. Denk aan een normale vergoeding voor zijn werk en het gebruik van eigen geld.
++Ook de inzet van de ondernemer heeft een prijs. Met zijn werktijd en zijn eigen geld had hij ook elders iets kunnen verdienen. Die vergoeding noemen we de normale beloning.
+ 
+ In de modellen van deze paragraaf zijn zulke **normale beloningen al opgenomen in TK**. Wat na aftrek van alle kosten overblijft, noemen we **economische winst**. Een positieve uitkomst is extra winst boven die normale beloning: ook wel overwinst.
+ <div class="formula">Economische winst = TO − TK<br>Hier bevat TK ook de normale beloning.</div>
+@@ -20,13 +20,13 @@
+ ### Volg de verandering van links naar rechts
+ We keren terug naar de kruidenzaden uit §3.2.3. TK = 0,05q² + 2q + 80. Eerst is P = € 8 en kiest één bedrijf q = 60. De winst is € 100 per week.
+ 
+-Nieuwe bedrijven treden toe. Bij elke prijs wordt nu méér aangeboden: de marktaanbodlijn verschuift naar rechts. De marktvraag blijft gelijk. Daardoor daalt de prijs.
++Die € 100 is overwinst: méér dan de normale beloning. Dat maakt de markt aantrekkelijk, dus nieuwe bedrijven treden toe. Bij elke prijs wordt nu méér aangeboden: de marktaanbodlijn verschuift naar rechts. De marktvraag blijft gelijk. Daardoor daalt de prijs.
+ <figure><img src="_assets/3.2.3_fig_2.svg" alt="Figuur 2. De stippellijnen horen bij de oude situatie. Door toetreding groeit Q, terwijl de productie q van één bedrijf daalt."><figcaption>Figuur 2. De stippellijnen horen bij de oude situatie. Door toetreding groeit Q, terwijl de productie q van één bedrijf daalt.</figcaption></figure>
+ 
+ ### De markt en één onderneming bewegen niet hetzelfde
+-De totale afzet stijgt van 6.000 naar 9.000 kg per week. Eén onderneming verlaagt haar afzet van 60 naar 40 kg. Er zijn immers méér ondernemingen die de markt bedienen.
++De totale afzet stijgt van 6.000 naar 9.000 kg per week. Eén onderneming maakt juist minder. Zij kiest opnieuw haar beste productie, nu bij de lagere prijs van € 6: uit 6 = 0,10q + 2 volgt q = 40 in plaats van 60. De markt groeit toch, omdat er meer ondernemingen zijn.
+ 
+-Bij P = 6 en q = 40 zijn TO = 6 × 40 = € 240 en TK = 0,05 × 40² + 2 × 40 + 80 = € 240. De economische winst is nul.
++Bij P = 6 en q = 40 zijn TO = 6 × 40 = € 240 en TK = 0,05 × 40² + 2 × 40 + 80 = € 240. De economische winst is nul. Er is geen overwinst meer die nieuwe bedrijven aantrekt, dus de toetreding stopt.
+ <div class="box small"><b>Aannames bij deze uitkomst</b><br>Vrije toetreding, dezelfde kosten voor bestaande en nieuwe bedrijven, ongewijzigde vraag en geen stijgende inputprijzen door toetreding. De kostenfuncties van actieve ondernemingen blijven gelijk.</div>
+ 
+ <!-- PAGE {"section": "4.1.1", "title": "Verlies kan tot uittreding leiden", "origin_chapter": "3.2", "origin_page": 24, "edition_page": 5} -->
+@@ -34,7 +34,7 @@
+ ### De omgekeerde aanpassing
+ Op een andere oefenmarkt heeft elke actieve onderneming TK = 0,10q² + 2q + 40. Capaciteit: 50 kg per week. Bij P = € 5 is de beste productie q = 15 kg.
+ 
+-TO = € 75 en TK = € 92,50. De onderneming maakt € 17,50 economisch verlies. Als dit aanhoudt, worden sommige bedrijven beëindigd. Bij elke prijs neemt het totale aanbod af: A verschuift naar links.
++TO = € 75 en TK = € 92,50. De onderneming maakt € 17,50 economisch verlies: de ondernemer verdient minder dan de normale beloning. Als dit aanhoudt, stoppen sommige bedrijven. Bij elke prijs neemt het totale aanbod af: A verschuift naar links en de prijs stijgt.
+ <figure><img src="_assets/3.2.3_fig_3.svg" alt="Figuur 3. Na uittreding stijgt de prijs. Een overblijvend bedrijf gaat van 15 naar 20 kg per week."><figcaption>Figuur 3. Na uittreding stijgt de prijs. Een overblijvend bedrijf gaat van 15 naar 20 kg per week.</figcaption></figure>
+ 
+ Bij P = € 6 is q = 20, TO = € 120 en TK = € 120. Het verlies verdwijnt. Dit is dezelfde nulwinstuitkomst als bij toetreding, maar vanuit de andere richting.
+@@ -51,7 +51,7 @@
+ 
+ **2 · Leg de aanpassing uit.** Overwinst trekt bedrijven aan → A verschuift rechts → de prijs daalt → de winst van één bedrijf daalt.
+ 
+-**3 · Lees het eindpunt.** Het minimum van GTK is € 6 bij q = 20. Bij P = 6 vallen MO, MK en GTK daar samen.
++**3 · Lees het eindpunt.** Zolang de prijs boven de laagste GTK ligt, is overwinst mogelijk en gaat de toetreding door. Het minimum van GTK is € 6 bij q = 20. Bij P = 6 vallen MO, MK en GTK daar samen.
+ <figure><img src="_assets/3.2.3_we_1.svg" alt="Figuur 4. Bij de onderste prijs is de winstrechthoek verdwenen: de hoogte is nul."><figcaption>Figuur 4. Bij de onderste prijs is de winstrechthoek verdwenen: de hoogte is nul.</figcaption></figure>
+ 
+ **4 · Controleer en interpreteer.** TO = 6 × 20 = 120. TK = 0,10 × 20² + 2 × 20 + 40 = 120. Winst = 0. Er is geen extra beloning om toetreding aan te trekken. De normale beloning wordt nog steeds betaald.
+--- huidig/4.1/4.1.2 manuscript.md
++++ nieuw/4.1/4.1.2 manuscript.md
+@@ -27,7 +27,7 @@
+ ### De vraaglijn hoort bij een bepaalde aanbieder
+ Bij volkomen concurrentie neemt één kleine onderneming de marktprijs als gegeven. Binnen het model verkoopt zij tegen die prijs tot haar productiecapaciteit. Haar opbrengstlijn is horizontaal.
+ 
+-De monopolist bedient de **hele afgebakende markt**. Wil hij meer afzetten, dan moet hij in het getekende model een lagere prijs vragen. Zijn vraaglijn daalt.
++De monopolist bedient de **hele afgebakende markt**. De marktvraaglijn is dus zijn eigen vraaglijn. Wil hij meer afzetten, dan moet hij ook kopers bereiken die minder voor het product overhebben. Daarvoor moet in het getekende model de prijs omlaag. Zijn vraaglijn daalt.
+ <figure><img src="_assets/4.1.1_fig_1.svg" alt="Figuur 1. Twee ondernemingsgrafieken. De linker onderneming is klein; de rechter onderneming is de enige aanbieder. Let op de verschillende hoeveelheidsassen."><figcaption>Figuur 1. Twee ondernemingsgrafieken. De linker onderneming is klein; de rechter onderneming is de enige aanbieder. Let op de verschillende hoeveelheidsassen.</figcaption></figure>
+ 
+ ### Dezelfde afkorting, een andere lijn
+@@ -51,7 +51,7 @@
+ **3 · Leg de afruil uit.** Parkveer kan in deze vraagfunctie niet tegelijk 80 kaartjes verkopen én € 8 per kaartje vragen. Bij € 8 is de gevraagde hoeveelheid 40. Voor 80 kaartjes is een prijs van € 4 nodig.
+ 
+ **4 · Begrens je conclusie.** Er is invloed op de prijs, maar geen onbeperkte afzet. De vraaglijn vertelt welke combinaties mogelijk zijn. Zonder kosten weten we nog niet welke combinatie de meeste winst geeft.
+-<div class="box summary"><b>Onthouden</b><br>Bronbewijs → afgebakende markt → toetredingsbarrière → prijs en afzet uit dezelfde vraaglijn. De monopolist kiest een combinatie, niet twee losstaande getallen. In §4.1.3 bekijken we de bijbehorende opbrengst.</div>
++<div class="box summary"><b>Onthouden</b><br>Toon een monopolie aan met de bron: één aanbieder op de afgebakende markt en een toetredingsbarrière. Prijs en afzet horen bij hetzelfde punt op de vraaglijn. De monopolist kiest dus een combinatie, niet twee losstaande getallen. In §4.1.3 bekijken we de bijbehorende opbrengst.</div>
+ 
+ <!-- PAGE {"section": "4.1.2", "title": "De bekende methode terughalen", "origin_chapter": "4.1", "origin_page": 5, "edition_page": 15} -->
+ 
+--- huidig/4.1/4.1.3 manuscript.md
++++ nieuw/4.1/4.1.3 manuscript.md
+@@ -8,6 +8,8 @@
+ 
+ Voor dit voorbeeld geldt **P = 20 − 0,20q**. q is kg per week, van 0 tot 100; P is euro per kg. Vergelijk twee verkoopplannen voor dezelfde week. Binnen ieder plan betaalt iedereen dezelfde prijs.
+ <figure><img src="_assets/4.1.2_fig_1.svg" alt="Figuur 5. De extra kg leveren € 140 op. Op de eerste 20 kg ontvang je € 40 minder. Netto stijgt TO met € 100."><figcaption>Figuur 5. De extra kg leveren € 140 op. Op de eerste 20 kg ontvang je € 40 minder. Netto stijgt TO met € 100.</figcaption></figure>
++
++Per extra kg is dat € 100 / 10 = € 10: minder dan de prijs van € 14 waarvoor die kg worden verkocht. Deze paragraaf laat zien waar dat verschil vandaan komt.
+ <div class="box warning"><b>Geen terugbetaling</b><br>De eerste 20 kg zijn hier geen verkopen uit een vorige week. We vergelijken twee mogelijke plannen: álles voor € 16 of álles voor € 14. In het tweede plan is ook de prijs op de eerste 20 kg lager.</div>
+ 
+ <!-- PAGE {"section": "4.1.3", "title": "Van vraag naar totale opbrengst", "origin_chapter": "4.1", "origin_page": 11, "edition_page": 21} -->
+@@ -83,7 +85,7 @@
+ <figure><img src="_assets/4.1.2_we.svg" alt="Figuur 9. Extra afzet: 10 × € 8 = € 80. Lagere prijs op de eerste 30 kg: 30 × € 1 = € 30."><figcaption>Figuur 9. Extra afzet: 10 × € 8 = € 80. Lagere prijs op de eerste 30 kg: 30 × € 1 = € 30.</figcaption></figure>
+ 
+ **4 · Leg uit.** De netto omzettoename is 80 − 30 = € 50. Daarom is de extra opbrengst per extra kg niet gelijk aan de verkoopprijs van € 8.
+-<div class="box summary"><b>Onthouden</b><br>P × q → TO → afgeleide MO. Een tabelstap bereken je met ΔTO / Δq. Bij één uniforme prijs verlaagt meer afzet ook de opbrengst op de eerdere hoeveelheid. In §4.1.4 vergelijken we MO met MK.</div>
++<div class="box summary"><b>Onthouden</b><br>Vul de vraagfunctie in TO = P × q in en differentieer: dat geeft MO. Een tabelstap bereken je met ΔTO / Δq. Bij één uniforme prijs verlaagt meer afzet ook de opbrengst op de eerdere hoeveelheid; daarom ligt MO onder P. In §4.1.4 vergelijken we MO met MK.</div>
+ 
+ <!-- PAGE {"section": "4.1.3", "title": "De rekenregels weer paraat", "origin_chapter": "4.1", "origin_page": 15, "edition_page": 25} -->
+ 
+--- huidig/4.1/4.1.4 manuscript.md
++++ nieuw/4.1/4.1.4 manuscript.md
+@@ -89,7 +89,7 @@
+ 
+ **4 · Bereken winst.** TO = 18 × 30 = € 540. TK = 0,10 × 30² + 6 × 30 + 80 = € 350. Winst = **€ 190 per week**. Bij q = 0 zou het verlies € 80 zijn. GTK = 350 / 30 = € 11,666… per kg.
+ <figure><img src="_assets/4.1.3_we.svg" alt="Figuur 16. Het bedrag bij MO = MK is € 12; de prijs op GO is € 18. Deze twee bedragen blijven apart."><figcaption>Figuur 16. Het bedrag bij MO = MK is € 12; de prijs op GO is € 18. Deze twee bedragen blijven apart.</figcaption></figure>
+-<div class="box summary"><b>Onthouden</b><br>MO en MK → q → verloop en capaciteit controleren → P uit vraag/GO → TO − TK. Lees nooit P uit MO. In de gemengde opgaven kies je zelf tussen deze route en de prijsnemersroute.</div>
++<div class="box summary"><b>Onthouden</b><br>Los MO = MK op: dat geeft q. Controleer het verloop en de capaciteit. Lees P bij die q op de vraaglijn (GO), nooit op MO. Bereken de winst met TO − TK. In de gemengde opgaven kies je zelf tussen deze route en de prijsnemersroute.</div>
+ 
+ <!-- PAGE {"section": "4.1.4", "title": "De juiste lijn kiezen", "origin_chapter": "4.1", "origin_page": 27, "edition_page": 37} -->
+ 
+--- huidig/4.2/4.2.1 manuscript.md
++++ nieuw/4.2/4.2.1 manuscript.md
+@@ -35,6 +35,8 @@
+ 
+ ### Dan de efficiënte hoeveelheid
+ Een extra verhuur verhoogt het gezamenlijke voordeel zolang de betalingsbereidheid groter is dan MK. Voor het laatste zinvolle beetje productie geldt daarom **P = MK**: 80 − Q = 20 + Q. Dat geeft **Qe = 30** en **Pe = € 50**.
++
++Waarom stopt de monopolist dan al bij 20? Ook de verhuurbeurten 21 tot en met 30 zijn kopers meer waard dan zij kosten. Maar om ze te verhuren moet de prijs omlaag, voor álle klanten. Daardoor is zijn extra opbrengst kleiner dan de extra kosten: MO ligt daar onder MK. Zijn winst is het hoogst bij 20; het gezamenlijke voordeel bij 30.
+ <div class="box small"><b>Een vergelijkingsmaatstaf</b><br>De efficiënte uitkomst gebruikt dezelfde vraag en dezelfde kosten als de monopolie-uitkomst. We veranderen niet tegelijk de techniek of kwaliteit. Dit is geen bewering dat elke echte concurrerende markt exact zo werkt.</div>
+ 
+ <!-- PAGE {"section": "4.2.1", "title": "De gebieden uit elkaar houden", "origin_chapter": "4.2", "origin_page": 5, "edition_page": 5} -->
+--- huidig/4.2/4.2.2 manuscript.md
++++ nieuw/4.2/4.2.2 manuscript.md
+@@ -11,6 +11,7 @@
+ 
+ <div class="box definition"><b>Prijsdiscriminatie</b><br>Een aanbieder vraagt verschillende prijzen voor hetzelfde product of dezelfde dienst, terwijl het prijsverschil niet door een verschil in kosten wordt verklaard.</div>
+ 
++Met één prijs moet de hal kiezen. Bij een hoge prijs haken bezoekers af die weinig willen betalen. Bij een lage prijs vraagt de hal te weinig aan bezoekers die meer voor een bezoek overhebben. Met een eigen prijs per groep haalt de hal uit beide groepen meer opbrengst.
+ 
+ ### Drie voorwaarden moeten passen
+ De aanbieder heeft **enige marktmacht**: hij kan zijn prijs beïnvloeden. Hij kan groepen met een verschillende betalingsbereidheid of prijsgevoeligheid **herkennen en apart behandelen**. En kopers kunnen het goed niet gemakkelijk goedkoop kopen en vervolgens doorverkopen aan de duurdere groep.
+@@ -43,7 +44,7 @@
+ 
+ **1 · Herken de voorwaarden.** De groepen gebruiken dezelfde voorziening en kosten per bezoek evenveel. Persoonlijke passen houden de groepen gescheiden. Beide vraagfuncties blijven bij de vergelijking gelijk.
+ 
+-**2 · Bepaal de aparte keuzes.** Voor A: MO_A = 36 − 2Q_A = 4 → Q_A = 16 en P_A = € 20. Voor B: MO_B = 20 − 2Q_B = 4 → Q_B = 8 en P_B = € 12. Bij beide groepen ligt MO vóór deze hoeveelheid boven MK en erna eronder.
++**2 · Bepaal de aparte keuzes.** Voor A: MO_A = 36 − 2Q_A = 4 → Q_A = 16 en P_A = € 20. Voor B: MO_B = 20 − 2Q_B = 4 → Q_B = 8 en P_B = € 12. Bij beide groepen ligt MO vóór deze hoeveelheid boven MK en erna eronder. Groep A heeft meer voor een bezoek over en krijgt daarom de hogere prijs.
+ 
+ **3 · Bereken het bedrijfsresultaat.**
+ 
+--- huidig/4.2/4.2.3 manuscript.md
++++ nieuw/4.2/4.2.3 manuscript.md
+@@ -20,9 +20,9 @@
+ | Oligopolie | Enkele grote | Homogeen of heterogeen | Vaak belemmerd |
+ | Monopolie | Eén | Geen goed alternatief binnen de afgebakende markt | Sterk belemmerd |
+ 
+-Bij **monopolistische concurrentie** heeft elke onderneming enige ruimte voor een eigen prijs, maar er zijn veel alternatieven. Denk aan de verschillende lunchzaken in een beschreven winkelgebied. Dat is niet hetzelfde als een monopolie.
++Bij **monopolistische concurrentie** zien kopers verschillen tussen de producten. Een onderneming raakt daardoor niet al haar klanten kwijt als zij iets meer vraagt: zij heeft enige ruimte voor een eigen prijs. Die ruimte is klein, want er zijn veel alternatieven. Denk aan de verschillende lunchzaken in een beschreven winkelgebied. Dat is niet hetzelfde als een monopolie.
+ 
+-Bij **oligopolie** hangt een prijskeuze mede af van wat de andere grote ondernemingen doen. Er bestaat daarom niet één vraaglijn die voor elke oligopolist in elke situatie geldt.
++Bij **oligopolie** hangt een prijskeuze mede af van wat de andere grote ondernemingen doen. Verlaagt één van hen de prijs, dan merken de anderen dat direct in hun afzet en kunnen zij reageren. Er bestaat daarom niet één vraaglijn die voor elke oligopolist in elke situatie geldt.
+ <div class="box warning"><b>Marktvorm en uitkomst zijn verschillende vragen</b><br>Een marktvorm herkennen bewijst nog niet hoeveel winst een onderneming maakt. Daarvoor zijn prijs, vraag en kosten nodig. Een hoge prijs alleen bewijst evenmin een monopolie.</div>
+ 
+ <!-- PAGE {"section": "4.2.3", "title": "Een bekende berekening in een nieuwe markt", "origin_chapter": "4.2", "origin_page": 20, "edition_page": 20} -->
+--- huidig/4.2/4.2.4 manuscript.md
++++ nieuw/4.2/4.2.4 manuscript.md
+@@ -107,7 +107,7 @@
+ 
+ ### Waarom verschilt dit van Boek 3?
+ In Boek 3 begon de welvaartsvergelijking zonder externe effecten. Een heffing liet toen voordelige transacties verdwijnen. Hier veroorzaakten sommige transacties meer maatschappelijke kosten dan baten. Juist die activiteit verminderen kan de uitkomst verbeteren.
+-<div class="box summary"><b>Onthouden</b><br>Derde partij → eigen kosten en maatschappelijke kosten → oorspronkelijke markt → heffingswig → CS, PS, overheidsontvangst en resterende schade → maatschappelijke conclusie. Hetzelfde rekenmiddel krijgt een andere betekenis door de externe schade.</div>
++<div class="box summary"><b>Onthouden</b><br>Benoem de derde partij en tel haar schade bij de private kosten op. Bereken eerst de markt zonder ingrijpen, dan de uitkomst met de heffingswig. Tel CS, PS en de overheidsontvangst op en trek de resterende schade af. De heffing is hetzelfde rekenmiddel als in Boek 3, maar door de externe schade kan zij het maatschappelijk surplus nu verhogen.</div>
+ 
+ <!-- PAGE {"section": "4.2.4", "title": "De nieuwe kosten herkennen", "origin_chapter": "4.2", "origin_page": 31, "edition_page": 31} -->
+ 
+--- huidig/4.2/4.2.5 manuscript.md
++++ nieuw/4.2/4.2.5 manuscript.md
+@@ -108,7 +108,7 @@
+ De maatschappelijke batenlijn is 58 − Q. Vergelijk met MK = 10 + Q: 58 − Q = 10 + Q → **Qe = 24**. Het oorspronkelijke verlies is ½ × (24 − 20) × 8 = **€ 16 per maand**.
+ <figure><img src="_assets/425_we_loss.svg" alt="Figuur 25. De driehoek markeert gemiste gezamenlijke voordelen van cursusplaatsen die zonder subsidie niet worden gebruikt."><figcaption>Figuur 25. De driehoek markeert gemiste gezamenlijke voordelen van cursusplaatsen die zonder subsidie niet worden gebruikt.</figcaption></figure>
+ 
+-<div class="box summary"><b>Onthouden</b><br>Derdenvoordeel apart van kopersvoordeel → oorspronkelijke uitkomst → subsidiewig → alle gebruikte plaatsen → CS + PS − uitgaven + externe baten → conclusie onder de gegeven aannames. Een andere subsidiehoogte vereist opnieuw rekenen.</div>
++<div class="box summary"><b>Onthouden</b><br>Houd het voordeel voor derden apart van het voordeel voor de koper. Bereken eerst de markt zonder subsidie, dan de uitkomst met de subsidiewig. Uitgaven en externe baten gelden voor alle gebruikte plaatsen. Maatschappelijk surplus = CS + PS − uitgaven + externe baten, onder de gegeven aannames. Een andere subsidiehoogte vereist opnieuw rekenen.</div>
+ 
+ <!-- PAGE {"section": "4.2.5", "title": "Betalingen en baten herkennen", "origin_chapter": "4.2", "origin_page": 42, "edition_page": 42} -->
+ 
+--- huidig/4.3/4.3.1 manuscript.md
++++ nieuw/4.3/4.3.1 manuscript.md
+@@ -18,7 +18,7 @@
+ 
+ De prijs van arbeid heet het **loon**. We gebruiken de letter **w** voor het loon per uur. De hoeveelheid arbeid noemen we **L**. Daarbij vermelden we steeds of het om uren of personen gaat.
+ 
+-Een stijging van de vraag naar fietsen kan dus leiden tot meer vraag naar monteurs. De vraag naar arbeid hangt mede af van wat bedrijven kunnen verkopen.
++Werkgevers vragen arbeid niet om de arbeid zelf, maar om wat zij ermee kunnen maken en verkopen. Stijgt de vraag naar fietsen, dan kan daardoor ook de vraag naar monteurs stijgen.
+ 
+ <!-- PAGE {"section": "4.3.1", "title": "Arbeid meten", "origin_chapter": "4.3", "origin_page": 3, "edition_page": 3} -->
+ 
+@@ -59,7 +59,7 @@
+ <!-- PAGE {"section": "4.3.1", "title": "Bewegen of verschuiven?", "origin_chapter": "4.3", "origin_page": 5, "edition_page": 5} -->
+ 
+ ### Het loon zelf verandert
+-Een arbeidsvraaglijn toont hoeveel arbeid werkgevers bij verschillende lonen willen inzetten, **terwijl andere omstandigheden gelijk blijven**. In ons eenvoudige model daalt de gevraagde hoeveelheid arbeid als het uurloon stijgt. Arbeid wordt duurder ten opzichte van wat zij oplevert.
++Een arbeidsvraaglijn toont hoeveel arbeid werkgevers bij verschillende lonen willen inzetten, **terwijl andere omstandigheden gelijk blijven**. In ons eenvoudige model daalt de gevraagde hoeveelheid arbeid als het uurloon stijgt. Een werkgever zet arbeid in zolang die meer oplevert dan zij kost. Bij een hoger loon geldt dat voor minder arbeidsuren.
+ 
+ <figure><img src="_assets/demand_move.svg" alt="Figuur 4. Van A naar B: het loon stijgt van € 16 naar € 20. Langs dezelfde vraaglijn daalt de hoeveelheid van 80 naar 60 arbeidsuren per week."><figcaption>Figuur 4. Van A naar B: het loon stijgt van € 16 naar € 20. Langs dezelfde vraaglijn daalt de hoeveelheid van 80 naar 60 arbeidsuren per week.</figcaption></figure>
+ 
+--- huidig/4.3/4.3.4 manuscript.md
++++ nieuw/4.3/4.3.4 manuscript.md
+@@ -24,14 +24,14 @@
+ ### Hoger dan het evenwicht
+ In dezelfde voorbeeldmarkt geldt **Lᵥ = 200 − 10w** en **Lₐ = −40 + 10w**, voor € 4 ≤ w ≤ € 20. L is het aantal personen met ieder 20 uur per week; w is het uurloon in euro. Het vrije evenwicht is **€ 12 en 80 personen**.
+ 
+-Nu komt er een minimumloon van € 14. Dat ligt boven het evenwicht en is **bindend**. In dit model wordt het loon € 14.
++Nu komt er een minimumloon van € 14. Dat ligt boven het evenwicht en is **bindend**. In dit model wordt het loon € 14. Arbeid is duurder, dus werkgevers vragen minder. Werken levert meer op, dus meer mensen bieden zich aan.
+ 
+ Arbeidsvraag: 200 − 10 × 14 = **60 personen**.<br>
+ Arbeidsaanbod: −40 + 10 × 14 = **100 personen**.
+ 
+ <figure><img src="_assets/floor_binding.svg" alt="Figuur 18. Het minimumloon verandert het loon op de bestaande lijnen. Het aanbodoverschot is een horizontale afstand, geen oppervlakte."><figcaption>Figuur 18. Het minimumloon verandert het loon op de bestaande lijnen. Het aanbodoverschot is een horizontale afstand, geen oppervlakte.</figcaption></figure>
+ 
+-Werkgelegenheid = **60 personen**: werkgevers vullen alle gevraagde plaatsen. Het aanbodoverschot is 100 − 60 = **40 personen**. Die 40 willen bij dit loon werken, zoeken en zijn beschikbaar, maar krijgen in dit model geen baan.
++Werkgelegenheid = **60 personen**. Werkgevers bepalen hoeveel mensen zij aannemen: meer dan de gevraagde 60 plaatsen komen er niet. Het aanbodoverschot is 100 − 60 = **40 personen**. Die 40 willen bij dit loon werken, zoeken en zijn beschikbaar, maar krijgen in dit model geen baan.
+ 
+ ### Niet alle veertig hebben hun baan verloren
+ Eerst werkten 80 personen; nu 60. Dat zijn **20 minder werkenden**. Tegelijk groeit het aantal aanbieders van 80 naar 100: **20 extra aanbieders**.
